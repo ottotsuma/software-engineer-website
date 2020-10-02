@@ -1,15 +1,23 @@
 const express = require('express');
-const app = express();
 const path = require('path');
-const publicPath = path.join(__dirname, '..', 'public');
-const port = process.env.PORT || 3000;
+  const app = express();
+  const isDev = process.env.NODE_ENV !== 'production';
+  const PORT = process.env.PORT || 5000;
 
-app.use(express.static(publicPath));
+  // Priority serve any static files.
+  app.use(express.static(path.resolve(__dirname, '../react-ui/build')));
 
-app.get('*', (req, res) => {
-    res.sendFile(path.join(publicPath, 'index.html'));
- });
+  // Answer API requests.
+  app.get('/api', function (req, res) {
+    res.set('Content-Type', 'application/json');
+    res.send('{"message":"Hello from the custom server!"}');
+  });
 
-app.listen(port, () => {
-    console.log(`Server is up on port ${port}!`);
- });
+  // All remaining requests return the React app, so it can handle routing.
+  app.get('*', function(request, response) {
+    response.sendFile(path.resolve(__dirname, '../build', 'index.html'));
+  });
+
+  app.listen(PORT, function () {
+    console.error(`Node ${isDev ? 'dev server' : 'cluster worker '+process.pid}: listening on port ${PORT}`);
+  });
