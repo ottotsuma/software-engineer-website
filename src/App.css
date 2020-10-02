@@ -1,14 +1,43 @@
+/* 
+202040 black 
+202060
+602080
+b030b0 purple 
+*/
+
 .App {
   text-align: center;
+  /* background: linear-gradient(0deg, rgba(34,89,195,1) 9%, rgba(45,253,209,1) 100%); */
+  background-color: #202040;
+  color: whitesmoke;
 }
 
-.App-logo {
+.App-Light {
+  text-align: center;
+  /* background: linear-gradient(0deg, rgba(34,89,195,1) 9%, rgba(45,253,209,1) 100%); */
+  background-color: white;
+  color: black;
+}
+
+.Logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+h1 {
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+.Screen-Shot {
+  height: 40vmin;
+  pointer-events: none;
+  max-width: 100%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .Logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
@@ -35,4 +64,53 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1vh;
+  background-color: #602080;
+}
+
+a {
+  color: #b030b0;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.Container{
+  display: flex;
+  padding: 1vh;
+  /* background-color: lightslategray; */
+  flex-wrap: wrap;
+}
+
+.Top {
+  display: flex;
+}
+
+.Bottom {
+  display: flex;
+}
+
+.Inner-Container {
+  background-color: #202060;
+  border: white;
+  border-style: solid;
+  width: 100%;
+}
+
+.Tech {
+  background-color: #202060;
+  border: white;
+  border-style: solid;
+  width: 80%;
+}
+
+.About {
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
