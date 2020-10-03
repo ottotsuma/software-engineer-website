@@ -5,6 +5,10 @@
 b030b0 purple 
 */
 
+html, body, .App, .App>div {
+  height: 100%
+}
+
 .App {
   text-align: center;
   /* background: linear-gradient(0deg, rgba(34,89,195,1) 9%, rgba(45,253,209,1) 100%); */
