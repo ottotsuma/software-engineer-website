@@ -6,7 +6,67 @@ import {
     SkillType,
     SkillGroupDataType
 } from 'beautiful-skill-tree';
-// static cage, lightning cage, lightning bolt, gathering storm, static charge, stormbringer, conductive current, exploding bolt, energy bombardment, energy barrage, arching surge, chain lightning, storm, shocking touch, weakness to shock, eletric touch, shocking burst, lighting ball, lightning blast, lightning surge, electocution, lightning storm, Thors hammer, judgment bolt, Ramuh, Zeus wrath, bolt ball, eletric prod, thunder kiss, lighting ward, lightinng proof, lighting eater, lightning breath, discharge, tri-thunder, teleportation,  dazing bolt, superconductor, thunderstorm. leap lighting, heart stop, heart start, overload, eletric magical disruption, eletric enchant distruption, eletric transmuatation, Electrical Transmission (teleport), avatar 
+// static cage, lightning cage, static charge, electric touch, shocking touch,  lighting ward, lightinng proof, lighting eater, shocking burst,  lightning bolt, lightning ball, dazing bolt, lightning blast, lightning surge, electocution, exploding bolt, energy bombardment, energy barrage, arching surge, chain lightning, ,leap lighting, eletric prod,
+
+//   gathering storm,  conductive current,  storm,  weakness to shock,    lightning storm, Thors hammer, judgment bolt, Ramuh, Zeus wrath,   thunder kiss, lightning breath, discharge, tri-thunder, teleportation,   superconductor, thunderstorm.  heart stop, heart start, overload, eletric magical disruption, eletric enchant distruption, eletric transmuatation, Electrical Transmission (teleport), avatar stormbringer,
+
+const object = {
+    staticCharge: {
+        shockingTouch: {
+            electricTouch: {
+                eletricProd: {
+
+                }
+            }
+        },
+        staticCage: {
+            lightningCage: {
+
+            }
+        }
+    },
+    lightningWard: {
+        lightningProof: {
+            LightningEater: {
+
+            }
+        }
+    },
+    shockingBurst: {
+        boltBall: {
+            lightingBall: {
+
+            },
+            lightningBolt: {
+                dazingBolt: {
+                    explodingBolt: {
+                        energyBombardment: {
+                            energyBarrage: {
+
+                        }
+                    }
+                    }
+                },
+                lightningBlast: {
+                    lightningSurge: {
+                        electocution: {
+                            leapLighting: {
+
+                            }
+
+                        },
+                        archingSurge: {
+                            ChainLightning: {
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 const data: SkillType[] = [
     {
         id: 'Static-Charge',
