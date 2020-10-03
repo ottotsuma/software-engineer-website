@@ -114,3 +114,22 @@ a {
   align-content: center;
   justify-content: center;
 }
+
+.book {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 1vh;
+}
+
+.demoPage {
+  background-color: pink;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.book-no {
+  color: #202040;
+  padding: 1vh;
+}
