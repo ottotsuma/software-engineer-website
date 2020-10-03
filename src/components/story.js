@@ -5,7 +5,7 @@ import Joker from "./../assets/logo.png";
 import Secret from "./../assets/Group1.png";
 import Food from "./../assets/foodlogo.png";
 import Monster from "./../assets/monster.jpg";
-
+import Skill from "./skilltree.tsx"
 
 function story(props) {
   return (
@@ -19,6 +19,7 @@ function story(props) {
       <div className="demoPage"><div className="book-no">Page 5</div><img className="Screen-Shot" src={Monster} alt="Screen-Shot" /></div>
     </HTMLFlipBook>
     </div>
+    <Skill />
     </div>
   );
 }

@@ -15,7 +15,7 @@ function Nav() {
         <a href = {Pdf} target = "_blank">English CV</a>
         <a href = {Jap} target = "_blank">日本語</a>
         <a href = 'https://github.com/ottotsuma' target = "_blank">GitHub</a>
-                <Link to="/story">Story</Link>
+                <Link to="/story">Playground</Link>
     </div>
   );
 }
