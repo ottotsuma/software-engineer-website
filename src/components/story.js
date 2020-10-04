@@ -19,7 +19,11 @@ function story(props) {
       <div className="demoPage"><div className="book-no">Page 5</div><img className="Screen-Shot" src={Monster} alt="Screen-Shot" /></div>
     </HTMLFlipBook>
     </div>
+    <div className="Tree">
     <Skill />
+    </div>
+    <div className="Footer">
+    </div>
     </div>
   );
 }
