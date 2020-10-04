@@ -6,6 +6,8 @@ import Secret from "./../assets/Group1.png";
 import Food from "./../assets/foodlogo.png";
 import Monster from "./../assets/monster.jpg";
 import Skill from "./skilltree.tsx"
+import ReactGlobe from 'react-globe';
+import Duck from "./../assets/city.jpg";
 
 function story(props) {
   return (
@@ -32,6 +34,7 @@ function story(props) {
     <Skill />
     </div>
     <div className="Footer">
+    <ReactGlobe height="100vh" globeBackgroundTexture={Duck}  />
     </div>
     </div>
   );
