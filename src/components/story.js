@@ -8,10 +8,17 @@ import Monster from "./../assets/monster.jpg";
 import Skill from "./skilltree.tsx"
 import ReactGlobe from 'react-globe';
 import Duck from "./../assets/city.jpg";
+import Blog from "./../assets/blog.png";
+import Bug from "./../assets/bug.jpg";
+import Dob from "./../assets/dob.png";
+// import Todo from "./../assets/todo.jpg";
+import Weather from "./../assets/weather.png";
+
 
 function story(props) {
   return (
     <div className="App">
+      <div></div>
     <div>
       <h4>Flip Book</h4>
       <p></p>
@@ -23,6 +30,10 @@ function story(props) {
       <div className="demoPage"><div className="book-no">Page 3</div><img className="Screen-Shot" src={Secret} alt="Screen-Shot" /></div>
       <div className="demoPage"><div className="book-no">Page 4</div><img className="Screen-Shot" src={Food} alt="Screen-Shot" /></div>
       <div className="demoPage"><div className="book-no">Page 5</div><img className="Screen-Shot" src={Monster} alt="Screen-Shot" /></div>
+      <div className="demoPage"><div className="book-no">Page 6</div><img className="Screen-Shot" src={Blog} alt="Screen-Shot" /></div>
+      <div className="demoPage"><div className="book-no">Page 7</div><img className="Screen-Shot" src={Bug} alt="Screen-Shot" /></div>
+      <div className="demoPage"><div className="book-no">Page 8</div><img className="Screen-Shot" src={Weather} alt="Screen-Shot" /></div>
+      <div className="demoPage"><div className="book-no">Page 9</div><img className="Screen-Shot" src={Dob} alt="Screen-Shot" /></div>
     </HTMLFlipBook>
     </div>
     <div>
