@@ -18,7 +18,14 @@ import Weather from "./../assets/weather.png";
 function story(props) {
   return (
     <div className="App">
-      <div></div>
+      <h4>Card</h4>
+      <div className="outterCard">
+      <div className="card">
+        <p>Title</p>
+        <p>Image</p>
+        <p>Disc</p>
+      </div>
+      </div>
     <div>
       <h4>Flip Book</h4>
       <p></p>
