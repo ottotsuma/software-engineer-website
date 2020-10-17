@@ -6,12 +6,12 @@ $text-margin: 10px;
   color: black;
 }
 .page-container {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  display: block;
-  perspective: 1000px;
-  margin-bottom: 5%;
+  // position: relative;
+  // width: 100%;
+  // height: 100%;
+  // display: block;
+  // perspective: 1000px;
+  // margin-bottom: 5%;
 }
   .card-container {
     height: 350px;
@@ -63,18 +63,19 @@ $text-margin: 10px;
     }
     .image-container {
       position: relative;
+      display: flex;
+      justify-content: center;
       .card-image {
-        width: 100%;
+        width: 220px;
         border-radius: 10px;
       }
       .title {
-        font-size: 34px;
+        font-size: 28px;
         position: absolute;
-        margin-bottom: $text-margin;
-        margin-left: $text-margin;
-        bottom: 0;
-        left: 0;
-        color: black;
+        // margin-bottom: $text-margin;
+        // margin-left: $text-margin;
+        // bottom: 0;
+        // left: 0;
       }
     }
     .main-area {
@@ -89,17 +90,18 @@ $text-margin: 10px;
           margin-top: $text-margin;
           margin-bottom: 5px;
           font-size: 20px;
+          color: black;
         }
         .read-more {
           font-size: 20px;
-          position: relative;
+          // position: relative;
           bottom: 0px;
           text-align: right;
           color: black;
         }
         .blog-content {
           height: 90%;
-          display: block;
+          // display: block;
           margin-top: $text-margin;
           margin-bottom: $text-margin;
           white-space: nowrap;
