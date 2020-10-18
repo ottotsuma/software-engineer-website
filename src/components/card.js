@@ -51,11 +51,11 @@ class Back extends React.Component {
   render() {
     return (
       <div className="back">
-        <p className="back-text">
+        <p className="back-text-top">
           Once broken the thunderstorm contained within the bottle is unleashed on the area around it. Making no distiction between friend and foe, any who enter the area might be stuck by lightning, battered by the wind and soaked in the cold rain. 
         </p>
-        <p className="back-text">
-          Bloggity bloggity bloggity blog. This would be the full text 
+        <p className="back-text-bottom">
+          Break glass to activate.
         </p>
       </div>
     );
@@ -84,7 +84,7 @@ class MainArea extends React.Component {
         <div className="blog-post">
           {/* <p className="date">{new Date().toLocaleDateString()}</p> */}
           <p className="blog-content">
-            This bottle contains the wrath of the sea
+            This bottle contains the wrath of a storm
           </p>
           <p className="read-more">Hover to read more...</p>
         </div>
