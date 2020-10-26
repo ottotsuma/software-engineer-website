@@ -12,6 +12,7 @@ function Nav() {
   return (
     <div className="Nav">
         <Link to="/">Home</Link>
+        <Link to="/projects">Projects</Link>
         <a href = {Pdf} target = "_blank">English CV</a>
         <a href = {Jap} target = "_blank">日本語</a>
         <a href = 'https://github.com/ottotsuma' target = "_blank">GitHub</a>
