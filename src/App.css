@@ -189,3 +189,7 @@ a {
   /* overflow: hidden; */
   width: 100%;
 }
+
+footer {
+  height: 20px;
+}

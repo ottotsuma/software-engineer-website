@@ -13,6 +13,7 @@ function projects() {
           <h4>Projects</h4>
           <Spin />
         </div>
+        <footer> </footer>
       </div>
     );
   }
