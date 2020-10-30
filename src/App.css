@@ -193,3 +193,11 @@ a {
 footer {
   height: 20px;
 }
+
+li {
+  list-style-type: none;
+}
+
+ul {
+  list-style-type: none;
+}
