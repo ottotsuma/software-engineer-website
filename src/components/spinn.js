@@ -49,7 +49,7 @@ export default () => {
             project that I maintain.
           </p>
           <img className="Screen-Shot" src={Secret} alt="Screen-Shot" />
-          <p>Click <a href = "https://ottotsuma.netlify.app/" target = "_blank">here</a> to be taken to the app.</p>
+          <p>Click <a href = "https://secretbox.netlify.app/" target = "_blank">here</a> to be taken to the app.</p>
         </div>
         <div style={{ height: 500, background: color3 }}>
           <h4>Recipes</h4> <p>2020 January ~ Web application ~ 2 days</p>
