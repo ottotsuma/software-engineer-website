@@ -75,11 +75,13 @@ h1 {
   align-items: center;
   justify-content: space-evenly;
   padding: 1vh;
-  background-color: #602080;
+  /* background-color: #602080; */
+  background-color: #6a5acd;
 }
 
 a {
-  color: #b030b0;
+  /* color: #b030b0; */
+  color: white;
   text-decoration: underline;
   text-decoration-color: white;
 }

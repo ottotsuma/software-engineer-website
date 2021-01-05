@@ -14,12 +14,10 @@ import Dob from "./../assets/dob.png";
 // import Todo from "./../assets/todo.jpg";
 import Weather from "./../assets/weather.png";
 import Card from "./card"
-import Todo from "./test"
 
 function story(props) {
   return (
     <div className="App">
-      <Todo />
       <h4>Card</h4>
       <Card></Card>
       <div>
