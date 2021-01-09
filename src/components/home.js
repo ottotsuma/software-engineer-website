@@ -375,9 +375,9 @@ function home() {
               <div id="inner">
                 <div class="card">
                   <img
-                    src="https://www.qrry.com/wp-content/uploads/2020/03/test-driven-development-TDD.png"
+                    src="https://www.aresourcepool.com/wp-content/uploads/2017/09/tdd.png"
                     class="cardImg"
-                    alt="human"
+                    alt="TDD"
                   />
                   <div class="container">
                     <h4>TDD</h4>
