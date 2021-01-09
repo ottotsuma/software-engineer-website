@@ -81,6 +81,27 @@ function home() {
               <div id="inner">
                 <div class="card">
                   <img
+                    src="https://cdn.psdrepo.com/images/2x/railsware-blog-important-overhaul-elixir-did-to-erlang-m6.jpg"
+                    class="cardImg"
+                    alt="human"
+                  />
+                  <div class="container">
+                    <h4>Elixir</h4>
+                    {/* <p>
+                        JavaScript, Ruby, Java, React-native, React.js, Vue.js,
+                        PWA, Node.js, Express, MongoDB, TDD, Postgres, HTML, CSS,
+                        SaaS, Bootstrap, Latex/Overleaf, VBA
+                      </p> */}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contentInner">
+            <div id="CardContainer">
+              <div id="inner">
+                <div class="card">
+                  <img
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png"
                     class="cardImg"
                     alt="human"
