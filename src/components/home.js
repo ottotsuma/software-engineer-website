@@ -82,25 +82,25 @@ function home() {
             <img src={Munchify} class="Home-Img" alt="Technical Skills" />
             <div className="Inner-Box">
               <h3>Munchify</h3>
-              <p>Machine learning predicts your perfect resturant!</p>
+              <p className="Home-p">Machine learning predicts your perfect resturant!</p>
             </div>
-            <p>React-Native, NodeJS, MongoDB</p>
+            <p className="Home-p">React-Native, NodeJS, MongoDB</p>
           </div>
           <div className="Box">
             <img src={Secret} class="Home-Img" alt="Technical Skills" />
             <div className="Inner-Box">
               <h3>The Secret Box</h3>
-              <p>A safety box for your secrets!</p>
+              <p className="Home-p">A safety box for your secrets!</p>
             </div>
-            <p>React, NodeJS, MongoDB</p>
+            <p className="Home-p">React, NodeJS, MongoDB</p>
           </div>
           <div className="Box">
             <img src={Food} class="Home-Img" alt="Technical Skills" />
             <div className="Inner-Box">
               <h3>Otto's Recipes</h3>
-              <p>Sort out your hunger!</p>
+              <p className="Home-p">Sort out your hunger!</p>
             </div>
-            <p>React, PWA, MongoDB</p>
+            <p className="Home-p">React, PWA, MongoDB</p>
           </div>
           {/* <div className="Box">
             <h3>
