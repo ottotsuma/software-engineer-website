@@ -65,7 +65,7 @@ function home() {
               <Link to="/tech">Technical Skills</Link>
             </div>
           </div>
-          <div>
+          <div className="Play-Box">
             <Link to="/story">Playground</Link>
           </div>
           {/* 

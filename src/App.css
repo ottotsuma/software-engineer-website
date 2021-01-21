@@ -42,7 +42,7 @@
 }
 
 .Glass {
-  background: linear-gradient(0deg, rgba(255,255,255,0.7), rgba(255,255,255,0.3));
+  background: linear-gradient(0deg, rgba(255,255,255,0.6), rgba(255,255,255,0.3));
   min-height: 80vh;
   width: 60%;
   display: flex;  
@@ -61,7 +61,7 @@
 .Box {
   /* border-style: solid; */
   color: black;
-  background: linear-gradient(0deg, rgba(255,255,255,0.9), rgba(255,255,255,0.5));
+  background: linear-gradient(0deg, rgba(255,255,255,0.9), rgba(255,255,255,0.6));
   width: 85%;
   height: 25%;
   border-radius: 1rem;
@@ -85,11 +85,11 @@
   justify-content: space-evenly;
   align-items: center;
   min-height: 40%;
-}
-
-.Linky {
   /* border-color: black;
   border-style: solid;  */
+}
+
+.Linky { 
   display: flex;
   flex-direction: row;
   justify-content: left;
@@ -113,7 +113,9 @@
 }
 
 .Profile {
-  background-color: white;
+  /* background-color: white; */
+  background: linear-gradient(0deg, rgba(255,255,255,0.9), rgba(255,255,255,0.5));
+  border-radius: 1rem;
   width: 35%;
   color: black;
   display: flex;
@@ -122,6 +124,23 @@
   align-items: center;
   /* padding-top: 1rem;
   padding-bottom: 1rem; */
+}
+
+.Play-Box {
+  /* border-color: black;
+  border-style: solid; */
+  color: white;
+  background: #638ad4;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  width: 53%;
+  height: 10%;
+}
+
+.Play-Box a {
+  color: white;
 }
 
 .Right-Wrapper {
