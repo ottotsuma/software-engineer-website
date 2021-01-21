@@ -31,7 +31,7 @@ export default () => {
         outsideChevron
         chevronWidth={chevronWidth}
       >
-        <div className="Project-Card" style={{ height: 500, background: color3 }}>
+        <div className="Project-Card" style={{ height: 490, background: color3 }}>
           <h4>Munchify</h4> <p>2020 September Mobile 14 days</p>{" "}
           <p>
             This was a group full-stack mobile app built in react-native. I was
@@ -50,7 +50,7 @@ export default () => {
             to be taken to the app.
           </p>
         </div>
-        <div className="Project-Card" style={{ height: 500, background: color3 }}>
+        <div className="Project-Card" style={{ height: 490, background: color3 }}>
           <h4>The Secret Box</h4> <p>2020 August OSS/PWA 4 days</p>
           <p>
             This progressive web app started as a solo project to show off a MVP
@@ -66,7 +66,7 @@ export default () => {
             to be taken to the app.
           </p>
         </div>
-        <div className="Project-Card" style={{ height: 500, background: color3 }}>
+        <div className="Project-Card" style={{ height: 490, background: color3 }}>
           <h4>Recipes</h4> <p>2020 January ~ Web application ~ 2 days</p>
           <p>
             This web app was crafted using react to combat the problem we all
@@ -81,7 +81,7 @@ export default () => {
             to be taken to the app.
           </p>
         </div>
-        <div className="Project-Card" style={{ height: 500, background: color3 }}>
+        <div className="Project-Card" style={{ height: 490, background: color3 }}>
           <h4>Monster Search</h4> <p>2020 February Web 9 days</p>{" "}
           <p>
             This application was in response to a friends request for a monster
@@ -96,7 +96,7 @@ export default () => {
             to be taken to the app.
           </p>
         </div>
-        <div className="Project-Card" style={{ height: 500, background: color3 }}>
+        <div className="Project-Card" style={{ height: 490, background: color3 }}>
           <h4>Joker</h4> <p>2020 February Web 5 days</p>{" "}
           <p>
             This application was made for RakutenAPI night. The application was
@@ -114,7 +114,7 @@ export default () => {
             to be taken to the app.
           </p>
         </div>
-        <div className="Project-Card" style={{ height: 500, background: color3 }}>
+        <div className="Project-Card" style={{ height: 490, background: color3 }}>
           <h4>DOB-Finder (PWA)</h4> <p>2020 April Web 1 day</p>{" "}
           <p>
             This application was made for Techtalk night. The application was
@@ -133,7 +133,7 @@ export default () => {
             to be taken to the app.
           </p>
         </div>
-        <div className="Project-Card" style={{ height: 500, background: color3 }}>
+        <div className="Project-Card" style={{ height: 490, background: color3 }}>
           <h4>Weather</h4> <p>2020 March Web 1 day</p>{" "}
           <p>
             This application was made for my personal desk top, to show me the
@@ -152,7 +152,7 @@ export default () => {
             to be taken to the app.
           </p>
         </div>
-        <div className="Project-Card" style={{ height: 500, background: color3 }}>
+        <div className="Project-Card" style={{ height: 490, background: color3 }}>
           <h4>Bug Tracker</h4> <p>2020 February Web 1 day</p>{" "}
           <p>
             This application was made to track bugs on the small projects at
@@ -171,7 +171,7 @@ export default () => {
             to be taken to the app.
           </p>
         </div>
-        <div className="Project-Card" style={{ height: 500, background: color3 }}>
+        <div className="Project-Card" style={{ height: 490, background: color3 }}>
           <h4>To Do</h4> <p>2020 March Web 1 day</p>{" "}
           <p>
             A small to do app made for Code Chrysalis during the pre-course.
@@ -185,7 +185,7 @@ export default () => {
             to be taken to the app.
           </p>
         </div>
-        <div className="Project-Card" style={{ height: 500, background: color3 }}>
+        <div className="Project-Card" style={{ height: 490, background: color3 }}>
           <h4>Blog</h4> <p>2019 June Web Ongoing</p>{" "}
           <p>A blog website for pratice.</p>{" "}
           <img className="Screen-Shot" src={Blog} alt="Screen-Shot" />
@@ -197,7 +197,7 @@ export default () => {
             to be taken to the app.
           </p>
         </div>
-        <div className="Project-Card" style={{ height: 500, background: color3 }}>
+        <div className="Project-Card" style={{ height: 490, background: color3 }}>
           <h4>Game Calc</h4> <p>2019 June Web 1 day</p>{" "}
           <p>A calculator for a game.</p>{" "}
           <img className="Screen-Shot" src={Blog} alt="Screen-Shot" />
