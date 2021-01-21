@@ -8,9 +8,8 @@ import logo from "./../assets/logo.png";
 function projects() {
     return (
       <div className="App">
-        <h1 className="Title">ダラー・ショーン - FRONT END WEB DEV</h1>
         <div className="ProjectsArea">
-          <h4>Projects</h4>
+          <h1>Projects</h1>
           <Spin />
         </div>
         <footer> </footer>
