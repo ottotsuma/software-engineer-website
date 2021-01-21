@@ -41,9 +41,9 @@ export default () => {
           <img className="Screen-Shot" src={Munchify} alt="Screen-Shot" />
           <p>
             Click{" "}
-            <a
+            <a style={{color: 'white'}}
               href="https://play.google.com/store/apps/details?id=com.ottotsuma.restaurantnativeapp"
-              target="_blank"
+              target="_blank" 
             >
               here
             </a>{" "}
@@ -60,7 +60,7 @@ export default () => {
           <img className="Screen-Shot" src={Secret} alt="Screen-Shot" />
           <p>
             Click{" "}
-            <a href="https://secretbox.netlify.app/" target="_blank">
+            <a style={{color: 'white'}} href="https://secretbox.netlify.app/" target="_blank">
               here
             </a>{" "}
             to be taken to the app.
@@ -75,7 +75,7 @@ export default () => {
           <img className="Screen-Shot" src={Food} alt="Screen-Shot" />
           <p>
             Click{" "}
-            <a href="https://ottotsumarecipes.netlify.app/" target="_blank">
+            <a style={{color: 'white'}} href="https://ottotsumarecipes.netlify.app/" target="_blank">
               here
             </a>{" "}
             to be taken to the app.
@@ -90,7 +90,7 @@ export default () => {
           <img className="Screen-Shot" src={Monster} alt="Screen-Shot" />
           <p>
             Click{" "}
-            <a href="https://monsterpwa.web.app/" target="_blank">
+            <a style={{color: 'white'}} href="https://monsterpwa.web.app/" target="_blank">
               here
             </a>{" "}
             to be taken to the app.
@@ -179,7 +179,7 @@ export default () => {
           <img className="Screen-Shot" src={Todo} alt="Screen-Shot" />
           <p>
             Click{" "}
-            <a href="https://ottotsuma.github.io/todo.html" target="_blank">
+            <a  style={{color: 'white'}} href="https://ottotsuma.github.io/todo.html" target="_blank">
               here
             </a>{" "}
             to be taken to the app.
@@ -191,7 +191,7 @@ export default () => {
           <img className="Screen-Shot" src={Blog} alt="Screen-Shot" />
           <p>
             Click{" "}
-            <a href="https://ottotsuma.github.io/Home.html" target="_blank">
+            <a style={{color: 'white'}} href="https://ottotsuma.github.io/Home.html" target="_blank">
               here
             </a>{" "}
             to be taken to the app.
@@ -203,7 +203,7 @@ export default () => {
           <img className="Screen-Shot" src={Blog} alt="Screen-Shot" />
           <p>
             Click{" "}
-            <a href="https://ottotsuma.github.io/calchtml.html" target="_blank">
+            <a  style={{color: 'white'}} href="https://ottotsuma.github.io/calchtml.html" target="_blank">
               here
             </a>{" "}
             to be taken to the app.
