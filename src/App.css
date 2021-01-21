@@ -25,6 +25,12 @@
   align-items: center;
 }
 
+.Playground{
+  display: flex;
+  justify-content: space-around; 
+  flex-direction: column;
+}
+
 .Tech-Wrapper {
   display: flex;
   justify-content: center;
@@ -88,6 +94,13 @@ h1 {
   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
+}
+
+.PlayTitles {
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 4vh;
 }
 
 .Screen-Shot {

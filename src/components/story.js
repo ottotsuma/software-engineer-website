@@ -17,12 +17,11 @@ import Card from "./card"
 
 function story(props) {
   return (
-    <div className="App">
-      <h4>Card</h4>
-      <Card></Card>
+    <div className="Playground">
+      <h4 className="PlayTitles">Card</h4>
+      <Card />
       <div>
-        <h4>Flip Book</h4>
-        <p></p>
+        <h4 className="PlayTitles">Flip Book</h4>
       </div>
       <div className="book">
         <HTMLFlipBook width={400} height={300}>
@@ -65,11 +64,7 @@ function story(props) {
         </HTMLFlipBook>
       </div>
       <div>
-        <h4>Skill Tree</h4>
-        <p>
-          Each skill can be leveled up 9 times before awakening. (10 after.)
-        </p>
-        <p>The total skill points you can achieve as a normal class is 100.</p>
+        <h4 className="PlayTitles">Skill Tree</h4>
       </div>
       <div className="Tree">
         <Skill />
