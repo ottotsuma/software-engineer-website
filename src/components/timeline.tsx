@@ -59,7 +59,7 @@ export default function CustomizedTimeline() {
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
             <Typography variant="h6" className="timelineTitle">
-              Video Game Debugger
+              QA Engineer
             </Typography>
             <Typography>Digital Hearts</Typography>
             <Typography variant="body2" color="textSecondary">
@@ -81,7 +81,7 @@ export default function CustomizedTimeline() {
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
             <Typography variant="h6" className="timelineTitle">
-              Tech Support
+              Support Engineer
             </Typography>
             <Typography>Planet Works</Typography>
             <Typography variant="body2" color="textSecondary">
@@ -203,7 +203,7 @@ export default function CustomizedTimeline() {
         <TimelineContent>
           <Paper elevation={3} className={classes.paper}>
             <Typography variant="h6" className="timelineTitle">
-              Technical Assistant
+              Web & Research Engineer
             </Typography>
             <Typography>Serum Hydraulics</Typography>
             <Typography variant="body2" color="textSecondary">

@@ -11,12 +11,14 @@ import Jap from './Jap.pdf'
 function Nav() {
   return (
     <div className="Nav">
-        <Link to="/">Home</Link>
-        <Link to="/projects">Projects</Link>
-        <a href = {Pdf} target = "_blank">English CV</a>
-        <a href = {Jap} target = "_blank">日本語</a>
-        <a href = 'https://github.com/ottotsuma' target = "_blank">GitHub</a>
-                <Link to="/story">Playground</Link>
+        <Link className="Nav-Link" to="/">Home</Link>
+        <Link className="Nav-Link" to="/projects">Projects</Link>
+        <Link className="Nav-Link" to="/timeline">Expereince</Link>
+        <Link className="Nav-Link" to="/tech">Technical Skills</Link>
+        {/* <a className="Nav-Link" href = {Pdf} target = "_blank">English CV</a>
+        <a className="Nav-Link" href = {Jap} target = "_blank">日本語</a> */}
+        <a className="Nav-Link" href = 'https://github.com/ottotsuma' target = "_blank">GitHub</a>
+        <Link className="Nav-Link" to="/story">Playground</Link>
     </div>
   );
 }

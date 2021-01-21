@@ -5,17 +5,20 @@ import home from './components/home'
 import story from './components/story'
 import projects from './components/projects'
 import Nav from './components/nav'
+import tech from './components/tech'
+import timeline from './components/timeline'
 
 function App() {
   return (
     <>
-    <div className="App">
+    <div className="Main">
             <BrowserRouter>
                 <Nav />
                 <Route path="/" component={home} exact />
                 <Route path="/projects" component={projects} />
                 <Route path="/story" component={story} />
-                {/* <Route path="/shop" component={Shop} /> */}
+                <Route path="/tech" component={tech} />
+                <Route path="/timeline" component={timeline} />
             </BrowserRouter>
     </div>
     </>
