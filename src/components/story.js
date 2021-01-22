@@ -18,10 +18,10 @@ import Card from "./card"
 function story(props) {
   return (
     <div className="Playground">
-      <h4 className="PlayTitles">Card</h4>
+      <h1 className="PlayTitles">Card</h1>
       <Card />
       <div>
-        <h4 className="PlayTitles">Flip Book</h4>
+        <h1 className="PlayTitles">Flip Book</h1>
       </div>
       <div className="book">
         <HTMLFlipBook width={400} height={300}>
@@ -64,7 +64,7 @@ function story(props) {
         </HTMLFlipBook>
       </div>
       <div>
-        <h4 className="PlayTitles">Skill Tree</h4>
+        <h1 className="PlayTitles">Skill Tree</h1>
       </div>
       <div className="Tree">
         <Skill />

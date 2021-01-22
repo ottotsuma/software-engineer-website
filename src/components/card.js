@@ -5,7 +5,7 @@ import Blog from "./../assets/bottle.jpg";
 class card extends React.Component {
   render() {
     return (
-      <div className="page-container">
+      <div className="page-container" >
         <BlogCard />
       </div>
     );
@@ -25,6 +25,7 @@ class BlogCard extends React.Component {
   render() {
     return (
       <div
+        style={{ height: "20rem", width: "20rem"}}
         onMouseEnter={this.flip}
         onMouseLeave={this.flip}
         className={"card-container" + (this.state.flipped ? " flipped" : "")}
@@ -52,7 +53,7 @@ class Back extends React.Component {
     return (
       <div className="back">
         <p className="back-text-top">
-          Once broken the thunderstorm contained within the bottle is unleashed on the area around it. Making no distiction between friend and foe, any who enter the area might be stuck by lightning, battered by the wind and soaked in the cold rain. 
+          Once broken the thunderstorm contained within the bottle is unleashed on the area around it. Any who enter the area might be stuck by lightning, battered by the wind and soaked in the cold rain. 
         </p>
         <p className="back-text-bottom">
           Break glass to activate.
