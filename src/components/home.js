@@ -9,6 +9,7 @@ import Tech from "./tech.js";
 import Skills from "./../assets/skills.png";
 import Exp from "./../assets/expereince.png";
 import Pro from "./../assets/projects.png";
+import Cog from "./../assets/cog.png";
 import Munchify from "./../assets/512x512.png";
 import Joker from "./../assets/logo.png";
 import Secret from "./../assets/Group1.png";
@@ -49,21 +50,21 @@ function home() {
           </div>
           <div className="Links-List">
             <div className="Linky">
-            <img src="https://image.flaticon.com/icons/png/512/25/25231.png" class="Link-Img" alt="Github Skills" />
+            <img src="https://image.flaticon.com/icons/png/512/25/25231.png" class="Link-Img" alt=" " />
               <a href="https://github.com/ottotsuma" target="_blank">
                 GitHub
               </a>
             </div>
             <div className="Linky">
-            <img src="https://www.pngfind.com/pngs/m/594-5947621_computer-icons-project-project-plan-black-text-project.png" class="Link-Img" alt="Github Skills" />
+            <img src="https://www.pngfind.com/pngs/m/594-5947621_computer-icons-project-project-plan-black-text-project.png" class="Link-Img" alt=" " />
               <Link to="/projects">Projects</Link>
             </div>
             <div className="Linky">
-            <img src="https://www.pinclipart.com/picdir/middle/75-750874_work-experience-svg-png-icon-free-download-356662.png" class="Link-Img" alt="Github Skills" />
+            <img src="https://www.pinclipart.com/picdir/middle/75-750874_work-experience-svg-png-icon-free-download-356662.png" class="Link-Img" alt=" " />
               <Link to="/timeline">Expereince</Link>
             </div>
             <div className="Linky">
-            <img src="https://cdn.icon-icons.com/icons2/2066/PNG/512/cog_icon_125323.png" />
+            <img src={Cog} alt=" " />
               <Link to="/tech">Technical Skills</Link>
             </div>
           </div>
