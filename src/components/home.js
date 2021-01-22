@@ -102,7 +102,7 @@ function home() {
               <h3>Otto's Recipes</h3>
               <p className="Home-p">Sort out your hunger!</p>
             </div>
-            <p className="Home-p">React, PWA, MongoDB</p>
+            <p className="Home-p">React, PWA, Netlify</p>
           </div>
           {/* <div className="Box">
             <h3>

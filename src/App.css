@@ -8,6 +8,10 @@
   font-family: 'Yusei Magic', sans-serif;
 }
 
+.Home-p {
+  padding: 1px;
+}
+
 .Main {
   text-align: center;
   background: linear-gradient(0deg, rgba(34,89,195,0.7) 9%, rgba(45,253,209,0.3) 100%);
