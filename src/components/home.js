@@ -63,7 +63,7 @@ function home() {
               <Link to="/timeline">Expereince</Link>
             </div>
             <div className="Linky">
-            <img src="https://lh3.googleusercontent.com/proxy/_4tG84QogqKgtK_ncYjfBG7fZoG-6NxCfqJOI2Lu2xGKAvEosXWTJ3FeTuwyQUgpyNCnjTCVnYC8xmTQybJdwAijwXkVYlVG1esJA7y_laflBB5S8MPW" class="Link-Img" alt="Github Skills" />
+            <img src="https://cdn.icon-icons.com/icons2/2066/PNG/512/cog_icon_125323.png" />
               <Link to="/tech">Technical Skills</Link>
             </div>
           </div>
