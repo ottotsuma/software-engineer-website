@@ -64,7 +64,7 @@ function home() {
               <Link to="/timeline">Expereince</Link>
             </div>
             <div className="Linky">
-            <img src={Cog} alt=" " />
+            <img src={Cog} alt=" " class="Link-Img" />
               <Link to="/tech">Technical Skills</Link>
             </div>
           </div>
