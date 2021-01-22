@@ -53,6 +53,26 @@
   backdrop-filter: blur(2rem);
 }
 
+.Circle1, .Circle2 {
+  background: linear-gradient(0deg, rgba(255, 0, 221, 0.7), rgba(255,255,255,0.3));
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.Circle1 {
+  top: 10%;
+  right: 15%;
+}
+
+
+.Circle2 {
+  bottom: 5%;
+  left: 15%;
+}
+
 .Right-Wrapper {
   display: flex;
   flex-direction: column;
@@ -62,6 +82,7 @@
 
 .Box {
   /* border-style: solid; */
+  cursor: pointer;
   color: black;
   background: linear-gradient(0deg, rgba(255,255,255,0.9), rgba(255,255,255,0.6));
   width: 85%;
@@ -72,6 +93,10 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.Box:active {
+  box-shadow: 3px 1px 1px rgb(58, 58, 58, 0.1);
 }
 
 .Inner-Box{
@@ -118,7 +143,7 @@
   /* background-color: white; */
   background: linear-gradient(0deg, rgba(255,255,255,0.9), rgba(255,255,255,0.5));
   border-radius: 1rem;
-  width: 35%;
+  flex: 1;
   color: black;
   display: flex;
   flex-direction: column;
@@ -146,7 +171,7 @@
 }
 
 .Right-Wrapper {
-  width: 65%;
+  flex: 2;
 }
 
 .Logo {
@@ -173,11 +198,11 @@ h1 {
   max-width: 100%;
 }
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .Logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (prefers-reduced-motion: no-preference) {
+  .Circle1, .Circle2 {
+    /* animation: App-logo-spin infinite 20s linear; */
   }
-} */
+}
 
 .Main-header {
   background-color: #282c34;
@@ -194,14 +219,14 @@ h1 {
   color: #61dafb;
 }
 
-/* @keyframes App-logo-spin {
+@keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-} */
+}
 
 .Nav {
   min-height: 4vh;
@@ -211,7 +236,8 @@ h1 {
   justify-content: space-evenly;
   padding: 1vh;
   /* background-color: #602080; */
-  background-color: #6a5acd;
+  /* background-color: #6a5acd; */
+  background: #638ad4;
 }
 
 .Nav-Link {

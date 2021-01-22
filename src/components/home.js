@@ -20,7 +20,10 @@ import Dob from "./../assets/dob.png";
 import Todo from "./../assets/todo.jpg";
 import Weather from "./../assets/weather.png";
 
-function change(props) {}
+function change(props) {
+  const win = window.open(props, '_blank');
+  win.focus();
+}
 
 // Icons next to links, photo on top,
 // Left side - 3 parts, photo, links , button (space around)
@@ -41,7 +44,6 @@ function home() {
               class="Profile-Img"
               alt="Profile"
             />
-
             <h3>Shaun Darragh</h3>
             <h4>ダラー・ショーン</h4>
           </div>
@@ -78,7 +80,7 @@ function home() {
         </div>
         <div className="Right-Wrapper">
           {/* About end */}
-          <div className="Box">
+          <div className="Box" onClick={() => change("https://github.com/Spring-CC/restaurant-native-app")}>
             <img src={Munchify} class="Home-Img" alt="Technical Skills" />
             <div className="Inner-Box">
               <h3>Munchify</h3>
@@ -86,7 +88,7 @@ function home() {
             </div>
             <p className="Home-p">React-Native, NodeJS, MongoDB</p>
           </div>
-          <div className="Box">
+          <div className="Box" onClick={() => change("https://github.com/ottotsuma/SoloMVP")}>
             <img src={Secret} class="Home-Img" alt="Technical Skills" />
             <div className="Inner-Box">
               <h3>The Secret Box</h3>
@@ -94,7 +96,7 @@ function home() {
             </div>
             <p className="Home-p">React, NodeJS, MongoDB</p>
           </div>
-          <div className="Box">
+          <div className="Box" onClick={() => change("https://github.com/ottotsuma/React-App2")}>
             <img src={Food} class="Home-Img" alt="Technical Skills" />
             <div className="Inner-Box">
               <h3>Otto's Recipes</h3>
@@ -114,6 +116,8 @@ function home() {
         {/* Time end */}
       </div>
       {/* Glass end */}
+      <div className="Circle1"></div>
+      <div className="Circle2"></div>
       <footer> </footer>
     </div>
     // App end
