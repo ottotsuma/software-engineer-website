@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
 
 * {
   margin: 0;
@@ -436,4 +437,79 @@ ul {
   .Right-Wrapper {
     display: none;
   }
+}
+
+/* Witch */
+
+
+.ProfileCard-Outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: black; */
+  padding: 1rem;
+}
+
+.ProfileCard {
+  /* #dab66f --> #f4e5cb */
+  background: linear-gradient(217deg, rgb(218, 182, 111), rgb(244, 229, 203) 70.71%);
+  /* border-radius: 1rem; */
+  border-style: solid;
+  border-width: 10px;
+  border-color: #512c2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Seaweed Script', cursive;
+  padding: 1rem;
+  position: relative;
+  color: black;
+}
+
+#Witch {
+  width: 200px;
+  height: 200px;
+}
+
+.Card-Content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+}
+
+.Card-Left, .Card-Right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+
+.Card-Left {
+  flex: 1;
+}
+
+.Card-Right {
+  flex: 1;
+}
+
+.Card-Middle {
+  width: 2px;
+  background: black;
+  height: 100%;
+  position: absolute;
+  right: 50%;
+}
+
+.Card-Font {
+  font-family: 'Seaweed Script', cursive;
+  padding: 3px;
+}
+
+#CardTitle {
+  padding: 10px;
+  font-size: x-large;
 }
