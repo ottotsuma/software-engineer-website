@@ -7,6 +7,10 @@ import projects from './components/projects'
 import Nav from './components/nav'
 import tech from './components/tech'
 import timeline from './components/timeline'
+import Monad from './components/Monad/Index'
+import Chapter1 from './components/Monad/Ch1-Intro'
+import Chapter2 from './components/Monad/Ch2-Travel'
+import Chapter3 from './components/Monad/Ch3-Banderedam'
 
 function App() {
   return (
@@ -19,6 +23,8 @@ function App() {
                 <Route path="/story" component={story} />
                 <Route path="/tech" component={tech} />
                 <Route path="/timeline" component={timeline} />
+                <Route path="/monad" component={Chapter1} exact />
+                <Route path="/monad/:chapter" component={Monad} />
             </BrowserRouter>
     </div>
     </>

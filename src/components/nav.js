@@ -19,6 +19,7 @@ function Nav() {
         <a className="Nav-Link" href = {Jap} target = "_blank">日本語</a> */}
         <a className="Nav-Link" href = 'https://github.com/ottotsuma' target = "_blank">GitHub</a>
         <Link className="Nav-Link" to="/story">Playground</Link>
+      {/* <Link className="Nav-Link" to="/Monad">Monad</Link> */}
     </div>
   );
 }

@@ -12,7 +12,7 @@ function projects() {
           <h1>Projects</h1>
           <Spin />
         </div>
-        <footer> </footer>
+        {/* <footer> </footer> */}
       </div>
     );
   }
