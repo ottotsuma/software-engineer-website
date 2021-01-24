@@ -20,7 +20,7 @@ function story(props) {
   return (
     <div className="Playground">
       <h1 className="PlayTitles">Book</h1>
-      <a href="Monad">Go to story</a>
+      <a href="Monad/1">Go to story</a>
       <div className="ProfileCard-Outer">
   <div className="ProfileCard">
     <div className="Card-Middle"></div>
