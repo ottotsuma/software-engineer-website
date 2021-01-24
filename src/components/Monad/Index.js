@@ -23,7 +23,6 @@ export default function Monad(params) {
   }, [number]);
 
   function myFunction() {
-    console.log("myFunction");
     document.getElementById("myDropdown").classList.toggle("show");
   }
 
@@ -42,24 +41,27 @@ export default function Monad(params) {
           Dropdown
         </button>
         <div id="myDropdown" className="dropdown-content">
-          <div
-            className="dropdown-content-a"
-            onClick={() => setPage(ChapterList[0])}
-          >
-            Ch 1 - Intro
-          </div>
-          <div
-            className="dropdown-content-a"
-            onClick={() => setPage(ChapterList[1])}
-          >
-            Ch 2 - Travel
-          </div>
-          <div
-            className="dropdown-content-a"
-            onClick={() => setPage(ChapterList[2])}
-          >
-            Ch 3 - Banderedam
-          </div>
+        <Link
+        className="dropdown-content-a"
+        onClick={() => number = 1}
+        to={"/Monad/" + (1)}
+      >
+        Ch 1 - Intro
+      </Link>
+      <Link
+        className="dropdown-content-a"
+        onClick={() => number = 2}
+        to={"/Monad/" + (2)}
+      >
+        Ch 2 - Travel
+      </Link>
+      <Link
+        className="dropdown-content-a"
+        onClick={() => number = 3}
+        to={"/Monad/" + (3)}
+      >
+        Ch 3 - Banderedam
+      </Link>
         </div>
       </div>
       <Link
