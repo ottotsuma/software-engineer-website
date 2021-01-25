@@ -10,12 +10,14 @@ import Chapter7 from "./Ch7-Fourth";
 import Chapter8 from "./Ch8-Fifth";
 import Chapter9 from "./Ch9-Results";
 import Chapter10 from "./Ch10-Rest";
+import Chapter11 from "./Ch11-Note";
 
-const ChapterList = [Chapter1(), Chapter2(), Chapter3(), Chapter4(), Chapter5(), Chapter6(), Chapter7(), Chapter8(), Chapter9(), Chapter10()];
+
+const ChapterList = [Chapter1(), Chapter2(), Chapter3(), Chapter4(), Chapter5(), Chapter6(), Chapter7(), Chapter8(), Chapter9(), Chapter10(), Chapter11()];
 const scrollTop = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 };
-let number = parseInt(window.location.href.match(/\d+$/)[0]);
+let number = parseInt(window.location.href.match(/\d+$/)[0]-1);
 function NextPage() {
   number++;
 }
@@ -26,7 +28,7 @@ function PreviousPage() {
 export default function Monad(params) {
   const [isPage, setPage] = useState("");
   useEffect(() => {
-    setPage(ChapterList[window.location.href.match(/\d+$/)[0]]);
+    setPage(ChapterList[window.location.href.match(/\d+$/)[0]-1]);
   }, [number]);
 
   function myFunction() {
@@ -83,7 +85,7 @@ export default function Monad(params) {
         </Link>
       </div>
     );
-  } else if (number === ChapterList.length-1) {
+  } else if (number === ChapterList.length) {
     return (
       <div className="Chapter-Container">
         <Link
