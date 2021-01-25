@@ -4,8 +4,11 @@ import Chapter1 from "./Ch1-Intro";
 import Chapter2 from "./Ch2-Travel";
 import Chapter3 from "./Ch3-Banderedam";
 import Chapter4 from "./Ch4-Academy";
+import Chapter5 from "./Ch5-Lessons";
+import Chapter6 from "./Ch6-Combat";
+import Chapter7 from "./Ch7-Fourth";
 
-const ChapterList = [Chapter1(), Chapter2(), Chapter3(), Chapter4()];
+const ChapterList = [Chapter1(), Chapter2(), Chapter3(), Chapter4(), Chapter5(), Chapter6(), Chapter7()];
 const scrollTop = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 };
@@ -49,7 +52,6 @@ export default function Monad(params) {
   if (number === 1) {
     return (
       <div className="Chapter-Container">
-        <h1>Testing</h1>
         <div className="dropdown">
           <button onClick={() => myFunction()} className="dropbtn">
             Dropdown
@@ -81,7 +83,6 @@ export default function Monad(params) {
   } else if (number === ChapterList.length) {
     return (
       <div className="Chapter-Container">
-        <h1>Testing</h1>
         <Link
           className="Footer-Button"
           id="Previous"
@@ -114,7 +115,6 @@ export default function Monad(params) {
   } else {
     return (
       <div className="Chapter-Container">
-        <h1>Testing</h1>
         <Link
           className="Footer-Button"
           id="Previous"
