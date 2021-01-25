@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import MapOfAlden from "./../../assets/MapOfAlden.png"
 
 export default function Intro(props) {
   return (
@@ -15,21 +15,24 @@ export default function Intro(props) {
               className="popOut"
               src="https://ottotsuma.github.io/images/Charia%20Jun17%2013-14%20(1).jpeg"
               height="400px"
-              alt="Kappa"
+              alt="MapOfMonad"
             />
           </div>
+          {/*             The Grand Duchy of Alden is home to 3.2 million people */}
 
           <p>
-            Charia Jun 12 21-12, Grand Duchy of Alden. Near the village of
-            Steinauhau, 24km from the nearest neighbour village of Sweausern. A
-            rebellion is being hosted in the neighbouring provence of
-            Heilerbach. The Grand Duchy of Alden is home to 3.2 million people
-            and about 58km. Making it the 2nd smallest state on the continent of
-            Charia. Steinauhau is a small village with an urban population of
-            1700 people and rural population of 9300 people. It sits in a
-            temperate forest near the sea, in the northern area of the
-            continent.
+            Jun 12 21-12, In the north east of Charia, in the Grand Duchy of Alden. At the northen border inside of the republic a rebellion broke out. The monsters of 
           </p>
+
+          <div className="pop">
+            Map of Alden
+            <img
+              className="popOut"
+              src={MapOfAlden}
+              height="400px"
+              alt="Map Of Alden"
+            />
+          </div>
 
           <h3>Steinauhau</h3>
 

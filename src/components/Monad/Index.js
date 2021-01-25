@@ -11,9 +11,13 @@ import Chapter8 from "./Ch8-Fifth";
 import Chapter9 from "./Ch9-Results";
 import Chapter10 from "./Ch10-Rest";
 import Chapter11 from "./Ch11-Note";
+import Chapter12 from "./Ch12-Missions";
+import Chapter13 from "./Ch13-Savigal";
+import Chapter14 from "./Ch14-Dinner";
+import Chapter15 from "./Ch15-Date";
 
 
-const ChapterList = [Chapter1(), Chapter2(), Chapter3(), Chapter4(), Chapter5(), Chapter6(), Chapter7(), Chapter8(), Chapter9(), Chapter10(), Chapter11()];
+const ChapterList = [Chapter1(), Chapter2(), Chapter3(), Chapter4(), Chapter5(), Chapter6(), Chapter7(), Chapter8(), Chapter9(), Chapter10(), Chapter11(), Chapter12(), Chapter13(), Chapter14(), Chapter15()];
 const scrollTop = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 };
@@ -78,7 +82,7 @@ export default function Monad(params) {
         </button>
         <Link
           className="Footer-Button"
-          to={"/Monad/" + number}
+          to={"/Monad/" + (number + 1)}
           onClick={() => NextPage()}
         >
           Next
@@ -107,8 +111,9 @@ export default function Monad(params) {
         {isPage}
         <Link
           className="Footer-Button"
-          to={"/Monad/" + number}
+          id="Previous"
           onClick={() => PreviousPage()}
+          to={"/Monad/" + (number - 1)}
         >
           Previous
         </Link>
@@ -146,8 +151,9 @@ export default function Monad(params) {
         {isPage}
         <Link
           className="Footer-Button"
-          to={"/Monad/" + number}
+          id="Previous"
           onClick={() => PreviousPage()}
+          to={"/Monad/" + (number - 1)}
         >
           Previous
         </Link>
@@ -157,7 +163,7 @@ export default function Monad(params) {
         </button>
         <Link
           className="Footer-Button"
-          to={"/Monad/" + number}
+          to={"/Monad/" + (number + 1)}
           onClick={() => NextPage()}
         >
           Next
