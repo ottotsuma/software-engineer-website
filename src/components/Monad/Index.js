@@ -83,7 +83,7 @@ export default function Monad(params) {
         </Link>
       </div>
     );
-  } else if (number === ChapterList.length) {
+  } else if (number === ChapterList.length-1) {
     return (
       <div className="Chapter-Container">
         <Link

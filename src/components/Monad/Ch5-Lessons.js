@@ -182,7 +182,7 @@ function intro(props) {
           <p>Otto - "... Yeah alright."</p>
 
           <p>Later out in front of the cliffside.</p>
-          <p class="stats">
+          <p className="stats">
             <li>Name: Otto.</li>
             <li>Level: 8.</li>
             <li>Primary Class: Mage.</li>

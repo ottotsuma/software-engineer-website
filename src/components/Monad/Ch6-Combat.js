@@ -59,7 +59,7 @@ function intro(props) {
 
           {/* <!-- Duel --> */}
           {/* <!-- Duel between students --> */}
-          <p class="stats">
+          <p className="stats">
             <li>Name: Otto.</li>
             <li>Level: 11.</li>
             <li>Primary Class: Mage.</li>
