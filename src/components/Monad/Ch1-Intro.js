@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import MapOfAlden from "./../../assets/MapOfAlden.png"
+import MapOfAlden from "./../../assets/MapOfAlden.png";
 
 export default function Intro(props) {
   return (
@@ -18,10 +18,110 @@ export default function Intro(props) {
               alt="MapOfMonad"
             />
           </div>
-          {/*             The Grand Duchy of Alden is home to 3.2 million people */}
-{/* Some kind of fight? */}
+          {/* Some kind of fight? */}
+
           <p>
-            Jun 12 21-12, In the north east of Charia, in the Grand Duchy of Alden.
+            In the Principality of Huonhia at the northern most point, I stood
+            waiting to receive orders from the Huonhian general. I was part of a
+            mercenary company brought up for this battle, we where a mixed band.
+            I am a magic swords man wielding both magic and a short sword, the
+            max next to me was a berserker wearing the head of a wampus cat and
+            holding a giant two handed club. It was normal for us to work in
+            small groups with whoever but a Huonhia general was wealthy enough
+            to buy up our whole company and a few others for the season.
+          </p>
+
+          <p>
+            We had clashed with these opponents a few times this season and they
+            where presenting their last stand to hold us back as they scrambled
+            for their boats to get back to the sea. I have seen some unique
+            fighting styles but theirs was a new one to me, at age 30 though I
+            am sure there are more to come. We already beat them four times.
+          </p>
+
+          <p>
+            To put a stop to my random thoughts the general with a wind wizard
+            next to him projected his voice for all of us to hear. It came loud
+            and strong.
+          </p>
+
+          <p>
+            "Victory is near at hand! If all do their duty, it will be OUR
+            victory!"
+          </p>
+
+          <p>"YEAAAHHH!"</p>
+
+          <p>
+            "Many times I have faced this enemy and many times I have beaten
+            them."
+          </p>
+
+          <p>"YEAHHHHHHH!"</p>
+
+          <p>
+            "Let us offer prayers to the gods for victory. And then let us arm
+            ourselves to the teeth, just in case the gods aren't listening."
+          </p>
+
+          <p>"Ahaha!"</p>
+
+          <p>
+            "The enemy war god must have a sense of humour, I mean look at
+            them."
+          </p>
+
+          <p>"Ahahaha!"</p>
+
+          <p>"By tomorrow our arms will ache from over-use!"</p>
+
+          <p>"Woo!!"</p>
+
+          <p>
+            "The enemy may have the Fish on their side, but we have excellent
+            shoes! And those shoes will stamp out their fish!"
+          </p>
+
+          <p>I guess that is why he has the title 'The mad'.</p>
+
+          <p>"Charge!"</p>
+
+          <p>
+            The Huonhians moved in first, in lines with long spears pointed out
+            over their shields. They formed walls of spears and white armor. To
+            the flanks where the skirmishers, those who threw projectiles or
+            magic into the enemies to tie them down. We where behind them. Once
+            the skirmishers pulled back we moved in to tie up the disorganized
+            enemies.
+          </p>
+
+          <p>
+            As soon as the skirmishers started to pull back we ran in. I cast
+            'Ice spear' into their ranks. I wrapped my sword with ice magic as
+            we got close. The berserker from before shouted louder then a war
+            drum next to me and jumped into their ranks swinging his club around
+            at whoever was near by. With their ranks fully broken up I was able
+            to fight small duels which was more my style.
+          </p>
+
+          <p>
+            I used my sword to move my opponents to one side and launched a ball
+            of hardened ice into his chest.He pushed though the pain so I let my
+            ice magic spray out from me causing him to slow and be cut by small
+            flakes of ice. I moved in and stabbed him just below the waist. He
+            moved back holding his stomach and cursed in a language I don't
+            know. "썅놈" I moved back as he was dieing and gathered magic into
+            my hand. He reached down and pulled up a wand? He pointed it right
+            at my head and the sound it gave off blew my ear drums out, there
+            was a large flash of light, then nothing.
+          </p>
+
+          <h3>Steinauhau</h3>
+
+          {/* The Grand Duchy of Alden is home to 3.2 million people */}
+          <p>
+            Jun 12 21-12, In the north east of the continent of Charia, in the
+            Grand Duchy of Alden was a town called Steinauhau.
           </p>
 
           <div className="pop">
@@ -33,20 +133,17 @@ export default function Intro(props) {
               alt="Map Of Alden"
             />
           </div>
-
-          <h3>Steinauhau</h3>
-
           {/* <!-- Starting with the setting up of the place? and events. --> */}
           <p>
             "Congratulations!" A unified cheer rang out around the town hall,
-            looking down into his cup David lamented, the reflection looking
-            back at him is far older then it use to be, stiff and past the age
-            where he should be drinking luminescent green drinks, but he had
+            looking down into my cup I lamented, the reflection looking
+            back at me is far older then it use to be, stiff and past the age
+            where I should be drinking luminescent green drinks, but I had
             always liked melon pop from his first taste over 70 years ago now.
             Soon the reflection in the cup smiles back. "You look happier then
-            you have in years" his thoughts interrupted David turns to see his
+            you have in years" my thoughts interrupted I turned to see my
             old friend Edmure. "I was just thinking about how new life replaces
-            the old" he continues to smile. With a frown and then a small smile
+            the old" I continues to smile. With a frown and then a small smile
             Edmure retorts "You thinking Michkels new babe is here to replace
             you?, there is still life left in the both of us yet". The small
             gathering carries on into the night. June 12th a night the people of
@@ -54,26 +151,33 @@ export default function Intro(props) {
             year, a small tradition as not all make it past infancy.
           </p>
 
-          {/* <!-- They go to fight intuders this night, from the new world they dont know that and kill them due to the diease and miasmia taking effect reduing their stats and effectivness and this is an ongoing event.  --> */}
-          {/* <!-- Find diary entry? --> */}
+          <p>Edmure whispered into my ear, there have been sightings of the sea people off the coast. They had been pushed back into the sea at the last battle of Huonhia so they must either be heading home or looking for a new place to land. I nodded and left the town hall and went to the walls.</p>
+
+          <p>I left the town, and went though the forests. I went to the area where the sea people where last seen and going though the forest I saw their boats off in the distance. I had to check if any of them had come ashore before reporting back. I passed though the forest easily with my legs and body strengthened by mana. The trees that would scratch at my skin bent and broke as I passed by quickly leaving behind no marks on my skin.</p>
+
+          <p>I found them. Moving though the forest slowly. They did not see me, I know this place like the back of my hand. I pulled out my dairy and started to take notes on their location, how many, kind of weapons etc. I wrote down everything I could remember, right up until I heard a click then my vision went black.</p>
 
           <h3>Michkel</h3>
           {/* <!-- starting with the kids meeting as friends, introduce the town, some news the people, small parts of the world, culture--> */}
           <p>
-            "Hey Karla" I waved across the village square towards her holding
-            hands with 3 children. Two older girls and a boy, all the children
-            had red hair like their mother. As the two groups got closer I
-            nudged Sarah and pointed to our son's smiling face. He only smiled
-            like this when Effi, Karla's daughter was around. "Good to see you
-            are all well" Sarah said. "Where is Robert?" I asked. "He's going to
-            meet us later on, went to the hall to get the news and left me alone
-            with these loverly lot." Karla replied. The group now larger made
-            our way towards a near by wood, where we met with other adults of
-            the village and their children. The children ran off into the forest
-            to play as the adults made way for a fire, today is a festive day
-            June 12th.
+            It had been 10 years since I had found the blood soaked diary on
+            David's body. He was my wife's dad. Edmure his best friend had later
+            moved to Swexausern about 25km north-west. I was told he died
+            peacefully two years ago. Today was June 12th and the town was getting ready for the same festival again. I guess that's why I was thinking of him again today.
           </p>
-
+          <p>
+            "Hey Karla" I waved across the town square towards her holding hands
+            with 3 children. Two older girls and a boy, all the children had red
+            hair like their mother. As the two groups got closer I nudged Sarah
+            and pointed to our son's smiling face. He only smiled like this when
+            Effi, Karla's daughter was around. "Good to see you are all well"
+            Sarah said. "Where is Robert?" I asked. "He's going to meet us later
+            on, went to the hall to get the news and left me alone with these
+            loverly lot." Karla replied. The group now larger made our way
+            towards a near by wood, where we met with other adults of the town
+            and their children. The children ran off into the forest to play as
+            the adults made way for a fire, today is a festive day June 12th.
+          </p>
           <p>
             While setting up in the morning Robert soon joined us and shared the
             news of the of the on going northern border problems. People living
@@ -134,7 +238,7 @@ export default function Intro(props) {
           {/* <!-- 284,139 rebels --> */}
           {/* <!-- IMPORTANT  */}
           {/* 
-parent teaches otto basic inspect skill as its is job of parent in the village 
+parent teaches otto basic inspect skill as its is job of parent in the town 
 first person in the magic histories book is the witch of Alden
 Otto can see numeric output of items but no one else can 
 most people learn inspect but either see 
@@ -154,12 +258,12 @@ most people learn inspect but either see
             wooded area they often play. Eugen 13 years of age, larger, and
             taller then the others of the group, but without a temper or
             ambition he plays with children younger then him rather then the
-            older children of the village. Beke, 12 a slow child, but easily
+            older children of the town. Beke, 12 a slow child, but easily
             angered. Ilse 12, the oldest child of Sarah and Robert. Effi 10 the
             younger sister of Ilse. Otto 10 the oldest son of Michkel and Karla,
             with two younger brothers, and a sister on the way. Nils 10 the 8th
-            child of the village leader, although only 5 remain. Jakob 9, A
-            small boy, shy and un-gifted.
+            child of the town leader, although only 5 remain. Jakob 9, A small
+            boy, shy and un-gifted.
           </p>
 
           {/* <!-- <p>The children are armed with wood swords, shields, spears and staves. Today like most days they pretend to be heroes from old stories, facing off in small 1v1's with little organization or any teams at all. After settling their small disputes and deciding who gets to be which hero they turn to battle their foe as a team. Under the command of Ilse, who while not the oldest child was Eugen had to little ambition to even lead a group as small as this and Beke who's temper is too hot to make any meaningful decisions. They charge in and out fighting a tree with a 'monster' draw onto the side.</p> --> */}
@@ -411,8 +515,8 @@ most people learn inspect but either see
 
           <p>
             I was told not to spend any of the points or learn a class yet, that
-            I was going to be sent to the village hall tomorrow to be tested for
-            my aptitude and when I was 14 I would go to the magic academy in
+            I was going to be sent to the town hall tomorrow to be tested for my
+            aptitude and when I was 14 I would go to the magic academy in
             Banderedam. They only said that because they where sure I would be a
             mage, both of my parents where, but there was a small chance I would
             not be a mage.
@@ -461,10 +565,10 @@ most people learn inspect but either see
 
           <h4>Beke POV</h4>
           <p>
-            Beke outside the village hall, looking around he could see some of
-            the children he use to play with, the older children of the area.
-            They pay little or no attention to Beke as he comes into the hall
-            they instead are deep into their studies or practice.
+            Beke outside the town hall, looking around he could see some of the
+            children he use to play with, the older children of the area. They
+            pay little or no attention to Beke as he comes into the hall they
+            instead are deep into their studies or practice.
           </p>
 
           <p>
