@@ -19,9 +19,9 @@ export default function Intro(props) {
             />
           </div>
           {/*             The Grand Duchy of Alden is home to 3.2 million people */}
-
+{/* Some kind of fight? */}
           <p>
-            Jun 12 21-12, In the north east of Charia, in the Grand Duchy of Alden. At the northen border inside of the republic a rebellion broke out. The monsters of 
+            Jun 12 21-12, In the north east of Charia, in the Grand Duchy of Alden.
           </p>
 
           <div className="pop">

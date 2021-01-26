@@ -6,11 +6,11 @@ function intro(props) {
       <div className="Frame">
         <div className="Content">
           <h4>Rest period</h4>
-          {/* <!-- cross dressing wizard -->
-<!-- maybe here -->
-<!-- Need to be done -->
-<!-- Missions come after Tisle thing -->
-<!-- Tisiel's door --> */}
+{/* <!-- cross dressing wizard --> */}
+{/* Dueling and Combat. */}
+
+
+{/* <!-- Tisiel's door, left a note for you.  --> */}
         </div>
       </div>
     </div>

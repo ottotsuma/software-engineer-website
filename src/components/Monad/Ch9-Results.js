@@ -58,11 +58,11 @@ function intro(props) {
             "Ahem, next week you will be taking your first missions outside of
             the academy. You can only take missions that match your rank. Since
             the ranking system you can only take Blue ranked missions, within
-            that should be your broken down ranks. For example rank A, B, C and
-            D. The 1 on the end is just to indicate your year. Finally, and most
-            important. READ THE MISSION DESCRIPTION. There is not point taking a
-            medical mission if you do not have the skill to complete it, the
-            rank is just to indicate the level of danger." Lubin said.
+            that should be your broken down ranks. For example rank A, B, C, D
+            and so on. The 1 on the end is just to indicate your year. Finally,
+            and most important. READ THE MISSION DESCRIPTION. There is not point
+            taking a medical mission if you do not have the skill to complete
+            it. The rank is just to indicate the level of danger." Lubin said.
           </p>
 
           <p>
