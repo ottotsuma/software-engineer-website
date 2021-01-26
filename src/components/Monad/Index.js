@@ -21,7 +21,12 @@ const ChapterList = [Chapter1(), Chapter2(), Chapter3(), Chapter4(), Chapter5(),
 const scrollTop = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 };
-let number = parseInt(window.location.href.match(/\d+$/)[0]-1);
+
+let number = 0
+if (window.location.href.match(/\d+$/)) {
+  number = parseInt(window.location.href.match(/\d+$/)[0]-1);
+}
+
 function NextPage() {
   number++;
 }
@@ -32,6 +37,7 @@ function PreviousPage() {
 export default function Monad(params) {
   const [isPage, setPage] = useState("");
   useEffect(() => {
+    console.log(window.location.href.match(/\d+$/))
     setPage(ChapterList[window.location.href.match(/\d+$/)[0]-1]);
   }, [number]);
 
