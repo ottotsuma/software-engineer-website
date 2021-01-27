@@ -11,7 +11,7 @@ function intro(props) {
           {/* <!-- Training. --> */}
 <h4>Training</h4>
 <p>In the afternoon we went into the jungles in search of monsters to hunt to hone our skills and try to work together as a team. The first monster we came across was not a monster I would forget anytime soon. The text book describes them as centaurs, with the lower body of a horse and the upper of a man, but only in appearance, the truth was always darker then it first appeared. The body on a man on top was in fact the skin of a human, sometimes whole sometimes patch work from several different bodies, their true form lay under the mess of meat and flesh. What that was would have to wait until after the battle.</p>
-{/* <div class="pop">Centaur<img class="popOut" src="./images/centaur.jpg" height="400px" alt="centaur"></div> */}
+<div class="pop">Centaur<img class="popOut" src="https://ottotsuma.github.io/images/centaur.jpg" height="400px" alt="centaur" /></div>
 <p>Reingard struck first with balls of mana and tanked the centaurs hooves with his shield reinforced in his metal mana. Shooting into action, I charged into the monster with the skill 'Charged Charge' and stuck down with strike (lightning) infused into my warhammer, I had picked up a few tricks on the way. Just like that 10% of its health disappeared.</p>
 
 <p>Volker summoned flames over his hands and threw a great wave of fire, washing over the monster turning the fur on his rear black, the smell of burning fur singed and hung in the air. Raina washed Reingard in water infused mana and the scratches and dirt on his skin seemed to wash away healing him for over 25% of his total health.</p>

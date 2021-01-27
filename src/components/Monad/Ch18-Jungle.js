@@ -78,7 +78,7 @@ function intro(props) {
             found in Pocotcotcan literature.
           </p>
 
-          {/* <div class="pop">Landmark<img class="popOut" src="./images/inca2.png" height="400px" alt="Pyramid"></div> */}
+          <div class="pop">Landmark<img class="popOut" src="https://ottotsuma.github.io/images/inca2.png" height="400px" alt="Pyramid" /></div>
 
           <p>
             It took half of the afternoon for us to find a small stream which

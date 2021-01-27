@@ -13,6 +13,14 @@ function intro(props) {
 
           <p>Mmm no worries, this might be useful in the future but right now I need to train myself. The only major training area left was the duels. This area was still busy unfortunately. </p>
           {/* <!-- Tisiel's door, left a note for you.  --> */}
+          <div className="Note">
+            <h4 id="Fancy">
+              To Otto,
+            </h4>
+            <p id="Fancy">
+                Meet me in my room, I made a break though in the language.
+            </p>
+          </div>
         </div>
       </div>
     </div>

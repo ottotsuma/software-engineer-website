@@ -23,28 +23,115 @@ function intro(props) {
             you can take as a Mage, the roles can fill in Alden and beyond and
             of course where to put your points."
           </p>
-
-          {/* <!-- Elements - different types of mages --> */}
-          {/* <!-- Jobs mages do outside of combat --> */}
-          {/* <!-- Combat mages, how to spend your points --> */}
           <p>
-            "So since we are at that time combat mages, how to spend your
-            points. Firstly Magic also affects the total amount of MP you have,
-            so that is usually the main stat for Mages even if you plan to be a
-            front line fighter, healer or non-combatant."
+            "We will start with a brief look at the common elements mages have
+            and maybe a few specific to nobel families of Alden."
+          </p>
+
+          <div className="Elementals">
+            <div className="Element">
+              <img
+                className="Element-Image"
+                alt="Fire"
+                src="https://i.pinimg.com/originals/4d/ca/d9/4dcad98ff2d9aba671b56957ab5d70a2.gif"
+              />
+              <p>Fire</p>
+            </div>
+            <div className="Element">
+              <img
+                className="Element-Image"
+                alt="Fire"
+                src="https://i.pinimg.com/originals/22/86/5d/22865d4b8b7e517dce1b60a2988c8482.gif"
+              />
+              <p>Lightning</p>
+            </div>
+            <div className="Element">
+              <img
+                className="Element-Image"
+                alt="Fire"
+                src="https://i.pinimg.com/originals/e5/a4/c2/e5a4c2e0ce407b50e52b9a7dd13ded12.gif"
+              />
+              <p>Wind</p>
+            </div>
+            <div className="Element">
+              <img
+                className="Element-Image"
+                alt="Fire"
+                src="https://i.pinimg.com/originals/a1/91/8d/a1918dab1090f13a25a0550d111918a3.gif"
+              />
+              <p>Earth</p>
+            </div>
+            <div className="Element">
+              <img
+                className="Element-Image"
+                alt="Fire"
+                src="https://i.pinimg.com/originals/53/39/30/53393042b7d6b478cb8f450127cded85.gif"
+              />
+              <p>Water</p>
+            </div>
+            <div className="Element">
+              <img
+                className="Element-Image"
+                alt="Fire"
+                src="https://i.pinimg.com/originals/13/f2/a9/13f2a99f60457a624fae45d7be0bad65.gif"
+              />
+              <p>Wood</p>
+            </div>
+            <div className="Element">
+              <img
+                className="Element-Image"
+                alt="Fire"
+                src="https://media2.giphy.com/media/ZRrzq9KNSjWik/giphy.gif"
+              />
+              <p>Metal</p>
+            </div>
+          </div>
+
+          <p>
+            "Each element has a set of spells that come with it. These elements
+            on page 1 are common elements found though the whole continent. If
+            we focus on earth for example, spells might include defensive spells
+            like earth wall, offensive spells like earth spike or non-combat
+            spells like soften."
+          </p>
+          <p>
+            "Which spells you pick up, how to use them makes every earth mage
+            different in some way. While this has its advantages, such as being
+            versatile and able to solve different problems. The flip side to
+            this is why the army provide a manual to all students wanting to
+            join them, uniform mages. This makes forming companies easier for
+            the army because they can fit mages where they need them, knowing
+            they can do the role they need them to do. Most earth mages in the
+            army have earth wall for example, high as possible. Without earth
+            wall you could not join the military as a standard earth mage."
+          </p>
+          <p>
+            Look at Alden only elements from the nobel families. As you may know
+            most nobel families of Alden come from fighters line and there are
+            few mages even found within their families. However the city of
+            Alden's very own the Grand Duke has royal lightning, it is purple in
+            color and has not been seen outside of their family. Argavereri's
+            Viscount uses a green smoke element, most unusual. Finally baron
+            Mann based at Soldenheim famously uses runes.
+          </p>
+          <p>
+            "While I did not mention the witches of the witches coven, we should
+            all know about them after all the witch of Alden was apart of the
+            same coven. However those magics are taught to any women who joins
+            and not held by one family."
+          </p>
+          <p>
+            "Looking at how to spend your points. Firstly stats, Magic affects
+            the total amount of MP you have, so that is usually the main stat
+            for Mages even if you plan to be a front line fighter, healer or
+            non-combatant."
           </p>
 
           <p>
-            "Now the other stat points there is no formula for, so we have
-            provided you a book containing what past mages have done and how it
-            worked out for them you can either copy one of them or just learn
-            from what they did and make your own path."
-          </p>
-
-          <p>
-            "Finally your spell points. These can be tricky you don't want to be
-            investing all your points into an explosion style magic and then
-            find yourself fighting with a sword, or worse, trying to farm."
+            "For spell points and other stat points we have provided you a book
+            containing what past mages have done and how it worked out for them.
+            You can either copy one of them or just learn from what they did and
+            make your own path."
           </p>
 
           <p>
@@ -79,12 +166,12 @@ function intro(props) {
             from these older books."
           </p>
           <p>
-            Looking though the books again I found a book half on its side,
+            "Looking though the books again I found a book half on its side,
             'Otto Magnus Of Might' curious, I opened the book to find the pages
             had been cut cleanly and inside the book was a black key, and the
             number 34, and below it some strange makings, markings similar to
             the door shown to him by Tisiel. The key looked to be similar to the
-            one to my room.
+            one to my room."
           </p>
 
           <p>
@@ -121,7 +208,7 @@ function intro(props) {
           <p>
             Tisiel - "Truthfully I didn't just took a chance to see if you where
             interested in the door or knew anything about it, thats why I showed
-            you around, no one else has taken any real interest in it. So do you
+            you around. No one else has taken any real interest in it. So do you
             want to know whats behind the door?"
           </p>
           <p>Otto - "Well, yeah"</p>

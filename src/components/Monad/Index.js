@@ -15,9 +15,21 @@ import Chapter12 from "./Ch12-Missions";
 import Chapter13 from "./Ch13-Savigal";
 import Chapter14 from "./Ch14-Dinner";
 import Chapter15 from "./Ch15-Date";
+import Chapter16 from "./Ch16-Cranium";
+import Chapter17 from "./Ch17-Training";
+import Chapter18 from "./Ch18-Jungle";
+import Chapter19 from "./Ch19-God";
+import Chapter20 from "./Ch20-Date2";
+import Chapter21 from "./Ch21-Tomb";
+import Chapter22 from "./Ch22-Tomb2";
+import Chapter23 from "./Ch23-Tisiel";
+import Chapter24 from "./Ch24-Nymandus";
+import Chapter25 from "./Ch25-Otto";
+import Chapter26 from "./Ch26-Home";
+import Chapter27 from "./Ch27-Shrine";
 
+const ChapterList = [Chapter1(), Chapter2(), Chapter3(), Chapter4(), Chapter5(), Chapter6(), Chapter7(), Chapter8(), Chapter9(), Chapter10(), Chapter11(), Chapter12(), Chapter13(), Chapter14(), Chapter15(), Chapter16(), Chapter17(), Chapter18(), Chapter19(), Chapter20(), Chapter21(), Chapter22(), Chapter23(), Chapter24(), Chapter25(), Chapter26(), Chapter27()];
 
-const ChapterList = [Chapter1(), Chapter2(), Chapter3(), Chapter4(), Chapter5(), Chapter6(), Chapter7(), Chapter8(), Chapter9(), Chapter10(), Chapter11(), Chapter12(), Chapter13(), Chapter14(), Chapter15()];
 const scrollTop = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 };

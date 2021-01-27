@@ -6,7 +6,6 @@ function intro(props) {
       <div className="Frame">
         <div className="Content">
           <h4>Tisiel's Note</h4>
-
           <p>
             Having gotten Tisiel's letter I was standing in front of the giant
             circular door waiting for her. Tisiel soon arrived looking like she

@@ -52,10 +52,10 @@ function intro(props) {
               </div>
               <div className="Newspaper-Right">
                 <img id="Newspaper-Image" alt="Shapold" src={Shapold} />
-                <h4 id="Small-Headline">Right Sub Headline</h4>
+                <h4 id="Small-Headline">Nektarios Lamprallis The Madder!</h4>
                 <div className="Newspaper-Content">
-                  <p id="News">Right things</p>
-                  <p id="News">Right things</p>
+                  <p id="News">Nektarios Lamprallis the mad, general who led the Huonhians against the sea people 10 years ago has been given the title 'Totally mad'. <br />In a recent investigation into missing funds it was discovered Nektarios had been using large sums of money making fancy hats to protect us from the moon people.</p>
+                  <p id="News">When questioned the the governor of the city of Huonhoa said the funds will now be redirected to the ongoing 'Gianlongian Drought'. <br /> <br /> Nektarios will be taking an retirement in Kargi. Where and I quote the governor. 'He can do no more harm.'</p>
                 </div>
               </div>
             </div>
