@@ -725,6 +725,8 @@ footer {
     font-family: ui-monospace;
     margin-top: 3px;
     flex: 1;
+    align-self: flex-start;
+
   }
 
   .Content {

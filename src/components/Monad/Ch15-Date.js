@@ -22,27 +22,31 @@ function intro(props) {
                 </h4>
                 <div className="Newspaper-Content">
                   <p id="News">
-                    Aldenese Rebellion have taken the town of Shapold, a short stones throw away from where the
-                    1st (Wienengen) Regiment is based. This regiment was formed
-                    in 1 Leigh year during the Aldenese Crusade.
+                    Aldenese Rebellion have taken the town of Shapold, a short
+                    stones throw away from where the 1st (Wienengen) Regiment is
+                    based. This regiment was formed in 1 Leigh year during the
+                    Aldenese Crusade.
                   </p>
                   <p id="News">
-                    This regiment was formed to fend off and push back the Alden crusaders, it achieved its purpose and captured towns below the Rotenzell river. Since then the regiment has seen previous rebellions in the area as well as monster hoards.
+                    This regiment was formed to fend off and push back the Alden
+                    crusaders, it achieved its purpose and captured towns below
+                    the Rotenzell river. Since then the regiment has seen
+                    previous rebellions in the area as well as monster hoards.
                   </p>
                 </div>
-                <h4 id="Small-Headline">
-                  Is Baberg in trouble!?
-                </h4>
+                <h4 id="Small-Headline">Is Baberg in trouble!?</h4>
                 <div className="Newspaper-Content">
                   <p id="News">
-                    Aldenese Rebellion have taken the town of Shapold where the
-                    1st (Wienengen) Regiment is based. This regiment was formed
-                    in 1 Leigh year during the Aldenese Crusade.
+                    Shapold is 78Km as the bird flies until Baberg. While that
+                    route is not straight it does put the rebels on a road
+                    behind Wienengen where the regiment is based. If the
+                    regiment stays to deal with the threat in Shapold,
                   </p>
                   <p id="News">
-                    Aldenese Rebellion have taken the town of Shapold where the
-                    1st (Wienengen) Regiment is based. This regiment was formed
-                    in 1 Leigh year during the Aldenese Crusade.
+                    that could leave the town of Shal undefended, which has a
+                    direct river route to Baberg. On the other hand if the
+                    regiment moves south to secure Shal that leaves the road to
+                    Baberg open from Shapold.
                   </p>
                 </div>
               </div>
@@ -50,8 +54,8 @@ function intro(props) {
                 <img id="Newspaper-Image" alt="Shapold" src={Shapold} />
                 <h4 id="Small-Headline">Right Sub Headline</h4>
                 <div className="Newspaper-Content">
-                <p id="News">Right things</p>
-                <p id="News">Right things</p>
+                  <p id="News">Right things</p>
+                  <p id="News">Right things</p>
                 </div>
               </div>
             </div>
