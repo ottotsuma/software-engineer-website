@@ -7,17 +7,17 @@ function intro(props) {
         <div className="Content">
           <h3>City of Banderedam</h3>
           <p>
-            Arriving before the city of Banderedam where trails of students
-            heading to the academy which lay near the city. The city itself was
-            across a small stone bridge across the river Chitna which ended just
-            short of the cities gate house where a wooden drawbridge made up for
+            Arriving before the city of Banderedam, trails of students heading
+            to the academy could be seen next to the city. The city itself was
+            across a small stone bridge across the river Chitna, which ended
+            just short of the city gate house, a wooden drawbridge made up for
             gap. There where square shaped towers all around the walls spaced
-            apart, with a wooden building built atop. The gate house seem to of
-            been rebuilt with different color to it, the towers were circular
-            with stone walls to the pointed rooves. There was a walled and
-            rooved walkway between the two towers visible from the outside as it
-            ran over the gate house giving the defenders room to drop things
-            onto attacks. Even the older towers and walls had matriculations.
+            apart, a wooden roof built atop. The gate house must of been rebuilt
+            because the towers were built with a new circular design and stone
+            rooves. There was a walled and rooved walkway between the two towers
+            visible from the outside, as it ran over the gate house giving the
+            defenders room to drop things onto attacks. Even the older towers
+            and walls had matriculations.
           </p>
           <div className="pop">
             Banderedam
@@ -38,11 +38,10 @@ function intro(props) {
           <p>
             Once at the gate, guards where outside checking people coming into
             the city. With my ID card, letters of introduction to the magic
-            academy and his age it was easy for me to pass though the gate. Leon
-            lived there so he was able to pass though the smaller gate for the
-            locals. Meeting up again inside Leon took me to the shopping
-            district so he could drop off his package and I could go shopping
-            for a wand.
+            academy and my age it was easy for me to pass though the gate. Leon
+            lived there so he was able to pass though easily. Meeting up again
+            inside Leon took me to the shopping district so he could drop off
+            his package and I could go shopping for a wand.
           </p>
 
           <p>
@@ -67,7 +66,7 @@ function intro(props) {
             <div id="CardInner">
               <div className="card">
                 <img
-                    className="cardImage"
+                  className="cardImage"
                   src="https://ottotsuma.github.io/images/wand1.png"
                   alt="human"
                 />
@@ -102,8 +101,8 @@ Charlemagne in 794 decreed that a single silver penny (weighing 1.7 grams) shoul
           </p>
           <p>
             "Ah, not all items are made, some are dropped by monsters so it's
-            hard to say. Let me help you out, this is my shop I can do at least
-            that much, names Pal" He said his hand stretched out.
+            hard to say. Let me help you out, this is my shop, I can do at least
+            that much. Names Pal" He said his hand stretched out.
           </p>
           {/* <!-- pall means Tiny, petite --> */}
           <p>
@@ -115,11 +114,9 @@ Charlemagne in 794 decreed that a single silver penny (weighing 1.7 grams) shoul
             into?"
           </p>
           <p>
-            "I am not too sure myself, I know I want to take the elements
-            electric & wind."
+            "I am not too sure myself, I think I want the lightning element.
+            Sorry I am not sure."
           </p>
-          <p>"Ah, a battle mage then?"</p>
-          <p>"Yes, sorry I should have specified."</p>
           <p>"A mage who apiologies, rare."</p>
           <p>
             "Are other mages rude? Is it only those with bad parents who become
@@ -127,62 +124,59 @@ Charlemagne in 794 decreed that a single silver penny (weighing 1.7 grams) shoul
           </p>
           <p>
             "Ahaha, might be so, we just say it is because they think they are
-            gifted more then others. Makes them arrogant, if you keep away from
-            being arrogant and stick to what you want, you might just activate
-            it. But don't speak like that around other mages, you won't make
-            friends that way ahaha."
+            gifted more then others. Makes them arrogant, being locked away most
+            of the year in that academy doesn’t help. But don't speak like that
+            around other mages, you won't make friends that way ahaha."
           </p>
           <p>
             The shop keeper layed out 3 wands before me. "Nothing quite as fancy
             as some of the other wands, but at least useable by a beginner. Now
             I should explain the stats displayed are reflective of my
-            measurements, thats to say how much it would increase by stats by
-            just to give people a point of reference. The stats for when you
-            hold it will be reflective of your own level."
+            measurements, that is to say the exact effect it will have on will
+            be reflective of your own level. Maybe a point lower, nothing more."
           </p>
-          <p>"Oh, I did not know that.. Can I ask, what level are you?"</p>
           <p>
-            "33, I have spent more of my life as a shop keeper, item collector
-            and appraiser. Combat magic is not my specialty. I would of liked to
-            of gotten a second element but as you can see I did quite well
-            enough without it." The old shop keeper smiled.
+            "Ah yeah, my dad was an item inspector also. Do you have the numeric
+            trait also?" I asked.
           </p>
-          {/* <p>"I cannot deny that." looking at the wands they had the cards displaying: {+3 Magic.}, {Once per day skill: Detect magic (1).}, {Once per day skill: Small gust (1).} Each had their own uses, the first wand would give me +0 magic until he reached level 10 however, but every 1 magic at any level is always a boon. Detect magic would be great if he ever got to go on a mission in helping find anything magical, and without having to spend a spell point to learn it. Small gust was a wind element skill, a support skill, all it did was as it was named, a small gust of wind would pass by, maybe to pick up sand or dirt and throw it into the targets eyes, or dry clothes. Even so to find an elemental item a beginner can use was rare.</p> */}
           <p>
-            "Ah you like that one? Hard to find an elemental wand that anyone
-            can use, but since it is a first level spell it is something you can
-            learn for free."
+            "Yes, numeracy inspection is rare he's quite lucky." The old shop
+            keeper smiled.
           </p>
-          <p>"Not free, costs a point."</p>
-          <p>"That, is true."</p>
-          <p>"How much are they?"</p>
-          <p>"Same price, ¤100,000"</p>
-          <p>"Less then I thought, more then I have."</p>
+          <p>"How much are they?" I asked</p>
+          <p>"Same price, ¤100,000." He replied.</p>
+          <p>"Less then I thought, more then I have." I admitted</p>
           <p>
             "Only students from nobel houses pay with cash anyway, if you sign
             for something I can collect it later at the academy and they take it
             from your mission rewards, until they are paid back. Don't go crazy
-            though they won't loan a first year more then ¤100,000."
+            though they won't loan a first year more then ¤100,000." He
+            explained.
           </p>
-          <p>"Good thing the prices match then."</p>
+          <p>
+            "Good thing the prices match then." I said with my eye brow arched.
+          </p>
           <p>
             "Don't look at me like that, I already discounted them so you could
-            afford it if you like them, I won't force you, no doubt you will be
-            coming back for many years."
+            afford it if you like them. I won't force you, no doubt you will be
+            coming back for many years." He replied with his smile back on his
+            face.
           </p>
           <p>
             "Ah, thank you" I bowed deeply. "Could I buy the detect magic wand?"
+            I asked.
           </p>
-          <p>"Feeling you might get lucky on a mission?"</p>
+          <p>"Feeling you might get lucky on a mission?" He questioned.</p>
           <p>
             "The opposite, feel like I will be unlucky and not spot something."
+            I laughed.
           </p>
           <p>
             "It's yours, if I where you I'd keep it to yourself. Although it
             gives you access to the skill, still costs mana, you have to push
             your mana into the wand, though it and out the other side. Normally
             I ask people not to test wands in here but in this case it won't do
-            any harm so give it ago."
+            any harm so give it ago." He said.
           </p>
           <p>
             "If you are sure." I pushed my mana into the wand, it flowed though
@@ -193,33 +187,42 @@ Charlemagne in 794 decreed that a single silver penny (weighing 1.7 grams) shoul
           </p>
           <p>
             "Quite the show isn't it? Almost every item in here contains magic
-            so, thats why."
+            so, thats why." He said looking at my eyes.
           </p>
-          <p>"Why are there so many colours?"</p>
+          <p>"Why are there so many colours?" I asked.</p>
           <p>
             "Different types of magic, like the manastone when you touch it
-            turns purple-ish right?"
+            turns purple-ish right?" He said.
           </p>
-          <p>"Yeah"</p>
+          <p>"Yeah" I replied.</p>
           <p>
             "Well" taking a mana stone out from his desk and leaving it in the
             palm of his hand, the stone turns from its usual sea blue to dark
-            forest green."Wood is my element."
+            forest green. "Wood is my element."
           </p>
           <p>
-            I nodded in understanding. After thanking the shop keeper again and
-            leaving the shop with my new wand hidden away, heading to meet Leon
-            at 'Főzelékfaló' a small cafe in the castle area, I ordered Főzelék
-            as Leon had recommended it. An interesting experience, tasted like
+            I nodded in understanding. After thanking the shop keeper again I
+            left the shop with my new wand hidden away, heading to meet Leon at
+            'Főzelékfaló' a small cafe in the castle area. I ordered Főzelék as
+            Leon had recommended it. An interesting experience, tasted like
             thick vegetable stew although that description does it little
-            justice, so I became desperate to learn how to make it.
+            justice.
           </p>
 
-          {/* <div className="pop">Főzelék<img className="popOut" height="400px" src="./images/Főzelék.jpg" alt="Főzelék"></div> */}
+          <div className="pop">
+            Főzelék
+            <img
+              className="popOut"
+              height="400px"
+              src="https://ottotsuma.github.io/images/F%C5%91zel%C3%A9k.jpg"
+              alt="Főzelék"
+            />
+          </div>
 
-          <p>"Good isn't it?"</p>
+          <p>"Good isn't it?" Leon's voice came from behind me.</p>
           <p>
-            "Yeah, I don't really know how to describe it, can you make it?"
+            "Yeah, I don't really know how to describe it, can you make it?" I
+            replied.
           </p>
           <p>
             "Yeah I can, but not as well. If you want to learn my sister will be

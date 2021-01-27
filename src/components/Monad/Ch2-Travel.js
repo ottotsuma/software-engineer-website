@@ -7,11 +7,11 @@ function intro(props) {
         <div className="Content">
           <h3>Travel</h3>
           <p>
-            The students of the village would all head off on the same day, they
+            The students of the town would all head off on the same day, they
             would travel to septate destinations and along the way change the
-            adults traveling with them, at first the instructors of the village
+            adults traveling with them, at first the instructors of the town
             hall traveled with them until they reached the town of Todtenwei.
-            From there they would change guardians every town/village or city
+            From there they would change guardians every town, village or city
             until their destinations. Between Todtenwei and Shomberg was the 2nd
             Regiment of Aldens camp, there where many Fighters who would join
             the training camps near by and once the remainder of the group
@@ -32,7 +32,7 @@ function intro(props) {
           </p>
 
           <p>
-            I found himself walking next to a tall boy with short brown hair. He
+            I found myself walking next to a tall boy with short brown hair. He
             had the makings of a small mustache on his upper lip, a refined
             pointed nose and a bit of acne around his cheeks.
           </p>
