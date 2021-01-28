@@ -238,7 +238,7 @@ Deer are considered messengers to the gods in Shinto, especially Kasuga Shrine i
           <p>I picked up the mask and scanned it with my mana, I was told white stag mask would increase my magic or something equivalent, if I had a suitable lightning type power then the mask might be blessed with a lightning blessing. Either way the item would be a common item and the description name would be blue.</p>
 
           <li>
-            <font color="blue"> Ceremonial White Stag Mask.</font> Magic:
+          <li className="Normal"> Ceremonial White Stag Mask.</li> Magic:
             +1.
           </li>
 
@@ -249,7 +249,7 @@ Deer are considered messengers to the gods in Shinto, especially Kasuga Shrine i
           </p>
 
           <li>
-            <font color="purple"> Heavenly White Stag Mask.</font> Magic:
+            <li className="Unique"> Heavenly White Stag Mask.</li> Magic:
             +4.
           </li>
 

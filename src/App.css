@@ -398,6 +398,9 @@ footer {
 
 li {
   list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 ul {
@@ -634,9 +637,6 @@ footer {
   align-items: center;
 }
 
-#Normal {
-  color: blue;
-}
 
 /* drop down */
 
@@ -802,4 +802,19 @@ footer {
 .Element-Image {
   width: 8rem;
   height: 10rem;
+}
+
+
+/* Items */
+
+#Junk, .Junk {
+  color: silver;
+}
+
+#Normal, .Normal {
+  color: blue;
+}
+
+#Unique, .Unique {
+  color: purple;
 }

@@ -311,37 +311,31 @@ Coin (daughter) - (???) - O
           <p class="equipment">
             <li>Name: Otto.</li>
             <li>
-              Head:<font color="blue"> Witch's Hat.</font> Magic: +3.
+              Head: <li className="Normal">Witch's Hat.</li> Magic: +3.
             </li>
             <li>
-              Body:<font color="darkgrey"> Academy Robe (black).</font> Magic:
+              Body:<li className="Junk"> Academy Robe (black).</li> Magic:
               +1, Health + 10.
             </li>
             <li>
-              Hands:<font color="blue"> </font>{" "}
+              Hands:<li className="Normal"> </li>{" "}
             </li>
             <li>
-              Feet:<font color="blue"> </font>{" "}
+              Feet:<li className="Normal"> </li>{" "}
             </li>
             <li>
-              Acc1:<font color="blue"> Pendent of Medium Magic.</font> Magic +2
+              Acc1:<li className="li"> Pendent of Medium Magic.</li> Magic +2
               , Strength -1.
             </li>
             <li>
-              Acc2:<font color="darkgrey"> Ring of Little Strength.</font>{" "}
+              Acc2:<li className="Junk"> Ring of Little Strength.</li>{" "}
               Strength +1
             </li>
             <li>
-              Acc3:<font color="blue"> </font>{" "}
+              Weapon:<li className="Junk"> Warhammer.</li> Strength +1.
             </li>
             <li>
-              Acc4:<font color="darkgrey"> </font>{" "}
-            </li>
-            <li>
-              Primary:<font color="darkgrey"> Warhammer.</font> Strength +1.
-            </li>
-            <li>
-              Secondary:<font color="blue"> Wand.</font> Skill: Detect Magic 1
+              Secondary:<li className="Normal"> Wand.</li> Skill: Detect Magic 1
               per day.
             </li>
           </p>
