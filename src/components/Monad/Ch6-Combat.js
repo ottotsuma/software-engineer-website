@@ -22,7 +22,7 @@ function intro(props) {
 
           <p>
             <li>
-              Body:<font color="darkgrey"> Academy Robe (black).</font> Magic:
+              Body:<li className="Junk"> Academy Robe (black).</li> Magic:
               +1, Health + 10.
             </li>
           </p>
