@@ -559,6 +559,8 @@ ul {
   font-size: xx-large;
 }
 
+/* Fancy font */
+
 #Fancy {
   font-family: "Seaweed Script", cursive;
   font-size: x-large;
@@ -589,6 +591,8 @@ footer {
   color: black;
   cursor: pointer;
 }
+
+/* Pop out images */
 
 .popOut {
   display: none;
@@ -706,6 +710,8 @@ footer {
   display: none;
 }
 
+/* Note */
+
 .Note {
   background-image: url(https://img.freepik.com/free-photo/crumpled-paper-background_1373-412.jpg?size=626&ext=jpg&ga=GA1.2.1745401800.1611187200);
   background-repeat: no-repeat;
@@ -788,7 +794,6 @@ footer {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  /* background: white; */
   max-width: 100vw;
   flex-wrap: wrap;
 
