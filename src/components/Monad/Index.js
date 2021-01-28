@@ -28,15 +28,43 @@ import Chapter25 from "./Ch25-Otto";
 import Chapter26 from "./Ch26-Home";
 import Chapter27 from "./Ch27-Shrine";
 
-const ChapterList = [Chapter1(), Chapter2(), Chapter3(), Chapter4(), Chapter5(), Chapter6(), Chapter7(), Chapter8(), Chapter9(), Chapter10(), Chapter11(), Chapter12(), Chapter13(), Chapter14(), Chapter15(), Chapter16(), Chapter17(), Chapter18(), Chapter19(), Chapter20(), Chapter21(), Chapter22(), Chapter23(), Chapter24(), Chapter25(), Chapter26(), Chapter27()];
+const ChapterList = [
+  Chapter1(),
+  Chapter2(),
+  Chapter3(),
+  Chapter4(),
+  Chapter5(),
+  Chapter6(),
+  Chapter7(),
+  Chapter8(),
+  Chapter9(),
+  Chapter10(),
+  Chapter11(),
+  Chapter12(),
+  Chapter13(),
+  Chapter14(),
+  Chapter15(),
+  Chapter16(),
+  Chapter17(),
+  Chapter18(),
+  Chapter19(),
+  Chapter20(),
+  Chapter21(),
+  Chapter22(),
+  Chapter23(),
+  Chapter24(),
+  Chapter25(),
+  Chapter26(),
+  Chapter27(),
+];
 
 const scrollTop = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 };
 
-let number = 0
+let number = 1;
 if (window.location.href.match(/\d+$/)) {
-  number = parseInt(window.location.href.match(/\d+$/)[0]-1);
+  number = parseInt(window.location.href.match(/\d+$/)[0]);
 }
 
 function NextPage() {
@@ -49,7 +77,7 @@ function PreviousPage() {
 export default function Monad(params) {
   const [isPage, setPage] = useState("");
   useEffect(() => {
-    console.log(window.location.href.match(/\d+$/))
+    console.log(number);
     setPage(ChapterList[window.location.href.match(/\d+$/)[0]-1]);
   }, [number]);
 
@@ -57,26 +85,107 @@ export default function Monad(params) {
     document.getElementById("myDropdown").classList.toggle("show");
   }
 
-  function callBack (index) {
-    number = index + 1
+  function callBack(index) {
+    number = index + 1;
   }
 
   function droppy() {
-    let rows = new Array(ChapterList.length).fill(0).map( ( zero, index ) =>
-    <Link
-    key={index}
-    id={index}
-    className="dropdown-content-a"
-    onClick={() => callBack(index)}
-    to={"/Monad/" + (index + 1)}
-  >
-    Ch {index + 1}
-  </Link>
-  )
-  return rows
+    let rows = new Array(ChapterList.length).fill(0).map((zero, index) => (
+      <Link
+        key={index}
+        id={index}
+        className="dropdown-content-a"
+        onClick={() => callBack(index)}
+        to={"/Monad/" + (index + 1)}
+      >
+        Ch {index + 1}
+      </Link>
+    ));
+    return rows;
   }
 
-  if (number === 1) {
+  if (number === ChapterList.length) {
+    return (
+      <div className="Chapter-Container">
+        <Link
+          className="Footer-Button"
+          id="Previous"
+          onClick={() => PreviousPage()}
+          to={"/Monad/" + (number - 1)}
+        >
+          Previous
+        </Link>
+        <div className="dropdown">
+          <button onClick={() => myFunction()} className="dropbtn">
+            Dropdown
+          </button>
+          <div id="myDropdown" className="dropdown-content">
+            {droppy()}
+          </div>
+        </div>
+        {isPage}
+        <Link
+          className="Footer-Button"
+          id="Previous"
+          onClick={() => PreviousPage()}
+          to={"/Monad/" + (number - 1)}
+        >
+          Previous
+        </Link>
+        <button className="Footer-Button" onClick={() => scrollTop()}>
+          Top
+        </button>
+      </div>
+    );
+  } else if (number > 1) {
+    return (
+      <div className="Chapter-Container">
+        <Link
+          className="Footer-Button"
+          id="Previous"
+          onClick={() => PreviousPage()}
+          to={"/Monad/" + (number - 1)}
+        >
+          Previous
+        </Link>
+        <div className="dropdown">
+          <button onClick={() => myFunction()} className="dropbtn">
+            Dropdown
+          </button>
+          <div id="myDropdown" className="dropdown-content">
+            {droppy()}
+          </div>
+        </div>
+        <Link
+          className="Footer-Button"
+          to={"/Monad/" + (number + 1)}
+          onClick={() => NextPage()}
+        >
+          Next
+        </Link>
+        {isPage}
+        <Link
+          className="Footer-Button"
+          id="Previous"
+          onClick={() => PreviousPage()}
+          to={"/Monad/" + (number - 1)}
+        >
+          Previous
+        </Link>
+
+        <button className="Footer-Button" onClick={() => scrollTop()}>
+          Top
+        </button>
+        <Link
+          className="Footer-Button"
+          to={"/Monad/" + (number + 1)}
+          onClick={() => NextPage()}
+        >
+          Next
+        </Link>
+      </div>
+    );
+  } else {
     return (
       <div className="Chapter-Container">
         <div className="dropdown">
@@ -95,87 +204,6 @@ export default function Monad(params) {
           Next
         </Link>
         {isPage}
-        <button className="Footer-Button" onClick={() => scrollTop()}>
-          Top
-        </button>
-        <Link
-          className="Footer-Button"
-          to={"/Monad/" + (number + 1)}
-          onClick={() => NextPage()}
-        >
-          Next
-        </Link>
-      </div>
-    );
-  } else if (number === ChapterList.length) {
-    return (
-      <div className="Chapter-Container">
-        <Link
-          className="Footer-Button"
-          id="Previous"
-          onClick={() => PreviousPage()}
-          to={"/Monad/" + (number - 1)}
-        >
-          Previous
-        </Link>
-        <div className="dropdown">
-          <button onClick={() => myFunction()} className="dropbtn">
-            Dropdown
-          </button>
-          <div id="myDropdown" className="dropdown-content">
-          {droppy()}
-          </div>
-        </div>
-        {isPage}
-        <Link
-          className="Footer-Button"
-          id="Previous"
-          onClick={() => PreviousPage()}
-          to={"/Monad/" + (number - 1)}
-        >
-          Previous
-        </Link>
-        <button className="Footer-Button" onClick={() => scrollTop()}>
-          Top
-        </button>
-      </div>
-    );
-  } else {
-    return (
-      <div className="Chapter-Container">
-        <Link
-          className="Footer-Button"
-          id="Previous"
-          onClick={() => PreviousPage()}
-          to={"/Monad/" + (number - 1)}
-        >
-          Previous
-        </Link>
-        <div className="dropdown">
-          <button onClick={() => myFunction()} className="dropbtn">
-            Dropdown
-          </button>
-          <div id="myDropdown" className="dropdown-content">
-          {droppy()}
-          </div>
-        </div>
-        <Link
-          className="Footer-Button"
-          to={"/Monad/" + (number + 1)}
-          onClick={() => NextPage()}
-        >
-          Next
-        </Link>
-        {isPage}
-        <Link
-          className="Footer-Button"
-          id="Previous"
-          onClick={() => PreviousPage()}
-          to={"/Monad/" + (number - 1)}
-        >
-          Previous
-        </Link>
-
         <button className="Footer-Button" onClick={() => scrollTop()}>
           Top
         </button>
