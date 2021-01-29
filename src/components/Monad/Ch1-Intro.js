@@ -115,18 +115,28 @@ export default function Intro(props) {
           <p>
             "Congratulations!" A unified cheer rang out around the town hall,
             looking down into my cup I lamented, the reflection looking back at
-            me is far older then it use to be, stiff and past the age where I
-            should be drinking luminescent green drinks, but I had always liked
-            melon pop from his first taste over 70 years ago now. Soon the
-            reflection in the cup smiles back. "You look happier then you have
-            in years" my thoughts interrupted I turned to see my old friend
-            Edmure. "I was just thinking about how new life replaces the old" I
-            continues to smile. With a frown and then a small smile Edmure
-            retorts "You thinking Michkels new babe is here to replace you?,
-            there is still life left in the both of us yet". The small gathering
-            carries on into the night. June 12th a night the people of Alden
-            celebrate the new life brought into this world over the past year, a
-            small tradition as not all make it past infancy.
+            me was far older then it use to be. Stiff and past the age where I
+            should be drinking luminescent green drinks. I had always liked
+            melon pop ever since I first tired it over 70 years ago now. Soon
+            the reflection in my cup smiled back.
+          </p>
+          <p>
+            "You look happier then you have in years." My thoughts interrupted I
+            turned to see my old friend Edmure.
+          </p>
+          <p>
+            "I was just thinking about how new life replaces the old" I
+            continues to smile.
+          </p>
+          <p>
+            With a frown at first and then smile Edmure retorted "You thinking
+            your grandson is here to replace you?, there is still life left in
+            the both of us yet".
+          </p>
+          <p>
+            The small gathering carries on into the night. June 12th a night the
+            people of Alden celebrate the new life brought into this world over
+            the past year, a small tradition as not all make it past infancy.
           </p>
           <p>
             Edmure whispered into my ear, there have been sightings of the sea

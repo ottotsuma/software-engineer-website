@@ -4,19 +4,6 @@ function intro(props) {
     <div className="Monad" id="3">
       <div className="Frame">
         <div className="Content">
-          <h4>Tisiel, Reingard</h4>
-          <p>
-            Sitting together Reingard and Tisiel in Tisiel's room they looked
-            over the items they got from the pyramid. 10 items in total, one
-            matching each of the symbols on the table above. Tisiel took a staff
-            with a skull affixed to the top which aided in the creation of
-            skeletons. The other items would bring them in more money then they
-            could earn working though the academy or even as mercenaries for a
-            few years. These items where unique and that made them one of a
-            kind, even if they were not the best combat pieces they would still
-            be sort after.
-          </p>
-
           {/*  Xiquiripat ("Flying Scab") and Cuchumaquic ("Gathered Blood"), who sicken people's blood;
 Ahalpuh ("Pus Demon") and Ahalgana ("Jaundice Demon"), who cause people's bodies to swell up;
 Chamiabac ("Bone Staff") and Chamiaholom ("Skull Staff"), who turn dead bodies into skeletons;
@@ -37,9 +24,17 @@ Noticed by a God - get the notice of a God, (varies) */}
             this was getting a bit weird. Although we had not found a coin in
             the cliffside it was surely a burial place as Shrorlei had said,
             does not mean there was not a coin down there just I did not find
-            it. This time Shrorlei had lost her life. For a single coin the cost
-            was too high, but for what was learned maybe the price had to be
-            paid.
+            it? This time Shrorlei had lost her life. For a single coin, the
+            cost was too high.
+          </p>
+
+          <p>
+            10 items in total Tisiel and Reingard had come back with. Tisiel
+            took a staff with a skull affixed to the top which aided in the
+            creation of skeletons. The other items would bring them in more
+            money then they could earn working though the academy. These items
+            where unique and that made them one of a kind, even if they were not
+            the best, combat pieces would still be sort after.
           </p>
 
           <p>
@@ -65,26 +60,27 @@ Noticed by a God - get the notice of a God, (varies) */}
             "The various names printed on the table were things they gave
             offerings to, of blood. We believe animals and possibly humans or
             other races but we are unsure for now. The main point is there where
-            10 of them and they are kind of demons, I call them this because the
+            10 of them and they are kind of demons. I call them this because the
             blood and the references to them being down under so I think this is
             the best translation for now." - Tisiel
           </p>
 
-          <p>"What about the creature drawn above the table?"</p>
+          <p>"What about the creature drawn above the table, on the roof?"</p>
 
           <p>
-            "Not one of them, although it had kind of eyes to us, it is possible
-            we are just projecting onto it and it might of been a drawing of
-            something else so I am not sure what that was of."
+            "It was not one of them. It is possible it was a kind of watching
+            eye like the people in the kingdom use, they put them up in shops to
+            catch thieves, my parents took me before. In all honesty I am not
+            sure what that was of."
           </p>
 
-          <p></p>
+          <p>"I think it was a kind of God, since it was above the demons below." I replied.</p>
 
           <p>
-            "Well onto the more interesting stuff. The people which made up
+            "Well that is a possibility. The people which made up
             these societies where obsessed with death, gods of death, demons of
             death and the practice of necromancy which is perfect for me that
-            they died out and the practice is not as wildly used because what
+            they died out and left behind everything because what
             was theirs is now mine."
           </p>
 
@@ -92,13 +88,13 @@ Noticed by a God - get the notice of a God, (varies) */}
             "As long as I get stronger I don't mind joining these expeditions.
             Although I cannot say I have a need or interest in necromancy. I am
             sure you will become one of the legends said to raise whole armies
-            from the dead."
+            from the dead." I joked.
           </p>
 
           <p>
             "Aha, I am happy with just a few cute skeleton helpers here and
             there. I don't plan on becoming a combat mage anyway. You might be
-            more interested to know that the coins while they are magic items
+            more interested to know that the coins, while they are magic items
             according to this..." Tisiel flipped though her note book and the
             book from the market to show me her notes. "They are a type of
             single use item."
@@ -127,7 +123,7 @@ Noticed by a God - get the notice of a God, (varies) */}
           </p>
 
           <p>
-            "Well I'll keep hold of them maybe we can shed more light on them in
+            "Well I'll keep hold of them, maybe we can shed more light on them in
             the future, it's not like I can sell them for the right price by
             saying I have no idea what they do, and when you use them they will
             be gone forever."
@@ -159,7 +155,7 @@ Noticed by a God - get the notice of a God, (varies) */}
           </p>
 
           {/* Title Here */}
-          <h4>Title here</h4>
+          <h4>God</h4>
 
           <p>"Hunt the stag."</p>
 
@@ -195,6 +191,8 @@ Noticed by a God - get the notice of a God, (varies) */}
 
           {/* Gods of worship require pray for awhile to grant faith based classes and then faith spells, gods of no worship have their attention on one or few individuals and are able to grand faith spells before to increase their following. Often gods fall out of fashion due to religious wars and differences or societal pressure. And you can get faith spells from the new god, maybe there spells suit you better or your society finds more acceptable the requirements such as the hunt or sacrifice will be popular before are not popular now. */}
 
+
+          {/* Otto talks to God */}
           <p>
             I went on the trip to become stronger, I had become stronger but not
             in the way I had hopped I had no more defences then when I left the
@@ -471,21 +469,61 @@ Mana ball (lightning) (Pow: 1), Tether, Magic resistance (passive), Magic up (pa
             again until the next drawings in a week, with that in mind I took
             some time to watch some of the other matches.
           </p>
-          
-<h4>Spectator - POV commentator</h4>
-{/* Oblivion easter egg / arena dialogue */}
-<p>"Welcome, welcome, to the Arena!"</p>
-<p>We have two teams for you today, on the right the green team, and on the left the red team!</p>
-<p>"You came to watch a fight, and a fight you shall have! It's a second year student team showdown in a battle to determine the victor! Lower the gates!"</p>
-<p>The green team is made up of all fire-mages, perhaps they should of been the red team! The red team is a mixed group of water, ice, wind and light! This should be quite the showdown!</p>
-<p>A heated start, the green team had throw fireballs, waves of flames and wisps all across the field! Red team rebutted with waterballs, ice walls, and a large gust of wind subduing the raging flames! A light has filled the arena shining in the eyes of the green team! What a start!</p>
-<p>Green team are putting on the pressure again, fireballs and flamethrowers trying to group up the red team, the ice spears and water walls only doing so much to hold them back, light magic while powerful in areas is really struggling to hold back the flames it might be we have our first out.</p>
-<p>What is this! Green team's team captain is summoning a fire elemental! This could be a game changer! Red team where already launching a plan of their own! Red teams wind mage has launched herself into the air!</p>
-<p>Now she is airborne her wind infused manaballs are raining down  on the summoning mage with no defense to be found! This explains the green teams aggressive start they where doing it to protect their captain!</p>
-<p>With their plan just a distant memory the green team are breaking down, some are shooting fireballs up others still trying to apply pressure, but with the split red team are making short work of green team.</p>
-<p>"My friends, we have a winner! Behold, the combatants from the red Team! If you bet on the red Team, see the merchants to collect your winnings!"</p>
 
-
+          <h4>Spectator - POV commentator</h4>
+          {/* Oblivion easter egg / arena dialogue */}
+          <p>"Welcome, welcome, to the Arena!"</p>
+          <p>
+            We have two teams for you today, on the right the green team, and on
+            the left the red team!
+          </p>
+          <p>
+            "You came to watch a fight, and a fight you shall have! It's a
+            second year student team showdown in a battle to determine the
+            victor! Lower the gates!"
+          </p>
+          <p>
+            The green team is made up of all fire-mages, perhaps they should of
+            been the red team! The red team is a mixed group of water, ice, wind
+            and light! This should be quite the showdown!
+          </p>
+          <p>
+            A heated start, the green team had throw fireballs, waves of flames
+            and wisps all across the field! Red team rebutted with waterballs,
+            ice walls, and a large gust of wind subduing the raging flames! A
+            light has filled the arena shining in the eyes of the green team!
+            What a start!
+          </p>
+          <p>
+            Green team are putting on the pressure again, fireballs and
+            flamethrowers trying to group up the red team, the ice spears and
+            water walls only doing so much to hold them back, light magic while
+            powerful in areas is really struggling to hold back the flames it
+            might be we have our first out.
+          </p>
+          <p>
+            What is this! Green team's team captain is summoning a fire
+            elemental! This could be a game changer! Red team where already
+            launching a plan of their own! Red teams wind mage has launched
+            herself into the air!
+          </p>
+          <p>
+            Now she is airborne her wind infused manaballs are raining down on
+            the summoning mage with no defense to be found! This explains the
+            green teams aggressive start they where doing it to protect their
+            captain!
+          </p>
+          <p>
+            With their plan just a distant memory the green team are breaking
+            down, some are shooting fireballs up others still trying to apply
+            pressure, but with the split red team are making short work of green
+            team.
+          </p>
+          <p>
+            "My friends, we have a winner! Behold, the combatants from the red
+            Team! If you bet on the red Team, see the merchants to collect your
+            winnings!"
+          </p>
         </div>
       </div>
     </div>

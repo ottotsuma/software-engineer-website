@@ -78,7 +78,15 @@ function intro(props) {
             found in Pocotcotcan literature.
           </p>
 
-          <div class="pop">Landmark<img class="popOut" src="https://ottotsuma.github.io/images/inca2.png" height="400px" alt="Pyramid" /></div>
+          <div class="pop">
+            Landmark
+            <img
+              class="popOut"
+              src="https://ottotsuma.github.io/images/inca2.png"
+              height="400px"
+              alt="Pyramid"
+            />
+          </div>
 
           <p>
             It took half of the afternoon for us to find a small stream which
@@ -366,61 +374,183 @@ and Xic ("Wing") and Patan ("Packstrap"), */}
             combined, it was a weapon pocotcotco warriors have been recorded
             using.
           </p>
-          
-<h4>POV Tisiel</h4>
-<p>Down stairs were row after row of colorful statues of warriors and mages monsters and animals alike, there where a few larger then others and some so small you could keep them on your desk as a toy. The king was seated on a large throne with a crown atop his head.</p>
 
-<p>We made a B line to the king, dodging and weaving between the stone people. The king was as colorful as his subjects with a crown of gold and many gems embedded inside. The statue's where all painted and although clearly made of stone the work was so well done as to be life like unlike the carvings which adorned the pyramid its self outside.</p>
+          <h4>POV Tisiel</h4>
+          <p>
+            Down stairs were row after row of colorful statues of warriors and
+            mages monsters and animals alike, there where a few larger then
+            others and some so small you could keep them on your desk as a toy.
+            The king was seated on a large throne with a crown atop his head.
+          </p>
 
-<p>The kinds hands were wrapped around the chair he sat on, at his feet where offerings of food, wine, gold and weapons. Unfortunately they where just stone recreations. The only other things of note where his bodyguards and a stone tablet with the strange symbols written across them. This time however I could see the numbers which I found on some of the coins Otto had given me at the start. This was a list, of ... something.</p>
+          <p>
+            We made a B line to the king, dodging and weaving between the stone
+            people. The king was as colorful as his subjects with a crown of
+            gold and many gems embedded inside. The statue's where all painted
+            and although clearly made of stone the work was so well done as to
+            be life like unlike the carvings which adorned the pyramid its self
+            outside.
+          </p>
 
-<p>Reingard had come to stand by me, I grabbed at the hem of his trousers. He just replied with a smile. Volker and Raina had taken interest in the king for awhile before looking around and marveling at the creatures some of which I had not even seen in books yet. Shrorlei had followed us at first but now she was to be found with a manaball in hand looking at the art on the walls. It seemed like at last me and Reingard had some time alone.</p>
+          <p>
+            The kinds hands were wrapped around the chair he sat on, at his feet
+            where offerings of food, wine, gold and weapons. Unfortunately they
+            where just stone recreations. The only other things of note where
+            his bodyguards and a stone tablet with the strange symbols written
+            across them. This time however I could see the numbers which I found
+            on some of the coins Otto had given me at the start. This was a
+            list, of ... something.
+          </p>
 
-<p>"You have not forgot why we came here?"</p>
+          <p>
+            Reingard had come to stand by me, I grabbed at the hem of his
+            trousers. He just replied with a smile. Volker and Raina had taken
+            interest in the king for awhile before looking around and marveling
+            at the creatures some of which I had not even seen in books yet.
+            Shrorlei had followed us at first but now she was to be found with a
+            manaball in hand looking at the art on the walls. It seemed like at
+            last me and Reingard had some time alone.
+          </p>
 
-<p>"No I haven't but where to start? There is nothing of value here. I mean nothing of value we can exchange easily, I am sure the place it's self is worth a small fortune to somebody."</p>
+          <p>"You have not forgot why we came here?"</p>
 
-<p>"Hmm the boxes at the kings feet, it's in the book 10 for the demons of death and one for the lord. They might be stone but the insides should be what we came for."</p>
+          <p>
+            "No I haven't but where to start? There is nothing of value here. I
+            mean nothing of value we can exchange easily, I am sure the place
+            it's self is worth a small fortune to somebody."
+          </p>
 
-<p>"Right." Reingard moved to open the stone chests quickly and quietly as the others marveled at the at the the wonders on display.</p>
+          <p>
+            "Hmm the boxes at the kings feet, it's in the book 10 for the demons
+            of death and one for the lord. They might be stone but the insides
+            should be what we came for."
+          </p>
 
-<p>Reingard stuff what he found into the bag at his waist and slide it under his cloak. As soon as he had Tisiel had finished making a sketch of the stone tablet they felt the pyramid shake again. A slow gentle rumble, building in intensity.</p>
+          <p>
+            "Right." Reingard moved to open the stone chests quickly and quietly
+            as the others marveled at the at the the wonders on display.
+          </p>
 
-<p>"Time to go" I shouted, grabbing my parchments and Reingard's hard we ran dodging ducking diving back though the stone warriors and to the stairs. Volker and Raina had clearly heard me and we made to to the stairs together, Otto and Shrorlei were no where to be seen. I tugged on Reingard's hand and we climbed the stairs looking out to try and spot them, Shrorlei could not be seen, she was not a tall girl she could be behind any of these statue's. Otto was not hiding himself at all, he stood atop a 10m tall statue of a stag. I shouted to him to come quickly, but he just did not move.</p>
+          <p>
+            Reingard stuff what he found into the bag at his waist and slide it
+            under his cloak. As soon as he had Tisiel had finished making a
+            sketch of the stone tablet they felt the pyramid shake again. A slow
+            gentle rumble, building in intensity.
+          </p>
 
-<p>We waited in the room above for the other two worried the entranceway to the stairs would close any moment, when we had arrived on top the most obvious change was the doe that Volker had left on the stone table was gone. Not a trace was left not a single drop of blood. Suddenly the shaking stop. SLAM. I jumped the entrance way had shut tight.</p>
+          <p>
+            "Time to go" I shouted, grabbing my parchments and Reingard's hard
+            we ran dodging ducking diving back though the stone warriors and to
+            the stairs. Volker and Raina had clearly heard me and we made to to
+            the stairs together, Otto and Shrorlei were no where to be seen. I
+            tugged on Reingard's hand and we climbed the stairs looking out to
+            try and spot them, Shrorlei could not be seen, she was not a tall
+            girl she could be behind any of these statue's. Otto was not hiding
+            himself at all, he stood atop a 10m tall statue of a stag. I shouted
+            to him to come quickly, but he just did not move.
+          </p>
 
-<p>Volker - "I guess we should get another to open it up for them again.."</p>
+          <p>
+            We waited in the room above for the other two worried the
+            entranceway to the stairs would close any moment, when we had
+            arrived on top the most obvious change was the doe that Volker had
+            left on the stone table was gone. Not a trace was left not a single
+            drop of blood. Suddenly the shaking stop. SLAM. I jumped the
+            entrance way had shut tight.
+          </p>
 
-<p>Tisiel - "Yeah, let's hunt one quickly I don't think staying inside there will be good." We made out way into the jungle together to hunt.</p>
+          <p>
+            Volker - "I guess we should get another to open it up for them
+            again.."
+          </p>
 
-<h4>POV Shrorlei</h4>
-<p>I had spent my time going though the art-work on the walls when I felt the pyramid shake again, before I could make to to the stair case I saw the others move up and the lid shut. I did no panic I had food, water and they would open the lid again, if not though a new hunt then getting help from the academy. Okay maybe I was a little panicked.</p>
+          <p>
+            Tisiel - "Yeah, let's hunt one quickly I don't think staying inside
+            there will be good." We made out way into the jungle together to
+            hunt.
+          </p>
 
-<p>The art work had been beautiful but haunting. It had shown a war, a great war but not over land, food, water, precious gems but people. They had gone to war against other races for their people. To be precise the dwarves, elf's, gnoll's, gnomes and many I had never seen before. They took them to this temple, placed them on the tables and removed their hearts. It was hard to say why, or what they did with the hearts that was so important to them, the drawings just go into the creature of the stone statues around us now.</p>
+          <h4>POV Shrorlei</h4>
+          <p>
+            I had spent my time going though the art-work on the walls when I
+            felt the pyramid shake again, before I could make to to the stair
+            case I saw the others move up and the lid shut. I did no panic I had
+            food, water and they would open the lid again, if not though a new
+            hunt then getting help from the academy. Okay maybe I was a little
+            panicked.
+          </p>
 
-<p>I walked towards the stairs, I should wait there. On my way back I felt a sudden and blow to the back of my head, it felt as if my brain way trying to jump though the front of my skull as I fell face first into the ground, my nose bent on impact the blood splattered across the floor. I felt too much of a shock to move much at all the pain soon surged though me and I became overwhelmed. Reaching for my knife.</p>
+          <p>
+            The art work had been beautiful but haunting. It had shown a war, a
+            great war but not over land, food, water, precious gems but people.
+            They had gone to war against other races for their people. To be
+            precise the dwarves, elf's, gnoll's, gnomes and many I had never
+            seen before. They took them to this temple, placed them on the
+            tables and removed their hearts. It was hard to say why, or what
+            they did with the hearts that was so important to them, the drawings
+            just go into the creature of the stone statues around us now.
+          </p>
 
-<h4>POV - Otto</h4>
-<p>The group of Reingard, Tisiel, Volker, Raina had come back holding with them some dead rabbits, sitting in the with the things they had left behind I smiled down at them, waiting for them to climb the stairs so we could pack and head home.</p>
+          <p>
+            I walked towards the stairs, I should wait there. On my way back I
+            felt a sudden and blow to the back of my head, it felt as if my
+            brain way trying to jump though the front of my skull as I fell face
+            first into the ground, my nose bent on impact the blood splattered
+            across the floor. I felt too much of a shock to move much at all the
+            pain soon surged though me and I became overwhelmed. Reaching for my
+            knife.
+          </p>
 
-<p>"How, *pant* are you *pant* on the outside?"</p>
-<p>"It opens from the inside."</p>
-<p>"And you did not think to let Shrorlei out with you?"</p>
-<p>"Shrorlei? I thought she left first?" - Otto</p>
-<p>"We thought she was trapped in there with you." - Tisiel</p>
-<p>"Let's just open it back up" - Volker</p>
+          <h4>POV - Otto</h4>
+          <p>
+            The group of Reingard, Tisiel, Volker, Raina had come back holding
+            with them some dead rabbits, sitting in the with the things they had
+            left behind I smiled down at them, waiting for them to climb the
+            stairs so we could pack and head home.
+          </p>
 
-<p>They had cut the rabbits on top of the table like before and spilt blood onto the table. While the others spent their time looking for Shrorlei I had opted to stay outside just incase with Tisiel. I told her I had found another coin around the priest and guardian sitting on a stone alter between them. Showing her the coin. It was similar to the coin in the last womans grave in weight & size. On her coin was a king with a skull for a face and the other a strange symbol like the symbols on the table upstairs. This new coin had the same symbol on one side and priest on the other holding a heart above a pyramid just like this one.</p>
+          <p>"How, *pant* are you *pant* on the outside?"</p>
+          <p>"It opens from the inside."</p>
+          <p>"And you did not think to let Shrorlei out with you?"</p>
+          <p>"Shrorlei? I thought she left first?" - Otto</p>
+          <p>"We thought she was trapped in there with you." - Tisiel</p>
+          <p>"Let's just open it back up" - Volker</p>
 
-<p>Soon the others came up while Tisiel was checking out the new coin, she placed it back in my hand as the others come up with ugly faces. "What is wrong?" Tisiel asked quietly beside me.</p>
+          <p>
+            They had cut the rabbits on top of the table like before and spilt
+            blood onto the table. While the others spent their time looking for
+            Shrorlei I had opted to stay outside just incase with Tisiel. I told
+            her I had found another coin around the priest and guardian sitting
+            on a stone alter between them. Showing her the coin. It was similar
+            to the coin in the last womans grave in weight & size. On her coin
+            was a king with a skull for a face and the other a strange symbol
+            like the symbols on the table upstairs. This new coin had the same
+            symbol on one side and priest on the other holding a heart above a
+            pyramid just like this one.
+          </p>
 
-<p>"Shrorlei is dead. Found her with her head beaten in and mostly crushed, a large hold in her chest. As soon as we found her we left, we should tell the academy." - Volker</p>
+          <p>
+            Soon the others came up while Tisiel was checking out the new coin,
+            she placed it back in my hand as the others come up with ugly faces.
+            "What is wrong?" Tisiel asked quietly beside me.
+          </p>
 
-<p>Otto - "I know we are in shock, but we should move quickly. What ever killed her might still be in there or of been let free, there is nothing else we can do from here."</p>
+          <p>
+            "Shrorlei is dead. Found her with her head beaten in and mostly
+            crushed, a large hold in her chest. As soon as we found her we left,
+            we should tell the academy." - Volker
+          </p>
 
-<p>And like that we headed back for the academy, silence filled the hike home.</p>
+          <p>
+            Otto - "I know we are in shock, but we should move quickly. What
+            ever killed her might still be in there or of been let free, there
+            is nothing else we can do from here."
+          </p>
 
+          <p>
+            And like that we headed back for the academy, silence filled the
+            hike home.
+          </p>
         </div>
       </div>
     </div>
