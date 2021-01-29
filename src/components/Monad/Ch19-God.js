@@ -74,14 +74,17 @@ Noticed by a God - get the notice of a God, (varies) */}
             sure what that was of."
           </p>
 
-          <p>"I think it was a kind of God, since it was above the demons below." I replied.</p>
+          <p>
+            "I think it was a kind of God, since it was above the demons below."
+            I replied.
+          </p>
 
           <p>
-            "Well that is a possibility. The people which made up
-            these societies where obsessed with death, gods of death, demons of
-            death and the practice of necromancy which is perfect for me that
-            they died out and left behind everything because what
-            was theirs is now mine."
+            "Well that is a possibility. The people which made up these
+            societies where obsessed with death, gods of death, demons of death
+            and the practice of necromancy which is perfect for me that they
+            died out and left behind everything because what was theirs is now
+            mine."
           </p>
 
           <p>
@@ -123,8 +126,8 @@ Noticed by a God - get the notice of a God, (varies) */}
           </p>
 
           <p>
-            "Well I'll keep hold of them, maybe we can shed more light on them in
-            the future, it's not like I can sell them for the right price by
+            "Well I'll keep hold of them, maybe we can shed more light on them
+            in the future, it's not like I can sell them for the right price by
             saying I have no idea what they do, and when you use them they will
             be gone forever."
           </p>
@@ -157,7 +160,9 @@ Noticed by a God - get the notice of a God, (varies) */}
           {/* Title Here */}
           <h4>God</h4>
 
-          <p>"Hunt the stag."</p>
+          <p>
+            In a deep other worldly voice sounded in my mind. "Hunt the stag."
+          </p>
 
           <p>
             A blinding pain filled my brain as images and information followed
@@ -191,16 +196,16 @@ Noticed by a God - get the notice of a God, (varies) */}
 
           {/* Gods of worship require pray for awhile to grant faith based classes and then faith spells, gods of no worship have their attention on one or few individuals and are able to grand faith spells before to increase their following. Often gods fall out of fashion due to religious wars and differences or societal pressure. And you can get faith spells from the new god, maybe there spells suit you better or your society finds more acceptable the requirements such as the hunt or sacrifice will be popular before are not popular now. */}
 
-
           {/* Otto talks to God */}
           <p>
-            I went on the trip to become stronger, I had become stronger but not
-            in the way I had hopped I had no more defences then when I left the
-            arena rounds would start tomorrow the best I could do now was
-            practice with my new skill get some rest and hope for good match
-            ups.
+            I joined the group on the trip into the jungle to become stronger. I
+            had become stronger, but not in the way I had hopped. Praying to
+            this new God had left me with a headache but also a new skill. It wa
+            a very suitable skill for me, but I have never heard of a God giving
+            out skills with another's name.
           </p>
 
+          <p></p>
           {/* Arena Battle day & Arena day matches other then one of Otto's should be told though a commentator, give it some professional and hype! */}
           <h4>Battle Day</h4>
           <p>That morning I equipped the items had.</p>
