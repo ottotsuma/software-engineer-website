@@ -205,6 +205,12 @@ Noticed by a God - get the notice of a God, (varies) */}
             out skills with another's name.
           </p>
 
+          <p>I did not know where to find an elemental stag. No one did. It was a mythical creature, emphasis on the myth. Why did I not think about that sooner? This quest was impossible! Hmph! I am not sure why, but I thought it would be a good idea to pray again, see if I can talk to this God, it is not like he has other followers left alive.</p>
+
+          <p>As expected the prays landed on deaf ears, or none at all. I could feel a connection but the connection felt dark, like the other end was empty. I sat down on my bed and looked at the roof. Before I could even think about anything a gentle dull throbbing pain started in my head. I somehow knew a connection had been made.</p>
+
+          <p>A voice came directly into my head. "Been a long time since anyone prayed to me. You must of been the boy I saw at the southern temple. I hope the system has been taking good care of you."</p>
+
           <p></p>
           {/* Arena Battle day & Arena day matches other then one of Otto's should be told though a commentator, give it some professional and hype! */}
           <h4>Battle Day</h4>
