@@ -209,9 +209,21 @@ Noticed by a God - get the notice of a God, (varies) */}
 
           <p>As expected the prays landed on deaf ears, or none at all. I could feel a connection but the connection felt dark, like the other end was empty. I sat down on my bed and looked at the roof. Before I could even think about anything a gentle dull throbbing pain started in my head. I somehow knew a connection had been made.</p>
 
-          <p>A voice came directly into my head. "Been a long time since anyone prayed to me. You must of been the boy I saw at the southern temple. I hope the system has been taking good care of you."</p>
+          <p>A voice came directly into my head. "Been a long time since anyone prayed to me. You must of been the boy I saw at the southern temple. I hope the system has been taking good care of you." It was Ekʼ Chuah himself.</p>
 
-          <p></p>
+          <p>"System? What system?" I asked confused.</p>
+
+          <p>"The voice that gives quests and grants faith in my absence. I have been asleep for... I am not sure how long, but the system should still be functioning." Ekʼ Chuah replied.</p>
+
+          <p>"Oh, that voice was a system? It gave me a quest that I cannot do even with the spell it gave me to use... Sorry." I said.</p>
+
+          <p>"Let me see... Oh, that quest. That was the last quest I gave out to my previous champion. Since he did not complete it I guess the system gave it to you. I'm going to change it myself, hold on." He said sounding more awake.</p>
+
+          <p>"Can I ask about the spell also? Just it has the name of another God on it..." I asked unsure how he might respond.</p>
+
+          <p>".... I guess the system needs to be turned off for awhile. I need to make changes, that was a mistake. Still it's a good spell for you, with your lightning element. I must ask, the Pocotcotcos, do you know them?" He asked.</p>
+
+          <p>"There is a country with that name in the west. They use to rule here until the witch of Alden and other founding members overthrew them, now this academy belongs to Alden." I said.</p>
           {/* Arena Battle day & Arena day matches other then one of Otto's should be told though a commentator, give it some professional and hype! */}
           <h4>Battle Day</h4>
           <p>That morning I equipped the items had.</p>
