@@ -99,7 +99,19 @@ function intro(props) {
             I was just being used as target practice.
           </p>
 
-          <p>I wanted to do one more match, honestly I liked doing duels. However I decided against it. In the end I would not net any rewards, I was not good enough and the thing I wanted to do most was kill monsters. I had no interest in joining the army and fighting the kingdom in the west every 5 years, the republic in the north now the rebellion had started. I would much rather head back to Savigal and fight monsters until I am strong enough to travel out of Alden.</p>
+          <p>
+            I wanted to do one more match, honestly I liked doing duels. However
+            I decided against it. In the end I would not net any rewards, I was
+            not good enough and the thing I wanted to do most was kill monsters.
+            I had no interest in joining the army and fighting the kingdom in
+            the west every 5 years, the republic in the north now the rebellion
+            had started. I would much rather head back to Savigal and fight
+            monsters until I am strong enough to travel out of Alden.
+          </p>
+{/* Shrorlei,  Reingard, Tisiel, Ralsan, Leon*/}
+          <p>I left and went to find Tisiel to see if she had made any progress. Walking though the smaller training areas I ran into Ralsan & Shrorlei. "Hey are you two going to train?" I asked them.</p>
+
+          <p></p>
 
           {/* Something */}
 
