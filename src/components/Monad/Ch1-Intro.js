@@ -165,43 +165,42 @@ export default function Intro(props) {
           {/* <!-- starting with the kids meeting as friends, introduce the town, some news the people, small parts of the world, culture--> */}
           <p>
             It had been 10 years since I had found the blood soaked diary on
-            David's body. He was my wife's dad. Edmure his best friend had later
-            moved to Swexausern about 25km north-west. I was told he died
+            David's body. He was my wife's dad. Edmure, his best friend, had
+            later moved to Swexausern, about 25km north-west. I was told he died
             peacefully two years ago. Today was June 12th and the town was
             getting ready for the same festival again. I guess that's why I was
             thinking of him again today.
           </p>
           <p>
-            "Hey Karla" I waved across the town square towards her holding hands
-            with 3 children. Two older girls and a boy, all the children had red
-            hair like their mother. As the two groups got closer I nudged Sarah
-            and pointed to our son's smiling face. He only smiled like this when
-            Effi, Karla's daughter was around.{" "}
+            "Hey Karla." I waved across the town square towards her holding
+            hands with 3 children. Two older girls and a boy, all the children
+            had red hair like their mother. As the two groups got closer I
+            nudged Sarah and pointed to our son's smiling face. He only smiled
+            like this when Effi, Karla's daughter was around.
           </p>
           <p>"Good to see you are all well" Sarah said. </p>
-          <p>"Where is Robert?" I asked. </p>{" "}
+          <p>"You too, Where is Robert?" I asked. </p>
           <p>
             "He's going to meet us later on, went to the hall to get the news
-            and left me alone with these loverly lot." Karla replied.{" "}
+            and left me alone with these loverly lot." Karla replied.
           </p>
           <p>
-            {" "}
-            Our group now larger made our way towards a near by wood, where we
-            met with other adults of the town and their children. The children
-            ran off into the forest to play as the adults made way for a fire,
-            today is a festive day June 12th.
+            Our group now larger, made our way towards the wood near by. We met
+            with other adults of the town and their children. The children ran
+            off into the forest to play as the adults made way for a fire, today
+            is a festive day June 12th.
           </p>
           <p>
-            While setting up in the morning Robert soon joined us and shared the
-            news of the of the on going northern border problems. People living
-            there have been unhappy with the Republic's increased taxes and
-            taking their children to be trained to fight a war so far from their
-            home while still having to fend off monsters of their own. The
-            republic had this year alone a massive Avalanche in Neuenese and a
-            Fault in Moborodian, the earth there had opened up and monsters in
-            the depths had spread out. The rebels had forces between
+            While setting up in the morning Robert joined us and shared the news
+            of the of the on going northern border problems. People living there
+            have been unhappy with the Republic's increased taxes and taking
+            their children to fight a war so far away from home. The villages
+            still had to fend off monsters of their own. The republic had a
+            massive Avalanche in Neuenese and a Fault in Moborodian, the earth
+            there had opened up and monsters in the depths had spread out. The
+            rebels fed up with their treatment had forces between
             100,000~300,000. Since most where not soldiers beforehand the
-            Republic have accused Alden of supplying the rebels.
+            success of the rebels was blamed on Aldens supplying the rebels.
           </p>
           <p>
             "We have been supplying them haven't we?" I asked. "If not, we
@@ -211,7 +210,7 @@ export default function Intro(props) {
             "We have." Robert replied. "Too obviously it seems if even the town
             inspector knows we have." He joked.
           </p>
-          <p>"Any news not from the Republic?" I asked.</p>
+          <p>"Aha, well is there any news not from the Republic?" I asked.</p>
           <p>
             "Elves have cat fever. Gianlongian in Huonhia has a drought, their
             second biggest port city included. Desonean in the Kingdom has
@@ -235,11 +234,11 @@ export default function Intro(props) {
             the rarest trait, to see the items in numbers. Each had their
             advantages, numbers where more precise. The problem was my inspect
             skill was quite low, so while I could see information accurately, it
-            was low level information such as durability, obvious stats and the
+            was low level information such as durability and the
             items name.
           </p>
           <p>
-            Every night I teach my son Otto more about the skill, he also got
+            Every night I teach my son Otto more about the skill, he also has
             the numeric trait. Inspect is one of the few skills in the world
             that do not require skill points to learn, which is nice. However
             that means it requires talent, practice and luck. I was lucky enough

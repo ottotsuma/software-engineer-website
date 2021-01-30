@@ -224,6 +224,16 @@ Noticed by a God - get the notice of a God, (varies) */}
           <p>".... I guess the system needs to be turned off for awhile. I need to make changes, that was a mistake. Still it's a good spell for you, with your lightning element. I must ask, the Pocotcotcos, do you know them?" He asked.</p>
 
           <p>"There is a country with that name in the west. They use to rule here until the witch of Alden and other founding members overthrew them, now this academy belongs to Alden." I said.</p>
+
+          <p>"Curious. My people where called Pocotcotcos and I was their God of death." He said, the last word left me wondering if I had made the right choice. There was a God of death already in Alden. He was despised by most because of the subject of death and the God of life being so popular here.</p>
+
+          <p>"Check your quests now, it's in a tab next to your profile. Just bring up your status as normal at the top there should be a thing labeled 'Quests'." He said as I was starting to regret my decision.</p>
+
+          <p>I looked, and sure enough there was a quests tab. My only quest inside: [Pray everyday for 1 week. Reward: +1 Faith.] This quest was much easier! Also the reward was visible now. Is another faith slot not a really good reward? I should ask a priest later, but I thought this kind of reward is hard to get.</p>
+
+          <p>"Normally yes, but you are my only follower. I need you to get stronger quickly so I can promote you to a priest or better yet prophet to spread worship of me." He said I was thinking to myself. "Also you know you are projecting your voice inside your head right? It's tricky at first but you'll get the hang of it." I felt kind of embarrassed.</p>
+
+          <p>"Thank you. I guess you must be busy since you just came back? I will pray everyday so I am going to bed." I said. "Sleep well." He replied and the connection felt like it had gone dark again.</p>
           {/* Arena Battle day & Arena day matches other then one of Otto's should be told though a commentator, give it some professional and hype! */}
           <h4>Battle Day</h4>
           <p>That morning I equipped the items had.</p>
