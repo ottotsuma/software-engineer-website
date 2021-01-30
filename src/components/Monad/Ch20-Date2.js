@@ -6,6 +6,7 @@ function intro(props) {
         <div className="Content">
           {/* Date 3 */}
           <h4>Fair Date</h4>
+          <p>""</p>
           {/* Gives Tsuma the witches hat */}
           <p>
             Tsuma - "I have always wanted to be a witch, the kind of a
