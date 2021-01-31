@@ -6,7 +6,42 @@ function intro(props) {
         <div className="Content">
           {/* Date 3 */}
           <h4>Fair Date</h4>
-          <p>""</p>
+          <p>
+            "Fancy seeing you here." A female voice said from the side of me. I
+            turned to see who it was, maybe they where not talking to me. Her
+            face was still the image of an angel. Tsuma was standing next to the
+            seat I was in watching the matches.
+          </p>
+
+          <p>
+            "I saw you out there you know. Strength is an interesting choice. If
+            you are worried about having muscles, working out still gives you
+            muscles you know you don't have to put your points into strength."
+            She giggled.
+          </p>
+
+          <p>
+            "Ah that, yeah. I am having doubts about my choices right now. I am
+            sure things will work out, I just need to find a way to close the
+            gap between me and the other mages and then I will be unstoppable!"
+            I replied back happy with my answer.
+          </p>
+
+          <p>
+            "That is a good plan! Maybe it will work. You know you cannot reset
+            your stats, but I'll let you in on a secret. You can if you change
+            your class or element, you can reset back to level one and do it all
+            over again. It is mostly just nobles who can afford to do this but
+            if you want I can share a class from Leika with you..." She said.
+          </p>
+
+          <p>
+            "Ah, thank you but I have a plan. There is a mage in the history',
+            an inquisitor. It's not the most direct way but if I keep going I
+            can match his stat distribution, I already have the same element.
+            What about you? Last time we spoke you said you where learning witch
+            magic, tell me about it." I said.
+          </p>
           {/* Gives Tsuma the witches hat */}
           <p>
             Tsuma - "I have always wanted to be a witch, the kind of a
@@ -17,8 +52,8 @@ function intro(props) {
             zooming though the sky on your broomstick."
           </p>
           <p>
-            Tsuma - "Aww, yeah something like that." She said softly and looked
-            away a bit embarrassed by the compliments.
+            Tsuma - "I hope so.." She said softly and looked away a bit
+            embarrassed by the compliments.
           </p>
           <p>
             Otto - "Oh, I got you a gift." I took out the witches hat from my
@@ -43,6 +78,22 @@ function intro(props) {
             The hat fit her perfectly, it was a magical item after all and would
             always fit perfectly.
           </p>
+          <p>
+            "I should repay you some way. Hope about I take you to the fair
+            ground!?" She said excitedly.
+          </p>
+          <p>"What? There is a fair ground here!?" I asked confused.</p>
+          <p>
+            "Yes, and this is the perfect time to go visit while everyone is
+            watching the matches." She pulled me by the arm about of my seat.
+          </p>
+          <p>
+            "Why is there even a fair ground here!?" I asked still confused.
+          </p>
+          <p>
+            "I don't know, it's not part of my country." She said unperturbed.
+          </p>
+          <p></p>
         </div>
       </div>
     </div>
