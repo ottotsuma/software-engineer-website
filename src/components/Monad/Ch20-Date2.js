@@ -139,7 +139,27 @@ function intro(props) {
             Finn's magic pushing against the pod. The pod started to slowly turn
             to face forward then back up into the air and out of another hole.
           </p>
-          <p></p>
+          <p>
+            We shot up into the air and Tsuma screamed with joy. I was gripping
+            the pod so hard I thought I might slam into the ground at any
+            moment! We reached the peak and it felt time slowed. The pod started
+            to fall back down to the ground. On the way back down Finn shouted
+            "Wooo!" He really enjoyed his job.
+          </p>
+          <p>
+            After the ride was done I felt like I had gone though a tough fight.
+            I turned and saw Tsuma was elated. "Which one do you want to try
+            next?" She asked.
+          </p>
+          <p>
+            "Ah, I've never actually been on a ferris wheel. Is that one fun?" I
+            asked.
+          </p>
+          <p>"Hmm I guess, do you want to try?" She asked.</p>
+          <p>
+            "Yeah. I'll pay for this one, since it was my idea." I replied as we
+            made our way over to the ferris wheel.
+          </p>
         </div>
       </div>
     </div>
