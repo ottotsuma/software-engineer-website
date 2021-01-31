@@ -93,6 +93,52 @@ function intro(props) {
           <p>
             "I don't know, it's not part of my country." She said unperturbed.
           </p>
+          <p>
+            We ran out of the area, past shops, restaurants and headed in the
+            opposite direction of the cliffside and lakian camp. We where
+            running to the nobles area, then took a sharp right and there it
+            was. A small theme park, there was only 4 ~ 5 rides. Does a ferris
+            wheel count as a ride?
+          </p>
+          <p>
+            A log flume, a haunted house and a rollercoaster. Tsuma dragged me
+            up the stairs to the fourth level wanting to get on the
+            rollercoaster. Is this even safe? How does it work? I thought.
+          </p>
+          <p>
+            A happy looking mage sat in the front of a small pod, behind him
+            where seats for two. "I'm Finn and I will be your driver today!" He
+            said in a cheery voice. Seeing I looked a bit apprehensive he
+            followed up with "It's perfectly safe. We are strapped into this
+            metal pod and I use my magnetism magic to keep us on the tracks!
+            There have been so few people today I am overflowing with mana!" He
+            said very happy with himself.
+          </p>
+          <p>
+            Reluctantly I got into the pod. Tsuma looked so happy and excited I
+            calmed down a little. She must of done this before right? "How do we
+            move forward?" I asked.
+          </p>
+          <p>
+            Finn turned around with a smile like a demon. His magic was used to
+            give us a gentle push forward and then I noticed the giant drop
+            down, it was not four floors high like we climbed but went into the
+            ground where it was so dark I could not see the tracks or the
+            bottom. "We use this fall to pick up speed!" Finn announced just
+            before we dropped over the edge.
+          </p>
+          <p>
+            The pod rocketed it's way down heading into the dark hole in the
+            ground. It felt like the pod had lost contact with the tracks, and
+            that was probably true, Finn would not keep us on the track because
+            that would slow us down. As the pod started to fall into the hole I
+            couldn't help but think Finn had lost control.
+          </p>
+          <p>
+            I gripped the the pod hard as we fell into the dark hole, I felt
+            Finn's magic pushing against the pod. The pod started to slowly turn
+            to face forward then back up into the air and out of another hole.
+          </p>
           <p></p>
         </div>
       </div>
