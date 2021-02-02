@@ -160,6 +160,78 @@ function intro(props) {
             "Yeah. I'll pay for this one, since it was my idea." I replied as we
             made our way over to the ferris wheel.
           </p>
+          <p>
+            We sat in the ferris wheel talking about Alden. Tsuma had great
+            interest in Alden, so far as learning the language fluently, and
+            trying to find out about the culture. It seemed like she had mostly
+            just learned about the rich in Alden and their culture. To me it
+            felt like there was two different cultures in Alden and the more we
+            spoke the more I became convinced the culture and experiences she
+            described where very different from what I had experienced so far.
+          </p>
+          <p>
+            Tsuma described in great detail the hunts that Aldens go on every
+            month, accompanied by great beasts from the forests to hunt down
+            even greater prey. Meals where accompanied with honey mead, our
+            homes where great estates painted in various murals and finally
+            everyone loved their local lords and dukes.
+          </p>
+          <p>
+            It is not that I refuted these things, just that it was not my
+            experience. I had never met anyone that had anything nice to say
+            about their local lord or duke, but I had not yet had much dealings
+            with them. Just the compliments I heard from the other villagers. It
+            is true the dukes are known to have tamed or captured fiers monsters
+            from the forests of Alden, without them our population would of been
+            worn down in wars over the years. The idea we all had one and went
+            hunting regularly though could not be true.
+          </p>
+          <p>
+            "Say what is Leika like? How is it different?" I asked, wondering if
+            there would truly be any difference or it was that rich where very
+            different form the normal people.
+          </p>
+          <p>
+            "Hmm, I guess everyone who visits says it is clean, people are
+            polite and that is is safe. Everyone told me I have to stay with the
+            other Leikans while I am in Alden, that Alden is not as safe. It's
+            really annoying because I cannot even leave the academy while I am
+            here!" She complained.
+          </p>
+          <p>
+            "Ah. I have been out a few times into the wild around the academy.
+            I'd love to say you are not missing out, but truly I enjoy exploring
+            out there more then being here. I am planning to go again if you
+            want to come with us?" I asked a little hopeful that would help her.
+          </p>
+          <p>
+            "I know you have, everyone is talking about where most of the
+            professors went recently. I don't know if you are lucky or very
+            skilled." She laughed. "I would love to come out, but they won't let
+            me, I wouldn't even make it near the gates before they dragged me
+            back in afraid." She said.
+          </p>
+          <p>
+            "Well for a start Alden uses tamed monsters from the forests which
+            are really unique and cool! They have witches and curse magic while
+            in Leika we use the 鬼 (Oni), kind of demon like creatures we summon
+            instead and they can be really creepy." She seemed really excited to
+            see Aldens monsters, I would have to show her someday! "Oh we also
+            make the melon pop that is famous! I hear Alden buys lots of it."
+            She said more as a question it seemed.
+          </p>
+          <p>
+            "Ahem, yeah we do. I really love it, my grandad use to drink it all
+            the time I was told. He died the same month I was born.. A long time
+            ago, I never met him or anything." I said realising I brought the
+            mood down.
+          </p>
+          <p>"Oh, how did he die? Monsters?" She asked.</p>
+          <p>
+            "The sea people invasion over 10 years ago, he was a scout and was
+            tracking them. I don't really know anything more, I was 0 years old
+            after all. "
+          </p>
         </div>
       </div>
     </div>
