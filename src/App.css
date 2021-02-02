@@ -551,6 +551,7 @@ ul {
   margin-left: 4%;
   margin-right: 4%;
   font-size: large;
+  overflow-x: none;
 }
 
 .Monad p {
