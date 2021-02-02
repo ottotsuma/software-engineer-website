@@ -492,7 +492,7 @@ ul {
 }
 
 #Witch {
-  width: 200px;
+  width: 50%;
   height: 200px;
 }
 
@@ -623,7 +623,7 @@ footer {
   border-radius: 5px;
   float: left;
   background-color: white;
-  width: 23%;
+  /* width: 23%; */
   height: 100%;
   margin: 1%;
   position: relative;
