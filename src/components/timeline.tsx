@@ -26,7 +26,7 @@ export default function CustomizedTimeline() {
 
   return (
     <div>
-      <h1>Expereince</h1>
+      <h1>Experience</h1>
       <Timeline align="alternate">
         <TimelineItem>
           <TimelineOppositeContent></TimelineOppositeContent>
