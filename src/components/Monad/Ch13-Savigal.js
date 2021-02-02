@@ -433,7 +433,7 @@ function intro(props) {
           <p>"Didn't take you for a necromancer Reingard."</p>
 
           <p>
-            "Tisiel's bones not mine, just really hate how she leaves them all
+            "Tisiel's bones, not mine, just really hate how she leaves them all
             in a pile, I had to put them in some kind of order."
           </p>
 
@@ -550,7 +550,7 @@ function intro(props) {
 
           <p>
             The next morning I donned my new robe, the color of the yellow was
-            not any better then it had been when I was almost asleep.{" "}
+            not any better then it had been when I was almost asleep.
           </p>
         </div>
       </div>

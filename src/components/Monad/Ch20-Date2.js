@@ -230,7 +230,30 @@ function intro(props) {
           <p>
             "The sea people invasion over 10 years ago, he was a scout and was
             tracking them. I don't really know anything more, I was 0 years old
-            after all. "
+            after all. Did they invade Leika?" I asked kind of curious.
+          </p>
+          <p>
+            "No, their first major landing was in Huonhoa, to be honest from
+            what I learned it did not seem like they scouted much. Just landed
+            the first place they arrived. They where not friendly and attacked
+            on sight, they did not act like they expected to be pushed back at
+            all." She said with a thinking face.
+          </p>
+          <p>
+            Soon we where at the top of the wheel. I looked around and you could
+            see almost all of the academy and a little bit over the walls since
+            the fair was on the edge of the academy. "At least you get to see
+            outside a little bit." I offered.
+          </p>
+          <p>"Yeah, that is true." She said.</p>
+          <p>
+            "When we are strong enough, let's just go traveling the world. They
+            cannot stop you if you are stronger than them." I smiled.
+          </p>
+          <p>"I'd like that." She replied.</p>
+          <p>
+            Soon we were back on the ground after having spoke more about Alden
+            and Leika.
           </p>
         </div>
       </div>
