@@ -121,7 +121,7 @@ function intro(props) {
           <p>
             I could only stare blankly at what she had just told me. I am
             walking around with items countries would start wars over. I am
-            level 1 right now, the least qualified person in the world to be
+            level one right now, the least qualified person in the world to be
             holding these sets.
           </p>
 
@@ -261,9 +261,10 @@ Deer are considered messengers to the gods in Shinto, especially Kasuga Shrine i
           </p>
 
           <li>
-            <li className="Unique"> Heavenly White Stag Mask.</li> Magic: +4. Disease resistance + 20%
+            <li className="Unique"> Heavenly White Stag Mask.</li> Magic: +1, Disease resistance + 20%, Lightning power +10%, (Mask is a growth item that depends on the how linked you are to 建御雷 [Takemikazuchi].)
           </li>
-
+{/*  建御雷 [Takemikazuchi] - Thunder and swords  - https://en.wikipedia.org/wiki/Kasuga-taisha (Ride a white deer)*/}
+{/* Raijin (雷神, lit. "Thunder God") */}
           <p>"You said there were two types of masks?"</p>
 
           <p>
