@@ -244,7 +244,7 @@ Noticed by a God - get the notice of a God, (varies) */}
               Head:<font color="blue"> Witch's Hat.</font> Magic: +4.
             </li>
             <li>
-              Body:<font color="darkgrey"> Academy Robe (Black/Yellow).</font>{" "}
+              Body:<font color="darkgrey"> Academy Robe (Black/Yellow).</font>
               Magic: +2, Lightning +1%, Health +10.
             </li>
             <li>
@@ -259,14 +259,14 @@ Noticed by a God - get the notice of a God, (varies) */}
               , Strength -2.
             </li>
             <li>
-              Acc2:<font color="darkgrey"> Ring of Little Strength.</font>{" "}
+              Acc2:<font color="darkgrey"> Ring of Little Strength.</font>
               Strength +2
             </li>
             <li>
-              Acc3:<font color="blue"> </font>{" "}
+              Acc3:<font color="blue"> </font>
             </li>
             <li>
-              Acc4:<font color="darkgrey"> </font>{" "}
+              Acc4:<font color="darkgrey"> </font>
             </li>
             <li>
               Primary:<font color="darkgrey"> Warhammer.</font> Strength +2.

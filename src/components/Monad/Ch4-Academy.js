@@ -148,7 +148,7 @@ function intro(props) {
             explore around this place too much I noted that there where large
             stone pillars with rounded hat-like tops. Below the 'hats' where
             holes and inside was a glowing ball, these pillars where lining the
-            hall all the way down lighting it.{" "}
+            hall all the way down lighting it.
           </p>
 
           <p>

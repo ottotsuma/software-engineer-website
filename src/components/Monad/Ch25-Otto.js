@@ -52,7 +52,7 @@ function intro(props) {
               Feet:<font color="blue"> Hui Lu's Burning Boots</font> ???
             </li>
             <li>
-              Weapon:<font color="blue"> </font>{" "}
+              Weapon:<font color="blue"> </font>
             </li>
           </p>
           {/* <li>Head:<font color="blue"> Ceremonial Stag Mask.</font> Magic: +4.</li> */}

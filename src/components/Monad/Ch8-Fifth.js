@@ -147,7 +147,7 @@ function intro(props) {
           <p>
             Otto - "Yes sir, thank you sir!" With new knowledge I went to the
             library while the other first year students where in the arena to
-            read up on the necromancer and the deathknight.{" "}
+            read up on the necromancer and the deathknight.
           </p>
         </div>
       </div>

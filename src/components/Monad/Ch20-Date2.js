@@ -253,7 +253,36 @@ function intro(props) {
           <p>"I'd like that." She replied.</p>
           <p>
             Soon we were back on the ground after having spoke more about Alden
-            and Leika.
+            and Leika. I wanted to keep talking to her, I guess the fair ground
+            kind of reached it's climax already since it was so small. There is
+            the log flume but who wants to get wet on a cold day!
+          </p>
+          <p>
+            "Hey do you want to go out for drinks with me? Like now?" I asked
+            hoping she would say yes.
+          </p>
+          <p>"Oh, I want to. I don't drink though." She said softly.</p>
+          <p>"Eh? you don't drink? Not even water?" I asked confused.</p>
+          <p>"... I mean I don't drink alcohol." She said.</p>
+          <p>
+            "Ah right! Sorry, that was silly of me, I mean we can just go to a
+            cafe again." I suggested.
+          </p>
+          <p>
+            Thankfully she blamed my reaction on her Aldenese. I felt bad, she
+            was fluent but I gave the wrong response making her feel worse about
+            her language ability. We went over to the cafes again, this time we
+            picked a normal cafe and was able to get hot coca. I always wanted
+            to try it, it was as good as it sounded. Warm and sweet, I should go
+            to the kingdom one day, they have great taste. Although why a
+            country as hot as the kingdom needed hot drinks? Who cares. Tastes
+            good.
+          </p>
+          <p>
+            We talked for the rest of the afternoon about the pyramid, what
+            happened. I found myself telling her everything, even the parts I
+            kept from the academy. Even the parts I kept from Tisiel. Something
+            just clicked with Tsuma.
           </p>
         </div>
       </div>

@@ -61,7 +61,7 @@ function home() {
             </div>
             <div className="Linky">
             <img src="https://www.pinclipart.com/picdir/middle/75-750874_work-experience-svg-png-icon-free-download-356662.png" className="Link-Img" alt=" " />
-              <Link to="/timeline">Expereince</Link>
+              <Link to="/timeline">Experience</Link>
             </div>
             <div className="Linky">
             <img src={Cog} alt=" " className="Link-Img" />

@@ -411,7 +411,7 @@ function TechList() {
 function Tech () {
   return (
     <div className="App">
-      <h1>Expereince</h1>
+      <h1>Experience</h1>
       {TechList()}
     </div>
   )

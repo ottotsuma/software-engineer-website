@@ -474,7 +474,7 @@ function intro(props) {
             mana into it. One arm broke off and seeing that manaball can be used
             as a weapon, I joined in and created a ball of mana in the palm of
             my hand and slammed it into the golem. Under the bombardment soon
-            the golem fell apart with a creepy cry of anguish.{" "}
+            the golem fell apart with a creepy cry of anguish.
           </p>
 
           <p>

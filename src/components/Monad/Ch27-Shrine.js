@@ -7,16 +7,23 @@ function intro(props) {
           {/* Placeholder */}
           <h4>Shrine Date</h4>
           {/* Mask */}
-
           <p>
             We walked from the restaurants back to the wooded area of the Leikan
             people and down a quiet path I had never thought to take before. At
             the bottom was a shrine, a small pond in front of it with a narrow
             stone crossing though the middle to the shrine. The shine itself was
-            made of wood and looked rather unadorned.{" "}
+            made of wood and looked rather unadorned.
           </p>
 
-          <div class="pop">Shrine<img class="popOut" src="https://ottotsuma.github.io/images/shrine.jpg" height="400px" alt="Shrine" /></div>
+          <div class="pop">
+            Shrine
+            <img
+              class="popOut"
+              src="https://ottotsuma.github.io/images/shrine.jpg"
+              height="400px"
+              alt="Shrine"
+            />
+          </div>
 
           <p>
             Once inside we stood side by side and she handed me a coin with a
@@ -235,11 +242,16 @@ In Hungarian mythology, Hunor and Magor, the founders of the Magyar peoples, cha
 Deer are considered messengers to the gods in Shinto, especially Kasuga Shrine in Nara Prefecture where a white deer had arrived from Kashima Shrine as its divine messenger. It has become a symbol of the city of Nara. Deer in Itsukushima Shrine, located in Miyajima, Hiroshima, are also sacred as divine messengers. In various parts of Northeast Japan, a deer dance called "Shishi-odori" has been traditionally performed as an annual shinto ritual.[28] */}
 
           {/* Something wrong here */}
-          <p>I picked up the mask and scanned it with my mana, I was told white stag mask would increase my magic or something equivalent, if I had a suitable lightning type power then the mask might be blessed with a lightning blessing. Either way the item would be a common item and the description name would be blue.</p>
+          <p>
+            I picked up the mask and scanned it with my mana, I was told white
+            stag mask would increase my magic or something equivalent, if I had
+            a suitable lightning type power then the mask might be blessed with
+            a lightning blessing. Either way the item would be a common item and
+            the description name would be blue.
+          </p>
 
           <li>
-          <li className="Normal"> Ceremonial White Stag Mask.</li> Magic:
-            +1.
+            <li className="Normal"> Ceremonial White Stag Mask.</li> Small magic increase.
           </li>
 
           <p>
@@ -249,8 +261,7 @@ Deer are considered messengers to the gods in Shinto, especially Kasuga Shrine i
           </p>
 
           <li>
-            <li className="Unique"> Heavenly White Stag Mask.</li> Magic:
-            +4.
+            <li className="Unique"> Heavenly White Stag Mask.</li> Magic: +4. Disease resistance + 20%
           </li>
 
           <p>"You said there were two types of masks?"</p>
@@ -263,13 +274,18 @@ Deer are considered messengers to the gods in Shinto, especially Kasuga Shrine i
             show an increase in magic right?"
           </p>
 
-          <p>"Is that so... Well the magic defiantly increased."</p>
+          <p>
+            "Is that so... Well the magic defiantly increased. Also resistance
+            to diseases..."
+          </p>
 
           <p>
-            "You have no home right? The lady you told me about said you would
-            be coming to live near us, well why don't you come back to mine
-            tonight? The place is really big because there is a princess staying
-            there so there will be lots of room...." She suggested.
+            "It's a mask, all masks have some disease resistance, I thought
+            you'd know that. You have no home right? The lady you told me about
+            said you would be coming to live near us, well why don't you come
+            back to mine tonight? The place is really big because there is a
+            princess staying there so there will be lots of room...." She
+            suggested.
           </p>
           <p>
             "I mean, I am suppose to go back to the cliffside and check where I
@@ -278,118 +294,6 @@ Deer are considered messengers to the gods in Shinto, especially Kasuga Shrine i
             replied.
           </p>
           <p>"Sure lets go" She said back with a nod.</p>
-          {/* Sleep with tsuma */}
-          {/* Go home in the morning */}
-
-          <h4>The Morning</h4>
-          <p>
-            I woke in a soft bed, my arm felt like the blood has been drained
-            from it so I pulled it back towards me and along with it came Tsuma.
-            Can't complain. So I just led in the bed awhile longer the sun
-            slowly creeping up the bed.
-          </p>
-
-          <p>
-            A few hours later I was back in class. I had magic class with Lubin
-            in the morning for one hour, a break and then lightning classes for
-            one hour. After that we where suppose to be in our club activities
-            until lunch. After lunch was our normal training. Today being the
-            first day since my class had changed from Mage to Kʼawiil I found
-            there where a few small problems.
-          </p>
-
-          <p>
-            For a start the magic classes where about the Mage class. The only
-            parts of the lecture I could use where bits on the human race skills
-            which was in the past the least relevant as I wanted to be a combat
-            mage and not really the party leader. Also the lessons about mana
-            and magic in a more general sense. I could only hope to get though
-            any practical parts of the lessons by using the stress of just
-            coming back as a reason why I could no longer cast manaball. Not
-            sure how long I could keep this up for. Lubin ended the lesson by
-            saying. "Next class we are looking at the stun skill, this is really
-            useful for those of you looking to join the military, security
-            forces, honestly since it is non-lethal it is a really useful skill.
-            I would recommend you to get it but I will not force you I know some
-            of you have your own family builds etc. See you next class."
-          </p>
-
-          <p>
-            I thought at first at least I had a lightning element class, so the
-            lightning lessons would still be useful to me. That was true, the
-            lessons where very helpful in understanding the lightning elemental
-            and how to control it. It's just the color of my lightning had
-            changed. Very visibly so. On top of that I had to use the same act
-            from earlier this morning as a reason why I could no longer produce
-            lightning spells I could use only before hand.
-          </p>
-
-          <p>I was going to get caught out at some point.</p>
-
-          <p>
-            I was suppose to go to a club until lunch time, I wrote down that I
-            would join the martialist club. I assume I could get away with
-            missing one week, or changing clubs. After all I had just been set
-            back to level one, if I went like this it would be too obvious, even
-            if I kept up my on physical body to its peak I would fall behind
-            those with stat points in dexterity, strength and vitality.
-          </p>
-
-          <p>
-            I decided to head straight for the canteen, I would use my lunch
-            token to get my lunch now and then take it over to the training
-            areas. They keep monsters near the arena for testing students, there
-            must be a way for me to register to fight some of them. I grabbed
-            bead, a sausage and some cheese for my lunch, then headed to the
-            arena area.
-          </p>
-
-          <p>
-            I wondered around the arena, once I got near area they kept monsters
-            in a man stopped me at the door. "Students are suppose to be doing
-            clubs now, I think you are lost. Only teachers can come inside here
-            anyway, it's full of monsters." The man said. I quickly apologized
-            and told him I must of gotten lost and walked away. There goes my
-            master plan.
-          </p>
-
-          <p>
-            I walked pasted the strength testing area and decided to check out
-            my ranking, there where some people gathered around it. They where
-            from a body building club. I told them I was just walking past and
-            wanted to check my ranking on the board quickly, they become more
-            interested in me until while looking for my name on the rankings, I
-            could not find it. I don't understand I was rank 4th for this years
-            students, yes only the top 100 where on display unless you searched
-            with your mana inside of the pillar but how could I of lost my place
-            already? I scanned the pillar to find my new ranking, but it told
-            me. "User is not found."
-          </p>
-
-          <p>
-            Was it because my class had changed also? My mana had changed? The
-            body builders tried to console me, saying if I keep trying I can get
-            back in to the top 100 again! I could only thank that they
-            misunderstood my reaction.
-          </p>
-
-          <p>
-            Before I could leave they insisted on showing me how they train so
-            that I could become stronger in the future. I was expecting them to
-            be lifting weights like some of the military I had seen in the past.
-            There was a boy on the ground doing an impersonation of an ape,
-            hitting his fists into the floor, on his chest and then into a
-            strength testing device. 20!? "What level is this guy?" I asked.
-          </p>
-
-          <p>
-            "15, it's a human perk. Ape Mode, increases strength damage with
-            bare fists for a period of time, while decreasing your defences." A
-            student replied. These people where mad. So I walked off while they
-            were watching him.
-          </p>
-
-          <p></p>
         </div>
       </div>
     </div>

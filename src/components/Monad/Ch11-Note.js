@@ -318,17 +318,17 @@ Coin (daughter) - (???) - O
               +1, Health + 10.
             </li>
             <li>
-              Hands:<li className="Normal"> </li>{" "}
+              Hands:<li className="Normal"> </li>
             </li>
             <li>
-              Feet:<li className="Normal"> </li>{" "}
+              Feet:<li className="Normal"> </li>
             </li>
             <li>
               Acc1:<li className="li"> Pendent of Medium Magic.</li> Magic +2
               , Strength -1.
             </li>
             <li>
-              Acc2:<li className="Junk"> Ring of Little Strength.</li>{" "}
+              Acc2:<li className="Junk"> Ring of Little Strength.</li>
               Strength +1
             </li>
             <li>
