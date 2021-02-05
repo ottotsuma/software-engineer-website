@@ -117,7 +117,11 @@ function intro(props) {
             I was lost. I couldn't easily kill the monsters brought into the
             arena because I was a student. I could leave the academy, but
             getting permission now would be impossible since Lubin thinks I am
-            unable to cast spells right now. Can't believe I just spend my time watching a boy pretend to be an ape.
+            unable to cast spells right now. Can't believe I just spend my time
+            watching a boy pretend to be an ape.
+          </p>
+          <p>
+              I walked off not really with any place in mind. I started to think about what kind of club I really did want to join anyway, we could always move around and switch clubs if the new club would accept us. My magic was now strange and did not match everyone else, all of my stat points had reset so I was a blank slate again. It's not unheard of, people who join great families or the military have had resources given to them to change their element, or even their whole class. This was different however, because if I admitted I was level 1, it would be the same as admitting I found a new class in the tomb. Who knows what they would do to me then.
           </p>
           <p></p>
         </div>
