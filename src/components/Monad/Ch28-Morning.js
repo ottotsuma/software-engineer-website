@@ -36,15 +36,16 @@ function intro(props) {
             I would recommend you to get it but I will not force you I know some
             of you have your own family builds etc. See you next class."
           </p>
-
+          {/* Lubin not the lighting teacher, so maybe he cannot look at this skill by touch skills in general? */}
           <p>
             I thought at first at least I had a lightning element class, so the
             lightning lessons would still be useful to me. That was true, the
             lessons where very helpful in understanding the lightning elemental
-            and how to control it. It's just the color of my lightning had
-            changed. Very visibly so. On top of that I had to use the same act
-            from earlier this morning as a reason why I could no longer produce
-            lightning spells I could use only before hand.
+            and how to control it. It's just my spells list had changed, I did
+            not have the spells they where speaking about. The color of my
+            lightning had changed also, very visibly so. On top of that I had to
+            use the same act from earlier this morning as a reason why I could
+            no longer produce lightning spells I could use only before hand.
           </p>
 
           <p>I was going to get caught out at some point.</p>
@@ -108,10 +109,16 @@ function intro(props) {
           <p>
             "15, it's a human perk. Ape Mode, increases strength damage with
             bare fists for a period of time, while decreasing your defences." A
-            student replied. These people where mad. So I walked off while they
+            student replied. These people where mad. I walked off while they
             were watching him.
           </p>
 
+          <p>
+            I was lost. I couldn't easily kill the monsters brought into the
+            arena because I was a student. I could leave the academy, but
+            getting permission now would be impossible since Lubin thinks I am
+            unable to cast spells right now. Can't believe I just spend my time watching a boy pretend to be an ape.
+          </p>
           <p></p>
         </div>
       </div>

@@ -508,8 +508,10 @@ most people learn inspect but either see
           </p>
           <p>
             I was told not to spend any of the points, that I was going to be
-            sent to the town hall tomorrow to be tested for my aptitude and when
-            I was 14 I would go to the magic academy in Banderedam.
+            sent to the town hall tomorrow to be tested for my aptitude. Not
+            everyone could use inspect, so external tools where used to find out
+            their stats and class. Since I was a mage when I am 14 I will go to the magic
+            academy in Banderedam.
           </p>
           <p>
             Almost all the stats where 0 however, this could not be good.
