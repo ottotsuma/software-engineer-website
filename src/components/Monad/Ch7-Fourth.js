@@ -1,5 +1,5 @@
 import React from "react";
-
+import Lightning from "./../../assets/lightningcolors.png";
 function intro(props) {
   return (
     <div className="Monad" id="3">
@@ -8,61 +8,72 @@ function intro(props) {
           <h4>The fourth day.</h4>
           {/* <!-- 樫 --> */}
           <p>
-            The class was split for the fourth day into elemental groups. On
-            normal weeks this would just be one class so the students could
-            learn directly from someone who picked the same element as them.
-            From level 50 onwards mages could pick two elements but for the most
-            part the instructors of this class where previous graduates working
-            under professors at the academy. The instructor for the lightning
-            class was Edgar, a man in his 30's. While not one for combat has
-            been studying at the academy since he was 14, at level 40 his level
-            was quite average, most non-combat would be between level 30 and 50,
-            while he was not a direct combat class his studies into elements and
-            time at the academy helped him. Combat classes would range from 30
-            all the way up to 80! Depending on their experience.
+            The class was split for the fourth day into elemental groups.
+            Normally this would just be one class in a day but for the first one
+            it would last all day. This class was so the students could learn
+            directly from someone who had the same element as them. The
+            instructors of this class where previous graduates working under
+            professors at the academy. The instructor for the lightning class
+            was Edgar, a man in his 30's. While not one for combat he had been
+            studying at the academy since he was 14, at level 40 his level was
+            quite average, most non-combat would be between level 30 and 50.
           </p>
 
           <p>
-            "Today we will be looking at the different types of lightning, as
+            "Today we will be looking at the different types of lightning. As
             some of have seen different mages have different color lightning.
-            This is the easiest way to distinguish between types. The basic
-            colours are Yellow, Orange, Purple and White in that order. There
-            are other colours as I am sure you are aware and they will fall
-            somewhere along this scale. For example pink & green color
-            represents the inclusion of moisture, snow or dust. So some common
-            green lighting is those who have earth or water or nature elements
-            in high concentration inside of their mana."
+            The basic colours are Yellow, Orange, Purple and White in that
+            order. There are other colours as I am sure you are aware and they
+            will fall somewhere along this scale. For example pink & green color
+            lightning represents the inclusion of moisture, snow or dust. So
+            some common green lighting is those who have earth or water or
+            nature elements in high concentration inside of their mana." Edgar
+            said starting the class introduction. Behind him on the board was a
+            diagram.
           </p>
 
+          <div class="pop">
+            Blackboard
+            <img
+              class="popOut"
+              src={Lightning}
+              height="400px"
+              alt="Lightning Colours"
+            />
+          </div>
+          {/* Needs to be an introduction when the elements are measured in the students so they can pick which element to take, or recommendation */}
           <p>
-            "Red is quite rare also as it's a mix of lightning and rare fire
-            elements. Although there are exceptions these are just a rouge guide
+            "Red is quite rare, as it's a mix of lightning and rare fire
+            elements. Although there are exceptions this is just a rouge guide
             line. What I would have you do this lesson is learn from each others
             and my own lightning colours. Make notes on the color, and what kind
-            of mana concentrate the lighting is made of. Finally make note of
-            what effects this produces, I expect finding yellow, orange and some
-            other colours will be quite easy as for purple it is rare but I am
-            told we have a student this year from the illustrious Elzach house,
-            may I offer you congratulations you will surely become an arch-mage
-            at least." Edgar looked to the back of the auditorium sitting at the
-            back was a tall boy with stylish blonde hair, deep blue eyes, strong
-            jaw and a large nose. This was Vasso of house Elzach.
+            of mana concentrate the lighting is made of, you can do this with
+            the mana-stones you used when you where first tested, there are some
+            on my desk. Finally make note of what effects this produces, I
+            expect finding yellow, orange and some other colours will be quite
+            easy as for purple it is rare but I am told we have a student this
+            year from the illustrious Elzach house, may I offer you
+            congratulations you will surely become an arch-mage at least." Edgar
+            looked to the back of the auditorium sitting at the back was a tall
+            boy with stylish blonde hair, deep blue eyes, strong jaw and a large
+            nose. This was Vasso of house Elzach.
           </p>
 
           <p>
             "As for white lightning, black and platinum you will not be able to
             see them today, or perhaps ever in your life times. We will speak
             briefly about them at the end of the lesson but since they are so
-            rare it is not something you will need to consider."
+            rare it is not something you will need to consider." Edgar said
+            ending the introduction to the class.
           </p>
 
           <p>
             The class soon erupted into an organization frenzy as students took
             notes on each others lightning. From a light gold, deep red, sea
-            blue, snot green and of course ultra-violet purple (紫气东来).
-            Although it was a bright purple it seemed almost misty, like
-            something was hidden, as if you could push the mist and away and the
-            color below would be even more shocking.
+            blue, snot green and of course ultra-violet purple (紫气东来) which
+            only Vasso had. Although it was a bright purple it seemed almost
+            misty, like something was hidden, as if you could push the mist and
+            away and the color below would be even more shocking.
           </p>
 
           <p>
@@ -70,49 +81,48 @@ function intro(props) {
             where more colours like orange, brown, gold, silver. This simple
             list alone does not really describe the rainbow like array of
             colours, with shades, mixes and different combinations of patterns.
-            While there was one student silver there was two with gold
-            lightning, they where twins. Otto's lightning was a deep blue that
-            got lighter towards the edges.
+            There was one student silver lightning and two with gold lightning,
+            they where twins. My lightning was a deep blue that got lighter
+            towards the edges.
           </p>
 
           <p>
             Soon the students realised that although the original list of basic
-            colours contained four, the level between them was not a small gap,
-            nor was the the color not being apart of the list an indication that
-            it was weak. It was just that yellow, orange and purple contained
-            very few elements or impurities, these referer to the purest forms
-            of lightning not the most powerful or useful.
+            colours contained four, the color not being apart of the list was
+            not an indication that it was weak. The students tested the power,
+            speed, accuracy and cost while hitting the training dummies in the
+            room. A red lightning flash sometimes left the dummies burning after
+            the strike.
           </p>
 
           <p>
             One student named Oliver had seaweed green lighting, his dad wish a
             fisher from Jamlesnur and his mother was the towns light mage. His
             mother had the fire element and his farther water, his lightning
-            color seem to come from the sea green, with a weak fire elements and
-            his own lightning. There was a little proof any of it was passed on,
-            usually the place you trained in or what you took inspiration from
-            had a more pronounced effect, but in this case it was clear his
-            parents had effected the make up of his mana.
+            color seem to come from the seas green hue. There was a little proof
+            any of it was passed on, by your parents. Usually the place you
+            trained in or what you took inspiration from had a more pronounced
+            effect. Oliver's lightning would flow easily, land where he wanted
+            but the cost was higher then usual giving him a short range.
           </p>
 
           <p>
             As the lesson was coming to an end Edgar brought the class back
             together for one final lecture. "Since Vasso is here I won't spend
-            too long explaining the purple and white lightning in great detail,
-            no doubt you will find out enough over your next 2 years here. As
-            you might of noticed the list I gave you at the start contains only
-            four of the many colours. These are the primary colours for
-            lightning and are in order of raw power not usefulness or
-            efficiency, as you might of noticed some of your lightning gives a
-            higher damage output then others with even the same colour or maybe
-            a lower mana cost. The primary colours are the lightning we know of
-            with only one type of element of mana inside. As for the colour
-            purple is the closest known to heavenly lightning that human can
-            use, white is heavenly lightning but no human has ever been recorded
-            using it we only know if it by observing the natural world. Lastly
-            for those who asked about black lightning it is known as hell
-            lightning and was only recorded in ancient tombs and old records
-            before our time."
+            too long explaining the purple and white lightning, no doubt you
+            will find out enough over your next 2 years here. As you might of
+            noticed the list I gave you at the start contains only four of the
+            many colours. These are the primary colours for lightning and are in
+            order of raw power not usefulness or efficiency, as you might of
+            noticed some of your lightning gives a higher damage output then
+            others with even the same colour or maybe a lower mana cost. The
+            primary colours are the lightning we know of with only one type of
+            element of mana inside. As for the colour purple is the closest
+            known to heavenly lightning that human can use, white is heavenly
+            lightning but no human has ever been recorded using it we only know
+            if it by observing the natural world. Lastly for those who asked
+            about black lightning it is known as hell lightning and was only
+            recorded in ancient tombs and old records before our time."
           </p>
 
           <p>
@@ -123,23 +133,20 @@ function intro(props) {
           <p>
             As the class ended the majority of the students crowded around Vasso
             to ask about his house, lightning, or just to win favour for those
-            who knew what being apart of house Elzach meant. Otto made his way
-            out of the class without anyone paying him any attention, his
-            lightning was blue and although it was unlike the other blues in the
-            class it was likely because he was from a different place, and there
-            where many blues. The first thing he did was make his way back to
-            the cliffside.
+            who knew what being apart of house Elzach meant. I made my way out
+            of the class without anyone paying me any attention, my lightning
+            was blue and although it was unlike the other blues in the class it
+            was likely because I was from a different place. The first thing I
+            did was make my way back to the cliffside.
           </p>
 
           <p>
-            On his way back he stopped when the road had turned from stone to
-            dirt beneath his feet. There had been wooden lanterns with paper
+            On my way back I stopped when the road had turned from stone to
+            dirt beneath my feet. There had been wooden lanterns with paper
             screens erected from the path deep into the woods, it was not dark
             yet but there was a dim glow been given off in each of the lanterns,
             they where spaced evenly either side of the path.
           </p>
-
-          <p>Otto POV</p>
 
           <p>
             "Well it is only afternoon I have time to spare..." I said to
