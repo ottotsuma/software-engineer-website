@@ -234,8 +234,7 @@ export default function Intro(props) {
             the rarest trait, to see the items in numbers. Each had their
             advantages, numbers where more precise. The problem was my inspect
             skill was quite low, so while I could see information accurately, it
-            was low level information such as durability and the
-            items name.
+            was low level information such as durability and the items name.
           </p>
           <p>
             Every night I teach my son Otto more about the skill, he also has
@@ -582,14 +581,19 @@ most people learn inspect but either see
             quickly now."
           </p>
           <p>
-            "aptitude?" before he can talk any more his hand is dragged over a
+            "Aptitude?" before he can talk any more his hand is dragged over a
             small rock, it looks like the ocean it's self is stored inside the
             rock, the reflection never sitting still. Soon after his hand is
             placed on the rock it turns to a light sea green. "Well, was not
-            expecting that, maybe I judged you too quickly." Beke looks up
+            expecting that, maybe I judged you too quickly." Beke looked up
             confused at his statement "Sorry?"
           </p>
-          <p>"Expected you to be a Fighter, seems you are a Rouge"</p>
+          <p>
+            "Expected you to be a Fighter, seems you are a Rouge, the stone
+            measures not only the type of mana you have but also elements
+            present inside. There is no mistake, the type of mana is rouge.
+            Water and wood elements are not unusual for this area."
+          </p>
           <p>
             "No, no, that can't be I must be a fighter, my brothers are
             fighters, my farther my mother, my whole family are all fighters!"
