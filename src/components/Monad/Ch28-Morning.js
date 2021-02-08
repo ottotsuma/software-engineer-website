@@ -132,6 +132,83 @@ function intro(props) {
             1, it would be the same as admitting I found a new class in the
             tomb. Who knows what they would do to me then.
           </p>
+          {/* People: Vasso, Ralsan (Farming), Linhart(ASS), Volker & Raina (Arena), Tsuma */}
+          <p>
+            "Yo, Omen Otto!" A boy shouted from up one of the streets as I was
+            walking away from the arena. Omen Otto? Did I have a nickname like
+            that? I turned to see who it was. Maybe they were talking to some
+            one else. It was Ralsan, from the cliffs. I was told he moved out
+            because the cliffs was being shut down, I never really saw much of
+            him before because he was training to become a farmer.
+          </p>
+          <p>
+            "Hey Ralsan. Omen Otto? Is that my nick name?" I asked a little
+            confused as Ralsan got closer to me.
+          </p>
+          <p>
+            "Ah, I came up with it myself! Since you know, everyone from the
+            cliffside that went out with you either ended up dead or missing.
+            Thought it might lighten the mood." He said with a huge smile on his
+            face.
+          </p>
+          <p>"You sure are odd Ralsan." I said confused.</p>
+          <p>
+            "Yeah I get that a lot. I think it is all the time I spend under the
+            sun. Never really see other people much these days. What you doing
+            right now? Not joined a club yet?" He asked.
+          </p>
+          <p>
+            "Well I joined the martialist club, but really I want to switch. I
+            am not sure what to join though nothing really suits me." I replied.
+          </p>
+          <p>
+            "Why don't you try farming? It's what I do. Well I do it as a
+            fulltime course but I mean there is a farming club also for those
+            who want to do it on the side. I just joined the farming club to
+            help the members there. I am going that way now if you want to try!"
+            Ralsan said excitedly, maybe he really likes farming.
+          </p>
+          <p>
+            "Ah I guess I was just looking for a new club but .... Farming was
+            not what I had in mind...." I thought the only spell I had right now
+            was lighting seeds. While it had the word 'seeds' in the name I
+            think that was because of the look of the spell not really that it
+            was related to farming...
+          </p>
+          <p>
+            "Ah come on, you can't walk around aimlessly you will be caught by
+            an enforcer at some point, come join just for the day!" Ralsan said
+            with a cheer.
+          </p>
+          <p>"Enforcer?" I asked puzzled.</p>
+          <p>
+            "Yeah, do you fall asleep in class or something? 2nd years and some
+            other older students and teachers are appointed enforcers. If they
+            catch students not doing their assigned classes there can be
+            punishments." He said as if it was obvious.
+          </p>
+          <p>
+            I guess he has a point, no other students where like me just
+            wondering around... "Okay, I'll try for a day!" I said, I mean a day
+            can't hurt.
+          </p>
+          <p>
+            I walked with Ralsan to the gate he was walking to. Unlike the gates
+            I passed though when heading to the tomb this one was much smaller,
+            there was only two guards and the sign above the gate said. "Farmers
+            only".
+          </p>
+          <p>
+            "This gate just leads to the farms, so only the farmers can come out
+            this way. It's the same side as the cliffs if you look at the
+            academy from above. Past here is nothing dangerous so even with your
+            bad luck we will be fine." Ralsan joked.
+          </p>
+          <p>
+            I could not get over how happy go lucky he was. Maybe he was right,
+            the sun had damaged his brain. I felt like being in the darkness had
+            got to me personally. Maybe this will even things out.
+          </p>
           <p></p>
         </div>
       </div>
