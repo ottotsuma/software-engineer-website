@@ -30,6 +30,7 @@ function Blackjack() {
 
   const [score, setScore] = useState(0);
   const [play, setPlay] = useState();
+  const [playD, setPlayD] = useState();
   const [win, setWin] = useState("It is your first match!");
   const [wins, setWins] = useState(0);
   const [losses, setLosses] = useState(0);
@@ -45,7 +46,11 @@ function Blackjack() {
     for (let index = 0; index < values.length; index++) {
       for (let x = 0; x < suits.length; x++) {
         let weight = parseInt(values[index]);
-        if (values[index] === "J" || values[index] === "Q" || values[index] === "K")
+        if (
+          values[index] === "J" ||
+          values[index] === "Q" ||
+          values[index] === "K"
+        )
           weight = 10;
         if (values[index] === "A") weight = 11;
         let card = { Value: values[index], Suit: suits[x], Weight: weight };
@@ -140,34 +145,33 @@ function Blackjack() {
       setWin("You went BUST!");
       setLosses(losses + 1);
       restart();
-      setScore(players[0].Points);
-      playersHand();
+
       // If dealer has more then 21 points, dealer bust.
     } else if (players[1].Points > 21) {
       setWin("Dealer Bust!!");
       setWins(wins + 1);
-      restart();
-      playersHand();
-      setScore(players[0].Points);
+      dealersHand();
+      // restart();
+
       // If player has LESS points then dealer, non of you have gone bust and deal has 17+ points. You lose.
     } else if (players[0].Points < players[1].Points) {
       setWin("You LOST!!!!");
       setLosses(losses + 1);
-      restart();
-      playersHand();
-      setScore(players[0].Points);
+      dealersHand();
+      // restart();
+
       // If player has MORE points then dealer, non of you have gone bust and deal has 17+ points. You win.
     } else if (players[0].Points > players[1].Points) {
       setWin("You won!");
       setWins(wins + 1);
-      restart();
-      playersHand();
+      dealersHand();
+      // restart();
+
       // else they are the same points, and it is a tie.
     } else {
       setWin("Tie!");
-      restart();
-      setScore(players[0].Points);
-      playersHand();
+      dealersHand();
+      // restart();
     }
   }
   function restart() {
@@ -183,28 +187,8 @@ function Blackjack() {
     // deal cards
     dealCards();
     setScore(players[0].Points);
-    let answer = [];
-    for (let index = 0; index < players[0].Hand.length; index++) {
-      if (
-        players[0].Hand[index].Suit === "♥" ||
-        players[0].Hand[index].Suit === "♦"
-      ) {
-        answer.push(
-          <div key={index} style={{ color: "red" }} className="Players-Cards">
-            {players[0].Hand[index].Value}
-            {players[0].Hand[index].Suit}
-          </div>
-        );
-      } else {
-        answer.push(
-          <div key={index} className="Players-Cards">
-            {players[0].Hand[index].Value}
-            {players[0].Hand[index].Suit}
-          </div>
-        );
-      }
-    }
-    setPlay(answer);
+    dealersHandInitial();
+    playersHand();
   }
   function playersHand() {
     let answer = [];
@@ -230,14 +214,64 @@ function Blackjack() {
     }
     setPlay(answer);
   }
+  function dealersHandInitial() {
+    let answer = [];
+    for (let index = 0; index < 1; index++) {
+      if (
+        players[1].Hand[index].Suit === "♥" ||
+        players[1].Hand[index].Suit === "♦"
+      ) {
+        answer.push(
+          <div key={index} style={{ color: "red" }} className="Dealer-Cards">
+            {players[1].Hand[index].Value}
+            {players[1].Hand[index].Suit}
+          </div>
+        );
+      } else {
+        answer.push(
+          <div key={index} className="Dealer-Cards">
+            {players[1].Hand[index].Value}
+            {players[1].Hand[index].Suit}
+          </div>
+        );
+      }
+    }
+    answer.push(
+      <div key={"?"} className="Dealer-Cards">
+        ?
+      </div>
+    );
+    setPlayD(answer);
+  }
+  function dealersHand() {
+    let answer = [];
+    for (let index = 0; index < players[1].Hand.length; index++) {
+      if (
+        players[1].Hand[index].Suit === "♥" ||
+        players[1].Hand[index].Suit === "♦"
+      ) {
+        answer.push(
+          <div key={index} style={{ color: "red" }} className="Dealer-Cards">
+            {players[1].Hand[index].Value}
+            {players[1].Hand[index].Suit}
+          </div>
+        );
+      } else {
+        answer.push(
+          <div key={index} className="Dealer-Cards">
+            {players[1].Hand[index].Value}
+            {players[1].Hand[index].Suit}
+          </div>
+        );
+      }
+    }
+    setPlayD(answer);
+  }
   return (
     <div className="Blackjack">
       <div className="Dealer">
         <h1>Dealer</h1>
-        <div className="Dealer-Hand">
-          <div className="Dealer-Cards">?</div>
-          <div className="Dealer-Cards">?</div>
-        </div>
+        <div className="Dealer-Hand">{playD}</div>
       </div>
       <div>Game: {counter}</div>
       <div className="Player">
