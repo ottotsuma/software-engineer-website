@@ -7,8 +7,10 @@
 // Who won ? closest 21, anyone over 21 loses. (2 cards is best)
 // Ace = 1 & 11
 
-import React from "react";
-const Blackjack = props => {
+import React, { useState, useEffect } from "react";
+let deck = [];
+let players = [];
+function Blackjack() {
   const suits = ["Spades", "Hearts", "Diamonds", "Clubs"];
   const values = [
     "2",
@@ -25,18 +27,24 @@ const Blackjack = props => {
     "K",
     "A",
   ];
-  let deck = new Array();
-  let players = new Array();
-  restart()
+
+  const [score, setScore] = useState(0);
+  const [play, setPlay] = useState();
+  const [win, setWin] = useState("It is your first match!");
+  const [counter, setCounter] = useState(0);
+
+  useEffect(() => {
+    restart();
+  }, []);
 
   function createDeck() {
-    deck = new Array();
+    deck = [];
     for (let i = 0; i < values.length; i++) {
       for (let x = 0; x < suits.length; x++) {
         let weight = parseInt(values[i]);
-        if (values[i] == "J" || values[i] == "Q" || values[i] == "K")
+        if (values[i] === "J" || values[i] === "Q" || values[i] === "K")
           weight = 10;
-        if (values[i] == "A") weight = 11;
+        if (values[i] === "A") weight = 11;
         let card = { Value: values[i], Suit: suits[x], Weight: weight };
         deck.push(card);
       }
@@ -53,37 +61,28 @@ const Blackjack = props => {
       deck[location2] = tmp;
     }
   }
-
   function makePlayerDealer() {
-    players = new Array();
     for (let i = 1; i <= 2; i++) {
-      const hand = new Array();
+      const hand = [];
       const player = { Name: "Player " + i, Points: 0, Hand: hand };
       players.push(player);
     }
   }
-
   function dealCards() {
-    // alternate handing cards to each player
-    // 2 cards each
     for (let i = 0; i < 2; i++) {
       for (let x = 0; x < players.length; x++) {
         players[x].Hand.push(deck.pop());
-        // renderCard(card, x);
       }
     }
     updatePoints();
-    // updateDeck();
   }
-
   function getSum(total, num) {
     return total + Math.round(num);
   }
-
   function updatePoints() {
     // Player
     players[0].Points = 0;
-    let temp = new Array();
+    let temp = [];
     for (let index = 0; index < players[0].Hand.length; index++) {
       let w = players[0].Hand[index].Weight;
       temp.push(w);
@@ -97,49 +96,76 @@ const Blackjack = props => {
       }
       ans = temp.reduce(getSum);
       players[0].Points = ans;
-    }
-    // Dealer
-    players[1].Points = 0;
-    for (let index = 0; index < players[1].Hand.length; index++) {
-      let w = players[1].Hand[index].Weight;
-      players[1].Points = players[1].Points + parseInt(w);
+
+      // Dealer
+      players[1].Points = 0;
+      let tempDeal = [];
+      for (let index = 0; index < players[1].Hand.length; index++) {
+        let w = players[1].Hand[index].Weight;
+        tempDeal.push(w);
+        let ansDeal = tempDeal.reduce(getSum);
+        if (ansDeal > 21) {
+          for (let index = 0; index < tempDeal.length; index++) {
+            if (tempDeal[index] === 11) {
+              tempDeal[index] = 1;
+            }
+          }
+        }
+        ansDeal = tempDeal.reduce(getSum);
+        players[1].Points = ansDeal;
+      }
     }
   }
-
   function hitOrStick(params, who) {
     if (params === "Hit") {
-      for (let i = 0; i < 1; i++) {
-        players[who].Hand.push(deck.pop());
-      }
+      console.log(players);
+      players[who].Hand.push(deck.pop());
       updatePoints();
-      console.log("Hit", players[0].Points);
+      setScore(players[0].Points);
+      playersHand();
       if (players[0].Points > 21) {
-        finish()
+        finish();
       }
     } else {
-      console.log("Stay", players[0].Points);
       finish();
     }
   }
-
   function finish() {
-    if (players[0].Points > 21) {
+    if (players[0].Points === 21 && players[1].Points === 21) {
+      console.log("Tie");
+      setWin("Tie!");
+      restart();
+      setScore(players[0].Points);
+      playersHand();
+    } else if (players[0].Points > 21) {
       console.log("BUST");
-      restart()
+      setWin("You went BUST!");
+      restart();
+      setScore(players[0].Points);
+      playersHand();
     } else if (players[1].Points > 21) {
       console.log("Player wins");
-      restart()
+      setWin("You Won!!");
+      restart();
+      playersHand();
+      setScore(players[0].Points);
     } else if (players[0].Points > players[1].Points) {
       hitOrStick("Hit", 1);
-      console.log("hit dealer");
+      console.log("Hit dealer");
       finish();
     } else {
       console.log("Dealer wins");
-      restart()
+      setWin("You LOST!!!!");
+      restart();
+      playersHand();
+      setScore(players[0].Points);
     }
   }
-
   function restart() {
+    console.log("Restarting");
+    setCounter(counter + 1);
+    deck = [];
+    players = [];
     // Make a deck,
     createDeck();
     // Shuffle deck
@@ -148,45 +174,57 @@ const Blackjack = props => {
     makePlayerDealer();
     // deal cards
     dealCards();
+    setScore(players[0].Points);
+    let answer = [];
+    for (let index = 0; index < players[0].Hand.length; index++) {
+      answer.push(
+        <div key={index} className="Players-Cards">
+          {players[0].Hand[index].Value}
+        </div>
+      );
+    }
+    setPlay(answer);
   }
   function playersHand() {
     let answer = [];
     for (let index = 0; index < players[0].Hand.length; index++) {
       answer.push(
-        <div className="Players-Cards">{players[0].Hand[index].Value}</div>
+        <div key={index} className="Players-Cards">
+          {players[0].Hand[index].Value}
+        </div>
       );
     }
-    return answer;
+    setPlay(answer);
   }
-
-  function dealerHand() {
-    let answer = [];
-    for (let index = 0; index < players[1].Hand.length; index++) {
-      answer.push(
-        <div className="Dealer-Cards">Card</div>
-      );
-    }
-    return answer;
-  }
-  function Score() {
-    return <div>{players[0].Points}</div>
-    // return <div>1</div>
-  }
-  
   return (
     <div className="Blackjack">
       <div className="Dealer">
-        <div className="Dealer-Hand">{dealerHand()}</div>
+        <h1>Dealer</h1>
+        <div className="Dealer-Hand">
+          <div className="Players-Cards">Card</div>
+          <div className="Players-Cards">Card</div>
+        </div>
       </div>
+      <div>Game: {counter}</div>
       <div className="Player">
-        <div className="Player-Hand">{playersHand()}</div>
-        <div className="Hit" onClick={() => hitOrStick("Hit", 0)}>
-          Hit
+        <h1>Player</h1>
+        <div className="Player-Hand">{play}</div>
+        <div className="Buttons-BJ">
+          <div className="Hit" onClick={() => hitOrStick("Hit", 0)}>
+            Hit
+          </div>
+          <div className="Stay" onClick={() => hitOrStick("Stay")}>
+            Stay
+          </div>
+          <div className="Stay" onClick={() => restart()}>
+            Restart
+          </div>
         </div>
-        <div className="Stay" onClick={() => hitOrStick("Stay")}>
-          Stay
-        </div>
-        {Score()}
+        Your Score: {score}
+      </div>
+      <div>
+        Last Match:
+        <div>{win}</div>
       </div>
     </div>
   );

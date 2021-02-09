@@ -5,8 +5,8 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Pdf from './CV.pdf'
-import Jap from './Jap.pdf'
+// import Pdf from './CV.pdf'
+// import Jap from './Jap.pdf'
 
 function Nav() {
   return (

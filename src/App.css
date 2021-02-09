@@ -832,3 +832,74 @@ footer {
 #Unique, .Unique {
   color: purple;
 }
+
+/* Blackjack */
+
+.Blackjack {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.Player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Buttons-BJ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.Hit, .Stay {
+  margin: 1vw;
+  padding: 1vw;
+  border-color: black;
+  border-style: solid;
+  border-radius: 2rem;
+  background: white;
+  color: black;
+}
+
+
+.Hit:hover, .Stay:hover{
+  margin: 1vw;
+  padding: 1vw;
+  border-color: black;
+  border-style: solid;
+  border-radius: 2rem;
+  background: lightgray;
+  color: black;
+}
+
+.Hit:active, .Stay:active{
+  margin: 1vw;
+  padding: 1vw;
+  border-color: black;
+  border-style: solid;
+  border-radius: 2rem;
+  background: greenyellow;
+  color: black;
+}
+
+
+.Player-Hand, .Dealer-Hand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.Players-Cards, .Dealer-Cards {
+  background: white;
+  color: black;
+  width: 5vw;
+  height: 5vh;
+  padding: 0.5vw;
+}

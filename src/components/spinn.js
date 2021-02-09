@@ -11,10 +11,7 @@ import Dob from "./../assets/dob.png";
 import Todo from "./../assets/todo.jpg";
 import Weather from "./../assets/weather.png";
 
-const color1 = "#202040";
-const color2 = "#202060";
 const color3 = "#602080";
-const color4 = "#b030b0";
 
 export default () => {
   const [activeItemIndex, setActiveItemIndex] = useState(0);

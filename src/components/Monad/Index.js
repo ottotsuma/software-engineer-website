@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Link } from "react-router-dom";
 import Chapter1 from "./Ch1-Intro";
 import Chapter2 from "./Ch2-Travel";
 import Chapter3 from "./Ch3-Banderedam";
