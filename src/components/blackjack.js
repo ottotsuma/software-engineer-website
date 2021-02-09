@@ -121,7 +121,6 @@ function Blackjack() {
   }
   function hitOrStick(params, who) {
     if (params === "Hit") {
-      console.log(players);
       players[who].Hand.push(deck.pop());
       updatePoints();
       setScore(players[0].Points);
@@ -135,20 +134,17 @@ function Blackjack() {
   }
   function finish() {
     if (players[0].Points === 21 && players[1].Points === 21) {
-      console.log("Tie");
       setWin("Tie!");
       restart();
       setScore(players[0].Points);
       playersHand();
     } else if (players[0].Points > 21) {
-      console.log("BUST");
       setWin("You went BUST!");
       setLosses(losses + 1);
       restart();
       setScore(players[0].Points);
       playersHand();
     } else if (players[1].Points > 21) {
-      console.log("Player wins");
       setWin("You Won!!");
       setWins(wins + 1);
       restart();
@@ -156,10 +152,8 @@ function Blackjack() {
       setScore(players[0].Points);
     } else if (players[0].Points > players[1].Points) {
       hitOrStick("Hit", 1);
-      console.log("Hit dealer");
       finish();
     } else {
-      console.log("Dealer wins");
       setWin("You LOST!!!!");
       setLosses(losses + 1);
       restart();
@@ -168,7 +162,6 @@ function Blackjack() {
     }
   }
   function restart() {
-    console.log("Restarting");
     setCounter(counter + 1);
     deck = [];
     players = [];
