@@ -897,9 +897,18 @@ footer {
 }
 
 .Players-Cards, .Dealer-Cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: black;
-  width: 5vw;
-  height: 5vh;
+  width: 3vw;
+  height: 10vh;
   padding: 0.5vw;
+  border-color: black;
+  border-radius: 0.5rem;
+  border-style: solid;
+  margin: 0.5rem;
 }

@@ -11,7 +11,7 @@ import React, { useState, useEffect } from "react";
 let deck = [];
 let players = [];
 function Blackjack() {
-  const suits = ["Spades", "Hearts", "Diamonds", "Clubs"];
+  const suits = ["♣", "♥", "♦", "♠"];
   const values = [
     "2",
     "3",
@@ -35,7 +35,6 @@ function Blackjack() {
   const [losses, setLosses] = useState(0);
 
   const [counter, setCounter] = useState(0);
-
 
   useEffect(() => {
     restart();
@@ -144,14 +143,14 @@ function Blackjack() {
     } else if (players[0].Points > 21) {
       console.log("BUST");
       setWin("You went BUST!");
-      setLosses(losses+1);
+      setLosses(losses + 1);
       restart();
       setScore(players[0].Points);
       playersHand();
     } else if (players[1].Points > 21) {
       console.log("Player wins");
       setWin("You Won!!");
-      setWins(wins+1);
+      setWins(wins + 1);
       restart();
       playersHand();
       setScore(players[0].Points);
@@ -162,7 +161,7 @@ function Blackjack() {
     } else {
       console.log("Dealer wins");
       setWin("You LOST!!!!");
-      setLosses(losses+1);
+      setLosses(losses + 1);
       restart();
       playersHand();
       setScore(players[0].Points);
@@ -184,16 +183,27 @@ function Blackjack() {
     setScore(players[0].Points);
     let answer = [];
     for (let index = 0; index < players[0].Hand.length; index++) {
+        if (players[0].Hand[index].Suit === "♥" || players[0].Hand[index].Suit === "♦") {
+            answer.push(
+                <div key={index} style={{color: "red"}} className="Players-Cards">
+                  {players[0].Hand[index].Value}
+                  {players[0].Hand[index].Suit}
+                </div> 
+            )
+        } else {
       answer.push(
         <div key={index} className="Players-Cards">
           {players[0].Hand[index].Value}
+          {players[0].Hand[index].Suit}
         </div>
       );
+    }
     }
     setPlay(answer);
   }
   function playersHand() {
     let answer = [];
+    console.log(players[0].Hand[0]);
     for (let index = 0; index < players[0].Hand.length; index++) {
       answer.push(
         <div key={index} className="Players-Cards">
@@ -208,8 +218,8 @@ function Blackjack() {
       <div className="Dealer">
         <h1>Dealer</h1>
         <div className="Dealer-Hand">
-          <div className="Players-Cards">Card</div>
-          <div className="Players-Cards">Card</div>
+          <div className="Dealer-Cards">?</div>
+          <div className="Dealer-Cards">?</div>
         </div>
       </div>
       <div>Game: {counter}</div>
@@ -232,7 +242,9 @@ function Blackjack() {
       <div>
         Last Match:
         <div>{win}</div>
-        <div>Wins: {wins} Losses: {losses}</div>
+        <div>
+          Wins: {wins} Losses: {losses}
+        </div>
       </div>
     </div>
   );
