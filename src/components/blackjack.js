@@ -203,13 +203,22 @@ function Blackjack() {
   }
   function playersHand() {
     let answer = [];
-    console.log(players[0].Hand[0]);
     for (let index = 0; index < players[0].Hand.length; index++) {
+        if (players[0].Hand[index].Suit === "♥" || players[0].Hand[index].Suit === "♦") {
+            answer.push(
+                <div key={index} style={{color: "red"}} className="Players-Cards">
+                  {players[0].Hand[index].Value}
+                  {players[0].Hand[index].Suit}
+                </div> 
+            )
+        } else {
       answer.push(
         <div key={index} className="Players-Cards">
           {players[0].Hand[index].Value}
+          {players[0].Hand[index].Suit}
         </div>
       );
+    }
     }
     setPlay(answer);
   }
