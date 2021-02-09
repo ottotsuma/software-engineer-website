@@ -209,7 +209,78 @@ function intro(props) {
             the sun had damaged his brain. I felt like being in the darkness had
             got to me personally. Maybe this will even things out.
           </p>
+          <p>
+            From that point until lunch time he had worked me to the point of
+            death. We had to move crate loads of seeds, from a warehouse to the
+            farms where the students would use their earth abilities to prepare
+            the land, wind magic to distribute the seeds and water magic to
+            water the seeds. While every step of the way used magic or a method
+            to make it easier, that did not mean that it was easy. Since I had a
+            lightning ability at first they thought I might be able to help with
+            some things, but every spell they asked if I had I had to say I did
+            not...
+          </p>
+          <p>
+            When it was finally lunch time I sat down with Ralsan who kept
+            talking about all the work that still had to be done, what progress
+            they had made, what was been grown and research into new plants and
+            fruits. I ate the lunch I had got this morning but Ralsan had given
+            me another. Perk of working on the farms I guess.
+          </p>
+          <p>
+            I looked though my spells list while Ralsan was talking to me.
+            Surprised that I had more then one spell with the word 'Seed' inside
+            the description. I could only see the basic level spells because my
+            level was too low. Apart from lightning seeds, there was also:
+            Lightning germination, Seeds to soldiers, Lightning growth,
+            Lightning harvest.
+          </p>
+          <p>
+            What shocked me more when I finally looked though the descriptions
+            was the strange things they did. Kʼawiil might have lighting powers
+            but was not limited to that like a mage. There where skills and
+            spells for snakes, farming, fertility and even a spell for a
+            specific plant called cacao.
+          </p>
+          <p>
+            "Hey Ralsan, I do have some spells that might be able to help out
+            with farming... I am not sure if I should get them or not but I
+            would need to level up, im quite close really." I said hoping there
+            might be pests that come here since it is a farm. Maybe I could kill
+            them.
+          </p>
+          <p>
+            "Eh really? So you'll stay? It is fun right? Once you get started
+            you just can't stop there is always something that needs doing. If
+            you say they are useful for farming you must of been thinking about
+            staying right? You know since you don't really have any useful
+            spells the afternoon might be hard for you..." He said at a speed
+            that almost blew my ears off.
+          </p>
+          <p>
+            "Yeah, that is what I was thinking. So maybe I could work as like
+            pest control for now?" I asked hoping to get more to what I really
+            wanted.
+          </p>
+          <p>
+            "Oh yeah! That's a good idea. Since you are thinking about joining
+            the club it would be useful for us both. I will go ask, usually the
+            pest control jobs are filled up pretty quick because it is easy
+            experience but there might be bigger pests or something..." His
+            words tailed off as he ran away from me over to where the older
+            students where eating lunch.
+          </p>
+          <p>
+            He came running back a few minutes later. "Good news! They don't
+            mind giving the western fields to you, while it won't be a lot of
+            experience or anything big there are birds and rodents that come to
+            steal the seeds after they are planted. If you go now there might be
+            some since we are all here eating." Ralsan said. Not waiting any
+            longer I stood up and thanked him as much as I could while running
+            off though the fields.
+          </p>
           <p></p>
+          {/* Germination normally done with fire mages, takes ages. Ice mages to store them. (Other jobs include packing and shipping food.) */}
         </div>
       </div>
     </div>
