@@ -34,8 +34,8 @@ function Blackjack() {
   const [win, setWin] = useState("It is your first match!");
   const [wins, setWins] = useState(0);
   const [losses, setLosses] = useState(0);
-
   const [counter, setCounter] = useState(0);
+  const [over, setOver] = useState(false);
 
   useEffect(() => {
     restart();
@@ -189,6 +189,7 @@ function Blackjack() {
     setScore(players[0].Points);
     dealersHandInitial();
     playersHand();
+    setOver(false)
   }
   function playersHand() {
     let answer = [];
@@ -266,38 +267,69 @@ function Blackjack() {
       }
     }
     setPlayD(answer);
+    setOver(true)
   }
-  return (
-    <div className="Blackjack">
-      <div className="Dealer">
-        <h1>Dealer</h1>
-        <div className="Dealer-Hand">{playD}</div>
-      </div>
-      <div>Game: {counter}</div>
-      <div className="Player">
-        <h1>Player</h1>
-        <div className="Player-Hand">{play}</div>
-        <div className="Buttons-BJ">
-          <div className="Hit" onClick={() => hitOrStick("Hit", 0)}>
-            Hit
-          </div>
-          <div className="Stay" onClick={() => hitOrStick("Stay")}>
-            Stay
-          </div>
-          <div className="Stay" onClick={() => restart()}>
-            Restart
-          </div>
+  if (!over) {
+    return (
+      <div className="Blackjack">
+        <div className="Dealer">
+          <h1>Dealer</h1>
+          <div className="Dealer-Hand">{playD}</div>
         </div>
-        Your Score: {score}
-      </div>
-      <div>
-        Last Match:
-        <div>{win}</div>
+        <div>Game: {counter}</div>
+        <div className="Player">
+          <h1>Player</h1>
+          <div className="Player-Hand">{play}</div>
+          <div className="Buttons-BJ">
+            <div className="Hit" onClick={() => hitOrStick("Hit", 0)}>
+              Hit
+            </div>
+            <div className="Stay" onClick={() => hitOrStick("Stay")}>
+              Stay
+            </div>
+            {/* <div className="Stay" onClick={() => restart()}>
+              Restart
+            </div> */}
+          </div>
+          Your Score: {score}
+        </div>
         <div>
-          Wins: {wins} Losses: {losses}
+          Last Match:
+          <div>{win}</div>
+          <div>
+            Wins: {wins} Losses: {losses}
+          </div>
         </div>
       </div>
-    </div>
-  );
+    );  
+  } else {
+    return (
+      <div className="Blackjack">
+        <div className="Dealer">
+          <h1>Dealer</h1>
+          <div className="Dealer-Hand">{playD}</div>
+        </div>
+        <div>Game: {counter}</div>
+        <div className="Player">
+          <h1>Player</h1>
+          <div className="Player-Hand">{play}</div>
+          <div className="Buttons-BJ">
+            <div className="Stay" onClick={() => restart()}>
+              Restart
+            </div>
+          </div>
+          Your Score: {score}
+        </div>
+        <div>
+          Last Match:
+          <div>{win}</div>
+          <div>
+            Wins: {wins} Losses: {losses}
+          </div>
+        </div>
+      </div>
+    );
+  }
+  
 }
 export default Blackjack;
