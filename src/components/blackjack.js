@@ -42,21 +42,19 @@ function Blackjack() {
 
   function createDeck() {
     deck = [];
-    for (let i = 0; i < values.length; i++) {
+    for (let index = 0; index < values.length; index++) {
       for (let x = 0; x < suits.length; x++) {
-        let weight = parseInt(values[i]);
-        if (values[i] === "J" || values[i] === "Q" || values[i] === "K")
+        let weight = parseInt(values[index]);
+        if (values[index] === "J" || values[index] === "Q" || values[index] === "K")
           weight = 10;
-        if (values[i] === "A") weight = 11;
-        let card = { Value: values[i], Suit: suits[x], Weight: weight };
+        if (values[index] === "A") weight = 11;
+        let card = { Value: values[index], Suit: suits[x], Weight: weight };
         deck.push(card);
       }
     }
   }
   function shuffle() {
-    // for 1000 turns
-    // switch the values of two random cards
-    for (let i = 0; i < 1000; i++) {
+    for (let index = 0; index < 1000; index++) {
       let location1 = Math.floor(Math.random() * deck.length);
       let location2 = Math.floor(Math.random() * deck.length);
       let tmp = deck[location1];
@@ -65,14 +63,14 @@ function Blackjack() {
     }
   }
   function makePlayerDealer() {
-    for (let i = 1; i <= 2; i++) {
+    for (let index = 1; index <= 2; index++) {
       const hand = [];
-      const player = { Name: "Player " + i, Points: 0, Hand: hand };
+      const player = { Name: "Player " + index, Points: 0, Hand: hand };
       players.push(player);
     }
   }
   function dealCards() {
-    for (let i = 0; i < 2; i++) {
+    for (let index = 0; index < 2; index++) {
       for (let x = 0; x < players.length; x++) {
         players[x].Hand.push(deck.pop());
       }
@@ -133,32 +131,43 @@ function Blackjack() {
     }
   }
   function finish() {
-    if (players[0].Points === 21 && players[1].Points === 21) {
-      setWin("Tie!");
-      restart();
-      setScore(players[0].Points);
-      playersHand();
+    // If dealer has less then 17, hit dealer
+    if (players[1].Points < 17) {
+      hitOrStick("Hit", 1);
+      finish();
+      // if player has more than 21 points, bust.
     } else if (players[0].Points > 21) {
       setWin("You went BUST!");
       setLosses(losses + 1);
       restart();
       setScore(players[0].Points);
       playersHand();
+      // If dealer has more then 21 points, dealer bust.
     } else if (players[1].Points > 21) {
-      setWin("You Won!!");
+      setWin("Dealer Bust!!");
       setWins(wins + 1);
       restart();
       playersHand();
       setScore(players[0].Points);
-    } else if (players[0].Points > players[1].Points) {
-      hitOrStick("Hit", 1);
-      finish();
-    } else {
+      // If player has LESS points then dealer, non of you have gone bust and deal has 17+ points. You lose.
+    } else if (players[0].Points < players[1].Points) {
       setWin("You LOST!!!!");
       setLosses(losses + 1);
       restart();
       playersHand();
       setScore(players[0].Points);
+      // If player has MORE points then dealer, non of you have gone bust and deal has 17+ points. You win.
+    } else if (players[0].Points > players[1].Points) {
+      setWin("You won!");
+      setWins(wins + 1);
+      restart();
+      playersHand();
+      // else they are the same points, and it is a tie.
+    } else {
+      setWin("Tie!");
+      restart();
+      setScore(players[0].Points);
+      playersHand();
     }
   }
   function restart() {
@@ -176,42 +185,48 @@ function Blackjack() {
     setScore(players[0].Points);
     let answer = [];
     for (let index = 0; index < players[0].Hand.length; index++) {
-        if (players[0].Hand[index].Suit === "♥" || players[0].Hand[index].Suit === "♦") {
-            answer.push(
-                <div key={index} style={{color: "red"}} className="Players-Cards">
-                  {players[0].Hand[index].Value}
-                  {players[0].Hand[index].Suit}
-                </div> 
-            )
-        } else {
-      answer.push(
-        <div key={index} className="Players-Cards">
-          {players[0].Hand[index].Value}
-          {players[0].Hand[index].Suit}
-        </div>
-      );
-    }
+      if (
+        players[0].Hand[index].Suit === "♥" ||
+        players[0].Hand[index].Suit === "♦"
+      ) {
+        answer.push(
+          <div key={index} style={{ color: "red" }} className="Players-Cards">
+            {players[0].Hand[index].Value}
+            {players[0].Hand[index].Suit}
+          </div>
+        );
+      } else {
+        answer.push(
+          <div key={index} className="Players-Cards">
+            {players[0].Hand[index].Value}
+            {players[0].Hand[index].Suit}
+          </div>
+        );
+      }
     }
     setPlay(answer);
   }
   function playersHand() {
     let answer = [];
     for (let index = 0; index < players[0].Hand.length; index++) {
-        if (players[0].Hand[index].Suit === "♥" || players[0].Hand[index].Suit === "♦") {
-            answer.push(
-                <div key={index} style={{color: "red"}} className="Players-Cards">
-                  {players[0].Hand[index].Value}
-                  {players[0].Hand[index].Suit}
-                </div> 
-            )
-        } else {
-      answer.push(
-        <div key={index} className="Players-Cards">
-          {players[0].Hand[index].Value}
-          {players[0].Hand[index].Suit}
-        </div>
-      );
-    }
+      if (
+        players[0].Hand[index].Suit === "♥" ||
+        players[0].Hand[index].Suit === "♦"
+      ) {
+        answer.push(
+          <div key={index} style={{ color: "red" }} className="Players-Cards">
+            {players[0].Hand[index].Value}
+            {players[0].Hand[index].Suit}
+          </div>
+        );
+      } else {
+        answer.push(
+          <div key={index} className="Players-Cards">
+            {players[0].Hand[index].Value}
+            {players[0].Hand[index].Suit}
+          </div>
+        );
+      }
     }
     setPlay(answer);
   }
