@@ -144,7 +144,8 @@ function Blackjack() {
     } else if (players[0].Points > 21) {
       setWin("You went BUST!");
       setLosses(losses + 1);
-      restart();
+      setOver(true);
+      // restart();
 
       // If dealer has more then 21 points, dealer bust.
     } else if (players[1].Points > 21) {
