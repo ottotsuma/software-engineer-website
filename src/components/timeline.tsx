@@ -101,7 +101,7 @@ export default function CustomizedTimeline() {
               <Typography variant="h6" className="timelineTitle">
                 ARC Tokyo
               </Typography>
-              <Typography>Japanese Langauge School</Typography>
+              <Typography>Japanese Language School</Typography>
               <Typography variant="body2" color="textSecondary">
                 2018 August - 2019 January
               </Typography>
@@ -121,7 +121,7 @@ export default function CustomizedTimeline() {
               <Typography variant="h6" className="timelineTitle">
                 Science Teacher
               </Typography>
-              <Typography>Wiltshire Education Departemnt</Typography>
+              <Typography>Wiltshire Education Department</Typography>
               <Typography variant="body2" color="textSecondary">
                 2017 July - 2018 July
               </Typography>
@@ -161,7 +161,7 @@ export default function CustomizedTimeline() {
               <Typography variant="h6" className="timelineTitle">
                 Teaching Assistant
               </Typography>
-              <Typography>Wiltshire Education Departemnt</Typography>
+              <Typography>Wiltshire Education Department</Typography>
               <Typography variant="body2" color="textSecondary">
                 2015 September - 2016 September
               </Typography>
@@ -201,7 +201,7 @@ export default function CustomizedTimeline() {
               </Typography>
               <Typography>Serum Hydraulics</Typography>
               <Typography variant="body2" color="textSecondary">
-                2014 July - 2015 Febuary
+                2014 July - 2015 February
               </Typography>
             </Paper>
           </TimelineContent>
