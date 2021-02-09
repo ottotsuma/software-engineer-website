@@ -31,7 +31,11 @@ function Blackjack() {
   const [score, setScore] = useState(0);
   const [play, setPlay] = useState();
   const [win, setWin] = useState("It is your first match!");
+  const [wins, setWins] = useState(0);
+  const [losses, setLosses] = useState(0);
+
   const [counter, setCounter] = useState(0);
+
 
   useEffect(() => {
     restart();
@@ -140,12 +144,14 @@ function Blackjack() {
     } else if (players[0].Points > 21) {
       console.log("BUST");
       setWin("You went BUST!");
+      setLosses(losses+1);
       restart();
       setScore(players[0].Points);
       playersHand();
     } else if (players[1].Points > 21) {
       console.log("Player wins");
       setWin("You Won!!");
+      setWins(wins+1);
       restart();
       playersHand();
       setScore(players[0].Points);
@@ -156,6 +162,7 @@ function Blackjack() {
     } else {
       console.log("Dealer wins");
       setWin("You LOST!!!!");
+      setLosses(losses+1);
       restart();
       playersHand();
       setScore(players[0].Points);
@@ -225,6 +232,7 @@ function Blackjack() {
       <div>
         Last Match:
         <div>{win}</div>
+        <div>Wins: {wins} Losses: {losses}</div>
       </div>
     </div>
   );
