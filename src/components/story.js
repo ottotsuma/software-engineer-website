@@ -15,10 +15,12 @@ import Witch from "./../assets/witch7.jpg";
 // import Todo from "./../assets/todo.jpg";
 import Weather from "./../assets/weather.png";
 import Card from "./card"
+import Blackjack from "./blackjack"
 
 function story(props) {
   return (
     <div className="Playground">
+      <Blackjack />
       <h1 className="PlayTitles">Book</h1>
       <a href="Monad/1">Go to story</a>
       <div className="ProfileCard-Outer">
