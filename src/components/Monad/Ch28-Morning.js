@@ -473,7 +473,13 @@ collect or obtain (a resource) for future use.
             when I try to inspect humans, nothing readable came up. Do you think
             he will be angry I tried to eat his brother?
           </p>
-          <p>He just kind of stood there though, unmoving.</p>
+          <p>
+            He just kind of stood there though, unmoving. I told it to go kill
+            the rats in the forest, it ran in the direction of the forest and I
+            heard explosions go off. Maybe I should of told him about the
+            explosions. When I arrived on the floor was what remained of an
+            exploded rat and shredded bacon-leaf everywhere.
+          </p>
         </div>
       </div>
     </div>
