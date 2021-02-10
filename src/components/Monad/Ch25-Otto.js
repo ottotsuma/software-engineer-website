@@ -18,7 +18,7 @@ function intro(props) {
             <li>Element: Lightning.</li>
             <li>Faith: N/A</li>
             <li>Spells: 1.</li>
-            <li>Titles: 3.</li>
+            <li>Titles: 2.</li>
             <li>Spell points: 0.</li>
             <li>Stat points: 3.</li>
             <li>Stats:</li>
@@ -26,14 +26,16 @@ function intro(props) {
             <li>Vitality: 0</li>
             <li>Defence: 0</li>
             <li>Magic: 2</li>
+            {/* title 1 */}
             <li>Magic Defence: 1</li>
-            {/* tittle 1 */}
+            {/* title 1 */}
             <li>Dexterity: 0</li>
             <li>Sense: 1</li>
             {/* human 1 */}
-            <li>Charisma: 3</li>
-            {/* human 2, title 1 */}
-            {/* titles, equipment, skills */}
+            <li>Charisma: 2</li>
+            {/* human 2 */}
+            {/*             Back to School - Enter the academy, +1 Magic" 
+            Found Unique class + 1 Mdef */}
           </p>
 
           <p>Equipment:</p>
@@ -74,7 +76,7 @@ function intro(props) {
             rings an accessories while getting changed with Reingard, I shoved
             them into the pockets inside the new outfit.
           </p>
-{/* Storage ring */}
+          {/* Storage ring */}
           <p>
             We had opted to walk straight back and try and locate if there was a
             library according to the layout of previous tombs Vortigern had

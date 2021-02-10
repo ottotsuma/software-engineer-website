@@ -299,6 +299,7 @@ Deer are considered messengers to the gods in Shinto, especially Kasuga Shrine i
           </p>
           {/*  建御雷 [Takemikazuchi] - Thunder and swords  - https://en.wikipedia.org/wiki/Kasuga-taisha (Ride a white deer)*/}
           {/* Raijin (雷神, lit. "Thunder God") */}
+          <p>*Ping* New Title: Found Unique Item - Mask +1 Strength.</p>
           <p>"You said there were two types of masks?"</p>
 
           <p>

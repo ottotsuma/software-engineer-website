@@ -205,35 +205,103 @@ Noticed by a God - get the notice of a God, (varies) */}
             out skills with another's name.
           </p>
 
-          <p>I did not know where to find an elemental stag. No one did. It was a mythical creature, emphasis on the myth. Why did I not think about that sooner? This quest was impossible! Hmph! I am not sure why, but I thought it would be a good idea to pray again, see if I can talk to this God, it is not like he has other followers left alive.</p>
+          <p>
+            I did not know where to find an elemental stag. No one did. It was a
+            mythical creature, emphasis on the myth. Why did I not think about
+            that sooner? This quest was impossible! Hmph! I am not sure why, but
+            I thought it would be a good idea to pray again, see if I can talk
+            to this God, it is not like he has other followers left alive.
+          </p>
 
-          <p>As expected the prays landed on deaf ears, or none at all. I could feel a connection but the connection felt dark, like the other end was empty. I sat down on my bed and looked at the roof. Before I could even think about anything a gentle dull throbbing pain started in my head. I somehow knew a connection had been made.</p>
+          <p>
+            As expected the prays landed on deaf ears, or none at all. I could
+            feel a connection but the connection felt dark, like the other end
+            was empty. I sat down on my bed and looked at the roof. Before I
+            could even think about anything a gentle dull throbbing pain started
+            in my head. I somehow knew a connection had been made.
+          </p>
 
-          <p>A voice came directly into my head. "Been a long time since anyone prayed to me. You must of been the boy I saw at the southern temple. I hope the system has been taking good care of you." It was Ekʼ Chuah himself.</p>
+          <p>
+            A voice came directly into my head. "Been a long time since anyone
+            prayed to me. You must of been the boy I saw at the southern temple.
+            I hope the system has been taking good care of you." It was Ekʼ
+            Chuah himself.
+          </p>
 
           <p>"System? What system?" I asked confused.</p>
 
-          <p>"The voice that gives quests and grants faith in my absence. I have been asleep for... I am not sure how long, but the system should still be functioning." Ekʼ Chuah replied.</p>
+          <p>
+            "The voice that gives quests and grants faith in my absence. I have
+            been asleep for... I am not sure how long, but the system should
+            still be functioning." Ekʼ Chuah replied.
+          </p>
 
-          <p>"Oh, that voice was a system? It gave me a quest that I cannot do even with the spell it gave me to use... Sorry." I said.</p>
+          <p>
+            "Oh, that voice was a system? It gave me a quest that I cannot do
+            even with the spell it gave me to use... Sorry." I said.
+          </p>
 
-          <p>"Let me see... Oh, that quest. That was the last quest I gave out to my previous champion. Since he did not complete it I guess the system gave it to you. I'm going to change it myself, hold on." He said sounding more awake.</p>
+          <p>
+            "Let me see... Oh, that quest. That was the last quest I gave out to
+            my previous champion. Since he did not complete it I guess the
+            system gave it to you. I'm going to change it myself, hold on." He
+            said sounding more awake.
+          </p>
 
-          <p>"Can I ask about the spell also? Just it has the name of another God on it..." I asked unsure how he might respond.</p>
+          <p>
+            "Can I ask about the spell also? Just it has the name of another God
+            on it..." I asked unsure how he might respond.
+          </p>
 
-          <p>".... I guess the system needs to be turned off for awhile. I need to make changes, that was a mistake. Still it's a good spell for you, with your lightning element. I must ask, the Pocotcotcos, do you know them?" He asked.</p>
+          <p>
+            ".... I guess the system needs to be turned off for awhile. I need
+            to make changes, that was a mistake. Still it's a good spell for
+            you, with your lightning element. I must ask, the Pocotcotcos, do
+            you know them?" He asked.
+          </p>
 
-          <p>"There is a country with that name in the west. They use to rule here until the witch of Alden and other founding members overthrew them, now this academy belongs to Alden." I said.</p>
+          <p>
+            "There is a country with that name in the west. They use to rule
+            here until the witch of Alden and other founding members overthrew
+            them, now this academy belongs to Alden." I said.
+          </p>
 
-          <p>"Curious. My people where called Pocotcotcos and I was their God of death." He said, the last word left me wondering if I had made the right choice. There was a God of death already in Alden. He was despised by most because of the subject of death and the God of life being so popular here.</p>
+          <p>
+            "Curious. My people where called Pocotcotcos and I was their God of
+            death." He said, the last word left me wondering if I had made the
+            right choice. There was a God of death already in Alden. He was
+            despised by most because of the subject of death and the God of life
+            being so popular here.
+          </p>
 
-          <p>"Check your quests now, it's in a tab next to your profile. Just bring up your status as normal at the top there should be a thing labeled 'Quests'." He said as I was starting to regret my decision.</p>
+          <p>
+            "Check your quests now, it's in a tab next to your profile. Just
+            bring up your status as normal at the top there should be a thing
+            labeled 'Quests'." He said as I was starting to regret my decision.
+          </p>
 
-          <p>I looked, and sure enough there was a quests tab. My only quest inside: [Pray everyday for 1 week. Reward: +1 Faith.] This quest was much easier! Also the reward was visible now. Is another faith slot not a really good reward? I should ask a priest later, but I thought this kind of reward is hard to get.</p>
+          <p>
+            I looked, and sure enough there was a quests tab. My only quest
+            inside: [Pray everyday for 1 week. Reward: +1 Faith.] This quest was
+            much easier! Also the reward was visible now. Is another faith slot
+            not a really good reward? I should ask a priest later, but I thought
+            this kind of reward is hard to get.
+          </p>
 
-          <p>"Normally yes, but you are my only follower. I need you to get stronger quickly so I can promote you to a priest or better yet prophet to spread worship of me." He said I was thinking to myself. "Also you know you are projecting your voice inside your head right? It's tricky at first but you'll get the hang of it." I felt kind of embarrassed.</p>
+          <p>
+            "Normally yes, but you are my only follower. I need you to get
+            stronger quickly so I can promote you to a priest or better yet
+            prophet to spread worship of me." He said I was thinking to myself.
+            "Also you know you are projecting your voice inside your head right?
+            It's tricky at first but you'll get the hang of it." I felt kind of
+            embarrassed.
+          </p>
 
-          <p>"Thank you. I guess you must be busy since you just came back? I will pray everyday so I am going to bed." I said. "Sleep well." He replied and the connection felt like it had gone dark again.</p>
+          <p>
+            "Thank you. I guess you must be busy since you just came back? I
+            will pray everyday so I am going to bed." I said. "Sleep well." He
+            replied and the connection felt like it had gone dark again.
+          </p>
           {/* Arena Battle day & Arena day matches other then one of Otto's should be told though a commentator, give it some professional and hype! */}
           <h4>Battle Day</h4>
           <p>That morning I equipped the items had.</p>

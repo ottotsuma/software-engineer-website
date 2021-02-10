@@ -822,7 +822,7 @@ footer {
 /* Items */
 
 #Junk, .Junk {
-  color: silver;
+  color: rgb(109, 109, 109);
 }
 
 #Normal, .Normal {
