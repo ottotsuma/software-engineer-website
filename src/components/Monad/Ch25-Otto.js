@@ -323,7 +323,7 @@ function intro(props) {
             faith spell, I guess it was because it was not his spell to give but
             whoever Kʼawiil was.
           </p>
-
+{/* Damage? */}
           <p>
             The 'seeds' was just one seed, I think because it was the level 1
             version of the spell. The ball of cackling lighting in the form of a

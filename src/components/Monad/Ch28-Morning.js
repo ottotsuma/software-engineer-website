@@ -279,6 +279,25 @@ function intro(props) {
             longer I stood up and thanked him as much as I could while running
             off though the fields.
           </p>
+          <p>
+            I had run though the fields until I found birds pecking at the
+            ground. It was not long before I came across a three-legged crow.
+            Some people say they represent the sun, I say they represent one
+            exp! I shot my lighting seed at it and it landed on the crows wing.
+            At first the crow was shocked, literally. But shortly after he flew
+            up into the air! I was so weak I could not even one shot a crow! I
+            guess it is really a spell to regenerate mana rather then pure
+            killing but still...
+          </p>
+          <p>
+            While I stood there in my frustration I failed the notice the crow
+            turn towards me and attempt a dive bomb into me. Flying downwards at
+            great speed with its beak ready to pierce me. I jumped out the way
+            at the last moment, *ping*, exp + 1. The crow had died mid flight
+            and then crashed into the ground. At least it's body will help the
+            seeds grow.
+          </p>
+          <p>I kept finding three-legged crows and shotting lighting seeds at them taking care to run away after. I noticed sometimes I missed my target with the lightning seeds so I guess the accuracy of this spell is like lightning-ball, it sometimes just goes off target. I am sure it won't hurt the seeds in the ground, it is a seed. Kind of.</p>
           <p></p>
           {/* Germination normally done with fire mages, takes ages. Ice mages to store them. (Other jobs include packing and shipping food.) */}
         </div>
