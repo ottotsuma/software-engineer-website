@@ -4,15 +4,14 @@ function intro(props) {
     <div className="Monad" id="3">
       <div className="Frame">
         <div className="Content">
-          <h4></h4>
+          <h4>Title</h4>
           <p>
             I had new spells, I still needed to level up some more but I had
             more points to spend then before. I could make up for the difference
             with items or titles. Right now I am missing even a weapon.
           </p>
-          <p>Equipment:</p>
+          <p class="equipment">Equipment:
           {/* https://www.sacred-texts.com/cfu/mlc/mlc10.htm - obscure fire god from china */}
-          <p class="equipment">
             <li>
               Head: <li className="Unique"> Heavenly White Stag Mask:</li>{" "}
               Magic: +1, Disease resistance + 20%, Mana regeneration + 10%,
