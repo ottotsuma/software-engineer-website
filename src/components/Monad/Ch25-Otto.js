@@ -316,7 +316,7 @@ function intro(props) {
           </p>
 
           <p>
-            'Lightning seeds - Shoots a group of '1' seeds in a spread from the
+            'Lightning seeds - Shoots a group of [1] seed(s) in a spread from the
             user. The seeds attach to opponent(s) and cause lightning damage
             over time. A part of the damage is used to restore your as mana.'
             The description was very different then when it was given to me as a

@@ -297,9 +297,183 @@ function intro(props) {
             and then crashed into the ground. At least it's body will help the
             seeds grow.
           </p>
-          <p>I kept finding three-legged crows and shotting lighting seeds at them taking care to run away after. I noticed sometimes I missed my target with the lightning seeds so I guess the accuracy of this spell is like lightning-ball, it sometimes just goes off target. I am sure it won't hurt the seeds in the ground, it is a seed. Kind of.</p>
-          <p></p>
+          <p>
+            I kept finding three-legged crows and shotting lighting seeds at
+            them taking care to run away after. I noticed sometimes I missed my
+            target with the lightning seeds so I guess the accuracy of this
+            spell is like lightning-ball, it sometimes just goes off target. I
+            am sure it won't hurt the seeds in the ground, it is a seed. Kind
+            of.
+          </p>
+          <p>
+            One exp is not much, but they slowly added up. This is maybe why
+            they gave me these fields. Even at level ten, one exp is nothing.
+            However I was just a level one so it would all add up. The afternoon
+            went quickly for me and I was able to find more then three-legged
+            crows at the edges of the fields. Nests of exploding forest rats,
+            cute at first, harmless mostly, all they do is steal seeds from the
+            fields. However once you kill one they explode on their death. This
+            was great if you could sneak up on them and kill them near the other
+            ones, however they had great senses and rushed any intruder that
+            came close not stopping until one of you was dead.
+          </p>
+          <p>
+            This behavior worked well for me, I would just put seeds along the
+            edges of the field and when they came to get seeds from the field
+            they would be shocked, go into a fighting squeal and call all their
+            friends, who promptly blew each other up fighting the lightning
+            seed. How are they not extinct?
+          </p>
+          <p>
+            It is a shame that an assisted kill only netted half as much
+            experience. Still far less dangerous then fighting them head on. I
+            started clearing out all the nests along the edges, once no more of
+            them would come out of a nest I would shoot a seed inside and get
+            more experience.
+          </p>
+          <p>
+            I decided to join the farming club, it turned out to be a nice safe
+            way to get low level experience. Classes where a pain as each time I
+            would have to say I was not ready to join in yet. Lubin had seen me
+            after class twice already to check up on me and make reports back to
+            Lenne. After 3 weeks I thought they might of realised something was
+            wrong but when they asked about the farming club I said it was going
+            really well and I was enjoying Lubin made it a point that I could
+            always drop out of combat classes and take a non-combat role if the
+            experience had me unable to cast spells.
+          </p>
+          <p>
+            I genuinely considered it, I had strange farming spells that would
+            put me in a specialty. I also had the inspect skill and numeracy so
+            I could check the durability of all the tools that needed to be
+            used. I think that was 90% of the reason why Ralsan kept me around
+            when I did so little farming.
+          </p>
+          <p>
+            I had reached level 2, I just never told anyone hoping to get more
+            experience. I had managed to get to level 5 before getting bored of
+            the routine.
+          </p>
           {/* Germination normally done with fire mages, takes ages. Ice mages to store them. (Other jobs include packing and shipping food.) */}
+
+          <p class="stats">
+            <li>Name: Otto.</li>
+            <li>Level: 5.</li>
+            <li>Class: Kʼawiil.</li>
+            <li>Spells: 1.</li>
+            <li>Titles: 3.</li>
+            <li>Spell points: 4.</li>
+            {/* 1 Per level */}
+            <li>Stat points: 15.</li>
+            {/* 4 per level */}
+            <li>Stats:</li>
+            <li>Strength: 1</li>
+            {/* Title 1 */}
+            <li>Vitality: 0</li>
+            <li>Defence: 0</li>
+            <li>Magic: 6</li>
+            {/* Title 1 */}
+            <li>Magic Defence: 1</li>
+            {/* Title 1 */}
+            <li>Dexterity: 0</li>
+            <li>Sense: 1</li>
+            {/* Human 1 */}
+            <li>Charisma: 2</li>
+            {/* Human 2 */}
+            {/* Titles: 
+            Back to School - Enter the academy, +1 Magic" 
+            Found Unique class + 1 Mdef 
+            Found Unique Item - Mask +1 Str
+
+            (Not any more)
+           Common: Religious - Pick a God to worship 
+           Reach level 10
+            */}
+          </p>
+
+          <p>
+            I had way more stat points to spend then even when I was level 14
+            before. Increasing my magic was obvious choice every level. It
+            increased the power of my lighting seeds, but what to do with the
+            rest? I decided to put 5 points into Vitality, staying alive was a
+            must after all. For now, my opponents at crows, rats and other pests
+            so that is fine. Next I need to pick some new spells. I had to get
+            'Seeds to Soldiers'. The other spells I thought about before, did I
+            really want to get the spells that helped with farming...
+          </p>
+
+          <p>
+            Ah screw it, I'll get the farming spells. If I join the military I
+            can just say they are survival skills.. Lightning germination,
+            growth and harvest. This better be worth it. Now I had the spells
+            unlocked I could read their description in full.
+          </p>
+          {/*  Apart from lightning seeds, there was also:
+            Lightning germination, Seeds to soldiers, Lightning growth,
+            Lightning harvest. */}
+
+          <p>Lightning germination: Stimulate a target into germinating.</p>
+          <p>
+            I picked up a random seed in the field, sure enough it started to
+            sprout. I am never going to level this spell up, it's useless. What
+            would even happen if I did level it up? There is not even an amount
+            of seeds just 'Target'.
+          </p>
+          {/* During germination, repair processes are activated to deal with accumulated DNA damage. - Kind of heal & Quality */}
+
+          <p>Lightning growth: Force the target to grow.</p>
+          <p>
+            I tried to use the spell on a certain body part after reading that
+            description, no luck.
+          </p>
+          {/* Increases quality of plant & stats given - buff spell */}
+          <p>Lightning harvest: Harvest the target.</p>
+          {/* Quality of harvested materials */}
+          <p>
+            After forcing the germinated seed to grow into a plant, I tired to
+            harvest it. The plant fell apart, nothing but waste was left in my
+            hand. I guess I was impressed with growth, the thing did not even
+            need to be put in the soil to grow, although that left it without
+            roots. I thought perhaps the harvest failed, like how lightning seed
+            sometimes misses so I tired it again on three other seeds.
+          </p>
+          <p>
+            It was the same result each time. The fourth time however I heard a
+            noise that happens when you try to put something in your inventory
+            but it's full. I looked inside and sure enough was my lunch and 4
+            harvested plants. One in each box. I decided to inspect the plants.
+          </p>
+          <p>Bacon Leaf: Quality: 10.</p>
+          <p>
+            Bacon leaf!? I tried to eat it but it tasted of raw bacon. I will
+            cook them later.
+          </p>
+          {/* gather (a crop) as a harvest. 
+            
+            Similar: 
+            a quantity of animals caught or killed for human use.
+"a limited harvest of wild mink"
+the product or result of an action.
+"in terms of science, Apollo yielded a meagre harvest"
+            catch or kill (animals) for human consumption.
+"the quantity of squid harvested has risen"
+remove (cells, tissue, or an organ) from a person or animal for experiment or transplant.
+collect or obtain (a resource) for future use.
+"the research teams are leading the way in identifying new ways of harvesting the sun's energy"
+*/}
+
+          <p>
+            Seeds to Soldiers: Take [1] seed(s), use energy to give life to a
+            soldier.
+          </p>
+          <p>
+            I had been waiting to try this one out the most. I cast a spell on a
+            random seed in the field. A plant-man grew in front of me, with skin
+            like the leaf I just tried to eat. I tried to inspect it, but like
+            when I try to inspect humans, nothing readable came up. Do you think
+            he will be angry I tried to eat his brother?
+          </p>
+          <p>He just kind of stood there though, unmoving.</p>
         </div>
       </div>
     </div>

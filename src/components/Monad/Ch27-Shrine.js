@@ -251,7 +251,8 @@ Deer are considered messengers to the gods in Shinto, especially Kasuga Shrine i
           </p>
 
           <li>
-            <li className="Normal"> Ceremonial White Stag Mask:</li> Small magic increase.
+            <li className="Normal"> Ceremonial White Stag Mask:</li> Small magic
+            increase.
           </li>
 
           <p>
@@ -261,12 +262,18 @@ Deer are considered messengers to the gods in Shinto, especially Kasuga Shrine i
           </p>
 
           <li>
-            <li className="Unique"> Heavenly White Stag Mask:</li> Magic: +1, Disease resistance + 20%, Mana regeneration + 10%, blessing of 建御雷 [Takemikazuchi].
+            <li className="Unique"> Heavenly White Stag Mask:</li> Magic: +1,
+            Disease resistance + 20%, Mana regeneration + 10%, blessing of
+            建御雷 [Takemikazuchi].
           </li>
 
-          <p>Blessing of [Takemikazuchi]: Resist lightning +10%, Lightning cost - 10%, Lightning power +10%. (The growth depends on the how linked you are to [Takemikazuchi].)</p>
-{/*  建御雷 [Takemikazuchi] - Thunder and swords  - https://en.wikipedia.org/wiki/Kasuga-taisha (Ride a white deer)*/}
-{/* Raijin (雷神, lit. "Thunder God") */}
+          <p>
+            Blessing of [Takemikazuchi]: Resist lightning +10%, Lightning cost -
+            10%, Lightning power +10%. (The growth depends on the how linked you
+            are to [Takemikazuchi].)
+          </p>
+          {/*  建御雷 [Takemikazuchi] - Thunder and swords  - https://en.wikipedia.org/wiki/Kasuga-taisha (Ride a white deer)*/}
+          {/* Raijin (雷神, lit. "Thunder God") */}
           <p>"You said there were two types of masks?"</p>
 
           <p>

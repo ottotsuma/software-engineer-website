@@ -5,19 +5,61 @@ Using total war general speeches for the speeches
 The enemy may have the Moon People on their side, but we have lovely hats! And those hats will protect us from their fearsome gaze! (If your general has the “mad” trait)
 
 
+
+          <p class="stats">
+            <li>Name: Otto.</li>
+            <li>Level: 5.</li>
+            <li>Class: Kʼawiil.</li>
+            <li>Spells: 1.</li>
+            <li>Titles: 3.</li>
+            <li>Spell points: 4.</li>
+            {/* 1 Per level */}
+            <li>Stat points: 15.</li>
+            {/* 4 per level */}
+            <li>Stats:</li>
+            <li>Strength: 1</li>
+            {/* Title 1 */}
+            <li>Vitality: 0</li>
+            <li>Defence: 0</li>
+            <li>Magic: 6</li>
+            {/* Title 1 */}
+            <li>Magic Defence: 1</li>
+            {/* Title 1 */}
+            <li>Dexterity: 0</li>
+            <li>Sense: 1</li>
+            {/* Human 1 */}
+            <li>Charisma: 2</li>
+            {/* Human 2 */}
+            {/* Titles: 
+            Back to School - Enter the academy, +1 Magic" 
+            Found Unique class + 1 Mdef 
+            Found Unique Item - Mask +1 Str
+
+            (Not any more)
+           Common: Religious - Pick a God to worship 
+           Reach level 10
+            */}
+          </p>
+
+spells// 
+
+'Lightning seeds - Shoots a group of [1] seed(s) in a spread from the user. The seeds attach to opponent(s) and cause lightning damage over time. A part of the damage is used to restore your as mana.'
+<p>Seeds to Soldiers: Take [1] seed(s), use energy to give life to a soldier.</p>
+
+
 Levels / 
 / Human body 0 - 10, 5 is normal and 10 is the best a human can get. (This is without mana.) / 
 0 - Basic mana spells unlocked, mana flow
-10 - Picked first element, Cap Raised to 1
-20 - Extra Stat points, Cap Raised to 2
-30 - Extra Stat points, Cap Raised to 3
-40 - Extra Stat points, Cap Raised to 4
-50 - Unlock familia, Cap Raised to 5
-60 - Extra Stat points, Cap Raised to 6
-70 - Picked 2nd element, Cap Raised to 7
-80 - Extra Stat points, Cap Raised to 8
-90 - Extra Stat points, Cap Raised to 9
-100 - Class Advancement, Cap Raised to 10
+10 - Picked first element, Cap Raised to 2
+20 - Extra Stat points, Cap Raised to 3
+30 - Extra Stat points, Cap Raised to 4
+40 - Extra Stat points, Cap Raised to 5
+50 - Unlock familia, Cap Raised to 6
+60 - Extra Stat points, Cap Raised to 7
+70 - Picked 2nd element, Cap Raised to 8
+80 - Extra Stat points, Cap Raised to 9
+90 - Extra Stat points, Cap Raised to 10
+100 - Class Advancement, Increase other properties +3
 
 Example below:
 
