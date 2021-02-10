@@ -5,7 +5,6 @@ function intro(props) {
       <div className="Frame">
         <div className="Content">
           <h4>Home against</h4>
-
           <p>
             The trip home took a few days, Takeo's party system allowed us to
             see each others health which was really useful. From what he told me
@@ -18,17 +17,15 @@ function intro(props) {
             negate these problems, but most either only grab the first level or
             stop at the third because that's all they need.
           </p>
-
           <p>
             We talked while we traveled about what I had found, I figured I
             would use this as practice for what I was going to tell the academy.
             I left out the parts of Tisiel and Reingard's ending as I was hoping
             the academy would be able to look for them.
           </p>
-
           <p>
-            I had lost my academy traveling robes and with it any indication I
-            had with me. Once we arrived back at the academy's walls which ran
+            I had lost my academy traveling robes and with it any identification
+            I had with me. Once we arrived back at the academy's walls which ran
             in a semi-circle around the side of the academy facing into the wild
             and stopped at the large valley near the bridge we had to cross when
             I first came to the academy. If I could see though all the buildings
@@ -95,7 +92,7 @@ function intro(props) {
           {/* Put them both inside storage rings? or find a way to get past the scanning of inventory for the items? */}
 
           <p>
-            I had placed my new outfit in my inventory before arriving while
+            I had placed my new outfit in the storage ring before arriving while
             traveling with Takeo saying they where cold, he had given me warmer
             clothes I was going to return to him later but he insisted I burn
             them. I guess being in a tomb with dead bodies has left me with an

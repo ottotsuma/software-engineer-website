@@ -70,9 +70,11 @@ function intro(props) {
           <p>
             I hope the other don't notice that strong wind would break me right
             about now, I need to get out of here really, but even if I leave
-            alone I won't make it back in this condition.
+            alone I won't make it back in this condition. I picked up a few
+            rings an accessories while getting changed with Reingard, I shoved
+            them into the pockets inside the new outfit.
           </p>
-
+{/* Storage ring */}
           <p>
             We had opted to walk straight back and try and locate if there was a
             library according to the layout of previous tombs Vortigern had
@@ -316,14 +318,14 @@ function intro(props) {
           </p>
 
           <p>
-            'Lightning seeds - Shoots a group of [1] seed(s) in a spread from the
-            user. The seeds attach to opponent(s) and cause lightning damage
+            'Lightning seeds - Shoots a group of [1] seed(s) in a spread from
+            the user. The seeds attach to opponent(s) and cause lightning damage
             over time. A part of the damage is used to restore your as mana.'
             The description was very different then when it was given to me as a
             faith spell, I guess it was because it was not his spell to give but
             whoever Kʼawiil was.
           </p>
-{/* Damage? */}
+          {/* Damage? */}
           <p>
             The 'seeds' was just one seed, I think because it was the level 1
             version of the spell. The ball of cackling lighting in the form of a

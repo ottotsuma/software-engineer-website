@@ -9,10 +9,10 @@ function intro(props) {
           {/* Mask */}
           <p>
             We walked from the restaurants back to the wooded area of the Leikan
-            people and down a quiet path I had never thought to take before. At
-            the bottom was a shrine, a small pond in front of it with a narrow
-            stone crossing though the middle to the shrine. The shine itself was
-            made of wood and looked rather unadorned.
+            people, we went down a quiet path I had never thought to take
+            before. At the bottom was a shrine. A small pond sat in front of the
+            shrine with a narrow stone bridge crossing over the middle of the
+            pond. The shine itself was made of wood and looked rather unadorned.
           </p>
 
           <div class="pop">
@@ -26,80 +26,94 @@ function intro(props) {
           </div>
 
           <p>
-            Once inside we stood side by side and she handed me a coin with a
-            hole though the middle. We both tossed one each into a box in front
-            of us, then we bowed twice and clapped out hands twice and finally
-            bowed. I made a small wish while doing this unsure if we were
-            suppose to wish for anything.
+            Once inside we stood side by side, she handed me a coin with a hole
+            though the middle. We both tossed our coins into a box in front of
+            us. Then we bowed twice, clapped out hands twice and finally bowed
+            again. I made a small wish while doing this, unsure if we were
+            suppose to wish for anything. Then We walked back outside and
+            resumed our conversation.
           </p>
 
           <p>
-            We walked back outside and resumed our conversation. "Oh the witches
-            hat I gave you before, I found out the previous owner was the witch
-            of Alden."
+            "Oh the witches hat I gave you before, I found out the previous
+            owner was the witch of Alden." I said holding my hand out as she
+            crossed the small stone bridge.
           </p>
 
-          <p>"Oh! That is amazing! Do you need it back then?"</p>
           <p>
-            "What no. It was a gift. Just thought you might be interested also.
-            Speaking of, I have another gift."
+            "Wait? Really? That is amazing! How did you find out? Do you need it
+            back?" She asked really surprised.
           </p>
           <p>
-            "Eh? Already? You only just gave me the witches hat! It cannot be
-            anything expensive."
+            "What? no. It was a gift, you have to keep it. Just thought you
+            might be interested to know. Ah well there was a diary in the tomb I
+            just came back from that said she had lived where I got the hat
+            from, that was her study. Although I did not mention that to the
+            academy, maybe I should. Speaking of the tomb, I have another gift
+            for you." I said suddenly thinking of what I sneaked inside the
+            academy.
+          </p>
+          <p>
+            "Eh? Another? You only just gave me the witches hat! I refuse." She
+            said in a small panic.
           </p>
           <p>
             "Relax, it is just something I found in the tomb. Since I left for
-            so long it is only right I bring something back with me." She seemed
-            to agree with that sentiment at least.
+            so long time it is only right I bring something back with me." I
+            said, and she seemed to agree with that sentiment at least.
           </p>
           <p>
             I handed over the set of death and wood attribute clothing. With
             Tisiel gone I would be unable to sell them or even bring them out
             without the academy sticking their noses in deeper. I was hoping
-            Tisiel could at least make use of them back in Lakia, I don't know
+            Tsuma could at least make use of them back in Lakia. I don't know
             why I thought this but since they always lived in the woods I
             assumed they had a connection to the wood element.
           </p>
-          {/* The items had to get past the checkpoints so how? */}
+          {/* The items had to get past the checkpoints so how?  Storage ring ... */}
           <p>
-            "This. This is death priest clothing from the immortal world. How do
-            you even. From the tomb you just left? Do you know what this is?"
-            She said going higher pitched to the end.
+            "T-This, this is death priest clothing from the immortal world." She
+            said slowly. "How do you even? From the tomb you just left you said?
+            Do you know what this is?" She said going higher pitched to the end.
           </p>
           <p>
             "You know what it is? I found it in the tomb, I have another set of
-            fire. The other 4 sets where lost when I lost my friends."
+            fire. The other 4 sets where lost, when I lost my friends."
           </p>
           <p>
-            "Ah yes I suppose you would not know the stories of the immortals
-            are treated as myths by... Mmm. How to say this? There are some
-            people who know that the immortals use to be apart of this world but
-            left. The places they went and built are always inside of portals.
-            Their tombs left for their descendants are a source of wealth and
-            technology or so they use to be until modern times. Their technology
-            is not that far ahead in most places now and in fact behind in a lot
-            of areas. What they considered to be treasures are sometimes not
-            held very highly now. Anyway the point is towards the end of the
-            immortals they split into three factions. Life, death and balance.
-            Are you with me so far?"
+            "Sorry again. About your friends." She said apologetically. It was
+            not her fault. "I suppose you would not know the stories of the
+            immortals." She carried on. "How to say this? There are some people
+            who know that the immortals use to be apart of this world but left.
+            They built this academy, the portal to come here and many tombs.
+            Their tombs were left for their descendants, as trials. Today they
+            are a source of wealth and technology or so they use to be until
+            recently. The technology we find now is not that far ahead. In some
+            areas we have surpassed them. What they considered to be treasures
+            are often nothing more then relics now. Anyway, the point is towards
+            the end of the immortals era they split into three factions. Life,
+            death and balance. Are you with me so far?" She said pausing for a
+            moment.
           </p>
           <p>
             "Yeah I am just kind of amazed you know about all this.. It took me
-            and Tisiel a lot of research to find out even less then this."
+            and Tisiel a lot of research to find out even less then this." I
+            said taken back by how much time we could of saved by asking if
+            anyone else knew about immortals.
           </p>
           <p>
             "You are not the only ones digging up immortal tombs and doing
             research." She giggled. "Now the three factions all have powerful
-            members who ran everything, ones personal power meant everything to
-            them. These outfits where given to the strongest members of each of
+            members who ran everything. Ones personal power meant everything to
+            them. These outfits were given to the strongest members of each of
             those factions. Fire, earth, water, metal and wood were holy
             elements to them and so the leaders each had a representative
-            element, the last leader being the over all leader of the faction.
-            These outfits where less their battle armor but more like ceremonial
-            armor, but they where still the leaders of the top factions are the
-            end of the world. While not at its peak the materials and craftsman
-            they had access too..."
+            element. The last leader being the over all leader of the faction
+            had the pure element for their faction. These outfits were less for
+            battle but more like ceremonial armor. They were still the leaders
+            of the top three factions at the end of the world. While not at its
+            peak, the materials and craftsman they had access too..." She was
+            going to continue her thoughts but I interrupted.
           </p>
           <p>
             "Okay, okay! So it is something real valuable?" I asked a little
@@ -109,13 +123,13 @@ function intro(props) {
             "Ah I was just getting to that part! You see the immortal tomb of
             life was found in a portal in Utnaulach, about 400 years ago. A town
             which Lakia is currently in control of. Inside they found a set like
-            this for each of the elements and one final set, after a lot of
-            fighting and exchange of money and land. Alden holds the metal set,
-            Huonhia the water set, Leika the wood set, Hatalia the fire set,
-            Chingaling the earth set, leaving the final set of pure life in
-            Utnaulach at the academy there. What you have given me is too much,
-            but I cannot say no... The sets are used to research the abilities
-            on them, they are worth starting wars over."
+            this for each of the elements and one final set of pure life
+            elemental, after a lot of fighting and exchanges of money and land.
+            Alden holds the metal set, Huonhia the water set, Leika the wood
+            set, Hatalia the fire set, Chingaling the earth set, leaving the
+            final set of pure life in Utnaulach at the academy. What you have
+            given me is too much, but I cannot say no... The sets are used to
+            research the abilities on them, they are worth starting wars over."
           </p>
           {/* Fire, earth, water, metal and wood */}
           <p>
@@ -126,22 +140,23 @@ function intro(props) {
           </p>
 
           <p>
-            "If that is the case then can you send it to your people in Lakia?
+            "If that is the case, then can you send it to your people in Lakia?
             If I hold onto it maybe it would not be to my benefit in the end." I
             suggested.
           </p>
           <p>
-            "Of course I can but, it is taking a big research opportunity away
-            from Alden." She replied.
+            "Of course I can there is actually a Leikan princess here, it would
+            not be a problem for her to do it. However this is taking a big
+            research opportunity away from Alden." She replied.
           </p>
           <p>
             "I already gifted to you. It's too late to give it back." I said
             with a smile.
           </p>
-          <p>"You are far too trusting..."</p>
+          <p>"You are far too trusting..." She gave in holding the items.</p>
           <p>
-            "Maybe you can pay me back in information, you seem to know a lot of
-            things I do not, and I did recently lose Tisiel my source of odd
+            "Maybe you can pay me back in information" I suggested "You seem to
+            know a lot of things I do not. I did recently lose my source of odd
             knowledge." I commented
           </p>
           <p>
@@ -150,30 +165,37 @@ function intro(props) {
           </p>
 
           <p>
-            I took out the mask I had gotten from Leon back when I last visited
-            him, we had no clue about what it was or used for but I figured I'd
-            give a shot asking since it looks like a Leikan design. I held it
+            "Perfect time for a date, it has cheered me up." I said smiling. I
+            took out the mask I had gotten from Leon back when I last visited
+            him. We had no clue about what it was or used for but I figured I'd
+            give a shot asking, since it looks like a Leikan design. I held it
             out in two hands and asked, "Do you know what this is? I don't. It
             was a gift from a friend.."
           </p>
 
           <p>
             She looked back at the mask then laughed a little, "You must have an
-            interesting friend to give you a gift like this, it is a shrine
-            mask. We wear them during festivals and special days when we visit
-            the shrines. There are two kinds, ceremonial and godly. Once you
-            have a god you wish to follow, you take the mask to a shine and get
-            it blessed by the god. If the shrine built for that god, the
-            blessing would be better, but it is not necessary. The god will
-            bless the mask, similar to religious jewelry here in Alden."
+            interesting friend to give you a gift like this. It's a shrine mask.
+            We wear them during festivals and special days when we visit the
+            shrines. There are two kinds, ceremonial and godly. Once you have a
+            god you wish to follow, you take the mask to a shine and get it
+            blessed by the god. If the shrine built for that god, the blessing
+            would be better, but it is not necessary. The god will bless the
+            mask, similar to religious jewelry here in Alden." She said. The
+            jewelry I knew, every priest or person of the church of life carried
+            a symbol of their faith. I was just finding out they where magic
+            items.
           </p>
 
-          <p>"Oh, then does this belong to someone already?"</p>
+          <p>
+            "Oh, then does this belong to someone already?" I said worried
+            someone had lost it.
+          </p>
 
           <p>
             "If it did, it does not now. There is no spirit mark on this mask."
-            She held out a white and red mask, it had the face of a tiger but it
-            was quite cute and would only cover the top half of a face. "This is
+            She held out a white and red mask, it had the face of a tiger. It
+            was quite cute, it would only cover the top half of a face. "This is
             my mask, if you let your mana feel the mask you can see that my mana
             is infused with the mask, this is a kind of mark to bind the mask to
             me."
@@ -190,7 +212,10 @@ function intro(props) {
             break that connection with the god."
           </p>
 
-          <p>"I can have a connection to more then one God right?"</p>
+          <p>
+            "I can have a connection to more then one God right?" I said a
+            little confused.
+          </p>
 
           <p>
             She gently placed the tiger mask in her hand onto her face, no
@@ -278,10 +303,10 @@ Deer are considered messengers to the gods in Shinto, especially Kasuga Shrine i
 
           <p>
             "Oh, yeah the second type is not a kind of mask you will be able to
-            get, it is a heavenly mask, this kind of mask there is only one of
-            in the world and contains the will of that God. These masks are held
-            in the main shrine in Otsu the capital city of Leika. Yours should
-            show an increase in magic right?"
+            get. It is a godly mask, this kind of mask there is only one of in
+            the world and contains the true blessing of that God. These masks
+            are held in the main shrine in Otsu the capital city of Leika. Yours
+            should show an increase in magic right?"
           </p>
 
           <p>
@@ -291,11 +316,13 @@ Deer are considered messengers to the gods in Shinto, especially Kasuga Shrine i
 
           <p>
             "It's a mask, all masks have some disease resistance, I thought
-            you'd know that. You have no home right? The lady you told me about
-            said you would be coming to live near us, well why don't you come
-            back to mine tonight? The place is really big because there is a
-            princess staying there so there will be lots of room...." She
-            suggested.
+            you'd know that."She said as if mentioning it was strange. It did
+            make sense since it covers your face, but that was not what I wanted
+            to focus on, before I replied she carried on. "You have no home
+            right? The lady you told me about said you would be coming to live
+            near us, well why don't you come back to by house tonight? The place is
+            really big because there is a princess staying there so there will
+            be lots of room...." She suggested.
           </p>
           <p>
             "I mean, I am suppose to go back to the cliffside and check where I
