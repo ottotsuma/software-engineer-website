@@ -41,19 +41,19 @@ function intro(props) {
           <p>Equipment:</p>
           {/* https://www.sacred-texts.com/cfu/mlc/mlc10.htm - obscure fire god from china */}
           <p class="equipment">
-            <li>
+            <li className="Item">
               Head:<font color="blue"></font>
             </li>
-            <li>
+            <li className="Item">
               Body:<font color="blue"> Hui Lu's Battle Armor</font> ???
             </li>
-            <li>
+            <li className="Item">
               Hands:<font color="blue"> Hui Lu's Enchanting Gloves</font> ???
             </li>
-            <li>
+            <li className="Item">
               Feet:<font color="blue"> Hui Lu's Burning Boots</font> ???
             </li>
-            <li>
+            <li className="Item">
               Weapon:<font color="blue"> </font>
             </li>
           </p>

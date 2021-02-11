@@ -310,31 +310,31 @@ Coin (daughter) - (???) - O
 
           <p class="equipment">
             <li>Name: Otto.</li>
-            <li>
+            <li className="Item">
               Head: <li className="Normal">Witch's Hat.</li> Magic: +3.
             </li>
-            <li>
+            <li className="Item">
               Body:<li className="Junk"> Academy Robe (black).</li> Magic:
               +1, Health + 10.
             </li>
-            <li>
+            <li className="Item">
               Hands:<li className="Normal"> </li>
             </li>
-            <li>
+            <li className="Item">
               Feet:<li className="Normal"> </li>
             </li>
-            <li>
+            <li className="Item">
               Acc1:<li className="li"> Pendent of Medium Magic.</li> Magic +2
               , Strength -1.
             </li>
-            <li>
+            <li className="Item">
               Acc2:<li className="Junk"> Ring of Little Strength.</li>
               Strength +1
             </li>
-            <li>
+            <li className="Item">
               Weapon:<li className="Junk"> Warhammer.</li> Strength +1.
             </li>
-            <li>
+            <li className="Item">
               Secondary:<li className="Normal"> Wand.</li> Skill: Detect Magic 1
               per day.
             </li>

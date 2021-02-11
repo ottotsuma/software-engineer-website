@@ -308,38 +308,38 @@ Noticed by a God - get the notice of a God, (varies) */}
 
           <p class="equipment">
             <li>Name: Otto.</li>
-            <li>
+            <li className="Item">
               Head:<font color="blue"> Witch's Hat.</font> Magic: +4.
             </li>
-            <li>
+            <li className="Item">
               Body:<font color="darkgrey"> Academy Robe (Black/Yellow).</font>
               Magic: +2, Lightning +1%, Health +10.
             </li>
-            <li>
+            <li className="Item">
               Hands:<font color="darkgrey">Mutt's Mitt's</font> Willpower +2.
             </li>
-            <li>
+            <li className="Item">
               Feet:<font color="darkgrey"> Bouncy Boots.</font> Absorbs a small
               amount of energy when struck and releases it to help you bounce! .
             </li>
-            <li>
+            <li className="Item">
               Acc1:<font color="blue"> Pendent of Medium Magic.</font> Magic +3
               , Strength -2.
             </li>
-            <li>
+            <li className="Item">
               Acc2:<font color="darkgrey"> Ring of Little Strength.</font>
               Strength +2
             </li>
-            <li>
+            <li className="Item">
               Acc3:<font color="blue"> </font>
             </li>
-            <li>
+            <li className="Item">
               Acc4:<font color="darkgrey"> </font>
             </li>
-            <li>
+            <li className="Item">
               Primary:<font color="darkgrey"> Warhammer.</font> Strength +2.
             </li>
-            <li>
+            <li className="Item">
               Secondary:<font color="blue"> Wand.</font> Skill: Detect Magic 1
               per day.
             </li>

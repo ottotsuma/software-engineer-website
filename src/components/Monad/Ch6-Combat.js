@@ -21,7 +21,7 @@ function intro(props) {
           </p>
 
           <p>
-            <li>
+            <li className="Item">
               Body:<li className="Junk"> Academy Robe (black).</li> Magic:
               +1, Health + 10.
             </li>
