@@ -12,12 +12,12 @@ function intro(props) {
           </p>
           <p class="equipment">Equipment:
           {/* https://www.sacred-texts.com/cfu/mlc/mlc10.htm - obscure fire god from china */}
-            <li>
+            <li className="Item">
               Head: <li className="Unique"> Heavenly White Stag Mask:</li>{" "}
               Magic: +1, Disease resistance + 20%, Mana regeneration + 10%,
               blessing of 建御雷 [Takemikazuchi].
             </li>
-            <li>
+            <li className="Item">
               Body:<li className="Junk">Academy Robe (Black/Yellow).</li>
               Magic: +1, Lightning +1%, Health +10.
             </li>

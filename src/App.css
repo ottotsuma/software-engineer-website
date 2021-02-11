@@ -821,6 +821,10 @@ footer {
 
 /* Items */
 
+.Item {
+  flex-direction: column;
+}
+
 #Junk, .Junk {
   color: rgb(109, 109, 109);
 }
