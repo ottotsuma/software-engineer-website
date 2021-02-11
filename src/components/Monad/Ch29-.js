@@ -88,20 +88,81 @@ function intro(props) {
             rest, he misunderstood but it would work all the same. "Thank you."
             I replied.
           </p>
-          <p>"So show me what you are keeping so secret." He said with a wink. I held out a seed I had taken from the field and cast 'Lightning Germination' on it while it was in my hand. The seed split and a shoot popped out. I stood there hoping he would know more about this then me.</p>
-          <p>"Did you just germinate the seed instantly? What the hell man!?" He had lost his usual smile for an open jaw.</p>
+          <p>
+            "So show me what you are keeping so secret." He said with a wink. I
+            held out a seed I had taken from the field and cast 'Lightning
+            Germination' on it while it was in my hand. The seed split and a
+            shoot popped out. I stood there hoping he would know more about this
+            then me.
+          </p>
+          <p>
+            "Did you just germinate the seed instantly? What the hell man!?" He
+            had lost his usual smile for an open jaw.
+          </p>
           <p>"What? Is this unusual?" I asked panicking inside again.</p>
-          <p>"Yeah, a little." He picked up the seed from my hand. "Fire mages usually do this kind of work, it takes them a few hours which is much faster then the 3 to 5 days normally." He said looking closely at the seed, pulling out a kind of one eyed glass.</p>
-          <p>"A few hours? For one seed!?" I guess 'Lightning Germination' refereed to the speed as well as the element.</p>
-          <p>"No, hundreds usually they do them in batches. The quality is okay considering the speed though. How many can you do at once? What is the description of the spell? Whats the efficiency or fail rate?" He asked putting on a kind of business face.</p>
-          <p>I saw no reason to hide it from him so I shared the description. "Lightning germination: Stimulate a target into germinating. I tried before but it seems to be one seed at once..."</p>
-          <p>His eye brow just twitched. "I guess if you could do that to hundreds of seeds at once we would never use fire mages again." He said a little broken. "Still, no fail rate? That's all it says? 'Target' not seed? Sure is a strange one." He said his face becoming puzzled.</p>
-          <p>"Yeah I have two more spells also if this one is not useful..." I said worried that just one seed at once was not impressive.</p>
-          <p>"Oh you do? Show me them also. The spell is great just.. we can't have you doing that to hundreds of seeds, the mana consumption would be one thing but the boredom another" He laughed. "It's more like this skill was designed to work on hard to germinate seeds. Like seeds that normally fail." He said.</p>
-          <p>"Ah I don't know anything about this. Let me show you the other skills first." I cast 'Lightning Growth' on the seed and it grew on the palm of my hand. I shared the description also and let him take a look at the plant again.</p>
-          <p>"Just like that? No soil, water, food. And it's fully grown." He just shock his head as he inspected the plant.</p>
-          <p>"Last one." I said as I cast 'Lightning Harvest' and the plant fell apart as he was looking at it. I pulled out the plant from my inventory. "What's left in my palm is leftovers I guess, and this is the useful part of the plant." I said handed them both to him.</p>
-          <p>He looked at both parts for awhile, inspecting them with his little eye glass before saying. ""</p>
+          <p>
+            "Yeah, a little." He picked up the seed from my hand. "Fire mages
+            usually do this kind of work, it takes them a few hours which is
+            much faster then the 3 to 5 days normally." He said looking closely
+            at the seed, pulling out a kind of one eyed glass.
+          </p>
+          <p>
+            "A few hours? For one seed!?" I guess 'Lightning Germination'
+            refereed to the speed as well as the element.
+          </p>
+          <p>
+            "No, hundreds usually they do them in batches. The quality is okay
+            considering the speed though. How many can you do at once? What is
+            the description of the spell? Whats the efficiency or fail rate?" He
+            asked putting on a kind of business face.
+          </p>
+          <p>
+            I saw no reason to hide it from him so I shared the description.
+            "Lightning germination: Stimulate a target into germinating. I tried
+            before but it seems to be one seed at once..."
+          </p>
+          <p>
+            His eye brow just twitched. "I guess if you could do that to
+            hundreds of seeds at once we would never use fire mages again." He
+            said a little broken. "Still, no fail rate? That's all it says?
+            'Target' not seed? Sure is a strange one." He said his face becoming
+            puzzled.
+          </p>
+          <p>
+            "Yeah I have two more spells also if this one is not useful..." I
+            said worried that just one seed at once was not impressive.
+          </p>
+          <p>
+            "Oh you do? Show me them also. The spell is great just.. we can't
+            have you doing that to hundreds of seeds, the mana consumption would
+            be one thing but the boredom another" He laughed. "It's more like
+            this skill was designed to work on hard to germinate seeds. Like
+            seeds that normally fail." He said.
+          </p>
+          <p>
+            "Ah I don't know anything about this. Let me show you the other
+            skills first." I cast 'Lightning Growth' on the seed and it grew on
+            the palm of my hand. I shared the description also and let him take
+            a look at the plant again.
+          </p>
+          <p>
+            "Just like that? No soil, water, food. And it's fully grown." He
+            just shock his head as he inspected the plant.
+          </p>
+          <p>
+            "Last one." I said as I cast 'Lightning Harvest' and the plant fell
+            apart as he was looking at it. I pulled out the plant from my
+            inventory. "What's left in my palm is leftovers I guess, and this is
+            the useful part of the plant." I said handed them both to him.
+          </p>
+          <p>
+            He looked at both parts for awhile, inspecting them with his little
+            eye glass before saying. "Freaky. I can see why we only had a few
+            lightning mages in the past. I mean the spells are great but not for
+            mass production. Great for research though..." He said smiling
+            again. "And lucky for you that is what the academy and this club is
+            for."
+          </p>
         </div>
       </div>
     </div>
