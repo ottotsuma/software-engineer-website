@@ -163,6 +163,31 @@ function intro(props) {
             again. "And lucky for you that is what the academy and this club is
             for."
           </p>
+          <p>
+            Near the warehouse there was a small building in all these weeks I
+            had never gone into. Ralsan took me inside that building for the
+            first time. The building itself felt quite new compared to the rest
+            of the academy. Most of the buildings in the academy were here
+            before Alden arrived and where just decorated after, this building
+            though looked both inside and out an Alden style building. The
+            inside was clean and new, everything was light grey walls and decks
+            with marble white in places.
+          </p>
+          <p>
+            There was not many people in here, just four. A tall boy with
+            glasses pressed firmly to his face and more oil in his hair than a
+            cooking pot. He was watching a boy and a girl moving seeds around on
+            a deck. Finally in the coroner was another girl with an inspection
+            glass looking at plants she was moving from one bag into another.
+          </p>
+          <p>
+            "This is the research department, only ***, with the two other
+            students over there and *** over in the corner. Apart from that the
+            rest of us usually on the fields doing our research there. Oh and I
+            should not forget the third building south of here is the
+            germination laboratory." Ralsan said explaining things.
+          </p>
+          <p></p>
         </div>
       </div>
     </div>
