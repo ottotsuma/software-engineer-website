@@ -181,13 +181,54 @@ function intro(props) {
             glass looking at plants she was moving from one bag into another.
           </p>
           <p>
-            "This is the research department, only ***, with the two other
-            students over there and *** over in the corner. Apart from that the
-            rest of us usually on the fields doing our research there. Oh and I
-            should not forget the third building south of here is the
+            "This is the research department, only Redmond, with the two other
+            students over there and Olinda over in the corner. Apart from that
+            the rest of us usually on the fields doing our research there. Oh
+            and I should not forget the third building south of here is the
             germination laboratory." Ralsan said explaining things.
           </p>
-          <p></p>
+          <p>
+            Redmond nodded at Ralsan as he come further in while Olinda carried
+            on with her work. Ralsan took me over to an empty white desk and
+            asked me to wait while he went into a small room to the side. He
+            closed the door behind him so I could not see what was inside. When
+            he came back out he was holding a small box.
+          </p>
+          <p>
+            "In here is a kind of testing seed we use for beginners, they are
+            cheap enough to do this once but not cheap enough we use them for
+            farming. They are monster eating plans, they are dangerous when
+            fully grown. We use them because they are hard to germinate so it is
+            a good test of a fire mages ability to control temperature, or in
+            your case a great way to test your skill."
+          </p>
+          <p>
+            He opened the box and took out 5 seeds. They have a 20% chance of
+            germinating, it's low but not too low. Give it a try and see how
+            many of these 5 you can germinate, that will give us a clue about
+            how effective your skill is. With that he put one of the seeds into
+            my hand.
+          </p>
+          <p>
+            I cast 'Lightning Germination' again and just like before a small
+            green shoot shot out from the seed as it split down the middle. The
+            shoot this time had a small head on top. It looked like a mouth made
+            of two leaves, the edges being spiked like teeth.
+          </p>
+          <p>
+            "Impressive, 4 more times." Ralsan said pointing to the other seeds.
+            Maybe he thought it was just lucky.
+          </p>
+          <p>
+            I proceeded though all of the seeds. When I had finished 5 little
+            saplings sat there on the desk poking their small heads from the
+            seeds.
+          </p>
+          <p>
+            "A full 5 out of 5, impressive! How is your mana?" Ralsan asked with
+            a big smile.
+          </p>
+          <p>"Ah it's fine, I used about "</p>
         </div>
       </div>
     </div>
