@@ -264,7 +264,159 @@ function intro(props) {
             the monster eating plant looked poised to move down and swallow us
             all whole.
           </p>
-          <p>However it never happened. It just stayed still, like something was missing. "WHAT THE HELL DID YOU TWO DO!?" Redmond shouted across the room. </p>
+          <p>
+            However it never happened. It just stayed still, like something was
+            missing. "WHAT THE HELL DID YOU TWO DO!?" Redmond shouted across the
+            room. The two students he was with had ducked behind their desk.
+          </p>
+          <p>
+            "It's not moving, weird." Ralsan said in a reply but it seemed more
+            like he was speaking to himself.
+          </p>
+          <p>
+            "Get out you fools! It could move at any moment and spray us with
+            it's acid or eat us whole." Redmond said in our direction while
+            pushing the the other students towards the door.
+          </p>
+          <p>
+            "Most intriguing. There are no records of a monster eating plant
+            growing so quickly. It is already at it's 3rd stage." A womans voice
+            came from behind the plant.
+          </p>
+          <p>
+            "I agree it's interesting but it might kill you, get out now!"
+            Redmond shouted holding the door open, half outside the building.
+          </p>
+          <p>
+            Ralsan ran over to me and helped me out the door. Olinda leisurely
+            looked around the plant almost unwilling to leave before her brain
+            seemed to remember that being dead was not ideal. Ralsan had taken
+            me outside and put me against the tree where we ate lunch most days.
+            I saw Olinda walk out with a strange face. She was an odd one. "What
+            now?" I asked Ralsan quietly.
+          </p>
+          <p>
+            "Ah we have to get rid of that plant. It is a shame I couldn't study
+            it more I would of liked to. You know the speed is one thing but
+            what stuck out to me was I checked every sapling you made, as well
+            as the bacon leaf from before. They were all pretty poor condition,
+            malnourished. What stood out though was that if I had the numeracy
+            trait I think I would of been able to see they all had the same
+            quality level." He looked at me to confirm since he knew I had that
+            trait.
+          </p>
+          <p>
+            "I inspected the bacon leaf from before, and the saplings." I said
+            nodding my head. "Everyone was 'Quality: 10'. Although it did not
+            say out of how much or if that was good or bad." I admitted.
+          </p>
+          <p>"Broken". He replied.</p>
+          <p>"Sorry, what?" I asked.</p>
+          <p>
+            "Your spell is broken. Making a plant grow like that with no food or
+            water input. Should be impossible." He said shaking his head
+            slightly. "What scares me most is the quality level starts at 10. I
+            am worried the level 2 spell will start at 20.. And so on. Get what
+            I am saying?" He said with a serious face.
+          </p>
+          <p>
+            "Not at all." I shook my head. "Is it really a problem?" I asked.
+          </p>
+          <p>
+            "For you? Yes." He smiled. "I am going to beg you everyday to level
+            up and put another point into that spell. I know farming is not what
+            you want to do... But I have to know if I am right." He smiled and
+            sat down next to me.
+          </p>
+          <p>
+            All I could do was laugh. He was so serious about something so
+            silly. "Ahhh Fudge!" He said his head leaning back as he sat next to
+            me. "Left the saplings inside, they will have to burn the plant
+            down." He said.
+          </p>
+          <p>"Can't I just harvest it?" I asked confused.</p>
+          <p>
+            "Err. I did not think of that. You can try if you are up for it.
+            I'll ask them to wait, without prey a monster eating plant should
+            not move, that's its nature." He said and went to speak to Redmond
+            and Olinda who were busy arguing with each other.
+          </p>
+          <p>
+            Olinda walked back to me with Ralsan as Redmond started to walk back
+            towards the gate. "Good news!" Ralsan said. "You can harvest the
+            plant."
+          </p>
+          <p>
+            "Bad news." Olinda followed up. "We have until Redmond comes back
+            with the fire mages." She reached into her robe and pulled out a
+            bottle of purple liquid.
+          </p>
+          <p>"What is that?" I asked looking at it as she handed it to me.</p>
+          <p>
+            "Mage mana. Pure, no element. Expensive." She said as if it was hard
+            to part with it. I stopped reaching for it and looked at her.
+          </p>
+          <p>"Why are you handing this to me?" I said confused.</p>
+          <p>
+            "Olinda is like me, we want to see your harvest. In return for the
+            potion let us keep the harvest to study." Ralsan said from the side.
+          </p>
+          <p>
+            "Alright, that's fine." I said and took the potion. I opened it and
+            drank it while looking at Olinda. I felt bad, it was like I just ate
+            her pet. It must of been expensive..
+          </p>
+          <p>
+            They both followed me from behind. I did not like the way they where
+            looking at me, like I was some kind of freak in a zoo. I reached the
+            door and popped my head inside. The plant had not moved even a
+            hair's width from when I left. I did not really want to touch the
+            plant if I could. I thought about it for awhile, I wonder if it
+            would not move until I asked it to like with the bacon-plant
+            soldier. Although this was a different spell so maybe I was wrong,
+            better safe then sorry. I reached my hand out and with my palm
+            pointed at the plant I tried to cast harvest to see if it would work
+            without me touching it. Nothing happened. I kept trying the closer I
+            crept forward. I was standing about 2 steps away when the plant
+            disappeared and a clump of mush was left on the floor. The sudden
+            change made me jump.
+          </p>
+          <p>
+            "Was that it?" Olinda's voice came from her watching though the
+            door. "Yeah." I replied hoping she was not to disappointed, it cost
+            her that potion after all. I got the harvest from my inventory and
+            placed it on the desk we were working on. The saplings where there
+            from before.
+          </p>
+          <p>
+            "Wow, the seeds are here also, the leaves are here...." Olinda
+            started listing parts of the plants including an acid sac she was
+            very excited with. "Is she happy?" I asked Ralsan.
+          </p>
+          <p>
+            "Yeah, some of these items are hard to get because the easy way to
+            deal with plant monsters is just to burn them. Getting the acid sac
+            with the acid inside would be hard, you would have to kill the plant
+            without burning it to the ground or letting it spit it's acid." He
+            said picking up some of the items and inspecting them himself. "You
+            know with your inspect skill, these farming spells, you could join
+            us as a full member if you ever want to go into research." Ralsan
+            said. "I guess we should carry on the test another time. Come back
+            tomorrow when we have everything cleaned up and back to normal."
+            Ralsan said. I was tempted to ask for the other saplings but I did
+            not think he would give to me.
+          </p>
+          <p>
+            On the way back into the academy I saw Redmond running with a group
+            of fire mages back towards the farm gate. I was up another street so
+            I just kept walking. He seemed stressed enough already without me
+            stopping him. I was walking to the arena to see if I could get
+            myself a new weapon. As I twisted though the streets past the
+            training areas I felt a firm hand grab my shoulder. "A monster
+            eating plant suddenly sprouts up in the research lab. Redmond was in
+            a huge panic and in no condition to tell me what happened, perhaps
+            you can." A stern voice said from behind. It was Arrilian.
+          </p>
         </div>
       </div>
     </div>
