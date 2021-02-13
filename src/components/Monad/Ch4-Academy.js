@@ -22,13 +22,13 @@ function intro(props) {
             hall was two giant stone spikes, they resembled claws and reached
             30m from the ground to their top where they stopped just shy of the
             roof. Between these pillars was a mass of dizzying, swirling purple
-            liquid, a purple I knew well, it was the same purple he saw the
+            liquid, a purple I knew well, it was the same purple I saw the
             manastone turn back in the village hall.
           </p>
 
           <h3>Inside</h3>
           <p>
-            Once I stepped though the portal he could see stretched out before
+            Once I stepped though the portal I could see stretched out before
             him a long white bridge winged with more trees leading to a large
             palace, the door 30m tall appeared to be made of gold, with towers
             pointing up around the structure and beyond who's rooves where lined
@@ -72,8 +72,8 @@ function intro(props) {
           </p>
 
           <p>
-            "Room ****" A key is place in his hand as he is pulled back to
-            reality. Slightly embarrassed by his outbursts he quickly apologized
+            "Room ****" A key is place in my hand as I was pulled back to
+            reality. Slightly embarrassed by my outbursts I quickly apologized
           </p>
           <p>
             "I am use to it, all commoners are the same when they first arrive."
@@ -102,7 +102,7 @@ function intro(props) {
             just a little further and saw the houses of stone had become wooden,
             although still nice. The rooves where pointed and curved at the end
             and looked like how I would imagine a house from Leika would be,
-            trees stood around and he could hear birds singing. The houses in
+            trees stood around and I could hear birds singing. The houses in
             this area where built within or near trees and nature all around,
             the paths where grass which had been walked more often then the
             other areas. Wanting to look around some more I climbed one of the
@@ -154,7 +154,7 @@ function intro(props) {
           <p>
             Pushing the door to my right, and looking inside was the boy from
             the window, two girls and another boy. Looking between them I
-            decided he should introduce myself.
+            decided I should introduce myself.
           </p>
 
           <p>
@@ -236,7 +236,7 @@ function intro(props) {
 
           <p>
             Leaving my belongings and deciding not to change into my new clothes
-            yet I headed back downstairs to see if he could learn more about the
+            yet I headed back downstairs to see if I could learn more about the
             housing.
           </p>
 

@@ -12,7 +12,7 @@ function intro(props) {
             Normally this would just be one class in a day but for the first one
             it would last all day. This class was so the students could learn
             directly from someone who had the same element as them. The
-            instructors of this class where previous graduates working under
+            instructors of this class were previous graduates working under
             professors at the academy. The instructor for the lightning class
             was Edgar, a man in his 30's. While not one for combat he had been
             studying at the academy since he was 14, at level 40 his level was

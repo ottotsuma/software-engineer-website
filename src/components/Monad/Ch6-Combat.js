@@ -104,14 +104,14 @@ function intro(props) {
             using magic attacks so it is potent to put points into willpower.
             But I wanted to think about the future also, no not putting points
             into endurance but strength. There was nothing in the rules to say
-            he had to use magic, and his element lightning would travel easier
+            I had to use magic, and his element lightning would travel easier
             though a metal blade then a wooden wand.
           </p>
 
           <p>
             His hp at the moment was 210. The largest attack a level 10 student
             using a non elemental attack would be strike with no element would
-            be about 100. Hoping even with the element added maybe he could take
+            be about 100. Hoping even with the element added maybe I could take
             two hits. His plan would fall apart if the hit was a critical
             however.
           </p>
@@ -157,11 +157,11 @@ function intro(props) {
           <p>
             On the third day I equipped my formal outfit, mages robe and headed
             down to the area again. This time however instead of watching the
-            matches he made his way into the armory beneath the area. Inside
+            matches I made my way into the armory beneath the area. Inside
             where many students picking out weapons and signing in that they
             where present. I signed next to my name picked up a completely metal
             spear and sat down to wait. He got a few weird looks, some of the
-            students must of pitted me thinking he must of thought the metal
+            students must of pitted me thinking I must of thought the metal
             spear was some kind of magic staff, but non of them would correct me
             though, I might be their opponent after all.
           </p>

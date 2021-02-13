@@ -446,7 +446,7 @@ function intro(props) {
           <p>Otto - "Like I would..."</p>
           <p>
             I took out my wand and passed mana though it before placing it back,
-            he then moved the crown, wand and the kings ring to one side. The
+          I then moved the crown, wand and the kings ring to one side. The
             Queens tiara & ring. The daughters coin. "You can look again"
           </p>
           <p>Tisiel - "I had to wait for you to make two piles?"</p>
