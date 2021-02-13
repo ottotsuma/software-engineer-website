@@ -83,17 +83,19 @@ spells//
 
 Levels / 
 / Human body 0 - 10, 5 is normal and 10 is the best a human can get. (This is without mana.) / 
-0 - Basic mana spells unlocked, mana flow
-10 - Picked first element, Cap Raised to 2
+0 - Basic mana spells unlocked, mana flow, cap raised to 1.
+10 - Picked first element, Mix first element with basic mana spells, Cap Raised to 2
 20 - Extra Stat points, Cap Raised to 3
-30 - Extra Stat points, Cap Raised to 4
+30 - Extra Stat points, Intermediate Spells, Cap Raised to 4
 40 - Extra Stat points, Cap Raised to 5
 50 - Unlock familia, Cap Raised to 6
 60 - Extra Stat points, Cap Raised to 7
 70 - Picked 2nd element, Cap Raised to 8
-80 - Extra Stat points, Cap Raised to 9
+80 - Extra Stat points,  Advanced spells, Cap Raised to 9
 90 - Extra Stat points, Cap Raised to 10
 100 - Class Advancement, Increase other properties +3
+
+Basic, Intermediate, Advanced.
 
 Example below:
 

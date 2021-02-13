@@ -228,7 +228,43 @@ function intro(props) {
             "A full 5 out of 5, impressive! How is your mana?" Ralsan asked with
             a big smile.
           </p>
-          <p>"Ah it's fine, I used about "</p>
+          <p>
+            "Ah it's fine, I used a little over half." I said, checking my mana
+            I had 73MP total, I had used 10 points every time I had cast the
+            spell. This cost was much higher then other basic spells for the
+            mage class.
+          </p>
+          {/* <!-- level * 5 magic * 8 = mp // level * 10 vit * 14.5 +100 = hp --> */}
+          <p>
+            "Hmm, in that case we should be okay to grow just one right? The
+            growth of the monster eating plants takes along time and is really
+            difficult. It was why there are not many naturally. It would be a
+            good test of your spells to see if it works like it did before."
+            Ralsan said.
+          </p>
+          <p>
+            Before really thinking about it I thought his words made sense this
+            would be a good test. I picked up the sapling and cast 'Lightning
+            growth' on it. The plant shot up in height, the stem spouted white
+            leaves, they changed colors a few times red, orange, yellow, green,
+            purple. The head grew bigger as the stem got thicker. The thickness
+            was soon wider then my own body. The head filled the roof looking
+            down on us, sharp plant teeth opened and an acidic smell wafted out
+            from inside. I don't know if the mana was related to the plant but
+            the remaining 23 mana had gone.
+          </p>
+          <p>
+            I started to see black spots in my vision. I had been told before
+            what would happen if I ran out of mana. My body heated up, trying to
+            use mana that was not there while trying to get more. I started
+            sweating heavily, it felt like my body was heavier. I was a low
+            level though so the effect was not bad enough to cause me to black
+            out or anything. Since mages have more mana then other classes
+            usually the effects are worse for us. I sat on the floor panting as
+            the monster eating plant looked poised to move down and swallow us
+            all whole.
+          </p>
+          <p>However it never happened. It just stayed still, like something was missing. "WHAT THE HELL DID YOU TWO DO!?" Redmond shouted across the room. </p>
         </div>
       </div>
     </div>
