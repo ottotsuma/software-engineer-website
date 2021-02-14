@@ -4,7 +4,7 @@ function intro(props) {
     <div className="Monad" id="3">
       <div className="Frame">
         <div className="Content">
-          <h4>Title</h4>
+          <h4>Farming</h4>
           <p>
             I had new spells, I still needed to level up some more but I had
             more points to spend then before. I could make up for the difference

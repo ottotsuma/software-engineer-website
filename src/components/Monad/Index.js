@@ -28,7 +28,7 @@ import Chapter25 from "./Ch25-Otto";
 import Chapter26 from "./Ch26-Home";
 import Chapter27 from "./Ch27-Shrine";
 import Chapter28 from "./Ch28-Morning";
-import Chapter29 from "./Ch29-";
+import Chapter29 from "./Ch29-Farming";
 
 
 
