@@ -831,14 +831,42 @@ footer {
 
 #Junk, .Junk {
   color: rgb(109, 109, 109);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #Normal, .Normal {
   color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Rare, .Rare {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: green;
+}
+
+#Epic, .Epic {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: red;
+}
+
+#Legendary, .Legendary {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: orange;
 }
 
 #Unique, .Unique {
   color: purple;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Growth, .Growth {
+  color: #e2abac;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#Quest, .Quest {
+  color: gold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Blackjack */

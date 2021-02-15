@@ -102,13 +102,144 @@ function intro(props) {
           <p>
             Farmers use axes, plows, scythe, spade, sickle. Those where the ones
             that could be used as a weapon but non of them really worked well
-            compared to warhammers, battle-axes, long swords, bows and maces.
-            Even a spear would be a better choice. WHAT AM I THINKING!? What
-            kind of mage could walk into battle holding a spade or a plow and
-            not feel embarrassed. What kind of damage is a spade going to do to
-            a fully armored knight.
+            compared to warhammers, battle-axes, swords, bows and maces. Even a
+            spear would be a better choice. WHAT AM I THINKING!? What kind of
+            mage could walk into battle holding a spade or a plow and not feel
+            embarrassed. What kind of damage is a spade going to do to a fully
+            armored knight.
           </p>
-          <p></p>
+          <p>
+            As I was walking around I heard some of the students talking about
+            me. "He's the strength mage that cannot even cast spells any more.
+            He should just forget about a weapon and stick to farming." One boy
+            said. "I heard from a third year he killed his friends in a tomb,
+            God must of cursed him because of that." Another followed up. "Yeah,
+            he was part of the group that found the pyramid, do you remember a
+            girl died that time also." Another said.
+          </p>
+          <p>
+            I did not want to reply, while it was not true there were truths
+            mixed in which would make it pointless to try and correct them. I
+            guess it did look from the outside that two young girls died both
+            times with me around... I should count myself lucky Tsuma did not
+            run away when I came back..
+          </p>
+          <p>
+            Thinking seriously I had plant soldiers as long as I could get my
+            hands on some seeds, shouldn't be too hard. A method for recovering
+            mana in combat. Maybe a ranged weapon, while the seed-soldiers go
+            ahead? But the lighting-seeds is not a long ranged spell really. Ahh
+            why is this so hard!? I picked up a spear for now, I guess this will
+            do. Inspect.
+          </p>
+          <p>
+            *Ping* [Spear - Wooden shaft and metal head. +1 physical damage.] As
+            I thought, it was a junk item. I could spend awhile inspecting the
+            spears seeing if one with a good stat or basic tier had slipped
+            though as they tend to do.
+          </p>
+          <p>[Spear: -1HP per hit.] What the hell?</p>
+          <p>[Spear: 5% chance to break on use.] Nope.</p>
+          <p>
+            [Sharp Stick: 0.5% chance of inflicting infection.] That is just
+            mean.
+          </p>
+          <p>
+              [<font className="Normal">Big Spear</font>: +1 Charisma.] Err, it has
+              a stat increase but something feels wrong about using this.
+            I took the spear with me, I guess I was lucky to find a stat
+            increase. I wouldn't of taken it but I remembered that Charisma has
+            an effect on command which is used to give orders to summons. Maybe
+            my seed soldiers would benefit from this. Either way it was free so
+            work trying.
+          </p>
+          <p>
+            I took it out at the desk where it was signed next to my name.
+            Seeing someone had already signed my warhammer out as missing in
+            action. At least I did not have to explain it again.
+          </p>
+          <p>
+            I was walking off when I heard another comment directed at me this
+            time "Gonna kill your next victim with that? They should of kicked
+            you out of the academy." I just kept walking and left the armory.
+            They could only throw words around while there were staff here.
+          </p>
+          <p>
+            Man, I never thought people would recognize me. Even after the
+            pyramid where Shrorlei died no one noticed any of us like this. I
+            walked off around the training areas, I guess I have some spare time
+            today since farming ended early. I want to try the command
+            challenge. Maybe it will give me some hints about how to use my
+            seed-soldiers.
+          </p>
+          <p>
+            I ran up to the command stone and tapped it. Inside I was taken to a
+            military camp, similar looking to the ones I passed on the way to
+            the academy. I have not thought about Effi and the others for a long
+            time, I hope they are doing well. I was in front of a group of 10
+            men holding spears and wearing leather armor. A guy tapped me on the
+            shoulder. "Alright sargent, just get these men though the obstacle
+            course course and you will get a pass and move to the next level." A
+            man in about his 40's said to me wearing metal armor.
+          </p>
+          <p>
+            "Erm, okay. Go though the obstacle course." I commanded to the men
+            in front of me. With that they ran down the middle of the obstacle
+            course without going near a single obstacle, coming to a stop at the
+            other end.
+          </p>
+          <p>"First time commanding summons?" The man next to me asked.</p>
+          <p>
+            "Yeah." I admitted a little annoyed at the men who just ran down the
+            middle, but he had just called them summons. I guess nothing in the
+            training area's is real but summons? Were they all just summons?
+          </p>
+          <p>
+            "If your command points are high enough summons will do as you ask,
+            but what you ask them to do cannot be left to their interpretation.
+            The lower the level of the summon the easier it is to control but
+            the dumber it acts." He said. Try again but be very clear about what
+            you want them to do. He clapped his hands and the men re-appeared on
+            front of me.
+          </p>
+          <p>
+            This time I gave instructions about which obstacles to do in order
+            and where they should go. They ran though the course again, except
+            this time they ran into the last obstacle. It was a wall they had to
+            climb. They ran into it and kept running...
+          </p>
+          <p>"Again" The man shouted and the simulation reset.</p>
+          <p>
+            This time I ran along side the group, giving them short
+            instructions. "Run with me, stand still. Jump over this gap." They
+            moved as a group which was nice, I was glad I did not have to give
+            individual commands.
+          </p>
+          <p>
+            "Pass, well done." The man said. And like that the place reset
+            again.
+          </p>
+          <p>
+            "Welcome to the 2nd level." The man said again. "The level of the
+            summons are still 0 but you will have to defeat that identical group
+            over there." He pointed at a group of ten other men who looked the
+            same as my group. The same size, height, weight, clothing. I guess
+            they really are summons.
+          </p>
+          <p>Just like last time. I failed over and over. It was fine though because each time I learned something new from the man. I tried to ask his name but all he said was "Concentrate on your work." So I took to naming him 'Knight'. The rank above sargent in the Aldenese army. Creative I know. Eventually I had passed, I learned a great amount about commanding summons. The third level though, it looked the same as the second however Knight's instructions ruined my fun. "The third level is the same as the second, except the level of the summons has been increased. I am sorry but you do not have enough command points to carry on."</p>
+          <p>I re-appeared outside of the training stone. [Item acquired, command token x1]. Oh at least I got a reward for it. It was a small coin with 'Command token x1' written on in Aldenese. Not sure what is for I tried to ask one of the near by students on their own. "Hey, sorry do you know what command tokens are for?" I asked hoping he was not like the others.</p>
+          <p>"Your first time?" He asked back.</p>
+          <p>"Yeah, sorry." I said again.</p>
+          <p>"It's okay. You can trade them for items from the military store. They have one set up in each camp and the academy. You can exchange them for items, the rewards are just given at levels they selected so they can keep track of potential recruits. Honestly though, it's free stuff, so no one minds." He said. "Got stuck at level three right?" He asked.</p>
+          <p>"Yeah, I guess every one does." I said with a smile.</p>
+          <p>"Yeah. I mean it would be hard to get even a single command point by level 10, let alone for a mage. They just put that token on the end of level two so you look in their store. Tempt you to collect the coins and by doing so push you towards them." He said with a shrug.</p>
+          <p>"Well I guess it works because I want to see what they have." I said laughing a little.</p>
+          <p>He nodded and said good luck as I went over to see what was at the store. Another thing Lubin conveniently forgot to mention. I should cut him some slack maybe he is just very busy. I walked over to a stall set up between the command training area and the group training area. I guess it made sense, that is what the military would be most interested in. Personal glory was for sporting matches in the area, war is about a groups strength.</p>
+          <p>Weirdly the stall was unmanned. It was a circle with manastones held to the stall with metal chains and a coin box. It had a hole for different coins and a tray at the bottom, I guess where the items you buy come out. Unsure what to really do I decided to touch the manastone.</p>
+          <p>[Menu: Command, Group, Single Combat, Monster Eradication, Other.]</p>
+          <p>[Command: Weapons, Armor, Accessories, Class Books, Miscellaneous,<font className="Rare"> Military Registration</font>.]</p>
+          <p>The last one was not even an option, it was labeled as a rare item but it was free...</p>
+          <p>The options here made sense. The class boobs was a real surprise though. Inside were books that let you change your class from mage, fighter or rouge into a new class like I had done. </p>
           {/* Tulip seeds to impress Tsuma. */}
         </div>
       </div>
