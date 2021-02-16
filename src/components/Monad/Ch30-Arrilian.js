@@ -455,6 +455,7 @@ function intro(props) {
             was going to die if I fought like the seed-soldier did.
           </p>
           <p>I made a new seed-soldier and used him as a shield. I cast grow on him and walked forward with my spear pointing out beyond us. I was not worried about losing it, even if you died you would keep all your items. Imagine if when you died you dropped your items, all your clothes would be gone and you'd be standing naked in front of all the other students.</p>
+          {/* lighting seed goes down ant hole, run back to start and run into leon, everyone dies in ant swarm */}
           {/* Tulip seeds to impress Tsuma. */}
           {/* Survival game, eat and hide */}
         </div>
