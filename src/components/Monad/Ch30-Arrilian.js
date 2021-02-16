@@ -1,5 +1,5 @@
 import React from "react";
-import anty from './../../assets/anty.jpg'
+import anty from "./../../assets/anty.jpg";
 function intro(props) {
   return (
     <div className="Monad" id="3">
@@ -352,16 +352,109 @@ function intro(props) {
           </p>
           <div className="pop">
             Acid Ant
-            <img
-              className="popOut"
-              src={anty}
-              alt="Acid Ant"
-            />
+            <img className="popOut" src={anty} alt="Acid Ant" />
           </div>
-          <p>I had non of these things. However I did not plan on collecting tokens from the start, the other students would usually avoid them because it was high risk and low reward. I picked out two of the bacon-plant seeds and cast 'seed-to-soldiers'. Only one of the seeds transformed. I guess the explains the descriptive text. One seed to one soldier, not one soldier per seed. I tried to cast it again on the next seed and a warning popped up.</p>
-          <p>[Doing this will unsummon your current summon. Do you wish to proceed? Yes/No (Do not show this again [])]</p>
-          <p>I could only have one at once!? I thought it would be like other spells were you could cast and use them as long as you had the mana...</p>
-          <p>There goes my dream of having a little plant army defending me. Still one is better then none. Maybe I could give him a weapon? Too late to think about that now. I commanded the summoned plant-soldier to follow me. Since it was an ant colony they really out numbered us, I was not sure I could kill one before they swarmed us really.</p>
+          <p>
+            I had non of these things. However I did not plan on collecting
+            tokens from the start, the other students would usually avoid them
+            because it was high risk and low reward. I picked out two of the
+            bacon-plant seeds and cast 'seed-to-soldiers'. Only one of the seeds
+            transformed. I guess the explains the descriptive text. One seed to
+            one soldier, not one soldier per seed. I tried to cast it again on
+            the next seed and a warning popped up.
+          </p>
+          <p>
+            [Doing this will unsummon your current summon. Do you wish to
+            proceed? Yes/No (Do not show this again [])]
+          </p>
+          <p>
+            I could only have one at once!? I thought it would be like other
+            spells were you could cast and use them as long as you had the
+            mana...
+          </p>
+          <p>
+            There goes my dream of having a little plant army defending me.
+            Still one is better then none. Maybe I could give him a weapon? Too
+            late to think about that now. I commanded the summoned plant-soldier
+            to follow me. Since it was an ant colony they really out numbered
+            us, I was not sure I could kill one before they swarmed us really.
+          </p>
+          <p>
+            I wonder. The soldier is a plant technically. So... 'Lighting-Grow'.
+            He did not grow. Why did lots of my mana just leave me!? AHHHH!!
+            "Just go kill that ant!!!" I was so frustrated. Why would it take my
+            mana and not grow the plant?
+          </p>
+          <p>[1 token gained.]</p>
+          <p>
+            Summoning him is not cheap in the first place! Why the hell are all
+            these spells so expensive if they don't do anything in combat!?
+          </p>
+          <p>[1 token gained.]</p>
+          <p>
+            They are not even amazing for farming, I cant grow tons of food, the
+            cost is too high and it's too tedious. A water and fire mage can do
+            the same work much cheaper!
+          </p>
+          <p>[1 token gained.]</p>
+          <p>Wait. What? Token? Huh?</p>
+          <p>
+            I turned to see what was going on, the seed-soldier had killed the
+            ant I asked it to. And the ones that got in it's way. There was
+            nothing left, acid splashed all over the ground, rocks and plants
+            near by. Some corroding slowly before my eyes. I guess a bunch more
+            exploded on him? How did he kill that many ants though?
+          </p>
+          <p>
+            I sat and thought about it for awhile, while my mana was recovering.
+            Just summoning the seed-soldier cost more then germinate and grow
+            together. Which was fair. How did grow cost twice as much as normal
+            though? When it did nothing...{" "}
+          </p>
+          <p>
+            Wait. Does it work like a buff just for plants!? I have to try this
+            again! For testing purposes...
+          </p>
+          {/* <p>Lightning germination: Stimulate a target into germinating.</p> */}
+          {/* During germination, repair processes are activated to deal with accumulated DNA damage. - Kind of heal & Quality */}
+          {/* <p>Lightning growth: Force the target to grow.</p> */}
+          {/* Increases quality of plant & stats given - buff spell */}
+          {/* <p>Lightning harvest: Harvest the target.</p> */}
+          {/* Execute and take the drops */}
+          <p>
+            I waited for my mana to recover before doing it again. I grew
+            another bacon-plant seed into a soldier, then cast growth on him.
+            Again, around 20 mana had left my body. I told him to go kill an ant
+            like before and watched carefully this time.
+          </p>
+          <p>
+            The seed-soldier had run directly at the ant I told it to kill.
+            Ignoring all the other ants which at first made angry noises then
+            started to try and bite or spit acid at him. I keep thinking him,
+            but it's a plant so is it both? Who cares? Concentrate. After
+            getting to the target ant he slammed his foot down on the ants head.
+            These were not normal ants, they were tough. They were as tall as my
+            shin on all their legs when they stood up I guess they could reach
+            my knee or thigh. However the seed-soldier's foot had crushed the
+            ants head. Not fully, it was not in pieces but broken and being
+            pressed on, quite a gross sight really to see acid and insect parts
+            falling from it's head.
+          </p>
+          <p>[1 token gained.]</p>
+          <p>
+            That explains the tokens. As the other ants crawled across a short
+            battle ensued, with the seed soldier slamming his fists and kicks
+            into the ants while they shot acid at him pealing away his plant
+            like skin, biting at his bacon like insides. Soon he was ripped to
+            pieces but so were several ants.
+          </p>
+          <p>
+            The ant's level varied from 1 ~ 5 usually, the majority being level
+            1. At least that is what the records say. Since the ants are inside
+            a training area the records are likely to be correct in this case. I
+            was going to die if I fought like the seed-soldier did.
+          </p>
+          <p>I made a new seed-soldier and used him as a shield. I cast grow on him and walked forward with my spear pointing out beyond us. I was not worried about losing it, even if you died you would keep all your items. Imagine if when you died you dropped your items, all your clothes would be gone and you'd be standing naked in front of all the other students.</p>
           {/* Tulip seeds to impress Tsuma. */}
           {/* Survival game, eat and hide */}
         </div>
