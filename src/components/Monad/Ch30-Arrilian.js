@@ -1,4 +1,5 @@
 import React from "react";
+import anty from './../../assets/anty.jpg'
 function intro(props) {
   return (
     <div className="Monad" id="3">
@@ -145,13 +146,13 @@ function intro(props) {
             mean.
           </p>
           <p>
-              [<font className="Normal">Big Spear</font>: +1 Charisma.] Err, it has
-              a stat increase but something feels wrong about using this.
-            I took the spear with me, I guess I was lucky to find a stat
-            increase. I wouldn't of taken it but I remembered that Charisma has
-            an effect on command which is used to give orders to summons. Maybe
-            my seed soldiers would benefit from this. Either way it was free so
-            work trying.
+            [<font className="Normal">Big Spear</font>: +1 Charisma.] Err, it
+            has a stat increase but something feels wrong about using this. I
+            took the spear with me, I guess I was lucky to find a stat increase.
+            I wouldn't of taken it but I remembered that Charisma has an effect
+            on command which is used to give orders to summons. Maybe my seed
+            soldiers would benefit from this. Either way it was free so work
+            trying.
           </p>
           <p>
             I took it out at the desk where it was signed next to my name.
@@ -226,21 +227,143 @@ function intro(props) {
             same as my group. The same size, height, weight, clothing. I guess
             they really are summons.
           </p>
-          <p>Just like last time. I failed over and over. It was fine though because each time I learned something new from the man. I tried to ask his name but all he said was "Concentrate on your work." So I took to naming him 'Knight'. The rank above sargent in the Aldenese army. Creative I know. Eventually I had passed, I learned a great amount about commanding summons. The third level though, it looked the same as the second however Knight's instructions ruined my fun. "The third level is the same as the second, except the level of the summons has been increased. I am sorry but you do not have enough command points to carry on."</p>
-          <p>I re-appeared outside of the training stone. [Item acquired, command token x1]. Oh at least I got a reward for it. It was a small coin with 'Command token x1' written on in Aldenese. Not sure what is for I tried to ask one of the near by students on their own. "Hey, sorry do you know what command tokens are for?" I asked hoping he was not like the others.</p>
+          <p>
+            Just like last time. I failed over and over. It was fine though
+            because each time I learned something new from the man. I tried to
+            ask his name but all he said was "Concentrate on your work." So I
+            took to naming him 'Knight'. The rank above sargent in the Aldenese
+            army. Creative I know. Eventually I had passed, I learned a great
+            amount about commanding summons. The third level though, it looked
+            the same as the second however Knight's instructions ruined my fun.
+            "The third level is the same as the second, except the level of the
+            summons has been increased. I am sorry but you do not have enough
+            command points to carry on."
+          </p>
+          <p>
+            I re-appeared outside of the training stone. [Item acquired, command
+            token x1]. Oh at least I got a reward for it. It was a small coin
+            with 'Command token x1' written on in Aldenese. Not sure what is for
+            I tried to ask one of the near by students on their own. "Hey, sorry
+            do you know what command tokens are for?" I asked hoping he was not
+            like the others.
+          </p>
           <p>"Your first time?" He asked back.</p>
           <p>"Yeah, sorry." I said again.</p>
-          <p>"It's okay. You can trade them for items from the military store. They have one set up in each camp and the academy. You can exchange them for items, the rewards are just given at levels they selected so they can keep track of potential recruits. Honestly though, it's free stuff, so no one minds." He said. "Got stuck at level three right?" He asked.</p>
+          <p>
+            "It's okay. You can trade them for items from the military store.
+            They have one set up in each camp and the academy. You can exchange
+            them for items, the rewards are just given at levels they selected
+            so they can keep track of potential recruits. Honestly though, it's
+            free stuff, so no one minds." He said. "Got stuck at level three
+            right?" He asked.
+          </p>
           <p>"Yeah, I guess every one does." I said with a smile.</p>
-          <p>"Yeah. I mean it would be hard to get even a single command point by level 10, let alone for a mage. They just put that token on the end of level two so you look in their store. Tempt you to collect the coins and by doing so push you towards them." He said with a shrug.</p>
-          <p>"Well I guess it works because I want to see what they have." I said laughing a little.</p>
-          <p>He nodded and said good luck as I went over to see what was at the store. Another thing Lubin conveniently forgot to mention. I should cut him some slack maybe he is just very busy. I walked over to a stall set up between the command training area and the group training area. I guess it made sense, that is what the military would be most interested in. Personal glory was for sporting matches in the area, war is about a groups strength.</p>
-          <p>Weirdly the stall was unmanned. It was a circle with manastones held to the stall with metal chains and a coin box. It had a hole for different coins and a tray at the bottom, I guess where the items you buy come out. Unsure what to really do I decided to touch the manastone.</p>
-          <p>[Menu: Command, Group, Single Combat, Monster Eradication, Other.]</p>
-          <p>[Command: Weapons, Armor, Accessories, Class Books, Miscellaneous,<font className="Rare"> Military Registration</font>.]</p>
-          <p>The last one was not even an option, it was labeled as a rare item but it was free...</p>
-          <p>The options here made sense. The class boobs was a real surprise though. Inside were books that let you change your class from mage, fighter or rouge into a new class like I had done. </p>
+          <p>
+            "Yeah. I mean it would be hard to get even a single command point by
+            level 10, let alone for a mage. They just put that token on the end
+            of level two so you look in their store. Tempt you to collect the
+            coins and by doing so push you towards them." He said with a shrug.
+          </p>
+          <p>
+            "Well I guess it works because I want to see what they have." I said
+            laughing a little.
+          </p>
+          <p>
+            He nodded and said good luck as I went over to see what was at the
+            store. Another thing Lubin conveniently forgot to mention. I should
+            cut him some slack maybe he is just very busy. I walked over to a
+            stall set up between the command training area and the group
+            training area. I guess it made sense, that is what the military
+            would be most interested in. Personal glory was for sporting matches
+            in the area, war is about a groups strength.
+          </p>
+          <p>
+            Weirdly the stall was unmanned. It was a circle with manastones held
+            to the stall with metal chains and a coin box. It had a hole for
+            different coins and a tray at the bottom, I guess where the items
+            you buy come out. Unsure what to really do I decided to touch the
+            manastone.
+          </p>
+          <p>
+            [Menu: Command, Group, Single Combat, Monster Eradication, Other.]
+          </p>
+          <p>
+            [Command: Weapons, Armor, Accessories, Class Books, Miscellaneous,
+            <font className="Rare"> Military Registration</font>.]
+          </p>
+          <p>
+            The last one was not even an option, it was labeled as a rare item
+            but it was free...
+          </p>
+          <p>
+            The options here made sense. The class boobs was a real surprise
+            though. Inside were books that let you change your class from mage,
+            fighter or rouge into a new class like I had done. Someone at the
+            academy, maybe Lubin? Had told me some families had their own
+            classes. I guess it makes sense for the military to have some too.
+          </p>
+          <p>
+            The list contained classes like: Commander, Cartographer, Standard
+            bearer, Minnesingers and other support and leadership styled
+            classes. They were all very expensive, clearly these were not
+            suppose to be brought without showing talent for command.
+          </p>
+          {/* 	Royal Adviser, Mayor, Librarian, Diplomat, Linguist */}
+          <p>
+            Being curious I decided to look though the group and duel shops. I
+            was there for the rest of the afternoon more or less, the items on
+            sale ranged from basic tier all the way up to epic tier. The problem
+            was the cost was impossible. The Miscellaneous section contained one
+            time use items and even materials for making other items. I kept the
+            command token for now, I guess I could look up command roles and see
+            if there are any builds I could try out. With my seed soldiers and
+            odd lighting spells being a commander might be a better way for me
+            to hide my new class after joining the military.
+          </p>
+          <p>
+            Before heading back for the night I wanted to try monster hunting
+            again. I might not be able able to gain any rewards, experience or
+            anything useful. On the off chance I did not get mugged for my
+            tokens that would be a bonus but I wanted to test the seed soldiers.
+            Yes the farm pests give experience technically, but they where such
+            a low level it was hardly a fair test.
+          </p>
+          <p>
+            Running over to the monster hunting stone it was still quite busy,
+            with students flocked around it. It was one of the major training
+            areas so even with its constant bullying people where still going to
+            give it a try. I touched the stone and arrived in the same
+            rainforest setting. I had 1 hour and honestly after that I was going
+            to go to bed anyway.
+          </p>
+          <p>
+            I ran into the jungle not really picking a direction just hoping to
+            run into something useful. All I had on me was the robe, spear and
+            storage ring from the tomb. The mask was in my inventory, while I
+            often just kept it in my bag at my waist it was easier like this. in
+            one of the small pouches I had some bacon-plant seeds from the farm.
+            I did not take too long before I found a colony of acid ants. This
+            was perfect! They were similar to the rats on the farm, in as much
+            as they could explode. The difference was they exploded when their
+            health was low, and by doing so would cause their tokens to
+            disappear. You had to kill the ants before they exploded and that
+            was not an easy task unless you had either a counter element or a
+            really strong attack to hit them with before they could detonate.
+          </p>
+          <div className="pop">
+            Acid Ant
+            <img
+              className="popOut"
+              src={anty}
+              alt="Acid Ant"
+            />
+          </div>
+          <p>I had non of these things. However I did not plan on collecting tokens from the start, the other students would usually avoid them because it was high risk and low reward. I picked out two of the bacon-plant seeds and cast 'seed-to-soldiers'. Only one of the seeds transformed. I guess the explains the descriptive text. One seed to one soldier, not one soldier per seed. I tried to cast it again on the next seed and a warning popped up.</p>
+          <p>[Doing this will unsummon your current summon. Do you wish to proceed? Yes/No (Do not show this again [])]</p>
+          <p>I could only have one at once!? I thought it would be like other spells were you could cast and use them as long as you had the mana...</p>
+          <p>There goes my dream of having a little plant army defending me. Still one is better then none. Maybe I could give him a weapon? Too late to think about that now. I commanded the summoned plant-soldier to follow me. Since it was an ant colony they really out numbered us, I was not sure I could kill one before they swarmed us really.</p>
           {/* Tulip seeds to impress Tsuma. */}
+          {/* Survival game, eat and hide */}
         </div>
       </div>
     </div>
