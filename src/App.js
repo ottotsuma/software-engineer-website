@@ -9,6 +9,7 @@ import tech from './components/tech'
 import timeline from './components/timeline'
 import Monad from './components/Monad/Index'
 import Blackjack from './components/blackjack'
+import Video from './components/video'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
                 <Route path="/timeline" component={timeline} />
                 <Route path="/monad/:chapter" component={Monad} />
                 <Route path="/blackjack" component={Blackjack} />
+                <Route path="/video" component={Video} />
             </BrowserRouter>
     </div>
     </>

@@ -20,6 +20,7 @@ import Food from "./../assets/foodlogo.png";
 // import Dob from "./../assets/dob.png";
 // import Todo from "./../assets/todo.jpg";
 // import Weather from "./../assets/weather.png";
+import Video from './video'
 
 function change(props) {
   const win = window.open(props, '_blank');
@@ -40,6 +41,7 @@ function home() {
       <div className="Glass">
         <div className="Profile">
           <div>
+            <Video />
             <img
               src="https://avatars0.githubusercontent.com/u/51743227?s=460&u=60cf882cb319128a05fa5fff10c006de9cdfc2af&v=4"
               className="Profile-Img"

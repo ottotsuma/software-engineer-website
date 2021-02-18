@@ -12,6 +12,15 @@
   padding: 1px;
 }
 
+.Sheep {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+  left: 20%;
+  top: 80%;
+}
+
 .Main {
   text-align: center;
   background: linear-gradient(
@@ -22,7 +31,10 @@
   /* background-color: #202040; */
   color: whitesmoke;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
+
 
 .Main-Light {
   text-align: center;
@@ -32,7 +44,7 @@
 }
 
 .Glass-Outside {
-  height: 92vh;
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,7 +63,7 @@
 }
 
 .App {
-  height: 92vh;
+  flex: 1;
 }
 
 .Glass {
@@ -266,6 +278,7 @@ h1 {
   /* background-color: #602080; */
   /* background-color: #6a5acd; */
   background: #638ad4;
+  z-index: 1;
 }
 
 .Nav-Link {
@@ -433,6 +446,9 @@ ul {
 }
 
 @media only screen and (max-width: 680px) {
+  .Sheep{
+    display: none;
+  }
   .Home-p {
     display: none;
   }
