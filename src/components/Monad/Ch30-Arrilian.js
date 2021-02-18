@@ -458,18 +458,71 @@ function intro(props) {
             I made a new seed-soldier and used him as a shield. I cast grow on
             him and walked forward with my spear pointing out beyond us. I was
             not worried about losing it, even if you died you would keep all
-            your items, minus the tokens. Imagine if when you died you dropped your items, all
-            your clothes would be gone and you'd be standing naked in front of
-            all the other students.
+            your items, minus the tokens. Imagine if when you died you dropped
+            your items, all your clothes would be gone and you'd be standing
+            naked in front of all the other students.
           </p>
-          <p>At first I thought my plan would work, I stabbed at the ants and the seed-soldier took the hits for me, hitting the ants back when he could. I cast lighting seed at the ants. I missed. Baldly. It went down a hole the ants were coming out of before. While I did not mind dieing in here too much, the death by a thousand ant bites would be too painful, I couldn't cause enough damage to hundreds of ants to make them explode and get it over with. I could feel the lighting seed leeching mana from the ants on its way down, far too many ants.</p>
-          <p>I ran leaving behind the seed-soldier to slow them down. I ran back onto the path to the village. The monsters never came into the village they just kind of lost interest, so I ran back towards the hand in point.</p>
-          <p>I was running as fast as I could. On the way to the little starting village I saw a group of students standing in the path. Maybe they could help? I ran towards then when I noticed curly blonde hair on one boy, I knew him. Linhart. He had made it back from the tomb, and gone back to stealing tokens!? I don't know why but I thought he would of changed. I did not know the other students around him but I did not care, I only had one chance.</p>
-          <p>I ran towards them and threw out a lighting seed in their direction, I didn't care if it landed or not. They finally noticed I was not slowing down, but it was too late. They stood in front of my path ready to demand my tokens just like before, the lighting ball had made him dodge to the side thinking it was an attack and I used that to jump into the middle of them all.</p>
+          <p>
+            At first I thought my plan would work, I stabbed at the ants and the
+            seed-soldier took the hits for me, hitting the ants back when he
+            could. I cast lighting seed at the ants. I missed. Baldly. It went
+            down a hole the ants were coming out of before. While I did not mind
+            dieing in here too much, the death by a thousand ant bites would be
+            too painful, I couldn't cause enough damage to hundreds of ants to
+            make them explode and get it over with. I could feel the lighting
+            seed leeching mana from the ants on its way down, far too many ants.
+          </p>
+          <p>
+            I ran leaving behind the seed-soldier to slow them down. I ran back
+            onto the path to the village. The monsters never came into the
+            village they just kind of lost interest, so I ran back towards the
+            hand in point.
+          </p>
+          <p>
+            I was running as fast as I could. On the way to the little starting
+            village I saw a group of students standing in the path. Maybe they
+            could help? I ran towards then when I noticed curly blonde hair on
+            one boy, I knew him. Linhart. He had made it back from the tomb, and
+            gone back to stealing tokens!? I don't know why but I thought he
+            would of changed. I did not know the other students around him but I
+            did not care, I only had one chance.
+          </p>
+          <p>
+            I ran towards them and threw out a lighting seed in their direction,
+            I didn't care if it landed or not. They finally noticed I was not
+            slowing down, but it was too late. They stood in front of my path
+            ready to demand my tokens just like before, the lighting ball had
+            made him dodge to the side thinking it was an attack and I used that
+            to jump into the middle of them all.
+          </p>
           <p>"Well look who it is. Murder." Linhart said in disgust.</p>
-          <p>Murder? Had he damaged his head on the way back or something!? "Enjoy the present." I said back. He looked confused, the confusion turned to anger and he went to hit me before one of the boys shouted. "Look at all those acid ants! What the hell did he lure them here!?"</p>
-          <p>I fell to the ground, and picked a seed out of my bag. I grew it into a soldier and Linhart was pinned down by the thing, I had not boosted it stats but it was enough to hold him, it only took seconds before the acid ants were on top of all of us. They bite and spat acid as the other students fought back I watched as Linhart screamed while the ants bit him. Maybe it was too much but clearly he had been spreading lies about me. It was only a training area. One of the ants was about explode, </p>
-          {/* lighting seed goes down ant hole, run back to start and run into leon, everyone dies in ant swarm */}
+          <p>
+            Murder? Had he damaged his head on the way back or something!?
+            "Enjoy the present." I said back. He looked confused, the confusion
+            turned to anger and he went to hit me before one of the boys
+            shouted. "Look at all those acid ants! What the hell did he lure
+            them here!?"
+          </p>
+          <p>
+            I fell to the ground, and picked a seed out of my bag. I grew it
+            into a soldier and Linhart was pinned down by the thing, I had not
+            boosted it stats but it was enough to hold him, it only took seconds
+            before the acid ants were on top of all of us. They bite and spat
+            acid as the other students fought back I watched as Linhart screamed
+            while the ants bit him. Maybe it was too much but clearly he had
+            been spreading lies about me. It was only a training area. One of
+            the ants was about explode, so I jumped myself on top of it and went
+            out in a flash of green acid. My HP hit zero faster then you could
+            blink and I appeared back outside the training area, no worse for
+            ware physically and the only thing missing was the tokens I had
+            collected.
+          </p>
+          <p>
+            Standing around here was not a good idea, not after what I just did.
+            So I made my way though the students and back to my home as quick as
+            I could. The last thing I heard was Linhart shouting "Where the fuck
+            is he!?" at the other students as I made my get away.
+          </p>
           {/* Tulip seeds to impress Tsuma. */}
           {/* Survival game, eat and hide */}
         </div>
