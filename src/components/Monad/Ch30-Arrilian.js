@@ -523,8 +523,6 @@ function intro(props) {
             I could. The last thing I heard was Linhart shouting "Where the fuck
             is he!?" at the other students as I made my get away.
           </p>
-          {/* Tulip seeds to impress Tsuma. */}
-          {/* Survival game, eat and hide */}
         </div>
       </div>
     </div>

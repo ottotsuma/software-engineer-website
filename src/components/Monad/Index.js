@@ -30,6 +30,8 @@ import Chapter27 from "./Ch27-Shrine";
 import Chapter28 from "./Ch28-Morning";
 import Chapter29 from "./Ch29-Farming";
 import Chapter30 from "./Ch30-Arrilian";
+import Chapter31 from "./Ch31-Flowers";
+
 
 const ChapterList = [
   Chapter1(),
@@ -61,7 +63,8 @@ const ChapterList = [
   Chapter27(),
   Chapter28(),
   Chapter29(),
-  Chapter30()
+  Chapter30(),
+  Chapter31()
 ];
 
 const scrollTop = () => {
