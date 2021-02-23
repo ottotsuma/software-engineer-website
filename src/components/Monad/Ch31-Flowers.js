@@ -34,7 +34,45 @@ function intro(props) {
             breakfast but he always did and left it behind for me with a note
             saying it was for me.
           </p>
-          <p></p>
+          <p>
+            I ate and walked outside, one of the men that lived in the small
+            village style they set up waved to me and shouted "You must of come
+            home late last night I did not see you in the baths." Ah that,
+            Leikan people bathed every night in public baths. At first it was
+            really weird to me that they bathed together and every single night,
+            but honestly I got over it pretty quickly.
+          </p>
+          <p>
+            "Yeah, I went to do some training by the arena. I have not given up
+            on combat classes just the farming thing was just a hobby like I
+            said before." I smiled and waved back as I headed to class.
+          </p>
+          <p>
+            Class today had been built up over the past few days. Last week
+            Lubin had announced that the class were going to have duels to give
+            an individual ranking for the class. This meant nothing on official
+            records but would effect how the class treated each other, and who
+            they would party up with in the future. Right now, I was the bottom
+            of everyone's lists. At first it was just because I did not really
+            join in any of the spell casting sections just mana-control
+            practice. Then word got out that even during the lightning class I
+            was not casting any spells. However shortly after these rumors
+            started up that I was cursed. That was when I started to move down
+            in peoples minds past not wanting to partner with me to avoiding me
+            entirely. Maybe I should of done something about it, but instead of
+            extra practice and combat classes I had joined the farming club so I
+            had been so busy and tired I never really noticed.
+          </p>
+          <p>
+            It was a good thing it was just individual combat this time around
+            and did not reflect on our records so I could just tap out at the
+            start.
+          </p>
+          <p>When I arrived I sat by the window as the other students came in. I was never really late for classes, I was just in the habit of waking up early now. If I didn't the nosy neighbors would let themselves in.</p>
+          <p>No one sat next to me, but then again no one really paid attention to me. Maybe they were scared of me. If I was cursed they did not want to catch it. It's not like I was smelly or anything just the rumor that it was my fault people died in the tombs. I guess any student would be scared of someone like that when I think about it from their view.</p>
+          <p>Lubin eventually arrived, a little late as always.</p>
+          <p>"Okay we won't be in here long just a quick registration then down to the hall. It's good weather but another class is out there today." After that he shifted though the papers he had brought in he read though the list of class names again.</p>
+          <p>The halls were used for clubs related to combat because the walls, floor and roof were built to be able to withstand spells. Well they were not built by Alden but who ever built the original buildings and have since then been used for that. </p>
           {/* Tulip seeds to impress Tsuma. */}
           {/* Survival game, eat and hide */}
         </div>
