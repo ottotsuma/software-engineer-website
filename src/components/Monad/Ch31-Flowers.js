@@ -68,11 +68,33 @@ function intro(props) {
             and did not reflect on our records so I could just tap out at the
             start.
           </p>
-          <p>When I arrived I sat by the window as the other students came in. I was never really late for classes, I was just in the habit of waking up early now. If I didn't the nosy neighbors would let themselves in.</p>
-          <p>No one sat next to me, but then again no one really paid attention to me. Maybe they were scared of me. If I was cursed they did not want to catch it. It's not like I was smelly or anything just the rumor that it was my fault people died in the tombs. I guess any student would be scared of someone like that when I think about it from their view.</p>
+          <p>
+            When I arrived I sat by the window as the other students came in. I
+            was never really late for classes, I was just in the habit of waking
+            up early now. If I didn't the nosy neighbors would let themselves
+            in.
+          </p>
+          <p>
+            No one sat next to me, but then again no one really paid attention
+            to me. Maybe they were scared of me. If I was cursed they did not
+            want to catch it. It's not like I was smelly or anything just the
+            rumor that it was my fault people died in the tombs. I guess any
+            student would be scared of someone like that when I think about it
+            from their view.
+          </p>
           <p>Lubin eventually arrived, a little late as always.</p>
-          <p>"Okay we won't be in here long just a quick registration then down to the hall. It's good weather but another class is out there today." After that he shifted though the papers he had brought in he read though the list of class names again.</p>
-          <p>The halls were used for clubs related to combat because the walls, floor and roof were built to be able to withstand spells. Well they were not built by Alden but who ever built the original buildings and have since then been used for that. </p>
+          <p>
+            "Okay we won't be in here long just a quick registration then down
+            to the hall. It's good weather but another class is out there
+            today." After that he shifted though the papers he had brought in he
+            read though the list of class names again.
+          </p>
+          <p>
+            The halls were used for clubs related to combat because the walls,
+            floor and roof were built to be able to withstand spells. Well they
+            were not built by Alden but who ever built the original buildings
+            and have since then been used for that.{" "}
+          </p>
           {/* Tulip seeds to impress Tsuma. */}
           {/* Survival game, eat and hide */}
         </div>
