@@ -93,8 +93,50 @@ function intro(props) {
             The halls were used for clubs related to combat because the walls,
             floor and roof were built to be able to withstand spells. Well they
             were not built by Alden but who ever built the original buildings
-            and have since then been used for that.{" "}
+            and have since then been used for that. The class went into the hall
+            in cheers and egging each other on who was going to fight who and
+            who was the strongest in our class. There was even one kid taking
+            bets, the favorite being a girl called Sophie. She was from some
+            minor house of something, honestly I had no interest.
           </p>
+          <p>
+            "Gather round, pick sticks from this pot and get into the group on
+            that stick. Numbers one though six." Lubin shouted around the hall
+            as he walked in. As always his instructions were short and to the
+            point. You'd think he was busy but he left so much information out
+            about the school I was starting to think he was just lazy.
+          </p>
+          <p>
+            I picked the number three out on the end of my stick. The groups
+            were made of 6 students each, our challenge was to fight matches
+            against each other until each group had a champion then the
+            champions would fight with all of the students watching. It felt
+            like a pretty efficient way of doing it. Unlike the arena though
+            there was no system to teleport us out when we became too damaged.
+          </p>
+          <p>
+            "Don't kill each other, obviously. However you can injure each other
+            and it is up to you to tap out in time. I will be moving around the
+            room keeping an eye on everyone but I want the four of you not
+            fighting to step in if one of your fellow students taps out. We are
+            just practicing, none of this goes on any record and the purpose is
+            just to learn from it not make enemies. Got it?" Lubin said from the
+            middle of the hall.
+          </p>
+          <p>
+            The class responded "Yes Sir." Like that the more domineering
+            students told the others who they would fight or just challenged
+            people in their group to fight them first. I was not picked to go
+            first, Mila and Berta went first. Berta used water magic sending
+            blobs of water at Mila followed up by thin fast shots of water. Mila
+            at first did not really seem to be fighting back just trying to
+            dodge the blows badly while muttering under her breath. Soon Berta
+            broke out in sweat and started screaming holding her head and
+            falling to her knees. I think Mila is a witch and cursed Berta.
+            However Mila took one of the water shots in the stomach and also
+            fell to her knees. She keeled over and started vomiting up blood.
+          </p>
+          {/*10,000 students per year. 36 students in a class,  */}
           {/* Tulip seeds to impress Tsuma. */}
           {/* Survival game, eat and hide */}
         </div>

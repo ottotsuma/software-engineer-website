@@ -6,6 +6,7 @@ function intro(props) {
       <div className="Frame">
         <div className="Content">
           <h3>Lessons</h3>
+          {/* Lubin */}
           <h4>POV Otto Lesson on mages</h4>
           <p>
             "Now who can tell me what separates a Mage does with their mana
