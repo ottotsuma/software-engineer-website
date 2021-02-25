@@ -14,45 +14,63 @@ import Dob from "./../assets/dob.png";
 import Witch from "./../assets/witch7.jpg";
 // import Todo from "./../assets/todo.jpg";
 import Weather from "./../assets/weather.png";
-import Card from "./card"
-import Blackjack from "./blackjack"
+import Card from "./card";
+import Blackjack from "./blackjack";
 
 function story(props) {
   return (
     <div className="Playground">
+      <div className="Out-But">
+        <div className="In-But">
+        <div className="Top">1000円</div>
+        <div className="Bottom">Buy now!</div>
+        </div>
+      </div>
+
       <Blackjack />
       <h1 className="PlayTitles">Book</h1>
       <a href="Monad/1">Go to story</a>
       <div className="ProfileCard-Outer">
-  <div className="ProfileCard">
-    <div className="Card-Middle"></div>
-    <div className="Card-Content">    
-    <div className="Card-Left">
-      <h3 className="Card-Font" id="CardTitle" >The Witch of Alden</h3>
-      <p className="Card-Font" >Level 50</p>
-      <h4 className="Card-Font" >Class: Witch.</h4>
-      <p className="Card-Font" >Magic +2, Dexterity +1</p>
-      <p className="Card-Font" >Potions are 10% more effective</p>
-      <h4 className="Card-Font" >Familia: Pyewacket.</h4>
-      <p className="Card-Font" >Shared: Mana-link, Cats eyes.</p>
-      <p className="Card-Font" >Not Shared: Cute, Shadow steps, Meow music</p>
-      <h4 className="Card-Font" >Race: Human.</h4>
-      <p className="Card-Font" >Sense +1
-        Charisma +2</p>
-        <p className="Card-Font" >
-          (Can use all tools and weapons)</p>
-    </div>
-      <div className="Card-Right" onClick={()=>{console.log('Clicked')}}>
-      <img src={Witch} id="Witch" alt="Witch" />
-      <h4 className="Card-Font" >Items</h4>
-      <p className="Card-Font" >Witches Hat, Mantel, Gloves, Boots, Bracelet, Wand.</p>
-      <p className="Card-Font" >Diwrnach's cauldron, Witches Broom.</p>
-      <h4 className="Card-Font" >Stats</h4>
-      <p className="Card-Font" >Vitality +10, Magic +50, MDef +20, Charisma +20</p>
-    </div>
-  </div>
-  </div>
-</div>
+        <div className="ProfileCard">
+          <div className="Card-Middle"></div>
+          <div className="Card-Content">
+            <div className="Card-Left">
+              <h3 className="Card-Font" id="CardTitle">
+                The Witch of Alden
+              </h3>
+              <p className="Card-Font">Level 50</p>
+              <h4 className="Card-Font">Class: Witch.</h4>
+              <p className="Card-Font">Magic +2, Dexterity +1</p>
+              <p className="Card-Font">Potions are 10% more effective</p>
+              <h4 className="Card-Font">Familia: Pyewacket.</h4>
+              <p className="Card-Font">Shared: Mana-link, Cats eyes.</p>
+              <p className="Card-Font">
+                Not Shared: Cute, Shadow steps, Meow music
+              </p>
+              <h4 className="Card-Font">Race: Human.</h4>
+              <p className="Card-Font">Sense +1 Charisma +2</p>
+              <p className="Card-Font">(Can use all tools and weapons)</p>
+            </div>
+            <div
+              className="Card-Right"
+              onClick={() => {
+                console.log("Clicked");
+              }}
+            >
+              <img src={Witch} id="Witch" alt="Witch" />
+              <h4 className="Card-Font">Items</h4>
+              <p className="Card-Font">
+                Witches Hat, Mantel, Gloves, Boots, Bracelet, Wand.
+              </p>
+              <p className="Card-Font">Diwrnach's cauldron, Witches Broom.</p>
+              <h4 className="Card-Font">Stats</h4>
+              <p className="Card-Font">
+                Vitality +10, Magic +50, MDef +20, Charisma +20
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
       <h1 className="PlayTitles">Card</h1>
       <Card />
       <div>
