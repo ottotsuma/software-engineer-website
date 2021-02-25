@@ -136,7 +136,12 @@ function intro(props) {
             However Mila took one of the water shots in the stomach and also
             fell to her knees. She keeled over and started vomiting up blood.
           </p>
-          {/*10,000 students per year. 36 students in a class,  */}
+          {/*10,000 students per year. 36 students in a class, 278 classes? Well that is for the combat roles but not all students are combat. */}
+          <p>"Take Mila to the medics and Berta to the priests. They are just outside the hall today in the courtyard, every combat class is doing this today." Lubin said to our group when Mila had fallen down. I was not sure who won but the other student marked down Berta as the winner. I guess it is a win like my first duel was.</p>
+          <p>Next up was me and Max. I could not blame this on a fix because we drew straws I would have to fight everyone in this group anyway, and I was planning on tapping out of every match as it was. Max was a rock user. At first I thought this was just the common earth element but no. Max was a loud guy and would go on about how his element was different to the common earth element, all I knew really is that they acted similar to lightning attacks.</p>
+          <p>"You know I asked **** to put me against you first. Linhart said he'd pay big for the person who beat you badly." Max said leering at me as I stepped into the rectangle drawn on the ground.</p>
+          <p>Luckily I knew just how to deal with his kind. "I forfeit this match. Congratulations on being the first to beat me, you can get paid now." I laughed and walked off.</p>
+          <p>"Fuck that." Max said and shot a rock formed from his mana at my back. The force was enough to knock me to the floor and almost vomit blood. **** and **** did not call the match, I was thinking half the class must of been in on this. They all kept quiet until now. Maxes big mouth. </p>
           {/* Tulip seeds to impress Tsuma. */}
           {/* Survival game, eat and hide */}
         </div>
