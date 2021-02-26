@@ -167,8 +167,38 @@ function intro(props) {
             "Fuck that." Max said and shot a rock formed from his mana at my
             back. The force was enough to knock me to the floor and almost vomit
             blood. **** and **** did not call the match, I was thinking half the
-            class must of been in on this. They all kept quiet until now. Maxes
-            big mouth. For once I was happy to find out loud mouth in a group. I grabbed a seed in my pocket and turned falling onto floor with maybe the worst acting you ever saw. Hoping my awkward movements looked more real because he had just hit me in the spine.
+            class must of been in on this. They all kept quiet until now, Maxes
+            big mouth helped me out. For once I was happy to find out loud mouth
+            in a group.
+          </p>
+          <p>
+            I grabbed a seed in my pocket and turned falling onto floor with
+            maybe the worst acting you ever saw. Hoping my awkward movements
+            looked more real because he had just hit me in the spine. I saw Max
+            coming towards me his arm covered in rock. I threw a lighting seed
+            at him which stuck to his robe parts piercing though and hooking
+            into his skin. He just became more angry and ran at me ready to slam
+            his rock covered arm in to me.
+          </p>
+          <p>
+            Thinking now or never I used 'Seed-to-Soldier' and summoned a bacon
+            bacon-leaf soldier on top of me to take the blow. His rock covered
+            arm smashed into the soldier as he grew on top of me and cushioned
+            the blow but it still hurt. There was a huge hole in the soldiers
+            back, his plant like skin had caved in to show his bacon like flesh.
+            I cast 'lighting growth' on him and he pushed down with his arms and
+            shot up backwards into Max, pushing him back with his back as Max
+            was pulling his arm back.
+          </p>
+          <p>
+            I tried to push off the floor and get to my knees so I could move
+            when Max came back, Max was clearly not expecting the seed soldier
+            and was momently confused until the soldier punched him in the face.
+            The seed soldier was doing far better then I expected, Maxes rock
+            arm was really strong but slow. As the two fought more I couldn't
+            help notice the seed soldier really stuck to Max, keeping close to
+            his chest not letting him use his long rock arm effectively. Max
+            would swing the thing wildly.
           </p>
           {/* Tulip seeds to impress Tsuma. */}
           {/* Survival game, eat and hide */}
