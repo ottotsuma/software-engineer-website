@@ -235,6 +235,25 @@ function intro(props) {
             walked out under his stare. Lubin's stare might of scared another
             student but while his stare was on me I felt safer.
           </p>
+          <p> </p>
+          {/* Give space for a scene change. */}
+          <p>
+            I was sitting outside when one of the medical students pulled me
+            into the healing tents. My health was low and they had started using
+            healing spells on me when Lubin had come into tent and found me.
+          </p>
+          <p>
+            "What the hell was that, I know you know better then that." Lubin
+            said in a disappointed voice.
+          </p>
+          <p>
+            "I had forfeit the fight and Max hit me in the back with an attack
+            then continued to attack me when I was on the floor, the other
+            students did not stop it. They are calling me cursed, saying Linhart
+            had offered them money to beat me up." I replied, I knew he could do
+            nothing with the information but I could at least tell the truth.
+          </p>
+          <p>"I spoke with Max already, and the other students in your group. Your story and theirs do not line up. I suppose as always "</p>
           {/* Tulip seeds to impress Tsuma. */}
           {/* Survival game, eat and hide */}
         </div>
