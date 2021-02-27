@@ -269,7 +269,24 @@ function intro(props) {
             might be better to use this incident to claim stress and move into
             farming...." Lubin said leaving his words hanging in the air.
           </p>
-          <p>I sat there staring at him. I could believe what I was hearing. The academy would just give up, things are changing? All I did was show my weapon to defend myself from someone attacking me outside of a duel.</p>
+          <p>
+            I sat there staring at him. I could believe what I was hearing. The
+            academy would just give up, things are changing? All I did was show
+            my weapon to defend myself from someone attacking me outside of a
+            duel.
+          </p>
+          <p>
+            "Do I have to make a decision now? All I did was threaten him in
+            self defence." I said a little annoyed.
+          </p>
+          <p>
+            "No. Not now. But soon. Maybe by tomorrow it depends on Arrilian's
+            feed back. I can't really let you back into the class. The non
+            combat students are on normal schedules, maybe your farming friend
+            could use some help today." He said. He stood up slowly and walked
+            out of the tent, nodding as he left.
+          </p>
+          <p>Well this sucks.</p>
           {/* Tulip seeds to impress Tsuma. */}
           {/* Survival game, eat and hide */}
         </div>
