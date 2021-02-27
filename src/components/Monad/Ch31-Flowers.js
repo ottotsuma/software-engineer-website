@@ -253,7 +253,23 @@ function intro(props) {
             had offered them money to beat me up." I replied, I knew he could do
             nothing with the information but I could at least tell the truth.
           </p>
-          <p>"I spoke with Max already, and the other students in your group. Your story and theirs do not line up. I suppose as always "</p>
+          <p>
+            "I spoke with Max already, and the other students in your group.
+            Your story and theirs do not line up. I suppose that is how these
+            things always go." Lubin said sitting down on a chair looking at me.
+          </p>
+          <p>
+            "I don't know what to say. Clearly they are out to get me and I
+            can't see a way for the academy to help." I shrugged.
+          </p>
+          <p>
+            "Well, you are right about one thing. The academy will not be
+            helping you with this one. Things are changing and discipline is a
+            must. You will be lucky if they don't make an example out of you. It
+            might be better to use this incident to claim stress and move into
+            farming...." Lubin said leaving his words hanging in the air.
+          </p>
+          <p>I sat there staring at him. I could believe what I was hearing. The academy would just give up, things are changing? All I did was show my weapon to defend myself from someone attacking me outside of a duel.</p>
           {/* Tulip seeds to impress Tsuma. */}
           {/* Survival game, eat and hide */}
         </div>
