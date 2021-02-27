@@ -45,6 +45,9 @@ spells//
 
 'Lightning seeds - Shoots a group of [1] seed(s) in a spread from the user. The seeds attach to opponent(s) and cause lightning damage over time. A part of the damage is used to restore your as mana.'
 <p>Seeds to Soldiers: Take [1] seed(s), use energy to give life to a soldier.</p>
+Lightning germination 
+Lightning growth
+Lightning harvest 
           <li>
             <li className="Unique"> Heavenly White Stag Mask:</li> Magic: +1,
             Disease resistance + 20%, Mana regeneration + 10%, blessing of

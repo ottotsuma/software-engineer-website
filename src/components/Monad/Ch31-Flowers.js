@@ -200,6 +200,41 @@ function intro(props) {
             his chest not letting him use his long rock arm effectively. Max
             would swing the thing wildly.
           </p>
+          <p>
+            The lightning seed gripping to Max was draining his health and
+            recovering my mana however my health was not recovering. I had taken
+            a lot of damage to my back, my muscles ached. The seed soldier had
+            taken most of the blow for me lsat time but it still hurt. I
+            scrambled to for some of the other seeds in my pocket, maybe I would
+            need to use them again. This is exactly why I needed to level up
+            more, find better gear and not take fights right now, I had no good
+            spells for dealing damage right now.
+          </p>
+          <p>
+            Max had beaten the seed soldier to pieces, the plant matter was all
+            over the ground, slowly turning in to a mulch. Putting stat points
+            into vitality had saved me so far but I was still floating stat
+            points and not using them was silly, I should of used them. I just
+            need to last until Lubin notices what is going on. An idea sparked
+            in my mind at that train of thought.
+          </p>
+          <p>
+            As a furious Max stormed towards me gathering mana in his arm. You
+            could see small rocks rolling up his arm to the tip. His arm had no
+            been damaged in the fighting at all so he must be preparing for a
+            ranged attack. While Max was collecting himself I reached into my
+            inventory and pulled out my spear. The gasps and shocked reaction of
+            the other students was exactly what I wanted. Lubin came rushing
+            over the moment he saw he holding a weapon in my hand.
+          </p>
+          <p>
+            "Hey! Stop! I know I did not say no gear other then your robes but
+            every combat student should be aware the sparing rules by now! Even
+            if you have been playing around on a farm. Get out." Lubin was
+            furious, I just replied with a simple yes sir, put my spear away and
+            walked out under his stare. Lubin's stare might of scared another
+            student but while his stare was on me I felt safer.
+          </p>
           {/* Tulip seeds to impress Tsuma. */}
           {/* Survival game, eat and hide */}
         </div>
