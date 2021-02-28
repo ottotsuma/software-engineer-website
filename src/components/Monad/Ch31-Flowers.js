@@ -287,6 +287,26 @@ function intro(props) {
             out of the tent, nodding as he left.
           </p>
           <p>Well this sucks.</p>
+          <p> </p>
+          <p>
+            Without much choice left I walked down to the farm. It was still the
+            morning and everyone was in either normal lessons or sparing with
+            their classmates. The second years however would have the mornings
+            to train or sleep in, so the streets were not totally empty.
+          </p>
+          <p>The farm looked how it did in the afternoon. The students who took farming as their main study would be out in fields or research. The first years like Ralsan might have lectures but it was not everyday like the other students. I thought I would have to ask around and search for Ralsan but he was sat under a big tree eating various fruits, vegetables, meats and cheeses.</p>
+          <p>"So this is what you do all morning." I commented seeing the spread out before him.</p>
+          <p>"This." Licking his lips. "Is the testing phase after months of carful crop breeding." He patted next to him. "Come and eat with me, honestly I am dieing here." He said holding his belly.</p>
+          <p>I sat down next to him and tried some of the food. It was really good, fresh food really is the best. "You don't seem surprised to see me." I said.</p>
+          <p>"I am but, here you are so why complain." He said with a smile. He really was a nice guy.</p>
+          <p>"I was kicked out of combat classes today for defending myself." I said while biting into what I thought was an apple but tasted more like a cinnamon raspberry pie. "This ones nice."</p>
+          <p>"I am sure there is more to that story. But as you know I have no interest in people's egos being hurt and waving sticks at each other. Better to just get along, work hard and eat good food." He said.</p>
+          <p>"You might be the only sane person in Alden." I replied with a smile.</p>
+          <p>We ate for awhile and sat resting, stomachs full. "So now you have taken your bribe come help me out with some seeds." He said walking to the little research building from last time.</p>
+          <p>"Nothings free." I said following. It is not like I had anything else to do.</p>
+          <p>Inside the desk Ralsan used was covered in wooden boxes, seeds almost everywhere. Some where wrapped with string and labeled while others were just in huge piles. "And you never mix any of the seeds up?" I asked.</p>
+          <p>"Ah. Maybe don't touch anything." He said laughing.</p>
+          <p>We sat there talking as Ralsan drew sketches of seeds, made notes and occasionally handing me a seed to germinate. </p>
           {/* Tulip seeds to impress Tsuma. */}
           {/* Survival game, eat and hide */}
         </div>
