@@ -294,19 +294,100 @@ function intro(props) {
             their classmates. The second years however would have the mornings
             to train or sleep in, so the streets were not totally empty.
           </p>
-          <p>The farm looked how it did in the afternoon. The students who took farming as their main study would be out in fields or research. The first years like Ralsan might have lectures but it was not everyday like the other students. I thought I would have to ask around and search for Ralsan but he was sat under a big tree eating various fruits, vegetables, meats and cheeses.</p>
-          <p>"So this is what you do all morning." I commented seeing the spread out before him.</p>
-          <p>"This." Licking his lips. "Is the testing phase after months of carful crop breeding." He patted next to him. "Come and eat with me, honestly I am dieing here." He said holding his belly.</p>
-          <p>I sat down next to him and tried some of the food. It was really good, fresh food really is the best. "You don't seem surprised to see me." I said.</p>
-          <p>"I am but, here you are so why complain." He said with a smile. He really was a nice guy.</p>
-          <p>"I was kicked out of combat classes today for defending myself." I said while biting into what I thought was an apple but tasted more like a cinnamon raspberry pie. "This ones nice."</p>
-          <p>"I am sure there is more to that story. But as you know I have no interest in people's egos being hurt and waving sticks at each other. Better to just get along, work hard and eat good food." He said.</p>
-          <p>"You might be the only sane person in Alden." I replied with a smile.</p>
-          <p>We ate for awhile and sat resting, stomachs full. "So now you have taken your bribe come help me out with some seeds." He said walking to the little research building from last time.</p>
-          <p>"Nothings free." I said following. It is not like I had anything else to do.</p>
-          <p>Inside the desk Ralsan used was covered in wooden boxes, seeds almost everywhere. Some where wrapped with string and labeled while others were just in huge piles. "And you never mix any of the seeds up?" I asked.</p>
+          <p>
+            The farm looked how it did in the afternoon. The students who took
+            farming as their main study would be out in fields or research. The
+            first years like Ralsan might have lectures but it was not everyday
+            like the other students. I thought I would have to ask around and
+            search for Ralsan but he was sat under a big tree eating various
+            fruits, vegetables, meats and cheeses.
+          </p>
+          <p>
+            "So this is what you do all morning." I commented seeing the spread
+            out before him.
+          </p>
+          <p>
+            "This." Licking his lips. "Is the testing phase after months of
+            carful crop breeding." He patted next to him. "Come and eat with me,
+            honestly I am dieing here." He said holding his belly.
+          </p>
+          <p>
+            I sat down next to him and tried some of the food. It was really
+            good, fresh food really is the best. "You don't seem surprised to
+            see me." I said.
+          </p>
+          <p>
+            "I am but, here you are so why complain." He said with a smile. He
+            really was a nice guy.
+          </p>
+          <p>
+            "I was kicked out of combat classes today for defending myself." I
+            said while biting into what I thought was an apple but tasted more
+            like a cinnamon raspberry pie. "This ones nice."
+          </p>
+          <p>
+            "I am sure there is more to that story. But as you know I have no
+            interest in people's egos being hurt and waving sticks at each
+            other. Better to just get along, work hard and eat good food." He
+            said.
+          </p>
+          <p>
+            "You might be the only sane person in Alden." I replied with a
+            smile.
+          </p>
+          <p>
+            We ate for awhile and sat resting, stomachs full. "So now you have
+            taken your bribe come help me out with some seeds." He said walking
+            to the little research building from last time.
+          </p>
+          <p>
+            "Nothings free." I said following. It is not like I had anything
+            else to do.
+          </p>
+          <p>
+            Inside the desk Ralsan used was covered in wooden boxes, seeds
+            almost everywhere. Some where wrapped with string and labeled while
+            others were just in huge piles. "And you never mix any of the seeds
+            up?" I asked.
+          </p>
           <p>"Ah. Maybe don't touch anything." He said laughing.</p>
-          <p>We sat there talking as Ralsan drew sketches of seeds, made notes and occasionally handing me a seed to germinate. </p>
+          <p>
+            We sat there talking as Ralsan drew sketches of seeds, made notes
+            and occasionally handing me a seed to germinate. His book was full
+            of notes about each seed he could get his hands on. He told me he
+            had been taking notes of success rates, quality, plants produced,
+            look and use of all the seeds he could find along with more
+            information but my brain was about ready to explode.
+          </p>
+          <p>
+            "Say Ralsan, can I have some seeds?" I asked, maybe it was random
+            but I had 4 spells depending on seeds and only 1 spell that did not
+            require a them to use.
+          </p>
+          <p>
+            "Don't see why not. Most seeds fail during germination process
+            anyway and become waste. Look at this seed, fire lotus. Germination
+            chance 4.42%. I never had one but a teacher brought one in for us to
+            take notes on."
+          </p>
+          <p>
+            I thought for awhile before asking. "Do you have any I can use for
+            combat? Oh and one that turns into a pretty flower?" I said hoping
+            he would not ask too much about the flowers.
+          </p>
+          <p>
+            "Flowers?... You got a girlfriend? Say no more!" He quickly grabbed
+            some seeds from a boxes behind him. "Tulips." He said putting the
+            seeds in my hands. "They take months to germinate, years to turn
+            into flowers but are very pretty. They are great for mixing with
+            other elemental plants to make ... It doesn't matter you just want
+            the flowers. I figure with your spells you could get them to bloom
+            in moments and not years, whoever your girl is will be impressed!
+            Trust me!" Ralsan said in excitement. Annoying he had hit the nail
+            on the head.
+          </p>
+          <p>"Thank you. Fine you got me, it's a girl. Now how about combat seeds?" I asked.</p>
+          <p>"A little bit harder, my main research is on food rather then pest control or defensive properties of nature." Ralsan said looking a little sorry. "You know if you are not looking for destructive power.. Try this." He said throwing a small grey seed to me. ""</p>
           {/* Tulip seeds to impress Tsuma. */}
           {/* Survival game, eat and hide */}
         </div>
