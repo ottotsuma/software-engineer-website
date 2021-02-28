@@ -386,8 +386,23 @@ function intro(props) {
             Trust me!" Ralsan said in excitement. Annoying he had hit the nail
             on the head.
           </p>
-          <p>"Thank you. Fine you got me, it's a girl. Now how about combat seeds?" I asked.</p>
-          <p>"A little bit harder, my main research is on food rather then pest control or defensive properties of nature." Ralsan said looking a little sorry. "You know if you are not looking for destructive power.. Try this." He said throwing a small grey seed to me. ""</p>
+          <p>
+            "Thank you. Fine you got me, it's a girl. Now how about combat
+            seeds?" I asked.
+          </p>
+          <p>
+            "A little bit harder, my main research is on food rather then pest
+            control or defensive properties of nature." Ralsan said looking a
+            little sorry. "You know if you are not looking for destructive
+            power.. Try this." He said throwing a small grey seed to me. "Dwarf
+            Iron-wood tree. More of a bush really. Grows half the height of a
+            man looks like a tree but the wood is as hard as iron."
+          </p>
+          <p>
+            "Huh, like a shield? That could work. Thank you Ralsan, really." I
+            said with ernest.
+          </p>
+          <p></p>
           {/* Tulip seeds to impress Tsuma. */}
           {/* Survival game, eat and hide */}
         </div>
