@@ -402,7 +402,107 @@ function intro(props) {
             "Huh, like a shield? That could work. Thank you Ralsan, really." I
             said with ernest.
           </p>
-          <p></p>
+          <p>
+            I wanted to try it out right here, but as I held the seed in my
+            hand. "Hey hey! Don't do it here. That tree is really hard to
+            remove.. You already caused problems before growing things inside."
+            He laughed as I put the seed into a little pouch.
+          </p>
+          <p>"Were did you get that seed pouch?" He asked seeing my actions.</p>
+          <p>
+            "Ah, there is like 100 of them on that desk over there... Should I
+            put it back?" I said a little embarrassed.
+          </p>
+          <p>
+            "Aha no it's fine they are for us anyway." He said and patted my
+            shoulder and got back to work. Maybe I should of asked before using
+            it.
+          </p>
+          <p>
+            We kept at it for a few hours until lunch time. I always came down
+            here at lunch time to talk to Ralsan and maybe get free food. So
+            lunch time was the same as normal. "Hey you know, you really helped
+            me this morning my work is weeks ahead now. Is there anything you
+            need to do this afternoon?" Ralsan asked. This was a first for me,
+            we had always been working, although I mostly did pest control and
+            Ralsan did his research there was always something to do.
+          </p>
+          <p>
+            "I mean, the only thing I have to do is level up you see I am
+            actually a really low level... It has really held me back in combat
+            classes and I picked up all those farming spells.. But it is nothing
+            you can help with I just need to leave the academy to train but I
+            cant right now because of various incidents.." I replied honestly.
+          </p>
+          <p>
+            "Huh. I guess I figured your level was higher then mine since you
+            were doing combat.. What level are you?" Ralsan asked.
+          </p>
+          <p>"Ahem. Five..." I said embarrassed.</p>
+          <p>"Five!? What the hell... You couldn't hurt a fly." He said.</p>
+          <p>"Hey I have been killing the pests!" I protested.</p>
+          <p>
+            "Yeah but... Ah we are going to fix that. I know some methods." He
+            said with a wink... "Nothing illegal" I added.
+          </p>
+          <p> </p>
+          <p>
+            After lunch we walked following against the wall until we reached a
+            small but very steep staircase. Looking up I could see the large
+            bridge we had crossed to enter the academy at the start of it all.
+            "How do the security let you build stairs negating the bridge?" I
+            asked.
+          </p>
+          <p>
+            "Apparently they didn't at first, but the farmers just kept building
+            it again. It takes ages to get to the south farms if you have to go
+            back though the academy and it is not like anything but beasts
+            attack this place. Even then it's been decades.." Ralsan replied
+            walking down earth and wood stairs. I shrugged and followed, seems
+            like the farmers had a point.
+          </p>
+          <p>
+            The southern farms were vast. It made the northern farms look like a
+            miniature farm in comparison. "This is where the majority of the
+            teaching and farming takes place, our farm is just research really."
+            Ralsan said seeing the shock on my face.
+          </p>
+          <p>
+            Off to the west from there Ralsan took me to a grey 5 floor building
+            with plants growing all over it, although the plants looked dead
+            like this place had been abounded. There was only grass growing in
+            the area around the building which looked odd because beyond the
+            clear cut area was the jungle behind it. This was the edge of the
+            farms like in the north but it seemed that no one came here.
+          </p>
+          <p>
+            "Don't be fooled. It is not abandoned just badly damaged from
+            experimentation. This is on of the research labs for defensive
+            plants properties." With that he kicked open the wooden double doors
+            to the building. The door creaked and bent and turned into shards of
+            wood flying into the building and one of the doors fell off its
+            hinges.
+          </p>
+          <p>"What the hell!?" I shouted after him.</p>
+          <p>
+            "We need to make it look like a beast broke in. I technically don't
+            have the rights to use this place since you know, I don't work
+            here." Ralsan said from inside.
+          </p>
+          <p>
+            I rushed in after him and inside was dead plant matter all over the
+            place, it smelt like compost. There were burn marks, blast marks
+            across the floor, roof, walls and cracks everywhere. No way this
+            place is safe.
+          </p>
+          <p>
+            Ralsan was was in the corner pressing buttons on the wall. "Lucky us
+            they did not disconnect the mana storage. No one else comes out here
+            and it is a painful job I am told so they are quite lazy." With that
+            he started moving leavers on the wall, a wooden trap door opened in
+            the roof and a plant dropped down into the middle of the room.
+          </p>
+          <p>"Luminus plant. This one is just a child but it can still bite you even if it cannot swallow you yet. It is somewhere between level 1 ~ 9 after level 9 they grow into adults, most of it's stats will be in strength. Good luck." Ralsan said as the plant unfolded into a giant tentacle shape with yellow blobs along it's green shaft and a head that opened to show a red mouth inside. "A little warning would of been nice!" I shouted as the plant moved to attack me.</p>
           {/* Tulip seeds to impress Tsuma. */}
           {/* Survival game, eat and hide */}
         </div>
