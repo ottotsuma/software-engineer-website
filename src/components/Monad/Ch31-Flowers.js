@@ -502,7 +502,15 @@ function intro(props) {
             he started moving leavers on the wall, a wooden trap door opened in
             the roof and a plant dropped down into the middle of the room.
           </p>
-          <p>"Luminus plant. This one is just a child but it can still bite you even if it cannot swallow you yet. It is somewhere between level 1 ~ 9 after level 9 they grow into adults, most of it's stats will be in strength. Good luck." Ralsan said as the plant unfolded into a giant tentacle shape with yellow blobs along it's green shaft and a head that opened to show a red mouth inside. "A little warning would of been nice!" I shouted as the plant moved to attack me.</p>
+          <p>
+            "Luminus plant. This one is just a child but it can still bite you
+            even if it cannot swallow you yet. It is somewhere between level 1 ~
+            9 after level 9 they grow into adults, most of it's stats will be in
+            strength. Good luck." Ralsan said as the plant unfolded into a giant
+            tentacle shape with yellow blobs along it's green shaft and a head
+            that opened to show a red mouth inside. "A little warning would of
+            been nice!" I shouted as the plant moved to attack me.
+          </p>
           {/* Tulip seeds to impress Tsuma. */}
           {/* Survival game, eat and hide */}
         </div>
