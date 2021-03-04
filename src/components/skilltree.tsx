@@ -476,7 +476,7 @@ const data: SkillType[] = [
 ];
 function Skill() {
   return (
-    <div className="Tree">
+    <div className="Tree-Outer">
       <SkillProvider>
         <SkillTreeGroup>
           {({ skillCount }) => (
