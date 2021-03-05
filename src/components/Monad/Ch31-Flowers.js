@@ -397,8 +397,8 @@ function intro(props) {
             control or defensive properties of nature." Ralsan said looking a
             little sorry. "You know if you are not looking for destructive
             power.. Try this." He said throwing a small grey seed to me. "Dwarf
-            Iron-wood tree. More of a bush really. Grows half the height of a
-            man looks like a tree but the wood is as hard as iron."
+            Ironwood tree. More of a bush really. Grows half the height of a man
+            looks like a tree but the wood is as hard as iron."
           </p>
           <p>
             "Huh, like a shield? That could work. Thank you Ralsan, really." I
@@ -517,10 +517,131 @@ function intro(props) {
             Luminus plant
             <img className="popOut" src={Planty} alt="Plant" />
           </div>
-          <p>I grabbed a seed from my pocket, it was one the bacon-leaf plants and grew it into a soldier. The seed soldier charged into the plant. I took some paces backwards as the soldier would cover me while I cast spells from the back. I gathered my mana into the palm of my hand and formed it into a lightning seed throwing it at the Luminus plant.</p>
-          <p>The seed arced and landed on top of the plants stem, it had moved its head down to bite at my seed soldier and to my surprise ripped straight though it like a hot knife though butter. It spasmed it's head back and forth violently ripping the seed soldier to pieces in moments.</p>
-          <p>"They are made of bacon. What were you expecting?" Ralsan said mockingly from behind the plant.</p>
-          <p></p>
+          <p>
+            I grabbed a seed from my pocket, it was one the bacon-leaf plants
+            and grew it into a soldier. The seed soldier charged into the plant.
+            I took some paces backwards as the soldier would cover me while I
+            cast spells from the back. I gathered my mana into the palm of my
+            hand and formed it into a lightning seed throwing it at the Luminus
+            plant.
+          </p>
+          <p>
+            The seed arced and landed on top of the plants stem, it had moved
+            its head down to bite at my seed soldier and to my surprise ripped
+            straight though it like a hot knife though butter. It spasmed it's
+            head back and forth violently ripping the seed soldier to pieces in
+            moments.
+          </p>
+          <p>
+            "They are made of bacon. What were you expecting?" Ralsan said
+            mockingly from behind the plant.
+          </p>
+          <p>
+            Gritting my teeth I grabbed one of the new Dwarf Ironwood Tree seeds
+            and germinated it. It might make a stronger seed solder but I was
+            not going to take the risk right now and experiment. As the plant
+            finished eating the seed solder I put the sapling in front of me and
+            cast growth. The plant shot up to my waist, the branches were dark,
+            ash-black with white and black spotted leaves. It really did look
+            like a tiny tree.
+          </p>
+          <p>
+            As the plant launched itself at me I ducked behind the tree and
+            threw out another lightning seed. It was a little annoying but when
+            I cast a new seed the old one disappeared, it was very strict about
+            the limit on the description.
+          </p>
+          <p>
+            The plant was not as fussed about this, my lightning seed cause
+            damage over time and not upfront so the initial sting was rather
+            small. Honestly I was a little out of ideas and pinned down.
+          </p>
+          <p>
+            "Hey Otto, I don't mean to judge your style, but you know the
+            Luminus plant is taller then the dwarf tree?" Ralsan shouted across
+            the room.
+          </p>
+          <p>
+            I looked up, I saw the mouth of the Luminus plant open and start
+            heading towards me. It had just reached over the top of the dwarf
+            tree! I panicked and used 'lightning harvest' I had been practicing
+            with it so much and the Luminus plant is a kind of plant, a moving
+            man eating kind. I might of survived a bite, I had 5 vitality and
+            the plant cant of been over level 9 itself. I would never get to
+            find out if I would of survived though. The Luminus plant had just
+            disappeared.
+          </p>
+          <p>
+            I poked my head over the dwarf tree and sure enough on the ground
+            was just some plant mulch. "So, what happened?" I asked Ralsan.
+          </p>
+          <p>
+            "Eh? I thought you killed it. I didn't touch it." Ralsan said
+            shaking his head confused.
+          </p>
+          <p>
+            Who could blame him. No way right? I checked my inventory and sure
+            enough inside was Luminus plant parts. When I harvest the normal
+            bacon leaf plants I would get to keep the leaves and seeds. It
+            seemed to just harvest what ever was useful. This time though I just
+            got some leaves. "Hey Ralsan, does the Luminus plant rarely produce
+            seeds? Or anything useful?" I asked.
+          </p>
+          <p>
+            "Er, normally yes it has a lot of useful parts but this was just a
+            young plant, so no way it could of produced any seeds yet. Why did
+            you ask that randomly?" He replied.
+          </p>
+          <p>
+            "I accidentally cast harvest on it, the leaves are in my inventory.
+            However this time I did not get any seeds. So I thought it was
+            strange." I said back stating what had happened.
+          </p>
+          <p>
+            "You harvested it? Is that not cheating? Can you just kill all plant
+            monsters?! Check your spell!" Ralsan said with his mouth hanging
+            open.
+          </p>
+          <p>
+            "I did! It did not say anything about being used on monsters just
+            that it harvests the target.... It can't be 100% of the time right?"
+            I questioned Ralsan like he would know my own spells better then me.
+          </p>
+          <p>
+            "Armature hour over here. Do you get all of the information about a
+            weapon when you scan it for the first time? Keep trying with your
+            spell." He said.
+          </p>
+          <p>
+            "Huh? I thought you get all the information about spells when you
+            unlock them?" I replied.
+          </p>
+          <p>
+            "Mmm yes and no. The academy is not really decided on it." Ralsan
+            said shrugging his shoulders. I should really pay more attention in
+            class, sounds like Ralsan has been. I used my inspect skill on my
+            spell.
+          </p>
+          <p>
+            Lightning harvest: Harvest the target. If the target is below 20% HP
+            this attack does 200% more damage. If this target is a 'plant' type
+            this attack does 500% more damage. If this attack kills the target
+            you have a chance to harvest something.
+          </p>
+          <p>
+            I knew what type of skill this was! An assassination type skill. I
+            only knew this because back in the village Beke would always use
+            this type of skill to kill monsters when we played. It was a common
+            skill type for physical attackers to have access too, something
+            about beheading a monster to finish it felt gratifying.
+          </p>
+          <p>
+            More importantly though! I have an attacking skill. It really only
+            hurts plants and low level ones unless I can get their HP below 20%.
+            However with a 500% increase to my attack power, I should be able to
+            kill even higher level plant monsters easily. What kind of cheat is
+            this!?
+          </p>
           {/* Tulip seeds to impress Tsuma. */}
           {/* Survival game, eat and hide */}
         </div>
@@ -529,3 +650,41 @@ function intro(props) {
   );
 }
 export default intro;
+
+// Dark spots under the eyes reduce glare adn increase accuracy (Cheetah)
+
+// Blood tax, one child from 40 house holds. (Ottomans)
+
+// empire emperor dies and the mother fights back against the sons reforms, the reforms chose one religion and code of ethics to rule by instating new schools and imperial examinations, the court fight back and the new emperor puts his pawns in low level positions though-out the court so he can control it in secret when his mother dies he pacifies the lower realms
+
+// during the war monsters get past and kill villagers from Otto's village his parents included and the blame is placed on otto and his forces but in was in fact the young lords
+
+// auto hunt class
+
+// maps show continent in real time
+
+// human in step perk 1.1x to stats with lover/opposite gender when together
+
+// leaf taken human form to get revenge on the one who plucked it
+
+// alden invades the republic east and west forms confederation, alden and empire war over Dwarves lands
+
+// the emperor is really the empress
+
+// elf's use to be pirate like and split into factions
+
+// the old world spreads disease to the new and in return the L god sends back syphilis, new world has more flying troops abilities and items they are a rarity in the new worlds
+
+// high level rouges in mayan and aztec lands, high level spirits passed by old houses and the poor have to fight for the scraps
+
+// desert religion with a quest to listen to the whole sermon posted by a troll
+
+// Killing of the God causes the faithful to lose their powers and cough up blood
+// The killing of the german god causes Effi to lose her powers and has to fight to restore her faith
+// The killing is because of Otto, Effi never finds out
+// Tisiel and Reingard and otto go into the tomb and tisiel lets Reingard die so she can acquire the lich legacy and the others that follow in die in various ways the final being used as Otto's sacrifice
+// Otto gains the new class in the dungeon from the god he follows and sets out on a path to kill his own god
+// Tsuma reveals she is powerful and the princess of the other land when Otto is trapped with no way out, his country betraying him
+// Tsuma takes an interest in german witch magic that was her real reason for comings
+// the mask is the legacy of the deer god of lightning, the lightning god class is given to otto also, the quest is set out to acquire the god race.
+// Tsuma was on a quest to learn the german magic and to acquire a new class by combining the class of her lands with the new one.

@@ -10,7 +10,7 @@ The enemy may have the Moon People on their side, but we have lovely hats! And t
 <li>Magic</li> Increases Magic damage, Mana
 <li>Magic Defence</li> Increases resistance to magic, reduces magic damage taken (%)
 <li>Dexterity (Reflexes)</li> Increases cool down of skills, casting of skills, dodge change, 
-<li>Sense</li> 
+<li>Sense</li> Trap Detect (All of the senses, hearing, taste, touch, smell.) Seeing though smoke screens and illusions. Seeing weakness and injuries in your opponent
 <li>Charisma</li> Increases NPC likability, command points, 
 
 Critical defense, parry, glance, defend
@@ -20,16 +20,16 @@ Ajisukitakahikone = Japanese version of God K
             <li>Name: Otto.</li>
             <li>Level: 5.</li>
             <li>Class: Kʼawiil.</li>
-            <li>Spells: 1.</li>
+            <li>Spells: 5.</li>
             <li>Titles: 3.</li>
-            <li>Spell points: 4.</li>
+            <li>Spell points: 0.</li>
             {/* 1 Per level */}
-            <li>Stat points: 15.</li>
+            <li>Stat points: 10.</li>
             {/* 4 per level */}
             <li>Stats:</li>
             <li>Strength: 1</li>
             {/* Title 1 */}
-            <li>Vitality: 0</li>
+            <li>Vitality: 5</li>
             <li>Defence: 0</li>
             <li>Magic: 6</li>
             {/* Title 1 */}
@@ -241,6 +241,10 @@ Lubin - teacher of magic  */}
 
 *** notes
 
+Dark spots under the eyes reduce glare adn increase accuracy (Cheetah)
+
+Blood tax, one child from 40 house holds. (Ottomans)
+
 empire emperor dies and the mother fights back against the sons reforms, the reforms chose one religion and code of ethics to rule by instating new schools and imperial examinations, the court fight back and the new emperor puts his pawns in low level positions though-out the court so he can control it in secret when his mother dies he pacifies the lower realms
 
 during the war monsters get past and kill villagers from Otto's village his parents included and the blame is placed on otto and his forces but in was in fact the young lords 
@@ -272,27 +276,6 @@ DLC island
 desert religion with a quest to listen to the whole sermon posted by a troll 
 
 */}
-</div>
-<footer>
-<p><a href="https://ottotsuma.github.io/Home.html" class="button">Home page</a></p>
-<p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.</p>
-</footer>
-
-{/* wrapper div end */}
-</div>
-
-{/* Scripts */}
-{/* Scripts */}
-<script src="./websiteSASS/JS/jquery.min.js"></script>
-<script src="./websiteSASS/JS/jquery.scrollex.min.js"></script>
-<script src="./websiteSASS/JS/jquery.scrolly.min.js"></script>
-<script src="./websiteSASS/JS/browser.min.js"></script>
-<script src="./websiteSASS/JS/breakpoints.min.js"></script>
-<script src="./websiteSASS/JS/util.js"></script>
-<script src="./websiteSASS/JS/testing.js"></script>
-</body>
-</html>
-{/* 
 Extras: 
 
 Killing of the God causes the faithful to lose their powers and cough up blood
