@@ -666,7 +666,17 @@ function intro(props) {
             spell.{" "}
           </p>
           <p> </p>
-          <p></p>
+          <p>
+            I had to get back quickly. I had a date tonight so I saw Ralsan off
+            at the farm and ran back to the Leikan area. I bathed quickly and
+            headed over to the princesses manor. Tsuma worked there as a hand
+            maid to the princess, but I had never met the princess. Not that a
+            princess should meet someone like me.
+          </p>
+          <p>
+            She was waiting for me in the manors garden. Wearing a long skirt
+            and wrapped top in the Leikan style she looked beautiful.{" "}
+          </p>
           {/* Tulip seeds to impress Tsuma. */}
           {/* Survival game, eat and hide */}
         </div>
