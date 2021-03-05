@@ -4,6 +4,16 @@ Using total war general speeches for the speeches
 
 The enemy may have the Moon People on their side, but we have lovely hats! And those hats will protect us from their fearsome gaze! (If your general has the “mad” trait)
 
+<li>Strength</li> Physical Damage, 
+<li>Vitality</li> Hit points, Resistances to hot/cold / poison
+<li>Defence</li> Increases resistance to physical damage, reduces physical damage taken (%)
+<li>Magic</li> Increases Magic damage, Mana
+<li>Magic Defence</li> Increases resistance to magic, reduces magic damage taken (%)
+<li>Dexterity (Reflexes)</li> Increases cool down of skills, casting of skills, dodge change, 
+<li>Sense</li> 
+<li>Charisma</li> Increases NPC likability, command points, 
+
+Critical defense, parry, glance, defend
 
 Ajisukitakahikone = Japanese version of God K 
           <p class="stats">
