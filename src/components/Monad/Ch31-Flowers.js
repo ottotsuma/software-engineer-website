@@ -642,6 +642,31 @@ function intro(props) {
             kill even higher level plant monsters easily. What kind of cheat is
             this!?
           </p>
+          <p>"Hey Ralsan. How many plant monsters are in here?" I asked.</p>
+          <p>
+            "Loads. They are grown here for our experiments." He replied. "What
+            about your skill did you find something out?"
+          </p>
+          <p>
+            "Yeah, let me show you. Keep sending plant monsters out, I am sure I
+            will level up fast!" With that Ralsan smiled and sent more plant
+            monsters against me. At first it was more young monsters, but after
+            seeing my deal with them in one hit Ralsan decided to up the game a
+            bit and sent out plant monsters that had recently become adults. I
+            lost track of how many I killed but after a few hours Ralsan said we
+            should leave. If we kept going on at this rate it would be too few
+            left behind for the research team. I felt a little bad for them
+            despite not knowing them, after all they were already going to have
+            to take the blame for not locking up properly and disconnecting the
+            power source.
+          </p>
+          <p>
+            Despite that I had leveled up. I did finally have a spell point to
+            play with, I needed to be sure this time and get and offensive
+            spell.{" "}
+          </p>
+          <p> </p>
+          <p></p>
           {/* Tulip seeds to impress Tsuma. */}
           {/* Survival game, eat and hide */}
         </div>
