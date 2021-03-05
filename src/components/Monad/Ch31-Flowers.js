@@ -1,4 +1,6 @@
 import React from "react";
+import Planty from "./../../assets/planty.jpg";
+
 function intro(props) {
   return (
     <div className="Monad" id="3">
@@ -511,6 +513,14 @@ function intro(props) {
             that opened to show a red mouth inside. "A little warning would of
             been nice!" I shouted as the plant moved to attack me.
           </p>
+          <div className="pop">
+            Luminus plant
+            <img className="popOut" src={Planty} alt="Plant" />
+          </div>
+          <p>I grabbed a seed from my pocket, it was one the bacon-leaf plants and grew it into a soldier. The seed soldier charged into the plant. I took some paces backwards as the soldier would cover me while I cast spells from the back. I gathered my mana into the palm of my hand and formed it into a lightning seed throwing it at the Luminus plant.</p>
+          <p>The seed arced and landed on top of the plants stem, it had moved its head down to bite at my seed soldier and to my surprise ripped straight though it like a hot knife though butter. It spasmed it's head back and forth violently ripping the seed soldier to pieces in moments.</p>
+          <p>"They are made of bacon. What were you expecting?" Ralsan said mockingly from behind the plant.</p>
+          <p></p>
           {/* Tulip seeds to impress Tsuma. */}
           {/* Survival game, eat and hide */}
         </div>
