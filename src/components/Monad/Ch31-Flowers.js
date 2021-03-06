@@ -237,7 +237,7 @@ function intro(props) {
             walked out under his stare. Lubin's stare might of scared another
             student but while his stare was on me I felt safer.
           </p>
-          <p> </p>
+                      <div className="BreakPoint"></div>
           {/* Give space for a scene change. */}
           <p>
             I was sitting outside when one of the medical students pulled me
@@ -289,7 +289,7 @@ function intro(props) {
             out of the tent, nodding as he left.
           </p>
           <p>Well this sucks.</p>
-          <p> </p>
+                      <div className="BreakPoint"></div>
           <p>
             Without much choice left I walked down to the farm. It was still the
             morning and everyone was in either normal lessons or sparing with
@@ -447,7 +447,7 @@ function intro(props) {
             "Yeah but... Ah we are going to fix that. I know some methods." He
             said with a wink... "Nothing illegal" I added.
           </p>
-          <p> </p>
+                      <div className="BreakPoint"></div>
           <p>
             After lunch we walked following against the wall until we reached a
             small but very steep staircase. Looking up I could see the large
@@ -665,7 +665,7 @@ function intro(props) {
             play with, I needed to be sure this time and get and offensive
             spell.{" "}
           </p>
-          <p> </p>
+                      <div className="BreakPoint"></div>
           <p>
             I had to get back quickly. I had a date tonight so I saw Ralsan off
             at the farm and ran back to the Leikan area. I bathed quickly and

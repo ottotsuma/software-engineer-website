@@ -4,6 +4,7 @@ function intro(props) {
     <div className="Monad" id="3">
       <div className="Frame">
         <div className="Content">
+            <div className="BreakPoint"></div>
         </div>
       </div>
     </div>

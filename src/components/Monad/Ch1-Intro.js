@@ -96,6 +96,7 @@ export default function Intro(props) {
             at my head and the sound it gave off blew my ear drums out, there
             was a large flash of light, then nothing.
           </p>
+          <div className="BreakPoint"></div>
           <h3>Steinauhau</h3>
           {/* The Grand Duchy of Alden is home to 3.2 million people */}
           <p>
@@ -161,6 +162,7 @@ export default function Intro(props) {
             weapons etc. I wrote down everything I could remember, right up
             until I heard a click then my vision went black.
           </p>
+          <div className="BreakPoint"></div>
           <h3>Michkel</h3>
           {/* <!-- starting with the kids meeting as friends, introduce the town, some news the people, small parts of the world, culture--> */}
           <p>
@@ -258,6 +260,7 @@ most people learn inspect but either see
 - progress bar 
 - use list 
 --> */}
+            <div className="BreakPoint"></div>
           <h3>Play day</h3>
           {/* <!-- Children in the forest --> */}
           <p>
@@ -350,6 +353,7 @@ most people learn inspect but either see
             decade.
           </p> */}
           {/* <!-- around the year 21-22 the rebellion breaks out --> */}
+          <div className="BreakPoint"></div>
           <h3>Incident</h3>
           {/* <!-- redo - as Effie --> */}
           <p>
@@ -444,6 +448,7 @@ most people learn inspect but either see
             to speak, lungs full of blood.
           </p>
           <p>"Level up!" the words cover Otto's vision.</p>
+          <div className="BreakPoint"></div>
           <h3>The body</h3>
           <p>
             After hearting the children scream like they where really in trouble
@@ -480,6 +485,7 @@ most people learn inspect but either see
           </div>
           {/* <!-- Lurking in the water is a strange child-sized humanoid that resembles a bizarre cross between a turtle, a lizard, and a monkey. It has a beak-like mouth, scaly reptilian skin, clawed and webbed hands, and a turtle-like shell on its back. In the top of its head is a bowl-like depression filled with water. --> */}
           {/* <!-- https://forgottenrealms.fandom.com/wiki/Kappa --> */}
+          <div className="BreakPoint"></div>
           <h3>Aftermath</h3>
           {/* <!-- punishment --> */}
           {/* <!-- a reflection for some of the others maybe about the deaths? monsters? --> */}
@@ -619,6 +625,7 @@ most people learn inspect but either see
             start from the beginning"
           </p>
           {/* <!-- Shit about rouges --> */}
+          <div className="BreakPoint"></div>
           <h3>Training</h3>
           <p>
             While the other children trained and practiced Beke was taken to one
@@ -771,6 +778,7 @@ most people learn inspect but either see
           {/* <!-- human other races skill tress vs className skill tree. -->
 
 <!-- levels --> */}
+            <div className="BreakPoint"></div>
           <h3>departure</h3>
           {/* <!-- departure -->
 <!-- <p>Village leader sends off all the 14 year olds. (Beke having left the year before)</p> --> */}
