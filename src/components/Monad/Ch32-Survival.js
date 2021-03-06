@@ -426,6 +426,40 @@ function intro(props) {
             selection process this time nothing happened, then again I was no
             longer a mage and I already had an element.
           </p>
+          <p>
+            The big upside though, the spell cap was raise to 2. I asked Takeo
+            about it and he explained normally when students with basic classes
+            or classes given to them by families when they reach level 10 their
+            skill cap would increase from 1 to 2, however there seemed to be
+            some kind of help required. Normally the academy would of helped
+            students for free who had reached over level 10, so he just put it
+            down to me being in the cliffside that they never got around to
+            helping me. He never grew up in Alden so I suppose it was unfair to
+            ask him really, I would just have to ask Lubin.
+          </p>
+          <p>
+            I was so glad that I had saved my spell points, with things going so
+            well hunting plant monsters I never really needed an attack spell.
+            Now I have the difficult choice, with the spell level cap increased
+            do I level up my current spells to level 2, or do I gain more level
+            1 spells? Some spells worked great at level 1 and increasing their
+            level gave very little gain. Other spells were useless until
+            reaching a high enough level. It was a real shot in the dark if it
+            was going to be worth it or not without the history of your class
+            and what the spells can do.
+          </p>
+          <p>
+            "This method is really quick, how come all the rich kids are not
+            super high levels? It has only been a few days and I gained 4
+            levels!" I asked Takeo.
+          </p>
+          <p>
+            "What!? obviously because not every kid is a freak like you. These
+            plant monsters a tough. Well I mean for a low level, but you have
+            been ripping though them like paper. You are unnatural." He replied
+            poking at some chicken over a fire. At least It looked like
+            chicken.. It could just be some monster he found.
+          </p>
         </div>
       </div>
     </div>
