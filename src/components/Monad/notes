@@ -4,41 +4,43 @@ Using total war general speeches for the speeches
 
 The enemy may have the Moon People on their side, but we have lovely hats! And those hats will protect us from their fearsome gaze! (If your general has the “mad” trait)
 
-<li>Strength</li> Physical Damage, 
+<li>Strength</li> Increased physical damage. Minor: Increased storage capacity. Reduce damage taken during a successful block. Increased resistance to falling. Increased movement speed.
 <li>Vitality</li> Hit points, Resistances to hot/cold / poison
 <li>Defence</li> Increases resistance to physical damage, reduces physical damage taken (%)
 <li>Magic</li> Increases Magic damage, Mana
 <li>Magic Defence</li> Increases resistance to magic, reduces magic damage taken (%)
-<li>Dexterity (Reflexes)</li> Increases cool down of skills, casting of skills, dodge change, 
+<li>Dexterity (Reflexes)</li> Increases cool down of skills, casting of skills, dodge change, movement on rough terrain
 <li>Sense</li> Trap Detect (All of the senses, hearing, taste, touch, smell.) Seeing though smoke screens and illusions. Seeing weakness and injuries in your opponent
 <li>Charisma</li> Increases NPC likability, command points, 
+
+could defence and magic defence be rolled into vitality, magic and strength? 
 
 Critical defense, parry, glance, defend
 
 Ajisukitakahikone = Japanese version of God K 
           <p class="stats">
             <li>Name: Otto.</li>
-            <li>Level: 5.</li>
+            <li>Level: 6.</li>
             <li>Class: Kʼawiil.</li>
             <li>Spells: 5.</li>
             <li>Titles: 3.</li>
-            <li>Spell points: 0.</li>
+            <li>Spell points: 1.</li>
             {/* 1 Per level */}
-            <li>Stat points: 10.</li>
+            <li>Stat points: 0.</li>
             {/* 4 per level */}
             <li>Stats:</li>
             <li>Strength: 1</li>
             {/* Title 1 */}
-            <li>Vitality: 5</li>
+            <li>Vitality: 6</li>
             <li>Defence: 0</li>
-            <li>Magic: 6</li>
+            <li>Magic: 7</li>
             {/* Title 1 */}
             <li>Magic Defence: 1</li>
             {/* Title 1 */}
-            <li>Dexterity: 0</li>
+            <li>Dexterity: 6</li>
             <li>Sense: 1</li>
             {/* Human 1 */}
-            <li>Charisma: 2</li>
+            <li>Charisma: 8</li>
             {/* Human 2 */}
             {/* Titles: 
             Back to School - Enter the academy, +1 Magic" 
@@ -127,7 +129,7 @@ export default intro;
 
 {/* 
   Charter sheets - 
-tall boy with stylish blonde hair, deep blue eyes, strong, jaw and a large nose. This was Vasso of house Elzach.
+  Vasso of house Elzach. Tall boy with stylish blonde hair, deep blue eyes, strong, jaw and a large nose.
   Vortigern - Magic item, use to be an immortal and part of the middle party during the end times of their era. Think 'yes minster' when writing his dialog.
   Lubin (Heart of a man; heart of the sea.) - teacher of magic 
   Leon - 
