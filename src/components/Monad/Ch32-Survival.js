@@ -1,4 +1,5 @@
 import React from "react";
+import Kʼawiil from "./Kʼawiil";
 function intro(props) {
   return (
     <div className="Monad" id="3">
@@ -460,6 +461,123 @@ function intro(props) {
             poking at some chicken over a fire. At least It looked like
             chicken.. It could just be some monster he found.
           </p>
+          <p>
+            He was like this. Ever since we started hunting plant monsters he
+            kept joking about my ridiculous speed. All I could do was keep
+            telling him I had a spell that focused on plants. He cursed a lot
+            but had also explained that there are some rare skills that have
+            such a narrow focus that the effect is really great. However this
+            effect and all plants was too much, claiming it is likely leveling
+            up the skill will have little effect and not scale well when I level
+            up. He made a lot of sense but on the other hand he had no idea that
+            my class was not a normal type, it was not even a rare type but
+            unique.
+          </p>
+          <p>
+            "Are we going to spend this week here also?" I asked hoping to level
+            up even more!
+          </p>
+          <p>
+            "No. How sick can you pretend to be before the academy comes to
+            check on you? We have to take you back to attend classes for awhile.
+            We will come out again though before the event if you are chosen for
+            your class." He ate for awhile before adding "The class was told
+            about the event the day after we left the academy. When you go back
+            it should be the nomination day, after that we can decide what is
+            best to do."
+          </p>
+          <p>
+            I nodded and felt kind of bad. I had only been able to achieve this
+            result with his help and I was asking for more with nothing I could
+            give back in return. I had handed over the wood element armor from
+            the tomb which Tsuma claimed to be worth the nations attention,
+            maybe that is why the princess had been so willing to help me her
+            attendants ... Date? Close friend? I never did clarify with her I
+            just assumed we were dating ... I should of asked her out
+            officially! What a moron!
+          </p>
+          <p>
+            During my personal break down Takeo interrupted me. "We will head
+            back tonight, you need to be in the class tomorrow morning. Although
+            you have been 'sick' it is best we let you get some sleep so you
+            don't still look sick." He laughed.
+          </p>
+          <p>
+            Not sure I got his sense of humor but he was a nice guy. He got me
+            into the academy though the same gate we left. This time by hiding
+            me inside of a blanket he made from a monster that looked similar to
+            a bear. He carried me in saying he had just killed it and skinned
+            it. I am more surprised his half baked plans actually worked. Maybe
+            the guards thought no one would be smuggling students in and out in
+            such a weird way.
+          </p>
+          <p>
+            Despite the protests I decided to spend my spells points tonight.
+            Who knows what kind of welcome I would get back on my return and it
+            was best to be prepared. Lightning seeds was a no brainier, even if
+            the damage output was low it regenerated my mana which means that
+            any spells I pick up in the future will benefit from it and lowers
+            the risk I will run out of mana in a fight.
+          </p>
+          <p>
+            'Lightning seeds (2) - Shoots a group of [2] seed(s) in a spread
+            from the user. The seeds attach to opponent(s) and cause lightning
+            damage over time. A part of the damage is used to restore your as
+            mana.'
+          </p>
+          <p>
+            Next up with 'Seeds to Solders (2)': Take [2] seed(s), use energy to
+            give life to [2] soldier(s). The discretion had changed, but it
+            required 2 seeds to make 2 solders? Was this not just the same as
+            casting the spell twice!?
+          </p>
+          <p>
+            With that I stopped looking to upgrade my current spells. I was not
+            sure about the farming related spells as it was. Yes harvest worked
+            great against plant monsters, but as Takeo said it was likely the
+            upgrade would be poor because of how specific it was. As for
+            germination and growth, I need to find out more about them before I
+            risk using the points again.
+          </p>
+          <p>
+            I had discovered that the growth spell could be used by making
+            contact with the target directly but that would sap as much mana
+            from me as it needed to complete it's growth, while forming the mana
+            into my palm like I did with the lighting seeds spell then sending
+            that mana into the target would only use up the amount of mana I had
+            gathered instead. Still if the mana was not enough it meant the the
+            growth would not be complete to its max.
+          </p>
+          {/* <p>Lightning germination: Stimulate a target into germinating.</p> */}
+          {/* During germination, repair processes are activated to deal with accumulated DNA damage. - Kind of heal & Quality */}
+          {/* <p>Lightning growth: Force the target to grow.</p> */}
+          {/* Increases quality of plant & stats given - buff spell */}
+          {/* <p>Lightning harvest: Harvest the target.</p> */}
+          {/* Quality of harvested materials */}
+          <p>
+            That left me with 3 spell points left and I could look though the
+            basic spells available still. It would have to wait until level 30
+            before any intermediate spells showed. When I was a lightning mage I
+            could just pick up the histories of lightning mages to see which
+            spells lead to unlocking other spells in the future. This time I
+            could only see some of the basic spells and had no idea if following
+            these basic spells would unlock any intermediate spells at all let
+            alone which spells they might be!
+          </p>
+          {Kʼawiil()}
+          <p>
+            The whole thing was so frustrating. In the histories of mages, some
+            mages claimed after certain events they were able to see more spells
+            even if they had not unlocked them. However like unlocking different
+            classes, unlocking different spells required different events. So I
+            had no idea were to start.
+          </p>
+          <p>
+            Kʼawiil-Burst & Kʼawiil-Bolt looked similar to Lightning-Burst &
+            Lightning-Bolt from the lighting mage spells. Even the basic
+            descriptions were the same. However I had doubts that they acted the
+            same otherwise why would there be a need to rename the skills?
+          </p>
         </div>
       </div>
     </div>
@@ -469,6 +587,7 @@ export default intro;
 
 // Survival game, eat and hide
 // Dark spots under the eyes reduce glare adn increase accuracy (Cheetah)
+// Which witch is which?
 // Blood tax, one child from 40 house holds. (Ottomans)
 // empire emperor dies and the mother fights back against the sons reforms, the reforms chose one religion and code of ethics to rule by instating new schools and imperial examinations, the court fight back and the new emperor puts his pawns in low level positions though-out the court so he can control it in secret when his mother dies he pacifies the lower realms
 // during the war monsters get past and kill villagers from Otto's village his parents included and the blame is placed on otto and his forces but in was in fact the young lords

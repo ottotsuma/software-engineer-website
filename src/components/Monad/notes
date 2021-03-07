@@ -55,8 +55,10 @@ Ajisukitakahikone = Japanese version of God K
 
 spells// 
 
-'Lightning seeds - Shoots a group of [1] seed(s) in a spread from the user. The seeds attach to opponent(s) and cause lightning damage over time. A part of the damage is used to restore your as mana.'
-<p>Seeds to Soldiers: Take [1] seed(s), use energy to give life to a soldier.</p>
+Kʼawiil - Lightning, seeds, abundance, powerful one, fertility, serpent
+
+Lightning seeds - Shoots a group of [1] seed(s) in a spread from the user. The seeds attach to opponent(s) and cause lightning damage over time. A part of the damage is used to restore your as mana.'
+Seeds to Soldiers: Take [1] seed(s), use energy to give life to a soldier.
 Lightning germination 
 Lightning growth
 Lightning harvest 
@@ -156,6 +158,8 @@ export default intro;
   Mila - Otto's group (3)
   Berta - Otto's group (3)
  */}
+
+Junk / Basic / Rare / Epic / Legendary / Unique / God
 
  Pigeons without wings - attacking ? 
 
