@@ -32,7 +32,7 @@ import Chapter29 from "./Ch29-Farming";
 import Chapter30 from "./Ch30-Arrilian";
 import Chapter31 from "./Ch31-Flowers";
 import Chapter32 from "./Ch32-Survival";
-import Chapter33 from "./ch33-BackToSchool";
+import Chapter33 from "./Ch33-BackToSchool";
 
 
 const ChapterList = [
