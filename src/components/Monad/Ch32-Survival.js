@@ -172,7 +172,7 @@ function intro(props) {
             Alden. For this trip I was shown some of the teaching materials used
             in Alden but I only briefly viewed them. The main difference is the
             layout and importance of the attributes or stats. The difference in
-            views has lead to different stat distbrutions between out people. I
+            views has lead to different stat distributions between out people. I
             think this is why Alden is famous for heavy close combat infantry. A
             stronger focus on defence and magic defence then we have." She said
             confirming some of my first thoughts.
@@ -385,7 +385,7 @@ function intro(props) {
             usually get it's seeds giving me the ability to make soldiers out of
             the same type of monster.
           </p>
-          <p class="stats">
+          <p className="stats">
             <li>Name: Otto.</li>
             <li>Level: 10.</li>
             <li>Class: Kʼawiil.</li>
@@ -564,6 +564,10 @@ function intro(props) {
             these basic spells would unlock any intermediate spells at all let
             alone which spells they might be!
           </p>
+          <p>
+            I had narrowed it down to just a few spells that looked interesting
+            to me.
+          </p>
           {Kʼawiil()}
           <p>
             The whole thing was so frustrating. In the histories of mages, some
@@ -577,6 +581,30 @@ function intro(props) {
             Lightning-Bolt from the lighting mage spells. Even the basic
             descriptions were the same. However I had doubts that they acted the
             same otherwise why would there be a need to rename the skills?
+          </p>
+          <p>
+            After reading though most of the spells it became clear there were 3
+            trees of spells. Farming, Lightning and serpents. As well as a mix
+            between each of them, such as lightning seeds being a mix between
+            lighting and seeds. It got me thinking about Kʼawiil's identity.
+            There were serpent type races in the kingdom, it is said they are
+            similar to humans but more snake like features. Perhaps Kʼawiil was
+            once one of theirs? A lighting mage who used his powers to harvest
+            food? No that seems off somehow. Maybe there will be something in
+            the library if I try the kingdoms history or mythologies.
+          </p>
+          <p>For now though which spells to pick up?</p>
+          <p>
+            I had just invested heavily into charisma so I picked up
+            'Scarecrow', which would turn the plant matter into scarecrows under
+            my command. I did not want to level them up to two without testing
+            them out first. As much as I wanted the other spells, they even
+            seemed better on the surface I had to pick burst and bolt because
+            otherwise I would not be able to join in the normal combat classes.
+          </p>
+          <p>
+            Let's just hope they are useful in the future also. With that I went
+            sleep.
           </p>
         </div>
       </div>

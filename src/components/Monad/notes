@@ -18,7 +18,7 @@ could defence and magic defence be rolled into vitality, magic and strength?
 Critical defense, parry, glance, defend
 
 Ajisukitakahikone = Japanese version of God K 
-          <p class="stats">
+          <p className="stats">
             <li>Name: Otto.</li>
             <li>Level: 6.</li>
             <li>Class: Kʼawiil.</li>
@@ -76,7 +76,7 @@ Lightning harvest
 
           <p>Equipment:</p>
           {/* https://www.sacred-texts.com/cfu/mlc/mlc10.htm - obscure fire god from china */}
-          <p class="equipment">
+          <p className="equipment">
             <li className="Item">
              Head: <li className="Unique"> Heavenly White Stag Mask:</li> Magic: +1,
             Disease resistance + 20%, Mana regeneration + 10%, blessing of
