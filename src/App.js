@@ -10,6 +10,7 @@ import timeline from './components/timeline'
 import Monad from './components/Monad/Index'
 import Blackjack from './components/blackjack'
 import Video from './components/video'
+import styled from 'styled-components'
 
 function App() {
   return (

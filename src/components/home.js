@@ -22,6 +22,8 @@ import Food from "./../assets/foodlogo.png";
 // import Weather from "./../assets/weather.png";
 import Video from './video'
 
+
+
 function change(props) {
   const win = window.open(props, '_blank');
   win.focus();
@@ -71,7 +73,7 @@ function home() {
             </div>
           </div>
           <div className="Play-Box">
-            <Link to="/story">Playground</Link>
+            <Link to="/Blackjack">Blackjack</Link>
           </div>
           {/* 
           <a href={Pdf} target="_blank">
