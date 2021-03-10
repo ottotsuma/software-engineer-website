@@ -20,12 +20,21 @@ import Food from "./../assets/foodlogo.png";
 // import Dob from "./../assets/dob.png";
 // import Todo from "./../assets/todo.jpg";
 // import Weather from "./../assets/weather.png";
-import Video from './video'
+import Video from "./video";
+import styled, { css } from "styled-components";
 
-
+const Anchor = styled.div`
+  color: white;
+  background: #638ad4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 53%;
+  height: 10%;
+`;
 
 function change(props) {
-  const win = window.open(props, '_blank');
+  const win = window.open(props, "_blank");
   win.focus();
 }
 
@@ -54,27 +63,44 @@ function home() {
           </div>
           <div className="Links-List">
             <div className="Linky">
-            <img src="https://image.flaticon.com/icons/png/512/25/25231.png" className="Link-Img" alt=" " />
+              <img
+                src="https://image.flaticon.com/icons/png/512/25/25231.png"
+                className="Link-Img"
+                alt=" "
+              />
               <a href="https://github.com/ottotsuma" target="_blank">
                 GitHub
               </a>
             </div>
             <div className="Linky">
-            <img src="https://www.pngfind.com/pngs/m/594-5947621_computer-icons-project-project-plan-black-text-project.png" className="Link-Img" alt=" " />
+              <img
+                src="https://www.pngfind.com/pngs/m/594-5947621_computer-icons-project-project-plan-black-text-project.png"
+                className="Link-Img"
+                alt=" "
+              />
               <Link to="/projects">Projects</Link>
             </div>
             <div className="Linky">
-            <img src="https://www.pinclipart.com/picdir/middle/75-750874_work-experience-svg-png-icon-free-download-356662.png" className="Link-Img" alt=" " />
+              <img
+                src="https://www.pinclipart.com/picdir/middle/75-750874_work-experience-svg-png-icon-free-download-356662.png"
+                className="Link-Img"
+                alt=" "
+              />
               <Link to="/timeline">Experience</Link>
             </div>
             <div className="Linky">
-            <img src={Cog} alt=" " className="Link-Img" />
+              <img src={Cog} alt=" " className="Link-Img" />
               <Link to="/tech">Technical Skills</Link>
             </div>
           </div>
-          <div className="Play-Box">
+          {/* <div className="Play-Box">
             <Link to="/Blackjack">Blackjack</Link>
-          </div>
+          </div> */}
+          <Anchor>
+            <Link to="/Blackjack" style={{ color: "white" }}>
+              Blackjack
+            </Link>
+          </Anchor>
           {/* 
           <a href={Pdf} target="_blank">
             English CV
@@ -85,15 +111,25 @@ function home() {
         </div>
         <div className="Right-Wrapper">
           {/* About end */}
-          <div className="Box" onClick={() => change("https://github.com/Spring-CC/restaurant-native-app")}>
+          <div
+            className="Box"
+            onClick={() =>
+              change("https://github.com/Spring-CC/restaurant-native-app")
+            }
+          >
             <img src={Munchify} className="Home-Img" alt="Technical Skills" />
             <div className="Inner-Box">
               <h3>Munchify</h3>
-              <p className="Home-p">Machine learning predicts your perfect resturant!</p>
+              <p className="Home-p">
+                Machine learning predicts your perfect resturant!
+              </p>
             </div>
             <p className="Home-p">React-Native, NodeJS, MongoDB</p>
           </div>
-          <div className="Box" onClick={() => change("https://github.com/ottotsuma/SoloMVP")}>
+          <div
+            className="Box"
+            onClick={() => change("https://github.com/ottotsuma/SoloMVP")}
+          >
             <img src={Secret} className="Home-Img" alt="Technical Skills" />
             <div className="Inner-Box">
               <h3>The Secret Box</h3>
@@ -101,7 +137,10 @@ function home() {
             </div>
             <p className="Home-p">React, NodeJS, MongoDB</p>
           </div>
-          <div className="Box" onClick={() => change("https://github.com/ottotsuma/React-App2")}>
+          <div
+            className="Box"
+            onClick={() => change("https://github.com/ottotsuma/React-App2")}
+          >
             <img src={Food} className="Home-Img" alt="Technical Skills" />
             <div className="Inner-Box">
               <h3>Otto's Recipes</h3>
