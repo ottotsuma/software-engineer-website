@@ -56,8 +56,38 @@ function intro(props) {
             onto it. They must put these in every class room, my sense stat is
             rock bottom so the other students must be also.
           </p>
-          <p>I could see though the mana, windows of writing. Forum, Shops, Voting and Reports. It seemed simple enough, like the academy was trying to modernize and make everything more efficient though the use of mana, it was really intuitive, they must of spent a lot of time creating this.</p>
-          <p>I moved into voting and saw classes by their numbers. </p>
+          <p>
+            I could see though the mana, windows of writing. Forum, Shops,
+            Voting and Reports. It seemed simple enough, like the academy was
+            trying to modernize and make everything more efficient though the
+            use of mana, it was really intuitive, they must of spent a lot of
+            time creating this.
+          </p>
+          <p>
+            I moved into voting and saw classes by their numbers. I quickly
+            found my class and inside was a list of all the students names. I
+            voted on a student at random, honestly I did not care who it was as
+            long as it was not me.
+          </p>
+          <p>
+            "Everyone has finished voting, so let me total up the votes and make
+            sure the system worked fine. If it breaks again we will just vote by
+            hands." Lubin said closing his eyes for a moment. "So...." Lubing
+            seemed unusually awkward. "Runner up is Max. Max you will be
+            participating in the event the forerunner is unable to attend."
+            Lubin announced.
+          </p>
+          <p>
+            "What!? Who the hell voted for me? I'll break your legs right here
+            and now!" Max declared standing up.
+          </p>
+          <p>
+            "You'll do no such thing." Lubin replied. "Our champion for the
+            upcoming event is .... Otto." Lubin placed his hands down by his
+            side.
+          </p>
+          <div className="BreakPoint"></div>
+          <p></p>
         </div>
       </div>
     </div>
