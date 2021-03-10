@@ -87,7 +87,46 @@ function intro(props) {
             side.
           </p>
           <div className="BreakPoint"></div>
-          <p></p>
+          <p>
+            After class Lubin kept me behind saying he was going to explain what
+            was to happen. Since I was elected class champion it came as no
+            surprise to anyone else. "You can quit combat still, that will count
+            as a forfeit and Max will have to take your place. I would not
+            normally say this but clearly you were not picked with good
+            intentions. You or Max. Honestly I want to demand another way to do
+            this but the academy right now is a bit of a mess." Lubin said in a
+            frustrated voice.
+          </p>
+          <p>
+            "The duels from before. What was the point if they do not decide the
+            class champion?" I asked thinking back to that pointless exercise.
+          </p>
+          <p>
+            "It was just a practice. Normally around now we hold duels and
+            contests for the students to see what their talents are and what
+            grades to give them. This happens again at the end of the year.
+            However this year things have changed and there will be no
+            graduation battles as normal." Lubin said.
+          </p>
+          <p>
+            "You do not have to dance around the subject so much. I know we are
+            going to war against the Republic." I replied. "Can I give you my
+            reply tomorrow?" I asked.
+          </p>
+          <p>
+            "How...Yeah sure. Let me know tomorrow what you want to do." Lubin
+            said.
+          </p>
+          <p>
+            I left the class and went to the library. The halls were packed with
+            students talking about who became class champion for their class and
+            what was going on. After all some students had older siblings or
+            parents that told them about the academy and knew this was not the
+            normal process. I wanted to get back to Takeo & Tsuma and let them
+            know what was going on and ask for their opinions. However I also
+            had to look for any information about Kʼawiil, the serpent people
+            and the kingdoms myths.
+          </p>
         </div>
       </div>
     </div>
