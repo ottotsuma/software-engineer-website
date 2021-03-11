@@ -127,9 +127,68 @@ function intro(props) {
             had to look for any information about Kʼawiil, the serpent people
             and the kingdoms myths.
           </p>
+          <p>
+            The library was the main library for the academy. The students had
+            libraries near or around their living quarters that contained the
+            most common and used school books. This meant that the main library
+            was kept less busy then it would otherwise be. The man behind the
+            desk saw me coming in, since first years had received their official
+            uniforms it would be impossible to tell a first year from a second
+            year however when I arrived at the desk the first thing the man said
+            to me was "The students library's contain all of the books students
+            need for their first year here. This library only contains only
+            history books and various niche studies not covered in the first
+            year, or most second year studies."
+          </p>
+          <p>
+            "Erm, thank you but I am looking for books on the history of the
+            kingdom, serpent people, their mythologies & gods. Is this the right
+            place for that?" I asked.
+          </p>
+          {/* https://en.wikipedia.org/wiki/Shoshoni_language */}
+          <p>
+            "Serpent people? Do you mean the Shoshoni? Serpent people is maybe a
+            way you should not describe them out loud." He said pushing his
+            glasses up his nose. "We have books on the history of the kingdom
+            but the mythologies & Gods of the Shoshoni... I will take a look
+            while you see if you can find what you are looking for in the
+            kingdoms section." With that he took me to where the books related
+            to the kingdom were kept. It was somehow both larger and smaller
+            then what I imagined. Maybe the academy should have lots of books
+            about the kingdom or barely any I thought but it seemed somewhere in
+            the middle of my imagination. I started by picking out books that
+            might have really old history of the Kingdom or that area of land
+            before It was called the Kingdom.
+          </p>
         </div>
       </div>
     </div>
   );
 }
 export default intro;
+
+// Survival game, eat and hide
+// Dark spots under the eyes reduce glare adn increase accuracy (Cheetah)
+// Which witch is which?
+// Blood tax, one child from 40 house holds. (Ottomans)
+// empire emperor dies and the mother fights back against the sons reforms, the reforms chose one religion and code of ethics to rule by instating new schools and imperial examinations, the court fight back and the new emperor puts his pawns in low level positions though-out the court so he can control it in secret when his mother dies he pacifies the lower realms
+// during the war monsters get past and kill villagers from Otto's village his parents included and the blame is placed on otto and his forces but in was in fact the young lords
+// auto hunt class
+// maps show continent in real time
+// human in step perk 1.1x to stats with lover/opposite gender when together
+// leaf taken human form to get revenge on the one who plucked it
+// alden invades the republic east and west forms confederation, alden and empire war over Dwarves lands
+// the emperor is really the empress
+// elf's use to be pirate like and split into factions
+// the old world spreads disease to the new and in return the L god sends back syphilis, new world has more flying troops abilities and items they are a rarity in the new worlds
+// high level rouges in mayan and aztec lands, high level spirits passed by old houses and the poor have to fight for the scraps
+// desert religion with a quest to listen to the whole sermon posted by a troll
+// Killing of the God causes the faithful to lose their powers and cough up blood
+// The killing of the german god causes Effi to lose her powers and has to fight to restore her faith
+// The killing is because of Otto, Effi never finds out
+// Tisiel and Reingard and otto go into the tomb and tisiel lets Reingard die so she can acquire the lich legacy and the others that follow in die in various ways the final being used as Otto's sacrifice
+// Otto gains the new class in the dungeon from the god he follows and sets out on a path to kill his own god
+// Tsuma reveals she is powerful and the princess of the other land when Otto is trapped with no way out, his country betraying him
+// Tsuma takes an interest in german witch magic that was her real reason for comings
+// the mask is the legacy of the deer god of lightning, the lightning god class is given to otto also, the quest is set out to acquire the god race.
+// Tsuma was on a quest to learn the german magic and to acquire a new class by combining the class of her lands with the new one.
