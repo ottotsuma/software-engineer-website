@@ -199,7 +199,6 @@ function intro(props) {
             remembered that I currently have no strength at all. I let out a
             sigh remembering what happened.
           </p>
-          {/* Pre-Dao, Dao-era, Immortal-era, ****, ****, ****, Pyramid, Witch, Now. */}
           <p>
             I walked back to the ground I left Vortigern on near by when
             suddenly the stone lid of the coffin shot off and flew off down the

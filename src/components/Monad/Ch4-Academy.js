@@ -72,7 +72,7 @@ function intro(props) {
           </p>
 
           <p>
-            "Room ****" A key is place in my hand as I was pulled back to
+            "Building: Cliffside. Room: 501 A key is place in my hand as I was pulled back to
             reality. Slightly embarrassed by my outbursts I quickly apologized
           </p>
           <p>
@@ -163,7 +163,7 @@ function intro(props) {
           </p>
 
           <p>
-            Ralsan - "That'll be the case, 51? 5th floor, room 1. Ralsan is my
+            Ralsan - "That'll be the case, 501? 5th floor, room 1. Ralsan is my
             name, this is Tisiel" A girl waved her hand, "Shrorlei Crerlass" the
             other girl waved quickly once with her hand, "finally we have
             Reingard". The final boy waved. "We are the next first years staying

@@ -160,6 +160,85 @@ function intro(props) {
             might have really old history of the Kingdom or that area of land
             before It was called the Kingdom.
           </p>
+          <p>
+            I learned a lot about the kingdom and the Shoshoni people. The
+            kingdom had many people groups and races along with that came many
+            religions and cultures. In the town of Metium, a small town of the
+            coast of the kingdom on an island all to itself was the last place
+            where the Old Elladan Pantheon was still the majority religion. The
+            majority of the south of the kingdom had converted to the new
+            Elladan Church. The major difference being that in the Elladan
+            Church there was only one God. 'Kyra Ampi, The Amber Creator' was
+            the major god of the Old Elladan Pantheon, and had many similarities
+            with the one God of the new Elladan Church.
+          </p>
+          <p>
+            The other majority religion in the area was called 'Ehtenfeld
+            Beliefs'. Although it was hard to call this a religion but just what
+            the majority of nomadic people and northern tribes came under. It
+            was the group for anyone who believed there were no Gods just
+            powerful monsters or people. It was named after Ehtenfeld but if
+            this was a place or a persons name that was unknown.
+          </p>
+          <p>
+            While the Old Elladan Pantheon was recorded as one of the major
+            religions of the Kingdom that was more because of it's historical
+            value then the number of people who still practiced it. It seemed
+            that it stretched back to before the conquest of the Pocotocotcan.
+            This meant that the religion could of undertaken some major changes
+            during that period of subjugation, and the religion as it is now
+            might not have kept all of the same Gods.
+          </p>
+          {/* Pre-Dao, Dao-era, Immortal-era, (Huge beats, men struggling, the island is cleansed of men), (Foundation of empires in the east and this continent is invaded by the humans for the first time since the immortals), (Men overcome beasts and empires start here and in the east the religious wars start), Pyramid (Kʼawiil) Empires of men, Pocotocotcan (The one empire), Witch (Rebellion), Now. */}
+          {/* Pre-Dao, Dao, Immortal, Dark-Age, (Dawn Age) Great Migration, Warning Kingdoms Period, Pyramid (The One Kingdom), Pocotocotcan Empire, Witch, Now. */}
+          <p>
+            What surprised me the most was one of the Gods in the Old Elladan
+            Pantheon was 'Ekʼ Chuah' Although the . A name I had not seen since
+            he left me in the tomb. The god of Cacao a plant from the jungles of
+            Pocotocotcan, he was a merchant God, not the God of death as he
+            described himself when we spoke. While any reference to Kʼawiil
+            could not be found. What was more curious was that none of the Gods
+            had specific elements associated with them like modern Pantheons,
+            they had instead characteristics or job roles. The whole thing was
+            very foreign and confusing on first glance. Since non of them had
+            elements attached to them I could not even find out if they had a
+            lighting God and try and match any characteristics.
+          </p>
+          <p>
+            There where many jobs, 'Yum Kaax' was the God of plants animals and
+            hunting which farmers worshiped also. However there was no farming
+            God. There was Gods for almost all jobs that could of been at that
+            time, but no farming God.
+          </p>
+          <p>
+            There was one God that caught my interest for awhile. 'Kukulkan' the
+            feathered serpent God. The more I thought about the similarities
+            between these Gods and the Pocotocotcans bird people, the more I
+            found them to be the same. It was like when the Pocotocotcans took
+            over the land which became the kingdom they forced their Gods onto
+            the native people.
+          </p>
+          <p>
+            To check if was right I found some books on Pocotocotcan religion.
+            Sure enough even the names of the Gods were the same. My theory was
+            holding weight, even if I was wrong I could be sure that the Gods of
+            the Old Elladan Pantheon were not these Gods they had been replaced.
+            The trouble was then, who were the Gods before the Pocotocotcans? Do
+            they relate to Kʼawiil or was he another Pocotocotcan God?
+          </p>
+          <p>
+            Ah if only Tisiel was still here, she would be able to solve some of
+            these problems or at least have the patience to find the answer in
+            these books. Whatever, if I could not find the answer easily I could
+            not spend all week in here looking for answers. I was elected the
+            class champion as a sacrifice, either I train to the point I feel I
+            can beat all the other elected in a fight or drop out of combat
+            classes.
+          </p>
+          {/* Ekʼ Chuah  / Kʼawiil*/}
+          <p>I left the library a little frustrated </p>
+
+          <p>I went to see Tisiel and Takeo.</p>
         </div>
       </div>
     </div>

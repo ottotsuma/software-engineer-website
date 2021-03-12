@@ -25,14 +25,15 @@ function intro(props) {
             best translation but it is not like every sentient race called
             themselves so." The skull replied while remembering his old life.
             "Before us we called those people 'The Dao', so my best guess would
-            be to say... Pre-Dao, Dao-era, Immortal-era, ****, ****, ****,
-            Pyramid, Witch, Now. I guess after this expedition I will have to
-            tell you all and others about what happened before, but right now I
-            am also curious about this place as although it was built by my
-            people, I know nothing about it. I am sure this was built by the
-            people who worshiped a death god, and I was not one of theirs."
+            be to say... Pre-Dao, Dao-era, Immortal-era, Dark-Age, Great
+            Migration, Warning Kingdoms Period, Pyramid, Pocotocotcan Empire,
+            Witch of the west, Now. I guess after this expedition I will have to
+            tell you all and others about what happened during those periods,
+            but right now I am also curious about this place. Although it was
+            built by my people, I know nothing about it. I am sure this was
+            built by the people who worshiped a death god, and I was not one of
+            theirs."
           </p>
-
           <p>
             "Every time I talk to you I feel a headache and more questions then
             answers.." Tisiel
@@ -509,9 +510,9 @@ function intro(props) {
             forearm and hand. On top of the staff was a small fireball covering
             the end. He pointed it in my direction and said "You are not even
             level 20 yet, perhaps I should teach you the difference is not just
-            stat points, some of my skills are level 2 and 3. You know your strength
-            stat seems pretty high, I bet your charisma stats are rock bottom.
-            Stand up."
+            stat points, some of my skills are level 2 and 3. You know your
+            strength stat seems pretty high, I bet your charisma stats are rock
+            bottom. Stand up."
           </p>
 
           <p>
