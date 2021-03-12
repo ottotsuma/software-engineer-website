@@ -20,13 +20,6 @@ import Blackjack from "./blackjack";
 function story(props) {
   return (
     <div className="Playground">
-      <div className="Out-But">
-        <div className="In-But">
-        <div className="Top">1000円</div>
-        <div className="Bottom">Buy now!</div>
-        </div>
-      </div>
-
       <Blackjack />
       <h1 className="PlayTitles">Book</h1>
       <a href="Monad/1">Go to story</a>
@@ -122,7 +115,6 @@ function story(props) {
       <div className="Tree">
         <Skill />
       </div>
-
       <div className="Footer">
         <ReactGlobe height="100vh" globeBackgroundTexture={Duck} />
       </div>

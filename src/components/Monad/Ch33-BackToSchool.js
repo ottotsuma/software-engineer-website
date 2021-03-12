@@ -236,9 +236,32 @@ function intro(props) {
             classes.
           </p>
           {/* Ekʼ Chuah  / Kʼawiil*/}
-          <p>I left the library a little frustrated </p>
-
-          <p>I went to see Tisiel and Takeo.</p>
+          <p>
+            I left the library a little frustrated. I had not really found
+            anything directly useful about the class I currently had. The
+            library had taken me close to the main building in the academy. On
+            the way back I walked past the doors to the main hall and the group
+            of trees outside I met Tsuma under before we went to the cat cafe.
+          </p>
+{/* Insert story here */}
+          <p>
+            I went to see Tisiel and Takeo. They where the only people I really
+            trusted right now and I valued their opinions over that of anyone
+            else in the academy.
+          </p>
+          <p>
+            I went over to the training hall next to the princesses quatres.
+            Sure enough Takeo was inside training by himself. "Hey, do you know
+            where Tsuma is? I got elected as class representative..."
+          </p>
+          <p>
+            Takeo stopped and turned to me. "She had to go with the princess
+            today. They are out hunting with that lighting boy. Elzach? Well
+            even if you are elected just gives you more reason to level up.
+            Let's head out." He said.
+          </p>
+          <p>"Right now? I just got back.." I replied.</p>
+          <p>""</p>
         </div>
       </div>
     </div>
