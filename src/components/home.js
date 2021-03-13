@@ -22,6 +22,13 @@ const Anchor = styled.div`
 // Glass-Outside
 // Glass
 // Profile
+// Hidden 
+const Hidden = styled.div`
+  background: inherit;
+  width: 10px;
+  height: 10px;
+  align-self: flex-end;
+`;
 
 // Change window function
 function change(props) {
@@ -33,6 +40,7 @@ function change(props) {
 function home() {
   return (
     <div className="Glass-Outside">
+      <Hidden><Link to="/Monad/1">　</Link></Hidden>
       <div className="Glass">
         <div className="Profile">
           <div>
