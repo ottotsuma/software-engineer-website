@@ -243,7 +243,7 @@ function intro(props) {
             the way back I walked past the doors to the main hall and the group
             of trees outside I met Tsuma under before we went to the cat cafe.
           </p>
-{/* Insert story here */}
+          {/* Insert story here */}
           <p>
             I went to see Tisiel and Takeo. They where the only people I really
             trusted right now and I valued their opinions over that of anyone
@@ -261,7 +261,48 @@ function intro(props) {
             Let's head out." He said.
           </p>
           <p>"Right now? I just got back.." I replied.</p>
-          <p>""</p>
+          <p>"When else? Every moment counts!" Takeo replied.</p>
+          <p>
+            "I am suppose to give my reply I want to keep doing combat classes
+            or switch to farming and then I could avoid the whole fight
+            entirely." I said hoping to get his opinion.
+          </p>
+          <p>
+            "Nonsense, the rules clearly say last one to survive wins. Why would
+            you fight if you do not have to?" Takeo said.
+          </p>
+          <p>
+            "What? Well I mean technically it says last survivor but even if I
+            somehow manage to avoid combat at the start I will have to fight one
+            of them eventually." I replied confused.
+          </p>
+          <p>
+            "Not necessarily, you see this format is one we use in Lakia. What
+            your academy has missed out on is all the changes we have made, and
+            custom built arenas... They are just using a sectioned off part of
+            the jungle near where we have been training. There is nothing in the
+            rules about hiding and just not starving to death. Most of the
+            deaths in this kind of set up will be starvation or conflicts over
+            food and water." Takeo said. "Trust me, we have more experience with
+            this then Alden."
+          </p>
+          <p>
+            "So I am suppose to just hide and live off the land better then the
+            other contestants?" I asked a little skeptical.
+          </p>
+          <p>
+            "What are you worried about? You have farming skills don't you? You
+            don't have to waste energy tracking and fighting a monster for its
+            food, then risking eating poisoned meat depending on the beast. This
+            contest is perfect for you!" Takeo said.
+          </p>
+          <p>
+            He was right! If there was a possibility then even if I met another
+            champion in jungle arena I would be in top condition and they would
+            be suffering from malnutrition giving me an edge. Feeling better
+            about my prospects we left leaving behind instructions to inform
+            Lubin I would be taking part.
+          </p>
         </div>
       </div>
     </div>
