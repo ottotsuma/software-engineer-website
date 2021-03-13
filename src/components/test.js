@@ -73,6 +73,3 @@ const todosReducer = (state, action) => {
   };
   
   export default TodoList;
-
-//  Here at the top of the page it is shown working in react
-//  https://ottotsuma.herokuapp.com/story

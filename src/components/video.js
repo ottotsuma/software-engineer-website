@@ -1,11 +1,3 @@
-// Make a deck,
-// Shuffle deck
-// Make player + dealer
-// deal cards
-// Hit me or Stop
-// IF player < 21 deal dealer until dealer > player
-// Who won ? closest 21, anyone over 21 loses. (2 cards is best)
-// Ace = 1 & 11
 
 import sheep1 from "./../assets/sheep1.gif";
 import sheep2 from "./../assets/sheep2.gif";
