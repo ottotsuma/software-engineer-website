@@ -1,28 +1,15 @@
+// Import statements
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-// import Pdf from "./CV.pdf";
-// import Jap from "./Jap.pdf";
-// import Spin from "./spinn";
-// import logo from "./../assets/logo.png";
-// import Timeline from "./timeline.tsx";
-// import Tech from "./tech.js";
-// import Skills from "./../assets/skills.png";
-// import Exp from "./../assets/expereince.png";
-// import Pro from "./../assets/projects.png";
 import Cog from "./../assets/cog.png";
 import Munchify from "./../assets/512x512.png";
-// import Joker from "./../assets/logo.png";
 import Secret from "./../assets/Group1.png";
 import Food from "./../assets/foodlogo.png";
-// import Monster from "./../assets/monster.jpg";
-// import Blog from "./../assets/blog.png";
-// import Bug from "./../assets/bug.jpg";
-// import Dob from "./../assets/dob.png";
-// import Todo from "./../assets/todo.jpg";
-// import Weather from "./../assets/weather.png";
 import Video from "./video";
 import styled, { css } from "styled-components";
 
+// Styles
+// Anchor button
 const Anchor = styled.div`
   color: white;
   background: #638ad4;
@@ -32,20 +19,17 @@ const Anchor = styled.div`
   width: 53%;
   height: 10%;
 `;
+// Glass-Outside
+// Glass
+// Profile
 
+// Change window function
 function change(props) {
   const win = window.open(props, "_blank");
   win.focus();
 }
 
-// Icons next to links, photo on top,
-// Left side - 3 parts, photo, links , button (space around)
-// links space around themselves (up to 4 )
-// Right side - tittle,
-// boxes , photo to the left side not under,
-// tittles, techs used, lists of projects not what there is right now,
-// Playground / CVs find another place later .
-
+// Main function
 function home() {
   return (
     <div className="Glass-Outside">
@@ -101,13 +85,6 @@ function home() {
               Blackjack
             </Link>
           </Anchor>
-          {/* 
-          <a href={Pdf} target="_blank">
-            English CV
-          </a>
-          <a href={Jap} target="_blank">
-            日本語
-          </a> */}
         </div>
         <div className="Right-Wrapper">
           {/* About end */}
@@ -148,14 +125,6 @@ function home() {
             </div>
             <p className="Home-p">React, PWA, Netlify</p>
           </div>
-          {/* <div className="Box">
-            <h3>
-              <a href={Pdf} target="_blank">
-                English CV
-              </a>
-            </h3>
-            <img src={Skills} className="Home-Img" alt="Technical Skills" />
-          </div> */}
         </div>
         {/* Time end */}
       </div>
