@@ -6,12 +6,12 @@ function intro(props) {
         <div className="Content">
           <h3>Back to school</h3>
           <p>
-            The next day I walked into the usual morning class room to be
+            The next day I walked into the usual morning class room, to be
             greeted by the most unwelcome faces I have met in my short stay on
             this planet. Both the boys and the girls looked at me like I was
-            some kind of traitor. The last time I saw them all it was they that
+            some kind of traitor. The last time I saw them all, it was they that
             betrayed me. They had planned to attack me while the teacher was not
-            looking and not stop until I was badly hurt or dead all I did was
+            looking and not stop until I was badly hurt or dead. All I did was
             defend myself. It might not of been all of them but they seemed
             guilty by association in my mind.
           </p>
@@ -243,7 +243,62 @@ function intro(props) {
             the way back I walked past the doors to the main hall and the group
             of trees outside I met Tsuma under before we went to the cat cafe.
           </p>
-          {/* Insert story here */}
+          <p>
+            Seeing this spot again helped me calm down a little. While taking a
+            moment to think I thought back though the day. That new system in
+            the school was really unexpected, maybe it is a technology the
+            military have and want us to get use to in the combat classes or it
+            really is a new technology the academy has been developing.
+          </p>
+          <p>
+            It is strange non of the Lakian's were talking about it.. Maybe
+            because I have not been back in awhile. I want to check out what the
+            forums and shop sections where on that system then I'll head back to
+            Tsuma and Takeo.
+          </p>
+          <p>
+            I headed into the first year combat classes, I guess I could use any
+            class but that felt wrong so I headed back to Lubin's. Maybe there
+            was other places that you could connect to this system because the
+            room was empty but so far I had only done it here so I connected
+            again.
+          </p>
+          <p>
+            I started with the shop section. It was just a list of the shops you
+            could find around the academy with their items and prices next to
+            it. It was quite useful but I would still have to go to the shop to
+            pick up the product and pay. The army's shop was also on there, they
+            seemed to have new items for sale and discounts on their class
+            manuals and training manuals. These were really useful if you wanted
+            to join the main army group as it would lay out what to pick for
+            your spells and stat points to be able to join. Those who followed
+            these instructions would not have to join the auxiliary force and
+            would be paid more. My chance of this had long gone since I no
+            longer had a class that could follow these guidelines.
+          </p>
+          <p>
+            The forum was split into years and there did not seem to be any way
+            to stop students from using each of the other years. This might be
+            why there was no staff section, however there was a hobbies section.
+            In the first year forum there was all the difference classes but not
+            just the registration classes but also elements classes.
+          </p>
+          <p>
+            Just out of curiosity I opened my classes forum. Inside was posts
+            from today and all of last week. It looked like they had started
+            using the forum about 5 days ago. Inside was a thread about who
+            should be class champion. Inside was a mess. People arguing between
+            voting for someone who could win us the match and others for getting
+            rid of well.. Me. The argument devolved into two groups one group
+            voting for me and another voting for Max for suggesting voting for
+            me.
+          </p>
+          <p>
+            I guess I was wrong about some of the class. They really did not all
+            want to see me dead and wanted to play fair. I wonder what got the
+            others so against me though, it is not like I did anything to them.
+            Max said he was paid off by Linhart, so that made some sense.
+          </p>
           <p>
             I went to see Tisiel and Takeo. They where the only people I really
             trusted right now and I valued their opinions over that of anyone
