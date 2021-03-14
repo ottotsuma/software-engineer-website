@@ -40,7 +40,7 @@ function change(props) {
 function home() {
   return (
     <div className="Glass-Outside">
-      <Hidden><Link to="/Monad/1">　</Link></Hidden>
+      <Hidden><Link to="/Monad/1" style={{"text-decoration": "none", "position": "fixed"}}>　</Link></Hidden>
       <div className="Glass">
         <div className="Profile">
           <div>

@@ -7,34 +7,37 @@ function intro(props) {
           <h4>part 2</h4>
 
           <p>
-            As soon as I opened the door I saw Nymandus standing in the middle
-            of the room, he turned and looked directly at me. "I was just coming
-            down to get you both, Linhart is not with you?"
+            As soon as I opened the door I saw Nymandus, standing in the middle
+            of the room. He turned and looked directly at me. "I was just coming
+            down to get you both. Linhart is not with you?"
           </p>
 
           <p>
             "He fell... How did you get here? And how did you know I would be
-            here?"
+            here?" I asked in return.
           </p>
 
           <p>
             "Hmm? The first door was marked with one line, once I cleared that
-            floor I saw the real entrance, this whole bridge set up looks like
-            an after thought, an add on to the original. I came back to the
-            stairs that lead down and came into this room, while it was easier
-            then the first I guess I still took to long to save Linhart. How did
-            you make it up and not him? He was stronger then you."
+            floor I saw the real entrance. This whole set up looks like an after
+            thought, an add on to the original. I came back to the stairs that
+            lead down and came into this room. The outside is marked with two
+            lines. while it was easier then the first room, I guess I still took
+            to long to save Linhart. How did you make it up and not him? He was
+            stronger then you." He asked looking at me puzzled.
           </p>
 
           <p>
-            "You cleared a floor? The monsters here are ... strong. The third
-            floor was a riddle ghost, he got the riddle wrong. I'll wait here if
-            you want to check it for yourself."
+            "You cleared a floor? The monsters here are ... strong." I said
+            unsure if the floors he cleared were similar to the riddle ghost or
+            like the monster on the first floor I came across. "The third floor
+            was a riddle ghost, he got the riddle wrong. I'll wait here if you
+            want to check it for yourself."
           </p>
 
           <p>
-            "I think a powerful necromancer made these floors, an added layer of
-            protection. All of the monsters are undead and old, maybe the
+            "I'll do that." He replied. "I think a powerful necromancer made
+            these floors, the monsters all seem undead and old, maybe the
             necromancer is dead because they are weaker then they should be."
             With a flash a ball of white mana appeared in his hand. "I am a
             light mage, all things undead are weak to my magic." He looked down
@@ -45,12 +48,13 @@ function intro(props) {
 
           <p>
             In his absence I took a look around the room. A human skull on boney
-            spider legs, serval of them lay around the room, as I turned I saw
-            behind me the remains of a giant spider, it must of died a long time
-            ago and was reanimated in this tower by the necromancer as Nymandus
-            said. Now it lay dead in a pile to the right of the door I came in
-            though, I wonder if it was already dead or if Nymandus really killed
-            it himself.
+            eight legs. There was nothing between the skull and the legs like
+            the skull had the legs growing out of it. Serval of them lay around
+            the room. As I turned I saw behind me the remains of a giant spider,
+            it must of died a long time ago and was reanimated in this tower by
+            the necromancer as Nymandus said. Now it lay unmoving in a pile to
+            the right of the door I came in though, I wonder if it was already
+            dead or if Nymandus really killed it himself.
           </p>
 
           <p>
