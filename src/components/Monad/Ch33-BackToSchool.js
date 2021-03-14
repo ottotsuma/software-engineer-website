@@ -358,6 +358,15 @@ function intro(props) {
             about my prospects we left leaving behind instructions to inform
             Lubin I would be taking part.
           </p>
+          <div className="BreakPoint"></div>
+          {/* <p>Kaja, Fire-mage, First year, Fireball, flame cloak, (Soldenheim), (Dead mother, ), (Join military as a fire mage), (Equipment/spells/stats?), Reason for being elected Champion: Likely to win. Strong combatant and adaptable. Combat class, elected because of the influence of bitches. Bullied throughout the year by the girls from Haisengen and nearby cities for being too manly.</p> */}
+          <p>Today I received a letter from my farther in Soldenheim.</p>
+          <p id="Fancy">Hey Zwetchenkuchen,</p>
+          {/* Zwetchenkuchen = Plum cake */}
+          <p id="Fancy">Old lady Petra asked me the other day. "Where is Kaja? I haven't seen her for awhile." I think she will forget who I am soon. It is a shame, she has been so kind to us over the years. When your dad is like that will you look after me? I know you are going to be busy since you will be a famous mage.Did you get the books I sent? I sent it separate from this mail just encase. I hope you are doing well.</p>
+          <p id="Fancy">The Baron is concerned. I am not sure what about but he keeps giving warnings to the town to save food and money. Normally this kind of warning only comes out when the kingdoms troops get to close to the border but there has been no talk from the soldiers of this happening this time. You are so far away I am sure everything will be fine but stay safe.</p>
+          <p id="Fancy">Dad</p>
+          <p></p>
         </div>
       </div>
     </div>

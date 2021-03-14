@@ -140,6 +140,8 @@ export default intro;
   Reingard - (cliffs)  alden (metal element) - tank  (DEAD?)
   Ralsan - (cliffs) farmer 
   Otto - 
+  Daniel - Duels Otto on the 3rd day. (Earth)
+  Kaja - Duels Otto on the 5th day. (Fire)
   Linhart - (fire)
   Ditwin - Cromwell from black adder (earth) (DEAD)
   Gelfrat - (water) (DEAD)
@@ -160,6 +162,12 @@ export default intro;
   Max - Fought against Otto in the group. 
  */}
 
+ Famous Mages: 
+ Alden: 
+  Surname: Elzach - Alden's Grand Duke has royal lightning, it is purple in color and has not been seen outside of their family. 
+  Argavereri's Viscount uses a green smoke element, most unusual. 
+  Baron Mann based at Soldenheim famously uses runes.
+
           {/* Pre-Dao, Dao-era, Immortal-era, (Huge beats, men struggling, the island is cleansed of men), (Foundation of empires in the east and this continent is invaded by the humans for the first time since the immortals), (Men overcome beasts and empires start here and in the east the religious wars start), Pyramid (Kʼawiil) Empires of men, Pocotocotcan (The one empire), Witch (Rebellion), Now. */}
           {/* Pre-Dao, Dao, Immortal, Dark-Age, (Dawn Age) Great Migration, Warning Kingdoms Period, Pyramid (The One Kingdom), Pocotocotcan Empire, Witch, Now. */}
           
@@ -174,13 +182,11 @@ republic - representatives from each place - all elected also
 Places joined together though alliance? to act as one unit under one representative 
 pocotcotco ? 
 chalbia ? 
-*/}
-{/* 
+
 Blue - 0 - 50 +2, 51 - 100 + 3
 Green - 0 - 50 + 3, 51 - 100 +2 
 Red - 0-50 +3, 51 - 100 +3
 Orange - 0-50 + 4, 51 - 100 +3
-*/}
 
 {/* Eugen 13,dies years of age, larger, and taller then the others of the group, but without a temper or ambition 
 Beke, 12 a slow child, but easily angered. 
@@ -217,8 +223,7 @@ Ehrhart - Healer, 9, Warhammer - BattleMage ->Inquisitor
 1- Alajos - DPS, 8, Saber (hungarian) Huszár
 
 sword and shield, two handed, war hammer, battle axe, mace, spear? War scythe? halberd, bows, crossbows, kuni, shuriken, throwing knife, thrown spear, 
-*/}
-{/*
+
 team bonus for fighter/rogue/mage
 
 Healing
@@ -226,7 +231,6 @@ Human Cav that heals around him while damaging
 heals an ally and attacks nearby enemies
 warlock skill healing 
 granting shields
-
 
 Support
 summoning hero ?
@@ -297,7 +301,6 @@ Tsuma reveals she is powerful and the princess of the other land when Otto is tr
 Tsuma takes an interest in german witch magic that was her real reason for comings
 the mask is the legacy of the deer god of lightning, the lightning god class is given to otto also, the quest is set out to acquire the god race.
 Tsuma was on a quest to learn the german magic and to acquire a new class by combining the class of her lands with the new one.
-
 
 
 *** notes on the countries ****
@@ -411,16 +414,6 @@ Equipment: (Primary:)(Secondary:)(Head:)(Body:)(Hands:)(Feet:)(Acc1:)(Acc2:)(Acc
 Skills: (I:)(Class:)(Race:)(Familia:)(Chosen:)(Items:)
 Misc Items:
 */}
-
-
-
-
-
-Share on facebook
-Share on pinterest
-Share on twitter
-Share on linkedin
-
 
 Korean has its own collection of swear and curse words, be it a local slang or a specific term, just like any other language.
 
