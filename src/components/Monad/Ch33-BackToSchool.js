@@ -1,4 +1,14 @@
 import React from "react";
+import HTMLFlipBook from "react-pageflip";
+import Vampires from "./../../assets/Vampires.jpg";
+import Daemons from "./../../assets/72Deamons.jpg";
+import Werwolves from "./../../assets/Wearwolfs.jpg";
+import Manticore from "./../../assets/Manticore.jpg";
+import Harpy from "./../../assets/Harpy.jpg";
+import Demon1 from "./../../assets/1.jpg";
+import Demon2 from "./../../assets/2.jpg";
+import Demon3 from "./../../assets/3.jpg";
+
 function intro(props) {
   return (
     <div className="Monad" id="3">
@@ -363,10 +373,88 @@ function intro(props) {
           <p>Today I received a letter from my farther in Soldenheim.</p>
           <p id="Fancy">Hey Zwetchenkuchen,</p>
           {/* Zwetchenkuchen = Plum cake */}
-          <p id="Fancy">Old lady Petra asked me the other day. "Where is Kaja? I haven't seen her for awhile." I think she will forget who I am soon. It is a shame, she has been so kind to us over the years. When your dad is like that will you look after me? I know you are going to be busy since you will be a famous mage.Did you get the books I sent? I sent it separate from this mail just encase. I hope you are doing well.</p>
-          <p id="Fancy">The Baron is concerned. I am not sure what about but he keeps giving warnings to the town to save food and money. Normally this kind of warning only comes out when the kingdoms troops get to close to the border but there has been no talk from the soldiers of this happening this time. You are so far away I am sure everything will be fine but stay safe.</p>
+          <p id="Fancy">
+            Old lady Petra asked me the other day. "Where is Kaja? I haven't
+            seen her for awhile." I think she will forget who I am soon. It is a
+            shame, she has been so kind to us over the years. When your dad is
+            like that will you look after me? I know you are going to be busy
+            since you will be a famous mage.Did you get the books I sent? I sent
+            it separate from this mail just encase. I hope you are doing well.
+          </p>
+          <p id="Fancy">
+            The Baron is concerned. I am not sure what about but he keeps giving
+            warnings to the town to save food and money. Normally this kind of
+            warning only comes out when the kingdoms troops get to close to the
+            border but there has been no talk from the soldiers of this
+            happening this time. You are so far away I am sure everything will
+            be fine but stay safe.
+          </p>
           <p id="Fancy">Dad</p>
-          <p></p>
+          <p>
+            He really had to call me that nickname... I wrote a letter of reply
+            to him, saying how I was fine. I told him about the upcoming event
+            and how I had become elected. Tears started to roll down my face and
+            land on the page. I did not know why I was crying at first but I
+            guess I knew inside this event was just a public execution of the
+            disliked students of each class. I could not even understand why the
+            academy was acting this way. If there was a war coming surely they
+            would need every capable mage.
+          </p>
+          <p>
+            I could not bring myself to send the letter today so I put it in my
+            desk draw and went back to reading the academy monster manual. A
+            thick tomb containing all the catalogued monsters a diagram and
+            notes. There were other kind of monster manuals but they were all
+            similar. I was reading it because the up coming event would take
+            place outside of the academy and although the event was suppose to
+            be about humans fighting one another the goal was to survive and
+            there was no end to the crazy monsters and beasts people have
+            recorded in the jungles around the academy.
+          </p>
+          <div className="book">
+            <HTMLFlipBook width={200} height={280}>
+              <div className="demoPage">
+                <img className="Book-Pic" src={Vampires} alt="Screen-Shot" />
+              </div>
+              <div className="demoPage">
+                <img className="Book-Pic" src={Werwolves} alt="Screen-Shot" />
+              </div>
+              <div className="demoPage">
+                <img className="Book-Pic" src={Manticore} alt="Screen-Shot" />
+              </div>
+              <div className="demoPage">
+                <img className="Book-Pic" src={Harpy} alt="Screen-Shot" />
+              </div>
+              <div className="demoPage">
+                <img className="Book-Pic" src={Daemons} alt="Screen-Shot" />
+              </div>
+              <div className="demoPage">
+                <img className="Book-Pic" src={Demon1} alt="Screen-Shot" />
+              </div>
+              <div className="demoPage">
+                <img className="Book-Pic" src={Demon2} alt="Screen-Shot" />
+              </div>
+              <div className="demoPage">
+                <img className="Book-Pic" src={Demon3} alt="Screen-Shot" />
+              </div>
+            </HTMLFlipBook>
+          </div>
+          <p>
+            My dad had brought me this book when we arrived at the academy. Most
+            students came without their parents but my dad insisted on coming
+            with me. He knew I wanted to join combat classes so he got it to
+            keep me safe. Even if the last few pages were just the drawings and
+            ramblings of adventures gone mad they had been included as monsters.
+          </p>
+          <p>
+            I had read this almost everyday since coming ot the academy apparat
+            from a few days were I had to work hard on some homework. Today I
+            was not going to keep reading it though, I was going to train
+            against some opponents in the arena. I had joined the dueling club
+            at the start of the year after our fights. I enjoyed dueling more
+            then anything else, it was easier to just have to keep your mind on
+            one opponent, one thing.
+          </p>
         </div>
       </div>
     </div>
@@ -374,6 +462,7 @@ function intro(props) {
 }
 export default intro;
 
+// A friend who is an enemy
 // Survival game, eat and hide
 // Dark spots under the eyes reduce glare adn increase accuracy (Cheetah)
 // Which witch is which?

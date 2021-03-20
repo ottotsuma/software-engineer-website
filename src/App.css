@@ -231,11 +231,7 @@ h1 {
   font-size: 4vh;
 }
 
-.Screen-Shot {
-  height: 40vmin;
-  pointer-events: none;
-  max-width: 100%;
-}
+
 
 /* @media (prefers-reduced-motion: no-preference) {
   .Circle1, .Circle2 {
@@ -344,11 +340,11 @@ h1 {
   display: flex;
   align-content: center;
   justify-content: center;
-  padding: 1vh;
+  margin-bottom: 1%;
 }
 
 .demoPage {
-  background-color: pink;
+  background-color: #e0c49c;
   display: flex;
   align-content: center;
   justify-content: center;
@@ -356,7 +352,16 @@ h1 {
 
 .book-no {
   color: #202040;
-  padding: 1vh;
+}
+.Book-Pic {
+  pointer-events: none;
+  max-width: 100%;
+}
+
+.Screen-Shot {
+  height: 40vmin;
+  pointer-events: none;
+  max-width: 100%;
 }
 
 .Footer {
