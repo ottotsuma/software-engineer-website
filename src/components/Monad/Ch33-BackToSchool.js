@@ -477,31 +477,94 @@ function intro(props) {
           <p>Equipment:</p>
           <p className="equipment">
             <ul className="Item">
-              <li>Head:<p>{' '}</p><font color="darkgrey"> Leather Cap</font></li>
+              <li>
+                Head:<p> </p>
+                <font color="darkgrey"> Leather Cap</font>
+              </li>
               <li>Slight protection increase against attacks to the head.</li>
             </ul>
             <ul className="Item">
-              <li>Body:<p>{' '}</p><font color="darkgrey"> Academy Robe (Black/Red).</font></li>
+              <li>
+                Body:<p> </p>
+                <font color="darkgrey"> Academy Robe (Black/Red).</font>
+              </li>
               <li>Minor increase to Magic, Fire & Health.</li>
             </ul>
             <ul className="Item">
-              <li>Hands:<p>{' '}</p><font color="darkgrey"> Chared Mitts</font></li>
+              <li>
+                Hands:<p> </p>
+                <font color="darkgrey"> Chared Mitts</font>
+              </li>
               <li>Slight resistance to fire on your hands.</li>
             </ul>
             <ul className="Item">
-              <li>Feet:<p>{' '}</p><font color="darkgrey"> Worn Boots</font></li>
+              <li>
+                Feet:<p> </p>
+                <font color="darkgrey"> Worn Boots</font>
+              </li>
               <li>Warmer then no shoes.</li>
             </ul>
             <ul className="Item">
-              <li>Weapon:<p>{' '}</p><font color="blue">Wand</font></li>
+              <li>
+                Weapon:<p> </p>
+                <font color="blue">Wand</font>
+              </li>
               <li>Minor increase to Magic.</li>
             </ul>
             <ul className="Item">
-              <li>Weapon:<p>{' '}</p><font color="darkgrey">Leather Shield</font></li>
+              <li>
+                Weapon:<p> </p>
+                <font color="darkgrey">Leather Shield</font>
+              </li>
               <li>Slight protection from low damage attacks.</li>
             </ul>
           </p>
-          <p></p>
+          <p>
+            Most of it was junk equipment that the arena had left as spares,
+            after they had been used too much to bother repairing them. I had
+            been allowed to take them during the dueling clubs initiation. While
+            I was far cry from the nobles and rich kids who could afford good
+            equipment or rare classes I put in a lot of effort.
+          </p>
+          <p>
+            The military's guide for students was really helpful in that regard
+            giving you a direction to go in from the start. The instruction
+            manual even recommended we keep our physical fitness at a high level
+            if we wanted to join the military as there would be a physical
+            examination before hand. I dueled a student at the start of the year
+            who had put points into strength. While this works really well if
+            you can get close I stuck my points into pure magic for now, using
+            only the natural strength in my body to overpower other mages if the
+            time called for it. Most mages focus so much on studying theory they
+            forget to use their fists in a fight.
+          </p>
+          <p>
+            "Yo, miss fireball. You never rest, what will it be this time?" The
+            man taking sign ups said looking up at me from a desk set up off to
+            the side of the waiting area.
+          </p>
+          <p>"Random match up." I replied.</p>
+          <p>
+            "Good luck, you'll be called soon with random match up. You know
+            what to do." He said adding my name and slipping it into a hole
+            behind him. Back there was usually first year students who matched
+            up the battle requested types to find a suitable match, I knew this
+            because it was the job I also did at the weekends. First years were
+            perfect for this type of work, not being able to cast useful magic
+            yet left them few jobs they could do and since they did not know
+            many of the other students yet they could hardly ever be accused of
+            fixing the matches.
+          </p>
+          <p>
+            I came in ready so I did not have to get changed, so I just waited.
+            Soon enough I was called up.
+          </p>
+          <p>
+            "Kaja you're up. Third year boy named Linhart, will be your
+            opponent." He gave me an I am sorry look but it was luck of the
+            draw. I gripped my wand tightly, hey if I win or lose it is just for
+            the practice. But I want to win.
+          </p>
         </div>
       </div>
     </div>
