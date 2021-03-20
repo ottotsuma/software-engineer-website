@@ -97,6 +97,33 @@ Lightning harvest
           </p>
 
 
+          <p>Equipment:</p>
+          <p className="equipment">
+            <ul className="Item">
+              <li>Head:<p>{' '}</p><font color="darkgrey"> Leather Cap</font></li>
+              <li>Slight protection increase against attacks to the head.</li>
+            </ul>
+            <ul className="Item">
+              <li>Body:<p>{' '}</p><font color="darkgrey"> Academy Robe (Black/Red).</font></li>
+              <li>Minor increase to Magic, Fire & Health.</li>
+            </ul>
+            <ul className="Item">
+              <li>Hands:<p>{' '}</p><font color="darkgrey"> Chared Mitts</font></li>
+              <li>Slight resistance to fire on your hands.</li>
+            </ul>
+            <ul className="Item">
+              <li>Feet:<p>{' '}</p><font color="darkgrey"> Worn Boots</font></li>
+              <li>Warmer then no shoes.</li>
+            </ul>
+            <ul className="Item">
+              <li>Weapon:<p>{' '}</p><font color="blue">Wand</font></li>
+              <li>Minor increase to Magic.</li>
+            </ul>
+            <ul className="Item">
+              <li>Weapon:<p>{' '}</p><font color="darkgrey">Leather Shield</font></li>
+              <li>Slight protection from low damage attacks.</li>
+            </ul>
+          </p>
 
 Levels / 
 / Human body 0 - 10, 5 is normal and 10 is the best a human can get. (This is without mana.) / 

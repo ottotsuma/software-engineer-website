@@ -455,6 +455,53 @@ function intro(props) {
             then anything else, it was easier to just have to keep your mind on
             one opponent, one thing.
           </p>
+          <p>
+            The arena changing area stank as usual. It was a mix of blood, sweat
+            and vomit. People who pushed themselves too far would stumble back
+            in and vomit out of exhaustion. They usually ended up passed out and
+            had to be dragged to the side. There was drains all over and even a
+            water fountain near the arena entrance separating the space between
+            the arena and the practice area. This practice area was were after
+            changing the students would gather and practice or pump themselves
+            up before their fight. When the club was on it was more of just a
+            place we all hung out before going into the arena together to
+            practice in there.
+          </p>
+          <p>
+            Today was just a normal day, so although there were some dueling
+            club students there were also other students and even researchers. I
+            still had the wand I had come with to the academy & my academy robe.
+            I had tried to find new equipment but what I could find or afford as
+            a first year was pretty poor.
+          </p>
+          <p>Equipment:</p>
+          <p className="equipment">
+            <ul className="Item">
+              <li>Head:<p>{' '}</p><font color="darkgrey"> Leather Cap</font></li>
+              <li>Slight protection increase against attacks to the head.</li>
+            </ul>
+            <ul className="Item">
+              <li>Body:<p>{' '}</p><font color="darkgrey"> Academy Robe (Black/Red).</font></li>
+              <li>Minor increase to Magic, Fire & Health.</li>
+            </ul>
+            <ul className="Item">
+              <li>Hands:<p>{' '}</p><font color="darkgrey"> Chared Mitts</font></li>
+              <li>Slight resistance to fire on your hands.</li>
+            </ul>
+            <ul className="Item">
+              <li>Feet:<p>{' '}</p><font color="darkgrey"> Worn Boots</font></li>
+              <li>Warmer then no shoes.</li>
+            </ul>
+            <ul className="Item">
+              <li>Weapon:<p>{' '}</p><font color="blue">Wand</font></li>
+              <li>Minor increase to Magic.</li>
+            </ul>
+            <ul className="Item">
+              <li>Weapon:<p>{' '}</p><font color="darkgrey">Leather Shield</font></li>
+              <li>Slight protection from low damage attacks.</li>
+            </ul>
+          </p>
+          <p></p>
         </div>
       </div>
     </div>
