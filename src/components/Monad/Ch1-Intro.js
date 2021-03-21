@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import MapOfAlden from "./../../assets/MapOfAlden.png";
+import HTMLFlipBook from "react-pageflip";
 
 export default function Intro(props) {
   return (
@@ -260,7 +261,7 @@ most people learn inspect but either see
 - progress bar 
 - use list 
 --> */}
-            <div className="BreakPoint"></div>
+          <div className="BreakPoint"></div>
           <h3>Play day</h3>
           {/* <!-- Children in the forest --> */}
           <p>
@@ -516,8 +517,8 @@ most people learn inspect but either see
             I was told not to spend any of the points, that I was going to be
             sent to the town hall tomorrow to be tested for my aptitude. Not
             everyone could use inspect, so external tools where used to find out
-            their stats and class. Since I was a mage when I am 14 I will go to the magic
-            academy in Banderedam.
+            their stats and class. Since I was a mage when I am 14 I will go to
+            the magic academy in Banderedam.
           </p>
           <p>
             Almost all the stats where 0 however, this could not be good.
@@ -696,16 +697,64 @@ most people learn inspect but either see
           </p>
           <p>With a nod Beke agrees and joins the group.</p>
           <h4>Effi POV</h4>
+          {/* Make this into a book? Learning from it and the different countries and species? */}
           <p>
-            So Strength increase the physical damage you do, and magic how much
-            magical damage you do. Vitality how long you can survive, this
-            includes resistance to poisons. Willpower, and endurance are fairy
-            self explanatory. Dexterity affects your speed, reaction time, how
-            precise you are, those sort of things. Sense is not just detecting
-            traps but sensing someones mood and many other things and finally
-            your charisma or charm i've heard it called both but it affects how
-            amiable people are towards you.
+            I had joined the warrior group. I was surprised to see that even the
+            older kids were placed with the younger ones. My dad had told me
+            that education starts the day you become level one but I guess that
+            happens at different times. He said we started early and most kids
+            would not start their education until they were 13 and expected to
+            go hunting to become level one.
           </p>
+          <p>
+            The first thing I had to do was read though a book about stats. I
+            had to learn their names and what they do before I could join in the
+            normal lessons. Today the others were looking at maps of the whole
+            continent and learning about the people and places. I really wanted
+            to join in so I studied hard.
+          </p>
+          <div className="book">
+            <HTMLFlipBook width={200} height={200}>
+              <div className="demoPage">
+                <p>Vitality</p>
+                <p>Increases health points (HP).</p>
+              </div>
+              <div className="demoPage">
+                <p>Strength</p>
+                <p>Increased physical damage.</p>
+              </div>
+              <div className="demoPage">
+                <p>Magic</p>
+                <p>Increases magic damage & mana points (MP).</p>
+              </div>
+              <div className="demoPage">
+                <p>Endurance</p>
+                <p>Increases resistance to physical damage.</p>
+              </div>
+              <div className="demoPage">
+                <p>Willpower</p>
+                <p>Increases resistance to magic.</p>
+              </div>
+              <div className="demoPage">
+                <p>Dexterity</p>
+                <p>Reduces time between using skills.</p>
+              </div>
+              <div className="demoPage">
+                <p>Sense</p>
+                <p>Increases trap detection.</p>
+              </div>
+              <div className="demoPage">
+                <p>Charisma</p>
+                <p>Increases persuasiveness.</p>
+              </div>
+            </HTMLFlipBook>
+          </div>
+          <p>
+            There was more to each of the stats I was told but to join one of
+            the military academy's which all warriors at age 14 were expected to
+            do, this basic understanding was a must.
+          </p>
+          <p>Now I could join in the lesson with the others! </p>
           <h4>Beke POV</h4>
           {/* <!-- Lunch and discussion of the others  --> */}
           <p>
@@ -735,6 +784,7 @@ most people learn inspect but either see
           </p>
           <p>More silence.</p>
           {/* <!-- Lessons --> */}
+          {/* Teaching spells/skills and use of the system? */}
           <h4>Skill tree lesson - Otto</h4>
           <p>
             After being directed away by an old man behind a desk I was facing a
@@ -778,7 +828,7 @@ most people learn inspect but either see
           {/* <!-- human other races skill tress vs className skill tree. -->
 
 <!-- levels --> */}
-            <div className="BreakPoint"></div>
+          <div className="BreakPoint"></div>
           <h3>departure</h3>
           {/* <!-- departure -->
 <!-- <p>Village leader sends off all the 14 year olds. (Beke having left the year before)</p> --> */}
