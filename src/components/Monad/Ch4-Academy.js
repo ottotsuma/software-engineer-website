@@ -198,23 +198,23 @@ function intro(props) {
             body to pass though. "Welcome home brother." A sinister voice
             sounded out from the door.
           </p>
-          {/* Re-write ended here. */}
           <p>
-            Walking inside the main hall was much longer and deeper then I
-            thought back into the cliff, a good 1km or so. Not wanting to
-            explore around this place too much I noted that there where large
-            stone pillars with rounded hat-like tops. Below the 'hats' where
-            holes and inside was a glowing ball, these pillars where lining the
-            hall all the way down lighting it.
+            Squeezing though the gap the door had made and into the main hall.
+            The hall went deep into the cliff, stretching down further then I
+            could see but then again that might just be because it was dark.
+            Every now and then there was large stone pillars with cube tops.
+            These cubes had holes on every face and inside was a glowing ball,
+            these pillars where lining the hall all the way down lighting it a
+            little.
           </p>
           <p>
-            Pushing the door to my right, and looking inside was the boy from
-            the window, two girls and another boy. Looking between them I
-            decided I should introduce myself.
+            The room to the right was open and inside was the boy from the
+            window. Two girls and another boy. Looking between them I decided I
+            should introduce myself.
           </p>
           <p>
             "I am Otto I am looking for my assigned room, the start matches this
-            buildings so I thought it was in here."
+            buildings so I thought it was in here." I said.
           </p>
           <p>
             "That'll be the case, 501? 5th floor, room 1. Ralsan is my name,
@@ -226,35 +226,76 @@ function intro(props) {
             are the next first years staying in this building also." Ralsan
             said.
           </p>
-          <p>Otto - "I see, why are we the 'dammed'?"</p>
           <p>
-            Ralsan - "Ah that, to be placed all the way out here in this erm
-            abode is because you must be poor, have no connections to anyone
-            important and no outstanding talent. Nothing personal just how thigh
-            higher ups view us, not to say all the poor reside here just those
-            with no history, backing, connections, long distance cousins in high
-            places. Basically people who cannot complain."
+            "I see, why are we the 'dammed'?" I replied remembering his words
+            before I came inside.
           </p>
           <p>
-            Otto - "When passing though the military camps I had thought they
-            placed all children of any standing in the same accommodations."
+            "Ah that, to be placed all the way out here in this erm abode is
+            because you must be poor, have no connections to anyone important
+            and no outstanding talent. Nothing personal just how the higher ups
+            view us. Not to say all the poor reside here just those with no
+            history, backing, connections, long distance cousins in high places.
+            Basically people who cannot complain." Ralsan said.
           </p>
           <p>
-            Ralsan - "Well yes, but this is not a military camp, and if you take
-            a closer look you will find they are not put into the same groups at
-            least."
+            "Ahem. That is a really poor introduction. Ignore him. While it is
+            true we have no backers that is not why Ralsan was moved here this
+            morning." Shrorlei said giving him a glare.
           </p>
           <p>
-            Otto - "Another might be disappointed, but I look forward to being
-            away from the noise of the town during the night at least."
+            "Eh-Heh, does everyone need to know about that?" Ralsan replied
+            going red.
           </p>
           <p>
-            Ralsan - "Aha, honestly the rooms are not too bad go up and take a
-            look, we will be here."
+            "When passing though the military camps I had thought they placed
+            all students of any standing in the same accommodations." I replied
+            a little confused by this strange introduction.
           </p>
-          <p>Otto - "Ah thank you, it has been a long way."</p>
+          <p>
+            "Well yes, but this is not a military camp. And if you take a closer
+            look you will find we are all first years. This place is normally
+            never used." Ralsan replied.
+          </p>
+          <p>
+            "Hold up, you're not skipping over what you did." Shrorlei
+            introjected. "We are not all untalented rejects as Ralsan likes to
+            boast. I am half dwarf so the academy are trying to hide me.
+            Reingard got into a fight with a noble on the way in. Tisiel's
+            parents are ... outspoken individuals." She said looking at Tisiel
+            with an I am sorry look. Tisiel just shrugged so it can't be too far
+            off the mark. "Ralsan here. Is actually a very talented farmer. He
+            was suppose to be staying in the farmers quarters." Shrorlei added.
+          </p>
+          <p>I had to ask now. "What did you do?"</p>
+          <p>
+            "Look it is not my fault. The farming teacher I was assigned to. Her
+            boobs were huge! I passed out from a nose bleed when I saw her...
+            When I came to... I might of called her Miss. Boobies. But her name
+            is very similar! It was an honest mistake!" Ralsan said with such
+            emotion like he was the one who had been wronged.
+          </p>
+          <p>
+            "So anyone the academy finds embarrassing is put here. Great. Don't
+            even know what I did to end up here but nice to meet you all." I
+            smiled, best to make the most of it. "If you don't mind I am going
+            to put my things in my room, I'll come back."
+          </p>
+          <p>
+            "Oh before I go what was your teachers real name then?" I asked
+            Ralsan.
+          </p>
+          <p>".... I still don't know. Maybe Hoobies?" He replied.</p>
+          <p>
+            "You are a lost cause." I said before patting his shoulder and
+            walking upstairs.
+          </p>
+          <p>
+            "Hoobies!? You are so dead tomorrow if they don't reassign you."
+            Tisiel laughed at Ralsan's ridiculous attempt to remember his
+            teachers name as I left the room.
+          </p>
           <p>I headed up the stairs to the 5th floor, 1st room.</p>
-          {/* <!-- room inside --> */}
           <p>
             Inside there was a window, a desk & chair, a bed that would fit a
             man twice my size and a bin. Next to my feet this area was slightly
@@ -280,22 +321,28 @@ function intro(props) {
           </p>
           <p>
             Leaving my belongings and deciding not to change into my new clothes
-            yet I headed back downstairs to see if I could learn more about the
-            housing.
+            yet. I headed back downstairs to see if I could learn more about the
+            academy.
           </p>
           <p>
-            Tisiel - "I'll show you about if you like, won't take too long not
-            much out this way, then after why don't you go into town with me and
-            buy me dinner as tanks" she teased with a sly smile
+            "I'll show you about if you like, won't take too long not much in
+            here. Then after why don't you go into town with me and buy me
+            dinner as tanks." Tisiel teased with a sly smile.
           </p>
           <p>
-            Otto - "Be careful what you say, I might just take you up on that."
+            "I am not Ralsan I am not that easy. But I might just take you up on
+            that." I replied.
           </p>
           <p>
-            Tisiel - "Let's start with the tour, some of the halls are dark, but
-            I don't bite hard."
+            "Let's start the tour! Maybe you will think it is worth the price.
+            Some of the halls are dark, but don't worry. I don't bite hard."
+            Tisiel Said leading the way.
           </p>
-          <p>Otto - "Pfft I'll keep you at a distance then."</p>
+          <p>
+            I stopped in my tracks. "Pfft I haven't washed since I got here, you
+            won't dare." I replied.
+          </p>
+          {/* Here */}
           <p>
             Tisiel took me around, there were shared bath's on each floor.
             Students slept and cooked on floors 2 - 4. On the first floor was a
