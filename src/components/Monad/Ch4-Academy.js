@@ -50,7 +50,6 @@ function intro(props) {
             blue and they where pointed like a castle from fairy tale. I suppose
             this is were the stories got their inspirations.
           </p>
-
           <p>
             The biggest change of all was that the rainforest that could be seen
             in every direction around Banderedam was gone and replaced by
@@ -65,9 +64,7 @@ function intro(props) {
               alt="Academy"
             />
           </div>
-
           {/* <!-- stuff happens / sign up etc --> */}
-
           <p>
             Upon signing the scroll I felt warm and golden light bathed me. Then
             suddenly a message appeared in front of my eyes. [Title: Back to
@@ -76,7 +73,6 @@ function intro(props) {
             to School?" If it is unlocked the first time you come? never mind. I
             quickly loaded my stats.
           </p>
-
           <p className="stats">
             <li>Name: Otto.</li>
             <li>Level: 8.</li>
@@ -97,77 +93,112 @@ function intro(props) {
             <li>Charisma: 2</li>
           </p>
           <p>
-            "Building: Cliffside. Room: 501 A key is place in my hand as I was
-            pulled back to reality. Slightly embarrassed by my outbursts I
-            quickly apologized
+            "Building: Cliffside. Room: 501." A key was place in my hand as I
+            was pulled back to reality. Slightly embarrassed by my absent
+            mindedness I quickly apologized.
           </p>
           <p>
             "I am use to it, all commoners are the same when they first arrive."
-          </p>
-          <p>"Oh, I, sorry."</p>
-          <p>
-            "It's fine go find your room, there should be books and uniforms
-            inside best to learn the rules before you break them."
+            The man behind the makeshift desk said.
           </p>
           <p>
-            "Yes sir, thank you" I bowed deeply before leaving to find my room.
+            "Oh, I am, sorry." I followed up with feeling that he made things
+            more awkward.
           </p>
-
+          <p>
+            "It's fine, go find your room, there should be books and uniforms
+            inside. Best to learn the rules before you break them." The man
+            smiled.
+          </p>
+          <p>
+            "Yes sir, thank you." I bowed deeply before leaving to find my room.
+            What a strange start.
+          </p>
           {/* <!-- Arrival at the room --> */}
-
           <p>
-            Walking away from the main hall of the academy across other bridges
-            and though streets, markets made of students and permitted
-            merchants. They came with wagons, small shops in the bottom floor of
-            housing the floor was layed in marble or stone. People wore either
-            robes, with uniform markings but of different colours or bright
-            colorful casual clothing. I was walking for while before realising I
-            had surely come to the end of the large academy in this direction.
-            The stone floor had turned to a dirt track, checking a nearby stone
-            building for its housing number and checking it to my own, I walked
-            just a little further and saw the houses of stone had become wooden,
+            Walking away from the main hall of the academy, were there was
+            makeshift desks and staff standing around in the courtyard greeting
+            new students. I went west across other smaller bridges then the main
+            bridge bringing the students inside. Once I left the main academy I
+            found myself moving along a wide street with smaller streets
+            shooting off to the sides.
+          </p>
+          <p>
+            Markets made of older students and merchants lined the sides of the
+            street and the first floor of the buildings. All of the buildings
+            were made of a light grey stone unlike the main academy which walls
+            where marble white. People here wore either student robes, or casual
+            clothing. It was easy enough to spot the second year students, their
+            robes where one solid color of red, green, blue or purple etc. The
+            merchants would ware no robe but a mix of colors epically bright
+            vibrant colors.
+          </p>
+          <p>
+            I was walking for while before realising I had surely come to the
+            end of the large academy in this direction. The stone floor had
+            turned to a dirt track. I had a small map and it seemed I was not
+            going to be living above the shops and restaurants. I walked just a
+            little further and saw the houses of stone had become wooden,
             although still nice. The rooves where pointed and curved at the end
-            and looked like how I would imagine a house from Leika would be,
-            trees stood around and I could hear birds singing. The houses in
-            this area where built within or near trees and nature all around,
-            the paths where grass which had been walked more often then the
-            other areas. Wanting to look around some more I climbed one of the
-            trees and looked into the distance, the forest was large, and in the
-            distance I could see a very large structure where there was less
-            trees, a huge wooden palace. There where several buildings inside
-            and a small wall around the outside, unable to really be able to see
-            any details from this distance I decided to drop down and keep on
-            looking for my assigned room.
+            and looked like how I would imagine a house from Leika would be.
+            Leika's were suppose to be famous for living with the environment,
+            so I always imagined them living in wooden houses.
+          </p>
+          <p>
+            Where stone builds stood and alleyways where replaced by small dirt
+            trails into the woods. The wooden houses placed in between the trees
+            in an almost complete circle leaving only a gap for the entrance. I
+            decided for now to stick to the main path. I could hear birds
+            singing, which replaced the shouts of the merchants.
           </p>
 
+          <p>
+            Wanting to look around some more I climbed one of the trees and
+            looked into the distance. The forest was large, and in the distance
+            I could see a clearing bigger then the others. It looked like a huge
+            wooden palace. There where several buildings inside the walls but I
+            was unable to really be able to see any details from this distance.
+            I decided to drop down and keep on looking for my assigned room.
+          </p>
           <p>
             After awhile I soon found a pathed road again, but rather then the
             neatly placed stones in a straight line I found randomly placed
             rocks between mud leading up the side of a cliff. The cliff had
-            dwellings carved out of the rock, it was about 5 floors high.
-            Looking back I could see cliffs on the opposing side, they had red
-            painted pillars and a water fall falling between and atop them
-            eleven dwellings with forests around, looking between the two cliffs
-            the opposing cliff was much more welcoming.
+            dwellings carved out of the rock, I could see windows carved out all
+            the way up to about five floors high. Looking back I could see
+            across the forest and to the academy. I had come a really long way,
+            I hope my classes were not taking place in the main academy or I
+            would have to wake up really early everyday! Beyond the academy I
+            could not see too much but I could see another cliff side, behind
+            which was green forest with the eastern mountain poking out. The
+            cliffs on the opposing side, they had red painted pillars and a
+            water fall falling between looking between the two cliffs the
+            opposing cliff was much more welcoming.
           </p>
-
+          <p>
+            The cliffside that seemed to match the name of the building I had
+            been assigned on the other hand was not perfectly sculpted with
+            pillars lining the walls but just the side of a brown cliff. Rocks
+            and all. The only features where the previously poorly carved
+            windows dotting its face. At least the windows had glass inside.
+          </p>
           <p>
             Walking to the door carved into the cliff I checked the sign carved
             into the rock beside the door. Yup, this was the building that
             matched mine. There where a small set of stairs leading up to a
-            large metal door placed inside of a natural looking cave entrance.
-            The door was so large and heavy I doubted I could even open, that
-            any man could open it. So I knocked and waited.
+            large metal door placed inside of what could of been a cave
+            entrance. The door was so large and heavy looking I doubted I could
+            even open it. that any man could open it. So I knocked and waited.
           </p>
-
           <p>
-            A head popped out from a floor level window. "Who is it?" a girls
-            voice came from inside and the head looking out responded "Another
-            of the dammed, one of us." with a big smile and the door creaked and
-            a portion of it opened only large enough for a single body to pass
-            though. "Welcome home brother."
+            A head popped out from a floor level window. "Who is it?" A girls
+            voice came from inside and the head looking out responded. "Another
+            of the dammed, one of us." With a big smile. The door suddenly
+            creaked and a portion of it opened only large enough for a single
+            body to pass though. "Welcome home brother." A sinister voice
+            sounded out from the door.
           </p>
-
+          {/* Re-write ended here. */}
           <p>
             Walking inside the main hall was much longer and deeper then I
             thought back into the cliff, a good 1km or so. Not wanting to
@@ -176,18 +207,15 @@ function intro(props) {
             holes and inside was a glowing ball, these pillars where lining the
             hall all the way down lighting it.
           </p>
-
           <p>
             Pushing the door to my right, and looking inside was the boy from
             the window, two girls and another boy. Looking between them I
             decided I should introduce myself.
           </p>
-
           <p>
             "I am Otto I am looking for my assigned room, the start matches this
             buildings so I thought it was in here."
           </p>
-
           <p>
             "That'll be the case, 501? 5th floor, room 1. Ralsan is my name,
             this is Tisiel" A girl waved her hand, she was about the same height
@@ -198,9 +226,7 @@ function intro(props) {
             are the next first years staying in this building also." Ralsan
             said.
           </p>
-
           <p>Otto - "I see, why are we the 'dammed'?"</p>
-
           <p>
             Ralsan - "Ah that, to be placed all the way out here in this erm
             abode is because you must be poor, have no connections to anyone
@@ -209,34 +235,26 @@ function intro(props) {
             with no history, backing, connections, long distance cousins in high
             places. Basically people who cannot complain."
           </p>
-
           <p>
             Otto - "When passing though the military camps I had thought they
             placed all children of any standing in the same accommodations."
           </p>
-
           <p>
             Ralsan - "Well yes, but this is not a military camp, and if you take
             a closer look you will find they are not put into the same groups at
             least."
           </p>
-
           <p>
             Otto - "Another might be disappointed, but I look forward to being
             away from the noise of the town during the night at least."
           </p>
-
           <p>
             Ralsan - "Aha, honestly the rooms are not too bad go up and take a
             look, we will be here."
           </p>
-
           <p>Otto - "Ah thank you, it has been a long way."</p>
-
           <p>I headed up the stairs to the 5th floor, 1st room.</p>
-
           {/* <!-- room inside --> */}
-
           <p>
             Inside there was a window, a desk & chair, a bed that would fit a
             man twice my size and a bin. Next to my feet this area was slightly
@@ -244,7 +262,6 @@ function intro(props) {
             diameter, here was a small rack for my shoes and an old plant pot
             with an old umbrella inside.
           </p>
-
           <p>
             After removing my shoes, I walked over to the bed where 3 uniforms
             are layed out on the bed, a black robe, with a smart looking pair of
@@ -254,7 +271,6 @@ function intro(props) {
             note that read "SLEEP WEAR" on top, maybe to save a first year of
             the embarrassment of turning up to class in pajamas.
           </p>
-
           <p>
             On the desk where some books. "Academy rules, regulations and
             assessment criteria", "Mages, Magic & Mana The Basics" & "Exemplary
@@ -262,30 +278,24 @@ function intro(props) {
             of MM&M & Histories before first class." That must be the common
             names for books.
           </p>
-
           <p>
             Leaving my belongings and deciding not to change into my new clothes
             yet I headed back downstairs to see if I could learn more about the
             housing.
           </p>
-
           <p>
             Tisiel - "I'll show you about if you like, won't take too long not
             much out this way, then after why don't you go into town with me and
             buy me dinner as tanks" she teased with a sly smile
           </p>
-
           <p>
             Otto - "Be careful what you say, I might just take you up on that."
           </p>
-
           <p>
             Tisiel - "Let's start with the tour, some of the halls are dark, but
             I don't bite hard."
           </p>
-
           <p>Otto - "Pfft I'll keep you at a distance then."</p>
-
           <p>
             Tisiel took me around, there were shared bath's on each floor.
             Students slept and cooked on floors 2 - 4. On the first floor was a
@@ -297,7 +307,6 @@ function intro(props) {
             the middle circle just had one symbol also nothing that I had seen
             before.
           </p>
-
           <p>Otto - "And this is?"</p>
           <p>Tisiel - "Sex dungeon."</p>
           <p>Otto - "Aha, you have a strange sense of humor."</p>
@@ -329,7 +338,6 @@ function intro(props) {
             need it now."
           </p>
           <p>Tisiel - "You are going to fit in here. Ahaha."</p>
-
           <p>
             We went out for dinner in the main town, she showed me around, there
             was more to do closer to the academy, from pubs, sports, gambling,
@@ -338,7 +346,6 @@ function intro(props) {
             large church near by, the large arena, the academy's main library
             and mission office.
           </p>
-
           <p>
             After dinner we made their way back to the cliffside dorm. At the
             entrance to the door Tisiel spoke "I am home brother."
@@ -353,7 +360,6 @@ function intro(props) {
             Otto - "Well it is good to know how to get in, I was worried someone
             would always have to be inside."
           </p>
-
           <p>
             I went to my room after to read though the books that the note had
             told me to. The MM&M book was a about mages and what that means. In
@@ -361,9 +367,7 @@ function intro(props) {
             The book went on in more detail on the spells in each chapter but
             since I only had to read chapter one I picked up the history book.
           </p>
-
           <p>Chapter 1.</p>
-
           <div className="ProfileCard-Outer">
             <div className="ProfileCard">
               <div className="Card-Middle"></div>
@@ -405,12 +409,10 @@ function intro(props) {
               </div>
             </div>
           </div>
-
           <p>
             The witch of Alden, a story we all know. I went to bed right after
             reading it.
           </p>
-
           {/* <!-- sleep --> */}
         </div>
       </div>
