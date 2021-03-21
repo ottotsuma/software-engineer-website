@@ -11,52 +11,52 @@ function intro(props) {
 
           {/* <!-- Students poor in , talk etc teacher comes in , class listens --> */}
           <p>
-            Teacher - "Todays lesson will be on combat between mages, and a
-            little on combat between mages and other classes. The upcoming duels
+            "Todays lesson will be on combat between mages. The upcoming duels
             have some of you excited, and this lesson is to help you prepare for
-            the battle ahead. Now in real duels you will be permitted to use
+            the battle ahead. Now in real duels, you will be permitted to use
             your own equipment but for this session you can only use the weapons
             provided to you, and the uniform you are wearing now. You may not
-            enchant or enhance any of the equipment."
+            enchant or enhance any of the equipment." Lubin announced.
           </p>
 
           <p>
             <li className="Item">
-              Body:<li className="Junk"> Academy Robe (black).</li> Magic:
-              +1, Health + 10.
+              Body:<li className="Junk"> Academy Robe (black).</li> Magic: +1,
+              Health + 10.
             </li>
           </p>
 
           <p>
             "Now the most obvious thing when thinking about duels between mages
             is that they use magical attacks. Convention gives that should you
-            be up against a mage Willpower is the best option to counter that as
-            it reduces the damage by more vitality increases your health.
-            However you must consider the bigger picture, once you leave the
-            academy not all of your opponents will be mages and some will use
-            physical attacks and the points you put into Willpower will do
-            nothing to protect from that.
+            be up against a mage Willpower is the best stat to counter. As it
+            reduces the damage by more Vitality increases your health. However
+            you must consider the bigger picture, once you leave the academy not
+            all of your opponents will be mages and some will use physical
+            attacks and the points you put into Willpower will do nothing to
+            protect from that." Lubin continued.
           </p>
 
           <p>
-            "The second thing to think about during a duel although not as
-            relevant during your lower levels is the amount of mana you and your
-            opponent have. If you run out of mana it is likely you will pass out
-            early on and be unable to fight."
+            "The second thing to think about during a duel, although not as
+            prevalent during your lower levels, is the amount of mana you and
+            your opponent have. If you run out of mana, it is likely you will
+            pass out early on and be unable to fight." Lubin said.
           </p>
 
           <p>
             "Finally is the element type. You might be an amazing fire-mage but
             if your opponent is using water, you are at a huge disadvantage so
             keep that in mind. If there are no further questions about the duels
-            we will move onto charms and how to counter them."
+            we will move onto charms and how to counter them." Lubin said
+            waiting for questions to come.
           </p>
 
           <p>
             The lesson continued as normal, reading though past mages, their
-            feats and discoveries.
+            feats and discoveries. I decided to check out my current stats since
+            there was a fight coming up.
           </p>
-
           {/* <!-- Duel --> */}
           {/* <!-- Duel between students --> */}
           <p className="stats">
@@ -82,6 +82,14 @@ function intro(props) {
             <li>Charisma: 2</li>
           </p>
           <p>
+            I had picked up the element lighting when I reached level 10. There
+            was a few to pick from, the teachers had said that the elements you
+            get to pick from depend on your environment and past actions.
+            Although the choice was up to you what element to pick there were
+            elements you would be stronger with and others weaker. Luckily for
+            me lightning had a high compatibility with me.
+          </p>
+          <p>
             Looking though the list of skills a lighting mage could learn I
             could not really decide which I wanted and which I should avoid. I
             narrowed it down to just a few I felt like I could use:
@@ -103,8 +111,8 @@ function intro(props) {
             Thinking on what the teacher had said, mages in the duels would be
             using magic attacks so it is potent to put points into willpower.
             But I wanted to think about the future also, no not putting points
-            into endurance but strength. There was nothing in the rules to say
-            I had to use magic, and his element lightning would travel easier
+            into endurance but strength. There was nothing in the rules to say I
+            had to use magic, and his element lightning would travel easier
             though a metal blade then a wooden wand.
           </p>
 
@@ -157,13 +165,13 @@ function intro(props) {
           <p>
             On the third day I equipped my formal outfit, mages robe and headed
             down to the area again. This time however instead of watching the
-            matches I made my way into the armory beneath the area. Inside
-            where many students picking out weapons and signing in that they
-            where present. I signed next to my name picked up a completely metal
-            spear and sat down to wait. He got a few weird looks, some of the
-            students must of pitted me thinking I must of thought the metal
-            spear was some kind of magic staff, but non of them would correct me
-            though, I might be their opponent after all.
+            matches I made my way into the armory beneath the area. Inside where
+            many students picking out weapons and signing in that they where
+            present. I signed next to my name picked up a completely metal spear
+            and sat down to wait. He got a few weird looks, some of the students
+            must of pitted me thinking I must of thought the metal spear was
+            some kind of magic staff, but non of them would correct me though, I
+            might be their opponent after all.
           </p>
 
           <p>
