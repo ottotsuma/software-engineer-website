@@ -342,77 +342,99 @@ function intro(props) {
             I stopped in my tracks. "Pfft I haven't washed since I got here, you
             won't dare." I replied.
           </p>
+          <p>
+            Tisiel took me around as promised, Floors 2 ~ 3 where for girls
+            only, including sleeping rooms a shared kitchen on each floor.
+            Floors 4 ~ 5 where the same but for boys. The 1st floor was a shared
+            common room we met in earlier near the entrance. Bath area for boys
+            and girls. Although the separation seemed to be an afterthought and
+            was just wooden boards stretched along and splitting in half what
+            should of been one bath and changing room.
+          </p>
+          <p>
+            The next thing was a library, it was mostly unused and dusty, the
+            only books to be found here where either decades old or older
+            students books left behind. Walking further down the main hall on
+            the first floor we came to a large circular door. There where
+            markings all around the door frame, a language I did not know. The
+            door was made of four circles. Three outer circles which looked like
+            they could rotate independently marked with weird markings, one for
+            each. The last was the middle circle, it just had one symbol but did
+            not look like it would rotate.
+          </p>
           {/* Here */}
+          <p>"And this is?" I asked, gesturing to the door.</p>
+          <p>"Sex dungeon." Tisiel replied without missing a beat.</p>
+          <p>"Aha, you have a strange sense of humor." I laughed.</p>
           <p>
-            Tisiel took me around, there were shared bath's on each floor.
-            Students slept and cooked on floors 2 - 4. On the first floor was a
-            library, it was mostly unused and dusty, the only books to be found
-            here where either centuries old or older students books left behind.
-            Walking further down the main hall on the first floor we came to a
-            large circular door. There where markings all around. There where 4
-            circles, 3 outer circles had these weird markings around them and
-            the middle circle just had one symbol also nothing that I had seen
-            before.
+            "Fine you got me. I have no idea what this is either, truth be told,
+            not sure anyone does. No one we asked know what it is." She replied.
           </p>
-          <p>Otto - "And this is?"</p>
-          <p>Tisiel - "Sex dungeon."</p>
-          <p>Otto - "Aha, you have a strange sense of humor."</p>
+          <p>"Mmm let's just hope it stays shut." I said.</p>
+          <p>"Yeah, so how about that dinner?" She replied.</p>
           <p>
-            Tisiel - "Fine you got me I have no idea what this is either, truth
-            be told not sure anyone does. No one we asked know what it is."
-          </p>
-          <p>Otto - "Bad decor"</p>
-          <p>Tisiel - "Aha, so how about that dinner?"</p>
-          <p>
-            Otto - "Sounds good to me, I have no plans to cook tonight. Know any
-            places?"
+            "Sounds good to me, I think you earned it. Know any places?" I
+            asked.
           </p>
           <p>
-            Tisiel - "Nowhere special but just past the Leika's area is the
-            restaurants that are closest to here, they all seem fine to me."
-          </p>
-          <p>Otto - "Lead the way, I'll pay."</p>
-          <p>Tisiel - "Ohhh have you not spent the loan yet?"</p>
-          <p>
-            Otto - "Ah, I mean. It's not really my money. We were attacked on
-            the way here."
+            "Nowhere special but just past the Leika's area is the restaurants
+            that are closest to here, they all seem fine to me. You know the
+            place with the normal houses we can't stay in..." She replied.
           </p>
           <p>
-            Tisiel - "Do Alden gods not curse those who take from the dead?"
+            "Lead the way, I'll pay. I knew those houses were Leikan style. Why
+            are they out here? Don't they have their own academy in Alden?" I
+            asked.
           </p>
           <p>
-            Otto - "Can't say I know of any curses but it is not like she will
-            need it now."
+            "Ohhh have you not spent the loan yet?" She asked. "Oh a Leikan
+            princess came to study Aldenese magic. That's all I really know to
+            be honest." She added.
           </p>
-          <p>Tisiel - "You are going to fit in here. Ahaha."</p>
           <p>
-            We went out for dinner in the main town, she showed me around, there
-            was more to do closer to the academy, from pubs, sports, gambling,
-            dueling, and many other entertainments. The notable places around
-            the main academy where the market areas, the main of which had a
-            large church near by, the large arena, the academy's main library
-            and mission office.
+            "Ah okay well would be nice to be able to study aboard." I then
+            added "I mean. It's not really my money. We were attacked on the way
+            here."
+          </p>
+          <p>
+            "Do the Gods not curse those who take from the dead?" She said
+            shocked.
+          </p>
+          <p>
+            "Can't say I know of any curses but it is not like she will need it
+            now." I replied.
+          </p>
+          <p>"You are going to fit in here. Ahaha." She laughed.</p>
+          {/* HEre */}
+          <p>
+            We went out for dinner in closest street. She also showed me around
+            some more, there was more to do closer to the academy, from pubs,
+            sports, gambling, dueling, and many other entertainments. The
+            notable places around the main academy where the market areas, the
+            main of which had a large church near by. The large arena, the
+            academy's main library and mission office.
           </p>
           <p>
             After dinner we made their way back to the cliffside dorm. At the
             entrance to the door Tisiel spoke "I am home brother."
           </p>
           <p>To my surprise the door spoke back. "Welcome home sister."</p>
-          <p>Otto - "What was that?"</p>
+          <p>"What was that?" I asked.</p>
           <p>
-            Tisiel - "Ah, the password. The cliffside dorm is old, no one has
-            explained how it works only that it does."
+            "Ah, the password. The cliffside dorm is old, no one has explained
+            how it works only that it does." She replied.
           </p>
           <p>
-            Otto - "Well it is good to know how to get in, I was worried someone
-            would always have to be inside."
+            "Well it is good to know how to get in, I was worried someone would
+            always have to be inside." I joked.
           </p>
           <p>
-            I went to my room after to read though the books that the note had
-            told me to. The MM&M book was a about mages and what that means. In
-            short it described them as a class which casts spells using mana.
-            The book went on in more detail on the spells in each chapter but
-            since I only had to read chapter one I picked up the history book.
+            I went to my room after parting ways to read though the books that
+            the note had told me to. The MM&M book was a about mages and how to
+            use the basic spells. In short it described them as a class which
+            casts spells using mana. The book went on in more detail on the
+            spells in each chapter but since I only had to read chapter one I
+            picked up the history book after.
           </p>
           <p>Chapter 1.</p>
           <div className="ProfileCard-Outer">
@@ -460,7 +482,6 @@ function intro(props) {
             The witch of Alden, a story we all know. I went to bed right after
             reading it.
           </p>
-          {/* <!-- sleep --> */}
         </div>
       </div>
     </div>
