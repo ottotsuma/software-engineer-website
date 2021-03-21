@@ -8,46 +8,72 @@ function intro(props) {
         <div className="Content">
           <h3>Academy</h3>
           <p>
-            The academy at first appeared to be a large and quite impressive but
-            much smaller building than expected, situated inside the rainforest
-            Banderedam was famous for. With tall tress hiding the building from
-            a clear view, as you got closer to the building you could see vines
-            growing up the side of the stone work, towers with no tops poked out
-            from behind here and there, the place appeared to be in ruin in
-            areas. Students could be seen on mounts, in carriages or on foot,
-            unloading near the entrance. There where two large doors left wide
-            open, standing near by where men dressed in an assortment of all
-            different colours most in robes but a few in metal armor. Inside of
-            the two doors where you would expect there to be stairs or a great
-            hall was two giant stone spikes, they resembled claws and reached
-            30m from the ground to their top where they stopped just shy of the
-            roof. Between these pillars was a mass of dizzying, swirling purple
-            liquid, a purple I knew well, it was the same purple I saw the
-            manastone turn back in the village hall.
+            The academy at first appeared to be a large and quite impressive
+            building but I had expected a much wider campus and maybe more then
+            one building for all of students and staff to fit in there would be
+            a squeeze.
+          </p>
+          <p>
+            Situated inside the rainforest, near Banderedam. With tall tress
+            hiding the building from a clear view. As I got closer to the
+            building I could see vines growing up the side of the stone work,
+            towers with no tops poked out from behind here and there. Overall
+            the place seemed a little run down.
+          </p>
+          <p>
+            Other students could be seen on mounts like giant ants, frogs,
+            plants that slivered across the floor like snakes or drawn in
+            carriages behind lizards whose bellies almost dragged along the
+            floor as they walked. Their stumpy thick limbs sticking out of the
+            sides at almost ninety degree angles. Finally some students simply
+            on foot like myself.
+          </p>
+          <p>
+            The students who came by carriage or mount were unloading near the
+            entrance. There where two large doors left wide open, next to which
+            stood people dressed in an assortment of all different colours, most
+            in robes but a few in metal armor. Inside of the two doors where you
+            would expect there to be stairs or a great hall was two giant stone
+            spikes. They resembled claws and reached 30m from the ground to
+            their top where they stopped just shy of the roof. Between these
+            pillars was a mass of dizzying, swirling purple liquid, a purple I
+            knew well, it was the same purple I saw the manastone turn back in
+            the village hall.
+          </p>
+          <p>
+            Once I stepped though the portal I could see stretched out before me
+            a long white bridge, winged with trees leading to a large palace.
+            The door around 30m in height, looked like it was made of gold. With
+            towers pointing out from the structure and. The rooves where lined
+            and etched in gold. Even the dome which sat above the main gate
+            house appeared to be made of gold. The rooves main color was a light
+            blue and they where pointed like a castle from fairy tale. I suppose
+            this is were the stories got their inspirations.
           </p>
 
-          <h3>Inside</h3>
           <p>
-            Once I stepped though the portal I could see stretched out before
-            him a long white bridge winged with more trees leading to a large
-            palace, the door 30m tall appeared to be made of gold, with towers
-            pointing up around the structure and beyond who's rooves where lined
-            and etched in gold. Even the dome which sat above the main gate
-            house appeared to be made of gold, the rooves a light blue pointed
-            like castle from fairy tales, the walls pure white like marble. The
-            biggest change of all was that the rainforest was gone and replaced
-            by towering mountains where the palace sat in the valley between.
+            The biggest change of all was that the rainforest that could be seen
+            in every direction around Banderedam was gone and replaced by
+            towering mountains.
           </p>
-          <div className="pop">Academy<img className="popOut" height="400px" src="https://ottotsuma.github.io/images/academy7.jpg" alt="Academy" /></div>
+          <div className="pop">
+            Academy
+            <img
+              className="popOut"
+              height="400px"
+              src="https://ottotsuma.github.io/images/academy7.jpg"
+              alt="Academy"
+            />
+          </div>
 
           {/* <!-- stuff happens / sign up etc --> */}
 
           <p>
             Upon signing the scroll I felt warm and golden light bathed me. Then
-            suddenly a message appeared in front of my eyes. "Title: Back to
-            School - Enter the academy, +1 Magic". I was elated, I had only just
+            suddenly a message appeared in front of my eyes. [Title: Back to
+            School - Enter the academy, +1 Magic]. I was elated, I had only just
             joined and already my magic was increasing! Why was it called "Back
-            to School?" if it is unlocked the first time you come? never mind. I
+            to School?" If it is unlocked the first time you come? never mind. I
             quickly loaded my stats.
           </p>
 
@@ -70,10 +96,10 @@ function intro(props) {
             <li>Sense: 1</li>
             <li>Charisma: 2</li>
           </p>
-
           <p>
-            "Building: Cliffside. Room: 501 A key is place in my hand as I was pulled back to
-            reality. Slightly embarrassed by my outbursts I quickly apologized
+            "Building: Cliffside. Room: 501 A key is place in my hand as I was
+            pulled back to reality. Slightly embarrassed by my outbursts I
+            quickly apologized
           </p>
           <p>
             "I am use to it, all commoners are the same when they first arrive."
@@ -163,11 +189,14 @@ function intro(props) {
           </p>
 
           <p>
-            Ralsan - "That'll be the case, 501? 5th floor, room 1. Ralsan is my
-            name, this is Tisiel" A girl waved her hand, "Shrorlei Crerlass" the
-            other girl waved quickly once with her hand, "finally we have
-            Reingard". The final boy waved. "We are the next first years staying
-            in this building also."
+            "That'll be the case, 501? 5th floor, room 1. Ralsan is my name,
+            this is Tisiel" A girl waved her hand, she was about the same height
+            as me with long curly brown hair. "Shrorlei Crerlass" the other girl
+            waved quickly once, she was really short but looked strong. "Finally
+            we have Reingard". The final boy waved, his shoulders were wide
+            looking more like a warrior then a mage type I had in my mind. "We
+            are the next first years staying in this building also." Ralsan
+            said.
           </p>
 
           <p>Otto - "I see, why are we the 'dammed'?"</p>
@@ -336,35 +365,46 @@ function intro(props) {
           <p>Chapter 1.</p>
 
           <div className="ProfileCard-Outer">
-  <div className="ProfileCard">
-    <div className="Card-Middle"></div>
-    <div className="Card-Content">    
-    <div className="Card-Left">
-      <h3 className="Card-Font" id="CardTitle" >The Witch of Alden</h3>
-      <p id="Card-Font" >Level 50</p>
-      <h4 className="Card-Font" >Class: Witch.</h4>
-      <p id="Card-Font" >Magic +2, Dexterity +1</p>
-      <p id="Card-Font" >Potions are 10% more effective</p>
-      <h4 className="Card-Font" >Familia: Pyewacket.</h4>
-      <p id="Card-Font" >Shared: Mana-link, Cats eyes.</p>
-      <p id="Card-Font" >Not Shared: Cute, Shadow steps, Meow music</p>
-      <h4 className="Card-Font" >Race: Human.</h4>
-      <p id="Card-Font" >Sense +1
-        Charisma +2</p>
-        <p id="Card-Font" >
-          (Can use all tools and weapons)</p>
-    </div>
-      <div className="Card-Right" onClick={()=>{console.log('Clicked')}}>
-      <img src={Witch} id="Witch" alt="Witch" />
-      <h4 className="Card-Font" >Items</h4>
-      <p id="Card-Font" >Witches Hat, Mantel, Gloves, Boots, Bracelet, Wand.</p>
-      <p id="Card-Font" >Diwrnach's cauldron, Witches Broom.</p>
-      <h4 className="Card-Font" >Stats</h4>
-      <p id="Card-Font" >Vitality +10, Magic +50, MDef +20, Charisma +20</p>
-    </div>
-  </div>
-  </div>
-</div>
+            <div className="ProfileCard">
+              <div className="Card-Middle"></div>
+              <div className="Card-Content">
+                <div className="Card-Left">
+                  <h3 className="Card-Font" id="CardTitle">
+                    The Witch of Alden
+                  </h3>
+                  <p id="Card-Font">Level 50</p>
+                  <h4 className="Card-Font">Class: Witch.</h4>
+                  <p id="Card-Font">Magic +2, Dexterity +1</p>
+                  <p id="Card-Font">Potions are 10% more effective</p>
+                  <h4 className="Card-Font">Familia: Pyewacket.</h4>
+                  <p id="Card-Font">Shared: Mana-link, Cats eyes.</p>
+                  <p id="Card-Font">
+                    Not Shared: Cute, Shadow steps, Meow music
+                  </p>
+                  <h4 className="Card-Font">Race: Human.</h4>
+                  <p id="Card-Font">Sense +1 Charisma +2</p>
+                  <p id="Card-Font">(Can use all tools and weapons)</p>
+                </div>
+                <div
+                  className="Card-Right"
+                  onClick={() => {
+                    console.log("Clicked");
+                  }}
+                >
+                  <img src={Witch} id="Witch" alt="Witch" />
+                  <h4 className="Card-Font">Items</h4>
+                  <p id="Card-Font">
+                    Witches Hat, Mantel, Gloves, Boots, Bracelet, Wand.
+                  </p>
+                  <p id="Card-Font">Diwrnach's cauldron, Witches Broom.</p>
+                  <h4 className="Card-Font">Stats</h4>
+                  <p id="Card-Font">
+                    Vitality +10, Magic +50, MDef +20, Charisma +20
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
 
           <p>
             The witch of Alden, a story we all know. I went to bed right after
