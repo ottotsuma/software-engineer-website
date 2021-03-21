@@ -625,7 +625,6 @@ most people learn inspect but either see
             "Ahahaha, no, no. Don't know much about Rogues do you? Alright let's
             start from the beginning"
           </p>
-          {/* <!-- Shit about rouges --> */}
           <div className="BreakPoint"></div>
           <h3>Training</h3>
           <p>
@@ -697,7 +696,6 @@ most people learn inspect but either see
           </p>
           <p>With a nod Beke agrees and joins the group.</p>
           <h4>Effi POV</h4>
-          {/* Make this into a book? Learning from it and the different countries and species? */}
           <p>
             I had joined the warrior group. I was surprised to see that even the
             older kids were placed with the younger ones. My dad had told me
@@ -754,7 +752,14 @@ most people learn inspect but either see
             the military academy's which all warriors at age 14 were expected to
             do, this basic understanding was a must.
           </p>
-          <p>Now I could join in the lesson with the others! </p>
+          <p>
+            Now I could join in the lesson with the others! Each group had a
+            large map layed out on the floor and had to match the people group
+            to each of the areas they lived in. While people moved around so it
+            was not like all elves lived in one place but it was safe to say the
+            majority lived in the Mifuegan League, the most western country.
+            Aldenese was easy! That was right here in Alden.
+          </p>
           <h4>Beke POV</h4>
           {/* <!-- Lunch and discussion of the others  --> */}
           <p>
@@ -783,14 +788,12 @@ most people learn inspect but either see
             "Ha! He couldn't cast a spell even WHEN his life depended on it"
           </p>
           <p>More silence.</p>
-          {/* <!-- Lessons --> */}
-          {/* Teaching spells/skills and use of the system? */}
           <h4>Skill tree lesson - Otto</h4>
           <p>
             After being directed away by an old man behind a desk I was facing a
             room of other children like me sitting on the floor off to the side
-            of the main entrance. There was about 14 like me in total and a tall
-            skinny man at the front, his boney hand gestured for me to sit down
+            of the main entrance. There was about 14 in total and a tall skinny
+            man at the front, his boney hand gestured for me to sit down
             anywhere. As soon as I had he carried on speaking as if I had always
             been here.
           </p>
@@ -803,10 +806,9 @@ most people learn inspect but either see
           <p>
             "You all have 2 skill trees right now. Your class, for you all
             sitting here today that is Mage. If you put points into this skill
-            tree you will increase the amount of mana you have, learn magic
-            spells and other wondrous things. Your second tree is your race, for
+            tree you will learn magic spells. Your second tree is your race, for
             everyone here today that is clearly Human. For other races such as
-            elves from the Mifuegan League and naga from the kingdom, their race
+            elves from the Mifuegan League and naga from the Kingdom, their race
             tree will not be human but of their own race."
           </p>
           <p>
@@ -825,13 +827,8 @@ most people learn inspect but either see
             in a party. This made humans particularly in large numbers, and
             political environments.
           </p>
-          {/* <!-- human other races skill tress vs className skill tree. -->
-
-<!-- levels --> */}
           <div className="BreakPoint"></div>
           <h3>departure</h3>
-          {/* <!-- departure -->
-<!-- <p>Village leader sends off all the 14 year olds. (Beke having left the year before)</p> --> */}
           <p>
             Nils leaves for the capital to learn art otto leaves for the mages
             academy in walled city of Banderedam Effi moves to the walled city
