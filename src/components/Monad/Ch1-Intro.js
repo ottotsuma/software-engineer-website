@@ -837,15 +837,23 @@ most people learn inspect but either see
             Nils. Nils was going to the capital to study art. It was an unusual
             choice but he had been accepted by a school there. Otto was going to
             the academy to train to be a mage, the choice was very predictable.
-            I was going to the military base near Grafen, a large city south of
-            the village.
           </p>
-          {/* <!-- <p>female fighter and the male mage. Born around the same time, within a year. Born to different families, he was born to a poor family and her to a well off but not rich. They grow up playing with the other children of the area, she is a strong leader, slightly older and often tells others what to do. He is smaller and weaker then the older boys but not weaker then the younger ones, being poor nets him little in the way of good meat. He has an has little natural talent for anything while she often finds success at anything she tries.</p>
-
-<p>Starting with families, places born, the area, skipping until the children are old enough to make friends, thought their parents arrangements, the group travel off to seek adventure in the local woods. They play there often and come across some kind of monster and try to slay it like in their play time, things go wrong and some of the kids die and the others discover the game like world.</p>
-
-<p>after the adults discover the incident the children are chastised and later sent to join their professions advisers in the town hall where they spend the rest of the time until they are 14 and sent to train.</p> -->
-
+          <p>
+            As for me? I was going to the military base near Grafen, a large
+            city south of the village. I was so excited. My mother is a warrior,
+            my dad said she is really strong too. My dad is an archer and
+            hunter. He taught me how to use his bow when I turned 13 but I want
+            to become strong like my mother able of protecting anyone near her.
+          </p>
+          <p>
+            There were students from the town hall and even some from small
+            hamlets or lone houses. We moved in a big group with some of the
+            adults for protection. They would walk us to the next big town and
+            swap with the adults from that town. Since our town is so far away
+            from the academy we were some of the first students in the country
+            to set off.
+          </p>
+          {/* 
 <!-- 
 These are the names given by the people of Alden.   
 Alden - german 
