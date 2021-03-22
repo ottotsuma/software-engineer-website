@@ -695,6 +695,75 @@ most people learn inspect but either see
             us train basic fighting."
           </p>
           <p>With a nod Beke agrees and joins the group.</p>
+          <h4>Beke POV</h4>
+          {/* <!-- Lunch and discussion of the others  --> */}
+          <p>
+            After training with the others in the Rogue group, Beke started to
+            like it, although his level was lower he was popular with the others
+            who wanted to train against a new opponent and made a few new
+            friends.
+          </p>
+          <p>
+            Beke places his lunch try down and looks around at his group of
+            Rogues, the Fighters sitting on other tables. "So where did Nils end
+            up, as a mage?"
+          </p>
+          <p>
+            "Oh, no he is practicing to be an artist, I hear he's going to go to
+            the Capital to train"
+          </p>
+          <p>"Oh, what about Effi?" Beke says with a little disgust.</p>
+          <p>"The stone turned red for her, Fighter"</p>
+          <p>"A Fighter!? How could a coward like that become a Fighter?"</p>
+          <p>
+            Silence filled the table. "What about Otto, did he even turn up?"
+          </p>
+          <p>"... Purple, mage."</p>
+          <p>
+            "Ha! He couldn't cast a spell even WHEN his life depended on it"
+          </p>
+          <p>More silence.</p>
+          {/* Move skill lessons to Beke. Otto doesn't need this chapter. */}
+          <h4>Skill tree lesson - Otto</h4>
+          <p>
+            After being directed away by an old man behind a desk I was facing a
+            room of other children like me sitting on the floor off to the side
+            of the main entrance. There was about 14 in total and a tall skinny
+            man at the front, his boney hand gestured for me to sit down
+            anywhere. As soon as I had he carried on speaking as if I had always
+            been here.
+          </p>
+          <p>
+            "If you remember from earlier Luis told us that when you unlock your
+            first level, you will have access to your skill trees. These trees
+            are where you can spend your skill points to acquire new abilities
+            or just improve your current abilities."
+          </p>
+          <p>
+            "You all have 2 skill trees right now. Your class, for you all
+            sitting here today that is Mage. If you put points into this skill
+            tree you will learn magic spells. Your second tree is your race, for
+            everyone here today that is clearly Human. For other races such as
+            elves from the Mifuegan League and naga from the Kingdom, their race
+            tree will not be human but of their own race."
+          </p>
+          <p>
+            "Today we will be looking at the Human skill tree. This skill tree
+            is often overlooked by not only combat focused people but also other
+            races. While other races might get direct combat related skills and
+            buffs the human skill tree is mostly focused around the charisma
+            stat. This is the most overlooked stat in my opinion but you can
+            make up your own mind."
+          </p>
+          <p>
+            Over the course of the day we made notes and learned about the
+            various skills and advantages and of course the disadvantages the
+            human skill tree. The overall gist being that the human skill tree
+            made humans appear more trustworthy, liked and various boots while
+            in a party. This made humans particularly in large numbers, and
+            political environments.
+          </p>
+          <div className="BreakPoint"></div>
           <h4>Effi POV</h4>
           <p>
             I had joined the warrior group. I was surprised to see that even the
@@ -760,80 +829,16 @@ most people learn inspect but either see
             majority lived in the Mifuegan League, the most western country.
             Aldenese was easy! That was right here in Alden.
           </p>
-          <h4>Beke POV</h4>
-          {/* <!-- Lunch and discussion of the others  --> */}
+          {/* <h3>Departure</h3> */}
           <p>
-            After training with the others in the Rogue group, Beke started to
-            like it, although his level was lower he was popular with the others
-            who wanted to train against a new opponent and made a few new
-            friends.
-          </p>
-          <p>
-            Beke places his lunch try down and looks around at his group of
-            Rogues, the Fighters sitting on other tables. "So where did Nils end
-            up, as a mage?"
-          </p>
-          <p>
-            "Oh, no he is practicing to be an artist, I hear he's going to go to
-            the Capital to train"
-          </p>
-          <p>"Oh, what about Effi?" Beke says with a little disgust.</p>
-          <p>"The stone turned red for her, Fighter"</p>
-          <p>"A Fighter!? How could a coward like that become a Fighter?"</p>
-          <p>
-            Silence filled the table. "What about Otto, did he even turn up?"
-          </p>
-          <p>"... Purple, mage."</p>
-          <p>
-            "Ha! He couldn't cast a spell even WHEN his life depended on it"
-          </p>
-          <p>More silence.</p>
-          <h4>Skill tree lesson - Otto</h4>
-          <p>
-            After being directed away by an old man behind a desk I was facing a
-            room of other children like me sitting on the floor off to the side
-            of the main entrance. There was about 14 in total and a tall skinny
-            man at the front, his boney hand gestured for me to sit down
-            anywhere. As soon as I had he carried on speaking as if I had always
-            been here.
-          </p>
-          <p>
-            "If you remember from earlier Luis told us that when you unlock your
-            first level, you will have access to your skill trees. These trees
-            are where you can spend your skill points to acquire new abilities
-            or just improve your current abilities."
-          </p>
-          <p>
-            "You all have 2 skill trees right now. Your class, for you all
-            sitting here today that is Mage. If you put points into this skill
-            tree you will learn magic spells. Your second tree is your race, for
-            everyone here today that is clearly Human. For other races such as
-            elves from the Mifuegan League and naga from the Kingdom, their race
-            tree will not be human but of their own race."
-          </p>
-          <p>
-            "Today we will be looking at the Human skill tree. This skill tree
-            is often overlooked by not only combat focused people but also other
-            races. While other races might get direct combat related skills and
-            buffs the human skill tree is mostly focused around the charisma
-            stat. This is the most overlooked stat in my opinion but you can
-            make up your own mind."
-          </p>
-          <p>
-            Over the course of the day we made notes and learned about the
-            various skills and advantages and of course the disadvantages the
-            human skill tree. The overall gist being that the human skill tree
-            made humans appear more trustworthy, liked and various boots while
-            in a party. This made humans particularly in large numbers, and
-            political environments.
-          </p>
-          <div className="BreakPoint"></div>
-          <h3>departure</h3>
-          <p>
-            Nils leaves for the capital to learn art otto leaves for the mages
-            academy in walled city of Banderedam Effi moves to the walled city
-            of Grafen, and the military training school. Beke also moves to the
-            walled city of Grafen and starts military training.
+            2 years later. After Jun 12th sometime before winter, ee had all
+            turned 14. Beke had turned 14 the year before and departed the
+            village to go to a Military camp. This year I stood next to Otto and
+            Nils. Nils was going to the capital to study art. It was an unusual
+            choice but he had been accepted by a school there. Otto was going to
+            the academy to train to be a mage, the choice was very predictable.
+            I was going to the military base near Grafen, a large city south of
+            the village.
           </p>
           {/* <!-- <p>female fighter and the male mage. Born around the same time, within a year. Born to different families, he was born to a poor family and her to a well off but not rich. They grow up playing with the other children of the area, she is a strong leader, slightly older and often tells others what to do. He is smaller and weaker then the older boys but not weaker then the younger ones, being poor nets him little in the way of good meat. He has an has little natural talent for anything while she often finds success at anything she tries.</p>
 

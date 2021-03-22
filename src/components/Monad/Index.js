@@ -33,6 +33,7 @@ import Chapter30 from "./Ch30-Arrilian";
 import Chapter31 from "./Ch31-Flowers";
 import Chapter32 from "./Ch32-Survival";
 import Chapter33 from "./Ch33-BackToSchool";
+import Chapter34 from "./Ch34-Duel";
 
 
 const ChapterList = [
@@ -68,7 +69,8 @@ const ChapterList = [
   Chapter30(),
   Chapter31(),
   Chapter32(),
-  Chapter33()
+  Chapter33(),
+  Chapter34()
 ];
 
 const scrollTop = () => {
