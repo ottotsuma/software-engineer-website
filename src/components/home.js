@@ -7,28 +7,9 @@ import Secret from "./../assets/Group1.png";
 import Food from "./../assets/foodlogo.png";
 import Video from "./video";
 import styled, { css } from "styled-components";
+import Hidden from './elements/hidden'
+import Anchor from './elements/anchor'
 
-// Styles
-// Anchor button
-const Anchor = styled.div`
-  color: white;
-  background: #638ad4;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 53%;
-  height: 10%;
-`;
-// Glass-Outside
-// Glass
-// Profile
-// Hidden 
-const Hidden = styled.div`
-  background: inherit;
-  width: 10px;
-  height: 10px;
-  align-self: flex-end;
-`;
 
 // Change window function
 function change(props) {
@@ -85,9 +66,6 @@ function home() {
               <Link to="/tech">Technical Skills</Link>
             </div>
           </div>
-          {/* <div className="Play-Box">
-            <Link to="/Blackjack">Blackjack</Link>
-          </div> */}
           <Anchor>
             <Link to="/Blackjack" style={{ color: "white" }}>
               Blackjack

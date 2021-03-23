@@ -766,7 +766,7 @@ most people learn inspect but either see
           <div className="BreakPoint"></div>
           <h4>Effi POV</h4>
           <p>
-            I had joined the warrior group. I was surprised to see that even the
+            I had joined the fighter group. I was surprised to see that even the
             older kids were placed with the younger ones. My dad had told me
             that education starts the day you become level one but I guess that
             happens at different times. He said we started early and most kids
@@ -818,7 +818,7 @@ most people learn inspect but either see
           </div>
           <p>
             There was more to each of the stats I was told but to join one of
-            the military academy's which all warriors at age 14 were expected to
+            the military academy's which all fighters at age 14 were expected to
             do, this basic understanding was a must.
           </p>
           <p>

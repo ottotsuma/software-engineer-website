@@ -8,24 +8,44 @@ function intro(props) {
           <h3>Lessons</h3>
           {/* Lubin */}
           <p>
-            "Now who can tell me what separates a Mage does with their mana
-            which separates them from the Fighters?" The teacher asked to the class. His name was Lubin 
+            "Now who can tell me what separates a Mage from a Fighter? In
+            particular how they use their mana." The teacher asked to the class.
+            His name was Lubin, he was my teacher for combat classes and general
+            magic. Unlike some of the other teachers who where researchers or
+            third year students Lubin was a full time teacher at the academy.
+            His job was to write the curriculum for the magic classes taught to
+            all students so he naturally taught that class as well.
+          </p>
+          <p>
+            We would had three classes this year. Magic, Combat and our element.
+            While there might be minor events or one time classes this meant
+            this year I would only have 2 teachers. I had yet to meet my other
+            teacher but I was glad to have Lubin so far he seemed like a
+            professional teacher.
           </p>
           <p>
             "They project their mana into the world around them to cause change"
+            One of the students answered while I was thinking about the
+            introduction to the school we had just finished.
           </p>
           <p>
-            "Good, you should all already know that having read chapter 1 of
-            MM&M."
+            "Good answer. You should all already know that having read chapter 1
+            of MM&M. Mages channel the mana inside their bodies into the world
+            in the form of spells." Lubin replied.
           </p>
           <p>
             "Todays lesson is about getting you all understanding the directions
-            you can take as a Mage, the roles can fill in Alden and beyond and
-            of course where to put your points."
+            you can take as a Mage. The kind of jobs you can get in Alden and
+            beyond. Since all of you here are taking the combat class this will
+            give you an idea of the jobs you can get as a warrior-mage. And
+            finally where to put your stat points." Lubin said.
           </p>
           <p>
             "We will start with a brief look at the common elements mages have
-            and maybe a few specific to nobel families of Alden."
+            and maybe a few specific to nobel families of Alden. Before moving
+            onto common jobs. Turn to chapter 2 in MM&M." Lubin said as he wrote
+            down the names and symbols of the elements on a board behind him
+            with chalk.
           </p>
 
           <div className="Elementals">
@@ -86,40 +106,54 @@ function intro(props) {
               <p>Metal</p>
             </div>
           </div>
-
           <p>
             "Each element has a set of spells that come with it. These elements
-            on page 1 are common elements found though the whole continent. If
+            behind me are common elements found though the whole continent. If
             we focus on earth for example, spells might include defensive spells
             like earth wall, offensive spells like earth spike or non-combat
-            spells like soften."
+            spells like soften." Lubin said.
           </p>
           <p>
-            "Which spells you pick up, how to use them makes every earth mage
+            "Which spells you pick up, how you use them, makes every earth mage
             different in some way. While this has its advantages, such as being
-            versatile and able to solve different problems. The flip side to
-            this is why the army provide a manual to all students wanting to
-            join them, uniform mages. This makes forming companies easier for
-            the army because they can fit mages where they need them, knowing
-            they can do the role they need them to do. Most earth mages in the
-            army have earth wall for example, high as possible. Without earth
-            wall you could not join the military as a standard earth mage."
+            versatile. The flip side is the army. They provide a manual to all
+            students wanting to join them, this way they can have uniform mages.
+            This makes forming regiments easier for the army because they do not
+            have to match unique variants together to bring out their best. They
+            had taken lessons from history and picked out what works best for
+            them. Most earth mages in the army have earth wall for example, high
+            as possible. Without earth wall you could not join the military as a
+            standard earth mage." Lubin continued.
           </p>
           <p>
-            Look at Alden only elements from the nobel families. As you may know
-            most nobel families of Alden come from fighters line and there are
-            few mages even found within their families. However the city of
-            Alden's very own the Grand Duke has royal lightning, it is purple in
-            color and has not been seen outside of their family. Argavereri's
-            Viscount uses a green smoke element, most unusual. Finally baron
-            Mann based at Soldenheim famously uses runes.
+            "Looking at Alden's unique elements most are with the nobel
+            families. As you may know most nobel families of Alden come from the
+            fighters line. There are few mages found within their families.
+            However the city of Alden's very own the Grand Duke has royal
+            lightning, it is purple in color and has not been seen outside of
+            their family. Argavereri's Viscount uses a green smoke element, most
+            unusual. Finally baron Mann based at Soldenheim famously uses
+            runes." Lubin explained.
           </p>
           <p>
             "While I did not mention the witches of the witches coven, we should
-            all know about them after all the witch of Alden was apart of the
-            same coven. However those magics are taught to any women who joins
-            and not held by one family."
+            all know about them after all. The witch of Alden, founder of this
+            country, was apart of the same coven. However those magics are
+            taught to any women who joins and not held by one family." Lubin
+            explained.
           </p>
+          <p>
+            We then split into small groups to look though the histories book
+            and asked to match up as many persons in the book to the jobs found
+            in Alden. This would help us get familiar with the histories book,
+            some of the people inside and the jobs found in Alden all at the
+            same time.
+          </p>
+          <p>
+            The lesson went on for another 25 minutes like this before being
+            asked to present our findings in small groups.
+          </p>
+          {/* Here */}
           <p>
             "Looking at how to spend your points. Firstly stats, Magic affects
             the total amount of MP you have, so that is usually the main stat

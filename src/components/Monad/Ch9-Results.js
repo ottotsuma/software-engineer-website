@@ -265,7 +265,7 @@ Reingard". boy - alden likes Tisiel Skivali  becomes tank --> */}
 
           <p>
             "12!? Your gear must be really expensive, most gear with strength
-            stats are expensive and usually only warriors use them!" A student
+            stats are expensive and usually only fighters use them!" A student
             half shouted from behind me.
           </p>
 
