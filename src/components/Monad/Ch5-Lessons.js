@@ -154,57 +154,64 @@ function intro(props) {
             asked to present our findings in small groups.
           </p>
           <p>
-            "Now lets look at how to invest your stat points. Firstly, Magic affects
-            the total amount of MP you have, so that is usually the main stat
-            for Mages. Even if you plan to be a front line fighter, healer or
-            non-combatant." Lubin said after the class had come back to watch him lecture.
+            "Now lets look at how to invest your stat points. Firstly, Magic
+            affects the total amount of MP you have, so that is usually the main
+            stat for Mages. Even if you plan to be a front line fighter, healer
+            or non-combatant." Lubin said after the class had come back to watch
+            him lecture.
           </p>
 
           <p>
-            "For the other stat points & spell points we have provided you a book
-            containing what past mages have done and how it worked out for them.
-            You can either copy one of them or just learn from what they did and
-            make your own path. Unless you want to join the military directly." Lubin followed up with.
+            "For the other stat points & spell points we have provided you a
+            book containing what past mages have done and how it worked out for
+            them. You can either copy one of them or just learn from what they
+            did and make your own path. Unless you want to join the military
+            directly." Lubin followed up with.
           </p>
 
           <p>
-            "If there are any questions, you will be seeing me once a day, four days
-            a week, so please wait until you have read though 'Exemplary mages: a
-            history' before asking questions. As you might find your answers in
-            there." Lubin said.
-          </p>
-{/* Here */}
-          <p>
-            The class shorty dismissed after, I went to the library along with
-            many of the other students from my class and other first year
-            classes. The main library was split into sections and first years
-            who where not nobles of any kind could only access the first floor
-            which soon became packed. Deciding I had the book I needed to read I
-            would just go back to the cliffside.
+            "If there are any questions, you will be seeing me once a day, four
+            days a week, so please wait until you have read though 'Exemplary
+            mages: a history' before asking questions. As you might find your
+            answers in there." Lubin said.
           </p>
 
           <p>
-            In the library on the cliffside I got to reading the histories by
-            the light given off by the large stone pillars. After reading though
-            so many of the Mages from the past I soon found myself bored and
-            looking for anything else to distract me. I started looking along
-            the spines of the old books around the library; 'Fire Magic',
-            'Faming with mana - Pocotcotcan magic', 'Lusty Ma...', 'The
+            Shortly after the class was dismissed. I went to the library along
+            with many of the other students from my class and other first year
+            classes. The main library was split into sections. First years could
+            only access the first floor which soon became packed. I couldn't see
+            a good place to sit with students everywhere. I had the book I
+            needed with me anyway it's not like I had to use the library to
+            study so I went back to the cliffside.
+          </p>
+          <p>
+            In the library on the cliffside I got to reading the histories under
+            one of the large stone pillars with light coming out from it. After
+            reading though so many of the Mages from the past I soon found
+            myself bored and looking for anything else to distract me. I started
+            looking along the spines of the old books around the library; 'Fire
+            Magic', 'Faming with mana - Pocotcotcan magic', 'Lusty Ma...', 'The
             Summoner: Morian Zenas'. "Oh he's in the histories book, wonder if
-            it's different".
+            it's different". I said a loud, clearly the studying was driving me
+            mad.
           </p>
 
           <p>
-            "I guess the people that wrote the histories just copied directly
-            from these older books."
+            After reading and comparing the book to the pages for awhile I
+            concluded that the people that wrote the histories just copied
+            directly from these older books. Cutting out the stories and reasons
+            why they made their decisions and just wrote down the outcomes and
+            stats.
           </p>
+          {/* Here */}
           <p>
-            "Looking though the books again I found a book half on its side,
+            Looking though the books again I found a book half on its side,
             'Otto Magnus Of Might' curious, I opened the book to find the pages
             had been cut cleanly and inside the book was a black key, and the
             number 34, and below it some strange makings, markings similar to
             the door shown to him by Tisiel. The key looked to be similar to the
-            one to my room."
+            one to my room.
           </p>
 
           <p>
