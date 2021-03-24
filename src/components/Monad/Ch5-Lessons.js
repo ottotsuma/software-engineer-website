@@ -153,28 +153,27 @@ function intro(props) {
             The lesson went on for another 25 minutes like this before being
             asked to present our findings in small groups.
           </p>
-          {/* Here */}
           <p>
-            "Looking at how to spend your points. Firstly stats, Magic affects
+            "Now lets look at how to invest your stat points. Firstly, Magic affects
             the total amount of MP you have, so that is usually the main stat
-            for Mages even if you plan to be a front line fighter, healer or
-            non-combatant."
+            for Mages. Even if you plan to be a front line fighter, healer or
+            non-combatant." Lubin said after the class had come back to watch him lecture.
           </p>
 
           <p>
-            "For spell points and other stat points we have provided you a book
+            "For the other stat points & spell points we have provided you a book
             containing what past mages have done and how it worked out for them.
             You can either copy one of them or just learn from what they did and
-            make your own path."
+            make your own path. Unless you want to join the military directly." Lubin followed up with.
           </p>
 
           <p>
-            "If there are any questions you will be seeing me once a day 4 days
-            a week so please wait until you have read though 'Exemplary mages: a
-            history' before asking questions as you might find your answers in
-            there."
+            "If there are any questions, you will be seeing me once a day, four days
+            a week, so please wait until you have read though 'Exemplary mages: a
+            history' before asking questions. As you might find your answers in
+            there." Lubin said.
           </p>
-
+{/* Here */}
           <p>
             The class shorty dismissed after, I went to the library along with
             many of the other students from my class and other first year
