@@ -222,7 +222,6 @@ function intro(props) {
             during my first day. The key looked to be similar to the one to my
             room.
           </p>
-          {/* Here */}
           <p>
             This took no expert to figure out, no one had been into this library
             for a long time, the person who made that door must of lived in room
