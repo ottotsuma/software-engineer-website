@@ -206,13 +206,21 @@ function intro(props) {
           </p>
 
           <p>
-            I decied to look for some other books to see if any about shock-mages which where also used by the military. I was going to get the military manual later anyway because I want to join after I leave the academy. I think it is my best bet at a starting job. There were some in the histories but they had clearly clean out a lot of information the old books had.</p>
-          <p>I found a book half on its side,
-          'Otto Magnus Of Might'. The name was so bad. Curious, I opened the book to find the pages
-          had been cut cleanly in the middle. Inside the book was a black key, and the
-          number 304. Below it, drawn onto the bottom of the book cover was strange makings, markings similar to
-          the door shown to me by Tisiel during my first day. The key looked to be similar to the
-          one to my room.
+            I decied to look for some other books to see if any about
+            shock-mages which where also used by the military. I was going to
+            get the military manual later anyway because I want to join after I
+            leave the academy. I think it is my best bet at a starting job.
+            There were some in the histories but they had clearly clean out a
+            lot of information the old books had.
+          </p>
+          <p>
+            I found a book half on its side, 'Otto Magnus Of Might'. The name
+            was so bad. Curious, I opened the book to find the pages had been
+            cut cleanly in the middle. Inside the book was a black key, and the
+            number 304. Below it, drawn onto the bottom of the book cover was
+            strange makings, markings similar to the door shown to me by Tisiel
+            during my first day. The key looked to be similar to the one to my
+            room.
           </p>
           {/* Here */}
           <p>
