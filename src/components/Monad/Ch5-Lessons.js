@@ -226,34 +226,37 @@ function intro(props) {
           <p>
             This took no expert to figure out, no one had been into this library
             for a long time, the person who made that door must of lived in room
-            34 at sometime. If someone lives there now I will just have to be
+            304 at sometime. If someone lives there now, I will just have to be
             quick and use my wand of magic detection to see if there is anything
-            there. Making my way to the room on the 3rd floor I pressed my ear
-            up against it, no sound. Taking a deep breath I put the key into the
-            door and turned it, click. I pushed the door open and sitting there
-            looking back at me was Tisiel.
+            there. I made my way to the room on the 3rd floor, I pressed my ear
+            up against it, no sound. Taking a deep breath, I put the key into
+            the door and turned it, and heard a click. I pushed the door open.
           </p>
 
           <p>
-            Tisiel - "Breaking into a ladies room without even knocking what
-            kind of man are you?"
+            Sitting there looking back at me was Tisiel. "Breaking into a ladies
+            room without even knocking what kind of man are you?" She questioned
+            me.
           </p>
-          <p>Otto - "Wait I can explain!"</p>
+          <p>"Wait I can explain!" I exclaimed.</p>
           <p>
-            Tisiel - "What you gonna tell me you found a book in the old library
-            with strange symbols similar to the door?"
+            "What you gonna tell me you found a book in the old library with
+            strange symbols, similar to the door? And made the great deduction
+            there must be more clues hidden in this room?" She quizzed me.
           </p>
-          <p>Otto - "Yes?"</p>
+          <p>"Yes?" I replied, confused.</p>
           <p>
-            Tisiel - "Ahahaha, it is my book, can't believe how quickly that
-            worked you picked up the book with your own name on... Otto the
-            mighty mage? really?"
+            She burst into laughter. "Ahahaha, it is my book. Can't believe how
+            quickly that worked. You picked up the book with your own name on...
+            Otto the mighty mage? really?" She said holding her belly as she
+            laughed every other word.
           </p>
           <p>
-            Otto - "Hey it's not like the other mages had normal names and how
-            did you know I would go to the old library and look though the books
-            anyway?"
+            "Hey it's not like the other mages had normal names. How did you
+            know I would go to the old library and look though the books
+            anyway?" I asked.
           </p>
+          {/* Here */}
           <p>
             Tisiel - "Truthfully I didn't just took a chance to see if you where
             interested in the door or knew anything about it, thats why I showed
