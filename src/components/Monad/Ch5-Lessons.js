@@ -327,17 +327,8 @@ function intro(props) {
           <p>"I can't see one." She replied. "However the book, if I understood it correctly the ring should be placed on the alter to open doors. This wall was not in the book."</p>
           <p>I looked about before spotting what could be an alter I guess. It looked like a small desk with a tiny spike sticking out of the middle of it. "Try putting the ring on the spike?" I said, a little unsure.</p>
           <p>"You put it on the spike, if you didn't notice the it is behind the spikes and gas. I am sure I would lose my hand if I did that." She said holding the ring out to me.</p>
-          <p>
-          </p>
-          <p>
-          </p>
-          <p>
-          <p>
-          </p>
-          <p></p>
-          <p>
-          </p>
 
+          {/* Acid show? */}
           <p>
             With a shake of my head I picked up the ring from Tisiel's hand and
             placed it on my own. I then pushed my mana though the tip of his
