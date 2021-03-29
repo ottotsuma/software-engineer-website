@@ -268,48 +268,11 @@ function intro(props) {
           </p>
           <p>"What does the ring do?" I asked.</p>
           {/* Here - Major rewrite? */}
-          <p>
-            Tisiel - "Yes well, my specialty is deciphering old texts and
-            charms"
+          <p>"I don't know.. Yet!" She exclaimed.
           </p>
-          <p>Otto - "How do you already have a specialty..."</p>
-          <p>
-            Tisiel - "My parents do this sort of thing, they decipher old
-            languages, magic texts, relics and items. Also.. I am level 12 so I
-            already picked my element."
-          </p>
-          <p>
-            Otto - "Don't remember reading about the decipher element but I am
-            not going to lie that sounds cool"
-          </p>
-          <p>
-            Tisiel - "My element isn't called decipher, whatever I will just
-            wait till you unlock your elements. The ring it's self though. Does
-            nothing that I can figure out."
-          </p>
-          <p>
-            Otto - "So when you say help, do you want me to try to and find what
-            the ring does? help you read the text?"
-          </p>
-          <p>
-            Tisiel - "Ah the help I need is well, do you have the skill Tether?
-            It's just I can't learn it.."
-          </p>
-          <p>Otto - "Used all your points?"</p>
-          <p>
-            Tisiel nods in response. "But I also will need help going here" She
-            holds out a badly drawn map and points to a grave yard. "There is a
-            chance we might be attacked so if I have you there... As long as I
-            can outrun you they will be busy eating you while I get away. Deal?"
-          </p>
-          <p>
-            Otto - "I'll learn tether, and maybe some other spells to help us
-            KILL our opponents not run away."
-          </p>
-          <p>Tisiel - "I mean, as long as I get to live."</p>
-          <p>Otto - "When are we going?"</p>
-          <p>Titles - "I'll meet you out front in 5."</p>
-          <p>Otto - "... Yeah alright."</p>
+          <p>"So when do you wanna go? I am free now." I said looking at the glowing ring.</p>
+          <p></p>
+          {/* Stuff about her parents? Why where the others not interested ?*/}
 
           <p>Later out in front of the cliff side.</p>
           <p className="stats">
@@ -334,25 +297,24 @@ function intro(props) {
             <li>Charisma: 2</li>
           </p>
 
-          <p>Tisiel - "Whats that face?"</p>
-          <p>Otto - "Can't put any more points into magic. Why?</p>
-          <p>
-            Tisiel - "You can't put more points in then the level you are,
-            points for items and your titles go on top of that."
+          <p>"Whats that face?" Tisiel asked walking out from the large door embedded into the cliff.</p>
+          <p>"Can't put any more points into magic. Why?" I asked look at my status screen.</p>
+          <p>"You can't put more points in then the level you are,
+            points for items and your titles go on top of that. You should really know that..." She said pouting. Maybe I was told it but I forgot.
           </p>
-          <p>Otto - "I see, then, I am not sure what other stats to get."</p>
-          <p>
-            Tisiel - "Yeah, fighters have it easier, strength and either
+          <p>"I see, then, I am not sure what other stats to get." I replied a little disappointed, but I also felt like it made sense or everyone would just stack one stat.</p>
+          <p>"Yeah, fighters have it easier, strength and either
             vitality or dexterity. For me I picked Magic and Sense, since I want
-            to be an explorer."
+            to be an explorer." She replied.
           </p>
-          <p>
-            Otto - "Makes sense, I should pick vitality, endurance, willpower,
-            dexterity maybe charisma...."
+          <p>"I should pick vitality, endurance, willpower,
+            dexterity maybe charisma..." I said.
           </p>
-          <p>Tisiel - "You are just naming all of them."</p>
-          <p>Otto - "Urgh I can't decide!"</p>
-          <p>Tisiel - "Lets just go, you can pick on the way."</p>
+          <p>"You are just naming all of them." She laughed.</p>
+          <p>"Urgh I can't decide!" I was frustrated.</p>
+          <p>"Lets just go, you can pick on the way." She said.</p>
+          <p>"An explorer though? How come? I am going to be a battle mage in the army." I said excited.</p>
+          <p></p>
           <p>
             Walking up north of the cliffs away from the academy the path soon
             becomes more dirt then stone, unused in so long. About 40 minutes
