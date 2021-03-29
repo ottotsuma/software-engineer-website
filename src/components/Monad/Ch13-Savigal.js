@@ -168,7 +168,7 @@ function intro(props) {
 
           <p>
             "I'm sure she will enjoy it there and learn much, just write ahead
-            in advance and ask not to be put into the cliffside."
+            in advance and ask not to be put into the cliff side."
           </p>
 
           <p>"Well of course everyone knows that."</p>
@@ -200,7 +200,7 @@ function intro(props) {
           <p>
             I ended up having to give Mia my address so she could send me mail
             if she had more questions about the academy, when they found out I
-            was staying in the cliffside they pitied me a bit, but if I'm honest
+            was staying in the cliff side they pitied me a bit, but if I'm honest
             since day one I have enjoyed staying there. I waved good bye and set
             off along the path to Tisiel.
           </p>
@@ -211,7 +211,7 @@ function intro(props) {
             yesterdays attack. I managed to make it back to the market by just
             after midday I really made good timing. In the market I managed to
             find a book with strange markings on it, the same strange markings I
-            saw with Tisiel on the door in the cliffside. I knew I had to buy
+            saw with Tisiel on the door in the cliff side. I knew I had to buy
             it, the merchant only had odd and unique items which all seem to be
             of little or no use other then being odd. In the end I had managed
             to buy the book in exchange some of the coins I had found on the
@@ -417,7 +417,7 @@ function intro(props) {
           {/* <!-- Give bones, coins and weird wand to bone woman --> */}
           <p>
             Almost as if she had been waiting for me Tisiel opened the door to
-            the cliffside before I even managed to speak the password.
+            the cliff side before I even managed to speak the password.
           </p>
 
           <p>

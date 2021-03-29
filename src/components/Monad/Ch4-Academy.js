@@ -93,7 +93,7 @@ function intro(props) {
             <li>Charisma: 2</li>
           </p>
           <p>
-            "Building: Cliffside. Room: 501." A key was place in my hand as I
+            "Building: cliff side. Room: 501." A key was place in my hand as I
             was pulled back to reality. Slightly embarrassed by my absent
             mindedness I quickly apologized.
           </p>
@@ -176,7 +176,7 @@ function intro(props) {
             opposing cliff was much more welcoming.
           </p>
           <p>
-            The cliffside that seemed to match the name of the building I had
+            The cliff side that seemed to match the name of the building I had
             been assigned on the other hand was not perfectly sculpted with
             pillars lining the walls but just the side of a brown cliff. Rocks
             and all. The only features where the previously poorly carved
@@ -415,13 +415,13 @@ function intro(props) {
             academy's main library and mission office.
           </p>
           <p>
-            After dinner we made their way back to the cliffside dorm. At the
+            After dinner we made their way back to the cliff side dorm. At the
             entrance to the door Tisiel spoke "I am home brother."
           </p>
           <p>To my surprise the door spoke back. "Welcome home sister."</p>
           <p>"What was that?" I asked.</p>
           <p>
-            "Ah, the password. The cliffside dorm is old, no one has explained
+            "Ah, the password. The cliff side dorm is old, no one has explained
             how it works only that it does." She replied.
           </p>
           <p>

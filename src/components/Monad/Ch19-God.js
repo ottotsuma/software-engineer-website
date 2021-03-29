@@ -22,7 +22,7 @@ Noticed by a God - get the notice of a God, (varies) */}
           <p>
             I found myself sitting back in my room holding two coins, all of
             this was getting a bit weird. Although we had not found a coin in
-            the cliffside it was surely a burial place as Shrorlei had said,
+            the cliff side it was surely a burial place as Shrorlei had said,
             does not mean there was not a coin down there just I did not find
             it? This time Shrorlei had lost her life. For a single coin, the
             cost was too high.
@@ -144,7 +144,7 @@ Noticed by a God - get the notice of a God, (varies) */}
 
           <p>
             I left them and headed up topside to the training ground for the
-            cliffside, overlooking the academy it was a nice place to come to,
+            cliff side, overlooking the academy it was a nice place to come to,
             but today I did have something to practice. I had not told Tisiel
             everything that had happened down in that pyramid or everything I
             knew of the coins.

@@ -294,7 +294,7 @@ Reingard". boy - alden likes Tisiel Skivali  becomes tank --> */}
           <p>
             Urgh, today was not going how I wanted but there was two more trials
             I wanted to try. Dueling and Combat. But since today was going so
-            badly I decided to head back to the cliffside. I would try them
+            badly I decided to head back to the cliff side. I would try them
             another day.
           </p>
         </div>

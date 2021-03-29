@@ -191,7 +191,7 @@ function intro(props) {
 
           <p>
             I tried to laugh off the awkward situation, I forgot the reputation
-            the cliffside might have. I hope she does not mind that I was placed
+            the cliff side might have. I hope she does not mind that I was placed
             there. I guess it just shows that I am not from a wealthy
             background...
           </p>
@@ -207,7 +207,7 @@ function intro(props) {
             impressed by her ambition.
           </p>
 
-          <p>We parted ways outside the Leikan camp and I headed back to the cliffside for the night.</p>
+          <p>We parted ways outside the Leikan camp and I headed back to the cliff side for the night.</p>
 
           {/* <!-- Date 2 --> */}
           <h4>Play Date</h4>

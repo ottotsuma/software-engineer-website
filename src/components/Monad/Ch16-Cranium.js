@@ -147,7 +147,7 @@ function intro(props) {
 
           <p>
             "So, you are telling me you have an older brother in the academy,
-            yet you still ended up in the cliffside?"
+            yet you still ended up in the cliff side?"
           </p>
 
           <p>

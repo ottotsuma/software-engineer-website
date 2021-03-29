@@ -137,7 +137,7 @@ function intro(props) {
             of the class without anyone paying me any attention, my lightning
             was blue and although it was unlike the other blues in the class it
             was likely because I was from a different place. The first thing I
-            did was make my way back to the cliffside.
+            did was make my way back to the cliff side.
           </p>
 
           <p>
@@ -206,7 +206,7 @@ function intro(props) {
           </p>
 
           <p>
-            Back at the cliffside in the shared living area Tisiel. "Hey, you
+            Back at the cliff side in the shared living area Tisiel. "Hey, you
             finally taking a break from deciphering?"
           </p>
 

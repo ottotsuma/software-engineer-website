@@ -221,7 +221,7 @@ and Xic ("Wing") and Patan ("Packstrap"), */}
           <p>"Hey Tisiel, did you find out the purpose of that room?"</p>
 
           <p>
-            "In the cliffside? Yeah it was a tomb which was in keeping with the
+            "In the cliff side? Yeah it was a tomb which was in keeping with the
             mausoleum from the grave yard, they seem to take great interest in
             death and taking their belongings with them to the grave."
           </p>
@@ -264,7 +264,7 @@ and Xic ("Wing") and Patan ("Packstrap"), */}
           <p>
             Shrorlei - "Yeah just, a door in the cliff side with a person buried
             with all his belongings is not the best description, that door
-            inside the cliffside is at the back of the housing area, its deep
+            inside the cliff side is at the back of the housing area, its deep
             within a tunnel really."
           </p>
 
@@ -287,7 +287,7 @@ and Xic ("Wing") and Patan ("Packstrap"), */}
             Tisiel - "No, that has holes, the strange symbols that don't match
             any writing system of our own, the strange coins, the places do have
             similarities granted but non of them are the same, the person buried
-            in the cliffside was no dwarf, the king buried in the graveyard with
+            in the cliff side was no dwarf, the king buried in the graveyard with
             necromantic items? Heilerbach's dominant religion holds the practice
             as evil."
           </p>
@@ -347,7 +347,7 @@ and Xic ("Wing") and Patan ("Packstrap"), */}
           </p>
 
           <p>
-            Tisiel - "Perhaps a third? We know to little of the cliffside tomb,
+            Tisiel - "Perhaps a third? We know to little of the cliff side tomb,
             but I won't rule it out."
           </p>
 

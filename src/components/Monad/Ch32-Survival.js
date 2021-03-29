@@ -434,7 +434,7 @@ function intro(props) {
             skill cap would increase from 1 to 2, however there seemed to be
             some kind of help required. Normally the academy would of helped
             students for free who had reached over level 10, so he just put it
-            down to me being in the cliffside that they never got around to
+            down to me being in the cliff side that they never got around to
             helping me. He never grew up in Alden so I suppose it was unfair to
             ask him really, I would just have to ask Lubin.
           </p>

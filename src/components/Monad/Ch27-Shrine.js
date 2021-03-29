@@ -326,7 +326,7 @@ Deer are considered messengers to the gods in Shinto, especially Kasuga Shrine i
             be lots of room...." She suggested.
           </p>
           <p>
-            "I mean, I am suppose to go back to the cliffside and check where I
+            "I mean, I am suppose to go back to the cliff side and check where I
             have been assigned to, but I guess they will not have done the
             procedures yet. I will come back with you then if that is okay?" I
             replied.

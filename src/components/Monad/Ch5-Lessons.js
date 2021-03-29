@@ -183,10 +183,10 @@ function intro(props) {
             only access the first floor which soon became packed. I couldn't see
             a good place to sit with students everywhere. I had the book I
             needed with me anyway it's not like I had to use the library to
-            study so I went back to the cliffside.
+            study so I went back to the cliff side.
           </p>
           <p>
-            In the library on the cliffside I got to reading the histories under
+            In the library on the cliff side I got to reading the histories under
             one of the large stone pillars with light coming out from it. After
             reading though so many of the Mages from the past I soon found
             myself bored and looking for anything else to distract me. I started
@@ -206,7 +206,7 @@ function intro(props) {
           </p>
 
           <p>
-            I decied to look for some other books to see if any about
+            I decided to look for some other books to see if any about
             shock-mages which where also used by the military. I was going to
             get the military manual later anyway because I want to join after I
             leave the academy. I think it is my best bet at a starting job.
@@ -257,12 +257,12 @@ function intro(props) {
           </p>
           {/* Here */}
           <p>
-            Tisiel - "Truthfully I didn't just took a chance to see if you where
-            interested in the door or knew anything about it, thats why I showed
-            you around. No one else has taken any real interest in it. So do you
-            want to know whats behind the door?"
+            "Truthfully I didn't. Just took a chance, to see if you where
+            interested in the door or knew anything about it. Thats why I showed
+            you around, no one else had taken any real interest in it. So do you
+            want to know whats behind the door?" she asked.
           </p>
-          <p>Otto - "Well, yeah"</p>
+          <p>"Well, yeah" I replied, it was obvious wasn't it? I already tried to sneak into her room to find clues by myself.</p>
           <p>
             Tisiel - "Well come in, and give me my key back. There was a book in
             that old library with strange signs on like the door that I found
@@ -319,7 +319,7 @@ function intro(props) {
           <p>Titles - "I'll meet you out front in 5."</p>
           <p>Otto - "... Yeah alright."</p>
 
-          <p>Later out in front of the cliffside.</p>
+          <p>Later out in front of the cliff side.</p>
           <p className="stats">
             <li>Name: Otto.</li>
             <li>Level: 8.</li>
@@ -439,7 +439,7 @@ function intro(props) {
             hands and gives off a small blue glow.
           </p>
 
-          <p>Otto - "This is the light from the cliffside."</p>
+          <p>Otto - "This is the light from the cliff side."</p>
           <p>Tisiel - "Yeah I mean, it's a common and useful spell."</p>
           <p>Otto - "Ah"</p>
           <p>

@@ -131,7 +131,7 @@ function intro(props) {
             After Lenne parted ways with us Lubin asked "Why did you chose the
             Leikan area? She was offering you far better and closer residences
             to the academy. You didn't have to be so polite and pick some where
-            near the cliffside if that was your intention. It wouldn't be a
+            near the cliff side if that was your intention. It wouldn't be a
             problem to move you close to the nobles quatres if you asked her." I
             caught the hint at the end, that even if I asked moving into the
             nobles quatres would be impossible and even moving near it would be

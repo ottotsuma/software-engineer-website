@@ -95,7 +95,7 @@ function intro(props) {
           </p>
           <p>
             We ran out of the area, past shops, restaurants and headed in the
-            opposite direction of the cliffside and lakian camp. We where
+            opposite direction of the cliff side and lakian camp. We where
             running to the nobles area, then took a sharp right and there it
             was. A small theme park, there was only 4 ~ 5 rides. Does a ferris
             wheel count as a ride?

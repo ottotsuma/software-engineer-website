@@ -147,7 +147,7 @@ function intro(props) {
           </p>
           <p>
             "Ah, I came up with it myself! Since you know, everyone from the
-            cliffside that went out with you either ended up dead or missing.
+            cliff side that went out with you either ended up dead or missing.
             Thought it might lighten the mood." He said with a huge smile on his
             face.
           </p>
