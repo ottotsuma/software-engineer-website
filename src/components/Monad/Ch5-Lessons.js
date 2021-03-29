@@ -331,7 +331,7 @@ function intro(props) {
           {/* Acid show? */}
           <p>
             With a shake of my head I picked up the ring from Tisiel's hand and
-            placed it on my own. I then pushed my mana though the tip of his
+            placed it on my own. I then pushed my mana though the tip of my
             finger and it came out like a rope. Attaching the ring to the end of
             the rope like tether, it stuck when I willed it to grab the ring.
             Pushing the tethered ring into the gas I was surprised when nothing
@@ -340,19 +340,19 @@ function intro(props) {
           </p>
 
           <p>
-            Looking at each other, the bars shoot into the ground in an instant
-            and the gas dissipates. Behind is left grave stones, grass and a
+            We looked at each other when nothing happened. Then bars shoot into the ground in an instant
+            and the gas dissipated. Behind was left grave stones, grass and a
             small stone mausoleum in the middle.
           </p>
 
-          <p>Otto - "Ladies first."</p>
-          <p>Tisiel - "Get moving you coward."</p>
+          <p>"Ladies first." I said, holding out my open palm like a gentleman.</p>
+          <p>"Get moving you coward." Tisiel retorted.</p>
 
-          <p>Otto - "No zombies, surprising."</p>
-          <p>Tisiel - "Don't jinx it."</p>
-          <p>Otto - "Grab the ring?"</p>
-          <p>Tisiel - "On the way out, same method or we die."</p>
-          <p>Otto - "Glad I asked..."</p>
+          <p>"No zombies, surprising." I said walking in first.</p>
+          <p>"Don't jinx it." She said poking me in the back.</p>
+          <p>"Grab the ring?" I said as we got near the alter.</p>
+          <p>"On the way out, same method or we die." She pointed out.</p>
+          <p>"Glad I asked..." I said walking past it.</p>
 
           <p>
             Opening the door and looking around inside, the pair see nothing,
