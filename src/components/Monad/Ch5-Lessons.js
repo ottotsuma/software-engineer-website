@@ -255,7 +255,6 @@ function intro(props) {
             know I would go to the old library and look though the books
             anyway?" I asked.
           </p>
-          {/* Here */}
           <p>
             "Truthfully I didn't. Just took a chance, to see if you where
             interested in the door or knew anything about it. Thats why I showed
@@ -263,19 +262,12 @@ function intro(props) {
             want to know whats behind the door?" she asked.
           </p>
           <p>"Well, yeah" I replied, it was obvious wasn't it? I already tried to sneak into her room to find clues by myself.</p>
-          <p>
-            Tisiel - "Well come in, and give me my key back. There was a book in
-            that old library with strange signs on like the door that I found
-            weeks before your arrival, I managed to decipher some of it and it
-            took me to one of the ruins just north of here, looked like an old
-            part of the academy that had fell into disuse or something happened
-            to it. Anyway hidden inside was this ring."
+          <p>"Well come in, and give me my key back. There was a book in
+            that old library with strange signs on like the door, I found
+            it weeks before your arrival. I managed to decipher some of it and it is the location of a ruin just north of here. Also hidden inside the book was this ring." She said picking up a ring off her desk and putting it in her palm. It was small, dark grey with red glowing symbols all around it.
           </p>
-          <p>
-            Tisiel places a small dark grey ring down on the table, with the
-            strange signs all over it glowing dimly red.
-          </p>
-          <p>Otto - "You did all that already? What does the ring do?"</p>
+          <p>"What does the ring do?" I asked.</p>
+          {/* Here - Major rewrite? */}
           <p>
             Tisiel - "Yes well, my specialty is deciphering old texts and
             charms"
