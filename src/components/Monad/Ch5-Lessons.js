@@ -354,32 +354,31 @@ function intro(props) {
           <p>"On the way out, same method or we die." She pointed out.</p>
           <p>"Glad I asked..." I said walking past it.</p>
 
+          {/* Open the door to what!? mausoleum */}
           <p>
             Opening the door and looking around inside, the pair see nothing,
             it's dark so we cast mage light, mana gathers in the palm of their
             hands and gives off a small blue glow.
           </p>
 
-          <p>Otto - "This is the light from the cliff side."</p>
-          <p>Tisiel - "Yeah I mean, it's a common and useful spell."</p>
-          <p>Otto - "Ah"</p>
+          <p>"That is the light from the cliff side. In the small towers!" I said wondering who had filled the hall with lights.</p>
+          <p>"Yeah I mean, it's a common and useful spell. Almost everyone has it." She replied like it was obvious. Now I feel dumb.</p>
+          <p>"Ah." Was all that came out of my mouth.</p>
           <p>
-            Inside was three stone boxes, the length and width of a man. On top
-            of each of the boxes carved from stone was the sculpture of two
-            woman and a man.
+            Inside was three stone boxes, the length and width of a man. Well let's call them what they look like, coffins. On top
+            of each was a stone carved figure.
+            A woman and a man.
           </p>
-          <p>
-            Tisiel - "Sarcophagus, Alden nobles are buried like this even
-            today."
+          <p>"Sarcophagus, Alden nobles are buried like this even
+            today." Tisiel explained.
           </p>
-          <p>
-            Otto - "I did not know that. Our dead are buried in the village."
+          <p>"I did not know that. Our dead are buried near the village, in the ground." I said.
           </p>
-          <p>
-            Tisiel - "We burn ours. Since you took money from a dead girl
-            before, guess you won't mind breaking open some ones resting place?"
+          <p>"We burn ours. Since you took money from a dead girl
+            before, guess you won't mind breaking open some ones resting place?" She said. I had forgotten she was from the Kingdom and not Alden. Clearly she had been living in Alden a long time as her Aldenese was perfect.
           </p>
-          <p>Otto - "I don't mind, but you make me sound like a bad guy..."</p>
+          <p>"I don't mind, but you make me sound like a bad guy..." I said thinking back to the first time I told her I used the money from a dead girl to pay for dinner.</p>
+          {/* Here */}
           <p>
             Tisiel just smiled as she crouched down opened the book and started
             reading and marking her fingers along the signs on the stone.
