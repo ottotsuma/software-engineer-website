@@ -268,7 +268,7 @@ function intro(props) {
           </p>
           <p>"What does the ring do?" I asked.</p>
           {/* Here - Major rewrite? */}
-          <p>"I don't know.. Yet!" She exclaimed.
+          <p>"I think it is a key, to the place in the book." She exclaimed.
           </p>
           <p>"So when do you wanna go? I am free now." I said looking at the glowing ring.</p>
           <p></p>
@@ -319,48 +319,23 @@ function intro(props) {
           <p>
             We walked north of the cliffs away from the academy. The path soon
             became more dirt then stone, and finally mud. It was not like the paths around the cliff side were all stone but at least there was some. After about 40 minutes
-            we arrive at the ruins of what could of been a small campus,
-            it was hard to tell what it was with only the foundations of the
-            buildings surviving.
-          </p>
-          <p>Otto - "This where you found the ring?"</p>
-          <p>
-            Tisiel - "Yeah, the grave yard was built outside of town though, I
-            would of gone alone but, well you will see."
+            we arrive at the ruin, it was layed out in a square with black metal spikes protruding from the ground all around making a wall. They where too close to each other for us to squeeze though but that was not the main problem. Passing between the spikes was an eerie ghost
+            like gas.
           </p>
 
+          <p>"Take it there is no gate?" I asked looking at the gas.</p>
+          <p>"I can't see one." She replied. "However the book, if I understood it correctly the ring should be placed on the alter to open doors. This wall was not in the book."</p>
+          <p>I looked about before spotting what could be an alter I guess. It looked like a small desk with a tiny spike sticking out of the middle of it. "Try putting the ring on the spike?" I said, a little unsure.</p>
+          <p>"You put it on the spike, if you didn't notice the it is behind the spikes and gas. I am sure I would lose my hand if I did that." She said holding the ring out to me.</p>
           <p>
-            Arriving before the grave yard the pair stare blankly forward. 10
-            meter black metal spikes raised from the ground placed close to each
-            other too small for a person to pass though, with an eerie ghost
-            like gas passing between the spikes.
-          </p>
-
-          <p>Otto - "Take it there is no gate?"</p>
-          <p>Tisiel - "Nope. This erm, wall is the problem I have."</p>
-          <p>Otto - "And how will tether solve your problems?"</p>
-          <p>
-            Tisiel - "Well, according to this book the ring has to be placed on
-            that erm alter? inside the grave yard to prove you belong to the
-            society."
           </p>
           <p>
-            Otto - "The alter is half a meter behind the bars, surely you can
-            just place it on with your hand"
           </p>
           <p>
-            Tisiel - "I mean, if you want to put your hand into and though that
-            gas, I won't stop you."
-          </p>
-          <p>Otto - "... It's corrosive isn't it?"</p>
           <p>
-            Tisiel - "Very." Tisiel kicks a rock into the gas and it disappears
-            before it can reach the other side.
           </p>
-          <p>Otto - "Amazing, and the ring won't dissolve?"</p>
+          <p></p>
           <p>
-            Tisiel - "If it does, it is the end of this mystery, but it
-            shouldn't".
           </p>
 
           <p>
