@@ -186,9 +186,9 @@ function intro(props) {
             study so I went back to the cliff side.
           </p>
           <p>
-            In the library on the cliff side I got to reading the histories under
-            one of the large stone pillars with light coming out from it. After
-            reading though so many of the Mages from the past I soon found
+            In the library on the cliff side I got to reading the histories
+            under one of the large stone pillars with light coming out from it.
+            After reading though so many of the Mages from the past I soon found
             myself bored and looking for anything else to distract me. I started
             looking along the spines of the old books around the library; 'Fire
             Magic', 'Faming with mana - Pocotcotcan magic', 'Lusty Ma...', 'The
@@ -261,16 +261,26 @@ function intro(props) {
             you around, no one else had taken any real interest in it. So do you
             want to know whats behind the door?" she asked.
           </p>
-          <p>"Well, yeah" I replied, it was obvious wasn't it? I already tried to sneak into her room to find clues by myself.</p>
-          <p>"Well come in, and give me my key back. There was a book in
-          that old library with strange signs on like the door, I found
-          it weeks before your arrival. I managed to decipher some of it and it is the location of a ruin just north of here. Also hidden inside the book was this ring." She said picking up a ring off her desk and putting it in her palm. It was small, dark grey with red glowing symbols all around it.
+          <p>
+            "Well, yeah" I replied, it was obvious wasn't it? I already tried to
+            sneak into her room to find clues by myself.
+          </p>
+          <p>
+            "Well come in, and give me my key back. There was a book in that old
+            library with strange signs on like the door, I found it weeks before
+            your arrival. I managed to decipher some of it and it is the
+            location of a ruin just north of here. Also hidden inside the book
+            was this ring." She said picking up a ring off her desk and putting
+            it in her palm. It was small, dark grey with red glowing symbols all
+            around it.
           </p>
           <p>"What does the ring do?" I asked.</p>
           {/* Here - Major rewrite? */}
-          <p>"I think it is a key, to the place in the book." She exclaimed.
+          <p>"I think it is a key, to the place in the book." She exclaimed.</p>
+          <p>
+            "So when do you wanna go? I am free now." I said looking at the
+            glowing ring.
           </p>
-          <p>"So when do you wanna go? I am free now." I said looking at the glowing ring.</p>
           <p></p>
           {/* Stuff about her parents? Why where the others not interested ?*/}
 
@@ -297,36 +307,70 @@ function intro(props) {
             <li>Charisma: 2</li>
           </p>
 
-          <p>"Whats that face?" Tisiel asked walking out from the large door embedded into the cliff.</p>
-          <p>"Can't put any more points into magic. Why?" I asked look at my status screen.</p>
-          <p>"You can't put more points in then the level you are,
-          points for items and your titles go on top of that. You should really know that..." She said pouting. Maybe I was told it but I forgot.
+          <p>
+            "Whats that face?" Tisiel asked walking out from the large door
+            embedded into the cliff.
           </p>
-          <p>"I see, then, I am not sure what other stats to get." I replied a little disappointed, but I also felt like it made sense or everyone would just stack one stat.</p>
-          <p>"Yeah, fighters have it easier, strength and either
-          vitality or dexterity. For me I picked Magic and Sense, since I want
-          to be an explorer." She replied.
+          <p>
+            "Can't put any more points into magic. Why?" I asked look at my
+            status screen.
           </p>
-          <p>"I should pick vitality, endurance, willpower,
-          dexterity maybe charisma..." I said.
+          <p>
+            "You can't put more points in then the level you are, points for
+            items and your titles go on top of that. You should really know
+            that..." She said pouting. Maybe I was told it but I forgot.
+          </p>
+          <p>
+            "I see, then, I am not sure what other stats to get." I replied a
+            little disappointed, but I also felt like it made sense or everyone
+            would just stack one stat.
+          </p>
+          <p>
+            "Yeah, fighters have it easier, strength and either vitality or
+            dexterity. For me I picked Magic and Sense, since I want to be an
+            explorer." She replied.
+          </p>
+          <p>
+            "I should pick vitality, endurance, willpower, dexterity maybe
+            charisma..." I said.
           </p>
           <p>"You are just naming all of them." She laughed.</p>
           <p>"Urgh I can't decide!" I was frustrated.</p>
           <p>"Lets just go, you can pick on the way." She said.</p>
-          <p>"An explorer though? How come? I am going to be a battle mage in the army." I said excited.</p>
+          <p>
+            "An explorer though? How come? I am going to be a battle mage in the
+            army." I said excited.
+          </p>
           {/* reply */}
           <p></p>
           <p>
             We walked north of the cliffs away from the academy. The path soon
-            became more dirt then stone, and finally mud. It was not like the paths around the cliff side were all stone but at least there was some. After about 40 minutes
-            we arrive at the ruin, it was layed out in a square with black metal spikes protruding from the ground all around making a wall. They where too close to each other for us to squeeze though but that was not the main problem. Passing between the spikes was an eerie ghost
-            like gas.
+            became more dirt then stone, and finally mud. It was not like the
+            paths around the cliff side were all stone but at least there was
+            some. After about 40 minutes we arrive at the ruin, it was layed out
+            in a square with black metal spikes protruding from the ground all
+            around making a wall. They where too close to each other for us to
+            squeeze though but that was not the main problem. Passing between
+            the spikes was an eerie ghost like gas.
           </p>
 
           <p>"Take it there is no gate?" I asked looking at the gas.</p>
-          <p>"I can't see one." She replied. "However the book, if I understood it correctly the ring should be placed on the alter to open doors. This wall was not in the book."</p>
-          <p>I looked about before spotting what could be an alter I guess. It looked like a small desk with a tiny spike sticking out of the middle of it. "Try putting the ring on the spike?" I said, a little unsure.</p>
-          <p>"You put it on the spike, if you didn't notice the it is behind the spikes and gas. I am sure I would lose my hand if I did that." She said holding the ring out to me.</p>
+          <p>
+            "I can't see one." She replied. "However the book, if I understood
+            it correctly the ring should be placed on the alter to open doors.
+            This wall was not in the book."
+          </p>
+          <p>
+            I looked about before spotting what could be an alter I guess. It
+            looked like a small desk with a tiny spike sticking out of the
+            middle of it. "Try putting the ring on the spike?" I said, a little
+            unsure.
+          </p>
+          <p>
+            "You put it on the spike, if you didn't notice the it is behind the
+            spikes and gas. I am sure I would lose my hand if I did that." She
+            said holding the ring out to me.
+          </p>
 
           {/* Acid show? */}
           <p>
@@ -340,12 +384,14 @@ function intro(props) {
           </p>
 
           <p>
-            We looked at each other when nothing happened. Then bars shoot into the ground in an instant
-            and the gas dissipated. Behind was left grave stones, grass and a
-            small stone mausoleum in the middle.
+            We looked at each other when nothing happened. Then bars shoot into
+            the ground in an instant and the gas dissipated. Behind was left
+            grave stones, grass and a small stone mausoleum in the middle.
           </p>
 
-          <p>"Ladies first." I said, holding out my open palm like a gentleman.</p>
+          <p>
+            "Ladies first." I said, holding out my open palm like a gentleman.
+          </p>
           <p>"Get moving you coward." Tisiel retorted.</p>
 
           <p>"No zombies, surprising." I said walking in first.</p>
@@ -361,23 +407,39 @@ function intro(props) {
             hands and gives off a small blue glow.
           </p>
 
-          <p>"That is the light from the cliff side. In the small towers!" I said wondering who had filled the hall with lights.</p>
-          <p>"Yeah I mean, it's a common and useful spell. Almost everyone has it." She replied like it was obvious. Now I feel dumb.</p>
+          <p>
+            "That is the light from the cliff side. In the small towers!" I said
+            wondering who had filled the hall with lights.
+          </p>
+          <p>
+            "Yeah I mean, it's a common and useful spell. Almost everyone has
+            it." She replied like it was obvious. Now I feel dumb.
+          </p>
           <p>"Ah." Was all that came out of my mouth.</p>
           <p>
-            Inside was three stone boxes, the length and width of a man. Well let's call them what they look like, coffins. On top
-            of each was a stone carved figure.
-            A woman and a man.
+            Inside was three stone boxes, the length and width of a man. Well
+            let's call them what they look like, coffins. On top of each was a
+            stone carved figure. A woman and a man.
           </p>
-          <p>"Sarcophagus, Alden nobles are buried like this even
-            today." Tisiel explained.
+          <p>
+            "Sarcophagus, Alden nobles are buried like this even today." Tisiel
+            explained.
           </p>
-          <p>"I did not know that. Our dead are buried near the village, in the ground." I said.
+          <p>
+            "I did not know that. Our dead are buried near the village, in the
+            ground." I said.
           </p>
-          <p>"We burn ours. Since you took money from a dead girl
-            before, guess you won't mind breaking open some ones resting place?" She said. I had forgotten she was from the Kingdom and not Alden. Clearly she had been living in Alden a long time as her Aldenese was perfect.
+          <p>
+            "We burn ours. Since you took money from a dead girl before, guess
+            you won't mind breaking open some ones resting place?" She said. I
+            had forgotten she was from the Kingdom and not Alden. Clearly she
+            had been living in Alden a long time as her Aldenese was perfect.
           </p>
-          <p>"I don't mind, but you make me sound like a bad guy..." I said thinking back to the first time I told her I used the money from a dead girl to pay for dinner.</p>
+          <p>
+            "I don't mind, but you make me sound like a bad guy..." I said
+            thinking back to the first time I told her I used the money from a
+            dead girl to pay for dinner.
+          </p>
           {/* Here */}
           <p>
             Tisiel just smiled as she crouched down opened the book and started
