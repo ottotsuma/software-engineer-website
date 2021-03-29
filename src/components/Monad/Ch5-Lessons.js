@@ -263,8 +263,8 @@ function intro(props) {
           </p>
           <p>"Well, yeah" I replied, it was obvious wasn't it? I already tried to sneak into her room to find clues by myself.</p>
           <p>"Well come in, and give me my key back. There was a book in
-            that old library with strange signs on like the door, I found
-            it weeks before your arrival. I managed to decipher some of it and it is the location of a ruin just north of here. Also hidden inside the book was this ring." She said picking up a ring off her desk and putting it in her palm. It was small, dark grey with red glowing symbols all around it.
+          that old library with strange signs on like the door, I found
+          it weeks before your arrival. I managed to decipher some of it and it is the location of a ruin just north of here. Also hidden inside the book was this ring." She said picking up a ring off her desk and putting it in her palm. It was small, dark grey with red glowing symbols all around it.
           </p>
           <p>"What does the ring do?" I asked.</p>
           {/* Here - Major rewrite? */}
@@ -300,25 +300,26 @@ function intro(props) {
           <p>"Whats that face?" Tisiel asked walking out from the large door embedded into the cliff.</p>
           <p>"Can't put any more points into magic. Why?" I asked look at my status screen.</p>
           <p>"You can't put more points in then the level you are,
-            points for items and your titles go on top of that. You should really know that..." She said pouting. Maybe I was told it but I forgot.
+          points for items and your titles go on top of that. You should really know that..." She said pouting. Maybe I was told it but I forgot.
           </p>
           <p>"I see, then, I am not sure what other stats to get." I replied a little disappointed, but I also felt like it made sense or everyone would just stack one stat.</p>
           <p>"Yeah, fighters have it easier, strength and either
-            vitality or dexterity. For me I picked Magic and Sense, since I want
-            to be an explorer." She replied.
+          vitality or dexterity. For me I picked Magic and Sense, since I want
+          to be an explorer." She replied.
           </p>
           <p>"I should pick vitality, endurance, willpower,
-            dexterity maybe charisma..." I said.
+          dexterity maybe charisma..." I said.
           </p>
           <p>"You are just naming all of them." She laughed.</p>
           <p>"Urgh I can't decide!" I was frustrated.</p>
           <p>"Lets just go, you can pick on the way." She said.</p>
           <p>"An explorer though? How come? I am going to be a battle mage in the army." I said excited.</p>
+          {/* reply */}
           <p></p>
           <p>
-            Walking up north of the cliffs away from the academy the path soon
-            becomes more dirt then stone, unused in so long. About 40 minutes
-            later we arrive at the ruins of what could of been a small campus,
+            We walked north of the cliffs away from the academy. The path soon
+            became more dirt then stone, and finally mud. It was not like the paths around the cliff side were all stone but at least there was some. After about 40 minutes
+            we arrive at the ruins of what could of been a small campus,
             it was hard to tell what it was with only the foundations of the
             buildings surviving.
           </p>
