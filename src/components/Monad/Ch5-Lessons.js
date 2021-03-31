@@ -440,7 +440,6 @@ function intro(props) {
             thinking back to the first time I told her I used the money from a
             dead girl to pay for dinner.
           </p>
-          {/* Here */}
           <p>
             Tisiel just smiled as she crouched down opened a book she got from a pack on her waist. She started reading though it marking her fingers along the signs on the stone sarcophagus. I wanted to know what it said but also if Tisiel could even read this script. It was clearly old and did not resemble Aldenese at all. I wanted to guess more about it but in the end I was only 14 and what did I know about the academy, it's history or even other languages.
           </p>
@@ -471,6 +470,7 @@ function intro(props) {
           <p>"Secret." I replied.</p>
           <p>"Fine, but no funny stuff." She said walking to the corner to show me she was not looking.</p>
           <p>"Like I would..." I muttered.</p>
+          {/* Hey */}
           <p>
             I took out my wand and passed mana though it before placing it back,
             I then moved the crown, wand and the kings ring to one side. The
