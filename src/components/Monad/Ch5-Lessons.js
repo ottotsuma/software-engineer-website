@@ -445,33 +445,28 @@ function intro(props) {
             Tisiel just smiled as she crouched down opened a book she got from a pack on her waist. She started reading though it marking her fingers along the signs on the stone sarcophagus. I wanted to know what it said but also if Tisiel could even read this script. It was clearly old and did not resemble Aldenese at all. I wanted to guess more about it but in the end I was only 14 and what did I know about the academy, it's history or even other languages.
           </p>
           <p>
-            Pushing the stone lids to one side in the first I found a skeleton
-            of a woman, probably the woman who was carved on top. Prying the
-            rings from her fingers and the necklace from her finally I took the
-            tiara from her head. Tisiel looked up at me as I removed items from
-            a grave with a strange look.
+            I started pushing the stone lid to one side. In the first I saw a skeleton
+            of a woman, probably. There was a woman carved on top and her fingers had rings on them. her spine had a necklace resting on it and behind her skull wsa a tiara. Each of them looked expensive. I had seen jewelry before, and magic items but they where usually gems placed onto a band of metal. These though the metal was crafted into scenes with monsters and animals and humans all around each item. As I was inspecting the tiara Tisiel looked up at me strange look.
           </p>
-          <p>Otto - "I remember this being your idea, you might need them"</p>
+          <p>"I remember this being your idea, you might need them" I said.</p>
           <p>
-            Tisiel just rolled her eyes and went back to studying the signs
-            around the sarcophaguses. In the second was the skeleton of a man, a
-            wand, crown and one ring. The third contained another woman, jewelry
+            She just rolled her eyes and went back to studying the signs
+            around the sarcophaguses. In the second was the skeleton of a man (I guess). With a
+            wand, crown and one ring. The third contained another woman, with similar jewelry
             and one coin. Making small pile of loot on the ground I turned to
             Tisiel.
           </p>
-          <p>Otto - "Learn anything?"</p>
-          <p>
-            Tisiel - "I will have to keep coming here to read these, but the
-            words I think I understand, he is a king, she was a queen and the
-            second woman was his daughter."
+          <p>"Learn anything?" I asked</p>
+          <p>"I will have to keep coming here to read these, but the
+            words I think I understand. This one means king, this one you opened first has the word queen and the
+            final grave you robbed... I would guess princess. It has a crown shape like the others but smaller then the queen." Tisiel said.
           </p>
-          <p>Otto - "They died at the same time?"</p>
-          <p>Tisiel - "No real evidence of that. Let's see what you found."</p>
+          <p>"I am not sure if having a crown makes you a king, they seemed to have no subjects. There is nothing around here just this tomb. You think they died at the same time? Since they are all here together." I asked.</p>
+          <p>"No real evidence of that. Not every one buries their dead next to where they live. There are some in the kingdom who build tombs for their families deep into the desert away from were they live and every time a family member dies they just add to that tomb. Let's see what you found." She said looking at my small pile of loot.</p>
           <p>
             Tisiel looked though the items before deciding she had no idea which
-            where important and which where not.
+            where important and which where not. We did not have all the time in the world so I interrupted her inspections. "Look away for a moment."
           </p>
-          <p>Otto - "Look away for a moment."</p>
           <p>Tisiel - "Why?"</p>
           <p>Otto - "Secret."</p>
           <p>Tisiel - "Fine, but no funny stuff."</p>
