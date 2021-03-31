@@ -467,9 +467,9 @@ function intro(props) {
             Tisiel looked though the items before deciding she had no idea which
             where important and which where not. We did not have all the time in the world so I interrupted her inspections. "Look away for a moment."
           </p>
-          <p>Tisiel - "Why?"</p>
-          <p>Otto - "Secret."</p>
-          <p>Tisiel - "Fine, but no funny stuff."</p>
+          <p>"Why?" She said holding onto one of the rings. It was the kings ring with the image of a skull engraved into the top.</p>
+          <p>"Secret." I replied.</p>
+          <p>"Fine, but no funny stuff." She said walking</p>
           <p>Otto - "Like I would..."</p>
           <p>
             I took out my wand and passed mana though it before placing it back,
