@@ -442,8 +442,7 @@ function intro(props) {
           </p>
           {/* Here */}
           <p>
-            Tisiel just smiled as she crouched down opened the book and started
-            reading and marking her fingers along the signs on the stone.
+            Tisiel just smiled as she crouched down opened a book she got from a pack on her waist. She started reading though it marking her fingers along the signs on the stone sarcophagus. I wanted to know what it said but also if Tisiel could even read this script. It was clearly old and did not resemble Aldenese at all. I wanted to guess more about it but in the end I was only 14 and what did I know about the academy, it's history or even other languages.
           </p>
           <p>
             Pushing the stone lids to one side in the first I found a skeleton
