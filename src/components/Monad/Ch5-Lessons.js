@@ -458,8 +458,8 @@ function intro(props) {
           </p>
           <p>"Learn anything?" I asked</p>
           <p>"I will have to keep coming here to read these, but the
-            words I think I understand. This one means king, this one you opened first has the word queen and the
-            final grave you robbed... I would guess princess. It has a crown shape like the others but smaller then the queen." Tisiel said.
+          words I think I understand. This one means king, this one you opened first has the word queen and the
+          final grave you robbed... I would guess princess. It has a crown shape like the others but smaller then the queen." Tisiel said.
           </p>
           <p>"I am not sure if having a crown makes you a king, they seemed to have no subjects. There is nothing around here just this tomb. You think they died at the same time? Since they are all here together." I asked.</p>
           <p>"No real evidence of that. Not every one buries their dead next to where they live. There are some in the kingdom who build tombs for their families deep into the desert away from were they live and every time a family member dies they just add to that tomb. Let's see what you found." She said looking at my small pile of loot.</p>
@@ -469,8 +469,8 @@ function intro(props) {
           </p>
           <p>"Why?" She said holding onto one of the rings. It was the kings ring with the image of a skull engraved into the top.</p>
           <p>"Secret." I replied.</p>
-          <p>"Fine, but no funny stuff." She said walking</p>
-          <p>Otto - "Like I would..."</p>
+          <p>"Fine, but no funny stuff." She said walking to the corner to show me she was not looking.</p>
+          <p>"Like I would..." I muttered.</p>
           <p>
             I took out my wand and passed mana though it before placing it back,
             I then moved the crown, wand and the kings ring to one side. The
