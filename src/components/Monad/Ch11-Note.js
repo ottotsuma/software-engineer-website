@@ -215,8 +215,8 @@ function intro(props) {
           </p>
           <p>Tisiel - "Her ring, it gives a little strength to the wearer."</p>
           <p>
-            Tisiel - "Finally the daughters coin, who though more research I am
-            not sure is there daughter at all. I am not even sure if they are
+            Tisiel - "Finally the princesses coin, who though more research I am
+            not sure if she was their daughter at all. I am not even sure if they are
             related and this coin is a mystery to me, can't find any references
             to coins like it, and I cannot tell what kind of magic it contains."
           </p>

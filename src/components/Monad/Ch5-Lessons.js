@@ -399,7 +399,7 @@ function intro(props) {
           <p>"Grab the ring?" I said as we got near the alter.</p>
           <p>"On the way out, same method or we die." She pointed out.</p>
           <p>"Glad I asked..." I said walking past it.</p>
-
+          {/* The stone statues around that attack later!  */}
           {/* Open the door to what!? mausoleum */}
           <p>
             Opening the door and looking around inside, the pair see nothing,
@@ -470,30 +470,30 @@ function intro(props) {
           <p>"Secret." I replied.</p>
           <p>"Fine, but no funny stuff." She said walking to the corner to show me she was not looking.</p>
           <p>"Like I would..." I muttered.</p>
-          {/* Hey */}
           <p>
-            I took out my wand and passed mana though it before placing it back,
-            I then moved the crown, wand and the kings ring to one side. The
-            Queens tiara & ring. The daughters coin. "You can look again"
+            I took out the wand I had got in Banderdam and passed mana though it before placing it back.
+            I then moved the kings crown, wand & ring to once side. The
+            Queens tiara & ring. The princesses coin also. "You can look again"
           </p>
-          <p>Tisiel - "I had to wait for you to make two piles?"</p>
-          <p>Otto - "The ones in this pile contain magic, these don't"</p>
+          <p>"I had to wait for you to make two piles?" Tisiel said turning back around and coming back.</p>
+          <p>"The ones in this pile contain magic, the others don't" I replied.</p>
           <p>
-            Tisiel - "I won't ask how but it would be amazing if they still
-            contain magic, It must of been centuries since anyone came here.
-            Let's get them all back I can use my skills to decipher these items
-            and tell you what they all do."
-          </p>
-          <p>Otto - "Sure, let's put them in your bag, keep them safe."</p>
-
-          <p>
-            When we step outside the mausoleum some of the stone statues carved
-            on the graves or around the mausoleum fell apart. One managed to
-            maintain some of its form and runs towards us, we split up and ran,
-            seeing the stone golem running after Tisiel I slowed down and
-            decided to double back and help.
+            "I won't ask how but it would be amazing if they still
+            contain magic, it must of been centuries since anyone came here.
+            Let's get them all back to the cliff sides. I can use my skills to decipher these items
+            and tell you what they all do." Tisiel said.
           </p>
 
+          <p>"Sure, let's put them in your bag, keep them safe." I said not really minding. I could identify the mana inside them and get the stats. With my numeracy talent it is likely my stats would be closer then Tisiel could get but then that won't help finding out about the history or further clues they may provide about the door in the cliff side.</p>
+          {/* I refer you to further up where you need to write about the battle mage and Tisiel's parents and dream. */}
+
+          <p>
+            When we stepped outside the mausoleum, the stone statues that made up some of the tomb stones started to shudder. Cracks started to show and they fell to pieces dropping to the ground with a thud. There was a large statue in the middle still standing. (Looks here) The cracks were there but it maintained its form. Suddenly it raised its foot and started moving towards us. We did not have to say anything and split running in separate directions.</p>
+
+          <p>I turned to see the stone golem running after Tisiel I slowed down and
+          decided to double back and help.
+          </p>
+          {/* hey */}
           <p>
             Running up to the golem I cast 'Strike' and the weak golem became
             enraged but the mana that struck down from above him had almost tore

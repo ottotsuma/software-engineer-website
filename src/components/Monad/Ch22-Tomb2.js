@@ -467,7 +467,7 @@ Now
             an alter with a man ripping out a heart, this was also where I found
             the coin inside the pyramid on an alter, the people who had this
             coin last must of tried to recreate the image on the back. The coin
-            from the king's tomb we dubbed the daughters coin had a stone cut
+            from the king's tomb we dubbed the princesses coin had a stone cut
             into the shape of a person, I guess with the body buried inside like
             we saw back in the ruins. and finally the coin from the strange man
             I found in the forest. On the flip side it had the image of a pyre,
