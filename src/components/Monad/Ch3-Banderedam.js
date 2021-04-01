@@ -14,7 +14,7 @@ function intro(props) {
             gap. There where square shaped towers all around the walls spaced
             apart, a wooden roof built atop. The gate house must of been rebuilt
             because the towers were built with a new circular design and stone
-            rooves. There was a walled and rooved walkway between the two towers
+            roofs. There was a walled and roofed walkway between the two towers
             visible from the outside, as it ran over the gate house giving the
             defenders room to drop things onto attacks. Even the older towers
             and walls had matriculations.

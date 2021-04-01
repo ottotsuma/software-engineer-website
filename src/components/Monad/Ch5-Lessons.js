@@ -369,11 +369,8 @@ function intro(props) {
           </p>
           <p>
             "You put it on the spike, if you didn't notice the it is behind the
-            spikes and gas. I am sure I would lose my hand if I did that." She
-            said holding the ring out to me.
+            spikes and gas. I am sure I would lose my hand if I did that." She then kicked a stone into the wall of gas and it disappeared. I could not prove it but I don't think the stone landed on the other side but really left this world. She turned and held out the ring in her hand.
           </p>
-
-          {/* Acid show? */}
           <p>
             With a shake of my head I picked up the ring from Tisiel's hand and
             placed it on my own. I then pushed my mana though the tip of my
@@ -487,7 +484,6 @@ function intro(props) {
 
           <p>"Sure, let's put them in your bag, keep them safe." I said not really minding. I could identify the mana inside them and get the stats. With my numeracy talent it is likely my stats would be closer then Tisiel could get but then that won't help finding out about the history or further clues they may provide about the door in the cliff side.</p>
           {/* I refer you to further up where you need to write about the battle mage and Tisiel's parents and dream. */}
-
           <p>
             When we stepped outside the mausoleum, the stone statues that made up some of the tomb stones started to shudder. Cracks started to show and they fell to pieces dropping to the ground with a thud. There was a large statue in the middle still standing. (Looks here, google graveyard golem) The cracks were there but it maintained its form. Suddenly it raised its foot and started moving towards us. We did not have to say anything and split running in separate directions.</p>
 
