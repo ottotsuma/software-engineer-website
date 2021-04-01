@@ -40,6 +40,7 @@ const spellList = {
     }
 }
 
+// Pass in type of mage, then you can && for the span and pick out the description that matches the mage.
 function spells({ spells }) {
     const array = []
     for (let index = 0; index < spells.length; index++) {
