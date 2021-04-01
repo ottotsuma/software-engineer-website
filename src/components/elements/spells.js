@@ -67,6 +67,7 @@ const SpellsStyle = styled.div`
   display: flex;
   justify-content: center;
   align-items: stretch;
+  flex-wrap: wrap;
 `;
 
 const Span = styled.span`
