@@ -490,38 +490,34 @@ function intro(props) {
           <p>
             When we stepped outside the mausoleum, the stone statues that made up some of the tomb stones started to shudder. Cracks started to show and they fell to pieces dropping to the ground with a thud. There was a large statue in the middle still standing. (Looks here, google graveyard golem) The cracks were there but it maintained its form. Suddenly it raised its foot and started moving towards us. We did not have to say anything and split running in separate directions.</p>
 
-{/* Was strike ever explained before this? */}
+          {/* Was strike ever explained before this? */}
           <p>I turned to see the golem running after Tisiel, I slowed down and
           decided to double back and help. Running up to the golem I cast 'Strike' and the golem became enraged as the mana struck down from above him landing on his arm. The crack in his shoulder filled with the mana and threatened to tare his arm off. "Tisiel, attack it." I shouted. Tisiel turned and thew a ball of mana into it. One arm broke off and seeing that manaball can be used
           as a weapon, I joined in and created a ball of mana in the palm of my hand and slammed it into the golem. Under the bombardment soon the golem fell apart with a creepy cry of anguish.
           </p>
 
           <p>
-            Otto - "They must of all been guardians, for them to be so weak.
-            Some of them even broke apart when activated."
+            "They must of all been guardians for the tomb right? For them to be so weak...
+            Some of them even broke apart when activated." I said quietly.
+          </p>
+          <p>"More impressive that this one even activated, but that could
+            help us determine the age of this place." Tisiel said between quick breaths.
           </p>
           <p>
-            Tisiel - "More impressive that they even activated, but that could
-            help us determine the age of this place."
+            "Been meaning to ask, if this place has been here so long and the door, don't you
+            think someone else would of opened the door by now? Or know what it
+            was or what this graveyard is?" I asked. It was not like the academy was lacking cleaver people or did not have the abilities we had.
           </p>
           <p>
-            Otto - "Been meaning to ask, if it has been here so long, don't you
-            think someone else would of opened the door by now, or know what it
-            was or what this graveyard is?"
-          </p>
-          <p>
-            Tisiel - "It's possible, but the fun is in the discovery. Now get
+            "It's possible, but the fun is in the discovery. Now get
             the ring with tether and let's leave before something else comes to
-            life."
+            life." Tisiel replied walking past the alter.
           </p>
-
           <p>
             Tisiel practically locked herself in her room for a few days, only
             coming out to go to lessons and eat. I went to check on her
-            everyday, it was amazing at the speed she deciphered at considering
-            she had to make time for her normal studies.
+            everyday, it was amazing how quickly she seemed to be learning the ancient language.
           </p>
-
           {/* <!-- Class - Past level 10 --> */}
           {/* <!-- This class recommends areas for leveling up to 10, and what you should do after reaching level 10 , 1 point per spell until level 30, different elements. --> */}
         </div>
