@@ -3,16 +3,48 @@ import React from "react";
 
 const spellList = {
     "Mana Ball" : {
-
+        name: "Mana Ball",
+        description: "test",
+        numeric: "",
+        vague: "",
     },
-    
+    "Tether" : {
+        name: "Tether",
+        description: "test",
+        numeric: "",
+        vague: "",
+    },
+    "Magic Resistance" : {
+        name: "Magic Resistance",
+        description: "test",
+        numeric: "",
+        vague: "",
+    },
+    "Magic Up" : {
+        name: "Magic Up",
+        description: "test",
+        numeric: "",
+        vague: "",
+    },
+    "Strike" : {
+        name: "Strike",
+        description: "test",
+        numeric: "",
+        vague: "",
+    },
+    "Magic Regen": {
+        name: "Magic Regen",
+        description: "test",
+        numeric: "",
+        vague: "",
+    }
 }
 
 function spells({ spells }) {
     const array = []
     for (let index = 0; index < spells.length; index++) {
-        const element = spells[index];
-        array.push(<SingleSpell>{element}<Span>{element}</Span></SingleSpell>)
+        const element = spellList[spells[index]]
+        array.push(<SingleSpell key={index + "SingleSpell"}>{element.name}<Span>{element.description}</Span></SingleSpell>)
     }
     return (
         <SpellsStyle>

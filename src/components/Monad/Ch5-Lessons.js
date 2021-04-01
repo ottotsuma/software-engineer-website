@@ -309,7 +309,7 @@ function intro(props) {
             <li>Sense: 1</li>
             <li>Charisma: 2</li>
           </p>
-          <Spells spells={["Mana Ball", "Tether", "Magic resistance", "Magic up", "Strike", " Magic regen"]} />
+          <Spells spells={["Mana Ball", "Tether", "Magic Resistance", "Magic Up", "Strike", "Magic Regen"]} />
           {/* Spells div? */}
 
           <p>
