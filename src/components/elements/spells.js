@@ -48,12 +48,20 @@ function spells({ spells }) {
         array.push(<SingleSpell key={index + "SingleSpell"}>{element.name}<Span>{element.description}</Span></SingleSpell>)
     }
     return (
+        <>
+        <Title>Spells:</Title>
         <SpellsStyle>
             {array}
         </SpellsStyle>
+        </>
     );
 }
 export default spells;
+
+const Title = styled.h1`
+  display: flex;
+  justify-content: center;
+`;
 
 const SpellsStyle = styled.div`
   display: flex;
