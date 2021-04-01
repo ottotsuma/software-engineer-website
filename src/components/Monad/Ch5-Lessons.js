@@ -19,7 +19,7 @@ function intro(props) {
           <p>
             We would had three classes this year. Magic, Combat and our element.
             While there might be minor events or one time classes this meant
-            this year I would only have 2 teachers. I had yet to meet my other
+            this year I would only have 2 teachers, with Lubin for both magic and combat. I had yet to meet my other
             teacher but I was glad to have Lubin so far he seemed like a
             professional teacher.
           </p>
@@ -276,13 +276,15 @@ function intro(props) {
           </p>
           <p>"What does the ring do?" I asked.</p>
           {/* Here - Major rewrite? */}
-          <p>"I think it is a key, to the place in the book." She exclaimed.</p>
+          <p>"I think it is a key, to the place shown in the book." She exclaimed.</p>
           <p>
             "So when do you wanna go? I am free now." I said looking at the
             glowing ring.
           </p>
-          <p></p>
-          {/* Stuff about her parents? Why where the others not interested ?*/}
+          <p>"We can set off shortly if you are that keen. Just let me get my gear ready." she said. She moved to her wardrobe and started to pull of leather belts and bags strapping them under her academy robe.</p>
+          <p>"You seem like you have done this before." I said looking at the gear she was putting into the bags.</p>
+          <p>"Yeah. My parents are historians. They love solving puzzles and finding out about the history of the world first hand. They often took me with them when they went to a new site to dig up and translate lost text." She said while finishing putting things into her bags the last item being the book on her desk she was talking about.</p>
+          <div className="BreakPoint"></div>
 
           <p>Later out in front of the cliff side.</p>
           <p className="stats">
@@ -341,8 +343,7 @@ function intro(props) {
             "An explorer though? How come? I am going to be a battle mage in the
             army." I said excited.
           </p>
-          {/* reply */}
-          <p></p>
+          <p>"Well, like I said in my room my parents travel often to historical sites and I had to go with them. I met adventures and the like, now I want to become an adventurer and travel the world. Who knows I might end up like my parents digging up treasures and solving mysteries." She replied.</p>
           <p>
             We walked north of the cliffs away from the academy. The path soon
             became more dirt then stone, and finally mud. It was not like the
@@ -501,7 +502,7 @@ function intro(props) {
             Some of them even broke apart when activated." I said quietly.
           </p>
           <p>"More impressive that this one even activated, but that could
-            help us determine the age of this place." Tisiel said between quick breaths.
+          help us determine the age of this place." Tisiel said between quick breaths.
           </p>
           <p>
             "Been meaning to ask, if this place has been here so long and the door, don't you
