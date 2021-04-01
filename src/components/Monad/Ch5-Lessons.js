@@ -488,20 +488,12 @@ function intro(props) {
           {/* I refer you to further up where you need to write about the battle mage and Tisiel's parents and dream. */}
 
           <p>
-            When we stepped outside the mausoleum, the stone statues that made up some of the tomb stones started to shudder. Cracks started to show and they fell to pieces dropping to the ground with a thud. There was a large statue in the middle still standing. (Looks here) The cracks were there but it maintained its form. Suddenly it raised its foot and started moving towards us. We did not have to say anything and split running in separate directions.</p>
+            When we stepped outside the mausoleum, the stone statues that made up some of the tomb stones started to shudder. Cracks started to show and they fell to pieces dropping to the ground with a thud. There was a large statue in the middle still standing. (Looks here, google graveyard golem) The cracks were there but it maintained its form. Suddenly it raised its foot and started moving towards us. We did not have to say anything and split running in separate directions.</p>
 
-          <p>I turned to see the stone golem running after Tisiel I slowed down and
-          decided to double back and help.
-          </p>
-          {/* hey */}
-          <p>
-            Running up to the golem I cast 'Strike' and the weak golem became
-            enraged but the mana that struck down from above him had almost tore
-            his arm off. "Tisiel, Strike it." Tisiel turned and thew a ball of
-            mana into it. One arm broke off and seeing that manaball can be used
-            as a weapon, I joined in and created a ball of mana in the palm of
-            my hand and slammed it into the golem. Under the bombardment soon
-            the golem fell apart with a creepy cry of anguish.
+{/* Was strike ever explained before this? */}
+          <p>I turned to see the golem running after Tisiel, I slowed down and
+          decided to double back and help. Running up to the golem I cast 'Strike' and the golem became enraged as the mana struck down from above him landing on his arm. The crack in his shoulder filled with the mana and threatened to tare his arm off. "Tisiel, attack it." I shouted. Tisiel turned and thew a ball of mana into it. One arm broke off and seeing that manaball can be used
+          as a weapon, I joined in and created a ball of mana in the palm of my hand and slammed it into the golem. Under the bombardment soon the golem fell apart with a creepy cry of anguish.
           </p>
 
           <p>
