@@ -2,31 +2,31 @@ import styled from "styled-components";
 import React from "react";
 
 const spellList = {
-    "Mana Ball" : {
+    "Mana Ball": {
         name: "Mana Ball",
         description: "test",
         numeric: "",
         vague: "",
     },
-    "Tether" : {
+    "Tether": {
         name: "Tether",
         description: "test",
         numeric: "",
         vague: "",
     },
-    "Magic Resistance" : {
+    "Magic Resistance": {
         name: "Magic Resistance",
         description: "test",
         numeric: "",
         vague: "",
     },
-    "Magic Up" : {
+    "Magic Up": {
         name: "Magic Up",
         description: "test",
         numeric: "",
         vague: "",
     },
-    "Strike" : {
+    "Strike": {
         name: "Strike",
         description: "test",
         numeric: "",
@@ -55,7 +55,6 @@ function spells({ spells }) {
 export default spells;
 
 const SpellsStyle = styled.div`
-  background: #638ad4; // weird blue
   display: flex;
   justify-content: center;
   align-items: stretch;
@@ -71,13 +70,18 @@ padding: 5px;
 width: 10%;
 position: absolute;
 z-index: 2;
+margin-top: 7%;
 `;
 
 const SingleSpell = styled.div`
     border-radius: 6px;
     padding: 5px;
     width: auto;
-  background: pink;
+background: linear-gradient(
+    217deg,
+    rgb(218, 182, 111),
+    rgb(244, 229, 203) 70.71%
+  );
   margin: 3%;
   display: flex;
   justify-content: center;
