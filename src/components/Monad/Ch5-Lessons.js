@@ -1,4 +1,5 @@
 import React from "react";
+import Spells from './../elements/spells'
 
 function intro(props) {
   return (
@@ -308,6 +309,8 @@ function intro(props) {
             <li>Sense: 1</li>
             <li>Charisma: 2</li>
           </p>
+          <Spells spells={["Mana Ball", "Tether", "Magic resistance", "Magic up", "Strike", " Magic regen"]} />
+          {/* Spells div? */}
 
           <p>
             "Whats that face?" Tisiel asked walking out from the large door

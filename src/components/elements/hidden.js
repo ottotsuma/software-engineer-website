@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 export default styled.div`
   background: inherit;
   width: 10px;
