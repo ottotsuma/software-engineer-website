@@ -74,7 +74,7 @@ const data: SkillType[] = [
                   },
                   {
                     id: "Inspect-Plants",
-                    title: "Inspect Plants ",
+                    title: "Inspect Plants",
                     tooltip: {
                       // utility 
                       content:
