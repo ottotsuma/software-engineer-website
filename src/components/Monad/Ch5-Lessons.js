@@ -1,6 +1,6 @@
 import React from "react";
-import Spells from './../elements/spells'
-import Stats from './../elements/stats'
+import Spells from "./../elements/spells";
+import Stats from "./../elements/stats";
 
 function intro(props) {
   return (
@@ -21,9 +21,9 @@ function intro(props) {
           <p>
             We would had three classes this year. Magic, Combat and our element.
             While there might be minor events or one time classes this meant
-            this year I would only have 2 teachers, with Lubin for both magic and combat. I had yet to meet my other
-            teacher but I was glad to have Lubin so far he seemed like a
-            professional teacher.
+            this year I would only have 2 teachers, with Lubin for both magic
+            and combat. I had yet to meet my other teacher but I was glad to
+            have Lubin so far he seemed like a professional teacher.
           </p>
           <p>
             "They project their mana into the world around them to cause change"
@@ -278,37 +278,68 @@ function intro(props) {
           </p>
           <p>"What does the ring do?" I asked.</p>
           {/* Here - Major rewrite? */}
-          <p>"I think it is a key, to the place shown in the book." She exclaimed.</p>
+          <p>
+            "I think it is a key, to the place shown in the book." She
+            exclaimed.
+          </p>
           <p>
             "So when do you wanna go? I am free now." I said looking at the
             glowing ring.
           </p>
-          <p>"We can set off shortly if you are that keen. Just let me get my gear ready." she said. She moved to her wardrobe and started to pull of leather belts and bags strapping them under her academy robe.</p>
-          <p>"You seem like you have done this before." I said looking at the gear she was putting into the bags.</p>
-          <p>"Yeah. My parents are historians. They love solving puzzles and finding out about the history of the world first hand. They often took me with them when they went to a new site to dig up and translate lost text." She said while finishing putting things into her bags the last item being the book on her desk she was talking about.</p>
+          <p>
+            "We can set off shortly if you are that keen. Just let me get my
+            gear ready." she said. She moved to her wardrobe and started to pull
+            of leather belts and bags strapping them under her academy robe.
+          </p>
+          <p>
+            "You seem like you have done this before." I said looking at the
+            gear she was putting into the bags.
+          </p>
+          <p>
+            "Yeah. My parents are historians. They love solving puzzles and
+            finding out about the history of the world first hand. They often
+            took me with them when they went to a new site to dig up and
+            translate lost text." She said while finishing putting things into
+            her bags the last item being the book on her desk she was talking
+            about.
+          </p>
           <div className="BreakPoint"></div>
 
           <p>Later out in front of the cliff side.</p>
-          <Stats 
-          type={"description"}
-          stats={{
-            name: "Otto",
-            level: 8,
-            class: "Mage",
-            skills: 6,
-            titles: 1,
-            "skill points": 2,
-            "stat points" : 8,
-            vitality: 0,
-            strength: 0,
-            endurance: 0,
-            magic: 10,
-            willpower: 1,
-            dexterity: 0,
-            sense: 1,
-            charisma: 2
-          }} notes={"Magic +1 from title. Willpower + 1 from magic resistance skill."} />
-          <Spells spells={["Mana Ball", "Tether", "Magic Resistance", "Magic Up", "Strike", "Magic Regen"]} type={"description"} />
+          <Stats
+            type={"description"}
+            stats={{
+              name: "Otto",
+              level: 8,
+              class: "Mage",
+              skills: 6,
+              titles: 1,
+              "skill points": 2,
+              "stat points": 8,
+              vitality: 0,
+              strength: 0,
+              endurance: 0,
+              magic: 10,
+              willpower: 1,
+              dexterity: 0,
+              sense: 1,
+              charisma: 2,
+            }}
+            notes={
+              "Magic +1 from title. Willpower + 1 from magic resistance skill."
+            }
+          />
+          <Spells
+            spells={[
+              "Mana Ball",
+              "Tether",
+              "Magic Resistance",
+              "Magic Up",
+              "Strike",
+              "Magic Regen",
+            ]}
+            type={"description"}
+          />
           <div className="BreakPoint"></div>
           <p>
             "Whats that face?" Tisiel asked walking out from the large door
@@ -344,7 +375,13 @@ function intro(props) {
             "An explorer though? How come? I am going to be a battle mage in the
             army." I said excited.
           </p>
-          <p>"Well, like I said in my room my parents travel often to historical sites and I had to go with them. I met adventures and the like, now I want to become an adventurer and travel the world. Who knows I might end up like my parents digging up treasures and solving mysteries." She replied.</p>
+          <p>
+            "Well, like I said in my room my parents travel often to historical
+            sites and I had to go with them. I met adventures and the like, now
+            I want to become an adventurer and travel the world. Who knows I
+            might end up like my parents digging up treasures and solving
+            mysteries." She replied.
+          </p>
           <p>
             We walked north of the cliffs away from the academy. The path soon
             became more dirt then stone, and finally mud. It was not like the
@@ -370,7 +407,11 @@ function intro(props) {
           </p>
           <p>
             "You put it on the spike, if you didn't notice the it is behind the
-            spikes and gas. I am sure I would lose my hand if I did that." She then kicked a stone into the wall of gas and it disappeared. I could not prove it but I don't think the stone landed on the other side but really left this world. She turned and held out the ring in her hand.
+            spikes and gas. I am sure I would lose my hand if I did that." She
+            then kicked a stone into the wall of gas and it disappeared. I could
+            not prove it but I don't think the stone landed on the other side
+            but really left this world. She turned and held out the ring in her
+            hand.
           </p>
           <p>
             With a shake of my head I picked up the ring from Tisiel's hand and
@@ -398,11 +439,21 @@ function intro(props) {
           <p>"Grab the ring?" I said as we got near the alter.</p>
           <p>"On the way out, same method or we die." She pointed out.</p>
           <p>"Glad I asked..." I said walking past it.</p>
-          <p>There were what I would call normal grave stones with writing on the stones, although faded out now. Others looked like sculptures of people, monsters & various unusual designs.</p>
-          <p>The grass was strangely cold considering the the weather as not cold today. We walked though the graves and to the door of the mausoleum. </p>
+          <p>
+            There were what I would call normal grave stones with writing on the
+            stones, although faded out now. Others looked like sculptures of
+            people, monsters & various unusual designs.
+          </p>
+          <p>
+            The grass was strangely cold considering the the weather as not cold
+            today. We walked though the graves and to the door of the mausoleum.
+            It resembled the old academy buildings but in a way it looked like a
+            cheaper copy. The stones where white and the doors where a black
+            metal. The difference was that the building here was not lined with
+            a golden material and instead was lined with small figures acting
+            out scenes.
+          </p>
           {/* Pre-Dao, Dao, Immortal, Dark-Age, (Dawn Age) Great Migration, Warning Kingdoms Period (mausoleum), Pyramid (The One Kingdom), Pocotocotcan Empire, Witch, Now. */}
-
-          {/* Open the door to what!? mausoleum */}
           <p>
             Opening the door and looking around inside, the pair see nothing,
             it's dark so we cast mage light, mana gathers in the palm of their
@@ -443,77 +494,147 @@ function intro(props) {
             dead girl to pay for dinner.
           </p>
           <p>
-            Tisiel just smiled as she crouched down opened a book she got from a pack on her waist. She started reading though it marking her fingers along the signs on the stone sarcophagus. I wanted to know what it said but also if Tisiel could even read this script. It was clearly old and did not resemble Aldenese at all. I wanted to guess more about it but in the end I was only 14 and what did I know about the academy, it's history or even other languages.
+            Tisiel just smiled as she crouched down opened a book she got from a
+            pack on her waist. She started reading though it marking her fingers
+            along the signs on the stone sarcophagus. I wanted to know what it
+            said but also if Tisiel could even read this script. It was clearly
+            old and did not resemble Aldenese at all. I wanted to guess more
+            about it but in the end I was only 14 and what did I know about the
+            academy, it's history or even other languages.
           </p>
           <p>
-            I started pushing the stone lid to one side. In the first I saw a skeleton
-            of a woman, probably. There was a woman carved on top and her fingers had rings on them. her spine had a necklace resting on it and behind her skull wsa a tiara. Each of them looked expensive. I had seen jewelry before, and magic items but they where usually gems placed onto a band of metal. These though the metal was crafted into scenes with monsters and animals and humans all around each item. As I was inspecting the tiara Tisiel looked up at me strange look.
+            I started pushing the stone lid to one side. In the first I saw a
+            skeleton of a woman, probably. There was a woman carved on top and
+            her fingers had rings on them. her spine had a necklace resting on
+            it and behind her skull wsa a tiara. Each of them looked expensive.
+            I had seen jewelry before, and magic items but they where usually
+            gems placed onto a band of metal. These though the metal was crafted
+            into scenes with monsters and animals and humans all around each
+            item. As I was inspecting the tiara Tisiel looked up at me strange
+            look.
           </p>
           <p>"I remember this being your idea, you might need them" I said.</p>
           <p>
-            She just rolled her eyes and went back to studying the signs
-            around the sarcophaguses. In the second was the skeleton of a man (I guess). With a
-            wand, crown and one ring. The third contained another woman, with similar jewelry
-            and one coin. Making small pile of loot on the ground I turned to
-            Tisiel.
+            She just rolled her eyes and went back to studying the signs around
+            the sarcophaguses. In the second was the skeleton of a man (I
+            guess). With a wand, crown and one ring. The third contained another
+            woman, with similar jewelry and one coin. Making small pile of loot
+            on the ground I turned to Tisiel.
           </p>
           <p>"Learn anything?" I asked</p>
-          <p>"I will have to keep coming here to read these, but the
-          words I think I understand. This one means king, this one you opened first has the word queen and the
-          final grave you robbed... I would guess princess. It has a crown shape like the others but smaller then the queen." Tisiel said.
+          <p>
+            "I will have to keep coming here to read these, but the words I
+            think I understand. This one means king, this one you opened first
+            has the word queen and the final grave you robbed... I would guess
+            princess. It has a crown shape like the others but smaller then the
+            queen." Tisiel said.
           </p>
-          <p>"I am not sure if having a crown makes you a king, they seemed to have no subjects. There is nothing around here just this tomb. You think they died at the same time? Since they are all here together." I asked.</p>
-          <p>"No real evidence of that. Not every one buries their dead next to where they live. There are some in the kingdom who build tombs for their families deep into the desert away from were they live and every time a family member dies they just add to that tomb. Let's see what you found." She said looking at my small pile of loot.</p>
+          <p>
+            "I am not sure if having a crown makes you a king, they seemed to
+            have no subjects. There is nothing around here just this tomb. You
+            think they died at the same time? Since they are all here together."
+            I asked.
+          </p>
+          <p>
+            "No real evidence of that. Not every one buries their dead next to
+            where they live. There are some in the kingdom who build tombs for
+            their families deep into the desert away from were they live and
+            every time a family member dies they just add to that tomb. Let's
+            see what you found." She said looking at my small pile of loot.
+          </p>
           <p>
             Tisiel looked though the items before deciding she had no idea which
-            where important and which where not. We did not have all the time in the world so I interrupted her inspections. "Look away for a moment."
+            where important and which where not. We did not have all the time in
+            the world so I interrupted her inspections. "Look away for a
+            moment."
           </p>
-          <p>"Why?" She said holding onto one of the rings. It was the kings ring with the image of a skull engraved into the top.</p>
+          <p>
+            "Why?" She said holding onto one of the rings. It was the kings ring
+            with the image of a skull engraved into the top.
+          </p>
           <p>"Secret." I replied.</p>
-          <p>"Fine, but no funny stuff." She said walking to the corner to show me she was not looking.</p>
+          <p>
+            "Fine, but no funny stuff." She said walking to the corner to show
+            me she was not looking.
+          </p>
           <p>"Like I would..." I muttered.</p>
           <p>
-            I took out the wand I had got in Banderdam and passed mana though it before placing it back.
-            I then moved the kings crown, wand & ring to once side. The
-            Queens tiara & ring. The princesses coin also. "You can look again"
+            I took out the wand I had got in Banderdam and passed mana though it
+            before placing it back. I then moved the kings crown, wand & ring to
+            once side. The Queens tiara & ring. The princesses coin also. "You
+            can look again"
           </p>
-          <p>"I had to wait for you to make two piles?" Tisiel said turning back around and coming back.</p>
-          <p>"The ones in this pile contain magic, the others don't" I replied.</p>
           <p>
-            "I won't ask how but it would be amazing if they still
-            contain magic, it must of been centuries since anyone came here.
-            Let's get them all back to the cliff sides. I can use my skills to decipher these items
-            and tell you what they all do." Tisiel said.
+            "I had to wait for you to make two piles?" Tisiel said turning back
+            around and coming back.
           </p>
-          <p>"Sure, let's put them in your bag, keep them safe." I said not really minding. I could identify the mana inside them and get the stats. With my numeracy talent it is likely my stats would be closer then Tisiel could get but then that won't help finding out about the history or further clues they may provide about the door in the cliff side.</p>
+          <p>
+            "The ones in this pile contain magic, the others don't" I replied.
+          </p>
+          <p>
+            "I won't ask how but it would be amazing if they still contain
+            magic, it must of been centuries since anyone came here. Let's get
+            them all back to the cliff sides. I can use my skills to decipher
+            these items and tell you what they all do." Tisiel said.
+          </p>
+          <p>
+            "Sure, let's put them in your bag, keep them safe." I said not
+            really minding. I could identify the mana inside them and get the
+            stats. With my numeracy talent it is likely my stats would be closer
+            then Tisiel could get but then that won't help finding out about the
+            history or further clues they may provide about the door in the
+            cliff side.
+          </p>
           {/* I refer you to further up where you need to write about the battle mage and Tisiel's parents and dream. */}
           <p>
-            When we stepped outside the mausoleum, the stone statues that made up some of the tomb stones started to shudder. Cracks started to show and they fell to pieces dropping to the ground with a thud. There was a large statue in the middle still standing. (Looks here, google graveyard golem) The cracks were there but it maintained its form. Suddenly it raised its foot and started moving towards us. We did not have to say anything and split running in separate directions.</p>
-          <p>I turned to see the golem running after Tisiel, I slowed down and
-          decided to double back and help. Running up to the golem I cast 'Strike' and the golem became enraged as the mana struck down from above him landing on his arm. The crack in his shoulder filled with the mana and threatened to tare his arm off. "Tisiel, attack it." I shouted. Tisiel turned and thew a ball of mana into it. One arm broke off and seeing that manaball can be used
-          as a weapon, I joined in and created a ball of mana in the palm of my hand and slammed it into the golem. Under the bombardment soon the golem fell apart with a creepy cry of anguish.
+            When we stepped outside the mausoleum, the stone statues that made
+            up some of the tomb stones started to shudder. Cracks started to
+            show and they fell to pieces dropping to the ground with a thud.
+            There was a large statue in the middle still standing. (Looks here,
+            google graveyard golem) The cracks were there but it maintained its
+            form. Suddenly it raised its foot and started moving towards us. We
+            did not have to say anything and split running in separate
+            directions.
           </p>
           <p>
-            "They must of all been guardians for the tomb right? For them to be so weak...
-            Some of them even broke apart when activated." I said quietly.
-          </p>
-          <p>"More impressive that this one even activated, but that could
-          help us determine the age of this place." Tisiel said between quick breaths.
+            I turned to see the golem running after Tisiel, I slowed down and
+            decided to double back and help. Running up to the golem I cast
+            'Strike' and the golem became enraged as the mana struck down from
+            above him landing on his arm. The crack in his shoulder filled with
+            the mana and threatened to tare his arm off. "Tisiel, attack it." I
+            shouted. Tisiel turned and thew a ball of mana into it. One arm
+            broke off and seeing that manaball can be used as a weapon, I joined
+            in and created a ball of mana in the palm of my hand and slammed it
+            into the golem. Under the bombardment soon the golem fell apart with
+            a creepy cry of anguish.
           </p>
           <p>
-            "Been meaning to ask, if this place has been here so long and the door, don't you
-            think someone else would of opened the door by now? Or know what it
-            was or what this graveyard is?" I asked. It was not like the academy was lacking cleaver people or did not have the abilities we had.
+            "They must of all been guardians for the tomb right? For them to be
+            so weak... Some of them even broke apart when activated." I said
+            quietly.
           </p>
           <p>
-            "It's possible, but the fun is in the discovery. Now get
-            the ring with tether and let's leave before something else comes to
-            life." Tisiel replied walking past the alter.
+            "More impressive that this one even activated, but that could help
+            us determine the age of this place." Tisiel said between quick
+            breaths.
+          </p>
+          <p>
+            "Been meaning to ask, if this place has been here so long and the
+            door, don't you think someone else would of opened the door by now?
+            Or know what it was or what this graveyard is?" I asked. It was not
+            like the academy was lacking cleaver people or did not have the
+            abilities we had.
+          </p>
+          <p>
+            "It's possible, but the fun is in the discovery. Now get the ring
+            with tether and let's leave before something else comes to life."
+            Tisiel replied walking past the alter.
           </p>
           <p>
             Tisiel practically locked herself in her room for a few days, only
             coming out to go to lessons and eat. I went to check on her
-            everyday, it was amazing how quickly she seemed to be learning the ancient language.
+            everyday, it was amazing how quickly she seemed to be learning the
+            ancient language.
           </p>
           {/* <!-- Class - Past level 10 --> */}
           {/* <!-- This class recommends areas for leveling up to 10, and what you should do after reaching level 10 , 1 point per spell until level 30, different elements. --> */}
