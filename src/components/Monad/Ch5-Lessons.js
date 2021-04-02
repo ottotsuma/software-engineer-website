@@ -399,7 +399,10 @@ function intro(props) {
           <p>"Grab the ring?" I said as we got near the alter.</p>
           <p>"On the way out, same method or we die." She pointed out.</p>
           <p>"Glad I asked..." I said walking past it.</p>
-          {/* The stone statues around that attack later!  */}
+          <p>There were what I would call normal grave stones with writing on the stones, although faded out now. Others looked like sculptures of people, monsters & various unusual designs.</p>
+          <p>The grass was strangely cold considering the the weather as not cold today. We walked though the graves and to the door of the mausoleum. </p>
+          {/* Pre-Dao, Dao, Immortal, Dark-Age, (Dawn Age) Great Migration, Warning Kingdoms Period (mausoleum), Pyramid (The One Kingdom), Pocotocotcan Empire, Witch, Now. */}
+
           {/* Open the door to what!? mausoleum */}
           <p>
             Opening the door and looking around inside, the pair see nothing,
@@ -483,18 +486,14 @@ function intro(props) {
             Let's get them all back to the cliff sides. I can use my skills to decipher these items
             and tell you what they all do." Tisiel said.
           </p>
-
           <p>"Sure, let's put them in your bag, keep them safe." I said not really minding. I could identify the mana inside them and get the stats. With my numeracy talent it is likely my stats would be closer then Tisiel could get but then that won't help finding out about the history or further clues they may provide about the door in the cliff side.</p>
           {/* I refer you to further up where you need to write about the battle mage and Tisiel's parents and dream. */}
           <p>
             When we stepped outside the mausoleum, the stone statues that made up some of the tomb stones started to shudder. Cracks started to show and they fell to pieces dropping to the ground with a thud. There was a large statue in the middle still standing. (Looks here, google graveyard golem) The cracks were there but it maintained its form. Suddenly it raised its foot and started moving towards us. We did not have to say anything and split running in separate directions.</p>
-
-          {/* Was strike ever explained before this? */}
           <p>I turned to see the golem running after Tisiel, I slowed down and
           decided to double back and help. Running up to the golem I cast 'Strike' and the golem became enraged as the mana struck down from above him landing on his arm. The crack in his shoulder filled with the mana and threatened to tare his arm off. "Tisiel, attack it." I shouted. Tisiel turned and thew a ball of mana into it. One arm broke off and seeing that manaball can be used
           as a weapon, I joined in and created a ball of mana in the palm of my hand and slammed it into the golem. Under the bombardment soon the golem fell apart with a creepy cry of anguish.
           </p>
-
           <p>
             "They must of all been guardians for the tomb right? For them to be so weak...
             Some of them even broke apart when activated." I said quietly.
