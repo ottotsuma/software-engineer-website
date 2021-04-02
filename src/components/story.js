@@ -12,7 +12,6 @@ import Blog from "./../assets/blog.png";
 import Bug from "./../assets/bug.jpg";
 import Dob from "./../assets/dob.png";
 import Witch from "./../assets/witch7.jpg";
-// import Todo from "./../assets/todo.jpg";
 import Weather from "./../assets/weather.png";
 import Card from "./card";
 import Blackjack from "./blackjack";
