@@ -14,7 +14,7 @@ const statList = {
     },
     "name": {
         name: "Vitality",
-        description: "Increases your health points",
+        description: "This is your name!",
         numeric: "Increases HP by 14.5 per point.",
         vague: "Increases your durability.",
         major: "Increased health points.",
@@ -22,7 +22,7 @@ const statList = {
     },
     "level": {
         name: "Vitality",
-        description: "Increases your health points",
+        description: "As your level increases you will become stronger!",
         numeric: "Increases HP by 14.5 per point.",
         vague: "Increases your durability.",
         major: "Increased health points.",
@@ -30,14 +30,14 @@ const statList = {
     },
     "class": {
         name: "Vitality",
-        description: "Increases your health points",
+        description: "This is your class.",
         numeric: "Increases HP by 14.5 per point.",
         vague: "Increases your durability.",
         major: "Increased health points.",
         minor: "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina."
     },
     "skills": {
-        name: "Vitality",
+        name: "This is the total amount of your unique skills.",
         description: "Increases your health points",
         numeric: "Increases HP by 14.5 per point.",
         vague: "Increases your durability.",
@@ -46,7 +46,7 @@ const statList = {
     },
     "titles": {
         name: "Vitality",
-        description: "Increases your health points",
+        description: "This is the amount of titles you hold.",
         numeric: "Increases HP by 14.5 per point.",
         vague: "Increases your durability.",
         major: "Increased health points.",
@@ -54,7 +54,7 @@ const statList = {
     },
     "skill points": {
         name: "Vitality",
-        description: "Increases your health points",
+        description: "This is the amount of unspent skill points you have.",
         numeric: "Increases HP by 14.5 per point.",
         vague: "Increases your durability.",
         major: "Increased health points.",
@@ -62,7 +62,7 @@ const statList = {
     },
     "stat points": {
         name: "Vitality",
-        description: "Increases your health points",
+        description: "This is the amount of unspent stat points you have.",
         numeric: "Increases HP by 14.5 per point.",
         vague: "Increases your durability.",
         major: "Increased health points.",
@@ -78,7 +78,7 @@ const statList = {
     },
     "strength": {
         name: "Vitality",
-        description: "Increases your health points",
+        description: "Increases your physical damage.",
         numeric: "Increases HP by 14.5 per point.",
         vague: "Increases your durability.",
         major: "Increased health points.",
@@ -86,7 +86,7 @@ const statList = {
     },
     "endurance": {
         name: "Vitality",
-        description: "Increases your health points",
+        description: "Increases resistance to physical damage.",
         numeric: "Increases HP by 14.5 per point.",
         vague: "Increases your durability.",
         major: "Increased health points.",
@@ -94,7 +94,7 @@ const statList = {
     },
     "magic": {
         name: "Vitality",
-        description: "Increases your health points",
+        description: "Increases Magic damage.",
         numeric: "Increases HP by 14.5 per point.",
         vague: "Increases your durability.",
         major: "Increased health points.",
@@ -102,7 +102,7 @@ const statList = {
     },
     "willpower": {
         name: "Vitality",
-        description: "Increases your health points",
+        description: "Increases resistance to magic.",
         numeric: "Increases HP by 14.5 per point.",
         vague: "Increases your durability.",
         major: "Increased health points.",
@@ -110,7 +110,7 @@ const statList = {
     },
     "dexterity": {
         name: "Vitality",
-        description: "Increases your health points",
+        description: "Reduces time between using skills.",
         numeric: "Increases HP by 14.5 per point.",
         vague: "Increases your durability.",
         major: "Increased health points.",
@@ -118,7 +118,7 @@ const statList = {
     },
     "sense": {
         name: "Vitality",
-        description: "Increases your health points",
+        description: "???",
         numeric: "Increases HP by 14.5 per point.",
         vague: "Increases your durability.",
         major: "Increased health points.",
@@ -126,7 +126,7 @@ const statList = {
     },
     "charisma": {
         name: "Vitality",
-        description: "Increases your health points",
+        description: "?!?",
         numeric: "Increases HP by 14.5 per point.",
         vague: "Increases your durability.",
         major: "Increased health points.",

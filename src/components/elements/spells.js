@@ -202,7 +202,7 @@ background: linear-gradient(
     rgb(218, 182, 111),
     rgb(244, 229, 203) 70.71%
   );
-  margin: 3%;
+  margin: 1%;
   display: flex;
   justify-content: center;
   align-items: center;
