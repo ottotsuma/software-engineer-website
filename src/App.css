@@ -8,33 +8,6 @@
   font-family: "Yusei Magic", sans-serif;
 }
 
-.Home-p {
-  padding: 1px;
-}
-
-.Sheep {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  z-index: 1;
-  left: 20%;
-  top: 80%;
-}
-
-.Main {
-  text-align: center;
-  background: linear-gradient(
-    0deg,
-    rgba(34, 89, 195, 0.7) 9%,
-    rgba(45, 253, 209, 0.3) 100%
-  );
-  /* background-color: #202040; */
-  color: whitesmoke;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
 .Main-Light {
   text-align: center;
   /* background: linear-gradient(0deg, rgba(34,89,195,1) 9%, rgba(45,253,209,1) 100%); */
@@ -912,51 +885,6 @@ footer {
   border-style: solid;
   margin: 0.5rem;
 }
-
-/* Weird buy button */
-/* 
-.Out-But {
-  width: 155px;
-  height: 55px;
-  overflow: hidden;
-  border-width: 0.1rem;
-  border-radius: 0.3rem;
-} */
-
-/* .Top {
-  border-color: rgb(133, 133, 133);
-  border-style: solid;
-  border-width: 0.1rem;
-  border-radius: 0.3rem;
-  background: #6ca1cf;
-  color: rgb(231, 231, 231);
-  width: 150px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-
-/* .Bottom {
-  border-color: rgb(133, 133, 133);
-  border-style: solid;
-  border-width: 0.1rem;
-  border-radius: 0.3rem;
-  background: #f99a87;
-  color: rgb(231, 231, 231);
-  cursor: pointer;
-  width: 150px;
-  height: 50px;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-
-/* .In-But:hover {
-    margin-top:-52px;
-    transition: margin 1s, 1s;
-} */
 
 .Tree-Outer {
   max-width: 100vw;

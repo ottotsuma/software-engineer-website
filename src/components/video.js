@@ -8,7 +8,7 @@ import sheep7 from "./../assets/sheep7.gif";
 import sheep8 from "./../assets/sheep8.gif";
 import sheep9 from "./../assets/sheep9.gif";
 import sheep10 from "./../assets/sheep10.gif";
-
+import styled from "styled-components";
 import birthday from "./../assets/sheep5.gif";
 import React, { useState, useEffect } from "react";
 
@@ -28,15 +28,25 @@ function Video() {
   ) {
     return (
       <div className="App">
-        <img src={birthday} alt="Birthday" className="Sheep" type="gif" />
+        <Sheep src={birthday} alt="Birthday" type="gif" />
       </div>
     );
   } else {
     return (
       <div className="App">
-        <img src={sheep} alt="Sheep" className="Sheep" type="gif" />
+        <Sheep src={sheep} alt="Sheep" type="gif" />
       </div>
     );
   }
 }
 export default Video;
+
+const Sheep = styled.img`
+position: absolute;
+width: 100px;
+height: 100px;
+z-index: 1;
+left: 20%;
+top: 80%;
+`;
+

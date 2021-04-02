@@ -25,7 +25,6 @@ function home() {
           to="/Monad/1"
           style={{ "text-decoration": "none", position: "fixed" }}
         >
-          　
         </Link>
       </Hidden>
       <Glass>
