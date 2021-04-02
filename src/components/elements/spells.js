@@ -187,7 +187,7 @@ color: #fff;
 text-align: center;
 border-radius: 6px;
 padding: 5px;
-width: 10%;
+width: auto;
 position: absolute;
 z-index: 2;
 margin-top: 7%;
