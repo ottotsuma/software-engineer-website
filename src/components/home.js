@@ -20,10 +20,10 @@ function change(props) {
 // Main function
 function home() {
   return (
-    <div className="Glass-Outside">
+    <GlassWrapper>
       <Hidden><Link to="/Monad/1" style={{"text-decoration": "none", "position": "fixed"}}>　</Link></Hidden>
-      <div className="Glass">
-        <div className="Profile">
+      <Glass>
+        <Profile>
           <div>
             <Video />
             <img
@@ -34,7 +34,7 @@ function home() {
             <h3>Shaun Darragh</h3>
             <h4>ダラー・ショーン</h4>
           </div>
-          <div className="Links-List">
+          <List>
             <div className="Linky">
               <img
                 src="https://image.flaticon.com/icons/png/512/25/25231.png"
@@ -65,15 +65,14 @@ function home() {
               <img src={Cog} alt=" " className="Link-Img" />
               <Link to="/tech">Technical Skills</Link>
             </div>
-          </div>
+          </List>
           <Anchor>
             <Link to="/Blackjack" style={{ color: "white" }}>
               Blackjack
             </Link>
           </Anchor>
-        </div>
-        <div className="Right-Wrapper">
-          {/* About end */}
+        </Profile>
+        <Right>
           <div
             className="Box"
             onClick={() =>
@@ -111,16 +110,97 @@ function home() {
             </div>
             <p className="Home-p">React, PWA, Netlify</p>
           </div>
-        </div>
-        {/* Time end */}
-      </div>
-      {/* Glass end */}
-      <div className="Circle1"></div>
-      <div className="Circle2"></div>
-      {/* <footer> </footer> */}
-    </div>
-    // App end
+        </Right>
+      </Glass>
+      <Circle1 />
+      <Circle2 />
+    </GlassWrapper>
   );
 }
+
+const List = styled.div`
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+min-height: 40%;
+`;
+
+const Right = styled.div`
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+flex: 2;
+`;
+
+const Profile = styled.div`
+background: linear-gradient(
+  0deg,
+  rgba(255, 255, 255, 0.9),
+  rgba(255, 255, 255, 0.5)
+);
+border-radius: 1rem;
+flex: 1;
+color: black;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+text-align: center;
+`;
+
+const GlassWrapper = styled.div`
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+`;
+
+const Glass = styled.div`
+background: linear-gradient(
+  0deg,
+  rgba(255, 255, 255, 0.6),
+  rgba(255, 255, 255, 0.3)
+);
+min-height: 80vh;
+width: 60%;
+display: flex;
+border-radius: 2rem;
+z-index: 3;
+backdrop-filter: blur(2rem);
+`;
+
+const Circle1 = styled.div`
+background: linear-gradient(
+  0deg,
+  rgba(255, 0, 221, 0.7),
+  rgba(255, 255, 255, 0.3)
+);
+position: absolute;
+width: 10rem;
+height: 10rem;
+border-radius: 50%;
+z-index: 2;
+// pos
+top: 10%;
+right: 15%;
+`;
+
+const Circle2 = styled.div`
+background: linear-gradient(
+  0deg,
+  rgba(255, 0, 221, 0.7),
+  rgba(255, 255, 255, 0.3)
+);
+position: absolute;
+width: 10rem;
+height: 10rem;
+border-radius: 50%;
+z-index: 2;
+// pos
+bottom: 5%;
+left: 15%;
+`;
 
 export default home;

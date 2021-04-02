@@ -42,13 +42,6 @@
   color: black;
 }
 
-.Glass-Outside {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .Playground {
   display: flex;
   justify-content: space-around;
@@ -63,44 +56,6 @@
 
 .App {
   flex: 1;
-}
-
-.Glass {
-  background: linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 0.6),
-    rgba(255, 255, 255, 0.3)
-  );
-  min-height: 80vh;
-  width: 60%;
-  display: flex;
-  border-radius: 2rem;
-  z-index: 3;
-  backdrop-filter: blur(2rem);
-}
-
-.Circle1,
-.Circle2 {
-  background: linear-gradient(
-    0deg,
-    rgba(255, 0, 221, 0.7),
-    rgba(255, 255, 255, 0.3)
-  );
-  position: absolute;
-  width: 10rem;
-  height: 10rem;
-  border-radius: 50%;
-  z-index: 2;
-}
-
-.Circle1 {
-  top: 10%;
-  right: 15%;
-}
-
-.Circle2 {
-  bottom: 5%;
-  left: 15%;
 }
 
 .Right-Wrapper {
@@ -146,8 +101,6 @@
   justify-content: space-evenly;
   align-items: center;
   min-height: 40%;
-  /* border-color: black;
-  border-style: solid;  */
 }
 
 .Linky {
@@ -171,25 +124,6 @@
   border-radius: 1rem;
   padding: 2px;
   margin: 1rem;
-}
-
-.Profile {
-  /* background-color: white; */
-  background: linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 0.9),
-    rgba(255, 255, 255, 0.5)
-  );
-  border-radius: 1rem;
-  flex: 1;
-  color: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
-  /* padding-top: 1rem;
-  padding-bottom: 1rem; */
 }
 
 .Play-Box {
