@@ -4,48 +4,48 @@ import React from "react";
 const spellList = {
     "Mana Ball": {
         name: "Mana Ball",
-        description: "test",
-        numeric: "",
-        vague: "",
+        description: "Gathers mana into a ball. Gives off a small amount of light.",
+        numeric: "testy",
+        vague: "Produces a mana ball.",
     },
     "Tether": {
         name: "Tether",
-        description: "test",
+        description: "Gathers mana into a string shape.",
         numeric: "",
-        vague: "",
+        vague: "Produces mana rope.",
     },
     "Magic Resistance": {
         name: "Magic Resistance",
-        description: "test",
+        description: "Passive: Resists mana foreign to the body, on surface level.",
         numeric: "",
-        vague: "",
+        vague: "Resists magic attacks.",
     },
     "Magic Up": {
         name: "Magic Up",
-        description: "test",
+        description: "Increases the intensity of mana in the body.",
         numeric: "",
-        vague: "",
+        vague: "Mana intensity is increased.",
     },
     "Strike": {
         name: "Strike",
-        description: "test",
+        description: "Calls mana in the environment to gather and strike down from above.",
         numeric: "",
-        vague: "",
+        vague: "Brings mana down on a target.",
     },
     "Magic Regen": {
         name: "Magic Regen",
-        description: "test",
+        description: "Increases mana recovery speed.",
         numeric: "",
-        vague: "",
+        vague: "Speeds up mana recovery.",
     }
 }
 
-// Pass in type of mage, then you can && for the span and pick out the description that matches the mage.
-function spells({ spells }) {
+function spells({ spells, type }) {
     const array = []
     for (let index = 0; index < spells.length; index++) {
         const element = spellList[spells[index]]
-        array.push(<SingleSpell key={index + "SingleSpell"}>{element.name}<Span>{element.description}</Span></SingleSpell>)
+        console.log(element[type])
+        array.push(<SingleSpell key={index + "SingleSpell"}>{element.name}<Span>{element[type]}</Span></SingleSpell>)
     }
     return (
         <>

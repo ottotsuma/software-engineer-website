@@ -309,7 +309,7 @@ function intro(props) {
             <li>Sense: 1</li>
             <li>Charisma: 2</li>
           </p>
-          <Spells spells={["Mana Ball", "Tether", "Magic Resistance", "Magic Up", "Strike", "Magic Regen"]} />
+          <Spells spells={["Mana Ball", "Tether", "Magic Resistance", "Magic Up", "Strike", "Magic Regen"]} type={"description"} />
           <div className="BreakPoint"></div>
           <p>
             "Whats that face?" Tisiel asked walking out from the large door
