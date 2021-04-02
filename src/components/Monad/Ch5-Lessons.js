@@ -1,5 +1,6 @@
 import React from "react";
 import Spells from './../elements/spells'
+import Stats from './../elements/stats'
 
 function intro(props) {
   return (
@@ -288,27 +289,25 @@ function intro(props) {
           <div className="BreakPoint"></div>
 
           <p>Later out in front of the cliff side.</p>
-          <p className="stats">
-            <li>Name: Otto.</li>
-            <li>Level: 8.</li>
-            <li>Primary Class: Mage.</li>
-            <li>Spells: 6.</li>
-            {/* <!-- Mana ball, Tether, Magic resistance, Magic up, Strike (no element)  Magic regen--> */}
-            <li>Titles: 1.</li>
-            <li>Spell points: 2.</li>
-            <li>Stat points: 8.</li>
-            <li>Stats:</li>
-            <li>Strength: 0</li>
-            <li>Vitality: 0</li>
-            <li>Endurance: 0</li>
-            <li>Magic: 10</li>
-            {/* <!-- +1 From the title magic up --> */}
-            <li>Willpower: 1</li>
-            {/* <!-- Magic resistance --> */}
-            <li>Dexterity: 0</li>
-            <li>Sense: 1</li>
-            <li>Charisma: 2</li>
-          </p>
+          <Stats 
+          type={"description"}
+          stats={{
+            name: "Otto",
+            level: 8,
+            class: "Mage",
+            skills: 6,
+            titles: 1,
+            "skill points": 2,
+            "stat points" : 8,
+            vitality: 0,
+            strength: 0,
+            endurance: 0,
+            magic: 10,
+            willpower: 1,
+            dexterity: 0,
+            sense: 1,
+            charisma: 2
+          }} notes={"Magic +1 from title. Willpower + 1 from magic resistance skill."} />
           <Spells spells={["Mana Ball", "Tether", "Magic Resistance", "Magic Up", "Strike", "Magic Regen"]} type={"description"} />
           <div className="BreakPoint"></div>
           <p>

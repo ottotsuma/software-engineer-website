@@ -154,7 +154,6 @@ function spells({ spells, type }) {
     const array = []
     for (let index = 0; index < spells.length; index++) {
         const element = spellList[spells[index]]
-        console.log(element[type])
         array.push(<SingleSpell key={index + "SingleSpell"}>{element.name}<Span>{element[type]}</Span></SingleSpell>)
     }
     return (

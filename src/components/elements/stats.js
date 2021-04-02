@@ -12,7 +12,119 @@ const statList = {
         major: "Example",
         minor: "Example"
     },
-    "Vitality": {
+    "name": {
+        name: "Vitality",
+        description: "Increases your health points",
+        numeric: "Increases HP by 14.5 per point.",
+        vague: "Increases your durability.",
+        major: "Increased health points.",
+        minor: "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina."
+    },
+    "level": {
+        name: "Vitality",
+        description: "Increases your health points",
+        numeric: "Increases HP by 14.5 per point.",
+        vague: "Increases your durability.",
+        major: "Increased health points.",
+        minor: "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina."
+    },
+    "class": {
+        name: "Vitality",
+        description: "Increases your health points",
+        numeric: "Increases HP by 14.5 per point.",
+        vague: "Increases your durability.",
+        major: "Increased health points.",
+        minor: "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina."
+    },
+    "skills": {
+        name: "Vitality",
+        description: "Increases your health points",
+        numeric: "Increases HP by 14.5 per point.",
+        vague: "Increases your durability.",
+        major: "Increased health points.",
+        minor: "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina."
+    },
+    "titles": {
+        name: "Vitality",
+        description: "Increases your health points",
+        numeric: "Increases HP by 14.5 per point.",
+        vague: "Increases your durability.",
+        major: "Increased health points.",
+        minor: "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina."
+    },
+    "skill points": {
+        name: "Vitality",
+        description: "Increases your health points",
+        numeric: "Increases HP by 14.5 per point.",
+        vague: "Increases your durability.",
+        major: "Increased health points.",
+        minor: "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina."
+    },
+    "stat points": {
+        name: "Vitality",
+        description: "Increases your health points",
+        numeric: "Increases HP by 14.5 per point.",
+        vague: "Increases your durability.",
+        major: "Increased health points.",
+        minor: "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina."
+    },
+    "vitality": {
+        name: "Vitality",
+        description: "Increases your health points",
+        numeric: "Increases HP by 14.5 per point.",
+        vague: "Increases your durability.",
+        major: "Increased health points.",
+        minor: "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina."
+    },
+    "strength": {
+        name: "Vitality",
+        description: "Increases your health points",
+        numeric: "Increases HP by 14.5 per point.",
+        vague: "Increases your durability.",
+        major: "Increased health points.",
+        minor: "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina."
+    },
+    "endurance": {
+        name: "Vitality",
+        description: "Increases your health points",
+        numeric: "Increases HP by 14.5 per point.",
+        vague: "Increases your durability.",
+        major: "Increased health points.",
+        minor: "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina."
+    },
+    "magic": {
+        name: "Vitality",
+        description: "Increases your health points",
+        numeric: "Increases HP by 14.5 per point.",
+        vague: "Increases your durability.",
+        major: "Increased health points.",
+        minor: "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina."
+    },
+    "willpower": {
+        name: "Vitality",
+        description: "Increases your health points",
+        numeric: "Increases HP by 14.5 per point.",
+        vague: "Increases your durability.",
+        major: "Increased health points.",
+        minor: "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina."
+    },
+    "dexterity": {
+        name: "Vitality",
+        description: "Increases your health points",
+        numeric: "Increases HP by 14.5 per point.",
+        vague: "Increases your durability.",
+        major: "Increased health points.",
+        minor: "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina."
+    },
+    "sense": {
+        name: "Vitality",
+        description: "Increases your health points",
+        numeric: "Increases HP by 14.5 per point.",
+        vague: "Increases your durability.",
+        major: "Increased health points.",
+        minor: "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina."
+    },
+    "charisma": {
         name: "Vitality",
         description: "Increases your health points",
         numeric: "Increases HP by 14.5 per point.",
@@ -21,20 +133,21 @@ const statList = {
         minor: "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina."
     },
 }
-// Add spell (level/rank). Changes description.
+
 function stats({ stats, type }) {
     const array = []
-    for (let index = 0; index < stats.length; index++) {
-        const element = statList[stats[index]]
-        console.log(element[type])
-        array.push(<SingleSpell key={index + "SingleSpell"}>{element.name}<Span>{element[type]}</Span></SingleSpell>)
+    const keys = Object.keys(stats)
+    for (let index = 0; index < keys.length; index++) {
+        const element = keys[index] + ": " + stats[keys[index]]
+        const spam = statList[keys[index]]
+        array.push(<SingleStat key={index + "stat"}>{element}<Span>{spam[type]}</Span></SingleStat>)
     }
     return (
         <>
         <Title>Stats:</Title>
-        <SpellsStyle>
+        <StatsStyle>
             {array}
-        </SpellsStyle>
+        </StatsStyle>
         </>
     );
 }
@@ -45,11 +158,10 @@ const Title = styled.h1`
   justify-content: center;
 `;
 
-const SpellsStyle = styled.div`
+const StatsStyle = styled.ul`
   display: flex;
-  justify-content: center;
-  align-items: stretch;
   flex-wrap: wrap;
+  flex-direction: column;
   width: 100%;
 `;
 
@@ -66,19 +178,14 @@ z-index: 2;
 margin-top: 7%;
 `;
 
-const SingleSpell = styled.div`
-    border-radius: 6px;
-    padding: 5px;
-    width: auto;
-background: linear-gradient(
-    217deg,
-    rgb(218, 182, 111),
-    rgb(244, 229, 203) 70.71%
-  );
-  margin: 3%;
+const SingleStat = styled.li`
+text-transform: capitalize;
+
+border-radius: 6px;
+padding: 1px;
+width: auto;
   display: flex;
   justify-content: center;
-  align-items: center;
   &:hover {
     background-color: #f1f1f1;
   }
