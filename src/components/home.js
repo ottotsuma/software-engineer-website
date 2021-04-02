@@ -21,7 +21,7 @@ function change(props) {
 function home() {
   return (
     <GlassWrapper>
-      <Hidden><Link to="/Monad/1" style={{"text-decoration": "none", "position": "fixed"}}>　</Link></Hidden>
+      <Hidden><Link to="/Monad/1" style={{ "text-decoration": "none", "position": "fixed" }}>　</Link></Hidden>
       <Glass>
         <Profile>
           <div>
@@ -35,7 +35,7 @@ function home() {
             <h4>ダラー・ショーン</h4>
           </div>
           <List>
-            <div className="Linky">
+            <Linkey>
               <img
                 src="https://image.flaticon.com/icons/png/512/25/25231.png"
                 className="Link-Img"
@@ -44,27 +44,27 @@ function home() {
               <a href="https://github.com/ottotsuma" target="_blank">
                 GitHub
               </a>
-            </div>
-            <div className="Linky">
+            </Linkey>
+            <Linkey>
               <img
                 src="https://www.pngfind.com/pngs/m/594-5947621_computer-icons-project-project-plan-black-text-project.png"
                 className="Link-Img"
                 alt=" "
               />
               <Link to="/projects">Projects</Link>
-            </div>
-            <div className="Linky">
+            </Linkey>
+            <Linkey>
               <img
                 src="https://www.pinclipart.com/picdir/middle/75-750874_work-experience-svg-png-icon-free-download-356662.png"
                 className="Link-Img"
                 alt=" "
               />
               <Link to="/timeline">Experience</Link>
-            </div>
-            <div className="Linky">
+            </Linkey>
+            <Linkey>
               <img src={Cog} alt=" " className="Link-Img" />
               <Link to="/tech">Technical Skills</Link>
-            </div>
+            </Linkey>
           </List>
           <Anchor>
             <Link to="/Blackjack" style={{ color: "white" }}>
@@ -73,43 +73,40 @@ function home() {
           </Anchor>
         </Profile>
         <Right>
-          <div
-            className="Box"
+          <Box
             onClick={() =>
               change("https://github.com/Spring-CC/restaurant-native-app")
             }
           >
             <img src={Munchify} className="Home-Img" alt="Technical Skills" />
-            <div className="Inner-Box">
+            <InnerBox>
               <h3>Munchify</h3>
-              <p className="Home-p">
-                Machine learning predicts your perfect resturant!
-              </p>
-            </div>
-            <p className="Home-p">React-Native, NodeJS, MongoDB</p>
-          </div>
-          <div
-            className="Box"
+              <Para>
+                Machine learning predicts your perfect restaurant!
+              </Para>
+            </InnerBox>
+            <Para>React-Native, NodeJS, MongoDB</Para>
+          </Box>
+          <Box
             onClick={() => change("https://github.com/ottotsuma/SoloMVP")}
           >
             <img src={Secret} className="Home-Img" alt="Technical Skills" />
-            <div className="Inner-Box">
+            <InnerBox>
               <h3>The Secret Box</h3>
-              <p className="Home-p">A safety box for your secrets!</p>
-            </div>
-            <p className="Home-p">React, NodeJS, MongoDB</p>
-          </div>
-          <div
-            className="Box"
+              <Para>A safety box for your secrets!</Para>
+            </InnerBox>
+            <Para>React, NodeJS, MongoDB</Para>
+          </Box>
+          <Box
             onClick={() => change("https://github.com/ottotsuma/React-App2")}
           >
             <img src={Food} className="Home-Img" alt="Technical Skills" />
-            <div className="Inner-Box">
+            <InnerBox>
               <h3>Otto's Recipes</h3>
-              <p className="Home-p">Sort out your hunger!</p>
-            </div>
-            <p className="Home-p">React, PWA, Netlify</p>
-          </div>
+              <Para>Sort out your hunger!</Para>
+            </InnerBox>
+            <Para>React, PWA, Netlify</Para>
+          </Box>
         </Right>
       </Glass>
       <Circle1 />
@@ -117,6 +114,50 @@ function home() {
     </GlassWrapper>
   );
 }
+
+const Para = styled.p`
+padding: 1px;
+@media screen and (max-width: 880px) {
+  display: none;
+}
+`;
+
+const InnerBox = styled.div`
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+`;
+
+const Box = styled.div`
+/* border-style: solid; */
+cursor: pointer;
+color: black;
+background: linear-gradient(
+  0deg,
+  rgba(255, 255, 255, 0.9),
+  rgba(255, 255, 255, 0.6)
+);
+width: 85%;
+height: 25%;
+border-radius: 1rem;
+box-shadow: 6px 3px 3px rgb(58, 58, 58, 0.1);
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+&:active{
+  box-shadow: 3px 1px 1px rgb(58, 58, 58, 0.1);
+}
+`;
+
+const Linkey = styled.div`
+display: flex;
+flex-direction: row;
+justify-content: left;
+width: 100%;
+`;
+
 
 const List = styled.div`
 display: flex;

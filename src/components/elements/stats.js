@@ -9,14 +9,16 @@ const statList = {
         description: "Example",
         numeric: "Example",
         vague: "Example",
+        major: "Example",
+        minor: "Example"
     },
     "Vitality": {
         name: "Vitality",
-        description: "Health points, Resistances to hot/cold / poison",
-        numeric: "Example",
-        vague: "Example",
+        description: "Increases your health points",
+        numeric: "Increases HP by 14.5 per point.",
+        vague: "Increases your durability.",
         major: "Increased health points.",
-        minor: "Increased resistance to hot. Increased resistance to cold. Increased resistance to natural poisons. Increased health regeneration. Increased stamina regeneration. Increased stamina total."
+        minor: "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina."
     },
 }
 // Add spell (level/rank). Changes description.
