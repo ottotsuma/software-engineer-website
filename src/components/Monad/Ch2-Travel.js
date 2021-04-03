@@ -7,25 +7,23 @@ function intro(props) {
         <div className="Content">
           <h3>Travel</h3>
           <p>
-            The students of the town would all head off on the same day, they
-            would travel to septate destinations and along the way change the
-            adults traveling with them, at first the instructors of the town
-            hall traveled with them until they reached the town of Todtenwei.
-            From there they would change guardians every town, village or city
-            until their destinations. Between Todtenwei and Shomberg was the 2nd
-            Regiment of Aldens camp, there where many Fighters who would join
-            the training camps near by and once the remainder of the group
-            joined the main road south they lost the majority of the other
-            students are the large Grafen military training camp. The group
-            would further split at the Lobach river where the 3rd regiment of
-            Alden where based, those heading north from here went to the capital
-            Alden or Banderedam near the Mages academy. South would be heading
-            Haisengen and then into Huonhia. The group would continue to split
-            and have new students join all the way until Argavereri. Although
-            the journey to this point had been as expected where small monsters
-            where driven off by the numbers or guardians the road to Banderedam
-            traveled close to Huonhia and near an area often overrun by
-            monsters. It was a rainforest where a few major rivers became one
+            All of the students from town set off on the same day. We traveled
+            to septate destinations and along the way change the adults
+            traveling with us. At first the instructors of the town school
+            traveled with us until we reached the town of Todtenwei, the next
+            town along. From there we changed guardians every town, village or
+            city until our destinations. The closest school was the military
+            camp for fighters and rouges, they were septate camps by close to
+            each other. There were camps all over Alden so students never really
+            had to travel that far unless they were like the remainder of us.
+            Either going to Alden's capital to learn from the specialist schools
+            of art, finance, dance, etc. Or like myself going to Banderedam and
+            joining the magic academy. Alden only had one magic academy so
+            students no matter how far would have to make their way there.
+            Although the journey to this point had been as expected where small
+            monsters where driven off by the numbers or guardians the road to
+            Banderedam traveled close to Huonhia and near an area often overrun
+            by monsters. It was a rainforest where a few major rivers became one
             and followed into the sea, if it where not for the abundance of
             monsters it is likely this would be the location of some major
             cities.
@@ -45,57 +43,76 @@ function intro(props) {
             days now." Leon gave a small smile as if the whole thing was a
             little amusing.
           </p>
-          <p>"Ah, I am sorry..."</p>
+          <p>
+            "Ah, I am sorry..." I replied embarrassed I had only just noticed
+            him.
+          </p>
           <p>
             "It's fine, you from far? you look tired, like you have been walking
-            for awhile."
+            for awhile." He asked.
           </p>
-          <p>"Steinauhau"</p>
+          <p>"Steinauhau" I responded.</p>
           <p>
             "...doesn't get much further then that in Alden, you ever been to
-            Chingaling land before?"
+            Chingaling land before?" He asked.
           </p>
-          <p>"Chingaling? I am going to Tirnavalli Dukedom. Banderedam."</p>
-          <p>"Ah, sorry forgot my place, thats correct, how silly of me."</p>
-          <p>"What is Chingaling land?"</p>
-          <p>Leon stared at me. "You really don't know?"</p>
-          <p>"wouldn't of asked if I did."</p>
           <p>
-            "Suppose so, thought you were just a die hard Alden, well Chingaling
-            was a country before, made up of people from Hathapatson to Dodgud.
-            Alden and Huonhia split the country in two and claimed it for their
-            own. Although the official story is the people of Banderedam where
-            demon worshipers so Alden occupied that area and Huonhia occupied
-            the rest to protect the people from Alden. I suppose the truth
-            depends on who you ask."
+            "Chingaling? I am going to Tirnavalli Dukedom. Banderedam." I
+            replied confused. I did not know everywhere in Alden, I was only 14
+            but I never heard of Chingaling.
           </p>
-          <p>"So you must be local then?"</p>
+          <p>
+            "Ah, sorry forgot my place, thats correct, how silly of me." He
+            apologized in a strange way.
+          </p>
+          <p>"What is Chingaling land?" I asked. Did he think I would know?</p>
+          <p>Leon stared at me. "You really don't know?"</p>
+          <p>
+            "Wouldn't of asked if I did." I replied almost with an eye roll.
+          </p>
+          <p>
+            "Suppose so. Well Chingaling was a country before, made up of people
+            from Hathapatson to Dodgud. Alden and Huonhia split the country in
+            two and claimed it for their own. Although the official story is the
+            people of Banderedam where demon worshipers so Alden occupied that
+            area and Huonhia occupied the rest to protect the people from Alden.
+            I suppose the truth depends on who you ask." He explained.
+          </p>
+          <p>
+            "So you must be local then?" I asked, since I don't even know the
+            towns he mentioned.
+          </p>
           <p>
             "Aha, yeah, born in Banderedam. Still live there now with my little
-            sister and little brother."
+            sister and little brother." He replied happily.
           </p>
-          <p>"Erm your parents?"</p>
+          <p>"Erm your parents?" I added.</p>
           <p>
-            "Monsters, Ethautenheim to Banderedam passes though the province of
-            Bilkotgopia. Risky trip but pays well, work at Banderedam depends on
-            the ports and the academy. Both do poorly in the winter."
+            "Monsters. Ethautenheim to Banderedam passes though the province of
+            Bilkotgopia. Risky trip, but pays well. Work at Banderedam depends
+            on the ports and the academy. So both do poorly in the winter, so
+            trips like this one to the southern towns to make trades can be
+            profitable." He explained.
           </p>
-          <p>"So you make this trip every year?"</p>
+          <p>"So you make this trip every year?" I asked.</p>
           <p>
             "First time. I didn't dare go outside of when the students travel,
-            less guards. Less of the ones that will help you anyway."
+            less guards. Less of the ones that will help you anyway." He said.
           </p>
           <p>
-            "Makes sense you can blend in easily because of your age, is it not
-            a risk for you to tell me all this?"
+            "Makes sense. You can blend in easily because of your age, is it not
+            a risk for you to tell me all this?" I asked. His sentences were
+            short and oddly spaced. Maybe he was nervous since it was his first
+            time also.
           </p>
           <p>
             "No, not particularly. It is no crime to travel at the same time,
-            and traveling in numbers offers its own kind of protection."
+            and traveling in numbers offers its own kind of protection." He said
+            seemingly less jittery now.
           </p>
           <p>
             "Well I am glad to have you with me, if we get lost you must know
-            the area."
+            the area." I said without much thought.
           </p>
           <p>
             "That is true, but I am no fighter, I am training as a shop keeper,
