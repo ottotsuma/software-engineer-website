@@ -14,97 +14,8 @@
   flex-direction: column;
 }
 
-
 .App {
   flex: 1;
-}
-
-.Right-Wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.Box {
-  /* border-style: solid; */
-  cursor: pointer;
-  color: black;
-  background: linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 0.9),
-    rgba(255, 255, 255, 0.6)
-  );
-  width: 85%;
-  height: 25%;
-  border-radius: 1rem;
-  box-shadow: 6px 3px 3px rgb(58, 58, 58, 0.1);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.Box:active {
-  box-shadow: 3px 1px 1px rgb(58, 58, 58, 0.1);
-}
-
-.Inner-Box {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.Links-List {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  min-height: 40%;
-}
-
-.Linky {
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  width: 100%;
-}
-
-.Link-Img {
-  width: 20px;
-  height: 20px;
-  border-radius: 1rem;
-  margin-right: 1rem;
-}
-
-.Home-Img {
-  width: 20%;
-  height: 70%;
-  border-radius: 1rem;
-  padding: 2px;
-  margin: 1rem;
-}
-
-.Play-Box {
-  /* border-color: black;
-  border-style: solid; */
-  color: white;
-  background: #638ad4;
-  display: flex;
-  /* flex-direction: column; */
-  justify-content: center;
-  align-items: center;
-  width: 53%;
-  height: 10%;
-}
-
-.Play-Box a {
-  color: white;
-}
-
-.Right-Wrapper {
-  flex: 2;
 }
 
 .Logo {
@@ -123,29 +34,6 @@ h1 {
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: black;
   font-size: 4vh;
-}
-
-
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .Circle1, .Circle2 {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}  */
-
-.Main-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.Main-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {

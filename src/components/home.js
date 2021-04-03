@@ -24,8 +24,7 @@ function home() {
         <Link
           to="/Monad/1"
           style={{ "text-decoration": "none", position: "fixed" }}
-        >
-        </Link>
+        ></Link>
       </Hidden>
       <Glass>
         <Profile>
@@ -41,9 +40,8 @@ function home() {
           </div>
           <List>
             <Linkey>
-              <img
+              <LinkImage
                 src="https://image.flaticon.com/icons/png/512/25/25231.png"
-                className="Link-Img"
                 alt=" "
               />
               <a href="https://github.com/ottotsuma" target="_blank">
@@ -51,23 +49,21 @@ function home() {
               </a>
             </Linkey>
             <Linkey>
-              <img
+              <LinkImage
                 src="https://www.pngfind.com/pngs/m/594-5947621_computer-icons-project-project-plan-black-text-project.png"
-                className="Link-Img"
                 alt=" "
               />
               <Link to="/projects">Projects</Link>
             </Linkey>
             <Linkey>
-              <img
+              <LinkImage
                 src="https://www.pinclipart.com/picdir/middle/75-750874_work-experience-svg-png-icon-free-download-356662.png"
-                className="Link-Img"
                 alt=" "
               />
               <Link to="/timeline">Experience</Link>
             </Linkey>
             <Linkey>
-              <img src={Cog} alt=" " className="Link-Img" />
+              <LinkImage src={Cog} alt=" " />
               <Link to="/tech">Technical Skills</Link>
             </Linkey>
           </List>
@@ -83,7 +79,11 @@ function home() {
               change("https://github.com/Spring-CC/restaurant-native-app")
             }
           >
-            <img src={Munchify} className="Home-Img" alt="Technical Skills" />
+            <HomeImage
+              src={Munchify}
+              className="Home-Img"
+              alt="Technical Skills"
+            />
             <InnerBox>
               <h3>Munchify</h3>
               <Para>Machine learning predicts your perfect restaurant!</Para>
@@ -91,7 +91,11 @@ function home() {
             <Para>React-Native, NodeJS, MongoDB</Para>
           </Box>
           <Box onClick={() => change("https://github.com/ottotsuma/SoloMVP")}>
-            <img src={Secret} className="Home-Img" alt="Technical Skills" />
+            <HomeImage
+              src={Secret}
+              className="Home-Img"
+              alt="Technical Skills"
+            />
             <InnerBox>
               <h3>The Secret Box</h3>
               <Para>A safety box for your secrets!</Para>
@@ -101,7 +105,7 @@ function home() {
           <Box
             onClick={() => change("https://github.com/ottotsuma/React-App2")}
           >
-            <img src={Food} className="Home-Img" alt="Technical Skills" />
+            <HomeImage src={Food} className="Home-Img" alt="Technical Skills" />
             <InnerBox>
               <h3>Otto's Recipes</h3>
               <Para>Sort out your hunger!</Para>
@@ -242,6 +246,27 @@ const Circle2 = styled.div`
   // pos
   bottom: 5%;
   left: 15%;
+`;
+
+const LinkImage = styled.img`
+  width: 20px;
+  height: 20px;
+  border-radius: 1rem;
+  margin-right: 1rem;
+  @media screen and (max-width: 880px) {
+    display: none;
+  }
+`;
+
+const HomeImage = styled.img`
+  width: 20%;
+  height: 70%;
+  border-radius: 1rem;
+  padding: 2px;
+  margin: 1rem;
+  @media screen and (max-width: 590px) {
+    display: none;
+  }
 `;
 
 export default home;
