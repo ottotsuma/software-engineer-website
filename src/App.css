@@ -8,24 +8,12 @@
   font-family: "Yusei Magic", sans-serif;
 }
 
-.Main-Light {
-  text-align: center;
-  /* background: linear-gradient(0deg, rgba(34,89,195,1) 9%, rgba(45,253,209,1) 100%); */
-  background-color: white;
-  color: black;
-}
-
 .Playground {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
 }
 
-.Tech-Wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .App {
   flex: 1;
@@ -225,15 +213,6 @@ h1 {
   width: 100%;
 }
 
-.Tech {
-  /* background-color: #202060; */
-  width: 80%;
-  flex-wrap: wrap;
-  display: flex;
-  align-content: center;
-  justify-content: space-evenly;
-}
-
 .About {
   display: flex;
   flex-direction: column;
@@ -307,11 +286,6 @@ h1 {
 #cardcontainer {
   background-color: transparent;
   overflow: hidden;
-  width: 100%;
-}
-
-#inner {
-  /* overflow: hidden; */
   width: 100%;
 }
 
