@@ -155,70 +155,97 @@ function intro(props) {
             books to start with." I said.
           </p>
           <p>
-            We continued walking though the forest in a long snaking line, occasionally talking to each other when I said. "There is a lot of noise coming from up ahead." Sure everyone was talking or complaining their feet hurt but this was different.
+            We continued walking though the forest in a long snaking line,
+            occasionally talking to each other when I said. "There is a lot of
+            noise coming from up ahead." Sure everyone was talking or
+            complaining their feet hurt but this was different.
           </p>
-          <p>"Maybe they are drunk. Sounds like they are play fighting." Leon joked.</p>
           <p>
-            We turn to look at each other realising there is no way
-            they are play fighting like little kids at a time like this.
+            "Maybe they are drunk. Sounds like they are play fighting." Leon
+            joked.
           </p>
-          <p>"Into the northern trees, if we are lucky we can go around." Leon said dashing off to the left.
+          <p>
+            We turn to look at each other realising there is no way they are
+            play fighting like little kids at a time like this.
           </p>
-          <p>"Won't there just be more monsters in the trees?" I shouted looking at his back.</p>
-          <p>"Chance of monsters is still lower then defiantly monsters" He replied moving deeper in.
+          <p>
+            "Into the northern trees, if we are lucky we can go around." Leon
+            said dashing off to the left.
+          </p>
+          <p>
+            "Won't there just be more monsters in the trees?" I shouted looking
+            at his back.
+          </p>
+          <p>
+            "Chance of monsters is still lower then defiantly monsters" He
+            replied moving deeper in.
           </p>
           {/* This really needs to come up when you get to the academy... */}
           <p>
-            Otto - "But the guards." Before I could finish my sentence I saw a
-            nobles guard cut down a 14 year old girl from neck though the body
-            and out though the opposite side just above the hip. To far to hear
-            what the guard said it looked as if they had turned on the other
-            students. Following Leon, I ran as fast as I could until they where
-            just beyond the sounds of metal, shouts and screams.
+            "But the guards." Before I could finish my sentence I saw a a guard
+            cut down a 14 year old girl. From neck though the body and out
+            though the opposite side, just above the hip. To far to hear what
+            the guard said it looked as if they had turned on the students.
+            Following Leon, I ran as fast as I could until they where just
+            beyond the sounds of metal, shouts and screams.
           </p>
           <p>
             Sitting inside of a ditch with hastily assembled twigs, leaves and
-            dirt above our heads, I was looking pale as Leon tried to slow his
+            dirt above his head, I saw Leon looking pale as he tried to slow his
             breathing.
           </p>
-          <p>Leon - "Welcome to Bilkotgopia."</p>
-          <p>Otto - "That some kind of joke?"</p>
+          <p>"Welcome to Bilkotgopia." He said as I walked closer.</p>
           <p>
-            Leon - "Yeah, sorry. A dark one, close to the truth. In Bilkotgopia
+            "That some kind of joke?" I asked confused by his sense of humor.
+          </p>
+          <p>
+            "Yeah, sorry, a dark one. Close to the truth though. In Bilkotgopia
             people go missing, it's always blamed on the monsters but strong
-            monsters rarely travel across into Alden."
-          </p>
-          <p>Otto - "Truth and lies must be hard to tell apart here."</p>
-          <p>
-            Leon - "Yeah, at least im upfront about which side I am on, I won't
-            be turning against you. I just want to go home."
+            monsters rarely travel across into Alden." He explained.
           </p>
           <p>
-            Otto - "Like you said you are not a fighter, but can you guide us to
-            the river just past this... mess"
+            "So what is the truth?" I asked, confused by what I just saw, I
+            decided to explain what I saw after he had run off.
           </p>
           <p>
-            Leon - "Polite way to put it, but yes I can. After that we follow
-            the river takes us to Banderedam."
-          </p>
-          <p>Otto - "The river safe?"</p>
-          <p>Leon - "Ahem.. once we get out of Bilkotgopia it is."</p>
-          <p>
-            Otto - "Let's move before we have time to take in what happened or
-            worse it comes this way."
+            "Maybe a nobel took a liking to the girl and she refused and hurt
+            him so he had his guard put her in her place." Leon said like it
+            normal.
           </p>
           <p>
-            Leon nods and they crawl out and make their way though the forest
-            towards the river, any sound of battle had died out they where too
-            far from the road now to hear anything anyway. After 90 minutes of
-            walking they where getting to where they wanted to be, Leon had been
-            following signs and markings left behind by his people, signs to
-            help them avoid the guards but Otto did not need to know that.
+            Deciding it was getting now where I said. "Like you said, you are
+            not a fighter, but can you guide us to the river? I saw it on the
+            map, we should be close right?" I asked.
           </p>
-          <p>Leon - "Can you hear. Moaning?"</p>
-          <p>Otto - "Like an old man waking up."</p>
           <p>
-            Pushing apart the branches Leon peered forward and in front of him
+            "Y-Yeah I can. After that we follow the river takes us to
+            Banderedam." He said decisively.
+          </p>
+          <p>
+            "The river safe?" I asked offering a hand to pull him out of his
+            hole.
+          </p>
+          <p>
+            "Ahem.. once we get out of Bilkotgopia it is." He said with an
+            awkward smile.
+          </p>
+          <p>
+            "Let's move, even if it is not monsters and just an upset noble I
+            don't want to get caught up in it."
+          </p>
+          <p>
+            Leon nodded and they crawled out. We made our way though the forest
+            towards the river, the sounds of battle kept coming from where the
+            students were, making me wonder what was going on. We ran until the
+            sounds had died out and then just walked. After a while of walking I
+            wondered if Leon knew where he was going.
+          </p>
+          <p>
+            I could hear a strange sound coming from the somewhere up ahead.
+            "Can you hear. Moaning?" I asked.
+          </p>
+          <p>"Like an old man waking up." Leon joked.</p>
+          <p>Pushing apart the branches Leon peered forward. In front of him
             on the ground was a dead student & the upper half of a dead man. The
             dead student was a first year, 14 years old like all the others, the
             same age as myself and Leon. She had light brown hair, slim body and
@@ -230,20 +257,21 @@ function intro(props) {
             burnt rotten flesh, shoveling the meat into his mouth where most of
             it ended up back inside the girl though the gaps in his teeth.
           </p>
+          {/* Here */}
           <p>
-            Leon vomited, loudly. The monster screamed towards Leon and dragged
+            Leon vomited, loudly. The half-man screamed towards Leon and dragged
             it's self at surprising speed towards him. Having seen Leon vomit I
             rushed over to help him, upon hearing the scream and seeing the
             moving cadaver chasing them down I tried to push my mana though my
             body and out of my hand like I had with the Kappa. The rush felt
-            easier this time with all the practice I had had, the ball of light
-            shined, pale blue glow shone off the ground and trees before the
+            easier this time with all the practice I had had. The ball of light
+            shined pale blue, glowing lit up the ground and trees before the
             ball spiraled forward blinding the monster for a moment giving me
-            the chance to free Leon of his short sword, I ran towards the
+            the chance to free Leon of his short sword. I ran towards the
             monster and kicked dirt up into its eyes and mouth, it flailed about
             and pushed the dirt from its eyes before showing his teeth in a
-            growl. Using this time I ran in a circle to the side of the monster
-            before turning on his heel, running straight for the monster holding
+            growl. Using this time, I ran in a circle to the side of the monster
+            before turning on my heel, running straight for the monster holding
             the blade by my side and lunging it into the creatures head.
           </p>
           <p>
