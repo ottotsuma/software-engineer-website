@@ -279,27 +279,24 @@ function intro(props) {
             nothing happened. Letting go of the blade and turning to help Leon
             back up I heard a low growl and turned to see the monster was not
             dead and moving about with a sword sticking out from its head. I
-            jumped around as the monster made swings from the ground before
-            grabbing hold of Leon's sword again and swinging it smashing the
+            jumped around as the monster made swings from the ground. Grabbing hold of Leon's sword again and swinging it smashing the
             monsters head to pieces over and over.
           </p>
 
           <p>
             Leaving Leon against a tree to recover himself, I started to search
-            the dead student, finding on her some coins, accessories and a few
+            the dead girl, finding on her some coins, accessories, an ID and a few
             school supplies and food.
           </p>
 
-          <p>
-            Otto - "Guess she wasn't a rich girl." Grabbing the ID card 'Lea
-            Müller'. "You know her?"
+          <p>"Guess she wasn't a rich girl." I said to myself. Grabbing the ID 'Lea
+            Müller'. "You know her?" I asked Leon showing him the ID, it was just a piece of paper with her name and information on.
           </p>
-          <p>Leon - "No, Alden name, not from here."</p>
-          <p>
-            Otto - "Makes sense, can't carry her so I will take the ID card to
-            the town and report shes dead or something. Let's get out of here."
+          <p>"No, it's an Alden name. Not a local." He said wiping his mouth.</p>
+          <p> "Okay, well we can't carry her so I will take the ID card to
+            the town and report shes dead or something. Let's get out of here." I said moving past the bodies.
           </p>
-
+{/* Here */}
           <p>
             Making their way back to the river, we where on the other side of
             the river to the main route. Since they had passed into Tirnavalli
