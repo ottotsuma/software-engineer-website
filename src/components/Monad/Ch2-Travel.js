@@ -132,17 +132,14 @@ function intro(props) {
             so close to the Mages academy means they often stock those kind of
             things."
           </p>
+          <p>"I want to get one." I replied. Although I am not sure if I can afford it.</p>
+          <p>"Yeah, at Pal's shop it seems wands are the most sort after product. Maybe it's the books they make you all read brainwashing
+            you into buying wands." He joked.
+          </p>
+          <p>"Aha, you might be right you know, we all have to read the
+            same books to start with." I said.
+          </p>
           {/* Here */}
-          <p>Otto - "I still want to get one though"</p>
-          <p>
-            Leon - "Yeah, looking at Pal's shop it seems many students think the
-            same way, maybe it's the books they make you all read brainwashing
-            you into buying wands."
-          </p>
-          <p>
-            Otto - "Aha, you might be right you know, we all have to read the
-            same books to start with."
-          </p>
           <p>
             Otto - "There is a lot of noise coming from those nobles up ahead.
             Didn't think they could get any louder."
