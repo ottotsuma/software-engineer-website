@@ -115,26 +115,24 @@ function intro(props) {
             the area." I said without much thought.
           </p>
           <p>
-            "That is true, but I am no fighter, I am training as a shop keeper,
-            an apprentice. You know, if I get back."
+            "That is true, but I am no fighter. I am training as a shop keeper,
+            an apprentice. You know, if I get back." He admitted.
           </p>
           <p>
-            "You'll make it back, I am sure. There are nobles kids in this group
-            the guard's won't let the monsters near them."
+            "You'll make it back, I am sure. There are guards with us, even more then the other stretches of this trip." I said looking at the people carrying spears & javelins. 
           </p>
-          <p>"Yes, near them. But we are not them."</p>
+          <p>"Yes, but accidents happen, fights get chaotic. When I traveled down with a merchant group a mercenary died fighting a giant centipede. It ripped his head from his body with it's giant pincers around its mouth." Leon described acting out the actions with his hands.</p>
           <p>
-            I paused to think, he has a point but if we are just near by they
-            will have to protect us even if they don't mean to.
+            I paused to think, he has a point but since this trip happens every year they must of made special arrangements for the children's trip. After all even some nobles sent their kids off to the academy.
           </p>
 
           <p>
-            Leon interrupted my thoughts with "you're a mage with no wand? I
-            think that is fine I have seen loads of mages without wands. If you
-            really have to have a wand you can pick one up in Banderedam, being
-            so close to the Mages collage means they often stock those kind of
+            Leon interrupted my thoughts with "you're a mage? where is your wand? If you
+            really have no wand you can pick one up in Banderedam, being
+            so close to the Mages academy means they often stock those kind of
             things."
           </p>
+          {/* Here */}
           <p>Otto - "I still want to get one though"</p>
           <p>
             Leon - "Yeah, looking at Pal's shop it seems many students think the
