@@ -296,16 +296,10 @@ function intro(props) {
           <p> "Okay, well we can't carry her so I will take the ID card to
             the town and report shes dead or something. Let's get out of here." I said moving past the bodies.
           </p>
-{/* Here */}
           <p>
-            Making their way back to the river, we where on the other side of
-            the river to the main route. Since they had passed into Tirnavalli
-            they could see a few boats moving down the river, and a few coming
-            up. They manage to flag down some passing guards and explained their
-            story to them, I gave over the students ID and told them where they
-            could find the bodies. we then joined them in the boat on the way to
-            Banderedam.
+            The river was just past were we found the student, the water was murky like it was full of old milk mixed in with the water. The other students would go around the same river further up stream. That would take them past the source of the river and around so they would not have to cross the water itself. Since we had run downstream we would have to cross the river. "Leon, is the water always this color?" I asked looking into it.
           </p>
+          <p>"No, not further down just up here. People say it is because of the chalk in the ground that causes it while others say it is the monsters living in the river this far up. Either way don't touch it." He said with a serious face.</p>
         </div>
       </div>
     </div>
