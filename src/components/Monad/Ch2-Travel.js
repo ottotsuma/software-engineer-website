@@ -154,23 +154,20 @@ function intro(props) {
             "Aha, you might be right you know, we all have to read the same
             books to start with." I said.
           </p>
-          {/* Here */}
           <p>
-            Otto - "There is a lot of noise coming from those nobles up ahead.
-            Didn't think they could get any louder."
+            We continued walking though the forest in a long snaking line, occasionally talking to each other when I said. "There is a lot of noise coming from up ahead." Sure everyone was talking or complaining their feet hurt but this was different.
           </p>
-          <p>Leon - "Drunk no doubt. Sounds like they are play fighting."</p>
+          <p>"Maybe they are drunk. Sounds like they are play fighting." Leon joked.</p>
           <p>
-            Otto and Leon turn to look at each other realising there is no way
+            We turn to look at each other realising there is no way
             they are play fighting like little kids at a time like this.
           </p>
-          <p>
-            Leon - "Into the northern tree's, if we are lucky we can go around."
+          <p>"Into the northern trees, if we are lucky we can go around." Leon said dashing off to the left.
           </p>
-          <p>Otto - "Won't there just be more monsters in the trees?"</p>
-          <p>
-            Leon - "Chance of monsters is still lower then defiantly monsters"
+          <p>"Won't there just be more monsters in the trees?" I shouted looking at his back.</p>
+          <p>"Chance of monsters is still lower then defiantly monsters" He replied moving deeper in.
           </p>
+          {/* This really needs to come up when you get to the academy... */}
           <p>
             Otto - "But the guards." Before I could finish my sentence I saw a
             nobles guard cut down a 14 year old girl from neck though the body
