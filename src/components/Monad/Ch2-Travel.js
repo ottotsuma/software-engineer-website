@@ -119,25 +119,40 @@ function intro(props) {
             an apprentice. You know, if I get back." He admitted.
           </p>
           <p>
-            "You'll make it back, I am sure. There are guards with us, even more then the other stretches of this trip." I said looking at the people carrying spears & javelins. 
+            "You'll make it back, I am sure. There are guards with us, even more
+            then the other stretches of this trip." I said looking at the people
+            carrying spears & javelins.
           </p>
-          <p>"Yes, but accidents happen, fights get chaotic. When I traveled down with a merchant group a mercenary died fighting a giant centipede. It ripped his head from his body with it's giant pincers around its mouth." Leon described acting out the actions with his hands.</p>
           <p>
-            I paused to think, he has a point but since this trip happens every year they must of made special arrangements for the children's trip. After all even some nobles sent their kids off to the academy.
+            "Yes, but accidents happen, fights get chaotic. When I traveled down
+            with a merchant group a mercenary died fighting a giant centipede.
+            It ripped his head from his body with it's giant pincers around its
+            mouth." Leon described acting out the actions with his hands.
+          </p>
+          <p>
+            I paused to think, he has a point but since this trip happens every
+            year they must of made special arrangements for the children's trip.
+            After all even some nobles sent their kids off to the academy.
           </p>
 
           <p>
-            Leon interrupted my thoughts with "you're a mage? where is your wand? If you
-            really have no wand you can pick one up in Banderedam, being
-            so close to the Mages academy means they often stock those kind of
-            things."
+            Leon interrupted my thoughts with "you're a mage? where is your
+            wand? If you really have no wand you can pick one up in Banderedam,
+            being so close to the Mages academy means they often stock those
+            kind of things."
           </p>
-          <p>"I want to get one." I replied. Although I am not sure if I can afford it.</p>
-          <p>"Yeah, at Pal's shop it seems wands are the most sort after product. Maybe it's the books they make you all read brainwashing
-            you into buying wands." He joked.
+          <p>
+            "I want to get one." I replied. Although I am not sure if I can
+            afford it.
           </p>
-          <p>"Aha, you might be right you know, we all have to read the
-            same books to start with." I said.
+          <p>
+            "Yeah, at Pal's shop it seems wands are the most sort after product.
+            Maybe it's the books they make you all read brainwashing you into
+            buying wands." He joked.
+          </p>
+          <p>
+            "Aha, you might be right you know, we all have to read the same
+            books to start with." I said.
           </p>
           {/* Here */}
           <p>
