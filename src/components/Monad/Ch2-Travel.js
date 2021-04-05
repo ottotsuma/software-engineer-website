@@ -299,7 +299,9 @@ function intro(props) {
           <p>
             The river was just past were we found the student, the water was murky like it was full of old milk mixed in with the water. The other students would go around the same river further up stream. That would take them past the source of the river and around so they would not have to cross the water itself. Since we had run downstream we would have to cross the river. "Leon, is the water always this color?" I asked looking into it.
           </p>
-          <p>"No, not further down just up here. People say it is because of the chalk in the ground that causes it while others say it is the monsters living in the river this far up. Either way don't touch it." He said with a serious face.</p>
+          <p>"No, not further down, just up here. People say it is because of the chalk in the ground that causes it while others say it is the monsters living in the river this far up. Either way don't touch it." He said with a serious face.</p>
+          <p>We walked along the river bank until we found some dead trees and pushed them across the river to make a bridge. Leon went first since it was his idea to come this way and walked across the tree while I held it still on my side. I say held it still, the tree was really thick and long so it was not like I helped a lot.</p>
+          <p></p>
           {/* Keep writing until arriving near the city */}
         </div>
       </div>
