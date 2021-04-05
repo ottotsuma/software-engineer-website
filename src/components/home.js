@@ -237,6 +237,9 @@ const Circle1 = styled.div`
   // pos
   top: 10%;
   right: 15%;
+  animation-name: ${breatheAnimation};
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
 `;
 
 const Circle2 = styled.div`
