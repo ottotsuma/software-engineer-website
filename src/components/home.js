@@ -6,7 +6,7 @@ import Munchify from "./../assets/512x512.png";
 import Secret from "./../assets/Group1.png";
 import Food from "./../assets/foodlogo.png";
 import Video from "./video";
-import styled, { css } from "styled-components";
+import styled, { keyframes } from 'styled-components'
 import Hidden from "./elements/hidden";
 import Anchor from "./elements/anchor";
 
@@ -120,6 +120,13 @@ function home() {
   );
 }
 
+const breatheAnimation = keyframes`
+ 0% { height: 100px; width: 100px; }
+ 30% { height: 400px; width: 400px; opacity: 1 }
+ 40% { height: 405px; width: 405px; opacity: 0.3; }
+ 100% { height: 100px; width: 100px; opacity: 0.6; }
+`
+
 const Para = styled.p`
   padding: 1px;
   @media screen and (max-width: 880px) {
@@ -230,6 +237,9 @@ const Circle1 = styled.div`
   // pos
   top: 10%;
   right: 15%;
+  animation-name: ${breatheAnimation};
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
 `;
 
 const Circle2 = styled.div`
@@ -268,5 +278,6 @@ const HomeImage = styled.img`
     display: none;
   }
 `;
+
 
 export default home;
