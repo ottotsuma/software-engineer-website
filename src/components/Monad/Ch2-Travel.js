@@ -245,8 +245,9 @@ function intro(props) {
             "Can you hear. Moaning?" I asked.
           </p>
           <p>"Like an old man waking up." Leon joked.</p>
-          <p>Pushing apart the branches Leon peered forward. In front of him
-            on the ground was a dead student & the upper half of a dead man. The
+          <p>
+            Pushing apart the branches Leon peered forward. In front of him on
+            the ground was a dead student & the upper half of a dead man. The
             dead student was a first year, 14 years old like all the others, the
             same age as myself and Leon. She had light brown hair, slim body and
             face, with a small pointed nose. The half of the man that was left
@@ -279,31 +280,82 @@ function intro(props) {
             nothing happened. Letting go of the blade and turning to help Leon
             back up I heard a low growl and turned to see the monster was not
             dead and moving about with a sword sticking out from its head. I
-            jumped around as the monster made swings from the ground. Grabbing hold of Leon's sword again and swinging it smashing the
-            monsters head to pieces over and over.
+            jumped around as the monster made swings from the ground. Grabbing
+            hold of Leon's sword again and swinging it smashing the monsters
+            head to pieces over and over.
           </p>
 
           <p>
             Leaving Leon against a tree to recover himself, I started to search
-            the dead girl, finding on her some coins, accessories, an ID and a few
-            school supplies and food.
+            the dead girl, finding on her some coins, accessories, an ID and a
+            few school supplies and food.
           </p>
 
-          <p>"Guess she wasn't a rich girl." I said to myself. Grabbing the ID 'Lea
-            Müller'. "You know her?" I asked Leon showing him the ID, it was just a piece of paper with her name and information on.
-          </p>
-          <p>"No, it's an Alden name. Not a local." He said wiping his mouth.</p>
-          <p> "Okay, well we can't carry her so I will take the ID card to
-            the town and report shes dead or something. Let's get out of here." I said moving past the bodies.
+          <p>
+            "Guess she wasn't a rich girl." I said to myself. Grabbing the ID
+            'Lea Müller'. "You know her?" I asked Leon showing him the ID, it
+            was just a piece of paper with her name and information on.
           </p>
           <p>
-            The river was just past were we found the student, the water was murky like it was full of old milk mixed in with the water. The other students would go around the same river further up stream. That would take them past the source of the river and around so they would not have to cross the water itself. Since we had run downstream we would have to cross the river. "Leon, is the water always this color?" I asked looking into it.
+            "No, it's an Alden name. Not a local." He said wiping his mouth.
           </p>
-          <p>"No, not further down, just up here. People say it is because of the chalk in the ground that causes it while others say it is the monsters living in the river this far up. Either way don't touch it." He said with a serious face.</p>
-          <p>We walked along the river bank until we found some dead trees and pushed them across the river to make a bridge. Leon went first since it was his idea to come this way and walked across the tree while I held it still on my side. I say held it still, the tree was really thick and long, so it was not like I helped a lot.</p>
-          <p>Once Leon got across he held the tree on the opposite side and I walked across the tree. I tried to keep low and move quickly. When I was almost one third of the way across my leg sunk into the tree and I lost my balance and landed on the tree hugging it. Once I realised what happened I laughed a little.</p>
-          <p>The old tree was a little hollow I guess. I tried to pull myself back up but my foot was wedged into the hole. Then a pair of vertical oval shaped eyes appeared in the river looking up at me. My face felt cold and my limbs numb.</p>
-          <p>I had no idea what that thing was looking at me. It sure was no fish since the eyes were next to each other like a human. I dragged my foot as hard as I could against the tree bark trying to break free.</p>
+          <p>
+            {" "}
+            "Okay, well we can't carry her so I will take the ID card to the
+            town and report shes dead or something. Let's get out of here." I
+            said moving past the bodies.
+          </p>
+          <p>
+            The river was just past were we found the student, the water was
+            murky like it was full of old milk mixed in with the water. The
+            other students would go around the same river further up stream.
+            That would take them past the source of the river and around so they
+            would not have to cross the water itself. Since we had run
+            downstream we would have to cross the river. "Leon, is the water
+            always this color?" I asked looking into it.
+          </p>
+          <p>
+            "No, not further down, just up here. People say it is because of the
+            chalk in the ground that causes it while others say it is the
+            monsters living in the river this far up. Either way don't touch
+            it." He said with a serious face.
+          </p>
+          <p>
+            We walked along the river bank until we found some dead trees and
+            pushed them across the river to make a bridge. Leon went first since
+            it was his idea to come this way and walked across the tree while I
+            held it still on my side. I say held it still, the tree was really
+            thick and long, so it was not like I helped a lot.
+          </p>
+          <p>
+            Once Leon got across he held the tree on the opposite side and I
+            walked across the tree. I tried to keep low and move quickly. When I
+            was almost one third of the way across my leg sunk into the tree and
+            I lost my balance and landed on the tree hugging it. Once I realised
+            what happened I laughed a little.
+          </p>
+          <p>
+            The old tree was a little hollow I guess. I tried to pull myself
+            back up but my foot was wedged into the hole. Then a pair of
+            vertical oval shaped eyes appeared in the river looking up at me. My
+            face felt cold and my limbs numb.
+          </p>
+          <p>
+            I had no idea what that thing was looking at me. It sure was no fish
+            since the eyes were next to each other like a human. I dragged my
+            foot as hard as I could against the tree bark trying to break free.
+          </p>
+          <p>
+            As I struggled the eyes soon moved up out of the murky river. The
+            face the eyes belonged to was pale white with patches of pink.
+            However it was far from human with oily looking skin and where a
+            human has a nose was just droopy sack. The mouth became clearer as
+            it moved further up. It's mouth looked like a large creepy smile.
+          </p>
+          <p>
+            I managed to rip my foot though the trunk of the tree and started to
+            dash across the tree towards Leon.
+          </p>
           {/* Keep writing until arriving near the city */}
         </div>
       </div>
