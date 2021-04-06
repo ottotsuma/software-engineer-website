@@ -300,7 +300,6 @@ function intro(props) {
             "No, it's an Alden name. Not a local." He said wiping his mouth.
           </p>
           <p>
-            {" "}
             "Okay, well we can't carry her so I will take the ID card to the
             town and report shes dead or something. Let's get out of here." I
             said moving past the bodies.
