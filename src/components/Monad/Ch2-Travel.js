@@ -353,7 +353,7 @@ function intro(props) {
           </p>
           <p>
             I managed to rip my foot though the trunk of the tree and started to
-            dash across the tree towards Leon.
+            dash across the tree towards Leon. Leon's face was pale and sweaty watching what was happening, I just dashed towards him as fast as I could with my arms spread out trying to keep my balance. 
           </p>
           {/* Keep writing until arriving near the city */}
         </div>
