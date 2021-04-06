@@ -353,13 +353,38 @@ function intro(props) {
           </p>
           <p>
             I managed to rip my foot though the trunk of the tree and started to
-            dash across the tree towards Leon. Leon's face was pale and sweaty watching what was happening, I just dashed towards him as fast as I could with my arms spread out trying to keep my balance. I heard a thud and the tree shake, followed by the sound of the bark of the tree ripping. I fell down and clung into the tree as Leon shouted "Don't stop just run!" I picked myself up and ran as fast as I could along the tree which started to fall behind me and pick up Leon.
+            dash across the tree towards Leon. Leon's face was pale and sweaty
+            watching what was happening, I just dashed towards him as fast as I
+            could with my arms spread out trying to keep my balance. I heard a
+            thud and the tree shake, followed by the sound of the bark of the
+            tree ripping. I fell down and clung into the tree as Leon shouted
+            "Don't stop just run!" I picked myself up and ran as fast as I could
+            along the tree which started to fall behind me and pick up Leon.
           </p>
-          <p>I ran until the tree start to pull Leon off the ground, I pushed all of my power into my legs sprinted to the end of the tree which was ever more being pulled into the air on Leon's side and down into the river on the other end. I jumped off and onto Leon, we scrabbled away from the river bank and looked back. The only thing I saw was the half a tree floating down the river and the eyes looking at up us slowly sink back down.</p>
+          <p>
+            I ran until the tree start to pull Leon off the ground, I pushed all
+            of my power into my legs sprinted to the end of the tree which was
+            ever more being pulled into the air on Leon's side and down into the
+            river on the other end. I jumped off and onto Leon, we scrabbled
+            away from the river bank and looked back. The only thing I saw was
+            the half a tree floating down the river and the eyes looking at up
+            us slowly sink back down.
+          </p>
           <p>"What the hell was that!?" I screamed at Leon.</p>
-          <p>"I have no idea! I never even heard rumors of something like that before." He replied in a flustered tone.</p>
-          <p>"I really thought I would be eaten like the girl before, except by a weird river monster. What the hell is going on around here?" I said moving away from the river more.</p>
-          <p>"This part of Alden is next to the monster territory. Maybe more of them got though then normal with the soldiers being taken towards the republic more and more." He replied following after me.</p>
+          <p>
+            "I have no idea! I never even heard rumors of something like that
+            before." He replied in a flustered tone.
+          </p>
+          <p>
+            "I really thought I would be eaten like the girl before, except by a
+            weird river monster. What the hell is going on around here?" I said
+            moving away from the river more.
+          </p>
+          <p>
+            "This part of Alden is next to the monster territory. Maybe more of
+            them got though then normal with the soldiers being taken towards
+            the republic more and more." He replied following after me.
+          </p>
           <p></p>
           {/* Keep writing until arriving near the city */}
         </div>
