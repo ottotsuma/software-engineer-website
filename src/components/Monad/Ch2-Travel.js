@@ -385,11 +385,24 @@ function intro(props) {
             them got though then normal with the soldiers being taken towards
             the republic more and more." He replied following after me.
           </p>
-          <p>"Either way there are defiantly monsters here so are we close to Banderdam?" I asked a little frustrated.</p>
-          <p>"Yeah. The main road is up ahead now we are past the river it should be safe to rejoin the road." He explained.</p>
+          <p>
+            "Either way there are defiantly monsters here so are we close to
+            Banderdam?" I asked a little frustrated.
+          </p>
+          <p>
+            "Yeah. The main road is up ahead now we are past the river it should
+            be safe to rejoin the road." He explained.
+          </p>
           <p>"What about the guards that attacked the students?" I asked.</p>
-          <p>"I mean we should rejoin as normal citizens. The city is busy this time of year, although it is coming to an end there should still be other people going into the city." Leon suggested.</p>
-          <p>And like that we left the dangers of the rainforest behind and walked to Banderdam.</p>
+          <p>
+            "I mean we should rejoin as normal citizens. The city is busy this
+            time of year, although it is coming to an end there should still be
+            other people going into the city." Leon suggested.
+          </p>
+          <p>
+            And like that we left the dangers of the rainforest behind and
+            walked to Banderdam.
+          </p>
         </div>
       </div>
     </div>
