@@ -385,7 +385,10 @@ function intro(props) {
             them got though then normal with the soldiers being taken towards
             the republic more and more." He replied following after me.
           </p>
-          <p></p>
+          <p>"Either way there are defiantly monsters here so are we close to Banderdam?" I asked a little frustrated.</p>
+          <p>"Yeah. The main road is up ahead now we are past the river it should be safe to rejoin the road." He explained.</p>
+          <p>"What about the guards that attacked the students?" I asked.</p>
+          <p>"I hope they only did that because they were near the monster territory. Either one is risky but lets stay away from the guards just encase." Leon suggested.</p>
           {/* Keep writing until arriving near the city */}
         </div>
       </div>
