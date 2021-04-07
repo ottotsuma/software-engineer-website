@@ -30,9 +30,8 @@ function home() {
         <Profile>
           <div>
             <Video />
-            <img
+            <ProfileImage
               src="https://avatars0.githubusercontent.com/u/51743227?s=460&u=60cf882cb319128a05fa5fff10c006de9cdfc2af&v=4"
-              className="Profile-Img"
               alt="Profile"
             />
             <h3>Shaun Darragh</h3>
@@ -278,6 +277,13 @@ const HomeImage = styled.img`
     display: none;
   }
 `;
+
+const ProfileImage = styled.img`
+width: 100px;
+height: 100px;
+border-radius: 50%;
+`;
+
 
 
 export default home;

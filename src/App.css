@@ -29,13 +29,6 @@ h1 {
   -webkit-text-stroke-color: black;
 }
 
-.PlayTitles {
-  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: black;
-  font-size: 4vh;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -45,32 +38,14 @@ h1 {
   }
 }
 
-.Nav {
-  min-height: 4vh;
-  max-height: 4vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  padding: 1vh;
-  /* background-color: #602080; */
-  /* background-color: #6a5acd; */
-  background: #638ad4;
-  z-index: 1;
-}
-
+/* Links cannot be styled :( */
 .Nav-Link {
-  /* color: #b030b0; */
   color: white;
   text-decoration: underline;
   text-decoration-color: white;
 }
 
-.Profile-Img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-}
-
+/* Going to be removed anyway */
 .Project-Card {
   display: flex;
   flex-direction: column;
@@ -78,37 +53,7 @@ h1 {
   align-items: center;
   padding: 1%;
 }
-
-.Container {
-  display: flex;
-  padding: 1vh;
-  /* background-color: lightslategray; */
-  flex-wrap: wrap;
-}
-
-.Top {
-  display: flex;
-}
-
-.Bottom {
-  display: flex;
-}
-
-.Inner-Container {
-  background-color: #202060;
-  border: white;
-  border-style: solid;
-  width: 100%;
-}
-
-.About {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-}
-
+/* Are in the story */
 .book {
   display: flex;
   align-content: center;
@@ -130,20 +75,20 @@ h1 {
   pointer-events: none;
   max-width: 100%;
 }
-
-.Screen-Shot {
-  height: 40vmin;
-  pointer-events: none;
-  max-width: 100%;
-}
-
 .Footer {
   max-width: 100%;
   max-height: 1px;
 }
+/* Package component + Story*/
+.Screen-Shot {
+  height: 40vmin;
+  pointer-events: none;
+  max-width: 100%;
+  max-height: 100%;
+}
 
 /* Cards */
-
+/* Blackjack */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
@@ -159,42 +104,20 @@ h1 {
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
-
-.cardImg {
-  padding: 5px;
-  border-radius: 5px 5px 0 0;
-  width: 120px;
-  height: 100px;
-}
-
-.container {
-  padding: 2px 16px;
-}
-
-#cardcontainer {
-  background-color: transparent;
-  overflow: hidden;
-  width: 100%;
-}
-
-footer {
-  height: 20px;
-}
-
+/* Really!? */
 li {
   list-style-type: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-direction: column; */
 }
-
+/* Really!? */
 ul {
   list-style-type: none;
 }
 
 /* Tiny people */
-
+/* Nav bar Link */
 .Home-Button {
   display: none;
   color: white;
@@ -358,13 +281,6 @@ ul {
 #Fancy {
   font-family: "Seaweed Script", cursive;
   font-size: x-large;
-}
-
-footer {
-  height: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .Footer-Button {

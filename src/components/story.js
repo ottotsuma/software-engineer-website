@@ -13,12 +13,13 @@ import Witch from "./../assets/witch7.jpg";
 import Weather from "./../assets/weather.png";
 import Card from "./card";
 import Blackjack from "./blackjack";
+import styled from 'styled-components'
 
 function story(props) {
   return (
     <div className="Playground">
       <Blackjack />
-      <h1 className="PlayTitles">Book</h1>
+      <Titles>Book</Titles>
       <a href="Monad/1">Go to story</a>
       <div className="ProfileCard-Outer">
         <div className="ProfileCard">
@@ -61,10 +62,10 @@ function story(props) {
           </div>
         </div>
       </div>
-      <h1 className="PlayTitles">Card</h1>
+      <Titles>Card</Titles>
       <Card />
       <div>
-        <h1 className="PlayTitles">Flip Book</h1>
+        <Titles>Flip Book</Titles>
       </div>
       <div className="book">
         <HTMLFlipBook width={400} height={300}>
@@ -107,7 +108,7 @@ function story(props) {
         </HTMLFlipBook>
       </div>
       <div>
-        <h1 className="PlayTitles">Skill Tree</h1>
+        <Titles>Skill Tree</Titles>
       </div>
       <div className="Tree">
         <Skill />
@@ -119,3 +120,10 @@ function story(props) {
   );
 }
 export default story;
+
+const Titles = styled.h1`
+-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+-webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: black;
+font-size: 4vh;
+`
