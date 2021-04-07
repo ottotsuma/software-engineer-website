@@ -283,7 +283,6 @@ ul {
   font-size: x-large;
 }
 
-/* Here */
 .Footer-Button {
   font-size: 0.7rem;
   height: 2.5rem;
@@ -322,8 +321,6 @@ ul {
 /* Cards */
 
 .cardImage {
-  /* height: 10rem; */
-  /* width: 10rem; */
   height: 100%;
   width: 100%;
 }
@@ -431,14 +428,6 @@ ul {
 }
 
 /* Newspaper */
-
-.Newspaper-Container {
-  /* max-height: 100vh; */
-  /* width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
-}
 
 .Newspaper {
   max-width: 600px;
