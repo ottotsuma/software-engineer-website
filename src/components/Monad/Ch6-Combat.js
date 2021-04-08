@@ -1,4 +1,6 @@
 import React from "react";
+import Spells from "./../elements/spells";
+import Stats from "./../elements/stats";
 
 function intro(props) {
   return (
@@ -41,7 +43,7 @@ function intro(props) {
           <p>
             "Finally, is the element type you both use. You might be an amazing fire-mage but
             if your opponent is using water, you are at a huge disadvantage so
-            keep that in mind.
+            keep that in mind." Lubin explained.
           </p>            
           {/* If there are no further questions about the duels
             we will move onto charms and how to counter them." Lubin said
@@ -49,33 +51,33 @@ function intro(props) {
             {/* Here */}
           <p>
             The lesson continued as normal, reading though past mages, their
-            feats and discoveries. I decided to check out my current stats since
+            feats, discoveries and challenges. I decided to check out my current stats since
             there was a fight coming up.
           </p>
-          {/* <!-- Duel --> */}
-          {/* <!-- Duel between students --> */}
-          <p className="stats">
-            <li>Name: Otto.</li>
-            <li>Level: 11.</li>
-            <li>Primary Class: Mage.</li>
-            <li>Element: Lightning.</li>
-            <li>Spells: 6.</li>
-            {/* <!-- Mana ball (lightning) (Pow: 1), Tether, Magic resistance (passive), Magic up (passive), Strike (lightning) (Pow: 2+2),  Magic regen (passive), --> */}
-            <li>Titles: 1.</li>
-            <li>Spell points: 5.</li>
-            <li>Stat points: 11.</li>
-            <li>Stats:</li>
-            <li>Strength: 0</li>
-            <li>Vitality: 0</li>
-            <li>Endurance: 0</li>
-            <li>Magic: 13</li>
-            {/* <!-- +1 From the title, magic up --> */}
-            <li>Willpower: 1</li>
-            {/* <!-- magic resistance --> */}
-            <li>Dexterity: 0</li>
-            <li>Sense: 1</li>
-            <li>Charisma: 2</li>
-          </p>
+          <Stats
+            type={"description"}
+            stats={{
+              name: "Otto",
+              level: 11,
+              class: "Mage",
+              element: "Lightning",
+              skills: 6,
+              titles: 1,
+              "skill points": 5,
+              "stat points": 11,
+              vitality: 0,
+              strength: 0,
+              endurance: 0,
+              magic: 13,
+              willpower: 1,
+              dexterity: 0,
+              sense: 1,
+              charisma: 2,
+            }}
+            notes={
+              "Titles: Magic +1 from title. Willpower + 1 from magic resistance skill. Spells: Mana ball (lightning) (Pow: 1), Tether, Magic resistance (passive), Magic up (passive), Strike (lightning) (Pow: 2+2),  Magic regen (passive)"
+            }
+          />
           <p>
             I had picked up the element lighting when I reached level 10. There
             was a few to pick from, the teachers had said that the elements you

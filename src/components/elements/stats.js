@@ -147,6 +147,15 @@ const statList = {
     minor:
       "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina.",
   },
+  element: {
+    name: "Element",
+    description: "This is the element you can apply to your magic.",
+    numeric: "Increases HP by 14.5 per point.",
+    vague: "Increases your durability.",
+    major: "Increased health points.",
+    minor:
+      "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina.",
+  },
 };
 
 function stats({ stats, type }) {
