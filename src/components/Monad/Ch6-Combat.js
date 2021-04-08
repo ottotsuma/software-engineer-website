@@ -7,9 +7,6 @@ function intro(props) {
         <div className="Content">
           {/* <!-- Class - Combat --> */}
           <h4>Combat Class</h4>
-          {/* <!-- Combat between mages, mages and others. --> */}
-
-          {/* <!-- Students poor in , talk etc teacher comes in , class listens --> */}
           <p>
             "Todays lesson will be on combat between mages. The upcoming duels
             have some of you excited, and this lesson is to help you prepare for
@@ -18,25 +15,22 @@ function intro(props) {
             provided to you, and the uniform you are wearing now. You may not
             enchant or enhance any of the equipment." Lubin announced.
           </p>
-
           <p>
             <li className="Item">
               Body:<li className="Junk"> Academy Robe (black).</li> Magic: +1,
               Health + 10.
             </li>
           </p>
-
           <p>
             "Now the most obvious thing when thinking about duels between mages
-            is that they use magical attacks. Convention gives that should you
-            be up against a mage Willpower is the best stat to counter. As it
-            reduces the damage by more Vitality increases your health. However
+            is that they use magical attacks. Conventionally, should you
+            be attacked by a mage Willpower is will provide the best defence. As it
+            reduces the damage taken by more than Vitality increases your health. However
             you must consider the bigger picture, once you leave the academy not
-            all of your opponents will be mages and some will use physical
+            all of your opponents will be mages and most will use physical
             attacks and the points you put into Willpower will do nothing to
             protect from that." Lubin continued.
           </p>
-
           <p>
             "The second thing to think about during a duel, although not as
             prevalent during your lower levels, is the amount of mana you and
@@ -45,13 +39,14 @@ function intro(props) {
           </p>
 
           <p>
-            "Finally is the element type. You might be an amazing fire-mage but
+            "Finally, is the element type you both use. You might be an amazing fire-mage but
             if your opponent is using water, you are at a huge disadvantage so
-            keep that in mind. If there are no further questions about the duels
+            keep that in mind.
+          </p>            
+          {/* If there are no further questions about the duels
             we will move onto charms and how to counter them." Lubin said
-            waiting for questions to come.
-          </p>
-
+            waiting for questions to come. */}
+            {/* Here */}
           <p>
             The lesson continued as normal, reading though past mages, their
             feats and discoveries. I decided to check out my current stats since
