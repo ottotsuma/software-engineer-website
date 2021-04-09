@@ -80,18 +80,18 @@ function intro(props) {
           />
           <p>
             I had picked up the element lighting when I reached level 10. There
-            was a few to pick from, the teachers had said that the elements you
+            was a few for me to pick from, the teachers had said that the elements you
             get to pick from depend on your environment and past actions.
-            Although the choice was up to you what element to pick there were
-            elements you would be stronger with and others weaker. Luckily for
-            me lightning had a high compatibility with me.
+            Although the choice was up to you what element to pick, there were
+            elements you would be more compatible with than others. Luckily for
+            me I had a high compatibility with lightning.
           </p>
           <p>
-            Looking though the list of skills a lighting mage could learn I
+            Looking though the list of skills a lighting mage could learn, I
             could not really decide which I wanted and which I should avoid. I
             narrowed it down to just a few I felt like I could use:
           </p>
-
+{/* Spells list div? */}
           <p>
             Chain Lightning, Dazing Bolt, Thunderstorm, Shocking Touch, Sparks,
             Lightning Bolt, Lightning Rune, Lightning Cloak, Thunderbolt, Static
