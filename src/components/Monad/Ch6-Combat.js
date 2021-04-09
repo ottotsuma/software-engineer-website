@@ -25,13 +25,13 @@ function intro(props) {
           </p>
           <p>
             "Now the most obvious thing when thinking about duels between mages
-            is that they use magical attacks. Conventionally, should you
-            be attacked by a mage Willpower is will provide the best defence. As it
-            reduces the damage taken by more than Vitality increases your health. However
-            you must consider the bigger picture, once you leave the academy not
-            all of your opponents will be mages and most will use physical
-            attacks and the points you put into Willpower will do nothing to
-            protect from that." Lubin continued.
+            is that they use magical attacks. Conventionally, should you be
+            attacked by a mage Willpower is will provide the best defence. As it
+            reduces the damage taken by more than Vitality increases your
+            health. However you must consider the bigger picture, once you leave
+            the academy not all of your opponents will be mages and most will
+            use physical attacks and the points you put into Willpower will do
+            nothing to protect from that." Lubin continued.
           </p>
           <p>
             "The second thing to think about during a duel, although not as
@@ -41,18 +41,18 @@ function intro(props) {
           </p>
 
           <p>
-            "Finally, is the element type you both use. You might be an amazing fire-mage but
-            if your opponent is using water, you are at a huge disadvantage so
-            keep that in mind." Lubin explained.
-          </p>            
+            "Finally, is the element type you both use. You might be an amazing
+            fire-mage but if your opponent is using water, you are at a huge
+            disadvantage so keep that in mind." Lubin explained.
+          </p>
           {/* If there are no further questions about the duels
             we will move onto charms and how to counter them." Lubin said
             waiting for questions to come. */}
-            {/* Here */}
+          {/* Here */}
           <p>
             The lesson continued as normal, reading though past mages, their
-            feats, discoveries and challenges. I decided to check out my current stats since
-            there was a fight coming up.
+            feats, discoveries and challenges. I decided to check out my current
+            stats since there was a fight coming up.
           </p>
           <Stats
             type={"description"}
