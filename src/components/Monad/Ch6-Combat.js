@@ -101,7 +101,7 @@ function intro(props) {
 
           <p>
             I decided to pick up, lightning cloak, shocking touch, chain
-            lighting, 'Charged Charge' and wall of lightning.
+            lighting, Charged Charge and wall of lightning.
           </p>
 
           <p>
