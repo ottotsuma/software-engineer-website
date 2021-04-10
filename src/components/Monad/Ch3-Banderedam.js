@@ -1,5 +1,5 @@
 import React from "react";
-
+// Dead girl, corps fish 
 function intro(props) {
   return (
     <div className="Monad" id="3">

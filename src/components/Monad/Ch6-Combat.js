@@ -80,18 +80,18 @@ function intro(props) {
           />
           <p>
             I had picked up the element lighting when I reached level 10. There
-            was a few for me to pick from, the teachers had said that the elements you
-            get to pick from depend on your environment and past actions.
-            Although the choice was up to you what element to pick, there were
-            elements you would be more compatible with than others. Luckily for
-            me I had a high compatibility with lightning.
+            was a few for me to pick from, the teachers had said that the
+            elements you get to pick from depend on your environment and past
+            actions. Although the choice was up to you what element to pick,
+            there were elements you would be more compatible with than others.
+            Luckily for me I had a high compatibility with lightning.
           </p>
           <p>
             Looking though the list of skills a lighting mage could learn, I
             could not really decide which I wanted and which I should avoid. I
             narrowed it down to just a few I felt like I could use:
           </p>
-{/* Spells list div? */}
+          {/* Spells list div? */}
           <p>
             Chain Lightning, Dazing Bolt, Thunderstorm, Shocking Touch, Sparks,
             Lightning Bolt, Lightning Rune, Lightning Cloak, Thunderbolt, Static
@@ -105,27 +105,29 @@ function intro(props) {
           </p>
 
           <p>
-            Thinking on what the teacher had said, mages in the duels would be
-            using magic attacks so it is potent to put points into willpower.
-            But I wanted to think about the future also, no not putting points
-            into endurance but strength. There was nothing in the rules to say I
-            had to use magic, and his element lightning would travel easier
-            though a metal blade then a wooden wand.
+            Thinking on what the teacher had said, when fighting against mages
+            putting points into willpower would be best. However I wanted to
+            think about the future also. If I could attack with magic it could
+            be countered against those with will power. So I thought it would be
+            a good idea to invest in strength, that way I could deal with those
+            people also. There was nothing in the rules to say I had to use only
+            magic, and my element lightning would travel though a metal blade
+            easier then a wooden wand.
           </p>
 
           <p>
-            His hp at the moment was 210. The largest attack a level 10 student
-            using a non elemental attack would be strike with no element would
-            be about 100. Hoping even with the element added maybe I could take
-            two hits. His plan would fall apart if the hit was a critical
-            however.
+            My hp at the moment was 210. The largest direct attack a level 10
+            student using a non elemental attack would be 'Strike' dealing
+            around 100hp. Maybe even with the element added I could take two
+            hits. My plan would fall apart if the hit was a critical however.
           </p>
 
           {/* <!-- level *5 magic * 8 = mp // level * 10 vit * 14.5 +100 = hp --> */}
           <p>
             I had made my preparations and headed to the arena where the duels
             would be held this week. Those not dueling would have to take notes
-            and give feedback to those who where dueling.
+            and give feedback to those who where dueling. This way we would have
+            to meet everyone in the class at least once to exchange feed back.
           </p>
 
           <p>
