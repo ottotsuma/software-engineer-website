@@ -132,33 +132,32 @@ function intro(props) {
 
           <p>
             I would be dueling on days 3 and 5. I spent the first day watching
-            his class mates duel, most of the matches ended quite quickly with
-            the students hp being reduced in 1 to 5 hits. There was of course
-            the odd duel where two defensive type mages met and each would
-            exchange blows of around 5% of their total hp and mana consumption
-            became important.
+            the other students from my class duel. Most of the matches ended
+            quite quickly, with the students hp being reduced in 1 to 5 hits.
+            There was, of course the odd duel where two defensive type mages met
+            and each would exchange blows of around 5% of their total hp. So it
+            took longer and mana consumption became important.
           </p>
 
           <p>
             Knowing my duels would not become a slogging match between two
-            defensive mages I tried to concentrate on the matches between two
-            offensive mages, or how to break though the defense of a defensive
-            mage. What became very clear was that mages at this level where
-            slow, not very powerful and had defences like paper.
+            defensive mages, I tried to concentrate on the matches with
+            offensive type mages. What became very clear was that mages at our
+            level where slow and full of mistakes.
           </p>
-
+          {/* Not mention of Shrorlei magic resistance later */}
           <p>
-            On the second day I managed to catch that some of my house mates
-            signing up also and went to see their matches. Tisiel's match ended
-            in her loss, she only signed up for the experience and would never
-            be a dedicated combat mage. Shrorlei's match was a weird one, with
-            some of her spells not activating and her opponents sometimes
-            fizzling out, the teachers reacted with no shock at all like it was
-            expected but some of the students, like I could not understand.
-            Reingard overwhelmed his opponent with a constant stream of
-            manaballs but soon ran out of mana and passed out, I had won the
-            match however. Ralsan did not fight today and I had missed his first
-            match yesterday.
+            On the second day I managed to catch some of my house mates, so I
+            went to see their matches. Tisiel's match ended in her loss, she
+            only came because it was compulsory would never be a dedicated
+            combat mage. Shrorlei's match was a weird one, with some of her
+            spells not activating and her opponents sometimes fizzling out. The
+            teachers reacted with no shock at all like it was expected but some
+            of the students, like myself could not understand. Reingard
+            overwhelmed his opponent with a constant stream of manaballs but
+            soon ran out of mana and passed out, he had won the match however.
+            Ralsan did not fight today and I had missed his first match
+            yesterday.
           </p>
 
           <p>
