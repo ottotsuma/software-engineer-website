@@ -223,8 +223,8 @@ function intro(props) {
           </p>
 
           <p>
-            "Congratulations on your win, I'm Daniel the first earth
-            mage to lose to a lightning mage this year." He said with a chuckle.
+            "Congratulations on your win, I'm Daniel the first earth mage to
+            lose to a lightning mage this year." He said with a chuckle.
           </p>
 
           <p>
@@ -233,63 +233,68 @@ function intro(props) {
           </p>
 
           <p>
-           "First to bring the opponents health to 10 points wins,
-            after you lowered my health to 10 points, my spell that activated
-            after. Although lowering your health to 10 points also means I came
+            "First to bring the opponents health to 10 points wins, after you
+            lowered my health to 10 points, my spell that activated after.
+            Although lowering your health to 10 points also means I came
             second." He said as it it was nothing.
           </p>
 
           <p>
-            "Oh I see, sorry again. Can I ask, why does our health stop
-            at 10 points?" I asked confused.
+            "Oh I see, sorry again. Can I ask, why does our health stop at 10
+            points?" I asked confused.
           </p>
 
           <p>
-            "Don't be sorry, your prize is to do that again soon against some one else. You were
-            my final match and I don't plan on going though that pain again any
-            time soon. You don't know? Teacher should of told you, during a duel
-            your health stops at 10 points so no one dies. If you want to know
-            more then that you'll have to ask professor Farald he's an expert on
-            it." Daniel explained laying back down in bed.
+            "Don't be sorry, your prize is to do that again soon against some
+            one else. You were my final match and I don't plan on going though
+            that pain again any time soon. You don't know? Teacher should of
+            told you, during a duel your health stops at 10 points so no one
+            dies. If you want to know more then that you'll have to ask
+            professor Farald he's an expert on it." Daniel explained laying back
+            down in bed.
           </p>
 
           <p>
-            "Thank you, I think I must of missed when we were taught
-            that. How did your first match go?" I asked feeling more relaxed.
+            "Thank you, I think I must of missed when we were taught that. How
+            did your first match go?" I asked feeling more relaxed.
           </p>
 
           <p>
-            "Easy win, guess that's why I was so confident going in.
-            This will teach me." He giggled to himself.
+            "Easy win, guess that's why I was so confident going in. This will
+            teach me." He giggled to himself.
           </p>
 
           <p>
             I soon left the infirmary and went back to my room to rest after
             being granted leave for the afternoon. The show we put on today
-            probably caught some attention, using a spear to get 'Shocking
-            Touch's' range to increase. Maybe not I can't be the first to think
+            probably caught someones attention, using a spear to get 'Shocking
+            Touch's' range to increase. Maybe not, I can't be the first to think
             of this. If they did think of it before, it's unlikely they would be
             able to use it at this level since shocking touch alone would have
-            no way to knock out Daniel in one hit, without my strength stats and
-            the damage the spear did because of them I would of lost. I need to
-            formulate a new plan, so I went top side. On the top of the cliff
-            was an area set out for training, or at least that what it had
-            become. I was trying to push his lighting-mana into the spear and
-            throw it, the only trouble was, the lighting-mana I wrapped around
-            the spear didn't travel with the spear, the spear flew and the
-            lighting mana just dissipated. "There must of been a skill for this
-            I don't have yet or missed.. I am out of spell points anyway."
+            no way to knock out Daniel in one hit. Without increasing my
+            strength stats earlier the damage the spear would of been to little
+            and I would of lost.
           </p>
-
           <p>
-            Ralsan - "If you have a spare spell point and force it enough you
+            I need to formulate a new plan, so I went top side. On the top of
+            the cliff was an area set out for training, or at least that was
+            what it had become. I was trying to push my lighting-mana into the
+            spear and throw it, the only trouble was, the lighting-mana I
+            wrapped around the spear didn't travel with the spear, the spear
+            flew from my hand and the lighting mana just dissipated. "There must
+            of been a skill for this I don't have yet or missed.. I am out of
+            spell points anyway."
+          </p>
+{/* Ralsan */}
+          <p>
+            "If you have a spare spell point and force it enough you
             can learn a skill that way. Would look cool to see a lighting
-            spear."
+            spear." A voice from behind me said. I turned around to see it was Ralsan coming up from the stairs onto the roof to join me.
           </p>
 
           <p>
-            Otto - "Hey, yeah it would of but I don't have any skill points
-            left."
+            "Hey, yeah it would of but I don't have any spell points
+            left." I admitted.
           </p>
 
           <p>Ralsan - "Please tell me you at least got discharge?"</p>
