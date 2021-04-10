@@ -23,7 +23,7 @@ function home() {
       <Hidden>
         <Link
           to="/Monad/1"
-          style={{ "text-decoration": "none", position: "fixed" }}
+          style={{ "text-decoration": "none", position: "fixed", width: "30px", height: "30px" }}
         ></Link>
       </Hidden>
       <Glass>

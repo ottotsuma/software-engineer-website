@@ -161,19 +161,19 @@ function intro(props) {
           </p>
 
           <p>
-            On the third day I equipped my formal outfit, mages robe and headed
-            down to the area again. This time however instead of watching the
-            matches I made my way into the armory beneath the area. Inside where
-            many students picking out weapons and signing in that they where
-            present. I signed next to my name picked up a completely metal spear
-            and sat down to wait. He got a few weird looks, some of the students
-            must of pitted me thinking I must of thought the metal spear was
-            some kind of magic staff, but non of them would correct me though, I
-            might be their opponent after all.
+            On the third day I put on my student robe and headed down to the
+            area again. This time however, instead of watching the matches I
+            made my way into the armory beneath the area. Inside where many
+            students picking out weapons and signing in that they where present.
+            I signed next to my name, and then picked up a completely metal
+            spear and sat down to wait. I got a few weird looks, some of the
+            students must of pitted me, thinking I must of thought the metal
+            spear was some kind of magic staff, but non of them would correct me
+            though, I might be their opponent after all.
           </p>
 
           <p>
-            Soon enough my name was called, along with another boys Daniel. He
+            Soon enough my name was called, along with another boys, Daniel. He
             was tall, a little chubby, with hair so short you could see his
             scalp like it had recently been shaved off and grown back. He had a
             friendly face however, squinting eyes that looked like they where
@@ -183,36 +183,38 @@ function intro(props) {
             plan I greeted Daniel with a smile and a bow. Daniel bowed back and
             we made our way into the area.
           </p>
-
+          <div className="BreakPoint"></div>
           <p>
             It was hot, too hot. The moment we stepped out I could feel my face
             starting to sweat, the crowd where shouting on their friends and now
-            being down in the middle of it all I could hear just how loud the
-            curved walls of the area made the crowd. I opened by casting
-            lightning cloak, lightning covered my entire robe but would only
-            react on contact so it was of no threat to Daniel at start of the
-            match. Daniel opened with a manaball which gathered in the palm of
-            his hand and looked to be made of mud and earth, before I had time
-            to debate Daniel's element it was flung towards him at great speed.
-            Casting wall of lightning in front of me, lightning bolts stuck up
-            from the ground 1m in height. I ducked and the ball his the lighting
-            bolts and broke apart, the pieces of the ball exploded out in all
-            directions some of them hitting into my arm and side, it stung like
-            being hit with a rock. I had lost a lot of mana and some hp in that
-            exchange and Daniel had come out on top. Gripping my spear and
-            casting 'Charged Charge' my whole body felt lighting crawling all
-            over my skin my muscles twitched from the stimulus and I shot
-            forward and great speed. Daniel taken back by this sudden change
-            summoned an earthen 1m wall in front of himself, which I just jumped
-            over easily with my increased speed. I lunged the spear into
-            Daniel's center and cast 'Shocking Touch', the spell worked by
+            being down in the middle of it all, I could hear just how loud the
+            curved walls of the area made the crowd.
+            {/* Should there not be some into */}I opened by casting lightning
+            cloak, lightning covered my entire robe but would only react on
+            contact so it was of no threat to Daniel at start of the match.
+            Daniel opened with a manaball which gathered in the palm of his hand
+            and looked to be made of mud and earth, before I had time to debate
+            Daniel's element it was flung towards me at great speed. Casting
+            wall of lightning in front of me, lightning bolts stuck up from the
+            ground reaching to my chest in height. I ducked and the ball hit the
+            lighting bolts and broke apart. The pieces of the ball exploded out
+            in all directions some of them hitting into my arm and side, it
+            stung like being hit with a rock. I had lost a lot of mana and some
+            hp in that exchange and Daniel had come out on top. Gripping my
+            spear and casting 'Charged Charge' my whole body felt lighting
+            crawling all over my skin, my muscles twitched from the stimulus and
+            I shot forward and great speed. Daniel, taken back by this sudden
+            change summoned an earthen wall in front of himself similar to my
+            lightning wall in height, which I just jumped over easily with my
+            increased speed. I lunged the spear into Daniel's center and cast
+            'Shocking Touch' after the spear made contact, the spell worked by
             releasing lighting-mana from my fingers but as I had hoped the
             lighting ran the length of the spear and entered Daniel's body. The
-            last thing I remembered was the great pain in my feet and legs as a
-            1m earthen spike shot out of the ground and sent me flying. The
-            match was over.
+            last thing I remembered was the great pain in my feet and legs as an
+            earth spike shot out of the ground and sent me flying. The match was
+            over.
           </p>
-
+          <div className="BreakPoint"></div>
           <p>
             Waking in an unfamiliar bed with bright white light shining into my
             eyes, I reached my hand to cover my face from the brightness and
@@ -221,8 +223,8 @@ function intro(props) {
           </p>
 
           <p>
-            Daniel - "Congratulations on your win, I'm Daniel the first earth
-            mage to lose to a lightning mage this year."
+            "Congratulations on your win, I'm Daniel the first earth
+            mage to lose to a lightning mage this year." He said with a chuckle.
           </p>
 
           <p>
@@ -231,34 +233,34 @@ function intro(props) {
           </p>
 
           <p>
-            Daniel - "First to bring the opponents health to 10 points wins,
-            after you lowered my health to 10 points so the spell that activated
-            after although lowering your health to 10 points also means I came
-            second."
+           "First to bring the opponents health to 10 points wins,
+            after you lowered my health to 10 points, my spell that activated
+            after. Although lowering your health to 10 points also means I came
+            second." He said as it it was nothing.
           </p>
 
           <p>
-            Otto - "Oh I see, sorry again. Can I ask, why does our health stop
-            at 10 points?"
+            "Oh I see, sorry again. Can I ask, why does our health stop
+            at 10 points?" I asked confused.
           </p>
 
           <p>
-            Daniel - "Don't be sorry your prize is to do that again, you where
+            "Don't be sorry, your prize is to do that again soon against some one else. You were
             my final match and I don't plan on going though that pain again any
             time soon. You don't know? Teacher should of told you, during a duel
             your health stops at 10 points so no one dies. If you want to know
             more then that you'll have to ask professor Farald he's an expert on
-            it."
+            it." Daniel explained laying back down in bed.
           </p>
 
           <p>
-            Otto - "Thank you, I think I must of missed when we were taught
-            that. How did your first match go?"
+            "Thank you, I think I must of missed when we were taught
+            that. How did your first match go?" I asked feeling more relaxed.
           </p>
 
           <p>
-            Daniel - "Easy win, guess that's why I was so confident going in.
-            This will teach me."
+            "Easy win, guess that's why I was so confident going in.
+            This will teach me." He giggled to himself.
           </p>
 
           <p>
