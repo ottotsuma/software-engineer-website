@@ -48,6 +48,15 @@ const statList = {
     minor:
       "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina.",
   },
+  spells: {
+    name: "This is the total amount of your unique spells.",
+    description: "Increases your health points",
+    numeric: "Increases HP by 14.5 per point.",
+    vague: "Increases your durability.",
+    major: "Increased health points.",
+    minor:
+      "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina.",
+  },
   titles: {
     name: "Vitality",
     description: "This is the amount of titles you hold.",
@@ -60,6 +69,15 @@ const statList = {
   "skill points": {
     name: "Vitality",
     description: "This is the amount of unspent skill points you have.",
+    numeric: "Increases HP by 14.5 per point.",
+    vague: "Increases your durability.",
+    major: "Increased health points.",
+    minor:
+      "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina.",
+  },
+  "spell points": {
+    name: "Vitality",
+    description: "This is the amount of unspent spell points you have.",
     numeric: "Increases HP by 14.5 per point.",
     vague: "Increases your durability.",
     major: "Increased health points.",

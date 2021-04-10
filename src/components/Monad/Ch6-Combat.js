@@ -48,7 +48,6 @@ function intro(props) {
           {/* If there are no further questions about the duels
             we will move onto charms and how to counter them." Lubin said
             waiting for questions to come. */}
-          {/* Here */}
           <p>
             The lesson continued as normal, reading though past mages, their
             feats, discoveries and challenges. I decided to check out my current
@@ -61,9 +60,9 @@ function intro(props) {
               level: 11,
               class: "Mage",
               element: "Lightning",
-              skills: 6,
+              spells: 6,
               titles: 1,
-              "skill points": 5,
+              "spell points": 5,
               "stat points": 11,
               vitality: 0,
               strength: 0,
@@ -285,32 +284,33 @@ function intro(props) {
             of been a skill for this I don't have yet or missed.. I am out of
             spell points anyway."
           </p>
-{/* Ralsan */}
+          {/* Ralsan */}
           <p>
-            "If you have a spare spell point and force it enough you
-            can learn a skill that way. Would look cool to see a lighting
-            spear." A voice from behind me said. I turned around to see it was Ralsan coming up from the stairs onto the roof to join me.
+            "If you have a spare spell points and force it enough you can learn a
+            skill that way. Would look cool to see a lighting spear." A voice
+            from behind me said. I turned around to see it was Ralsan coming up
+            from the stairs onto the roof to join me.
           </p>
 
           <p>
-            "Hey, yeah it would of but I don't have any spell points
-            left." I admitted.
+            "Hey, yeah it would of but I don't have any spell points left." I
+            admitted.
           </p>
 
-          <p>Ralsan - "Please tell me you at least got discharge?"</p>
+          <p>"Please tell me you at least got discharge?" He asked.</p>
 
           <p>
-            Otto - "No, I thought since it drains so much mana I would just pass
-            out, so I didn't get it."
+            "No, I thought since it drains so much mana I would just pass
+            out, so I didn't get it." I replied.
           </p>
 
           <p>
-            Ralsan - "From what I saw you passed out anyway. I just came up to
+            "From what I saw you passed out anyway. I just came up to
             tell you it's dinner time, we are eating together while we give each
-            other advice."
+            other advice." He smiled and started to walk back to the stairs.
           </p>
 
-          <p>Otto - "Ah, I'll be down shortly, thank you."</p>
+          <p>"Ah, I'll be down shortly, thank you Ralsan." I replied.</p>
 
           {/* <!-- 
 
