@@ -6,18 +6,19 @@ function intro(props) {
       <div className="Frame">
         <div className="Content">
           <h4>The fifth day.</h4>
+          {/* 30kg warhammer... ? */}
           <p>
             Entering the armory again, I debated on which weapon to pick. This
             time the other students in the armory where curious about what I
-            would chose. Trying to ignore their stares by telling myself this is
-            just 5 minutes of fame, they will all forget about me soon enough. I
-            picked up a warhammer, the thing was easily 30kg, no mage in the
+            would chose. Trying to ignore their stares, by telling myself this is
+            just five minutes of fame, they will all forget about me soon enough. I
+            picked up a warhammer, the thing was easily over half of my own weight, no mage in the
             right mind would use such a weapon, no normal mage could even wield
-            such a thing. Smiling to myself internally with and idea of how to
-            act in this battle I took my place and waited.
+            such a thing. Smiling to myself with and idea of how to
+            act in this battle, I took my place and waited.
           </p>
 
-          <p>"Otto & Kaja make your way to the arena."</p>
+          <p>After a short wait an older student near the arena entrance shouted out. "Otto & Kaja make your way to the arena."</p>
 
           <p>
             Kaja was a little shorter then me, dark blonde hair and dark blue
@@ -25,15 +26,15 @@ function intro(props) {
             shield in her left hand.
           </p>
 
-          <p>Otto - "How did you know you would be fighting me?"</p>
+          <p>Thinking about it I asked. "How did you know you would be fighting me?"</p>
 
           <p>
-            Kaja - "I didn't just figured some other punk would try it, if I
-            don't need it I can drop it if I do need I got it. Although that is
+            "I didn't, just figured some other punk would try it. If I
+            don't need it I can drop it, if I do need I got it. Although that is
             not a spear." she pointed to the warhammer balanced on my shoulder.
           </p>
 
-          <p>Otto - "No, no it is not" I replied with a smile.</p>
+          <p>"No, no it is not" I replied with a smile.</p>
 
           <p>
             We made our way into the arena, bowed to each other and the match
@@ -45,7 +46,7 @@ function intro(props) {
           </p>
 
           <p>
-            "Stop shotting me and I might" I replied moving aside of yet another
+            "Stop shooting me and I might" I replied moving aside of yet another
             fireball, while I was saving mana my stamina would not last much
             longer. Using 'Charged Charge' I dashed across the field and slammed
             my warhammer into Kaja's shield, although it helped she struggled

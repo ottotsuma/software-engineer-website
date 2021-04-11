@@ -7,6 +7,7 @@ function intro(props) {
     <div className="Monad" id="3">
       <div className="Frame">
         <div className="Content">
+          {/* Re - introduce why they will be dueling, what it means, why the fuck there is an elemental class on the fourth day. */}
           <h3>Lessons</h3>
           {/* Lubin */}
           <p>
