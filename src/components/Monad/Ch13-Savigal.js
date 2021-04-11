@@ -350,8 +350,8 @@ function intro(props) {
           <p>"I err.. But he's our guest."</p>
 
           <p>
-            Otto - "Nice to meet you Milly I am Otto, I'll help you cook, It's
-            not my first time and Leon can clean up."
+            "Nice to meet you Milly I am Otto, I'll help you cook, It's
+            not my first time and Leon can clean up." I said as soft as I could.
           </p>
 
           <p>
