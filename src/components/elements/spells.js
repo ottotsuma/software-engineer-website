@@ -3,9 +3,99 @@ import React from "react";
 
 // Kʼawiil - Lightning, seeds, abundance, powerful one, fertility, serpent
 
+// Lightning mages Rank 1
+// Chain Lightning, Dazing Bolt, Thunderstorm, Shocking Touch, Sparks,
+// Lightning Bolt, Lightning Rune, Lightning Cloak,
+// Thunderbolt, Static Field, Wall of lightning, Lightning Storm,
+// Discharge, Charged Charge.
+
 const spellList = {
-  Example: {
+  "Example": {
     name: "Example",
+    description: "Example",
+    numeric: "Example",
+    vague: "Example",
+  },
+  "Charged Charge": {
+    name: "Charged Charge",
+    description: "Example",
+    numeric: "Example",
+    vague: "Example",
+  },
+  "Lightning Storm": {
+    name: "Lightning Storm",
+    description: "Example",
+    numeric: "Example",
+    vague: "Example",
+  },
+  "Wall of lightning": {
+    name: "Wall of lightning",
+    description: "Example",
+    numeric: "Example",
+    vague: "Example",
+  },
+  "Static Field": {
+    name: "Static Field",
+    description: "Example",
+    numeric: "Example",
+    vague: "Example",
+  },
+  "Thunderbolt": {
+    name: "Thunderbolt",
+    description: "Example",
+    numeric: "Example",
+    vague: "Example",
+  },
+  "Discharge": {
+    name: "Discharge",
+    description: "Example",
+    numeric: "Example",
+    vague: "Example",
+  },
+  "Lightning Cloak": {
+    name: "Lightning Cloak",
+    description: "Example",
+    numeric: "Example",
+    vague: "Example",
+  },
+  "Lightning Rune": {
+    name: "Lightning Rune",
+    description: "Example",
+    numeric: "Example",
+    vague: "Example",
+  },
+  "Lightning Bolt": {
+    name: "Lightning Bolt",
+    description: "Example",
+    numeric: "Example",
+    vague: "Example",
+  },
+  "Sparks": {
+    name: "Sparks",
+    description: "Example",
+    numeric: "Example",
+    vague: "Example",
+  },
+  "Shocking Touch": {
+    name: "Shocking Touch",
+    description: "Example",
+    numeric: "Example",
+    vague: "Example",
+  },
+  Thunderstorm: {
+    name: "Thunderstorm",
+    description: "Example",
+    numeric: "Example",
+    vague: "Example",
+  },
+  "Dazing Bolt": {
+    name: "Dazing Bolt",
+    description: "Example",
+    numeric: "Example",
+    vague: "Example",
+  },
+  "Chain Lightning": {
+    name: "Chain Lightning",
     description: "Example",
     numeric: "Example",
     vague: "Example",

@@ -91,12 +91,31 @@ function intro(props) {
             narrowed it down to just a few I felt like I could use:
           </p>
           {/* Spells list div? */}
-          <p>
+          <Spells
+            spells={[
+              "Chain Lightning",
+              "Dazing Bolt",
+              "Thunderstorm",
+              "Shocking Touch",
+              "Sparks",
+              "Lightning Bolt",
+              "Lightning Rune",
+              "Lightning Cloak",
+              "Thunderbolt",
+              "Static Field",
+              "Wall of lightning",
+              "Lightning Storm",
+              "Discharge",
+              "Charged Charge",
+            ]}
+            type={"description"}
+          />
+          {/* <p>
             Chain Lightning, Dazing Bolt, Thunderstorm, Shocking Touch, Sparks,
-            Lightning Bolt, Lightning Rune, Lightning Cloak, Discharge,
-            Thunderbolt, Static Field, Wall of lightning, Lightning Storm,
-            Discharge, Charged Charge.
-          </p>
+            Lightning Bolt, Lightning Rune, Lightning Cloak, Thunderbolt, Static
+            Field, Wall of lightning, Lightning Storm, Discharge, Charged
+            Charge.
+          </p> */}
 
           <p>
             I decided to pick up, lightning cloak, shocking touch, chain
