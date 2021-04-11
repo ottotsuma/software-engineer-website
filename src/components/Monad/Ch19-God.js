@@ -1,4 +1,8 @@
 import React from "react";
+import Equipment from "./../elements/equipment";
+import Stats from "./../elements/stats";
+
+
 function intro(props) {
   return (
     <div className="Monad" id="3">
@@ -305,74 +309,76 @@ Noticed by a God - get the notice of a God, (varies) */}
           {/* Arena Battle day & Arena day matches other then one of Otto's should be told though a commentator, give it some professional and hype! */}
           <h4>Battle Day</h4>
           <p>That morning I equipped the items had.</p>
-
-          <p class="equipment">
-            <li>Name: Otto.</li>
-            <li className="Item">
-              Head:<font color="blue"> Witch's Hat.</font> Magic: +4.
-            </li>
-            <li className="Item">
-              Body:<font color="darkgrey"> Academy Robe (Black/Yellow).</font>
-              Magic: +2, Lightning +1%, Health +10.
-            </li>
-            <li className="Item">
-              Hands:<font color="darkgrey">Mutt's Mitt's</font> Willpower +2.
-            </li>
-            <li className="Item">
-              Feet:<font color="darkgrey"> Bouncy Boots.</font> Absorbs a small
-              amount of energy when struck and releases it to help you bounce! .
-            </li>
-            <li className="Item">
-              Acc1:<font color="blue"> Pendent of Medium Magic.</font> Magic +3
-              , Strength -2.
-            </li>
-            <li className="Item">
-              Acc2:<font color="darkgrey"> Ring of Little Strength.</font>
-              Strength +2
-            </li>
-            <li className="Item">
-              Acc3:<font color="blue"> </font>
-            </li>
-            <li className="Item">
-              Acc4:<font color="darkgrey"> </font>
-            </li>
-            <li className="Item">
-              Primary:<font color="darkgrey"> Warhammer.</font> Strength +2.
-            </li>
-            <li className="Item">
-              Secondary:<font color="blue"> Wand.</font> Skill: Detect Magic 1
-              per day.
-            </li>
-          </p>
-
+          <Equipment
+            items={{
+              Head: {
+                name: "Witches Hat",
+                effect: "Magic: +4.",
+                rating: "normal",
+              },
+              Body: {
+                name: "Academy Robe (Black/Yellow)",
+                effect: "Magic: +2, Lightning +1%, Health +10.",
+                rating: "junk",
+              },
+              Hands: {
+                name: "Mutt's Mitt's",
+                effect: "Willpower +2.",
+                rating: "junk",
+              },
+              Feet: {
+                name: "Bouncy Boots",
+                effect: "Absorbs a small amount of energy when struck and releases it to help you bounce!",
+                rating: "junk",
+              },
+              Acc1: {
+                name: "Pendent of Medium Magic",
+                effect: "Magic +3 , Strength -2.",
+                rating: "normal",
+              },
+              Acc2: {
+                name: "Ring of Little Strength",
+                effect: "Strength +2",
+                rating: "junk",
+              },
+              Weapon: {
+                name: "Warhammer",
+                effect: "Strength +2",
+                rating: "junk",
+              },
+              Secondary: {
+                name: "Wand (Find Magic)",
+                effect: "Skill: Detect Magic 1 per day.",
+                rating: "normal",
+              },
+            }}
+          />
           <p>And then check my current stats.</p>
-
-          <p class="stats">
-            <li>Name: Otto.</li>
-            <li>Level: 14.</li>
-            <li>Primary Class: Mage.</li>
-            <li>Element: Lightning.</li>
-            <li>Faith: (1/1)</li>
-            <li>Spells: 11.</li>
-            <li>Titles: 3.</li>
-            <li>Spell points: 3.</li>
-            <li>Stat points: 0.</li>
-            <li>Stats:</li>
-            <li>Strength: 16</li>
-            {/* equipment 2 */}
-            <li>Vitality: 0</li>
-            <li>Endurance: 0</li>
-            <li>Magic: 25</li>
-            {/* Passive +1, title +1, equip 9 */}
-            <li>Willpower: 3</li>
-            {/* equipment 1, tittle 1 */}
-            <li>Dexterity: 0</li>
-            <li>Sense: 1</li>
-            {/* human 1 */}
-            <li>Charisma: 3</li>
-            {/* human 2, title 1 */}
-            {/* titles, equipment, skills */}
-          </p>
+          <Stats
+            type={"description"}
+            stats={{
+              name: "Otto",
+              level: 14,
+              class: "Mage",
+              element: "Lightning",
+              faith: "(1/1)",
+              spells: 11,
+              titles: 3,
+              "spell points": 3,
+              "stat points": 0,
+              vitality: 0,
+              strength: 16,
+              endurance: 0,
+              magic: 25,
+              willpower: 3,
+              dexterity: 0,
+              sense: 1,
+              charisma: 3,
+            }}
+            notes={
+              "Strength +2 from equipment, Magic +1 from title, +1 from passive, +9 from equipment. Willpower + 1 from magic resistance skill. charisma +1 from title"
+            }
+          />
 
           <p>
             I set off and headed to the arena, I met up with Reingard, Volker

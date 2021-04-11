@@ -342,7 +342,6 @@ Coin (daughter) - (???) - O
                 rating: "normal",
               },
             }}
-            level="14"
           />
         </div>
       </div>

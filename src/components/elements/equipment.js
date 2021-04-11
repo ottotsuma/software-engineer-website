@@ -5,21 +5,35 @@ const colors = {
   junk: "rgb(109, 109, 109)",
   normal: "blue",
   rare: "green",
+  epic: "red",
+  legendary: "orange",
+  unique: "purple",
+  growth: "#e2abac",
+  quest: "gold",
+  
 };
 
 // the effects are based on stats not level so it would be something maybe combined into stats?
 function stats({ items }) {
   const array = [];
   const keys = Object.keys(items);
-  console.log(keys)
+  console.log(keys);
   for (let index = 0; index < keys.length; index++) {
     const BodyPart = keys[index] + ": ";
-    const ItemName = <div style={{color: colors[items[keys[index]].rating]}}>{items[keys[index]].name}:</div>
+    const ItemName = (
+      <div style={{ color: colors[items[keys[index]].rating] }}>
+        {items[keys[index]].name}:
+      </div>
+    );
     const effect = items[keys[index]].effect;
-    const space = <div style={{background:"inherit", width: "3px"}}> </div>
+    const space = <div style={{ background: "inherit", width: "3px" }}> </div>;
     array.push(
       <SingleStat key={index + "equipment"}>
-        {BodyPart}{space}{ItemName}{space}{effect}
+        {BodyPart}
+        {space}
+        {ItemName}
+        {space}
+        {effect}
         <Span>{effect}</Span>
       </SingleStat>
     );
@@ -60,8 +74,6 @@ const Span = styled.span`
 
 const SingleStat = styled.li`
   text-transform: capitalize;
-
-  border-radius: 6px;
   padding: 1px;
   width: auto;
   display: flex;
@@ -72,4 +84,6 @@ const SingleStat = styled.li`
   &:hover ${Span} {
     visibility: visible;
   }
+  border-bottom: solid;
+  border-color: #f9f9f9;
 `;

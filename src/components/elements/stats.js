@@ -12,6 +12,14 @@ const statList = {
     major: "Example",
     minor: "Example",
   },
+  faith: {
+    name: "Faith",
+    description: "Amount of God given spells that can be cast per day.",
+    numeric: "Example",
+    vague: "Example",
+    major: "Example",
+    minor: "Example",
+  },
   name: {
     name: "Vitality",
     description: "This is your name!",
