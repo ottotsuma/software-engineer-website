@@ -93,9 +93,9 @@ function intro(props) {
           {/* Spells list div? */}
           <p>
             Chain Lightning, Dazing Bolt, Thunderstorm, Shocking Touch, Sparks,
-            Lightning Bolt, Lightning Rune, Lightning Cloak, Thunderbolt, Static
-            Field, Wall of lightning, Lightning Storm, Discharge, Charged
-            Charge.
+            Lightning Bolt, Lightning Rune, Lightning Cloak, Discharge,
+            Thunderbolt, Static Field, Wall of lightning, Lightning Storm,
+            Discharge, Charged Charge.
           </p>
 
           <p>
@@ -188,30 +188,38 @@ function intro(props) {
             starting to sweat, the crowd where shouting on their friends and now
             being down in the middle of it all, I could hear just how loud the
             curved walls of the area made the crowd.
-            {/* Should there not be some into */}I opened by casting lightning
-            cloak, lightning covered my entire robe but would only react on
-            contact so it was of no threat to Daniel at start of the match.
-            Daniel opened with a manaball which gathered in the palm of his hand
-            and looked to be made of mud and earth, before I had time to debate
-            Daniel's element it was flung towards me at great speed. Casting
-            wall of lightning in front of me, lightning bolts stuck up from the
-            ground reaching to my chest in height. I ducked and the ball hit the
-            lighting bolts and broke apart. The pieces of the ball exploded out
-            in all directions some of them hitting into my arm and side, it
-            stung like being hit with a rock. I had lost a lot of mana and some
-            hp in that exchange and Daniel had come out on top. Gripping my
-            spear and casting 'Charged Charge' my whole body felt lighting
-            crawling all over my skin, my muscles twitched from the stimulus and
-            I shot forward and great speed. Daniel, taken back by this sudden
-            change summoned an earthen wall in front of himself similar to my
-            lightning wall in height, which I just jumped over easily with my
-            increased speed. I lunged the spear into Daniel's center and cast
-            'Shocking Touch' after the spear made contact, the spell worked by
-            releasing lighting-mana from my fingers but as I had hoped the
-            lighting ran the length of the spear and entered Daniel's body. The
-            last thing I remembered was the great pain in my feet and legs as an
-            earth spike shot out of the ground and sent me flying. The match was
-            over.
+          </p>
+          <p>
+            My thoughts were interrupted by one of the teachers telling us to
+            get into place. When he counted down to 0 that would be our que to
+            start. Not waiting around I dashed over to my side of the field. The
+            distance between us was only 20 paces or so because the range of our
+            spells was not that great.
+          </p>
+          <p>
+            I opened by casting lightning cloak, lightning covered my entire
+            robe but would only react on contact so it was of no threat to
+            Daniel at start of the match. Daniel opened with a manaball which
+            gathered in the palm of his hand and looked to be made of mud and
+            earth, before I had time to debate Daniel's element it was flung
+            towards me at great speed. Casting wall of lightning in front of me,
+            lightning bolts stuck up from the ground reaching to my chest in
+            height. I ducked and the ball hit the lighting bolts and broke
+            apart. The pieces of the ball exploded out in all directions some of
+            them hitting into my arm and side, it stung like being hit with a
+            rock. I had lost a lot of mana and some hp in that exchange and
+            Daniel had come out on top. Gripping my spear and casting 'Charged
+            Charge' my whole body felt lighting crawling all over my skin, my
+            muscles twitched from the stimulus and I shot forward and great
+            speed. Daniel, taken back by this sudden change summoned an earthen
+            wall in front of himself similar to my lightning wall in height,
+            which I just jumped over easily with my increased speed. I lunged
+            the spear into Daniel's center and cast 'Shocking Touch' after the
+            spear made contact, the spell worked by releasing lighting-mana from
+            my fingers but as I had hoped the lighting ran the length of the
+            spear and entered Daniel's body. The last thing I remembered was the
+            great pain in my feet and legs as an earth spike shot out of the
+            ground and sent me flying. The match was over.
           </p>
           <div className="BreakPoint"></div>
           <p>
@@ -286,8 +294,8 @@ function intro(props) {
           </p>
           {/* Ralsan */}
           <p>
-            "If you have a spare spell points and force it enough you can learn a
-            skill that way. Would look cool to see a lighting spear." A voice
+            "If you have a spare spell points and force it enough you can learn
+            a skill that way. Would look cool to see a lighting spear." A voice
             from behind me said. I turned around to see it was Ralsan coming up
             from the stairs onto the roof to join me.
           </p>
@@ -300,14 +308,14 @@ function intro(props) {
           <p>"Please tell me you at least got discharge?" He asked.</p>
 
           <p>
-            "No, I thought since it drains so much mana I would just pass
-            out, so I didn't get it." I replied.
+            "No, I thought since it drains so much mana I would just pass out,
+            so I didn't get it." I replied.
           </p>
 
           <p>
-            "From what I saw you passed out anyway. I just came up to
-            tell you it's dinner time, we are eating together while we give each
-            other advice." He smiled and started to walk back to the stairs.
+            "From what I saw you passed out anyway. I just came up to tell you
+            it's dinner time, we are eating together while we give each other
+            advice." He smiled and started to walk back to the stairs.
           </p>
 
           <p>"Ah, I'll be down shortly, thank you Ralsan." I replied.</p>
