@@ -86,9 +86,14 @@ function intro(props) {
             Luckily for me I had a high compatibility with lightning.
           </p>
           <p>
-            Looking though the list of skills a lighting mage could learn, I
-            could not really decide which I wanted and which I should avoid. I
-            narrowed it down to just a few I felt like I could use:
+            Looking though the list of spells a lighting mage could learn, it
+            was the same list as the normal mage spells, except the names and
+            descriptions had changed a little because of the element type that
+            could be applied. I of course still had my spells from before like
+            'mana-ball' except I could apply lightning element to the mana and
+            create a 'lighting ball'. I could not really decide which new spells
+            I wanted and which I should avoid. I narrowed it down to just a few
+            I felt like I could use:
           </p>
           {/* Spells list div? */}
           <Spells

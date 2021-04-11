@@ -18,7 +18,7 @@ const spellList = {
   },
   "Charged Charge": {
     name: "Charged Charge",
-    description: "Example",
+    description: "Stimulates your muscles in your legs with lightning shocks, to boost your speed.",
     numeric: "Example",
     vague: "Example",
   },
@@ -42,7 +42,7 @@ const spellList = {
   },
   "Thunderbolt": {
     name: "Thunderbolt",
-    description: "Example",
+    description: "Calls a thunder bolt from above onto the target.",
     numeric: "Example",
     vague: "Example",
   },
@@ -54,19 +54,19 @@ const spellList = {
   },
   "Lightning Cloak": {
     name: "Lightning Cloak",
-    description: "Example",
+    description: "Covers yourself in lighting, shocking anyone who comes too close.",
     numeric: "Example",
     vague: "Example",
   },
   "Lightning Rune": {
     name: "Lightning Rune",
-    description: "Example",
+    description: "Injects lighting into a surface, will release when someone comes near.",
     numeric: "Example",
     vague: "Example",
   },
   "Lightning Bolt": {
     name: "Lightning Bolt",
-    description: "Example",
+    description: "Shoots a bolt of lightning at a target.",
     numeric: "Example",
     vague: "Example",
   },
@@ -78,7 +78,7 @@ const spellList = {
   },
   "Shocking Touch": {
     name: "Shocking Touch",
-    description: "Example",
+    description: "Electrocutes a target you touch [You decide the body part it comes from].",
     numeric: "Example",
     vague: "Example",
   },
@@ -96,7 +96,7 @@ const spellList = {
   },
   "Chain Lightning": {
     name: "Chain Lightning",
-    description: "Example",
+    description: "Shoots lightning at a target, part of the lighting will be redirected to near by targets.",
     numeric: "Example",
     vague: "Example",
   },
