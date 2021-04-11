@@ -90,71 +90,77 @@ function intro(props) {
             my health had reached the final 10 points first, my blow had landed
             moments after leaving her with 2% hp. I had lost.
           </p>
-{/* here */}
+          {/* here */}
           <p>
-            Reflecting on the battle, she must of been at least level 15, would
-            of put her hp at 250 unless she put any points into vitality in
-            which case she might be a lower level. Unable to do anything about
-            it now the reflection was a form of self improvement rather then an
-            excuse for my loss, I would reflect on what happened, what I should
-            of done and grow from this.
+            Reflecting on the battle, she must of been at least level 15. That
+            would of put her hp at around 250, unless she put any points into
+            vitality in which case she might be a lower level. Unable to do
+            anything about it now, the reflection was a form of self improvement
+            rather then an excuse for my loss. I would reflect on what happened,
+            what I should of done and grow from this.
           </p>
 
           <p>
             Bowing to Kaja, and her to me, we left the arena and returned our
-            weapons, it was nice to not have been knocked out this time. walking
-            back to watch the rest of the duels though the day I got an
+            weapons, it was nice to not have been knocked out this time. I
+            walked back to watch the rest of the duels, although I got an
             unexpected visit from Lubin my teacher.
           </p>
 
           <p>
-            Lubin - "Rather interesting approach, Strength in a match between
-            mages."
+            "Rather interesting approach, putting points into Strength as a
+            mage." Lubin commented.
           </p>
 
           <p>
-            Otto - "Did not think that would slip by you, do you disapprove?"
+            "I see it did not slip by you completely, do you disapprove?" I
+            asked.
           </p>
 
           <p>
-            Lubin - "No not really, I trust you have read though the histories
-            at least once? You are not the first mage to try strength and magic.
-            I'm sure you won't be the last but it is very uncommon during peace
-            times."
-          </p>
-
-          <p>Otto - "Why is it uncommon during times of peace?"</p>
-
-          <p>
-            Lubin - "The method of strength and magic is one usually only taken
-            after level 50, to do it so early would only happen when you have
-            many types of enemies, a hard road before level 50 mind you. I just
-            came to give some advice, Histories: Battle-Mages, Fighter-Mage,
-            Inquisitor, Mage-Tanks are all a good place to start. There are more
-            however, slightly more unusual methods. In the main library there is
-            also records from a Necromancer and a Deathknight. Not usually given
-            out to first year students, but usual first year students don't put
-            points into strength."
+            "No not really, I trust you have read though the histories at least
+            once? You are not the first mage to try strength and magic. I'm sure
+            you won't be the last but it is very uncommon during peace times."
+            He replied.
           </p>
 
           <p>
-            Otto - "Thank you sir! But why would you go out of your way to do
-            all this for me?"
+            Confused by his comment I asked "Why is it uncommon during times of
+            peace?"
           </p>
 
           <p>
-            Lubin - "Nothing personal, it's just my job. Guide students to a
-            path that they want to take, once they find their path help them
-            traverse it. Don't mistake this for me picking favorites I am just
-            doing what is expected of me. You may take your leave for the day if
-            you want, I believe you have some reading to do."
+            "The method of strength and magic is one usually only taken after
+            level 50, to do it so early would only happen when you have no
+            choice. Since most jobs require mages to have high magic and not
+            strength. Anyway I just came to give some advice. Histories:
+            Battle-Mages, Fighter-Mage, Inquisitor, Mage-Tanks are all a good
+            place to start. There are more however, their methods are slightly
+            more unusual. In the main library there is also records from a
+            Necromancer and a Deathknight. Not usually given out to first year
+            students, but usual first year students don't put points into
+            strength." He chuckled as he stood up wishing me luck.
           </p>
 
           <p>
-            Otto - "Yes sir, thank you sir!" With new knowledge I went to the
-            library while the other first year students where in the arena to
-            read up on the necromancer and the deathknight.
+            "Thank you sir! But why would you go out of your way to do all this
+            for me?" I asked.
           </p>
+
+          <p>
+            "Nothing personal, it's just my job. Guide students to a path that
+            they want to take, once they find their path help them traverse it.
+            Don't mistake this for me picking favorites, I am just doing what is
+            expected of me. You may take your leave for the day if you want, I
+            believe you have some reading to do." He smiled and made to leave.
+          </p>
+
+          <p>
+            "Yes sir, thank you sir!" With new knowledge I went to the library
+            while the other first year students where in the arena to read up on
+            the necromancer and the deathknight.
+          </p>
+          {/* Library? Or just cut to the book? */}
         </div>
       </div>
     </div>
