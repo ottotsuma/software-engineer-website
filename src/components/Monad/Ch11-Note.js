@@ -1,4 +1,5 @@
 import React from "react";
+import Equipment from "./../elements/equipment";
 
 function intro(props) {
   return (
@@ -68,10 +69,10 @@ function intro(props) {
             few on the desk, the chest of draws where full of skulls.
           </p>
 
-          <div class="pop">
+          <div className="pop">
             Room
             <img
-              class="popOut"
+              className="popOut"
               src="https://ottotsuma.github.io/images/wizroom.jpg"
               height="400px"
               alt="Room"
@@ -216,9 +217,10 @@ function intro(props) {
           <p>Tisiel - "Her ring, it gives a little strength to the wearer."</p>
           <p>
             Tisiel - "Finally the princesses coin, who though more research I am
-            not sure if she was their daughter at all. I am not even sure if they are
-            related and this coin is a mystery to me, can't find any references
-            to coins like it, and I cannot tell what kind of magic it contains."
+            not sure if she was their daughter at all. I am not even sure if
+            they are related and this coin is a mystery to me, can't find any
+            references to coins like it, and I cannot tell what kind of magic it
+            contains."
           </p>
           <p>
             Otto - "Hmmm kind of junky items then? The tiara sounds expensive
@@ -270,7 +272,7 @@ function intro(props) {
             Otto - "Hehe, fine let's go eat. I would like to know what was going
             on down there though."
           </p>
-          {/* Dinner - add transistion */}
+          {/* Dinner - add transition */}
           <p>
             We both headed downstairs and into the shared space to eat dinner
             with the others.
@@ -307,51 +309,41 @@ Tiara (queen) - (green) Queen's Pawn. Skill: Animate stone. -T
 Ring (queen) - (junk) Ring of Little Strength. Strength +5 - O
 Coin (daughter) - (???) - O
 --> */}
-          <p class="equipment">
-            <li>Name: Otto.</li>
-            <ul className="Item">
-              <li>
-                Head:<p> </p>
-                <font color="blue"> Witch's Hat.</font>
-              </li>
-              <li>Magic: +3.</li>
-            </ul>
-            <ul className="Item">
-              <li>
-                Body:<p> </p>
-                <font color="darkgrey"> Academy Robe (black).</font>
-              </li>
-              <li>Magic: +1, Health + 10.</li>
-            </ul>
-            <ul className="Item">
-              <li>
-                Acc1:<p> </p>
-                <font color="blue"> Pendent of Medium Magic.</font>
-              </li>
-              <li>Magic +2 , Strength -1.</li>
-            </ul>
-            <ul className="Item">
-              <li>
-                Acc2:<p> </p>
-                <font color="darkgrey"> Ring of Little Strength.</font>
-              </li>
-              <li>Strength +1</li>
-            </ul>
-            <ul className="Item">
-              <li>
-                Weapon:<p> </p>
-                <font color="darkgrey"> Warhammer.</font>
-              </li>
-              <li>Strength +1</li>
-            </ul>
-            <ul className="Item">
-              <li>
-                Secondary:<p> </p>
-                <font color="blue"> Wand.</font>
-              </li>
-              <li>Skill: Detect Magic 1 per day.</li>
-            </ul>
-          </p>
+          <Equipment
+            items={{
+              Head: {
+                name: "Witches Hat",
+                effect: "Magic: +3.",
+                rating: "normal",
+              },
+              Body: {
+                name: "Academy Robe (black)",
+                effect: "Magic: +1, Health + 10.",
+                rating: "junk",
+              },
+              Acc1: {
+                name: "Pendent of Medium Magic",
+                effect: "Magic +2 , Strength -1.",
+                rating: "normal",
+              },
+              Acc2: {
+                name: "Ring of Little Strength",
+                effect: "Strength +1",
+                rating: "junk",
+              },
+              Weapon: {
+                name: "Warhammer",
+                effect: "Strength +1",
+                rating: "junk",
+              },
+              Secondary: {
+                name: "Wand (Find Magic)",
+                effect: "Skill: Detect Magic 1 per day.",
+                rating: "normal",
+              },
+            }}
+            level="14"
+          />
         </div>
       </div>
     </div>

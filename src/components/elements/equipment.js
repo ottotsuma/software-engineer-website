@@ -1,0 +1,75 @@
+import styled from "styled-components";
+import React from "react";
+
+const colors = {
+  junk: "rgb(109, 109, 109)",
+  normal: "blue",
+  rare: "green",
+};
+
+// the effects are based on stats not level so it would be something maybe combined into stats?
+function stats({ items }) {
+  const array = [];
+  const keys = Object.keys(items);
+  console.log(keys)
+  for (let index = 0; index < keys.length; index++) {
+    const BodyPart = keys[index] + ": ";
+    const ItemName = <div style={{color: colors[items[keys[index]].rating]}}>{items[keys[index]].name}:</div>
+    const effect = items[keys[index]].effect;
+    const space = <div style={{background:"inherit", width: "3px"}}> </div>
+    array.push(
+      <SingleStat key={index + "equipment"}>
+        {BodyPart}{space}{ItemName}{space}{effect}
+        <Span>{effect}</Span>
+      </SingleStat>
+    );
+  }
+  return (
+    <>
+      <Title>Equipment:</Title>
+      <StatsStyle>{array}</StatsStyle>
+    </>
+  );
+}
+export default stats;
+
+const Title = styled.h1`
+  display: flex;
+  justify-content: center;
+`;
+
+const StatsStyle = styled.ul`
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+`;
+
+const Span = styled.span`
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  width: auto;
+  position: absolute;
+  z-index: 2;
+  margin-top: 7%;
+`;
+
+const SingleStat = styled.li`
+  text-transform: capitalize;
+
+  border-radius: 6px;
+  padding: 1px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  &:hover {
+    background-color: #f1f1f1;
+  }
+  &:hover ${Span} {
+    visibility: visible;
+  }
+`;
