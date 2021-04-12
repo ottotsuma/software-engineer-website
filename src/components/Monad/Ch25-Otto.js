@@ -1,4 +1,7 @@
 import React from "react";
+import Equipment from "./../elements/equipment";
+import Stats from "./../elements/stats";
+
 function intro(props) {
   return (
     <div className="Monad" id="3">
@@ -10,53 +13,52 @@ function intro(props) {
             I couldn't help by every few seconds check my stats, in some kind of
             hope that they would change back to what they where before.
           </p>
-
-          <p class="stats">
-            <li>Name: Otto.</li>
-            <li>Level: 1.</li>
-            <li>Class: Kʼawiil.</li>
-            <li>Element: Lightning.</li>
-            <li>Faith: N/A</li>
-            <li>Spells: 1.</li>
-            <li>Titles: 2.</li>
-            <li>Spell points: 0.</li>
-            <li>Stat points: 3.</li>
-            <li>Stats:</li>
-            <li>Strength: 0</li>
-            <li>Vitality: 0</li>
-            <li>Defence: 0</li>
-            <li>Magic: 2</li>
-            {/* title 1 */}
-            <li>Magic Defence: 1</li>
-            {/* title 1 */}
-            <li>Dexterity: 0</li>
-            <li>Sense: 1</li>
-            {/* human 1 */}
-            <li>Charisma: 2</li>
-            {/* human 2 */}
-            {/*             Back to School - Enter the academy, +1 Magic" 
-            Found Unique class + 1 Mdef */}
-          </p>
-
-          <p>Equipment:</p>
+          <Stats
+            type={"description"}
+            stats={{
+              name: "Otto",
+              level: 1,
+              class: "Kʼawiil",
+              element: "Lightning",
+              faith: "N/A",
+              spells: 1,
+              titles: 2,
+              "spell points": 0,
+              "stat points": 3,
+              vitality: 0,
+              strength: 0,
+              endurance: 0,
+              magic: 2,
+              willpower: 1,
+              dexterity: 0,
+              sense: 1,
+              charisma: 2,
+            }}
+            notes={
+              "Back to School - Enter the academy, +1 Magic Found Unique class + 1 Mdef "
+            }
+          />
+          
+          <Equipment
+            items={{
+              Body: {
+                name: "Hui Lu's Battle Armor",
+                effect: "???",
+                rating: "normal",
+              },
+              Hands: {
+                name: "Hui Lu's Enchanting Gloves",
+                effect: "???",
+                rating: "normal",
+              },
+              Feet: {
+                name: "Hui Lu's Burning Boots",
+                effect: "???",
+                rating: "normal",
+              },
+            }}
+          />
           {/* https://www.sacred-texts.com/cfu/mlc/mlc10.htm - obscure fire god from china */}
-          <p class="equipment">
-            <li className="Item">
-              Head:<font color="blue"></font>
-            </li>
-            <li className="Item">
-              Body:<font color="blue"> Hui Lu's Battle Armor</font> ???
-            </li>
-            <li className="Item">
-              Hands:<font color="blue"> Hui Lu's Enchanting Gloves</font> ???
-            </li>
-            <li className="Item">
-              Feet:<font color="blue"> Hui Lu's Burning Boots</font> ???
-            </li>
-            <li className="Item">
-              Weapon:<font color="blue"> </font>
-            </li>
-          </p>
           {/* <li>Head:<font color="blue"> Ceremonial Stag Mask.</font> Magic: +4.</li> */}
           {/* <li>Head:<font color="purple"> Heavenly Stag Mask.</font> Magic: +4.</li> */}
 

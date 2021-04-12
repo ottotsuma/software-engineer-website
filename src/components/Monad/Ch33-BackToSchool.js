@@ -1,4 +1,5 @@
 import React from "react";
+import Equipment from "./../elements/equipment";
 import HTMLFlipBook from "react-pageflip";
 import Vampires from "./../../assets/Vampires.jpg";
 import Daemons from "./../../assets/72Deamons.jpg";
@@ -474,51 +475,40 @@ function intro(props) {
             I had tried to find new equipment but what I could find or afford as
             a first year was pretty poor.
           </p>
-          <p>Equipment:</p>
-          <p className="equipment">
-            <ul className="Item">
-              <li>
-                Head:<p> </p>
-                <font color="darkgrey"> Leather Cap</font>
-              </li>
-              <li>Slight protection increase against attacks to the head.</li>
-            </ul>
-            <ul className="Item">
-              <li>
-                Body:<p> </p>
-                <font color="darkgrey"> Academy Robe (Black/Red).</font>
-              </li>
-              <li>Minor increase to Magic, Fire & Health.</li>
-            </ul>
-            <ul className="Item">
-              <li>
-                Hands:<p> </p>
-                <font color="darkgrey"> Chared Mitts</font>
-              </li>
-              <li>Slight resistance to fire on your hands.</li>
-            </ul>
-            <ul className="Item">
-              <li>
-                Feet:<p> </p>
-                <font color="darkgrey"> Worn Boots</font>
-              </li>
-              <li>Warmer then no shoes.</li>
-            </ul>
-            <ul className="Item">
-              <li>
-                Weapon:<p> </p>
-                <font color="blue">Wand</font>
-              </li>
-              <li>Minor increase to Magic.</li>
-            </ul>
-            <ul className="Item">
-              <li>
-                Weapon:<p> </p>
-                <font color="darkgrey">Leather Shield</font>
-              </li>
-              <li>Slight protection from low damage attacks.</li>
-            </ul>
-          </p>
+          <Equipment
+            items={{
+              Head: {
+                name: "Leather Cap",
+                effect: "Slight protection increase against attacks to the head.",
+                rating: "junk",
+              },
+              Body: {
+                name: "Academy Robe (Black/Red)",
+                effect: "Minor increase to Magic, Fire & Health.",
+                rating: "junk",
+              },
+              Hands: {
+                name: "Chared Mitts",
+                effect: "Slight resistance to fire on your hands.",
+                rating: "junk",
+              },
+              Feet: {
+                name: "Worn Boots",
+                effect: "Warmer then no shoes.",
+                rating: "junk",
+              },
+              Weapon: {
+                name: "Wand",
+                effect: "Minor increase to Magic.",
+                rating: "normal",
+              },
+              Secondary: {
+                name: "Leather Shield",
+                effect: "Slight protection from low damage attacks.",
+                rating: "junk",
+              },
+            }}
+          />
           <p>
             Most of it was junk equipment that the arena had left as spares,
             after they had been used too much to bother repairing them. I had
