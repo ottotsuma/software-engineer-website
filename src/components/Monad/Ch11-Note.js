@@ -8,32 +8,32 @@ function intro(props) {
         <div className="Content">
           <h4>Tisiel's Note</h4>
           <p>
-            Having gotten Tisiel's letter I was standing in front of the giant
-            circular door waiting for her. Tisiel soon arrived looking like she
-            had stayed up all night again.
+            Having gotten Tisiel's letter, I was standing in front of the giant
+            circular door at the back of the cliffside waiting for her to arrive. Tisiel soon arrived looking like she
+            had stayed up all night again. The dark circles under her eyes had dark circles under them.
           </p>
 
-          <p>Otto - "So you made a big break though?"</p>
-          <p>Tisiel - "Yes, I am sure we can open this door"</p>
-          <p>Otto - "How?"</p>
+          <p>"So you made a big break though?" I asked as you approached.</p>
+          <p>"Yes, I am sure we can open this door" She replied looking delighted.</p>
+          <p>"How?" I asked a little excited to see what was behind it.</p>
           <p>
-            Tisiel - "You just have to take this ring, get down on one knee and
-            ask me to marry you. Simple right?"
+            "You just have to take this ring, get down on one knee and
+            ask me to marry you. Simple right?" She pulled out the ring we had used to get into the mausoleum a few days ago.
           </p>
           <p>
-            Otto - "The door shall forever remain a mystery, no one will ever
-            know what was behind it. Shame really."
+            "The door shall forever remain a mystery, no one will ever
+            know what was behind it. Shame really." I replied coldly.
           </p>
           <p>
-            Tisiel - puffing out her cheeks "It was just a joke, but seriously
+            Puffing out her cheeks "It was just a joke! But seriously
             though we can open the door, we just have to read this passage
-            together out loud and combine the wand with the ring."
+            out loud and combine the wand with the ring inside the door."
           </p>
           <p>
-            Otto - "Alright let's get this over with, these better not be
-            wedding vows."
+            "Alright I'll do it. These better not be
+            wedding vows." I replied.
           </p>
-          <p>Tisiel - "It was a joke.."</p>
+          <p>"It was a joke.." She muttered.</p>
 
           <p>
             Together the we read off a translated a version of the passage from
