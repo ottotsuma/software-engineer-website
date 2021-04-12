@@ -36,6 +36,7 @@ function intro(props) {
           <p>"It was a joke.." She muttered.</p>
 
           <p>
+            I placed the ring into the center most circle on the door. After I put the wand into the ring and pushed it until the wand had pieced deep into the door.
             Together the we read off a translated a version of the passage from
             the book, the sounds don't fit quite together as they should but
             still the doors symbols glow red like the ring. As instructed I
