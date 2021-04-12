@@ -1,4 +1,5 @@
 import React from "react";
+import Stats from "./../elements/stats";
 
 function intro(props) {
   return (
@@ -122,32 +123,30 @@ function intro(props) {
             hand I had high mana, high magic output, perhaps there was someway I
             could turn this into a defense.{" "}
           </p>
-
-          <p class="stats">
-            <li>Name: Otto.</li>
-            <li>Level: 14.</li>
-            <li>Primary Class: Mage.</li>
-            <li>Element: Lightning.</li>
-            <li>Spells: 11.</li>
-            <li>Titles: 3.</li>
-            <li>Spell points: 3.</li>
-            <li>Stat points: 0.</li>
-            <li>Stats:</li>
-            <li>Strength: 16</li>
-            {/* <!-- equipment 2 --> */}
-            <li>Vitality: 0</li>
-            <li>Endurance: 0</li>
-            <li>Magic: 25</li>
-            {/* <!-- Passive +1, title +1, equip 9 --> */}
-            <li>Willpower: 2</li>
-            {/* <!-- equipment 1, tittle 1 --> */}
-            <li>Dexterity: 0</li>
-            <li>Sense: 1</li>
-            {/* <!-- human 1 --> */}
-            <li>Charisma: 3</li>
-            {/* <!-- human 2, title 1 --> */}
-            {/* <!-- titles, equipment, skills --> */}
-          </p>
+          <Stats
+            type={"description"}
+            stats={{
+              name: "Otto",
+              level: 14,
+              class: "Mage",
+              element: "lightning",
+              spells: 11,
+              titles: 3,
+              "spell points": 3,
+              "stat points": 0,
+              vitality: 0,
+              strength: 16,
+              endurance: 0,
+              magic: 25,
+              willpower: 2,
+              dexterity: 0,
+              sense: 1,
+              charisma: 3,
+            }}
+            notes={
+              "Magic +1 from title. Willpower + 1 from magic resistance skill."
+            }
+          />
 
           <p>
             There is no way I can keep melee attacks from myself currently, but

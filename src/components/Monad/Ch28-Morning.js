@@ -1,4 +1,6 @@
 import React from "react";
+import Stats from "./../elements/stats";
+
 function intro(props) {
   return (
     <div className="Monad" id="3">
@@ -355,32 +357,29 @@ function intro(props) {
             the routine.
           </p>
           {/* Germination normally done with fire mages, takes ages. Ice mages to store them. (Other jobs include packing and shipping food.) */}
-
-          <p class="stats">
-            <li>Name: Otto.</li>
-            <li>Level: 5.</li>
-            <li>Class: Kʼawiil.</li>
-            <li>Spells: 1.</li>
-            <li>Titles: 3.</li>
-            <li>Spell points: 4.</li>
-            {/* 1 Per level */}
-            <li>Stat points: 15.</li>
-            {/* 4 per level */}
-            <li>Stats:</li>
-            <li>Strength: 1</li>
-            {/* Title 1 */}
-            <li>Vitality: 0</li>
-            <li>Defence: 0</li>
-            <li>Magic: 6</li>
-            {/* Title 1 */}
-            <li>Magic Defence: 1</li>
-            {/* Title 1 */}
-            <li>Dexterity: 0</li>
-            <li>Sense: 1</li>
-            {/* Human 1 */}
-            <li>Charisma: 2</li>
-            {/* Human 2 */}
-            {/* Titles: 
+          <Stats
+            type={"description"}
+            stats={{
+              name: "Otto",
+              level: 5,
+              class: "Kʼawiil",
+              element: "lightning",
+              spells: 1,
+              titles: 3,
+              "spell points": 4,
+              "stat points": 15,
+              vitality: 0,
+              strength: 1,
+              endurance: 0,
+              magic: 6,
+              willpower: 1,
+              dexterity: 0,
+              sense: 1,
+              charisma: 2,
+            }}
+            notes={"Stat points 4 per level, 1 spell point per level"}
+          />
+          {/* Titles: 
             Back to School - Enter the academy, +1 Magic" 
             Found Unique class + 1 Mdef 
             Found Unique Item - Mask +1 Str
@@ -389,8 +388,6 @@ function intro(props) {
            Common: Religious - Pick a God to worship 
            Reach level 10
             */}
-          </p>
-
           <p>
             I had way more stat points to spend then even when I was level 14
             before. Increasing my magic was obvious choice every level. It
