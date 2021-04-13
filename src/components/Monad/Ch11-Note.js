@@ -61,7 +61,7 @@ function intro(props) {
             was never there. Confused the we just look at each other.
           </p>
 
-          <p>
+          {/* <p>
             Otto - "Hold up, I had to put my wand in your ring? I bet this is a
             sex dungeon after all."
           </p>
@@ -73,7 +73,7 @@ function intro(props) {
             Otto - "Aha you are on, now get your butt in the creepy sex
             dungeon."
           </p>
-          <p>Tisiel - "Good thing no one else is around.."</p>
+          <p>Tisiel - "Good thing no one else is around.."</p> */}
 
           <p>
             Stepping inside we found stairs leading down into darkness, lighting
