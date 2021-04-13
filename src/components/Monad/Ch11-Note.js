@@ -9,41 +9,56 @@ function intro(props) {
           <h4>Tisiel's Note</h4>
           <p>
             Having gotten Tisiel's letter, I was standing in front of the giant
-            circular door at the back of the cliffside waiting for her to arrive. Tisiel soon arrived looking like she
-            had stayed up all night again. The dark circles under her eyes had dark circles under them.
+            circular door at the back of the cliffside waiting for her to
+            arrive. Tisiel soon arrived looking like she had stayed up all night
+            again. The dark circles under her eyes had dark circles under them.
           </p>
 
           <p>"So you made a big break though?" I asked as you approached.</p>
-          <p>"Yes, I am sure we can open this door" She replied looking delighted.</p>
+          <p>
+            "Yes, I am sure we can open this door" She replied looking
+            delighted.
+          </p>
           <p>"How?" I asked a little excited to see what was behind it.</p>
           <p>
-            "You just have to take this ring, get down on one knee and
-            ask me to marry you. Simple right?" She pulled out the ring we had used to get into the mausoleum a few days ago.
+            "You just have to take this ring, get down on one knee and ask me to
+            marry you. Simple right?" She pulled out the ring we had used to get
+            into the mausoleum a few days ago.
           </p>
           <p>
-            "The door shall forever remain a mystery, no one will ever
-            know what was behind it. Shame really." I replied coldly.
+            "The door shall forever remain a mystery, no one will ever know what
+            was behind it. Shame really." I replied coldly.
           </p>
           <p>
-            Puffing out her cheeks "It was just a joke! But seriously
-            though we can open the door, we just have to read this passage
-            out loud and combine the wand with the ring inside the door."
+            Puffing out her cheeks "It was just a joke! But seriously though we
+            can open the door, we just have to read this passage out loud and
+            combine the wand with the ring inside the door."
           </p>
           <p>
-            "Alright I'll do it. These better not be
-            wedding vows." I replied.
+            "Alright I'll do it. These better not be wedding vows." I replied.
           </p>
           <p>"It was a joke.." She muttered.</p>
 
           <p>
-            I placed the ring into the center most circle on the door. After I put the wand into the ring and pushed it until the wand had pieced deep into the door.
-            Together the we read off a translated a version of the passage from
-            the book, the sounds don't fit quite together as they should but
-            still the doors symbols glow red like the ring. As instructed I
-            placed the wand though the ring Tisiel is holding and we both passed
-            mana though, sure enough the circles began to rotate. Soon the door
-            seem to disappear like it was never there, confused the we just look
-            at each other.
+            I placed the ring into the center most circle on the door. After I
+            put the wand into the ring and pushed it until the wand had pieced
+            deep into the door. "Hey, do you think it is a euphemism for sex?" I
+            said pointing to the wand inside of the ring.
+          </p>
+          <p>
+            "No! They just work together like a set of keys that are split up.
+            Now be serious." She scalded. Tisiel read though the script as best
+            she could. The language sounded clumsy but that might of just been
+            Tisiel unfamiliarly with the sounds. Without having ever heard
+            anyone speak the language it was a miracle she was even trying.
+          </p>
+          <p>
+            The doors symbols glow red like the ring. After a short time the
+            circles began to rotate, the outer most to the right, the middle to
+            the left and the inner to the right. Once they reached a certain
+            point each ring would stop and move some more in a random direction.
+            Soon the door gave off a loud noise and started to disappear like it
+            was never there. Confused the we just look at each other.
           </p>
 
           <p>
