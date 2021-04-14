@@ -67,10 +67,10 @@ function intro(props) {
           </p>
           {/* what about the wand and the ring? */}
           <p>"Ohh, how about a wager? If its a sex dungeon I will buy
-            you dinner. If not, you buy you dinner." She said with a crafty smile.
+          you dinner. If not, you buy you dinner." She said with a crafty smile.
           </p>
           <p>"Aha, fine, you are on, now get your butt in the creepy sex
-            dungeon." I said laughing.
+          dungeon." I said laughing.
           </p>
           <p>"Good thing no one else is around.." She complained.</p>
 
@@ -92,16 +92,18 @@ function intro(props) {
             />
           </div>
 
-          <p>Otto - "You owe me dinner."</p>
-          <p>Tisiel - ".. This is NOT a sex dungeon!"</p>
-          <p>Otto - "I dunno, mood lighting, sexy skulls"</p>
-          <p>Tisiel - "Phahaha, you freak. Get looking for loot."</p>
-          <p>Otto - "Yeah alright"</p>
+          <p>"You owe me dinner." I said after looking around the room.</p>
+          <p>".. This is NOT a sex dungeon!" Tisiel shouted back.</p>
+          <p>"I dunno, mood lighting, sexy skulls" I pointed out.</p>
+          <p>"Phahaha, you freak. Get looking for loot." She laughed and moved into the room to search though the books.</p>
+          <p>"Yeah alright" I said and went to look though the room also.</p>
 
           <p>
-            While Tisiel was looking though the books I whipped out my wand and
+            While Tisiel was looking though the books, I whipped out my wand and
             looked for magic items. Most of the objects in the room remained as
-            they where, except from the orb the only items in the room which
+            they where, 
+            
+            except from the orb the only items in the room which
             glowed where; the quill left on the table, a wizards hat screwed up
             in a corner, a pendent on top of the chess of draws and one of the
             skulls on the book shelf. I took these items and placed them on the
