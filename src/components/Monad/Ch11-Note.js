@@ -61,28 +61,25 @@ function intro(props) {
             was never there. Confused the we just look at each other.
           </p>
 
-          {/* <p>
-            Otto - "Hold up, I had to put my wand in your ring? I bet this is a
-            sex dungeon after all."
-          </p>
           <p>
-            Tisiel - "Ohh, how about a wager. If its a sex dungeon I will buy
-            you dinner. If not, you buy you dinner."
+            "So, I had to put the kings wand in your ring? I bet this is a
+            sex dungeon after all." I said as the door faded into nothing.
           </p>
-          <p>
-            Otto - "Aha you are on, now get your butt in the creepy sex
-            dungeon."
+          {/* what about the wand and the ring? */}
+          <p>"Ohh, how about a wager? If its a sex dungeon I will buy
+            you dinner. If not, you buy you dinner." She said with a crafty smile.
           </p>
-          <p>Tisiel - "Good thing no one else is around.."</p> */}
+          <p>"Aha, fine, you are on, now get your butt in the creepy sex
+            dungeon." I said laughing.
+          </p>
+          <p>"Good thing no one else is around.." She complained.</p>
 
           <p>
-            Stepping inside we found stairs leading down into darkness, lighting
-            up mana balls to float around us, we make their way down to the
-            bottom. At the bottom was a small dark room, was a desk, book
-            shelves and a chest of draws. There were lots of books, a large blue
-            orb giving off a little light and skulls. Many, many skulls. They
-            lined the book shelves with books leaning against them, they where a
-            few on the desk, the chest of draws where full of skulls.
+            Stepping inside we found stairs leading down into darkness. Lighting
+            up mana balls to float around us, we made our way down to the
+            bottom. At the bottom was a small dark room, inside was, a desk with
+            a large blue orb giving off some light, book shelves stacked with
+            old books and skulls and a chest of draws.
           </p>
 
           <div className="pop">
