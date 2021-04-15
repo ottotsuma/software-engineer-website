@@ -135,11 +135,12 @@ function intro(props) {
           <p>"IT IS NOT A SEX DUNGEON! ...." Tisiel shouted. "I am not sure what it is
             yet, but maybe next time we go out I will bring someone else." She said looking away from me.
           </p>
-          <p>"Ohhh who do you have in mind? Is it Reingard?" With that she
-            went bright red, I felt kind of awkward then, I had no idea she even
+          <p>"Ohhh, who do you have in mind? Is it Reingard?" I asked. Her
+            face went bright red, I felt kind of awkward then. I had no idea she even
             felt that way about him, or anyone. After all we had really only met
             recently.
           </p>
+          {/* Here */}
           <p>
             Tisiel - "No no no .. I mean like, he's nice but this is all besides
             the point, you are already in this deep so you are coming next time
