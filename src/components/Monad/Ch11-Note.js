@@ -113,8 +113,8 @@ function intro(props) {
           </p>
           <p>"Think you can work out what these items do?" I said looking at the small pile.</p>
           <p>"Well yeah. Given time, I am sure I can do a few of them.
-            Lets take these things out of here and back to my room we can go
-            over what we have." She said.
+          Lets take these things out of here and back to my room we can go
+          over what we have." She said.
           </p>
           <p>
             "Yeah, even though I've been joking about this place, I don't
@@ -122,23 +122,20 @@ function intro(props) {
             Tisiel's room to search though what we had found, after all this
             place was kind of creepy.
           </p>
-          <p>Otto - "Lets go over what we have, and how do we split it up?"</p>
+          {/* Break point? */}
+          <p>Sitting down in Tisiel's room on her desk chair looking at the pile of items we had placed onto her bed I said "Lets go over what we have, and how do we split it up."</p>
           <p>
-            Tisiel - "Ah, this is where I betray you, and steal all the loot for
+            "Ah, this is where I betray you, and steal all the loot for
             myself. Using the ill gotten goods I get propelled forward and
-            become a huge master of the realm"
+            become a huge master of the realm" She laughed hugging a soft toy witch while sitting on her bed.
           </p>
-          <p>
-            Otto - "What are the chances that any of this stuff is even useful
-            to you? And like you'd betray me, you'd have no one to join you in
-            your sex dungeon then."
+          <p>"Like you'd betray me, you'd have no one to join you in
+            your sex dungeon then." I joked.
           </p>
-          <p>
-            Tisiel - "IT IS NOT A SEX DUNGEON! .... I am not sure what it is
-            yet, but maybe next time we go out I will bring someone else."
+          <p>"IT IS NOT A SEX DUNGEON! ...." Tisiel shouted. "I am not sure what it is
+            yet, but maybe next time we go out I will bring someone else." She said looking away from me.
           </p>
-          <p>
-            Otto - "Ohhh who do you have in mind? Is it Reingard?" With that she
+          <p>"Ohhh who do you have in mind? Is it Reingard?" With that she
             went bright red, I felt kind of awkward then, I had no idea she even
             felt that way about him, or anyone. After all we had really only met
             recently.
