@@ -111,14 +111,13 @@ function intro(props) {
             ones she liked in a small pile on the desk we decided to go though
             what we had found.
           </p>
-          <p>Otto - "Think you can work out what these items do?"</p>
-          <p>
-            Tisiel - "Well yeah, given time I am sure I can do a few of them,
-            lets take these things out of here and back to my room we can go
-            over what we have."
+          <p>"Think you can work out what these items do?" I said looking at the small pile.</p>
+          <p>"Well yeah. Given time, I am sure I can do a few of them.
+            Lets take these things out of here and back to my room we can go
+            over what we have." She said.
           </p>
           <p>
-            Otto - "Yeah, even though I've been joking about this place, I don't
+            "Yeah, even though I've been joking about this place, I don't
             want to spend too long down here." With that we went back to
             Tisiel's room to search though what we had found, after all this
             place was kind of creepy.
