@@ -13,7 +13,6 @@ function intro(props) {
             arrive. Tisiel soon arrived looking like she had stayed up all night
             again. The dark circles under her eyes had dark circles under them.
           </p>
-
           <p>"So you made a big break though?" I asked as you approached.</p>
           <p>
             "Yes, I am sure we can open this door" She replied looking
@@ -38,7 +37,6 @@ function intro(props) {
             "Alright I'll do it. These better not be wedding vows." I replied.
           </p>
           <p>"It was a joke.." She muttered.</p>
-
           <p>
             I placed the ring into the center most circle on the door. After I
             put the wand into the ring and pushed it until the wand had pieced
@@ -60,20 +58,20 @@ function intro(props) {
             Soon the door gave off a loud noise and started to disappear like it
             was never there. Confused the we just look at each other.
           </p>
-
           <p>
-            "So, I had to put the kings wand in your ring? I bet this is a
-            sex dungeon after all." I said as the door faded into nothing.
+            "So, I had to put the kings wand in your ring? I bet this is a sex
+            dungeon after all." I said as the door faded into nothing.
           </p>
           {/* what about the wand and the ring? */}
-          <p>"Ohh, how about a wager? If its a sex dungeon I will buy
-          you dinner. If not, you buy you dinner." She said with a crafty smile.
+          <p>
+            "Ohh, how about a wager? If its a sex dungeon I will buy you dinner.
+            If not, you buy you dinner." She said with a crafty smile.
           </p>
-          <p>"Aha, fine, you are on, now get your butt in the creepy sex
-          dungeon." I said laughing.
+          <p>
+            "Aha, fine, you are on, now get your butt in the creepy sex
+            dungeon." I said laughing.
           </p>
           <p>"Good thing no one else is around.." She complained.</p>
-
           <p>
             Stepping inside we found stairs leading down into darkness. Lighting
             up mana balls to float around us, we made our way down to the
@@ -81,7 +79,6 @@ function intro(props) {
             a large blue orb giving off some light, book shelves stacked with
             old books and skulls and a chest of draws.
           </p>
-
           <div className="pop">
             Room
             <img
@@ -91,27 +88,29 @@ function intro(props) {
               alt="Room"
             />
           </div>
-
           <p>"You owe me dinner." I said after looking around the room.</p>
           <p>".. This is NOT a sex dungeon!" Tisiel shouted back.</p>
           <p>"I dunno, mood lighting, sexy skulls" I pointed out.</p>
-          <p>"Phahaha, you freak. Get looking for loot." She laughed and moved into the room to search though the books.</p>
+          <p>
+            "Phahaha, you freak. Get looking for loot." She laughed and moved
+            into the room to search though the books.
+          </p>
           <p>"Yeah alright" I said and went to look though the room also.</p>
-
           <p>
             While Tisiel was looking though the books, I whipped out my wand and
             looked for magic items. Most of the objects in the room remained as
-            they where, 
-            
-            except from the orb the only items in the room which
-            glowed where; the quill left on the table, a wizards hat screwed up
-            in a corner, a pendent on top of the chess of draws and one of the
-            skulls on the book shelf. I took these items and placed them on the
-            desk together. When Tisiel had finished looking though the books and
-            taking the ones she liked in a small pile on the desk we decided to
-            go though what we had found.
+            they where. The items in the room with mana still inside started to
+            glow in my vision, apart from the glowing orb. It was already
+            glowing so maybe it was a magic item?
           </p>
-
+          <p>
+            A quill left on the table, a wizards hat screwed up in a corner, a
+            pendent on top of the chess of draws and one of the skulls on the
+            book shelf. I took these items and placed them on the desk together.
+            When Tisiel had finished looking though the books and taking the
+            ones she liked in a small pile on the desk we decided to go though
+            what we had found.
+          </p>
           <p>Otto - "Think you can work out what these items do?"</p>
           <p>
             Tisiel - "Well yeah, given time I am sure I can do a few of them,
@@ -124,7 +123,6 @@ function intro(props) {
             Tisiel's room to search though what we had found, after all this
             place was kind of creepy.
           </p>
-
           <p>Otto - "Lets go over what we have, and how do we split it up?"</p>
           <p>
             Tisiel - "Ah, this is where I betray you, and steal all the loot for
@@ -154,7 +152,6 @@ function intro(props) {
             Tisiel was a much better friend then some of the kids from the
             village.
           </p>
-
           <p>
             Tisiel - "The place looked like a study, private place to work, but
             why? I am sure I will get to the bottom of though though my studies.
@@ -163,7 +160,6 @@ function intro(props) {
             are not rich enough to buy treasures that match us we are young
             enough to pick skills going forward which match what we have."
           </p>
-
           <p>
             Otto - "I am sure you will find out what was going on down there and
             drag me back in soon, honestly if you really wanted the items I
@@ -176,13 +172,11 @@ function intro(props) {
             well what I know then we take turns taking one each? That way if
             there is an item you can use you will pick it first."
           </p>
-
           <p>
             Otto - "Mmm that's more then fair, honestly the exams coming up and
             team matches, I am sure I will need someone to watch my back."
           </p>
           <p>Tisiel - "I would not count on me in a fight." She giggled.</p>
-
           <p>
             Tisiel - "Starting with the wand and ring that opened the door. I am
             unsure what else they can do but they seem to be symbols of the
@@ -297,21 +291,17 @@ function intro(props) {
             history of these two mages from the main library, I think you might
             find them more useful then me reflecting on whats happened."
           </p>
-
           <p>
             Tisiel - "On whats happened?" Looking at the titles and quickly
             skimming the contents of the book. "You know, you might be right,
             this looks exactly like the kind of inspiration I need for myself,
             mind if I copy this?"
           </p>
-
           <p>
             Otto - "Go ahead, but don't summon skeletons and leave them in my
             room."
           </p>
-
           <p>Tisiel - "Ah that was my whole plan!"</p>
-
           {/* <!-- 
 Pendent - (blue) Pendent of Medium. Magic +25 mag, -5 str. - O
 Skull - (blue) Skull of victim. Control undead +2 - T
