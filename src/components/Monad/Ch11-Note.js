@@ -111,44 +111,57 @@ function intro(props) {
             ones she liked in a small pile on the desk we decided to go though
             what we had found.
           </p>
-          <p>"Think you can work out what these items do?" I said looking at the small pile.</p>
-          <p>"Well yeah. Given time, I am sure I can do a few of them.
-          Lets take these things out of here and back to my room we can go
-          over what we have." She said.
+          <p>
+            "Think you can work out what these items do?" I said looking at the
+            small pile.
           </p>
           <p>
-            "Yeah, even though I've been joking about this place, I don't
-            want to spend too long down here." With that we went back to
-            Tisiel's room to search though what we had found, after all this
-            place was kind of creepy.
+            "Well yeah. Given time, I am sure I can do a few of them. Lets take
+            these things out of here and back to my room we can go over what we
+            have." She said.
+          </p>
+          <p>
+            "Yeah, even though I've been joking about this place, I don't want
+            to spend too long down here." With that we went back to Tisiel's
+            room to search though what we had found, after all this place was
+            kind of creepy.
           </p>
           {/* Break point? */}
-          <p>Sitting down in Tisiel's room on her desk chair looking at the pile of items we had placed onto her bed I said "Lets go over what we have, and how do we split it up."</p>
           <p>
-            "Ah, this is where I betray you, and steal all the loot for
-            myself. Using the ill gotten goods I get propelled forward and
-            become a huge master of the realm" She laughed hugging a soft toy witch while sitting on her bed.
+            Sitting down in Tisiel's room on her desk chair looking at the pile
+            of items we had placed onto her bed I said "Lets go over what we
+            have, and how do we split it up."
           </p>
-          <p>"Like you'd betray me, you'd have no one to join you in
-            your sex dungeon then." I joked.
+          <p>
+            "Ah, this is where I betray you, and steal all the loot for myself.
+            Using the ill gotten goods I get propelled forward and become a huge
+            master of the realm" She laughed hugging a soft toy witch while
+            sitting on her bed.
           </p>
-          <p>"IT IS NOT A SEX DUNGEON! ...." Tisiel shouted. "I am not sure what it is
-            yet, but maybe next time we go out I will bring someone else." She said looking away from me.
+          <p>
+            "Like you'd betray me, you'd have no one to join you in your sex
+            dungeon then." I joked.
           </p>
-          <p>"Ohhh, who do you have in mind? Is it Reingard?" I asked. Her
-            face went bright red, I felt kind of awkward then. I had no idea she even
+          <p>
+            "IT IS NOT A SEX DUNGEON! ...." Tisiel shouted. "I am not sure what
+            it is yet, but maybe next time we go out I will bring someone else."
+            She said looking away from me.
+          </p>
+          <p>
+            "Ohhh, who do you have in mind? Is it Reingard?" I asked. Her face
+            went bright red, I felt kind of awkward then. I had no idea she even
             felt that way about him, or anyone. After all we had really only met
             recently.
           </p>
-          {/* Here */}
-          <p>
-            Tisiel - "No no no .. I mean like, he's nice but this is all besides
-            the point, you are already in this deep so you are coming next time
-            even if you don't want to." She gave me an evil smile. I found the
+          <p>"No no no .. I mean like, he's nice, but this is all besides
+            the point! You are already in this deep, so you are coming next time
+            even if you don't want to." She said flustered. I found the
             whole thing kind of funny, while we had just met I had to admit
-            Tisiel was a much better friend then some of the kids from the
+            Tisiel was a much better friend then some of my friends from the
             village.
           </p>
+          {/* Here */}
+
           <p>
             Tisiel - "The place looked like a study, private place to work, but
             why? I am sure I will get to the bottom of though though my studies.
