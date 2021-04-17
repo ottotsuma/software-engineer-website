@@ -254,33 +254,26 @@ function intro(props) {
           <p>"... No one is going to talk to me if I walk around with a
             skull." I retorted.
           </p>
-          {/* here */}
-          <p>Tisiel - "Why do you care if people talk to you?"</p>
-          <p>Otto - "Do you want the skull or not?"</p>
-          <p>
-            Tisiel - "Fine, I wanted it anyway. Now the Hat increases your
-            magic. It's actually pretty good."
+          <p>"Why do you care if people talk to you?" Tisiel asked.</p>
+          <p>"Do you want the skull or not?" I replied.</p>
+          <p>"Fine, I wanted it anyway. Now the Hat increases your
+            magic. It's actually pretty good." She said.
           </p>
-          <p>Otto - "And the quill?"</p>
-          <p>Tisiel - "Come on you don't want the quill."</p>
-          <p>Otto - "Yeah, I want the hat but what does the quill do."</p>
-          <p>
-            Tisiel - "Ah, it helps your chances when etching enchantments on
-            items"
+          <p>"And the quill?" I said pointing to it.</p>
+          <p>"Come on you don't want the quill." She argued.</p>
+          <p>"Yeah, I want the hat but what does the quill do?" I asked.</p>
+          <p>"Ah, it helps your chances when etching enchantments on
+            items" She said.
           </p>
-          <p>Otto - "I get the feeling you came out of this better then me"</p>
-          <p>Tisiel - "There is still the coin and tiara."</p>
-          <p>
-            Otto - "I'll take the coin, you can sell the tiara and buy me
-            dinner, I'm sure I was right about that sex dungeon."
+          <p>"I get the feeling you came out of this better then me" I said picking up the hat.</p>
+          <p>"There is still the coin and tiara." She pointed out.</p>
+          <p>"I'll take the coin, you can sell the tiara and buy me
+            dinner, I'm sure I was right about that sex dungeon." I said reminding her of our bet.
           </p>
-          <p>
-            Tisiel - "I will stab you to death with this quill if you mention
-            that again."
+          <p>"I will stab you to death with this quill if you mention
+            that again." She said getting the tiara.
           </p>
-          <p>
-            Otto - "Hehe, fine let's go eat. I would like to know what was going
-            on down there though."
+          <p>"Hehe, fine let's go eat." I said. 
           </p>
           {/* Dinner - add transition */}
           <p>
