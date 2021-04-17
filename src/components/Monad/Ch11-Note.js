@@ -163,19 +163,14 @@ function intro(props) {
           {/* Here */}
 
           <p>
-            Tisiel - "The place looked like a study, private place to work, but
-            why? I am sure I will get to the bottom of though though my studies.
-            Anyway at this level it's less about finding specific magic
-            treasures but building myself around what we have found. While we
-            are not rich enough to buy treasures that match us we are young
-            enough to pick skills going forward which match what we have."
+            "Back to the real topic. The place looked like a study when you really think about it, but
+            why? Who would build a study at the back of the cliffside when the academy would of been there. I am sure I will get to the bottom of though though." Tisiel said looking down at the soft toy in her arms.
           </p>
-          <p>
-            Otto - "I am sure you will find out what was going on down there and
-            drag me back in soon, honestly if you really wanted the items I
-            would rather have a trust worthy partner then one or two magic items
+          <p>"I am sure you will find out. But the real topic is the magic items! Honestly if you really want any of items I would give them up to you. 
+            
+            I would rather have a trust worthy partner then one or two magic items
             I am not sure I can even use. You are right, but I can't change my
-            element so I hoping for lightning items!"
+            element so I hoping for lightning items!" Otto
           </p>
           <p>
             Tisiel - "Ohh, you trust me? That's new. I'll tell you what they do,
