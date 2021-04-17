@@ -7,7 +7,6 @@ import Secret from "./../assets/Group1.png";
 import Food from "./../assets/foodlogo.png";
 import Video from "./video";
 import styled, { keyframes } from 'styled-components'
-import Hidden from "./elements/hidden";
 import Anchor from "./elements/anchor";
 
 // Change window function
