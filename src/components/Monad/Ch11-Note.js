@@ -171,94 +171,90 @@ function intro(props) {
             "I am sure you will find out. But the REAL topic is the magic items!
             Honestly if you really want any of items I would give them up to
             you. I would rather have a trust worthy partner then one or two
-            magic items I am not sure I can even use." I said thinking I could not be sure I could even use all of these items.
+            magic items I am not sure I can even use." I said thinking I could
+            not be sure I could even use all of these items.
           </p>
           {/* Here - Does tisle give the items back later? */}
-          <p>"Ohh, you trust me? That's new! I'll tell you what each item does,
-            well what I know. Then we take turns picking one each? That way if
-            there is an item you can use you will pick it first." Tisle suggested. I guess I never did tell her I could identify some items but it is her hobby so..</p>
           <p>
-            "Mmm that's fair, honestly with the exams coming up and
-            team matches, I am sure I will need someone to watch my back." I replied.
+            "Ohh, you trust me? That's new! I'll tell you what each item does,
+            well what I know. Then we take turns picking one each? That way if
+            there is an item you can use you will pick it first." Tisle
+            suggested. I guess I never did tell her I could identify some items
+            but it is her hobby so..
+          </p>
+          <p>
+            "Mmm that's fair, honestly with the exams coming up and team
+            matches, I am sure I will need someone to watch my back." I replied.
           </p>
           <p>"I would not count on me in a fight." She giggled.</p>
           <p>
-            Tisiel - "Starting with the wand and ring that opened the door. I am
-            unsure what else they can do but they seem to be symbols of the
-            people that made the door, graveyard and lived in the ruined
-            academy. I'd like to keep studying them..."
+            She then continued pointing to the wand laying on the bed. "Starting
+            with the wand and ring that opened the door. I am unsure what else
+            they can do but they are the keys to opening the door and maybe a
+            link to the people that made the door & graveyard. I'd like to keep
+            studying them..."
           </p>
-          <p>
-            Otto - "Taking two already? It's fine, we might need them in the
+          <p>"Taking two already? It's fine, we might need them in the
             future I won't give you a hard time you can keep them without it
-            counting as one of yours."
+            counting as one of yours." I replied.
           </p>
           <p>
-            Tisiel nod's and continues - "Now the Kings crown. It's the Crown of
+            Tisiel nodded and continued "Now the Kings crown. It's the Crown of
             the Dammed. A rare piece, increases your magic and decreases your
             charisma, as well as increasing the number of undead you can
             control."
           </p>
-          <p>Otto - "Creepy."</p>
-          <p>
-            Tisiel - "Yes well, perfect for a necromancer or a mage who just
-            does not care for their appearance and others."
+          <p>"Creepy." I said.</p>
+          <p>"Yes well, perfect for a necromancer or a mage who just
+            does not care for their appearance and others." She replied.
           </p>
-          <p>Otto - "Ah, so it's perfect for you?"</p>
-          <p>
-            Tisiel - "Tsst, I actually do want it, it is interesting but I do
-            care how I look thank you very much."
+          <p>"Ah, so it's perfect for you?" I asked.</p>
+          <p>"Tsst, I actually do want it, it is interesting but I do
+            care how I look thank you very much." She retorted.
           </p>
-          <p>
-            Otto - "Mmm sorry that was too far, I think you and Reingard will
-            make a beautiful couple."
+          <p>"Mmm sorry that was too far, I think you and Reingard will
+            make a beautiful couple." I said.
           </p>
-          <p>Tisiel - "I.. What? Why do you say that!?"</p>
-          <p>
-            Otto - "Knew it. Now keep going before he gets the wrong idea about
-            why I keep coming into your room alone with you."
+          <p>"I.. What? Why do you say that!?" She demanded.</p>
+          <p>"Knew it. Now keep going before he gets the wrong idea about
+            why I keep coming into your room alone with you." I said.
           </p>
-          <p>
-            Tisiel - "Tsst, you. The kings ring, is an basic undead control ring
-            increasing your control over the undead."
+          <p>"Tsst, you. The kings ring, is an basic undead control ring
+            increasing your control over the undead." She explained.
           </p>
-          <p>Otto - "Yours."</p>
-          <p>
-            Tisiel - "Thank you. The queens tiara, it's called Queen's pawn, it
-            comes with the skill animate stone. That explains the things that
-            attacked us in the grave yard."
+          <p>"Yours." I said.</p>
+          <p>"Thank you. The queens tiara, it's called Queen's pawn, it
+            comes with the skill animate stone. That explains the thing that
+            attacked us in the grave yard." She explained.
           </p>
-          <p>Tisiel - "Her ring, it gives a little strength to the wearer."</p>
-          <p>
-            Tisiel - "Finally the princesses coin, who though more research I am
+          <p>"Her ring, it gives a little strength to the wearer." She added.</p>
+          {/* What fucking research? Nothing about the coins? */}
+          <p>"Finally the princesses coin, who though more research I am
             not sure if she was their daughter at all. I am not even sure if
             they are related and this coin is a mystery to me, can't find any
             references to coins like it, and I cannot tell what kind of magic it
             contains."
           </p>
-          <p>
-            Otto - "Hmmm kind of junky items then? The tiara sounds expensive
-            maybe it would be better to sell it?"
+          <p>"Hmmm kind of junky items then? The tiara sounds expensive
+            maybe it would be better to sell it?" I suggested.
           </p>
-          <p>
-            Tisiel - "Yeah I don't feel like you are wrong, its so niche. It's
+          <p>"Yeah I don't feel like you are wrong, its so niche. It's
             not like we have a stone mason to make use humanoid statue's. Anyway
             the stuff from the room. The pendent increase your magic much more
-            then normal items but reduces your strength it's really popular
+            then normal items but reduces your strength. It's really popular
             among mages if you take it with the queens ring there will be no
-            negative effects, can't have you been to small."
+            negative effects, can't have you becoming to small." She said.
           </p>
-          <p>
-            Otto - "Aha, I'll take them even if you are trying to get rid of
-            that ring."
+          <p>"Aha, I'll take them, even if you are trying to get rid of
+            that ring. Your strength stat is not related to your muscle mass anyway, you trickster."
           </p>
-          <p>Tisiel - "Hehe you saw though that. Next is the skull-"</p>
-          <p>Otto - "Yours."</p>
-          <p>Tisiel - "It might be amazing."</p>
-          <p>
-            Otto - "... No one is going to talk to me if I walk around with a
-            skull."
+          <p>"Hehe you saw though that. Next is the skull-" She started</p>
+          <p>"Yours." I interrupted.</p>
+          <p>"It might be amazing." She suggested.</p>
+          <p>"... No one is going to talk to me if I walk around with a
+            skull." I retorted.
           </p>
+          {/* here */}
           <p>Tisiel - "Why do you care if people talk to you?"</p>
           <p>Otto - "Do you want the skull or not?"</p>
           <p>
