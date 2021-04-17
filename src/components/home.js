@@ -20,12 +20,6 @@ function change(props) {
 function home() {
   return (
     <GlassWrapper>
-      <Hidden>
-        <Link
-          to="/Monad/1"
-          style={{ "text-decoration": "none", position: "fixed", width: "30px", height: "30px" }}
-        ></Link>
-      </Hidden>
       <Glass>
         <Profile>
           <div>
