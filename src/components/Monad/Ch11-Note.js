@@ -153,35 +153,35 @@ function intro(props) {
             felt that way about him, or anyone. After all we had really only met
             recently.
           </p>
-          <p>"No no no .. I mean like, he's nice, but this is all besides
-            the point! You are already in this deep, so you are coming next time
-            even if you don't want to." She said flustered. I found the
-            whole thing kind of funny, while we had just met I had to admit
-            Tisiel was a much better friend then some of my friends from the
-            village.
-          </p>
-          {/* Here */}
-
           <p>
-            "Back to the real topic. The place looked like a study when you really think about it, but
-            why? Who would build a study at the back of the cliffside when the academy would of been there. I am sure I will get to the bottom of though though." Tisiel said looking down at the soft toy in her arms.
-          </p>
-          <p>"I am sure you will find out. But the real topic is the magic items! Honestly if you really want any of items I would give them up to you. 
-            
-            I would rather have a trust worthy partner then one or two magic items
-            I am not sure I can even use. You are right, but I can't change my
-            element so I hoping for lightning items!" Otto
+            "No no no .. I mean like, he's nice, but this is all besides the
+            point! You are already in this deep, so you are coming next time
+            even if you don't want to." She said flustered. I found the whole
+            thing kind of funny, while we had just met I had to admit Tisiel was
+            a much better friend then some of my friends from the village.
           </p>
           <p>
-            Tisiel - "Ohh, you trust me? That's new. I'll tell you what they do,
-            well what I know then we take turns taking one each? That way if
-            there is an item you can use you will pick it first."
+            "Back to the real topic. The place looked like a study when you
+            really think about it, but why? Who would build a study at the back
+            of the cliffside when the academy would of been closer to the
+            entrance. I am sure I will get to the bottom of this though." Tisiel
+            said looking down at the soft toy in her arms.
           </p>
           <p>
-            Otto - "Mmm that's more then fair, honestly the exams coming up and
-            team matches, I am sure I will need someone to watch my back."
+            "I am sure you will find out. But the REAL topic is the magic items!
+            Honestly if you really want any of items I would give them up to
+            you. I would rather have a trust worthy partner then one or two
+            magic items I am not sure I can even use." I said thinking I could not be sure I could even use all of these items.
           </p>
-          <p>Tisiel - "I would not count on me in a fight." She giggled.</p>
+          {/* Here - Does tisle give the items back later? */}
+          <p>"Ohh, you trust me? That's new! I'll tell you what each item does,
+            well what I know. Then we take turns picking one each? That way if
+            there is an item you can use you will pick it first." Tisle suggested. I guess I never did tell her I could identify some items but it is her hobby so..</p>
+          <p>
+            "Mmm that's fair, honestly with the exams coming up and
+            team matches, I am sure I will need someone to watch my back." I replied.
+          </p>
+          <p>"I would not count on me in a fight." She giggled.</p>
           <p>
             Tisiel - "Starting with the wand and ring that opened the door. I am
             unsure what else they can do but they seem to be symbols of the
