@@ -280,22 +280,17 @@ function intro(props) {
             We both headed downstairs and into the shared space to eat dinner
             with the others.
           </p>
-          <p>
-            Otto - "Tisiel it had slipped my mind, but I took notes on the
-            history of these two mages from the main library, I think you might
-            find them more useful then me reflecting on whats happened."
+          {/* Elaborate on the meal? */}
+          <p>"Tisiel. It had slipped my mind, but Lubin mentioned two mages the Necromancer and the Deathknight in passing. I took notes on the these two from the main library, I think you might
+            find them more useful then me, since you have necromancer items now." I said to Tisiel during our dinner.
           </p>
-          <p>
-            Tisiel - "On whats happened?" Looking at the titles and quickly
-            skimming the contents of the book. "You know, you might be right,
-            this looks exactly like the kind of inspiration I need for myself,
-            mind if I copy this?"
+          {/* Tisiel day - element death */}
+          <p>"Ah thank you! I will need good road map of what spells to take. I was worried when I picked the death element. I know it is a common element but not everyone gets it." She said accepting the notes I took.
           </p>
-          <p>
-            Otto - "Go ahead, but don't summon skeletons and leave them in my
-            room."
+          <p>"Go ahead, but don't summon skeletons and leave them in my
+            room." I joked.
           </p>
-          <p>Tisiel - "Ah that was my whole plan!"</p>
+          <p>"Ah that was my whole plan!" She giggled.</p>
           {/* <!-- 
 Pendent - (blue) Pendent of Medium. Magic +25 mag, -5 str. - O
 Skull - (blue) Skull of victim. Control undead +2 - T
