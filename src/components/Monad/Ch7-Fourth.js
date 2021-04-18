@@ -218,8 +218,8 @@ function intro(props) {
           <p>"What's your element? I never asked."</p>
 
           <p>
-            "Death." She giggled, "Don't worry I cannot cause death with it, it
-            is more like I manipulate the energy of the dead. Think zombies and
+            "Death." She giggled, "Don't worry, it is a common element. You cannot cause death with it, it
+            is more like manipulating the energy of the dead. Think zombies and
             skeletons."
           </p>
 
