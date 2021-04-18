@@ -15,11 +15,6 @@ function change(props) {
   win.focus();
 }
 
-function InternalChange(props) {
-  const location = window.location.href + props
-  window.open(location)
-}
-
 // Main function
 function home() {
   return (
@@ -36,32 +31,32 @@ function home() {
             <h4>ダラー・ショーン</h4>
           </div>
           <List>
-            <Linkey onClick={() => change('https://github.com/ottotsuma')}>
+            <Linkey>
               <LinkImage
                 src="https://image.flaticon.com/icons/png/512/25/25231.png"
                 alt=" "
               />
-              <LinkP>
+              <a href="https://github.com/ottotsuma" target="_blank">
                 GitHub
-              </LinkP>
+              </a>
             </Linkey>
-            <Linkey onClick={() => InternalChange('projects')}>
+            <Linkey>
               <LinkImage
                 src="https://www.pngfind.com/pngs/m/594-5947621_computer-icons-project-project-plan-black-text-project.png"
                 alt=" "
               />
-              <LinkP>Projects</LinkP>
+              <Link to="/projects">Projects</Link>
             </Linkey>
-            <Linkey onClick={() => InternalChange('timeline')}>
+            <Linkey>
               <LinkImage
                 src="https://www.pinclipart.com/picdir/middle/75-750874_work-experience-svg-png-icon-free-download-356662.png"
                 alt=" "
               />
-              <LinkP>Experience</LinkP>
+              <Link to="/timeline">Experience</Link>
             </Linkey>
-            <Linkey onClick={() => InternalChange('tech')}>
+            <Linkey>
               <LinkImage src={Cog} alt=" " />
-              <LinkP>Technical Skills</LinkP>
+              <Link to="/tech">Technical Skills</Link>
             </Linkey>
           </List>
           <Anchor>
@@ -117,26 +112,6 @@ function home() {
   );
 }
 
-const LinkP = styled.p`
-`;
-
-const Linkey = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  align-items: center;
-  width: 100%;
-  border-radius: 3px;
-  padding: 3px;
-  cursor: pointer;
-  &:hover {
-    background-color: lightgrey;
-  }
-  &:hover ${LinkP} {
-    color: white;
-  }
-`;
-
 const breatheAnimation = keyframes`
  0% { height: 100px; width: 100px; }
  30% { height: 400px; width: 400px; opacity: 1 }
@@ -178,6 +153,13 @@ const Box = styled.div`
   &:active {
     box-shadow: 3px 1px 1px rgb(58, 58, 58, 0.1);
   }
+`;
+
+const Linkey = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  width: 100%;
 `;
 
 const List = styled.div`
