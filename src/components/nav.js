@@ -17,7 +17,7 @@ function Nav() {
         <Link className="Nav-Link" to="/tech">Technical Skills</Link>
         <a className="Nav-Link" href = 'https://github.com/ottotsuma' target = "_blank">GitHub</a>
         <Link className="Nav-Link" to="/Blackjack">Blackjack</Link>
-      <Link className="Nav-Link" to="/Monad/1">Monad</Link>
+      <Link className="Home-Button" to="/Monad/1">Monad</Link>
     </NavigationBar>
   );
 }

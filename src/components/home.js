@@ -15,6 +15,11 @@ function change(props) {
   win.focus();
 }
 
+function InternalChange(props) {
+  const location = window.location.href + props
+  window.open(location)
+}
+
 // Main function
 function home() {
   return (
@@ -40,23 +45,23 @@ function home() {
                 GitHub
               </LinkP>
             </Linkey>
-            <Linkey>
+            <Linkey onClick={() => InternalChange('projects')}>
               <LinkImage
                 src="https://www.pngfind.com/pngs/m/594-5947621_computer-icons-project-project-plan-black-text-project.png"
                 alt=" "
               />
-              <Link to="/projects">Projects</Link>
+              <LinkP>Projects</LinkP>
             </Linkey>
-            <Linkey>
+            <Linkey onClick={() => InternalChange('timeline')}>
               <LinkImage
                 src="https://www.pinclipart.com/picdir/middle/75-750874_work-experience-svg-png-icon-free-download-356662.png"
                 alt=" "
               />
-              <Link to="/timeline">Experience</Link>
+              <LinkP>Experience</LinkP>
             </Linkey>
-            <Linkey>
+            <Linkey onClick={() => InternalChange('tech')}>
               <LinkImage src={Cog} alt=" " />
-              <Link to="/tech">Technical Skills</Link>
+              <LinkP>Technical Skills</LinkP>
             </Linkey>
           </List>
           <Anchor>
