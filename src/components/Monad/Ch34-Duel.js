@@ -5,8 +5,18 @@ function intro(props) {
       <div className="Frame">
         <div className="Content">
           <h3>Duel</h3>
-          <p>Linhart wore a bright red robe with white trim. Second years wore robes that represent their element. Third years got a white trim, to indicate they had chosen a path of continued learning at the academy. Once one became a professor at the academy they would receive a fully white robe.</p>
-          <p>I did not need to look up what Linhart's bright red robe represented, as the trim on my robe was the same color. We were both fire mages.</p>
+          <p>
+            Linhart wore a bright red robe with white trim. Second years wore
+            robes that represent their element. Third years got a white trim, to
+            indicate they had chosen a path of continued learning at the
+            academy. Once one became a professor at the academy they would
+            receive a fully white robe.
+          </p>
+          <p>
+            I did not need to look up what Linhart's bright red robe
+            represented, as the trim on my robe was the same color. We were both
+            fire mages.
+          </p>
           <p></p>
         </div>
       </div>
@@ -91,7 +101,10 @@ function placeholder() {
         Josh responded with a nod. "Yeah, I will remember when we land. I
         promise." He smiled and patted me on the back again.
       </p>
-      <p>That did not help. I put my face back over the railing to face the sea again. </p>
+      <p>
+        That did not help. I put my face back over the railing to face the sea
+        again.{" "}
+      </p>
     </div>
   );
 }
