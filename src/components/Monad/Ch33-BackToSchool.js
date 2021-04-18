@@ -551,7 +551,7 @@ function intro(props) {
           </p>
           <p>
             "Kaja you're up. Third year boy named Linhart, will be your
-            opponent." He gave me an I am sorry look but it was luck of the
+            opponent." He gave me an, 'I am sorry' look but it was luck of the
             draw. I gripped my wand tightly, hey if I win or lose it is just for
             the practice. But I want to win.
           </p>

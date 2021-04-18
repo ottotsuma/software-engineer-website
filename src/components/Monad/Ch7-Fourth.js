@@ -115,9 +115,9 @@ function intro(props) {
             many colours. These are the primary colours for lightning and are in
             order of raw power not usefulness or efficiency, as you might of
             noticed some of your lightning gives a higher damage output then
-            others with even the same colour or maybe a lower mana cost. The
+            others with even the same color or maybe a lower mana cost. The
             primary colours are the lightning we know of with only one type of
-            element of mana inside. As for the colour purple is the closest
+            element of mana inside. As for the color purple is the closest
             known to heavenly lightning that human can use, white is heavenly
             lightning but no human has ever been recorded using it we only know
             if it by observing the natural world. Lastly for those who asked
