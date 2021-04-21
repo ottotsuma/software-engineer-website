@@ -1,5 +1,7 @@
 import React from "react";
 import anty from "./../../assets/anty.jpg";
+import Title, {Shine} from './../elements/title'
+
 function intro(props) {
   return (
     <div className="Monad" id="3">
@@ -134,7 +136,7 @@ function intro(props) {
             do. Inspect.
           </p>
           <p>
-            *Ping* [Spear - Wooden shaft and metal head. +1 physical damage.] As
+            <Shine>*Ping*</Shine> [Spear - Wooden shaft and metal head. +1 physical damage.] As
             I thought, it was a junk item. I could spend awhile inspecting the
             spears seeing if one with a good stat or basic tier had slipped
             though as they tend to do.

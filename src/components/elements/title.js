@@ -4,7 +4,7 @@ import styled from 'styled-components';
 function title(props) {
     return (
         <Main>
-            <Shine>*Ping*</Shine>
+            <Shine>*Ping*</Shine>{' '}
              New Title: {props.name} : {props.effect}
         </Main>
     )
@@ -12,9 +12,9 @@ function title(props) {
 
 export default title
 
-const Shine = styled.div`
+export const Shine = styled.div`
     animation: color-change 1s infinite;
-  
+    display: contents;
     @keyframes color-change {
         0% { color: red; }
         50% { color: blue; }
@@ -23,5 +23,5 @@ const Shine = styled.div`
 `;
 
 const Main = styled.div`
-
+color: orange;
 `;

@@ -1,5 +1,6 @@
 import React from "react";
 import Stats from "./../elements/stats";
+import Title, {Shine} from './../elements/title'
 
 function intro(props) {
   return (
@@ -295,7 +296,7 @@ function intro(props) {
             While I stood there in my frustration I failed the notice the crow
             turn towards me and attempt a dive bomb into me. Flying downwards at
             great speed with its beak ready to pierce me. I jumped out the way
-            at the last moment, *ping*, exp + 1. The crow had died mid flight
+            at the last moment, <Shine>*Ping*</Shine>, exp + 1. The crow had died mid flight
             and then crashed into the ground. At least it's body will help the
             seeds grow.
           </p>
