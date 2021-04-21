@@ -12,12 +12,13 @@ function Nav() {
     <NavigationBar>
         <Link className="Nav-Link" to="/">Home</Link>
         <Link className="Home-Button" to="/">Home</Link>
-        <Link className="Nav-Link" to="/projects">Projects</Link>
-        <Link className="Nav-Link" to="/timeline">Experience</Link>
-        <Link className="Nav-Link" to="/tech">Technical Skills</Link>
+        {/* <Link className="Nav-Link" to="/projects">Projects</Link> */}
+        {/* <Link className="Nav-Link" to="/timeline">Experience</Link> */}
+        {/* <Link className="Nav-Link" to="/tech">Technical Skills</Link> */}
         <a className="Nav-Link" href = 'https://github.com/ottotsuma' target = "_blank">GitHub</a>
-        <Link className="Nav-Link" to="/Blackjack">Blackjack</Link>
+        {/* <Link className="Nav-Link" to="/Blackjack">Blackjack</Link> */}
       <Link className="Home-Button" to="/Monad/1">Monad</Link>
+      <Link className="Nav-Link" to="/Monad/1">Monad</Link>
     </NavigationBar>
   );
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import Item from './../elements/item'
 function intro(props) {
   return (
     <div className="Monad" id="3">
@@ -18,6 +19,7 @@ function intro(props) {
             fire mages.
           </p>
           <p></p>
+          <Item />
         </div>
       </div>
     </div>
