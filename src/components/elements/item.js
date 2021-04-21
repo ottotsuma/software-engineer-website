@@ -15,6 +15,7 @@ function item(props) {
     if(props.stats) {
         const keys = Object.keys(props.stats);
         for (let index = 0; index < keys.length; index++) {
+            // make these into styled items with props => props.color so you can change the color of the stats!
           const element = <div style={{marginRight: "5px"}}>{keys[index] + ": "}</div> 
           const element2 = <div>{props.stats[keys[index]]}</div>;
           array.push(
