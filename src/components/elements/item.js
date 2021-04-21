@@ -130,6 +130,7 @@ const Span = styled.span`
   z-index: 2;
   margin-left: 50%;
   white-space: nowrap;
+  top: 0;
 `;
 
 const Card = styled.div`

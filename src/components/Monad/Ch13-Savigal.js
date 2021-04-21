@@ -1,4 +1,5 @@
 import React from "react";
+import Item from "./../elements/item";
 
 function intro(props) {
   return (
@@ -410,10 +411,15 @@ function intro(props) {
             Soon after I headed back to the academy, it was nice to see they
             where doing well but I really had to get to sleep in my own bed.
           </p>
-
-          <li>
-            Gained:<font color="darkgrey"> Unknown mask.</font> ???.
-          </li>
+          <p>Gained:</p>
+          <Item
+            stats={{
+              "???": " ",
+            }}
+            name={"Unknown mask."}
+            rating={"junk"}
+            effect={'???'}
+          />
           {/* <!-- Give bones, coins and weird wand to bone woman --> */}
           <p>
             Almost as if she had been waiting for me Tisiel opened the door to
@@ -522,11 +528,11 @@ function intro(props) {
             it's been a long night." I left them to their studies? It matters
             not what they are doing and headed to my room.
           </p>
-
-          <li>
-            Gained:<font color="darkgrey"> Bouncy Boots.</font> Absorbs a small
-            amount of energy when struck and releases it to help you bounce! .
-          </li>
+          <Item
+            name={"Bouncy Boots."}
+            rating={"junk"}
+            effect={'Stores energy to help you bounce!'}
+          />
 
           {/* <!-- Get invited to dinner --> */}
           <p>
