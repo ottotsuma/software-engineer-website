@@ -1,5 +1,6 @@
 import React from "react";
 import Item from './../elements/item'
+import Monster from './../../assets/monster.jpg'
 function intro(props) {
   return (
     <div className="Monad" id="3">
@@ -30,6 +31,8 @@ function intro(props) {
               charisma: 2,
             }} 
             name={'Duck'}
+            effect=''
+            src={Monster}
             />
         </div>
       </div>
