@@ -1,15 +1,15 @@
 import React from 'react'
 import styled from 'styled-components';
 
-// src: for image
-// height: 
-// width:
-// stats object {key:value}
-// name
-// effect
+// src: for image || question mark
+// height: || 300px
+// width: || 300px
+// stats object {key:value} || No stats to show.
+// name || No Name!
+// effect || No Special Effect!
 
 const prop = {
-    src: 'https://thechive.com/wp-content/uploads/2019/12/person-hilariously-photoshops-animals-onto-random-things-xx-photos-25.jpg?attachment_cache_bust=3136487&quality=85&strip=info&w=400',
+    src: 'http://assets.stickpng.com/thumbs/5a461418d099a2ad03f9c999.png',
 }
 
 function item(props) {
