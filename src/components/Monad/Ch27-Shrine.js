@@ -1,4 +1,7 @@
 import React from "react";
+import Item from "./../elements/item";
+import Title from './../elements/title'
+
 function intro(props) {
   return (
     <div className="Monad" id="3">
@@ -275,31 +278,33 @@ Deer are considered messengers to the gods in Shinto, especially Kasuga Shrine i
             the description name would be blue.
           </p>
 
-          <li>
-            <li className="Normal"> Ceremonial White Stag Mask:</li> Small magic
-            increase.
-          </li>
-
+          <Item
+            stats={{
+              "Small magic increase" : "+?"
+            }}
+            name={"Ceremonial White Stag Mask"}
+            rating={"normal"}
+          />
           <p>
             When I scanned my mask what I saw was surprising, it must have
             something to do with the new class I acquired because the mask was
             not even close to the expected.
           </p>
+          <Item
+            stats={{
+              "Magic" : "+1",
+              "Disease resistance": "+20%",
+              "Mana regeneration":"+10%"
+            }}
+            name={"Heavenly White Stag Mask"}
+            rating={"unique"}
+            long={'Blessing of 建御雷 [Takemikazuchi]: Resist lightning +10%, Lightning cost - 10%, Lightning power +10%. (The growth depends on the how linked you are to [Takemikazuchi].)'}
+          />
+{/* 
 
-          <li>
-            <li className="Unique"> Heavenly White Stag Mask:</li> Magic: +1,
-            Disease resistance + 20%, Mana regeneration + 10%, blessing of
-            建御雷 [Takemikazuchi].
-          </li>
-
-          <p>
-            Blessing of [Takemikazuchi]: Resist lightning +10%, Lightning cost -
-            10%, Lightning power +10%. (The growth depends on the how linked you
-            are to [Takemikazuchi].)
-          </p>
           {/*  建御雷 [Takemikazuchi] - Thunder and swords  - https://en.wikipedia.org/wiki/Kasuga-taisha (Ride a white deer)*/}
           {/* Raijin (雷神, lit. "Thunder God") */}
-          <p>*Ping* New Title: Found Unique Item - Mask +1 Strength.</p>
+          <Title name={'Found Unique Item'} effect={'+1 Strength.'} />
           <p>"You said there were two types of masks?"</p>
 
           <p>

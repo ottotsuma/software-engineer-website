@@ -59,11 +59,12 @@ function item(props) {
         console.log('no image')
         return (
             <Main>
-                <CardNoImage>
+                <CardNoImage bottom={props.effect ? '10px':'0px'}>
                     <TitleItem color={colors[props.rating]}>{props.name || 'No Name!'}</TitleItem>
                     <Span>{array}</Span>
-                    <Name>{props.effect || 'No Special Effect!'}</Name>
+                    {props.effect ? <Name>{props.effect || 'No Special Effect!'}</Name> : <div></div>}
                 </CardNoImage>
+                {props.long ? <div>{props.long}</div> : <div></div>}
             </Main>
         ) 
     } else {
@@ -95,6 +96,9 @@ const TitleItem = styled.p`
 
 
 const Main = styled.div`
+display: flex;
+    flex-direction: column;
+    align-items: center;
 `;
 
 const SingleStat = styled.li`
@@ -156,7 +160,7 @@ position:relative; /* important */
   width: 300px;
   height: 50px;
   border-radius: 3px;
-  margin-bottom: 10px;
+  margin-bottom: ${props => props.bottom || "10px"};
   &:hover ${Span} {
     visibility: visible;
   }

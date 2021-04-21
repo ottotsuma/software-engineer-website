@@ -1,7 +1,7 @@
 import React from "react";
 import Equipment from "./../elements/equipment";
 import Stats from "./../elements/stats";
-
+import Item from "./../elements/item";
 
 function intro(props) {
   return (
@@ -328,7 +328,8 @@ Noticed by a God - get the notice of a God, (varies) */}
               },
               Feet: {
                 name: "Bouncy Boots",
-                effect: "Absorbs a small amount of energy when struck and releases it to help you bounce!",
+                effect:
+                  "Absorbs a small amount of energy when struck and releases it to help you bounce!",
                 rating: "junk",
               },
               Acc1: {
@@ -409,11 +410,15 @@ Noticed by a God - get the notice of a God, (varies) */}
             weapon I exchanged for something important I had. I just could not
             resist it matches my element so well. Take a look."
           </p>
-
-          <li>
-            Primary:<font color="blue">Kusari-fundo (half)</font> +3 Dexterity,
-            can be extended or move with mana.
-          </li>
+          {/* Here */}
+          <Item
+            stats={{
+              Dexterity: "+3",
+            }}
+            name={"Kusari-fundo (half)"}
+            rating={"normal"}
+            effect={"Can be extended with mana."}
+          />
 
           <p>
             Otto - "How the hell do you plan to use this thing while holding a

@@ -418,7 +418,6 @@ function intro(props) {
             }}
             name={"Unknown mask."}
             rating={"junk"}
-            effect={'???'}
           />
           {/* <!-- Give bones, coins and weird wand to bone woman --> */}
           <p>
