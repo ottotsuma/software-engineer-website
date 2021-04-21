@@ -59,11 +59,11 @@ function item(props) {
         console.log('no image')
         return (
             <Main>
-                <Card height={'50px'} width={props.width}>
-                    {props.rating ? <TitleItem color={colors[props.rating]}>{props.name || 'No Name!'}</TitleItem> : <Title color={colors[props.rating]}>{props.name || 'No Name!'}</Title>}
+                <CardNoImage>
+                    <TitleItem color={colors[props.rating]}>{props.name || 'No Name!'}</TitleItem>
                     <Span>{array}</Span>
                     <Name>{props.effect || 'No Special Effect!'}</Name>
-                </Card>
+                </CardNoImage>
             </Main>
         ) 
     } else {
@@ -90,7 +90,6 @@ const TitleItem = styled.p`
   display: flex;
   justify-content: center;
     color: ${props => props.color || 'white'}
-
 `;
 
 
@@ -141,6 +140,20 @@ position:relative; /* important */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
+  border-radius: 3px;
+  margin-bottom: 10px;
+  &:hover ${Span} {
+    visibility: visible;
+  }
+  &:hover ${Name} {
+    max-height:50%; /* important */
+  }
+`;
+
+const CardNoImage = styled.div`
+position:relative; /* important */
+  width: 300px;
+  height: 50px;
   border-radius: 3px;
   margin-bottom: 10px;
   &:hover ${Span} {
