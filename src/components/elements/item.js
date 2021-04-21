@@ -5,6 +5,7 @@ import styled from 'styled-components';
 // height: 
 // width:
 // stats object {key:value}
+// name
 
 const prop = {
     src: 'https://thechive.com/wp-content/uploads/2019/12/person-hilariously-photoshops-animals-onto-random-things-xx-photos-25.jpg?attachment_cache_bust=3136487&quality=85&strip=info&w=400',
@@ -35,7 +36,7 @@ function item(props) {
     return (
         <Main height={props.height} width={props.width} src={props.src}>
             <Span>{array}</Span>
-            <Name>2</Name>
+            <Name>{props.name || 'No Name!'}</Name>
         </Main>
     )
 }

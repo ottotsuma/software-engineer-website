@@ -20,8 +20,6 @@ function intro(props) {
           </p>
           <p></p>
           <Item stats={{
-              name: "Wandy",
-              type: "Wand",
               vitality: 0,
               strength: 0,
               endurance: 0,
@@ -30,7 +28,9 @@ function intro(props) {
               dexterity: 0,
               sense: 1,
               charisma: 2,
-            }} />
+            }} 
+            name={'Duck'}
+            />
         </div>
       </div>
     </div>
