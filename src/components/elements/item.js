@@ -8,6 +8,21 @@ import styled from 'styled-components';
 // name || No Name!
 // effect || No Special Effect!
 
+function perc2color(perc) {
+    if (perc > 100) return "rgb(36, 255, 0)"
+    var r, g, b = 0;
+    if (perc < 50) {
+      r = 255;
+      g = Math.round(5.1 * perc);
+    }
+    else {
+      g = 255;
+      r = Math.round(510 - 5.10 * perc);
+    }
+    var h = r * 0x10000 + g * 0x100 + b * 0x1;
+    return '#' + ('000000' + h.toString(16)).slice(-6);
+  }
+
 const prop = {
     src: 'http://assets.stickpng.com/thumbs/5a461418d099a2ad03f9c999.png',
 }
@@ -19,7 +34,7 @@ function item(props) {
         for (let index = 0; index < keys.length; index++) {
             // make these into styled items with props => props.color so you can change the color of the stats!
             const element = <div style={{ marginRight: "5px" }}>{keys[index] + ": "}</div>
-            const element2 = <div>{props.stats[keys[index]]}</div>;
+            const element2 = <div style={{color: perc2color(props.stats[keys[index]]*10)}}>{props.stats[keys[index]]}</div>;
             array.push(
                 <SingleStat key={index + "stat"}>
                     {element} {element2}
