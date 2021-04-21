@@ -1,4 +1,6 @@
 import React from "react";
+import Item from './../elements/item'
+
 // Dead girl, corps fish 
 function intro(props) {
   return (
@@ -61,24 +63,17 @@ function intro(props) {
             glass cases. Each wand had a card next to it with its description
             and price.
           </p>
+          
 
-          <div id="CardContainer">
-            <div id="CardInner">
-              <div className="card">
-                <img
-                  className="cardImage"
-                  src="https://ottotsuma.github.io/images/wand1.png"
-                  alt="human"
-                />
-                <div className="CardContent">
-                  <h4 id="Normal">Soul bound wand</h4>
-                  <p>
-                    Skill: Third Eye. Control minion +1. Sense + 1 ¤3,200,000
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <Item stats={{
+              Skill: "Third Eye",
+              "Control minion": 1,
+              sense: 1,
+            }} 
+            name={'Soul bound wand'}
+            effect='¤3,200,000'
+            src={'https://ottotsuma.github.io/images/wand1.png'}
+            />
 
           {/* <!-- Currency 
 ₳ ฿ ￠ ₡ ¢ ₢ ₵ ₫ € ￡ £ ₤ ₣ ƒ ₲ ₭ ₥ ₦ ₱ ＄ $ ₮ ₩ ￦ ¥ ￥ ₴ ¤ ₰ ៛ ₪ ₯ ₠ ₧ ₨ ௹ ﷼ ㍐ ৲ ৳ ₹

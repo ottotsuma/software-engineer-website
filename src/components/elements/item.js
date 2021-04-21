@@ -23,10 +23,6 @@ function perc2color(perc) {
     return '#' + ('000000' + h.toString(16)).slice(-6);
   }
 
-const prop = {
-    src: 'http://assets.stickpng.com/thumbs/5a461418d099a2ad03f9c999.png',
-}
-
 function item(props) {
     const array = [];
     if (props.stats) {
@@ -108,7 +104,7 @@ const Card = styled.div`
 position:relative; /* important */
   width: ${props => props.width || '300px'};
   height: ${props => props.height || '300px'};
-  background-image: url(${props => props.src || prop.src});
+  background-image: url(${props => props.src || 'http://assets.stickpng.com/thumbs/5a461418d099a2ad03f9c999.png'});
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
