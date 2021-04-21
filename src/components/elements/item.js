@@ -84,6 +84,7 @@ const Name = styled.div`
   max-height:0; /* important */
   overflow:hidden; /* important */
   transition:max-height 300ms ease-in; /* important */
+  font-weight: bold
 `;
 
 const Span = styled.span`
