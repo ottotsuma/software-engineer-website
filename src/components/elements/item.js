@@ -8,20 +8,31 @@ import styled from 'styled-components';
 // name || No Name!
 // effect || No Special Effect!
 
+const colors = {
+    junk: "rgb(109, 109, 109)",
+    normal: "blue",
+    rare: "green",
+    epic: "red",
+    legendary: "orange",
+    unique: "purple",
+    growth: "#e2abac",
+    quest: "gold",
+};
+
 function perc2color(perc) {
     if (perc > 100) return "rgb(36, 255, 0)"
     var r, g, b = 0;
     if (perc < 50) {
-      r = 255;
-      g = Math.round(5.1 * perc);
+        r = 255;
+        g = Math.round(5.1 * perc);
     }
     else {
-      g = 255;
-      r = Math.round(510 - 5.10 * perc);
+        g = 255;
+        r = Math.round(510 - 5.10 * perc);
     }
     var h = r * 0x10000 + g * 0x100 + b * 0x1;
     return '#' + ('000000' + h.toString(16)).slice(-6);
-  }
+}
 
 function item(props) {
     const array = [];
@@ -30,7 +41,7 @@ function item(props) {
         for (let index = 0; index < keys.length; index++) {
             // make these into styled items with props => props.color so you can change the color of the stats!
             const element = <div style={{ marginRight: "5px" }}>{keys[index] + ": "}</div>
-            const element2 = <div style={{color: perc2color(props.stats[keys[index]]*10)}}>{props.stats[keys[index]]}</div>;
+            const element2 = <div style={{ color: perc2color(props.stats[keys[index]] * 10) }}>{props.stats[keys[index]]}</div>;
             array.push(
                 <SingleStat key={index + "stat"}>
                     {element} {element2}
@@ -44,16 +55,28 @@ function item(props) {
             </SingleStat>
         )
     }
-
-    return (
-        <Main>
-            <Title>{props.name || 'No Name!'}</Title>
-            <Card height={props.height} width={props.width} src={props.src}>
-                <Span>{array}</Span>
-                <Name>{props.effect || 'No Special Effect!'}</Name>
-            </Card>
-        </Main>
-    )
+    if(!props.src) {
+        console.log('no image')
+        return (
+            <Main>
+                <Card height={'50px'} width={props.width}>
+                    {props.rating ? <TitleItem color={colors[props.rating]}>{props.name || 'No Name!'}</TitleItem> : <Title color={colors[props.rating]}>{props.name || 'No Name!'}</Title>}
+                    <Span>{array}</Span>
+                    <Name>{props.effect || 'No Special Effect!'}</Name>
+                </Card>
+            </Main>
+        ) 
+    } else {
+        return (
+            <Main>
+                <Card height={props.height} width={props.width} src={props.src}>
+                    {props.rating ? <TitleItem color={colors[props.rating]}>{props.name || 'No Name!'}</TitleItem> : <Title color={colors[props.rating]}>{props.name || 'No Name!'}</Title>}
+                    <Span>{array}</Span>
+                    <Name>{props.effect || 'No Special Effect!'}</Name>
+                </Card>
+            </Main>
+        )
+    }
 }
 
 export default item
@@ -62,6 +85,15 @@ const Title = styled.h1`
   display: flex;
   justify-content: center;
 `;
+
+const TitleItem = styled.p`
+  display: flex;
+  justify-content: center;
+    color: ${props => props.color || 'white'}
+
+`;
+
+
 
 const Main = styled.div`
 `;

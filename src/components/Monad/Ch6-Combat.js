@@ -1,6 +1,7 @@
 import React from "react";
 import Spells from "./../elements/spells";
 import Stats from "./../elements/stats";
+import Item from './../elements/item'
 
 function intro(props) {
   return (
@@ -17,6 +18,14 @@ function intro(props) {
             provided to you, and the uniform you are wearing now. You may not
             enchant or enhance any of the equipment." Lubin announced.
           </p>
+          <Item stats={{
+              Magic: 1,
+              Health: "+10",
+            }} 
+            name={'Academy Robe (black).'}
+            rating={'junk'}
+            effect=''
+            />
           <p>
             <li className="Item">
               Body:<li className="Junk"> Academy Robe (black).</li> Magic: +1,
