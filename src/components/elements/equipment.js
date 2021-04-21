@@ -10,7 +10,6 @@ const colors = {
   unique: "purple",
   growth: "#e2abac",
   quest: "gold",
-  
 };
 
 // the effects are based on stats not level so it would be something maybe combined into stats?

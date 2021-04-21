@@ -4,21 +4,51 @@ import styled from 'styled-components';
 // src: for image
 // height: 
 // width:
+// stats object {key:value}
 
 const prop = {
     src: 'https://thechive.com/wp-content/uploads/2019/12/person-hilariously-photoshops-animals-onto-random-things-xx-photos-25.jpg?attachment_cache_bust=3136487&quality=85&strip=info&w=400',
 }
 
 function item(props) {
+    const array = [];
+    if(props.stats) {
+        const keys = Object.keys(props.stats);
+        for (let index = 0; index < keys.length; index++) {
+          const element = <div style={{marginRight: "5px"}}>{keys[index] + ": "}</div> 
+          const element2 = <div>{props.stats[keys[index]]}</div>;
+          array.push(
+            <SingleStat key={index + "stat"}>
+              {element} {element2}
+            </SingleStat>
+          );
+        }
+    } else {
+        array.push(
+            <SingleStat key={"SingleStat"}>
+              No stats to show.
+            </SingleStat>
+        )
+    }
+
     return (
         <Main height={props.height} width={props.width} src={props.src}>
-            <Span>test</Span>
+            <Span>{array}</Span>
             <Name>2</Name>
         </Main>
     )
 }
 
 export default item
+
+const SingleStat = styled.li`
+  text-transform: capitalize;
+  border-radius: 6px;
+  padding: 1px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+`;
 
 const Name = styled.div`
   width: ${props => props.width || '300px'};
@@ -42,6 +72,7 @@ const Span = styled.span`
   position: absolute;
   z-index: 2;
   margin-left: 50%;
+  white-space: nowrap;
 `;
 
 const Main = styled.div`

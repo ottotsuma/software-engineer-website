@@ -19,7 +19,18 @@ function intro(props) {
             fire mages.
           </p>
           <p></p>
-          <Item />
+          <Item stats={{
+              name: "Wandy",
+              type: "Wand",
+              vitality: 0,
+              strength: 0,
+              endurance: 0,
+              magic: 10,
+              willpower: 1,
+              dexterity: 0,
+              sense: 1,
+              charisma: 2,
+            }} />
         </div>
       </div>
     </div>
