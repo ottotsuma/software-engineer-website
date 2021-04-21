@@ -163,7 +163,7 @@ function intro(props) {
           <p>
             "Back to the real topic. The place looked like a study when you
             really think about it, but why? Who would build a study at the back
-            of the cliffside when the academy would of been closer to the
+            of the cliff side when the academy would of been closer to the
             entrance. I am sure I will get to the bottom of this though." Tisiel
             said looking down at the soft toy in her arms.
           </p>
