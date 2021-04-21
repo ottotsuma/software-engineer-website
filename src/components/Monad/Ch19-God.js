@@ -410,7 +410,6 @@ Noticed by a God - get the notice of a God, (varies) */}
             weapon I exchanged for something important I had. I just could not
             resist it matches my element so well. Take a look."
           </p>
-          {/* Here */}
           <Item
             stats={{
               Dexterity: "+3",

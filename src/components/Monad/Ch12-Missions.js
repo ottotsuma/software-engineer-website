@@ -1,4 +1,5 @@
 import React from "react";
+import Item from './../elements/item'
 
 function intro(props) {
   return (
@@ -152,10 +153,14 @@ function intro(props) {
             get to Savigal I decided to join their group just encase the last
             wolf made a return.
           </p>
-
-          <li>
-            Hands:<font color="darkgrey">Mutt's Mitt's</font> Willpower +1.
-          </li>
+          {/* Here */}
+          <Item
+            stats={{
+              Willpower: "+1",
+            }}
+            name={"Mutt's Mitt's"}
+            rating={"junk"}
+          />
         </div>
       </div>
     </div>
