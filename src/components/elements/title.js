@@ -44,6 +44,22 @@ export const Shine = styled.div`
       }
 `;
 
+// .animated {
+// 	animation: customRainbow 4s infinite;
+// 	transition-timing-function: linear;
+// }
+
+// @keyframes customRainbow {
+//     0%   { text-shadow: 0px 0px 5px red; }
+//     14%  { text-shadow: 0px 0px 5px orange; }
+//     28%  { text-shadow: 0px 0px 5px yellow; -webkit-transform: translatey(-25px)}
+//     43%  { text-shadow: 0px 0px 5px green; }
+//     57% { text-shadow: 0px 0px 5px blue; }
+// 	71% { text-shadow: 0px 0px 5px indigo; }
+// 	85% { text-shadow: 0px 0px 5px violet; }
+// 	100% { text-shadow: 0px 0px 5px red; }
+// }
+
 const Main = styled.div`
 color: ${props => colors[props.rank]};
 `;
