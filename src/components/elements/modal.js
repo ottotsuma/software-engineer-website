@@ -16,7 +16,6 @@ function modal(props) {
         console.log('cleaning')
         ReactDOM.unmountComponentAtNode(div);
         div.parentNode.removeChild(div);
-        // $(div).remove();
         elements.forEach(element => {
             element.classList.remove('modal-blur');
         });

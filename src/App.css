@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap");
 
+.modal-blur {
+  filter: blur(4px);
+}
+
 * {
   margin: 0;
   padding: 0;
