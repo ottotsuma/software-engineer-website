@@ -2,6 +2,8 @@ import React from "react";
 import Equipment from "./../elements/equipment";
 import Stats from "./../elements/stats";
 import Item from "./../elements/item";
+import Title from "./../elements/title";
+
 
 function intro(props) {
   return (
@@ -16,7 +18,7 @@ and Xic ("Wing") and Patan ("Packstrap"),
 
 https://en.wikipedia.org/wiki/God_L*/}
           <h4>Otto</h4>
-          <p>Title acquired, Common: Religious - Pick a God to worship</p>
+          <Title rank={'normal'} name={'Religious'} effect={'Pick a God to worship'} />
           {/* 
 Religious - Pick a God to worship
 Blessed - Receive a title from a God, The god pays attention to your actions
