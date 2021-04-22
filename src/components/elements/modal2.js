@@ -19,6 +19,7 @@ function modal2(props) {
         <Wrapper>
             <Outside onClick={() => reject()}></Outside>
             <Modal className='dynamicWidth' data-width='0'>
+                <h1>Title!</h1>
                 {props.insert}
                 <Button onClick={() => reject()}>{props.cancel || 'Cancel'}</Button>
             </Modal>
@@ -63,13 +64,14 @@ z-index: 4;
 background: #161b21;
 padding: 20px;
 opacity: 1;
-max-width: 40%;
+max-width: 80%;
 max-height: 80%;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 opacity: 0;
+// overflow: auto;
 
 -webkit-transition: opacity 1s ease-in-out;
 -moz-transition: opacity 1s ease-in-out;

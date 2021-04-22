@@ -307,10 +307,13 @@ function Tech() {
 export default Tech;
 
 const App = styled.div`
-justify-content: center;
+// justify-content: center;
 align-items: center;
 display: flex;
 flex-direction: column;
+overflow: auto;
+max-height: 100%;
+max-width: 100%;
 `;
 
 const Name = styled.h4`
