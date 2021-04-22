@@ -9,6 +9,9 @@ import Video from "./video";
 import styled, { keyframes } from 'styled-components'
 import Anchor from "./elements/anchor";
 
+import Modal from './elements/modal'
+import Tech from './tech'
+
 // Change window function
 function change(props) {
   const win = window.open(props, "_blank");
@@ -20,7 +23,10 @@ function home() {
   return (
     <GlassWrapper>
       <Glass>
-        <Profile>
+        <Profile onClick={() => Modal({
+    insert: Tech(),
+    cancel: 'Close',
+})}>
           <div>
             <Video />
             <ProfileImage
