@@ -212,6 +212,13 @@ const Box = styled.div`
   &:active {
     box-shadow: 3px 1px 1px rgb(58, 58, 58, 0.1);
   }
+  &:hover {
+    background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.9)
+    );
+  }
 `;
 
 const Linkey = styled.div`

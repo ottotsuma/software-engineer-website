@@ -298,7 +298,6 @@ function TechList() {
 function Tech() {
   return (
     <App className="App">
-      <h1>Experience</h1>
       {TechList()}
     </App>
   );

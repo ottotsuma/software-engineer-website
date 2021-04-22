@@ -19,7 +19,7 @@ function modal2(props) {
         <Wrapper>
             <Outside onClick={() => reject()}></Outside>
             <Modal className='dynamicWidth' data-width='0'>
-                <h1>Title!</h1>
+                <h1>{props.title}</h1>
                 {props.insert}
                 <Button onClick={() => reject()}>{props.cancel || 'Cancel'}</Button>
             </Modal>
