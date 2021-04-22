@@ -93,8 +93,6 @@ const TitleItem = styled.p`
     color: ${props => props.color || 'white'}
 `;
 
-
-
 const Main = styled.div`
 display: flex;
     flex-direction: column;
