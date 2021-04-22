@@ -25,6 +25,9 @@ function modal2(props) {
 
 export default modal2
 
+// #0d89eb Dekki Blue
+// #638ad4 Old blue
+
 export const Wrapper = styled.div`
 position: absolute;
 top: 0%;
@@ -51,10 +54,10 @@ opacity: 0.4;
 export const Modal = styled.div`
 position: absolute;
 z-index: 4;
-background: red;
+background: #161b21;
 padding: 20px;
 opacity: 1;
-max-width: 80%;
+max-width: 40%;
 max-height: 80%;
 display: flex;
     flex-direction: column;

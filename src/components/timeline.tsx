@@ -11,6 +11,7 @@ import LaptopMacIcon from "@material-ui/icons/LaptopMac";
 import RepeatIcon from "@material-ui/icons/Book";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
+import { pink } from "@material-ui/core/colors";
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -18,6 +19,9 @@ const useStyles = makeStyles((theme) => ({
   },
   secondaryTail: {
     backgroundColor: theme.palette.secondary.main,
+  },
+  blueDot: {
+    backgroundColor: '#0d89eb',
   },
 }));
 
@@ -31,7 +35,7 @@ export default function CustomizedTimeline() {
         <TimelineItem>
           <TimelineOppositeContent></TimelineOppositeContent>
           <TimelineSeparator>
-            <TimelineDot color="primary">
+            <TimelineDot color="primary" className={classes.blueDot}>
               <RepeatIcon />
             </TimelineDot>
             <TimelineConnector />
@@ -91,7 +95,7 @@ export default function CustomizedTimeline() {
         <TimelineItem>
           <TimelineOppositeContent></TimelineOppositeContent>
           <TimelineSeparator>
-            <TimelineDot color="primary">
+            <TimelineDot color="primary" className={classes.blueDot}>
               <RepeatIcon />
             </TimelineDot>
             <TimelineConnector />
@@ -131,7 +135,7 @@ export default function CustomizedTimeline() {
         <TimelineItem>
           <TimelineOppositeContent></TimelineOppositeContent>
           <TimelineSeparator>
-            <TimelineDot color="primary">
+            <TimelineDot color="primary" className={classes.blueDot}>
               <RepeatIcon />
             </TimelineDot>
             <TimelineConnector />
@@ -208,7 +212,7 @@ export default function CustomizedTimeline() {
         </TimelineItem>
         <TimelineItem>
           <TimelineSeparator>
-            <TimelineDot color="primary">
+            <TimelineDot color="primary" className={classes.blueDot}>
               <RepeatIcon />
             </TimelineDot>
           </TimelineSeparator>

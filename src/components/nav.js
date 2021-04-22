@@ -32,6 +32,6 @@ display: flex;
 align-items: center;
 justify-content: space-evenly;
 padding: 1vh;
-background: #638ad4;
+background: #0d89eb;
 z-index: 1;
 `
