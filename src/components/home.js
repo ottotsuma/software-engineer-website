@@ -7,7 +7,6 @@ import Secret from "./../assets/Group1.png";
 import Food from "./../assets/foodlogo.png";
 import Video from "./video";
 import styled, { keyframes } from 'styled-components'
-import Anchor from "./elements/anchor";
 
 import { MenuItem } from '@material-ui/core';
 import Modal from './elements/modal'
@@ -40,16 +39,16 @@ function home() {
                 src="https://image.flaticon.com/icons/png/512/25/25231.png"
                 alt=" "
               />
-              <a href="https://github.com/ottotsuma" target="_blank">
+              <AStyled href="https://github.com/ottotsuma" target="_blank">
                 GitHub
-              </a>
+              </AStyled>
             </Linkey>
             <Linkey>
               <LinkImage
                 src="https://www.pngfind.com/pngs/m/594-5947621_computer-icons-project-project-plan-black-text-project.png"
                 alt=" "
               />
-              <Link to="/projects">Projects</Link>
+              <LinkStyled to="/projects">Projects</LinkStyled>
             </Linkey>
             <Linkey>
               <LinkImage
@@ -57,7 +56,7 @@ function home() {
                 alt=" "
               />
               {/* Fake item needs styles! Or change to be like anchor 2 */}
-              <MenuItem component={Link} to={'/timeline'}>Experience</MenuItem>
+              <LinkStyled to={'/timeline'}>Experience</LinkStyled>
             </Linkey>
             <Linkey>
               <LinkImage src={Cog} alt=" " />
@@ -123,7 +122,39 @@ function home() {
 // https://stackoverflow.com/questions/37669391/how-to-get-rid-of-underline-for-link-component-of-react-router
 const Link2 = styled.div`
 // fake link!
+color: black;
+// background: #0d89eb;
+display: flex;
+justify-content: center;
+align-items: center;
 cursor: pointer;
+&:hover {
+    background: #2CA8FF;
+}
+`;
+
+const AStyled = styled.a`
+color: black;
+// background: #0d89eb;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+&:hover {
+    background: #2CA8FF;
+}
+`;
+
+const LinkStyled = styled(Link)`
+color: black;
+// background: #0d89eb;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+&:hover {
+    background: #2CA8FF;
+}
 `;
 
 const Anchor2 = styled(Link)`
