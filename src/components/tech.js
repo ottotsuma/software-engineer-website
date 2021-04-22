@@ -297,14 +297,21 @@ function TechList() {
 
 function Tech() {
   return (
-    <div className="App">
+    <App className="App">
       <h1>Experience</h1>
       {TechList()}
-    </div>
+    </App>
   );
 }
 
 export default Tech;
+
+const App = styled.div`
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+`;
 
 const Name = styled.h4`
   color: black;
