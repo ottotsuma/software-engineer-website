@@ -8,4 +8,8 @@ export default styled.div`
   align-items: center;
   width: 53%;
   height: 10%;
+  cursor: pointer;
+  &:hover {
+      background: #2CA8FF;
+  }
 `;

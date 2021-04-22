@@ -16,9 +16,8 @@ function modal2(props) {
             <Outside onClick={() => reject()}></Outside>
             <Modal>
                 {props.insert}
-                <button onClick={() => reject()}>{props.cancel || 'Cancel'}</button>
+                <Button onClick={() => reject()}>{props.cancel || 'Cancel'}</Button>
             </Modal>
-
         </Wrapper>
     )
 }
@@ -27,6 +26,20 @@ export default modal2
 
 // #0d89eb Dekki Blue
 // #638ad4 Old blue
+
+const Button = styled.div`
+  color: white;
+  background: #0d89eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 50px;
+  margin: 10px;
+  cursor: pointer;
+  &:hover {
+      background: #2CA8FF;
+  }
+`;
 
 export const Wrapper = styled.div`
 position: absolute;

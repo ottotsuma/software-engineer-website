@@ -9,6 +9,7 @@ import Video from "./video";
 import styled, { keyframes } from 'styled-components'
 import Anchor from "./elements/anchor";
 
+import { MenuItem } from '@material-ui/core';
 import Modal from './elements/modal'
 import Tech from './tech'
 
@@ -23,10 +24,7 @@ function home() {
   return (
     <GlassWrapper>
       <Glass>
-        <Profile onClick={() => Modal({
-    insert: Tech(),
-    cancel: 'Close',
-})}>
+        <Profile >
           <div>
             <Video />
             <ProfileImage
@@ -58,18 +56,23 @@ function home() {
                 src="https://www.pinclipart.com/picdir/middle/75-750874_work-experience-svg-png-icon-free-download-356662.png"
                 alt=" "
               />
-              <Link to="/timeline">Experience</Link>
+              {/* Fake item needs styles! Or change to be like anchor 2 */}
+              <MenuItem component={Link} to={'/timeline'}>Experience</MenuItem>
             </Linkey>
             <Linkey>
               <LinkImage src={Cog} alt=" " />
-              <Link to="/tech">Technical Skills</Link>
+              <Link2 onClick={() => Modal({
+                insert: Tech(),
+                cancel: 'Close',
+                title: 'Tech'
+              })}>Technical Skills</Link2>
             </Linkey>
           </List>
-          <Anchor>
+          <Anchor2 to="/Blackjack">
             <Link to="/Blackjack" style={{ color: "white" }}>
               Blackjack
             </Link>
-          </Anchor>
+          </Anchor2>
         </Profile>
         <Right>
           <Box
@@ -117,6 +120,26 @@ function home() {
     </GlassWrapper>
   );
 }
+// https://stackoverflow.com/questions/37669391/how-to-get-rid-of-underline-for-link-component-of-react-router
+const Link2 = styled.div`
+// fake link!
+cursor: pointer;
+`;
+
+const Anchor2 = styled(Link)`
+// Link that looks like a button!
+color: white;
+background: #0d89eb;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 53%;
+height: 10%;
+cursor: pointer;
+&:hover {
+    background: #2CA8FF;
+}
+`;
 
 const breatheAnimation = keyframes`
  0% { height: 100px; width: 100px; }
