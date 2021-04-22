@@ -4,6 +4,12 @@ import React from 'react'
 function modal2(props) {
 
     const reject = () => {
+        // https://stackoverflow.com/questions/56494524/how-to-call-css-class-as-function-in-html-elements
+        var elements = document.getElementsByClassName("dynamicWidth");
+        Array.from(elements).forEach((element) => {
+        element.style.transition = 'opacity 1s ease-in-out'; // doesn't quite work
+        element.style.opacity = element.getAttribute("data-width");
+        });
         setTimeout(() => {
             props.reject();
         }, 150);
@@ -12,7 +18,7 @@ function modal2(props) {
     return (
         <Wrapper>
             <Outside onClick={() => reject()}></Outside>
-            <Modal>
+            <Modal className='dynamicWidth' data-width='0'>
                 {props.insert}
                 <Button onClick={() => reject()}>{props.cancel || 'Cancel'}</Button>
             </Modal>
@@ -39,18 +45,8 @@ const Button = styled.div`
   }
 `;
 
-export const Wrapper = styled.div`
-position: absolute;
-top: 0%;
-left: 0%;
-width: 100%;
-height: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-`;
 
-export const Outside = styled.div`
+ const Outside = styled.div`
 position: absolute;
 top: 0%;
 left: 0%;
@@ -61,7 +57,7 @@ height: 100%;
 opacity: 0.4;
 `;
 
-export const Modal = styled.div`
+ const Modal = styled.div`
 position: absolute;
 z-index: 4;
 background: #161b21;
@@ -73,5 +69,29 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+opacity: 0;
+
+-webkit-transition: opacity 1s ease-in-out;
+-moz-transition: opacity 1s ease-in-out;
+-ms-transition: opacity 1s ease-in-out;
+-o-transition: opacity 1s ease-in-out;
 `;
 
+
+const Wrapper = styled.div`
+position: absolute;
+top: 0%;
+left: 0%;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+&:hover ${Modal}{
+    opacity: 1;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+}
+`;

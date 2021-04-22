@@ -8,7 +8,6 @@ import Food from "./../assets/foodlogo.png";
 import Video from "./video";
 import styled, { keyframes } from 'styled-components'
 
-import { MenuItem } from '@material-ui/core';
 import Modal from './elements/modal'
 import Tech from './tech'
 
