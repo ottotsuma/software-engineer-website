@@ -18,10 +18,10 @@ function intro(props) {
             pond. The shine itself was made of wood and looked rather unadorned.
           </p>
 
-          <div class="pop">
+          <div className="pop">
             Shrine
             <img
-              class="popOut"
+              className="popOut"
               src="https://ottotsuma.github.io/images/shrine.jpg"
               height="400px"
               alt="Shrine"
