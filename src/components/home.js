@@ -67,9 +67,9 @@ function home() {
             </Linkey>
           </List>
           <Anchor2 to="/Blackjack">
-            <Link to="/Blackjack" style={{ color: "white" }}>
+            <p to="/Blackjack" style={{ color: "white" }}>
               Blackjack
-            </Link>
+            </p>
           </Anchor2>
         </Profile>
         <Right>
@@ -130,6 +130,7 @@ cursor: pointer;
 &:hover {
     background: #2CA8FF;
 }
+text-decoration: underline;
 `;
 
 const AStyled = styled.a`
@@ -342,7 +343,5 @@ width: 100px;
 height: 100px;
 border-radius: 50%;
 `;
-
-
 
 export default home;
