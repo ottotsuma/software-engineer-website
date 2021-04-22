@@ -1,4 +1,6 @@
 import React from "react";
+import Equipment from "./../elements/equipment";
+
 function intro(props) {
   return (
     <div className="Monad" id="3">
@@ -10,18 +12,21 @@ function intro(props) {
             more points to spend then before. I could make up for the difference
             with items or titles. Right now I am missing even a weapon.
           </p>
-          <p class="equipment">
-            Equipment:
             {/* https://www.sacred-texts.com/cfu/mlc/mlc10.htm - obscure fire god from china */}
-            <li className="Item">
-              Head: <li className="Unique"> Heavenly White Stag Mask:</li>{" "}
-              Magic: +1, Disease resistance + 20%, Mana regeneration + 10%,
-              blessing of 建御雷 [Takemikazuchi].
-            </li>
-            <li className="Item">
-              Body:<li className="Junk">Academy Robe (Black/Yellow).</li>
-              Magic: +1, Lightning +1%, Health +10.
-            </li>
+          <Equipment
+            items={{
+              Head: {
+                name: "Heavenly White Stag Mask",
+                effect: "Magic: +1, Disease resistance + 20%, Mana regeneration + 10%, blessing of 建御雷 [Takemikazuchi].",
+                rating: "unique",
+              },
+              Body: {
+                name: "Academy Robe (Black/Yellow).",
+                effect: "Magic: +1, Lightning +1%, Health +10.",
+                rating: "junk",
+              },
+            }}
+          />
             {/* <li>
               Body:<font color="blue"> Hui Lu's Battle Armor</font> ???
             </li>
@@ -34,7 +39,6 @@ function intro(props) {
             <li>
               Weapon:<font color="blue"> </font>
             </li> */}
-          </p>
           <p>
             My robe even gave less magic now my level was lower. The mask is not
             something I could wear all the time, I guess there was no harm in
