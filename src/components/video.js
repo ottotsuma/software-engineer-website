@@ -10,7 +10,7 @@ import sheep9 from "./../assets/sheep9.gif";
 import sheep10 from "./../assets/sheep10.gif";
 import styled from "styled-components";
 import birthday from "./../assets/sheep5.gif";
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 function getRandomArbitrary(min, max) {
   min = Math.ceil(min);

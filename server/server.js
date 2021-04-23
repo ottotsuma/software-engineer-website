@@ -15,6 +15,7 @@ const path = require('path');
 
   // All remaining requests return the React app, so it can handle routing.
   app.get('*', function(request, response) {
+    response.set('Cache-Control', 'public, max-age=2628000') // 31536000 1 year // 2628000 almost a month
     response.sendFile(path.resolve(__dirname, '../build', 'index.html'));
   });
 

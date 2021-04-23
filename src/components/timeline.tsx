@@ -11,7 +11,6 @@ import LaptopMacIcon from "@material-ui/icons/LaptopMac";
 import RepeatIcon from "@material-ui/icons/Book";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
-import { pink } from "@material-ui/core/colors";
 
 const useStyles = makeStyles((theme) => ({
   paper: {

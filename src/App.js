@@ -1,15 +1,15 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import home from './components/home'
 import story from './components/story'
 import projects from './components/projects'
 import Nav from './components/nav'
-import tech from './components/tech'
+// import tech from './components/tech'
 import timeline from './components/timeline'
 import Monad from './components/Monad/Index'
 import Blackjack from './components/blackjack'
-import Video from './components/video'
+// import Video from './components/video'
 import styled from "styled-components";
 
 
@@ -23,11 +23,11 @@ function App() {
                 <Route path="/" component={home} exact />
                 <Route path="/projects" component={projects} />
                 <Route path="/story" component={story} />
-                <Route path="/tech" component={tech} />
+                {/* <Route path="/tech" component={tech} /> */}
                 <Route path="/timeline" component={timeline} />
                 <Route path="/monad/:chapter" component={Monad} />
                 <Route path="/blackjack" component={Blackjack} />
-                <Route path="/video" component={Video} />
+                {/* <Route path="/video" component={Video} /> */}
             </BrowserRouter>
     </Main>
     </>
