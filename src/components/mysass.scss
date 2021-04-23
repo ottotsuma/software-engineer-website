@@ -1,105 +1,105 @@
-$main-font: "Yanone Kaffeesatz", sans-serif;
-$p-color: lightblue;
-$text-margin: 10px;
-.back-text-top{
-  color: black;
-}
+// $main-font: "Yanone Kaffeesatz", sans-serif;
+// $p-color: lightblue;
+// $text-margin: 10px;
+// .back-text-top{
+//   color: black;
+// }
 
-.back-text-bottom{
-  color: black;
-  text-decoration: underline;
-}
-.page-container {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  perspective: 1000px;
-  margin-bottom: 5%;
-}
-  .card-container {
-    height: 350px;
-    margin: 0;
-    padding: 0;
-    width: 330px;
-    transform-style: preserve-3d;
-    box-sizing: border-box;
-    &.flipped {
-      .front {
-        transform: rotateY(180deg);
-      }
-      .back {
-        transform: rotateY(0deg);
-      }
-    }
-  }
-    .front,
-    .back {
-      box-sizing: border-box;
-      height: 100%;
-      width: 100%;
-      display: block;
-      background: $p-color;
-      // box-shadow: 10px 10px 5px rgb(201, 201, 201);
-      padding: 10px;
-      position: absolute;
-      border-radius: 10px;
-      backface-visibility: hidden;
-      transform-style: preserve-3d;
-      transition: -webkit-transform ease 500ms;
-      transition: transform ease 500ms;
-    }
-    .front {
-      z-index: 2;
-      transform: rotateY(0deg);
-    }
-    .back {
-      background: $p-color;
-      transform: rotateY(-180deg);
-      padding: 20px;
-      font-size: 20px;
-    }
-    .image-container {
-      position: relative;
-      display: flex;
-      justify-content: center;
-      .card-image {
-        width: 220px;
-        border-radius: 10px;
-      }
-      .title {
-        font-size: 28px;
-        position: absolute;
-      }
-    }
-    .main-area {
-      margin-left: $text-margin;
-      margin-top: $text-margin;
-      margin-right: $text-margin;
-    }
-      .blog-post {
-        height: 100%;
-      }
-        .date {
-          margin-top: $text-margin;
-          margin-bottom: 5px;
-          font-size: 20px;
-          color: black;
-        }
-        .read-more {
-          font-size: 20px;
-          bottom: 0px;
-          text-align: right;
-          color: black;
-        }
-        .blog-content {
-          height: 90%;
-          margin-top: $text-margin;
-          margin-bottom: $text-margin;
-          white-space: nowrap;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          color: black;
-        }
+// .back-text-bottom{
+//   color: black;
+//   text-decoration: underline;
+// }
+// .page-container {
+//   position: relative;
+//   width: 100%;
+//   height: 100%;
+//   display: flex;
+//   justify-content: center;
+//   perspective: 1000px;
+//   margin-bottom: 5%;
+// }
+//   .card-container {
+//     height: 350px;
+//     margin: 0;
+//     padding: 0;
+//     width: 330px;
+//     transform-style: preserve-3d;
+//     box-sizing: border-box;
+//     &.flipped {
+//       .front {
+//         transform: rotateY(180deg);
+//       }
+//       .back {
+//         transform: rotateY(0deg);
+//       }
+//     }
+//   }
+//     .front,
+//     .back {
+//       box-sizing: border-box;
+//       height: 100%;
+//       width: 100%;
+//       display: block;
+//       background: $p-color;
+//       // box-shadow: 10px 10px 5px rgb(201, 201, 201);
+//       padding: 10px;
+//       position: absolute;
+//       border-radius: 10px;
+//       backface-visibility: hidden;
+//       transform-style: preserve-3d;
+//       transition: -webkit-transform ease 500ms;
+//       transition: transform ease 500ms;
+//     }
+//     .front {
+//       z-index: 2;
+//       transform: rotateY(0deg);
+//     }
+//     .back {
+//       background: $p-color;
+//       transform: rotateY(-180deg);
+//       padding: 20px;
+//       font-size: 20px;
+//     }
+//     .image-container {
+//       position: relative;
+//       display: flex;
+//       justify-content: center;
+//       .card-image {
+//         width: 220px;
+//         border-radius: 10px;
+//       }
+//       .title {
+//         font-size: 28px;
+//         position: absolute;
+//       }
+//     }
+//     .main-area {
+//       margin-left: $text-margin;
+//       margin-top: $text-margin;
+//       margin-right: $text-margin;
+//     }
+//       .blog-post {
+//         height: 100%;
+//       }
+//         .date {
+//           margin-top: $text-margin;
+//           margin-bottom: 5px;
+//           font-size: 20px;
+//           color: black;
+//         }
+//         .read-more {
+//           font-size: 20px;
+//           bottom: 0px;
+//           text-align: right;
+//           color: black;
+//         }
+//         .blog-content {
+//           height: 90%;
+//           margin-top: $text-margin;
+//           margin-bottom: $text-margin;
+//           white-space: nowrap;
+//           overflow: hidden;
+//           text-overflow: ellipsis;
+//           color: black;
+//         }
 

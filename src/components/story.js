@@ -11,7 +11,6 @@ import Bug from "./../assets/bug.jpg";
 import Dob from "./../assets/dob.png";
 import Witch from "./../assets/witch7.jpg";
 import Weather from "./../assets/weather.png";
-import Card from "./card";
 import Blackjack from "./blackjack";
 import styled from 'styled-components'
 
@@ -62,8 +61,6 @@ function story(props) {
           </div>
         </div>
       </div>
-      <Titles>Card</Titles>
-      <Card />
       <div>
         <Titles>Flip Book</Titles>
       </div>
