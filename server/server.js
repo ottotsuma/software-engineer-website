@@ -11,6 +11,8 @@ const path = require('path');
     maxAge: CacheTime
   }));
 
+  // is it maxage, maxAge or max-age !?
+
   // Answer API requests.
   app.get('/api', function (req, res) {
     res.send('{"message":"Hello from the custom server!"}');
