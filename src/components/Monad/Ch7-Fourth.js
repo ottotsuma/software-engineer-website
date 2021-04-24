@@ -32,10 +32,10 @@ function Intro(props) {
             diagram.
           </p>
 
-          <div class="pop">
+          <div className="pop">
             Blackboard
             <img
-              class="popOut"
+              className="popOut"
               src={Lightning}
               height="400px"
               alt="Lightning Colours"

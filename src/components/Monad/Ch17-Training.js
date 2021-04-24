@@ -20,10 +20,10 @@ function Intro(props) {
             form lay under the mess of meat and flesh. What that was would have
             to wait until after the battle.
           </p>
-          <div class="pop">
+          <div className="pop">
             Centaur
             <img
-              class="popOut"
+              className="popOut"
               src="https://ottotsuma.github.io/images/centaur.jpg"
               height="400px"
               alt="centaur"

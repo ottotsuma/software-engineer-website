@@ -78,10 +78,10 @@ function Intro(props) {
             found in Pocotcotcan literature.
           </p>
 
-          <div class="pop">
+          <div className="pop">
             Landmark
             <img
-              class="popOut"
+              className="popOut"
               src="https://ottotsuma.github.io/images/inca2.png"
               height="400px"
               alt="Pyramid"
