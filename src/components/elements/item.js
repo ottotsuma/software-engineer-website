@@ -133,6 +133,10 @@ const Span = styled.span`
   margin-left: 50%;
   white-space: nowrap;
   top: 0;
+  @media screen and (max-width: 650px) {
+    margin-left: 0%;
+    left: 0;
+  }
 `;
 
 const Card = styled.div`
