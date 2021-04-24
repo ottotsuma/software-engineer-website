@@ -1,8 +1,7 @@
 https://guides.github.com/features/mastering-markdown/
 
 # To do:
-
-1 & 4 need imports!
+Change stat pop ups to early & late descriptions + Numeric if needed
 
 # Notes:
 

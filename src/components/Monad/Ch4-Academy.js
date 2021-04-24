@@ -1,5 +1,6 @@
 import React from "react";
 import Witch from "./../../assets/witch7.jpg";
+import Stats from "./../elements/stats";
 
 function Intro(props) {
   return (
@@ -73,25 +74,29 @@ function Intro(props) {
             to School?" If it is unlocked the first time you come? never mind. I
             quickly loaded my stats.
           </p>
-          <p className="stats">
-            <li>Name: Otto.</li>
-            <li>Level: 8.</li>
-            <li>Primary Class: Mage.</li>
-            <li>Spells: 1.</li>
-            <li>Titles: 1.</li>
-            <li>Spell points: 7.</li>
-            <li>Stat points: 16.</li>
-            <li>Stats:</li>
-            <li>Strength: 0</li>
-            <li>Vitality: 0</li>
-            <li>Endurance: 0</li>
-            <li>Magic: 1</li>
-            {/* <!-- +1 From the title --> */}
-            <li>Willpower: 0</li>
-            <li>Dexterity: 0</li>
-            <li>Sense: 1</li>
-            <li>Charisma: 2</li>
-          </p>
+          <Stats
+            type={"description"}
+            stats={{
+              name: "Otto",
+              level: 8,
+              class: "Mage",
+              spells: 1,
+              titles: 1,
+              "spell points": 7,
+              "stat points": 16,
+              vitality: 0,
+              strength: 0,
+              endurance: 0,
+              magic: 1,
+              willpower: 0,
+              dexterity: 0,
+              sense: 1,
+              charisma: 2,
+            }}
+            notes={
+              "+1 magic from the title"
+            }
+          />
           <p>
             "Building: cliff side. Room: 501." A key was place in my hand as I
             was pulled back to reality. Slightly embarrassed by my absent

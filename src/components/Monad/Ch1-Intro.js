@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import MapOfAlden from "./../../assets/MapOfAlden.png";
 import HTMLFlipBook from "react-pageflip";
+import Stats from "./../elements/stats";
+
 
 export default function Intro(props) {
   return (
@@ -495,24 +497,29 @@ most people learn inspect but either see
             reflect back on what was told to me earlier. The numbers displayed
             in front of me right now where my stats and my level, 1.
           </p>
-          <p className="stats">
-            <li>Name: Otto.</li>
-            <li>Level: 1.</li>
-            <li>Class: Mage.</li>
-            <li>Spells: 1.</li>
-            <li>Titles: 0.</li>
-            <li>Spell points: 0.</li>
-            <li>Stat points: 2.</li>
-            <li>Stats:</li>
-            <li>Strength: 0</li>
-            <li>Vitality: 0</li>
-            <li>Endurance: 0</li>
-            <li>Magic: 0</li>
-            <li>MDef: 0</li>
-            <li>Dexterity: 0</li>
-            <li>Sense: 1</li>
-            <li>Charisma: 2</li>
-          </p>
+          <Stats
+            type={"description"}
+            stats={{
+              name: "Otto",
+              level: 1,
+              class: "Mage",
+              spells: 1,
+              titles: 0,
+              "spell points": 0,
+              "stat points": 2,
+              vitality: 0,
+              strength: 0,
+              endurance: 0,
+              magic: 0,
+              willpower: 0,
+              dexterity: 0,
+              sense: 1,
+              charisma: 2,
+            }}
+            notes={
+              ""
+            }
+          />
           <p>
             I was told not to spend any of the points, that I was going to be
             sent to the town hall tomorrow to be tested for my aptitude. Not
