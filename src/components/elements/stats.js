@@ -184,12 +184,28 @@ const statList = {
   },
 };
 
+function perc2color(perc) {
+  if (perc > 100) return "rgb(36, 255, 0)"
+  var r, g, b = 0;
+  if (perc < 50) {
+      r = 255;
+      g = Math.round(5.1 * perc);
+  }
+  else {
+      g = 255;
+      r = Math.round(510 - 5.10 * perc);
+  }
+  var h = r * 0x10000 + g * 0x100 + b * 0x1;
+  return '#' + ('000000' + h.toString(16)).slice(-6);
+}
+
 function Stats({ stats, type }) {
   const array = [];
   const keys = Object.keys(stats);
   for (let index = 0; index < keys.length; index++) {
-    const element = keys[index] + ": " + stats[keys[index]];
+    const element = <Wrap><Inline>{keys[index]}: </Inline><Inline style={{color: perc2color(stats[keys[index]])}}>{stats[keys[index]]}</Inline></Wrap>;
     const spam = statList[keys[index]];
+    console.log(spam, element)
     array.push(
       <SingleStat key={index + "stat"}>
         {element}
@@ -205,6 +221,13 @@ function Stats({ stats, type }) {
   );
 }
 export default Stats;
+
+const Wrap = styled.div`
+`;
+
+const Inline = styled.div`
+display: contents;
+`;
 
 const Title = styled.h1`
   display: flex;
