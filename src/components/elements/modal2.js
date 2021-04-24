@@ -71,7 +71,9 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 opacity: 0;
-// overflow: auto;
+@media screen and (max-width: 650px) {
+    opacity: 1;
+  }
 
 -webkit-transition: opacity 1s ease-in-out;
 -moz-transition: opacity 1s ease-in-out;
