@@ -168,8 +168,12 @@ align-items: center;
 width: 53%;
 height: 10%;
 cursor: pointer;
+white-space: nowrap;
 &:hover {
     background: #2CA8FF;
+}
+@media screen and (max-width: 650px) {
+  padding 0 10px;
 }
 `;
 
@@ -236,6 +240,7 @@ const List = styled.div`
   justify-content: space-evenly;
   align-items: center;
   min-height: 40%;
+  white-space: nowrap;
 `;
 
 const Right = styled.div`
@@ -244,6 +249,9 @@ const Right = styled.div`
   justify-content: space-around;
   align-items: center;
   flex: 2;
+  @media screen and (max-width: 350px) {
+    display: none;
+  }
 `;
 
 const Profile = styled.div`

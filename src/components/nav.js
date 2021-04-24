@@ -10,15 +10,13 @@ import styled from 'styled-components'
 function Nav() {
   return (
     <NavigationBar>
-        <LinkStyled className="Nav-LinkStyled" to="/">Home</LinkStyled>
-        <LinkStyled className="Home-Button" to="/">Home</LinkStyled>
-        {/* <LinkStyled className="Nav-LinkStyled" to="/projects">Projects</LinkStyled> */}
-        {/* <LinkStyled className="Nav-LinkStyled" to="/timeline">Experience</LinkStyled> */}
-        {/* <LinkStyled className="Nav-LinkStyled" to="/tech">Technical Skills</LinkStyled> */}
-        <AStyled className="Nav-LinkStyled" href = 'https://github.com/ottotsuma' target = "_blank">GitHub</AStyled>
-        {/* <LinkStyled className="Nav-LinkStyled" to="/Blackjack">Blackjack</LinkStyled> */}
-      <LinkStyled className="Home-Button" to="/Monad/1">Monad</LinkStyled>
-      <LinkStyled className="Nav-LinkStyled" to="/Monad/1">Monad</LinkStyled>
+        <LinkStyled  to="/">Home</LinkStyled>
+        {/* <LinkStyled  to="/projects">Projects</LinkStyled> */}
+        {/* <LinkStyled  to="/timeline">Experience</LinkStyled> */}
+        {/* <LinkStyled  to="/tech">Technical Skills</LinkStyled> */}
+        <AStyled  href = 'https://github.com/ottotsuma' target = "_blank">GitHub</AStyled>
+        {/* <LinkStyled  to="/Blackjack">Blackjack</LinkStyled> */}
+      <LinkStyled  to="/Monad/1">Monad</LinkStyled>
     </NavigationBar>
   );
 }
