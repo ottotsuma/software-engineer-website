@@ -34,10 +34,13 @@ function change(props) {
         <Profile >
           <div>
             <Video />
+            <HiWrapper>
             <ProfileImage
               src="https://avatars0.githubusercontent.com/u/51743227?s=460&u=60cf882cb319128a05fa5fff10c006de9cdfc2af&v=4"
               alt="Profile"
             />
+            <Hi>Hi!</Hi>
+            </HiWrapper>
             <h3>Shaun Darragh</h3>
             <h4>ダラー・ショーン</h4>
           </div>
@@ -128,6 +131,28 @@ function change(props) {
   );
 }
 export default Home;
+
+const Hi = styled.div`
+position:absolute; /* important */
+bottom:0; /* important */
+max-height:0; /* important */
+overflow:hidden; /* important */
+transition:max-height 300ms ease-in; /* important */
+border-radius: 50%;
+overflow: hidden;
+padding: 5px;
+opacity: 0;
+color: white;
+`;
+
+const HiWrapper = styled.div`
+&:hover ${Hi} {
+  max-height:50%; /* important */
+  bottom: 90%;
+opacity: 1;
+background: #0d89eb
+}
+`;
 
 // https://stackoverflow.com/questions/37669391/how-to-get-rid-of-underline-for-link-component-of-react-router
 const Link2 = styled.div`
