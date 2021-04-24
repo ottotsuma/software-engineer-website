@@ -89,7 +89,7 @@ function change(props) {
           >
             <HomeImage
               src={Munchify}
-              className="Home-Img"
+              
               alt="Technical Skills"
             />
             <InnerBox>
@@ -101,7 +101,7 @@ function change(props) {
           <Box onClick={() => change("https://github.com/ottotsuma/SoloMVP")}>
             <HomeImage
               src={Secret}
-              className="Home-Img"
+              
               alt="Technical Skills"
             />
             <InnerBox>
@@ -113,7 +113,7 @@ function change(props) {
           <Box
             onClick={() => change("https://github.com/ottotsuma/React-App2")}
           >
-            <HomeImage src={Food} className="Home-Img" alt="Technical Skills" />
+            <HomeImage src={Food}  alt="Technical Skills" />
             <InnerBox>
               <h3>Otto's Recipes</h3>
               <Para>Sort out your hunger!</Para>
