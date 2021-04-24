@@ -11,7 +11,6 @@ function Nav() {
   return (
     <NavigationBar>
         <LinkStyled  to="/">Home</LinkStyled>
-        {/* <LinkStyled  to="/projects">Projects</LinkStyled> */}
         {/* <LinkStyled  to="/timeline">Experience</LinkStyled> */}
         {/* <LinkStyled  to="/tech">Technical Skills</LinkStyled> */}
         <AStyled  href = 'https://github.com/ottotsuma' target = "_blank">GitHub</AStyled>
