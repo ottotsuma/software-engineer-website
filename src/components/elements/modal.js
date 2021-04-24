@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom';
-import Modal from './modal2'
+import Modal2 from './modal2'
 
-function modal(props) {
+function Modal(props) {
     
     const div = document.body.appendChild(document.createElement('div'));
     const elements = [];
@@ -23,7 +23,7 @@ function modal(props) {
 
     return new Promise((resolve, reject) => {
         ReactDOM.render(
-            <Modal {...props} resolve={resolve} reject={reject} />,
+            <Modal2 {...props} resolve={resolve} reject={reject} />,
             div
         );
     }).then(result => {
@@ -37,4 +37,5 @@ function modal(props) {
     });
 };
 
-export default modal
+export default Modal
+
