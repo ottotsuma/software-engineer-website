@@ -23,20 +23,17 @@ export default Intro;
 
 ## Undefined:
 
+Basic, Intermediate, Advanced.
+
+Ajisukitakahikone = Japanese version of God K
 
 NPC
 You level up for the first time and your class is picked.
-You find our which element you are most suited to at level 10. (Can pick)
+You find out which element you are most suited to at level 10 (Can pick).
 
 USER
 You pick a basic class and become level 1.
 You pick an element at level 10.
-
-// Vampire type, more blood taken makes them stronger so often conflict with humans
-// Vampire type, more hunger makes them stronger so often hide from humans
-// The people coming off the boats don't have to be human
-// Merging the stats into a few, Vitality, magic, strength, sense, charm
-// No classes? Just race and element?
 
 ## Speeches:
 
@@ -55,72 +52,78 @@ The enemy may have the Moon People on their side, but we have lovely hats! And t
 <li>Willpower</li> Increases resistance to magic, reduces magic damage taken (%)
 <li>Dexterity (Reflexes)</li> Reduces time between using skills, casting of skills, dodge change, movement on rough terrain
 <li>Sense</li> Trap Detect (All of the senses, hearing, taste, touch, smell.) Seeing though smoke screens and illusions. Seeing weakness and injuries in your opponent
-<li>Charisma</li> Increases NPC likability, command points,
+<li>Charisma</li> Increases NPC likability, command points
 
-could defence and magic defence be rolled into vitality, magic and strength?
+---
+
+Could defence and magic defence be rolled into vitality, magic and strength?
 
 Critical defense, parry, glance, defend
 
-Ajisukitakahikone = Japanese version of God K
-
 # Levels:
 
-/ Human body 0 - 10, 5 is normal and 10 is the best a human can get. (This is without mana.) /
-0 - Basic mana spells unlocked, mana flow, cap raised to 1.
-10 - Picked first element, Mix first element with basic mana spells, Cap Raised to 2
-20 - Extra Stat points, Cap Raised to 3
-30 - Extra Stat points, Intermediate Spells, Cap Raised to 4
-40 - Extra Stat points, Cap Raised to 5
-50 - Unlock familia, Cap Raised to 6
-60 - Extra Stat points, Cap Raised to 7
-70 - Picked 2nd element, Cap Raised to 8
-80 - Extra Stat points, Advanced spells, Cap Raised to 9
-90 - Extra Stat points, Cap Raised to 10
-100 - Class Advancement, Increase other properties +3
+Human body: Stats 0 - 10, 5 is normal and 10 is the best a human can get. (This is without mana.) 
 
-Basic, Intermediate, Advanced.
+---
+
+<li>0 - Basic mana spells unlocked, mana flow, cap raised to 1.
+<li>10 - Picked first element, Mix first element with basic mana spells, Cap Raised to 2
+<li>20 - Extra Stat points, Cap Raised to 3
+<li>30 - Extra Stat points, Intermediate Spells, Cap Raised to 4
+<li>40 - Extra Stat points, Cap Raised to 5
+<li>50 - Unlock familia, Cap Raised to 6
+<li>60 - Extra Stat points, Cap Raised to 7
+<li>70 - Picked 2nd element, Cap Raised to 8
+<li>80 - Extra Stat points, Advanced spells, Cap Raised to 9
+<li>90 - Extra Stat points, Cap Raised to 10
+<li>100 - Class Advancement, Increase other properties +3
 
 ## People:
 
-{/_
+<p>Ralsan is my name,
+this is Tisiel" A girl imperial name,(huonoia)
+"Shrorlei Crerlass" dwarven name
+Reingard". boy - alden
+
 Charter sheets -
-Farald - expert professor on why students hp stops at 10hp in duels.
-Vasso of house Elzach. Tall boy with stylish blonde hair, deep blue eyes, strong, jaw and a large nose. (Rapist who gets away with it.)
-Vortigern - Magic item, use to be an immortal and part of the middle party during the end times of their era. Think 'yes minster' when writing his dialog.
-Lubin (Heart of a man; heart of the sea.) - teacher of magic
-Leon -
-Shrorlei Crerlass - (cliffs) dwarven name (DEAD)
+<li>Farald - expert professor on why students hp stops at 10hp in duels.
+<li>Vasso of house Elzach. Tall boy with stylish blonde hair, deep blue eyes, strong, jaw and a large nose. (Rapist who gets away with it.)
+<li>Vortigern - Magic item, use to be an immortal and part of the middle party during the end times of their era. Think 'yes minster' when writing his dialog.
+<li>Lubin (Heart of a man; heart of the sea.) - teacher of magic
+<li>Leon -
+<li>Shrorlei Crerlass - (cliffs) dwarven name (DEAD)
 Tisiel Skivali - (cliffs) imperial name,(huonoia) - scholar/necromancer (GONE)
-Reingard - (cliffs) alden (metal element) - tank (DEAD?)
-Ralsan - (cliffs) farmer (pervert who gets nose bleeds easily. Needs to be added before Chapter 28)
-Otto -
-Daniel - Duels Otto on the 3rd day. (Earth)
-Kaja - Duels Otto on the 5th day. (Fire)
-Linhart - (fire)
-Ditwin - Cromwell from black adder (earth) (DEAD)
-Gelfrat - (water) (DEAD)
-HILDEBOLD - (water)
-PETSCHE - (Wind)
-NYMANDUS - (light) (DEAD)
-Volker - Arena (fire)
-Raina - Arena (water)
-Takeo - Tsuma house hold guard. Met outside of the tomb of the dead immortals
-Arrilian Sirillin - head of the first years at the academy, 68 years old from the kingdom, noble.
-Lenne Klein (means small) - student welfare at the academy
-Redmond - works in the farm research
-Olinda - works in the farm research
-Jarvia = spear-keen
-Sophie - Lubin class champion (Some middling family attached to a noble family)
-Mila - Otto's group (3)
-Berta - Otto's group (3)
-Max - Fought against Otto in the group.
-_/}
+<li>Reingard - (cliffs) alden (metal element) - tank (DEAD?)
+<li>Ralsan - (cliffs) farmer (pervert who gets nose bleeds easily. Needs to be added before Chapter 28)
+<li>Otto -
+<li>Daniel - Duels Otto on the 3rd day. (Earth)
+<li>Kaja - Duels Otto on the 5th day. (Fire)
+<li>Linhart - (fire)
+<li>Ditwin - Cromwell from black adder (earth) (DEAD)
+<li>Gelfrat - (water) (DEAD)
+<li>HILDEBOLD - (water)
+<li>PETSCHE - (Wind)
+<li>NYMANDUS - (light) (DEAD)
+<li>Volker - Arena (fire)
+<li>Raina - Arena (water)
+<li>Takeo - Tsuma house hold guard. Met outside of the tomb of the dead immortals
+<li>Arrilian Sirillin - head of the first years at the academy, 68 years old from the kingdom, noble.
+<li>Lenne Klein (means small) - student welfare at the academy
+<li>Redmond - works in the farm research
+<li>Olinda - works in the farm research
+<li>Jarvia = spear-keen
+<li>Sophie - Lubin class champion (Some middling family attached to a noble family)
+<li>Mila - Otto's group (3)
+<li>Berta - Otto's group (3)
+<li>Max - Fought against Otto in the group.
+
+---
 
 Famous Mages:
 Alden:
-Surname: Elzach - Alden's Grand Duke has royal lightning, it is purple in color and has not been seen outside of their family.
-Argavereri's Viscount uses a green smoke element, most unusual.
-Baron Mann based at Soldenheim famously uses runes.
+<li>Surname: Elzach - Alden's Grand Duke has royal lightning, it is purple in color and has not been seen outside of their family.
+<li>Argavereri's Viscount uses a green smoke element, most unusual.
+<li>Baron Mann based at Soldenheim famously uses runes.
 
 ###### Extra People:
 
@@ -137,13 +140,13 @@ Skills: (I:)(Class:)(Race:)(Familia:)(Chosen:)(Items:)
 Misc Items:
 _/}
 
-{/\* Eugen 13,dies years of age, larger, and taller then the others of the group, but without a temper or ambition
+Eugen 13,dies years of age, larger, and taller then the others of the group, but without a temper or ambition
 Beke, 12 a slow child, but easily angered.
 Ilse 12,dies, the oldest child of Sarah and Robert.
 Effi 10 the younger sister of Ilse.
 Otto 10 the oldest son of Michkel and Karla, with two younger brothers, and a sister on the way.
 Nils 10 the 8th child of the village leader, although only 5 remain.
-Jakob 9, dies, A small boy, shy and ungifted.</p>
+Jakob 9, dies, A small boy, shy and ungifted.
 
 Karla & Michkel - husband and wife, parents of otto +2
 Sarah and Robert - husband and wife, parents to 4
@@ -154,47 +157,23 @@ Edmure age ~ davids, lives in the village
 0-14 village
 14-15 first year
 15 - 16 2nd year
-16 - 18 work exp \*/}
+16 - 18 work exp 
 
-{/_ Darker tomb raiding, zombies of different kinds, traps, layouts, treasure, deaths, betrayal, stronger and weaker people, Otto and necro woman trick older students to think they are bulling them to going into the tomb together only for otto and co to betray them instead and they die as a result. _/}
-{/_ undead hags, water hags, blood corpse, flies, _/}
-{/\*
-1- Effi - Tank, 6, Mace and Shield (Starts with a sword).Knight/Paladin -> Guardian
-1 - Naoki - DPS, 9, Katana (Japanese) - Samurai
-Sophia - Tank, 4, Large Battle Axe- Barbarian
-Emilia - DPS, 6, Spear - Dragoon
-Klara - DPS, 7, Twin Axes - Barbarian
-Charlotte - Support, 4, Bow - (Yennenga) Archer
-1 - Johannes - Healer, 5, Bow Archer/Knight
-Ehrhart - Healer, 9, Warhammer - BattleMage ->Inquisitor
-
-1 - Konrad - Support, 5, Twin Swords or Rapier?? -> Priest
-1- Alajos - DPS, 8, Saber (hungarian) Huszár
+<li>Effi - Tank, 6, Mace and Shield (Starts with a sword).Knight/Paladin -> Guardian
+<li>Naoki - DPS, 9, Katana (Japanese) - Samurai
+<li>Sophia - Tank, 4, Large Battle Axe- Barbarian
+<li>Emilia - DPS, 6, Spear - Dragoon
+<li>Klara - DPS, 7, Twin Axes - Barbarian
+<li>Charlotte - Support, 4, Bow - (Yennenga) Archer
+<li>Johannes - Healer, 5, Bow Archer/Knight
+<li>Ehrhart - Healer, 9, Warhammer - BattleMage ->Inquisitor
+<li>Konrad - Support, 5, Twin Swords or Rapier?? -> Priest
+<li>Alajos - DPS, 8, Saber (hungarian) Huszár
 
 sword and shield, two handed, war hammer, battle axe, mace, spear? War scythe? halberd, bows, crossbows, kuni, shuriken, throwing knife, thrown spear,
 
-Healing
-Human Cav that heals around him while damaging
-heals an ally and attacks nearby enemies
-warlock skill healing
-granting shields
-
-Support
-summoning hero ?
-stuns
-cc
-boots
-shields
-
 Sophia and Johnna's have sex while he is sick from after camping in the rain.
-BAsed on mesoamerican continent and ends with more advanced people landing slowly on the shores until the disease takes them then many come.
-
-<p>Ralsan is my name,
-this is Tisiel" A girl imperial name,(huonoia)
-"Shrorlei Crerlass" dwarven name
-Reingard". boy - alden
-
-Lubin - teacher of magic \*/}
+Based on mesoamerican continent and ends with more advanced people landing slowly on the shores until the disease takes them then many come.
 
 ## Eras:
 
@@ -203,10 +182,11 @@ Lubin - teacher of magic \*/}
 
 ## Tiers:
 
-Junk / Basic / Rare / Epic / Legendary / Unique / God
+Junk (Grey) / Basic (Blue) / Rare (Green) / Epic (Red) / Legendary (Orange) / Unique (Purple) / God (Gold)
 
 team bonus for fighter/rogue/mage
 
+<li>Classes/Races</li>
 Blue - 0 - 50 +2, 51 - 100 + 3
 Green - 0 - 50 + 3, 51 - 100 +2
 Red - 0-50 +3, 51 - 100 +3
@@ -222,9 +202,9 @@ Places joined together though alliance? to act as one unit under one representat
 pocotcotco ?
 chalbia ?
 
-{/\* Normal in the world to reach level 100, but few reset because the chances of unlocking anything new is little and it leaves you open to attack while you level back up. The advanced classes play a large role in the old world but in the new world people are leveling up less so getting to 100 is a big deal.
+Normal in the world to reach level 100, but few reset because the chances of unlocking anything new is little and it leaves you open to attack while you level back up. The advanced classes play a large role in the old world but in the new world people are leveling up less so getting to 100 is a big deal.
 
-**\* notes on the countries \*\***
+*** notes on the countries ***
 
 Alden (German) -
 Military - Strong individuals, strong together, strong military, medium navy
@@ -323,6 +303,30 @@ Desert (Monsters) - They are monsters. It's hard to say.
 \*/}
 
 # Random Ideas:
+
+Healing
+Human Cav that heals around him while damaging
+heals an ally and attacks nearby enemies
+warlock skill healing
+granting shields
+
+Support
+summoning hero ?
+stuns
+cc
+boots
+shields
+
+
+Darker tomb raiding, zombies of different kinds, traps, layouts, treasure, deaths, betrayal, stronger and weaker people, Otto and necro woman trick older students to think they are bulling them to going into the tomb together only for otto and co to betray them instead and they die as a result. 
+
+undead hags, water hags, blood corpse, flies, 
+
+// Vampire type, more blood taken makes them stronger so often conflict with humans
+// Vampire type, more hunger makes them stronger so often hide from humans
+// The people coming off the boats don't have to be human
+// Merging the stats into a few, Vitality, magic, strength, sense, charm
+// No classes? Just race and element?
 
 Pigeons without wings - attacking ?
 
