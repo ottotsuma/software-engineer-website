@@ -205,7 +205,6 @@ function Stats({ stats, type }) {
   for (let index = 0; index < keys.length; index++) {
     const element = <Wrap><Inline>{keys[index]}: </Inline><Inline style={{color: perc2color(stats[keys[index]])}}>{stats[keys[index]]}</Inline></Wrap>;
     const spam = statList[keys[index]];
-    console.log(spam, element)
     array.push(
       <SingleStat key={index + "stat"}>
         {element}

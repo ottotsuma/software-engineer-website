@@ -1,5 +1,7 @@
 import React from "react";
 import Kʼawiil from "./Kʼawiil";
+import Stats from "./../elements/stats";
+
 function Intro(props) {
   return (
     <div className="Monad" id="3">
@@ -385,38 +387,35 @@ function Intro(props) {
             usually get it's seeds giving me the ability to make soldiers out of
             the same type of monster.
           </p>
-          <p className="stats">
-            <li>Name: Otto.</li>
-            <li>Level: 10.</li>
-            <li>Class: Kʼawiil.</li>
-            <li>Spells: 5.</li>
-            <li>Titles: 5.</li>
-            <li>Spell points: 5.</li>
-            {/* 1 Per level */}
-            <li>Stat points: 0.</li>
-            {/* 4 per level */}
-            <li>Stats:</li>
-            <li>Strength: 1</li>
-            {/* Title 1 */}
-            <li>Vitality: 10</li>
-            <li>Defence: 0</li>
-            <li>Magic: 11</li>
-            {/* Title 1 */}
-            <li>Magic Defence: 1</li>
-            {/* Title 1 */}
-            <li>Dexterity: 10</li>
-            <li>Sense: 1</li>
-            {/* Human 1 */}
-            <li>Charisma: 13</li>
-            {/* Human 2, level 10: 1, */}
+          <Stats
+            type={"description"}
+            stats={{
+              name: "Otto",
+              level: 10,
+              class: "Kʼawiil.",
+              spells: 5,
+              titles: 5,
+              "spell points": 5,
+              "stat points": 0,
+              vitality: 10,
+              strength: 1,
+              endurance: 0,
+              magic: 11,
+              willpower: 1,
+              dexterity: 10,
+              sense: 1,
+              charisma: 13,
+            }}
+            notes={
+              "1 spell per level, 4 stats per level,"
+            }
+            />
             {/* Titles: 
             Back to School - +1 Magic
             Found Unique class + 1 Mdef 
             Found Unique Item - (Mask) +1 Str
             Reach level 10 + 1 Char
-            'Novice Harvester'
-            */}
-          </p>
+            'Novice Harvester' */}
           <p>
             The new title I gained was 'Novice Harvester', it increased my
             harvesting skills by 10%. The other was reach level 10 again.

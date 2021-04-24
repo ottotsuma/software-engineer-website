@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import MapOfAlden from "./../../assets/MapOfAlden.png";
 import HTMLFlipBook from "react-pageflip";
 import Stats from "./../elements/stats";
-
 
 export default function Intro(props) {
   return (

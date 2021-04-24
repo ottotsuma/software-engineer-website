@@ -12,8 +12,6 @@ import Todo from "./../assets/todo.jpg";
 import Weather from "./../assets/weather.png";
 import styled from 'styled-components';
 
-const color3 = "#602080";
-
 export default () => {
   const [activeItemIndex, setActiveItemIndex] = useState(0);
   const chevronWidth = 40;

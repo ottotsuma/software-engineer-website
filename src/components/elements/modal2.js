@@ -20,7 +20,7 @@ function Modal2(props) {
             props.reject();
         }, 150);
     };
-    console.log(props)
+    
     return (
         <Wrapper>
             {props.close ? <Outside css={'-webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px);'} onClick={() => props.close()}></Outside> : <Outside onClick={() => reject()}></Outside>}

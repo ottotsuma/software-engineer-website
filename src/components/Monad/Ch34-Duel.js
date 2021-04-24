@@ -1,6 +1,6 @@
 import React from "react";
 import Item from './../elements/item'
-import Monster from './../../assets/monster.jpg'
+
 function Intro(props) {
   return (
     <div className="Monad" id="3">
@@ -20,19 +20,15 @@ function Intro(props) {
             fire mages.
           </p>
           <p></p>
+{/* https://ottotsuma.github.io/race */}
           <Item stats={{
-              vitality: 0,
-              strength: 0,
-              endurance: 0,
-              magic: 10,
-              willpower: 1,
-              dexterity: 0,
-              sense: 1,
-              charisma: 2,
+              vitality: +1,
+              dexterity: +2,
+              sense: +1,
             }} 
-            name={'Duck'}
-            effect=''
-            src={Monster}
+            name={'Goblin'}
+            effect='Generate less agro from monsters.'
+            src={`https://github.com/ottotsuma/ottotsuma.github.io/blob/master/images/goblin.jpg?raw=true`}
             />
         </div>
       </div>

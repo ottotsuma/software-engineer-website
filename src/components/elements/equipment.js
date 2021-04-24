@@ -16,7 +16,6 @@ const colors = {
 function Stats({ items }) {
   const array = [];
   const keys = Object.keys(items);
-  console.log(keys);
   for (let index = 0; index < keys.length; index++) {
     const BodyPart = keys[index] + ": ";
     const ItemName = (

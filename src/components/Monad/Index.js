@@ -92,7 +92,7 @@ function PreviousPage() {
 export default function Monad(params) {
   const [isPage, setPage] = useState("");
   useEffect(() => {
-    console.log(number);
+    console.log('Page: ', number);
     setPage(ChapterList[window.location.href.match(/\d+$/)[0]-1]);
   }, [number]);
 

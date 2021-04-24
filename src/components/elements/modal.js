@@ -13,7 +13,7 @@ function Modal(props) {
     });
 
     const cleanup = () => {
-        console.log('cleaning')
+        // console.log('cleaning')
         ReactDOM.unmountComponentAtNode(div);
         div.parentNode.removeChild(div);
         elements.forEach(element => {
@@ -28,7 +28,6 @@ function Modal(props) {
         );
     }).then(result => {
         cleanup();
-        console.log('cleaning', result)
         return result;
     }).catch(error => {
         console.warn(error);

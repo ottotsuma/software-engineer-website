@@ -3,9 +3,13 @@ https://guides.github.com/features/mastering-markdown/
 # To do:
 Change stat pop ups to early & late descriptions + Numeric if needed
 
+Page 32, Stats. 
+
 # Notes:
 
 ## Example below:
+
+https://github.com/ottotsuma/ottotsuma.github.io/blob/master/images/goblin.jpg?raw=true
 
 import React from "react";
 function Intro(props) {
