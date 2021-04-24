@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import React from 'react'
 
-function modal2(props) {
+function Modal2(props) {
 
     const reject = () => {
         // https://stackoverflow.com/questions/56494524/how-to-call-css-class-as-function-in-html-elements
@@ -27,7 +27,7 @@ function modal2(props) {
     )
 }
 
-export default modal2
+export default Modal2
 
 // #0d89eb Dekki Blue
 // #638ad4 Old blue

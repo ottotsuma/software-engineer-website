@@ -10,7 +10,7 @@ import Demon1 from "./../../assets/1.jpg";
 import Demon2 from "./../../assets/2.jpg";
 import Demon3 from "./../../assets/3.jpg";
 
-function intro(props) {
+function Intro(props) {
   return (
     <div className="Monad" id="3">
       <div className="Frame">
@@ -560,7 +560,7 @@ function intro(props) {
     </div>
   );
 }
-export default intro;
+export default Intro;
 
 // A friend who is an enemy
 // Survival game, eat and hide

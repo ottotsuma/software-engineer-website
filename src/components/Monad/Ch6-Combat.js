@@ -3,7 +3,7 @@ import Spells from "./../elements/spells";
 import Stats from "./../elements/stats";
 import Item from "./../elements/item";
 
-function intro(props) {
+function Intro(props) {
   return (
     <div className="Monad" id="3">
       <div className="Frame">
@@ -367,4 +367,4 @@ console.log(damage())--> */}
     </div>
   );
 }
-export default intro;
+export default Intro;

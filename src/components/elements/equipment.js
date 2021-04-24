@@ -13,7 +13,7 @@ const colors = {
 };
 
 // the effects are based on stats not level so it would be something maybe combined into stats?
-function stats({ items }) {
+function Stats({ items }) {
   const array = [];
   const keys = Object.keys(items);
   console.log(keys);
@@ -44,7 +44,7 @@ function stats({ items }) {
     </>
   );
 }
-export default stats;
+export default Stats;
 
 const Title = styled.h1`
   display: flex;

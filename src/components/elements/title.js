@@ -12,18 +12,18 @@ const colors = {
     quest: "gold",
 };
 
-function title(props) {
+function Title(props) {
     return (
         <Main rank={props.rank}>
             <Shine>*Ping*</Shine>{' '}
-             <Title>New Title:</Title> {props.rank ? <Rank >{props.rank}:</Rank>: ''} {props.name} : {props.effect}
+             <TitleStyle>New Title:</TitleStyle> {props.rank ? <Rank >{props.rank}:</Rank>: ''} {props.name} : {props.effect}
         </Main>
     )
 }
 
-export default title
+export default Title
 
-const Title = styled.div`
+const TitleStyle = styled.div`
 color: orange;
 display: contents;
 `;

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import Modal from './modal2'
 
 function modal(props) {
-
+    
     const div = document.body.appendChild(document.createElement('div'));
     const elements = [];
     const draftContainer = document.querySelector('#root');

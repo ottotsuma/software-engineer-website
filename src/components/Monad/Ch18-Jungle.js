@@ -1,5 +1,5 @@
 import React from "react";
-function intro(props) {
+function Intro(props) {
   return (
     <div className="Monad" id="3">
       <div className="Frame">
@@ -556,4 +556,4 @@ and Xic ("Wing") and Patan ("Packstrap"), */}
     </div>
   );
 }
-export default intro;
+export default Intro;

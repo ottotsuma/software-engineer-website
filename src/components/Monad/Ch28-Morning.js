@@ -2,7 +2,7 @@ import React from "react";
 import Stats from "./../elements/stats";
 import Title, {Shine} from './../elements/title'
 
-function intro(props) {
+function Intro(props) {
   return (
     <div className="Monad" id="3">
       <div className="Frame">
@@ -483,4 +483,4 @@ collect or obtain (a resource) for future use.
     </div>
   );
 }
-export default intro;
+export default Intro;

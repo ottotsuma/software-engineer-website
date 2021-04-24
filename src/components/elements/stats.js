@@ -184,7 +184,7 @@ const statList = {
   },
 };
 
-function stats({ stats, type }) {
+function Stats({ stats, type }) {
   const array = [];
   const keys = Object.keys(stats);
   for (let index = 0; index < keys.length; index++) {
@@ -204,7 +204,7 @@ function stats({ stats, type }) {
     </>
   );
 }
-export default stats;
+export default Stats;
 
 const Title = styled.h1`
   display: flex;

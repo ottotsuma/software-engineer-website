@@ -34,7 +34,7 @@ function perc2color(perc) {
     return '#' + ('000000' + h.toString(16)).slice(-6);
 }
 
-function item(props) {
+function Item(props) {
     const array = [];
     if (props.stats) {
         const keys = Object.keys(props.stats);
@@ -80,7 +80,7 @@ function item(props) {
     }
 }
 
-export default item
+export default Item
 
 const Title = styled.h1`
   display: flex;

@@ -5,7 +5,7 @@ import Item from "./../elements/item";
 import Title from "./../elements/title";
 
 
-function intro(props) {
+function Intro(props) {
   return (
     <div className="Monad" id="3">
       <div className="Frame">
@@ -642,4 +642,4 @@ Mana ball (lightning) (Pow: 1), Tether, Magic resistance (passive), Magic up (pa
     </div>
   );
 }
-export default intro;
+export default Intro;

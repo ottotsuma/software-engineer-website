@@ -1,6 +1,6 @@
 import React from "react";
 import Kʼawiil from "./Kʼawiil";
-function intro(props) {
+function Intro(props) {
   return (
     <div className="Monad" id="3">
       <div className="Frame">
@@ -611,4 +611,4 @@ function intro(props) {
     </div>
   );
 }
-export default intro;
+export default Intro;

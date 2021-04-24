@@ -1,7 +1,7 @@
 import React from "react";
 import Item from './../elements/item'
 import Monster from './../../assets/monster.jpg'
-function intro(props) {
+function Intro(props) {
   return (
     <div className="Monad" id="3">
       <div className="Frame">
@@ -39,7 +39,7 @@ function intro(props) {
     </div>
   );
 }
-export default intro;
+export default Intro;
 
 // Vampire type, more blood taken makes them stronger so often conflict with humans
 // Vampire type, more hunger makes them stronger so often hide from humans

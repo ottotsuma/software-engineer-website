@@ -14,7 +14,7 @@ import Weather from "./../assets/weather.png";
 import Blackjack from "./blackjack";
 import styled from 'styled-components'
 
-function story(props) {
+function Story(props) {
   return (
     <div className="Playground">
       <Blackjack />
@@ -116,7 +116,7 @@ function story(props) {
     </div>
   );
 }
-export default story;
+export default Story;
 
 const Titles = styled.h1`
 -webkit-text-fill-color: white; /* Will override color (regardless of order) */

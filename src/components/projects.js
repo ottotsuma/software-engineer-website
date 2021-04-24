@@ -1,7 +1,7 @@
 import React from "react";
 import Spin from "./spinn";
 
-function projects() {
+function Projects() {
     return (
       <div className="App">
         <div className="ProjectsArea">
@@ -13,4 +13,4 @@ function projects() {
     );
   }
 
-export default projects;
+export default Projects;

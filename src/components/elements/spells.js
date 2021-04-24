@@ -265,7 +265,7 @@ const spellList = {
   },
 };
 // Add spell (level/rank). Changes description.
-function spells({ spells, type }) {
+function Spells({ spells, type }) {
   const array = [];
   for (let index = 0; index < spells.length; index++) {
     const element = spellList[spells[index]];
@@ -283,7 +283,7 @@ function spells({ spells, type }) {
     </>
   );
 }
-export default spells;
+export default Spells;
 
 const Title = styled.h1`
   display: flex;

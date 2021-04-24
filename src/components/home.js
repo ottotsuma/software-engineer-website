@@ -1,5 +1,5 @@
 // Import statements
-import React from "react";
+import React, {useState} from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Cog from "./../assets/cog.png";
 import Munchify from "./../assets/512x512.png";
@@ -10,16 +10,15 @@ import styled, { keyframes } from 'styled-components'
 
 import Modal from './elements/modal'
 import Tech from './tech'
-import Timeline from './timeline'
 
-// Change window function
+// Main function
+function Home(props) {
+  // Change window function
 function change(props) {
   const win = window.open(props, "_blank");
   win.focus();
 }
-
-// Main function
-function home() {
+const [show, setShow] = useState(false);
   return (
     <GlassWrapper>
       <Glass>
@@ -119,6 +118,8 @@ function home() {
     </GlassWrapper>
   );
 }
+export default Home;
+
 // https://stackoverflow.com/questions/37669391/how-to-get-rid-of-underline-for-link-component-of-react-router
 const Link2 = styled.div`
 // fake link!
@@ -352,5 +353,3 @@ width: 100px;
 height: 100px;
 border-radius: 50%;
 `;
-
-export default home;
