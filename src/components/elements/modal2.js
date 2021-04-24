@@ -23,7 +23,7 @@ function Modal2(props) {
     console.log(props)
     return (
         <Wrapper>
-            {props.close ? <Outside onClick={() => props.close()}></Outside> : <Outside onClick={() => reject()}></Outside>}
+            {props.close ? <Outside css={'-webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px);'} onClick={() => props.close()}></Outside> : <Outside onClick={() => reject()}></Outside>}
             <Modal className='dynamicWidth' data-width='0'>
                 {props.title ? <h1>{props.title}</h1> : <div></div>}
                 {props.insert}
@@ -57,16 +57,16 @@ const Button = styled.div`
 position: absolute;
 top: 0%;
 left: 0%;
-z-index: 3;
-// background: blue;
+z-index: 9;
 width: 100%;
 height: 100%;
 opacity: 0.4;
+${props => props.css || ''}
 `;
 
  const Modal = styled.div`
 position: absolute;
-z-index: 4;
+z-index: 10;
 background: #161b21;
 padding: 20px;
 opacity: 1;

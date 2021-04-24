@@ -13,6 +13,8 @@ import Tech from './tech'
 
 import Modal2 from './elements/modal2'
 import Timeline from './timeline'
+import Spin from './spinn'
+
 
 // Main function
 function Home(props) {
@@ -27,7 +29,7 @@ function change(props) {
   }
   return (
     <GlassWrapper>
-      {show && <Modal2 title= {'Experience'} insert={'Timeline'} close={updateShow} />}
+      {show && <Modal2 title= {'Experience'} insert={<Spin />} close={updateShow} />}
       <Glass>
         <Profile >
           <div>
@@ -54,7 +56,7 @@ function change(props) {
                 src="https://www.pngfind.com/pngs/m/594-5947621_computer-icons-project-project-plan-black-text-project.png"
                 alt=" "
               />
-              <LinkStyled to="/projects">Projects</LinkStyled>
+              <Link2  onClick={() => updateShow()}>Projects</Link2>
             </Linkey>
             <Linkey>
               <LinkImage
@@ -120,7 +122,7 @@ function change(props) {
           </Box>
         </Right>
       </Glass>
-      <Circle1 onClick={() => updateShow()} />
+      <Circle1 />
       <Circle2 />
     </GlassWrapper>
   );

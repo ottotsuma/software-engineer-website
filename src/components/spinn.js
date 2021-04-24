@@ -10,6 +10,7 @@ import Bug from "./../assets/bug.jpg";
 import Dob from "./../assets/dob.png";
 import Todo from "./../assets/todo.jpg";
 import Weather from "./../assets/weather.png";
+import styled from 'styled-components';
 
 const color3 = "#602080";
 
@@ -17,7 +18,7 @@ export default () => {
   const [activeItemIndex, setActiveItemIndex] = useState(0);
   const chevronWidth = 40;
   return (
-    <div style={{ padding: `0 ${chevronWidth}px` }}>
+    <Wrapper css={`padding: 0 ${chevronWidth}px`}>
       <ItemsCarousel
         requestToChangeActive={setActiveItemIndex}
         activeItemIndex={activeItemIndex}
@@ -28,16 +29,11 @@ export default () => {
         outsideChevron
         chevronWidth={chevronWidth}
       >
-        <div
+        <CardBackground
           className="Project-Card"
-          style={{ height: 490, background: color3 }}
+          
         >
-          <h4>Munchify</h4> <p>2020 September Mobile 14 days</p>
-          <p>
-            This was a group full-stack mobile app built in react-native. I was
-            the tech lead and responsible for keeping the project on track,
-            enforce workflows make decisions to keep moving forward.
-          </p>
+          <h4>Munchify</h4>
           <img className="Screen-Shot" src={Munchify} alt="Screen-Shot" />
           <p>
             Click{" "}
@@ -50,17 +46,12 @@ export default () => {
             </a>{" "}
             to be taken to the app.
           </p>
-        </div>
-        <div
+        </CardBackground>
+        <CardBackground
           className="Project-Card"
-          style={{ height: 490, background: color3 }}
+          
         >
-          <h4>The Secret Box</h4> <p>2020 August OSS/PWA 4 days</p>
-          <p>
-            This progressive web app started as a solo project to show off a MVP
-            I could create alone in a few days and turned into an ongoing OSS
-            project that I maintain.
-          </p>
+          <h4>The Secret Box</h4>
           <img className="Screen-Shot" src={Secret} alt="Screen-Shot" />
           <p>
             Click{" "}
@@ -73,16 +64,12 @@ export default () => {
             </a>{" "}
             to be taken to the app.
           </p>
-        </div>
-        <div
+        </CardBackground>
+        <CardBackground
           className="Project-Card"
-          style={{ height: 490, background: color3 }}
+          
         >
-          <h4>Recipes</h4> <p>2020 January ~ Web application ~ 2 days</p>
-          <p>
-            This web app was crafted using react to combat the problem we all
-            have finding recipes using ingredients you currently have.
-          </p>
+          <h4>Recipes</h4>
           <img className="Screen-Shot" src={Food} alt="Screen-Shot" />
           <p>
             Click{" "}
@@ -95,16 +82,12 @@ export default () => {
             </a>{" "}
             to be taken to the app.
           </p>
-        </div>
-        <div
+        </CardBackground>
+        <CardBackground
           className="Project-Card"
-          style={{ height: 490, background: color3 }}
+          
         >
-          <h4>Monster Search</h4> <p>2020 February Web 9 days</p>
-          <p>
-            This application was in response to a friends request for a monster
-            spell searching app for their hobby.
-          </p>
+          <h4>Monster Search</h4>
           <img className="Screen-Shot" src={Monster} alt="Screen-Shot" />
           <p>
             Click{" "}
@@ -117,16 +100,12 @@ export default () => {
             </a>{" "}
             to be taken to the app.
           </p>
-        </div>
-        <div
+        </CardBackground>
+        <CardBackground
           className="Project-Card"
-          style={{ height: 490, background: color3 }}
+          
         >
-          <h4>Joker</h4> <p>2020 February Web 5 days</p>
-          <p>
-            This application was made for RakutenAPI night. The application was
-            made in VueJs and made of us Rakuten Rapid API service.
-          </p>
+          <h4>Joker</h4>
           <img className="Screen-Shot" src={Joker} alt="Screen-Shot" />
           <p>
             Click{" "}
@@ -139,17 +118,12 @@ export default () => {
             </a>{" "}
             to be taken to the app.
           </p>
-        </div>
-        <div
+        </CardBackground>
+        <CardBackground
           className="Project-Card"
-          style={{ height: 490, background: color3 }}
+          
         >
-          <h4>DOB-Finder (PWA)</h4> <p>2020 April Web 1 day</p>
-          <p>
-            This application was made for Techtalk night. The application was
-            made in to show off how easy it is to make any application a PWA and
-            how it could be helpful for your bussiness.
-          </p>
+          <h4>DOB-Finder (PWA)</h4>
           <img className="Screen-Shot" src={Dob} alt="Screen-Shot" />
           <p>
             Click{" "}
@@ -162,17 +136,12 @@ export default () => {
             </a>{" "}
             to be taken to the app.
           </p>
-        </div>
-        <div
+        </CardBackground>
+        <CardBackground
           className="Project-Card"
-          style={{ height: 490, background: color3 }}
+          
         >
-          <h4>Weather</h4> <p>2020 March Web 1 day</p>
-          <p>
-            This application was made for my personal desk top, to show me the
-            weather when I wake up in the morning, it was made using API's and
-            the location from your browser.
-          </p>
+          <h4>Weather</h4>
           <img className="Screen-Shot" src={Weather} alt="Screen-Shot" />
           <p>
             Click{" "}
@@ -185,17 +154,12 @@ export default () => {
             </a>{" "}
             to be taken to the app.
           </p>
-        </div>
-        <div
+        </CardBackground>
+        <CardBackground
           className="Project-Card"
-          style={{ height: 490, background: color3 }}
+          
         >
-          <h4>Bug Tracker</h4> <p>2020 February Web 1 day</p>
-          <p>
-            This application was made to track bugs on the small projects at
-            Digital Hearts as the client computers cannot be connected to the
-            internet.
-          </p>
+          <h4>Bug Tracker</h4>
           <img className="Screen-Shot" src={Bug} alt="Screen-Shot" />
           <p>
             Click{" "}
@@ -208,15 +172,12 @@ export default () => {
             </a>{" "}
             to be taken to the app.
           </p>
-        </div>
-        <div
+        </CardBackground>
+        <CardBackground
           className="Project-Card"
-          style={{ height: 490, background: color3 }}
+          
         >
-          <h4>To Do</h4> <p>2020 March Web 1 day</p>
-          <p>
-            A small to do app made for Code Chrysalis during the pre-course.
-          </p>
+          <h4>To Do</h4>
           <img className="Screen-Shot" src={Todo} alt="Screen-Shot" />
           <p>
             Click{" "}
@@ -229,13 +190,12 @@ export default () => {
             </a>{" "}
             to be taken to the app.
           </p>
-        </div>
-        <div
+        </CardBackground>
+        <CardBackground
           className="Project-Card"
-          style={{ height: 490, background: color3 }}
+          
         >
-          <h4>Blog</h4> <p>2019 June Web Ongoing</p>
-          <p>A blog website for pratice.</p>
+          <h4>Blog</h4>
           <img className="Screen-Shot" src={Blog} alt="Screen-Shot" />
           <p>
             Click{" "}
@@ -248,13 +208,12 @@ export default () => {
             </a>{" "}
             to be taken to the app.
           </p>
-        </div>
-        <div
+        </CardBackground>
+        <CardBackground
           className="Project-Card"
-          style={{ height: 490, background: color3 }}
+          
         >
-          <h4>Game Calc</h4> <p>2019 June Web 1 day</p>
-          <p>A calculator for a game.</p>
+          <h4>Game Calc</h4>
           <img className="Screen-Shot" src={Blog} alt="Screen-Shot" />
           <p>
             Click{" "}
@@ -267,8 +226,23 @@ export default () => {
             </a>{" "}
             to be taken to the app.
           </p>
-        </div>
+        </CardBackground>
       </ItemsCarousel>
-    </div>
+    </Wrapper>
   );
 };
+
+const Wrapper = styled.div`
+ ${props => props.css || ''};
+ width: 100%;
+overflow: auto;
+* {
+  max-height: 100%;
+}
+`;
+
+const CardBackground = styled.div`
+height: 300px;
+background: #602080;
+${props => props.css || ''};
+`;
