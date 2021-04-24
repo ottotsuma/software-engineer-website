@@ -3,6 +3,12 @@ import React from 'react'
 
 function Modal2(props) {
 
+    // takes 
+    
+    // resolve / reject (functions) || close (function) !important
+    // cancel, title (Strings) 
+    // insert (Thing to render) !important
+
     const reject = () => {
         // https://stackoverflow.com/questions/56494524/how-to-call-css-class-as-function-in-html-elements
         var elements = document.getElementsByClassName("dynamicWidth");
@@ -17,11 +23,11 @@ function Modal2(props) {
     console.log(props)
     return (
         <Wrapper>
-            <Outside onClick={() => reject()}></Outside>
+            {props.close ? <Outside onClick={() => props.close()}></Outside> : <Outside onClick={() => reject()}></Outside>}
             <Modal className='dynamicWidth' data-width='0'>
-                <h1>{props.title}</h1>
+                {props.title ? <h1>{props.title}</h1> : <div></div>}
                 {props.insert}
-                <Button onClick={() => reject()}>{props.cancel || 'Cancel'}</Button>
+                {props.close ? <Button onClick={() => props.close()}>{props.cancel || 'Cancel'}</Button> : <Button onClick={() => reject()}>{props.cancel || 'Cancel'}</Button>}
             </Modal>
         </Wrapper>
     )

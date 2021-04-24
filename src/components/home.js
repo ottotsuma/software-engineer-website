@@ -11,6 +11,9 @@ import styled, { keyframes } from 'styled-components'
 import Modal from './elements/modal'
 import Tech from './tech'
 
+import Modal2 from './elements/modal2'
+import Timeline from './timeline'
+
 // Main function
 function Home(props) {
   // Change window function
@@ -18,9 +21,13 @@ function change(props) {
   const win = window.open(props, "_blank");
   win.focus();
 }
-const [show, setShow] = useState(false);
+  const [show, setShow] = useState(false);
+  function updateShow () {
+    setShow(!show)
+  }
   return (
     <GlassWrapper>
+      {show && <Modal2 title= {'Experience'} insert={'Timeline'} close={updateShow} />}
       <Glass>
         <Profile >
           <div>
@@ -113,7 +120,7 @@ const [show, setShow] = useState(false);
           </Box>
         </Right>
       </Glass>
-      <Circle1 />
+      <Circle1 onClick={() => updateShow()} />
       <Circle2 />
     </GlassWrapper>
   );
