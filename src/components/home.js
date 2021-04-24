@@ -10,6 +10,7 @@ import styled, { keyframes } from 'styled-components'
 
 import Modal from './elements/modal'
 import Tech from './tech'
+import Timeline from './timeline'
 
 // Change window function
 function change(props) {
