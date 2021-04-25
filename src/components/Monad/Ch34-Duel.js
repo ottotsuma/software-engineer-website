@@ -31,6 +31,7 @@ function Intro(props) {
             effect="Generate less agro from monsters."
             src={`https://github.com/ottotsuma/ottotsuma.github.io/blob/master/images/goblin.jpg?raw=true`}
           />
+          {placeholder()}
         </div>
       </div>
     </div>
