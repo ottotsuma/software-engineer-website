@@ -284,7 +284,7 @@ const Right = styled.div`
   justify-content: space-around;
   align-items: center;
   flex: 2;
-  @media screen and (max-width: 350px) {
+  @media screen and (max-width: 426px) {
     display: none;
   }
 `;

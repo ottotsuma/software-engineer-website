@@ -49,7 +49,7 @@ export default Intro;
 
 function placeholder() {
   return (
-    <div>
+    <div className="Content" style={{ overflowWrap: "anywhere" }}>
       <h1>Sea people</h1>
       <p>
         A group of sea travelers with different races. Their classes will be
@@ -195,9 +195,63 @@ function placeholder() {
         on the upside it worked as a kind of compass pointing the way.
       </p>
       <p>
-        Sarah had been to the new land before, getting killed there and having to
-        make the journey again. She said it was like your power is reduced by
-        90% and you have to complete quests and become more familiar with the land to reduce the effects of the miasma.
+        Sarah had been to the new land before, getting killed there and having
+        to make the journey again. She said it was like your power is reduced by
+        90% and you have to complete quests and become more familiar with the
+        land to reduce the effects of the miasma.
+      </p>
+      <p>
+        As each day passed our bodies became weaker and weaker. The journey to
+        get to the new land was really harsh, with no way to teleport, fly or
+        any other means of fast travel we had to take ships. Along the route
+        apart from hobbies like fishing or crafting the only thing to do was
+        defend the ship from sea monsters and flying monsters when we came near
+        little islands.
+      </p>
+      <p>
+        The little islands either had treasure map locations or some item you
+        could only get here which made up for the journey a little. Once the new
+        land was conquered and fast travel locations set up the only people
+        taking this route would be those trying to get to these small islands.
+        Then the price of these items would increase again.
+      </p>
+      <p>
+        Lucky for us today was the final small island before the new land. The
+        miasma reduced our levels up 30% already so this island was the hardest
+        on the journey making it the the most profitable. This was combined with
+        it being the last stop before the new land so most people would be to
+        tempted to move on rather then return back to the old world with items
+        they found here. There were a few but it was rare. Most travelers were
+        like us and would continue on.
+      </p>
+      <p>
+        The island was actually a group of small islands that barely poked out
+        of the ocean. The others had been large volcanoes or atolls and other
+        kinds. From end to end if they where not broken up by the water I was
+        sure you could walk across them in a few hours.
+      </p>
+      <p>
+        Sarah walked over to the side of the ship I was holding onto. She wore
+        the same savoy blue armor and white cloak with her hair in a braided
+        pony tail behind. The difference today was she was holding a black
+        parasol to block out the sun. "Not feeling sick again are you?" She
+        asked, seeing me holding onto the side of the ship.
+      </p>
+      <p>
+        "No, I feel fine. I was just looking at the new islands." I replied. "I
+        hear there is really rare items on this island."
+      </p>
+      <p>
+        "Ah, yeah. You're not wrong. There are gems and rare fish in the waters
+        around the island, they are rare now so they are worth more then they
+        will be once the land is conquered. After that this island is only two
+        days away from the new land." She reasoned.
+      </p>
+      <p>"Mmm but maybe we can use them to trade when we land?" I asked.</p>
+      <p>
+        "I agree. That is the best use for them. They would not be foreign to
+        the locals and that is worth more then gold right now." **** "Oh there
+        is one other thing. "
       </p>
     </div>
   );

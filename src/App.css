@@ -465,6 +465,7 @@ ul {
   border-radius: 0.5rem;
   border-style: solid;
   margin: 0.5rem;
+  padding: 0 10px;
 }
 
 .Tree-Outer {
