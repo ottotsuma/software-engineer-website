@@ -1,5 +1,5 @@
 import React from "react";
-import Item from './../elements/item'
+import Item from "./../elements/item";
 
 function Intro(props) {
   return (
@@ -20,16 +20,17 @@ function Intro(props) {
             fire mages.
           </p>
           <p></p>
-{/* https://ottotsuma.github.io/race */}
-          <Item stats={{
+          {/* https://ottotsuma.github.io/race */}
+          <Item
+            stats={{
               vitality: +1,
               dexterity: +2,
               sense: +1,
-            }} 
-            name={'Goblin'}
-            effect='Generate less agro from monsters.'
+            }}
+            name={"Goblin"}
+            effect="Generate less agro from monsters."
             src={`https://github.com/ottotsuma/ottotsuma.github.io/blob/master/images/goblin.jpg?raw=true`}
-            />
+          />
         </div>
       </div>
     </div>
@@ -115,8 +116,32 @@ function placeholder() {
       </p>
       <p>
         That did not help. I put my face back over the railing to face the sea
-        again.{" "}
+        again.
       </p>
+      <div className="BreakPoint"></div>
+      <p>
+        I found Josh sitting in his bed in a room below deck. The ship only had
+        a few rooms like this, the captains, 3 VIP guest rooms and the ships
+        engineer. Every other passenger, like myself, had to sleep in the same
+        room at the front of the ship, on this same deck. The crew filling the
+        deck below.
+      </p>
+      <p>
+        "Hey I was hoping to ask for some advice." I said waiting at the door to
+        his room. While we have been friendly on the journey, it was to the
+        point I would just walk in uninvited.
+      </p>
+      <p>
+        "Hey sure. Come in, what is it? You're looking less green now." He said
+        waving me inside.
+      </p>
+      <p>
+        I stepped inside and sat on the only chair in the room. "Yeah, I guess I
+        am getting use to it or the sea is becoming calmer. Anyway I heard you
+        are also a rogue class right? I wanted some advice on how I should use
+        my stat points and what skills to learn, it's been awhile."
+      </p>
+      <p></p>
     </div>
   );
 }
