@@ -170,10 +170,35 @@ function placeholder() {
       </p>
       <p>
         "I suddenly don't feel bad for you at all. You got a rare race at level
-        50." He joked. "But hey, what are the skills like for a dark elf? Tell me all the ones you can see, I'll see if they match your play style!" He suddenly seemed excited at finding out something new.
+        50." He joked. "But hey, what are the skills like for a dark elf? Tell
+        me all the ones you can see, I'll see if they match your play style!" He
+        suddenly seemed excited at finding out something new.
       </p>
-      <p>I told him everything I could, from the skills to the bonuses and draw backs of being a dark elf. What he found most surprising was that despite reaching level 50 I never got a pet. The thing was when I reached level 50 I got the race change at the same time so I didn't wait to get a pet. We all make mistakes. So we kept talking until we became hungry.</p>
+      <p>
+        I told him everything I could, from the skills to the bonuses and draw
+        backs of being a dark elf. What he found most surprising was that
+        despite reaching level 50 I never got a pet. The thing was when I
+        reached level 50 I got the race change at the same time so I didn't wait
+        to get a pet. We all make mistakes. So we kept talking until we became
+        hungry.
+      </p>
       <div className="BreakPoint"></div>
+      <p>
+        The crew were starting to get edgy. We knew from the start that they
+        would not go to close to the new land, they would only sail so far then
+        the final part of the journey we would have to do in long boats.
+      </p>
+      <p>
+        Everyone knew we were close. Although the NPC's didn't say how they
+        knew, we could all see the miasma debuff on our status screens. The
+        closer we got to the new land the stronger the debuff was getting, but
+        on the upside it worked as a kind of compass pointing the way.
+      </p>
+      <p>
+        Sarah had been to the new land before, getting killed there and having to
+        make the journey again. She said it was like your power is reduced by
+        90% and you have to complete quests and become more familiar with the land to reduce the effects of the miasma.
+      </p>
     </div>
   );
 }
