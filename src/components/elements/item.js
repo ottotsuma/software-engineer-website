@@ -5,8 +5,9 @@ import styled from 'styled-components';
 // height: || 300px
 // width: || 300px
 // stats object {key:value} || No stats to show.
-// name || No Name!
-// effect || No Special Effect!
+// name || ''
+// effect || ''
+// long // for long writing below the item. Don't use with image!
 
 const colors = {
     junk: "rgb(109, 109, 109)",
@@ -60,9 +61,9 @@ function Item(props) {
         return (
             <Main>
                 <CardNoImage bottom={props.effect ? '10px':'0px'}>
-                    <TitleItem color={colors[props.rating]}>{props.name || 'No Name!'}</TitleItem>
+                    <TitleItem color={colors[props.rating]}>{props.name || ''}</TitleItem>
                     <Span>{array}</Span>
-                    {props.effect ? <Name>{props.effect || 'No Special Effect!'}</Name> : <div></div>}
+                    {props.effect ? <Name>{props.effect}</Name> : <div></div>}
                 </CardNoImage>
                 {props.long ? <div>{props.long}</div> : <div></div>}
             </Main>
@@ -71,9 +72,9 @@ function Item(props) {
         return (
             <Main>
                 <Card height={props.height} width={props.width} src={props.src}>
-                    {props.rating ? <TitleItem color={colors[props.rating]}>{props.name || 'No Name!'}</TitleItem> : <Title color={colors[props.rating]}>{props.name || 'No Name!'}</Title>}
+                    {props.rating ? <TitleItem color={colors[props.rating]}>{props.name || ''}</TitleItem> : <Title color={colors[props.rating]}>{props.name || ''}</Title>}
                     <Span>{array}</Span>
-                    <Name>{props.effect || 'No Special Effect!'}</Name>
+                    {props.effect ? <Name style={{background:"#f8f8ff"}}>{props.effect}</Name> : <div></div>}
                 </Card>
             </Main>
         )
