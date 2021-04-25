@@ -141,9 +141,44 @@ function placeholder() {
         are also a rogue class right? I wanted some advice on how I should use
         my stat points and what skills to learn, it's been awhile."
       </p>
-      <p></p>
+      <p>
+        "Ah yeah. I mean I am a rouge type... My class is assassin, which is a
+        type of rouge but I have a very specific play style and set of skills.
+        If you want that kind of play style I can share my build with you but if
+        it is just generic advice for rouges or play styles I can still help.
+        After all I have been playing since launch. I mean, when I am not
+        working that is." He smiled, he was a little more relaxed and less
+        serious then Sarah. I guess that was to be expected. Josh had a normal
+        day job and played the game for fun but Sarah was a professional gamer.
+        This was her job.
+      </p>
+      <p>
+        "Well, to be honest I don't really know what the meta is like now. What
+        is the best build or style you know? I reached level 50 before but when
+        my race changed I have only been able to get back to level 37 now." I
+        admitted.
+      </p>
+      <p>
+        "Ah bummer man. You must of got an unlucky role. Dark elf is still a
+        humanoid race of the same rarity as human right?" He asked.
+      </p>
+      <p>
+        "Ah no, it is a rare rated race. So I went one rarity up, and although
+        its humanoid it is a species of elf so I jumped two races... So instead
+        of the random level reduction it took me back to level 1." I replied.
+      </p>
+      <p>
+        "I suddenly don't feel bad for you at all. You got a rare race at level
+        50." He joked. "But hey, what are the skills like for a dark elf? Tell me all the ones you can see, I'll see if they match your play style!" He suddenly seemed excited at finding out something new.
+      </p>
+      <p>I told him everything I could, from the skills to the bonuses and draw backs of being a dark elf. What he found most surprising was that despite reaching level 50 I never got a pet. The thing was when I reached level 50 I got the race change at the same time so I didn't wait to get a pet. We all make mistakes. So we kept talking until we became hungry.</p>
+      <div className="BreakPoint"></div>
     </div>
   );
 }
 
 // Team bonuses for each of them?
+// same class and rank - 0 ~ 9 e.g. Rogue (normal) to Rogue-subtype (normal)
+// one rank up same class - 20 ~ 50
+// same rank different class - 20 ~ 50
+// one rank up, different class - Full reset
