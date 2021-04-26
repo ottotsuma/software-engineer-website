@@ -250,9 +250,10 @@ function placeholder() {
       <p>"Mmm but maybe we can use them to trade when we land?" I asked.</p>
       <p>
         "I agree. That is the best use for them. They would not be foreign to
-        the locals and that is worth more then gold right now." **** "Oh there
-        is one other thing. "
+        the locals and that is worth more then gold right now." She said. "Oh there
+        is one other thing. I heard a rumor from other ***** a **** is living under the island."
       </p>
+      {/* https://en.wikipedia.org/wiki/Astral_projection */}
     </div>
   );
 }

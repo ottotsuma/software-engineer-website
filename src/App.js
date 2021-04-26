@@ -38,7 +38,6 @@ background: linear-gradient(
   rgba(34, 89, 195, 0.7) 9%,
   rgba(45, 253, 209, 0.3) 100%
 );
-/* background-color: #202040; */
 color: whitesmoke;
 min-height: 100vh;
 display: flex;
