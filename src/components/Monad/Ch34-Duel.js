@@ -258,7 +258,8 @@ function placeholder() {
       <p>"Astral? What's that?" I asked confused.</p>
       <p>"Right, I forgot it has been awhile since you last played. Do you remember what the tutorial rabbit calls you when you wake up? It's the name for players. Non-NPC's. Astral soul projection, how your soul ends up in this body in this world." She explained.</p>
       <p>"Right, yeah. I forgot that person." I said rubbing my chest. She is half bunny half human woman. You would think she was a nice charming person bring people into the world and showing them around. The reality was she is disgusted by you and kicks you into the world by force!</p>
-      <p></p>
+      {/* She thinks the player has taken the body of the dead or something with their soul inside. Not that the player is an astral body which is the reality. */}
+      <p>""</p>
     </div>
   );
 }
