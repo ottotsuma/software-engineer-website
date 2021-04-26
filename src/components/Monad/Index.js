@@ -94,6 +94,7 @@ export default function Monad(params) {
   useEffect(() => {
     console.log('Page: ', number);
     setPage(ChapterList[window.location.href.match(/\d+$/)[0]-1]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [number]);
 
   function myFunction() {

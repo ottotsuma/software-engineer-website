@@ -31,6 +31,7 @@ function Blackjack() {
 
   useEffect(() => {
     restart();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   function createDeck() {
