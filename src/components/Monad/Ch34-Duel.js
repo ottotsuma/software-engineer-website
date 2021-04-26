@@ -253,9 +253,11 @@ function placeholder() {
         the locals and that is worth more then gold right now." She said. "Oh there
         is one other thing. I heard a rumor from other ***** a prince is living under the island."
       </p>
+      {/* https://en.wikipedia.org/wiki/Astral_projection */}
+
       <p>"**** ? What's that?" I asked confused.</p>
       <p>"Right, I forgot it has been awhile since you last played. Do you remember what the tutorial rabbit calls you when you wake up? It's the name for players. Non-NPC's." She explained.</p>
-      {/* https://en.wikipedia.org/wiki/Astral_projection */}
+      <p>"Right, yeah. I forgot that person."</p>
     </div>
   );
 }
