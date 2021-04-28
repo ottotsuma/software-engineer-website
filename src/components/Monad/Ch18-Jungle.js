@@ -98,23 +98,23 @@ function Intro(props) {
           <p>
             "Let's camp inside of the entrance, if it is dangerous we would only be running away from this place anyway." Shrorlei said.
           </p>
-{/* Here */}
+
           <p>
-            Raina - "That sounds good, we brought food and water but not any
-            camping equipment it would be good to save energy and mana on not
-            having to build extensive shelter."
+            "That sounds good, we brought food and water but not any
+            camping equipment it would be good to save our energy and mana on not
+            having to build extensive shelter." Raina added. 
           </p>
 
           <p>
-            The group was in agreement and we set up the stairs. It was not long
+            We were in agreement and set off up the stairs. It was not long
             before the complaints rolled in.
           </p>
+          <p>"Carry me." Volker said to Raina.</p>
 
-          <p>Volker - "Carry me."</p>
+          <p>"No. Carry me." Raina replied.</p>
 
-          <p>Raina - "No. Carry me."</p>
-
-          <p>Volker - "There are so many stairs!"</p>
+          <p>"There are so many stairs!" Volker bellowed to the air.</p>
+{/* Here */}
 
           <p>
             Shrorlei - "The moss makes each step like standing on a pile of
