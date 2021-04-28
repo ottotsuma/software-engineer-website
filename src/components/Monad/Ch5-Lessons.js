@@ -1,6 +1,30 @@
 import React from "react";
 import Spells from "./../elements/spells";
 import Stats from "./../elements/stats";
+import styled from 'styled-components';
+
+/* Elementals */
+
+const Elementals = styled.div`
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+max-width: 100vw;
+flex-wrap: wrap;
+`;
+
+const Element = styled.div`
+border-color: black;
+border-style: solid;
+border-width: 0.1rem;
+margin: 1rem;
+background: white;
+ img {
+  width: 8rem;
+  height: 10rem;
+ }
+`;
 
 function Intro(props) {
   return (
@@ -51,64 +75,64 @@ function Intro(props) {
             with chalk.
           </p>
 
-          <div className="Elementals">
-            <div className="Element">
+          <Elementals>
+            <Element>
               <img
                 className="Element-Image"
                 alt="Fire"
                 src="https://i.pinimg.com/originals/4d/ca/d9/4dcad98ff2d9aba671b56957ab5d70a2.gif"
               />
               <p>Fire</p>
-            </div>
-            <div className="Element">
+            </Element>
+            <Element>
               <img
                 className="Element-Image"
                 alt="Fire"
                 src="https://i.pinimg.com/originals/22/86/5d/22865d4b8b7e517dce1b60a2988c8482.gif"
               />
               <p>Lightning</p>
-            </div>
-            <div className="Element">
+            </Element>
+            <Element>
               <img
                 className="Element-Image"
                 alt="Fire"
                 src="https://i.pinimg.com/originals/e5/a4/c2/e5a4c2e0ce407b50e52b9a7dd13ded12.gif"
               />
               <p>Wind</p>
-            </div>
-            <div className="Element">
+            </Element>
+            <Element>
               <img
                 className="Element-Image"
                 alt="Fire"
                 src="https://i.pinimg.com/originals/a1/91/8d/a1918dab1090f13a25a0550d111918a3.gif"
               />
               <p>Earth</p>
-            </div>
-            <div className="Element">
+            </Element>
+            <Element>
               <img
                 className="Element-Image"
                 alt="Fire"
                 src="https://i.pinimg.com/originals/53/39/30/53393042b7d6b478cb8f450127cded85.gif"
               />
               <p>Water</p>
-            </div>
-            <div className="Element">
+            </Element>
+            <Element>
               <img
                 className="Element-Image"
                 alt="Fire"
                 src="https://i.pinimg.com/originals/13/f2/a9/13f2a99f60457a624fae45d7be0bad65.gif"
               />
               <p>Wood</p>
-            </div>
-            <div className="Element">
+            </Element>
+            <Element>
               <img
                 className="Element-Image"
                 alt="Fire"
                 src="https://media2.giphy.com/media/ZRrzq9KNSjWik/giphy.gif"
               />
               <p>Metal</p>
-            </div>
-          </div>
+            </Element>
+          </Elementals>
           <p>
             "Each element has a set of spells that come with it. These elements
             behind me are common elements found though the whole continent. If
