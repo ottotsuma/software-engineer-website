@@ -89,46 +89,35 @@ function Intro(props) {
             over the pyramid which had become hidden and unused in the jungle, I felt as this was more evidence to my
             theory that the jungle came after but maybe I am just projecting my theory onto reality.
           </p>
-
           <p>
             "Explore or make camp? If we head back now we won't arrive back before the end of the day, if we explore we might risk going without
             making camp." Reingard said.
           </p>
-
           <p>
             "Let's camp inside of the entrance, if it is dangerous we would only be running away from this place anyway." Shrorlei said.
           </p>
-
           <p>
             "That sounds good, we brought food and water but not any
             camping equipment it would be good to save our energy and mana on not
             having to build extensive shelter." Raina added. 
           </p>
-
           <p>
             We were in agreement and set off up the stairs. It was not long
             before the complaints rolled in.
           </p>
           <p>"Carry me." Volker said to Raina.</p>
-
           <p>"No. Carry me." Raina replied.</p>
-
           <p>"There are so many stairs!" Volker bellowed to the air.</p>
+          <p>
+            "The moss makes each step like standing on a pile of
+            worms." Shrorlei said like something cold ran down her spine.
+          </p>
+          <p>
+            "Can't we take a break, we have awhile until night fall." Reingard panted.
+          </p>
+          <p>"47...48....49" Otto mumbled while walking past me.</p>
+          <p>"Do you HAVE to count!?" I screamed.</p>
 {/* Here */}
-
-          <p>
-            Shrorlei - "The moss makes each step like standing on a pile of
-            worms."
-          </p>
-
-          <p>
-            Reingard - "Can't we take a break, we have awhile until night fall."
-          </p>
-
-          <p>Otto - "47...48....49"</p>
-
-          <p>Tisiel - "Do you HAVE to count!?"</p>
-
           <p>
             As soon as we arrived at the top the group fell down all around the
             top of the stairs, I stood and stared into the dark entrance, it was
