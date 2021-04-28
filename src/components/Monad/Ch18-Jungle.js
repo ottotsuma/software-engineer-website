@@ -44,7 +44,7 @@ function Intro(props) {
             would be wrong to call that rock big.
           </p>
           <p>
-             "Still thinking about the rock? You have that face again
+            "Still thinking about the rock? You have that face again
             like there is something to solve." Reingard asked sitting down next to me.
           </p>
           <p>
@@ -60,7 +60,7 @@ function Intro(props) {
           </p>
           {/* The map is from a book found on the dead man on Otto's side journey */}
           <p>
-          Reingard hugged me around the shoulders and said. "Relax a bit, we will find more answers when we arrive."
+            Reingard hugged me around the shoulders and said. "Relax a bit, we will find more answers when we arrive."
           </p>
 
           <p>
@@ -99,7 +99,7 @@ function Intro(props) {
           <p>
             "That sounds good, we brought food and water but not any
             camping equipment it would be good to save our energy and mana on not
-            having to build extensive shelter." Raina added. 
+            having to build extensive shelter." Raina added.
           </p>
           <p>
             We were in agreement and set off up the stairs. It was not long
@@ -117,32 +117,30 @@ function Intro(props) {
           </p>
           <p>"47...48....49" Otto mumbled while walking past me.</p>
           <p>"Do you HAVE to count!?" I screamed.</p>
-{/* Here */}
           <p>
-            As soon as we arrived at the top the group fell down all around the
-            top of the stairs, I stood and stared into the dark entrance, it was
-            a large room inside, there where no lights so I threw out a manaball
-            inside and found that there was only one thing inside the room. A
-            large decagon table like structure inside, made of stone that sloped
+            As soon as we arrived at the top we all fell down, sitting around the
+            top of the stairs. I sat and stared into the dark entrance, inside
+            was large room, there were no lights so I threw out a manaball
+            and found that there was only one thing inside the room.
+            A large decagon shaped table inside, made of stone that sloped
             from the edges into the middle. On each section was a symbol,
-            matching those from before, in the center was a small fist sized
+            matching the kind I found in the book, in the center was a small fist sized
             hole.
           </p>
-
           <p>
             While the others rested I took out my notes and copied down the
-            symbol's and tried to match them to ones I already knew. There was
-            four unknowns, Bone Staff, Skull Staff, two unknowns, Wing and
+            symbol's. I tried to match them to ones I already knew, there was:
+            four I did not know, then a Bone Staff, a Skull Staff, two more unknowns, a Wing and
             another unknown. I started to look though the book for similar
             markings.
           </p>
+          {/* Xiquiripat ("Flying Scab") and Cuchumaquic ("Gathered Blood"), who sicken people's blood;
+              Ahalpuh ("Pus Demon") and Ahalgana ("Jaundice Demon"), who cause people's bodies to swell up;
+              Chamiabac ("Bone Staff") and Chamiaholom ("Skull Staff"), who turn dead bodies into skeletons;
+              Ahalmez ("Sweepings Demon") and Ahaltocob ("Stabbing Demon"), who hide in the unswept areas of people's houses and stab them to death;
+              and Xic ("Wing") and Patan ("Packstrap"), */}
 
-          {/*  Xiquiripat ("Flying Scab") and Cuchumaquic ("Gathered Blood"), who sicken people's blood;
-Ahalpuh ("Pus Demon") and Ahalgana ("Jaundice Demon"), who cause people's bodies to swell up;
-Chamiabac ("Bone Staff") and Chamiaholom ("Skull Staff"), who turn dead bodies into skeletons;
-Ahalmez ("Sweepings Demon") and Ahaltocob ("Stabbing Demon"), who hide in the unswept areas of people's houses and stab them to death;
-and Xic ("Wing") and Patan ("Packstrap"), */}
-
+          {/* Here */}
           <h4>Volker</h4>
           <p>
             Seeing Tisiel distracted as soon as we arrive I light a manaball and
