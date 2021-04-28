@@ -140,10 +140,9 @@ function Intro(props) {
               Ahalmez ("Sweepings Demon") and Ahaltocob ("Stabbing Demon"), who hide in the unswept areas of people's houses and stab them to death;
               and Xic ("Wing") and Patan ("Packstrap"), */}
 
-          {/* Here */}
           <h4>Volker</h4>
           <p>
-            Seeing Raina collapsed on the floor as soon as we arrive, I joined her for a moment before I became curious. I lit a fire-manaball and
+            Seeing Raina collapsed on the floor as soon as we arrive, I joined her for a moment before I became curious. I lit a manaball and
             walked around the pyramid, the walls where carved with scenes of
             everyday life, farmers, gold smiths, weapon makers & warriors. The
             scenes flowed one into another, on the back wall was a carving
@@ -151,10 +150,10 @@ function Intro(props) {
             masses blow. It suddenly felt as if cold wet eyes where looking at
             the back of my head.
           </p>
-{/* Check temple => pyramid */}
+          {/* Check temple => pyramid */}
           <p>
             I infused fire into my manaball, the others stared at me but I was
-            more concerned about the wet eyes that watched my actions. I
+            more concerned about the wet eyes that were watching me. I
             breathed in. Turning suddenly and looking in the direction of the
             feeling, on the roof I saw another carving looking down on us.
           </p>
@@ -162,16 +161,16 @@ function Intro(props) {
           <p>
             Something about the carving felt wet. It was a mess of writing of
             tendrils flopping and falling over each other with a pair of black
-            eyes in the middle. They appeared to be staring at me.
+            eyes in the middle. I was sure they were staring at me.
           </p>
+{/* here */}
+          <p>Raina saw me staring at the ceiling and asked. "What is it? That carving is a bit creepy."</p>
 
-          <p>Raina - "What is it? That carving is a bit creepy."</p>
+          <p>"Not sure, I felt like it was watching me." I replied keeping my eyes fixed to the roof.</p>
 
-          <p>"Not sure, I felt like it was watching me."</p>
+          <p>Reingard walked over and said. "Sure is creepy. What is it Tisiel?"</p>
 
-          <p>Reingard - "Sure is creepy. What is it Tisiel?"</p>
-
-          <p>Tisiel - "Dunno yet. Their god? Not sure."</p>
+          <p>"Dunno yet. Their god? Not sure." Tisiel replied </p>
 
           <p>
             We made camp inside the room, and waited for the sun to rise the
