@@ -6,73 +6,67 @@ function Intro(props) {
         <div className="Content">
           <h4>Jungle Run</h4>
           <p>
-            The group took me though the jungle, deeper in it became hard to
-            find the key locations on the map, the monsters here are often
-            weaker then the other area's this is maybe why the nobles set up
-            there houses around this area. The jungle became thick quickly on
-            this side, the nobles who often left the work of maintaining the
-            woodland to their peasants on our home continent had all but
-            abandoned the idea of doing themselves here. The next landmark we
-            were looking for on the map was a large rock, descriptive I Know,
-            but as far as I can translate these symbol's mean large rock and
-            there is a picture of a rock that looks like the upturned claw.
-          </p>
-
-          <p>"You said a large rock."</p>
-
-          <p>"Yes, well, it is somewhat big compared to other rocks."</p>
-
+            The group took me into the jungle on the east side of the academy. The jungle became thick quickly on
+            this side of the academy, the nobles who often left the work of maintaining the
+            woodland to their peasants had all but
+            abandoned the idea of doing themselves here.</p>
           <p>
-            "The other landmarks where at least 3 times the height of a man,
-            this is. Well it's not small but it's no taller then me, how were we
+            The deeper into the jungle the harder it became to
+            find the key locations on the map.
+            "The next landmark we
+            were looking for was a large rock, descriptive I know." I said.
+            "As far as I can translate these symbol's mean large rock"
+          </p>
+          {/* there is a picture of a rock that looks like the upturned claw. */}
+          <p>"Tisiel did you say a large rock?" Reingard asked.</p>
+
+          <p>"Yes, well, one that is somewhat big compared to other rocks." I replied helplessly.</p>
+
+          <p>We walked for hours until we found a rock that kind of looked like a round obelisk, since it was unlikely to be natural I figured this must be the one on the map.</p>
+          <p>
+            "The other landmarks where at least 3 times the height of a man.
+            This is... Well it's not small but it's no taller then me, how were we
             suppose to find this in the jungle? The damn trees are taller, this
-            cannot be it."
+            cannot be it." Reingard ejaculated.
           </p>
 
           <p>
-            "Trees? Yes, there are trees." The group looked to me as if I was
+            "Trees? Yes, there are trees!" The group looked to me as if I was
             the one who had gone mad. "No look at the map! There are no trees,
             no mention of trees. If this rock where in a grassy field you would
-            call it a big rock. But this map is drawn without trees....Why no
-            trees?"
+            call it a big rock. However this map is drawn without trees....Why no
+            trees?" I asked to myself.
           </p>
 
           <p>
-            The group made their way the rock pointed, we followed it for a few
-            hours before stopping for lunch. I could not take my mind off the
-            trees. There were no trees. The map maker could not of missed them,
+            We took a break to eat lunch around the large rock and I could not take my mind off the trees. There were no trees. The map maker could not of missed them,
             even if he overlooked the trees because they where everywhere it
             would be wrong to call that rock big.
           </p>
+          <p>
+             "Still thinking about the rock? You have that face again
+            like there is something to solve." Reingard asked sitting down next to me.
+          </p>
+          <p>
+            "I just, but the rock IS smaller then the trees and there is no trees on the map. It would be weird to note the rock if there were
+            trees." I said frustrated.
+          </p>
+          <p>"Perhaps the book is older then you thought?" Reingard asked.</p>
 
           <p>
-            Reingard "Still thinking about the rock? You have that face again
-            like there is something to solve."
+            Bitting down on my lip. "I suppose it could be but it doesn't make
+            sense. The book cannot be more then 100 years old, yet it has a map
+            of the academy with no trees. On top of that, it was found in Alden not in the academy. Too many mysteries."
+          </p>
+          {/* The map is from a book found on the dead man on Otto's side journey */}
+          <p>
+          Reingard hugged me around the shoulders and said. "Relax a bit, we will find more answers when we arrive."
           </p>
 
           <p>
-            "I just, but the rock IS smaller then the trees and no trees are
-            mentioned. It would be weird to note the rock if there were the
-            trees."
-          </p>
-
-          <p>Reingard - "Perhaps the book is older then you thought?"</p>
-
-          <p>
-            Bitting down on my lip "I suppose it could be but it doesn't make
-            sense the book cannot be more then 100 years old. Yet it has a map
-            of the academy with no trees, and was found on the main land. Too
-            many mysteries."
-          </p>
-
-          <p>
-            Reingard "Relax a bit, we will find more answers when we arrive."
-          </p>
-
-          <p>
-            Nodding, "yeah, you are right. As usual." I smiled at Reingard. It
-            felt awkward to be around the others, I could not be myself with him
-            like this. This time we would be looking for the landmark we came
+            Nodding my head. "Yeah, you are right. As usual." I smiled at Reingard. It
+            felt awkward around the others, I could not be myself with him
+            like this.　Lunch was over and this time we would be looking for the landmark we came
             here for, it looked in the drawings stacks of squares stacked on top
             of each other becoming smaller to the top. Not unlike the pyramids
             found in Pocotcotcan literature.
@@ -87,28 +81,24 @@ function Intro(props) {
               alt="Pyramid"
             />
           </div>
-
           <p>
             It took half of the afternoon for us to find a small stream which
-            took us to the pyramid, in among the trees and vines was a structure
+            took us to the pyramid. In among the trees and vines was a structure
             of squares slowly becoming smaller until on top stood the entrance
-            way in the shape of a large stone square. Vegetation had grown all
-            over the pyramid which had fallen hidden and unused in the jungle
-            which had grown around it, I felt as this was more evidence to my
-            theory but maybe I am just projecting my theory onto reality.
+            in the shape of a large stone square. Vegetation had grown all
+            over the pyramid which had become hidden and unused in the jungle, I felt as this was more evidence to my
+            theory that the jungle came after but maybe I am just projecting my theory onto reality.
           </p>
 
           <p>
-            "Explore or make camp? If we head back now we won't arrive back
-            until late in the night, if we explore we might risk going without
+            "Explore or make camp? If we head back now we won't arrive back before the end of the day, if we explore we might risk going without
             making camp." Reingard said.
           </p>
 
           <p>
-            Shrorlei - "We could make camp inside the entrance way, we could
-            still retreat if we need to and it would shelter us a little more."
+            "Let's camp inside of the entrance, if it is dangerous we would only be running away from this place anyway." Shrorlei said.
           </p>
-
+{/* Here */}
           <p>
             Raina - "That sounds good, we brought food and water but not any
             camping equipment it would be good to save energy and mana on not

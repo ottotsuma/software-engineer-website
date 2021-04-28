@@ -107,8 +107,8 @@ Tisiel Skivali - (cliffs) imperial name,(huonoia) - scholar/necromancer (GONE)
 <li>HILDEBOLD - (water)
 <li>PETSCHE - (Wind)
 <li>NYMANDUS - (light) (DEAD)
-<li>Volker - Arena (fire)
-<li>Raina - Arena (water)
+<li>Volker - Arena (fire) + Jungle
+<li>Raina - Arena (water) + Jungle
 <li>Takeo - Tsuma house hold guard. Met outside of the tomb of the dead immortals
 <li>Arrilian Sirillin - head of the first years at the academy, 68 years old from the kingdom, noble.
 <li>Lenne Klein (means small) - student welfare at the academy
