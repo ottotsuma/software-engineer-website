@@ -143,15 +143,15 @@ function Intro(props) {
           {/* Here */}
           <h4>Volker</h4>
           <p>
-            Seeing Tisiel distracted as soon as we arrive I light a manaball and
-            walked around the temple, the walls where carved with scenes of
+            Seeing Raina collapsed on the floor as soon as we arrive, I joined her for a moment before I became curious. I lit a fire-manaball and
+            walked around the pyramid, the walls where carved with scenes of
             everyday life, farmers, gold smiths, weapon makers & warriors. The
-            scenes flowed one into another where on the back wall was a picture
-            of the temple and a priest holding up an object on display for the
+            scenes flowed one into another, on the back wall was a carving
+            of the pyramid and a priest holding up an object on display for the
             masses blow. It suddenly felt as if cold wet eyes where looking at
             the back of my head.
           </p>
-
+{/* Check temple => pyramid */}
           <p>
             I infused fire into my manaball, the others stared at me but I was
             more concerned about the wet eyes that watched my actions. I
