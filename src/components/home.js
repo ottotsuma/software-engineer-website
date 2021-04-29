@@ -16,6 +16,15 @@ import Timeline from './timeline'
 import Spin from './spinn'
 
 const Language = {
+  ja: {
+    name: "ダラー・ショーン",
+    projects: "プロジェクト",
+    experience: "経験",
+    tech: "技術的なスキル",
+    blackjack: "ブラックジャック",
+    hi: "こんにちは！",
+    lang: "English"
+  },
   en: {
     name: "Shaun Darragh",
     projects: "Projects",
@@ -24,10 +33,6 @@ const Language = {
     blackjack: "BlackJack",
     hi: "Hi!",
     lang: "日本語"
-  },
-  ja: {
-    name: "ダラー・ショーン",
-    lang: "English"
   }
 }
 
@@ -268,9 +273,7 @@ white-space: nowrap;
 &:hover {
     background: #2CA8FF;
 }
-@media screen and (max-width: 650px) {
   padding 0 10px;
-}
 `;
 
 const breatheAnimation = keyframes`
