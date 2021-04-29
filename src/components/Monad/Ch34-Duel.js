@@ -1,11 +1,10 @@
 import React from "react";
 import Item from "./../elements/item";
+import { Content } from "./styles"
 
 function Intro(props) {
   return (
-    <div className="Monad" id="3">
-      <div className="Frame">
-        <div className="Content">
+        <Content>
           <h3>Duel</h3>
           <p>
             Linhart wore a bright red robe with white trim. Second years wore
@@ -32,9 +31,7 @@ function Intro(props) {
             src={`https://github.com/ottotsuma/ottotsuma.github.io/blob/master/images/goblin.jpg?raw=true`}
           />
           {placeholder()}
-        </div>
-      </div>
-    </div>
+        </Content>
   );
 }
 export default Intro;
@@ -49,7 +46,7 @@ export default Intro;
 
 function placeholder() {
   return (
-    <div className="Content" style={{ overflowWrap: "anywhere" }}>
+    <Content style={{ overflowWrap: "anywhere" }}>
       <h1>Sea people</h1>
       <p>
         A group of sea travelers with different races. Their classes will be
@@ -290,8 +287,7 @@ function placeholder() {
         there.
       </p>
       <div className="BreakPoint"></div>
-
-    </div>
+    </Content>
   );
 }
 

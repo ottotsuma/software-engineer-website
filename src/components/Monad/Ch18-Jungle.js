@@ -6,49 +6,58 @@ function Intro(props) {
         <div className="Content">
           <h4>Jungle Run</h4>
           <p>
-            The group took me into the jungle on the east side of the academy. The jungle became thick quickly on
-            this side of the academy, the nobles who often left the work of maintaining the
-            woodland to their peasants had all but
-            abandoned the idea of doing themselves here.</p>
+            The group took me into the jungle on the east side of the academy.
+            The jungle became thick quickly on this side of the academy, the
+            nobles who often left the work of maintaining the woodland to their
+            peasants had all but abandoned the idea of doing themselves here.
+          </p>
           <p>
-            The deeper into the jungle the harder it became to
-            find the key locations on the map.
-            "The next landmark we
-            were looking for was a large rock, descriptive I know." I said.
-            "As far as I can translate these symbol's mean large rock"
+            The deeper into the jungle the harder it became to find the key
+            locations on the map. "The next landmark we were looking for was a
+            large rock, descriptive I know." I said. "As far as I can translate
+            these symbol's mean large rock"
           </p>
           {/* there is a picture of a rock that looks like the upturned claw. */}
           <p>"Tisiel did you say a large rock?" Reingard asked.</p>
 
-          <p>"Yes, well, one that is somewhat big compared to other rocks." I replied helplessly.</p>
+          <p>
+            "Yes, well, one that is somewhat big compared to other rocks." I
+            replied helplessly.
+          </p>
 
-          <p>We walked for hours until we found a rock that kind of looked like a round obelisk, since it was unlikely to be natural I figured this must be the one on the map.</p>
+          <p>
+            We walked for hours until we found a rock that kind of looked like a
+            round obelisk, since it was unlikely to be natural I figured this
+            must be the one on the map.
+          </p>
           <p>
             "The other landmarks where at least 3 times the height of a man.
-            This is... Well it's not small but it's no taller then me, how were we
-            suppose to find this in the jungle? The damn trees are taller, this
-            cannot be it." Reingard ejaculated.
+            This is... Well it's not small but it's no taller then me, how were
+            we suppose to find this in the jungle? The damn trees are taller,
+            this cannot be it." Reingard ejaculated.
           </p>
 
           <p>
             "Trees? Yes, there are trees!" The group looked to me as if I was
             the one who had gone mad. "No look at the map! There are no trees,
             no mention of trees. If this rock where in a grassy field you would
-            call it a big rock. However this map is drawn without trees....Why no
-            trees?" I asked to myself.
+            call it a big rock. However this map is drawn without trees....Why
+            no trees?" I asked to myself.
           </p>
 
           <p>
-            We took a break to eat lunch around the large rock and I could not take my mind off the trees. There were no trees. The map maker could not of missed them,
-            even if he overlooked the trees because they where everywhere it
-            would be wrong to call that rock big.
+            We took a break to eat lunch around the large rock and I could not
+            take my mind off the trees. There were no trees. The map maker could
+            not of missed them, even if he overlooked the trees because they
+            where everywhere it would be wrong to call that rock big.
           </p>
           <p>
-            "Still thinking about the rock? You have that face again
-            like there is something to solve." Reingard asked sitting down next to me.
+            "Still thinking about the rock? You have that face again like there
+            is something to solve." Reingard asked sitting down next to me.
           </p>
           <p>
-            "I just, but the rock IS smaller then the trees and there is no trees on the map. It would be weird to note the rock if there were
+            "I just, but the rock IS smaller then the trees and there is no
+            trees on the map. It would be weird to note the rock if there were
             trees." I said frustrated.
           </p>
           <p>"Perhaps the book is older then you thought?" Reingard asked.</p>
@@ -56,20 +65,22 @@ function Intro(props) {
           <p>
             Bitting down on my lip. "I suppose it could be but it doesn't make
             sense. The book cannot be more then 100 years old, yet it has a map
-            of the academy with no trees. On top of that, it was found in Alden not in the academy. Too many mysteries."
+            of the academy with no trees. On top of that, it was found in Alden
+            not in the academy. Too many mysteries."
           </p>
           {/* The map is from a book found on the dead man on Otto's side journey */}
           <p>
-            Reingard hugged me around the shoulders and said. "Relax a bit, we will find more answers when we arrive."
+            Reingard hugged me around the shoulders and said. "Relax a bit, we
+            will find more answers when we arrive."
           </p>
 
           <p>
-            Nodding my head. "Yeah, you are right. As usual." I smiled at Reingard. It
-            felt awkward around the others, I could not be myself with him
-            like this.　Lunch was over and this time we would be looking for the landmark we came
-            here for, it looked in the drawings stacks of squares stacked on top
-            of each other becoming smaller to the top. Not unlike the pyramids
-            found in Pocotcotcan literature.
+            Nodding my head. "Yeah, you are right. As usual." I smiled at
+            Reingard. It felt awkward around the others, I could not be myself
+            with him like this.　Lunch was over and this time we would be
+            looking for the landmark we came here for, it looked in the drawings
+            stacks of squares stacked on top of each other becoming smaller to
+            the top. Not unlike the pyramids found in Pocotcotcan literature.
           </p>
 
           <div className="pop">
@@ -85,21 +96,24 @@ function Intro(props) {
             It took half of the afternoon for us to find a small stream which
             took us to the pyramid. In among the trees and vines was a structure
             of squares slowly becoming smaller until on top stood the entrance
-            in the shape of a large stone square. Vegetation had grown all
-            over the pyramid which had become hidden and unused in the jungle, I felt as this was more evidence to my
-            theory that the jungle came after but maybe I am just projecting my theory onto reality.
+            in the shape of a large stone square. Vegetation had grown all over
+            the pyramid which had become hidden and unused in the jungle, I felt
+            as this was more evidence to my theory that the jungle came after
+            but maybe I am just projecting my theory onto reality.
           </p>
           <p>
-            "Explore or make camp? If we head back now we won't arrive back before the end of the day, if we explore we might risk going without
+            "Explore or make camp? If we head back now we won't arrive back
+            before the end of the day, if we explore we might risk going without
             making camp." Reingard said.
           </p>
           <p>
-            "Let's camp inside of the entrance, if it is dangerous we would only be running away from this place anyway." Shrorlei said.
+            "Let's camp inside of the entrance, if it is dangerous we would only
+            be running away from this place anyway." Shrorlei said.
           </p>
           <p>
-            "That sounds good, we brought food and water but not any
-            camping equipment it would be good to save our energy and mana on not
-            having to build extensive shelter." Raina added.
+            "That sounds good, we brought food and water but not any camping
+            equipment it would be good to save our energy and mana on not having
+            to build extensive shelter." Raina added.
           </p>
           <p>
             We were in agreement and set off up the stairs. It was not long
@@ -109,30 +123,31 @@ function Intro(props) {
           <p>"No. Carry me." Raina replied.</p>
           <p>"There are so many stairs!" Volker bellowed to the air.</p>
           <p>
-            "The moss makes each step like standing on a pile of
-            worms." Shrorlei said like something cold ran down her spine.
+            "The moss makes each step like standing on a pile of worms."
+            Shrorlei said like something cold ran down her spine.
           </p>
           <p>
-            "Can't we take a break, we have awhile until night fall." Reingard panted.
+            "Can't we take a break, we have awhile until night fall." Reingard
+            panted.
           </p>
           <p>"47...48....49" Otto mumbled while walking past me.</p>
           <p>"Do you HAVE to count!?" I screamed.</p>
           <p>
-            As soon as we arrived at the top we all fell down, sitting around the
-            top of the stairs. I sat and stared into the dark entrance, inside
-            was large room, there were no lights so I threw out a manaball
-            and found that there was only one thing inside the room.
-            A large decagon shaped table inside, made of stone that sloped
-            from the edges into the middle. On each section was a symbol,
-            matching the kind I found in the book, in the center was a small fist sized
+            As soon as we arrived at the top we all fell down, sitting around
+            the top of the stairs. I sat and stared into the dark entrance,
+            inside was large room, there were no lights so I threw out a
+            manaball and found that there was only one thing inside the room. A
+            large decagon shaped table inside, made of stone that sloped from
+            the edges into the middle. On each section was a symbol, matching
+            the kind I found in the book, in the center was a small fist sized
             hole.
           </p>
           <p>
             While the others rested I took out my notes and copied down the
             symbol's. I tried to match them to ones I already knew, there was:
-            four I did not know, then a Bone Staff, a Skull Staff, two more unknowns, a Wing and
-            another unknown. I started to look though the book for similar
-            markings.
+            four I did not know, then a Bone Staff, a Skull Staff, two more
+            unknowns, a Wing and another unknown. I started to look though the
+            book for similar markings.
           </p>
           {/* Xiquiripat ("Flying Scab") and Cuchumaquic ("Gathered Blood"), who sicken people's blood;
               Ahalpuh ("Pus Demon") and Ahalgana ("Jaundice Demon"), who cause people's bodies to swell up;
@@ -142,20 +157,21 @@ function Intro(props) {
 
           <h4>Volker</h4>
           <p>
-            Seeing Raina collapsed on the floor as soon as we arrive, I joined her for a moment before I became curious. I lit a manaball and
+            Seeing Raina collapsed on the floor as soon as we arrive, I joined
+            her for a moment before I became curious. I lit a manaball and
             walked around the pyramid, the walls where carved with scenes of
             everyday life, farmers, gold smiths, weapon makers & warriors. The
-            scenes flowed one into another, on the back wall was a carving
-            of the pyramid and a priest holding up an object on display for the
+            scenes flowed one into another, on the back wall was a carving of
+            the pyramid and a priest holding up an object on display for the
             masses blow. It suddenly felt as if cold wet eyes where looking at
             the back of my head.
           </p>
           {/* Check temple => pyramid */}
           <p>
             I infused fire into my manaball, the others stared at me but I was
-            more concerned about the wet eyes that were watching me. I
-            breathed in. Turning suddenly and looking in the direction of the
-            feeling, on the roof I saw another carving looking down on us.
+            more concerned about the wet eyes that were watching me. I breathed
+            in. Turning suddenly and looking in the direction of the feeling, on
+            the roof I saw another carving looking down on us.
           </p>
 
           <p>
@@ -163,12 +179,20 @@ function Intro(props) {
             tendrils flopping and falling over each other with a pair of black
             eyes in the middle. I was sure they were staring at me.
           </p>
-{/* here */}
-          <p>Raina saw me staring at the ceiling and asked. "What is it? That carving is a bit creepy."</p>
+          {/* here */}
+          <p>
+            Raina saw me staring at the ceiling and asked. "What is it? That
+            carving is a bit creepy."
+          </p>
 
-          <p>"Not sure, I felt like it was watching me." I replied keeping my eyes fixed to the roof.</p>
+          <p>
+            "Not sure, I felt like it was watching me." I replied keeping my
+            eyes fixed to the roof.
+          </p>
 
-          <p>Reingard walked over and said. "Sure is creepy. What is it Tisiel?"</p>
+          <p>
+            Reingard walked over and said. "Sure is creepy. What is it Tisiel?"
+          </p>
 
           <p>"Dunno yet. Their god? Not sure." Tisiel replied </p>
 
@@ -263,9 +287,9 @@ function Intro(props) {
             Tisiel - "No, that has holes, the strange symbols that don't match
             any writing system of our own, the strange coins, the places do have
             similarities granted but non of them are the same, the person buried
-            in the cliff side was no dwarf, the king buried in the graveyard with
-            necromantic items? Heilerbach's dominant religion holds the practice
-            as evil."
+            in the cliff side was no dwarf, the king buried in the graveyard
+            with necromantic items? Heilerbach's dominant religion holds the
+            practice as evil."
           </p>
 
           <p>Shrorlei - "So do the dwarfs."</p>

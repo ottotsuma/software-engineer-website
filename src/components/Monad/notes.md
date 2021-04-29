@@ -12,14 +12,11 @@ Page 32, Stats.
 https://github.com/ottotsuma/ottotsuma.github.io/blob/master/images/goblin.jpg?raw=true
 
 import React from "react";
+import { Content } from "./styles"
 function Intro(props) {
 return (
-<div className="Monad" id="3">
-<div className="Frame">
-<div className="Content">
-</div>
-</div>
-</div>
+<Content>
+</Content>
 );
 }
 export default Intro;

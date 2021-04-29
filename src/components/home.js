@@ -15,14 +15,38 @@ import Modal2 from './elements/modal2'
 import Timeline from './timeline'
 import Spin from './spinn'
 
+const Language = {
+  en: {
+    name: "Shaun Darragh",
+    projects: "Projects",
+    experience: "Experience",
+    tech: "Technical Skills",
+    blackjack: "BlackJack",
+    hi: "Hi!",
+    lang: "日本語"
+  },
+  ja: {
+    name: "ダラー・ショーン",
+    lang: "English"
+  }
+}
 
 // Main function
 function Home(props) {
   // Change window function
+  console.log(props)
 function change(props) {
   const win = window.open(props, "_blank");
   win.focus();
 }
+  const [lang, setLang] = useState('en');
+  function updateLang () {
+    if(lang === 'en') {
+      setLang('ja')
+    } else {
+      setLang('en')
+    }
+  }
   const [show, setShow] = useState(false);
   function updateShow () {
     setShow(!show)
@@ -32,18 +56,19 @@ function change(props) {
       {show && <Modal2 title= {'Experience'} insert={<Spin />} close={updateShow} />}
       <Glass>
         <Profile >
-          <div>
+          <NameWrap>
             <Video />
             <HiWrapper>
             <ProfileImage
               src="https://avatars0.githubusercontent.com/u/51743227?s=460&u=60cf882cb319128a05fa5fff10c006de9cdfc2af&v=4"
               alt="Profile"
             />
-            <Hi>Hi!</Hi>
+            <Hi>{Language[lang].hi}</Hi>
             </HiWrapper>
-            <h3>Shaun Darragh</h3>
-            <h4>ダラー・ショーン</h4>
-          </div>
+            <h3>{Language[lang].name}</h3>
+            {/* <h4>ダラー・ショーン</h4> */}
+            <StyledButton onClick={() => updateLang()}>{Language[lang].lang}</StyledButton>
+          </NameWrap>
           <List>
             <Linkey>
               <LinkImage
@@ -59,7 +84,7 @@ function change(props) {
                 src="https://www.pngfind.com/pngs/m/594-5947621_computer-icons-project-project-plan-black-text-project.png"
                 alt=" "
               />
-              <Link2  onClick={() => updateShow()}>Projects</Link2>
+              <Link2  onClick={() => updateShow()}>{Language[lang].projects}</Link2>
             </Linkey>
             <Linkey>
               <LinkImage
@@ -67,7 +92,7 @@ function change(props) {
                 alt=" "
               />
               {/* Fake item needs styles! Or change to be like anchor 2 */}
-              <LinkStyled to={'/timeline'}>Experience</LinkStyled>
+              <LinkStyled to={'/timeline'}>{Language[lang].experience}</LinkStyled>
             </Linkey>
             <Linkey>
               <LinkImage src={Cog} alt=" " />
@@ -75,12 +100,12 @@ function change(props) {
                 insert: Tech(),
                 cancel: 'Close',
                 title: 'Tech'
-              })}>Technical Skills</Link2>
+              })}>{Language[lang].tech}</Link2>
             </Linkey>
           </List>
           <Anchor2 to="/Blackjack">
             <p to="/Blackjack" style={{ color: "white" }}>
-              Blackjack
+            {Language[lang].blackjack}
             </p>
           </Anchor2>
         </Profile>
@@ -131,6 +156,36 @@ function change(props) {
   );
 }
 export default Home;
+
+const NameWrap = styled.div`
+justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+`;
+
+
+const StyledButton = styled.div`
+border-style: solid;
+border-width: 1.5px;
+border-color: black;
+
+margin-top: 10px;
+color: white;
+background: #0d89eb;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 53%;
+cursor: pointer;
+white-space: nowrap;
+&:hover {
+    background: #2CA8FF;
+}
+@media screen and (max-width: 650px) {
+  padding 0 10px;
+}
+`;
 
 const Hi = styled.div`
 position:absolute; /* important */
@@ -195,6 +250,12 @@ cursor: pointer;
 
 const Anchor2 = styled(Link)`
 // Link that looks like a button!
+
+border-style: solid;
+border-width: 1.5px;
+border-color: black;
+
+
 color: white;
 background: #0d89eb;
 display: flex;
