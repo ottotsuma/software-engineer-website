@@ -153,7 +153,6 @@ function Intro(props) {
             get to Savigal I decided to join their group just encase the last
             wolf made a return.
           </p>
-          {/* Here */}
           <Item
             stats={{
               Willpower: "+1",

@@ -179,7 +179,7 @@ function Intro(props) {
             tendrils flopping and falling over each other with a pair of black
             eyes in the middle. I was sure they were staring at me.
           </p>
-          {/* here */}
+
           <p>
             Raina saw me staring at the ceiling and asked. "What is it? That
             carving is a bit creepy."
@@ -197,13 +197,12 @@ function Intro(props) {
           <p>"Dunno yet. Their god? Not sure." Tisiel replied </p>
 
           <p>
-            We made camp inside the room, and waited for the sun to rise the
-            next morning. We ate the rations we brought along with us non of us
-            wanted to go hunting in the jungle this deep at night. I kept the
+            Under the creepy eyes we made camp inside the room, and waited for the sun to rise the next morning. We ate the rations we brought along with us non of us
+            wanted to go hunting in the jungle this late at night. I kept the
             group warm by burning the wood we had taken from the base of the
-            temple. I could not sleep, not with that thing watching us.
+            pyramid. I could not sleep, not with that thing watching us.
           </p>
-
+{/* Here - Break? Keep going as Volker? - Here */}
           <h4>Pov Otto</h4>
           <p>
             Volker could not stop glancing at the marking on the roof, after

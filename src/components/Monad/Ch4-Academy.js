@@ -367,7 +367,6 @@ function Intro(props) {
             each. The last was the middle circle, it just had one symbol but did
             not look like it would rotate.
           </p>
-          {/* Here */}
           <p>"And this is?" I asked, gesturing to the door.</p>
           <p>"Sex dungeon." Tisiel replied without missing a beat.</p>
           <p>"Aha, you have a strange sense of humor." I laughed.</p>
@@ -410,7 +409,7 @@ function Intro(props) {
             now." I replied.
           </p>
           <p>"You are going to fit in here. Ahaha." She laughed.</p>
-          {/* HEre */}
+
           <p>
             We went out for dinner in closest street. She also showed me around
             some more, there was more to do closer to the academy, from pubs,

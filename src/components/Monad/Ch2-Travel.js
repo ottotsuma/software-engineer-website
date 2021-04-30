@@ -258,15 +258,15 @@ function Intro(props) {
             burnt rotten flesh, shoveling the meat into his mouth where most of
             it ended up back inside the girl though the gaps in his teeth.
           </p>
-          {/* Here */}
+
           <p>
             Leon vomited, loudly. The half-man screamed towards Leon and dragged
-            it's self at surprising speed towards him. Having seen Leon vomit I
-            rushed over to help him, upon hearing the scream and seeing the
-            moving cadaver chasing them down I tried to push my mana though my
+            it's self across the ground at surprising speed towards him. Having seen Leon vomit, I
+            rushed over to help him. Upon hearing the scream and seeing the
+            moving cadaver chasing him down I tried to push my mana though my
             body and out of my hand like I had with the Kappa. The rush felt
             easier this time with all the practice I had had. The ball of light
-            shined pale blue, glowing lit up the ground and trees before the
+            shined pale blue, glowing lit up the ground and trees, before the
             ball spiraled forward blinding the monster for a moment giving me
             the chance to free Leon of his short sword. I ran towards the
             monster and kicked dirt up into its eyes and mouth, it flailed about
@@ -286,7 +286,7 @@ function Intro(props) {
           </p>
 
           <p>
-            Leaving Leon against a tree to recover himself, I started to search
+            Leaving Leon against a tree to recover himself, and taking serval glances at that thing. I started to search
             the dead girl, finding on her some coins, accessories, an ID and a
             few school supplies and food.
           </p>
@@ -294,7 +294,7 @@ function Intro(props) {
           <p>
             "Guess she wasn't a rich girl." I said to myself. Grabbing the ID
             'Lea Müller'. "You know her?" I asked Leon showing him the ID, it
-            was just a piece of paper with her name and information on.
+            was just a piece of card with her name and information on.
           </p>
           <p>
             "No, it's an Alden name. Not a local." He said wiping his mouth.
