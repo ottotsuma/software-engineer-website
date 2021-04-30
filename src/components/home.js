@@ -23,7 +23,16 @@ const Language = {
     tech: "技術的なスキル",
     blackjack: "ブラックジャック",
     hi: "こんにちは！",
-    lang: "English"
+    lang: "English",
+    MunchifyDisc: "Machine learning predicts your perfect restaurant!",
+    MunchifyTech: "React-Native, NodeJS, MongoDB",
+    MunchifyTitle: "Munchify!",
+    SecretDisc: "A safety box for your secrets!",
+    SecretTech: "React, NodeJS, MongoDB",
+    SecretTitle: "The Secret Box",
+    RecipesDisc: "Sort out your hunger!",
+    RecipesTech: "React, PWA, Netlify",
+    RecipesTitle: "Otto's Recipes",
   },
   en: {
     name: "Shaun Darragh",
@@ -32,7 +41,16 @@ const Language = {
     tech: "Technical Skills",
     blackjack: "BlackJack",
     hi: "Hi!",
-    lang: "日本語"
+    lang: "日本語",
+    MunchifyDisc: "機械学習があなたにぴったりのレストランを予測！",
+    MunchifyTech: "React-Native, NodeJS, MongoDB",
+    MunchifyTitle: "Munchify!",
+    SecretDisc: "あなたの秘密のためのセーフティボックスです。",
+    SecretTech: "React, NodeJS, MongoDB",
+    SecretTitle: "秘密の箱",
+    RecipesDisc: "空腹感を解消しよう！",
+    RecipesTech: "React, PWA, Netlify",
+    RecipesTitle: "夫のレシピ",
   }
 }
 
@@ -126,10 +144,10 @@ function change(props) {
               alt="Technical Skills"
             />
             <InnerBox>
-              <h3>Munchify</h3>
-              <Para>Machine learning predicts your perfect restaurant!</Para>
+              <h3>{Language[lang].MunchifyTitle}</h3>
+              <Para>{Language[lang].MunchifyDisc}</Para>
             </InnerBox>
-            <Para>React-Native, NodeJS, MongoDB</Para>
+            <Para>{Language[lang].MunchifyTech}</Para>
           </Box>
           <Box onClick={() => change("https://github.com/ottotsuma/SoloMVP")}>
             <HomeImage
@@ -138,20 +156,20 @@ function change(props) {
               alt="Technical Skills"
             />
             <InnerBox>
-              <h3>The Secret Box</h3>
-              <Para>A safety box for your secrets!</Para>
+              <h3>{Language[lang].SecretTitle}</h3>
+              <Para>{Language[lang].SecretDisc}</Para>
             </InnerBox>
-            <Para>React, NodeJS, MongoDB</Para>
+            <Para>{Language[lang].SecretTech}</Para>
           </Box>
           <Box
             onClick={() => change("https://github.com/ottotsuma/React-App2")}
           >
             <HomeImage src={Food}  alt="Technical Skills" />
             <InnerBox>
-              <h3>Otto's Recipes</h3>
-              <Para>Sort out your hunger!</Para>
+              <h3>{Language[lang].RecipesTitle}</h3>
+              <Para>{Language[lang].RecipesDisc}</Para>
             </InnerBox>
-            <Para>React, PWA, Netlify</Para>
+            <Para>{Language[lang].RecipesTech}</Para>
           </Box>
         </Right>
       </Glass>
