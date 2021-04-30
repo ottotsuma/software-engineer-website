@@ -202,7 +202,7 @@ function Intro(props) {
             group warm by burning the wood we had taken from the base of the
             pyramid. I could not sleep, not with that thing watching us.
           </p>
-{/* Here - Break? Keep going as Volker? - Here */}
+{/* Here - Break? Keep going as Volker? Shrorlei? Tisiel? - Here */}
           <h4>Pov Otto</h4>
           <p>
             Volker could not stop glancing at the marking on the roof, after
@@ -216,6 +216,7 @@ function Intro(props) {
             also, first the graveyard, then the door in the cliff side and now
             here.
           </p>
+{/* Wtf was that paragraph above!? */}
 
           <p>"Hey Tisiel, did you find out the purpose of that room?"</p>
 
