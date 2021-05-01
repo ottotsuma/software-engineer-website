@@ -91,6 +91,12 @@ const Title = styled.h1`
 const TitleItem = styled.p`
   display: flex;
   justify-content: center;
+  font-size: 1.5em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
     color: ${props => props.color || 'white'}
 `;
 
