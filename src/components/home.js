@@ -1,19 +1,19 @@
 // Import statements
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Cog from "./../assets/cog.png";
 import Munchify from "./../assets/512x512.png";
 import Secret from "./../assets/Group1.png";
 import Food from "./../assets/foodlogo.png";
 import Video from "./video";
-import styled, { keyframes } from 'styled-components'
+import styled, { keyframes } from "styled-components";
 
-import Modal from './elements/modal'
-import Tech from './tech'
+import Modal from "./elements/modal";
+import Tech from "./tech";
 
-import Modal2 from './elements/modal2'
-import Timeline from './timeline'
-import Spin from './spinn'
+import Modal2 from "./elements/modal2";
+import Timeline from "./timeline";
+import Spin from "./spinn";
 
 const Language = {
   ja: {
@@ -33,7 +33,6 @@ const Language = {
     RecipesDisc: "空腹感を解消しよう！",
     RecipesTech: "React, PWA, Netlify",
     RecipesTitle: "夫のレシピ",
-
   },
   en: {
     name: "Shaun Darragh",
@@ -52,46 +51,50 @@ const Language = {
     RecipesDisc: "Sort out your hunger!",
     RecipesTech: "React, PWA, Netlify",
     RecipesTitle: "Otto's Recipes",
-  }
-}
+  },
+};
 
 // Main function
 function Home(props) {
   // Change window function
-  console.log(props)
-function change(props) {
-  const win = window.open(props, "_blank");
-  win.focus();
-}
-  const [lang, setLang] = useState('en');
-  function updateLang () {
-    if(lang === 'en') {
-      setLang('ja')
+  console.log(props);
+  function change(props) {
+    const win = window.open(props, "_blank");
+    win.focus();
+  }
+  const [lang, setLang] = useState("en");
+  function updateLang() {
+    if (lang === "en") {
+      setLang("ja");
     } else {
-      setLang('en')
+      setLang("en");
     }
   }
   const [show, setShow] = useState(false);
-  function updateShow () {
-    setShow(!show)
+  function updateShow() {
+    setShow(!show);
   }
   return (
     <GlassWrapper>
-      {show && <Modal2 title= {'Experience'} insert={<Spin />} close={updateShow} />}
+      {show && (
+        <Modal2 title={"Experience"} insert={<Spin />} close={updateShow} />
+      )}
       <Glass>
-        <Profile >
+        <Profile>
           <NameWrap>
             <Video />
             <HiWrapper>
-            <ProfileImage
-              src="https://avatars0.githubusercontent.com/u/51743227?s=460&u=60cf882cb319128a05fa5fff10c006de9cdfc2af&v=4"
-              alt="Profile"
-            />
-            <Hi>{Language[lang].hi}</Hi>
+              <ProfileImage
+                src="https://avatars0.githubusercontent.com/u/51743227?s=460&u=60cf882cb319128a05fa5fff10c006de9cdfc2af&v=4"
+                alt="Profile"
+              />
+              <Hi>{Language[lang].hi}</Hi>
             </HiWrapper>
             <h3>{Language[lang].name}</h3>
             {/* <h4>ダラー・ショーン</h4> */}
-            <StyledButton onClick={() => updateLang()}>{Language[lang].lang}</StyledButton>
+            <StyledButton onClick={() => updateLang()}>
+              {Language[lang].lang}
+            </StyledButton>
           </NameWrap>
           <List>
             <Linkey>
@@ -108,7 +111,9 @@ function change(props) {
                 src="https://www.pngfind.com/pngs/m/594-5947621_computer-icons-project-project-plan-black-text-project.png"
                 alt=" "
               />
-              <Link2  onClick={() => updateShow()}>{Language[lang].projects}</Link2>
+              <Link2 onClick={() => updateShow()}>
+                {Language[lang].projects}
+              </Link2>
             </Linkey>
             <Linkey>
               <LinkImage
@@ -116,20 +121,28 @@ function change(props) {
                 alt=" "
               />
               {/* Fake item needs styles! Or change to be like anchor 2 */}
-              <LinkStyled to={'/timeline'}>{Language[lang].experience}</LinkStyled>
+              <LinkStyled to={"/timeline"}>
+                {Language[lang].experience}
+              </LinkStyled>
             </Linkey>
             <Linkey>
               <LinkImage src={Cog} alt=" " />
-              <Link2 onClick={() => Modal({
-                insert: Tech(),
-                cancel: 'Close',
-                title: 'Tech'
-              })}>{Language[lang].tech}</Link2>
+              <Link2
+                onClick={() =>
+                  Modal({
+                    insert: Tech(),
+                    cancel: "Close",
+                    title: "Tech",
+                  })
+                }
+              >
+                {Language[lang].tech}
+              </Link2>
             </Linkey>
           </List>
           <Anchor2 to="/Blackjack">
             <p to="/Blackjack" style={{ color: "white" }}>
-            {Language[lang].blackjack}
+              {Language[lang].blackjack}
             </p>
           </Anchor2>
         </Profile>
@@ -139,11 +152,7 @@ function change(props) {
               change("https://github.com/Spring-CC/restaurant-native-app")
             }
           >
-            <HomeImage
-              src={Munchify}
-              
-              alt="Technical Skills"
-            />
+            <HomeImage src={Munchify} alt="Technical Skills" />
             <InnerBox>
               <h3>{Language[lang].MunchifyTitle}</h3>
               <Para>{Language[lang].MunchifyDisc}</Para>
@@ -151,11 +160,7 @@ function change(props) {
             <Para>{Language[lang].MunchifyTech}</Para>
           </Box>
           <Box onClick={() => change("https://github.com/ottotsuma/SoloMVP")}>
-            <HomeImage
-              src={Secret}
-              
-              alt="Technical Skills"
-            />
+            <HomeImage src={Secret} alt="Technical Skills" />
             <InnerBox>
               <h3>{Language[lang].SecretTitle}</h3>
               <Para>{Language[lang].SecretDisc}</Para>
@@ -165,7 +170,7 @@ function change(props) {
           <Box
             onClick={() => change("https://github.com/ottotsuma/React-App2")}
           >
-            <HomeImage src={Food}  alt="Technical Skills" />
+            <HomeImage src={Food} alt="Technical Skills" />
             <InnerBox>
               <h3>{Language[lang].RecipesTitle}</h3>
               <Para>{Language[lang].RecipesDisc}</Para>
@@ -182,12 +187,11 @@ function change(props) {
 export default Home;
 
 const NameWrap = styled.div`
-justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
-
 
 const StyledButton = styled.div`
 border-style: solid;
@@ -212,64 +216,64 @@ white-space: nowrap;
 `;
 
 const Hi = styled.div`
-position:absolute; /* important */
-bottom:0; /* important */
-max-height:0; /* important */
-overflow:hidden; /* important */
-transition:max-height 300ms ease-in; /* important */
-border-radius: 50%;
-overflow: hidden;
-padding: 5px;
-opacity: 0;
-color: white;
+  position: absolute; /* important */
+  bottom: 0; /* important */
+  max-height: 0; /* important */
+  overflow: hidden; /* important */
+  transition: max-height 300ms ease-in; /* important */
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 5px;
+  opacity: 0;
+  color: white;
 `;
 
 const HiWrapper = styled.div`
-&:hover ${Hi} {
-  max-height:50%; /* important */
-  bottom: 90%;
-opacity: 1;
-background: #0d89eb
-}
+  &:hover ${Hi} {
+    max-height: 50%; /* important */
+    bottom: 90%;
+    opacity: 1;
+    background: #0d89eb;
+  }
 `;
 
 // https://stackoverflow.com/questions/37669391/how-to-get-rid-of-underline-for-link-component-of-react-router
 const Link2 = styled.div`
-// fake link!
-color: black;
-// background: #0d89eb;
-display: flex;
-justify-content: center;
-align-items: center;
-cursor: pointer;
-&:hover {
-    background: #2CA8FF;
-}
-text-decoration: underline;
+  // fake link!
+  color: black;
+  // background: #0d89eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  &:hover {
+    background: #2ca8ff;
+  }
+  text-decoration: underline;
 `;
 
 const AStyled = styled.a`
-color: black;
-// background: #0d89eb;
-display: flex;
-justify-content: center;
-align-items: center;
-cursor: pointer;
-&:hover {
-    background: #2CA8FF;
-}
+  color: black;
+  // background: #0d89eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  &:hover {
+    background: #2ca8ff;
+  }
 `;
 
 const LinkStyled = styled(Link)`
-color: black;
-// background: #0d89eb;
-display: flex;
-justify-content: center;
-align-items: center;
-cursor: pointer;
-&:hover {
-    background: #2CA8FF;
-}
+  color: black;
+  // background: #0d89eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  &:hover {
+    background: #2ca8ff;
+  }
 `;
 
 const Anchor2 = styled(Link)`
@@ -300,7 +304,7 @@ const breatheAnimation = keyframes`
  30% { height: 400px; width: 400px; opacity: 1 }
  40% { height: 405px; width: 405px; opacity: 0.3; }
  100% { height: 100px; width: 100px; opacity: 0.6; }
-`
+`;
 
 const Para = styled.p`
   padding: 1px;
@@ -466,7 +470,7 @@ const HomeImage = styled.img`
 `;
 
 const ProfileImage = styled.img`
-width: 100px;
-height: 100px;
-border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 `;

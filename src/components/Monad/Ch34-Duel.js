@@ -1,41 +1,53 @@
 import React from "react";
 import Item from "./../elements/item";
-import { Content } from "./styles"
+import { Content } from "./styles";
 
 function Intro(props) {
   return (
-        <Content>
-          <h3>Duel</h3>
-          <p>
-            Linhart wore a bright red robe with white trim. Second years wore
-            robes that represent their element. Third years got a white trim, to
-            indicate they had chosen a path of continued learning at the
-            academy. Once one became a professor at the academy they would
-            receive a fully white robe.
-          </p>
-          <p>
-            I did not need to look up what Linhart's bright red robe
-            represented, as the trim on my robe was the same color. We were both
-            fire mages.
-          </p>
-          <p>He did not wait for me to move first and launched a wave of flames across the field towards me. I layed on the floor, although the flames would engulf me the damage would not be too bad since he launched it so far away the flames spread out in an arc. I had the shield across my back when I jumped down so the damage was minimal.</p>
-          <p>I gathered my mana while I was down and once the flames dispersed I jumped up and shot a fire ball at him. I grabbed my shield by the edge and pulled it up and ran in a zig zag pattern forward.</p>
-          <p>Normally I would just try to maintain the distance between us but I could tell he was a higher level with more mana then me so if I exchanged in a fair fight I would lose over time. </p>
+    <Content>
+      <h3>Duel</h3>
+      <p>
+        Linhart wore a bright red robe with white trim. Second years wore robes
+        that represent their element. Third years got a white trim, to indicate
+        they had chosen a path of continued learning at the academy. Once one
+        became a professor at the academy they would receive a fully white robe.
+      </p>
+      <p>
+        I did not need to look up what Linhart's bright red robe represented, as
+        the trim on my robe was the same color. We were both fire mages.
+      </p>
+      <p>
+        He did not wait for me to move first and launched a wave of flames
+        across the field towards me. I layed on the floor, although the flames
+        would engulf me the damage would not be too bad since he launched it so
+        far away the flames spread out in an arc. I had the shield across my
+        back when I jumped down so the damage was minimal.
+      </p>
+      <p>
+        I gathered my mana while I was down and once the flames dispersed I
+        jumped up and shot a fire ball at him. I grabbed my shield by the edge
+        and pulled it up and ran in a zig zag pattern forward.
+      </p>
+      <p>
+        Normally I would just try to maintain the distance between us but I
+        could tell he was a higher level with more mana then me so if I
+        exchanged in a fair fight I would lose over time. He saw me running towards him and shot out fireballs quickly. I raised the shield and tried to avoid them as best I could while moving forward. The flames burnt the shield and scorched my robe but I held on and when I was close enough to him, I jumped back.
+      </p>
+      <p>He had activated a flame shield around himself, but not just upfront but all around. It was really impressive as most mages do not bother to learn full shield because of its massive consumption of mana. However this is just what I wanted while he was busy producing & then maintaining the shield I pointed my wand at him and gathered the mana below his feet. This spell was great for by passing shields, doing high damage but normally was inaccurate and too slow to cast. However this opportunity he had given to me was perfect.</p>
 
-
-          {/* https://ottotsuma.github.io/race */}
-          <Item
-            stats={{
-              vitality: +1,
-              dexterity: +2,
-              sense: +1,
-            }}
-            name={"Goblin"}
-            effect="Generate less agro from monsters."
-            src={`https://github.com/ottotsuma/ottotsuma.github.io/blob/master/images/goblin.jpg?raw=true`}
-          />
-          {placeholder()}
-        </Content>
+      {/* https://ottotsuma.github.io/race */}
+      <Item
+        stats={{
+          vitality: +1,
+          dexterity: +2,
+          sense: +1,
+        }}
+        name={"Goblin"}
+        effect="Generate less agro from monsters."
+        src={`https://github.com/ottotsuma/ottotsuma.github.io/blob/master/images/goblin.jpg?raw=true`}
+      />
+      {placeholder()}
+    </Content>
   );
 }
 export default Intro;
