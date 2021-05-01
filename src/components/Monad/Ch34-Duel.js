@@ -18,7 +18,11 @@ function Intro(props) {
             represented, as the trim on my robe was the same color. We were both
             fire mages.
           </p>
-          <p></p>
+          <p>He did not wait for me to move first and launched a wave of flames across the field towards me. I layed on the floor, although the flames would engulf me the damage would not be too bad since he launched it so far away the flames spread out in an arc. I had the shield across my back when I jumped down so the damage was minimal.</p>
+          <p>I gathered my mana while I was down and once the flames dispersed I jumped up and shot a fire ball at him. I grabbed my shield by the edge and pulled it up and ran in a zig zag pattern forward.</p>
+          <p>Normally I would just try to maintain the distance between us but I could tell he was a higher level with more mana then me so if I exchanged in a fair fight I would lose over time. </p>
+
+
           {/* https://ottotsuma.github.io/race */}
           <Item
             stats={{
