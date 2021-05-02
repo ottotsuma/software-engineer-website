@@ -170,6 +170,9 @@ function Book() {
 const BookOfWraps = styled.div`
   overflow: hidden;
   width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 const BookOfRaces = styled.div`
@@ -177,8 +180,8 @@ const BookOfRaces = styled.div`
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  column-gap: 5px;
-  row-gap: 5px;
+  max-width: 300px;
+  width: 100%;
 `;
 
 // Vampire type, more blood taken makes them stronger so often conflict with humans
