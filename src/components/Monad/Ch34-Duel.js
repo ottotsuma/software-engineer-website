@@ -194,7 +194,7 @@ const BookOfRaces = styled.div`
 
 function placeholder() {
   return (
-    <Content style={{ overflowWrap: "anywhere" }}>
+    <Content style={{ overflowWrap: "anywhere", width:"100%" }}>
       <h1>Sea people</h1>
       <p>
         A group of sea travelers with different races. Their classes will be
