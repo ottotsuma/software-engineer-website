@@ -432,7 +432,7 @@ function placeholder() {
         there.
       </p>
       <div className="BreakPoint"></div>
-      <p></p>
+      <p>Rat named scouters reached 100, so he did not come to the DLC island right away!</p>
     </Content>
   );
 }

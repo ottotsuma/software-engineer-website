@@ -36,6 +36,7 @@ export default function Spin({ Array }) {
   );
 }
 
+
 const ButtonWrapper = styled.div`
 display: flex;
 align-items: center;
@@ -69,7 +70,7 @@ border-color: black;
 
 margin-top: 10px;
 color: white;
-background: #0d89eb;
+background: #f92b00;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -77,7 +78,7 @@ width: 40%;
 cursor: pointer;
 white-space: nowrap;
 &:hover {
-    background: #2CA8FF;
+    background: #ff5745;
 }
 margin-right: auto;
 `;
