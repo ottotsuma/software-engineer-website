@@ -588,6 +588,33 @@ function placeholder() {
         Such a normal name, then who named the guild? Weird. I thought to
         myself.
       </p>
+      <p>
+        "So what are you two hoping to get from the new land?" I asked hoping it
+        would give me some idea of the rewards on offer.
+      </p>
+      <p>
+        "Dunno, is that not the point? To adventure and explore. The rewards we
+        know about come from rumors from the NPC's and other playe... Astrals."
+        Josh said.
+      </p>
+      <p>
+        "For once Josh is right. I know of things I have seen or been told or
+        the rumors being spread but as always there is lies mixed in with
+        truths. I am hoping to find a new class, right now I am a paladin but
+        since I changed to a vampire and with my pet the paladin class is very..
+        At odds with my current set up." Sarah added. "Oh and any good items are
+        always welcome."
+      </p>
+      <p>"Aha, well I hope it's fun and I can reach level 50 again." I said.</p>
+      <p>
+        It was fun fishing for the pearls and trying to outwit the crabs. They
+        gave zero experience for defeating them, which indicated they were not
+        really monsters and just crabs. There was not always a pearl and some
+        were clearly better quality then others. I tried to inspect one but
+        since I never really invested in the skill it just replied with obvious
+        item names.
+      </p>
+      <p></p>
     </Content>
   );
 }
