@@ -190,6 +190,9 @@ const BookOfRaces = styled.div`
 // Merging the stats into a few, Vitality, magic, strength, sense, charm
 // No classes? Just race and element?
 
+// killing array that targets above certen mana levels.
+// Vampire woman vs Poison woman and Tank man.
+
 // Transferring class of the same rank and type lose 0~9[dice rolling thing] levels.
 
 function placeholder() {

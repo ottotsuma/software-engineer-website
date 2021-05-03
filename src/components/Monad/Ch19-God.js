@@ -399,18 +399,17 @@ Noticed by a God - get the notice of a God, (varies) */}
             large metal shield in his hand.
           </p>
 
-          <p>Otto - "Reingard."</p>
-          <p>Reingard - "Otto."</p>
-          <p>Otto - "Don't play dumb, what is that?"</p>
+          <p>"Reingard." I greeted him, looking at the chain.</p>
+          <p>"Otto." He replied.</p>
+          <p>"Don't play dumb, what is that?" I said pointing right at it this time.</p>
           <p>
-            Reingard - "Ah, I got this yesterday. I had managed to exchange some
-            things for them. This is a metal kite shield imbue.."
+            "Ah, I got this yesterday. I had managed to exchange some
+            things for them. This is a metal kite shield imbue.." But I interrupted, did he think I did not know what a shield was?
           </p>
-          <p>Otto - "Not the shield."</p>
-          <p>
-            Reingard - "Didn't even let me finish. Fine, its a magic chain
+          <p>Not the shield."</p>
+          <p>"Didn't even let me finish. Fine, its a magic chain
             weapon I exchanged for something important I had. I just could not
-            resist it matches my element so well. Take a look."
+            resist it matches my element so well. Take a look." He said holding it out for me to inspect.
           </p>
           <Item
             stats={{
@@ -421,27 +420,22 @@ Noticed by a God - get the notice of a God, (varies) */}
             effect={"Can be extended with mana."}
           />
 
-          <p>
-            Otto - "How the hell do you plan to use this thing while holding a
-            shield?"
+          <p>"How the hell do you plan to use this thing while holding a
+            shield?" I questioned.
           </p>
-          <p>
-            Reingard - "Ah well it's only a half length so this is a handle, and
-            the other end is weighted not both, think of it like a metal whip,
-            because of my element I can exert some level of control over it."
+          <p>"Ah well it's only a half length, so this is a handle, think of it like a metal whip,
+            because of my element I can exert some level of control over it." He replied.
           </p>
-          <p>
-            Otto - "Alright.. Just don't hit me in the back of the head with
-            it."
+          <p>"Alright.. Just don't hit me in the back of the head with
+            it." I warned him.
           </p>
-          <p>Reingard - "I promise not to hit you in the back of the head."</p>
-          <p>Otto - "Or the front"</p>
-          <p>Reingard - "Ot the front."</p>
-          <p>
-            Otto - "Just, don't hit me anywhere with it! Your words make me
-            uneasy!"
+          <p>"I promise not to hit you in the back of the head." He replied with a smile.</p>
+          <p>"Or the front" I added.</p>
+          <p>"Ot the front." He kept smiling.</p>
+          <p>"Just, don't hit me anywhere with it! Your words make me
+            uneasy!" I vented.
           </p>
-          <p>Reingard - "Aha, I will not hit you with it."</p>
+          <p>"Aha, I will not hit you with it." He assured.</p>
 
           <p>
             It was not long before the four of us found ourselves waiting at the
@@ -570,12 +564,11 @@ Mana ball (lightning) (Pow: 1), Tether, Magic resistance (passive), Magic up (pa
             able to grind though the rest of their health.
           </p>
 
-          <p>Otto - "Welcome back!"</p>
-          <p>
-            Reingard - "Perhaps next time you could join us in walking back
-            down."
+          <p>"Welcome back!" I greeted.</p>
+          <p>"Perhaps next time you could join us in walking back
+            down." Reingard joked.
           </p>
-          <p>Otto - "I'll work on it."</p>
+          <p>"I'll work on it." I replied holding the back of my head embarrassed.</p>
 
           <p>
             The was the end of our first match, we would not have to participate
