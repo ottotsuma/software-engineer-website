@@ -501,7 +501,93 @@ function placeholder() {
         So I gave up and changed to Sarah's method, poking around the side of
         the pond with a knife until I caught one and pulled it out.
       </p>
-      {/* <p>Rat named scouters reached 100, so he did not come to the DLC island right away!</p> */}
+      <p>
+        I knew Sarah and Josh were part of the same guild, so I wondered why
+        Josh did not come to the new land when Sarah did. Sarah had been before
+        and died in the new land, since there is no ***** in the new land yet
+        when you die you return to your own **** in the old lands.
+      </p>
+      <p>
+        "Josh, how come you did not come to the new lands when Sarah came?" I
+        asked.
+      </p>
+      <p>"Because he put his rat before me!" Sarah shouted from her pond.</p>
+      <p>
+        "What?" I questioned. If Josh had a pet rat how was that related? Was it
+        sick and he could not play?
+      </p>
+      <p>
+        Josh just laughed and said. "It is true. I will always put this little
+        guy first. He's so cute!" There was a small rat sitting on his legs
+        while he leaned back playing with his fishing rod. "He is named
+        scouters. He is my familiar, you should of had one too at level 50.
+        Anyway he had a quest I had to complete so I did that instead."
+      </p>
+      <p>"Rat's get quests?" I asked puzzled.</p>
+      <p>
+        "Well he is my familiar not just any rat. Anyway he reached level 100 so
+        yeah I had to do his level 100 quest to unlock his final ability." He
+        said patting its head. "The new land offers a chance of rewards, the
+        level 100 quest offered a set reward. I think I made the right choice,
+        after all I am here with Sarah." He smirked.
+      </p>
+      <p>
+        Sarah replied by turning away from him, she was clearly upset she died
+        and had to come back again. But If Josh had a pet rat surely Sarah had a
+        pet also. "What is your pet Sarah?" I asked.
+      </p>
+      <p>"Join my guild and I might tell you." She replied.</p>
+      <p>
+        Heh, I thought she would never ask. "Fine I'll join you two." I smiled.
+      </p>
+      <p>
+        Sarah seemed shocked but Josh did not react at all almost expecting it.
+        We had talked about it before but he said Sarah might appear strong on
+        the out side, especially with her skills as a gamer and her charters
+        stats. However she was a shy person and rarely asked anyone to join,
+        most of the people that joined her guild were invited by others already
+        in the guild.
+      </p>
+      <p>
+        A screen popped up in front of me. You have been invited to join the
+        guild 'FilthyCasuals' will you accept? Yes. No.
+      </p>
+      <p>
+        What kind of name was that!? ... I pressed yes... I hope the guild name
+        would not appear anywhere publicly...
+      </p>
+      <p>"So what is your pet?" I asked again.</p>
+      <p>
+        "Palaeochiropteryx. An extinct bat on earth from 48 million years ago,
+        only known fossils found in Germany. I got it from an event, it has an
+        Epic rating, which is one above Rare, and it is level 60." She said as a
+        giant bat appeared behind her and landed on the sand. "It should be the
+        size of a human hand but as you can see it has been given some fantasy
+        flare since it is an event pet." It had big ears, large black wings and
+        a snout.
+      </p>
+      <p>
+        "I heard there were real vampire bats in the new land, not the fake ones
+        like before." Josh added.
+      </p>
+      <p>
+        "Yeah, but they are normal rated, maybe there are rarer variants but
+        that is much less swag then an Epic rated bat." She said petting it.
+      </p>
+      <p>
+        "I thought you were going for efficiency not swagger level." Josh said
+        laughing.
+      </p>
+      <p>
+        "I am so good I don't need 100% efficiency." She said smiling at the
+        bat.
+      </p>
+      <p>"What's it's name?" I asked.</p>
+      <p>"Mary." She replied.</p>
+      <p>
+        Such a normal name, then who named the guild? Weird. I thought to
+        myself.
+      </p>
     </Content>
   );
 }
