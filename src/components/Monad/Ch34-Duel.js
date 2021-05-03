@@ -206,7 +206,7 @@ function placeholder() {
         as they complete more quests on the DLC island.
       </p>
       <h2>List of the group</h2>
-      <ul>
+      <ul style={{ overflowWrap: "anywhere", width: "100%" }}>
         <li>
           Example: Name, race, class(), level, equipment, backstory(Main island,
           other dlc before? ), clan/guild, reason for coming. PET(level)
@@ -614,7 +614,35 @@ function placeholder() {
         since I never really invested in the skill it just replied with obvious
         item names.
       </p>
-      <p></p>
+      <p>"So this flightless bird. Is it really delicious?" I asked Sarah.</p>
+      <p>
+        "It is based on the Dodo, you know the extinct bird from our world.
+        Anyway it really is, I think as time passes they will become extinct
+        again so if you want to try it you should do so now." She replied.
+      </p>
+      <p>
+        "Half of me feels bad for helping a species go extinct because I am
+        curious. The other half is curious." I said half joking.
+      </p>
+      <p>
+        "Count me in." Josh added. "I did not try the Chinese paddlefish when it
+        was included in the game. I really did not think they would just let the
+        species go extinct so I missed out."
+      </p>
+      <p>
+        Josh had taken off faster then us, maybe he was worried he would miss
+        out again that badly. I stayed and walked with Sarah because she could
+        not run in the sun. The penalties for being a vampire were not truly
+        clear to me but it did not seem worth it so far. How was she suppose to
+        fight during the day time? While holding the umbrella?
+      </p>
+      <p>Lunch today was roasted Dodo. I cannot describe how it tasted, maybe something between salty butter chicken and barbecued pleasure.</p>
+      <div className="BreakPoint"></div>
+      <p>I wanted to try fighting the giant crabs on the other island but I was told it was a bit of a waste of time. If you killed too many of them a massive version of the crabs came out of the sea, standing at the height of 3/4 of a man and would be a real challenge, but the loot was really poor. Since we were under the effects of the miasma, even at half strength, our stats were reduced making weak enemies appear stronger.</p>
+      <p>We picked pearls from the ponds and ate dodo when we got hungry. That part had always confused me, why would our in game selves feel hunger? Who thought that was a good idea...</p>
+      <p>Sarah was back on a crab killing spree when a quest appeared for all of us.</p>
+      <p>Quest: [Save the prince who stole the pearls.] - [Rare]- [Rewards: Exp, Pearls, Princes thanks, Crabs hate.]</p>
+      {/* Quest - save the prince who stole the peals. He was stealing peals to make a bracelet but was captured by the king crab for killing his people and stealing pearls! */}
     </Content>
   );
 }
