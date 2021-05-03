@@ -197,7 +197,7 @@ const BookOfRaces = styled.div`
 
 function placeholder() {
   return (
-    <Content style={{ overflowWrap: "anywhere", width:"100%" }}>
+    <Content style={{ overflowWrap: "anywhere", width: "100%" }}>
       <h1>Sea people</h1>
       <p>
         A group of sea travelers with different races. Their classes will be
@@ -438,7 +438,70 @@ function placeholder() {
         there.
       </p>
       <div className="BreakPoint"></div>
-      <p>Rat named scouters reached 100, so he did not come to the DLC island right away!</p>
+      <p>
+        The sand was so soft under my feet, I removed my shoes not wanting to
+        get sand inside of them. Some times I felt that the hyper realistic game
+        had gone too far in some areas. Who felt the need to have shoes that
+        were not air tight or at least sand tight! The sun, the sand and the
+        clear blue water was helping my recovery as I moved my arm around
+        holding the shoulder.
+      </p>
+      <p>
+        "Stop pretending you are in pain. Rowing uses up your stamina not your
+        health." Sarah said with an annoyed face. She was just jealous I was
+        enjoying the sun while she had to hide under her gothic umbrella.
+      </p>
+      <p>
+        "My soul hurts from being your skivvy. I need spiritual rest." I
+        replied, bathing my face in the warn sunlight.
+      </p>
+      <p>
+        "You can sun bathe on the ship. It is time to explore." She shouted
+        back.
+      </p>
+      <p>"It's not the same." I mumbled.</p>
+      <p>
+        Looking around our tiny patch of sand in the ocean, there was not too
+        much to explore. There were some trees towards the middle but only a
+        handful. There were other small patches of sand here and there with the
+        water crossing though them. I put my toes into one of the small water
+        pockets as we walked. It was warm and gentle. There were three major
+        islands here but each was broken up by shallow water.
+      </p>
+      <p>"You came here before right? Where should we look?" I asked Sarah.</p>
+      <p>
+        "The little water pools you have your toes in contain pincer crabs." She
+        said as I whipped my feet back out of the water. "They are guarding
+        pearls from people who put their hands in to get them. The second island
+        has small flightless birds that taste great, that is where most people
+        spend the night. The final island has large crabs that you can fight but
+        they are all level one ~ ten." She replied. "Oh, finally the trees. If
+        you have a treasure map for this island you can dig up treasure around
+        that area. Without the map though nothing will appear."
+      </p>
+      <p>
+        I weighed the options she had laid out and asked. "So we are fishing for
+        pearls?"
+      </p>
+      <p>
+        "Bingo." She had found a place she liked and placed down a towel, her
+        umbrella and while sitting in the shade she jammed her sword into the
+        water stabbing around.
+      </p>
+      <p>
+        I guess she wants to just kill the crabs and then steal their pearls.
+        Josh sat down by one of the other ponds and had made some kind of
+        fishing line, he put meat on the fishing line and tempted the crabs
+        forward, when they were distracted he would grab the pearl at lighting
+        speed. I guess Josh was a little more humane.
+      </p>
+      <p>
+        I sat down by a pond and tried to copy Josh but I was not fast enough,
+        or the line broke, or the meat did not stay on my line and floated off.
+        So I gave up and changed to Sarah's method, poking around the side of
+        the pond with a knife until I caught one and pulled it out.
+      </p>
+      {/* <p>Rat named scouters reached 100, so he did not come to the DLC island right away!</p> */}
     </Content>
   );
 }
