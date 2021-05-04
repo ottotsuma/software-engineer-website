@@ -636,12 +636,32 @@ function placeholder() {
         clear to me but it did not seem worth it so far. How was she suppose to
         fight during the day time? While holding the umbrella?
       </p>
-      <p>Lunch today was roasted Dodo. I cannot describe how it tasted, maybe something between salty butter chicken and barbecued pleasure.</p>
+      <p>
+        Lunch today was roasted Dodo. I cannot describe how it tasted, maybe
+        something between salty butter chicken and barbecued pleasure.
+      </p>
       <div className="BreakPoint"></div>
-      <p>I wanted to try fighting the giant crabs on the other island but I was told it was a bit of a waste of time. If you killed too many of them a massive version of the crabs came out of the sea, standing at the height of 3/4 of a man and would be a real challenge, but the loot was really poor. Since we were under the effects of the miasma, even at half strength, our stats were reduced making weak enemies appear stronger.</p>
-      <p>We picked pearls from the ponds and ate dodo when we got hungry. That part had always confused me, why would our in game selves feel hunger? Who thought that was a good idea...</p>
-      <p>Sarah was back on a crab killing spree when a quest appeared for all of us.</p>
-      <p>Quest: [Save the prince who stole the pearls.] - [Rare]- [Rewards: Exp, Pearls, Princes thanks, Crabs hate.]</p>
+      <p>
+        I wanted to try fighting the giant crabs on the other island but I was
+        told it was a bit of a waste of time. If you killed too many of them a
+        massive version of the crabs came out of the sea, standing at the height
+        of 3/4 of a man and would be a real challenge, but the loot was really
+        poor. Since we were under the effects of the miasma, even at half
+        strength, our stats were reduced making weak enemies appear stronger.
+      </p>
+      <p>
+        We picked pearls from the ponds and ate dodo when we got hungry. That
+        part had always confused me, why would our in game selves feel hunger?
+        Who thought that was a good idea...
+      </p>
+      <p>
+        Sarah was back on a crab killing spree when a quest appeared for all of
+        us.
+      </p>
+      <p>
+        Quest: [Save the prince who stole the pearls.] - [Rare]- [Rewards: Exp,
+        Pearls, Princes thanks, Crabs hate.]
+      </p>
       {/* Quest - save the prince who stole the peals. He was stealing peals to make a bracelet but was captured by the king crab for killing his people and stealing pearls! */}
     </Content>
   );
