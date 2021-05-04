@@ -190,7 +190,7 @@ const BookOfRaces = styled.div`
 // Merging the stats into a few, Vitality, magic, strength, sense, charm
 // No classes? Just race and element?
 
-// killing array that targets above certen mana levels.
+// killing array that targets above certain mana levels.
 // Vampire woman vs Poison woman and Tank man.
 
 // Transferring class of the same rank and type lose 0~9[dice rolling thing] levels.
@@ -207,25 +207,25 @@ function placeholder() {
       </p>
       <h2>List of the group</h2>
       <ul style={{ overflowWrap: "anywhere", width: "100%" }}>
-        <li>
+        <li style={{ overflowWrap: "anywhere", width: "100%" }}>
           Example: Name, race, class(), level, equipment, backstory(Main island,
           other dlc before? ), clan/guild, reason for coming. PET(level)
         </li>
 
         {/* Human into something? */}
-        <li>
+        <li style={{ overflowWrap: "anywhere", width: "100%" }}>
           Boy: Name, Dark Elf?, class(Rogue[]), 37, [Normal/Rare, mostly from
           the main quests], (From the main island, recently started playing, no
           dlc), none, saw the adverts for coming and wanted to try. None(0)
         </li>
-        <li>
+        <li style={{ overflowWrap: "anywhere", width: "100%" }}>
           Girl: Sarah, Vampire, Use to be a human paladin, class(Tank[Guardian])
           Wants to change to blood warrior, 100, [mixed normal, rare epic with
           one unique], (Pro-gamer, guild leader, small dlc before), clan/guild,
           get in before the other guilds. PET(60)
         </li>
         {/*looks; file:///C:/Users/snows/Documents/GitHub/ottotsuma.github.io/guard100.html */}
-        <li>
+        <li style={{ overflowWrap: "anywhere", width: "100%" }}>
           Boy: Josh, Human, class(Rogue-subtype[Assassin]) Recently became
           assassin, 92,
           [file:///C:/Users/snows/Documents/GitHub/ottotsuma.github.io/Assassin.html
