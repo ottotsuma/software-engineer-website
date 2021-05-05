@@ -50,19 +50,15 @@ function Item(props) {
             );
         }
     } else {
-        array.push(
-            <SingleStat key={"SingleStat"}>
-                No stats to show.
-            </SingleStat>
-        )
+      // no stats to show
     }
     if(!props.src) {
         console.log('no image')
         return (
             <Main>
                 <CardNoImage bottom={props.effect ? '10px':'0px'}>
-                    <TitleItem color={colors[props.rating]}>{props.name || ''}</TitleItem>
-                    <Span>{array}</Span>
+                    <TitleItem2 color={colors[props.rating]}>{props.name || ''}</TitleItem2>
+                    {array.length > 0 && <Span>{array}</Span>}
                     {props.effect ? <Name>{props.effect}</Name> : <div></div>}
                 </CardNoImage>
                 {props.long ? <div>{props.long}</div> : <div></div>}
@@ -73,7 +69,7 @@ function Item(props) {
             <Main>
                 <Card height={props.height} width={props.width} src={props.src}>
                     {props.rating ? <TitleItem color={colors[props.rating]}>{props.name || ''}</TitleItem> : <Title color={colors[props.rating]}>{props.name || ''}</Title>}
-                    <Span>{array}</Span>
+                    {array.length > 0 && <Span>{array}</Span>}
                     {props.effect ? <Name style={{background:"#f8f8ff"}}>{props.effect}</Name> : <div></div>}
                 </Card>
             </Main>
@@ -92,6 +88,18 @@ const TitleItem = styled.p`
   display: flex;
   justify-content: center;
   font-size: 1.5em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+    color: ${props => props.color || 'white'}
+`;
+
+const TitleItem2 = styled.p`
+  display: flex;
+  justify-content: center;
+  // font-size: 1.5em;
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;

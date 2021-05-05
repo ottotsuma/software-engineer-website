@@ -3,6 +3,8 @@ import Item from "./../elements/item";
 import styled from "styled-components";
 import { Content } from "./styles";
 import Spin from "./../elements/spin";
+import Quest from "./../elements/quest";
+
 
 function Intro(props) {
   return (
@@ -645,6 +647,11 @@ function Placeholder(props) {
       <p>We picked pearls from the ponds and ate dodo when we got hungry. That part had always confused me, why would our in game selves feel hunger? Who thought that was a good idea...</p>
       <p>Sarah was back on a crab killing spree when a quest appeared for all of us.</p>
       <p>Quest: [Save the prince who stole the pearls.] - [Rare]- [Rewards: Exp, Pearls, Princes thanks, Crabs hate.]</p>
+      <Quest
+              rating="rare"
+              rewards={'Rewards: EXP, pearls, princes thanks & crabs hate.'}
+              name='Save the prince who stole the pearls.'
+            />
       {/* Quest - save the prince who stole the peals. He was stealing peals to make a bracelet but was captured by the king crab for killing his people and stealing pearls! */}
     </Content>
   );
