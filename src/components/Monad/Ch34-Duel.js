@@ -3,7 +3,6 @@ import Item from "./../elements/item";
 import styled from "styled-components";
 import { Content } from "./styles";
 import Spin from "./../elements/spin";
-import Quest from "./../elements/quest";
 
 function Intro(props) {
   return (
