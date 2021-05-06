@@ -223,9 +223,8 @@ function Placeholder(props) {
           Girl: Sarah, Vampire, Use to be a human paladin, class(Tank[Guardian])
           Wants to change to blood warrior, 100, [mixed normal, rare epic with
           one unique], (Pro-gamer, guild leader, small dlc before), clan/guild,
-          get in before the other guilds. PET(60)
+          get in before the other guilds. PET(60), file:///C:/Users/snows/Documents/GitHub/ottotsuma.github.io/guard100.html
         </li>
-        {/*looks; file:///C:/Users/snows/Documents/GitHub/ottotsuma.github.io/guard100.html */}
         <li style={{ overflowWrap: "anywhere", width: "100%" }}>
           Boy: Josh, Human, class(Rogue-subtype[Assassin]) Recently became
           assassin, 92,
