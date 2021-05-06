@@ -212,8 +212,6 @@ function Placeholder(props) {
           Example: Name, race, class(), level, equipment, backstory(Main island,
           other dlc before? ), clan/guild, reason for coming. PET(level)
         </li>
-
-        {/* Human into something? */}
         <li style={{ overflowWrap: "anywhere", width: "100%" }}>
           Boy: Name, Dark Elf?, class(Rogue[]), 37, [Normal/Rare, mostly from
           the main quests], (From the main island, recently started playing, no
