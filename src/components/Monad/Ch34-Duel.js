@@ -652,6 +652,7 @@ function Placeholder(props) {
         name='Save the prince who stole the pearls!'
         details='The prince was stealing peals to make a bracelet but was captured by the king crab for killing his people and stealing pearls!'
       />
+      <p>The first three things in my head were: What the hell? Ohh a rare quest! I can only accept!? Before the sand below fell from under out feet and we fell under the island. The bright sun replaced by pitch black as the sand recovered were it was before. Thankfully, even though the drop was huge we landed in sand.</p>
     </Content>
   );
 }

@@ -14,6 +14,7 @@ const colors = {
 
 export default function Quest(props) {
   const [spanCSS, SetSpanCSS] = useState(false);
+  const [accept, setAccept] = useState(false);
   return (
     <Main>
       <CardNoImage>
@@ -22,13 +23,28 @@ export default function Quest(props) {
         {!spanCSS && <Rewards>Rewards: {props.rewards}</Rewards>}
         {spanCSS && <Span>{props.details}</Span>}
         <ButtonWrapper>
-          <ButtonDetails onClick={() => SetSpanCSS(!spanCSS)}>Details</ButtonDetails>
-          <Button>Okay</Button>
+          {props.details ? <ButtonDetails onClick={() => SetSpanCSS(!spanCSS)}>Details</ButtonDetails> : <div></div>}
+          {accept ? <Accepted>Accepted</Accepted> : <Button onClick={()=>setAccept(true)}>Okay</Button>}
         </ButtonWrapper>
       </CardNoImage>
     </Main>
   )
 }
+
+const Accepted = styled.div`
+  color: white;
+  background: #54cc4f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 50px;
+  margin: 10px;
+  cursor: default;
+  white-space: nowrap;
+  &:hover {
+      // background: #2CA8FF;
+  }
+`;
 
 const ButtonWrapper = styled.div`
     display: flex;
@@ -89,6 +105,7 @@ const Title = styled.p`
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
+  font-size: 1.5em;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   color: ${props => props.color || 'white'}
