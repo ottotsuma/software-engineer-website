@@ -657,6 +657,12 @@ function Placeholder(props) {
 
 {/* Feels like a break? :/ */}
 
+      <p>"Looks like we landed outside of the kings fortress." Sarah said.</p>
+      <p>"Smells like crab Bisque tonight." Josh replied.</p>
+      <p>"You two can see?" I added.</p>
+      <p>"Ah yeah, newbie has no form of night vision. Do you have any torches?" He asked me.</p>
+      <p>"Yeah, but it's too dark, can you help me light one?" I asked.</p>
+      <p>"Yeah just hand one to me and a flint, I don't have anyway to start a fire." He replied.</p>
       <p></p>
     </Content>
   );
