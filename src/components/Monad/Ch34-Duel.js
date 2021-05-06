@@ -655,7 +655,7 @@ function Placeholder(props) {
       />
       <p>The first three things in my head were: What the hell? Ohh a rare quest! I can only accept!? Before the sand below fell from under out feet and we fell under the island. The bright sun replaced by pitch black as the sand recovered were it was before. Thankfully, even though the drop was huge we landed in sand.</p>
 
-{/* Feels like a break? :/ */}
+      {/* Feels like a break? :/ */}
 
       <p>"Looks like we landed outside of the kings fortress." Sarah said.</p>
       <p>"Smells like crab Bisque tonight." Josh replied.</p>
@@ -663,7 +663,9 @@ function Placeholder(props) {
       <p>"Ah yeah, newbie has no form of night vision. Do you have any torches?" He asked me.</p>
       <p>"Yeah, but it's too dark, can you help me light one?" I asked.</p>
       <p>"Yeah just hand one to me and a flint, I don't have anyway to start a fire." He replied.</p>
-      <p>Josh helped me set fire to a wooden touch wrapped in rags and oil. It's was the only non realistic thing in the game, the fire would burn and give out light but would not consume oxygen or produce soot. It was not originally like this but after the deaths of so many new players some things changed.</p>
+      <p>Josh helped me set fire to a wooden touch wrapped in rags and oil. It's was the only non realistic thing in the game, the fire would burn and give out light but would not consume oxygen or produce soot. It was not originally like this but after it caused the deaths of so many new players some things changed.</p>
+      <p>I had no idea what to say when I saw the castle. It was made of sand, it was a real sand castle. Not the kind you saw at the beach made with small plastic buckets but a giant castle made of sand with dome shaped roofs placed on each tower. There was no wall around it just a wide and short entrance. It had to be 1.5x my height so not to tall for a grand entrance but it was as wide as a bus is long.</p>
+      <p></p>
     </Content>
   );
 }
