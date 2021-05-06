@@ -420,6 +420,7 @@ function Placeholder(props) {
         was she is disgusted by you and kicks you into the world by force!
       </p>
       {/* She thinks the player has taken the body of the dead or something with their soul inside. Not that the player is an astral body which is the reality. */}
+      {/* The expression "astral projection" came to be used in two different ways. For the Golden Dawn[37] and some Theosophists[38] it retained the classical and medieval philosophers' meaning of journeying to other worlds, heavens, hells, the astrological spheres and other imaginal[39] landscapes, but outside these circles the term was increasingly applied to non-physical travel around the physical world.[40] */}
       <p>
         "She .." Before Sarah could finish what she was saying the Captain
         shouted out "LAND! Get on the small boats if you want to head to shore,
@@ -506,8 +507,8 @@ function Placeholder(props) {
       <p>
         I knew Sarah and Josh were part of the same guild, so I wondered why
         Josh did not come to the new land when Sarah did. Sarah had been before
-        and died in the new land, since there is no ***** in the new land yet
-        when you die you return to your own **** in the old lands.
+        and died in the new land, since there is no respawn locations in the new land yet
+        when you die you return to your own respawn location in the old lands.
       </p>
       <p>
         "Josh, how come you did not come to the new lands when Sarah came?" I
@@ -653,6 +654,10 @@ function Placeholder(props) {
         details='The prince was stealing peals to make a bracelet but was captured by the king crab for killing his people and stealing pearls!'
       />
       <p>The first three things in my head were: What the hell? Ohh a rare quest! I can only accept!? Before the sand below fell from under out feet and we fell under the island. The bright sun replaced by pitch black as the sand recovered were it was before. Thankfully, even though the drop was huge we landed in sand.</p>
+
+{/* Feels like a break? :/ */}
+
+      <p></p>
     </Content>
   );
 }
