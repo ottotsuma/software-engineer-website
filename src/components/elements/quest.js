@@ -1,23 +1,86 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components';
 
+const colors = {
+  junk: "rgb(109, 109, 109)",
+  normal: "blue",
+  rare: "green",
+  epic: "red",
+  legendary: "orange",
+  unique: "purple",
+  growth: "#e2abac",
+  quest: "gold",
+};
+
 export default function Quest(props) {
-    return (
-        <Main>
-            <CardNoImage>
-                <Title>New Quest!</Title>
-                {props.name}
-            {props.rewards}
-            {props.rating}
-            </CardNoImage>
-        </Main>
-    )
+  const [spanCSS, SetSpanCSS] = useState(false);
+  return (
+    <Main>
+      <CardNoImage>
+        <Title color={colors[props.rating]}>New Quest!</Title>
+        {!spanCSS && <Name>{props.name}</Name>}
+        {!spanCSS && <Rewards>Rewards: {props.rewards}</Rewards>}
+        {spanCSS && <Span>{props.details}</Span>}
+        <ButtonWrapper>
+          <ButtonDetails onClick={() => SetSpanCSS(!spanCSS)}>Details</ButtonDetails>
+          <Button>Okay</Button>
+        </ButtonWrapper>
+      </CardNoImage>
+    </Main>
+  )
 }
 
+const ButtonWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+`;
+
+const ButtonDetails = styled.div`
+  color: white;
+  background: #f92b00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  white-space: nowrap;
+  &:hover {
+      background: #ff5745;
+  }
+`;
+
+const Button = styled.div`
+  color: white;
+  background: #0d89eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 50px;
+  margin: 10px;
+  cursor: pointer;
+  white-space: nowrap;
+  &:hover {
+      background: #2CA8FF;
+  }
+`;
+
+const Name = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+`;
+const Rewards = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+`;
 const Main = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: black 3px solid;
 `;
 
 const Title = styled.p`
@@ -28,7 +91,7 @@ const Title = styled.p`
   font-weight: bold;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-    color: ${props => props.color || 'white'}
+  color: ${props => props.color || 'white'}
 `;
 
 const SingleStat = styled.li`
@@ -52,23 +115,15 @@ const BottomText = styled.div`
   font-weight: bold
 `;
 
-const Span = styled.span`
-  visibility: hidden;
+const Span = styled.div`
   background-color: black;
   color: #fff;
   text-align: center;
   border-radius: 6px;
   padding: 5px;
   width: auto;
-  position: absolute;
   z-index: 2;
-  margin-left: 50%;
-  white-space: nowrap;
   top: 0;
-  @media screen and (max-width: 650px) {
-    margin-left: 0%;
-    left: 0;
-  }
 `;
 
 const Card = styled.div`
@@ -81,9 +136,6 @@ position:relative; /* important */
   background-size: cover; /* Resize the background image to cover the entire container */
   border-radius: 3px;
   margin-bottom: 10px;
-  &:hover ${Span} {
-    visibility: visible;
-  }
   &:hover ${BottomText} {
     max-height:50%; /* important */
   }
@@ -95,9 +147,6 @@ position:relative; /* important */
   height: auto;
   border-radius: 3px;
   margin-bottom: ${props => props.bottom || "10px"};
-  &:hover ${Span} {
-    visibility: visible;
-  }
   &:hover ${BottomText} {
     max-height:50%; /* important */
   }

@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Item from "./../elements/item";
 import styled from "styled-components";
 import { Content } from "./styles";
@@ -646,13 +646,12 @@ function Placeholder(props) {
       <p>I wanted to try fighting the giant crabs on the other island but I was told it was a bit of a waste of time. If you killed too many of them a massive version of the crabs came out of the sea, standing at the height of 3/4 of a man and would be a real challenge, but the loot was really poor. Since we were under the effects of the miasma, even at half strength, our stats were reduced making weak enemies appear stronger.</p>
       <p>We picked pearls from the ponds and ate dodo when we got hungry. That part had always confused me, why would our in game selves feel hunger? Who thought that was a good idea...</p>
       <p>Sarah was back on a crab killing spree when a quest appeared for all of us.</p>
-      <p>Quest: [Save the prince who stole the pearls.] - [Rare]- [Rewards: Exp, Pearls, Princes thanks, Crabs hate.]</p>
       <Quest
-              rating="rare"
-              rewards={'Rewards: EXP, pearls, princes thanks & crabs hate.'}
-              name='Save the prince who stole the pearls.'
-            />
-      {/* Quest - save the prince who stole the peals. He was stealing peals to make a bracelet but was captured by the king crab for killing his people and stealing pearls! */}
+        rating="rare"
+        rewards={'EXP, Pearls, Princes thanks & Crabs hate.'}
+        name='Save the prince who stole the pearls!'
+        details='The prince was stealing peals to make a bracelet but was captured by the king crab for killing his people and stealing pearls!'
+      />
     </Content>
   );
 }
