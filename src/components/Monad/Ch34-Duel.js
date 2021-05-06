@@ -663,7 +663,7 @@ function Placeholder(props) {
       <p>"Ah yeah, newbie has no form of night vision. Do you have any torches?" He asked me.</p>
       <p>"Yeah, but it's too dark, can you help me light one?" I asked.</p>
       <p>"Yeah just hand one to me and a flint, I don't have anyway to start a fire." He replied.</p>
-      <p></p>
+      <p>Josh helped me set fire to a wooden touch wrapped in rags and oil. It's was the only non realistic thing in the game, the fire would burn and give out light but would not consume oxygen or produce soot. It was not originally like this but after the deaths of so many new players some things changed.</p>
     </Content>
   );
 }
