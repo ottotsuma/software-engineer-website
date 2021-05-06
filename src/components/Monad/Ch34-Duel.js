@@ -5,7 +5,6 @@ import { Content } from "./styles";
 import Spin from "./../elements/spin";
 import Quest from "./../elements/quest";
 
-
 function Intro(props) {
   return (
     <Content>
@@ -507,8 +506,9 @@ function Placeholder(props) {
       <p>
         I knew Sarah and Josh were part of the same guild, so I wondered why
         Josh did not come to the new land when Sarah did. Sarah had been before
-        and died in the new land, since there is no respawn locations in the new land yet
-        when you die you return to your own respawn location in the old lands.
+        and died in the new land, since there is no respawn locations in the new
+        land yet when you die you return to your own respawn location in the old
+        lands.
       </p>
       <p>
         "Josh, how come you did not come to the new lands when Sarah came?" I
@@ -644,27 +644,66 @@ function Placeholder(props) {
         something between salty butter chicken and barbecued pleasure.
       </p>
       <div className="BreakPoint"></div>
-      <p>I wanted to try fighting the giant crabs on the other island but I was told it was a bit of a waste of time. If you killed too many of them a massive version of the crabs came out of the sea, standing at the height of 3/4 of a man and would be a real challenge, but the loot was really poor. Since we were under the effects of the miasma, even at half strength, our stats were reduced making weak enemies appear stronger.</p>
-      <p>We picked pearls from the ponds and ate dodo when we got hungry. That part had always confused me, why would our in game selves feel hunger? Who thought that was a good idea...</p>
-      <p>Sarah was back on a crab killing spree when a quest appeared for all of us.</p>
+      <p>
+        I wanted to try fighting the giant crabs on the other island but I was
+        told it was a bit of a waste of time. If you killed too many of them a
+        massive version of the crabs came out of the sea, standing at the height
+        of 3/4 of a man and would be a real challenge, but the loot was really
+        poor. Since we were under the effects of the miasma, even at half
+        strength, our stats were reduced making weak enemies appear stronger.
+      </p>
+      <p>
+        We picked pearls from the ponds and ate dodo when we got hungry. That
+        part had always confused me, why would our in game selves feel hunger?
+        Who thought that was a good idea...
+      </p>
+      <p>
+        Sarah was back on a crab killing spree when a quest appeared for all of
+        us.
+      </p>
       <Quest
         rating="rare"
-        rewards={'EXP, Pearls, Princes thanks & Crabs hate.'}
-        name='Save the prince who stole the pearls!'
-        details='The prince was stealing peals to make a bracelet but was captured by the king crab for killing his people and stealing pearls!'
+        rewards={"EXP, Pearls, Princes thanks & Crabs hate."}
+        name="Save the prince who stole the pearls!"
+        details="The prince was stealing peals to make a bracelet but was captured by the king crab for killing his people and stealing pearls!"
       />
-      <p>The first three things in my head were: What the hell? Ohh a rare quest! I can only accept!? Before the sand below fell from under out feet and we fell under the island. The bright sun replaced by pitch black as the sand recovered were it was before. Thankfully, even though the drop was huge we landed in sand.</p>
+      <p>
+        The first three things in my head were: What the hell? Ohh a rare quest!
+        I can only accept!? Before the sand below fell from under out feet and
+        we fell under the island. The bright sun replaced by pitch black as the
+        sand recovered were it was before. Thankfully, even though the drop was
+        huge we landed in sand.
+      </p>
 
       {/* Feels like a break? :/ */}
 
       <p>"Looks like we landed outside of the kings fortress." Sarah said.</p>
       <p>"Smells like crab Bisque tonight." Josh replied.</p>
       <p>"You two can see?" I added.</p>
-      <p>"Ah yeah, newbie has no form of night vision. Do you have any torches?" He asked me.</p>
+      <p>
+        "Ah yeah, newbie has no form of night vision. Do you have any torches?"
+        He asked me.
+      </p>
       <p>"Yeah, but it's too dark, can you help me light one?" I asked.</p>
-      <p>"Yeah just hand one to me and a flint, I don't have anyway to start a fire." He replied.</p>
-      <p>Josh helped me set fire to a wooden touch wrapped in rags and oil. It's was the only non realistic thing in the game, the fire would burn and give out light but would not consume oxygen or produce soot. It was not originally like this but after it caused the deaths of so many new players some things changed.</p>
-      <p>I had no idea what to say when I saw the castle. It was made of sand, it was a real sand castle. Not the kind you saw at the beach made with small plastic buckets but a giant castle made of sand with dome shaped roofs placed on each tower. There was no wall around it just a wide and short entrance. It had to be 1.5x my height so not to tall for a grand entrance but it was as wide as a bus is long.</p>
+      <p>
+        "Yeah just hand one to me and a flint, I don't have anyway to start a
+        fire." He replied.
+      </p>
+      <p>
+        Josh helped me set fire to a wooden touch wrapped in rags and oil. It's
+        was the only non realistic thing in the game, the fire would burn and
+        give out light but would not consume oxygen or produce soot. It was not
+        originally like this but after it caused the deaths of so many new
+        players some things changed.
+      </p>
+      <p>
+        I had no idea what to say when I saw the castle. It was made of sand, it
+        was a real sand castle. Not the kind you saw at the beach made with
+        small plastic buckets but a giant castle made of sand with dome shaped
+        roofs placed on each tower. There was no wall around it just a wide and
+        short entrance. It had to be 1.5x my height so not to tall for a grand
+        entrance but it was as wide as a bus is long.
+      </p>
       <p></p>
     </Content>
   );
