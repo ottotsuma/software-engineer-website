@@ -221,7 +221,8 @@ function Placeholder(props) {
           Girl: Sarah, Vampire, Use to be a human paladin, class(Tank[Guardian])
           Wants to change to blood warrior, 100, [mixed normal, rare epic with
           one unique], (Pro-gamer, guild leader, small dlc before), clan/guild,
-          get in before the other guilds. PET(60), file:///C:/Users/snows/Documents/GitHub/ottotsuma.github.io/guard100.html
+          get in before the other guilds. PET(60),
+          file:///C:/Users/snows/Documents/GitHub/ottotsuma.github.io/guard100.html
         </li>
         <li style={{ overflowWrap: "anywhere", width: "100%" }}>
           Boy: Josh, Human, class(Rogue-subtype[Assassin]) Recently became
@@ -701,13 +702,45 @@ function Placeholder(props) {
         short entrance. It had to be 1.5x my height so not too tall for a grand
         entrance but it was as wide as a bus is long.
       </p>
-      <p>We ran up to the entrance, I couldn't see all too much as the hallway was really deep in the castle, I could only see as far as the touch light reached. Josh was kind enough to inform me that it was deeper then even he could sense.</p>
-      <p>As we walked down the hallway I looked at all the decorations, at first it was sea shells, star fish and other beach items. Then there were small indents in the sand wall, after which the decor changed.</p>
-      <p>The walls here had paintings of crabs at the beach, wearing silly hats. I was so engrossed in the weird decorations I kind of stopped looking ahead. I only turned back when Sarah shouted "Run!" Shortly after bolting past me.</p>
-      <p>I looked up and saw a giant crab as wide as the hall way barreling down upon us. It was moving side ways because if it came face first it would not fit down the hallway. I ran after Sarah and we hid in one of the gaps in the wall. The crab ran up to us but could not turn around so was unable to do anything about us being behind. Josh had taken the opposite wall and a huge crab claw smashed into and though him into the wall behind.</p>
-      <p>The crab then shot off at high speed back the way it had come from. I ran over to Josh to see if he had died, it did not look great with his body collapsed on the floor. His body fell apart like bits of string falling over each other and disappeared, another Josh appeared next to himself looking healthy as I just stared confused.</p>
+      <p>
+        We ran up to the entrance, I couldn't see all too much as the hallway
+        was really deep in the castle, I could only see as far as the touch
+        light reached. Josh was kind enough to inform me that it was deeper then
+        even he could sense.
+      </p>
+      <p>
+        As we walked down the hallway I looked at all the decorations, at first
+        it was sea shells, star fish and other beach items. Then there were
+        small indents in the sand wall, after which the decor changed.
+      </p>
+      <p>
+        The walls here had paintings of crabs at the beach, wearing silly hats.
+        I was so engrossed in the weird decorations I kind of stopped looking
+        ahead. I only turned back when Sarah shouted "Run!" Shortly after
+        bolting past me.
+      </p>
+      <p>
+        I looked up and saw a giant crab as wide as the hall way barreling down
+        upon us. It was moving side ways because if it came face first it would
+        not fit down the hallway. I ran after Sarah and we hid in one of the
+        gaps in the wall. The crab ran up to us but could not turn around so was
+        unable to do anything about us being behind. Josh had taken the opposite
+        wall and a huge crab claw smashed into and though him into the wall
+        behind.
+      </p>
+      <p>
+        The crab then shot off at high speed back the way it had come from. I
+        ran over to Josh to see if he had died, it did not look great with his
+        body collapsed on the floor. His body fell apart like bits of string
+        falling over each other and disappeared, another Josh appeared next to
+        himself looking healthy as I just stared confused.
+      </p>
       {/* 30 - Extra Stat points, Intermediate Spells, Cap Raised to 4 */}
-      <p>"Assassin skill level 30, shadow clone. It makes a copy of me out of shadows, although the cost is high the price paid off this time." Josh explained while adjusting his shirt.</p>
+      <p>
+        "Assassin skill level 30, shadow clone. It makes a copy of me out of
+        shadows, although the cost is high the price paid off this time." Josh
+        explained while adjusting his shirt.
+      </p>
     </Content>
   );
 }
