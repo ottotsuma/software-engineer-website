@@ -694,14 +694,14 @@ function Placeholder(props) {
         players some things changed.
       </p>
       <p>
-        I had no idea what to say when I saw the castle. It was made of sand, it
+        I had no idea what to say when I saw the castle. It was made of sand. It
         was a real sand castle. Not the kind you saw at the beach made with
-        small plastic buckets but a giant castle made of sand with dome shaped
+        small plastic buckets but a giant castle made of sand, with dome shaped
         roofs placed on each tower. There was no wall around it just a wide and
-        short entrance. It had to be 1.5x my height so not to tall for a grand
+        short entrance. It had to be 1.5x my height so not too tall for a grand
         entrance but it was as wide as a bus is long.
       </p>
-      <p></p>
+      <p>We ran up to the entrance, I couldn't see all too much as the hallway was really deep in the castle, I could only see as far as the touch light reached. Josh was kind enough to inform me that it was deeper then even he could sense.</p>
     </Content>
   );
 }
