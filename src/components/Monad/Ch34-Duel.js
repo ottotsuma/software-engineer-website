@@ -800,6 +800,12 @@ function Placeholder(props) {
         in the moment when you are under pressure looking at a bus sized crab
         for some reason it felt hard.
       </p>
+      <p>After two more holes, the last being a close call because I could not run fast enough to make it to the next hole and had to get Sarah to throw me again. We could finally see were the crab was coming from. He scuttled down the hallway and we ran after him as soon as he started to leave and could see a room ten times his size where he would turn around.</p>
+      <p>We ran in and as he was turning around and saw us running after him he gave a huge roar and slammed both his claws into the ground. Although the ground was sand so the damage to the floor was nothing, the force flung sand everywhere and it was hard enough we could feel a thud from the change of air pressure.</p>
+      <p>The boss fight had started with his hp bars filling above himself, and yes 'bars' more then one.</p>
+      <p>[Your level has been capped at 30, However you are below level 30.]</p>
+      <p>The miasma had halved all of our stats but I was only just realising that it also half our level. Only now when it came to fight for the first time since the Miasma was this strong did I realise all my level 30 skills were blocked!</p>
+      <p>I was level 37, but because of the Miasma I was effectively level 19. Could the system not just make me level 30 if that was the cap? I was really a higher level to start with... However my internal complaints felt on deaf ears. Sarah jumped in front of both me and Josh and told us to move back, I wanted to run in and help right away but I was a lower level, with the 50% reduction to our level and a max cap at 30. That means Sarah and Josh were still level 30 and I was not.</p>
       <p></p>
     </Content>
   );
