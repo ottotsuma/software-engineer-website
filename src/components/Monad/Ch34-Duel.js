@@ -741,14 +741,65 @@ function Placeholder(props) {
         shadows, although the cost is high the price paid off this time." Josh
         explained while adjusting his shirt.
       </p>
-      <p>"Huh? I don't see that skill and I am level 37." I replied looking though my skills list.</p>
-      <p>"Assassin, not Rouge. It's a different class. Anyway we can talk about things like that after. The crab will be back soon." Josh pointed in the direction of the crab, while I could not see the end clearly I could hear the noises the crab was making and knew it had not left.</p>
-      <p>"Quick, we need to move down to the next hole in the wall before the crab comes back, and pick the side he is not facing. It looks like it's a puzzle trap rather then a fight." Sarah interrupted.</p>
-      <p>We ran as quickly as we could down the hallway. It didn't take long before the sound of the crabs legs moving in a mechanical fashion went from being loud noises to being able to see them come into my field of vision. Like last time he was moving quickly but facing the opposite wall from before.</p>
-      <p>This seemed like a simple puzzle just keep swapping sides and as long as you are quick enough between each holes you won't get caught out by the crab. So we jumped into the hole and he ran up to us stopped and made some angry noises before scuttling back from were it came from.</p>
-      <p>This time we set off from the opposite wall again and started to run down quickly, we managed to get into the hole this time before the crab had made it's way back up again because we did not stand around talking. However to our horror the crab was facing the same direction as last time! He tricked us!</p>
-      <p>We wanted to quickly move to the other side, Josh moved quickly though the shadows cast by the crab in my light and popped up on the other side but I was far to slow to act. Sarah pushed me under the crab between it's legs as the claw slammed into the sand wall behind were I was. It turned to stab at Sarah who was next to me with its other claw, but Sarah just waved gently at the crab and vanished.</p>
-      <p>It made more angry noises and scuttled back down the hall way again.</p>
+      <p>
+        "Huh? I don't see that skill and I am level 37." I replied looking
+        though my skills list.
+      </p>
+      <p>
+        "Assassin, not Rouge. It's a different class. Anyway we can talk about
+        things like that after. The crab will be back soon." Josh pointed in the
+        direction of the crab, while I could not see the end clearly I could
+        hear the noises the crab was making and knew it had not left.
+      </p>
+      <p>
+        "Quick, we need to move down to the next hole in the wall before the
+        crab comes back, and pick the side he is not facing. It looks like it's
+        a puzzle trap rather then a fight." Sarah interrupted.
+      </p>
+      <p>
+        We ran as quickly as we could down the hallway. It didn't take long
+        before the sound of the crabs legs moving in a mechanical fashion went
+        from being loud noises to being able to see them come into my field of
+        vision. Like last time he was moving quickly but facing the opposite
+        wall from before.
+      </p>
+      <p>
+        This seemed like a simple puzzle just keep swapping sides and as long as
+        you are quick enough between each holes you won't get caught out by the
+        crab. So we jumped into the hole and he ran up to us stopped and made
+        some angry noises before scuttling back from were it came from.
+      </p>
+      <p>
+        This time we set off from the opposite wall again and started to run
+        down quickly, we managed to get into the hole this time before the crab
+        had made it's way back up again because we did not stand around talking.
+        However to our horror the crab was facing the same direction as last
+        time! He tricked us!
+      </p>
+      <p>
+        We wanted to quickly move to the other side, Josh moved quickly though
+        the shadows cast by the crab in my light and popped up on the other side
+        but I was far to slow to act. Sarah pushed me under the crab between
+        it's legs as the claw slammed into the sand wall behind were I was. It
+        turned to stab at Sarah who was next to me with its other claw, but
+        Sarah just waved gently at the crab and vanished.
+      </p>
+      <p>
+        It made more angry noises and scuttled back down the hall way again.
+      </p>
+      <p>
+        Sarah appeared were I was once stood and I knew these two had been
+        playing for longer then me but this level of reaction and knowing which
+        skills would be useful was far above me right now. Maybe my Dark Elf
+        race had some cool and unique abilities I just had to think of ways to
+        use them. We ran without talking again towards the crab, however this
+        time we were getting closer to where the crab must be turning around and
+        he came back quicker. Or at the same speed just we were closer to his
+        start point now so the moment we saw him we had to pick a side to run
+        to. This was easy in theory the giant claws should of given it away but
+        in the moment when you are under pressure looking at a bus sized crab
+        for some reason it felt hard.
+      </p>
       <p></p>
     </Content>
   );
