@@ -845,8 +845,11 @@ function Placeholder(props) {
       {/* ottotsuma.github.io/images/w1.jpg */}
       <p>The claws of the crab rushed forward and clamped down on Sarah's shield. "Moron." She shouted while slamming her mace into one of its joins, the sound of crab armor being crushed was... It made my stomach ruble.</p>
       <p>Before I had made my move Josh was already behind the crab doing his thing, singing "Stabby stab stab, stabby stab." While jamming his long thin blades into the gaps in the crabs armor.</p>
-      <p>I did not want to be left out and seeing the other crab claw closing down on Sarah from the side I sprinted forward. </p>
+      <p>I did not want to be left out and seeing the other crab claw closing down on Sarah from the side I sprinted forward. Since I only had my basic rouge skills I decided to show off what a basic rouge could do! The first thing I did was merge with my monster spirit, this was a skill specific to rouge type classes, any monster you kill solo, if you absorb the monsters spirit you get access to some of the monsters skills! This was the draw to picking rouges.</p>
+      <p>The monster I had fused with was a Satyr, they where a kind of fusion between horse or goat and human. Mine was no normal Satyr but the level 40 boss, Satyr Cruk, Chief of war of the goat clan.</p>
+      {/* https://www.fantasynamegenerators.com/satyr-faun-names.php */}
       {/* file:///C:/Users/snows/Documents/GitHub/ottotsuma.github.io/rouge.html */}
+      <p></p>
     </Content>
   );
 }

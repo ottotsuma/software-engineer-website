@@ -116,7 +116,7 @@ Tisiel Skivali - (cliffs) imperial name,(huonoia) - scholar/necromancer (GONE)
 <li>Mila - Otto's group (3)
 <li>Berta - Otto's group (3)
 <li>Max - Fought against Otto in the group.
-
+<li>Satyr Cruk, Chief of war of the goat clan. (old world)
 ---
 
 Famous Mages:
