@@ -850,9 +850,13 @@ function Placeholder(props) {
       {/* https://www.fantasynamegenerators.com/satyr-faun-names.php */}
       {/* file:///C:/Users/snows/Documents/GitHub/ottotsuma.github.io/rouge.html */}
       <p>As soon as I had activated the fuse, horns grew from the front of my head, spiraling around and back pointing forward. My feet turned into hooves as fur grew out the side of my legs. The transformation not only changed my physical appearance but also my stats and the effects of some of my rouge skills. This was why people played rouge, for a game based around options, this class had the most to pick from.</p>
+      <p>The first skill I used was 'Fleet of Foot' for movement increase, I used my new speed to run at the crab claw which was almost upon Sarah now and then used 'Headbutt' on the claw to knock it off course. I damn near fell over from the recoil but the claw was smacked up and away from Sarah. With my horns attached my 'Headbutt' skill did no recoil damage to myself and more to my target.</p>
+      {/* https://ottotsuma.github.io/rouge */}
     </Content>
   );
 }
+
+// Rouge Skills Used (Basic) - Fleet of Foot, Headbutt
 
 // Team bonuses for each of them?
 // same class and rank - 0 ~ 9 e.g. Rogue (normal) to Rogue-subtype (normal)
