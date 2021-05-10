@@ -849,7 +849,7 @@ function Placeholder(props) {
       <p>The monster I had fused with was a Satyr, they where a kind of fusion between horse or goat and human. Mine was no normal Satyr but the level 40 boss, Satyr Cruk, Chief of war of the goat clan.</p>
       {/* https://www.fantasynamegenerators.com/satyr-faun-names.php */}
       {/* file:///C:/Users/snows/Documents/GitHub/ottotsuma.github.io/rouge.html */}
-      <p></p>
+      <p>As soon as I had activated the fuse, horns grew from the front of my head, spiraling around and back pointing forward. My feet turned into hooves as fur grew out the side of my legs. The transformation not only changed my physical appearance but also my stats and the effects of some of my rouge skills. This was why people played rouge, for a game based around options, this class had the most to pick from.</p>
     </Content>
   );
 }
