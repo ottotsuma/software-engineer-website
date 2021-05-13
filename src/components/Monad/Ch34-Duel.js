@@ -886,14 +886,38 @@ function Placeholder(props) {
         to myself and more to my target.
       </p>
       {/* https://ottotsuma.github.io/rouge */}
+      <p></p>
     </Content>
   );
 }
 
 // Rouge Skills Used (Basic) - Fleet of Foot, Headbutt
+// Combo skills for each class:
+// Rouge: Side/Back -- Back -- Side (3rd one is intermediate), (4th advanced)
+// Fighter: ?? -- ?? -- ?? (3rd one is intermediate), (4th advanced)
+// Mage: ?? -- ?? -- ?? (3rd one is intermediate), (4th advanced)
 
 // Team bonuses for each of them?
 // same class and rank - 0 ~ 9 e.g. Rogue (normal) to Rogue-subtype (normal)
 // one rank up same class - 20 ~ 50
 // same rank different class - 20 ~ 50
 // one rank up, different class - Full reset
+
+// Stealth, Every point increases the duration by 10 seconds. However it also increases the cool down.
+// Dual Wield, Each point reduces the dual wielding penalty, and eventually it a buff.
+// Preparations, Can set up basic traps
+// Shadowstep, Move though the shadows instantly
+// Stealth Attack, An attack launched from stealth for bonus damage
+// Venom, adds poison to physical attacks
+// "Creature"-Venom, Ignores a % of poison resistance
+// Backslash, jump over a target and stab them in the back
+// Throwing Knife, throws a knife
+// Cloak and Dagger, short teleport without breaking sneak
+// Gag Order, silence target while active (short debuff on target per point)
+// Rupture Tendons, cut the targets tendons reducing their move speed
+// Spinning Edge, an attack
+// Gust Slash, an attack
+// Aeolian Edge, an attack, bonus from rear
+// Shadow Fang, an attack
+// Fleet of Foot, increase move speed
+// All fours, reduce damage from falling

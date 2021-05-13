@@ -78,6 +78,33 @@ Human body: Stats 0 - 10, 5 is normal and 10 is the best a human can get. (This 
 <li>90 - Extra Stat points, Cap Raised to 10
 <li>100 - Class Advancement, Increase other properties +3
 
+## Team bouses: 
+<!-- https://ottotsuma.github.io/advclass.html -->
+<!-- Normal -->
+<li>Summoner - Summon maintain cost is reduced
+<li>Paladin - Can use holy objects, cannot use unholy objects
+<li>Pyromancer - Fire spells cost 5% less
+<li>Scout - Sense + 5
+<li>Battlemage - Strength & Magic +1
+<li>Thief - Dexterity + 2
+<!-- Rare -->
+<li>Knight Commander - Commanded units gain hp is increased
+<li>Assassin - Damage from sneak attacks is increased
+<li>Pirate - Swimming +5% movement speed
+<li>Witchdoctor - Unknown
+<li>Priest - Can use holy objects, cannot use unholy objects
+<li>Inquisitor - Can use holy objects, cannot use unholy objects
+<li>Darkknight - Cannot use holy objects, can use unholy objects
+<!-- Epic -->
+<li>Viking - Swimming +5% movement speed
+<li>Blood Warrior - Access to blood skills
+<li>Deathknight - Unknown
+<!-- Legendary -->
+<li>King - All Stats + 10%, hp + 5%, mana + 3%, movement speed -10%
+<li>DEMIURGE - +1 to the main stat of crafted items
+<!-- Unique -->
+<li>Pope - Unknown
+
 ## People:
 
 <p>Ralsan is my name,
@@ -124,6 +151,31 @@ Alden:
 <li>Surname: Elzach - Alden's Grand Duke has royal lightning, it is purple in color and has not been seen outside of their family.
 <li>Argavereri's Viscount uses a green smoke element, most unusual.
 <li>Baron Mann based at Soldenheim famously uses runes.
+
+## Sea People:
+<li>
+Example: Name, race, class(), level, equipment, backstory(Main island,
+other dlc before? ), clan/guild, reason for coming. PET(level)
+</li>
+<li>
+Boy: Name, Dark Elf?, class(Rogue[]), 37, [Normal/Rare, mostly from
+the main quests], (From the main island, recently started playing, no
+dlc), none, saw the adverts for coming and wanted to try. None(0)
+</li>
+<li>
+Girl: Sarah, Vampire, Use to be a human paladin, class(Tank[Guardian])
+Wants to change to blood warrior, 100, [mixed normal, rare epic with
+one unique], (Pro-gamer, guild leader, small dlc before), clan/guild,
+get in before the other guilds. PET(60),
+file:///C:/Users/snows/Documents/GitHub/ottotsuma.github.io/guard100.html
+</li>
+<li>
+Boy: Josh, Human, class(Rogue-subtype[Assassin]) Recently became
+assassin, 92,
+[file:///C:/Users/snows/Documents/GitHub/ottotsuma.github.io/Assassin.html
+, but not unique items], (Member of the same guild, small dlc, company
+man), clan/guild, accompany the same guild. RAT(100)
+</li>
 
 ###### Extra People:
 
