@@ -78,8 +78,15 @@ Human body: Stats 0 - 10, 5 is normal and 10 is the best a human can get. (This 
 <li>90 - Extra Stat points, Cap Raised to 10
 <li>100 - Class Advancement, Increase other properties +3
 
+---
+
 ## Class/Team bouses: 
 <!-- https://ottotsuma.github.io/advclass.html -->
+<!-- Basic -->
+<li>Fighter - +1 Strength.
+<li>Rouge - +1 Dexterity.
+<li>Mage - +1 Magic.
+
 <!-- Normal -->
 <li>Summoner - Summon maintain cost is reduced
 <li>Paladin - Can use holy objects, cannot use unholy objects
@@ -105,8 +112,33 @@ Human body: Stats 0 - 10, 5 is normal and 10 is the best a human can get. (This 
 <!-- Unique -->
 <li>Pope - Unknown
 
+---
+
 ## Race/Self Bonuses: 
-<li> Human - ???
+<!-- https://ottotsuma.github.io/race.html -->
+<!-- Normal -->
+<li> Human - Sense - +1 Charisma - +2
+<li> Orc - Strength - +2 Vitality - +1. (Small health regen when in combat)
+<li> Gnoll - Dexterity - +1 Sense - +2 (Can gain access to spells/abilities early from their Demon Lord)
+<li> Miqo'te - Dexterity - +1 Sense - +2 (Their claws given them a built in weapon)
+<li> Dwarf - Strength - +1 Vitality - +2 (Small resistance to spell effects, but lower success with spells)
+
+<!-- Rare -->
+<li> Vampire - Strength - +1 Vitality - +1 Magic - +1 Dexterity - +1 Sense - +1. (Blood magic is always unlocked)
+<li> Dark Elf - ???
+<li> Automitia - ???
+<li> Undead (generic) - ???
+<li> Krogan - ???
+<li> Turian - ???
+
+<!-- Epic -->
+<li> Kitsune - ???
+<li> Goblin - ???
+<li> Thri-kreen - ???
+<li> Kenku - ???
+<li> Troglodytes - ???
+
+---
 
 ## People:
 
