@@ -78,7 +78,7 @@ Human body: Stats 0 - 10, 5 is normal and 10 is the best a human can get. (This 
 <li>90 - Extra Stat points, Cap Raised to 10
 <li>100 - Class Advancement, Increase other properties +3
 
-## Team bouses: 
+## Class/Team bouses: 
 <!-- https://ottotsuma.github.io/advclass.html -->
 <!-- Normal -->
 <li>Summoner - Summon maintain cost is reduced
@@ -104,6 +104,9 @@ Human body: Stats 0 - 10, 5 is normal and 10 is the best a human can get. (This 
 <li>DEMIURGE - +1 to the main stat of crafted items
 <!-- Unique -->
 <li>Pope - Unknown
+
+## Race/Self Bonuses: 
+<li> Human - ???
 
 ## People:
 
