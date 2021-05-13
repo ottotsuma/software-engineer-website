@@ -122,6 +122,7 @@ Human body: Stats 0 - 10, 5 is normal and 10 is the best a human can get. (This 
 <li> Gnoll - Dexterity - +1 Sense - +2 (Can gain access to spells/abilities early from their Demon Lord)
 <li> Miqo'te - Dexterity - +1 Sense - +2 (Their claws given them a built in weapon)
 <li> Dwarf - Strength - +1 Vitality - +2 (Small resistance to spell effects, but lower success with spells)
+<li> Elf - ???
 
 <!-- Rare -->
 <li> Vampire - Strength - +1 Vitality - +1 Magic - +1 Dexterity - +1 Sense - +1. (Blood magic is always unlocked)
