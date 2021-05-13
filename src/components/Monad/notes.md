@@ -126,7 +126,8 @@ Human body: Stats 0 - 10, 5 is normal and 10 is the best a human can get. (This 
 
 <!-- Rare -->
 <li> Vampire - Strength - +1 Vitality - +1 Magic - +1 Dexterity - +1 Sense - +1. (Blood magic is always unlocked)
-<li> Dark Elf - ???
+<li> Dark Elf  - ???
+<li> (Making them black just seems wrong, they should be dark in mind not skin color. Especially if they live underground, they should be super pale.) [Would it not make sense to make the sun elves dark skinned?] I could I could have a dark, dark elf just make them shadowy users to it is adaptive cameo? Or Desert elves? 
 <li> Automitia - ???
 <li> Undead (generic) - ???
 <li> Krogan - ???
