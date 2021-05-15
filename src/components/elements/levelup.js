@@ -73,9 +73,6 @@ export default function Levelup(props) {
     }
   }
 
-  // <li>10 - Picked first element, Mix first element with basic mana spells, Cap Raised to 2
-  // <li>70 - Picked 2nd element, Cap Raised to 8
-
   useEffect(() => {
     const array = [];
     let skill = 0;
