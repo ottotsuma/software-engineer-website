@@ -6,7 +6,6 @@ import Spin from "./../elements/spin";
 import Quest from "./../elements/quest";
 import LevelUp from "./../elements/levelup";
 
-
 function Intro(props) {
   return (
     <Content>
@@ -888,7 +887,12 @@ function Placeholder(props) {
         to myself and more to my target.
       </p>
       {/* https://ottotsuma.github.io/rouge */}
-      <p>With my two short swords I slashed out in claw pattern I had picked up when my rouge spirit was a tiger. 'Slashing Edge' into 'Sharp Slash'. The damage was far less than Josh was doing but I was helping keep the other claw away from Sarah more then damaging.</p>
+      <p>
+        With my two short swords I slashed out in claw pattern I had picked up
+        when my rouge spirit was a tiger. 'Slashing Edge' into 'Sharp Slash'.
+        The damage was far less than Josh was doing but I was helping keep the
+        other claw away from Sarah more then damaging.
+      </p>
       <p></p>
       {/* Make a quest reward, or just level up or rewards system */}
       <Quest
@@ -899,7 +903,7 @@ function Placeholder(props) {
         complete={true}
       />
       {/* Level up? */}
-      <LevelUp 
+      <LevelUp
         level={12}
         race={"normal"}
         class={"normal"}
