@@ -900,10 +900,11 @@ function Placeholder(props) {
       {/* Level up? */}
       <LevelUp 
         level={10}
-        race={"human"}
-        class={"fighter"}
+        race={"normal"}
+        class={"normal"}
+        type={"mage"}
         details={""}
-        name={"test"}
+        name={"Tsuma"}
       />
     </Content>
   );

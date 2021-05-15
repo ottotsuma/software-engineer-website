@@ -1,47 +1,127 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 
-const prop = {
-  level: 10,
-  race: "human",
-  class: "fighter",
-  details: "",
-  name: "test",
-};
-
-export default function Levelup(props = prop) {
+export default function Levelup(props) {
   const [spanCSS, SetSpanCSS] = useState(false);
   const [accept, setAccept] = useState(false);
   const [stats, setStats] = useState([]);
 
   const races = {
-    human: {
-      skill: 1,
-      stat: 1,
+    normal: {
+      stat: 2,
+    },
+    rare: {
+      stat: 3,
+    },
+    epic: {
+      stat: 4,
+    },
+    legendary: {
+      stat: 5,
     },
   };
 
+  const type = {
+    fighter: {
+        skillName: `Skill`,
+        skillsName: `skills`,
+        Level10: 'Spirit eating',
+        Level70: 'Advanced Spirit',
+      },
+      rogue: {
+          skillName: `Skill`,
+          skillsName: `skills`,
+          Level10: 'Job',
+          Level70: 'Advanced jobs',
+        },
+      mage: {
+        skillName: `Spell`,
+        skillsName: `spells`,
+        Level10: 'Element',
+        Level70: 'Second element',
+      },
+  }
+
   const classes = {
-    fighter: {},
+    normal: {
+      skill: 1,
+    },
+    rare: {
+      skill: 1,
+    },
+    epic: {
+      skill: 1,
+    },
+    legendary: {
+      skill: 1,
+    },
   };
 
   function HP(key) {
-    if (key < 1) {
-      return "HP +100. ";
-    } else if (key < 10) {
-      return "HP +10. ";
-    } else if (key < 20) {
-      return "HP +10. ";
+    if (key === 1) {
+      return "HP +110. ";
     } else {
       return "HP +10. ";
     }
   }
+
+  function MP(key) {
+    if (key === 1) {
+      return "MP +5. ";
+    } else {
+      return "MP +5. ";
+    }
+  }
+
+  // <li>10 - Picked first element, Mix first element with basic mana spells, Cap Raised to 2
+  // <li>70 - Picked 2nd element, Cap Raised to 8
 
   useEffect(() => {
     const array = [];
     let skill = 0;
     let stat = 0;
     array.push(HP(props.level));
+    array.push(MP(props.level));
+    if (props.level < 100) {
+      if ((props.level / 10) % 1 === 0) {
+        array.push(
+          `${type[props.type].skillName || "Skill"} cap increased by 1. `
+        );
+        stat = stat + 1;
+      }
+      if (props.level === 50) {
+        array.push(`Familia unlocked. `);
+      }
+      if (props.level === 80) {
+        array.push(
+          `Advanced ${type[props.type].skillsName || "skills"} unlocked. `
+        );
+      }
+      if (props.level === 70) {
+        array.push(`${type[props.type].Level70} unlocked. `);
+      }
+      if (props.level === 30) {
+        array.push(
+          `Intermediate ${
+            type[props.type].skillsName || "skills"
+          } unlocked. `
+        );
+      }
+      if (props.level === 10) {
+        array.push(`${type[props.type].Level10} unlocked. `);
+      }
+      if (props.level === 1) {
+        array.push(
+          `${type[props.type].skillName || "Skill"} cap increased by 1. `
+        );
+        array.push(
+          `Basic ${type[props.type].skillsName || "skills"} unlocked. `
+        );
+        stat = stat + 1;
+      }
+    } else {
+      array.push(`Advanced classes unlocked. `);
+    }
 
     if (races[props.race].skill) {
       skill = skill + races[props.race].skill;
@@ -55,7 +135,9 @@ export default function Levelup(props = prop) {
     if (classes[props.class].stat) {
       stat = stat + classes[props.class].stat;
     }
-    array.push(`Skill Points: +${skill} `);
+    array.push(
+      `${type[props.type].skillName || "Skill"} Points: +${skill} `
+    );
     array.push(`Stat Points: +${stat} `);
     setStats(array);
   }, [props]);
