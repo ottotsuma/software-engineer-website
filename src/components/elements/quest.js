@@ -15,20 +15,38 @@ const colors = {
 export default function Quest(props) {
   const [spanCSS, SetSpanCSS] = useState(false);
   const [accept, setAccept] = useState(false);
-  return (
-    <Main>
+
+  if (props.complete) {
+    return (
+      <Main>
       <CardNoImage>
-        <Title color={colors[props.rating]}>New Quest!</Title>
+        <Title color={colors[props.rating]}>Quest Completed!</Title>
         {!spanCSS && <Name>{props.name}</Name>}
         {!spanCSS && <Rewards>Rewards: {props.rewards}</Rewards>}
         {spanCSS && <Span>{props.details}</Span>}
         <ButtonWrapper>
           {props.details ? <ButtonDetails onClick={() => SetSpanCSS(!spanCSS)}>Details</ButtonDetails> : <div></div>}
-          {accept ? <Accepted>Accepted</Accepted> : <Button onClick={()=>setAccept(true)}>Okay</Button>}
+          {accept ? <Accepted>Received</Accepted> : <Button onClick={()=>setAccept(true)}>Reward!</Button>}
         </ButtonWrapper>
       </CardNoImage>
     </Main>
-  )
+    )
+  } else {
+    return (
+      <Main>
+        <CardNoImage>
+          <Title color={colors[props.rating]}>New Quest!</Title>
+          {!spanCSS && <Name>{props.name}</Name>}
+          {!spanCSS && <Rewards>Rewards: {props.rewards}</Rewards>}
+          {spanCSS && <Span>{props.details}</Span>}
+          <ButtonWrapper>
+            {props.details ? <ButtonDetails onClick={() => SetSpanCSS(!spanCSS)}>Details</ButtonDetails> : <div></div>}
+            {accept ? <Accepted>Accepted</Accepted> : <Button onClick={()=>setAccept(true)}>Okay</Button>}
+          </ButtonWrapper>
+        </CardNoImage>
+      </Main>
+    )
+  }
 }
 
 const Accepted = styled.div`

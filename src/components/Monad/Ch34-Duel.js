@@ -4,6 +4,8 @@ import styled from "styled-components";
 import { Content } from "./styles";
 import Spin from "./../elements/spin";
 import Quest from "./../elements/quest";
+import LevelUp from "./../elements/levelup";
+
 
 function Intro(props) {
   return (
@@ -887,6 +889,22 @@ function Placeholder(props) {
       </p>
       {/* https://ottotsuma.github.io/rouge */}
       <p></p>
+      {/* Make a quest reward, or just level up or rewards system */}
+      <Quest
+        rating="rare"
+        rewards={"EXP, Pearls, Princes thanks & Crabs hate."}
+        name="Save the prince who stole the pearls!"
+        details="The prince was stealing peals to make a bracelet but was captured by the king crab for killing his people and stealing pearls!"
+        complete={true}
+      />
+      {/* Level up? */}
+      <LevelUp 
+        level={10}
+        race={"human"}
+        class={"fighter"}
+        details={""}
+        name={"test"}
+      />
     </Content>
   );
 }

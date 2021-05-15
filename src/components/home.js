@@ -15,6 +15,9 @@ import Modal2 from "./elements/modal2";
 import Timeline from "./timeline";
 import Spin from "./spinn";
 
+// Embed video player of your youtube video!
+const YouTubeUrl = "https://www.youtube.com/embed/m86uLnh7OfU";
+
 const Language = {
   ja: {
     name: "ダラー・ショーン",
@@ -90,7 +93,27 @@ function Home(props) {
               />
               <Hi>{Language[lang].hi}</Hi>
             </HiWrapper>
-            <h3>{Language[lang].name}</h3>
+            <Link2
+              style={{ fontSize: "1.17em" }}
+              onClick={() =>
+                Modal({
+                  insert: (
+                    <div>
+                      <iframe
+                        width="420"
+                        height="315"
+                        src={YouTubeUrl}
+                      ></iframe>
+                    </div>
+                  ),
+                  cancel: "Close",
+                  title: "PWA Video",
+                })
+              }
+            >
+              {Language[lang].name}
+            </Link2>
+            {/* <h3>{Language[lang].name}</h3> */}
             {/* <h4>ダラー・ショーン</h4> */}
             <StyledButton onClick={() => updateLang()}>
               {Language[lang].lang}
