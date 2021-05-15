@@ -888,6 +888,7 @@ function Placeholder(props) {
         to myself and more to my target.
       </p>
       {/* https://ottotsuma.github.io/rouge */}
+      <p>With my two short swords I slashed out in claw pattern I had picked up when my rouge spirit was a tiger. 'Slashing Edge' into 'Sharp Slash'. The damage was far less than Josh was doing but I was helping keep the other claw away from Sarah more then damaging.</p>
       <p></p>
       {/* Make a quest reward, or just level up or rewards system */}
       <Quest
@@ -911,7 +912,7 @@ function Placeholder(props) {
 }
 
 // Rouge Skills Used (Basic) - Fleet of Foot, Headbutt
-// Combo skills for each class:
+// Combo skills for each class: 'Slashing Edge' into 'Sharp Slash'
 // Rouge: Side/Back -- Back -- Side (3rd one is intermediate), (4th advanced)
 // Fighter: ?? -- ?? -- ?? (3rd one is intermediate), (4th advanced)
 // Mage: ?? -- ?? -- ?? (3rd one is intermediate), (4th advanced)
