@@ -893,6 +893,8 @@ function Placeholder(props) {
         The damage was far less than Josh was doing but I was helping keep the
         other claw away from Sarah more then damaging.
       </p>
+      <p>Sarah had taken to smashing the crab in the head trying to hit it's eyes with her mace. Her attack power was clearly not as high as her defence but it was not nothing. The crab annoyed by us span around and knocked all of us back a few places. Sarah screamed like a banshee so it rushed down Sarah smashing into her shield and armor with its two claws. I wanted to run over and help but Josh pulled me. "Leave her and attack the back, you'll do more damage and not be in her way when she gets angry."</p>
+      <p>In her way? I was keeping her for being pounded into the ground like ... Well now... She was not getting a hit in, just being smashed hard by the crab every time, one claw then the next, not stopping. She was clearly losing more and more health, was Josh's plan to kill the crab before it kills her?</p>
       <p></p>
       {/* Make a quest reward, or just level up or rewards system */}
       <Quest
