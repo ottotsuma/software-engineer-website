@@ -893,9 +893,44 @@ function Placeholder(props) {
         The damage was far less than Josh was doing but I was helping keep the
         other claw away from Sarah more then damaging.
       </p>
-      <p>Sarah had taken to smashing the crab in the head trying to hit it's eyes with her mace. Her attack power was clearly not as high as her defence but it was not nothing. The crab annoyed by us span around and knocked all of us back a few places. Sarah screamed like a banshee so it rushed down Sarah smashing into her shield and armor with its two claws. I wanted to run over and help but Josh pulled me. "Leave her and attack the back, you'll do more damage and not be in her way when she gets angry."</p>
-      <p>In her way? I was keeping her for being pounded into the ground like ... Well now... She was not getting a hit in, just being smashed hard by the crab every time, one claw then the next, not stopping. She was clearly losing more and more health, was Josh's plan to kill the crab before it kills her?</p>
-      <p></p>
+      <p>
+        Sarah had taken to smashing the crab in the head trying to hit it's eyes
+        with her mace. Her attack power was clearly not as high as her defence
+        but it was not nothing. The crab annoyed by us span around and knocked
+        all of us back a few places. Sarah screamed like a banshee so it rushed
+        down Sarah smashing into her shield and armor with its two claws. I
+        wanted to run over and help but Josh pulled me. "Leave her and attack
+        the back, you'll do more damage and not be in her way when she gets
+        angry."
+      </p>
+      <p>
+        In her way? I was keeping her for being pounded into the ground like ...
+        Well now... She was not getting a hit in, just being smashed hard by the
+        crab every time, one claw then the next, not stopping. She was clearly
+        losing more and more health, was Josh's plan to kill the crab before it
+        kills her?
+      </p>
+      <p>
+        I decided to do my part and ran up to the back of the crab with Josh and
+        launched a series of my strongest attacks as quick as I could. It's
+        shell was tough but from behind it was easier to target its underbelly
+        since I was not having to deal with the claw. I then decided to unleash
+        the special move of all goat spirits 'Skull Bash' which deals much more
+        damage then headbutt with a larger damage recoil, however with the
+        passive 'Cranial Cushion' the recoil damage would again be reduced to
+        almost nothing. I got under the crab and lunched myself up with the
+        strong goat legs. My horns pierced though the underbelly of the crab.
+      </p>
+      <p>
+        It did a lot of damage but my level was much lower then the crab who was
+        clearly a defensive build. It span around again and this time slammed
+        its claws down on top of my head. I damn near felt myself get knocked
+        out by this blow and was seeing blurry images. Images of Sarah
+        surrounded in blood having dropped her shield slamming her mace into the
+        crab with both her hands with strength that should be beyond a level 30.
+        She was hamming it so hard I felt the earth shake when the crab was
+        smacked into the floor.
+      </p>
       {/* Make a quest reward, or just level up or rewards system */}
       <Quest
         rating="rare"
@@ -904,6 +939,7 @@ function Placeholder(props) {
         details="The prince was stealing peals to make a bracelet but was captured by the king crab for killing his people and stealing pearls!"
         complete={true}
       />
+      <p>Stuff?</p>
       {/* Level up? */}
       <LevelUp
         level={12}
