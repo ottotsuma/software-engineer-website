@@ -931,6 +931,19 @@ function Placeholder(props) {
         She was hamming it so hard I felt the earth shake when the crab was
         smacked into the floor.
       </p>
+      <p>
+        Sarah was on top of the crab before I had my vision restored, slamming
+        the mace into the body of the crab, which laid unmoving on the floor.
+        Josh was holding on to my shoulders, "Just leave her like that until she
+        recovers enough of her HP. I once told you before there are different
+        types of vampires. Sarah has a kind of berserker skill, her attack power
+        increases as her HP goes down."
+      </p>
+      <p>
+        While Sarah was making mashed crab we turned out attention to a cage of
+        a coral, in the cage was a blonde haired boy with sky blue eyes looking
+        rather sad for himself.
+      </p>
       {/* Make a quest reward, or just level up or rewards system */}
       <Quest
         rating="rare"
