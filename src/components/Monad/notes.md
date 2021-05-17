@@ -51,7 +51,7 @@ The enemy may have the Moon People on their side, but we have lovely hats! And t
 <li>Magic</li> Increases Magic damage, Mana
 <li>Willpower</li> Increases resistance to magic, reduces magic damage taken (%)
 <li>Dexterity (Reflexes)</li> Reduces time between using skills, casting of skills, dodge change, movement on rough terrain
-<li>Sense</li> Trap Detect (All of the senses, hearing, taste, touch, smell.) Seeing though smoke screens and illusions. Seeing weakness and injuries in your opponent
+<li>Sense</li> Range of attacks. Trap Detect (All of the senses, hearing, taste, touch, smell.) Seeing though smoke screens and illusions. Seeing weakness and injuries in your opponent
 <li>Charisma</li> Increases NPC likability, command points
 
 ---
