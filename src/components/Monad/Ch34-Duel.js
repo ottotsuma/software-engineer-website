@@ -945,7 +945,8 @@ function Placeholder(props) {
         rather sad for himself.
       </p>
       <p>Josh walked over and casually kicked the coral cage apart. The boy suddenly realized he was not alone and the tears in his eyes dried up. He climbed off the floor and started acting like nothing had happened. Like we did not just find him inside a crabs castle, on his knees crying, inside a flimsy cage.</p>
-      <p>He started to introduce himself.</p>
+      <p>He started to introduce himself. "Stean my mysels foar te stellen. Ik bin Etienne de 4e prins fan 'e republyk."</p>
+      {/* Western Frisian */}
       {/* Make a quest reward, or just level up or rewards system */}
       <Quest
         rating="rare"
