@@ -946,6 +946,7 @@ function Placeholder(props) {
       </p>
       <p>Josh walked over and casually kicked the coral cage apart. The boy suddenly realized he was not alone and the tears in his eyes dried up. He climbed off the floor and started acting like nothing had happened. Like we did not just find him inside a crabs castle, on his knees crying, inside a flimsy cage.</p>
       <p>He started to introduce himself. "Stean my mysels foar te stellen. Ik bin Etienne de 4e prins fan 'e republyk."</p>
+      <p>Really? Every new continent the locals start off not knowing the common language giving a huge advantage to those who can speak that language, the expansions of the East, West and Frost were the same. The most recent expansion, 'Origins' included languages spoke by almost nobody. The Namibian language of Khoekhoe being the one of the last to be translated.</p>
       {/* Western Frisian */}
       {/* Make a quest reward, or just level up or rewards system */}
       <Quest
