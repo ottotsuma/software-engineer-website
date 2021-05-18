@@ -8,7 +8,7 @@ import Timeline from './components/timeline'
 import Monad from './components/Monad/Index'
 import Blackjack from './components/blackjack'
 import styled from "styled-components";
-
+import {BackgroundColor} from './components/color'
 
 function App() {
   return (
@@ -33,11 +33,7 @@ export default App;
 
 const Main =  styled.div`
 text-align: center;
-background: linear-gradient(
-  0deg,
-  rgba(34, 89, 195, 0.7) 9%,
-  rgba(45, 253, 209, 0.3) 100%
-);
+background: ${BackgroundColor};
 color: whitesmoke;
 min-height: 100vh;
 display: flex;
