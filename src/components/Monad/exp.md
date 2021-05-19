@@ -1,3 +1,8 @@
+Do you want:
+ EXP gaps to make it hard to level ❌
+ Weaker enemies give less experience ✅
+ enemies give little experience compared to quests ✅
+
 # ff7 
 https://gamefaqs.gamespot.com/boards/197341-final-fantasy-vii/58990522
 

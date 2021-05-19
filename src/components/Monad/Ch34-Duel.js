@@ -954,11 +954,11 @@ function Placeholder(props) {
         rating="rare"
         rewards={"EXP, Pearls, Princes thanks & Crabs hate."}
         name="Save the prince who stole the pearls!"
-        details="The prince was stealing peals to make a bracelet but was captured by the king crab for killing his people and stealing pearls!"
+        details="The prince was stealing peals to make a bracelet for a girl who rejected him. On reflection he has decided to kidnap her. He is a prince after all."
         complete={true}
       />
-      <p>Stuff?</p>
-      {/* Level up? */}
+      <p>He decided to kidnap the girl who rejected him instead of making her a bracelet? What kind of twisted thought process was that!? How long was he even locked up here? It was clearly not long enough!</p>
+      <p>But my raged was calmed by that sweet sound of a level up.</p>
       <LevelUp
         level={38}
         race={"rare"}
