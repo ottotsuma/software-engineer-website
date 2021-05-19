@@ -357,6 +357,7 @@ function Intro(props) {
             experience. I had managed to get to level 5 before getting bored of
             the routine.
           </p>
+          {/* Lets stick with the plan of more spell points instead of stats. And use passives to increase the stats? Or items. */}
           {/* Germination normally done with fire mages, takes ages. Ice mages to store them. (Other jobs include packing and shipping food.) */}
           <Stats
             type={"description"}
@@ -394,7 +395,7 @@ function Intro(props) {
             before. Increasing my magic was obvious choice every level. It
             increased the power of my lighting seeds, but what to do with the
             rest? I decided to put 5 points into Vitality, staying alive was a
-            must after all. For now, my opponents at crows, rats and other pests
+            must after all. For now, my opponents are crows, rats and other pests
             so that is fine. Next I need to pick some new spells. I had to get
             'Seeds to Soldiers'. The other spells I thought about before, did I
             really want to get the spells that helped with farming...

@@ -1,9 +1,7 @@
 https://guides.github.com/features/mastering-markdown/
 
 # To do:
-Change stat pop ups to early & late descriptions + Numeric if needed
-
-Page 32, Stats. 
+Page 28 onwards, Change Otto's stat point gain into spell point gain for his new class. His race is still human.
 
 # Notes:
 
