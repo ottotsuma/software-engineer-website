@@ -944,11 +944,32 @@ function Placeholder(props) {
         a coral, in the cage was a blonde haired boy with sky blue eyes looking
         rather sad for himself.
       </p>
-      <p>Josh walked over and casually kicked the coral cage apart. The boy suddenly realized he was not alone and the tears in his eyes dried up. He climbed off the floor and started acting like nothing had happened. Like we did not just find him inside a crabs castle, on his knees crying, inside a flimsy cage.</p>
-      <p>He started to introduce himself. "Stean my mysels foar te stellen. Ik bin Etienne de 4e prins fan 'e republyk."</p>
+      <p>
+        Josh walked over and casually kicked the coral cage apart. The boy
+        suddenly realized he was not alone and the tears in his eyes dried up.
+        He climbed off the floor and started acting like nothing had happened.
+        Like we did not just find him inside a crabs castle, on his knees
+        crying, inside a flimsy cage.
+      </p>
+      <p>
+        He started to introduce himself. "Stean my mysels foar te stellen. Ik
+        bin Etienne de 4e prins fan 'e republyk."
+      </p>
       {/* Western Frisian */}
-      <p>Really? Every new continent the locals start off not knowing the common language giving a huge advantage to those who can speak that language, the expansions of the East, West and Frost were the same. The most recent expansion, 'Origins' included languages spoke by almost nobody. The Namibian language of Khoekhoe being the one of the last to be translated.</p>
-      <p>"Just bow, he's some kind of prince after all." Josh hinted. We both bowed at the waist saying nothing in return and the prince looked rather happy with himself. He said some more gibberish and left, leaving behind some pearls he had probably stolen from the crabs anyway...</p>
+      <p>
+        Really? Every new continent the locals start off not knowing the common
+        language giving a huge advantage to those who can speak that language,
+        the expansions of the East, West and Frost were the same. The most
+        recent expansion, 'Origins' included languages spoke by almost nobody.
+        The Namibian language of Khoekhoe being the one of the last to be
+        translated.
+      </p>
+      <p>
+        "Just bow, he's some kind of prince after all." Josh hinted. We both
+        bowed at the waist saying nothing in return and the prince looked rather
+        happy with himself. He said some more gibberish and left, leaving behind
+        some pearls he had probably stolen from the crabs anyway...
+      </p>
       {/* Make a quest reward, or just level up or rewards system */}
       <Quest
         rating="rare"
@@ -957,7 +978,11 @@ function Placeholder(props) {
         details="The prince was stealing peals to make a bracelet for a girl who rejected him. On reflection he has decided to kidnap her. He is a prince after all."
         complete={true}
       />
-      <p>He decided to kidnap the girl who rejected him instead of making her a bracelet? What kind of twisted thought process was that!? How long was he even locked up here? It was clearly not long enough!</p>
+      <p>
+        He decided to kidnap the girl who rejected him instead of making her a
+        bracelet? What kind of twisted thought process was that!? How long was
+        he even locked up here? It was clearly not long enough!
+      </p>
       <p>But my raged was calmed by that sweet sound of a level up.</p>
       <LevelUp
         level={38}
