@@ -43,14 +43,28 @@ The enemy may have the Moon People on their side, but we have lovely hats! And t
 
 ## Stats:
 
-<li>Strength</li> Increased physical damage. Minor: Increased storage capacity. Reduce damage taken during a successful block. Increased resistance to falling. Increased movement speed.
+
 <li>Vitality</li> Health points, Resistances to hot/cold / poison
 <li>Endurance</li> Increases resistance to physical damage, reduces physical damage taken (%)
-<li>Magic</li> Increases Magic damage, Mana
 <li>Willpower</li> Increases resistance to magic, reduces magic damage taken (%)
+
+<li>Magic</li> Increases Magic damage, Mana
+<li>Strength</li> Increased physical damage. Minor: Increased storage capacity. Reduce damage taken during a successful block. Increased resistance to falling. Increased movement speed.
+
 <li>Dexterity (Reflexes)</li> Reduces time between using skills, casting of skills, dodge change, movement on rough terrain
-<li>Sense</li> Range of attacks, accuracy. Trap Detect (All of the senses, hearing, taste, touch, smell.) Seeing though smoke screens and illusions. Seeing weakness and injuries in your opponent
+
+<li>Sense</li> Range of attacks, accuracy. Trap Detect (All of the senses, hearing, taste, touch, smell.) Seeing though smoke screens and illusions. Seeing weakness and injuries in your opponent (CRIT), Range of summons / familia can move from you.
+
 <li>Charisma</li> Increases NPC likability, command points
+
+[Commander] - Charisma & Vitality 
+[Tank/Fighter] - Strength & Vit 
+[Tank/Mage] - Vit & Magic
+[DPS/Fighter] - Strength & Dexterity
+[DPS/Mage] - Magic & Dexterity 
+[Mage/Range] - Magic & Sense 
+[Archer] - Sense & Strength
+[Summoner] - Magic & Vit
 
 ---
 
