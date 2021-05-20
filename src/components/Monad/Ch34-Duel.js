@@ -974,9 +974,11 @@ export const SeaPeople = {
       some pearls he had probably stolen from the crabs anyway...
 </p>
     {/* Make a quest reward, or just level up or rewards system */}
+    {/* LEVEL 38: 130040, boss drops about 1500 exp? Quest drops? */}
+
     <Quest
       rating="rare"
-      rewards={"EXP, Pearls, Princes thanks & Crabs hate."}
+      rewards={"3000 EXP, 10 Pearls, Princes thanks & Crabs hate."}
       name="Save the prince who stole the pearls!"
       details="The prince was stealing peals to make a bracelet for a girl who rejected him. On reflection he has decided to kidnap her. He is a prince after all."
       complete={true}

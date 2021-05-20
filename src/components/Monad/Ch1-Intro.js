@@ -2,6 +2,7 @@ import React from "react";
 import MapOfAlden from "./../../assets/MapOfAlden.png";
 import HTMLFlipBook from "react-pageflip";
 import Stats from "./../elements/stats";
+import LevelUp from "./../elements/levelup";
 
 export default function Intro(props) {
   return (
@@ -450,6 +451,14 @@ most people learn inspect but either see
             to speak, lungs full of blood.
           </p>
           <p>"Level up!" the words cover Otto's vision.</p>
+          <LevelUp
+      level={1}
+      race={"normal"}
+      class={"normal"}
+      type={"mage"}
+      details={""}
+      name={"Otto"}
+    />
           <div className="BreakPoint"></div>
           <h3>The body</h3>
           <p>
