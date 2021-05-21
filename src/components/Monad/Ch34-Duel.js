@@ -5,6 +5,7 @@ import { Content } from "./styles";
 import Spin from "./../elements/spin";
 import Quest from "./../elements/quest";
 import LevelUp from "./../elements/levelup";
+import Otto from "./Otto"
 
 function Intro(props) {
   return (
@@ -62,6 +63,7 @@ function Intro(props) {
       {SeaPeople[7]}
       {SeaPeople[8]}
       {SeaPeople[9]}
+      <Otto />
     </Content>
   );
 }

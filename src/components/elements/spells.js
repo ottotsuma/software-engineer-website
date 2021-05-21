@@ -269,12 +269,22 @@ function Spells({ spells, type }) {
   const array = [];
   for (let index = 0; index < spells.length; index++) {
     const element = spellList[spells[index]];
-    array.push(
-      <SingleSpell key={index + "SingleSpell"}>
-        {element.name}
-        <Span>{element[type]}</Span>
-      </SingleSpell>
-    );
+    if (element) {
+      array.push(
+        <SingleSpell key={index + "SingleSpell"}>
+          {element.name}
+          <Span>{element[type]}</Span>
+        </SingleSpell>
+      );
+    } else {
+      array.push(
+        <SingleSpell key={index + "SingleSpell"}>
+          {spells}
+          <Span>{type}</Span>
+        </SingleSpell>
+      )
+    }
+
   }
   return (
     <>
