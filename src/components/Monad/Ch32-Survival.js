@@ -267,6 +267,7 @@ function Intro(props) {
             do not like you... It is your life or one of theirs.. That is why
             what you said today worries me." She replied.
           </p>
+          {/* Shaun */}
           <p>
             "Right now I am going to help you pick which stat points to focus
             on, then I am going to re-introduce you to Takeo. You met him
@@ -387,6 +388,7 @@ function Intro(props) {
             usually get it's seeds giving me the ability to make soldiers out of
             the same type of monster.
           </p>
+          {/* Shaun */}
           <Stats
             type={"description"}
             stats={{

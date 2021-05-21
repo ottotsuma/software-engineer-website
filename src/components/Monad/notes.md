@@ -3,6 +3,8 @@ https://guides.github.com/features/mastering-markdown/
 # To do:
 Page 28 onwards, Change Otto's stat point gain into spell point gain for his new class. His race is still human.
 
+31 & 32 stat point re-write
+
 # Notes:
 
 ## Example below:
