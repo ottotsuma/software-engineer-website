@@ -375,8 +375,8 @@ function Intro(props) {
               element: "lightning",
               spells: 1,
               titles: 3,
-              "spell points": 4,
-              "stat points": 15,
+              "spell points": 19,
+              "stat points": 5,
               vitality: 0,
               strength: 1,
               endurance: 0,
@@ -386,7 +386,7 @@ function Intro(props) {
               sense: 1,
               charisma: 2,
             }}
-            notes={"Stat points 4 per level, 1 spell point per level"}
+            notes={"Stat points 2 per level, 4 spell point per level"}
           />
           {/* Titles: 
             Back to School - Enter the academy, +1 Magic" 
@@ -398,18 +398,18 @@ function Intro(props) {
            Reach level 10
             */}
           <p>
-            I had way more stat points to spend then even when I was level 14
-            before. Increasing my magic was obvious choice every level. It
+            I had way more spell points to spend then even when I was level 14
+            before, but the stat points remained the same. Increasing my magic was obvious choice every level. It
             increased the power of my lighting seeds, but what to do with the
-            rest? I decided to put 5 points into Vitality, staying alive was a
-            must after all. For now, my opponents are crows, rats and other pests
-            so that is fine. Next I need to pick some new spells. I had to get
+            rest? I also need to pick some new spells. I had to get
             'Seeds to Soldiers'. The other spells I thought about before, did I
             really want to get the spells that helped with farming...
           </p>
-
+          {/* decided to put 5 points into Vitality, staying alive was a
+            must after all. For now, my opponents are crows, rats and other pests
+            so that is fine.  */}
           <p>
-            Ah screw it, I'll get the farming spells. If I join the military I
+            Ah screw it, I'll get the farming spells, I have more then enough points. If I join the military I
             can just say they are survival skills.. Lightning germination,
             growth and harvest. This better be worth it. Now I had the spells
             unlocked I could read their description in full.

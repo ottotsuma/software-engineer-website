@@ -212,6 +212,7 @@ function Intro(props) {
             more, find better gear and not take fights right now, I had no good
             spells for dealing damage right now.
           </p>
+          {/* Shaun */}
           <p>
             Max had beaten the seed soldier to pieces, the plant matter was all
             over the ground, slowly turning in to a mulch. Putting stat points
