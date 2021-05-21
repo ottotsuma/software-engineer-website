@@ -101,20 +101,20 @@ function Intro(props) {
           {/* Spells list div? */}
           <Spells
             spells={[
-              "Chain Lightning",
-              "Dazing Bolt",
-              "Thunderstorm",
-              "Shocking Touch",
-              "Sparks",
-              "Lightning Bolt",
-              "Lightning Rune",
-              "Lightning Cloak",
-              "Thunderbolt",
-              "Static Field",
-              "Wall of lightning",
-              "Lightning Storm",
-              "Discharge",
-              "Charged Charge",
+              { name: "Chain Lightning", level: 1 },
+              { name: "Dazing Bolt", level: 1 },
+              { name: "Thunderstorm", level: 1 },
+              { name: "Shocking Touch", level: 1 },
+              { name: "Sparks", level: 1 },
+              { name: "Lightning Bolt", level: 1 },
+              { name: "Lightning Rune", level: 1 },
+              { name: "Lightning Cloak", level: 1 },
+              { name: "Thunderbolt", level: 1 },
+              { name: "Static Field", level: 1 },
+              { name: "Wall of lightning", level: 1 },
+              { name: "Lightning Storm", level: 1 },
+              { name: "Discharge", level: 1 },
+              { name: "Charged Charge", level: 1 },
             ]}
             type={"description"}
           />

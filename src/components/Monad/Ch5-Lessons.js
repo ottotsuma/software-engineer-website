@@ -1,29 +1,29 @@
 import React from "react";
 import Spells from "./../elements/spells";
 import Stats from "./../elements/stats";
-import styled from 'styled-components';
+import styled from "styled-components";
 
 /* Elementals */
 
 const Elementals = styled.div`
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
-align-items: center;
-max-width: 100vw;
-flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  max-width: 100vw;
+  flex-wrap: wrap;
 `;
 
 const Element = styled.div`
-border-color: black;
-border-style: solid;
-border-width: 0.1rem;
-margin: 1rem;
-background: white;
- img {
-  width: 8rem;
-  height: 10rem;
- }
+  border-color: black;
+  border-style: solid;
+  border-width: 0.1rem;
+  margin: 1rem;
+  background: white;
+  img {
+    width: 8rem;
+    height: 10rem;
+  }
 `;
 
 function Intro(props) {
@@ -356,12 +356,12 @@ function Intro(props) {
           />
           <Spells
             spells={[
-              "Mana Ball",
-              "Tether",
-              "Magic Resistance",
-              "Magic Up",
-              "Strike",
-              "Magic Regen",
+              { name: "Mana Ball", level: 1 },
+              { name: "Tether", level: 1 },
+              { name: "Magic Resistance", level: 1 },
+              { name: "Magic Up", level: 1 },
+              { name: "Strike", level: 1 },
+              { name: "Magic Regen", level: 1 },
             ]}
             type={"description"}
           />

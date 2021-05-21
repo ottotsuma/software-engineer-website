@@ -174,9 +174,14 @@ const spellList = {
 };
 // Add spell (level/rank). Changes description.
 function Spells({ spells, type }) {
-  const array = [];
+  const tempSpells = []
   for (let index = 0; index < spells.length; index++) {
-    const element = spellList[spells[index]];
+    const element = spells[index].name;
+    tempSpells.push(element)
+  }
+  const array = [];
+  for (let index = 0; index < tempSpells.length; index++) {
+    const element = spellList[tempSpells[index]];
     if (element) {
       array.push(
         <SingleSpell key={index + "SingleSpell"}>
@@ -187,7 +192,7 @@ function Spells({ spells, type }) {
     } else {
       array.push(
         <SingleSpell key={index + "SingleSpell"}>
-          {spells[index]}
+          {tempSpells[index]}
         </SingleSpell>
       )
     }
