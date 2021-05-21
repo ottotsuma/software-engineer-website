@@ -47,13 +47,13 @@ export default function Levelup(props) {
       skill: 1,
     },
     rare: {
-      skill: 1,
+      skill: 2,
     },
     epic: {
-      skill: 1,
+      skill: 3,
     },
     legendary: {
-      skill: 1,
+      skill: 4,
     },
   };
 

@@ -164,8 +164,8 @@ Do you want:
 ###### ff7 
 https://gamefaqs.gamespot.com/boards/197341-final-fantasy-vii/58990522
 
-<!-- https://finalfantasy.fandom.com/wiki/Gi_Nattak --> 29
-<!-- https://finalfantasy.fandom.com/wiki/Gorkii --> 30
+<!-- https://finalfantasy.fandom.com/wiki/Gi_Nattak -->
+<!-- https://finalfantasy.fandom.com/wiki/Gorkii -->
 
 LEVEL 1: 0
 LEVEL 2: 6

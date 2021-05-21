@@ -1,6 +1,7 @@
 import React from "react";
 import Stats from "./../elements/stats";
 import Title, {Shine} from './../elements/title'
+import LevelUp from "./../elements/levelup";
 
 function Intro(props) {
   return (
@@ -349,13 +350,19 @@ function Intro(props) {
             I genuinely considered it, I had strange farming spells that would
             put me in a specialty. I also had the inspect skill and numeracy so
             I could check the durability of all the tools that needed to be
-            used. I think that was 90% of the reason why Ralsan kept me around
-            when I did so little farming.
+            used. Then I would go back to killing pests.
           </p>
+          <LevelUp
+        level={5}
+        race={"normal"}
+        class={"legendary"}
+        type={"mage"}
+        details={""}
+        name={"Otto"}
+      />
           <p>
-            I had reached level 2, I just never told anyone hoping to get more
-            experience. I had managed to get to level 5 before getting bored of
-            the routine.
+            I had reached level 2 a while ago, I just never told anyone hoping to get more
+            experience. After reaching level 5 the exp gained from the pests had seriously dropped and I became bored.
           </p>
           {/* Lets stick with the plan of more spell points instead of stats. And use passives to increase the stats? Or items. */}
           {/* Germination normally done with fire mages, takes ages. Ice mages to store them. (Other jobs include packing and shipping food.) */}
