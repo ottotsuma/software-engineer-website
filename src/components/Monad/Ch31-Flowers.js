@@ -212,11 +212,10 @@ function Intro(props) {
             more, find better gear and not take fights right now, I had no good
             spells for dealing damage right now.
           </p>
-          {/* Shaun */}
           <p>
             Max had beaten the seed soldier to pieces, the plant matter was all
             over the ground, slowly turning in to a mulch. Putting stat points
-            into vitality had saved me so far but I was still floating stat
+            into magic was good so far but I was still floating stat and spell
             points and not using them was silly, I should of used them. I just
             need to last until Lubin notices what is going on. An idea sparked
             in my mind at that train of thought.

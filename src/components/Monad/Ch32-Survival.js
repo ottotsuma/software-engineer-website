@@ -267,7 +267,6 @@ function Intro(props) {
             do not like you... It is your life or one of theirs.. That is why
             what you said today worries me." She replied.
           </p>
-          {/* Shaun */}
           <p>
             "Right now I am going to help you pick which stat points to focus
             on, then I am going to re-introduce you to Takeo. You met him
@@ -279,8 +278,7 @@ function Intro(props) {
             points into Charisma, it was better to have others fight for me then
             risking myself since I had the seed soldiers. She wanted me to put
             points into sense also so that I would be able to sense danger,
-            traps and other things that could put me at risk but we ended up
-            agreeing to put the rest of the points into dexterity.
+            traps or cast spells from further away, so I would be at less risk but we ended up agreeing any spare points would go into dexterity. The faster I can cast the spells the better.
           </p>
           <p>
             Takeo came in while we were talking and had dark black lines around
@@ -388,7 +386,7 @@ function Intro(props) {
             usually get it's seeds giving me the ability to make soldiers out of
             the same type of monster.
           </p>
-          {/* Shaun */}
+          {/* Shaun, were the fuck was the level 10 level up!? */}
           <Stats
             type={"description"}
             stats={{
