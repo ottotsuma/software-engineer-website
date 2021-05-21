@@ -1,6 +1,7 @@
 import React from "react";
 import Kʼawiil from "./Kʼawiil";
 import Stats from "./../elements/stats";
+import LevelUp from "./../elements/levelup";
 
 function Intro(props) {
   return (
@@ -379,6 +380,14 @@ function Intro(props) {
             soldier until the soldier died and then harvest the plant monster
             and hope it died.
           </p>
+          <LevelUp
+            level={6}
+            race={"normal"}
+            class={"legendary"}
+            type={"mage"}
+            details={""}
+            name={"Otto"}
+          />
           <p>
             We started by just using harvest but when the monster did not die
             out right Takeo would have to kill the monster wasting the effort so
@@ -386,6 +395,14 @@ function Intro(props) {
             usually get it's seeds giving me the ability to make soldiers out of
             the same type of monster.
           </p>
+          <LevelUp
+            level={10}
+            race={"normal"}
+            class={"legendary"}
+            type={"mage"}
+            details={""}
+            name={"Otto"}
+          />
           {/* Shaun, were the fuck was the level 10 level up!? */}
           <Stats
             type={"description"}
@@ -395,24 +412,24 @@ function Intro(props) {
               class: "Kʼawiil.",
               spells: 5,
               titles: 5,
-              "spell points": 5,
+              "spell points": 35,
               "stat points": 0,
-              vitality: 10,
-              strength: 1,
+              vitality: 0,
+              strength: 1, // 1 from title
               endurance: 0,
-              magic: 11,
-              willpower: 1,
-              dexterity: 10,
-              sense: 1,
-              charisma: 13,
+              magic: 11, // 1 from title, 10 from leveling 
+              willpower: 1, // 1 from title
+              dexterity: 2, // 2 from the level 1 & 10 
+              sense: 1, // 1 from human
+              charisma: 13, // 2 from human, 1 from title, 10 from leveling
             }}
             notes={
-              "1 spell per level, 4 stats per level,"
+              "4 spell per level, 1 stats per level,"
             }
-            />
-            {/* Titles: 
+          />
+          {/* Titles: 
             Back to School - +1 Magic
-            Found Unique class + 1 Mdef 
+            Found Unique class + 1 willpower 
             Found Unique Item - (Mask) +1 Str
             Reach level 10 + 1 Char
             'Novice Harvester' */}
@@ -441,8 +458,7 @@ function Intro(props) {
             I was so glad that I had saved my spell points, with things going so
             well hunting plant monsters I never really needed an attack spell.
             Now I have the difficult choice, with the spell level cap increased
-            do I level up my current spells to level 2, or do I gain more level
-            1 spells? Some spells worked great at level 1 and increasing their
+            I could level up my current spells to level 2 although some spells worked great at level 1 and increasing their
             level gave very little gain. Other spells were useless until
             reaching a high enough level. It was a real shot in the dark if it
             was going to be worth it or not without the history of your class
@@ -530,14 +546,14 @@ function Intro(props) {
             required 2 seeds to make 2 solders? Was this not just the same as
             casting the spell twice!?
           </p>
-          <p>
+          {/* <p>
             With that I stopped looking to upgrade my current spells. I was not
             sure about the farming related spells as it was. Yes harvest worked
             great against plant monsters, but as Takeo said it was likely the
             upgrade would be poor because of how specific it was. As for
             germination and growth, I need to find out more about them before I
             risk using the points again.
-          </p>
+          </p> */}
           <p>
             I had discovered that the growth spell could be used by making
             contact with the target directly but that would sap as much mana
@@ -547,14 +563,26 @@ function Intro(props) {
             gathered instead. Still if the mana was not enough it meant the the
             growth would not be complete to its max.
           </p>
+          <p>I was hoping by leveling it up it would reduce the cost... But it is a risk.</p>
+          <p>
+            'Lightning growth (2) - '
+          </p>
+          <p>
+            'Lightning harvest (2) - '
+          </p>
+          <p>
+            'Lightning germination (2) - '
+          </p>
           {/* <p>Lightning germination: Stimulate a target into germinating.</p> */}
           {/* During germination, repair processes are activated to deal with accumulated DNA damage. - Kind of heal & Quality */}
           {/* <p>Lightning growth: Force the target to grow.</p> */}
           {/* Increases quality of plant & stats given - buff spell */}
           {/* <p>Lightning harvest: Harvest the target.</p> */}
           {/* Quality of harvested materials */}
+          <p>After I looked though the passives that gave boosts to stats! After all, more stats could never hurt.</p>
+          {/* Shaun!! */}
           <p>
-            That left me with 3 spell points left and I could look though the
+            That left me with *** spell points and I could look though the
             basic spells available still. It would have to wait until level 30
             before any intermediate spells showed. When I was a lightning mage I
             could just pick up the histories of lightning mages to see which
@@ -585,7 +613,7 @@ function Intro(props) {
             After reading though most of the spells it became clear there were 3
             trees of spells. Farming, Lightning and serpents. As well as a mix
             between each of them, such as lightning seeds being a mix between
-            lighting and seeds. It got me thinking about Kʼawiil's identity.
+            lighting and farming. It got me thinking about Kʼawiil's identity.
             There were serpent type races in the kingdom, it is said they are
             similar to humans but more snake like features. Perhaps Kʼawiil was
             once one of theirs? A lighting mage who used his powers to harvest
