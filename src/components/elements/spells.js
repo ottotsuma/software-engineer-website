@@ -183,7 +183,7 @@ function Spells({ spells, type }) {
     const element = spellList[spells[index].name];
     if (element) {
       array.push(
-        <SingleSpell key={index + "SingleSpell"}>
+        <SingleSpell key={index + "SingleSpell"} passive={spells[index].passive || false}>
           {element.name}
           {element[spells[index].level] ? (
             <Span>{element[spells[index].level]}</Span>
@@ -194,7 +194,7 @@ function Spells({ spells, type }) {
       );
     } else {
       array.push(
-        <SingleSpell key={index + "SingleSpell"}>
+        <SingleSpell key={index + "SingleSpell"} passive={spells[index].passive || false}>
           {spells[index].name}
         </SingleSpell>
       );
@@ -239,18 +239,18 @@ const SingleSpell = styled.div`
   border-radius: 6px;
   padding: 5px;
   width: auto;
-  background: linear-gradient(
+  background: ${props => props.passive ? "#54cc4f;" : `linear-gradient(
     217deg,
     rgb(218, 182, 111),
     rgb(244, 229, 203) 70.71%
-  );
+  );` }
   margin: 1%;
   display: flex;
   justify-content: center;
   align-items: center;
-  &:hover {
-    background-color: #f1f1f1;
-  }
+  // &:hover {
+  //   background-color: #f1f1f1;
+  // }
   &:hover ${Span} {
     visibility: visible;
   }

@@ -65,19 +65,22 @@ export default function Otto() {
           { name: "Lightning growth", level: 2 },
           { name: "Lightning harvest", level: 2 },
           { name: "Seeds to Soldiers", level: 2 },
-          { name: "Lightning seeds", level: 2 },
+          { name: "Lightning seeds", level: 2 }, // 5 points spent on old spells
+          // New Spells Below 
           { name: "Scarecrow", level: 2 },
           { name: "Kʼawiil Burst", level: 2 },
           { name: "Kʼawiil Bolt", level: 2 },
+          { name: "Example", level: 2, passive: true, }, // 8 points spent on new spells
         ]}
         type={"mage"}
       />
       <div className="BreakPoint"></div>
       <p>To make things fair, you have to unlock the good traits and if you don't there is a chance of picking up the bad ones. Such as becoming perverted if you are not pure of mind.</p>
+      {/* Human skills, but also could have God based skills and passives. The snake ones looked good. */}
       <Spells
         spells={[
           { name: "Public Speaking", level: 2 },
-          { name: "Handsome", level: 2 },
+          { name: "Handsome", level: 2 }, // I think it should just be things a person can change
           { name: "Talented", level: 2 },
           { name: "Persuasive", level: 2 },
           { name: "Quick", level: 2 },
@@ -85,12 +88,12 @@ export default function Otto() {
           { name: "Strong", level: 2 },
           { name: "Athletic", level: 2 },
           { name: "Healthy", level: 2 },
-          { name: "Youthful", level: 2 },
+          { name: "Youthful", level: 2 }, // ???
           { name: "Adaptable", level: 2 },
           { name: "Brave", level: 2 },
           { name: "Pure of mind", level: 2 },
           { name: "Sensible", level: 2 },
-          { name: "Perception", level: 2 },
+          { name: "Perseverance", level: 2 }, // 30 points spent on humans skills
         ]}
         type={"human"}
       />
