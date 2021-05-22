@@ -363,7 +363,7 @@ function Intro(props) {
               { name: "Strike", level: 1 },
               { name: "Magic Regen", level: 1 },
             ]}
-            type={"description"}
+            type={"mage"}
           />
           <div className="BreakPoint"></div>
           <p>

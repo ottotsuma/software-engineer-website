@@ -70,10 +70,30 @@ export default function Otto() {
           { name: "Kʼawiil Burst", level: 2 },
           { name: "Kʼawiil Bolt", level: 2 },
         ]}
-        type={"description"}
+        type={"mage"}
       />
       <div className="BreakPoint"></div>
-      <h2>Passive</h2>
+      <p>To make things fair, you have to unlock the good traits and if you don't there is a chance of picking up the bad ones. Such as becoming perverted if you are not pure of mind.</p>
+      <Spells
+        spells={[
+          { name: "Public Speaking", level: 2 },
+          { name: "Handsome", level: 2 },
+          { name: "Talented", level: 2 },
+          { name: "Persuasive", level: 2 },
+          { name: "Quick", level: 2 },
+          { name: "Perception", level: 2 },
+          { name: "Strong", level: 2 },
+          { name: "Athletic", level: 2 },
+          { name: "Healthy", level: 2 },
+          { name: "Youthful", level: 2 },
+          { name: "Adaptable", level: 2 },
+          { name: "Brave", level: 2 },
+          { name: "Pure of mind", level: 2 },
+          { name: "Sensible", level: 2 },
+          { name: "Perception", level: 2 },
+        ]}
+        type={"human"}
+      />
     </div>
   );
 }

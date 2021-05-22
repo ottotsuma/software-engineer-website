@@ -177,7 +177,7 @@ const spellList = {
   },
 };
 // Add spell (level/rank). Changes description.
-function Spells({ spells }) {
+function Spells({ spells, type }) {
   const array = [];
   for (let index = 0; index < spells.length; index++) {
     const element = spellList[spells[index].name];
@@ -202,7 +202,7 @@ function Spells({ spells }) {
   }
   return (
     <>
-      <Title>Spells:</Title>
+      {type === 'mage' ? <Title>Spells:</Title> : <Title>Skills:</Title>}
       <SpellsStyle>{array}</SpellsStyle>
     </>
   );

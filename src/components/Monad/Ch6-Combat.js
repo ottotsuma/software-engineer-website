@@ -116,7 +116,7 @@ function Intro(props) {
               { name: "Discharge", level: 1 },
               { name: "Charged Charge", level: 1 },
             ]}
-            type={"description"}
+            type={"mage"}
           />
           {/* <p>
             Chain Lightning, Dazing Bolt, Thunderstorm, Shocking Touch, Sparks,
