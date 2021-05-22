@@ -10,7 +10,7 @@ import React from "react";
 // Discharge, Charged Charge.
 
 const spellList = {
-  "Example": {
+  Example: {
     name: "Example",
     1: "Example",
   },
@@ -30,11 +30,11 @@ const spellList = {
     name: "Static Field",
     1: "Example",
   },
-  "Thunderbolt": {
+  Thunderbolt: {
     name: "Thunderbolt",
     1: "Calls a thunder bolt from above onto the target.",
   },
-  "Discharge": {
+  Discharge: {
     name: "Discharge",
     1: "Example",
   },
@@ -50,7 +50,7 @@ const spellList = {
     name: "Lightning Bolt",
     1: "Shoots a bolt of lightning at a target.",
   },
-  "Sparks": {
+  Sparks: {
     name: "Sparks",
     1: "Example",
   },
@@ -76,8 +76,7 @@ const spellList = {
   },
   "Serpent Pattern": {
     name: "Serpent Pattern",
-    1:
-      "Your skin will adapt to the environment slightly, increased stealth.",
+    1: "Your skin will adapt to the environment slightly, increased stealth.",
   },
   "Forked Tongue": {
     name: "Forked Tongue",
@@ -85,21 +84,21 @@ const spellList = {
   },
   "Serpent-Skin": {
     name: "Serpent-Skin",
-    1:
-      "Your skin slowly becomes like a serpents. Able to turn on and off scaled armor over your skin.",
+    1: "Your skin slowly becomes like a serpents. Able to turn on and off scaled armor over your skin.",
   },
   Haietlik: {
     name: "Haietlik",
-    1:
-      "Throw a snake shaped lighting bolt to hook onto a target, dealing damage in the process.",
+    1: "Throw a snake shaped lighting bolt to hook onto a target, dealing damage in the process.",
   },
   "Kʼawiil Bolt": {
     name: "Kʼawiil Bolt",
     1: "Releases a burst of Kʼawiil-lightning from range.",
+    2: "Releases a burst of Kʼawiil-lightning from range.",
   },
   "Kʼawiil Burst": {
     name: "Kʼawiil Burst",
     1: "Releases a burst of Kʼawiil-lightning on contact.",
+    2: "Releases a burst of Kʼawiil-lightning on contact.",
   },
   "Lightning Plant": {
     name: "Lightning Plant",
@@ -107,13 +106,13 @@ const spellList = {
   },
   "Inspect Plants": {
     name: "Inspect Plants",
-    1:
-      "Your inspection of plants will be a level up on your normal inspection ability.",
+    1: "Your inspection of plants will be a level up on your normal inspection ability.",
   },
   "Bountiful Harvest": {
     name: "Bountiful Harvest",
-    1:
-      "All of your harvests are increased by [x]%. [x is 10x the level of this spell.]",
+    note: "All of your harvests are increased by [x]%. [x is 10x the level of this spell.]",
+    1: "All of your harvests are increased by 10%.",
+    2: "All of your harvests are increased by 20%.",
   },
   "Reap what you Sow": {
     name: "Reap what you Sow",
@@ -122,29 +121,35 @@ const spellList = {
   Scarecrow: {
     name: "Scarecrow",
     1: "Uses plant material to summon a sentient scarecrow.",
+    2: "Uses plant material to summon 2 sentient scarecrows.",
   },
   "Lightning harvest": {
     name: "Lightning harvest",
-    1:
-      "Harvest the target. [If the target is below 20% HP this attack does 200% more damage. If this target is a 'plant' type this attack does 500% more damage. If this attack kills the target you have a chance to harvest something.]",
+    note: "Harvest the target. [If the target is below 20% HP this attack does 200% more damage. If this target is a 'plant' type this attack does 500% more damage. If this attack kills the target you have a chance to harvest something.]",
+    1: "Harvest the target. [If the target is below 20% HP this attack does 200% more damage. If this target is a 'plant' type this attack does 500% more damage. If this attack kills the target you have a chance to harvest something.]",
+    2: "Harvest the target. [If the target is below 20% HP this attack does 250% more damage. If this target is a 'plant' type this attack does 600% more damage. If this attack kills the target you have a chance to harvest something.]",
   },
   "Lightning growth": {
     name: "Lightning growth",
     1: "Force the target to grow.",
+    2: "Force the target to grow.",
   },
   "Lightning germination": {
     name: "Lightning germination",
     1: "Stimulate a target into germinating",
+    2: "Stimulate a target into germinating",
   },
   "Seeds to Soldiers": {
     name: "Seeds to Soldiers",
-    1:
-      "Take [x] seed(s), use energy to give life to [x] soldier(s). [x is equal to spell level.]",
+    note: "Take [x] seed(s), use energy to give life to [x] soldier(s). [x is equal to spell level.]",
+    1: "Take 1 seed, use energy to give life to 1 soldier.",
+    2: "Take 2 seeds, use energy to give life to 2 soldiers.",
   },
   "Lightning seeds": {
     name: "Lightning seeds",
-    1:
-      "Shoots a group of [x] seed(s) in a spread from the user. The seeds attach to opponent(s) and cause lightning damage over time. A part of the damage is used to restore your as mana. [x is equal to spell level.]",
+    note: "Shoots a group of [x] seed(s) in a spread from the user. The seeds attach to opponent(s) and cause lightning damage over time. A part of the damage is used to restore your as mana. [x is equal to spell level.]",
+    1: "Shoots a group of 1 seed in a spread from the user. The seeds attach to an opponent and cause lightning damage over time. A part of the damage is used to restore your as mana.",
+    2: "Shoots a group of 2 seeds in a spread from the user. The seeds attach to opponents and cause lightning damage over time. A part of the damage is used to restore your as mana.",
   },
   "Mana Ball": {
     name: "Mana Ball",
@@ -164,8 +169,7 @@ const spellList = {
   },
   Strike: {
     name: "Strike",
-    1:
-      "Calls mana in the environment to gather and strike down from above.",
+    1: "Calls mana in the environment to gather and strike down from above.",
   },
   "Magic Regen": {
     name: "Magic Regen",
@@ -181,17 +185,20 @@ function Spells({ spells }) {
       array.push(
         <SingleSpell key={index + "SingleSpell"}>
           {element.name}
-          {element[spells[index].level] ? <Span>{element[spells[index].level]}</Span> : <Span>{spells[index].name}</Span>}
-        </SingleSpell> 
+          {element[spells[index].level] ? (
+            <Span>{element[spells[index].level]}</Span>
+          ) : (
+            <Span>{spells[index].name}</Span>
+          )}
+        </SingleSpell>
       );
     } else {
       array.push(
         <SingleSpell key={index + "SingleSpell"}>
           {spells[index].name}
         </SingleSpell>
-      )
+      );
     }
-
   }
   return (
     <>
