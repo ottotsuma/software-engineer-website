@@ -5,7 +5,7 @@ import { Content } from "./styles";
 import Spin from "./../elements/spin";
 import Quest from "./../elements/quest";
 import LevelUp from "./../elements/levelup";
-import Otto from "./Otto"
+import Otto from "./Otto";
 
 function Intro(props) {
   return (
@@ -46,11 +46,33 @@ function Intro(props) {
         He had activated a flame shield around himself, but not just upfront but
         all around. It was really impressive as most mages do not bother to
         learn full shield because of its massive consumption of mana. However
-        this is just what I wanted while he was busy producing & then
+        this is just what I wanted, while he was busy producing & then
         maintaining the shield I pointed my wand at him and gathered the mana
         below his feet. This spell was great for by passing shields, doing high
         damage but normally was inaccurate and too slow to cast. However this
         opportunity he had given to me was perfect.
+      </p>
+      <p>
+        The mana gathered really slowly below his feet, it should be easier for
+        him to control the mana around him then for me to control the mana
+        around him, what little mana did no go into making his shield had
+        gathered into a mass below his feet, the whole process took almost 2
+        excruciating seconds, going on 3.
+      </p>
+      <p>
+        Then I exploded the mana below his feet, bringing up from under him and
+        coating him in my flames. I thought I had dealt a great blow against
+        him, but the moment I heard his screaming he below the shield around him
+        out, another rare spell to pick. It uses up the energy gathered in your
+        shield to do damage, so if the shield has been used to defend the damage
+        the explosion would do would be very little.
+      </p>
+      <p>
+        Needless to say it took me off guard and slammed into me directly. The
+        blast knocked me down to the floor the warning sounds ringing in my ears
+        about my low HP. After he had put the fire out he threw flames all over
+        the arena from his wand using a flamethrower attack. The match ended
+        there as my HP had become too low.
       </p>
       {Book()}
       {SeaPeople[0]}
