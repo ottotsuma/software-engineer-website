@@ -654,7 +654,7 @@ function Intro(props) {
               { name: "Adaptable", level: 2 },
               { name: "Brave", level: 2 },
               { name: "Pure of mind", level: 2 },
-              { name: "Perseverance", level: 2 }, // 20
+              { name: "Magical Aptitude", level: 2 }, // 20
             ]}
             type={"human"}
           />

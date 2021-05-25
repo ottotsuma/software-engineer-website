@@ -77,7 +77,7 @@ const spellList = {
   "Serpent Pattern": {
     name: "Serpent Pattern",
     1: "Your skin will adapt to the environment slightly, increased stealth.",
-    2: "Your skin will adapt to the environment slightly, increased stealth.",
+    2: "Your skin will adapt to the environment slightly, increased stealth.", // ch32
   },
   "Forked Tongue": {
     name: "Forked Tongue",
@@ -86,7 +86,7 @@ const spellList = {
   "Serpent Skin": {
     name: "Serpent-Skin",
     1: "Your skin slowly becomes like a serpents. Able to turn on and off scaled armor over your skin.",
-    2: "Your skin slowly becomes like a serpents. Able to turn on and off scaled armor over your skin.",
+    2: "Your skin slowly becomes like a serpents. Able to turn on and off scaled armor over your skin.", // ch32
   },
   Haietlik: {
     name: "Haietlik",
@@ -179,43 +179,58 @@ const spellList = {
   },
   "Talented": {
     name: "Talented",
-    1: "",
+    1: "1% increase to experience gained.",
+    2: "2% increase to experience gained.",
   },
   "Persuasive": {
     name: "Persuasive",
-    1: "",
+    1: "+1 Charisma.",
+    2: "+2 Charisma.",
   },
   "Brave": {
     name: "Brave",
-    1: "",
+    1: "Chance to resist fear.",
+    2: "Chance to resist fear.",
   },
   "Adaptable": {
     name: "Adaptable",
-    1: "",
+    1: "Environmental debuffs effect -5%.",
+    2: "Environmental debuffs effect -10%.",
   },
   "Healthy": {
     name: "Healthy",
-    1: "",
+    1: "Vitality +1.",
+    2: "Vitality +1, small chance to resist poisons.",
+    3: "Vitality +2, small chance to resist poisons & diseases.",
   },
   "Athletic": {
     name: "Athletic",
-    1: "",
+    1: "Movement speed +2%",
+    2: "Movement speed +4%",
   },
   "Perception": {
     name: "Perception",
-    1: "",
+    1: "Sense +1",
+    2: "Sense +2",
   },
   "Quick": {
     name: "Quick",
-    1: "",
+    1: "Dexterity +1",
+    2: "Dexterity +2",
   },
   "Pure of mind": {
     name: "Pure of mind",
-    1: "",
+    1: "Willpower +1",
+    2: "Willpower +2",
   },
   "Perseverance": {
     name: "Perseverance",
     1: "",
+  },
+  "Magical Aptitude": {
+    name: "Magical Aptitude",
+    1: "Magic +1",
+    2: "Magic +2",
   },
 };
 
