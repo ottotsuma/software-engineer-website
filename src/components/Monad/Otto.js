@@ -30,6 +30,7 @@ export default function Otto() {
         }}
         notes={"4 spell per level, 1 stats per level,"}
       />
+      {/* This equipment is level 5? So maybe needs stat changes */}
       <Equipment
         items={{
           Head: {
