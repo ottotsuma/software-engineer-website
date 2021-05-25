@@ -177,7 +177,48 @@ const spellList = {
     name: "Magic Regen",
     1: "Increases mana recovery speed.",
   },
+  "Talented": {
+    name: "Talented",
+    1: "",
+  },
+  "Persuasive": {
+    name: "Persuasive",
+    1: "",
+  },
+  "Brave": {
+    name: "Brave",
+    1: "",
+  },
+  "Adaptable": {
+    name: "Adaptable",
+    1: "",
+  },
+  "Healthy": {
+    name: "Healthy",
+    1: "",
+  },
+  "Athletic": {
+    name: "Athletic",
+    1: "",
+  },
+  "Perception": {
+    name: "Perception",
+    1: "",
+  },
+  "Quick": {
+    name: "Quick",
+    1: "",
+  },
+  "Pure of mind": {
+    name: "Pure of mind",
+    1: "",
+  },
+  "Perseverance": {
+    name: "Perseverance",
+    1: "",
+  },
 };
+
 // Add spell (level/rank). Changes description.
 function Spells({ spells, type }) {
   const array = [];
