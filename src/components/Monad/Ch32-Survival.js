@@ -573,14 +573,7 @@ function Intro(props) {
           <p>
             'Lightning germination (2) - '
           </p>
-          {/* <p>Lightning germination: Stimulate a target into germinating.</p> */}
-          {/* During germination, repair processes are activated to deal with accumulated DNA damage. - Kind of heal & Quality */}
-          {/* <p>Lightning growth: Force the target to grow.</p> */}
-          {/* Increases quality of plant & stats given - buff spell */}
-          {/* <p>Lightning harvest: Harvest the target.</p> */}
-          {/* Quality of harvested materials */}
-          <p>After I looked though the passives that gave boosts to stats! After all, more stats could never hurt.</p>
-          {/* Shaun!! */}
+
           <p>
             That left me with *** spell points and I could look though the
             basic spells available still. It would have to wait until level 30
@@ -591,10 +584,6 @@ function Intro(props) {
             these basic spells would unlock any intermediate spells at all let
             alone which spells they might be!
           </p>
-          <p>
-            I had narrowed it down to just a few spells that looked interesting
-            to me.
-          </p>
           {Kʼawiil()}
           <p>
             The whole thing was so frustrating. In the histories of mages, some
@@ -602,12 +591,6 @@ function Intro(props) {
             even if they had not unlocked them. However like unlocking different
             classes, unlocking different spells required different events. So I
             had no idea were to start.
-          </p>
-          <p>
-            Kʼawiil-Burst & Kʼawiil-Bolt looked similar to Lightning-Burst &
-            Lightning-Bolt from the lighting mage spells. Even the basic
-            descriptions were the same. However I had doubts that they acted the
-            same otherwise why would there be a need to rename the skills?
           </p>
           <p>
             After reading though most of the spells it became clear there were 3
@@ -629,6 +612,18 @@ function Intro(props) {
             seemed better on the surface I had to pick burst and bolt because
             otherwise I would not be able to join in the normal combat classes.
           </p>
+          {/* <p>Lightning germination: Stimulate a target into germinating.</p> */}
+          {/* During germination, repair processes are activated to deal with accumulated DNA damage. - Kind of heal & Quality */}
+          {/* <p>Lightning growth: Force the target to grow.</p> */}
+          {/* Increases quality of plant & stats given - buff spell */}
+          {/* <p>Lightning harvest: Harvest the target.</p> */}
+          {/* Quality of harvested materials */}
+          <p>After I looked though the passives, since they applied without me having to think about them there was no real down side to pick them up. After all with lots of spells I have to cast there might be times where I do not have the chance to cast them all. Okay, more likely I will forget half of them...</p>
+          <p>There was not many I wanted to get from my class. 'Serpent Skin' was okay because I could turn it on and off at will. 'Serpent Pattern' only took effect when 'Serpent Skin' was on. But 'Forked Tongue' did not say if you could turn it on or off. I don't want my tongue to be forked permanently...</p>
+          <p>To try and balance out some of my new serpent additions I looked down the human skill tree. It was not an unused tree, in fact for most people it was just as popular to pick skills from the human tree as their class. However this was less true for mages, who when presented with the option of a new spell or increased adaption to their environment, would just pick the spell.</p>
+          <p>I only picked up passive skills from the human tree, worried I would forget half of them anyway. There were many to pick from however I only picked them if they directly improved my charisma, magic, vitality, dexterity or something else useful. The others I would not need as much.</p>
+          {/* Shaun!! */}
+
           <p>
             Let's just hope they are useful in the future also. With that I went
             sleep.
