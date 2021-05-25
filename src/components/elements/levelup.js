@@ -142,7 +142,7 @@ export default function Levelup(props) {
   return (
     <Main>
       <CardNoImage>
-        <Title>Congratulations {props.name} you leveled up!</Title>
+        <Title>Congratulations you leveled up!</Title>
         {!spanCSS && <Name>You are now level {props.level}.</Name>}
         {!spanCSS && <Stats>{stats}</Stats>}
         {spanCSS && <Span>{props.details}</Span>}
