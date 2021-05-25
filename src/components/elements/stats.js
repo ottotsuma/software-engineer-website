@@ -173,6 +173,15 @@ const statList = {
     minor:
       "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina.",
   },
+  passives: {
+    name: "Element",
+    description: "Passive skills do not need to be activated.",
+    numeric: "Passive skills do not need to be activated.",
+    vague: "Passive skills do not need to be activated.",
+    major: "Passive skills do not need to be activated.",
+    minor:
+      "Passive skills do not need to be activated.",
+  },
   element: {
     name: "Element",
     description: "This is the element you can apply to your magic.",

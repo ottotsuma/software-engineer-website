@@ -13,18 +13,20 @@ export default function Otto() {
           name: "Otto",
           level: 10,
           class: "Kʼawiil.",
-          spells: 5,
+          spells: 8,
+          passives: 32,
           titles: 5,
-          "spell points": 35,
+          "spell points": 0,
           "stat points": 0,
-          vitality: 0,
+          vitality: 1,
           strength: 1, // 1 from title
           endurance: 0,
-          magic: 11, // 1 from title, 10 from leveling
-          willpower: 1, // 1 from title
-          dexterity: 2, // 2 from the level 1 & 10
-          sense: 1, // 1 from human
-          charisma: 13, // 2 from human, 1 from title, 10 from leveling
+          magic: 13, // 1 from title, 10 from leveling
+          willpower: 3, // 1 from title
+          dexterity: 4, // 2 from the level 1 & 10
+          sense: 2, // 1 from human
+          charisma: 15, // 2 from human, 1 from title, 10 from leveling
+          // rest from passives
         }}
         notes={"4 spell per level, 1 stats per level,"}
       />
@@ -76,26 +78,22 @@ export default function Otto() {
         type={"mage"}
       />
       <div className="BreakPoint"></div>
-      <p>To make things fair, you have to unlock the good traits and if you don't there is a chance of picking up the bad ones. Such as becoming perverted if you are not pure of mind.</p>
       {/* Human skills, but also could have God based skills and passives. The snake ones looked good. */}
       <Spells
-        spells={[
-          { name: "Talented", level: 2 },
-          { name: "Persuasive", level: 2 },
-          { name: "Quick", level: 2 },
-          { name: "Perception", level: 2 },
-          { name: "Strong", level: 2 },
-          { name: "Athletic", level: 2 },
-          { name: "Healthy", level: 2 },
-          { name: "Adaptable", level: 2 },
-          { name: "Brave", level: 2 },
-          { name: "Pure of mind", level: 2 },
-          { name: "Sensible", level: 2 },
-          // { name: "Perseverance", level: 2 }, // 24
-          { name: "Magical Aptitude", level: 2 },
-        ]}
-        type={"human"}
-      />
+            spells={[
+              { name: "Talented", level: 2 },
+              { name: "Persuasive", level: 2 },
+              { name: "Quick", level: 2 },
+              { name: "Perception", level: 2 },
+              { name: "Athletic", level: 2 },
+              { name: "Healthy", level: 2 },
+              { name: "Adaptable", level: 2 },
+              { name: "Brave", level: 2 },
+              { name: "Pure of mind", level: 2 },
+              { name: "Magical Aptitude", level: 2 }, // 20
+            ]}
+            type={"human"}
+          />
     </div>
   );
 }
