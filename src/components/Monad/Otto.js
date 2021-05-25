@@ -21,7 +21,7 @@ export default function Otto() {
           vitality: 1,
           strength: 1, // 1 from title
           endurance: 0,
-          magic: 13, // 1 from title, 10 from leveling
+          magic: 14, // 1 from title, 10 from leveling, 1 from robe, unlikely to be wearing the mask
           willpower: 3, // 1 from title
           dexterity: 4, // 2 from the level 1 & 10
           sense: 2, // 1 from human
@@ -57,6 +57,7 @@ export default function Otto() {
             <li>
               Weapon:<font color="blue"> </font>
             </li> */}
+            {/* gloves, adds fire to a weapon. boots, change the surface to fire. chest, reflect damage as fire when hit in melee*/}
       <h1>Other Items</h1>
       <Spells
         spells={[

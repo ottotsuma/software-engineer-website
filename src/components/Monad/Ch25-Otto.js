@@ -59,6 +59,7 @@ function Intro(props) {
             }}
           />
           {/* https://www.sacred-texts.com/cfu/mlc/mlc10.htm - obscure fire god from china */}
+          {/* https://en.wikipedia.org/wiki/Hui Lu Aztec, did not exist at the time :( */}
           {/* <li>Head:<font color="blue"> Ceremonial Stag Mask.</font> Magic: +4.</li> */}
           {/* <li>Head:<font color="purple"> Heavenly Stag Mask.</font> Magic: +4.</li> */}
 
