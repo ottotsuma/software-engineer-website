@@ -2,6 +2,7 @@ import React from "react";
 import Kʼawiil from "./Kʼawiil";
 import Stats from "./../elements/stats";
 import LevelUp from "./../elements/levelup";
+import Spells from "./../elements/spells";
 
 function Intro(props) {
   return (
@@ -621,9 +622,42 @@ function Intro(props) {
           <p>After I looked though the passives, since they applied without me having to think about them there was no real down side to pick them up. After all with lots of spells I have to cast there might be times where I do not have the chance to cast them all. Okay, more likely I will forget half of them...</p>
           <p>There was not many I wanted to get from my class. 'Serpent Skin' was okay because I could turn it on and off at will. 'Serpent Pattern' only took effect when 'Serpent Skin' was on. But 'Forked Tongue' did not say if you could turn it on or off. I don't want my tongue to be forked permanently...</p>
           <p>To try and balance out some of my new serpent additions I looked down the human skill tree. It was not an unused tree, in fact for most people it was just as popular to pick skills from the human tree as their class. However this was less true for mages, who when presented with the option of a new spell or increased adaption to their environment, would just pick the spell.</p>
-          <p>I only picked up passive skills from the human tree, worried I would forget half of them anyway. There were many to pick from however I only picked them if they directly improved my charisma, magic, vitality, dexterity or something else useful. The others I would not need as much.</p>
+          <p>Worried I would forget half of the human skills since I just used spells I picked up only the passives. There were many to pick from however I only picked them if they directly improved my charisma, magic, vitality, dexterity or something else useful. The others I would not need as much.</p>
           {/* Shaun!! */}
-
+          <Spells
+            spells={[
+              {
+                name: "Lightning germination",
+                level: 2,
+              },
+              { name: "Lightning growth", level: 2 },
+              { name: "Lightning harvest", level: 2 },
+              { name: "Seeds to Soldiers", level: 2 },
+              { name: "Lightning seeds", level: 2 }, // 5 points spent on old spells 30 left
+              // New Spells Below 
+              { name: "Scarecrow", level: 2 },
+              { name: "Kʼawiil Burst", level: 2 },
+              { name: "Kʼawiil Bolt", level: 2 },
+              { name: "Serpent Skin", level: 2, passive: true, },
+              { name: "Serpent Pattern", level: 2, passive: true, }, // 10 points spent on new spells 20 left
+            ]}
+            type={"mage"}
+          />
+          <Spells
+            spells={[
+              { name: "Talented", level: 2 },
+              { name: "Persuasive", level: 2 },
+              { name: "Quick", level: 2 },
+              { name: "Perception", level: 2 },
+              { name: "Athletic", level: 2 },
+              { name: "Healthy", level: 2 },
+              { name: "Adaptable", level: 2 },
+              { name: "Brave", level: 2 },
+              { name: "Pure of mind", level: 2 },
+              { name: "Perseverance", level: 2 }, // 20
+            ]}
+            type={"human"}
+          />
           <p>
             Let's just hope they are useful in the future also. With that I went
             sleep.
