@@ -46,18 +46,18 @@ export default function Otto() {
         }}
       />
       {/* <li>
-              Body:<font color="blue"> Hui Lu's Battle Armor</font> ???
-            </li>
-            <li>
-              Hands:<font color="blue"> Hui Lu's Enchanting Gloves</font> ???
-            </li>
-            <li>
-              Feet:<font color="blue"> Hui Lu's Burning Boots</font> ???
-            </li>
-            <li>
-              Weapon:<font color="blue"> </font>
-            </li> */}
-            {/* gloves, adds fire to a weapon. boots, change the surface to fire. chest, reflect damage as fire when hit in melee*/}
+      Body:<font color="blue"> Hui Lu's Battle Armor</font> ???
+    </li>
+    <li>
+      Hands:<font color="blue"> Hui Lu's Enchanting Gloves</font> ???
+    </li>
+    <li>
+      Feet:<font color="blue"> Hui Lu's Burning Boots</font> ???
+    </li>
+    <li>
+      Weapon:<font color="blue"> </font>
+    </li> */}
+      {/* gloves, adds fire to a weapon. boots, change the surface to fire. chest, reflect damage as fire when hit in melee*/}
       <h1>Other Items</h1>
       <Spells
         spells={[
@@ -81,20 +81,20 @@ export default function Otto() {
       <div className="BreakPoint"></div>
       {/* Human skills, but also could have God based skills and passives. The snake ones looked good. */}
       <Spells
-            spells={[
-              { name: "Talented", level: 2 },
-              { name: "Persuasive", level: 2 },
-              { name: "Quick", level: 2 },
-              { name: "Perception", level: 2 },
-              { name: "Athletic", level: 2 },
-              { name: "Healthy", level: 2 },
-              { name: "Adaptable", level: 2 },
-              { name: "Brave", level: 2 },
-              { name: "Pure of mind", level: 2 },
-              { name: "Magical Aptitude", level: 2 }, // 20
-            ]}
-            type={"human"}
-          />
+        spells={[
+          { name: "Talented", level: 2 },
+          { name: "Persuasive", level: 2 },
+          { name: "Quick", level: 2 },
+          { name: "Perception", level: 2 },
+          { name: "Athletic", level: 2 },
+          { name: "Healthy", level: 2 },
+          { name: "Adaptable", level: 2 },
+          { name: "Brave", level: 2 },
+          { name: "Pure of mind", level: 2 },
+          { name: "Magical Aptitude", level: 2 }, // 20
+        ]}
+        type={"human"}
+      />
     </div>
   );
 }
