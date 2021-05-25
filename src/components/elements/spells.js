@@ -77,14 +77,16 @@ const spellList = {
   "Serpent Pattern": {
     name: "Serpent Pattern",
     1: "Your skin will adapt to the environment slightly, increased stealth.",
+    2: "Your skin will adapt to the environment slightly, increased stealth.",
   },
   "Forked Tongue": {
     name: "Forked Tongue",
     1: "Your tongue will become forked, Increased sense of smell.",
   },
-  "Serpent-Skin": {
+  "Serpent Skin": {
     name: "Serpent-Skin",
     1: "Your skin slowly becomes like a serpents. Able to turn on and off scaled armor over your skin.",
+    2: "Your skin slowly becomes like a serpents. Able to turn on and off scaled armor over your skin.",
   },
   Haietlik: {
     name: "Haietlik",

@@ -91,9 +91,9 @@ export default function Otto() {
           { name: "Brave", level: 2 },
           { name: "Pure of mind", level: 2 },
           { name: "Sensible", level: 2 },
-          { name: "Perseverance", level: 2 },
+          { name: "Perseverance", level: 2 }, // 24
           { name: "", level: 2 },
-           { name: "", level: 2 }, // 24 points spent on humans skills
+           { name: "", level: 2 }, // 28 points spent on humans skills
         ]}
         type={"human"}
       />
