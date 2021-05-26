@@ -217,7 +217,7 @@ function Stats({ stats, type }) {
     array.push(
       <SingleStat key={index + "stat"}>
         {element}
-        <Span>{spam[type]}</Span>
+        {!!type && <Span>{spam[type]}</Span>}
       </SingleStat>
     );
   }
