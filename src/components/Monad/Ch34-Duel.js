@@ -1052,6 +1052,7 @@ export const SeaPeople = {
     <p>"Ready? I've been logging in everyday just to get there. Did they really have to make it so we traveled in real time?" I vented.</p>
     <p>"Aha, you should see the distance covered when we are 'asleep'. Just be glad they did not make it 100% real time. Anyway you are going to be apart of the guild who founded the first resurrection tower in the new lands. It is the best kind of respawn location because you lose much less experience when you die in it's area of effect." Josh said happily.</p>
     <p>"If you want to be apart of a guild get your butts in the boat!" Sarah said standing next to our little rowing boat under her black sun umbrella.</p>
+    <p>The trip from here would take a few days </p>
   </Content>,
   7: <Content style={{ overflowWrap: "anywhere", width: "100%" }}>7</Content>,
   8: <Content style={{ overflowWrap: "anywhere", width: "100%" }}>8</Content>,
