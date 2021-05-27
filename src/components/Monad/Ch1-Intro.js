@@ -11,9 +11,12 @@ export default function Intro(props) {
         <div id="test" className="Content">
           {/* <!-- military education is also about the history --> */}
           <h1 id="title">Monad</h1>
+          {/* Monad (philosophy), a term meaning "unit", used by philosophers to signify a variety of entities, originally the God and later such things as genus
+Monism, the concept of "one essence" in the metaphysical and theological theory */}
           {/* <!-- Next to some kind of map not the first chapter --> */}
           <div className="pop">
-            Map of Charia
+            Map of Chab
+            {/* http://www.mesoweb.com/resources/vocabulary/English-Maya.html */}
             <img
               className="popOut"
               src="https://ottotsuma.github.io/images/Charia%20Jun17%2013-14%20(1).jpeg"
@@ -103,7 +106,7 @@ export default function Intro(props) {
           <h3>Steinauhau</h3>
           {/* The Grand Duchy of Alden is home to 3.2 million people */}
           <p>
-            Jun 12 21-12, In the north east of the continent of Charia, in the
+            Jun 12 21-12, In the north east of the continent of Chab, in the
             Grand Duchy of Alden was a town called Steinauhau.
           </p>
           <div className="pop">
@@ -339,7 +342,7 @@ most people learn inspect but either see
           {/* <!-- They continue their days with the adults working, the children play or help out --> */}
           {/* <!-- news could be brought back from the town hall by Robert --> */}
           {/* <p>
-            Charia Jun 12 21-22, The Grand Duchy shares a large boarder with the
+            Chab Jun 12 21-22, The Grand Duchy shares a large boarder with the
             Principality of Huonhia to the south-east, a small boarder with the
             Principality of Leikia to the South. A mostly abandoned boarder with
             the Kingdom of Hatalisa to the west. The kingdom has recently made

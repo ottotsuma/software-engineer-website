@@ -1052,7 +1052,10 @@ export const SeaPeople = {
     </Content>
   ),
   6: <Content style={{ overflowWrap: "anywhere", width: "100%" }}>
-    <p>"Good morning" Sarah said to me as I came onto the deck of the ship.</p>
+    <p>"Good morning." Sarah said to me as I came onto the deck of the ship. She was in her blue and gold armor as usual looking out across the ocean. When I followed her line of sight I saw a large island off in the distance.</p>
+    <p>"Is that?" I started asking when Sarah interrupted.</p>
+    <p>"Yes, the new land, or as the locals seem to call it 'Chab'. I tried to search for the word, it means earth, probably." She shrugged her shoulders.</p>
+    <p></p>
   </Content>,
   7: <Content style={{ overflowWrap: "anywhere", width: "100%" }}>7</Content>,
   8: <Content style={{ overflowWrap: "anywhere", width: "100%" }}>8</Content>,
