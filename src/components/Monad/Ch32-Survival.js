@@ -280,7 +280,9 @@ function Intro(props) {
             points into Charisma, it was better to have others fight for me then
             risking myself since I had the seed soldiers. She wanted me to put
             points into sense also so that I would be able to sense danger,
-            traps or cast spells from further away, so I would be at less risk but we ended up agreeing any spare points would go into dexterity. The faster I can cast the spells the better.
+            traps or cast spells from further away, so I would be at less risk
+            but we ended up agreeing any spare points would go into dexterity.
+            The faster I can cast the spells the better.
           </p>
           <p>
             Takeo came in while we were talking and had dark black lines around
@@ -418,15 +420,13 @@ function Intro(props) {
               vitality: 0,
               strength: 1, // 1 from title
               endurance: 0,
-              magic: 11, // 1 from title, 10 from leveling 
+              magic: 11, // 1 from title, 10 from leveling
               willpower: 1, // 1 from title
-              dexterity: 2, // 2 from the level 1 & 10 
+              dexterity: 2, // 2 from the level 1 & 10
               sense: 1, // 1 from human
               charisma: 13, // 2 from human, 1 from title, 10 from leveling
             }}
-            notes={
-              "4 spell per level, 1 stats per level,"
-            }
+            notes={"4 spell per level, 1 stats per level,"}
           />
           {/* Titles: 
             Back to School - +1 Magic
@@ -459,11 +459,11 @@ function Intro(props) {
             I was so glad that I had saved my spell points, with things going so
             well hunting plant monsters I never really needed an attack spell.
             Now I have the difficult choice, with the spell level cap increased
-            I could level up my current spells to level 2 although some spells worked great at level 1 and increasing their
-            level gave very little gain. Other spells were useless until
-            reaching a high enough level. It was a real shot in the dark if it
-            was going to be worth it or not without the history of your class
-            and what the spells can do.
+            I could level up my current spells to level 2 although some spells
+            worked great at level 1 and increasing their level gave very little
+            gain. Other spells were useless until reaching a high enough level.
+            It was a real shot in the dark if it was going to be worth it or not
+            without the history of your class and what the spells can do.
           </p>
           <p>
             "This method is really quick, how come all the rich kids are not
@@ -564,26 +564,23 @@ function Intro(props) {
             gathered instead. Still if the mana was not enough it meant the the
             growth would not be complete to its max.
           </p>
-          <p>I was hoping by leveling it up it would reduce the cost... But it is a risk.</p>
           <p>
-            'Lightning growth (2) - '
+            I was hoping by leveling it up it would reduce the cost... But it is
+            a risk.
           </p>
-          <p>
-            'Lightning harvest (2) - '
-          </p>
-          <p>
-            'Lightning germination (2) - '
-          </p>
+          <p>'Lightning growth (2) - '</p>
+          <p>'Lightning harvest (2) - '</p>
+          <p>'Lightning germination (2) - '</p>
 
           <p>
-            That left me with *** spell points and I could look though the
-            basic spells available still. It would have to wait until level 30
-            before any intermediate spells showed. When I was a lightning mage I
-            could just pick up the histories of lightning mages to see which
-            spells lead to unlocking other spells in the future. This time I
-            could only see some of the basic spells and had no idea if following
-            these basic spells would unlock any intermediate spells at all let
-            alone which spells they might be!
+            That left me with *** spell points and I could look though the basic
+            spells available still. It would have to wait until level 30 before
+            any intermediate spells showed. When I was a lightning mage I could
+            just pick up the histories of lightning mages to see which spells
+            lead to unlocking other spells in the future. This time I could only
+            see some of the basic spells and had no idea if following these
+            basic spells would unlock any intermediate spells at all let alone
+            which spells they might be!
           </p>
           {Kʼawiil()}
           <p>
@@ -619,10 +616,35 @@ function Intro(props) {
           {/* Increases quality of plant & stats given - buff spell */}
           {/* <p>Lightning harvest: Harvest the target.</p> */}
           {/* Quality of harvested materials */}
-          <p>After I looked though the passives, since they applied without me having to think about them there was no real down side to pick them up. After all with lots of spells I have to cast there might be times where I do not have the chance to cast them all. Okay, more likely I will forget half of them...</p>
-          <p>There was not many I wanted to get from my class. 'Serpent Skin' was okay because I could turn it on and off at will. 'Serpent Pattern' only took effect when 'Serpent Skin' was on. But 'Forked Tongue' did not say if you could turn it on or off. I don't want my tongue to be forked permanently...</p>
-          <p>To try and balance out some of my new serpent additions I looked down the human skill tree. It was not an unused tree, in fact for most people it was just as popular to pick skills from the human tree as their class. However this was less true for mages, who when presented with the option of a new spell or increased adaption to their environment, would just pick the spell.</p>
-          <p>Worried I would forget half of the human skills since I just used spells I picked up only the passives. There were many to pick from however I only picked them if they directly improved my charisma, magic, vitality, dexterity or something else useful. The others I would not need as much.</p>
+          <p>
+            After I looked though the passives, since they applied without me
+            having to think about them there was no real down side to pick them
+            up. After all with lots of spells I have to cast there might be
+            times where I do not have the chance to cast them all. Okay, more
+            likely I will forget half of them...
+          </p>
+          <p>
+            There was not many I wanted to get from my class. 'Serpent Skin' was
+            okay because I could turn it on and off at will. 'Serpent Pattern'
+            only took effect when 'Serpent Skin' was on. But 'Forked Tongue' did
+            not say if you could turn it on or off. I don't want my tongue to be
+            forked permanently...
+          </p>
+          <p>
+            To try and balance out some of my new serpent additions I looked
+            down the human skill tree. It was not an unused tree, in fact for
+            most people it was just as popular to pick skills from the human
+            tree as their class. However this was less true for mages, who when
+            presented with the option of a new spell or increased adaption to
+            their environment, would just pick the spell.
+          </p>
+          <p>
+            Worried I would forget half of the human skills since I just used
+            spells I picked up only the passives. There were many to pick from
+            however I only picked them if they directly improved my charisma,
+            magic, vitality, dexterity or something else useful. The others I
+            would not need as much.
+          </p>
           {/* Shaun!! */}
           <Spells
             spells={[
@@ -634,12 +656,12 @@ function Intro(props) {
               { name: "Lightning harvest", level: 2 },
               { name: "Seeds to Soldiers", level: 2 },
               { name: "Lightning seeds", level: 2 }, // 5 points spent on old spells 30 left
-              // New Spells Below 
+              // New Spells Below
               { name: "Scarecrow", level: 2 },
               { name: "Kʼawiil Burst", level: 2 },
               { name: "Kʼawiil Bolt", level: 2 },
-              { name: "Serpent Skin", level: 2, passive: true, },
-              { name: "Serpent Pattern", level: 2, passive: true, }, // 10 points spent on new spells 20 left
+              { name: "Serpent Skin", level: 2, passive: true },
+              { name: "Serpent Pattern", level: 2, passive: true }, // 10 points spent on new spells 20 left
             ]}
             type={"mage"}
           />

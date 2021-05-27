@@ -479,7 +479,8 @@ function Intro(props) {
             items={{
               Head: {
                 name: "Leather Cap",
-                effect: "Slight protection increase against attacks to the head.",
+                effect:
+                  "Slight protection increase against attacks to the head.",
                 rating: "junk",
               },
               Body: {
