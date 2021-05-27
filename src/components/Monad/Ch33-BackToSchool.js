@@ -576,7 +576,7 @@ export default Intro;
 // alden invades the republic east and west forms confederation, alden and empire war over Dwarves lands
 // the emperor is really the empress
 // elf's use to be pirate like and split into factions
-// the old world spreads disease to the new and in return the L god sends back syphilis, new world has more flying troops abilities and items they are a rarity in the new worlds
+// the old lands spreads disease to the new and in return the L god sends back syphilis, new world has more flying troops abilities and items they are a rarity in the new worlds
 // high level rouges in mayan and aztec lands, high level spirits passed by old houses and the poor have to fight for the scraps
 // desert religion with a quest to listen to the whole sermon posted by a troll
 // Killing of the God causes the faithful to lose their powers and cough up blood

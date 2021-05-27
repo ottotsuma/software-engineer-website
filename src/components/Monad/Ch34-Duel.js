@@ -411,7 +411,7 @@ export const SeaPeople = {
         miasma reduced our levels up 30% already so this island was the hardest
         on the journey making it the the most profitable. This was combined with
         it being the last stop before the new land so most people would be to
-        tempted to move on rather then return back to the old world with items
+        tempted to move on rather then return back to the old lands with items
         they found here. There were a few but it was rare. Most travelers were
         like us and would continue on.
       </p>
@@ -1062,8 +1062,10 @@ export const SeaPeople = {
     <p>I was in shocked for a while watching her walk off. Stay in charter? What? I know it is a roleplaying game but does she have to be so serious? I decided to go see if Josh could use any help, the night would be here within half an hour or so. While there I asked him about Sarah's out burst.</p>
     <p>"Dude, her full time job is as a professional gamer. She is always streaming this game, so you have to stay in charter around her or it effects her income. People don't like watching if they just keep calling it a game and not a new world." He shrugged and pulled me along to get Sarah so we could make up and set off. "Don't forget, unless you want to end up like our last vice chair." Josh warned.</p>
     <p>"What happened to him?" I asked before we knocked on her door.</p>
-    <p>"She kicked him in the nuts. In the old world. Any who..." He knocked on the door not giving me time to think about what he had just said.</p>
+    <p>"She kicked him in the nuts. On Earth. Any who..." He knocked on the door not giving me time to think about what he had just said.</p>
     <div className="BreakPoint"></div>
+    <p>The night was really dark. There was no moon in the sky, well moons, on this world there were 3. We were rowing in as quick as we could, and as quiet as we could manage. There were other small row boats also trying to reach the new land. It was not just astrals but other locals from the old lands. For every astral trying to explore the new lands there were 3 old land locals trying their luck.</p>
+    <p></p>
   </Content>,
   7: <Content style={{ overflowWrap: "anywhere", width: "100%" }}>7</Content>,
   8: <Content style={{ overflowWrap: "anywhere", width: "100%" }}>8</Content>,

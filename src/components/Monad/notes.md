@@ -329,7 +329,7 @@ Tisiel Skivali - (cliffs) imperial name,(huonoia) - scholar/necromancer (GONE)
 <li>Mila - Otto's group (3)
 <li>Berta - Otto's group (3)
 <li>Max - Fought against Otto in the group.
-<li>Satyr Cruk, Chief of war of the goat clan. (old world)
+<li>Satyr Cruk, Chief of war of the goat clan. (old lands)
 ---
 
 Famous Mages:
@@ -440,7 +440,7 @@ Places joined together though alliance? to act as one unit under one representat
 pocotcotco ?
 chalbia ?
 
-Normal in the world to reach level 100, but few reset because the chances of unlocking anything new is little and it leaves you open to attack while you level back up. The advanced classes play a large role in the old world but in the new world people are leveling up less so getting to 100 is a big deal.
+Normal in the world to reach level 100, but few reset because the chances of unlocking anything new is little and it leaves you open to attack while you level back up. The advanced classes play a large role in the old lands but in the new world people are leveling up less so getting to 100 is a big deal.
 
 *** notes on the countries ***
 
@@ -594,7 +594,7 @@ the emperor is really the empress
 
 elf's use to be pirate like and split into factions
 
-the old world spreads disease to the new and in return the L god sends back syphilis, new world has more flying troops abilities and items they are a rarity in the new worlds
+the old lands spreads disease to the new and in return the L god sends back syphilis, new world has more flying troops abilities and items they are a rarity in the new worlds
 
 high level rouges in mayan and aztec lands, high level spirits passed by old houses and the poor have to fight for the scraps
 
