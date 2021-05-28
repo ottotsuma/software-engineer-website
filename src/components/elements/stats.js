@@ -157,7 +157,7 @@ const statList = {
   },
   sense: {
     name: "Vitality",
-    description: "???",
+    description: "Increases your range.",
     numeric: "Increases HP by 14.5 per point.",
     vague: "Increases your durability.",
     major: "Increased health points.",
@@ -166,7 +166,7 @@ const statList = {
   },
   charisma: {
     name: "Vitality",
-    description: "?!?",
+    description: "Peoples first impressions of you are better.",
     numeric: "Increases HP by 14.5 per point.",
     vague: "Increases your durability.",
     major: "Increased health points.",
@@ -217,7 +217,7 @@ function Stats({ stats, type }) {
     array.push(
       <SingleStat key={index + "stat"}>
         {element}
-        {!!type && <Span>{spam[type]}</Span>}
+        {!!type && <Span>{spam['description']}</Span>}
       </SingleStat>
     );
   }
