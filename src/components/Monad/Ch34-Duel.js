@@ -1043,31 +1043,107 @@ export const SeaPeople = {
         details={""}
         name={"Name"}
       />
-      <p>"Congratulations on your level up. You must of been close right?" Josh said as we made our way back to the ship.</p>
-      <p>"Thank you, yeah I was only a little bit away when I got 3000 experience for the quest, plus the experience for killing the crab." I replied.</p>
-      <p>"This was our last stop before the new land, you ready?" He followed up with.</p>
-      <p>"Ready? I've been logging in everyday just to get there. Did they really have to make it so we traveled in real time?" I vented.</p>
-      <p>"Aha, you should see the distance covered when we are 'asleep'. Just be glad they did not make it 100% real time. Anyway you are going to be apart of the guild who founded the first resurrection tower in the new lands. It is the best kind of respawn location because you lose much less experience when you die in it's area of effect." Josh said happily.</p>
-      <p>"If you want to be apart of a guild get your butts in the boat!" Sarah said standing next to our little rowing boat under her black sun umbrella.</p>
+      <p>
+        "Congratulations on your level up. You must of been close right?" Josh
+        said as we made our way back to the ship.
+      </p>
+      <p>
+        "Thank you, yeah I was only a little bit away when I got 3000 experience
+        for the quest, plus the experience for killing the crab." I replied.
+      </p>
+      <p>
+        "This was our last stop before the new land, you ready?" He followed up
+        with.
+      </p>
+      <p>
+        "Ready? I've been logging in everyday just to get there. Did they really
+        have to make it so we traveled in real time?" I vented.
+      </p>
+      <p>
+        "Aha, you should see the distance covered when we are 'asleep'. Just be
+        glad they did not make it 100% real time. Anyway you are going to be
+        apart of the guild who founded the first resurrection tower in the new
+        lands. It is the best kind of respawn location because you lose much
+        less experience when you die in it's area of effect." Josh said happily.
+      </p>
+      <p>
+        "If you want to be apart of a guild get your butts in the boat!" Sarah
+        said standing next to our little rowing boat under her black sun
+        umbrella.
+      </p>
     </Content>
   ),
-  6: <Content style={{ overflowWrap: "anywhere", width: "100%" }}>
-    <p>"Good morning." Sarah said to me as I came onto the deck of the ship. She was in her blue and gold armor as usual looking out across the ocean. When I followed her line of sight I saw a large island off in the distance.</p>
-    <p>"Is that?" I started asking when Sarah interrupted.</p>
-    <p>"Yes, the new land, or as the locals seem to call it 'Chab'. I tried to search for the word, it means earth, probably." She shrugged her shoulders.</p>
-    <p>"So how long until we can get our feet on the ground?" I asked.</p>
-    <p>"Josh is getting the rowboat ready now. As soon as it is dark the ship will move closer and then it is up to us. The landing is not as smooth as previous explorations into new lands. The locals here are .... Unwelcoming." She said with a frown.</p>
-    <p>"Previous Explorations? You mean the past DLC?" I asked a little confused.</p>
-    <p>She pulled the angriest face I had seen and yelled "YES! Now stay in charter!" Then stormed off.</p>
-    <p>I was in shocked for a while watching her walk off. Stay in charter? What? I know it is a roleplaying game but does she have to be so serious? I decided to go see if Josh could use any help, the night would be here within half an hour or so. While there I asked him about Sarah's out burst.</p>
-    <p>"Dude, her full time job is as a professional gamer. She is always streaming this game, so you have to stay in charter around her or it effects her income. People don't like watching if they just keep calling it a game and not a new world." He shrugged and pulled me along to get Sarah so we could make up and set off. "Don't forget, unless you want to end up like our last vice chair." Josh warned.</p>
-    <p>"What happened to him?" I asked before we knocked on her door.</p>
-    <p>"She kicked him in the nuts. On Earth. Any who..." He knocked on the door not giving me time to think about what he had just said.</p>
-    <div className="BreakPoint"></div>
-    <p>The night was really dark. There was no moon in the sky, well moons, on this world there were 3. We were rowing in as quick as we could, and as quiet as we could manage. There were other small row boats also trying to reach the new land. It was not just astrals but other locals from the old lands. For every astral trying to explore the new lands there were 3 old land locals trying their luck.</p>
-    <p>I could not clearly see them, but there were some people on the figures standing on some of the cliffs on the shore. I did not see anything but I heard the whistling noise of rocks and arrows being shot and great speed towards some of the other rowing boats. They made loud banging and creaking noises on contact with the boat. When the projectiles made contact with the people on the boat there were short sharp grunts of pain or screams. The ones that screamed attracted more attention to them.</p>
-    <p></p>
-  </Content>,
+  6: (
+    <Content style={{ overflowWrap: "anywhere", width: "100%" }}>
+      <p>
+        "Good morning." Sarah said to me as I came onto the deck of the ship.
+        She was in her blue and gold armor as usual looking out across the
+        ocean. When I followed her line of sight I saw a large island off in the
+        distance.
+      </p>
+      <p>"Is that?" I started asking when Sarah interrupted.</p>
+      <p>
+        "Yes, the new land, or as the locals seem to call it 'Chab'. I tried to
+        search for the word, it means earth, probably." She shrugged her
+        shoulders.
+      </p>
+      <p>"So how long until we can get our feet on the ground?" I asked.</p>
+      <p>
+        "Josh is getting the rowboat ready now. As soon as it is dark the ship
+        will move closer and then it is up to us. The landing is not as smooth
+        as previous explorations into new lands. The locals here are ....
+        Unwelcoming." She said with a frown.
+      </p>
+      <p>
+        "Previous Explorations? You mean the past DLC?" I asked a little
+        confused.
+      </p>
+      <p>
+        She pulled the angriest face I had seen and yelled "YES! Now stay in
+        charter!" Then stormed off.
+      </p>
+      <p>
+        I was in shocked for a while watching her walk off. Stay in charter?
+        What? I know it is a roleplaying game but does she have to be so
+        serious? I decided to go see if Josh could use any help, the night would
+        be here within half an hour or so. While there I asked him about Sarah's
+        out burst.
+      </p>
+      <p>
+        "Dude, her full time job is as a professional gamer. She is always
+        streaming this game, so you have to stay in charter around her or it
+        effects her income. People don't like watching if they just keep calling
+        it a game and not a new world." He shrugged and pulled me along to get
+        Sarah so we could make up and set off. "Don't forget, unless you want to
+        end up like our last vice chair." Josh warned.
+      </p>
+      <p>"What happened to him?" I asked before we knocked on her door.</p>
+      <p>
+        "She kicked him in the nuts. On Earth. Any who..." He knocked on the
+        door not giving me time to think about what he had just said.
+      </p>
+      <div className="BreakPoint"></div>
+      <p>
+        The night was really dark. There was no moon in the sky, well moons, on
+        this world there were 3. We were rowing in as quick as we could, and as
+        quiet as we could manage. There were other small row boats also trying
+        to reach the new land. It was not just astrals but other locals from the
+        old lands. For every astral trying to explore the new lands there were 3
+        old land locals trying their luck.
+      </p>
+      <p>
+        I could not clearly see them, but there were some people on the figures
+        standing on some of the cliffs on the shore. I did not see anything but
+        I heard the whistling noise of rocks and arrows being shot and great
+        speed towards some of the other rowing boats. They made loud banging and
+        creaking noises on contact with the boat. When the projectiles made
+        contact with the people on the boat there were short sharp grunts of
+        pain or screams. The ones that screamed attracted more attention to
+        them.
+      </p>
+      <p></p>
+    </Content>
+  ),
   7: <Content style={{ overflowWrap: "anywhere", width: "100%" }}>7</Content>,
   8: <Content style={{ overflowWrap: "anywhere", width: "100%" }}>8</Content>,
   9: <Content style={{ overflowWrap: "anywhere", width: "100%" }}>9</Content>,

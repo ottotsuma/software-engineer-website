@@ -455,13 +455,13 @@ most people learn inspect but either see
           </p>
           <p>"Level up!" the words cover Otto's vision.</p>
           <LevelUp
-      level={1}
-      race={"normal"}
-      class={"normal"}
-      type={"mage"}
-      details={""}
-      name={"Otto"}
-    />
+            level={1}
+            race={"normal"}
+            class={"normal"}
+            type={"mage"}
+            details={""}
+            name={"Otto"}
+          />
           <div className="BreakPoint"></div>
           <h3>The body</h3>
           <p>
@@ -527,9 +527,7 @@ most people learn inspect but either see
               sense: 1,
               charisma: 2,
             }}
-            notes={
-              ""
-            }
+            notes={""}
           />
           <p>
             I was told not to spend any of the points, that I was going to be

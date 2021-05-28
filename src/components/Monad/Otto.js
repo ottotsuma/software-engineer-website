@@ -70,12 +70,12 @@ export default function Otto() {
           { name: "Lightning harvest", level: 2 },
           { name: "Seeds to Soldiers", level: 2 },
           { name: "Lightning seeds", level: 2 }, // 5 points spent on old spells
-          // New Spells Below 
+          // New Spells Below
           { name: "Scarecrow", level: 2 },
           { name: "Kʼawiil Burst", level: 2 },
           { name: "Kʼawiil Bolt", level: 2 },
-          { name: "Serpent Skin", level: 2, passive: true, },
-          { name: "Serpent Pattern", level: 2, passive: true, }, // 10 points spent on new spells
+          { name: "Serpent Skin", level: 2, passive: true },
+          { name: "Serpent Pattern", level: 2, passive: true }, // 10 points spent on new spells
         ]}
         type={"mage"}
       />
@@ -83,16 +83,16 @@ export default function Otto() {
       {/* Human skills, but also could have God based skills and passives. The snake ones looked good. */}
       <Spells
         spells={[
-          { name: "Talented", level: 2, passive: true, },
-          { name: "Persuasive", level: 2, passive: true, },
-          { name: "Quick", level: 2, passive: true, },
-          { name: "Perception", level: 2, passive: true, },
-          { name: "Athletic", level: 2, passive: true, },
-          { name: "Healthy", level: 2, passive: true, },
-          { name: "Adaptable", level: 2, passive: true, },
-          { name: "Brave", level: 2, passive: true, },
-          { name: "Pure of mind", level: 2, passive: true, },
-          { name: "Magical Aptitude", level: 2, passive: true, }, // 20
+          { name: "Talented", level: 2, passive: true },
+          { name: "Persuasive", level: 2, passive: true },
+          { name: "Quick", level: 2, passive: true },
+          { name: "Perception", level: 2, passive: true },
+          { name: "Athletic", level: 2, passive: true },
+          { name: "Healthy", level: 2, passive: true },
+          { name: "Adaptable", level: 2, passive: true },
+          { name: "Brave", level: 2, passive: true },
+          { name: "Pure of mind", level: 2, passive: true },
+          { name: "Magical Aptitude", level: 2, passive: true }, // 20
         ]}
         type={"human"}
       />
