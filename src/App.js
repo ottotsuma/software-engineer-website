@@ -19,7 +19,7 @@ function App() {
                 <Route path="/" component={Home} exact />
                 <Route path="/story" component={Story} />
                 {/* <Route path="/tech" component={tech} /> */}
-                <Route path="/timeline" component={Timeline} />
+                {/* <Route path="/timeline" component={Timeline} /> */}
                 <Route path="/monad/:chapter" component={Monad} />
                 <Route path="/blackjack" component={Blackjack} />
                 {/* <Route path="/video" component={Video} /> */}

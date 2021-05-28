@@ -77,6 +77,8 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 opacity: 0;
+// overflow-y: scroll;
+justify-content: end;
 @media screen and (max-width: 650px) {
     opacity: 1;
   }

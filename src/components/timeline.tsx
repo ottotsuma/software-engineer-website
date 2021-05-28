@@ -11,6 +11,7 @@ import LaptopMacIcon from "@material-ui/icons/LaptopMac";
 import RepeatIcon from "@material-ui/icons/Book";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
+import {BackgroundColor} from "./color"
 
 const useStyles = makeStyles((theme) => ({
   paper: {
@@ -28,8 +29,7 @@ export default function CustomizedTimeline() {
   const classes = useStyles();
 
   return (
-    <div>
-      <h1>Experience</h1>
+    <div style={{ overflowY : 'scroll', width: '80vw'}}>
       <Timeline align="alternate">
         <TimelineItem>
           <TimelineOppositeContent></TimelineOppositeContent>

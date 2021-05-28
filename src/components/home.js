@@ -74,14 +74,19 @@ function Home(props) {
     }
   }
   const [show, setShow] = useState(false);
+  const [showTimeline, setShowTimeline] = useState(false);
   function updateShow() {
     setShow(!show);
+  }
+  function updateTimeline() {
+    setShowTimeline(!showTimeline);
   }
   return (
     <GlassWrapper>
       {show && (
-        <Modal2 title={"Experience"} insert={<Spin />} close={updateShow} />
+        <Modal2 title={"Projects"} insert={<Spin />} close={updateShow} />
       )}
+      {showTimeline && <Modal2 title={"Experience"} insert={<Timeline />} close={updateTimeline} />}
       <Glass>
         <Profile>
           <NameWrap>
@@ -144,9 +149,12 @@ function Home(props) {
                 alt=" "
               />
               {/* Fake item needs styles! Or change to be like anchor 2 */}
-              <LinkStyled to={"/timeline"}>
+              {/* <LinkStyled to={"/timeline"}>
                 {Language[lang].experience}
-              </LinkStyled>
+              </LinkStyled> */}
+              <Link2 onClick={() => updateTimeline()}>
+                {Language[lang].experience}
+              </Link2>
             </Linkey>
             <Linkey>
               <LinkImage src={Cog} alt=" " />
