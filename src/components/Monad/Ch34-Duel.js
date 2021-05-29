@@ -1144,7 +1144,7 @@ export const SeaPeople = {
       <p>
         I shoot a glance at Josh, who just put this thumbs up. Seemed like he knew this was coming or maybe nothing phased him.. I kept rowing, I looked over to Sarah at the end of the both laying back under her sun umbrella. Wait what? It's night time...
       </p>
-      <p></p>
+      <p>Josh placed his hand on my shoulder and quietly said "When you have no control over something just relax, nothing you can do about it anyway." I turned to look up at the figures on the cliffs when my eyes were blinded by a bright light. A giant glowing orb, a mage light, was shining up in the sky illuminating all of us in the water below.</p>
     </Content>
   ),
   7: <Content style={{ overflowWrap: "anywhere", width: "100%" }}>7</Content>,
