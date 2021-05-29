@@ -84,9 +84,9 @@ function Home(props) {
   return (
     <GlassWrapper>
       {show && (
-        <Modal2 title={"Projects"} insert={<Spin />} close={updateShow} />
+        <Modal2 title={Language[lang].projects} insert={<Spin />} close={updateShow} />
       )}
-      {showTimeline && <Modal2 title={"Experience"} insert={<Timeline />} close={updateTimeline} />}
+      {showTimeline && <Modal2 title={`${Language[lang].experience}`} insert={<Timeline />} close={updateTimeline} />}
       <Glass>
         <Profile>
           <NameWrap>
@@ -163,7 +163,7 @@ function Home(props) {
                   Modal({
                     insert: Tech(),
                     cancel: "Close",
-                    title: "Tech",
+                    title: `${Language[lang].tech}`,
                   })
                 }
               >

@@ -1141,6 +1141,9 @@ export const SeaPeople = {
         pain or screams. The ones that screamed attracted more attention to
         them.
       </p>
+      <p>
+        I shoot a glance at Josh, who just put this thumbs up. Seemed like he knew this was coming or maybe nothing phased him.. I kept rowing, I looked over to Sarah at the end of the both laying back under her sun umbrella. Wait what? It's night time...
+      </p>
       <p></p>
     </Content>
   ),
