@@ -161,6 +161,10 @@ const spellList = {
     name: "Mana Ball",
     1: "Gathers mana into a ball. Gives off a small amount of light.",
   },
+  "Mana Orbs": {
+    name: "Mana Orbs",
+    1: "Mana balls rotate around the user, hitting anything that comes into contact.",
+  },
   Tether: {
     name: "Tether",
     1: "Gathers mana into a string shape.",
@@ -173,9 +177,29 @@ const spellList = {
     name: "Magic Up",
     1: "Increases the intensity of mana in the body.",
   },
-  Strike: {
+  "Strike": {
     name: "Strike",
     1: "Calls mana in the environment to gather and strike down from above.",
+  },
+  "Missile": {
+    name: "Missile",
+    1: "Mana in the shape of a missile shoots towards the target.",
+  },
+  "Mana Slide": {
+    name: "Mana Slide",
+    1: "Pushes the user forward along the ground.",
+  },
+  "Mana Shield": {
+    name: "Mana Shield",
+    1: "Produces a shield of mana around the user.",
+  },
+  "Mana Wings": {
+    name: "Mana Wings",
+    1: "Produces a wings of mana.",
+  },
+  "Shield Burst": {
+    name: "Shield Burst",
+    1: "Explodes the mana left in the mana shield, into an attack.",
   },
   "Magic Regen": {
     name: "Magic Regen",
