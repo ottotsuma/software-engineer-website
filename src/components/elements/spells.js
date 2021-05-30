@@ -92,6 +92,10 @@ const spellList = {
     name: "Haietlik",
     1: "Throw a snake shaped lighting bolt to hook onto a target, dealing damage in the process.",
   },
+  "Kʼawiil Rain": {
+    name: "Rain ",
+    1: "",
+  },
   "Kʼawiil Bolt": {
     name: "Kʼawiil Bolt",
     1: "Releases a burst of Kʼawiil-lightning from range.",
@@ -182,6 +186,34 @@ const spellList = {
     1: "1% increase to experience gained.",
     2: "2% increase to experience gained.",
   },
+  "Genius": {
+    name: "Genius",
+    1: "2% increase to experience gained",
+  },
+  "Super genius": {
+    name: "Super genius",
+    1: "4% increase to experience gained",
+  },
+  "Peerless genius": {
+    name: "Peerless genius",
+    1: "10% increase to experience gained",
+  },
+  "Handsome": {
+    name: "Handsome",
+    1: "+1 Charisma.",
+  },
+  "Beautiful": {
+    name: "Beautiful",
+    1: "+1 Charisma.",
+  },
+  "Peerless Beauty": {
+    name: "Peerless Beauty",
+    1: "+2 Charisma.",
+  },
+  "Lucky": {
+    name: "Lucky",
+    1: "Slight chance of finding a rarer item.",
+  },
   "Persuasive": {
     name: "Persuasive",
     1: "+1 Charisma.",
@@ -231,6 +263,26 @@ const spellList = {
     name: "Magical Aptitude",
     1: "Magic +1",
     2: "Magic +2",
+  },
+  "Basic God": {
+    name: "Basic God",
+    1: "Magic +1",
+  },
+  "Intermediate God": {
+    name: "Intermediate God",
+    1: "Magic +1",
+  },
+  "Advanced God": {
+    name: "Advanced God",
+    1: "Magic +1",
+  },
+  "Demi-God": {
+    name: "Demi-God",
+    1: "Magic +1",
+  },
+  "Full God": {
+    name: "Full God",
+    1: "Magic +1",
   },
 };
 
