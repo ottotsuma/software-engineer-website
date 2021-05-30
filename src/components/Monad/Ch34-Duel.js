@@ -1154,6 +1154,23 @@ export const SeaPeople = {
         blinded by a bright light. A giant glowing orb, a mage light, was
         shining up in the sky illuminating all of us in the water below.
       </p>
+      <p>
+        There was a moment of silence as the world became brighter, almost as
+        bright as day with the eerie soft blue glow from the mage light making
+        everything clearer. Then all of the figures on the cliffs let loose with
+        more rocks, arrows and even magic spells. An ice lance landed in the
+        water near us, Sarah looked over at where it had landed and turned back.
+        "Well, keep rowing." She said looking at me.
+      </p>
+      <p>
+        I pulled a face and kept rowing. They were right, there was nothing I
+        could do in this situation. As more of the boats started to sink some of
+        the occupants tried to swim to shore but where not spared the attacks
+        anymore then the boats. As the number of boats dwindled and we drew
+        closer to the shore we became more of a target then before. Sarah stood
+        up putting her umbrella away and lofted her large shield up in front of
+        her.
+      </p>
     </Content>
   ),
   7: <Content style={{ overflowWrap: "anywhere", width: "100%" }}>7</Content>,
