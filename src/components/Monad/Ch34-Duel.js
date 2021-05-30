@@ -1171,6 +1171,9 @@ export const SeaPeople = {
         up putting her umbrella away and lofted her large shield up in front of
         her.
       </p>
+      <p>
+        
+      </p>
     </Content>
   ),
   7: <Content style={{ overflowWrap: "anywhere", width: "100%" }}>7</Content>,
