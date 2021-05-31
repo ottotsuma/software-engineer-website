@@ -36,12 +36,13 @@ export default function Otto() {
           Head: {
             name: "Heavenly White Stag Mask",
             effect:
-              "Magic: +1, Disease resistance + 20%, Mana regeneration + 10%, blessing of 建御雷 [Takemikazuchi].",
+              "Magic: +2, Disease resistance + 20%, Mana regeneration + 20%, blessing of 建御雷 [Takemikazuchi].",
             rating: "unique",
+            long: 'Blessing of 建御雷 [Takemikazuchi]: Resist lightning +20%, Lightning cost - 15%, Lightning power +20%. (The growth depends on the how linked you are to [Takemikazuchi].)'
           },
           Body: {
             name: "Academy Robe (Black/Yellow).",
-            effect: "Magic: +1, Lightning +1%, Health +10.",
+            effect: "Magic: +2, Lightning +2%, Health +10.",
             rating: "junk",
           },
         }}

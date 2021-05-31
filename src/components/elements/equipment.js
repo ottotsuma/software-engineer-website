@@ -24,6 +24,7 @@ function Stats({ items }) {
       </div>
     );
     const effect = items[keys[index]].effect;
+    const long = items[keys[index]].long;
     const space = <div style={{ background: "inherit", width: "3px" }}> </div>;
     array.push(
       <SingleStat key={index + "equipment"}>
@@ -32,7 +33,7 @@ function Stats({ items }) {
         {ItemName}
         {space}
         {effect}
-        <Span>{effect}</Span>
+        <Span>{!!long ? long : effect}</Span>
       </SingleStat>
     );
   }
