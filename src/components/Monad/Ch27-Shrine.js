@@ -298,7 +298,7 @@ Deer are considered messengers to the gods in Shinto, especially Kasuga Shrine i
             }}
             name={"Heavenly White Stag Mask"}
             rating={"unique"}
-            long={'Blessing of 建御雷 [Takemikazuchi]: Resist lightning +10%, Lightning cost - 10%, Lightning power +10%. (The growth depends on the how linked you are to [Takemikazuchi].)'}
+            long={'Blessing of 建御雷 [Takemikazuchi]: Resist lightning +10%, Lightning cost - 10%, Lightning power +10%.'}
           />
 {/* 
 

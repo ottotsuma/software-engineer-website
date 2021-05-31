@@ -38,7 +38,7 @@ export default function Otto() {
             effect:
               "Magic: +2, Disease resistance + 20%, Mana regeneration + 20%, blessing of 建御雷 [Takemikazuchi].",
             rating: "unique",
-            long: 'Blessing of 建御雷 [Takemikazuchi]: Resist lightning +20%, Lightning cost - 15%, Lightning power +20%. (The growth depends on the how linked you are to [Takemikazuchi].)'
+            long: 'Blessing of 建御雷 [Takemikazuchi]: Resist lightning +20%, Lightning cost - 15%, Lightning power +20%. '
           },
           Body: {
             name: "Academy Robe (Black/Yellow).",
