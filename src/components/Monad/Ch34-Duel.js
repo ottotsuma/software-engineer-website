@@ -1175,7 +1175,7 @@ export const SeaPeople = {
         As we became targets, Sarah moved her shield in the way to block them from destroying our boat. I just kept rowing as the attacks became more frequent and stronger. The closer got to the shore the more we became a target, however Sarah kept standing strong blocking all of the attacks coming our direction. We were so close to the shore by this point I could almost walk onto the beach, but decided I should just keep rowing, even if I made it onto the beach the cliffs straddled either side so I would surely die without Sarah.
       </p>
       <p>
-        
+        The boat glided along the water, one of the figures on the cliffs raised up a long staff and pointed it towards the water. 
       </p>
     </Content>
   ),
