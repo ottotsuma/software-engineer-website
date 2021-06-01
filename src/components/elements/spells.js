@@ -76,11 +76,13 @@ const spellList = {
   },
   "Serpent Pattern": {
     name: "Serpent Pattern",
+    passive: true,
     1: "Your skin will adapt to the environment slightly, increased stealth.",
     2: "Your skin will adapt to the environment slightly, increased stealth.", // ch32
   },
   "Forked Tongue": {
     name: "Forked Tongue",
+    passive: true,
     1: "Your tongue will become forked, Increased sense of smell.",
   },
   "Serpent Skin": {
@@ -116,12 +118,14 @@ const spellList = {
   },
   "Bountiful Harvest": {
     name: "Bountiful Harvest",
+    passive: true,
     note: "All of your harvests are increased by [x]%. [x is 10x the level of this spell.]",
     1: "All of your harvests are increased by 10%.",
     2: "All of your harvests are increased by 20%.",
   },
   "Reap what you Sow": {
     name: "Reap what you Sow",
+    passive: true,
     1: "Reap the benefits or punishments from the seeds you sow.",
   },
   Scarecrow: {
@@ -171,10 +175,12 @@ const spellList = {
   },
   "Magic Resistance": {
     name: "Magic Resistance",
+    passive: true,
     1: "Passive: Resists mana foreign to the body, on surface level.",
   },
   "Magic Up": {
     name: "Magic Up",
+    passive: true,
     1: "Increases the intensity of mana in the body.",
   },
   "Strike": {
@@ -203,112 +209,144 @@ const spellList = {
   },
   "Magic Regen": {
     name: "Magic Regen",
+    passive: true,
     1: "Increases mana recovery speed.",
   },
   "Talented": {
     name: "Talented",
+    passive: true,
     1: "1% increase to experience gained.",
     2: "2% increase to experience gained.",
   },
   "Genius": {
     name: "Genius",
+    passive: true,
     1: "2% increase to experience gained",
   },
   "Super genius": {
     name: "Super genius",
+    passive: true,
     1: "4% increase to experience gained",
   },
   "Peerless genius": {
     name: "Peerless genius",
+    passive: true,
     1: "10% increase to experience gained",
   },
   "Handsome": {
     name: "Handsome",
+    passive: true,
     1: "+1 Charisma.",
   },
   "Beautiful": {
     name: "Beautiful",
+    passive: true,
     1: "+1 Charisma.",
   },
   "Peerless Beauty": {
     name: "Peerless Beauty",
+    passive: true,
     1: "+2 Charisma.",
   },
   "Lucky": {
     name: "Lucky",
+    passive: true,
     1: "Slight chance of finding a rarer item.",
   },
   "Persuasive": {
     name: "Persuasive",
+    passive: true,
     1: "+1 Charisma.",
     2: "+2 Charisma.",
   },
   "Brave": {
     name: "Brave",
+    passive: true,
     1: "Chance to resist fear.",
     2: "Chance to resist fear.",
   },
   "Adaptable": {
     name: "Adaptable",
+    passive: true,
     1: "Environmental debuffs effect -5%.",
     2: "Environmental debuffs effect -10%.",
   },
   "Healthy": {
     name: "Healthy",
+    passive: true,
     1: "Vitality +1.",
     2: "Vitality +1, small chance to resist poisons.",
     3: "Vitality +2, small chance to resist poisons & diseases.",
   },
   "Athletic": {
     name: "Athletic",
+    passive: true,
     1: "Movement speed +2%",
     2: "Movement speed +4%",
   },
   "Perception": {
     name: "Perception",
+    passive: true,
     1: "Sense +1",
     2: "Sense +2",
   },
   "Quick": {
     name: "Quick",
+    passive: true,
     1: "Dexterity +1",
     2: "Dexterity +2",
   },
   "Pure of mind": {
     name: "Pure of mind",
+    passive: true,
     1: "Willpower +1",
     2: "Willpower +2",
   },
   "Perseverance": {
     name: "Perseverance",
+    passive: true,
     1: "",
   },
   "Magical Aptitude": {
     name: "Magical Aptitude",
+    passive: true,
+    1: "Magic +1",
+    2: "Magic +2",
+  },
+  "Magic Enthusiast": {
+    name: "Magical Enthusiast",
+    passive: true,
     1: "Magic +1",
     2: "Magic +2",
   },
   "Basic God": {
     name: "Basic God",
+    passive: true,
     1: "Magic +1",
   },
   "Intermediate God": {
     name: "Intermediate God",
+    passive: true,
     1: "Magic +1",
   },
   "Advanced God": {
     name: "Advanced God",
+    passive: true,
     1: "Magic +1",
   },
   "Demi-God": {
     name: "Demi-God",
+    passive: true,
     1: "Magic +1",
   },
   "Full God": {
     name: "Full God",
+    passive: true,
     1: "Magic +1",
   },
 };
+
+// https://i.4pcdn.org/tg/1498966145042.pdf
 
 // Add spell (level/rank). Changes description.
 function Spells({ spells, type }) {
@@ -317,7 +355,7 @@ function Spells({ spells, type }) {
     const element = spellList[spells[index].name];
     if (element) {
       array.push(
-        <SingleSpell key={index + "SingleSpell"} passive={spells[index].passive || false}>
+        <SingleSpell key={index + "SingleSpell"} passive={element.passive || false}>
           {element.name}
           {element[spells[index].level] ? (
             <Span>{element[spells[index].level]}</Span>
