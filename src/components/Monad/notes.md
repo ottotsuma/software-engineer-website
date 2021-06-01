@@ -5,6 +5,10 @@ Page 28 onwards, Change Otto's stat point gain into spell point gain for his new
 
 31 & 32 stat point re-write
 
+https://www.wikiwand.com/en/List_of_mythological_objects
+
+https://www.wikiwand.com/en/Xiuhcoatl
+
 # Notes:
 
 ## Example below:
