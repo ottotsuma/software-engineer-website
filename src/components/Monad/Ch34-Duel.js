@@ -1175,8 +1175,9 @@ export const SeaPeople = {
         As we became targets, Sarah moved her shield in the way to block them from destroying our boat. I just kept rowing as the attacks became more frequent and stronger. The closer got to the shore the more we became a target, however Sarah kept standing strong blocking all of the attacks coming our direction. We were so close to the shore by this point I could almost walk onto the beach, but decided I should just keep rowing, even if I made it onto the beach the cliffs straddled either side so I would surely die without Sarah.
       </p>
       <p>
-        The boat glided along the water, one of the figures on the cliffs raised up a long staff and pointed it towards the water. 
+        The boat glided along the water, one of the figures on the cliffs raised something up to his mouth, it sounded like a flute as the sound echoed down bouncing off the cliffs. Once the sound hit the water it started to roil over, bubble and jump. Not liking were this was going I stabbed on oar into the water and pushed with the other sending our little row boat off course and towards one of the cliffs. Only a few moments later a serpent made of water grew from the sea, the pattern of scales made up by the shifting water and the glow of the mage light made baby blue in colour. In contrast it was around 7 meters tall and trashing its body around, hitting the small boats in the water and crunching into victims with its mouth.
       </p>
+      <p>Seeing body parts, organs and blood slide down inside the serpent though its translucent body reminded me of a lava lamp I had when I was a kid. Josh hit me on the side and shouted. "The Cliff! The Cliff!" I turned to see I had just left the boat to continue on it's path and we were coming up on the rocky face quickly.</p>
     </Content>
   ),
   7: <Content style={{ overflowWrap: "anywhere", width: "100%" }}>7</Content>,
