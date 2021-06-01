@@ -372,6 +372,30 @@ const spellList = {
     1: "Magic +1",
     2: "Magic +2",
   },
+  "Arcane Inclination": {
+    name: "Arcane Inclination",
+    passive: true,
+    1: "Magic +1",
+    2: "Magic +2",
+  },
+  "Arcane Tradition Focus": {
+    name: "Arcane Tradition Focus",
+    passive: true,
+    1: "Magic +1",
+    2: "Magic +2",
+  },
+  "Arcane Tradition Prodigy": {
+    name: "Arcane Tradition Prodigy",
+    passive: true,
+    1: "Magic +1",
+    2: "Magic +2",
+  },
+  "Astute": {
+    name: "Astute",
+    passive: true,
+    1: "Magic +1",
+    2: "Magic +2",
+  },
   "Basic God": {
     name: "Basic God",
     passive: true,
