@@ -327,6 +327,22 @@ const spellList = {
     1: "Chance to resist fear.",
     2: "Chance to resist fear.",
   },
+  "Human Aptitude": {
+    name: "Human Aptitude",
+    passive: true,
+    1: "Chance based skills are 1% more likely to succeed.",
+  },
+  "Human Ingenuity": {
+    name: "Human Ingenuity",
+    notes: "E.g. Spear has +1 strength then you get +1 another one. This is only for 'tools' not armor.",
+    passive: true,
+    1: "When using tools gain +1 proficiency.",
+  },
+  "Human Resolve": {
+    name: "Human Resolve",
+    passive: true,
+    1: "Boost all stats 10% for 2 second.",
+  },
   "Adaptable": {
     name: "Adaptable",
     passive: true,
@@ -450,6 +466,11 @@ const spellList = {
     name: "Full God",
     passive: true,
     1: "Magic +1",
+  },
+  "Gift of Lightning": {
+    name: "Gift of Lightning",
+    passive: true,
+    1: "Lightning damage +1%",
   },
 };
 
