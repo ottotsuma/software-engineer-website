@@ -168,6 +168,7 @@ const spellList = {
   "Mana Orbs": {
     name: "Mana Orbs",
     1: "Mana balls rotate around the user, hitting anything that comes into contact.",
+    2: "Mana balls rotate around the user, 3% faster.",
   },
   Tether: {
     name: "Tether",
@@ -297,6 +298,13 @@ const spellList = {
     passive: true,
     1: "+1 Charisma.",
     2: "+2 Charisma.",
+    3: "+3 Charisma.",
+    4: "+4 Charisma.",
+    5: "+5 Charisma.",
+    6: "+6 Charisma.",
+    7: "+7 Charisma.",
+    8: "+8 Charisma.",
+    9: "+9 Charisma.",
   },
   "Brave": {
     name: "Brave",
@@ -323,6 +331,13 @@ const spellList = {
     1: "Vitality +1.",
     2: "Vitality +1, small chance to resist poisons.",
     3: "Vitality +2, small chance to resist poisons & diseases.",
+    4: "Vitality +3, small chance to resist poisons & diseases.",
+    5: "Vitality +3, small chance to resist poisons & diseases, small increase to HP regeneration.",
+    6: "Vitality +4, small chance to resist poisons & diseases, small increase to HP regeneration.",
+    7: "Vitality +4, chance to resist poisons & diseases, increase to HP regeneration.",
+    8: "Vitality +5, chance to resist poisons & diseases, increase to HP regeneration.",
+    9: "Vitality +5, chance to resist poisons & diseases, greater HP regeneration.",
+    10: "Vitality +5, greater chance to resist poisons & diseases, greater HP regeneration.",
   },
   "Athletic": {
     name: "Athletic",
