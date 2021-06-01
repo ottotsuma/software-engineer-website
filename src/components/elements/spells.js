@@ -343,6 +343,11 @@ const spellList = {
     passive: true,
     1: "Boost all stats 10% for 2 second.",
   },
+  "Plant Form": {
+    name: "Plant Form",
+    passive: true,
+    1: "Take the form of a plant you have seen.",
+  },
   "Adaptable": {
     name: "Adaptable",
     passive: true,
