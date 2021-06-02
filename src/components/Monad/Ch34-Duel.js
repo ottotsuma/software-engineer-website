@@ -1172,16 +1172,56 @@ export const SeaPeople = {
         her.
       </p>
       <p>
-        As we became targets, Sarah moved her shield in the way to block them from destroying our boat. I just kept rowing as the attacks became more frequent and stronger. The closer got to the shore the more we became a target, however Sarah kept standing strong blocking all of the attacks coming our direction. We were so close to the shore by this point I could almost walk onto the beach, but decided I should just keep rowing, even if I made it onto the beach the cliffs straddled either side so I would surely die without Sarah.
+        As we became targets, Sarah moved her shield in the way to block them
+        from destroying our boat. I just kept rowing as the attacks became more
+        frequent and stronger. The closer got to the shore the more we became a
+        target, however Sarah kept standing strong blocking all of the attacks
+        coming our direction. We were so close to the shore by this point I
+        could almost walk onto the beach, but decided I should just keep rowing,
+        even if I made it onto the beach the cliffs straddled either side so I
+        would surely die without Sarah.
       </p>
       <p>
-        The boat glided along the water, one of the figures on the cliffs raised something up to his mouth, it sounded like a flute as the sound echoed down bouncing off the cliffs. Once the sound hit the water it started to roil over, bubble and jump. Not liking were this was going I stabbed on oar into the water and pushed with the other sending our little row boat off course and towards one of the cliffs. Only a few moments later a serpent made of water grew from the sea, the pattern of scales made up by the shifting water and the glow of the mage light made baby blue in colour. In contrast it was around 7 meters tall and trashing its body around, hitting the small boats in the water and crunching into victims with its mouth.
+        The boat glided along the water, one of the figures on the cliffs raised
+        something up to his mouth, it sounded like a flute as the sound echoed
+        down bouncing off the cliffs. Once the sound hit the water it started to
+        roil over, bubble and jump. Not liking were this was going I stabbed on
+        oar into the water and pushed with the other sending our little row boat
+        off course and towards one of the cliffs. Only a few moments later a
+        serpent made of water grew from the sea, the pattern of scales made up
+        by the shifting water and the glow of the mage light made baby blue in
+        colour. In contrast it was around 7 meters tall and trashing its body
+        around, hitting the small boats in the water and crunching into victims
+        with its mouth.
       </p>
-      <p>Seeing body parts, organs and blood slide down inside the serpent though its translucent body reminded me of a lava lamp I had when I was a kid. Josh hit me on the side and shouted. "The Cliff! The Cliff!" I turned to see I had just left the boat to continue on it's path and we were coming up on the rocky face quickly. I tried to slow the boat down with the oar's but Sarah said "No, keep going. This is perfect." She turned and grabbed me by the collar and pulled me up behind her under cover of her shield.</p>
-      <p>The boat felt like it picked up speed as a wave pushed us up into the cliff. Sarah had me hold on as she slammed herself into the cliff. The shock ran though me and I saw my health drop by only by a little. She pushed me into a gap in the cliff and came in after blocking the entrance with her shield. "How did you even spot this small gap in the dark?" I questioned.</p>
-      <p>"You really need to get some night vision." She replied making sure her shield was blocking the way. "We will wait here until they have had their fun and get bored." Sarah commented.</p>
+      <p>
+        Seeing body parts, organs and blood slide down inside the serpent though
+        its translucent body reminded me of a lava lamp I had when I was a kid.
+        Josh hit me on the side and shouted. "The Cliff! The Cliff!" I turned to
+        see I had just left the boat to continue on it's path and we were coming
+        up on the rocky face quickly. I tried to slow the boat down with the
+        oar's but Sarah said "No, keep going. This is perfect." She turned and
+        grabbed me by the collar and pulled me up behind her under cover of her
+        shield.
+      </p>
+      <p>
+        The boat felt like it picked up speed as a wave pushed us up into the
+        cliff. Sarah had me hold on as she slammed herself into the cliff. The
+        shock ran though me and I saw my health drop by only by a little. She
+        pushed me into a gap in the cliff and came in after blocking the
+        entrance with her shield. "How did you even spot this small gap in the
+        dark?" I questioned.
+      </p>
+      <p>
+        "You really need to get some night vision." She replied making sure her
+        shield was blocking the way. "We will wait here until they have had
+        their fun and get bored." Sarah commented.
+      </p>
       <p>"What about Josh?" I quickly realized we were alone.</p>
-      <p>"Don't like spending time along with me?" She joked. "He will be fine, it is not his first time at sea. Or being ship wrecked..."</p>
+      <p>
+        "Don't like spending time along with me?" She joked. "He will be fine,
+        it is not his first time at sea. Or being ship wrecked..."
+      </p>
       <p></p>
     </Content>
   ),
