@@ -52,7 +52,7 @@ const spellList = {
   },
   Sparks: {
     name: "Sparks",
-    1: "Example",
+    1: "Shoots out multiple sparks in a random pattern.f",
   },
   "Shocking Touch": {
     name: "Shocking Touch",
@@ -60,11 +60,11 @@ const spellList = {
   },
   Thunderstorm: {
     name: "Thunderstorm",
-    1: "Example",
+    1: "Change the clouds above to thunder clouds, making lighting strikes easier.",
   },
   "Dazing Bolt": {
     name: "Dazing Bolt",
-    1: "Example",
+    1: "A lightning bolt that dazzles the opponent.",
   },
   "Chain Lightning": {
     name: "Chain Lightning",
