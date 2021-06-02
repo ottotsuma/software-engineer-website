@@ -15,6 +15,8 @@ https://www.pinterest.jp/pin/747456869407234129/
 https://www.pinterest.jp/pin/770326711244360042/
 https://www.pinterest.jp/pin/338614465709659279/
 
+https://blog-cdn.reedsy.com/uploads/2018/07/Rick-and-Morty-Story-Wheel-Annotated.jpg
+
 # Notes:
 
 ## Example below:
