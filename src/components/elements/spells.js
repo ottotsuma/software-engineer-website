@@ -20,15 +20,15 @@ const spellList = {
   },
   "Lightning Storm": {
     name: "Lightning Storm",
-    1: "Example",
+    1: "Call lightning to randomly strike an area.",
   },
   "Wall of lightning": {
     name: "Wall of lightning",
-    1: "Example",
+    1: "Raise a wall of lightning before you.",
   },
   "Static Field": {
     name: "Static Field",
-    1: "Example",
+    1: "All lighting in this area will do more damage.",
   },
   Thunderbolt: {
     name: "Thunderbolt",
@@ -36,7 +36,7 @@ const spellList = {
   },
   Discharge: {
     name: "Discharge",
-    1: "Example",
+    1: "Explode lighting in all directions.",
   },
   "Lightning Cloak": {
     name: "Lightning Cloak",
