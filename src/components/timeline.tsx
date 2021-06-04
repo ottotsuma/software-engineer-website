@@ -31,6 +31,26 @@ export default function CustomizedTimeline() {
   return (
     <div style={{ overflowY : 'scroll', width: '80vw'}}>
       <Timeline align="alternate">
+      <TimelineItem>
+          <TimelineOppositeContent></TimelineOppositeContent>
+          <TimelineSeparator>
+            <TimelineDot color="secondary">
+              <LaptopMacIcon />
+            </TimelineDot>
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>
+            <Paper elevation={3} className={classes.paper}>
+              <Typography variant="h6" className="timelineTitle">
+                Software Engineer
+              </Typography>
+              <Typography>PlayBrain</Typography>
+              <Typography variant="body2" color="textSecondary">
+                2020 April - Present
+              </Typography>
+            </Paper>
+          </TimelineContent>
+        </TimelineItem>
         <TimelineItem>
           <TimelineOppositeContent></TimelineOppositeContent>
           <TimelineSeparator>
@@ -66,7 +86,7 @@ export default function CustomizedTimeline() {
               </Typography>
               <Typography>Digital Hearts</Typography>
               <Typography variant="body2" color="textSecondary">
-                2019 Nov - Present
+                2019 Nov - 2020 April
               </Typography>
             </Paper>
           </TimelineContent>
@@ -86,7 +106,7 @@ export default function CustomizedTimeline() {
               </Typography>
               <Typography>Planet Works</Typography>
               <Typography variant="body2" color="textSecondary">
-                2019 July - Present
+                2019 July - 2020 April
               </Typography>
             </Paper>
           </TimelineContent>

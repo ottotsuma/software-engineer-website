@@ -265,21 +265,6 @@ function TechList() {
             <Inner>
               <Card>
                 <CardImage
-                  src="https://i2.wp.com/beatexcel.com/wp-content/uploads/2013/07/vba-logo.png?resize=572%2C217"
-                  alt="human"
-                />
-                <Container>
-                  <Name>VBA</Name>
-                </Container>
-              </Card>
-            </Inner>
-          </CardContainer>
-        </div>
-        <div className="contentInner">
-          <CardContainer>
-            <Inner>
-              <Card>
-                <CardImage
                   src="https://www.aresourcepool.com/wp-content/uploads/2017/09/tdd.png"
                   alt="TDD"
                 />
