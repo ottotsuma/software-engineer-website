@@ -46,7 +46,7 @@ export default function CustomizedTimeline() {
               </Typography>
               <Typography>PlayBrain</Typography>
               <Typography variant="body2" color="textSecondary">
-                2020 April - Present
+                2020 March - Present
               </Typography>
             </Paper>
           </TimelineContent>
@@ -86,7 +86,7 @@ export default function CustomizedTimeline() {
               </Typography>
               <Typography>Digital Hearts</Typography>
               <Typography variant="body2" color="textSecondary">
-                2019 Nov - 2020 April
+                2019 Nov - 2020 March
               </Typography>
             </Paper>
           </TimelineContent>
@@ -106,7 +106,7 @@ export default function CustomizedTimeline() {
               </Typography>
               <Typography>Planet Works</Typography>
               <Typography variant="body2" color="textSecondary">
-                2019 July - 2020 April
+                2019 July - 2020 March
               </Typography>
             </Paper>
           </TimelineContent>
