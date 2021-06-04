@@ -452,6 +452,13 @@ const spellList = {
     passive: true,
     1: "Magic +1",
     2: "Magic +2",
+    3: "Magic +3",
+    4: "Magic +4",
+    5: "Magic +5",
+    6: "Magic +6",
+    7: "Magic +7",
+    8: "Magic +8",
+    9: "Magic +9",
   },
   "Arcane Inclination": {
     name: "Arcane Inclination",

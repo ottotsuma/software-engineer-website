@@ -84,7 +84,7 @@ export default function Otto() {
       {/* Human skills, but also could have God based skills and passives. The snake ones looked good. */}
       <Spells
         spells={[
-          { name: "Talented", level: 2 },
+          { name: "Human Ingenuity", level: 2 },
           { name: "Persuasive", level: 2 },
           { name: "Quick", level: 2 },
           { name: "Perception", level: 2 },
@@ -93,7 +93,7 @@ export default function Otto() {
           { name: "Adaptable", level: 2 },
           { name: "Brave", level: 2 },
           { name: "Pure of mind", level: 2 },
-          { name: "Magical Aptitude", level: 2 }, // 20
+          { name: "Magic Enthusiast", level: 2 }, // 20
         ]}
         type={"human"}
       />
