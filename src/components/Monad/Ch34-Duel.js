@@ -6,7 +6,7 @@ import Spin from "./../elements/spin";
 import Quest from "./../elements/quest";
 import LevelUp from "./../elements/levelup";
 import Otto from "./Otto";
-import SeaPeople from "./SeaPeople"
+import {SeaPeople} from "./SeaPeople"
 
 function Intro(props) {
   return (

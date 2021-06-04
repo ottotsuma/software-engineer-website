@@ -8,7 +8,9 @@ import Quest from "./../elements/quest";
 import LevelUp from "./../elements/levelup";
 import Otto from "./Otto";
 
-
+export default function SeaPeopleFunction (props) {
+    return SeaPeople[props]
+}
 export const SeaPeople = {
     0: (
       <Content style={{ overflowWrap: "anywhere", width: "100%" }}>
