@@ -9,12 +9,6 @@ https://www.wikiwand.com/en/List_of_mythological_objects
 
 https://www.wikiwand.com/en/Xiuhcoatl
 
-https://www.pinterest.jp/pin/625578204493095301/
-https://www.pinterest.jp/pin/262545853263378287/
-https://www.pinterest.jp/pin/747456869407234129/
-https://www.pinterest.jp/pin/770326711244360042/
-https://www.pinterest.jp/pin/338614465709659279/
-
 https://blog-cdn.reedsy.com/uploads/2018/07/Rick-and-Morty-Story-Wheel-Annotated.jpg
 
 # Notes:
