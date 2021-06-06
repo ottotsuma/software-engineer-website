@@ -639,23 +639,48 @@ export const spellList = {
     passive: false,
     1: "The ground begins shaking violently. Structures may be damaged or collapse.",
   },
+  "Elasticity": {
+    name: "Elasticity",
+    passive: false,
+    1: "Your body can stretch up to 10cm.",
+  },
+  "Elemental Sprite": {
+    name: "Elemental Sprite",
+    passive: false,
+    1: "Summon an elemental spite.",
+  },
+  "Feast": {
+    name: "Feast",
+    passive: false,
+    1: "A huge table appears, laden with food.",
+  },
+  "Filch": {
+    name: "Filch",
+    passive: false,
+    1: "1 visible item teleport to your hands.",
+  },
+  "Flesh Warp": {
+    name: "Flesh Warp",
+    passive: false,
+    1: "A touched creature doubles or halves in size.",
+  },
+  "Fog Cloud": {
+    name: "Fog Cloud",
+    passive: false,
+    1: "A cloud of dense fog spreads out from you.",
+  },
+  "Frenzy": {
+    name: "Frenzy",
+    passive: false,
+    1: "1 creature erupts in a frenzy of random violence.",
+  },
+  "Random Gate": {
+    name: "Random Gate",
+    passive: false,
+    1: "A portal to a random plane opens.",
+  },
 };
 // https://rpgbot.net/dnd5/characters/classes/wizard/spells.html
-// Elasticity: Your body can stretch up to 30’.
-
-// Elemental Wall: A wall of ice or fire Lx 30’ long appears.
-
-// Feast: A huge table appears, laden with food.
-
-// Filch: L visible items teleport to your hands.
-
-// Flesh Warp: A touched creature doubles or halves in size.
-
-// Fog Cloud: A cloud of dense fog spreads out from you.
-
-// Frenzy: L creatures erupt in a frenzy of random violence.
-
-// Gate: A portal to a random plane opens.
 
 // Gravity Shift: You can change the direction of gravity (for yourself only) once every 6 seconds.
 
