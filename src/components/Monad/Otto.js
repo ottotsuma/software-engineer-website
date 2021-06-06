@@ -6,7 +6,7 @@ import Spells from "./../elements/spells";
 
 export default function Otto() {
   return (
-    <div>
+    <div style={{color: 'black'}}>
       <Stats
         type={"description"}
         stats={{
