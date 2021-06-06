@@ -640,7 +640,7 @@ export const spellList = {
     1: "The ground begins shaking violently. Structures may be damaged or collapse.",
   },
 };
-
+// https://rpgbot.net/dnd5/characters/classes/wizard/spells.html
 // Elasticity: Your body can stretch up to 30’.
 
 // Elemental Wall: A wall of ice or fire Lx 30’ long appears.
