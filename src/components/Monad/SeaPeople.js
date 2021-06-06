@@ -6,6 +6,9 @@ import Spin from "./../elements/spin";
 import Quest from "./../elements/quest";
 import LevelUp from "./../elements/levelup";
 import Otto from "./Otto";
+import Equipment from "./../elements/equipment";
+import Stats from "./../elements/stats";
+import Spells from "./../elements/spells";
 
 export default function SeaPeopleFunction(props) {
   return SeaPeople[props];

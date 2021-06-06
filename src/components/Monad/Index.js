@@ -75,7 +75,16 @@ const ChapterList = [
   Chapter33(),
   Chapter34(),
   Otto(),
+  SeaPeopleFunction(0),
   SeaPeopleFunction(1),
+  SeaPeopleFunction(2),
+  SeaPeopleFunction(3),
+  SeaPeopleFunction(4),
+  SeaPeopleFunction(5),
+  SeaPeopleFunction(6),
+  SeaPeopleFunction(7),
+  SeaPeopleFunction(8),
+  SeaPeopleFunction(9),
   SpellsPage()
 ];
 

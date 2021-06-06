@@ -78,7 +78,7 @@ function Intro(props) {
 
       </p>
       {Book()}
-      {SeaPeople[0]}
+      {/* {SeaPeople[0]}
       {SeaPeople[1]}
       {SeaPeople[2]}
       {SeaPeople[3]}
@@ -87,7 +87,7 @@ function Intro(props) {
       {SeaPeople[6]}
       {SeaPeople[7]}
       {SeaPeople[8]}
-      {SeaPeople[9]}
+      {SeaPeople[9]} */}
     </Content>
   );
 }
