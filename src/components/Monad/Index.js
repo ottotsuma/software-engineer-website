@@ -34,6 +34,9 @@ import Chapter31 from "./Ch31-Flowers";
 import Chapter32 from "./Ch32-Survival";
 import Chapter33 from "./Ch33-BackToSchool";
 import Chapter34 from "./Ch34-Duel";
+import SpellsPage from "./SpellsPage";
+import Otto from "./Otto";
+import SeaPeopleFunction from "./SeaPeople"
 
 
 const ChapterList = [
@@ -70,7 +73,10 @@ const ChapterList = [
   Chapter31(),
   Chapter32(),
   Chapter33(),
-  Chapter34()
+  Chapter34(),
+  Otto(),
+  SeaPeopleFunction(1),
+  SpellsPage()
 ];
 
 const scrollTop = () => {

@@ -9,7 +9,7 @@ import React from "react";
 // Thunderbolt, Static Field, Wall of lightning, Lightning Storm,
 // Discharge, Charged Charge.
 
-const spellList = {
+export const spellList = {
   Example: {
     name: "Example",
     1: "Example",
@@ -513,6 +513,56 @@ const spellList = {
     name: "Gift of Lightning",
     passive: true,
     1: "Lightning damage +1%",
+  },
+  "Adhere": {
+    name: "Adhere",
+    passive: false,
+    1: "Makes an object sticky.",
+  },
+  "Aethersight": {
+    name: "Aethersight",
+    passive: false,
+    1: "Magical auras glow brightly for you.",
+  },
+  "Animate Object": {
+    name: "Animate Object",
+    passive: false,
+    1: "An object animates under your control.",
+  },
+  "Anthropomorphize": {
+    name: "Anthropomorphize",
+    passive: false,
+    1: "A touched animal either gains human a characteristic.",
+  },
+  "Arboriate": {
+    name: "Arboriate",
+    passive: false,
+    1: "You become a walking tree up to 10ft tall.",
+  },
+  "Arcane Eye": {
+    name: "Arcane Eye",
+    passive: false,
+    1: "You can see through a magical floating eyeball that flies around at your command.",
+  },
+  "Astral Prison": {
+    name: "Astral Prison",
+    passive: false,
+    1: "A creature is frozen in time and space within an invulnerable crystal shell.",
+  },
+  "Astral Weapon": {
+    name: "Astral Weapon",
+    passive: false,
+    1: "A magical weapon appears in your hands until end of spell. It adds +1 to all your attacks.",
+  },
+  "Magnetic Attract": {
+    name: "Magnetic Attract",
+    passive: false,
+    1: "2 Objects are strongly magnetically attracted to each other if they come within 10 feet.",
+  },
+  "Auditory Illusion": {
+    name: "Auditory Illusion",
+    passive: false,
+    1: "You create illusory noises that appear to come from a direction of your choice.",
   },
 };
 

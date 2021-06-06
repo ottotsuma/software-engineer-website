@@ -12,7 +12,7 @@ export default function SeaPeopleFunction(props) {
 }
 export const SeaPeople = {
   0: (
-    <Content style={{ overflowWrap: "anywhere", width: "100%" }}>
+    <Content style={{ overflowWrap: "anywhere"}}>
       <h1>Sea people</h1>
       <p>
         A group of sea travelers with different races. Their classes will be
@@ -21,24 +21,24 @@ export const SeaPeople = {
         as they complete more quests on the DLC island.
       </p>
       <h2>List of the group</h2>
-      <ul style={{ overflowWrap: "anywhere", width: "100%" }}>
-        <li style={{ overflowWrap: "anywhere", width: "100%" }}>
+      <ul style={{ overflowWrap: "anywhere" }}>
+        <li style={{ overflowWrap: "anywhere" }}>
           Example: Name, race, class(), level, equipment, backstory(Main island,
           other dlc before? ), clan/guild, reason for coming. PET(level)
         </li>
-        <li style={{ overflowWrap: "anywhere", width: "100%" }}>
+        <li style={{ overflowWrap: "anywhere" }}>
           Boy: Name, Dark Elf?, class(Rogue[]), 37, [Normal/Rare, mostly from
           the main quests], (From the main island, recently started playing, no
           dlc), none, saw the adverts for coming and wanted to try. None(0)
         </li>
-        <li style={{ overflowWrap: "anywhere", width: "100%" }}>
+        <li style={{ overflowWrap: "anywhere" }}>
           Girl: Sarah, Vampire, Use to be a human paladin, class(Tank[Guardian])
           Wants to change to blood warrior, 100, [mixed normal, rare epic with
           one unique], (Pro-gamer, guild leader, small dlc before), clan/guild,
           get in before the other guilds. PET(60),
           file:///C:/Users/snows/Documents/GitHub/ottotsuma.github.io/guard100.html
         </li>
-        <li style={{ overflowWrap: "anywhere", width: "100%" }}>
+        <li style={{ overflowWrap: "anywhere" }}>
           Boy: Josh, Human, class(Rogue-subtype[Assassin]) Recently became
           assassin, 92,
           [file:///C:/Users/snows/Documents/GitHub/ottotsuma.github.io/Assassin.html
@@ -49,7 +49,7 @@ export const SeaPeople = {
     </Content>
   ),
   1: (
-    <Content style={{ overflowWrap: "anywhere", width: "100%" }}>
+    <Content style={{ overflowWrap: "anywhere" }}>
       <p>"We'll be there soon." Josh said from behind me.</p>
       <p>
         "Awesome, I don't want to spend another minute on board this ship." I
@@ -87,7 +87,7 @@ export const SeaPeople = {
     </Content>
   ),
   2: (
-    <Content style={{ overflowWrap: "anywhere", width: "100%" }}>
+    <Content style={{ overflowWrap: "anywhere" }}>
       <p>
         I found Josh sitting in his bed in a room below deck. The ship only had
         a few rooms like this, the captains, 3 VIP guest rooms and the ships
@@ -153,7 +153,7 @@ export const SeaPeople = {
     </Content>
   ),
   3: (
-    <Content style={{ overflowWrap: "anywhere", width: "100%" }}>
+    <Content style={{ overflowWrap: "anywhere" }}>
       <p>
         The crew were starting to get edgy. We knew from the start that they
         would not go to close to the new land, they would only sail so far then
@@ -264,7 +264,7 @@ export const SeaPeople = {
     </Content>
   ),
   4: (
-    <Content style={{ overflowWrap: "anywhere", width: "100%" }}>
+    <Content style={{ overflowWrap: "anywhere" }}>
       <p>
         The sand was so soft under my feet, I removed my shoes not wanting to
         get sand inside of them. Some times I felt that the hyper realistic game
@@ -471,7 +471,7 @@ export const SeaPeople = {
     </Content>
   ),
   5: (
-    <Content style={{ overflowWrap: "anywhere", width: "100%" }}>
+    <Content style={{ overflowWrap: "anywhere" }}>
       <p>
         I wanted to try fighting the giant crabs on the other island but I was
         told it was a bit of a waste of time. If you killed too many of them a
@@ -854,7 +854,7 @@ export const SeaPeople = {
     </Content>
   ),
   6: (
-    <Content style={{ overflowWrap: "anywhere", width: "100%" }}>
+    <Content style={{ overflowWrap: "anywhere" }}>
       <p>
         "Good morning." Sarah said to me as I came onto the deck of the ship.
         She was in her blue and gold armor as usual looking out across the
@@ -1043,11 +1043,13 @@ export const SeaPeople = {
         "The shield. It is a pretty big give away." She replied and closed her
         eyes.
       </p>
+      <div className="BreakPoint"></div>
+      <p></p>
     </Content>
   ),
-  7: <Content style={{ overflowWrap: "anywhere", width: "100%" }}>7</Content>,
-  8: <Content style={{ overflowWrap: "anywhere", width: "100%" }}>8</Content>,
-  9: <Content style={{ overflowWrap: "anywhere", width: "100%" }}>9</Content>,
+  7: <Content style={{ overflowWrap: "anywhere" }}>7</Content>,
+  8: <Content style={{ overflowWrap: "anywhere" }}>8</Content>,
+  9: <Content style={{ overflowWrap: "anywhere" }}>9</Content>,
 };
 
 // Rouge Skills Used (Basic) - Fleet of Foot, Headbutt

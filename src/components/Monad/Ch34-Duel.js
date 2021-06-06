@@ -5,7 +5,6 @@ import { Content } from "./styles";
 import Spin from "./../elements/spin";
 import Quest from "./../elements/quest";
 import LevelUp from "./../elements/levelup";
-import Otto from "./Otto";
 import {SeaPeople} from "./SeaPeople"
 
 function Intro(props) {
@@ -76,7 +75,7 @@ function Intro(props) {
         there as my HP had become too low.
       </p>
       <p>
-        
+
       </p>
       {Book()}
       {SeaPeople[0]}
@@ -89,7 +88,6 @@ function Intro(props) {
       {SeaPeople[7]}
       {SeaPeople[8]}
       {SeaPeople[9]}
-      <Otto />
     </Content>
   );
 }
