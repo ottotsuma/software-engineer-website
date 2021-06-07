@@ -679,14 +679,23 @@ export const spellList = {
     passive: false,
     1: "A portal to a random plane opens.",
   },
+  "Gravity Shift": {
+    name: "Gravity Shift",
+    passive: false,
+    1: "You can change the direction of gravity (for yourself only) once every 6 seconds.",
+  },
+  "Haste": {
+    name: "Haste",
+    passive: false,
+    1: "Your movement speed is tripled.",
+  },
+  "Hear Whispers": {
+    name: "Hear Whispers",
+    passive: false,
+    1: "You can hear the faintest sounds clearly.",
+  },
 };
 // https://rpgbot.net/dnd5/characters/classes/wizard/spells.html
-
-// Gravity Shift: You can change the direction of gravity (for yourself only) once every 6 seconds.
-
-// Haste: Your movement speed is tripled.
-
-// Hear Whispers: You can hear the faintest sounds clearly.
 
 // Hover: An object hovers, frictionless, 2’ above the ground. Can hold up to 5 humanoids.
 
