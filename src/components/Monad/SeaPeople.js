@@ -9,13 +9,14 @@ import Otto from "./Otto";
 import Equipment from "./../elements/equipment";
 import Stats from "./../elements/stats";
 import Spells from "./../elements/spells";
+import Blood from "./../../assets/Blood.jpg";
 
 export default function SeaPeopleFunction(props) {
   return SeaPeople[props];
 }
 export const SeaPeople = {
   0: (
-    <Content style={{ overflowWrap: "anywhere"}}>
+    <Content style={{ overflowWrap: "anywhere" }}>
       <h1>Sea people</h1>
       <p>
         A group of sea travelers with different races. Their classes will be
@@ -1048,6 +1049,10 @@ export const SeaPeople = {
       </p>
       <div className="BreakPoint"></div>
       <p></p>
+      <div className="pop">
+        Blood Bottle
+        <img className="popOut" src={Blood} alt="Blood Bottle" />
+      </div>
     </Content>
   ),
   7: <Content style={{ overflowWrap: "anywhere" }}>7</Content>,
