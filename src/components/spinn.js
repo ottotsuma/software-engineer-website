@@ -27,6 +27,40 @@ export default () => {
         outsideChevron
         chevronWidth={chevronWidth}
       >
+                <CardBackground
+          className="Project-Card"
+        >
+          <h4>CGPC</h4>
+          <img className="Screen-Shot" src={'https://yt3.ggpht.com/ytc/AAUvwni9DJA2UfBnLyffWzkPZp7yLUJG0RHSf1WXqTEEvg=s176-c-k-c0x00ffffff-no-rj'} alt="Screen-Shot" />
+          <p>
+            Click{" "}
+            <a
+              style={{ color: "white" }}
+              href="https://www.youtube.com/channel/UCiN3B0QRdL4wn1TMJ_cJyMQ"
+              target="_blank"
+            >
+              here
+            </a>{" "}
+            to be taken to the app.
+          </p>
+        </CardBackground>
+        <CardBackground
+          className="Project-Card"
+        >
+          <h4>Dekki</h4>
+          <img className="Screen-Shot" src={'https://cdn.dekki.com/assets/images/games/hearthstone/index-en.png'} alt="Screen-Shot" />
+          <p>
+            Click{" "}
+            <a
+              style={{ color: "white" }}
+              href="https://dekki.com/en/?page=1"
+              target="_blank"
+            >
+              here
+            </a>{" "}
+            to be taken to the app.
+          </p>
+        </CardBackground>
         <CardBackground
           className="Project-Card"
           

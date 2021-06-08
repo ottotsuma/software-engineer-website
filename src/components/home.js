@@ -30,6 +30,12 @@ const Language = {
     MunchifyDisc: "機械学習があなたにぴったりのレストランを予測！",
     MunchifyTech: "React-Native, NodeJS, MongoDB",
     MunchifyTitle: "Munchify!",
+    CGPCDisc: "LOL 日本プロリーグ「LJL」ゲームオーバーレイ",
+    CGPCTech: "React, Styled-Components, Firebase, AWS",
+    CGPCTitle: "CGPC",
+    DekkiDisc: "DEKKIはゲームを愛する人たちが語り合えるゲームコミュニティプラットフォームです。",
+    DekkiTech: "React, Styled-Components, AWS",
+    DekkiTitle: "Dekki",
     SecretDisc: "あなたの秘密のためのセーフティボックスです。",
     SecretTech: "React, NodeJS, MongoDB",
     SecretTitle: "秘密の箱",
@@ -48,6 +54,12 @@ const Language = {
     MunchifyDisc: "Machine learning predicts your perfect restaurant!",
     MunchifyTech: "React-Native, NodeJS, MongoDB",
     MunchifyTitle: "Munchify!",
+    CGPCDisc: "Game overlay for LOL Japan League「LJL」",
+    CGPCTech: "React, Styled-Components, Firebase, AWS",
+    CGPCTitle: "CGPC",
+    DekkiDisc: "A community platform for gamers to talk about games they love",
+    DekkiTech: "React, Styled-Components, AWS",
+    DekkiTitle: "Dekki",
     SecretDisc: "A safety box for your secrets!",
     SecretTech: "React, NodeJS, MongoDB",
     SecretTitle: "The Secret Box",
@@ -178,7 +190,7 @@ function Home(props) {
           </Anchor2>
         </Profile>
         <Right>
-          <Box
+          {/* <Box
             onClick={() =>
               change("https://github.com/Spring-CC/restaurant-native-app")
             }
@@ -189,16 +201,46 @@ function Home(props) {
               <Para>{Language[lang].MunchifyDisc}</Para>
             </InnerBox>
             <Para>{Language[lang].MunchifyTech}</Para>
+          </Box> */}
+                    <Box
+            onClick={() =>
+              change("https://www.youtube.com/channel/UCiN3B0QRdL4wn1TMJ_cJyMQ")
+            }
+          >
+            <HomeImage src={'https://yt3.ggpht.com/ytc/AAUvwni9DJA2UfBnLyffWzkPZp7yLUJG0RHSf1WXqTEEvg=s176-c-k-c0x00ffffff-no-rj'} alt="LJL" />
+            <InnerBox>
+              <h3>{Language[lang].CGPCTitle}</h3>
+              <Para>{Language[lang].CGPCDisc}</Para>
+            </InnerBox>
+            <Para>{Language[lang].CGPCTech}</Para>
           </Box>
-          <Box onClick={() => change("https://github.com/ottotsuma/SoloMVP")}>
+          {/* <Box onClick={() => change("https://github.com/ottotsuma/SoloMVP")}>
             <HomeImage src={Secret} alt="Technical Skills" />
             <InnerBox>
               <h3>{Language[lang].SecretTitle}</h3>
               <Para>{Language[lang].SecretDisc}</Para>
             </InnerBox>
             <Para>{Language[lang].SecretTech}</Para>
+          </Box> */}
+                    <Box onClick={() => change("https://dekki.com/en/?page=1")}>
+            <HomeImage src={'https://cdn.dekki.com/assets/images/games/hearthstone/index-en.png'} alt="Dekki" />
+            <InnerBox>
+              <h3>{Language[lang].DekkiTitle}</h3>
+              <Para>{Language[lang].DekkiDisc}</Para>
+            </InnerBox>
+            <Para>{Language[lang].DekkiTech}</Para>
           </Box>
-          <Box
+          {/* <Box
+            onClick={() => change("https://github.com/ottotsuma/React-App2")}
+          >
+            <HomeImage src={Food} alt="Technical Skills" />
+            <InnerBox>
+              <h3>{Language[lang].RecipesTitle}</h3>
+              <Para>{Language[lang].RecipesDisc}</Para>
+            </InnerBox>
+            <Para>{Language[lang].RecipesTech}</Para>
+          </Box> */}
+                    <Box
             onClick={() => change("https://github.com/ottotsuma/React-App2")}
           >
             <HomeImage src={Food} alt="Technical Skills" />
