@@ -188,6 +188,7 @@ export const spellList = {
   Tether: {
     name: "Tether",
     1: "Gathers mana into a string shape.",
+    2: "Two objects within 10’ of each other be-come linked and cannot be moved more than 10’ apart.",
   },
   "Magic Resistance": {
     name: "Magic Resistance",
@@ -704,33 +705,63 @@ export const spellList = {
     passive: false,
     1: "A creature enters a trance and will truthfully answer L yes or no questions you ask it.",
   },
+  "Illuminate": {
+    name: "Illuminate",
+    passive: false,
+    1: "???",
+  },
+  "Increase Gravity": {
+    name: "Increase Gravity",
+    passive: false,
+    1: "The gravity in a nearby area triples.",
+  },
+  "Ironbane": {
+    name: "Ironbane",
+    passive: false,
+    1: "Any iron that touches you disintegrates.",
+  },
+  "Knock": {
+    name: "Knock",
+    passive: false,
+    1: "All nearby locks, clasps, and buckles open.",
+  },
+  "Leap": {
+    name: "Leap",
+    passive: false,
+    1: "You can jump up to 30’ at a time.",
+  },
+  "Liquid Air": {
+    name: "Liquid Air",
+    passive: false,
+    1: "The air becomes thick enough to swim in.",
+  },
+  "Magic Dampener": {
+    name: "Magic Dampener",
+    passive: false,
+    1: "All nearby magical effects have their effectiveness halved.",
+  },
+  "Manse": {
+    name: "Manse",
+    passive: false,
+    1: "A sturdy, fully furnished cottage appears. You can permit and forbid entry to it at will. Lasts Lx12 hours.",
+  },
+  "Marble Madness": {
+    name: "Marble Madness",
+    passive: false,
+    1: "Your pockets are always full of marbles.",
+  },
+  "Masquerade": {
+    name: "Masquerade",
+    passive: false,
+    1: "1 targets appearances and voices become identical to yours.",
+  },
+  "Miniaturize": {
+    name: "Miniaturize",
+    passive: false,
+    1: "You and 1 other touched creatures are reduced to the size of a mouse.",
+  },
 };
 // https://rpgbot.net/dnd5/characters/classes/wizard/spells.html
-
-
-// Illuminate: A floating light moves as you command it.
-
-// Increase Gravity: The gravity in a nearby area triples.
-
-// Invisible Tether: Two objects within 10’ of each other be-come linked and cannot be moved more than 10’ apart.
-
-// Ironbane: Any iron that touches you disintegrates.
-
-// Knock: All nearby locks, clasps, and buckles open.
-
-// Leap: You can jump up to 30’ at a time.
-
-// Liquid Air: The air becomes thick enough to swim in.
-
-// Magic Dampener: All nearby magical effects have their ef-fectiveness halved.
-
-// Manse: A sturdy, fully furnished cottage appears. You can permit and forbid entry to it at will. Lasts Lx12 hours.
-
-// Marble Madness: Your pockets are always full of marbles.
-
-// Masquerade: L characters’ appearances and voices become identical to yours.
-
-// Miniaturize: You and L other touched creatures are reduced to the size of a mouse.
 
 // Mirror Image: L illusory duplicates of yourself appear under your control.
 
