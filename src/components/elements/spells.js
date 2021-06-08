@@ -743,7 +743,7 @@ export const spellList = {
   "Manse": {
     name: "Manse",
     passive: false,
-    1: "A sturdy, fully furnished cottage appears. You can permit and forbid entry to it at will. Lasts Lx12 hours.",
+    1: "A sturdy, fully furnished cottage appears. You can permit and forbid entry to it at will. Lasts 12 hours.",
   },
   "Marble Madness": {
     name: "Marble Madness",
@@ -923,18 +923,30 @@ export const spellList = {
   "Tesser": {
     name: "Tesser",
     passive: false,
-    1: "An object disappears and reappears on the ground in a visible, clear area up to Lx30’ away.",
+    1: "An object disappears and reappears on the ground in a visible, clear area up to 30’ away.",
+  },
+  "Thaumaturgic Anchor": {
+    name: "Thaumaturgic Anchor",
+    passive: false,
+    1: "Object becomes the target of every spell cast near it.",
+  },
+  "Thicket": {
+    name: "Thicket",
+    passive: false,
+    1: "A thicket of trees and dense brush up to 30’ wide suddenly sprouts up.",
+  },
+  "Time Jump": {
+    name: "Time Jump",
+    passive: false,
+    1: "An object jumps Lx10 minutes into the future.",
+  },
+  "Time Rush": {
+    name: "Time Rush",
+    passive: false,
+    1: "Time in a nearby area becomes 10 times faster.",
   },
 };
 // https://rpgbot.net/dnd5/characters/classes/wizard/spells.html
-
-// Thaumaturgic Anchor: Object becomes the target of every spell cast near it.
-
-// Thicket: A thicket of trees and dense brush up to Lx30’ wide suddenly sprouts up.
-
-// Time Jump: An object jumps Lx10 minutes into the future.
-
-// Time Rush: Time in a nearby area becomes 10 times faster.
 
 // Time Slow: Time in a nearby area slows to 10%.
 
