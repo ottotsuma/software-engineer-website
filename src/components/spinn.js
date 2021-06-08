@@ -48,7 +48,7 @@ export default () => {
           className="Project-Card"
         >
           <h4>Dekki</h4>
-          <img className="Screen-Shot" src={'https://cdn.dekki.com/assets/images/games/hearthstone/index-en.png'} alt="Screen-Shot" />
+          <img className="Screen-Shot" src={'https://media-exp1.licdn.com/dms/image/sync/C5627AQGzernRM610ug/articleshare-shrink_800/0/1622596269186?e=1623214800&v=beta&t=8RHSI2eaE5Zoh3GS8yolS3tfisqrSuDZgulrvZ6eJyE'} alt="Screen-Shot" />
           <p>
             Click{" "}
             <a

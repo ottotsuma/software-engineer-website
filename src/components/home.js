@@ -223,7 +223,7 @@ function Home(props) {
             <Para>{Language[lang].SecretTech}</Para>
           </Box> */}
                     <Box onClick={() => change("https://dekki.com/en/?page=1")}>
-            <HomeImage src={'https://cdn.dekki.com/assets/images/games/hearthstone/index-en.png'} alt="Dekki" />
+            <HomeImage src={'https://media-exp1.licdn.com/dms/image/sync/C5627AQGzernRM610ug/articleshare-shrink_800/0/1622596269186?e=1623214800&v=beta&t=8RHSI2eaE5Zoh3GS8yolS3tfisqrSuDZgulrvZ6eJyE'} alt="Dekki" />
             <InnerBox>
               <h3>{Language[lang].DekkiTitle}</h3>
               <Para>{Language[lang].DekkiDisc}</Para>
