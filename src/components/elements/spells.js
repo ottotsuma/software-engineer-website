@@ -760,18 +760,33 @@ export const spellList = {
     passive: false,
     1: "You and 1 other touched creatures are reduced to the size of a mouse.",
   },
+  "Mirror Image": {
+    name: "Mirror Image",
+    passive: false,
+    1: "1 illusory duplicates of yourself appear under your control.",
+  },
+  "Mirror Walk": {
+    name: "Mirror Walk",
+    passive: false,
+    1: "A mirror becomes a gateway to another mirror that you have looked into today.",
+  },
+  "Multiarm": {
+    name: "Multiarm",
+    passive: false,
+    1: "You gain 1 extra arms until end of spell.",
+  },
+  "Objectify": {
+    name: "Objectify",
+    passive: false,
+    1: "You become any inanimate object between the size of a grand piano and an apple.",
+  },
+  "Ooze Form": {
+    name: "Ooze Form",
+    passive: false,
+    1: "You become a living jelly.",
+  },
 };
 // https://rpgbot.net/dnd5/characters/classes/wizard/spells.html
-
-// Mirror Image: L illusory duplicates of yourself appear under your control.
-
-// Mirrorwalk: A mirror becomes a gateway to another mirror that you have looked into today.
-
-// Multiarm: You gain L extra arms until end of spell.
-
-// Objectify: You become any inanimate object between the size of a grand piano and an apple.
-
-// Ooze Form: You become a living jelly.
 
 // Pacify: L creatures have a sudden aversion to violence.
 
