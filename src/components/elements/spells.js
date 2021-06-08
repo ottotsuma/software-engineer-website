@@ -694,12 +694,19 @@ export const spellList = {
     passive: false,
     1: "You can hear the faintest sounds clearly.",
   },
+  "Hover": {
+    name: "Hover",
+    passive: false,
+    1: "An object hovers, frictionless, 2’ above the ground. Can hold up to 5 humanoids.",
+  },
+  "Hypnotize": {
+    name: "Hypnotize",
+    passive: false,
+    1: "A creature enters a trance and will truthfully answer L yes or no questions you ask it.",
+  },
 };
 // https://rpgbot.net/dnd5/characters/classes/wizard/spells.html
 
-// Hover: An object hovers, frictionless, 2’ above the ground. Can hold up to 5 humanoids.
-
-// Hypnotize: A creature enters a trance and will truthfully answer L yes or no questions you ask it.
 
 // Illuminate: A floating light moves as you command it.
 
