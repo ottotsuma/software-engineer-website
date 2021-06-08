@@ -845,10 +845,23 @@ export const spellList = {
     passive: false,
     1: "All inanimate material behaves like clay in your hands.",
   },
+  "Shroud": {
+    name: "Shroud",
+    passive: false,
+    1: "1 creatures become invisible until they move",
+  },
+  "Shuffle": {
+    name: "Shuffle",
+    passive: false,
+    1: "Reduces movement speed of a target by 10%.",
+  },
+  "Swap": {
+    name: "Swap",
+    passive: false,
+    1: "2 creatures instantly switch places.",
+  },
 };
 // https://rpgbot.net/dnd5/characters/classes/wizard/spells.html
-
-// Shroud: L creatures become invisible until they move.
 
 // Shuffle: L creatures instantly switch places.
 
