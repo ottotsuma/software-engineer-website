@@ -5,7 +5,7 @@ import { Content } from "./styles";
 import Spin from "./../elements/spin";
 import Quest from "./../elements/quest";
 import LevelUp from "./../elements/levelup";
-import {SeaPeople} from "./SeaPeople"
+import { SeaPeople } from "./SeaPeople";
 
 function Intro(props) {
   return (
@@ -74,9 +74,7 @@ function Intro(props) {
         the arena from his wand using a flamethrower attack. The match ended
         there as my HP had become too low.
       </p>
-      <p>
-
-      </p>
+      <p></p>
       {Book()}
       {/* {SeaPeople[0]}
       {SeaPeople[1]}

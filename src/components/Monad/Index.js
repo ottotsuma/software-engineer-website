@@ -36,7 +36,7 @@ import Chapter33 from "./Ch33-BackToSchool";
 import Chapter34 from "./Ch34-Duel";
 import SpellsPage from "./SpellsPage";
 import Otto from "./Otto";
-import SeaPeopleFunction from "./SeaPeople"
+import SeaPeopleFunction from "./SeaPeople";
 
 const scrollTop = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
@@ -105,8 +105,8 @@ export default function Monad(params) {
   ];
   const [isPage, setPage] = useState("");
   useEffect(() => {
-    console.log('Page: ', number);
-    setPage(ChapterList[window.location.href.match(/\d+$/)[0]-1]);
+    console.log("Page: ", number);
+    setPage(ChapterList[window.location.href.match(/\d+$/)[0] - 1]);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [number]);
 

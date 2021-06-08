@@ -12,7 +12,9 @@ import Spells from "./../elements/spells";
 import Blood from "./../../assets/Blood.jpg";
 
 export default function SeaPeopleFunction(props) {
-  return typeof(props) === 'number' ? SeaPeople[props] : SeaPeople[props.Chapter];
+  return typeof props === "number"
+    ? SeaPeople[props]
+    : SeaPeople[props.Chapter];
 }
 export const SeaPeople = {
   0: (

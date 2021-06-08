@@ -33,7 +33,8 @@ const Language = {
     CGPCDisc: "LOL 日本プロリーグ「LJL」ゲームオーバーレイ",
     CGPCTech: "React, Styled-Components, Firebase, AWS",
     CGPCTitle: "CGPC",
-    DekkiDisc: "DEKKIはゲームを愛する人たちが語り合えるゲームコミュニティプラットフォームです。",
+    DekkiDisc:
+      "DEKKIはゲームを愛する人たちが語り合えるゲームコミュニティプラットフォームです。",
     DekkiTech: "React, Styled-Components, AWS",
     DekkiTitle: "Dekki",
     SecretDisc: "あなたの秘密のためのセーフティボックスです。",
@@ -96,9 +97,19 @@ function Home(props) {
   return (
     <GlassWrapper>
       {show && (
-        <Modal2 title={Language[lang].projects} insert={<Spin />} close={updateShow} />
+        <Modal2
+          title={Language[lang].projects}
+          insert={<Spin />}
+          close={updateShow}
+        />
       )}
-      {showTimeline && <Modal2 title={`${Language[lang].experience}`} insert={<Timeline />} close={updateTimeline} />}
+      {showTimeline && (
+        <Modal2
+          title={`${Language[lang].experience}`}
+          insert={<Timeline />}
+          close={updateTimeline}
+        />
+      )}
       <Glass>
         <Profile>
           <NameWrap>
@@ -202,12 +213,17 @@ function Home(props) {
             </InnerBox>
             <Para>{Language[lang].MunchifyTech}</Para>
           </Box> */}
-                    <Box
+          <Box
             onClick={() =>
               change("https://www.youtube.com/channel/UCiN3B0QRdL4wn1TMJ_cJyMQ")
             }
           >
-            <HomeImage src={'https://yt3.ggpht.com/ytc/AAUvwni9DJA2UfBnLyffWzkPZp7yLUJG0RHSf1WXqTEEvg=s176-c-k-c0x00ffffff-no-rj'} alt="LJL" />
+            <HomeImage
+              src={
+                "https://yt3.ggpht.com/ytc/AAUvwni9DJA2UfBnLyffWzkPZp7yLUJG0RHSf1WXqTEEvg=s176-c-k-c0x00ffffff-no-rj"
+              }
+              alt="LJL"
+            />
             <InnerBox>
               <h3>{Language[lang].CGPCTitle}</h3>
               <Para>{Language[lang].CGPCDisc}</Para>
@@ -222,8 +238,13 @@ function Home(props) {
             </InnerBox>
             <Para>{Language[lang].SecretTech}</Para>
           </Box> */}
-                    <Box onClick={() => change("https://dekki.com/en/?page=1")}>
-            <HomeImage src={'https://media-exp1.licdn.com/dms/image/sync/C5627AQGzernRM610ug/articleshare-shrink_800/0/1622596269186?e=1623214800&v=beta&t=8RHSI2eaE5Zoh3GS8yolS3tfisqrSuDZgulrvZ6eJyE'} alt="Dekki" />
+          <Box onClick={() => change("https://dekki.com/en/?page=1")}>
+            <HomeImage
+              src={
+                "https://media-exp1.licdn.com/dms/image/sync/C5627AQGzernRM610ug/articleshare-shrink_800/0/1622596269186?e=1623214800&v=beta&t=8RHSI2eaE5Zoh3GS8yolS3tfisqrSuDZgulrvZ6eJyE"
+              }
+              alt="Dekki"
+            />
             <InnerBox>
               <h3>{Language[lang].DekkiTitle}</h3>
               <Para>{Language[lang].DekkiDisc}</Para>
@@ -240,7 +261,7 @@ function Home(props) {
             </InnerBox>
             <Para>{Language[lang].RecipesTech}</Para>
           </Box> */}
-                    <Box
+          <Box
             onClick={() => change("https://github.com/ottotsuma/React-App2")}
           >
             <HomeImage src={Food} alt="Technical Skills" />
