@@ -935,6 +935,7 @@ export const spellList = {
     passive: false,
     1: "A thicket of trees and dense brush up to 30’ wide suddenly sprouts up.",
   },
+  // These should be deleted from Monad (below)
   "Time Jump": {
     name: "Time Jump",
     passive: false,
@@ -945,22 +946,44 @@ export const spellList = {
     passive: false,
     1: "Time in a nearby area becomes 10 times faster.",
   },
+  "Time Slow": {
+    name: "Time Slow",
+    passive: false,
+    1: "Time in a nearby area slows to 10%.",
+  },
+  // These should be deleted from Monad (above)
+  "Transfer Heat": {
+    name: "Time Slow",
+    passive: false,
+    1: "You may transfer heat or cold between two inanimate objects.",
+  },
+  "True Sight": {
+    name: "Time Slow",
+    passive: false,
+    1: "You see the true nature of your surroundings.",
+  },
+  "Upwell": {
+    name: "Upwell",
+    passive: false,
+    1: "A spring appears and starts gushing seawater.",
+  },
+  "Vision": {
+    name: "Vision",
+    passive: false,
+    1: "You have total control over what a creature sees.",
+  },
+  "Visual Illusion": {
+    name: "Visual Illusion",
+    passive: false,
+    1: "A silent, immobile, illusion of your choice appears, up to the size of a bedroom.",
+  },
+  "Ward": {
+    name: "Ward",
+    passive: false,
+    1: "A silver circle 30’ across appears on the ground. Choose one thing that cannot cross it: Living creatures, dead creatures, non-human creatures, projectiles or metal.",
+  },
 };
 // https://rpgbot.net/dnd5/characters/classes/wizard/spells.html
-
-// Time Slow: Time in a nearby area slows to 10%.
-
-// Transfer Heat: You may transfer heat or cold between two inanimate objects.
-
-// True Sight: You see the true nature of your surroundings.
-
-// Upwell: A spring appears and starts gushing seawater.
-
-// Vision: You have total control over what a creature sees.
-
-// Visual Illusion: A silent, immobile, illusion of your choice appears, up to the size of a bedroom.
-
-// Ward: A silver circle 30’ across appears on the ground. Choose one thing that cannot cross it: Living creatures, dead creatures, non-human creatures, projectiles or metal.
 
 // Web: Your hands can shoot thick webbing.
 
