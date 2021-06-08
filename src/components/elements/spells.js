@@ -938,7 +938,7 @@ export const spellList = {
   "Time Jump": {
     name: "Time Jump",
     passive: false,
-    1: "An object jumps Lx10 minutes into the future.",
+    1: "An object jumps 10 minutes into the future.",
   },
   "Time Rush": {
     name: "Time Rush",
