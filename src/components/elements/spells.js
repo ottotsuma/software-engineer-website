@@ -805,12 +805,18 @@ export const spellList = {
     passive: false,
     1: "A mundane animal grows to the size of an elephant and is enraged.",
   },
+  "Psychometry": {
+    name: "Psychometry",
+    passive: false,
+    1: "The system answers 1 yes or no questions about a touched object.",
+  },
+  "Pull": {
+    name: "Pull",
+    passive: false,
+    1: "An object of any size is pulled 30’ directly towards you with the strength of 2 men. Lasts for one round.",
+  },
 };
 // https://rpgbot.net/dnd5/characters/classes/wizard/spells.html
-
-// Psychometry: The referee answers L yes or no questions about a touched object.
-
-// Pull: An object of any size is pulled 30’ directly towards you with the strength of L men. Lasts for one round.
 
 // Push: An object of any size is pushed 30’ directly away from you with the strength of L men. Lasts for one round.
 
