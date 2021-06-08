@@ -860,38 +860,73 @@ export const spellList = {
     passive: false,
     1: "2 creatures instantly switch places.",
   },
+  "Sleep": {
+    name: "Sleep",
+    passive: false,
+    1: "1 creatures fall into a light sleep.",
+  },
+  "Smoke Form": {
+    name: "Smoke Form",
+    passive: false,
+    1: "Your body becomes living smoke.",
+  },
+  "Snail Knight": {
+    name: "Snail Knight",
+    passive: false,
+    1: "10 minutes after casting, a knight sitting astride a giant snail rides into view. He is able to answer most questions related to quests and chivalry, and may aid you if he finds you worthy.",
+  },
+  "Sniff": {
+    name: "Sniff",
+    passive: false,
+    1: "You can smell even the faintest traces of scents.",
+  },
+  "Sort": {
+    name: "Sort",
+    passive: false,
+    1: "Inanimate items sort themselves according to categories you set. The categories must be visually verifiable.",
+  },
+  "Spatial Distortion": {
+    name: "Spatial Distortion",
+    passive: false,
+    1: "A nearby inanimate object no bigger than a bedroom shrinks to the size of an apple.",
+  },
+  "Spectacle": {
+    name: "Spectacle",
+    passive: false,
+    1: "A clearly unreal but impressive illusion of your choice appears, under your control. It may be up to the size of a palace and has full motion and sound.",
+  },
+  "Spider Climb": {
+    name: "Spider Climb",
+    passive: false,
+    1: "You can climb surfaces like a spider.",
+  },
+  "Summon Cube": {
+    name: "Summon Cube",
+    passive: false,
+    1: "Once per second, (6 times per round) you may summon or banish 3-foot-wide cubes of earth. New cubes must be affixed to the earth or to other cubes.",
+  },
+  "Swarm": {
+    name: "Swarm",
+    passive: false,
+    1: "You become a swarm of crows, rats, or piranha.",
+  },
+  "Telekinesis": {
+    name: "Telekinesis",
+    passive: false,
+    1: "You may mentally move items.",
+  },
+  "Telepathy": {
+    name: "Telepathy",
+    passive: false,
+    1: "2 creatures can hear each other’s thoughts.",
+  },
+  "Tesser": {
+    name: "Tesser",
+    passive: false,
+    1: "An object disappears and reappears on the ground in a visible, clear area up to Lx30’ away.",
+  },
 };
 // https://rpgbot.net/dnd5/characters/classes/wizard/spells.html
-
-// Shuffle: L creatures instantly switch places.
-
-// Sleep: L creatures fall into a light sleep.
-
-// Smoke Form: Your body becomes living smoke.
-
-// Snail Knight: 10 minutes after casting, a knight sitting astride a giant snail rides into view. He is able to answer most questions related to quests and chivalry, and may aid you if he finds you worthy.
-
-// Sniff: You can smell even the faintest traces of scents.
-
-// Sort: Inanimate items sort themselves according to categories you set. The categories must be visually verifiable.
-
-// Spatial Distortion: A nearby inanimate object no bigger than a bedroom shrinks to the size of an apple.
-
-// Spectacle: A clearly unreal but impressive illusion of your choice appears, under your control. It may be up to the size of a palace and has full motion and sound.
-
-// Spellseize: You may steal or erase L spells from the mind of a nearby creature.
-
-// Spider Climb: You can climb surfaces like a spider.
-
-// Summon Cube: Once per second, (6 times per round) you may summon or banish 3-foot-wide cubes of earth. New cubes must be affixed to the earth or to other cubes.
-
-// Swarm: You become a swarm of crows, rats, or piranha.
-
-// Telekinesis: You may mentally move L items.
-
-// Telepathy: L+1 creatures can hear each other’s thoughts.
-
-// Tesser: An object disappears and reappears on the ground in a visible, clear area up to Lx30’ away.
 
 // Thaumaturgic Anchor: Object becomes the target of every spell cast near it.
 
