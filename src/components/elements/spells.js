@@ -982,14 +982,22 @@ export const spellList = {
     passive: false,
     1: "A silver circle 30’ across appears on the ground. Choose one thing that cannot cross it: Living creatures, dead creatures, non-human creatures, projectiles or metal.",
   },
+  "Web": {
+    name: "Web",
+    passive: false,
+    1: "Your hands can shoot thick webbing.",
+  },
+  "Wizard Lock": {
+    name: "Wizard Lock",
+    passive: false,
+    1: "A door is magically sealed.",
+  },
+  "Wizard Mark": {
+    name: "Wizard Mark",
+    passive: false,
+    1: "Your finger can shoot a stream of brightly-colored paint. This paint is only visible to wizards, and can be seen at any distance, even through solid objects. Fades after L days.",
+  },
 };
-// https://rpgbot.net/dnd5/characters/classes/wizard/spells.html
-
-// Web: Your hands can shoot thick webbing.
-
-// Wizard Lock: A door is magically sealed.
-
-// Wizard Mark: Your finger can shoot a stream of brightly-colored paint. This paint is only visible to wizards, and can be seen at any distance, even through solid objects. Fades after L days.
 
 // https://i.4pcdn.org/tg/1498966145042.pdf
 
