@@ -815,14 +815,23 @@ export const spellList = {
     passive: false,
     1: "An object of any size is pulled 30’ directly towards you with the strength of 2 men. Lasts for one round.",
   },
+  "Push": {
+    name: "Push",
+    passive: false,
+    1: "An object of any size is pushed 30’ directly away from you with the strength of 2 men. Lasts for one round.",
+  },
+  "Raise Spirit": {
+    name: "Raise Spirit",
+    passive: false,
+    1: "The spirit of a dead body manifests and may choose to answer questions.",
+  },
+  "Read Mind": {
+    name: "Raise Spirit",
+    passive: false,
+    1: "You hear the surface thoughts of creatures.",
+  },
 };
 // https://rpgbot.net/dnd5/characters/classes/wizard/spells.html
-
-// Push: An object of any size is pushed 30’ directly away from you with the strength of L men. Lasts for one round.
-
-// Raise Spirit: The spirit of a dead body manifests and may choose to answer questions.
-
-// Read Mind: You hear the surface thoughts of creatures.
 
 // Repel: L+1 objects are strongly magnetically repelled from each other if they come within 10 feet.
 
