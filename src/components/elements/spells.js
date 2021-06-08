@@ -830,14 +830,23 @@ export const spellList = {
     passive: false,
     1: "You hear the surface thoughts of creatures.",
   },
+  "Repel": {
+    name: "Repel",
+    passive: false,
+    1: "2 objects are strongly magnetically repelled from each other if they come within 10 feet.",
+  },
+  "Scry": {
+    name: "Scry",
+    passive: false,
+    1: "You can see through the eyes of a known creature.",
+  },
+  "Sculpt Elements": {
+    name: "Sculpt Elements",
+    passive: false,
+    1: "All inanimate material behaves like clay in your hands.",
+  },
 };
 // https://rpgbot.net/dnd5/characters/classes/wizard/spells.html
-
-// Repel: L+1 objects are strongly magnetically repelled from each other if they come within 10 feet.
-
-// Scry: You can see through the eyes of a known creature.
-
-// Sculpt Elements: All inanimate material behaves like clay in your hands.
 
 // Shroud: L creatures become invisible until they move.
 
