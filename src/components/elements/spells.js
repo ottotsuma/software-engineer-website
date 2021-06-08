@@ -785,16 +785,28 @@ export const spellList = {
     passive: false,
     1: "You become a living jelly.",
   },
+  "Pacify": {
+    name: "Pacify",
+    passive: false,
+    1: "1 creatures have a sudden aversion to violence.",
+  },
+  "Phantom Coach": {
+    name: "Phantom Coach",
+    passive: false,
+    1: "A ghostly coach appears until end of spell. It moves unnaturally fast over any terrain, even water.",
+  },
+  "Phobia": {
+    name: "Phobia",
+    passive: false,
+    1: "1 creatures are terrified of an object of your choice.",
+  },
+  "Primeval Surge": {
+    name: "Primeval Surge",
+    passive: false,
+    1: "A mundane animal grows to the size of an elephant and is enraged.",
+  },
 };
 // https://rpgbot.net/dnd5/characters/classes/wizard/spells.html
-
-// Pacify: L creatures have a sudden aversion to violence.
-
-// Phantom Coach: A ghostly coach appears until end of spell. It moves unnaturally fast over any terrain, even water.
-
-// Phobia: L creatures are terrified of an object of your choice.
-
-// Primeval Surge: A mundane animal grows to the size of an elephant and is enraged.
 
 // Psychometry: The referee answers L yes or no questions about a touched object.
 
