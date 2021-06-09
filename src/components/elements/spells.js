@@ -1053,6 +1053,26 @@ export const spellList = {
     passive: true,
     1: "You are a big strong target. +1 Strength, -1 Dexterity.",
   },
+  "Cleave": {
+    name: "Cleave",
+    passive: false,
+    1: "The follow through from your melee weapon strikes.",
+  },
+  "Commanding Presence": {
+    name: "Commanding Presence",
+    passive: true,
+    1: "Command points +1 for every 10 Charisma.",
+  },
+  "Conservator": {
+    name: "Conservator",
+    passive: true,
+    1: "You have the ability to identify magic items. (Improved inspect)",
+  },
+  "Dragonborn Heritage": {
+    name: "Dragonborn Heritage",
+    passive: true,
+    1: "Your lineage allows you recover from your wounds faster than normal. ",
+  },
 };
 
 // https://i.4pcdn.org/tg/1498966145042.pdf
