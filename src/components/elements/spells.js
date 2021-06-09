@@ -997,6 +997,41 @@ export const spellList = {
     passive: false,
     1: "Your finger can shoot a stream of brightly-colored paint. This paint is only visible to wizards, and can be seen at any distance, even through solid objects. Fades after L days.",
   },
+  "Agile": {
+    name: "Agile",
+    passive: true,
+    1: "Dexterity +1",
+  },
+  "Beast Combo Strike": {
+    name: "Beast Combo Strike",
+    passive: false,
+    1: "Both you and your Beast companion attack the same target.",
+  },
+  "Beast Intercept": {
+    name: "Beast Intercept",
+    passive: false,
+    1: "Your best intercepts the target.",
+  },
+  "Blessed Divine Smite": {
+    name: "Blessed Divine Smite",
+    passive: false,
+    1: "Your Divine Smite strikes are further empowered by your deity’s grace. ",
+  },
+  "Best Defense is a Strong Offense": {
+    name: "Best Defense is a Strong Offense",
+    passive: false,
+    1: "On the first strike you receive your defense is used to damage the target instead of reducing damage.",
+  },
+  "Blinding Strike": {
+    name: "Blinding Strike",
+    passive: false,
+    1: "Your weapon strike momentary blinds the target.",
+  },
+  "Bloodline of Fire": {
+    name: "Bloodline of Fire",
+    passive: true,
+    1: "Fire +1%.",
+  },
 };
 
 // https://i.4pcdn.org/tg/1498966145042.pdf
