@@ -1032,6 +1032,27 @@ export const spellList = {
     passive: true,
     1: "Fire +1%.",
   },
+  "Bloodhunt": {
+    name: "Bloodhunt",
+    passive: false,
+    1: "You can sense blood from far away.",
+    2: "When your target is wounded you gain +1 to a random stat.",
+  },
+  "Born Sneaky": {
+    name: "Born Sneaky",
+    passive: true,
+    1: "Dexterity +1",
+  },
+  "Cheap Shot": {
+    name: "Cheap Shot",
+    passive: false,
+    1: "Can only be use when a target is not targeting you.",
+  },
+  "Built like a": {
+    name: "Built like a",
+    passive: true,
+    1: "You are a big strong target. +1 Strength, -1 Dexterity.",
+  },
 };
 
 // https://i.4pcdn.org/tg/1498966145042.pdf
