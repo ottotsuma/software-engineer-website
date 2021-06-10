@@ -10,10 +10,6 @@ import React from "react";
 // Discharge, Charged Charge.
 
 export const spellList = {
-  Example: {
-    name: "Example",
-    1: "Example",
-  },
   "Charged Charge": {
     name: "Charged Charge",
     1: "Stimulates your muscles in your legs with lightning shocks, to boost your speed.",
