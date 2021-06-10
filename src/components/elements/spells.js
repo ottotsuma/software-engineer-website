@@ -89,6 +89,9 @@ export const spellList = {
     name: "Serpent-Skin",
     1: "Your skin slowly becomes like a serpents. Able to turn on and off scaled armor over your skin.",
     2: "Your skin slowly becomes like a serpents. Able to turn on and off scaled armor over your skin.", // ch32
+    3: "Endurance +3",
+    4: "Endurance +4",
+    5: "Endurance +5",
   },
   Haietlik: {
     name: "Haietlik",
@@ -101,12 +104,12 @@ export const spellList = {
   "Kʼawiil Bolt": {
     name: "Kʼawiil Bolt",
     1: "Releases a burst of Kʼawiil-lightning from range.",
-    2: "Releases a burst of Kʼawiil-lightning from range.",
+    2: "Releases a burst of Kʼawiil-lightning from range.",// ch32
   },
   "Kʼawiil Burst": {
     name: "Kʼawiil Burst",
     1: "Releases a burst of Kʼawiil-lightning on contact.",
-    2: "Releases a burst of Kʼawiil-lightning on contact.",
+    2: "Releases a burst of Kʼawiil-lightning on contact.",// ch32
   },
   "Lightning Plant": {
     name: "Lightning Plant",
@@ -129,6 +132,7 @@ export const spellList = {
     7: "All of your harvests are increased by 70%.",
     8: "All of your harvests are increased by 80%.",
     9: "All of your harvests are increased by 90%.",
+    10: "All of your harvests are increased by 100%, recover 20% HP.",
   },
   "Reap what you Sow": {
     name: "Reap what you Sow",
@@ -147,22 +151,40 @@ export const spellList = {
     7: "Uses plant material to summon a level 70 scarecrow.",
     8: "Uses plant material to summon a level 80 scarecrow.",
     9: "Uses plant material to summon a level 90 scarecrow.",
+    10: "Uses plant material to summon a level 100 scarecrow. Equipment provided.",
   },
   "Lightning harvest": {
     name: "Lightning harvest",
     note: "Harvest the target. [If the target is below 20% HP this attack does 200% more damage. If this target is a 'plant' type this attack does 500% more damage. If this attack kills the target you have a chance to harvest something.]",
     1: "Harvest the target. [If the target is below 20% HP this attack does 200% more damage. If this target is a 'plant' type this attack does 500% more damage. If this attack kills the target you have a chance to harvest something.]",
     2: "Harvest the target. [If the target is below 20% HP this attack does 250% more damage. If this target is a 'plant' type this attack does 600% more damage. If this attack kills the target you have a chance to harvest something.]",
+    3: "Harvest the target. [If the target is below 20% HP this attack does 300% more damage. If this target is a 'plant' type this attack does 700% more damage. If this attack kills the target you have a chance to harvest something.]",
+    4: "Harvest the target. [If the target is below 20% HP this attack does 350% more damage. If this target is a 'plant' type this attack does 800% more damage. If this attack kills the target you have a chance to harvest something.]",
+    5: "Harvest the target. [If the target is below 20% HP this attack does 400% more damage. If this target is a 'plant' type this attack does 900% more damage. If this attack kills the target you have a chance to harvest something.]",
+    6: "Harvest the target. [If the target is below 20% HP this attack does 450% more damage. If this target is a 'plant' type this attack does 1000% more damage. If this attack kills the target you have a chance to harvest something.]",
+    7: "Harvest the target. [If the target is below 20% HP this attack does 500% more damage. If this target is a 'plant' type this attack does 1000% more damage. If this attack kills the target you have a chance to harvest something.]",
+    8: "Harvest the target. [If the target is below 20% HP this attack does 550% more damage. If this target is a 'plant' type this attack does 1000% more damage. If this attack kills the target you have a chance to harvest something.]",
+    9: "Harvest the target. [If the target is below 20% HP this attack does 600% more damage. If this target is a 'plant' type this attack does 1000% more damage. If this attack kills the target you have a chance to harvest something.]",
   },
   "Lightning growth": {
     name: "Lightning growth",
-    1: "Force the target to grow.",
-    2: "Force the target to grow.",
+    1: "Force the target to grow.", // 5% increase stats
+    2: "Force the target to grow.", // ch32 // +1 all base stats
+    3: "All targets base stats +2 for the duration of the spells.", 
+    4: "All targets stats +10% for the duration of the spells.", 
   },
   "Lightning germination": {
     name: "Lightning germination",
-    1: "Stimulate a target into germinating",
-    2: "Stimulate a target into germinating",
+    1: "Stimulate a target into germinating", // 10\10 secs 
+    2: "Stimulate a target into germinating", // ch32 // 10\9 secs
+    3: "Target heals 12% of their max hp over 7 seconds.", // 12\7
+    4: "Target heals 12% of their max hp over 6 seconds.", // 12\7
+    5: "Target heals 14% of their max hp over 5 seconds.", // 14\7
+    6: "Target heals 14% of their max hp over 4 seconds.", // 14\7
+    7: "Target heals 16% of their max hp over 3 seconds.", // 16\7
+    8: "Target heals 16% of their max hp over 2 seconds.", // 16\7
+    9: "Target heals 18% of their max hp over 1 seconds.", // 18\7
+    10: "Target heals 25% of their max hp.",
   },
   "Seeds to Soldiers": {
     name: "Seeds to Soldiers",
@@ -175,16 +197,32 @@ export const spellList = {
     note: "Shoots a group of [x] seed(s) in a spread from the user. The seeds attach to opponent(s) and cause lightning damage over time. A part of the damage is used to restore your as mana. [x is equal to spell level.]",
     1: "Shoots a group of 1 seed in a spread from the user. The seeds attach to an opponent and cause lightning damage over time. A part of the damage is used to restore your as mana.",
     2: "Shoots a group of 2 seeds in a spread from the user. The seeds attach to opponents and cause lightning damage over time. A part of the damage is used to restore your as mana.",
+    3: "Total seeds: 3. Mana Drain: 10%.",
+    4: "Total seeds: 4. Mana Drain: 10%.",
+    5: "Total seeds: 5. Mana Drain: 10%.",
+    6: "Total seeds: 6. Mana Drain: 10%.",
+    7: "Total seeds: 7. Mana Drain: 10%.",
+    8: "Total seeds: 8. Mana Drain: 10%.",
+    9: "Total seeds: 9. Mana Drain: 10%.",
+    10: "Total seeds: 10. Mana Drain: 20%.",
   },
   "Mana Ball": {
     name: "Mana Ball",
     1: "Gathers mana into a ball. Gives off a small amount of light.",
+    2: ".",
   },
   "Mana Orbs": {
     name: "Mana Orbs",
     1: "(3) Mana balls rotate around the user, hitting anything that comes into contact.",
     2: "Mana balls rotate around the user, 3% faster.",
-    3: "Gain and extra mana ball.",
+    3: "Orbit distance is increased while moving.",
+    4: "10% increase in mana ball damage.",
+    5: "Gain and extra mana ball.",
+    6: "Orbit distance is increased while standing still.",
+    7: "Gain and extra mana ball.",
+    8: "10% increase in mana ball damage.",
+    9: "Balls can move away form their path of orbit if a target is near by.",
+    10: "Balls can be shot in all directions, bounce off walls or max range and coming back.",
   },
   Tether: {
     name: "Tether",
@@ -208,6 +246,7 @@ export const spellList = {
     7: "Magic +7",
     8: "Magic +8",
     9: "Magic +9",
+    10: "Magic +10, mana recovery +10%.",
   },
   "Strike": {
     name: "Strike",
@@ -302,6 +341,7 @@ export const spellList = {
     7: "+7 Charisma.",
     8: "+8 Charisma.",
     9: "+9 Charisma.",
+    10: "+10 Charisma, small chance people become infatuated with you.",
   },
   "Beautiful": {
     name: "Beautiful",
@@ -315,6 +355,7 @@ export const spellList = {
     7: "+7 Charisma.",
     8: "+8 Charisma.",
     9: "+9 Charisma.",
+    10: "+10 Charisma, small chance people become infatuated with you.",
   },
   "Peerless Beauty": {
     name: "Peerless Beauty",
@@ -328,6 +369,7 @@ export const spellList = {
     7: "+14 Charisma.",
     8: "+16 Charisma.",
     9: "+18 Charisma.",
+    10: "+20 Charisma, chance people become infatuated with you.",
   },
   "Lucky": {
     name: "Lucky",
@@ -346,6 +388,7 @@ export const spellList = {
     7: "+7 Charisma.",
     8: "+8 Charisma.",
     9: "+9 Charisma.",
+    10: "+10 Charisma, I'll do it, even if I don't like it.",
   },
   "Brave": {
     name: "Brave",
@@ -371,6 +414,7 @@ export const spellList = {
     7: "When using tools gain +7 proficiency.",
     8: "When using tools gain +8 proficiency.",
     9: "When using tools gain +9 proficiency.",
+    10: "When using tools gain +10 proficiency, tools have +1 bonus stat.",
   },
   "Human Resolve": {
     name: "Human Resolve",
@@ -384,6 +428,7 @@ export const spellList = {
     7: "Boost all stats 10% for 14 second.",
     8: "Boost all stats 10% for 16 second.",
     9: "Boost all stats 10% for 18 second.",
+    10: "Boost all stats 20% for 20 second.",
   },
   "Plant Form": {
     name: "Plant Form",
@@ -402,6 +447,7 @@ export const spellList = {
     7: "Environmental debuffs effect -35%.",
     8: "Environmental debuffs effect -40%.",
     9: "Environmental debuffs effect -45%.",
+    10: "Environmental debuffs effect -50%, pull less agro.",
   },
   "Healthy": {
     name: "Healthy",
@@ -429,6 +475,7 @@ export const spellList = {
     7: "Movement speed +14%",
     8: "Movement speed +16%",
     9: "Movement speed +18%",
+    10: "Movement speed +20%, effects that reduce movement speed are halved.",
   },
   "Perception": {
     name: "Perception",
@@ -442,6 +489,7 @@ export const spellList = {
     7: "Sense +7",
     8: "Sense +8",
     9: "Sense +9",
+    10: "Sense +10, basic traps will cause 0 damage.",
   },
   "Quick": {
     name: "Quick",
@@ -1232,6 +1280,11 @@ export const spellList = {
     name: "Witchcraft",
     passive: true,
     1: ".",
+  },
+  "Midas": {
+    name: "Midas",
+    passive: true,
+    1: "Opponents always drop at least one coin.",
   },
 };
 
