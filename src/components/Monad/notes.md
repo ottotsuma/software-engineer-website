@@ -439,7 +439,7 @@ Orange - 0-50 + 4, 51 - 100 +3
 ## Countries:
 
 Granduchy - elected grand duke from dukes.
-principality - ruled by a prince
+principality - ruled by a prince 
 kingdom - king
 republic - representatives from each place - all elected also
 Places joined together though alliance? to act as one unit under one representative
@@ -460,6 +460,7 @@ Stability - Mostly stable for now.
 Secrets -
 Food - Fertile land, but too focused on military to make good use of it
 Economy type -
+Unique Unit - Witches
 
 Republic (EU?Roman)
 Military - Varied individuals from states, strong together, strong military, weak navy
@@ -471,6 +472,7 @@ Stability - Unstable now, use to be stable.
 Secrets -
 Food - Fertile land in the east, less fertile to the south and west.
 Economy type -
+Unique Unit - Throwing Axes
 
 League (Elf)
 Military - Medium individuals, strong together but only one race, strong navy, medium military (use to be weak)
@@ -482,6 +484,7 @@ Stability - Mostly stable
 Secrets -
 Food -
 Economy type -
+Unique Unit - 
 
 Pocotcotco (Aztec use to be Mayan)
 Military - Weak individuals, strong heros?, weak military, no navy
@@ -493,6 +496,7 @@ Stability - Unknown
 Secrets - Human sacrifice
 Food - Fertile land, but too focused on traditional ways to make good use of it
 Economy type -
+Unique Unit - Eagle Warrior
 
 Kingdom (Empire)
 Military - weak individuals, strong together, many varied units with a strong core, strong military, weak navy
@@ -504,6 +508,7 @@ Stability - Stable under one ruler, unstable during changes.
 Secrets - The current king is weak and it is the queen who has been fighting dressed as him
 Food - Mostly desert, imports food from others
 Economy type -
+Unique Unit - 
 
 Leika (Japan)
 Military - weak individuals, strong together, strong military, Strong navy
@@ -515,6 +520,7 @@ Stability - Stable
 Secrets - Racist
 Food - Fertile land makes good use of it
 Economy type -
+Unique Unit - Samurai
 
 Huonhia - essos, lyric speaking? - free city types
 Military - Strong individuals, strong core, weak auxiliary branches, would be strong overall if they would work together
@@ -526,6 +532,7 @@ Stability - Unstable until there is an external threat
 Secrets -
 Food - Fertile land, but worked by the slaves
 Economy type -
+Unique Unit - 
 
 Chalbia (Port)
 Military - Average individuals, strong navy, weak land forces, but very rich
@@ -537,6 +544,7 @@ Stability - mostly Stable internally, strong neighbor's
 Secrets -
 Food - Imports  
 Economy type -
+Unique Unit - 
 
 **Minor**
 
