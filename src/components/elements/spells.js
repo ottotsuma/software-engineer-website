@@ -3,13 +3,31 @@ import React from "react";
 
 // Kʼawiil - Lightning, seeds, abundance, powerful one, fertility, serpent
 
-// Lightning mages Rank 1
-// Chain Lightning, Dazing Bolt, Thunderstorm, Shocking Touch, Sparks,
-// Lightning Bolt, Lightning Rune, Lightning Cloak,
-// Thunderbolt, Static Field, Wall of lightning, Lightning Storm,
-// Discharge, Charged Charge.
+// Rouge: Side/Back -- Back -- Side (3rd one is intermediate), (4th advanced)
+// Fighter: ?? -- ?? -- ?? (3rd one is intermediate), (4th advanced)
+// Mage: ?? -- ?? -- ?? (3rd one is intermediate), (4th advanced)
 
 export const spellList = {
+  "Sharp Slash": {
+    note: "Rogue",
+    name: "Sharp Slash",
+    1: ".",
+  },
+  "Slashing Edge": {
+    note: "Rogue",
+    name: "Slashing Edge",
+    1: ".",
+  },
+  "Headbutt": {
+    note: "Rogue",
+    name: "Headbutt",
+    1: ".",
+  },
+  "Fleet of Foot": {
+    note: "Rogue",
+    name: "Fleet of Foot",
+    1: ".",
+  },
   "Charged Charge": {
     name: "Charged Charge",
     1: "Stimulates your muscles in your legs with lightning shocks, to boost your speed.",
@@ -98,8 +116,8 @@ export const spellList = {
     1: "Throw a snake shaped lighting bolt to hook onto a target, dealing damage in the process.",
   },
   "Kʼawiil Rain": {
-    name: "Rain ",
-    1: "",
+    name: "Kʼawiil Rain ",
+    1: "It starts raining, the rain recovers the HP of your summons/plants.",
   },
   "Kʼawiil Bolt": {
     name: "Kʼawiil Bolt",
@@ -1179,7 +1197,7 @@ export const spellList = {
   "Aura": {
     name: "Aura",
     passive: true,
-    1: ".",
+    1: "You can now produce an Aura.",
   },
   "Improved Cloak of Shadows": {
     name: "Improved Cloak of Shadows",
@@ -1194,37 +1212,37 @@ export const spellList = {
   "Improved Gift of Lightning": {
     name: "Improved Gift of Lightning",
     passive: true,
-    1: ".",
+    1: "Lightning +2%.",
   },
   "Misty Escape": {
     name: "Misty Escape",
     passive: false,
-    1: ".",
+    1: "Mist appears around you.",
   },
   "Improved Natural Recovery": {
     name: "Improved Natural Recovery",
     passive: true,
-    1: ".",
+    1: "Your natural recovery is increased.",
   },
   "Turn the Unholy": {
     name: "Turn the Unholy",
     passive: false,
-    1: ".",
+    1: "???",
   },
   "Turn Undead": {
     name: "Turn Undead",
     passive: false,
-    1: ".",
+    1: "Undead races will be damaged in an area around you.",
   },
   "Turn the Faithless": {
     name: "Turn the Faithless",
     passive: false,
-    1: ".",
+    1: "Those without Faith will turn around.",
   },
   "Uncanny Dodge": {
     name: "Uncanny Dodge",
     passive: true,
-    1: ".",
+    1: "Sometimes hits did not land on you.",
   },
   "Indomitable": {
     name: "Indomitable",
@@ -1234,52 +1252,52 @@ export const spellList = {
   "Last Stand": {
     name: "Last Stand",
     passive: false,
-    1: ".",
+    1: "For the next 3 seconds you cannot die.",
   },
   "Natural Diplomat": {
     name: "Natural Diplomat",
     passive: true,
-    1: ".",
+    1: "+1 Charisma.",
   },
   "Nature Sense": {
     name: "Nature Sense",
     passive: true,
-    1: ".",
+    1: "+1 Sense outside of settlements.",
   },
   "Poisoncraft": {
     name: "Poisoncraft",
     passive: true,
-    1: ".",
+    1: "Poison +1%.",
   },
   "Rejuvenate": {
     name: "Rejuvenate",
     passive: false,
-    1: ".",
+    1: "Targets HP is recovered by 10% of their max HP over the next 5 seconds.",
   },
   "Shadow Strike": {
     name: "Shadow Strike",
     passive: false,
-    1: ".",
+    1: "Striking from a shadow, dealing +50% damage to unaware targets.",
   },
   "Sunlight Adaptation": {
     name: "Sunlight Adaptation",
     passive: true,
-    1: ".",
+    1: "Your stats +10% in sunlight!.",
   },
   "Tool Focus": {
     name: "Tool Focus",
     passive: true,
-    1: ".",
+    1: "+1 tool proficiency.",
   },
   "Vicious Critical": {
     name: "Vicious Critical",
     passive: true,
-    1: ".",
+    1: "Your critical can critical!.",
   },
   "Witchcraft": {
     name: "Witchcraft",
     passive: true,
-    1: ".",
+    1: "Potions are 10% better.",
   },
   "Midas": {
     name: "Midas",
