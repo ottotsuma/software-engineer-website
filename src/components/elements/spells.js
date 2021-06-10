@@ -1283,6 +1283,8 @@ export const spellList = {
     name: "Sunlight Adaptation",
     passive: true,
     1: "Your stats +10% in sunlight!.",
+    2: "Your MP recovers slightly faster in sunlight.",
+    3: ".",
   },
   "Tool Focus": {
     name: "Tool Focus",
