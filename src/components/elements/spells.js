@@ -17,6 +17,10 @@ export const spellList = {
   "Charged Charge": {
     name: "Charged Charge",
     1: "Stimulates your muscles in your legs with lightning shocks, to boost your speed.",
+    2: "Move 5% faster while charging.",
+    3: "Do 10% more impact damage.",
+    4: "Cost 5% less mana.",
+    5: "Charge can last 1 second longer.",
   },
   "Lightning Storm": {
     name: "Lightning Storm",
@@ -1211,9 +1215,6 @@ export const spellList = {
   },
 };
 
-// https://i.4pcdn.org/tg/1498966145042.pdf
-
-// Add spell (level/rank). Changes description.
 function Spells({ spells, type }) {
   const array = [];
   for (let index = 0; index < spells.length; index++) {
