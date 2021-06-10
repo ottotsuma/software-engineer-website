@@ -532,7 +532,7 @@ Stability - Unstable until there is an external threat
 Secrets -
 Food - Fertile land, but worked by the slaves
 Economy type -
-Unique Unit - 
+Unique Unit - Sacred Band
 
 Chalbia (Port)
 Military - Average individuals, strong navy, weak land forces, but very rich
@@ -544,7 +544,7 @@ Stability - mostly Stable internally, strong neighbor's
 Secrets -
 Food - Imports  
 Economy type -
-Unique Unit - 
+Unique Unit - Pirate
 
 **Minor**
 
