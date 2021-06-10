@@ -1305,6 +1305,9 @@ export const spellList = {
     name: "Midas",
     passive: true,
     1: "Opponents always drop at least one coin.",
+    2: "Coins gained +1%.",
+    3: "Every new town you visit, +100 coins.",
+    4: "Donkey Ears.",
   },
 };
 
