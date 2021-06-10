@@ -182,8 +182,9 @@ export const spellList = {
   },
   "Mana Orbs": {
     name: "Mana Orbs",
-    1: "Mana balls rotate around the user, hitting anything that comes into contact.",
+    1: "(3) Mana balls rotate around the user, hitting anything that comes into contact.",
     2: "Mana balls rotate around the user, 3% faster.",
+    3: "Gain and extra mana ball.",
   },
   Tether: {
     name: "Tether",
@@ -1071,7 +1072,142 @@ export const spellList = {
   "Dragonborn Heritage": {
     name: "Dragonborn Heritage",
     passive: true,
-    1: "Your lineage allows you recover from your wounds faster than normal. ",
+    1: "Your lineage allows you recover from your wounds faster than normal.",
+  },
+  "Great Fortitude": {
+    name: "Great Fortitude",
+    passive: true,
+    1: "You are extraordinarily healthier than normal.",
+  },
+  "Greater Arcane Recovery": {
+    name: "Greater Arcane Recovery",
+    passive: true,
+    1: "You can regain higher magical energy than normal.",
+  },
+  "Improved Arcane Recovery": {
+    name: "Improved Arcane Recovery",
+    passive: true,
+    1: "You can regain higher magical energy than normal.",
+  },
+  "Favored Enemy": {
+    name: "Favored Enemy",
+    passive: true,
+    1: "You know how to exploit your favored enemies’ vulnerabilities in combat.",
+  },
+  "Hamstring": {
+    name: "Hamstring",
+    passive: false,
+    1: "You slash the tendons behind a creature’s leg.",
+  },
+  "Impairing Critical": {
+    name: "Impairing Critical",
+    passive: false,
+    1: "Your critical blows are so fierce they can cause temporary debilitating effects.",
+  },
+  "Aura": {
+    name: "Aura",
+    passive: true,
+    1: ".",
+  },
+  "Improved Cloak of Shadows": {
+    name: "Improved Cloak of Shadows",
+    passive: true,
+    1: ".",
+  },
+  "Improved Dodge": {
+    name: "Improved Dodge",
+    passive: true,
+    1: "You can attack while dodging.",
+  },
+  "Improved Gift of Lightning": {
+    name: "Improved Gift of Lightning",
+    passive: true,
+    1: ".",
+  },
+  "Misty Escape": {
+    name: "Misty Escape",
+    passive: false,
+    1: ".",
+  },
+  "Improved Natural Recovery": {
+    name: "Improved Natural Recovery",
+    passive: true,
+    1: ".",
+  },
+  "Turn the Unholy": {
+    name: "Turn the Unholy",
+    passive: false,
+    1: ".",
+  },
+  "Turn Undead": {
+    name: "Turn Undead",
+    passive: false,
+    1: ".",
+  },
+  "Turn the Faithless": {
+    name: "Turn the Faithless",
+    passive: false,
+    1: ".",
+  },
+  "Uncanny Dodge": {
+    name: "Uncanny Dodge",
+    passive: true,
+    1: ".",
+  },
+  "Indomitable": {
+    name: "Indomitable",
+    passive: true,
+    1: "+1 strength.",
+  },
+  "Last Stand": {
+    name: "Last Stand",
+    passive: false,
+    1: ".",
+  },
+  "Natural Diplomat": {
+    name: "Natural Diplomat",
+    passive: true,
+    1: ".",
+  },
+  "Nature Sense": {
+    name: "Nature Sense",
+    passive: true,
+    1: ".",
+  },
+  "Poisoncraft": {
+    name: "Poisoncraft",
+    passive: true,
+    1: ".",
+  },
+  "Rejuvenate": {
+    name: "Rejuvenate",
+    passive: false,
+    1: ".",
+  },
+  "Shadow Strike": {
+    name: "Shadow Strike",
+    passive: false,
+    1: ".",
+  },
+  "Sunlight Adaptation": {
+    name: "Sunlight Adaptation",
+    passive: true,
+    1: ".",
+  },
+  "Tool Focus": {
+    name: "Tool Focus",
+    passive: true,
+    1: ".",
+  },
+  "Vicious Critical": {
+    name: "Vicious Critical",
+    passive: true,
+    1: ".",
+  },
+  "Witchcraft": {
+    name: "Witchcraft",
+    passive: true,
+    1: ".",
   },
 };
 
