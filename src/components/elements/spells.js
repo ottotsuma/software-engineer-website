@@ -102,6 +102,7 @@ export const spellList = {
     name: "Forked Tongue",
     passive: true,
     1: "Your tongue will become forked, Increased sense of smell.",
+    2: "You learn basic serpent speach.",
   },
   "Serpent Skin": {
     name: "Serpent-Skin",
@@ -1584,6 +1585,27 @@ export const spellList = {
     1: "",
   },
 };
+
+// 1. Summon Lesser Skeleton Warrior
+// 2. Summon Small Bonecrawler
+// 3. Summon Multiple Lesser Skeleton Warriors
+// 4. Summon Skeleton Warrior
+// 5. Raise Greater Skeleton Warrior
+// 6. Summon Multiple Lesser Skeleton Archers
+// 7. Summon Skeleton Archer
+// 8. Death's Touch
+// 9. Stare Of The Overlord
+// 10. Grasp Heart
+// 11. Bone Rejection
+// 12. Spectral Wave
+// 13. Bone Armor
+// 14. Negative Burst
+// 15. Raise Elder Lich
+// 16. Death's Arrival
+// 17 Summon Lesser Skeleton Archer
+// 18 Raise Greater Skeleton Archer
+// 19 Raise Death Knight
+// 20 Aura of Despair
 
 // const array = [
 // ]

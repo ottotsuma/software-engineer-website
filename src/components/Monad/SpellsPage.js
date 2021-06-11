@@ -15,6 +15,7 @@ export default function SpellsPage() {
   const allLevel7 = []
   const allLevel8 = []
   const allLevel9 = []
+  const allLevel10 = []
   for (let index = 0; index < array.length; index++) {
     const element = array[index];
     allSpellsArray.push({ name: element, level: 1 });
@@ -26,6 +27,7 @@ export default function SpellsPage() {
     allLevel7.push({ name: element, level: 7 });
     allLevel8.push({ name: element, level: 8 });
     allLevel9.push({ name: element, level: 9 });
+    allLevel10.push({ name: element, level: 10 });
   }
 
   return (
@@ -49,6 +51,8 @@ export default function SpellsPage() {
         <Spells spells={allLevel8} type={"mage"} />
         <h1>Level 9 Spells:</h1>
         <Spells spells={allLevel9} type={"mage"} />
+        <h1>Level 10 Spells:</h1>
+        <Spells spells={allLevel10} type={"mage"} />
       </Wrapper>
     </Content>
   );
