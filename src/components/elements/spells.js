@@ -18,7 +18,7 @@ export const spellList = {
     name: "Slashing Edge",
     1: ".",
   },
-  "Headbutt": {
+  Headbutt: {
     note: "Rogue",
     name: "Headbutt",
     1: ".",
@@ -122,12 +122,12 @@ export const spellList = {
   "Kʼawiil Bolt": {
     name: "Kʼawiil Bolt",
     1: "Releases a burst of Kʼawiil-lightning from range.",
-    2: "Releases a burst of Kʼawiil-lightning from range.",// ch32
+    2: "Releases a burst of Kʼawiil-lightning from range.", // ch32
   },
   "Kʼawiil Burst": {
     name: "Kʼawiil Burst",
     1: "Releases a burst of Kʼawiil-lightning on contact.",
-    2: "Releases a burst of Kʼawiil-lightning on contact.",// ch32
+    2: "Releases a burst of Kʼawiil-lightning on contact.", // ch32
   },
   "Lightning Plant": {
     name: "Lightning Plant",
@@ -188,12 +188,12 @@ export const spellList = {
     name: "Lightning growth",
     1: "Force the target to grow.", // 5% increase stats
     2: "Force the target to grow.", // ch32 // +1 all base stats
-    3: "All targets base stats +2 for the duration of the spells.", 
-    4: "All targets stats +10% for the duration of the spells.", 
+    3: "All targets base stats +2 for the duration of the spells.",
+    4: "All targets stats +10% for the duration of the spells.",
   },
   "Lightning germination": {
     name: "Lightning germination",
-    1: "Stimulate a target into germinating", // 10\10 secs 
+    1: "Stimulate a target into germinating", // 10\10 secs
     2: "Stimulate a target into germinating", // ch32 // 10\9 secs
     3: "Target heals 12% of their max hp over 7 seconds.", // 12\7
     4: "Target heals 12% of their max hp over 6 seconds.", // 12\7
@@ -266,11 +266,11 @@ export const spellList = {
     9: "Magic +9",
     10: "Magic +10, mana recovery +10%.",
   },
-  "Strike": {
+  Strike: {
     name: "Strike",
     1: "Calls mana in the environment to gather and strike down from above.",
   },
-  "Missile": {
+  Missile: {
     name: "Missile",
     1: "Mana in the shape of a missile shoots towards the target.",
     2: "+1 Missile.",
@@ -322,7 +322,7 @@ export const spellList = {
     passive: true,
     1: "Increases mana recovery speed.",
   },
-  "Talented": {
+  Talented: {
     name: "Talented",
     passive: true,
     1: "1% increase to experience gained.",
@@ -335,7 +335,7 @@ export const spellList = {
     8: "8% increase to experience gained.",
     9: "9% increase to experience gained.",
   },
-  "Genius": {
+  Genius: {
     name: "Genius",
     passive: true,
     1: "2% increase to experience gained",
@@ -374,7 +374,7 @@ export const spellList = {
     8: "80% increase to experience gained.",
     9: "90% increase to experience gained.",
   },
-  "Handsome": {
+  Handsome: {
     name: "Handsome",
     passive: true,
     1: "+1 Charisma.",
@@ -388,7 +388,7 @@ export const spellList = {
     9: "+9 Charisma.",
     10: "+10 Charisma, small chance people become infatuated with you.",
   },
-  "Beautiful": {
+  Beautiful: {
     name: "Beautiful",
     passive: true,
     1: "+1 Charisma.",
@@ -416,12 +416,12 @@ export const spellList = {
     9: "+18 Charisma.",
     10: "+20 Charisma, chance people become infatuated with you.",
   },
-  "Lucky": {
+  Lucky: {
     name: "Lucky",
     passive: true,
     1: "Slight chance of finding a rarer item.",
   },
-  "Persuasive": {
+  Persuasive: {
     name: "Persuasive",
     passive: true,
     1: "+1 Charisma.",
@@ -435,7 +435,7 @@ export const spellList = {
     9: "+9 Charisma.",
     10: "+10 Charisma, I'll do it, even if I don't like it.",
   },
-  "Brave": {
+  Brave: {
     name: "Brave",
     passive: true,
     1: "Chance to resist fear.",
@@ -448,7 +448,8 @@ export const spellList = {
   },
   "Human Ingenuity": {
     name: "Human Ingenuity",
-    notes: "E.g. Spear has +1 strength then you get +1 another one. This is only for 'tools' not armor.",
+    notes:
+      "E.g. Spear has +1 strength then you get +1 another one. This is only for 'tools' not armor.",
     passive: true,
     1: "When using tools gain +1 proficiency.",
     2: "When using tools gain +2 proficiency.",
@@ -480,7 +481,7 @@ export const spellList = {
     passive: true,
     1: "Take the form of a plant you have seen.",
   },
-  "Adaptable": {
+  Adaptable: {
     name: "Adaptable",
     passive: true,
     1: "Environmental debuffs effect -5%.",
@@ -494,7 +495,7 @@ export const spellList = {
     9: "Environmental debuffs effect -45%.",
     10: "Environmental debuffs effect -50%, pull less agro.",
   },
-  "Healthy": {
+  Healthy: {
     name: "Healthy",
     passive: true,
     1: "Vitality +1.",
@@ -508,7 +509,7 @@ export const spellList = {
     9: "Vitality +5, chance to resist poisons & diseases, greater HP regeneration.",
     10: "Vitality +5, greater chance to resist poisons & diseases, greater HP regeneration.",
   },
-  "Athletic": {
+  Athletic: {
     name: "Athletic",
     passive: true,
     1: "Movement speed +2%",
@@ -522,7 +523,7 @@ export const spellList = {
     9: "Movement speed +18%",
     10: "Movement speed +20%, effects that reduce movement speed are halved.",
   },
-  "Perception": {
+  Perception: {
     name: "Perception",
     passive: true,
     1: "Sense +1",
@@ -536,7 +537,7 @@ export const spellList = {
     9: "Sense +9",
     10: "Sense +10, basic traps will cause 0 damage.",
   },
-  "Quick": {
+  Quick: {
     name: "Quick",
     passive: true,
     1: "Dexterity +1",
@@ -548,7 +549,7 @@ export const spellList = {
     1: "Willpower +1",
     2: "Willpower +2",
   },
-  "Perseverance": {
+  Perseverance: {
     name: "Perseverance",
     passive: true,
     1: "Willpower +1",
@@ -597,7 +598,7 @@ export const spellList = {
     1: "Magic +1",
     2: "Magic +2",
   },
-  "Astute": {
+  Astute: {
     name: "Astute",
     passive: true,
     1: "Magic +1",
@@ -633,12 +634,12 @@ export const spellList = {
     passive: true,
     1: "Lightning damage +1%",
   },
-  "Adhere": {
+  Adhere: {
     name: "Adhere",
     passive: false,
     1: "Makes an object sticky.",
   },
-  "Aethersight": {
+  Aethersight: {
     name: "Aethersight",
     passive: false,
     1: "Magical auras glow brightly for you.",
@@ -648,12 +649,12 @@ export const spellList = {
     passive: false,
     1: "An object animates under your control.",
   },
-  "Anthropomorphize": {
+  Anthropomorphize: {
     name: "Anthropomorphize",
     passive: false,
     1: "A touched animal either gains human a characteristic.",
   },
-  "Arboriate": {
+  Arboriate: {
     name: "Arboriate",
     passive: false,
     1: "You become a walking tree up to 10ft tall.",
@@ -683,7 +684,7 @@ export const spellList = {
     passive: false,
     1: "You create illusory noises that appear to come from a direction of your choice.",
   },
-  "Beacon": {
+  Beacon: {
     name: "Beacon",
     passive: false,
     1: "A touched object begins emitting a psychic pulse that draws the curiosity of all monsters within 1 mile.",
@@ -693,7 +694,7 @@ export const spellList = {
     passive: false,
     1: "You transform into a mundane animal.",
   },
-  "Befuddle": {
+  Befuddle: {
     name: "Befuddle",
     passive: false,
     1: "1 creature of your choice are unable to form new short-term memories for the duration of the spell.",
@@ -708,17 +709,17 @@ export const spellList = {
     passive: false,
     1: "You switch bodies with a creature you touch. If one body dies, the other dies as well.",
   },
-  "Charm": {
+  Charm: {
     name: "Charm",
     passive: false,
     1: "A creature treat you like a friend.",
   },
-  "Command": {
+  Command: {
     name: "Command",
     passive: false,
     1: "A creature obeys a single, three-word command that does not harm it.",
   },
-  "Comprehend": {
+  Comprehend: {
     name: "Comprehend",
     passive: false,
     1: "You become fluent in all languages.",
@@ -728,37 +729,37 @@ export const spellList = {
     passive: false,
     1: " You may alter the type of weather at will, but you do not otherwise control it.",
   },
-  "Counterspell": {
+  Counterspell: {
     name: "Counterspell",
     passive: false,
     1: "Chance to cancel a targets spell.",
   },
-  "Deafen": {
+  Deafen: {
     name: "Deafen",
     passive: false,
     1: "Nearby creatures of your choice are deafened.",
   },
-  "Disassemble": {
+  Disassemble: {
     name: "Disassemble",
     passive: false,
     1: "Any of your body parts may be detached and reattached at will, without causing pain or damage. You can still control them.",
   },
-  "Disguise": {
+  Disguise: {
     name: "Disguise",
     passive: false,
     1: "You may alter the appearance of 1 characters at will as long as they remain humanoid. Attempts to impersonate other characters will seem uncanny.",
   },
-  "Displace": {
+  Displace: {
     name: "Displace",
     passive: false,
     1: "Shift an object’s apparent position by up to 10cm.",
   },
-  "Earthquake": {
+  Earthquake: {
     name: "Earthquake",
     passive: false,
     1: "The ground begins shaking violently. Structures may be damaged or collapse.",
   },
-  "Elasticity": {
+  Elasticity: {
     name: "Elasticity",
     passive: false,
     1: "Your body can stretch up to 10cm.",
@@ -768,12 +769,12 @@ export const spellList = {
     passive: false,
     1: "Summon an elemental spite.",
   },
-  "Feast": {
+  Feast: {
     name: "Feast",
     passive: false,
     1: "A huge table appears, laden with food.",
   },
-  "Filch": {
+  Filch: {
     name: "Filch",
     passive: false,
     1: "1 visible item teleport to your hands.",
@@ -788,7 +789,7 @@ export const spellList = {
     passive: false,
     1: "A cloud of dense fog spreads out from you.",
   },
-  "Frenzy": {
+  Frenzy: {
     name: "Frenzy",
     passive: false,
     1: "1 creature erupts in a frenzy of random violence.",
@@ -803,7 +804,7 @@ export const spellList = {
     passive: false,
     1: "You can change the direction of gravity (for yourself only) once every 6 seconds.",
   },
-  "Haste": {
+  Haste: {
     name: "Haste",
     passive: false,
     1: "Your movement speed is tripled.",
@@ -813,17 +814,17 @@ export const spellList = {
     passive: false,
     1: "You can hear the faintest sounds clearly.",
   },
-  "Hover": {
+  Hover: {
     name: "Hover",
     passive: false,
     1: "An object hovers, frictionless, 2’ above the ground. Can hold up to 5 humanoids.",
   },
-  "Hypnotize": {
+  Hypnotize: {
     name: "Hypnotize",
     passive: false,
     1: "A creature enters a trance and will truthfully answer L yes or no questions you ask it.",
   },
-  "Illuminate": {
+  Illuminate: {
     name: "Illuminate",
     passive: false,
     1: "???",
@@ -833,17 +834,17 @@ export const spellList = {
     passive: false,
     1: "The gravity in a nearby area triples.",
   },
-  "Ironbane": {
+  Ironbane: {
     name: "Ironbane",
     passive: false,
     1: "Any iron that touches you disintegrates.",
   },
-  "Knock": {
+  Knock: {
     name: "Knock",
     passive: false,
     1: "All nearby locks, clasps, and buckles open.",
   },
-  "Leap": {
+  Leap: {
     name: "Leap",
     passive: false,
     1: "You can jump up to 30’ at a time.",
@@ -858,7 +859,7 @@ export const spellList = {
     passive: false,
     1: "All nearby magical effects have their effectiveness halved.",
   },
-  "Manse": {
+  Manse: {
     name: "Manse",
     passive: false,
     1: "A sturdy, fully furnished cottage appears. You can permit and forbid entry to it at will. Lasts 12 hours.",
@@ -868,12 +869,12 @@ export const spellList = {
     passive: false,
     1: "Your pockets are always full of marbles.",
   },
-  "Masquerade": {
+  Masquerade: {
     name: "Masquerade",
     passive: false,
     1: "1 targets appearances and voices become identical to yours.",
   },
-  "Miniaturize": {
+  Miniaturize: {
     name: "Miniaturize",
     passive: false,
     1: "You and 1 other touched creatures are reduced to the size of a mouse.",
@@ -888,12 +889,12 @@ export const spellList = {
     passive: false,
     1: "A mirror becomes a gateway to another mirror that you have looked into today.",
   },
-  "Multiarm": {
+  Multiarm: {
     name: "Multiarm",
     passive: false,
     1: "You gain 1 extra arms until end of spell.",
   },
-  "Objectify": {
+  Objectify: {
     name: "Objectify",
     passive: false,
     1: "You become any inanimate object between the size of a grand piano and an apple.",
@@ -903,7 +904,7 @@ export const spellList = {
     passive: false,
     1: "You become a living jelly.",
   },
-  "Pacify": {
+  Pacify: {
     name: "Pacify",
     passive: false,
     1: "1 creatures have a sudden aversion to violence.",
@@ -913,7 +914,7 @@ export const spellList = {
     passive: false,
     1: "A ghostly coach appears until end of spell. It moves unnaturally fast over any terrain, even water.",
   },
-  "Phobia": {
+  Phobia: {
     name: "Phobia",
     passive: false,
     1: "1 creatures are terrified of an object of your choice.",
@@ -923,17 +924,17 @@ export const spellList = {
     passive: false,
     1: "A mundane animal grows to the size of an elephant and is enraged.",
   },
-  "Psychometry": {
+  Psychometry: {
     name: "Psychometry",
     passive: false,
     1: "The system answers 1 yes or no questions about a touched object.",
   },
-  "Pull": {
+  Pull: {
     name: "Pull",
     passive: false,
     1: "An object of any size is pulled 30’ directly towards you with the strength of 2 men. Lasts for one round.",
   },
-  "Push": {
+  Push: {
     name: "Push",
     passive: false,
     1: "An object of any size is pushed 30’ directly away from you with the strength of 2 men. Lasts for one round.",
@@ -948,12 +949,12 @@ export const spellList = {
     passive: false,
     1: "You hear the surface thoughts of creatures.",
   },
-  "Repel": {
+  Repel: {
     name: "Repel",
     passive: false,
     1: "2 objects are strongly magnetically repelled from each other if they come within 10 feet.",
   },
-  "Scry": {
+  Scry: {
     name: "Scry",
     passive: false,
     1: "You can see through the eyes of a known creature.",
@@ -963,22 +964,22 @@ export const spellList = {
     passive: false,
     1: "All inanimate material behaves like clay in your hands.",
   },
-  "Shroud": {
+  Shroud: {
     name: "Shroud",
     passive: false,
     1: "1 creatures become invisible until they move",
   },
-  "Shuffle": {
+  Shuffle: {
     name: "Shuffle",
     passive: false,
     1: "Reduces movement speed of a target by 10%.",
   },
-  "Swap": {
+  Swap: {
     name: "Swap",
     passive: false,
     1: "2 creatures instantly switch places.",
   },
-  "Sleep": {
+  Sleep: {
     name: "Sleep",
     passive: false,
     1: "1 creatures fall into a light sleep.",
@@ -993,12 +994,12 @@ export const spellList = {
     passive: false,
     1: "10 minutes after casting, a knight sitting astride a giant snail rides into view. He is able to answer most questions related to quests and chivalry, and may aid you if he finds you worthy.",
   },
-  "Sniff": {
+  Sniff: {
     name: "Sniff",
     passive: false,
     1: "You can smell even the faintest traces of scents.",
   },
-  "Sort": {
+  Sort: {
     name: "Sort",
     passive: false,
     1: "Inanimate items sort themselves according to categories you set. The categories must be visually verifiable.",
@@ -1008,7 +1009,7 @@ export const spellList = {
     passive: false,
     1: "A nearby inanimate object no bigger than a bedroom shrinks to the size of an apple.",
   },
-  "Spectacle": {
+  Spectacle: {
     name: "Spectacle",
     passive: false,
     1: "A clearly unreal but impressive illusion of your choice appears, under your control. It may be up to the size of a palace and has full motion and sound.",
@@ -1023,22 +1024,22 @@ export const spellList = {
     passive: false,
     1: "Once per second, (6 times per round) you may summon or banish 3-foot-wide cubes of earth. New cubes must be affixed to the earth or to other cubes.",
   },
-  "Swarm": {
+  Swarm: {
     name: "Swarm",
     passive: false,
     1: "You become a swarm of crows, rats, or piranha.",
   },
-  "Telekinesis": {
+  Telekinesis: {
     name: "Telekinesis",
     passive: false,
     1: "You may mentally move items.",
   },
-  "Telepathy": {
+  Telepathy: {
     name: "Telepathy",
     passive: false,
     1: "2 creatures can hear each other’s thoughts.",
   },
-  "Tesser": {
+  Tesser: {
     name: "Tesser",
     passive: false,
     1: "An object disappears and reappears on the ground in a visible, clear area up to 30’ away.",
@@ -1048,7 +1049,7 @@ export const spellList = {
     passive: false,
     1: "Object becomes the target of every spell cast near it.",
   },
-  "Thicket": {
+  Thicket: {
     name: "Thicket",
     passive: false,
     1: "A thicket of trees and dense brush up to 30’ wide suddenly sprouts up.",
@@ -1080,12 +1081,12 @@ export const spellList = {
     passive: false,
     1: "You see the true nature of your surroundings.",
   },
-  "Upwell": {
+  Upwell: {
     name: "Upwell",
     passive: false,
     1: "A spring appears and starts gushing seawater.",
   },
-  "Vision": {
+  Vision: {
     name: "Vision",
     passive: false,
     1: "You have total control over what a creature sees.",
@@ -1095,12 +1096,12 @@ export const spellList = {
     passive: false,
     1: "A silent, immobile, illusion of your choice appears, up to the size of a bedroom.",
   },
-  "Ward": {
+  Ward: {
     name: "Ward",
     passive: false,
     1: "A silver circle 30’ across appears on the ground. Choose one thing that cannot cross it: Living creatures, dead creatures, non-human creatures, projectiles or metal.",
   },
-  "Web": {
+  Web: {
     name: "Web",
     passive: false,
     1: "Your hands can shoot thick webbing.",
@@ -1115,7 +1116,7 @@ export const spellList = {
     passive: false,
     1: "Your finger can shoot a stream of brightly-colored paint. This paint is only visible to wizards, and can be seen at any distance, even through solid objects. Fades after L days.",
   },
-  "Agile": {
+  Agile: {
     name: "Agile",
     passive: true,
     1: "Dexterity +1",
@@ -1150,7 +1151,7 @@ export const spellList = {
     passive: true,
     1: "Fire +1%.",
   },
-  "Bloodhunt": {
+  Bloodhunt: {
     name: "Bloodhunt",
     passive: false,
     1: "You can sense blood from far away.",
@@ -1171,7 +1172,7 @@ export const spellList = {
     passive: true,
     1: "You are a big strong target. +1 Strength, -1 Dexterity.",
   },
-  "Cleave": {
+  Cleave: {
     name: "Cleave",
     passive: false,
     1: "The follow through from your melee weapon strikes.",
@@ -1181,7 +1182,7 @@ export const spellList = {
     passive: true,
     1: "Command points +1 for every 10 Charisma.",
   },
-  "Conservator": {
+  Conservator: {
     name: "Conservator",
     passive: true,
     1: "You have the ability to identify magic items. (Improved inspect)",
@@ -1211,7 +1212,7 @@ export const spellList = {
     passive: true,
     1: "You know how to exploit your favored enemies’ vulnerabilities in combat.",
   },
-  "Hamstring": {
+  Hamstring: {
     name: "Hamstring",
     passive: false,
     1: "You slash the tendons behind a creature’s leg.",
@@ -1221,7 +1222,7 @@ export const spellList = {
     passive: false,
     1: "Your critical blows are so fierce they can cause temporary debilitating effects.",
   },
-  "Aura": {
+  Aura: {
     name: "Aura",
     passive: true,
     1: "You can now produce an Aura.",
@@ -1272,7 +1273,7 @@ export const spellList = {
     1: "Sometimes hits did not land on you.",
     2: "Target character's dodging is increased by 90% and your Movement Speed is increased by 20%.",
   },
-  "Indomitable": {
+  Indomitable: {
     name: "Indomitable",
     passive: true,
     1: "+1 strength.",
@@ -1292,12 +1293,12 @@ export const spellList = {
     passive: true,
     1: "+1 Sense outside of settlements.",
   },
-  "Poisoncraft": {
+  Poisoncraft: {
     name: "Poisoncraft",
     passive: true,
     1: "Poison +1%.",
   },
-  "Rejuvenate": {
+  Rejuvenate: {
     name: "Rejuvenate",
     passive: false,
     1: "Targets HP is recovered by 10% of their max HP over the next 5 seconds.",
@@ -1324,12 +1325,12 @@ export const spellList = {
     passive: true,
     1: "Your critical can critical!.",
   },
-  "Witchcraft": {
+  Witchcraft: {
     name: "Witchcraft",
     passive: true,
     1: "Potions are 10% better.",
   },
-  "Midas": {
+  Midas: {
     name: "Midas",
     passive: true,
     1: "Opponents always drop at least one coin.",
@@ -1337,69 +1338,275 @@ export const spellList = {
     3: "Every new town you visit, +100 coins.",
     4: "Donkey Ears.",
   },
+  "Breathing Bubbles": {
+    passive: false,
+    name: "Breathing Bubbles",
+    1: "",
+  },
+  Fortify: {
+    passive: false,
+    name: "Fortify",
+    1: "",
+  },
+  Impalement: {
+    passive: false,
+    name: "Impalement",
+    1: "",
+  },
+  "Summon Artillery Plant": {
+    name: "Summon Artillery Plant",
+    passive: false,
+    1: "",
+  },
+  "Acid Spores": {
+    name: "Acid Spores",
+    passive: false,
+    1: "",
+  },
+  "Corrosive Spray": {
+    name: "Corrosive Spray",
+    passive: false,
+    1: "",
+  },
+  "Throw Dust": {
+    name: "Throw Dust",
+    passive: false,
+    1: "",
+  },
+  "Living Wall": {
+    name: "Living Wall",
+    passive: false,
+    1: "",
+  },
+  "Worm Tremor": {
+    name: "Worm Tremor",
+    passive: false,
+    1: "",
+  },
+  "Dust Blast": {
+    name: "Dust Blast",
+    passive: false,
+    1: "",
+  },
+  "Armour of Frost": {
+    name: "Armour of Frost",
+    passive: false,
+    1: "",
+  },
+  "Healing Ritual": {
+    name: "Healing Ritual",
+    passive: false,
+    1: "",
+  },
+  "Hail Storm": {
+    name: "Hail Storm",
+    passive: false,
+    1: "",
+  },
+  Rain: {
+    name: "Rain",
+    passive: false,
+    1: "",
+  },
+  Restoration: {
+    name: "Restoration",
+    passive: false,
+    1: "",
+  },
+  "Winter Blast": {
+    name: "Winter Blast",
+    passive: false,
+    1: "",
+  },
+  "Steam Lance": {
+    name: "Steam Lance",
+    passive: false,
+    1: "",
+  },
+  " Global Cooling": {
+    name: " Global Cooling",
+    passive: false,
+    1: "",
+  },
+  "Soothing Cold": {
+    name: "Soothing Cold",
+    passive: false,
+    1: "",
+  },
+  "Ice Fan": {
+    name: "Ice Fan",
+    passive: false,
+    1: "",
+  },
+  "Deep Freeze": {
+    name: "Deep Freeze",
+    passive: false,
+    1: "",
+  },
+  "Cryogenic Stasis": {
+    name: "Cryogenic Stasis",
+    passive: false,
+    1: "",
+  },
+  "Hail Strike": {
+    name: "Hail Strike",
+    passive: false,
+    1: "",
+  },
+  "Arcane Stitch": {
+    name: "Arcane Stitch",
+    passive: false,
+    1: "",
+  },
+  "Mass Cryotherapy": {
+    name: "Mass Cryotherapy",
+    passive: false,
+    1: "",
+  },
+  Cryotherapy: {
+    name: "Cryotherapy",
+    passive: false,
+    1: "",
+  },
+  "Vampiric Hunger": {
+    name: "Vampiric Hunger",
+    passive: false,
+    1: "",
+  },
+  "Vampiric Hunger Aura": {
+    name: "Vampiric Hunger Aura",
+    passive: false,
+    1: "",
+  },
+  "Healing Tears": {
+    name: "Healing Tears",
+    passive: false,
+    1: "",
+  },
+  "Mass Cleanse Wounds": {
+    name: "Mass Cleanse Wounds",
+    passive: false,
+    1: "",
+  },
+  "Cleanse Wounds": {
+    name: "Cleanse Wounds",
+    passive: false,
+    1: "",
+  },
+  "Ice Breaker": {
+    name: "Ice Breaker",
+    passive: false,
+    1: "",
+  },
+  "Blood Sucker": {
+    name: "Blood Sucker",
+    passive: false,
+    1: "",
+  },
+  "Decaying Touch": {
+    name: "Decaying Touch",
+    passive: false,
+    1: "",
+  },
+  "Mosquito Swarm": {
+    name: "Mosquito Swarm",
+    passive: false,
+    1: "",
+  },
+  "Raining blood": {
+    name: "Raining blood",
+    passive: false,
+    1: "",
+  },
+  "Shackles of Pain": {
+    name: "Shackles of Pain",
+    passive: false,
+    1: "",
+  },
+  Infect: {
+    name: "Infect",
+    passive: false,
+    1: "",
+  },
+  "Silencing Stare": {
+    name: "Silencing Stare",
+    passive: false,
+    1: "",
+  },
+  "Totems of the Necromancer": {
+    name: "Totems of the Necromancer",
+    passive: false,
+    1: "",
+  },
+  "Last Rites": {
+    name: "Last Rites",
+    passive: false,
+    1: "",
+  },
+  "Grasp of the Starved": {
+    name: "Grasp of the Starved",
+    passive: false,
+    1: "",
+  },
+  "Bone Cage": {
+    name: "Bone Cage",
+    passive: false,
+    1: "",
+  },
+  "Black Shroud": {
+    name: "Black Shroud",
+    passive: false,
+    1: "",
+  },
+  "Death Wish": {
+    name: "Death Wish",
+    passive: false,
+    1: "",
+  },
+  "Raise Bone Widow": {
+    name: "Raise Bone Widow",
+    passive: false,
+    1: "",
+  },
+  "Blood Storm": {
+    name: "Blood Storm",
+    passive: false,
+    1: "",
+  },
+  "Raise Bloated Corpse": {
+    name: "Raise Bloated Corpse",
+    passive: false,
+    1: "",
+  },
+  "Living on the Edge": {
+    name: "Living on the Edge",
+    passive: false,
+    1: "",
+  },
 };
 
-// Breathing Bubbles
-// Apportation - Transport pickupable items in the target area into your inventory.
-// Fortify
-//  Impalement
-// Summon Artillery Plant
-// Acid Spores
-// Corrosive Spray
-// Throw Dust
-// Living Wall
-// Worm Tremor
-// Dust Blast
-// Armour of Frost
-// Healing Ritual
-// Hail Storm
+// const array = [
+// ]
 
-// Rain
-// Restoration
-  // Winter Blast
-  // Steam Lance
-//  Global Cooling
-  // Soothing Cold
-  // Ice Fan
-  // Deep Freeze
-  // Cryogenic Stasis
-  // Hail Strike
-  // Arcane Stitch
-  // Mass Cryotherapy
-  // Cryotherapy
-  // Vampiric Hunger
-  // Vampiric Hunger Aura
-  // Healing Tears
-  // Mass Cleanse Wounds
-  // Cleanse Wounds
-  // Ice Breaker
+//  for (let index = 0; index < array.length; index++) {
+//      const element = array[index];
+//      console.log(`${element}: {
+//          name: ${element},
+//          passive: false,
+//         1: "",
+//      },`)
+//  }
 
-  // Blood Sucker
-  // necromancer-skills Necromancer
-  // Decaying Touch
-  //  Mosquito Swarm
-  // Raining blood
-  //  Shackles of Pain
-  //  Infect
-  //  Silencing Stare
-  //  Totems of the Necromancer
-  //  Last Rites
-  //  Grasp of the Starved
-  //  Bone Cage
-  //  Black Shroud
-  //  Death Wish
-  //  Raise Bone Widow
-  //  Blood Storm
-  //  Raise Bloated Corpse
-  //  Living on the Edge
-  
 function Spells({ spells, type }) {
   const array = [];
   for (let index = 0; index < spells.length; index++) {
     const element = spellList[spells[index].name];
     if (element) {
       array.push(
-        <SingleSpell key={index + "SingleSpell"} passive={element.passive || false}>
+        <SingleSpell
+          key={index + "SingleSpell"}
+          passive={element.passive || false}
+        >
           {element.name}
           {element[spells[index].level] ? (
             <Span>{element[spells[index].level]}</Span>
@@ -1410,7 +1617,10 @@ function Spells({ spells, type }) {
       );
     } else {
       array.push(
-        <SingleSpell key={index + "SingleSpell"} passive={spells[index].passive || false}>
+        <SingleSpell
+          key={index + "SingleSpell"}
+          passive={spells[index].passive || false}
+        >
           {spells[index].name}
         </SingleSpell>
       );
@@ -1418,7 +1628,7 @@ function Spells({ spells, type }) {
   }
   return (
     <>
-      {type === 'mage' ? <Title>Spells:</Title> : <Title>Skills:</Title>}
+      {type === "mage" ? <Title>Spells:</Title> : <Title>Skills:</Title>}
       <SpellsStyle>{array}</SpellsStyle>
     </>
   );
@@ -1455,11 +1665,14 @@ const SingleSpell = styled.div`
   border-radius: 6px;
   padding: 5px;
   width: auto;
-  background: ${props => props.passive ? "#54cc4f;" : `linear-gradient(
+  background: ${(props) =>
+    props.passive
+      ? "#54cc4f;"
+      : `linear-gradient(
     217deg,
     rgb(218, 182, 111),
     rgb(244, 229, 203) 70.71%
-  );` }
+  );`}
   margin: 1%;
   display: flex;
   justify-content: center;
