@@ -1267,9 +1267,10 @@ export const spellList = {
     1: "Those without Faith will turn around.",
   },
   "Uncanny Dodge": {
-    name: "Uncanny Dodge",
+    name: "Uncanny Dodge/evasion",
     passive: true,
     1: "Sometimes hits did not land on you.",
+    2: "Target character's dodging is increased by 90% and your Movement Speed is increased by 20%.",
   },
   "Indomitable": {
     name: "Indomitable",
@@ -1338,6 +1339,60 @@ export const spellList = {
   },
 };
 
+// Breathing Bubbles
+// Apportation - Transport pickupable items in the target area into your inventory.
+// Fortify
+//  Impalement
+// Summon Artillery Plant
+// Acid Spores
+// Corrosive Spray
+// Throw Dust
+// Living Wall
+// Worm Tremor
+// Dust Blast
+// Armour of Frost
+// Healing Ritual
+// Hail Storm
+
+// Rain
+// Restoration
+  // Winter Blast
+  // Steam Lance
+//  Global Cooling
+  // Soothing Cold
+  // Ice Fan
+  // Deep Freeze
+  // Cryogenic Stasis
+  // Hail Strike
+  // Arcane Stitch
+  // Mass Cryotherapy
+  // Cryotherapy
+  // Vampiric Hunger
+  // Vampiric Hunger Aura
+  // Healing Tears
+  // Mass Cleanse Wounds
+  // Cleanse Wounds
+  // Ice Breaker
+
+  // Blood Sucker
+  // necromancer-skills Necromancer
+  // Decaying Touch
+  //  Mosquito Swarm
+  // Raining blood
+  //  Shackles of Pain
+  //  Infect
+  //  Silencing Stare
+  //  Totems of the Necromancer
+  //  Last Rites
+  //  Grasp of the Starved
+  //  Bone Cage
+  //  Black Shroud
+  //  Death Wish
+  //  Raise Bone Widow
+  //  Blood Storm
+  //  Raise Bloated Corpse
+  //  Living on the Edge
+  
 function Spells({ spells, type }) {
   const array = [];
   for (let index = 0; index < spells.length; index++) {
