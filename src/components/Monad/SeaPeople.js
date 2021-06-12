@@ -1137,7 +1137,8 @@ export const SeaPeople = {
       <p>
         I thought we would see the corpses of those who came with us, maybe smashed into the rocks or littering the beach but everything was clean and clear as if nothing had happened only a few moments ago. This was abnormal for how these kind of things usually go. They must of taken the bodies...
       </p>
-      <p>From the top of the cliffs we could see across fields of wheat leading up to a city in the distance. </p>
+      <p>From the top of the cliffs we could see across fields of wheat leading up to a city in the distance. Towers pointing into the sky, the city looked like it was half hanging off the cliff it sat on.</p>
+      <p>"What kind of crazy people build a city that is half on and half off a cliff. They are just a few good cannon shots from falling into the sea!" I exclaimed.</p>
       {/* Wet lands to the south of the city. */}
       <div className="pop">
         Blood Bottle
