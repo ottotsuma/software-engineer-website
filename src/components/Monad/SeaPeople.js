@@ -1050,6 +1050,24 @@ export const SeaPeople = {
         eyes.
       </p>
       <div className="BreakPoint"></div>
+      <p>
+        We had wait for about 20 minutes before the sounds outside were just the
+        crash of the waves on the cliffs and the wind running though the gaps.
+        My health had recovered from Sarah's snack and I had spent the time
+        picking out Dark Elf skills to try. Our levels had been reduced by 90%
+        from the Miasma, leaving me at level 3. I wish it had at least rounded
+        up!
+      </p>
+      <p>
+        I clearly would be spending most of my time sneaking around and doing
+        non-combat quests for awhile. Even if I reached level 40 that would
+        still make my combat strength level 4. So I picked up a what should be a
+        useful new skill.
+      </p>
+      <Spells
+        spells={[{ name: "Cloak of Shadows", level: 1 }]}
+        type={"rogue"}
+      />
       <p></p>
       <div className="pop">
         Blood Bottle

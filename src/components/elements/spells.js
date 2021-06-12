@@ -11,22 +11,22 @@ export const spellList = {
   "Sharp Slash": {
     note: "Rogue",
     name: "Sharp Slash",
-    1: ".",
+    1: "Deals 20% more damage from the side and behind.",
   },
   "Slashing Edge": {
     note: "Rogue",
     name: "Slashing Edge",
-    1: ".",
+    1: "Deals 20% more damage from behind, 20% more damage if used after 'Sharp Slash'.",
   },
   Headbutt: {
     note: "Rogue",
     name: "Headbutt",
-    1: ".",
+    1: "Has a chance to stun the target. Recoil damage.",
   },
   "Fleet of Foot": {
     note: "Rogue",
     name: "Fleet of Foot",
-    1: ".",
+    1: "Increases movement speed.",
   },
   "Charged Charge": {
     name: "Charged Charge",
@@ -102,7 +102,7 @@ export const spellList = {
     name: "Forked Tongue",
     passive: true,
     1: "Your tongue will become forked, Increased sense of smell.",
-    2: "You learn basic serpent speach.",
+    2: "You learn basic serpent speech.",
   },
   "Serpent Skin": {
     name: "Serpent-Skin",
@@ -228,7 +228,7 @@ export const spellList = {
   "Mana Ball": {
     name: "Mana Ball",
     1: "Gathers mana into a ball. Gives off a small amount of light.",
-    2: ".",
+    2: "Mana ball create is instant, flight speed +25%.",
   },
   "Mana Orbs": {
     name: "Mana Orbs",
@@ -1228,10 +1228,10 @@ export const spellList = {
     passive: true,
     1: "You can now produce an Aura.",
   },
-  "Improved Cloak of Shadows": {
-    name: "Improved Cloak of Shadows",
-    passive: true,
-    1: ".",
+  "Cloak of Shadows": {
+    name: "Cloak of Shadows",
+    passive: false,
+    1: "Wraps you with the shadows around you making you harder to detect.",
   },
   "Improved Dodge": {
     name: "Improved Dodge",
