@@ -1138,6 +1138,7 @@ export const SeaPeople = {
         I thought we would see the corpses of those who came with us, maybe smashed into the rocks or littering the beach but everything was clean and clear as if nothing had happened only a few moments ago. This was abnormal for how these kind of things usually go. They must of taken the bodies...
       </p>
       <p>From the top of the cliffs we could see across fields of wheat leading up to a city in the distance. </p>
+      {/* Wet lands to the south of the city. */}
       <div className="pop">
         Blood Bottle
         <img className="popOut" src={Blood} alt="Blood Bottle" />
