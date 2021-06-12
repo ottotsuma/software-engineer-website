@@ -11,6 +11,24 @@ import Stats from "./../elements/stats";
 import Spells from "./../elements/spells";
 import Blood from "./../../assets/Blood.jpg";
 
+export const Shine = styled.p`
+  font-size: xxx-large;
+  font-weight: 900;
+  animation: color-change 1s infinite;
+  display: contents;
+  @keyframes color-change {
+    0% {
+      color: yellow;
+    }
+    50% {
+      color: orange;
+    }
+    100% {
+      color: pink;
+    }
+  }
+`;
+
 export default function SeaPeopleFunction(props) {
   return typeof props === "number"
     ? SeaPeople[props]
@@ -1068,18 +1086,21 @@ export const SeaPeople = {
         spells={[{ name: "Cloak of Shadows", level: 1 }]}
         type={"rogue"}
       />
-      <p></p>
+      <p>With 'Clock of Shadows' I was hoping to avoid fights as often as possible.</p>
       <div className="pop">
         Blood Bottle
         <img className="popOut" src={Blood} alt="Blood Bottle" />
       </div>
     </Content>
   ),
-  7: <Content style={{ overflowWrap: "anywhere" }}>7</Content>,
+  7: (
+    <Content style={{ overflowWrap: "anywhere" }}>
+      <Shine>I LOVE YOU TSUMA!</Shine>
+    </Content>
+  ),
   8: <Content style={{ overflowWrap: "anywhere" }}>8</Content>,
   9: <Content style={{ overflowWrap: "anywhere" }}>9</Content>,
 };
-
 // Rouge Skills Used (Basic) - Fleet of Foot, Headbutt
 // Combo skills for each class: 'Slashing Edge' into 'Sharp Slash'
 // Rouge: Side/Back -- Back -- Side (3rd one is intermediate), (4th advanced)
