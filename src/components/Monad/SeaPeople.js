@@ -1086,7 +1086,32 @@ export const SeaPeople = {
         spells={[{ name: "Cloak of Shadows", level: 1 }]}
         type={"rogue"}
       />
-      <p>With 'Clock of Shadows' I was hoping to avoid fights as often as possible.</p>
+      <p>
+        With 'Clock of Shadows' I was hoping to avoid fights as often as
+        possible.
+      </p>
+      <p>*Ting* *Ting* *Ting*</p>
+      <p>
+        A knocking noise was coming from the shield. There could only be one
+        person who would knock. I tried to push it out from the gap in the wall
+        but it wouldn't budge. Being level 3 really sucked. Sarah saw me and
+        came to help pushing the shield free and stepping outside.
+      </p>
+      <p>
+        "They all left after having their fun. They took a few captives and
+        killed the rest." Josh reported.
+      </p>
+      <p>
+        "Things have changed." Sarah replied. "Last time it was an organized
+        army and they took everyone captive. They made us into slaves, sending us all throughout
+        the republic. If the army guarding the north has been moved, it could
+        only be because the Alden incursion has gotten worse since I was last
+        here."
+      </p>
+      <p>Having no understanding what Sarah was on about I asked Josh "So how come no one caught you?"</p>
+      <p>"Stealth is a basic skill from an assassin don't you think?" He replied.</p>
+      <p>"Eh show off. So were do we go from here?" I asked looking up an the cliffs.</p>
+      <p></p>
       <div className="pop">
         Blood Bottle
         <img className="popOut" src={Blood} alt="Blood Bottle" />
