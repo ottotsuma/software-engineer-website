@@ -1111,7 +1111,7 @@ export const SeaPeople = {
       <p>Having no understanding what Sarah was on about I asked Josh "So how come no one caught you?"</p>
       <p>"Stealth is a basic skill from an assassin don't you think?" He replied.</p>
       <p>"Eh show off. So were do we go from here?" I asked looking up an the cliffs.</p>
-      <p></p>
+      <p>"The republics capital is south of here, I have friends there we can start there and hopefully they will have some quests for us so we can start reducing the effect of this Miasma again."</p>
       <div className="pop">
         Blood Bottle
         <img className="popOut" src={Blood} alt="Blood Bottle" />

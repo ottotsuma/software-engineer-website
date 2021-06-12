@@ -1309,10 +1309,15 @@ export const spellList = {
     passive: false,
     1: "Striking from a shadow, dealing +50% damage to unaware targets.",
   },
+  "Stealth": {
+    name: "Stealth",
+    passive: false,
+    1: "Become invisible for a short period of time, as long as you do not attack anything or take damage.",
+  },
   "Sunlight Adaptation": {
     name: "Sunlight Adaptation",
     passive: true,
-    1: "Your stats +10% in sunlight!.",
+    1: "All stats +1 in sunlight!.",
     2: "Your MP recovers slightly faster in sunlight.",
     3: ".",
   },
