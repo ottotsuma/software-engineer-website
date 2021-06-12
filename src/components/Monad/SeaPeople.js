@@ -1103,15 +1103,41 @@ export const SeaPeople = {
       </p>
       <p>
         "Things have changed." Sarah replied. "Last time it was an organized
-        army and they took everyone captive. They made us into slaves, sending us all throughout
-        the republic. If the army guarding the north has been moved, it could
-        only be because the Alden incursion has gotten worse since I was last
-        here."
+        army and they took everyone captive. They made us into slaves, sending
+        us all throughout the republic. If the army guarding the north has been
+        moved, it could only be because the Alden incursion has gotten worse
+        since I was last here."
       </p>
-      <p>Having no understanding what Sarah was on about I asked Josh "So how come no one caught you?"</p>
-      <p>"Stealth is a basic skill from an assassin don't you think?" He replied.</p>
-      <p>"Eh show off. So were do we go from here?" I asked looking up an the cliffs.</p>
-      <p>"The republics capital is south of here, I have friends there we can start there and hopefully they will have some quests for us so we can start reducing the effect of this Miasma again."</p>
+      <p>
+        Having no understanding what Sarah was on about I asked Josh "So how
+        come no one caught you?"
+      </p>
+      <p>
+        "Stealth is a basic skill from an assassin don't you think?" He replied.
+      </p>
+      <p>
+        "Eh show off. So were do we go from here?" I asked looking up an the
+        cliffs.
+      </p>
+      <p>
+        "The republics capital is south of here, I have friends there we can
+        start there and hopefully they will have some quests for us so we can
+        start reducing the effect of this Miasma again."
+      </p>
+      <p>
+        "We should be in the territory of Monh, it is a large-ish city and the
+        only one in the state. It is surrounded on 3 sides by the ocean but
+        because of the cliffs they have no port making them quite isolated. They
+        don't like new faces so we won't be staying long." Sarah said as we made
+        our way down the cliffs and over to the beach. Conveniently there was a
+        set of wooden and earth stairs leading up from the beach to the top of
+        the cliffs. I guess under normal circumstances this would be a nice
+        place to holiday.
+      </p>
+      <p>
+        I thought we would see the corpses of those who came with us, maybe smashed into the rocks or littering the beach but everything was clean and clear as if nothing had happened only a few moments ago. This was abnormal for how these kind of things usually go. They must of taken the bodies...
+      </p>
+      <p>From the top of the cliffs we could see across fields of wheat leading up to a city in the distance. </p>
       <div className="pop">
         Blood Bottle
         <img className="popOut" src={Blood} alt="Blood Bottle" />
