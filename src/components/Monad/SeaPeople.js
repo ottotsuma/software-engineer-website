@@ -1160,6 +1160,10 @@ export const SeaPeople = {
       <p>"Taking over?" I asked confused. Why would we want to take over this town.</p>
       <p>"Yeah, people are coming from the old lands to the new ones for one main reason. To get land for their guilds. The more land our guild owns the more gold we can collect. This is why most of our guild members are here right now, we want to carve out a piece of land for ourselves." Josh carried on.</p>
       <p>"And the republic is the perfect place, it is being attacked from all sides and unstable." Sarah added.</p>
+      <p>"H-how big is the guild? You know, if you are really planning on building your own town here." I asked while we walked to the city, it was a nice warm night.</p>
+      <p>"Astrals? Around 900 but I guess we need to sort out those who we have lost... If it is locals then we are mostly rebuilding our forces here for now until a large nation in the old world is interested in the new lands. Then we have almost 10,000 members although most are non-combat roles." Sarah explained.</p>
+      <p>"When did guilds get so big? The last one I was a part of was only around 20 people." I replied.</p>
+      <p>Sarah giggled. "Eheh, our guild is not even large enough to directly own land in the old world. That is why we came to the new land." Sarah let me know.</p>
       {/* Wet lands to the south of the city. */}
       <div className="pop">
         Blood Bottle
