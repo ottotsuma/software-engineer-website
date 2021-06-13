@@ -1159,7 +1159,7 @@ export const SeaPeople = {
       <p>"Evidently not. Which is good news for us." Josh injected. "Because when it comes to taking over this place, that will be one easy target."</p>
       <p>"Taking over?" I asked confused. Why would we want to take over this town.</p>
       <p>"Yeah, people are coming from the old lands to the new ones for one main reason. To get land for their guilds. The more land our guild owns the more gold we can collect. This is why most of our guild members are here right now, we want to carve out a piece of land for ourselves." Josh carried on.</p>
-      <p>""</p>
+      <p>"And the republic is the perfect place, it is being attacked from all sides and unstable." Sarah added.</p>
       {/* Wet lands to the south of the city. */}
       <div className="pop">
         Blood Bottle
