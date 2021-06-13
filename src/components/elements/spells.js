@@ -4,8 +4,8 @@ import React from "react";
 // Kʼawiil - Lightning, seeds, abundance, powerful one, fertility, serpent
 
 // Rouge: Side/Back -- Back -- Side (3rd one is intermediate), (4th advanced)
-// Fighter: ?? -- ?? -- ?? (3rd one is intermediate), (4th advanced)
-// Mage: ?? -- ?? -- ?? (3rd one is intermediate), (4th advanced)
+// Fighter: ?? -- ?? -- ?? (3rd one is intermediate), (4th advanced) [look up sword techniques]
+// Mage: ?? -- ?? -- ?? (3rd one is intermediate), (4th advanced) 
 
 export const spellList = {
   "Sharp Slash": {
@@ -17,6 +17,11 @@ export const spellList = {
     note: "Rogue",
     name: "Slashing Edge",
     1: "Deals 20% more damage from behind, 20% more damage if used after 'Sharp Slash'.",
+  },
+  "Devious Slice": {
+    note: "Rogue",
+    name: "Devious Slice",
+    1: "Deals 20% more damage from the side, 20% more damage if used after 'Slashing Edge'.",
   },
   Headbutt: {
     note: "Rogue",

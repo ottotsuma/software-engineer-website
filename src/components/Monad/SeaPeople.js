@@ -1213,6 +1213,9 @@ export const SeaPeople = {
         I could only feel bad for him at this point, he was going to have a hard
         time getting any quests done.
       </p>
+      <p>We were not really hiding ourselves, so it was no surprise when a group of riders stopped us on the road. What they were riding though was the real surprise for me at least. A large red beetle with large horn coming out from its head almost the length of its whole body, big black eyes, antennae sticking out of its head, two long thick grasshopper type legs and two short t-rex style arms. The body had the shape of a larvae, with no wings the whole thing looked really odd! On top was regular looking humans.</p>
+      <p></p>
+      {/* https://i.pinimg.com/564x/b7/49/2b/b7492b5dc2fcbdff5aa082c0720bae40.jpg */}
       {/* Wet lands to the south of the city. */}
       <div className="pop">
         Blood Bottle
