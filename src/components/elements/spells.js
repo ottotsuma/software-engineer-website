@@ -5,7 +5,7 @@ import React from "react";
 
 // Rouge: Side/Back -- Back -- Side (3rd one is intermediate), (4th advanced)
 // Fighter: ?? -- ?? -- ?? (3rd one is intermediate), (4th advanced) [look up sword techniques]
-// Mage: ?? -- ?? -- ?? (3rd one is intermediate), (4th advanced) 
+// Mage: ?? -- ?? -- ?? (3rd one is intermediate), (4th advanced)
 
 export const spellList = {
   "Sharp Slash": {
@@ -1314,7 +1314,7 @@ export const spellList = {
     passive: false,
     1: "Striking from a shadow, dealing +50% damage to unaware targets.",
   },
-  "Stealth": {
+  Stealth: {
     name: "Stealth",
     passive: false,
     1: "Become invisible for a short period of time, as long as you do not attack anything or take damage.",
@@ -1397,47 +1397,50 @@ export const spellList = {
   "Dust Blast": {
     name: "Dust Blast",
     passive: false,
-    1: "",
+    1: "Dust is blasted in all directions",
   },
   "Armour of Frost": {
     name: "Armour of Frost",
     passive: false,
-    1: "",
+    1: "Frost coats the targets body, slowing it down but increasing it's endurance.",
   },
   "Healing Ritual": {
     name: "Healing Ritual",
     passive: false,
-    1: "",
+    1: "Healing on one target is increased.",
+    2: "Healing in this area is increased.",
   },
   "Hail Storm": {
     name: "Hail Storm",
     passive: false,
-    1: "",
+    1: "Balls of ice fall from the sky.",
   },
   Rain: {
     name: "Rain",
     passive: false,
-    1: "",
+    1: "It starts to gently rain.",
   },
   Restoration: {
     name: "Restoration",
     passive: false,
-    1: "",
+    1: "Restores some HP to the target.",
+    2: "Restores some Stamina to the target.",
+    3: "Cures a single status effect.",
   },
   "Winter Blast": {
     name: "Winter Blast",
     passive: false,
-    1: "",
+    1: "A mixture of ice and snow blasts the area.",
   },
   "Steam Lance": {
     name: "Steam Lance",
     passive: false,
-    1: "",
+    1: "A lance of steam is blasted at the target.",
   },
   " Global Cooling": {
     name: " Global Cooling",
     passive: false,
-    1: "",
+    1: "Everything gets much colder.",
   },
   "Soothing Cold": {
     name: "Soothing Cold",
@@ -1447,7 +1450,7 @@ export const spellList = {
   "Ice Fan": {
     name: "Ice Fan",
     passive: false,
-    1: "",
+    1: "Ice is shot out in an arc before you.",
   },
   "Deep Freeze": {
     name: "Deep Freeze",
@@ -1462,7 +1465,7 @@ export const spellList = {
   "Hail Strike": {
     name: "Hail Strike",
     passive: false,
-    1: "",
+    1: "Hail is shot at a target.",
   },
   "Arcane Stitch": {
     name: "Arcane Stitch",
@@ -1482,12 +1485,12 @@ export const spellList = {
   "Vampiric Hunger": {
     name: "Vampiric Hunger",
     passive: false,
-    1: "",
+    1: "Blood is taken from a target to restore your HP.",
   },
   "Vampiric Hunger Aura": {
     name: "Vampiric Hunger Aura",
     passive: false,
-    1: "",
+    1: "Blood is taken from around you to restore your HP.",
   },
   "Healing Tears": {
     name: "Healing Tears",
@@ -1512,7 +1515,7 @@ export const spellList = {
   "Blood Sucker": {
     name: "Blood Sucker",
     passive: false,
-    1: "",
+    1: "Suck the blood from a target to restore HP.",
   },
   "Decaying Touch": {
     name: "Decaying Touch",
@@ -1522,12 +1525,12 @@ export const spellList = {
   "Mosquito Swarm": {
     name: "Mosquito Swarm",
     passive: false,
-    1: "",
+    1: "A swam of mosquitos bite the target.",
   },
   "Raining blood": {
     name: "Raining blood",
     passive: false,
-    1: "",
+    1: "It starts to rain blood.",
   },
   "Shackles of Pain": {
     name: "Shackles of Pain",
@@ -1597,103 +1600,103 @@ export const spellList = {
   "Summon Lesser Skeleton Warrior": {
     name: "Summon Lesser Skeleton Warrior",
     passive: false,
-   1: "",
-}, 
-"Summon Small Bonecrawler": {
+    1: "",
+  },
+  "Summon Small Bonecrawler": {
     name: "Summon Small Bonecrawler",
     passive: false,
-   1: "",
-}, 
-"Summon Multiple Lesser Skeleton Warriors": {
+    1: "",
+  },
+  "Summon Multiple Lesser Skeleton Warriors": {
     name: "Summon Multiple Lesser Skeleton Warriors",
     passive: false,
-   1: "",
-}, 
-"Summon Skeleton Warrior": {
+    1: "",
+  },
+  "Summon Skeleton Warrior": {
     name: "Summon Skeleton Warrior",
     passive: false,
-   1: "",
-}, 
-"Raise Greater Skeleton Warrior": {
+    1: "",
+  },
+  "Raise Greater Skeleton Warrior": {
     name: "Raise Greater Skeleton Warrior",
     passive: false,
-   1: "",
-}, 
-"Summon Multiple Lesser Skeleton Archers": {
+    1: "",
+  },
+  "Summon Multiple Lesser Skeleton Archers": {
     name: "Summon Multiple Lesser Skeleton Archers",
     passive: false,
-   1: "",
-}, 
-"Summon Skeleton Archer": {
+    1: "",
+  },
+  "Summon Skeleton Archer": {
     name: "Summon Skeleton Archer",
     passive: false,
-   1: "",
-}, 
-"Deaths Touch": {
+    1: "",
+  },
+  "Deaths Touch": {
     name: "Deaths Touch",
     passive: false,
-   1: "",
-}, 
-"Stare Of The Overlord": {
+    1: "",
+  },
+  "Stare Of The Overlord": {
     name: "Stare Of The Overlord",
     passive: false,
-   1: "",
-}, 
-"Grasp Heart": {
+    1: "",
+  },
+  "Grasp Heart": {
     name: "Grasp Heart",
     passive: false,
-   1: "",
-}, 
-"Bone Rejection": {
+    1: "",
+  },
+  "Bone Rejection": {
     name: "Bone Rejection",
     passive: false,
-   1: "",
-}, 
-"Spectral Wave": {
+    1: "",
+  },
+  "Spectral Wave": {
     name: "Spectral Wave",
     passive: false,
-   1: "",
-}, 
-"Bone Armor": {
+    1: "",
+  },
+  "Bone Armor": {
     name: "Bone Armor",
     passive: false,
-   1: "",
-}, 
-"Negative Burst": {
+    1: "",
+  },
+  "Negative Burst": {
     name: "Negative Burst",
     passive: false,
-   1: "",
-}, 
-"Raise Elder Lich": {
+    1: "",
+  },
+  "Raise Elder Lich": {
     name: "Raise Elder Lich",
     passive: false,
-   1: "",
-}, 
-"Deaths Arrival": {
+    1: "",
+  },
+  "Deaths Arrival": {
     name: "Deaths Arrival",
     passive: false,
-   1: "",
-}, 
-"Summon Lesser Skeleton Archer": {
+    1: "",
+  },
+  "Summon Lesser Skeleton Archer": {
     name: "Summon Lesser Skeleton Archer",
     passive: false,
-   1: "",
-}, 
-"Raise Greater Skeleton Archer": {
+    1: "",
+  },
+  "Raise Greater Skeleton Archer": {
     name: "Raise Greater Skeleton Archer",
     passive: false,
-   1: "",
-}, 
-"Raise Death Knight": {
+    1: "",
+  },
+  "Raise Death Knight": {
     name: "Raise Death Knight",
     passive: false,
-   1: "",
-}, 
-"Aura of Despair": {
+    1: "",
+  },
+  "Aura of Despair": {
     name: "Aura of Despair",
     passive: false,
-   1: "",
-},
+    1: "",
+  },
 };
 
 // const array = [
