@@ -1196,6 +1196,23 @@ export const SeaPeople = {
         land in the old world. That is why we came to the new land." Sarah let
         me know.
       </p>
+      <p>
+        We kept talking as we walked, I wanted to find out more about were we
+        where. You would think I would of run out of things to learn on the trip
+        over but I guess some things you don't think about until you arrive. The
+        biggest fear I had was the language they spoke here. The prince we saved
+        from the giant crab spoke a strange language I had never heard before,
+        it must of been some old european language. Sarah let me know the locals
+        spoke Alden, which was just German. However the nobles spoke another,
+        which is not so uncommon.
+      </p>
+      <p>
+        I had worried it would be another language I had never heard of, but
+        German I had at least learned a little. While I was from Sweden, Sarah
+        from Czech Republic, Josh was from America and did not speak any German.
+        I could only feel bad for him at this point, he was going to have a hard
+        time getting any quests done.
+      </p>
       {/* Wet lands to the south of the city. */}
       <div className="pop">
         Blood Bottle
