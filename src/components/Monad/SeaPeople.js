@@ -1213,8 +1213,22 @@ export const SeaPeople = {
         I could only feel bad for him at this point, he was going to have a hard
         time getting any quests done.
       </p>
-      <p>We were not really hiding ourselves, so it was no surprise when a group of riders stopped us on the road. What they were riding though was the real surprise for me at least. A large red beetle with large horn coming out from its head almost the length of its whole body, big black eyes, antennae sticking out of its head, two long thick grasshopper type legs and two short t-rex style arms. The body had the shape of a larvae, with no wings the whole thing looked really odd! On top was regular looking humans.</p>
-      <p></p>
+      <p>
+        We were not really hiding ourselves, so it was no surprise when a group
+        of riders stopped us on the road. What they were riding though was the
+        real surprise for me at least. A large red beetle with large horn coming
+        out from its head almost the length of its whole body, big black eyes,
+        antennae sticking out of its head, two long thick grasshopper type legs
+        and two short t-rex style arms. The body had the shape of a larvae, with
+        no wings the whole thing looked really odd! On top was regular looking
+        humans.
+      </p>
+      <p>
+        The first to meet our group shouted out "Halt. Woher kommst du? Wohin gehst du?"
+      </p>
+      <p>Come and go. Right I guess German is not so bad. Luckily Sarah had spoke up fist before any of use put out foot in it. She explained we were coming from the capital going to Monh on a simple delivery. After checking we were just transporting peals and had nothing interesting to them they rode back to the city ahead of us.</p>
+      <p>"I didn't think these peals would come in useful so quickly." I said.</p>
+      <p>"They will be more useful the further in land we go. These guys see them all the time so their value here is actually really low. Or I doubt we would be left with all of our cargo." Sarah said.</p>
       {/* https://i.pinimg.com/564x/b7/49/2b/b7492b5dc2fcbdff5aa082c0720bae40.jpg */}
       {/* Wet lands to the south of the city. */}
       <div className="pop">
