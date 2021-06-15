@@ -1,3 +1,8 @@
+import Blog from "./../assets/blog.png";
+export function imageError(ev) {
+  ev.target.src = Blog
+}
+
 export const colors = {
     blue: "#0d89eb",
     lightBlue: "#2CA8FF",

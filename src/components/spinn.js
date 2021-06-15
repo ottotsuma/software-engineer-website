@@ -11,10 +11,12 @@ import Dob from "./../assets/dob.png";
 import Todo from "./../assets/todo.jpg";
 import Weather from "./../assets/weather.png";
 import styled from 'styled-components';
+import {imageError} from './color'
 
 export default () => {
   const [activeItemIndex, setActiveItemIndex] = useState(0);
   const chevronWidth = 40;
+
   return (
     <Wrapper css={`padding: 0 ${chevronWidth}px`}>
       <ItemsCarousel
@@ -31,7 +33,7 @@ export default () => {
           className="Project-Card"
         >
           <h4>CGPC</h4>
-          <img className="Screen-Shot" src={'https://yt3.ggpht.com/ytc/AAUvwni9DJA2UfBnLyffWzkPZp7yLUJG0RHSf1WXqTEEvg=s176-c-k-c0x00ffffff-no-rj'} alt="Screen-Shot" />
+          <img onError={imageError} className="Screen-Shot" src={'https://yt3.ggpht.com/ytc/AAUvwni9DJA2UfBnLyffWzkPZp7yLUJG0RHSf1WXqTEEvg=s176-c-k-c0x00ffffff-no-rj'} alt="Screen-Shot" />
           <p>
             Click{" "}
             <a
@@ -48,7 +50,7 @@ export default () => {
           className="Project-Card"
         >
           <h4>Dekki</h4>
-          <img className="Screen-Shot" src={'https://pbs.twimg.com/profile_images/1062990176106905601/s7nYomEa_400x400.jpg'} alt="Screen-Shot" />
+          <img onError={imageError} className="Screen-Shot" src={'https://pbs.twimg.com/profile_images/1062990176106905601/s7nYomEa_400x400.jpg'} alt="Screen-Shot" />
           <p>
             Click{" "}
             <a
@@ -66,7 +68,7 @@ export default () => {
           
         >
           <h4>Munchify</h4>
-          <img className="Screen-Shot" src={Munchify} alt="Screen-Shot" />
+          <img onError={imageError} className="Screen-Shot" src={Munchify} alt="Screen-Shot" />
           <p>
             Click{" "}
             <a
@@ -84,7 +86,7 @@ export default () => {
           
         >
           <h4>The Secret Box</h4>
-          <img className="Screen-Shot" src={Secret} alt="Screen-Shot" />
+          <img onError={imageError} className="Screen-Shot" src={Secret} alt="Screen-Shot" />
           <p>
             Click{" "}
             <a
@@ -102,7 +104,7 @@ export default () => {
           
         >
           <h4>Recipes</h4>
-          <img className="Screen-Shot" src={Food} alt="Screen-Shot" />
+          <img onError={imageError} className="Screen-Shot" src={Food} alt="Screen-Shot" />
           <p>
             Click{" "}
             <a
@@ -120,7 +122,7 @@ export default () => {
           
         >
           <h4>Monster Search</h4>
-          <img className="Screen-Shot" src={Monster} alt="Screen-Shot" />
+          <img onError={imageError} className="Screen-Shot" src={Monster} alt="Screen-Shot" />
           <p>
             Click{" "}
             <a
@@ -138,7 +140,7 @@ export default () => {
           
         >
           <h4>Joker</h4>
-          <img className="Screen-Shot" src={Joker} alt="Screen-Shot" />
+          <img onError={imageError} className="Screen-Shot" src={Joker} alt="Screen-Shot" />
           <p>
             Click{" "}
             <a
@@ -156,7 +158,7 @@ export default () => {
           
         >
           <h4>DOB-Finder (PWA)</h4>
-          <img className="Screen-Shot" src={Dob} alt="Screen-Shot" />
+          <img onError={imageError} className="Screen-Shot" src={Dob} alt="Screen-Shot" />
           <p>
             Click{" "}
             <a
@@ -174,7 +176,7 @@ export default () => {
           
         >
           <h4>Weather</h4>
-          <img className="Screen-Shot" src={Weather} alt="Screen-Shot" />
+          <img onError={imageError} className="Screen-Shot" src={Weather} alt="Screen-Shot" />
           <p>
             Click{" "}
             <a
@@ -192,7 +194,7 @@ export default () => {
           
         >
           <h4>Bug Tracker</h4>
-          <img className="Screen-Shot" src={Bug} alt="Screen-Shot" />
+          <img onError={imageError} className="Screen-Shot" src={Bug} alt="Screen-Shot" />
           <p>
             Click{" "}
             <a
@@ -210,7 +212,7 @@ export default () => {
           
         >
           <h4>To Do</h4>
-          <img className="Screen-Shot" src={Todo} alt="Screen-Shot" />
+          <img onError={imageError} className="Screen-Shot" src={Todo} alt="Screen-Shot" />
           <p>
             Click{" "}
             <a
@@ -228,7 +230,7 @@ export default () => {
           
         >
           <h4>Blog</h4>
-          <img className="Screen-Shot" src={Blog} alt="Screen-Shot" />
+          <img onError={imageError} className="Screen-Shot" src={Blog} alt="Screen-Shot" />
           <p>
             Click{" "}
             <a
@@ -246,7 +248,7 @@ export default () => {
           
         >
           <h4>Game Calc</h4>
-          <img className="Screen-Shot" src={Blog} alt="Screen-Shot" />
+          <img onError={imageError} className="Screen-Shot" src={Blog} alt="Screen-Shot" />
           <p>
             Click{" "}
             <a

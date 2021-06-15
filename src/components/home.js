@@ -15,6 +15,8 @@ import Modal2 from "./elements/modal2";
 import Timeline from "./timeline";
 import Spin from "./spinn";
 
+import {imageError} from './color'
+
 // Embed video player of your youtube video!
 const YouTubeUrl = "https://www.youtube.com/embed/m86uLnh7OfU";
 
