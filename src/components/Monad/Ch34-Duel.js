@@ -74,7 +74,14 @@ function Intro(props) {
         the arena from his wand using a flamethrower attack. The match ended
         there as my HP had become too low.
       </p>
-      <p></p>
+      <p>
+        After my loss to Linhart I felt down about my prospects of surviving the
+        class challenge. To beat every other student from each class. It was an
+        impossible task for anyone. Why was I even nominated, I am don't excel
+        at anything. I am not even good with magic. Did my whole class just hate
+        me?
+      </p>
+      <p>I really miss my dad.</p>
       {Book()}
       {/* {SeaPeople[0]}
       {SeaPeople[1]}

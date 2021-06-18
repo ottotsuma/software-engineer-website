@@ -1695,9 +1695,14 @@ export const spellList = {
   "Aura of Despair": {
     name: "Aura of Despair",
     passive: false,
-    1: "",
+    1: "Has a chance of causing Fear.",
+    2: "Has a chance of causing Panic.",
+    3: "Has a chance of causing Confusion.",
+    4: "Has a chance of causing Insanity.",
+    5: "Has a chance of causing Instant Death.",
   },
 };
+// https://overlordmaruyama.fandom.com/wiki/Ainz_Ooal_Gown/Abilities_and_Powers
 
 // const array = [
 // ]
