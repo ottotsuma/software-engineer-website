@@ -1704,47 +1704,42 @@ export const spellList = {
   "Rabbit Ears": {
     name: "Rabbit Ears",
     passive: false,
-    1: "",
+    1: "Rabbit ears grow from you head, along with the perks of that.",
   },
   "Magic Arrow": {
     name: "Magic Arrow",
     passive: false,
-    1: "",
+    1: "Shoot an arrow of mana.",
   },
   "Summon Undead": {
     name: "Summon Undead",
     passive: false,
-    1: "",
+    1: "Summon a single undead.",
   },
   "Acid Arrow": {
     name: "Acid Arrow",
     passive: false,
-    1: "",
+    1: "Shoot an arrow of acid.",
   },
   Message: {
     name: "Message",
     passive: false,
-    1: "",
+    1: "Send a message instantly to someone else.",
   },
   Fireball: {
     name: "Fireball",
     passive: false,
-    1: "",
+    1: "Shoots a ball of fire.",
   },
   Fly: {
     name: "Fly",
     passive: false,
-    1: "",
+    1: "The user can now fly.",
   },
-  Haste: {
-    name: "Haste",
-    passive: false,
-    1: "",
-  },
-  Iceball: {
+  "Iceball": {
     name: "Iceball",
     passive: false,
-    1: "",
+    1: "Shoots a ball of ice.",
   },
   Lightning: {
     name: "Lightning",
@@ -1799,7 +1794,7 @@ export const spellList = {
   "Undeath Army": {
     name: "Undeath Army",
     passive: false,
-    1: "",
+    1: "Summons an army of the undead.",
   },
   "Astral Smite": {
     name: "Astral Smite",
@@ -1833,11 +1828,6 @@ export const spellList = {
   },
   "Call Thunder": {
     name: "Call Thunder",
-    passive: false,
-    1: "",
-  },
-  "Grasp Heart": {
-    name: "Grasp Heart",
     passive: false,
     1: "",
   },
@@ -2181,11 +2171,6 @@ export const spellList = {
     passive: false,
     1: "",
   },
-  "Negative Burst": {
-    name: "Negative Burst",
-    passive: false,
-    1: "",
-  },
   "Nuclear Mine": {
     name: "Nuclear Mine",
     passive: false,
@@ -2229,7 +2214,7 @@ export const spellList = {
   "Repel Undeath": {
     name: "Repel Undeath",
     passive: false,
-    1: "",
+    1: "A spell that creates a barrier to ward off the low-level undead.",
   },
   "Resistance from Natural Weapons": {
     name: "Resistance from Natural Weapons",
@@ -2254,7 +2239,7 @@ export const spellList = {
   "Sharks Cyclone": {
     name: "Sharks Cyclone",
     passive: false,
-    1: "",
+    1: "A spell that invokes a tornado, with sharks inside.",
   },
   Shockwave: {
     name: "Shockwave",
@@ -2264,27 +2249,27 @@ export const spellList = {
   "Thousand Bone Lance": {
     name: "Thousand Bone Lance",
     passive: false,
-    1: "",
+    1: "A spell that throws an uncountable amount of bone spears at the target.",
   },
   "True Dark": {
     name: "True Dark",
     passive: false,
-    1: "",
+    1: "Creates a dark space where lights do not shine.",
   },
   "Undeath Slave Sight": {
     name: "Undeath Slave Sight",
     passive: false,
-    1: "",
+    1: ": A spell used on specific kinds of undead summons. Allowing you to see through that undead's eye sockets.",
   },
   "Wall of Protection from Arrows": {
     name: "Wall of Protection from Arrows",
     passive: false,
     1: "",
   },
-  "Wall of Skeleton": {
-    name: "Wall of Skeleton",
+  "Wall of Skeletons": {
+    name: "Wall of Skeletons",
     passive: false,
-    1: "",
+    1: "Creates a wall of skeletons that can move and fight to a certain degree.",
   },
   "Acid Immunity": {
     name: "Acid Immunity",
