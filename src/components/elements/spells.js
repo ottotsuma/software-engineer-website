@@ -2286,6 +2286,201 @@ export const spellList = {
     passive: false,
     1: "",
   },
+  "Acid Immunity": {
+    name: "Acid Immunity",
+    passive: false,
+    1: "",
+  },
+  "Arcane Vision": {
+    name: "Arcane Vision",
+    passive: false,
+    1: "",
+  },
+  "Black Halo": {
+    name: "Black Halo",
+    passive: false,
+    1: "",
+  },
+  "Dark Soul": {
+    name: "Dark Soul",
+    passive: false,
+    1: "",
+  },
+  "Dark Wisdom": {
+    name: "Dark Wisdom",
+    passive: false,
+    1: "",
+  },
+  "Despair Aura": {
+    name: "Despair Aura",
+    passive: false,
+    1: "",
+  },
+  "Electric Immunity": {
+    name: "Electric Immunity",
+    passive: false,
+    1: "",
+  },
+  "Ice Immunity": {
+    name: "Ice Immunity",
+    passive: false,
+    1: "",
+  },
+  "Touch of Undeath": {
+    name: "Touch of Undeath",
+    passive: false,
+    1: "",
+  },
+  "Negative Protection": {
+    name: "Negative Protection",
+    passive: false,
+    1: "",
+  },
+  "Slashing Damage Resistance": {
+    name: "Slashing Damage Resistance",
+    passive: false,
+    1: "",
+  },
+  "Piercing Damage Resistance": {
+    name: "Piercing Damage Resistance",
+    passive: false,
+    1: "",
+  },
+  "Status Damage": {
+    name: "Status Damage",
+    passive: false,
+    1: "",
+  },
+  "Turn Resistance": {
+    name: "Turn Resistance",
+    passive: false,
+    1: "",
+  },
+  "Undead Blessing": {
+    name: "Undead Blessing",
+    passive: false,
+    1: "",
+  },
+  "Undead Lieutenant": {
+    name: "Undead Lieutenant",
+    passive: false,
+    1: "",
+  },
+  "Unholy Protection": {
+    name: "Unholy Protection",
+    passive: false,
+    1: "",
+  },
+  "Biological Penalties Resistance": {
+    name: "Biological Penalties Resistance",
+    passive: false,
+    1: "",
+  },
+  "Bludgeoning Vulnerability": {
+    name: "Bludgeoning Vulnerability",
+    passive: false,
+    1: "",
+  },
+  "Critical Hit Immunity": {
+    name: "Critical Hit Immunity",
+    passive: false,
+    1: "",
+  },
+  "Dark Vision": {
+    name: "Dark Vision",
+    passive: false,
+    1: "",
+  },
+  "Death Immunity": {
+    name: "Death Immunity",
+    passive: false,
+    1: "",
+  },
+  "Disease Immunity": {
+    name: "Disease Immunity",
+    passive: false,
+    1: "",
+  },
+  "Doubled Damage by Fire": {
+    name: "Doubled Damage by Fire",
+    passive: false,
+    1: "",
+  },
+  "Eating, Drinking, and Breathing are Unnecessary": {
+    name: "Eating, Drinking, and Breathing are Unnecessary",
+    passive: false,
+    1: "",
+  },
+  "Energy Drain Immunity": {
+    name: "Energy Drain Immunity",
+    passive: false,
+    1: "",
+  },
+  "Good, Light and Holy Vulnerability": {
+    name: "Good, Light and Holy Vulnerability",
+    passive: false,
+    1: "",
+  },
+  "Good and Holy Consecrated Areas Vulnerability": {
+    name: "Good and Holy Consecrated Areas Vulnerability",
+    passive: false,
+    1: "",
+  },
+  "Mind-affecting Immunity": {
+    name: "Mind-affecting Immunity",
+    passive: false,
+    1: "",
+  },
+  "Necromancy Resistance": {
+    name: "Necromancy Resistance",
+    passive: false,
+    1: "",
+  },
+  "Paralysis Immunity": {
+    name: "Paralysis Immunity",
+    passive: false,
+    1: "",
+  },
+  "Physical Penalty Resistance": {
+    name: "Physical Penalty Resistance",
+    passive: false,
+    1: "",
+  },
+  "Poisoning Immunity": {
+    name: "Poisoning Immunity",
+    passive: false,
+    1: "",
+  },
+  "Recover by Negative Energy": {
+    name: "Recover by Negative Energy",
+    passive: false,
+    1: "",
+  },
+  "Sleep Immunity": {
+    name: "Sleep Immunity",
+    passive: false,
+    1: "",
+  },
+  "Rite of Darkness": {
+    name: "Rite of Darkness",
+    passive: false,
+    1: "",
+  },
+  "Undead Aura": {
+    name: "Undead Aura",
+    passive: false,
+    1: "",
+  },
+  "Undead Domination": {
+    name: "Undead Domination",
+    passive: false,
+    1: "",
+  },
+  "Undead Strengthening": {
+    name: "Undead Strengthening",
+    passive: false,
+    1: "",
+  },
 };
 
 // '""',
