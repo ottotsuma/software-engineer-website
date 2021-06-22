@@ -1915,12 +1915,12 @@ export const spellList = {
   "Anti-Information Magic Wall": {
     name: "Anti-Information Magic Wall",
     passive: false,
-    1: "",
+    1: "Your information is blocked from others reading it.",
   },
   "Black Hole": {
     name: "Black Hole",
     passive: false,
-    1: "",
+    1: "A black hole appears sucking everything inside.",
   },
   "Breath Ward": {
     name: "Breath Ward",
