@@ -1925,7 +1925,7 @@ export const spellList = {
   "Breath Ward": {
     name: "Breath Ward",
     passive: false,
-    1: "",
+    1: "Reduces the damage from breath attacks.",
   },
   Burst: {
     name: "Burst",
@@ -1935,12 +1935,12 @@ export const spellList = {
   "Charm Person": {
     name: "Charm Person",
     passive: false,
-    1: "",
+    1: "Charms a single person.",
   },
   Invisibility: {
     name: "Invisibility",
     passive: false,
-    1: "",
+    1: "Makes you invisible!",
   },
   "Complete Vision": {
     name: "Complete Vision",
@@ -1960,7 +1960,7 @@ export const spellList = {
   "Cure Poison": {
     name: "Cure Poison",
     passive: false,
-    1: "",
+    1: "Cures a single instance of poison in the target.",
   },
   "Dark Wing": {
     name: "Dark Wing",
