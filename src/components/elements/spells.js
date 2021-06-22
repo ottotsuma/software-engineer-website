@@ -1744,7 +1744,7 @@ export const spellList = {
   Lightning: {
     name: "Lightning",
     passive: false,
-    1: "",
+    1: "Lightning appears.",
   },
   "Lopsided Duel": {
     name: "Lopsided Duel",
