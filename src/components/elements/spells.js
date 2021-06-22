@@ -1597,18 +1597,13 @@ export const spellList = {
     passive: false,
     1: "",
   },
-  "Summon Lesser Skeleton Warrior": {
-    name: "Summon Lesser Skeleton Warrior",
-    passive: false,
-    1: "",
-  },
   "Summon Small Bonecrawler": {
     name: "Summon Small Bonecrawler",
     passive: false,
     1: "",
   },
-  "Summon Multiple Lesser Skeleton Warriors": {
-    name: "Summon Multiple Lesser Skeleton Warriors",
+  "Summon Multiple Skeleton Warriors": {
+    name: "Summon Multiple Skeleton Warriors",
     passive: false,
     1: "",
   },
@@ -1617,18 +1612,13 @@ export const spellList = {
     passive: false,
     1: "",
   },
-  "Raise Greater Skeleton Warrior": {
-    name: "Raise Greater Skeleton Warrior",
+  "Raise Skeleton Warrior": {
+    name: "Raise Skeleton Warrior",
     passive: false,
     1: "",
   },
-  "Summon Multiple Lesser Skeleton Archers": {
-    name: "Summon Multiple Lesser Skeleton Archers",
-    passive: false,
-    1: "",
-  },
-  "Summon Skeleton Archer": {
-    name: "Summon Skeleton Archer",
+  "Summon Multiple Skeleton Archers": {
+    name: "Summon Multiple Skeleton Archers",
     passive: false,
     1: "",
   },
@@ -1645,12 +1635,12 @@ export const spellList = {
   "Grasp Heart": {
     name: "Grasp Heart",
     passive: false,
-    1: "",
+    1: "Pulls the heart out of a weakened target.",
   },
   "Bone Rejection": {
     name: "Bone Rejection",
     passive: false,
-    1: "",
+    1: "The targets body rejects their own bones and becomes a blob.",
   },
   "Spectral Wave": {
     name: "Spectral Wave",
@@ -1660,7 +1650,7 @@ export const spellList = {
   "Bone Armor": {
     name: "Bone Armor",
     passive: false,
-    1: "",
+    1: "Armor of bones covers you, raising your endurance.",
   },
   "Negative Burst": {
     name: "Negative Burst",
@@ -1670,27 +1660,27 @@ export const spellList = {
   "Raise Elder Lich": {
     name: "Raise Elder Lich",
     passive: false,
-    1: "",
+    1: "An Elder Lich is summoned.",
   },
   "Deaths Arrival": {
     name: "Deaths Arrival",
     passive: false,
     1: "",
   },
-  "Summon Lesser Skeleton Archer": {
-    name: "Summon Lesser Skeleton Archer",
+  "Summon Skeleton Archer": {
+    name: "Summon Skeleton Archer",
     passive: false,
-    1: "",
+    1: "A weak skeleton archer is summoned",
   },
-  "Raise Greater Skeleton Archer": {
-    name: "Raise Greater Skeleton Archer",
+  "Raise Skeleton Archer": {
+    name: "Raise Skeleton Archer",
     passive: false,
-    1: "",
+    1: "Using a corpse, raise up a weak skeleton archer.",
   },
   "Raise Death Knight": {
     name: "Raise Death Knight",
     passive: false,
-    1: "",
+    1: "Using a corpse, raise up a death knight.",
   },
   "Aura of Despair": {
     name: "Aura of Despair",
@@ -1754,12 +1744,12 @@ export const spellList = {
   Slow: {
     name: "Slow",
     passive: false,
-    1: "",
+    1: "Reduces a targets speed.",
   },
   "Dragon Lightning": {
     name: "Dragon Lightning",
     passive: false,
-    1: "",
+    1: "Shoots lighting in the form of chinese dragons.",
   },
   "Chain Dragon Lightning": {
     name: "Chain Dragon Lightning",
@@ -1774,22 +1764,22 @@ export const spellList = {
   "Focus Magic": {
     name: "Focus Magic",
     passive: false,
-    1: "",
+    1: "Increases magic stat for a moment",
   },
   Teleportation: {
     name: "Teleportation",
     passive: false,
-    1: "",
+    1: "Teleports you to a predetermined location.",
   },
   "Hell Flame": {
     name: "Hell Flame",
     passive: false,
-    1: "",
+    1: "Shoots out a spark of hell flame.",
   },
   Napalm: {
     name: "Napalm",
     passive: false,
-    1: "",
+    1: "Drop Napalm on an area.",
   },
   "Undeath Army": {
     name: "Undeath Army",
@@ -1799,27 +1789,27 @@ export const spellList = {
   "Astral Smite": {
     name: "Astral Smite",
     passive: false,
-    1: "",
+    1: "Smite a target wit the power of the stars.",
   },
   Death: {
     name: "Death",
     passive: false,
-    1: "",
+    1: "Target is hit with death.",
   },
   "Dimensional Lock": {
     name: "Dimensional Lock",
     passive: false,
-    1: "",
+    1: "Target cannot teleport.",
   },
   "Energy Drain": {
     name: "Energy Drain",
     passive: false,
-    1: "",
+    1: "Drains the mana and stamina of a target.",
   },
   Explosion: {
     name: "Explosion",
     passive: false,
-    1: "",
+    1: "Causes an explosion in an area.",
   },
   "Bless of Titania": {
     name: "Bless of Titania",
@@ -1829,12 +1819,12 @@ export const spellList = {
   "Call Thunder": {
     name: "Call Thunder",
     passive: false,
-    1: "",
+    1: "Thunder clouds form in the distance coming to you.",
   },
   Rejection: {
     name: "Rejection",
     passive: false,
-    1: "",
+    1: "Can be used to reject un-rejectable quests.",
   },
   "Lead of Yatagarasu": {
     name: "Lead of Yatagarasu",
@@ -1844,7 +1834,8 @@ export const spellList = {
   "Nuclear Blast": {
     name: "Nuclear Blast",
     passive: false,
-    1: "",
+    note: "leaves behind radiation.",
+    1: "Causes a nuclear blast in an area.",
   },
   "Perfect Unknowable": {
     name: "Perfect Unknowable",
@@ -1859,7 +1850,7 @@ export const spellList = {
   "True Death": {
     name: "True Death",
     passive: false,
-    1: "",
+    1: "Causes death to a target, even one immune to death.",
   },
   "Vermilion Nova": {
     name: "Vermilion Nova",
@@ -1884,12 +1875,12 @@ export const spellList = {
   "Create Fortress": {
     name: "Create Fortress",
     passive: false,
-    1: "",
+    1: "Create a fortress using the surrounding materials.",
   },
   "Meteor Fall": {
     name: "Meteor Fall",
     passive: false,
-    1: "",
+    1: "A meteor falls....Somewhere over there...",
   },
   "Reality Slash": {
     name: "Reality Slash",
@@ -1919,7 +1910,7 @@ export const spellList = {
   "Anti-Life Cocoon": {
     name: "Anti-Life Cocoon",
     passive: false,
-    1: "",
+    1: "Wraps a target in a s",
   },
   "Anti-Information Magic Wall": {
     name: "Anti-Information Magic Wall",
