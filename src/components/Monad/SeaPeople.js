@@ -1243,7 +1243,16 @@ export const SeaPeople = {
         all the time so their value here is actually really low. Or I doubt we
         would be left with all of our cargo." Sarah said.
       </p>
-      <p></p>
+      <p>
+        The city from the out side seem imposing with its tall buildings in the
+        back but even as we got close to the city, dispute the buildings being
+        closer they never really felt closer. The majority of the city was small
+        1~2 floor buildings for 80% of the city until a large wall surrounding
+        the tall buildings at the back.
+      </p>
+      <p>
+        
+      </p>
       {/* Wet lands to the south of the city. */}
       <div className="pop">
         Blood Bottle
