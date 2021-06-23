@@ -2360,12 +2360,12 @@ export const spellList = {
   "Critical Hit Immunity": {
     name: "Critical Hit Immunity",
     passive: false,
-    1: "",
+    1: "Reduces the chances of someone landing a critical hit on you.",
   },
   "Dark Vision": {
     name: "Dark Vision",
     passive: false,
-    1: "",
+    1: "Can see in the dark! Partly...",
   },
   "Death Immunity": {
     name: "Death Immunity",
