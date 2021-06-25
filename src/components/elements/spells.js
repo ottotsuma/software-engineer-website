@@ -2458,7 +2458,7 @@ export const spellList = {
     1: "",
   },
 };
-
+// Beserker stuff ! Blood stuff !
 // '""',
 
 // https://overlordmaruyama.fandom.com/wiki/Ainz_Ooal_Gown/Abilities_and_Powers
