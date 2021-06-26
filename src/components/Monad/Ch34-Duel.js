@@ -82,6 +82,19 @@ function Intro(props) {
         me?
       </p>
       <p>I really miss my dad.</p>
+      <div className="BreakPoint"></div>
+      <p>
+        I needed to get stronger. I could not make the excuse he was a third
+        year and had a higher level then me and better equipment. Third years
+        staying in the academy means he is not a combat mage and one of the
+        weakest from his year. I need to get stronger fast, the only ways was to
+        get new equipment, but that costs money.
+      </p>
+      {/* Stuff */}
+      <p>
+        The meeting for the constants 
+      </p>
+      <p></p>
       {Book()}
       {/* {SeaPeople[0]}
       {SeaPeople[1]}
