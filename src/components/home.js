@@ -120,6 +120,7 @@ function Home(props) {
               <ProfileImage
                 src="https://avatars0.githubusercontent.com/u/51743227?s=460&u=60cf882cb319128a05fa5fff10c006de9cdfc2af&v=4"
                 alt="Profile"
+                onError={imageError}
               />
               <Hi>{Language[lang].hi}</Hi>
             </HiWrapper>
@@ -152,6 +153,7 @@ function Home(props) {
           <List>
             <Linkey>
               <LinkImage
+                onError={imageError}
                 src="https://image.flaticon.com/icons/png/512/25/25231.png"
                 alt=" "
               />
@@ -161,6 +163,7 @@ function Home(props) {
             </Linkey>
             <Linkey>
               <LinkImage
+                onError={imageError}
                 src="https://www.pngfind.com/pngs/m/594-5947621_computer-icons-project-project-plan-black-text-project.png"
                 alt=" "
               />
@@ -170,6 +173,7 @@ function Home(props) {
             </Linkey>
             <Linkey>
               <LinkImage
+                onError={imageError}
                 src="https://www.pinclipart.com/picdir/middle/75-750874_work-experience-svg-png-icon-free-download-356662.png"
                 alt=" "
               />
@@ -221,6 +225,7 @@ function Home(props) {
             }
           >
             <HomeImage
+              onError={imageError}
               src={
                 "https://yt3.ggpht.com/ytc/AAUvwni9DJA2UfBnLyffWzkPZp7yLUJG0RHSf1WXqTEEvg=s176-c-k-c0x00ffffff-no-rj"
               }
@@ -242,6 +247,7 @@ function Home(props) {
           </Box> */}
           <Box onClick={() => change("https://dekki.com/en/?page=1")}>
             <HomeImage
+            onError={imageError}
               src={
                 "https://pbs.twimg.com/profile_images/1062990176106905601/s7nYomEa_400x400.jpg"
               }
@@ -266,7 +272,7 @@ function Home(props) {
           <Box
             onClick={() => change("https://github.com/ottotsuma/React-App2")}
           >
-            <HomeImage src={Food} alt="Technical Skills" />
+            <HomeImage src={Food} alt="Technical Skills" onError={imageError} />
             <InnerBox>
               <h3>{Language[lang].RecipesTitle}</h3>
               <Para>{Language[lang].RecipesDisc}</Para>
