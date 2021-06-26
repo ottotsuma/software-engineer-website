@@ -1,6 +1,6 @@
-import Blog from "./../assets/blog.png";
+import Empty from "./../assets/empty.gif";
 export function imageError(ev) {
-  ev.target.src = Blog
+  ev.target.src = Empty
 }
 
 export const colors = {
