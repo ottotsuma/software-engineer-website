@@ -1482,16 +1482,6 @@ export const spellList = {
     passive: false,
     1: "",
   },
-  "Vampiric Hunger": {
-    name: "Vampiric Hunger",
-    passive: false,
-    1: "Blood is taken from a target to restore your HP.",
-  },
-  "Vampiric Hunger Aura": {
-    name: "Vampiric Hunger Aura",
-    passive: false,
-    1: "Blood is taken from around you to restore your HP.",
-  },
   "Healing Tears": {
     name: "Healing Tears",
     passive: false,
@@ -1516,6 +1506,16 @@ export const spellList = {
     name: "Blood Sucker",
     passive: false,
     1: "Suck the blood from a target to restore HP.",
+  },
+  "Blood Absorb": {
+    name: "Blood Absorb",
+    passive: false,
+    1: "Blood is taken from a target to restore your HP.",
+  },
+  "Blood Aura": {
+    name: "Blood Aura",
+    passive: false,
+    1: "Blood is taken from around you to restore your HP.",
   },
   "Decaying Touch": {
     name: "Decaying Touch",
@@ -2456,6 +2456,26 @@ export const spellList = {
     name: "Undead Strengthening",
     passive: false,
     1: "",
+  },
+  "Blood Magic": {
+    name: "Blood Magic",
+    passive: false,
+    1: "For as long as this mode is active, the caster sacrifices health to power spells instead of expending mana, but effects that heal the blood mage are much less effective than normal.",
+  },
+  "Blood Sacrifice": {
+    name: "Blood Sacrifice",
+    passive: false,
+    1: "The blood mage sucks the life-force from an ally, healing the caster but potentially killing the ally. This healing is not affected by the healing penalty of Blood Magic.",
+  },
+  "Blood Wound": {
+    name: "Blood Wound",
+    passive: false,
+    1: "The blood of all hostile targets in the area boils within their veins, inflicting severe damage. Creatures without blood are immune.",
+  },
+  "Blood Control": {
+    name: "Blood Control",
+    passive: false,
+    1: "The blood mage forcibly controls the target’s blood, making the target an ally of the caster. If the target resists, it still takes great damage from the manipulation of its blood. Creatures without blood are immune.",
   },
 };
 // Berserker stuff ! Blood stuff !https://dragonage.fandom.com/wiki/Blood_Mage_(Origins)

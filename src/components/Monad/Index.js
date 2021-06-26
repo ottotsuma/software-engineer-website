@@ -37,6 +37,8 @@ import Chapter34 from "./Ch34-Duel";
 import SpellsPage from "./SpellsPage";
 import Otto from "./Otto";
 import SeaPeopleFunction from "./SeaPeople";
+import Vampire from "./Vampire";
+
 
 const scrollTop = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
@@ -100,7 +102,8 @@ export default function Monad(params) {
     <SeaPeopleFunction Chapter={6} />,
     <SeaPeopleFunction Chapter={7} />,
     <SeaPeopleFunction Chapter={8} />,
-    <SeaPeopleFunction Chapter={9} />,
+    <SeaPeopleFunction Chapter={9} />, 
+    <Vampire />,
     <SpellsPage />,
   ];
   const [isPage, setPage] = useState("");
