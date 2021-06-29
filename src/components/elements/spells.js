@@ -1535,7 +1535,7 @@ export const spellList = {
   "Shackles of Pain": {
     name: "Shackles of Pain",
     passive: false,
-    1: "",
+    1: "Mark a target so that it will receive all of the damage you receive.",
   },
   Infect: {
     name: "Infect",
@@ -1560,7 +1560,7 @@ export const spellList = {
   "Grasp of the Starved": {
     name: "Grasp of the Starved",
     passive: false,
-    1: "",
+    1: "Undead hands rise from underground, attacking characters that stand in blood surfaces and clouds. Each target can become Crippled.",
   },
   "Bone Cage": {
     name: "Bone Cage",
@@ -1570,7 +1570,7 @@ export const spellList = {
   "Black Shroud": {
     name: "Black Shroud",
     passive: false,
-    1: "",
+    1: "Create a cloud of smoke in an area, setting Suffocating and Blind on all within.",
   },
   "Death Wish": {
     name: "Death Wish",
@@ -1585,7 +1585,7 @@ export const spellList = {
   "Blood Storm": {
     name: "Blood Storm",
     passive: false,
-    1: "",
+    1: "The sky weeps bloody tears. Bolts of coagulated blood fall on targets in the area, setting Disease and Decaying. Turns all water in the area into blood.",
   },
   "Raise Bloated Corpse": {
     name: "Raise Bloated Corpse",
@@ -2476,6 +2476,11 @@ export const spellList = {
     name: "Blood Control",
     passive: false,
     1: "The blood mage forcibly controls the target’s blood, making the target an ally of the caster. If the target resists, it still takes great damage from the manipulation of its blood. Creatures without blood are immune.",
+  },
+  "Vampire Eyes": {
+    name: "Vampire Eyes",
+    passive: true,
+    1: "A skill possessed by all vampires, their blood lust (Health) is shown by the color of their eyes.",
   },
 };
 // Berserker stuff ! Blood stuff !https://dragonage.fandom.com/wiki/Blood_Mage_(Origins)

@@ -35,10 +35,15 @@ export default function Vampire() {
             name: "Blood Aura",
             level: 1,
           },
+          { name: "Grasp of the Starved", level: 1 },
+          { name: "Blood Magic", level: 1 },
+          { name: "Blood Sacrifice", level: 1 },
+          { name: "Blood Wound", level: 1 },
+          { name: "Blood Control", level: 1 },
+          
         ]}
         type={"mage"}
       />
-      {/* Grasp of the Starved, Blood Magic, Blood Sacrifice, Blood Wound, Blood Control */}
       <div className="BreakPoint"></div>
       <h1>Vampire specific skills (Blood + Other)</h1>
       <Spells
@@ -47,11 +52,13 @@ export default function Vampire() {
             name: "Blood Sucker",
             level: 1,
           },
-          { name: "Black Shroud", level: 2 },
+          { name: "Black Shroud", level: 1 },
+          { name: "Vampire Eyes", level: 1 },
+          { name: "Aura of Despair", level: 1 },
+
         ]}
         type={"human"}
       />
-      {/* Aura of Despair */}
     </div>
   );
 }

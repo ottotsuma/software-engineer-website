@@ -1254,6 +1254,7 @@ export const SeaPeople = {
         
       </p>
       {/* Wet lands to the south of the city. */}
+      {/* Vampire eyes red - purple - blue */}
       <div className="pop">
         Blood Bottle
         <img className="popOut" src={Blood} alt="Blood Bottle" />
