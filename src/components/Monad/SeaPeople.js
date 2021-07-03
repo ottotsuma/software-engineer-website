@@ -1245,10 +1245,28 @@ export const SeaPeople = {
       </p>
       <p>
         The city from the out side seem imposing with its tall buildings in the
-        back but even as we got close to the city, dispute the buildings being
+        back but even as we got close to the city, despite the buildings being
         closer they never really felt closer. The majority of the city was small
         1~2 floor buildings for 80% of the city until a large wall surrounding
         the tall buildings at the back.
+      </p>
+      <p>
+        "Tell me we don't need to get into the walled part of the city." I said to Sarah.
+      </p>
+      <p>
+        "No we don't need to. Only administrators and officials would live in there, we would need a good reason or passes to get let in. Luckily for us this state has almost never been attacked from land so they are pretty lax about the outer city. I had once though about building our forces here but it really is too remote." She said before quickly adding "And I found a better place."
+      </p>
+      <p>
+        "What's the plan anyway? I have just sort of being going for a ride here." I said.
+      </p>
+      <p>
+        "I'll find you some low level ID so you can run around the city doing small quests. Josh, evidently cannot speak so he will have to stay with me while I find us a quest that will take us were we want to go so we have legal paper work to move around." Sarah replied.
+      </p>
+      <p>
+        "People living here need paper work to move between towns?" I asked.
+      </p>
+      <p>
+        "No, foreigners need paper work." She replied.
       </p>
       <p>
         
