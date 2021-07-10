@@ -91,10 +91,27 @@ function Intro(props) {
         get new equipment, but that costs money.
       </p>
       {/* Stuff */}
+      <p>The meeting for the constants</p>
       <p>
-        The meeting for the constants 
+        I was surprised how many people were at the meeting. The classroom had 2
+        students from each class as expected, some of the teachers from the
+        classes but also some of the professors who did not or rarely taught.
+        Along with some people from the military, they stood out the most
+        wearing metal armor or fancy outfits. One group of which was a woman
+        with long blonde hair, metal armor trimmed with gold covering most of
+        her body and a sword almost my whole height resting against a chair next
+        to her. Standing around her were four others in less impressive metal
+        chest plates and shin pads but the majority of their armor being leather
+        and hide.
       </p>
-      <p></p>
+      <p>
+        Not wanting to say anything and catch anyone's attention I moved into an
+        empty seat. The first to speak was Arrilian the head of the first years
+        and the one who was in charge of the event from the academy.
+      </p>
+      <p>
+        "Thank you for attending today. Joining us here today are some members of the military who are sponsoring the event. In attendance today are the students partaking in the event, minus those who are unable to attend due to, injuries."
+      </p>
       {Book()}
       {/* {SeaPeople[0]}
       {SeaPeople[1]}
