@@ -110,7 +110,13 @@ function Intro(props) {
         and the one who was in charge of the event from the academy.
       </p>
       <p>
-        "Thank you for attending today. Joining us here today are some members of the military who are sponsoring the event. In attendance today are the students partaking in the event, minus those who are unable to attend due to, injuries."
+        "Thank you for attending today. Joining us here today are some members
+        of the military who are sponsoring the event. In attendance today are
+        the students partaking in the event, minus those who are unable to
+        attend due to, injuries." Arrilian announced from the teachers podium at the front of the room.
+      </p>
+      <p>
+        Sponsoring? You mean they are making sure this death match goes ahead how they requested. I thought to myself. After all which other party would request something so ridiculous. 
       </p>
       {Book()}
       {/* {SeaPeople[0]}
