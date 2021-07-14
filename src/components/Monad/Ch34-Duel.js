@@ -265,6 +265,14 @@ const BookOfRaces = styled.div`
   width: 100%;
 `;
 
+// Alden takes part of the republic finding the republic slaves fighting them
+// Alden takes people of the republics north and west ans sea people as slaves 
+// The others are angered by the taken of slaves
+// Leve's and kids are sent to the kingdoms dwarven side to defend an attack from the kingdom which is expected
+// Core groups move into the republic, south forest to surprise the south, and cross roads.
+// this chaos allows more sea people to move in
+
+
 // Vampire type, more blood taken makes them stronger so often conflict with humans
 // Vampire type, more hunger makes them stronger so often hide from humans
 // The people coming off the boats don't have to be human
