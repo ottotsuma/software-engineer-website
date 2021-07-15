@@ -259,7 +259,7 @@ const BookOfWraps = styled.div`
 const BookOfRaces = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
   flex-wrap: wrap;
   max-width: 300px;
   width: 100%;
@@ -268,7 +268,7 @@ const BookOfRaces = styled.div`
 // Alden takes part of the republic finding the republic slaves fighting them
 // Alden takes people of the republics north and west ans sea people as slaves 
 // The others are angered by the taken of slaves
-// Leve's and kids are sent to the kingdoms dwarven side to defend an attack from the kingdom which is expected
+// Levy's and kids are sent to the kingdoms dwarven side to defend an attack from the kingdom which is expected
 // Core groups move into the republic, south forest to surprise the south, and cross roads.
 // this chaos allows more sea people to move in
 
