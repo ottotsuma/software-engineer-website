@@ -121,7 +121,17 @@ function Intro(props) {
         how they requested. I thought to myself. After all which other party
         would request something so ridiculous.
       </p>
-      <p>Arrilian continued. ""</p>
+      <p>
+        Arrilian continued. "Todays meeting will be a run down of the event, the
+        location and what is expected of you. There will be no questions as we
+        have a tight seclude to stick to but members of the military you see
+        here today will be joining our academy for the next few weeks." Arrilian
+        briefly looked over to the blonde woman sitting in the chair who had
+        made a face like she was just spat on.
+      </p>
+      <p>
+        ""
+      </p>
       {Book()}
       {/* {SeaPeople[0]}
       {SeaPeople[1]}
@@ -260,19 +270,18 @@ const BookOfWraps = styled.div`
 const BookOfRaces = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
   flex-wrap: wrap;
   max-width: 300px;
   width: 100%;
 `;
 
 // Alden takes part of the republic finding the republic slaves fighting them
-// Alden takes people of the republics north and west ans sea people as slaves 
+// Alden takes people of the republics north and west ans sea people as slaves
 // The others are angered by the taken of slaves
 // Levy's and kids are sent to the kingdoms dwarven side to defend an attack from the kingdom which is expected
 // Core groups move into the republic, south forest to surprise the south, and cross roads.
 // this chaos allows more sea people to move in
-
 
 // Vampire type, more blood taken makes them stronger so often conflict with humans
 // Vampire type, more hunger makes them stronger so often hide from humans
