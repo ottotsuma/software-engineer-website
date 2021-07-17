@@ -130,7 +130,20 @@ function Intro(props) {
         made a face like she was just spat on.
       </p>
       <p>
-        ""
+        "The event will take place inside the jungle east of the academy. We
+        have looked at many different options for the location and although the
+        north is easier with flat plains and varied environments non of them
+        would test the students ability to adapt quite like the wilds of the
+        jungle." Arrilian paused for a breath before rattling off more. "The
+        south is too dangerous for first year students and the western wood
+        would give an advantage to those from the countryside as the woodland is
+        similar to Alden, and also were the 2nd years train." He said as he
+        stopped to turn the paper on his lectern.
+      </p>
+      <p>
+        "So the south is too dangerous for students but fighting to the death in
+        the jungle should be safe for them? Are you a moron?" I blurted out
+        without thinking.
       </p>
       {Book()}
       {/* {SeaPeople[0]}
