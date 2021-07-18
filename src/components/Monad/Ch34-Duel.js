@@ -90,6 +90,12 @@ function Intro(props) {
         weakest from his year. I need to get stronger fast, the only ways was to
         get new equipment, but that costs money.
       </p>
+      <p>
+        I walked away from the arena and to the training stones outside. I am not sure which one would be helpful but dueling was not what I wanted to do right now. At least the training area would match me up with people near my level, I like the arena's realism but it had no rank system so the fights would be unfair at times.
+      </p>
+      <p>
+        
+      </p>
       {/* Stuff */}
       <p>The meeting for the constants</p>
       <p>
@@ -150,7 +156,13 @@ function Intro(props) {
         bellowed breaking the silence as two teachers stood up and dragged me
         outside by my arms.
       </p>
-      <p></p>
+      <p>
+        If they had just thrown me out of the room I would of left embarrassed
+        or annoyed I am not sure which but I know I would of just left. However
+        they dragged me into a holding cell in a part of the academy that was
+        restricted for students and left me there!
+      </p>
+      <p>I suppose it matters little if I die in a cell or the jungle.</p>
       {Book()}
       {/* {SeaPeople[0]}
       {SeaPeople[1]}
