@@ -145,6 +145,12 @@ function Intro(props) {
         the jungle should be safe for them? Are you a moron?" I blurted out
         without thinking.
       </p>
+      <p>
+        The room fell silent. I had made a mistake. "Remove her." Arrilian
+        bellowed breaking the silence as two teachers stood up and dragged me
+        outside by my arms.
+      </p>
+      <p></p>
       {Book()}
       {/* {SeaPeople[0]}
       {SeaPeople[1]}
