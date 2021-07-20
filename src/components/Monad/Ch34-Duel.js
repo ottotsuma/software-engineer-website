@@ -94,7 +94,7 @@ function Intro(props) {
         I walked away from the arena and to the training stones outside. I am not sure which one would be helpful but dueling was not what I wanted to do right now. At least the training area would match me up with people near my level, I like the arena's realism but it had no rank system so the fights would be unfair at times.
       </p>
       <p>
-        
+
       </p>
       {/* Stuff */}
       <p>The meeting for the constants</p>
