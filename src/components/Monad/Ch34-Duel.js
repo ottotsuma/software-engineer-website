@@ -102,7 +102,11 @@ function Intro(props) {
         of where I should go or what to do. That's when someone had called me,
         although at first I thought it was not me they were calling "Arena
         girl." Until a blonde boy had walked over to me. It was Linhart the boy
-        I had just dueled with.
+        I had just dueled with. I didn't want to be rude, it's not like he was
+        at fault for anything but I was not too happy to see him right now.
+      </p>
+      <p>
+        
       </p>
       {/* Stuff */}
       <p>The meeting for the constants</p>
