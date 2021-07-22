@@ -91,10 +91,18 @@ function Intro(props) {
         get new equipment, but that costs money.
       </p>
       <p>
-        I walked away from the arena and to the training stones outside. I am not sure which one would be helpful but dueling was not what I wanted to do right now. At least the training area would match me up with people near my level, I like the arena's realism but it had no rank system so the fights would be unfair at times.
+        I walked away from the arena and to the training stones outside. I am
+        not sure which one would be helpful but dueling was not what I wanted to
+        do right now. At least the training area would match me up with people
+        near my level, I like the arena's realism but it had no rank system so
+        the fights would be unfair at times.
       </p>
       <p>
-        
+        I ending up standing just outside the arena in one of the plazas unsure
+        of where I should go or what to do. That's when someone had called me,
+        although at first I thought it was not me they were calling "Arena
+        girl." Until a blonde boy had walked over to me. It was Linhart the boy
+        I had just dueled with.
       </p>
       {/* Stuff */}
       <p>The meeting for the constants</p>

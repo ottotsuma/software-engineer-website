@@ -317,7 +317,7 @@ Tisiel Skivali - (cliffs) imperial name,(huonoia) - scholar/necromancer (GONE)
 <li>Otto -
 <li>Daniel - Duels Otto on the 3rd day. (Earth)
 <li>Kaja - Duels Otto on the 5th day. (Fire)
-<li>Linhart - (fire)
+<li>Linhart - (fire) - blonde curly hair
 <li>Ditwin - Cromwell from black adder (earth) (DEAD)
 <li>Gelfrat - (water) (DEAD)
 <li>HILDEBOLD - (water)
