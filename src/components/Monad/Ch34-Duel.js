@@ -106,6 +106,17 @@ function Intro(props) {
         at fault for anything but I was not too happy to see him right now.
       </p>
       <p>
+        "Hey, I was just leaving." I said to him, hoping he would take the hint.
+      </p>
+      <p>
+        "Ah, I hope our match didn't upset you. I just wanted to say you were
+        really creative with your spells and was hoping to invite you hunting in
+        the training area. So we could trade tips, I might not be as combat
+        focused as you but I am a third year so there are somethings I have
+        picked up. What do you say?" He asked me, it was hard to say no, he
+        seemed genuine.
+      </p>
+      <p>
         
       </p>
       {/* Stuff */}
