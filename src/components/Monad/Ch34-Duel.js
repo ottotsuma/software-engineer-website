@@ -117,8 +117,12 @@ function Intro(props) {
         seemed genuine.
       </p>
       <p>
-        
+        "Y-yeah, okay. Sounds nice. I need to get stronger fast, actually." I replied pushing the hair away that had fallen down to my face.
       </p>
+      <p>
+        "Let's go now then. I know the best place inside." He said with a smile.
+      </p>
+      <p></p>
       {/* Stuff */}
       <p>The meeting for the constants</p>
       <p>
