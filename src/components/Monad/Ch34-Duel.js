@@ -187,6 +187,9 @@ function Intro(props) {
         the easiest way as long as no teachers found out.
       </p>
       <p>
+        
+      </p>
+      <p>
         {/* He takes her to hunt monsters, she has fun, but then he bullies her out of her tokens with his friends because he knows shes going to die and doesn't care. The backstory we don't know is that he is being blackmailed further up, led along by a girl. */}
       </p>
       <p>The meeting for the constants</p>
