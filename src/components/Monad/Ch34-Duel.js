@@ -147,7 +147,7 @@ function Intro(props) {
         "Class Champion! You are required to attend a meeting for the upcoming tournament in classroom  A-E-107. Failure to attend will result in being confined for 3 days. - Arrilian."
       </p>
       <p>
-        My face soured reading that message. As if it was not stressful enough already without having meetings about how, where and when we might die! Needless to say I had little confidence in winning this tournament. I looked at the tokens I had gathered and just hopped 
+        My face soured reading that message. As if it was not stressful enough already without having meetings about how, where and when we might die! Needless to say I had little confidence in winning this tournament. I looked at the tokens I had gathered and just hopped I could sell these tokens quickly and buy something useful. People were always looking for ways to cheat the system and get up the rank ladder, buying tokens was the easiest way as long as no teachers found out.
       </p>
       <p>
         {/* He takes her to hunt monsters, she has fun, but then he bullies her out of her tokens with his friends because he knows shes going to die and doesn't care. The backstory we don't know is that he is being blackmailed further up, led along by a girl. */}
