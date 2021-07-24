@@ -123,9 +123,35 @@ function Intro(props) {
         "Let's go now then. I know the best place inside." He said with a smile.
       </p>
       <p>
+        We went inside the training area to kill monsters and collect tokens together, I had not really been in here as often as other students. While most students from the countryside want to fight monsters I was born in the large city of Soldenheim. There are few monsters in the traditional sense but plenty of evil humans. I wanted to join the guard for the city and work my way up to guarding the Baron, so I spent most of my time dueling other humans not monsters.
+      </p>
+      <p>
+        Linhart did as he said he would and took me to an area he said is normally dominated by second or third years because it is the easier to get tokens this way then the other monsters. I guess he means the non-combat students as the monsters only dropped 1 token randomly not every time and could hardly fight back. It was easy but if I could not trade this tokens in for items it would of been a waste of time as I was not really learning anything. 
+      </p>
+      <p>
+        The monsters were little birds. They were kind of cute with a small beak, hopping about pecking at the floor to find bugs. They were the lowest level monster in the training area and barely passed as monsters since they had one skill. The skill caused them to quickly move about half an arms length in any direction, this made them really hard to hit with skills like fire ball.
+      </p>
+      <p>
+        Linhart was having and easier time with his wide area skills burning all around the birds but it was a huge waste of mana so he kept having to rest. Over the course of the next 2 hours we had gathered around 20 tokens each. We had decided to take a rest sitting on the rocks watching the birds flutter around pecking at the ground, they were not hostile unless attacked and even then they spent most of the fight just trying to dodge attacks. 
+      </p>
+      <p>
+        Linhart seemed to be kind of zoned out so I called out to him. "What ya doing?"
+      </p>
+      <p>
+        "Ah sorry, I was using that new network the academy had set up to message some friends." He apologized with a smile.
+      </p>
+      <p>
+        "I had forgot about that. I wonder if I have any messages." I reached out with my mana and sure enough there was a connection near the spawn area. Since we were close by I could reach it and connect. There was a message for me sent by the academy.
+      </p>
+      <p>
+        "Class Champion! You are required to attend a meeting for the upcoming tournament in classroom  A-E-107. Failure to attend will result in being confined for 3 days. - Arrilian."
+      </p>
+      <p>
+        My face soured reading that message. As if it was not stressful enough already without having meetings about how, where and when we might die! Needless to say I had little confidence in winning this tournament. I looked at the tokens I had gathered and just hopped 
+      </p>
+      <p>
         {/* He takes her to hunt monsters, she has fun, but then he bullies her out of her tokens with his friends because he knows shes going to die and doesn't care. The backstory we don't know is that he is being blackmailed further up, led along by a girl. */}
       </p>
-      {/* Stuff */}
       <p>The meeting for the constants</p>
       <p>
         I was surprised how many people were at the meeting. The classroom had 2

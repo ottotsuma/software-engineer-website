@@ -316,7 +316,7 @@ Tisiel Skivali - (cliffs) imperial name,(huonoia) - scholar/necromancer (GONE)
 <li>Ralsan - (cliffs) farmer (pervert who gets nose bleeds easily. Needs to be added before Chapter 28)
 <li>Otto -
 <li>Daniel - Duels Otto on the 3rd day. (Earth)
-<li>Kaja - Duels Otto on the 5th day. (Fire)
+<li>Kaja - Duels Otto on the 5th day. (Fire) (Soldenheim, family: farther. Picked for contest at academy.)
 <li>Linhart - (fire) - blonde curly hair, being led on by a 3rd year girl, shes taking his tokens, but she has a boyfriend.
 <li>Ditwin - Cromwell from black adder (earth) (DEAD)
 <li>Gelfrat - (water) (DEAD)
