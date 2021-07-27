@@ -187,6 +187,12 @@ function Intro(props) {
         the easiest way as long as no teachers found out.
       </p>
       <p>
+        "Hey I'm sorry Linhart, I have to go. I got a message from the academy. It was fun hanging out today though, do you maybe want to meet up tomorrow?" I asked wondering if he really needed my help hunting or just the kind of person that hated doing things alone.
+      </p>
+      <p>
+        "Oh no, that's okay. My friends will be here any moment so just leave your tokens and go." He replied back with a changed tone of voice.
+      </p>
+      <p>
         
       </p>
       <p>
