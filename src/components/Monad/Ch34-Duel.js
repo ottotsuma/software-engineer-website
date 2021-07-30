@@ -203,12 +203,18 @@ function Intro(props) {
         "You don't get it?" He said plastering his face with a twisted smile. "I need these tokens for a girl I like. Why would I let you keep them?" Just as he had finished two boys came running towards us from the entrance to this area shouting "Is this the one?" To witch Linhart just nodded and they surrounded me.
       </p>
       <p>
-        
+        "Really!?" I screamed "You dragged me out here after killing me in the arena just to rob me after wasting my time! You're the worst!"
       </p>
       <p>
-        {/* He takes her to hunt monsters, she has fun, but then he bullies her out of her tokens with his friends because he knows shes going to die and doesn't care. The backstory we don't know is that he is being blackmailed further up, led along by a girl. */}
+        He laughed and lit a flame in his hand. "We already know I can beat you one on one, so throw the tokens to the floor and walk away or all three of us will beat you. Not that it matters you'll be dead soon anyway, class champion." He said in an voice giving away that he was excited.
       </p>
-      <p>The meeting for the constants</p>
+      <p>
+        I was about to break into tears, life is really shit right now. I just grabbed all the tokens and tossed them to the floor in frustration and stormed off in a run past the two boys and tried not to look back or cry as I left. They did let me go only to grab the tokens from the floor for themselves.
+      </p>
+      <p>
+
+      </p>
+      <h4>The meeting for the constants</h4>
       <p>
         I was surprised how many people were at the meeting. The classroom had 2
         students from each class as expected, some of the teachers from the
