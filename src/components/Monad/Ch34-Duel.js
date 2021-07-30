@@ -187,10 +187,20 @@ function Intro(props) {
         the easiest way as long as no teachers found out.
       </p>
       <p>
-        "Hey I'm sorry Linhart, I have to go. I got a message from the academy. It was fun hanging out today though, do you maybe want to meet up tomorrow?" I asked wondering if he really needed my help hunting or just the kind of person that hated doing things alone.
+        "Hey I'm sorry Linhart, I have to go. I got a message from the academy.
+        It was fun hanging out today though, do you maybe want to meet up
+        tomorrow?" I asked wondering if he really needed my help hunting or just
+        the kind of person that hated doing things alone.
       </p>
       <p>
-        "Oh no, that's okay. My friends will be here any moment so just leave your tokens and go." He replied back with a changed tone of voice.
+        "Oh no, that's okay. My friends will be here any moment so just leave
+        your tokens and go." He replied back with a changed tone of voice.
+      </p>
+      <p>
+        "My tokens? It's okay you don't have to look after them, I was going to sell them straight away." I replied a little confused.
+      </p>
+      <p>
+        "You don't get it?" He said plastering his face with a twisted smile. "I need these tokens for a girl I like. Why would I let you keep them?" Just as he had finished two boys came running towards us from the entrance to this area shouting "Is this the one?" To witch Linhart just nodded and they surrounded me.
       </p>
       <p>
         
