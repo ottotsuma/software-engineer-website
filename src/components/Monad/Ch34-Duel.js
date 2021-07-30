@@ -197,22 +197,35 @@ function Intro(props) {
         your tokens and go." He replied back with a changed tone of voice.
       </p>
       <p>
-        "My tokens? It's okay you don't have to look after them, I was going to sell them straight away." I replied a little confused.
+        "My tokens? It's okay you don't have to look after them, I was going to
+        sell them straight away." I replied a little confused.
       </p>
       <p>
-        "You don't get it?" He said plastering his face with a twisted smile. "I need these tokens for a girl I like. Why would I let you keep them?" Just as he had finished two boys came running towards us from the entrance to this area shouting "Is this the one?" To witch Linhart just nodded and they surrounded me.
+        "You don't get it?" He said plastering his face with a twisted smile. "I
+        need these tokens for a girl I like. Why would I let you keep them?"
+        Just as he had finished two boys came running towards us from the
+        entrance to this area shouting "Is this the one?" To witch Linhart just
+        nodded and they surrounded me.
       </p>
       <p>
-        "Really!?" I screamed "You dragged me out here after killing me in the arena just to rob me after wasting my time! You're the worst!"
+        "Really!?" I screamed "You dragged me out here after killing me in the
+        arena just to rob me after wasting my time! You're the worst!"
       </p>
       <p>
-        He laughed and lit a flame in his hand. "We already know I can beat you one on one, so throw the tokens to the floor and walk away or all three of us will beat you. Not that it matters you'll be dead soon anyway, class champion." He said in an voice giving away that he was excited.
+        He laughed and lit a flame in his hand. "We already know I can beat you
+        one on one, so throw the tokens to the floor and walk away or all three
+        of us will beat you. Not that it matters you'll be dead soon anyway,
+        class champion." He said in an voice giving away that he was excited.
       </p>
       <p>
-        I was about to break into tears, life is really shit right now. I just grabbed all the tokens and tossed them to the floor in frustration and stormed off in a run past the two boys and tried not to look back or cry as I left. They did let me go only to grab the tokens from the floor for themselves.
+        I was about to break into tears, life is really shit right now. I just
+        grabbed all the tokens and tossed them to the floor in frustration and
+        stormed off in a run past the two boys and tried not to look back or cry
+        as I left. They did let me go only to grab the tokens from the floor for
+        themselves.
       </p>
       <p>
-
+        I did not have the heart to do anything else today. I would just go to the meeting and then back to my room. Today was the worst.
       </p>
       <h4>The meeting for the constants</h4>
       <p>
