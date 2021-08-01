@@ -294,7 +294,24 @@ function Duel(props) {
       </p>
       <p>I suppose it matters little if I die in a cell or the jungle.</p>
       <div className="BreakPoint"></div>
-      <p></p>
+      <p>
+        It had been hours and I felt like my night would end there so I went to sleep. They didn't even send me food. They were suppose to take care of me and teach me magic, I wouldn't of come here if this had ever happened before, I can't even understand their thinking. They said it was to boost moral, well my moral is so low I want to defect.
+      </p>
+      <p>
+        I was half asleep half fuming when the sound of banging and shouting came from the hallway where they had taken me in here.
+      </p>
+      <p>
+        "Fuck you, you son of a dwarf and a horse. The big man now, beating up a child and sending them to their death for your sick enjoyment. Stop shouting? Why am I starting to make sense? Goat fucker."
+      </p>
+      <p>
+        Well, someone is more open about how they feel then I am...
+      </p>
+      <p>
+        A boy stumbled by my cell as if he had been pushed, with straight black hair, a pale completion but otherwise well kept and clean. He was not Aldenese, he looked almost Leikan. Wearing a black academy robe with a purple trim. That is not one you see often I thought, although I heard there where a few in the academy more then other academy's but he is a Necromancer.
+      </p>
+      <p>
+        
+      </p>
       {/* Go sleep, woken by someone screaming? Book gets dropped into the jail cell. She learns about races. */}
       {Book()}
       {/* {SeaPeople[0]}
