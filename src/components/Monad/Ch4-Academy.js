@@ -2,7 +2,7 @@ import React from "react";
 import Witch from "./../../assets/witch7.jpg";
 import Stats from "./../elements/stats";
 
-function Intro(props) {
+function Academy(props) {
   return (
     <div className="Monad" id="3">
       <div className="Frame">
@@ -491,4 +491,4 @@ function Intro(props) {
     </div>
   );
 }
-export default Intro;
+export default Academy;

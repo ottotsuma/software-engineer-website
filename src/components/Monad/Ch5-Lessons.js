@@ -26,7 +26,7 @@ const Element = styled.div`
   }
 `;
 
-function Intro(props) {
+function Lessons(props) {
   return (
     <div className="Monad" id="3">
       <div className="Frame">
@@ -668,4 +668,4 @@ function Intro(props) {
     </div>
   );
 }
-export default Intro;
+export default Lessons;

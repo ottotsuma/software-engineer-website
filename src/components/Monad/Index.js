@@ -130,7 +130,7 @@ export default function Monad(params) {
         onClick={() => callBack(index)}
         to={"/Monad/" + (index + 1)}
       >
-        Ch {index + 1}
+        Ch {index + 1} {ChapterList[index].type.name}
       </Link>
     ));
     return rows;

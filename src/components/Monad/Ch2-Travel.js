@@ -1,6 +1,6 @@
 import React from "react";
 
-function Intro(props) {
+function Travel(props) {
   return (
     <div className="Monad" id="2">
       <div className="Frame">
@@ -408,4 +408,4 @@ function Intro(props) {
     </div>
   );
 }
-export default Intro;
+export default Travel;
