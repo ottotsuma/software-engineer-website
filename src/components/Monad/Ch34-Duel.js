@@ -316,7 +316,7 @@ function Duel(props) {
         "Your mother doesn't call be a brat, she calls me DADDY, show some more respect to your dad you little shit." The boy shouted from the cell with his hands clasping the bars his face pushed between them. "I aught to give you a good spanking. Your mother enjoys a good spanking you know?"
       </p>
       <p>
-        
+        ""
       </p>
       {/* Go sleep, woken by someone screaming? Book gets dropped into the jail cell. She learns about races. */}
       {Book()}
