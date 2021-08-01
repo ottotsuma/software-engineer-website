@@ -56,85 +56,87 @@ function PreviousPage() {
   number--;
 }
 
+function callBack(index) {
+  number = index + 1;
+}
+
+const ChapterList = [
+  <Chapter1 />,
+  <Chapter2 />,
+  <Chapter3 />,
+  <Chapter4 />,
+  <Chapter5 />,
+  <Chapter6 />,
+  <Chapter7 />,
+  <Chapter8 />,
+  <Chapter9 />,
+  <Chapter10 />,
+  <Chapter11 />,
+  <Chapter12 />,
+  <Chapter13 />,
+  <Chapter14 />,
+  <Chapter15 />,
+  <Chapter16 />,
+  <Chapter17 />,
+  <Chapter18 />,
+  <Chapter19 />,
+  <Chapter20 />,
+  <Chapter21 />,
+  <Chapter22 />,
+  <Chapter23 />,
+  <Chapter24 />,
+  <Chapter25 />,
+  <Chapter26 />,
+  <Chapter27 />,
+  <Chapter28 />,
+  <Chapter29 />,
+  <Chapter30 />,
+  <Chapter31 />,
+  <Chapter32 />,
+  <Chapter33 />,
+  <Chapter34 />,
+  <Otto />,
+  <SeaPeopleFunction Chapter={0} />,
+  <SeaPeopleFunction Chapter={1} />,
+  <SeaPeopleFunction Chapter={2} />,
+  <SeaPeopleFunction Chapter={3} />,
+  <SeaPeopleFunction Chapter={4} />,
+  <SeaPeopleFunction Chapter={5} />,
+  <SeaPeopleFunction Chapter={6} />,
+  <SeaPeopleFunction Chapter={7} />,
+  <SeaPeopleFunction Chapter={8} />,
+  <SeaPeopleFunction Chapter={9} />, 
+  <Vampire />,
+  <SpellsPage />,
+];
+
+export function droppy() {
+  let rows = new Array(ChapterList.length).fill(0).map((zero, index) => (
+    <Link
+      key={index}
+      id={index}
+      className="dropdown-content-a"
+      onClick={() => callBack(index)}
+      to={"/Monad/" + (index + 1)}
+    >
+      Ch {index + 1} {ChapterList[index].type.name}
+    </Link>
+  ));
+  return rows;
+}
+
+export function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
 export default function Monad(params) {
-  const ChapterList = [
-    <Chapter1 />,
-    <Chapter2 />,
-    <Chapter3 />,
-    <Chapter4 />,
-    <Chapter5 />,
-    <Chapter6 />,
-    <Chapter7 />,
-    <Chapter8 />,
-    <Chapter9 />,
-    <Chapter10 />,
-    <Chapter11 />,
-    <Chapter12 />,
-    <Chapter13 />,
-    <Chapter14 />,
-    <Chapter15 />,
-    <Chapter16 />,
-    <Chapter17 />,
-    <Chapter18 />,
-    <Chapter19 />,
-    <Chapter20 />,
-    <Chapter21 />,
-    <Chapter22 />,
-    <Chapter23 />,
-    <Chapter24 />,
-    <Chapter25 />,
-    <Chapter26 />,
-    <Chapter27 />,
-    <Chapter28 />,
-    <Chapter29 />,
-    <Chapter30 />,
-    <Chapter31 />,
-    <Chapter32 />,
-    <Chapter33 />,
-    <Chapter34 />,
-    <Otto />,
-    <SeaPeopleFunction Chapter={0} />,
-    <SeaPeopleFunction Chapter={1} />,
-    <SeaPeopleFunction Chapter={2} />,
-    <SeaPeopleFunction Chapter={3} />,
-    <SeaPeopleFunction Chapter={4} />,
-    <SeaPeopleFunction Chapter={5} />,
-    <SeaPeopleFunction Chapter={6} />,
-    <SeaPeopleFunction Chapter={7} />,
-    <SeaPeopleFunction Chapter={8} />,
-    <SeaPeopleFunction Chapter={9} />, 
-    <Vampire />,
-    <SpellsPage />,
-  ];
+
   const [isPage, setPage] = useState("");
   useEffect(() => {
     console.log("Page: ", number);
     setPage(ChapterList[window.location.href.match(/\d+$/)[0] - 1]);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [number]);
-
-  function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-  }
-
-  function callBack(index) {
-    number = index + 1;
-  }
-
-  function droppy() {
-    let rows = new Array(ChapterList.length).fill(0).map((zero, index) => (
-      <Link
-        key={index}
-        id={index}
-        className="dropdown-content-a"
-        onClick={() => callBack(index)}
-        to={"/Monad/" + (index + 1)}
-      >
-        Ch {index + 1} {ChapterList[index].type.name}
-      </Link>
-    ));
-    return rows;
-  }
 
   if (number === ChapterList.length) {
     return (
@@ -147,14 +149,14 @@ export default function Monad(params) {
         >
           Previous
         </Link>
-        <div className="dropdown">
+        {/* <div className="dropdown">
           <button onClick={() => myFunction()} className="dropbtn">
             Dropdown
           </button>
           <div id="myDropdown" className="dropdown-content">
             {droppy()}
           </div>
-        </div>
+        </div> */}
         {isPage}
         <Link
           className="Footer-Button"
@@ -180,14 +182,14 @@ export default function Monad(params) {
         >
           Previous
         </Link>
-        <div className="dropdown">
+        {/* <div className="dropdown">
           <button onClick={() => myFunction()} className="dropbtn">
             Dropdown
           </button>
           <div id="myDropdown" className="dropdown-content">
             {droppy()}
           </div>
-        </div>
+        </div> */}
         <Link
           className="Footer-Button"
           to={"/Monad/" + (number + 1)}
@@ -220,14 +222,14 @@ export default function Monad(params) {
   } else {
     return (
       <div className="Chapter-Container">
-        <div className="dropdown">
+        {/* <div className="dropdown">
           <button onClick={() => myFunction()} className="dropbtn">
             Dropdown
           </button>
           <div id="myDropdown" className="dropdown-content">
             {droppy()}
           </div>
-        </div>
+        </div> */}
         <Link
           className="Footer-Button"
           to={"/Monad/" + (number + 1)}
