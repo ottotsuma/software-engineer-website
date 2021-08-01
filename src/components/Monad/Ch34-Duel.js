@@ -7,7 +7,7 @@ import Quest from "./../elements/quest";
 import LevelUp from "./../elements/levelup";
 import { SeaPeople } from "./SeaPeople";
 
-function Intro(props) {
+function Duel(props) {
   return (
     <Content>
       <h3>Duel</h3>
@@ -293,6 +293,9 @@ function Intro(props) {
         restricted for students and left me there!
       </p>
       <p>I suppose it matters little if I die in a cell or the jungle.</p>
+      <div className="BreakPoint"></div>
+      <p></p>
+      {/* Go sleep, woken by someone screaming? Book gets dropped into the jail cell. She learns about races. */}
       {Book()}
       {/* {SeaPeople[0]}
       {SeaPeople[1]}
@@ -307,7 +310,7 @@ function Intro(props) {
     </Content>
   );
 }
-export default Intro;
+export default Duel;
 
 function Book() {
   return (
