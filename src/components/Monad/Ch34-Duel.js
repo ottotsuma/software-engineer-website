@@ -310,6 +310,12 @@ function Duel(props) {
         A boy stumbled by my cell as if he had been pushed, with straight black hair, a pale completion but otherwise well kept and clean. He was not Aldenese, he looked almost Leikan. Wearing a black academy robe with a purple trim. That is not one you see often I thought, although I heard there where a few in the academy more then other academy's but he is a Necromancer.
       </p>
       <p>
+        A guard forcing him down here shoved him as the boy turned around to hail more abuse at his ... Well abuser. A small book fell from his robe and landed in my cell. I quickly grabbed it before the guard noticed, he would of just taken it away. They pushed him into a cell and locked it and turned to leave. "What a fucking brat that kid is." He said to another guard who was now standing next to my cell.
+      </p>
+      <p>
+        "Your mother doesn't call be a brat, she calls me DADDY, show some more respect to your dad you little shit." The boy shouted from the cell with his hands clasping the bars his face pushed between them. "I aught to give you a good spanking. Your mother enjoys a good spanking you know?"
+      </p>
+      <p>
         
       </p>
       {/* Go sleep, woken by someone screaming? Book gets dropped into the jail cell. She learns about races. */}
