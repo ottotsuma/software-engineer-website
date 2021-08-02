@@ -316,10 +316,18 @@ function Duel(props) {
         "Your mother doesn't call be a brat, she calls me DADDY, show some more respect to your dad you little shit." The boy shouted from the cell with his hands clasping the bars his face pushed between them. "I aught to give you a good spanking. Your mother enjoys a good spanking you know?"
       </p>
       <p>
-        ""
+        "Kid if the dean didn't ask me not to harm you before the event, I would of broken all the bones in your body now." The guard replied clearly angry that he had to hold back.
       </p>
-      {/* Go sleep, woken by someone screaming? Book gets dropped into the jail cell. She learns about races. */}
+      <p>
+        "You know what bone I put in your mothers body?" He replied with a smirk.
+      </p>
+      <p>
+        The guard stormed off with his co-worker out of the holding area and we were once again locked inside, not that we were not already locked in our cells. I decided to give the boy a moment to calm down before returning his book I decided to flip though it.
+      </p>
       {Book()}
+      <p>
+        
+      </p>
       {/* {SeaPeople[0]}
       {SeaPeople[1]}
       {SeaPeople[2]}
