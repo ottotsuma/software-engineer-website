@@ -326,7 +326,10 @@ function Duel(props) {
       </p>
       {Book()}
       <p>
-        
+        Orcs? Goblins? I thought these were monsters not another race, and there are some I never even heard of... I should return this and maybe ask where he's from, maybe these are monsters from Leika and the book is badly translated? I did not want to slide the book over and it not reach his cell, so I pushed it with some of my mana not infused with my element.
+      </p>
+      <p>
+        The book slide across the floor quite fast and into his cell, banging against the bars. 
       </p>
       {/* {SeaPeople[0]}
       {SeaPeople[1]}
