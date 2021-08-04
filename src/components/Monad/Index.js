@@ -57,6 +57,7 @@ function PreviousPage() {
 }
 
 function callBack(index) {
+  document.getElementById("myDropdown").classList.toggle("show");
   number = index + 1;
 }
 
@@ -135,7 +136,6 @@ export default function Monad(params) {
   useEffect(() => {
     console.log("Page: ", number);
     setPage(ChapterList[window.location.href.match(/\d+$/)[0] - 1]);
-    document.getElementById("myDropdown").classList.toggle("show");
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [number]);
 
