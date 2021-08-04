@@ -4,7 +4,7 @@ import HTMLFlipBook from "react-pageflip";
 import Stats from "./../elements/stats";
 import LevelUp from "./../elements/levelup";
 
-export default function Intro(props) {
+ const Intro = (props) => {
   return (
     <div className="Monad" id="1">
       <div className="Frame">
@@ -894,3 +894,5 @@ There are 3 religious splits along the same lines.
     </div>
   );
 }
+
+export default Intro
