@@ -4,7 +4,7 @@ import HTMLFlipBook from "react-pageflip";
 import Stats from "./../elements/stats";
 import LevelUp from "./../elements/levelup";
 
- const Intro = (props) => {
+ const Intro = (props = "Intro") => {
   return (
     <div className="Monad" id="1">
       <div className="Frame">
