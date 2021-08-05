@@ -121,7 +121,6 @@ export function droppy() {
       to={"/Monad/" + (index + 1)}
     >
       Ch {index + 1} {ChapterList[index].type.name}
-      {/* {document.getElementsByTagName("h1")[0].innerText} */}
     </Link>
   ));
   return rows;
@@ -135,7 +134,7 @@ export default function Monad(params) {
 
   const [isPage, setPage] = useState("");
   useEffect(() => {
-    console.log("Page: ", number, ChapterList[0]);
+    console.log("Page: ", number);
     setPage(ChapterList[window.location.href.match(/\d+$/)[0] - 1]);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [number]);

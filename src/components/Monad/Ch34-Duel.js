@@ -332,7 +332,7 @@ function Duel(props) {
         The book slide across the floor quite fast and into his cell, banging against the bars. "You dropped that." I called out to him.
       </p>
       <p>
-        
+        I saw his pale hand pick up the book and in a soft voice he replied. "How kind of you to return it."
       </p>
       {/* {SeaPeople[0]}
       {SeaPeople[1]}
