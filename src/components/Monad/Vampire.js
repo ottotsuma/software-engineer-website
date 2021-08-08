@@ -16,14 +16,8 @@ export default function Vampire() {
       <h1>Blood Skills for any blood ability user:</h1>
       <Spells
         spells={[
-          {
-            name: "Raining blood",
-            level: 1,
-          },
-          {
-            name: "Blood Storm",
-            level: 1,
-          },
+          { name: "Raining blood", level: 1, },
+          { name: "Blood Storm", level: 1, },
           {
             name: "Grasp Heart",
             level: 1,
@@ -44,7 +38,6 @@ export default function Vampire() {
           { name: "Blood Magic", level: 1 },
           { name: "Blood Sacrifice", level: 1 },
           { name: "Blood Wound", level: 1 },
-          // Not on the spells list yet
           { name: "Blood Control", level: 1 },
           { name: "Blood Hardening", level: 1 },
           { name: "Blood Swipe", level: 1 },
@@ -75,11 +68,7 @@ export default function Vampire() {
           { name: "Flash Step", level: 1 },
           { name: "Basic Vampire Martial Arts", level: 1 },
           { name: "Vampiric Influence", level: 1 },
-          // Above not on the spells list yet
-          {
-            name: "Blood Sucker",
-            level: 1,
-          },
+          { name: "Blood Sucker", level: 1, },
           { name: "Black Shroud", level: 1 },
           { name: "Vampire Eyes", level: 1 },
           { name: "Aura of Despair", level: 1 },

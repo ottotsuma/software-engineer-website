@@ -2482,6 +2482,102 @@ export const spellList = {
     passive: true,
     1: "A skill possessed by all vampires, their blood lust (Health) is shown by the color of their eyes.",
   },
+  "Blood Hardening": {
+    name: "Blood Hardening",
+    passive: false,
+    1: "A form of Blood control. Blood thickens and becomes more impervious to damage, and becomes like Armor. Reduce the amount of damage taken in an attack and able to be moved around the body freely to varying degrees base on mastery of control.",
+  },
+  "Blood Swipe": {
+    name: "Blood Swipe",
+    passive: false,
+    1: "A skill that will fire out a red line of energy from the user's hands in the shape of a claw. To use the skill the user must use their own blood causing -1 HP per Blood swipe.",
+  },
+  "Blood Expand": {
+    name: "Blood Expand",
+    passive: false,
+    1: "A skill that vampires don't normally use. After firing off the blood bullet, use an immense amount of control to force the shot to remain inside the victim. It had entered a part of their body but never left it.  The blood bullet was a condensed form of aura, and through blood control, one was able to make the blood bullet inside the victims body expand and go wild. Destroying a part of a victim from the inside out.",
+  },
+  "Blood Barrage": {
+    name: "Blood Barrage",
+    passive: false,
+    1: "",
+  },
+  "Blood Bullet": {
+    name: "Blood Bullet",
+    passive: false,
+    1: "One fifth of the user's health will be used to create a powerful shot of blood from a finger. The finger will no longer be able to be used until the blood has been replenished.",
+    3: "One fifth of the user's current health will be used to create a powerful shot of blood from a finger. Blood bullet is no longer available on the used finger for twenty-four hours regardless if the fingers were healed.",
+  },
+  "Blood Bank": {
+    name: "Blood Bank",
+    passive: false,
+    1: "will allow user to store up to a 300 milliliters of blood in user reserve. The blood bank will automatically be used to heal the user if HP drops below 5 unless suppressed. Every 10 milliliters of blood will be used to restore 5 HP of the user. User may also use that blood bank to consume blood at any time for his own personal pleasure. Consuming 100 milliliters of blood gives the quickest and most efficient results when healing completely.",
+  },
+  "Blood Wall": {
+    name: "Blood Wall",
+    passive: false,
+    1: "A barrier is raised in front of the user, using the user's own blood. The wall's strength is dependent on how much blood is being used.",
+  },
+  "Blood Spray": {
+    name: "Blood Spray",
+    passive: false,
+    1: "The user's palm must be open to perform this skill. From the user's palm, a spray of blood pellets will be released spreading out covering a wide range, The closer the attack is to its target the more damage it will do. Cost -5 HP. Blood spray can be used on multiple targets, but lacks penetration ability, therefore, expressed in the combination skill: Blood Hammer.",
+  },
+  "Hammer Strike": {
+    name: "Hammer Strike",
+    passive: false,
+    1: "Power fist skill of short burst attack. It was an attack that focused on the inside, an internal attack, the perfect counter to those with abilities who hardened or transformed their bodies.",
+  },
+  "Blood Hammer": {
+    name: "Blood Hammer",
+    passive: false,
+    1: "Blood Hammer is a combination skill of Blood Spray and Hammer Strike.",
+  },
+  "Blood Hammer Drill": {
+    name: "Blood Hammer Drill",
+    passive: false,
+    1: "Blood Hammer Drill is a combination skill of Blood Spray, Hammer Strike, and blood control. While preforming the hammer strike and using blood control to rotate a blood spray like a drill to penetrate an opponent.",
+  },
+  "Blood Crescent Kick": {
+    name: "Blood Crescent Kick",
+    passive: false,
+    1: "When using the skill while performing different types of kicks. A red line of blood aura in the shape of a crescent will be made. The attack carries a distance of ten meters but the aura will get smaller and weaker the further it travels. Costs 2 HP for every kick.",
+  },
+  "Daze": {
+    name: "Daze",
+    passive: false,
+    1: "This skill has no cost and can be used on the opponent to stun them between 0.2 seconds and 0.5 seconds at a time. Must have direct eye contact with the opponent. The skill has a chance of failing, depending on the strength of the enemy and on the user's charisma points. The more the skill is used on an opponent the higher chance they have off resisting.",
+  },
+  "Phantom Punch": {
+    name: "Phantom Punch",
+    passive: false,
+    1: "While in a fight, you will aim your punch in a certain direction to start, before the first movement is made, your charm stat will take slight control of the user's mind, to them an image will appear and make it look like the punch has continued heading in the initial direction. But in actual fact, this will be a phantom punch, while the user is dodging or trying to block it, the real blow will come from somewhere else.",
+  },
+  "Phantom Kick": {
+    name: "Phantom Kick",
+    passive: false,
+    1: "Kick version of Phantom Punch.",
+  },
+  "Flash Step": {
+    name: "Flash Step",
+    passive: false,
+    1: "",
+  },
+  "Basic Vampire Martial Arts": {
+    name: "Basic Vampire Martial Arts",
+    passive: false,
+    1: "",
+  },
+  "Vampiric Influence": {
+    name: "Vampiric Influence",
+    passive: false,
+    1: "",
+  },
+  "Blood Ritual": {
+    name: "Blood Ritual",
+    passive: false,
+    1: "",
+  },
 };
 // Berserker stuff ! Blood stuff !https://dragonage.fandom.com/wiki/Blood_Mage_(Origins)
 // '""',
