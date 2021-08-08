@@ -348,7 +348,7 @@ function Intro(props) {
           </p>
           <p>
             I genuinely considered it, I had strange farming spells that would
-            put me in a specialty. I also had the inspect skill and numeracy so
+            put me in a specialty. I also had the inspect skill so
             I could check the durability of all the tools that needed to be
             used. Then I would go back to killing pests.
           </p>

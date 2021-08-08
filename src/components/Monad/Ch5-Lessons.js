@@ -605,8 +605,7 @@ function Lessons(props) {
           <p>
             "Sure, let's put them in your bag, keep them safe." I said not
             really minding. I could identify the mana inside them and get the
-            stats. With my numeracy talent it is likely my stats would be closer
-            then Tisiel could get but then that won't help finding out about the
+            stats with my inspect skill but that won't help finding out about the
             history or further clues they may provide about the door in the
             cliff side.
           </p>

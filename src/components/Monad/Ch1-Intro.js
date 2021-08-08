@@ -4,7 +4,7 @@ import HTMLFlipBook from "react-pageflip";
 import Stats from "./../elements/stats";
 import LevelUp from "./../elements/levelup";
 
- const Intro = (props) => {
+const Intro = (props) => {
   return (
     <div className="Monad" id="1">
       <div className="Frame">
@@ -235,22 +235,17 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
           </p>
           <p>
             With that I went to do my job in the town, inspecting low level
-            items for their durability. Item inspectors ranged in jobs because
-            of their skills and talents. Your talent in inspecting items might
+            items for their durability. Your skill in inspecting items might
             show you a different result. Some people see short descriptions
-            about the items, others just a generic letter rank from F - A. I had
-            the rarest trait, to see the items in numbers. Each had their
-            advantages, numbers where more precise. The problem was my inspect
-            skill was quite low, so while I could see information accurately, it
-            was low level information such as durability and the items name.
+            about the items, others just a generic letter rank from F - A.
           </p>
           <p>
-            Every night I teach my son Otto more about the skill, he also has
-            the numeric trait. Inspect is one of the few skills in the world
-            that do not require skill points to learn, which is nice. However
-            that means it requires talent, practice and luck. I was lucky enough
-            to have mediocre talent. It's a safe well paying job, I hope Otto
-            can learn it so he can have a safe life.
+            Every night I teach my son Otto more about the skill. Inspect is one
+            of the few skills in the world that do not require skill points to
+            learn, which is nice. However that means it requires talent,
+            practice and luck. I was lucky enough to have mediocre talent. It's
+            a safe well paying job, I hope Otto can learn it so he can have a
+            safe life.
           </p>
           {/* <!-- 284,139 rebels --> */}
           {/* <!-- IMPORTANT  */}
@@ -893,6 +888,6 @@ There are 3 religious splits along the same lines.
       </div>
     </div>
   );
-}
+};
 
-export default Intro
+export default Intro;

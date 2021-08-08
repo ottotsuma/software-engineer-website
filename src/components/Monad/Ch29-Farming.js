@@ -9,15 +9,17 @@ function Intro(props) {
           <h4>Farming</h4>
           <p>
             I had new spells, I still needed to level up some more but I had
-            more points to spend then before. I could make up for the difference in stat points
-            with items or titles. Right now I am missing even a weapon.
+            more points to spend then before. I could make up for the difference
+            in stat points with items or titles. Right now I am missing even a
+            weapon.
           </p>
-            {/* https://www.sacred-texts.com/cfu/mlc/mlc10.htm - obscure fire god from china */}
+          {/* https://www.sacred-texts.com/cfu/mlc/mlc10.htm - obscure fire god from china */}
           <Equipment
             items={{
               Head: {
                 name: "Heavenly White Stag Mask",
-                effect: "Magic: +1, Disease resistance + 20%, Mana regeneration + 10%, blessing of 建御雷 [Takemikazuchi].",
+                effect:
+                  "Magic: +1, Disease resistance + 20%, Mana regeneration + 10%, blessing of 建御雷 [Takemikazuchi].",
                 rating: "unique",
               },
               Body: {
@@ -27,7 +29,7 @@ function Intro(props) {
               },
             }}
           />
-            {/* <li>
+          {/* <li>
               Body:<font color="blue"> Hui Lu's Battle Armor</font> ???
             </li>
             <li>
@@ -304,10 +306,8 @@ function Intro(props) {
             it more I would of liked to. You know the speed is one thing but
             what stuck out to me was I checked every sapling you made, as well
             as the bacon leaf from before. They were all pretty poor condition,
-            malnourished. What stood out though was that if I had the numeracy
-            trait I think I would of been able to see they all had the same
-            quality level." He looked at me to confirm since he knew I had that
-            trait.
+            malnourished." He looked at me to confirm since he knew I had that
+            the inspect skill also.
           </p>
           <p>
             "I inspected the bacon leaf from before, and the saplings." I said

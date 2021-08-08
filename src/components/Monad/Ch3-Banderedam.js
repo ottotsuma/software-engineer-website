@@ -131,14 +131,8 @@ Charlemagne in 794 decreed that a single silver penny (weighing 1.7 grams) shoul
             be reflective of your own level. Maybe a point lower, nothing more."
           </p>
           <p>
-            "Ah yeah, my dad was an item inspector also. Do you have the numeric
-            trait also?" I asked.
+            "Ah yeah, my dad was an item inspector also. How much are they?" I asked
           </p>
-          <p>
-            "Yes, numeracy inspection is rare he's quite lucky." The old shop
-            keeper smiled.
-          </p>
-          <p>"How much are they?" I asked</p>
           <p>"Same price, ¤100,000." He replied.</p>
           <p>"Less then I thought, more then I have." I admitted</p>
           <p>

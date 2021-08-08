@@ -44,6 +44,7 @@ export default function Vampire() {
           { name: "Blood Magic", level: 1 },
           { name: "Blood Sacrifice", level: 1 },
           { name: "Blood Wound", level: 1 },
+          // Not on the spells list yet
           { name: "Blood Control", level: 1 },
           { name: "Blood Hardening", level: 1 },
           { name: "Blood Swipe", level: 1 },
@@ -73,8 +74,8 @@ export default function Vampire() {
           { name: "Blood Ritual", level: 1 },
           { name: "Flash Step", level: 1 },
           { name: "Basic Vampire Martial Arts", level: 1 },
-
           { name: "Vampiric Influence", level: 1 },
+          // Above not on the spells list yet
           {
             name: "Blood Sucker",
             level: 1,
