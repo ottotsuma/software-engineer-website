@@ -225,7 +225,8 @@ function Duel(props) {
         themselves.
       </p>
       <p>
-        I did not have the heart to do anything else today. I would just go to the meeting and then back to my room. Today was the worst.
+        I did not have the heart to do anything else today. I would just go to
+        the meeting and then back to my room. Today was the worst.
       </p>
       <h4>The meeting for the constants</h4>
       <p>
@@ -295,44 +296,75 @@ function Duel(props) {
       <p>I suppose it matters little if I die in a cell or the jungle.</p>
       <div className="BreakPoint"></div>
       <p>
-        It had been hours and I felt like my night would end there so I went to sleep. They didn't even send me food. They were suppose to take care of me and teach me magic, I wouldn't of come here if this had ever happened before, I can't even understand their thinking. They said it was to boost moral, well my moral is so low I want to defect.
+        It had been hours and I felt like my night would end there so I went to
+        sleep. They didn't even send me food. They were suppose to take care of
+        me and teach me magic, I wouldn't of come here if this had ever happened
+        before, I can't even understand their thinking. They said it was to
+        boost moral, well my moral is so low I want to defect.
       </p>
       <p>
-        I was half asleep half fuming when the sound of banging and shouting came from the hallway where they had taken me in here.
+        I was half asleep half fuming when the sound of banging and shouting
+        came from the hallway where they had taken me in here.
       </p>
       <p>
-        "Fuck you, you son of a dwarf and a horse. The big man now, beating up a child and sending them to their death for your sick enjoyment. Stop shouting? Why am I starting to make sense? Goat fucker."
+        "Fuck you, you son of a dwarf and a horse. The big man now, beating up a
+        child and sending them to their death for your sick enjoyment. Stop
+        shouting? Why am I starting to make sense? Goat fucker."
+      </p>
+      <p>Well, someone is more open about how they feel then I am...</p>
+      <p>
+        A boy stumbled by my cell as if he had been pushed, with straight black
+        hair, a pale completion but otherwise well kept and clean. He was not
+        Aldenese, he looked almost Leikan. Wearing a black academy robe with a
+        purple trim. That is not one you see often I thought, although I heard
+        there where a few in the academy more then other academy's but he is a
+        Necromancer.
       </p>
       <p>
-        Well, someone is more open about how they feel then I am...
+        A guard forcing him down here shoved him as the boy turned around to
+        hail more abuse at his ... Well abuser. A small book fell from his robe
+        and landed in my cell. I quickly grabbed it before the guard noticed, he
+        would of just taken it away. They pushed him into a cell and locked it
+        and turned to leave. "What a fucking brat that kid is." He said to
+        another guard who was now standing next to my cell.
       </p>
       <p>
-        A boy stumbled by my cell as if he had been pushed, with straight black hair, a pale completion but otherwise well kept and clean. He was not Aldenese, he looked almost Leikan. Wearing a black academy robe with a purple trim. That is not one you see often I thought, although I heard there where a few in the academy more then other academy's but he is a Necromancer.
+        "Your mother doesn't call be a brat, she calls me DADDY, show some more
+        respect to your dad you little shit." The boy shouted from the cell with
+        his hands clasping the bars his face pushed between them. "I aught to
+        give you a good spanking. Your mother enjoys a good spanking you know?"
       </p>
       <p>
-        A guard forcing him down here shoved him as the boy turned around to hail more abuse at his ... Well abuser. A small book fell from his robe and landed in my cell. I quickly grabbed it before the guard noticed, he would of just taken it away. They pushed him into a cell and locked it and turned to leave. "What a fucking brat that kid is." He said to another guard who was now standing next to my cell.
+        "Kid if the dean didn't ask me not to harm you before the event, I would
+        of broken all the bones in your body now." The guard replied clearly
+        angry that he had to hold back.
       </p>
       <p>
-        "Your mother doesn't call be a brat, she calls me DADDY, show some more respect to your dad you little shit." The boy shouted from the cell with his hands clasping the bars his face pushed between them. "I aught to give you a good spanking. Your mother enjoys a good spanking you know?"
+        "You know what bone I put in your mothers body?" He replied with a
+        smirk.
       </p>
       <p>
-        "Kid if the dean didn't ask me not to harm you before the event, I would of broken all the bones in your body now." The guard replied clearly angry that he had to hold back.
-      </p>
-      <p>
-        "You know what bone I put in your mothers body?" He replied with a smirk.
-      </p>
-      <p>
-        The guard stormed off with his co-worker out of the holding area and we were once again locked inside, not that we were not already locked in our cells. I decided to give the boy a moment to calm down before returning his book I decided to flip though it.
+        The guard stormed off with his co-worker out of the holding area and we
+        were once again locked inside, not that we were not already locked in
+        our cells. I decided to give the boy a moment to calm down before
+        returning his book I decided to flip though it.
       </p>
       {Book()}
       <p>
-        Orcs? Goblins? I thought these were monsters not another race, and there are some I never even heard of... I should return this and maybe ask where he's from, maybe these are monsters from Leika and the book is badly translated? I did not want to slide the book over and it not reach his cell, so I pushed it with some of my mana not infused with my element.
+        Orcs? Goblins? I thought these were monsters not another race, and there
+        are some I never even heard of... I should return this and maybe ask
+        where he's from, maybe these are monsters from Leika and the book is
+        badly translated? I did not want to slide the book over and it not reach
+        his cell, so I pushed it with some of my mana not infused with my
+        element.
       </p>
       <p>
-        The book slide across the floor quite fast and into his cell, banging against the bars. "You dropped that." I called out to him.
+        The book slide across the floor quite fast and into his cell, banging
+        against the bars. "You dropped that." I called out to him.
       </p>
       <p>
-        I saw his pale hand pick up the book and in a soft voice he replied. "How kind of you to return it."
+        I saw his pale hand pick up the book and in a soft voice he replied.
+        "How kind of you to return it."
       </p>
       {/* {SeaPeople[0]}
       {SeaPeople[1]}
