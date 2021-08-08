@@ -2561,22 +2561,24 @@ export const spellList = {
   "Flash Step": {
     name: "Flash Step",
     passive: false,
-    1: "",
+    1: "Movement skill of short displacement.",
   },
   "Basic Vampire Martial Arts": {
     name: "Basic Vampire Martial Arts",
     passive: false,
-    1: "",
+    1: "Basic martial arts for vampire physiques.",
   },
   "Vampiric Influence": {
     name: "Vampiric Influence",
     passive: false,
-    1: "",
+    1: "Depending on the user's charisma points and the mental strength of the opponent. The user is able to influence the person or creature to do their bidding. This includes things such as, memory loss, information extraction and so on. This skill require direct eye contact with the target.",
   },
   "Blood Ritual": {
     name: "Blood Ritual",
     passive: false,
-    1: "",
+    1: "It is ritual skill which would allow a Vampire to turn another person into a Vampire, this is called a Blooded. Cap 1.",
+    2: "Cap 2.",
+    3: "Cap 3.",
   },
 };
 // Berserker stuff ! Blood stuff !https://dragonage.fandom.com/wiki/Blood_Mage_(Origins)
