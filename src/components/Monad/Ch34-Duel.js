@@ -364,7 +364,7 @@ function Duel(props) {
       </p>
       <p>
         I saw his pale hand pick up the book and in a soft voice he replied.
-        "How kind of you to return it."
+        "How kind of you to return it." He paused for a moment before adding. "I am sorry our introduction is under such circumstances, I am not normally so foul mouthed."
       </p>
       {/* {SeaPeople[0]}
       {SeaPeople[1]}
