@@ -18,22 +18,10 @@ export default function Vampire() {
         spells={[
           { name: "Raining blood", level: 1, },
           { name: "Blood Storm", level: 1, },
-          {
-            name: "Grasp Heart",
-            level: 1,
-          },
-          {
-            name: "Bloodhunt",
-            level: 1,
-          },
-          {
-            name: "Blood Absorb",
-            level: 1,
-          },
-          {
-            name: "Blood Aura",
-            level: 1,
-          },
+          { name: "Grasp Heart", level: 1, },
+          { name: "Bloodhunt", level: 1, },
+          { name: "Blood Absorb", level: 1, },
+          { name: "Blood Aura", level: 1, },
           { name: "Grasp of the Starved", level: 1 },
           { name: "Blood Magic", level: 1 },
           { name: "Blood Sacrifice", level: 1 },
@@ -57,6 +45,7 @@ export default function Vampire() {
       <h1>Vampire specific skills (Blood + Other)</h1>
       <Spells
         spells={[
+          { name: "Vampiric Powers", level: 1 },
           { name: "Hammer Strike", level: 1 },
           { name: "Blood Hammer", level: 1 },
           { name: "Blood Hammer Drill", level: 1 },

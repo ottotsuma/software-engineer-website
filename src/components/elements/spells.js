@@ -2580,6 +2580,11 @@ export const spellList = {
     2: "Cap 2.",
     3: "Cap 3.",
   },
+  "Vampiric Powers": {
+    name: "Vampiric Powers",
+    passive: true,
+    1: "No points can be spent on this passive. This passive levels up as the vampire grows hungry.",
+  },
 };
 // Berserker stuff ! Blood stuff !https://dragonage.fandom.com/wiki/Blood_Mage_(Origins)
 // '""',
