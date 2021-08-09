@@ -2583,7 +2583,7 @@ export const spellList = {
   "Vampiric Powers": {
     name: "Vampiric Powers",
     passive: true,
-    1: "No points can be spent on this passive. This passive levels up as the vampire grows hungry.",
+    1: "No points can be spent on this passive. As the severity of vampirism increases, the vampire's weakness and strengths enhance. Some effects are constant across the infection, while others are dynamic",
   },
 };
 // Berserker stuff ! Blood stuff !https://dragonage.fandom.com/wiki/Blood_Mage_(Origins)
