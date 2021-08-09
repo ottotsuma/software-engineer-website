@@ -370,7 +370,7 @@ function Duel(props) {
          "No, no. Honestly I was kind of routing for you there. I ended up in here because I spoke out against the inter-class tournament coming up. What about you?" I asked.
       </p>
       <p>
-        "Nice way to put it. I refused to go to the meeting for the child slaughter fest." He replied back. We both sat in silence for a moment. Before laughing, I am not even sure why but we both just laughed. That was the night I met ****. It was a shame it was the last I got to spend with him before the death match. He was held in the cells while I was let loose, without Arrilian ever coming to speak to me personally.
+        "Nice way to put it. I refused to go to the meeting for the child slaughter fest." He replied back. We both sat in silence for a moment. Before laughing, I am not even sure why but we both just laughed. That was the night I met Chu-gong (추공). It was a shame it was the last I got to spend with him before the death match. He was held in the cells while I was let loose, without Arrilian ever coming to speak to me personally.
       </p>
       {/* {SeaPeople[0]}
       {SeaPeople[1]}
