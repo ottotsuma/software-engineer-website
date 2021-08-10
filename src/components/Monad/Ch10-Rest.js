@@ -1,6 +1,6 @@
 import React from "react";
 
-function Intro(props) {
+function Rest(props) {
   return (
     <div className="Monad" id="3">
       <div className="Frame">
@@ -128,4 +128,4 @@ function Intro(props) {
     </div>
   );
 }
-export default Intro;
+export default Rest;

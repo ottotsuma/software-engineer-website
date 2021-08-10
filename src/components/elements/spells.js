@@ -75,7 +75,7 @@ export const spellList = {
   },
   Sparks: {
     name: "Sparks",
-    1: "Shoots out multiple sparks in a random pattern.f",
+    1: "Shoots out multiple sparks in a random pattern.",
   },
   "Shocking Touch": {
     name: "Shocking Touch",

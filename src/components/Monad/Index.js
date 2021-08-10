@@ -112,6 +112,7 @@ const ChapterList = [
 ];
 
 export function droppy() {
+  console.log(ChapterList[38])
   let rows = new Array(ChapterList.length).fill(0).map((zero, index) => (
     <Link
       key={index}
@@ -120,7 +121,8 @@ export function droppy() {
       onClick={() => callBack(index)}
       to={"/Monad/" + (index + 1)}
     >
-      Ch {index + 1} {ChapterList[index].type.name}
+    Ch {index + 1} {ChapterList[index].type.name}
+    {ChapterList[index].props.Chapter ? ' ' + ChapterList[index].props.Chapter : ''}
     </Link>
   ));
   return rows;

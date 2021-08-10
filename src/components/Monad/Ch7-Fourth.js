@@ -1,6 +1,6 @@
 import React from "react";
 import Lightning from "./../../assets/lightningcolors.png";
-function Intro(props) {
+function Fourth(props) {
   return (
     <div className="Monad" id="3">
       <div className="Frame">
@@ -260,4 +260,4 @@ Lightning travel (Mana).
     </div>
   );
 }
-export default Intro;
+export default Fourth;

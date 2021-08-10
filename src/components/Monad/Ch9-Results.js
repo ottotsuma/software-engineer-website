@@ -1,6 +1,6 @@
 import React from "react";
 
-function Intro(props) {
+function Results(props) {
   return (
     <div className="Monad" id="3">
       <div className="Frame">
@@ -302,4 +302,4 @@ Reingard". boy - alden likes Tisiel Skivali  becomes tank --> */}
     </div>
   );
 }
-export default Intro;
+export default Results;
