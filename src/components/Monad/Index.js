@@ -62,8 +62,8 @@ function callBack(index) {
 }
 
 const ChapterList = [
-  <Chapter1 />,
-  <Chapter2 />,
+  <Chapter1 Chapter={'Intro'}/>,
+  <Chapter2 Chapter={'Travel'}/>,
   <Chapter3 />,
   <Chapter4 />,
   <Chapter5 />,
@@ -112,7 +112,6 @@ const ChapterList = [
 ];
 
 export function droppy() {
-  console.log(ChapterList[38])
   let rows = new Array(ChapterList.length).fill(0).map((zero, index) => (
     <Link
       key={index}
@@ -121,8 +120,8 @@ export function droppy() {
       onClick={() => callBack(index)}
       to={"/Monad/" + (index + 1)}
     >
-    Ch {index + 1} {ChapterList[index].type.name}
-    {ChapterList[index].props.Chapter ? ' ' + ChapterList[index].props.Chapter : ''}
+    Ch {index + 1}
+    {ChapterList[index].props.Chapter ? ' ' + ChapterList[index].props.Chapter : ' ' + ChapterList[index].type.name}
     </Link>
   ));
   return rows;
