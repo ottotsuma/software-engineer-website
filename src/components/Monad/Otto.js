@@ -63,10 +63,7 @@ export default function Otto() {
       <h1>Other Items</h1>
       <Spells
         spells={[
-          {
-            name: "Lightning germination",
-            level: 2,
-          },
+          { name: "Lightning germination", level: 2, },
           { name: "Lightning growth", level: 2 },
           { name: "Lightning harvest", level: 2 },
           { name: "Seeds to Soldiers", level: 2 },
