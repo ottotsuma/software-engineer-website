@@ -12,7 +12,6 @@ import Spells from "./../elements/spells";
 export default function Vampire() {
   return (
     <div style={{ color: "black" }}>
-      <h1>Vampires</h1>
       <h1>Blood Skills for any blood ability user:</h1>
       <Spells
         spells={[
