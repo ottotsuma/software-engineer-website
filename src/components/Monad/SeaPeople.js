@@ -1275,8 +1275,17 @@ export const SeaPeople = {
       <p>
         "People living here need paper work to move between towns?" I asked.
       </p>
-      <p>"No, foreigners need paper work." She replied.</p>
-      <p></p>
+      <p>"No, foreigners need paper work. And you hardly match the description of a local." She replied.</p>
+      <p>"What there are no dark elves here? Isn't there like a huge desert to the south? You told me that." I said a little hurt.</p>
+      <p>
+        "Yes, but that was only on a map I saw. I have not seen a single dark elf, so it is better to be safe then sorry. Plus your Aldenese is pretty rough, it's just easier to get you and ID and paper work. Wait here." She said.
+      </p>
+      <p>
+        We had arrived at the start of the city. 
+      </p>
+      <p>
+        She went into a run down house in one of the alleyways 
+      </p>
       {/* Wet lands to the south of the city. */}
       {/* Vampire eyes red - purple - blue */}
       <div className="pop">
