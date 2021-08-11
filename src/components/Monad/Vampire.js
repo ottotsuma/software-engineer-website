@@ -60,6 +60,11 @@ export default function Vampire() {
           { name: "Black Shroud", level: 1 },
           { name: "Vampire Eyes", level: 1 },
           { name: "Aura of Despair", level: 1 },
+          { name: "Vampire Halfling", level: 1 },
+          { name: "Vampire", level: 1 },
+          { name: "Vampire Noble", level: 1 },
+          { name: "Vampire Knight", level: 1 },
+          { name: "Vampire Lord", level: 1 },
         ]}
         type={"human"}
       />

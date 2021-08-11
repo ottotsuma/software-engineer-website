@@ -2585,7 +2585,45 @@ export const spellList = {
     passive: true,
     1: "No points can be spent on this passive. As the severity of vampirism increases, the vampire's weakness and strengths enhance. Some effects are constant across the infection, while others are dynamic.",
   },
+  "Ghoul's Strength": {
+    name: "Ghoul's Strength",
+    passive: true,
+    1: "",
+  },
+  "Wight's Strength": {
+    name: "Wight's Strength",
+    passive: true,
+    1: "",
+  },
+  "Vampire Halfling": {
+    name: "Vampire Halfling",
+    passive: true,
+    1: "No points can be spent on this passive. As it levels up the user becomes closer to becoming a real vampire.",
+  },
+  "Vampire Noble": {
+    name: "Vampire Halfling",
+    passive: true,
+    1: "No points can be spent on this passive. As it levels up the user becomes closer to becoming a vampire knight.",
+  },
+  "Vampire": {
+    name: "Vampire",
+    passive: true,
+    1: "No points can be spent on this passive. As it levels up the user becomes closer to becoming a vampire noble.",
+  },
+  "Vampire Lord": {
+    name: "Vampire Lord",
+    passive: true,
+    1: "No points can be spent on this passive. As it levels up the user becomes closer to becoming a vampire progenitor.",
+  },
+  "Vampire Knight": {
+    name: "Vampire Knight",
+    passive: true,
+    1: "No points can be spent on this passive. As it levels up the user becomes closer to becoming a vampire lord.",
+  },
 };
+
+// Ghoul, Wight, Halfling, Vampire→Vampire Noble→Vampire Knight, Namanari Hannya <Chunari Hannya> <Honnari Hannya>, Dhampir, Banshee, Draugr→Great Draugr, Blood Fairy, Strigoi, 
+
 // Berserker stuff ! Blood stuff !https://dragonage.fandom.com/wiki/Blood_Mage_(Origins)
 // '""',
 
