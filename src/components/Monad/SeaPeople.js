@@ -1281,7 +1281,7 @@ export const SeaPeople = {
         "Yes, but that was only on a map I saw. I have not seen a single dark elf, so it is better to be safe then sorry. Plus your Aldenese is pretty rough, it's just easier to get you and ID and paper work. Wait here." She said.
       </p>
       <p>
-        We had arrived at the start of the city. 
+        We had arrived at the start of the city. I guess where I expected small walls to start, but the only walls I could see where the large ones further back now we had made it here. 
       </p>
       <p>
         She went into a run down house in one of the alleyways 
