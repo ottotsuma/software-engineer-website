@@ -1275,16 +1275,34 @@ export const SeaPeople = {
       <p>
         "People living here need paper work to move between towns?" I asked.
       </p>
-      <p>"No, foreigners need paper work. And you hardly match the description of a local." She replied.</p>
-      <p>"What there are no dark elves here? Isn't there like a huge desert to the south? You told me that." I said a little hurt.</p>
       <p>
-        "Yes, but that was only on a map I saw. I have not seen a single dark elf, so it is better to be safe then sorry. Plus your Aldenese is pretty rough, it's just easier to get you and ID and paper work. Wait here." She said.
+        "No, foreigners need paper work. And you hardly match the description of
+        a local." She replied.
       </p>
       <p>
-        We had arrived at the start of the city. I guess where I expected small walls to start, but the only walls I could see where the large ones further back now we had made it here. The fields of wheat had a sudden stop and changed into small 1~3 floor buildings, including a stable, housing, stalls and other assortments.
+        "What there are no dark elves here? Isn't there like a huge desert to
+        the south? You told me that." I said a little hurt.
       </p>
       <p>
-        We stopped near one of the buildings where Sarah asked us to wait and try our best to ... look unsuspicious. She left us and went into a run down house in one of the alleyways. We waited around, looking suspicious. She finally came back over an hour later, although not alone. Tailing her was a tall man with very pale skin, his eyes squinted almost shut as he peered out of the alleyway to us.
+        "Yes, but that was only on a map I saw. I have not seen a single dark
+        elf, so it is better to be safe then sorry. Plus your Aldenese is pretty
+        rough, it's just easier to get you and ID and paper work. Wait here."
+        She said.
+      </p>
+      <p>
+        We had arrived at the start of the city. I guess where I expected small
+        walls to start, but the only walls I could see where the large ones
+        further back now we had made it here. The fields of wheat had a sudden
+        stop and changed into small 1~3 floor buildings, including a stable,
+        housing, stalls and other assortments.
+      </p>
+      <p>
+        We stopped near one of the buildings where Sarah asked us to wait and
+        try our best to ... look unsuspicious. She left us and went into a run
+        down house in one of the alleyways. We waited around, looking
+        suspicious. She finally came back over an hour later, although not
+        alone. Tailing her was a tall man with very pale skin, his eyes squinted
+        almost shut as he peered out of the alleyway to us.
       </p>
       {/* Wet lands to the south of the city. */}
       {/* Vampire eyes red - purple - blue */}
