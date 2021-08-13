@@ -72,4 +72,5 @@ export default function Vampire() {
   );
 }
 
+// Blood flow acceleration, blood sacrifice, blood retribution, vampiric eyes of hyponosis, poisonous blood, blood curse, blood armor, blood potion, blood combustion.
 // Ghoul, Wight, Halfling, Vampire→Vampire Noble→Vampire Knight, Namanari Hannya <Chunari Hannya> <Honnari Hannya>, Dhampir, Banshee, Draugr→Great Draugr, Blood Fairy, Strigoi, 
