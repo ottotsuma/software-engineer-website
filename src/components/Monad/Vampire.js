@@ -75,4 +75,18 @@ export default function Vampire() {
 // Blood flow acceleration, blood sacrifice, blood retribution, vampiric eyes of hyponosis, poisonous blood, blood curse, blood armor, blood potion, blood combustion.
 // eviscerating crimson claws, blood control, blood manipulation, blood projectiles, blood weapon creation, 
 
+// Vampire princess, vampire bride, lesser vampire, vampiric beasts, 
+
+// Fast Regeneration
+// Evileye of Temptation
+// Life Absorption
+// Create Lesser Race by Bloodsucking
+// Weapon Resistance
+// Ice-type Damage Resistance
+
+// Slow movement penalty during Sunlight
+// Vulnerability to Holy Water.
+// Vulnerability to Silver weapons (only lesser vampires)
+// Added damage by Positive Energy
+
 // Ghoul, Wight, Halfling, Vampire→Vampire Noble→Vampire Knight, Namanari Hannya <Chunari Hannya> <Honnari Hannya>, Dhampir, Banshee, Draugr→Great Draugr, Blood Fairy, Strigoi, 
