@@ -55,6 +55,7 @@ The enemy may have the Moon People on their side, but we have lovely hats! And t
 <li>Vitality</li> Health points, Resistances to hot/cold / poison
 <li>Endurance</li> Increases resistance to physical damage, reduces physical damage taken (%)
 <li>Willpower</li> Increases resistance to magic, reduces magic damage taken (%)
+Maybe only new world's can put stat points into willpower + endurance?
 
 <li>Magic</li> Increases Magic damage, Mana
 <li>Strength</li> Increased physical damage. Minor: Increased storage capacity. Reduce damage taken during a successful block. Increased resistance to falling. Increased movement speed.
