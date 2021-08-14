@@ -1340,15 +1340,19 @@ export const SeaPeople = {
     <Content style={{ overflowWrap: "anywhere" }}>
       {/* Wet lands to the south of the city. */}
       {/* Vampire eyes red - purple - blue */}
+      <p>The City</p>
       <div className="pop">
         Blood Bottle
         <img className="popOut" src={Blood} alt="Blood Bottle" />
       </div>
     </Content>
   ),
-  8: <Content style={{ overflowWrap: "anywhere" }}>8</Content>,
+  8: <Content style={{ overflowWrap: "anywhere" }}>
+    <p>Night Fall</p>
+  </Content>,
   9: (
     <Content style={{ overflowWrap: "anywhere" }}>
+      <p>Going South</p>
       <Shine>I LOVE YOU TSUMA!</Shine>
     </Content>
   ),
