@@ -4,10 +4,6 @@ import Equipment from "./../elements/equipment";
 import Stats from "./../elements/stats";
 import Spells from "./../elements/spells";
 
-// Vampires can gain experience by trying new blood, creature ghouls and the exp gained from the ghouls fighting
-// all actions that would reveal the vampire would either cure or gain them exp or blood points to be used to improve their strength
-// that way younger vampires are more likely to do these things then the older ones who don't need strength as badly
-// Combined with the starving yourself (lower hp) increases you strength
 
 export default function Vampire() {
   return (
@@ -71,6 +67,11 @@ export default function Vampire() {
     </div>
   );
 }
+
+// Vampires can gain experience by trying new blood, creature ghouls and the exp gained from the ghouls fighting
+// all actions that would reveal the vampire would either cure or gain them exp or blood points to be used to improve their strength
+// that way younger vampires are more likely to do these things then the older ones who don't need strength as badly
+// Combined with the starving yourself (lower hp) increases you strength
 
 // Blood flow acceleration, blood sacrifice, blood retribution, vampiric eyes of hyponosis, poisonous blood, blood curse, blood armor, blood potion, blood combustion.
 // eviscerating crimson claws, blood control, blood manipulation, blood projectiles, blood weapon creation, 
