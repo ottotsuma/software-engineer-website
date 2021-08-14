@@ -1304,6 +1304,40 @@ export const SeaPeople = {
         alone. Tailing her was a tall man with very pale skin, his eyes squinted
         almost shut as he peered out of the alleyway to us.
       </p>
+      <p>
+        They spoke to each other in low hushed tones, so I was unable to hear
+        anything but their eyes never left us. I was not sure what to say so I
+        just stood there awkwardly. Thankfully Josh broke the awkward silence.
+        "Who's the creepy homeless guy?"
+      </p>
+      <p>
+        Sarah stared at him for awhile before replying. "If anyone is homeless
+        here it is us. He is ... Part of a group of people I aligned myself with
+        the last time I was here, he will be helping get us paper work and a
+        delivery to take south. In the mean time." She pulled out a grey slip of
+        paper and handed it to me. "The lowest level ID, but beggars can't be
+        choosers."
+      </p>
+      <p>
+        "Right, thank you. Not to be rude or anything, but I am going to find
+        some low level quests to do soon as possible, what time do I have to be
+        back here?" I asked.
+      </p>
+      <p>
+        "Nightfall, it's fine you can go, it's better you get stronger as soon
+        as you can, I'd love for Josh to go to but he cannot speak to anyone
+        alone." Sarah replied.
+      </p>
+      <p>
+        Josh let out a small 'Tish' noise, we both ignored it and I left them
+        with one last comment. "If that creepy man is joining us I would like
+        some social distancing rules." Before I could get away Sarah had thrown
+        a rock in my direction. I just laughed it off.
+      </p>
+    </Content>
+  ),
+  7: (
+    <Content style={{ overflowWrap: "anywhere" }}>
       {/* Wet lands to the south of the city. */}
       {/* Vampire eyes red - purple - blue */}
       <div className="pop">
@@ -1312,13 +1346,12 @@ export const SeaPeople = {
       </div>
     </Content>
   ),
-  7: (
+  8: <Content style={{ overflowWrap: "anywhere" }}>8</Content>,
+  9: (
     <Content style={{ overflowWrap: "anywhere" }}>
       <Shine>I LOVE YOU TSUMA!</Shine>
     </Content>
   ),
-  8: <Content style={{ overflowWrap: "anywhere" }}>8</Content>,
-  9: <Content style={{ overflowWrap: "anywhere" }}>9</Content>,
 };
 // Rouge Skills Used (Basic) - Fleet of Foot, Headbutt
 // Combo skills for each class: 'Slashing Edge' into 'Sharp Slash'
