@@ -31,9 +31,10 @@ function Combat(props) {
             is that they use magical attacks. Conventionally, should you be
             attacked by a mage Willpower is will provide the best defence. As it
             reduces the damage taken by more than Vitality increases your
-            health. However you must consider the bigger picture, once you leave
-            the academy not all of your opponents will be mages and most will
-            use physical attacks and the points you put into Willpower will do
+            health. However you cannot put points directly into willpower, it is
+            gained though life experiences and equipment. When getting equipment
+            do remember once you leave the academy not all of your opponents
+            will be mages and most will use physical attacks Willpower will do
             nothing to protect from that." Lubin continued.
           </p>
           <p>
@@ -131,14 +132,12 @@ function Combat(props) {
           </p>
 
           <p>
-            Thinking on what the teacher had said, when fighting against mages
-            putting points into willpower would be best. However I wanted to
-            think about the future also. If I could attack with magic it could
-            be countered against those with will power. So I thought it would be
-            a good idea to invest in strength, that way I could deal with those
-            people also. There was nothing in the rules to say I had to use only
-            magic, and my element lightning would travel though a metal blade
-            easier then a wooden wand.
+            Thinking on what the teacher had said, many students would get
+            willpower items. So I thought it would be a good idea to invest in
+            strength, that way I could deal with those people also. There was
+            nothing in the rules to say I had to use only magic, and my element
+            lightning would travel though a metal blade easier then a wooden
+            wand.
           </p>
 
           <p>

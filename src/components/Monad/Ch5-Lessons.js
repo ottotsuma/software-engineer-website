@@ -390,7 +390,7 @@ function Lessons(props) {
             explorer." She replied.
           </p>
           <p>
-            "I should pick vitality, endurance, willpower, dexterity maybe
+            "I should pick vitality, dexterity maybe
             charisma..." I said.
           </p>
           <p>"You are just naming all of them." She laughed.</p>
