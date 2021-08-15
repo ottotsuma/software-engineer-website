@@ -1341,16 +1341,59 @@ export const SeaPeople = {
       {/* Wet lands to the south of the city. */}
       {/* Vampire eyes red - purple - blue */}
       <h1>Monh</h1>
-      <p></p>
+      <p>
+        After leaving the others I wondered though the city, every now an then
+        checking my inventory like the ID Sarah gave me was going to disappear
+        for no reason. I liked having the freedom to move about, being trapped
+        in a cell was no my idea of a good time and not why I played.
+      </p>
+      <p>
+        It was quiet refreshing to slow down for a moment and not be in a rush
+        or combat, or stuck on a ship and just enjoy what was around me. I don't
+        know why I though the city should or would match the cities of the
+        european medieval design, but the people spoke German so I guess it
+        would of fit.
+      </p>
+      <p>
+        Each expansion to the game so far had featured native or even forgotten
+        languages of the regions it took inspiration from. Africa, Asia, Middle
+        East, Europe. This time people expected the americas to be the setting
+        for the expansion but I guess since the languages are lost it was hard
+        for them to include them. This is not a bad method, since it allows
+        their players to find a language they can use or want to learn. But also
+        why some people chose to come later once English was in wider use.
+      </p>
+      <p>
+        The city had tower like structures dotted around, unlike the straight
+        defensive look of european towers these looked like tables stack on top
+        of each other, there were not really walls but 4 pillars in each corner
+        holding up the next layer. The other buildings also copied this design,
+        making the whole city feel like it was made of blocks all in the same
+        style.
+      </p>
+      <p>
+        They put colorful cloth and patterns all over the place, some hanging
+        down covering where I felt like the walls should of been. It gave the
+        city a bright vibe that felt so foreign to me, the strong use of oranges
+        especially. The buildings still felt old though their stone looking
+        cracked and worn.
+      </p>
+      <p>
+        Most people in the city this morning where heading in the same direction
+        so I just felt my self going with the flow. When I stopped gawking at
+        the buildings and looking at the people I noticed their stares.
+      </p>
       <div className="pop">
         Blood Bottle
         <img className="popOut" src={Blood} alt="Blood Bottle" />
       </div>
     </Content>
   ),
-  8: <Content style={{ overflowWrap: "anywhere" }}>
-    <p>Night Fall</p>
-  </Content>,
+  8: (
+    <Content style={{ overflowWrap: "anywhere" }}>
+      <p>Night Fall</p>
+    </Content>
+  ),
   9: (
     <Content style={{ overflowWrap: "anywhere" }}>
       <p>Going South</p>
