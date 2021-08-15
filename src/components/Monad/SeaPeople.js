@@ -1381,7 +1381,24 @@ export const SeaPeople = {
       <p>
         Most people in the city this morning where heading in the same direction
         so I just felt my self going with the flow. When I stopped gawking at
-        the buildings and looking at the people I noticed their stares.
+        the buildings and looking at the people I noticed their stares. Was it
+        my clothes? I was dressed in clothes from another continent after all.
+        Everyone here wore ... bright clothing.
+      </p>
+      <p>
+        loincloth's where common for the men, matched with hip skirts or capes,
+        there were lots of bird iconography and feathers used in the designs,
+        some wore almost toga or poncho style clothes covering them selves more.
+        The woman wore similar bright colors but long dresses or skirt and top
+        in a small poncho style also. While some did have capes it was rarer.
+      </p>
+      <p>
+        This seemed to be true for most of the people but those carrying weapons
+        openly, acting as guards and police wore mostly beast parts, monsters
+        often drop items in their own style so it made sense they would be
+        wearing them. While they added cloth here and there most of the guards
+        had no capes but maybe the head of a leopard placed on top of their own,
+        pelts or beast parts over their bodies as armor.
       </p>
       <div className="pop">
         Blood Bottle
