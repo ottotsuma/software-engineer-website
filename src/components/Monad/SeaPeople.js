@@ -1400,6 +1400,11 @@ export const SeaPeople = {
         had no capes but maybe the head of a leopard placed on top of their own,
         pelts or beast parts over their bodies as armor.
       </p>
+      {/* Market place */}
+      {/* Quest */}
+      {/* Bottle as reward */}
+      {/* ??? */}
+      {/* Get bottle */}
       <div className="pop">
         Blood Bottle
         <img className="popOut" src={Blood} alt="Blood Bottle" />
