@@ -73,8 +73,10 @@ export default function Vampire() {
 // that way younger vampires are more likely to do these things then the older ones who don't need strength as badly
 // Combined with the starving yourself (lower hp) increases you strength
 
-// Blood flow acceleration, blood sacrifice, blood retribution, vampiric eyes of hyponosis, poisonous blood, blood curse, blood armor, blood potion, blood combustion.
+// Blood flow acceleration, blood sacrifice, blood retribution, vampiric eyes of hypnosis, poisonous blood, blood curse, blood armor, blood potion, blood combustion.
 // eviscerating crimson claws, blood control, blood manipulation, blood projectiles, blood weapon creation, 
+
+// Blood soul, blood core creation, crimson flash, vampiric drain, blood frenzy, vampiric wings, crimson aegis, blood storage, blood servant, blood pact. Undying body, immortal body, unyielding blood demon, telepathy, fartalk, 
 
 // Vampire princess, vampire bride, lesser vampire, vampiric beasts, 
 
