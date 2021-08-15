@@ -1402,13 +1402,19 @@ export const SeaPeople = {
       </p>
       {/* Market place */}
       {/* Quest */}
-      {/* Bottle as reward */}
-      {/* ??? */}
-      {/* Get bottle */}
+      <Quest
+        rating="rare"
+        rewards={"Miasma reduction OR Blood Bottle."}
+        name=""
+        details="You could just steal the bottle."
+      />
       <div className="pop">
         Blood Bottle
         <img className="popOut" src={Blood} alt="Blood Bottle" />
       </div>
+      {/* Bottle as reward */}
+      {/* ??? */}
+      {/* Get bottle */}
     </Content>
   ),
   8: (
