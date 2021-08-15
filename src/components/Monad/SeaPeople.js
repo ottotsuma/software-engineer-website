@@ -1413,18 +1413,19 @@ export const SeaPeople = {
         <img className="popOut" src={Blood} alt="Blood Bottle" />
       </div>
       {/* Bottle as reward */}
-      {/* ??? */}
-      {/* Get bottle */}
     </Content>
   ),
   8: (
     <Content style={{ overflowWrap: "anywhere" }}>
       <p>Night Fall</p>
+      {/* Quest  continues */}
+      {/* Get bottle  */}
     </Content>
   ),
   9: (
     <Content style={{ overflowWrap: "anywhere" }}>
       <p>Going South</p>
+      {/* Give the blood bottle to Sarah */}
       <Shine>I LOVE YOU TSUMA!</Shine>
     </Content>
   ),
