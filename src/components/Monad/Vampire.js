@@ -99,6 +99,9 @@ export default function Vampire() {
         <li>Vampire Nightstalker</li>
         <li>Vampire Lord</li>
         <li>Vampire progenitor</li>
+        <li>Vampire Princess</li>
+        <li>Vampire Prince</li>
+        <li>Vampire Bride</li>
       </ul>
       <SubTitle>Sub-classes</SubTitle>
       <ul>
@@ -109,7 +112,8 @@ export default function Vampire() {
         <li>Hannya</li>
         <li>Draugr</li>
         <li>Banshee</li>
-        {/* Thrall */}
+        <li>vampiric beasts</li>
+        {/* Thrall, Lurker */}
       </ul>
     </div>
   );
@@ -126,8 +130,6 @@ const SubTitle = styled.h4`
 // all actions that would reveal the vampire would either cure or gain them exp or blood points to be used to improve their strength
 // that way younger vampires are more likely to do these things then the older ones who don't need strength as badly
 // Combined with the starving yourself (lower hp) increases you strength
-
-// Vampire princess, vampire bride, lesser vampire, vampiric beasts,
 
 // Fast Regeneration
 // Life Absorption
