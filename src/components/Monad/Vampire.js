@@ -4,19 +4,18 @@ import Equipment from "./../elements/equipment";
 import Stats from "./../elements/stats";
 import Spells from "./../elements/spells";
 
-
 export default function Vampire() {
   return (
     <div style={{ color: "black" }}>
       <h1>Blood Skills for any blood ability user:</h1>
       <Spells
         spells={[
-          { name: "Raining blood", level: 1, },
-          { name: "Blood Storm", level: 1, },
-          { name: "Grasp Heart", level: 1, },
-          { name: "Bloodhunt", level: 1, },
-          { name: "Blood Absorb", level: 1, },
-          { name: "Blood Aura", level: 1, },
+          { name: "Raining blood", level: 1 },
+          { name: "Blood Storm", level: 1 },
+          { name: "Grasp Heart", level: 1 },
+          { name: "Bloodhunt", level: 1 },
+          { name: "Blood Absorb", level: 1 },
+          { name: "Blood Aura", level: 1 },
           { name: "Grasp of the Starved", level: 1 },
           { name: "Blood Magic", level: 1 },
           { name: "Blood Sacrifice", level: 1 },
@@ -30,9 +29,27 @@ export default function Vampire() {
           { name: "Blood Bank", level: 1 },
           { name: "Blood Wall", level: 1 },
           { name: "Blood Spray", level: 1 },
+          { name: "Blood Flow Acceleration", level: 1 },
+          { name: "Blood Sacrifice", level: 1 },
+          { name: "Blood Retribution", level: 1 },
+          { name: "Poisonous Blood", level: 1 },
+          { name: "Blood Curse", level: 1 },
+          { name: "Blood Armor", level: 1 },
+          { name: "Blood Potion", level: 1 },
+          { name: "Blood Combustion", level: 1 },
+          { name: "Blood Manipulation", level: 1 },
+          { name: "Blood Projectiles", level: 1 },
+          { name: "Blood Weapon Creation", level: 1 },
+          { name: "Blood Soul", level: 1 },
+          { name: "Blood Frenzy", level: 1 },
+          { name: "Blood Storage", level: 1 },
+          { name: "Blood Servant", level: 1 },
+          { name: "Blood Pact", level: 1 },
+
         ]}
         type={"mage"}
       />
+
       {/* 
       https://my-vampire-system.fandom.com/wiki/Quinn_Talen/Abilities
       */}
@@ -52,7 +69,7 @@ export default function Vampire() {
           { name: "Flash Step", level: 1 },
           { name: "Basic Vampire Martial Arts", level: 1 },
           { name: "Vampiric Influence", level: 1 },
-          { name: "Blood Sucker", level: 1, },
+          { name: "Blood Sucker", level: 1 },
           { name: "Black Shroud", level: 1 },
           { name: "Vampire Eyes", level: 1 },
           { name: "Aura of Despair", level: 1 },
@@ -64,6 +81,8 @@ export default function Vampire() {
         ]}
         type={"human"}
       />
+            {/* vampiric eyes of hypnosis, eviscerating crimson claws,
+ blood core creation, crimson flash, vampiric drain,  vampiric wings, crimson aegis, Undying body, immortal body, unyielding blood demon, telepathy, fartalk,  */}
     </div>
   );
 }
@@ -73,12 +92,7 @@ export default function Vampire() {
 // that way younger vampires are more likely to do these things then the older ones who don't need strength as badly
 // Combined with the starving yourself (lower hp) increases you strength
 
-// Blood flow acceleration, blood sacrifice, blood retribution, vampiric eyes of hypnosis, poisonous blood, blood curse, blood armor, blood potion, blood combustion.
-// eviscerating crimson claws, blood control, blood manipulation, blood projectiles, blood weapon creation, 
-
-// Blood soul, blood core creation, crimson flash, vampiric drain, blood frenzy, vampiric wings, crimson aegis, blood storage, blood servant, blood pact. Undying body, immortal body, unyielding blood demon, telepathy, fartalk, 
-
-// Vampire princess, vampire bride, lesser vampire, vampiric beasts, 
+// Vampire princess, vampire bride, lesser vampire, vampiric beasts,
 
 // Fast Regeneration
 // Evileye of Temptation
@@ -92,4 +106,4 @@ export default function Vampire() {
 // Vulnerability to Silver weapons (only lesser vampires)
 // Added damage by Positive Energy
 
-// Ghoul, Wight, Halfling, Vampire→Vampire Noble→Vampire Knight, Namanari Hannya <Chunari Hannya> <Honnari Hannya>, Dhampir, Banshee, Draugr→Great Draugr, Blood Fairy, Strigoi, 
+// Ghoul, Wight, Halfling, Vampire→Vampire Noble→Vampire Knight, Namanari Hannya <Chunari Hannya> <Honnari Hannya>, Dhampir, Banshee, Draugr→Great Draugr, Blood Fairy, Strigoi,

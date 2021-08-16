@@ -2620,8 +2620,51 @@ export const spellList = {
     passive: true,
     1: "No points can be spent on this passive. As it levels up the user becomes closer to becoming a vampire lord.",
   },
+  "Blood Flow Acceleration": {
+    name: "Blood Flow Acceleration",
+    passive: false,
+    1: "Accelerates the blood flow around the casters body. Increases repair of damaged muscle fibres and cells, helps to decrease swelling, reduce pain and increase healing.",
+  },
+  "Blood Retribution": {
+    name: "Blood Retribution",
+    passive: false,
+    1: ".",
+  },
+  "Poisonous Blood": {
+    name: "Poisonous Blood",
+    passive: true,
+    1: ".",
+  },
+  "Blood Curse": {
+    name: "Blood Curse",
+    passive: false,
+    1: ".",
+  },
+  "Blood Armor": {
+    name: "Blood Armor",
+    passive: false,
+    1: ".",
+  },
+  "Blood Potion": {
+    name: "Blood Potion",
+    passive: false,
+    1: ".",
+  },
+  "Blood Combustion": {
+    name: "Blood Combustion",
+    passive: false,
+    1: ".",
+  },
 };
 
+// { name: "Blood Manipulation", level: 1 },
+// { name: "Blood Projectiles", level: 1 },
+// { name: "Blood Weapon Creation", level: 1 },
+// { name: "Blood Soul", level: 1 },
+// { name: "Blood Frenzy", level: 1 },
+// { name: "Blood Storage", level: 1 },
+// { name: "Blood Servant", level: 1 },
+// { name: "Blood Pact", level: 1 },
 // Ghoul, Wight, Halfling, Vampire→Vampire Noble→Vampire Knight, Namanari Hannya <Chunari Hannya> <Honnari Hannya>, Dhampir, Banshee, Draugr→Great Draugr, Blood Fairy, Strigoi, 
 
 // Berserker stuff ! Blood stuff !https://dragonage.fandom.com/wiki/Blood_Mage_(Origins)
