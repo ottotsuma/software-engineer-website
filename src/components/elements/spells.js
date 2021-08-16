@@ -2695,6 +2695,11 @@ export const spellList = {
     passive: false,
     1: ".",
   },
+  "Blood Mist": {
+    name: "Blood Mist",
+    passive: false,
+    1: ".",
+  },
 };
 
 // Ghoul, Wight, Halfling, Vampire→Vampire Noble→Vampire Knight, Namanari Hannya <Chunari Hannya> <Honnari Hannya>, Dhampir, Banshee, Draugr→Great Draugr, Blood Fairy, Strigoi, 
