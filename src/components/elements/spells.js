@@ -2655,16 +2655,48 @@ export const spellList = {
     passive: false,
     1: ".",
   },
+  "Blood Manipulation": {
+    name: "Blood Manipulation",
+    passive: false,
+    1: ".",
+  },
+  "Blood Projectiles": {
+    name: "Blood Projectiles",
+    passive: false,
+    1: ".",
+  },
+  "Blood Pact": {
+    name: "Blood Pact",
+    passive: false,
+    1: ".",
+  },
+  "Blood Servant": {
+    name: "Blood Servant",
+    passive: false,
+    1: ".",
+  },
+  "Blood Storage": {
+    name: "Blood Storage",
+    passive: false,
+    1: ".",
+  },
+  "Blood Frenzy": {
+    name: "Blood Frenzy",
+    passive: false,
+    1: ".",
+  },
+  "Blood Soul": {
+    name: "Blood Soul",
+    passive: false,
+    1: ".",
+  },
+  "Blood Weapon Creation": {
+    name: "Blood Weapon Creation",
+    passive: false,
+    1: ".",
+  },
 };
 
-// { name: "Blood Manipulation", level: 1 },
-// { name: "Blood Projectiles", level: 1 },
-// { name: "Blood Weapon Creation", level: 1 },
-// { name: "Blood Soul", level: 1 },
-// { name: "Blood Frenzy", level: 1 },
-// { name: "Blood Storage", level: 1 },
-// { name: "Blood Servant", level: 1 },
-// { name: "Blood Pact", level: 1 },
 // Ghoul, Wight, Halfling, Vampire→Vampire Noble→Vampire Knight, Namanari Hannya <Chunari Hannya> <Honnari Hannya>, Dhampir, Banshee, Draugr→Great Draugr, Blood Fairy, Strigoi, 
 
 // Berserker stuff ! Blood stuff !https://dragonage.fandom.com/wiki/Blood_Mage_(Origins)
