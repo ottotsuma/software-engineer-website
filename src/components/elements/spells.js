@@ -2633,7 +2633,7 @@ export const spellList = {
   "Poisonous Blood": {
     name: "Poisonous Blood",
     passive: true,
-    1: ".",
+    1: "Your blood is now poison to others.",
   },
   "Blood Curse": {
     name: "Blood Curse",
@@ -2643,37 +2643,37 @@ export const spellList = {
   "Blood Armor": {
     name: "Blood Armor",
     passive: false,
-    1: ".",
+    1: "Cover your body in blood to reduce damage.",
   },
   "Blood Potion": {
     name: "Blood Potion",
     passive: false,
-    1: ".",
+    1: "Your blood can be used as a potion on others.",
   },
   "Blood Combustion": {
     name: "Blood Combustion",
     passive: false,
-    1: ".",
+    1: "Rapidly expands your own blood.",
   },
   "Blood Manipulation": {
     name: "Blood Manipulation",
     passive: false,
-    1: ".",
+    1: "An advanced blood control.",
   },
   "Blood Projectiles": {
     name: "Blood Projectiles",
     passive: false,
-    1: ".",
+    1: "Shoot blood like javelins, uses the blood around you.",
   },
   "Blood Pact": {
     name: "Blood Pact",
     passive: false,
-    1: ".",
+    1: "When agreed to both parties must stick to the pact or face their own blood rejecting them.",
   },
   "Blood Servant": {
     name: "Blood Servant",
     passive: false,
-    1: ".",
+    1: "Make a servant creature out of blood.",
   },
   "Blood Storage": {
     name: "Blood Storage",
@@ -2683,22 +2683,22 @@ export const spellList = {
   "Blood Frenzy": {
     name: "Blood Frenzy",
     passive: false,
-    1: ".",
+    1: "You will fall into a frenzied state until you consume enough blood to be satisfied, all stats increase during this time.",
   },
   "Blood Soul": {
     name: "Blood Soul",
-    passive: false,
-    1: ".",
+    passive: true,
+    1: "Your soul is stained with the blood of your victims.",
   },
   "Blood Weapon Creation": {
     name: "Blood Weapon Creation",
     passive: false,
-    1: ".",
+    1: "Creates a weapon from the blood.",
   },
   "Blood Mist": {
     name: "Blood Mist",
     passive: false,
-    1: ".",
+    1: "The caster bursts into a mist of their own blood reducing damage taken by spreading them selves over a larger area.",
   },
 };
 

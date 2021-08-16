@@ -109,6 +109,7 @@ export default function Vampire() {
         <li>Hannya</li>
         <li>Draugr</li>
         <li>Banshee</li>
+        {/* Thrall */}
       </ul>
     </div>
   );
