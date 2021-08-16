@@ -83,8 +83,7 @@ export default function Vampire() {
         ]}
         type={"human"}
       />
-                  {/* vampiric eyes of hypnosis, eviscerating crimson claws,
- blood core creation, crimson flash, vampiric drain,  vampiric wings, crimson aegis, Undying body, immortal body, unyielding blood demon, telepathy, fartalk,  */}
+                  {/*  crimson flash, vampiric drain, vampiric wings, crimson aegis, Undying body, immortal body, unyielding blood demon, telepathy, fartalk */}
       <h1>Vampire Ranks</h1>
       <SubTitle>Vampires</SubTitle>
       <ul>
@@ -126,7 +125,7 @@ const SubTitle = styled.h4`
   text-decoration: underline;
 `;
 
-// Vampires can gain experience by trying new blood, creature ghouls and the exp gained from the ghouls fighting
+// Vampires can gain experience by trying new blood, creating ghouls and the exp gained from the ghouls fighting
 // all actions that would reveal the vampire would either cure or gain them exp or blood points to be used to improve their strength
 // that way younger vampires are more likely to do these things then the older ones who don't need strength as badly
 // Combined with the starving yourself (lower hp) increases you strength
