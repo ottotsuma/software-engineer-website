@@ -60,7 +60,7 @@ export default function Otto() {
       Weapon:<font color="blue"> </font>
     </li> */}
       {/* gloves, adds fire to a weapon. boots, change the surface to fire. chest, reflect damage as fire when hit in melee*/}
-      <h1>Other Items.</h1>
+      <h1>Other Items</h1>
       <Spells
         spells={[
           { name: "Lightning germination", level: 2, },

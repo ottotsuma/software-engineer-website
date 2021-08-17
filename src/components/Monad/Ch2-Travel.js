@@ -5,7 +5,7 @@ function Travel(props) {
     <div className="Monad" id="2">
       <div className="Frame">
         <div className="Content">
-          <h3>Travel.</h3>
+          <h3>Travel</h3>
           <p>
             All of the students from town set off on the same day. We traveled
             to septate destinations and along the way change the adults

@@ -37,14 +37,14 @@ export default function SeaPeopleFunction(props) {
 export const SeaPeople = {
   0: (
     <Content style={{ overflowWrap: "anywhere" }}>
-      <h1>Sea people.</h1>
+      <h1>Sea people</h1>
       <p>
         A group of sea travelers with different races. Their classes will be
         advanced classes because they have all reached level 100 at some point.
         The miasma effect will reduce their capabilities by 90% and be removed
         as they complete more quests on the DLC island.
       </p>
-      <h2>List of the group:</h2>
+      <h2>List of the group</h2>
       <ul style={{ overflowWrap: "anywhere" }}>
         <li style={{ overflowWrap: "anywhere" }}>
           Example: Name, race, class(), level, equipment, backstory(Main island,
@@ -1340,7 +1340,7 @@ export const SeaPeople = {
     <Content style={{ overflowWrap: "anywhere" }}>
       {/* Wet lands to the south of the city. */}
       {/* Vampire eyes red - purple - blue */}
-      <h1>Monh.</h1>
+      <h1>Monh</h1>
       <p>
         After leaving the others I wondered though the city, every now an then
         checking my inventory like the ID Sarah gave me was going to disappear
@@ -1416,7 +1416,7 @@ export const SeaPeople = {
         course have little interest in helping you get captured...
       </p>
       <p>
-
+        
       </p>
       {/* Market place */}
       {/* Quest */}

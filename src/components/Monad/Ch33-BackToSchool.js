@@ -15,7 +15,7 @@ function Intro(props) {
     <div className="Monad" id="3">
       <div className="Frame">
         <div className="Content">
-          <h3>Back to school.</h3>
+          <h3>Back to school</h3>
           <p>
             The next day I walked into the usual morning class room, to be
             greeted by the most unwelcome faces I have met in my short stay on

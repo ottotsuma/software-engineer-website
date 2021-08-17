@@ -9,7 +9,7 @@ function Intro(props) {
     <div className="Monad" id="3">
       <div className="Frame">
         <div className="Content">
-          <h3>Survival.</h3>
+          <h3>Survival</h3>
           <p>
             We started our date by telling each other about what had happened
             today. I left nothing out, I really did trust her with everything I

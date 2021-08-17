@@ -10,12 +10,12 @@ const Intro = (props) => {
       <div className="Frame">
         <div id="test" className="Content">
           {/* <!-- military education is also about the history --> */}
-          <h1 id="title">Monad.</h1>
+          <h1 id="title">Monad</h1>
           {/* Monad (philosophy), a term meaning "unit", used by philosophers to signify a variety of entities, originally the God and later such things as genus
 Monism, the concept of "one essence" in the metaphysical and theological theory */}
           {/* <!-- Next to some kind of map not the first chapter --> */}
           <div className="pop">
-            Map of Chab.
+            Map of Chab
             {/* http://www.mesoweb.com/resources/vocabulary/English-Maya.html */}
             <img
               className="popOut"
@@ -103,7 +103,7 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             was a large flash of light, then nothing.
           </p>
           <div className="BreakPoint"></div>
-          <h3>Steinauhau.</h3>
+          <h3>Steinauhau</h3>
           {/* The Grand Duchy of Alden is home to 3.2 million people */}
           <p>
             Jun 12 21-12, In the north east of the continent of Chab, in the
@@ -169,7 +169,7 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             until I heard a click then my vision went black.
           </p>
           <div className="BreakPoint"></div>
-          <h3>Michkel.</h3>
+          <h3>Michkel</h3>
           {/* <!-- starting with the kids meeting as friends, introduce the town, some news the people, small parts of the world, culture--> */}
           <p>
             It had been 10 years since I had found the blood soaked diary on
@@ -262,7 +262,7 @@ most people learn inspect but either see
 - use list 
 --> */}
           <div className="BreakPoint"></div>
-          <h3>Play day.</h3>
+          <h3>Play day</h3>
           {/* <!-- Children in the forest --> */}
           <p>
             The group of 7 laughing running into the forest, beyond the eyes of
@@ -355,7 +355,7 @@ most people learn inspect but either see
           </p> */}
           {/* <!-- around the year 21-22 the rebellion breaks out --> */}
           <div className="BreakPoint"></div>
-          <h3>Incident.</h3>
+          <h3>Incident</h3>
           {/* <!-- redo - as Effie --> */}
           <p>
             The group where playing deep inside the forest when one of them
@@ -458,7 +458,7 @@ most people learn inspect but either see
             name={"Otto"}
           />
           <div className="BreakPoint"></div>
-          <h3>The body.</h3>
+          <h3>The body</h3>
           <p>
             After hearting the children scream like they where really in trouble
             this time myself, Robert and a few others ran over to check on them.
@@ -495,7 +495,7 @@ most people learn inspect but either see
           {/* <!-- Lurking in the water is a strange child-sized humanoid that resembles a bizarre cross between a turtle, a lizard, and a monkey. It has a beak-like mouth, scaly reptilian skin, clawed and webbed hands, and a turtle-like shell on its back. In the top of its head is a bowl-like depression filled with water. --> */}
           {/* <!-- https://forgottenrealms.fandom.com/wiki/Kappa --> */}
           <div className="BreakPoint"></div>
-          <h3>Aftermath.</h3>
+          <h3>Aftermath</h3>
           {/* <!-- punishment --> */}
           {/* <!-- a reflection for some of the others maybe about the deaths? monsters? --> */}
           <p>
@@ -637,7 +637,7 @@ most people learn inspect but either see
             start from the beginning"
           </p>
           <div className="BreakPoint"></div>
-          <h3>Training.</h3>
+          <h3>Training</h3>
           <p>
             While the other children trained and practiced Beke was taken to one
             side and asked what he knew.
