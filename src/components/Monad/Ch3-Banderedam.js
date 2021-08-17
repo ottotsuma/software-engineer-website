@@ -7,7 +7,7 @@ function Banderedam(props) {
     <div className="Monad" id="3">
       <div className="Frame">
         <div className="Content">
-          <h3>City of Banderedam</h3>
+          <h3>City of Banderedam.</h3>
           <p>
             Arriving before the city of Banderedam, trails of students heading
             to the academy could be seen next to the city. The city itself was

@@ -7,7 +7,7 @@ function Academy(props) {
     <div className="Monad" id="3">
       <div className="Frame">
         <div className="Content">
-          <h3>Academy</h3>
+          <h3>Academy.</h3>
           <p>
             The academy at first appeared to be a large and quite impressive
             building but I had expected a much wider campus and maybe more then

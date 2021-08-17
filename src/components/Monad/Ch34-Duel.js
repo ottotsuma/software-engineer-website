@@ -10,7 +10,7 @@ import { SeaPeople } from "./SeaPeople";
 function Duel(props) {
   return (
     <Content>
-      <h3>Duel</h3>
+      <h3>Duel.</h3>
       <p>
         Linhart wore a bright red robe with white trim. Second years wore robes
         that represent their element. Third years got a white trim, to indicate
