@@ -67,6 +67,7 @@ const onload = function () {
           document.querySelector("article").textContent
         );
         SpeechSynthesisUtterance.lang = 'en-US';
+        SpeechSynthesisUtterance.rate = 1.5;
         console.log(synth.getVoices())
         utterance.voice = synth.getVoices()[1];
         utterance.onend = function () {
