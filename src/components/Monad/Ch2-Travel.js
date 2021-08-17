@@ -8,7 +8,7 @@ function Travel(props) {
           <h3>Travel</h3>
           <p>
             All of the students from town set off on the same day. We traveled
-            to septate destinations and along the way change the adults
+            to separate destinations and along the way change the adults
             traveling with us. At first the instructors of the town school
             traveled with us until we reached the town of Todtenwei, the next
             town along. From there we changed guardians every town, village or
