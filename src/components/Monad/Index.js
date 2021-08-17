@@ -67,7 +67,8 @@ const onload = function () {
           document.querySelector("article").textContent
         );
         SpeechSynthesisUtterance.lang = 'en-US';
-        utterance.voice = synth.getVoices()[0];
+        console.log(synth.getVoices())
+        utterance.voice = synth.getVoices()[1];
         utterance.onend = function () {
           flag = false;
           playEle.className = pauseEle.className = "";
@@ -212,6 +213,52 @@ export default function Monad(params) {
   if (number === ChapterList.length) {
     return (
       <div className="Chapter-Container">
+                <div className="buttons">
+          <Buttons
+            id="play"
+            style={{
+              background: "none",
+              border: "none",
+              cursor: "pointer",
+              outline: "none",
+              height: "48px",
+              width: "48px",
+              padding: 0,
+              backgroundImage:
+                "url(https://rpsthecoder.github.io/js-speech-synthesis/play.svg)",
+            }}
+          ></Buttons>{" "}
+          &nbsp;
+          <Buttons
+            id="pause"
+            style={{
+              background: "none",
+              border: "none",
+              cursor: "pointer",
+              outline: "none",
+              height: "48px",
+              width: "48px",
+              padding: 0,
+              backgroundImage:
+                "url(https://rpsthecoder.github.io/js-speech-synthesis/pause.svg)",
+            }}
+          ></Buttons>{" "}
+          &nbsp;
+          <Buttons
+            id="stop"
+            style={{
+              background: "none",
+              border: "none",
+              cursor: "pointer",
+              outline: "none",
+              height: "48px",
+              width: "48px",
+              padding: 0,
+              backgroundImage:
+                "url(https://rpsthecoder.github.io/js-speech-synthesis/stop.svg)",
+            }}
+          ></Buttons>
+        </div>
         <Link
           className="Footer-Button"
           id="Previous"
@@ -228,7 +275,7 @@ export default function Monad(params) {
             {droppy()}
           </div>
         </div> */}
-        {isPage}
+        <article>{isPage}</article>
         <Link
           className="Footer-Button"
           id="Previous"
@@ -245,6 +292,52 @@ export default function Monad(params) {
   } else if (number > 1) {
     return (
       <div className="Chapter-Container">
+                <div className="buttons">
+          <Buttons
+            id="play"
+            style={{
+              background: "none",
+              border: "none",
+              cursor: "pointer",
+              outline: "none",
+              height: "48px",
+              width: "48px",
+              padding: 0,
+              backgroundImage:
+                "url(https://rpsthecoder.github.io/js-speech-synthesis/play.svg)",
+            }}
+          ></Buttons>{" "}
+          &nbsp;
+          <Buttons
+            id="pause"
+            style={{
+              background: "none",
+              border: "none",
+              cursor: "pointer",
+              outline: "none",
+              height: "48px",
+              width: "48px",
+              padding: 0,
+              backgroundImage:
+                "url(https://rpsthecoder.github.io/js-speech-synthesis/pause.svg)",
+            }}
+          ></Buttons>{" "}
+          &nbsp;
+          <Buttons
+            id="stop"
+            style={{
+              background: "none",
+              border: "none",
+              cursor: "pointer",
+              outline: "none",
+              height: "48px",
+              width: "48px",
+              padding: 0,
+              backgroundImage:
+                "url(https://rpsthecoder.github.io/js-speech-synthesis/stop.svg)",
+            }}
+          ></Buttons>
+        </div>
         <Link
           className="Footer-Button"
           id="Previous"
@@ -268,7 +361,7 @@ export default function Monad(params) {
         >
           Next
         </Link>
-        {isPage}
+        <article>{isPage}</article>
         <Link
           className="Footer-Button"
           id="Previous"
