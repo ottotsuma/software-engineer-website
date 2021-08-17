@@ -1400,6 +1400,24 @@ export const SeaPeople = {
         had no capes but maybe the head of a leopard placed on top of their own,
         pelts or beast parts over their bodies as armor.
       </p>
+      <p>
+        There levels in the cities I had visited in the past where not that
+        high, around the mid 50's up to 70's. It would be a mistake to think
+        that they are weak though. Even in area's where players stats where not
+        reduced NPC's with the role of city guard received boosts to their
+        damage dealt against players and reduced damage dealt by players to
+        them. Nothing that could not be overcome with better equipment. The main
+        problem with fighting them was two unique abilities, the first was to
+        call for more guards which seem to come out of the wood work. The second
+        was to put a bounty on the players head, this means any player who helps
+        kill you would receive part of the reward for your arrest. Why was this
+        such a huge problem? They wouldn't take the bounty off because you died,
+        it only comes off when they capture you. The players attacking you of
+        course have little interest in helping you get captured...
+      </p>
+      <p>
+        
+      </p>
       {/* Market place */}
       {/* Quest */}
       <Quest

@@ -38,7 +38,74 @@ import SpellsPage from "./SpellsPage";
 import Otto from "./Otto";
 import SeaPeopleFunction from "./SeaPeople";
 import Vampire from "./Vampire";
+import styled from "styled-components";
 
+const Buttons = styled.button`
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+`;
+
+const onload = function () {
+  if ("speechSynthesis" in window) {
+    var synth = window.speechSynthesis;
+    var playEle = document.querySelector("#play");
+    var pauseEle = document.querySelector("#pause");
+    var stopEle = document.querySelector("#stop");
+    var flag = false;
+
+    playEle.addEventListener("click", onClickPlay);
+    pauseEle.addEventListener("click", onClickPause);
+    stopEle.addEventListener("click", onClickStop);
+
+    function onClickPlay() {
+      if (!flag) {
+        flag = true;
+        const utterance = new SpeechSynthesisUtterance(
+          document.querySelector("article").textContent
+        );
+        SpeechSynthesisUtterance.lang = 'en-US';
+        utterance.voice = synth.getVoices()[0];
+        utterance.onend = function () {
+          flag = false;
+          playEle.className = pauseEle.className = "";
+          stopEle.className = "stopped";
+        };
+        playEle.className = "played";
+        stopEle.className = "";
+        synth.speak(utterance);
+      }
+      if (synth.paused) {
+        /* unpause/resume narration */
+        playEle.className = "played";
+        pauseEle.className = "";
+        synth.resume();
+      }
+    }
+
+    function onClickPause() {
+      if (synth.speaking && !synth.paused) {
+        /* pause narration */
+        pauseEle.className = "paused";
+        playEle.className = "";
+        synth.pause();
+      }
+    }
+
+    function onClickStop() {
+      if (synth.speaking) {
+        /* stop narration */
+        /* for safari */
+        stopEle.className = "stopped";
+        playEle.className = pauseEle.className = "";
+        flag = false;
+        synth.cancel();
+      }
+    }
+  }
+};
 
 const scrollTop = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
@@ -62,40 +129,40 @@ function callBack(index) {
 }
 
 const ChapterList = [
-  <Chapter1 Chapter={'Intro'}/>,
-  <Chapter2 Chapter={'Travel'}/>,
-  <Chapter3 Chapter={'Banderedam'}/>,
-  <Chapter4 Chapter={'Academy'}/>,
-  <Chapter5 Chapter={'Lessons'}/>,
-  <Chapter6 Chapter={'Combat'}/>,
-  <Chapter7 Chapter={'Fourth'}/>,
-  <Chapter8 Chapter={'Fifth'}/>,
-  <Chapter9 Chapter={'Results'}/>,
-  <Chapter10 Chapter={'Rest'}/>,
-  <Chapter11 Chapter={'Note'}/>,
-  <Chapter12 Chapter={'Missions'}/>,
-  <Chapter13 Chapter={'Savigal'}/>,
-  <Chapter14 Chapter={'Dinner'}/>,
-  <Chapter15 Chapter={'Date'}/>,
-  <Chapter16 Chapter={'Cranium'}/>,
-  <Chapter17 Chapter={'Training'}/>,
-  <Chapter18 Chapter={'Jungle'}/>,
-  <Chapter19 Chapter={'God'}/>,
-  <Chapter20 Chapter={'Date2'}/>,
-  <Chapter21 Chapter={'Tomb2'}/>,
-  <Chapter22 Chapter={'Tomb2'}/>,
-  <Chapter23 Chapter={'Tisiel'}/>,
-  <Chapter24 Chapter={'Nymandus'}/>,
-  <Chapter25 Chapter={'Otto'}/>,
-  <Chapter26 Chapter={'Home'}/>,
-  <Chapter27 Chapter={'Shrine'}/>,
-  <Chapter28 Chapter={'Morning'}/>,
-  <Chapter29 Chapter={'Farming'}/>,
-  <Chapter30 Chapter={'Arrilian'}/>,
-  <Chapter31 Chapter={'Flowers'}/>,
-  <Chapter32 Chapter={'Survival'}/>,
-  <Chapter33 Chapter={'BackToSchool'}/>,
-  <Chapter34 Chapter={'Duel'}/>,
+  <Chapter1 Chapter={"Intro"} />,
+  <Chapter2 Chapter={"Travel"} />,
+  <Chapter3 Chapter={"Banderedam"} />,
+  <Chapter4 Chapter={"Academy"} />,
+  <Chapter5 Chapter={"Lessons"} />,
+  <Chapter6 Chapter={"Combat"} />,
+  <Chapter7 Chapter={"Fourth"} />,
+  <Chapter8 Chapter={"Fifth"} />,
+  <Chapter9 Chapter={"Results"} />,
+  <Chapter10 Chapter={"Rest"} />,
+  <Chapter11 Chapter={"Note"} />,
+  <Chapter12 Chapter={"Missions"} />,
+  <Chapter13 Chapter={"Savigal"} />,
+  <Chapter14 Chapter={"Dinner"} />,
+  <Chapter15 Chapter={"Date"} />,
+  <Chapter16 Chapter={"Cranium"} />,
+  <Chapter17 Chapter={"Training"} />,
+  <Chapter18 Chapter={"Jungle"} />,
+  <Chapter19 Chapter={"God"} />,
+  <Chapter20 Chapter={"Date2"} />,
+  <Chapter21 Chapter={"Tomb2"} />,
+  <Chapter22 Chapter={"Tomb2"} />,
+  <Chapter23 Chapter={"Tisiel"} />,
+  <Chapter24 Chapter={"Nymandus"} />,
+  <Chapter25 Chapter={"Otto"} />,
+  <Chapter26 Chapter={"Home"} />,
+  <Chapter27 Chapter={"Shrine"} />,
+  <Chapter28 Chapter={"Morning"} />,
+  <Chapter29 Chapter={"Farming"} />,
+  <Chapter30 Chapter={"Arrilian"} />,
+  <Chapter31 Chapter={"Flowers"} />,
+  <Chapter32 Chapter={"Survival"} />,
+  <Chapter33 Chapter={"BackToSchool"} />,
+  <Chapter34 Chapter={"Duel"} />,
   <Otto />,
   <SeaPeopleFunction Chapter={0} />,
   <SeaPeopleFunction Chapter={1} />,
@@ -106,7 +173,7 @@ const ChapterList = [
   <SeaPeopleFunction Chapter={6} />,
   <SeaPeopleFunction Chapter={7} />,
   <SeaPeopleFunction Chapter={8} />,
-  <SeaPeopleFunction Chapter={9} />, 
+  <SeaPeopleFunction Chapter={9} />,
   <Vampire />,
   <SpellsPage />,
 ];
@@ -120,8 +187,10 @@ export function droppy() {
       onClick={() => callBack(index)}
       to={"/Monad/" + (index + 1)}
     >
-    Ch {index + 1}
-    {ChapterList[index].props.Chapter ? ' ' + ChapterList[index].props.Chapter : ' ' + ChapterList[index].type.name}
+      Ch {index + 1}
+      {ChapterList[index].props.Chapter
+        ? " " + ChapterList[index].props.Chapter
+        : " " + ChapterList[index].type.name}
     </Link>
   ));
   return rows;
@@ -132,11 +201,11 @@ export function myFunction() {
 }
 
 export default function Monad(params) {
-
   const [isPage, setPage] = useState("");
   useEffect(() => {
     console.log("Page: ", number);
     setPage(ChapterList[window.location.href.match(/\d+$/)[0] - 1]);
+    onload();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [number]);
 
@@ -224,6 +293,52 @@ export default function Monad(params) {
   } else {
     return (
       <div className="Chapter-Container">
+        <div className="buttons">
+          <Buttons
+            id="play"
+            style={{
+              background: "none",
+              border: "none",
+              cursor: "pointer",
+              outline: "none",
+              height: "48px",
+              width: "48px",
+              padding: 0,
+              backgroundImage:
+                "url(https://rpsthecoder.github.io/js-speech-synthesis/play.svg)",
+            }}
+          ></Buttons>{" "}
+          &nbsp;
+          <Buttons
+            id="pause"
+            style={{
+              background: "none",
+              border: "none",
+              cursor: "pointer",
+              outline: "none",
+              height: "48px",
+              width: "48px",
+              padding: 0,
+              backgroundImage:
+                "url(https://rpsthecoder.github.io/js-speech-synthesis/pause.svg)",
+            }}
+          ></Buttons>{" "}
+          &nbsp;
+          <Buttons
+            id="stop"
+            style={{
+              background: "none",
+              border: "none",
+              cursor: "pointer",
+              outline: "none",
+              height: "48px",
+              width: "48px",
+              padding: 0,
+              backgroundImage:
+                "url(https://rpsthecoder.github.io/js-speech-synthesis/stop.svg)",
+            }}
+          ></Buttons>
+        </div>
         {/* <div className="dropdown">
           <button onClick={() => myFunction()} className="dropbtn">
             Dropdown
@@ -239,7 +354,7 @@ export default function Monad(params) {
         >
           Next
         </Link>
-        {isPage}
+        <article>{isPage}</article>
         <button className="Footer-Button" onClick={() => scrollTop()}>
           Top
         </button>
