@@ -214,7 +214,7 @@ export default function Monad(params) {
   if (number === ChapterList.length) {
     return (
       <div className="Chapter-Container">
-                <div className="buttons">
+                {"speechSynthesis" in window && <div className="buttons">
           <Buttons
             id="play"
             style={{
@@ -259,7 +259,7 @@ export default function Monad(params) {
                 "url(https://rpsthecoder.github.io/js-speech-synthesis/stop.svg)",
             }}
           ></Buttons>
-        </div>
+        </div>}
         <Link
           className="Footer-Button"
           id="Previous"
@@ -293,7 +293,7 @@ export default function Monad(params) {
   } else if (number > 1) {
     return (
       <div className="Chapter-Container">
-                <div className="buttons">
+                {"speechSynthesis" in window && <div className="buttons">
           <Buttons
             id="play"
             style={{
@@ -338,7 +338,7 @@ export default function Monad(params) {
                 "url(https://rpsthecoder.github.io/js-speech-synthesis/stop.svg)",
             }}
           ></Buttons>
-        </div>
+        </div>}
         <Link
           className="Footer-Button"
           id="Previous"
@@ -387,7 +387,7 @@ export default function Monad(params) {
   } else {
     return (
       <div className="Chapter-Container">
-        <div className="buttons">
+        {"speechSynthesis" in window && <div className="buttons">
           <Buttons
             id="play"
             style={{
@@ -432,7 +432,7 @@ export default function Monad(params) {
                 "url(https://rpsthecoder.github.io/js-speech-synthesis/stop.svg)",
             }}
           ></Buttons>
-        </div>
+        </div>}
         {/* <div className="dropdown">
           <button onClick={() => myFunction()} className="dropbtn">
             Dropdown
