@@ -39,6 +39,7 @@ import Otto from "./Otto";
 import SeaPeopleFunction from "./SeaPeople";
 import Vampire from "./Vampire";
 import styled from "styled-components";
+import { LensOutlined } from "@material-ui/icons";
 
 const Buttons = styled.button`
   background: none;
@@ -47,67 +48,6 @@ const Buttons = styled.button`
   outline: none;
   padding: 0;
 `;
-
-const onload = function () {
-  if ("speechSynthesis" in window) {
-    var synth = window.speechSynthesis;
-    var playEle = document.querySelector("#play");
-    var pauseEle = document.querySelector("#pause");
-    var stopEle = document.querySelector("#stop");
-    var flag = false;
-
-    playEle.addEventListener("click", onClickPlay);
-    pauseEle.addEventListener("click", onClickPause);
-    stopEle.addEventListener("click", onClickStop);
-
-    function onClickPlay() {
-      if (!flag) {
-        flag = true;
-        const utterance = new SpeechSynthesisUtterance(
-          document.querySelector("article").textContent
-        );
-        SpeechSynthesisUtterance.lang = 'en-US';
-        SpeechSynthesisUtterance.rate = 0.8;
-        console.log(synth.getVoices())
-        utterance.voice = synth.getVoices()[1];
-        utterance.onend = function () {
-          flag = false;
-          playEle.className = pauseEle.className = "";
-          stopEle.className = "stopped";
-        };
-        playEle.className = "played";
-        stopEle.className = "";
-        synth.speak(utterance);
-      }
-      if (synth.paused) {
-        /* unpause/resume narration */
-        playEle.className = "played";
-        pauseEle.className = "";
-        synth.resume();
-      }
-    }
-
-    function onClickPause() {
-      if (synth.speaking && !synth.paused) {
-        /* pause narration */
-        pauseEle.className = "paused";
-        playEle.className = "";
-        synth.pause();
-      }
-    }
-
-    function onClickStop() {
-      if (synth.speaking) {
-        /* stop narration */
-        /* for safari */
-        stopEle.className = "stopped";
-        playEle.className = pauseEle.className = "";
-        flag = false;
-        synth.cancel();
-      }
-    }
-  }
-};
 
 const scrollTop = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
@@ -204,18 +144,72 @@ export function myFunction() {
 
 export default function Monad(params) {
   const [isPage, setPage] = useState("");
+  const synth = window.speechSynthesis;
+  let flag = false;
+  
+  const playEle = document.querySelector("#play");
+  const pauseEle = document.querySelector("#pause");
+  const stopEle = document.querySelector("#stop");
+      
+  function onClickPlay() {
+    if (!flag) {
+      flag = true;
+      const utterance = new SpeechSynthesisUtterance(
+        document.querySelector("article").textContent
+      );
+      SpeechSynthesisUtterance.lang = 'en-US';
+      SpeechSynthesisUtterance.rate = 0.8;
+      console.log(synth.getVoices())
+      utterance.voice = synth.getVoices()[1];
+      utterance.onend = function () {
+        flag = false;
+        playEle.className = pauseEle.className = "";
+        stopEle.className = "stopped";
+      };
+      playEle.className = "played";
+      stopEle.className = "";
+      synth.speak(utterance);
+    }
+    if (synth.paused) {
+      /* unpause/resume narration */
+      playEle.className = "played";
+      pauseEle.className = "";
+      synth.resume();
+    }
+  }
+
+  function onClickPause() {
+    if (synth.speaking && !synth.paused) {
+      /* pause narration */
+      pauseEle.className = "paused";
+      playEle.className = "";
+      synth.pause();
+    }
+  }
+
+  function onClickStop() {
+    if (synth.speaking) {
+      /* stop narration */
+      /* for safari */
+      stopEle.className = "stopped";
+      playEle.className = pauseEle.className = "";
+      flag = false;
+      synth.cancel();
+    }
+  }
+
   useEffect(() => {
     console.log("Page: ", number);
     setPage(ChapterList[window.location.href.match(/\d+$/)[0] - 1]);
-    onload();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [number]);
 
   if (number === ChapterList.length) {
     return (
       <div className="Chapter-Container">
-                {"speechSynthesis" in window && <div className="buttons">
+        {"speechSynthesis" in window && <div className="buttons">
           <Buttons
+          onClick={() => onClickPlay()}
             id="play"
             style={{
               background: "none",
@@ -231,6 +225,7 @@ export default function Monad(params) {
           ></Buttons>{" "}
           &nbsp;
           <Buttons
+          onClick={() => onClickPause()}
             id="pause"
             style={{
               background: "none",
@@ -246,6 +241,7 @@ export default function Monad(params) {
           ></Buttons>{" "}
           &nbsp;
           <Buttons
+          onClick={() => onClickStop()}
             id="stop"
             style={{
               background: "none",
@@ -293,8 +289,9 @@ export default function Monad(params) {
   } else if (number > 1) {
     return (
       <div className="Chapter-Container">
-                {"speechSynthesis" in window && <div className="buttons">
+        {"speechSynthesis" in window && <div className="buttons">
           <Buttons
+          onClick={() => onClickPlay()}
             id="play"
             style={{
               background: "none",
@@ -310,6 +307,7 @@ export default function Monad(params) {
           ></Buttons>{" "}
           &nbsp;
           <Buttons
+          onClick={() => onClickPause()}
             id="pause"
             style={{
               background: "none",
@@ -325,6 +323,7 @@ export default function Monad(params) {
           ></Buttons>{" "}
           &nbsp;
           <Buttons
+          onClick={() => onClickStop()}
             id="stop"
             style={{
               background: "none",
@@ -389,6 +388,7 @@ export default function Monad(params) {
       <div className="Chapter-Container">
         {"speechSynthesis" in window && <div className="buttons">
           <Buttons
+          onClick={() => onClickPlay()}
             id="play"
             style={{
               background: "none",
@@ -404,6 +404,7 @@ export default function Monad(params) {
           ></Buttons>{" "}
           &nbsp;
           <Buttons
+          onClick={() => onClickPause()}
             id="pause"
             style={{
               background: "none",
@@ -419,6 +420,7 @@ export default function Monad(params) {
           ></Buttons>{" "}
           &nbsp;
           <Buttons
+          onClick={() => onClickStop()}
             id="stop"
             style={{
               background: "none",
