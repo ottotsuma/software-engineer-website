@@ -157,10 +157,11 @@ export default function Monad(params) {
       const utterance = new SpeechSynthesisUtterance(
         document.querySelector("article").textContent
       );
-      SpeechSynthesisUtterance.lang = 'en-US';
+      SpeechSynthesisUtterance.lang = 'en-GR';
       SpeechSynthesisUtterance.rate = 0.8;
       console.log(synth.getVoices())
-      utterance.voice = synth.getVoices()[1];
+      utterance.voice = synth.getVoices()[synth.getVoices().map(function(e) { return e.lang; }).indexOf('en-GB')];
+
       utterance.onend = function () {
         flag = false;
         playEle.className = pauseEle.className = "";
