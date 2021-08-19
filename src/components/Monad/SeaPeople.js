@@ -1419,7 +1419,7 @@ export const SeaPeople = {
         
       </p>
       {/* Market place */}
-      {/* What do you want to show though this quest? Some story element or game play? */}
+      {/* Disease */}
       {/* Quest */}
       <Quest
         rating="rare"
