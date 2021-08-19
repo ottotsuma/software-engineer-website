@@ -1419,6 +1419,7 @@ export const SeaPeople = {
         
       </p>
       {/* Market place */}
+      {/* What do you want to show though this quest? Some story element or game play? */}
       {/* Quest */}
       <Quest
         rating="rare"
@@ -1444,6 +1445,10 @@ export const SeaPeople = {
     <Content style={{ overflowWrap: "anywhere" }}>
       <p>Going South</p>
       {/* Give the blood bottle to Sarah */}
+      {/* In the south you join the war and find Alden people. See the side of the war from the republic. */}
+      {/* The purpose of joining as mercenaries, but working with the vampires to carve out a piece of land to rule */}
+      {/* switching sides during the conquest to keep land? */}
+      {/* Contact with Effie */}
       <Shine>I LOVE YOU TSUMA!</Shine>
     </Content>
   ),

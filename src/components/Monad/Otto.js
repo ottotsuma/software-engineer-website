@@ -97,3 +97,5 @@ export default function Otto() {
     </div>
   );
 }
+
+// Academy, border guard, monster hunters, fugitive, leikan prince, farmer, war lord? Flees the sea people invasion turns south, find the bird people, fight eleven pirates, sail to the old world. Or use the under ground road...
