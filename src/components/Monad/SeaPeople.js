@@ -1424,8 +1424,8 @@ export const SeaPeople = {
       <Quest
         rating="rare"
         rewards={"Miasma reduction OR Blood Bottle."}
-        name=""
-        details="You could just steal the bottle."
+        name="Possible Cure!"
+        details="Anna's husband recently died from a curse going around the republic, the government are pressed on two fronts with environmental disasters cropping up. Her husband was working on a possible cure before his death and left behind his notes & a blood bottle. Deliver these to his co-worker who travels though the city walls every day for work. Or you could just steal the bottle, and use his notes as toilet paper."
       />
       <div className="pop">
         Blood Bottle
