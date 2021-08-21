@@ -1449,6 +1449,7 @@ export const SeaPeople = {
       {/* The purpose of joining as mercenaries, but working with the vampires to carve out a piece of land to rule */}
       {/* switching sides during the conquest to keep land? */}
       {/* Contact with Effie */}
+      {/* The lands are re-conquered during the sea peoples invasion, turning it into the guild territory, before the expansion to the west. Some of the Aldenese hide in this guild. */}
       <Shine>I LOVE YOU TSUMA!</Shine>
     </Content>
   ),
