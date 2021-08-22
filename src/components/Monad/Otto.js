@@ -16,8 +16,8 @@ export default function Otto() {
           spells: 8,
           passives: 32,
           titles: 5,
-          "spell points": 0,
-          "stat points": 0,
+          "spell points": 0, // from class
+          "stat points": 0, // from race
           vitality: 1,
           strength: 1, // 1 from title
           endurance: 0,
