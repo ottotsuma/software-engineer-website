@@ -34,12 +34,13 @@ import Chapter31 from "./Ch31-Flowers";
 import Chapter32 from "./Ch32-Survival";
 import Chapter33 from "./Ch33-BackToSchool";
 import Chapter34 from "./Ch34-Duel";
+import Chapter35 from "./Ch35-Fight";
+import Chapter36 from "./Ch36-Farm";
 import SpellsPage from "./SpellsPage";
 import Otto from "./Otto";
 import SeaPeopleFunction from "./SeaPeople";
 import Vampire from "./Vampire";
 import styled from "styled-components";
-import { LensOutlined } from "@material-ui/icons";
 
 const Buttons = styled.button`
   background: none;
@@ -105,6 +106,8 @@ const ChapterList = [
   <Chapter32 Chapter={"Survival"} />,
   <Chapter33 Chapter={"BackToSchool"} />,
   <Chapter34 Chapter={"Duel"} />,
+  <Chapter35 Chapter={"Fight!"} />,
+  <Chapter36 Chapter={"Farm!?"} />,
   <Otto />,
   <SeaPeopleFunction Chapter={0} />,
   <SeaPeopleFunction Chapter={1} />,
