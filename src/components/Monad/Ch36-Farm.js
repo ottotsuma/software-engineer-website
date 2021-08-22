@@ -10,7 +10,10 @@ return (
     {/* Living in the farm */}
     {/* Last of the morons */}
     {/* it's love! ... No it's not */}
-    {/* off to fight in the war */}
+    {/* Strange class */}
+    {/* Nobles argue */}
+    {/* Leikans leave */}
+    {/* Off to fight in the war */}
     <p></p>
 </Content>
 );
