@@ -1423,7 +1423,13 @@ export const SeaPeople = {
         ground with items place atop it and people shouting out about their
         wears.
       </p>
-      {/* Market place */}
+      <p>
+        I knew I was going to find something to do here, maybe a fetch quest or delivering something. It was just kind of a trope of RPG games now that there would be some low level mundane quest that had no impact on anything to pick up easy experience or in this case to get rid of the effects of Miasma.
+      </p>
+      <p>
+        "Diese Notizen müssen so schnell wie möglich geliefert." 
+      </p>
+      <p>Geliefert. Deliver. My basic game logic did not let me down! I quickly went over to an old lady talking to a man in his early 20's sitting at a wooden table with papers all around it and in bags by the side of him. He had guards specifically for him on either side, but I was not here to rob him.</p>
       {/* Disease */}
       {/* Quest */}
       <Quest
