@@ -1429,7 +1429,10 @@ export const SeaPeople = {
       <p>
         "Diese Notizen müssen so schnell wie möglich geliefert." 
       </p>
-      <p>Geliefert. Deliver. My basic game logic did not let me down! I quickly went over to an old lady talking to a man in his early 20's sitting at a wooden table with papers all around it and in bags by the side of him. He had guards specifically for him on either side, but I was not here to rob him.</p>
+      <p>Geliefert. Deliver. My basic game logic did not let me down! I quickly went over to an old lady talking to a man in his early 20's sitting at a wooden table with papers all around it and in bags by the side of him. He had guards specifically for him on either side, but I was not here to rob him. No, I wanted to work for him!</p>
+      <p>
+        I had injected my self into their conversation with my terrible German and they had looked at me like some kind of alien until I showed them my ID card. 
+      </p>
       {/* Disease */}
       {/* Quest */}
       <Quest
