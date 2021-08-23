@@ -1416,7 +1416,12 @@ export const SeaPeople = {
         course have little interest in helping you get captured...
       </p>
       <p>
-        
+        I had gone with the flow for awhile, the streets slowly became wider
+        until I found myself walking down what must of been the main street of
+        the city into a market area. It was not unlike other markets I had been
+        in the game in the past. There were stalls made of wood, cloth on the
+        ground with items place atop it and people shouting out about their
+        wears.
       </p>
       {/* Market place */}
       {/* Disease */}
