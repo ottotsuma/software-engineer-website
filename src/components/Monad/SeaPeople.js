@@ -1459,7 +1459,10 @@ export const SeaPeople = {
         Blood Bottle
         <img className="popOut" src={Blood} alt="Blood Bottle" />
       </div>
-      <p>The bottle they had handed me was rather interesting, but a little creepy. A bottle with a human heart inside sitting in some red liquid.</p>
+      <p>
+        The bottle they had handed me was rather interesting, but a little
+        creepy. A bottle with a human heart inside sitting in some red liquid.
+      </p>
       {/* Bottle as reward */}
     </Content>
   ),
