@@ -310,6 +310,11 @@ ul {
   overflow-y: scroll;
   height: 50vh;
 }
+@media screen and (max-width: 650px) {
+  .dropdown-content {
+    right: 10%;
+  }
+}
 
 /* Links inside the dropdown */
 .dropdown-content-a {

@@ -50,8 +50,7 @@ left: 20%;
 top: 80%;
 
 @media screen and (max-width: 730px) {
-  top: 0%;
-  left: 80%;
+  display: none;
 }
 `;
 
