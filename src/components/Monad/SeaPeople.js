@@ -1463,6 +1463,24 @@ export const SeaPeople = {
         The bottle they had handed me was rather interesting, but a little
         creepy. A bottle with a human heart inside sitting in some red liquid.
       </p>
+      <p>
+        An ever beating heart. As long as the heart stays within the enchanted
+        bottle it will continue to beat and produce human blood.
+      </p>
+      <p>
+        What a strange description, I guess they need the heart to experiment
+        on. I wonder if the vampires invented this, seems like it would be real
+        useful to them. That creepy guy from the alley sure looked like he was
+        dead. The quests rewards are reduction in Miasma which is what I wanted,
+        or keep the bottle? What the hell for...
+      </p>
+      <p>
+        It seemed like this was gonna be an easy power up for me but kind of
+        annoying since I didn't know what time this guy would be coming though
+        the gates after work. I could be waiting there for 5 minutes or a few
+        hours. Whatever I'll go to the gate but if he is not out by midnight
+        I'll just come back one day and hand the quest in right?
+      </p>
       {/* Bottle as reward */}
     </Content>
   ),
