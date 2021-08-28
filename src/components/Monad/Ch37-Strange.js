@@ -3,7 +3,7 @@ import { Content } from "./styles"
 function Intro(props) {
 return (
 <Content>
-    <h4>Farm!?</h4>
+    <h4>Odd balls</h4>
     {/* Strange class */}
     {/* Nobles argue */}
     {/* Leikans leave */}

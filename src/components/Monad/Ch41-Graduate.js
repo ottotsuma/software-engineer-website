@@ -3,9 +3,7 @@ import { Content } from "./styles"
 function Intro(props) {
 return (
 <Content>
-    <h4>Leaving</h4>
-    {/* Leikans leave */}
-    {/* Off to fight in the war */}
+    <h4>Elite 4</h4>
 </Content>
 );
 }
