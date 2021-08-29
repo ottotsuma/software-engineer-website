@@ -12,3 +12,4 @@ return (
 );
 }
 export default Intro;
+// Obsidian is the royals resource 
