@@ -1357,9 +1357,9 @@ export const SeaPeople = {
       <p>
         Each expansion to the game so far had featured native or even forgotten
         languages of the regions it took inspiration from. Africa, Asia, Middle
-        East, Europe. This time people expected the americas to be the setting
+        East, Europe. This time people expected the Americas to be the setting
         for the expansion but I guess since the languages are lost it was hard
-        for them to include them. This is not a bad method, since it allows
+        for them to do the Americas. This is not a bad method, since it allows
         their players to find a language they can use or want to learn. But also
         why some people chose to come later once English was in wider use.
       </p>
@@ -1486,7 +1486,44 @@ export const SeaPeople = {
   ),
   8: (
     <Content style={{ overflowWrap: "anywhere" }}>
-      <p>Night Fall</p>
+      {/* <h4>Night Fall</h4> */}
+      <p>
+        I had found the entrance to the upper city easily. The giant builds
+        acted as extinguished lighthouses. I made it to the wall without any
+        real problems but as described it was guarded and I would have to wait
+        on this side for Erich to pass by.
+      </p>
+      <p>
+        The normal thing to do at this point would be to ask the guards what
+        time to expect Erich, the only problem was my poor German. I might end
+        up saying something else. Like a true veteran of RPG's I knew just what
+        to do in the mean time. I found a pub overlooking the entrance.
+      </p>
+      <p>
+        Well I thought it was a pub. Tomato Juice, Guava Juice, Pumpkin Juice &
+        Chicha. Juice is healthy but this is my free time so I ordered Chicha.
+        It was super quiet inside, everyone was just sitting around not talking,
+        I thought It would of been more ... Alive. When my drink came it looked
+        like something you would give to a vampire, maybe that is why the mood
+        is dead. I picked it up and looked down at the red-purple liquid and
+        sipped it gently. Huh, not super sweet but quite nice taste. Kind of
+        mellow fruit taste at first then a nutty after taste.
+      </p>
+      <p>
+        A little boy with dark skin, dark eyes, straight black hair and a long
+        sloping forehead. "Bist du ein Vampir?"
+      </p>
+      <p>
+        What the hell did this kid just ask me? Am I a Vampire!? Ah I really
+        ordered the wrong drink. The horrified farther quickly come to get the
+        child although he looked nothing like the son having dusty brown hair
+        and a stout figure. I tried to explain I was not a Vampire I just did
+        not know what to order, it was my first time here. Although I got no
+        reply, from anyone.
+      </p>
+      <p>
+        
+      </p>
       {/* Quest  continues */}
       {/* Get bottle  */}
     </Content>
