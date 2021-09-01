@@ -161,7 +161,7 @@ export default function Monad(params) {
         document.querySelector("article").textContent
       );
       SpeechSynthesisUtterance.lang = 'en-GR';
-      SpeechSynthesisUtterance.rate = 0.8;
+      SpeechSynthesisUtterance.rate = 0.7;
       console.log(synth.getVoices())
       utterance.voice = synth.getVoices()[synth.getVoices().map(function(e) { return e.lang; }).indexOf('en-GB')];
 
