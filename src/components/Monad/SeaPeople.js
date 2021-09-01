@@ -1528,7 +1528,24 @@ export const SeaPeople = {
         it come to a point where I felt awkward by a group of NPC's.
       </p>
       <p>
-        I ended up standing at the bar drinking by myself, the chatter in the place soon picked up again after awhile but still felt a little awkward. 
+        I ended up standing at the bar drinking by myself, the chatter in the
+        place soon picked up again after awhile but still felt a little awkward.
+        Curiosity got the better of me and I had to ask the bar tender why they
+        served a drink that makes people mistake you for a vampire? The reply I
+        got was, unexpected.
+      </p>
+      <p>
+        He told me my burnt skin and pointed ears made him assume I was a
+        vampiric elf. I had to ask if he had ever even seen a vampire before,
+        which of course he hadn't. It was interesting they knew of elves but
+        called my skin 'burnt'. From the map Sarah had shown me there was a
+        desert taking up most of the south past some mountains, if there are
+        elves about maybe there are dark elves in the desert. The second thing
+        was that they knew vampires existed in this town but had never seen one,
+        I guess there must of been victims. Well if they are just staring and
+        making assumptions of me because my skin is darker then theirs thats not
+        great but a step up from them thinking I am a blood drinking psychopath.
+        Speaking of I must ask Sarah if non NPC vampires get blood lust.
       </p>
       {/* Quest  continues */}
       {/* Get bottle  */}
