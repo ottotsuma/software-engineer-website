@@ -1522,7 +1522,13 @@ export const SeaPeople = {
         reply, from anyone.
       </p>
       <p>
-
+        I wanted to get out of here to be honest, the whole thing was super
+        awkward. I had brought a drink and it was interesting. If I left now I
+        would just have to wait outside for Erich, so I decided to stay, how did
+        it come to a point where I felt awkward by a group of NPC's.
+      </p>
+      <p>
+        
       </p>
       {/* Quest  continues */}
       {/* Get bottle  */}
