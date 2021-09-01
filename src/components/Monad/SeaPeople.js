@@ -1488,7 +1488,7 @@ export const SeaPeople = {
     <Content style={{ overflowWrap: "anywhere" }}>
       {/* <h4>Night Fall</h4> */}
       <p>
-        I had found the entrance to the upper city easily. The giant builds
+        I had found the entrance to the upper city easily. The giant buildings
         acted as extinguished lighthouses. I made it to the wall without any
         real problems but as described it was guarded and I would have to wait
         on this side for Erich to pass by.
@@ -1506,7 +1506,7 @@ export const SeaPeople = {
         I thought It would of been more ... Alive. When my drink came it looked
         like something you would give to a vampire, maybe that is why the mood
         is dead. I picked it up and looked down at the red-purple liquid and
-        sipped it gently. Huh, not super sweet but quite nice taste. Kind of
+        sipped it gently. Huh, not super sweet but quite a nice taste. Kind of
         mellow fruit taste at first then a nutty after taste.
       </p>
       <p>
@@ -1515,14 +1515,14 @@ export const SeaPeople = {
       </p>
       <p>
         What the hell did this kid just ask me? Am I a Vampire!? Ah I really
-        ordered the wrong drink. The horrified farther quickly come to get the
-        child although he looked nothing like the son having dusty brown hair
+        ordered the wrong drink. The horrified farther quickly came to get the
+        child, although he looked nothing like the son having dusty brown hair
         and a stout figure. I tried to explain I was not a Vampire I just did
         not know what to order, it was my first time here. Although I got no
         reply, from anyone.
       </p>
       <p>
-        
+
       </p>
       {/* Quest  continues */}
       {/* Get bottle  */}
