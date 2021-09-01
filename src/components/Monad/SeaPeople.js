@@ -1528,7 +1528,7 @@ export const SeaPeople = {
         it come to a point where I felt awkward by a group of NPC's.
       </p>
       <p>
-        
+        I ended up standing at the bar drinking by myself, the chatter in the place soon picked up again after awhile but still felt a little awkward. 
       </p>
       {/* Quest  continues */}
       {/* Get bottle  */}
