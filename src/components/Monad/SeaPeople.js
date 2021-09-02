@@ -1547,6 +1547,29 @@ export const SeaPeople = {
         great but a step up from them thinking I am a blood drinking psychopath.
         Speaking of I must ask Sarah if non NPC vampires get blood lust.
       </p>
+      <p>
+        During out chat a man came though the door and started shouting about
+        "elves". It was obviously directed at me. The owner however did not want
+        someone causing a fuss in his business and two large thuggish looking
+        brutes came out holding wooden batons with metal studs and spikes coming
+        out of them. The whole thing escalated and died down so fast my heart
+        was still racing getting ready to run when ... Nothing happened. What
+        the hell?
+      </p>
+      <p>
+        The guy pointed his finger directly at me and said he hated all elves.
+        Even if I had been burnt and cursed by the Gods I was still an elf. The
+        hero in stories is always cool, calm and relaxed laughing off a morons
+        threats. I am clearly no hero because I remember how long it took to get
+        to this place and already I am facing death threats, I only wanted a
+        drink! I flipped.
+      </p>
+      <p>
+        I screamed at him about how I am not a bloody wood elf, I was a dark
+        elf. We hated the wood elves more then any other race! Thanks to my less
+        then stellar German, the introduction of a race he had never heard of
+        and my fits of rage he barely understood any of it.
+      </p>
       {/* Quest  continues */}
       {/* Get bottle  */}
     </Content>
