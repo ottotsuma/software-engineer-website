@@ -1570,6 +1570,13 @@ export const SeaPeople = {
         then stellar German, the introduction of a race he had never heard of
         and my fits of rage he barely understood any of it.
       </p>
+      <p>
+        You know what? Screw this Erich and his people. Someone else can help
+        him with a cure for this disease. I left the notes on the table and
+        asked the owner to pass them to Erich Traub if he knew the man. Someone
+        else might clear this quest in the future it was not worth it. I walked
+        passed everyone in the pub and made my way outside.
+      </p>
       {/* Quest  continues */}
       {/* Get bottle  */}
     </Content>
