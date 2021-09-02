@@ -1577,6 +1577,9 @@ export const SeaPeople = {
         else might clear this quest in the future it was not worth it. I walked
         passed everyone in the pub and made my way outside.
       </p>
+      <p>
+        
+      </p>
       {/* Quest  continues */}
       {/* Get bottle  */}
     </Content>
