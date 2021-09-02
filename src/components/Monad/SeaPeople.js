@@ -1578,7 +1578,30 @@ export const SeaPeople = {
         passed everyone in the pub and made my way outside.
       </p>
       <p>
-        
+        I did not make it far before some guards stopped me and said that I must
+        be the vampire they where looking for. What the hell is wrong with this
+        town!? That was my thought when the inevitable pop up box appeared.
+      </p>
+      <p>
+        Go to jail. Resist arrest. Persuade. That last one should of just been
+        renamed to bribe at this point but I could not afford any kind of bribe.
+        Resisting arrest would be a short lived joke. I Guess I am going to jail
+        for being a vampire...
+      </p>
+      <p>
+        All of my items where in my inventory. In the old world they would of
+        taken it all after you reached the holding cell but I guess here they
+        are not use to players yet and after looking at my ID and saw I was a
+        poor servant with nothing of interest. Luckily they did say they would
+        contact my master but I never really did look too closely at that ID, so
+        I had no idea who that was.
+      </p>
+      <p>
+        The holding area was not some massive building or well guarded, isolated
+        encampment. It looked like all the other towers around and the holding
+        cells were just inside with only room for 3. Just outside was were the
+        two guards stayed while people came in asking for help. I guess they are
+        not taking this vampire thing seriously?
       </p>
       {/* Quest  continues */}
       {/* Get bottle  */}
