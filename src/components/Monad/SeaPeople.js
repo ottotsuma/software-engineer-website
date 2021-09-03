@@ -1604,7 +1604,15 @@ export const SeaPeople = {
         not taking this vampire thing seriously?
       </p>
       <p>
-        I had not had to walk far, just down the street from the pub, I could still see the entrance to the walled off part of the city if I was just in the room with the guards. 
+        I had not had to walk far, just down the street from the pub, I could
+        still see the entrance to the walled off part of the city if I was just
+        in the room with the guards. I know it had been hours since I last spoke
+        to Sarah and Josh this morning, it was becoming afternoon already. I had
+        spent a long time chatting in the pub to the owner, it did take me
+        awhile to get across what I was trying to say in my third language. I
+        was tired. The last time I had rested was inside a rock cave with Sarah
+        when we landed, so I just though I'd rest in the cell a little while,
+        and I fell asleep.
       </p>
       {/* Quest  continues */}
       {/* Get bottle  */}
