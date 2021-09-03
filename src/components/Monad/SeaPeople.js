@@ -1614,8 +1614,7 @@ export const SeaPeople = {
         when we landed, so I just though I'd rest in the cell a little while,
         and I fell asleep.
       </p>
-      {/* Quest  continues */}
-      {/* Get bottle  */}
+      <div className="BreakPoint"></div>
     </Content>
   ),
   9: (
