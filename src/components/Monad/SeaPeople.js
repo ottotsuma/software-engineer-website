@@ -1603,6 +1603,9 @@ export const SeaPeople = {
         two guards stayed while people came in asking for help. I guess they are
         not taking this vampire thing seriously?
       </p>
+      <p>
+        I had not had to walk far, just down the street from the pub, I could still see the entrance to the walled off part of the city if I was just in the room with the guards. 
+      </p>
       {/* Quest  continues */}
       {/* Get bottle  */}
     </Content>
