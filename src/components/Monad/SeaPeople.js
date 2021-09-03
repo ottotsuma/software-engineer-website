@@ -1490,7 +1490,7 @@ export const SeaPeople = {
       <p>
         I had found the entrance to the upper city easily. The giant buildings
         acted as extinguished lighthouses. I made it to the wall without any
-        real problems but as described it was guarded and I would have to wait
+        real problems but as described, it was guarded and I would have to wait
         on this side for Erich to pass by.
       </p>
       <p>
@@ -1500,7 +1500,7 @@ export const SeaPeople = {
         to do in the mean time. I found a pub overlooking the entrance.
       </p>
       <p>
-        Well I thought it was a pub. Tomato Juice, Guava Juice, Pumpkin Juice &
+        Well, I thought it was a pub. Tomato Juice, Guava Juice, Pumpkin Juice &
         Chicha. Juice is healthy but this is my free time so I ordered Chicha.
         It was super quiet inside, everyone was just sitting around not talking,
         I thought It would of been more ... Alive. When my drink came it looked
@@ -1511,7 +1511,7 @@ export const SeaPeople = {
       </p>
       <p>
         A little boy with dark skin, dark eyes, straight black hair and a long
-        sloping forehead. "Bist du ein Vampir?"
+        sloping forehead asked. "Bist du ein Vampir?"
       </p>
       <p>
         What the hell did this kid just ask me? Am I a Vampire!? Ah I really
@@ -1523,7 +1523,7 @@ export const SeaPeople = {
       </p>
       <p>
         I wanted to get out of here to be honest, the whole thing was super
-        awkward. I had brought a drink and it was interesting. If I left now I
+        awkward. However I had brought a drink and it was interesting. If I left now I
         would just have to wait outside for Erich, so I decided to stay, how did
         it come to a point where I felt awkward by a group of NPC's.
       </p>
