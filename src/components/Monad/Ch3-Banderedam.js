@@ -26,7 +26,7 @@ function Banderedam(props) {
             <img
               className="popOut"
               height="400px"
-              src="https://ottotsuma.github.io/images/sergei-panin-04.jpg"
+              src="https://ottotsuma.github.io/images/places/sergei-panin-04.jpg"
               alt="Banderedam"
             />
           </div>
@@ -72,7 +72,7 @@ function Banderedam(props) {
             }} 
             name={'Soul bound wand'}
             effect='¤3,200,000'
-            src={'https://ottotsuma.github.io/images/wand1.png'}
+            src={'https://ottotsuma.github.io/images/items/wand1.png'}
             />
 
           {/* <!-- Currency 
@@ -203,7 +203,7 @@ Charlemagne in 794 decreed that a single silver penny (weighing 1.7 grams) shoul
             <img
               className="popOut"
               height="400px"
-              src="https://ottotsuma.github.io/images/F%C5%91zel%C3%A9k.jpg"
+              src="https://ottotsuma.github.io/images/misc/F%C5%91zel%C3%A9k.jpg"
               alt="Főzelék"
             />
           </div>

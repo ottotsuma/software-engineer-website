@@ -87,7 +87,7 @@ function Intro(props) {
             Landmark
             <img
               className="popOut"
-              src="https://ottotsuma.github.io/images/inca2.png"
+              src="https://ottotsuma.github.io/images/places/inca2.png"
               height="400px"
               alt="Pyramid"
             />

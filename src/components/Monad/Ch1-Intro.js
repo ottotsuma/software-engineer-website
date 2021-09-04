@@ -19,7 +19,7 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             {/* http://www.mesoweb.com/resources/vocabulary/English-Maya.html */}
             <img
               className="popOut"
-              src="https://ottotsuma.github.io/images/Charia%20Jun17%2013-14%20(1).jpeg"
+              src="https://ottotsuma.github.io/images/places/Charia%20Jun17%2013-14%20(1).jpeg"
               height="400px"
               alt="MapOfMonad"
             />
@@ -488,7 +488,7 @@ most people learn inspect but either see
             Young-Kappa
             <img
               className="popOut"
-              src="https://ottotsuma.github.io/images/Kappa.png"
+              src="https://ottotsuma.github.io/images/monsters/Kappa.png"
               alt="Kappa"
             />
           </div>

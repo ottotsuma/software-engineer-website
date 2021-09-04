@@ -413,7 +413,7 @@ function Book() {
               }}
               name={"Human"}
               effect="Can use all simple tools and weapons."
-              src={`https://ottotsuma.github.io/images/jane.png`}
+              src={`https://ottotsuma.github.io/images/people/jane.png`}
             />,
             <Item
               rating="epic"
@@ -424,7 +424,7 @@ function Book() {
               }}
               name={"Goblin"}
               effect="Generate less agro from monsters."
-              src={`https://github.com/ottotsuma/ottotsuma.github.io/blob/master/images/goblin.jpg?raw=true`}
+              src={`https://ottotsuma.github.io/images/people/goblin.jpg`}
             />,
             <Item
               rating="normal"
@@ -434,7 +434,7 @@ function Book() {
               }}
               name={"Dwarf"}
               effect="Small resistance to spell effects, but lower success with spells."
-              src={`https://ottotsuma.github.io/images/dwarf.jpg`}
+              src={`https://ottotsuma.github.io/images/people/dwarf.jpg`}
             />,
             <Item
               rating="normal"
@@ -444,7 +444,7 @@ function Book() {
               }}
               name={"Orc"}
               effect="Small health regen when in combat."
-              src={`https://ottotsuma.github.io/images/orc.jpg`}
+              src={`https://ottotsuma.github.io/images/people/orc.jpg`}
             />,
             <Item
               rating="epic"
@@ -455,7 +455,7 @@ function Book() {
               }}
               name={"Kitsune"}
               effect="Enchanting spells are more likely to succeed."
-              src={`https://ottotsuma.github.io/images/kitsune.jpg`}
+              src={`https://ottotsuma.github.io/images/people/kitsune.jpg`}
             />,
             <Item
               rating="rare"
@@ -468,7 +468,7 @@ function Book() {
               }}
               name={"Vampire"}
               effect="Blood magic is always unlocked."
-              src={`https://ottotsuma.github.io/images/vampire.jpg`}
+              src={`https://ottotsuma.github.io/images/people/vampire.jpg`}
             />,
             <Item
               rating="normal"
@@ -478,7 +478,7 @@ function Book() {
               }}
               name={"Gnoll"}
               effect="Can gain access to skills early from their Demon Lord"
-              src={`https://ottotsuma.github.io/images/gnoll.jpg`}
+              src={`https://ottotsuma.github.io/images/people/gnoll.jpg`}
             />,
             <Item
               rating="epic"
@@ -488,7 +488,7 @@ function Book() {
               }}
               name={"Thri-kreen"}
               effect="no dual wielding reduction."
-              src={`https://ottotsuma.github.io/images/thri-kreen.jpg`}
+              src={`https://ottotsuma.github.io/images/people/thri-kreen.jpg`}
             />,
             <Item
               rating="epic"
@@ -499,7 +499,7 @@ function Book() {
               }}
               name={"Troglodytes"}
               effect="Can produce poison with their bodies."
-              src={`https://ottotsuma.github.io/images/troglodytes.png`}
+              src={`https://ottotsuma.github.io/images/people/troglodytes.png`}
             />,
           ]}
         />

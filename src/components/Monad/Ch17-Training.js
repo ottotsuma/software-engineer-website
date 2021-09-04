@@ -24,7 +24,7 @@ function Intro(props) {
             Centaur
             <img
               className="popOut"
-              src="https://ottotsuma.github.io/images/centaur.jpg"
+              src="https://ottotsuma.github.io/images/monsters/centaur.jpg"
               height="400px"
               alt="centaur"
             />

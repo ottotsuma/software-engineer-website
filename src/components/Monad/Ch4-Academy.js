@@ -61,7 +61,7 @@ function Academy(props) {
             <img
               className="popOut"
               height="400px"
-              src="https://ottotsuma.github.io/images/academy7.jpg"
+              src="https://ottotsuma.github.io/images/places/academy7.jpg"
               alt="Academy"
             />
           </div>

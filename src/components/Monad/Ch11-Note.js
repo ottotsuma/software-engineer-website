@@ -83,7 +83,7 @@ function Intro(props) {
             Room
             <img
               className="popOut"
-              src="https://ottotsuma.github.io/images/wizroom.jpg"
+              src="https://ottotsuma.github.io/images/places/wizroom.jpg"
               height="400px"
               alt="Room"
             />

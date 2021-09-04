@@ -22,7 +22,7 @@ function Intro(props) {
             Shrine
             <img
               className="popOut"
-              src="https://ottotsuma.github.io/images/shrine.jpg"
+              src="https://ottotsuma.github.io/images/places/shrine.jpg"
               height="400px"
               alt="Shrine"
             />
