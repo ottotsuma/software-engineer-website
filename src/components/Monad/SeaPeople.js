@@ -1672,6 +1672,30 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         given his approval and we were off on his behalf to pick up Noah the
         dark elf.
       </p>
+      <p>
+        During my stay they had given me local clothing to wear. I picked out a
+        bright light red dress with various patterns woven in the fabric. Little
+        yellow diamond shapes dotted across the chest and white lines running
+        down the sleeves. While it was not my usual choice since I was suppose
+        to be a noble from the far west of the republic I had to look the part.
+      </p>
+      <p>
+        "You said they had no idea what vampires really were. Have they not seen
+        vampires before? Where I came from it was impossible to keep the public
+        from finding out. How have you managed to stay hidden? I mean master is
+        hardly, discreet with his appearance." I quested as we walked down to
+        our carriage.
+      </p>
+      <p>
+        Kiksotz held out his hand and helped me into the open topped carriage.
+        "Because before your kind came from the sea, sorry the land beyond.
+        There were no concept of vampires here, master and myself were just
+        considered as denizens of Xibalba. To add to that it is only recently we
+        have walked amongst humans, after all we use to live in Xibalba." When
+        he finished speaking he had climbed into the carriage with me and it
+        took off with a jolt.
+      </p>
+      <p></p>
       {/* Sarah and vampire guy comes to get him, take him back. Meet vampires. */}
     </Content>
   ),
