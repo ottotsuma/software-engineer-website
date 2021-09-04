@@ -1523,9 +1523,9 @@ export const SeaPeople = {
       </p>
       <p>
         I wanted to get out of here to be honest, the whole thing was super
-        awkward. However I had brought a drink and it was interesting. If I left now I
-        would just have to wait outside for Erich, so I decided to stay, how did
-        it come to a point where I felt awkward by a group of NPC's.
+        awkward. However I had brought a drink and it was interesting. If I left
+        now I would just have to wait outside for Erich, so I decided to stay,
+        how did it come to a point where I felt awkward by a group of NPC's.
       </p>
       <p>
         I ended up standing at the bar drinking by myself, the chatter in the
@@ -1615,6 +1615,44 @@ export const SeaPeople = {
         and I fell asleep.
       </p>
       <div className="BreakPoint"></div>
+      <p>
+        "Sarah. It would seem your acquaintance has been found out as a vampire.
+        I have a request here from the cities guards for master to come and take
+        responsibility him. You told me he was not a vampire." The tall pale man
+        accused with a little joy a to his tone.
+      </p>
+      <p>
+        "He is obviously not a vampire. You met him yourself this morning. It's
+        obviously because he looks so different. You said it yourself ****, he
+        was interesting." I shot back.
+      </p>
+      <p>
+        "Alright. I knew this would be a possibility. I really did expect him to
+        be able to walk the city for a day without this kind of thing happening
+        but I was proven wrong. Maybe it was his elf, characteristics that
+        pushed it over the edge." **** muttered.
+      </p>
+      <p>
+        "If you're done experimenting with my colleague. I do need him back for
+        tonight, we are heading south as agreed. With him." I said staring right
+        at his eyes.
+      </p>
+      <p>
+        "Alright, alright. No need to get so... Mmm. We just have to prove he is
+        not a vampire and we can take him away." **** replied dismissing the
+        whole thing as trivial.
+      </p>
+      <p>
+        "And you won't be detained as a vampire?" I questioned with my eye brow
+        held up.
+      </p>
+      <p>
+        "These, people. Have no idea what vampires really are." He replied
+        calmly. "I'll inform master and we will set off intermediately to get
+        him. As interesting as your, colleague, is. I do not want to delay
+        masters plans. You must go south tonight." He replied and turned to
+        leave to the large black double doors to his right.
+      </p>
       {/* Sarah and vampire guy comes to get him, take him back. Meet vampires. */}
     </Content>
   ),
