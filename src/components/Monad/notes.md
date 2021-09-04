@@ -304,6 +304,8 @@ this is Tisiel" A girl imperial name,(huonoia)
 Reingard". boy - alden
 
 Charter sheets -
+<li> - Kiksotz, Blood bat, vampire of the new world: Monh
+<li> - Camazotz, Death Bat, Vampire god of the new world. 
 <li>Farald - expert professor on why students hp stops at 10hp in duels.
 <li>Vasso of house Elzach. Tall boy with stylish blonde hair, deep blue eyes, strong, jaw and a large nose. (Rapist who gets away with it.)
 <li>Vortigern - Magic item, use to be an immortal and part of the middle party during the end times of their era. Think 'yes minster' when writing his dialog.
@@ -552,6 +554,19 @@ Dwarves - Weak with magic, not much food or water, low population, strong melee 
 Desert (Monsters) - They are monsters. It's hard to say.
 
 \*/}
+
+# Myths
+https://www.worldhistory.org/article/415/the-mayan-pantheon-the-many-gods-of-the-maya/
+Camazotz
+The bat god of Xibalba who feeds on blood. In the Popol Vuh he tears off the head of one of the Hero Twins, Hun Hunahpu, who is then revived by his brother. Camazotz was then defeated and cast out of creation.
+
+Cuchumaquic
+A lord of Xibalba whose name means `Blood Gatherer'. He is the father of the goddess Xquic and grandfather of the Hero Twins, Hunahpu and Xbalanque.
+
+Mitnal
+Also known as `Metnal' , this is the Quiche Maya word for the Underworld and corresponds with the Yucatec Maya vision known as Xibalba. According to the Popl Vuh, Mitnal was a dark land flowing with rivers of blood and pus and populated by deities with names such as Bloody Teeth, Bloody Claws, and Flying Scab, among others.
+
+
 
 # Random Ideas:
 

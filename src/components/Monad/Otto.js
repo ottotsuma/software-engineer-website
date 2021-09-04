@@ -101,3 +101,13 @@ export default function Otto() {
 // Academy, border guard, monster hunters, fugitive, leikan prince, farmer, war lord? Flees the sea people invasion turns south, find the bird people, fight eleven pirates, sail to the old world. Or use the under ground road...
 
 // The invasion of earth starts 
+
+// Kʼawiil Notes:
+// This court is the body of an immortal the maya gods killed and lived in after.
+// Xibalba is described in the Popol Vuh as a court below the surface of the Earth associated with death and with twelve gods or powerful rulers known as the Lords of Xibalba. 
+
+// Chaac *L*
+// The god of storms and rain, enemy of Camazotz and wields a lightning axe.
+
+// Camazotz *PV*
+// A bat and death god.

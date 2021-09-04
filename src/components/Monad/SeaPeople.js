@@ -1615,6 +1615,12 @@ export const SeaPeople = {
         and I fell asleep.
       </p>
       <div className="BreakPoint"></div>
+      {/* Master = Camazotz, cast out from creation
+      
+      Chaac *L*
+The god of storms and rain, enemy of Camazotz and wields a lightning axe.
+
+*/}
       <p>
         "Sarah. It would seem your acquaintance has been found out as a vampire.
         I have a request here from the cities guards for master to come and take
@@ -1623,14 +1629,14 @@ export const SeaPeople = {
       </p>
       <p>
         "He is obviously not a vampire. You met him yourself this morning. It's
-        obviously because he looks so different. You said it yourself ****, he
+        obviously because he looks so different. You said it yourself Kiksotz, he
         was interesting." I shot back.
       </p>
       <p>
         "Alright. I knew this would be a possibility. I really did expect him to
         be able to walk the city for a day without this kind of thing happening
         but I was proven wrong. Maybe it was his elf, characteristics that
-        pushed it over the edge." **** muttered.
+        pushed it over the edge." Kiksotz muttered.
       </p>
       <p>
         "If you're done experimenting with my colleague. I do need him back for
@@ -1639,7 +1645,7 @@ export const SeaPeople = {
       </p>
       <p>
         "Alright, alright. No need to get so... Mmm. We just have to prove he is
-        not a vampire and we can take him away." **** replied dismissing the
+        not a vampire and we can take him away." Kiksotz replied dismissing the
         whole thing as trivial.
       </p>
       <p>
