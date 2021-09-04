@@ -351,7 +351,7 @@ Example: Name, race, class(), level, equipment, backstory(Main island,
 other dlc before? ), clan/guild, reason for coming. PET(level)
 </li>
 <li>
-Boy: Name, Dark Elf?, class(Rogue[]), 37, [Normal/Rare, mostly from
+Boy: Name, Noah. Dark Elf?, class(Rogue[]), 37, [Normal/Rare, mostly from
 the main quests], (From the main island, recently started playing, no
 dlc), none, saw the adverts for coming and wanted to try. None(0)
 </li>

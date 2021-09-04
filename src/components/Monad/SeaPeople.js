@@ -1629,8 +1629,8 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
       </p>
       <p>
         "He is obviously not a vampire. You met him yourself this morning. It's
-        obviously because he looks so different. You said it yourself Kiksotz, he
-        was interesting." I shot back.
+        obviously because he looks so different. You said it yourself Kiksotz,
+        he was interesting." I shot back.
       </p>
       <p>
         "Alright. I knew this would be a possibility. I really did expect him to
@@ -1658,6 +1658,19 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         him. As interesting as your, colleague, is. I do not want to delay
         masters plans. You must go south tonight." He replied and turned to
         leave to the large black double doors to his right.
+      </p>
+      <p>
+        I waited for him before heading to the entrance of the manor we were in.
+        I assume we would not be using the underground tunnels leading to the
+        various safe houses across the city. I waited for Kiksotz to finish
+        conversing with his master. We had met before, but with the miasma
+        effecting me I could not tell what level his master was, just that he
+        saw me as weak.
+      </p>
+      <p>
+        Once Kiksotz had come back up he nodded to me to show his master had
+        given his approval and we were off on his behalf to pick up Noah the
+        dark elf.
       </p>
       {/* Sarah and vampire guy comes to get him, take him back. Meet vampires. */}
     </Content>
