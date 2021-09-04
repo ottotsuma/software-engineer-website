@@ -2477,6 +2477,16 @@ export const spellList = {
     passive: false,
     1: "The blood mage forcibly controls the target’s blood, making the target an ally of the caster. If the target resists, it still takes great damage from the manipulation of its blood. Creatures without blood are immune.",
   },
+  "Blood Dominion": {
+    name: "Blood Dominion",
+    passive: false,
+    1: ".",
+  },
+  "Blood Domination": {
+    name: "Blood Domination",
+    passive: false,
+    1: ".",
+  },
   "Vampire Eyes": {
     name: "Vampire Eyes",
     passive: true,
@@ -2699,6 +2709,11 @@ export const spellList = {
     name: "Blood Mist",
     passive: false,
     1: "The caster bursts into a mist of their own blood reducing damage taken by spreading them selves over a larger area.",
+  },
+  "Death Syphon": {
+    name: "Death Syphon",
+    passive: false,
+    1: "While this mode is active, the caster draws in nearby entropic energy, draining residual power from any dead enemy nearby to restore the caster's mana.",
   },
 };
 
