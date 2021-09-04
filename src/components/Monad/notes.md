@@ -95,7 +95,7 @@ Human body: Stats 0 - 10, 5 is normal and 10 is the best a human can get. (This 
 <li>70 - Picked 2nd element, Cap Raised to 8
 <li>80 - Extra Stat points, Advanced spells, Cap Raised to 9
 <li>90 - Extra Stat points, Cap Raised to 10
-<li>100 - Class Advancement, Increase other properties +3
+<li>100 - Class Advancement, Increase other properties of skills +3 times
 
 ---
 

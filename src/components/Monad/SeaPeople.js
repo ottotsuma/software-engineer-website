@@ -1717,7 +1717,9 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         you will be heading out of the city anyway before they can gather any
         witnesses to his vampiric tendencies anyway." Kiksotz Replied.
       </p>
-      <p></p>
+      <p>
+        
+      </p>
       {/* Sarah and vampire guy comes to get him, take him back. Meet vampires. */}
       {/* Nahual */}
     </Content>
