@@ -1695,8 +1695,31 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         he finished speaking he had climbed into the carriage with me and it
         took off with a jolt.
       </p>
+      <p>
+        The carriage was being pulled by, well they looked like giant turkeys.
+        With light blue feathers, tipped orange and a light blue head and neck.
+        Kiksotz had informed me that they where beast Ocellated turkeys. In the
+        west of the republic was the only place these turkeys could be found and
+        the beast versions were both rare and useless for combat making them a
+        status symbol of those rich enough to be able to keep something so
+        useless.
+      </p>
+      <p>
+        "So how will we prove Noah is not a vampire?" I asked as the carriage
+        pulled out of the manor gates and onto the main street heading to the
+        city wall.
+      </p>
+      <p>
+        "Well, he's not a vampire. So it should be impossible for them to prove
+        he is. We will put blood in front of him and see if his eyes change
+        color or he becomes rabid. The usual things a low level undead cannot
+        resist. Something along those lines. Once they let him into our custody
+        you will be heading out of the city anyway before they can gather any
+        witnesses to his vampiric tendencies anyway." Kiksotz Replied.
+      </p>
       <p></p>
       {/* Sarah and vampire guy comes to get him, take him back. Meet vampires. */}
+      {/* Nahual */}
     </Content>
   ),
   9: (

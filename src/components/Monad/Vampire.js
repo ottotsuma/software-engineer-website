@@ -117,7 +117,7 @@ export default function Vampire() {
     </div>
   );
 }
-
+// Nahual
 const SubTitle = styled.h4`
   display: flex;
   justify-content: center;
