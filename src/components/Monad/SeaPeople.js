@@ -1725,6 +1725,17 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         behind the wall was the height and that these towers did not have open
         holes for passers by to gape into, everyone was sealed up.
       </p>
+      <p>
+        As we passed though the wall I sat with a straight back looking ahead,
+        both passive and annoyed, trying to give some sort of air of a noble
+        woman. We were moving out of the main city into the lower town and these
+        were just guards so while the facade was not needed, you never know who
+        has eyes where. From the gate it was a surprising short trip to where
+        Noah was being held.
+      </p>
+      <p>
+        
+      </p>
       {/* Sarah and vampire guy comes to get him, take him back. Meet vampires. */}
       {/* Nahual */}
     </Content>
