@@ -648,26 +648,27 @@ function Intro(props) {
           {/* Shaun!! */}
           <Spells
             spells={[
-              {
-                name: "Lightning germination",
-                level: 2,
-              },
+              { name: "Lightning germination", level: 2 },
               { name: "Lightning growth", level: 2 },
               { name: "Lightning harvest", level: 2 },
               { name: "Seeds to Soldiers", level: 2 },
-              { name: "Lightning seeds", level: 2 }, // 5 points spent on old spells 30 left
+              { name: "Lightning seeds", level: 2 }, // 5 points spent on old spells
               // New Spells Below
               { name: "Scarecrow", level: 2 },
               { name: "Kʼawiil Burst", level: 2 },
               { name: "Kʼawiil Bolt", level: 2 },
-              { name: "Serpent Skin", level: 2, passive: true },
-              { name: "Serpent Pattern", level: 2, passive: true }, // 10 points spent on new spells 20 left
+              { name: "Serpent Skin", level: 2 },
+              { name: "Serpent Pattern", level: 2 }, // 10 points spent on new spells
+              { name: "Reap What You Sow", level: 2 },
+              { name: "Bountiful Harvest", level: 2 },
             ]}
             type={"mage"}
           />
+          <div className="BreakPoint"></div>
+          {/* Human skills, but also could have God based skills and passives. The snake ones looked good. */}
           <Spells
             spells={[
-              { name: "Talented", level: 2 },
+              { name: "Human Ingenuity", level: 2 },
               { name: "Persuasive", level: 2 },
               { name: "Quick", level: 2 },
               { name: "Perception", level: 2 },
@@ -675,8 +676,8 @@ function Intro(props) {
               { name: "Healthy", level: 2 },
               { name: "Adaptable", level: 2 },
               { name: "Brave", level: 2 },
-              { name: "Pure of mind", level: 2 },
-              { name: "Magical Aptitude", level: 2 }, // 20
+              // { name: "Pure of mind", level: 2 },
+              // { name: "Magic Enthusiast", level: 2 }, // 20
             ]}
             type={"human"}
           />

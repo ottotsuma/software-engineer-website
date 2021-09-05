@@ -158,10 +158,11 @@ export const spellList = {
     9: "All of your harvests are increased by 90%.",
     10: "All of your harvests are increased by 100%, recover 20% HP.",
   },
-  "Reap what you Sow": {
-    name: "Reap what you Sow",
+  "Reap What You Sow": {
+    name: "Reap What You Sow",
     passive: true,
     1: "Reap the benefits or punishments from the seeds you sow.",
+    2: "Reap the benefits or punishments from the seeds you sow.", // chapter 32
   },
   Scarecrow: {
     name: "Scarecrow",

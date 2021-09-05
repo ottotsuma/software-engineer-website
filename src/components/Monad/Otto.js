@@ -6,7 +6,7 @@ import Spells from "./../elements/spells";
 
 export default function Otto() {
   return (
-    <div style={{color: 'black'}}>
+    <div style={{ color: "black" }}>
       <Stats
         type={"description"}
         stats={{
@@ -38,7 +38,7 @@ export default function Otto() {
             effect:
               "Magic: +2, Disease resistance + 20%, Mana regeneration + 20%, blessing of 建御雷 [Takemikazuchi].",
             rating: "unique",
-            long: 'Blessing of 建御雷 [Takemikazuchi]: Resist lightning +20%, Lightning cost - 15%, Lightning power +20%. '
+            long: "Blessing of 建御雷 [Takemikazuchi]: Resist lightning +20%, Lightning cost - 15%, Lightning power +20%. ",
           },
           Body: {
             name: "Academy Robe (Black/Yellow).",
@@ -63,7 +63,7 @@ export default function Otto() {
       <h1>Other Items</h1>
       <Spells
         spells={[
-          { name: "Lightning germination", level: 2, },
+          { name: "Lightning germination", level: 2 },
           { name: "Lightning growth", level: 2 },
           { name: "Lightning harvest", level: 2 },
           { name: "Seeds to Soldiers", level: 2 },
@@ -72,8 +72,10 @@ export default function Otto() {
           { name: "Scarecrow", level: 2 },
           { name: "Kʼawiil Burst", level: 2 },
           { name: "Kʼawiil Bolt", level: 2 },
-          { name: "Serpent Skin", level: 2},
-          { name: "Serpent Pattern", level: 2}, // 10 points spent on new spells
+          { name: "Serpent Skin", level: 2 },
+          { name: "Serpent Pattern", level: 2 }, // 10 points spent on new spells
+          { name: "Reap What You Sow", level: 2 },
+          { name: "Bountiful Harvest", level: 2 },
         ]}
         type={"mage"}
       />
@@ -89,8 +91,8 @@ export default function Otto() {
           { name: "Healthy", level: 2 },
           { name: "Adaptable", level: 2 },
           { name: "Brave", level: 2 },
-          { name: "Pure of mind", level: 2 },
-          { name: "Magic Enthusiast", level: 2 }, // 20
+          // { name: "Pure of mind", level: 2 },
+          // { name: "Magic Enthusiast", level: 2 }, // 20
         ]}
         type={"human"}
       />
@@ -100,11 +102,11 @@ export default function Otto() {
 
 // Academy, border guard, monster hunters, fugitive, leikan prince, farmer, war lord? Flees the sea people invasion turns south, find the bird people, fight eleven pirates, sail to the old world. Or use the under ground road...
 
-// The invasion of earth starts 
+// The invasion of earth starts
 
 // Kʼawiil Notes:
 // This court is the body of an immortal the maya gods killed and lived in after.
-// Xibalba is described in the Popol Vuh as a court below the surface of the Earth associated with death and with twelve gods or powerful rulers known as the Lords of Xibalba. 
+// Xibalba is described in the Popol Vuh as a court below the surface of the Earth associated with death and with twelve gods or powerful rulers known as the Lords of Xibalba.
 
 // Chaac *L*
 // The god of storms and rain, enemy of Camazotz and wields a lightning axe.

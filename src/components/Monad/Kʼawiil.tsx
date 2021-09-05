@@ -37,7 +37,7 @@ const data: SkillType[] = [
                 id: "Lightning-Harvest",
                 title: "Lightning Harvest ",
                 tooltip: {
-                  // finish move 
+                  // finish move
                   content:
                     "Harvest the target. [If the target is below 20% HP this attack does 200% more damage. If this target is a 'plant' type this attack does 500% more damage. If this attack kills the target you have a chance to harvest something.]",
                 },
@@ -53,8 +53,8 @@ const data: SkillType[] = [
                     children: [],
                   },
                   {
-                    id: "Reap-what-you-Sow",
-                    title: "Reap what you Sow",
+                    id: "Reap-What-You-Sow",
+                    title: "Reap What You Sow",
                     tooltip: {
                       // mixed, depends on the seeds.
                       content:
@@ -62,21 +62,21 @@ const data: SkillType[] = [
                     },
                     children: [
                       {
-                      id: "Bountiful-Harvest",
-                      title: "Bountiful Harvest",
-                      tooltip: {
-                        content:
-                          "All of your harvests are increased by [x]%. [x is 10x the level of this spell.]",
+                        id: "Bountiful-Harvest",
+                        title: "Bountiful Harvest",
+                        tooltip: {
+                          content:
+                            "All of your harvests are increased by [x]%. [x is 10x the level of this spell.]",
+                        },
+                        children: [],
                       },
-                      children: [],
-                    },
-                  ],
+                    ],
                   },
                   {
                     id: "Inspect-Plants",
                     title: "Inspect Plants",
                     tooltip: {
-                      // utility 
+                      // utility
                       content:
                         "Your inspection of plants will be a level up on your normal inspection ability.",
                     },
@@ -104,9 +104,8 @@ const data: SkillType[] = [
         id: "Lightning-Plant",
         title: "Lightning Plant",
         tooltip: {
-          // de-buff 
-          content:
-            "Turn lightning seeds into lightning plants!",
+          // de-buff
+          content: "Turn lightning seeds into lightning plants!",
         },
         children: [],
       },
@@ -126,8 +125,7 @@ const data: SkillType[] = [
         title: "Kʼawiil Bolt",
         tooltip: {
           // ranged attack
-          content:
-            "Releases a burst of Kʼawiil-lightning from range.",
+          content: "Releases a burst of Kʼawiil-lightning from range.",
         },
         children: [],
       },
@@ -138,8 +136,9 @@ const data: SkillType[] = [
     id: "Haietlik",
     title: "Haietlik",
     tooltip: {
-      // mid ranged attack & utility 
-      content: "Throw a snake shaped lighting bolt to hook onto a target, dealing damage in the process.",
+      // mid ranged attack & utility
+      content:
+        "Throw a snake shaped lighting bolt to hook onto a target, dealing damage in the process.",
     },
     children: [],
   },
@@ -149,7 +148,8 @@ const data: SkillType[] = [
     title: "Serpent-Skin",
     tooltip: {
       // attribute buff
-      content: "Your skin slowly becomes like a serpents. Able to turn on and off scaled armor over your skin.",
+      content:
+        "Your skin slowly becomes like a serpents. Able to turn on and off scaled armor over your skin.",
     },
     children: [
       {
@@ -159,8 +159,8 @@ const data: SkillType[] = [
           // attribute buff
           content: "Your tongue will become forked, Increased sense of smell.",
         },
-// Snakes hear with their mouths
-// Snakes have heat-seeking smarts
+        // Snakes hear with their mouths
+        // Snakes have heat-seeking smarts
         children: [],
       },
       {
@@ -168,7 +168,8 @@ const data: SkillType[] = [
         title: "Serpent Pattern",
         tooltip: {
           // hidden attribute buff
-          content: "Your skin will adapt to the environment slightly, increased stealth.",
+          content:
+            "Your skin will adapt to the environment slightly, increased stealth.",
         },
         // Some snakes can fly
         children: [],
@@ -180,7 +181,7 @@ const data: SkillType[] = [
           // Buff
           content: "Your next physical attack will be faster.",
         },
-// Venom
+        // Venom
         children: [],
       },
     ],
