@@ -136,21 +136,24 @@ Human body: Stats 0 - 10, 5 is normal and 10 is the best a human can get. (This 
 ## Race/Self Bonuses: 
 <!-- https://ottotsuma.github.io/race.html -->
 <!-- Normal -->
-<li> Human - Sense - +1 Charisma - +2 (Can use all basic items without restrictions)
+<li> Human - Sense - +1 Charisma - +2 (Can use all basic items without restrictions)🧙‍♂️
 <li> Orc - Strength - +2 Vitality - +1 (Small health regen when in combat)
 <li> Gnoll - Dexterity - +1 Sense - +2 (Can gain access to spells/abilities early from their Demon Lord)
 <li> Miqo'te - Dexterity - +1 Sense - +2 (Their claws given them a built in weapon)
 <li> Dwarf - Strength - +1 Vitality - +2 (Small resistance to spell effects, but lower success with spells)
-<li> Elf - Magic + 1, Charisma +2 (Charming is easier)
+<li> Elf - Magic + 1, Charisma +2 (Charming is easier) [Woodland / Sun elves]🧝‍♂️
 
 <!-- Rare -->
-<li> Vampire - Strength - +1 Vitality - +1 Magic - +1 Dexterity - +1 Sense - +1. (Blood magic is always unlocked)
-<li> Dark Elf  - ???
-<li> (Making them black just seems wrong, they should be dark in mind not skin color. Especially if they live underground, they should be super pale.) [Would it not make sense to make the sun elves dark skinned?] I could I could have a dark, dark elf just make them shadowy users to it is adaptive cameo? Or Desert elves? 
+<li> Vampire - Strength - +1 Vitality - +1 Magic - +1 Dexterity - +1 Sense - +1. (Blood magic is always unlocked)🧛‍♂️
+<li> Dark Elf  - ??? [Desert elves]
+<li> Snow Elves - [Cave elves]
 <li> Automitia - ???
 <li> Undead (generic) - ???
 <li> Krogan - ???
 <li> Turian - ???
+<li>🧜‍♀️
+<li>🧚‍♀️
+<li>🧟‍♂️
 
 <!-- Epic -->
 <li> Kitsune - ???
@@ -449,9 +452,9 @@ chalbia ?
 
 Normal in the world to reach level 100, but few reset because the chances of unlocking anything new is little and it leaves you open to attack while you level back up. The advanced classes play a large role in the old lands but in the new world people are leveling up less so getting to 100 is a big deal.
 
-*** notes on the countries ***
+*** notes on the countries *** 
 
-Alden (German) -
+Alden (German) - 🎄
 Military - Strong individuals, strong together, strong military, medium navy
 Diplomacy - None, mostly negative
 Religion -  
@@ -463,7 +466,7 @@ Food - Fertile land, but too focused on military to make good use of it
 Economy type -
 Unique Unit - Witches
 
-Republic (EU?Roman)
+Republic (EU?Roman) 🏛
 Military - Varied individuals from states, strong together, strong military, weak navy
 Diplomacy - Good
 Religion - Varied
@@ -475,7 +478,7 @@ Food - Fertile land in the east, less fertile to the south and west.
 Economy type -
 Unique Unit - Throwing Axes
 
-League (Elf)
+League (Elf) 🧝‍♀️
 Military - Medium individuals, strong together but only one race, strong navy, medium military (use to be weak)
 Diplomacy - None, mostly negative
 Religion -
@@ -487,7 +490,7 @@ Food -
 Economy type -
 Unique Unit - 
 
-Pocotcotco (Aztec use to be Mayan)
+Pocotcotco (Aztec use to be Mayan) 🦅
 Military - Weak individuals, strong heros?, weak military, no navy
 Diplomacy - Mostly negative
 Religion - Old gods (Aztec)
@@ -499,7 +502,7 @@ Food - Fertile land, but too focused on traditional ways to make good use of it
 Economy type -
 Unique Unit - Eagle Warrior
 
-Kingdom (Empire)
+Kingdom (Empire) 🦎
 Military - weak individuals, strong together, many varied units with a strong core, strong military, weak navy
 Diplomacy - Arrogant but rational
 Religion - State religion - , split off religions -
@@ -511,7 +514,7 @@ Food - Mostly desert, imports food from others
 Economy type -
 Unique Unit - 
 
-Leika (Japan)
+Leika (Japan) ⛩
 Military - weak individuals, strong together, strong military, Strong navy
 Diplomacy - Medium, while they do not strongly anger anyone they are hardly friendly
 Religion - Shinto
@@ -523,7 +526,7 @@ Food - Fertile land makes good use of it
 Economy type -
 Unique Unit - Samurai
 
-Huonhia - essos, lyric speaking? - free city types
+Huonhia - essos, lyric speaking? - free city types 
 Military - Strong individuals, strong core, weak auxiliary branches, would be strong overall if they would work together
 Diplomacy - Too focused internally, suits the leika just fine.
 Religion - Many gods.
