@@ -117,7 +117,7 @@ export default function Vampire() {
     </div>
   );
 }
-// Nahual
+// Nahual - eagle warriors 
 const SubTitle = styled.h4`
   display: flex;
   justify-content: center;
