@@ -1718,7 +1718,12 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         witnesses to his vampiric tendencies anyway." Kiksotz Replied.
       </p>
       <p>
-        
+        I watched as we passed towers pass by. Every building in this city
+        seemed tower like to me. Even the 'manor' that we came from, from the
+        outside just looked like serval towers coming out of a plinth of steps.
+        The only differences between the towers of the lower town and the city
+        behind the wall was the height and that these towers did not have open
+        holes for passers by to gape into, everyone was sealed up.
       </p>
       {/* Sarah and vampire guy comes to get him, take him back. Meet vampires. */}
       {/* Nahual */}
