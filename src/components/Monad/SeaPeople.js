@@ -1734,7 +1734,13 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         Noah was being held.
       </p>
       <p>
-        
+        Kiksotz asked me to stay in the carriage while he went to get Noah. I might of protested but they were only a few paces from the carriage, I could even hear what they where saying. They had brought Noah out, he was not even bound or had any restrictions on him so clearly they knew he was no threat and therefore not a vampire.
+      </p>
+      <p>
+        "We got a report that he was drinking the blood of people in pub down the road." One of the guards said.
+      </p>
+      <p>
+        "Drinking blood?" Kiksotz
       </p>
       {/* Sarah and vampire guy comes to get him, take him back. Meet vampires. */}
       {/* Nahual */}
