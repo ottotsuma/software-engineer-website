@@ -116,7 +116,7 @@ Human body: Stats 0 - 10, 5 is normal and 10 is the best a human can get. (This 
 <!-- Rare -->
 <li>Knight Commander - Commanded units gain hp is increased
 <li>Assassin - Damage from sneak attacks is increased
-<li>Pirate - Swimming +5% movement speed
+<li>Pirate - 🏴‍☠️ Swimming +5% movement speed
 <li>Witchdoctor - Unknown
 <li>Priest - Can use holy objects, cannot use unholy objects
 <li>Inquisitor - Can use holy objects, cannot use unholy objects
@@ -526,7 +526,7 @@ Food - Fertile land makes good use of it
 Economy type -
 Unique Unit - Samurai
 
-Huonhia - essos, lyric speaking? - free city types 
+Huonhia - essos, lyric speaking? - free city types ⚔
 Military - Strong individuals, strong core, weak auxiliary branches, would be strong overall if they would work together
 Diplomacy - Too focused internally, suits the leika just fine.
 Religion - Many gods.
@@ -538,7 +538,7 @@ Food - Fertile land, but worked by the slaves
 Economy type -
 Unique Unit - Sacred Band
 
-Chalbia (Port)
+Chalbia (Port) ⚓
 Military - Average individuals, strong navy, weak land forces, but very rich
 Diplomacy - Good with most, it's all about trade money and friends.
 Religion -
