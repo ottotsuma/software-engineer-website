@@ -87,9 +87,9 @@ export default function Vampire() {
       <h1>Vampire Ranks</h1>
       <SubTitle>Vampires</SubTitle>
       <ul>
-        <li>Vampire Noble</li>
+        <li>Vampire Noble + Ranks</li>
         <li>Vampire Knight</li>
-        <li>Dhampir</li>
+        <li>Dhampir - Human/Vampire</li>
         <li>Halfling</li>
         <li>Royal Vampires</li>
         <li>Vampire</li>

@@ -1740,7 +1740,13 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         "We got a report that he was drinking the blood of people in pub down the road." One of the guards said.
       </p>
       <p>
-        "Drinking blood?" Kiksotz
+        "Drinking blood? Where are the victims? The witnesses? His fangs? Come now stop wasting our time, what is the real charge." Kiksotz berated the guard .
+      </p>
+      <p>
+        "I know how it sounds, but he really was accused of being a vampire." The guard insisted.
+      </p>
+      <p>
+        "Urgh." Kiksotz responded pulling out a small knife from his waist. The guards moved back but did not draw their own weapons seemly more trusting of Kiksotz then I expected as slit his own arm and watched the blood roll down his arm and splat onto the floor.
       </p>
       {/* Sarah and vampire guy comes to get him, take him back. Meet vampires. */}
       {/* Nahual */}
