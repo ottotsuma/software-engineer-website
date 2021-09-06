@@ -1734,21 +1734,60 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         Noah was being held.
       </p>
       <p>
-        Kiksotz asked me to stay in the carriage while he went to get Noah. I might of protested but they were only a few paces from the carriage, I could even hear what they where saying. They had brought Noah out, he was not even bound or had any restrictions on him so clearly they knew he was no threat and therefore not a vampire.
+        Kiksotz asked me to stay in the carriage while he went to get Noah. I
+        might of protested but they were only a few paces from the carriage, I
+        could even hear what they where saying. They had brought Noah out, he
+        was not even bound or had any restrictions on him so clearly they knew
+        he was no threat and therefore not a vampire.
       </p>
       <p>
-        "We got a report that he was drinking the blood of people in pub down the road." One of the guards said.
+        "We got a report that he was drinking the blood of people in pub down
+        the road." One of the guards said.
       </p>
       <p>
-        "Drinking blood? Where are the victims? The witnesses? His fangs? Come now stop wasting our time, what is the real charge." Kiksotz berated the guard .
+        "Drinking blood? Where are the victims? The witnesses? His fangs? Come
+        now stop wasting our time, what is the real charge." Kiksotz berated the
+        guard .
       </p>
       <p>
-        "I know how it sounds, but he really was accused of being a vampire." The guard insisted.
+        "I know how it sounds, but he really was accused of being a vampire."
+        The guard insisted.
       </p>
       <p>
-        "Urgh." Kiksotz responded pulling out a small knife from his waist. The guards moved back but did not draw their own weapons seemly more trusting of Kiksotz then I expected as slit his own arm and watched the blood roll down his arm and splat onto the floor.
+        "Urgh." Kiksotz responded pulling out a small knife from his waist. The
+        guards moved back but did not draw their own weapons seemly more
+        trusting of Kiksotz then I expected as slit his own arm and watched the
+        blood roll down his arm and splat onto the floor.
       </p>
-      {/* Sarah and vampire guy comes to get him, take him back. Meet vampires. */}
+      <p>
+        "So, his eyes are not red. He is not devouring the blood on sight. Is it
+        possible he became full earlier? There must be lots of dead in the pub,
+        you're acting very calm around such a dangerous killer." Kiksotz stated
+        looking at his blood drip to the floor and to the guards around Noah.
+      </p>
+      <p>
+        "Alright, alright. He doesn’t seem dangerous. He looks very suspicious
+        though, and we really did have reports of a vampire matching his
+        description." The guard replied.
+      </p>
+      <p>
+        Wrapping his arm with a red cloth from his pocket Kiksotz smiled and
+        replied. "His appearance is interesting, it is why master is hosting him
+        in this city. He was too busy to meet with him at the time the lady
+        brought him to see master. He is awaiting this one now. I promise if he
+        tries to drink anyone's blood we will kill him ourselves, you have my
+        word Christoph." Kiksotz pulled a string and plucked off a small pouch
+        from under his cape, pinching the strings with his fingers and leaving
+        his hand on top passed it over to the guard while with his other hand
+        taking Noah by the arm and pulled him to the carriage.
+      </p>
+      <p>
+        The guard simple replied. "Since he is with your master there is no
+        threat to the people of this city." He accepted the pouch and the guards
+        moved back inside their tower as Noah climbed into the carriage. He
+        tried to sit next to me so I hit him with the pouch I was given and told
+        him to sit upfront. He looked so confused bless him.
+      </p>
       {/* Nahual */}
     </Content>
   ),
