@@ -834,7 +834,7 @@ most people learn inspect but either see
           </p>
           <p>
             Now I could join in the lesson with the others! Each group had a
-            large map layed out on the floor and had to match the people group
+            large map laid out on the floor and had to match the people group
             to each of the areas they lived in. While people moved around so it
             was not like all elves lived in one place but it was safe to say the
             majority lived in the Mifuegan League, the most western country.
@@ -842,7 +842,7 @@ most people learn inspect but either see
           </p>
           {/* <h3>Departure</h3> */}
           <p>
-            2 years later. After Jun 12th sometime before winter, ee had all
+            2 years later. After Jun 12th sometime before winter, we had all
             turned 14. Beke had turned 14 the year before and departed the
             village to go to a Military camp. This year I stood next to Otto and
             Nils. Nils was going to the capital to study art. It was an unusual
