@@ -1792,6 +1792,7 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         The ride back to the manor was done in awkward silence as Noah was told
         not to speak until we get inside.
       </p>
+      <p>Once back safely Noah tried his hardest to bombard us with questions, but it had been a long day for me. Most of the questions would end up irrelevant anyway with our departure in a few hours.</p>
       {/* Nahual */}
     </Content>
   ),
