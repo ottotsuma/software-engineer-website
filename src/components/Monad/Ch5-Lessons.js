@@ -69,7 +69,7 @@ function Lessons(props) {
           </p>
           <p>
             "We will start with a brief look at the common elements mages have
-            and maybe a few specific to nobel families of Alden. Before moving
+            and maybe a few specific to noble families of Alden. Before moving
             onto common jobs. Turn to chapter 2 in MM&M." Lubin said as he wrote
             down the names and symbols of the elements on a board behind him
             with chalk.
@@ -153,8 +153,8 @@ function Lessons(props) {
             standard earth mage." Lubin continued.
           </p>
           <p>
-            "Looking at Alden's unique elements most are with the nobel
-            families. As you may know most nobel families of Alden come from the
+            "Looking at Alden's unique elements most are with the noble
+            families. As you may know most noble families of Alden come from the
             fighters line. There are few mages found within their families.
             However the city of Alden's very own the Grand Duke has royal
             lightning, it is purple in color and has not been seen outside of

@@ -85,7 +85,7 @@ function Fifth(props) {
             Screamed loudly as I turned to use 'Charged Charge'. I accelerated,
             Kaja seeing me coming enveloped herself in fire-mana as I slammed my
             warhammer down into her shield, the fire mana had increased her
-            defences, she took 22% damage. I took -35% from the flames she was
+            defenses, she took 22% damage. I took -35% from the flames she was
             wrapped in. The fire cloak had stuck me as I came into melee range,
             my health had reached the final 10 points first, my blow had landed
             moments after leaving her with 2% hp. I had lost.

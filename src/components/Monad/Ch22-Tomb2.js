@@ -222,7 +222,7 @@ function Intro(props) {
 
           <p>
             After passing though without so much as a scratch from the abandoned
-            defences the final wall with a tunnel like gate way which was 15m
+            defenses the final wall with a tunnel like gate way which was 15m
             long in complete darkness opened into a room lit with dim fires
             around the perimeter. The moment Reingard step inside a slow clap
             came from the other end of the room. Clap. Clap. Clap. Followed by a

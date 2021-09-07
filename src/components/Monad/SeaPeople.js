@@ -748,7 +748,7 @@ export const SeaPeople = {
       </p>
       <p>
         Sarah had taken to smashing the crab in the head trying to hit it's eyes
-        with her mace. Her attack power was clearly not as high as her defence
+        with her mace. Her attack power was clearly not as high as her defense
         but it was not nothing. The crab annoyed by us span around and knocked
         all of us back a few places. Sarah screamed like a banshee so it rushed
         down Sarah smashing into her shield and armor with its two claws. I

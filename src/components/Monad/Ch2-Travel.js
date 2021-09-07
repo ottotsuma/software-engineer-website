@@ -208,7 +208,7 @@ function Travel(props) {
             decided to explain what I saw after he had run off.
           </p>
           <p>
-            "Maybe a nobel took a liking to the girl and she refused and hurt
+            "Maybe a noble took a liking to the girl and she refused and hurt
             him so he had his guard put her in her place." Leon said like it
             normal.
           </p>

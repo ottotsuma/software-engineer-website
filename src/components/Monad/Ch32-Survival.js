@@ -143,16 +143,16 @@ function Intro(props) {
 <li>Sense</li> Trap Detect (All of the senses, hearing, taste, touch, smell.) Seeing though smoke screens and illusions. Seeing weakness and injuries in your opponent
 <li>Charisma/personality</li> Increases NPC likability, command points,  
 
-<li>Magic Defence</li> Increases resistance to magic, reduces magic damage taken (%)
-<li>Defence</li> Increases resistance to physical damage, reduces physical damage taken (%)
+<li>Magic defense</li> Increases resistance to magic, reduces magic damage taken (%)
+<li>defense</li> Increases resistance to physical damage, reduces physical damage taken (%)
 */}
           <div className="BreakPoint"></div>
           <p>
             After reading though the book there was some obvious differences
             from the books used in Alden. The stats were called attributes and
             split into catagories of minor and major. Major being Vitality,
-            strength, Magic, Dexterity, Sense & Charisma. Where Magic defence
-            and defence were donated as minor. Within each was also Major
+            strength, Magic, Dexterity, Sense & Charisma. Where Magic defense
+            and defense were donated as minor. Within each was also Major
             effects and Minor effects, such as sense said to be helpful in
             detecting traps. However in the minor section it listed things like
             being able to see more clearly though smoke screens, help with
@@ -167,7 +167,7 @@ function Intro(props) {
             minor even noncombat like stats.
           </p>
           <p>
-            "Why is there so little importance on the role of defence in this
+            "Why is there so little importance on the role of defense in this
             book? Is this just how Leikans view the stats?" I asked hoping to
             clear up some of my confusion.
           </p>
@@ -178,7 +178,7 @@ function Intro(props) {
             layout and importance of the attributes or stats. The difference in
             views has lead to different stat distributions between out people. I
             think this is why Alden is famous for heavy close combat infantry. A
-            stronger focus on defence and magic defence then we have." She said
+            stronger focus on defense and magic defense then we have." She said
             confirming some of my first thoughts.
           </p>
           <p>

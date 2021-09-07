@@ -112,7 +112,7 @@ function Intro(props) {
 
           <p>
             "15, it's a human perk. Ape Mode, increases strength damage with
-            bare fists for a period of time, while decreasing your defences." A
+            bare fists for a period of time, while decreasing your defenses." A
             student replied. These people where mad. I walked off while they
             were watching him.
           </p>

@@ -29,7 +29,7 @@ function Combat(props) {
           <p>
             "Now the most obvious thing when thinking about duels between mages
             is that they use magical attacks. Conventionally, should you be
-            attacked by a mage Willpower is will provide the best defence. As it
+            attacked by a mage Willpower is will provide the best defense. As it
             reduces the damage taken by more than Vitality increases your
             health. However you cannot put points directly into willpower, it is
             gained though life experiences and equipment. When getting equipment

@@ -75,7 +75,7 @@ The enemy may have the Moon People on their side, but we have lovely hats! And t
 
 ---
 
-Could defence and magic defence be rolled into vitality, magic and strength?
+Could defense and magic defense be rolled into vitality, magic and strength?
 
 Critical defense, parry, glance, defend
 

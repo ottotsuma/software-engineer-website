@@ -132,7 +132,7 @@ function Intro(props) {
 
           <p>
             The zombie was surrounded by bugs, they where all over the place,
-            but I was safe under the rocks, they seemed to have no defence at
+            but I was safe under the rocks, they seemed to have no defense at
             all and just squashed from any light touch.
           </p>
 

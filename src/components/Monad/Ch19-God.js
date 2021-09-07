@@ -543,7 +543,7 @@ Noticed by a God - get the notice of a God, (varies) */}
             I ran straight for him trying to finish him off also when I was hit
             with a wind infused manaball, the blow had come so quick I did not
             register it at first (-43%). I could not allow him to keep that up,
-            I stuck with lightning strike (-57%), he had high magic defences it
+            I stuck with lightning strike (-57%), he had high magic defenses it
             seems. I sprinted into him with my warhammer striking his chest, his
             body soon disappeared from the arena as I felt a huge pressure above
             me push me down and a sucking woosh, next thing I saw was the arena

@@ -78,7 +78,7 @@ function Intro(props) {
             mostly gone, the eyes removed it seemed the animals had long been at
             his body, the smell was bad but thats not what had Otto's attention.
             Tangled in the vines the man was wearing strange clothes, even
-            strange for a nobel, a blue jacket with gold trim, but it had no
+            strange for a noble, a blue jacket with gold trim, but it had no
             hood and didn't feel like a woolen robe. The cuffs and shoulders
             where not sewn into the sleeves but rather left to hand over the
             top. The mans face was strange too, but hard to judge a man who's
@@ -145,7 +145,7 @@ function Intro(props) {
             was slayed the other ran bleeding back into the forest. I was later
             told by Giselher the large body guard who speared the smaller wolf
             that the large wolves where between level 20 and 29. They had high
-            magic defences and often made pray of magical or weak humans. I
+            magic defenses and often made pray of magical or weak humans. I
             don't know what the large wolf dropped by the small wolf dropped a
             pair of gloves, Giselher gave them to me saying I did most of the
             damage anyway and he was surprised a mage would have so much

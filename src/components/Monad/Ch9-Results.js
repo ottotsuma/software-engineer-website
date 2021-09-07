@@ -141,8 +141,8 @@ Reingard". boy - alden likes Tisiel Skivali  becomes tank --> */}
             the bottom. I ran up to it from the flank out of the trees and swung
             my warhammer into its back leg. As I would find out later I was
             luckily enough that this monster was an adolescent and not a fully
-            grown adult, as adolescents have high magic defence but poor
-            physical defence where the adults do not.
+            grown adult, as adolescents have high magic defense but poor
+            physical defense where the adults do not.
           </p>
 
           <p>
@@ -220,7 +220,7 @@ Reingard". boy - alden likes Tisiel Skivali  becomes tank --> */}
           <p>
             I nodded. Not much I could do about it then. It really sucked. I
             wasted 1 hour in there with nothing to show for it. I wanted to take
-            my anger out on something so since there was a magic defence
+            my anger out on something so since there was a magic defense
             training ground there must be one for strength. At least I would do
             well in a school full of mages at that.
           </p>

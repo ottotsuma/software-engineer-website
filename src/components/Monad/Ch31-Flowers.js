@@ -279,7 +279,7 @@ function Intro(props) {
           </p>
           <p>
             "Do I have to make a decision now? All I did was threaten him in
-            self defence." I said a little annoyed.
+            self defense." I said a little annoyed.
           </p>
           <p>
             "No. Not now. But soon. Maybe by tomorrow it depends on Arrilian's

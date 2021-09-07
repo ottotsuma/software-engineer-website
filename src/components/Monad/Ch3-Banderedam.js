@@ -136,7 +136,7 @@ Charlemagne in 794 decreed that a single silver penny (weighing 1.7 grams) shoul
           <p>"Same price, ¤100,000." He replied.</p>
           <p>"Less then I thought, more then I have." I admitted</p>
           <p>
-            "Only students from nobel houses pay with cash anyway, if you sign
+            "Only students from noble houses pay with cash anyway, if you sign
             for something I can collect it later at the academy and they take it
             from your mission rewards, until they are paid back. Don't go crazy
             though they won't loan a first year more then ¤100,000." He

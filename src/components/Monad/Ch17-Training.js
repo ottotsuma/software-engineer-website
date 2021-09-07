@@ -118,7 +118,7 @@ function Intro(props) {
           </p>
 
           <p>
-            Quickly reviewing my stats so far I saw that I had no defences, very
+            Quickly reviewing my stats so far I saw that I had no defenses, very
             little health and was still reliant on a melee weapon. On the other
             hand I had high mana, high magic output, perhaps there was someway I
             could turn this into a defense.{" "}
@@ -216,7 +216,7 @@ function Intro(props) {
             "This! There is a map inside the book of an unknown land, that shows
             on the next page.. A map of the academy. Which was very helpful as
             you can see there is an area to the left of the main academy
-            building past the nobel area and into the jungle on that side."
+            building past the noble area and into the jungle on that side."
           </p>
 
           <p>
