@@ -1819,6 +1819,21 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         large black double doors which housed master. Every time I had met
         master had been in that dark room, he rarely came out I was told.
       </p>
+      <p>
+        I released the breath I had stored up and nodded. If master wanted
+        something I had no power to decline him. We followed Kiksotz down the
+        stairs until we stood before the giant black doors.
+      </p>
+      <p>
+        "Bat wing doors? You're not afraid that is too obvious?" Noah muttered
+        on seeing the doors. Now he pointed it out I could not unsee how they
+        did look like bats wings from the outside covering the doorway.
+      </p>
+      <p>
+        "Nope." Kiksotz replied taking a seat at his desk and burring himself in
+        his paper work.
+      </p>
+      <p></p>
       {/* Nahual */}
     </Content>
   ),
