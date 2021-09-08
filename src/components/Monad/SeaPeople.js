@@ -1833,7 +1833,45 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         "Nope." Kiksotz replied taking a seat at his desk and burring himself in
         his paper work.
       </p>
-      <p></p>
+      <p>
+        "Just try to relax Noah. Master is not human after all so you.... Should
+        relax." I told him, although he did not ask so it sounded like more I
+        was calming myself down.
+      </p>
+      <p>
+        "Neither am I." Noah reminded me. Even I forget sometimes what we really
+        are.
+      </p>
+      <p>
+        I pushed the doors open with both hands leaning into the heavy doors as
+        they slide open gently and slowly. Although not touching the floor they
+        were still heavy. The room was pitch black, which was fine for me since
+        my eyes adjusted to the night vision while descending the stairs. Noah
+        on the other hand had placed one of his hands on the wall the whole way
+        down and lit a small lantern to see.
+      </p>
+      <p>
+        Master came walking over to see us. Not to see us really but to give
+        Noah a better look, master would have no problem seeing him in the dark.
+        Once the towering giant with black leathery hide oozing dark gas stood
+        over us, Noah could see his half transparent blood red wings coming off
+        his arms. Then the milky white bones covering his ribs and face, the
+        bones on his face leading to horns of bone jutting atop his head. Under
+        the bones was black leathery skin, I had stared the first time we met,
+        he had a partial exoskeleton and a full endoskeleton. His blood red eyes
+        staring, unblinking though a face of bone far above us always made me
+        shiver. He was the image of what I fought against in the past when I use
+        to be a paladin.
+      </p>
+      <p>
+        "Nice wings." Noah said. I could of slapped my own face, did he really just say something so awkward.
+      </p>
+      <p>
+        Master deep voice came out in German or Aldenese, either way it filled the room as he said. "With the description's of your demonic skin color I was hoping you were from Xibalba, but you really are a burnt elf. I thank you for the compliment. I trust you have been told of my small request."
+      </p>
+      <p>
+        Ah potato's, knew I forgot something. 
+      </p>
       {/* Nahual */}
     </Content>
   ),
