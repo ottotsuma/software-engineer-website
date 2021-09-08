@@ -132,7 +132,7 @@ function Fourth(props) {
 
           <p>
             As the class ended the majority of the students crowded around Vasso
-            to ask about his house, lightning, or just to win favour for those
+            to ask about his house, lightning, or just to win favor for those
             who knew what being apart of house Elzach meant. I made my way out
             of the class without anyone paying me any attention, my lightning
             was blue and although it was unlike the other blues in the class it

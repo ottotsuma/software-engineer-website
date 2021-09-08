@@ -337,7 +337,7 @@ function Intro(props) {
           <p>
             Clearly there was more to it. No way a high level working for a
             princess of another country would be willing to help me level up
-            like this. Tsuma must of asked the princess for a favour or
+            like this. Tsuma must of asked the princess for a favor or
             something. "When do we start?" I asked.
           </p>
           <p>

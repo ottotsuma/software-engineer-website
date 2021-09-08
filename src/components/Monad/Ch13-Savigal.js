@@ -37,7 +37,7 @@ function Intro(props) {
           {/* <h4>The bath houses</h4> */}
           <p>
             Just after the sun set I made my way to the bath house, waiting for
-            me was an elderly woman, haunched over a small cane in her hand she
+            me was an elderly woman, hunched over a small cane in her hand she
             smiled and waved towards me. I waved back, my robe must of given me
             away.
           </p>
@@ -96,7 +96,7 @@ function Intro(props) {
 
           <p>
             "Ah you're still in here? I didn't think you'd still be in here oh
-            deary me put a towel around yourself gave the girl a fight" the
+            dearie me put a towel around yourself gave the girl a fight" the
             bathhouse woman seemed to be enjoying the mischief she had made. Is
             she so bored as to set me up like this!?
           </p>
@@ -300,7 +300,7 @@ function Intro(props) {
           <p>"You working hard? You seem a little stressed."</p>
 
           <p>
-            "Ahaha no no, just learning to keep the books all this maths hurts
+            "Ahaha no no, just learning to keep the books all this math's hurts
             my brain. I am enjoying it really its a good challenge. So they
             finally let you out of the academy? Why don't you stay for dinner?
             My sister is a really good cook!"
@@ -321,7 +321,7 @@ function Intro(props) {
             of the money though, they sent me on a mission and knew how much I
             would be paid for that at least. Arriving back at the shop I had
             left a over an hour ago Leon was still inside, it seemed that
-            clocking off even at after sundown was a favour to the shop keeper
+            clocking off even at after sundown was a favor to the shop keeper
             he owed. We walked and talked as we made our way to Leon's place,
             while it was inside the walls of Banderedam it was not near the
             market but across the other side of town in what appeared to be
@@ -487,7 +487,7 @@ function Intro(props) {
           <p>"Ah yeah, I mean we did share our first mission together."</p>
 
           <p>
-            "I'm glad, keep her safe Reingard, and i'm sure she will keep you
+            "I'm glad, keep her safe Reingard, and I'm sure she will keep you
             happy."
           </p>
 
