@@ -84,7 +84,7 @@ function Rest(props) {
             His magic must be stronger then mine to counter it like that I
             thought. I ran though the water letting a lighting ball fly from my
             hands. He left loose a fireball at my lightning ball, mine collapsed
-            on impact, but his flew past me. When I had got in close he thew up
+            on impact, but his flew past me. When I had got in close he threw up
             a wall of fire between us, I jumped into it and slammed my warhammer
             down into his arms coving his face.
           </p>

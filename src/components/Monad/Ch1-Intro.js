@@ -311,7 +311,7 @@ most people learn inspect but either see
           </p>
           <p>
             The sounds of the fight ring out though the small clearing. "Hig-h
-            Impact!!", "Fire Ball!". "fire ball? That's not a junior skill thats
+            Impact!!", "Fire Ball!". "fire ball? That's not a junior skill that's
             intermediate. We all agreed to start at junior level." Berk grows
             towards the smaller Otto. "I thought we must of leveled up by now!"
             retorts Otto. "Why would we level up it's not even dead yet!" Berk

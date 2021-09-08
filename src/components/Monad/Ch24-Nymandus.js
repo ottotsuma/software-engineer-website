@@ -147,7 +147,7 @@ function Intro(props) {
 
           <p>I am sorry Gelfrat. I ran.</p>
 
-          {/* Ditwin burns to death with the feeling of cold fleeing after gelfrat death, gelfrat is smashed into a wall by an undead, tisle runs off with Reingard and the skull goes to the bridge where the skull sees no gap but the others do because he's dead. After otto goes into the lightning tunnel Linhart goes out of the exit after watching ditwin die.*/}
+          {/* Ditwin burns to death with the feeling of cold fleeing after gelfrat death, gelfrat is smashed into a wall by an undead, tisiel runs off with Reingard and the skull goes to the bridge where the skull sees no gap but the others do because he's dead. After otto goes into the lightning tunnel Linhart goes out of the exit after watching ditwin die.*/}
           {/* <h4>Gelfrat - Swap with Ditwin?</h4> */}
 
           <h4>Linhart</h4>

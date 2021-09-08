@@ -247,7 +247,7 @@ function Fourth(props) {
 
           <p>With that I took my leave and went to bed.</p>
 
-          {/* <!-- chat to tisle about her lessons --> */}
+          {/* <!-- chat to tisiel about her lessons --> */}
           {/* <!-- <p>Lightning Spear,
 Imbue Lighting,
 Lightning travel (Object),

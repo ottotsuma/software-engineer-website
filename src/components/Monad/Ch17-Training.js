@@ -49,7 +49,7 @@ function Intro(props) {
 
           <p>
             Putting on lightning cloak I dove back into the battle, the centaur
-            had a heavy body, large hooves and a short crude spear it swang
+            had a heavy body, large hooves and a short crude spear it swung
             around and tried to stab with, the trick to the centaur was to keep
             it from being able to charge. Reingard would block it by staying in
             its line of sight, I would try to heard the monster into Reingard.

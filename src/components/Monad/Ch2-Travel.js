@@ -62,7 +62,7 @@ function Travel(props) {
             but I never heard of Chingaling.
           </p>
           <p>
-            "Ah, sorry forgot my place, thats correct, how silly of me." He
+            "Ah, sorry forgot my place, that's correct, how silly of me." He
             apologized in a strange way.
           </p>
           <p>"What is Chingaling land?" I asked. Did he think I would know?</p>

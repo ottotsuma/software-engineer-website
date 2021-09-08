@@ -149,7 +149,7 @@ Reingard". boy - alden likes Tisiel Skivali  becomes tank --> */}
             The monster was young, it screamed in pain and turned its back away
             from me and tried to come after me with its beak like head. I shot
             lightning magic towards its face and chased down its read end. I
-            swang the warhammer into its rear leg over and over, soon the thing
+            swung the warhammer into its rear leg over and over, soon the thing
             was crippled and although I was able to kill it I had used a lot of
             my mana and stamina.
           </p>

@@ -1543,9 +1543,10 @@ export const SeaPeople = {
         elves about maybe there are dark elves in the desert. The second thing
         was that they knew vampires existed in this town but had never seen one,
         I guess there must of been victims. Well if they are just staring and
-        making assumptions of me because my skin is darker then theirs thats not
-        great but a step up from them thinking I am a blood drinking psychopath.
-        Speaking of I must ask Sarah if non NPC vampires get blood lust.
+        making assumptions of me because my skin is darker then theirs that's
+        not great but a step up from them thinking I am a blood drinking
+        psychopath. Speaking of I must ask Sarah if non NPC vampires get blood
+        lust.
       </p>
       <p>
         During out chat a man came though the door and started shouting about
@@ -1792,7 +1793,32 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         The ride back to the manor was done in awkward silence as Noah was told
         not to speak until we get inside.
       </p>
-      <p>Once back safely Noah tried his hardest to bombard us with questions, but it had been a long day for me. Most of the questions would end up irrelevant anyway with our departure in a few hours.</p>
+      <p>
+        Once back safely Noah tried his hardest to bombard us with questions,
+        but it had been a long day for me. Most of the questions would end up
+        irrelevant anyway with our departure in a few hours. So I left him with
+        Kiksotz. After all he had to meet master before we set off.
+      </p>
+      <p>
+        "Don't slink off. You should take Noah to see master." Kiksotz told me
+        as he reached into the mouth of a stuffed and mounted Tiger-Lily beast.
+        On earth these were just an orange type of flower with black spots but
+        the beast version was more of a tiger. It's main made of petals, tail of
+        leaves with the end flowering one of the orange flowers. Here though was
+        just the head and the peal mane.
+      </p>
+      <p>
+        Once he was in past his elbow he pulled on the leave behind the tigers
+        head and the wall adjacent to it swang back to reveal a stairway down.
+        At the bottom would be Kiksotz's office, a place he did his work for the
+        vampires while pretending to sleep. Who knew there would be paper work
+        involved in being a vampire.
+      </p>
+      <p>
+        We would have to follow him down though. Next to his desk were a pair of
+        large black double doors which housed master. Every time I had met
+        master had been in that dark room, he rarely came out I was told.
+      </p>
       {/* Nahual */}
     </Content>
   ),
@@ -1840,6 +1866,7 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         strength to back it up, no one would call us liars. Or make the
         connection to the increase in vampire attacks.
       </p>
+      <p>So how is it you and your master come to be apart of the republic?</p>
       {/* Give the blood bottle to Sarah */}
       {/* In the south you join the war and find Alden people. See the side of the war from the republic. */}
       {/* The purpose of joining as mercenaries, but working with the vampires to carve out a piece of land to rule */}

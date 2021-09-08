@@ -274,7 +274,7 @@ function Intro(props) {
 
           <p>
             Shrorlei - "Not being picky as such just, you might be interested to
-            know thats how the dwarfs burry their dead. Deep in tunnels behind
+            know that's how the dwarfs burry their dead. Deep in tunnels behind
             doors or large rocks with the things they wanted to take with them."
           </p>
 

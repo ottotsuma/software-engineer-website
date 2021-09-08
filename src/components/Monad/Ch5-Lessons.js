@@ -284,7 +284,7 @@ function Lessons(props) {
           </p>
           <p>
             "Truthfully I didn't. Just took a chance, to see if you where
-            interested in the door or knew anything about it. Thats why I showed
+            interested in the door or knew anything about it. That's why I showed
             you around, no one else had taken any real interest in it. So do you
             want to know whats behind the door?" she asked.
           </p>
@@ -626,7 +626,7 @@ function Lessons(props) {
             'Strike' and the golem became enraged as the mana struck down from
             above him landing on his arm. The crack in his shoulder filled with
             the mana and threatened to tare his arm off. "Tisiel, attack it." I
-            shouted. Tisiel turned and thew a ball of mana into it. One arm
+            shouted. Tisiel turned and threw a ball of mana into it. One arm
             broke off and seeing that manaball can be used as a weapon, I joined
             in and created a ball of mana in the palm of my hand and slammed it
             into the golem. Under the bombardment soon the golem fell apart with

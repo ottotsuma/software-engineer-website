@@ -76,7 +76,7 @@ function Intro(props) {
             grabbing his warhammer Otto span around looking about. Nothing.
             Closer inspection would show he had been dead awhile, his flesh was
             mostly gone, the eyes removed it seemed the animals had long been at
-            his body, the smell was bad but thats not what had Otto's attention.
+            his body, the smell was bad but that's not what had Otto's attention.
             Tangled in the vines the man was wearing strange clothes, even
             strange for a noble, a blue jacket with gold trim, but it had no
             hood and didn't feel like a woolen robe. The cuffs and shoulders

@@ -174,11 +174,11 @@ function Intro(props) {
             magic items I am not sure I can even use." I said thinking I could
             not be sure I could even use all of these items.
           </p>
-          {/* Here - Does tisle give the items back later? */}
+          {/* Here - Does tisiel give the items back later? */}
           <p>
             "Ohh, you trust me? That's new! I'll tell you what each item does,
             well what I know. Then we take turns picking one each? That way if
-            there is an item you can use you will pick it first." Tisle
+            there is an item you can use you will pick it first." Tisiel
             suggested. I guess I never did tell her I could identify some items
             but it is her hobby so..
           </p>

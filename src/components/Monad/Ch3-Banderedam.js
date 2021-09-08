@@ -176,7 +176,7 @@ Charlemagne in 794 decreed that a single silver penny (weighing 1.7 grams) shoul
           </p>
           <p>
             "Quite the show isn't it? Almost every item in here contains magic
-            so, thats why." He said looking at my eyes.
+            so, that's why." He said looking at my eyes.
           </p>
           <p>"Why are there so many colours?" I asked.</p>
           <p>

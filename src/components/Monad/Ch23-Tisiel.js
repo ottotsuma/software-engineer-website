@@ -291,7 +291,7 @@ function Intro(props) {
           </p>
 
           <p>
-            Tisle made sense as always, I do not know if her parents just read
+            Tisiel made sense as always, I do not know if her parents just read
             her strange stories as a child, taught her well or she was just
             smart. None of it really mattered. "You're really pretty when you
             explain things, like you are in your zone." I said without thinking
@@ -302,7 +302,7 @@ function Intro(props) {
             She looked at me and went a little red in the cheeks. I always liked
             her smart side, like there was nothing in the world she could not
             figure out given enough time. I went to try and say something else,
-            but before I could Tisle planted a kiss on my lips. "Don't ruin the
+            but before I could Tisiel planted a kiss on my lips. "Don't ruin the
             moment by talking" She said.
           </p>
 

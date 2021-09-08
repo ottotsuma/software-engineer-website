@@ -260,7 +260,7 @@ Now
 
           <p>
             As the skull spoke to the voice from the other side of the room we
-            slowly approached, since Tisle started to walk forward as well, soon
+            slowly approached, since Tisiel started to walk forward as well, soon
             I could make out that there was a man sitting on a throne at the
             other end. The closer we got the more I could make out that this man
             had no eye balls, no skin. However he did have a few small muscles

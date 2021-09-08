@@ -80,7 +80,7 @@ function Intro(props) {
             of those treasures before the academy could lay claim to all of
             them. Tell you what if one of you dies again on this trip we promise
             not to tell the academy, and if you don't die we will even help you
-            keep one treasure. How generous is that? Thats 100% more treasure
+            keep one treasure. How generous is that? That's 100% more treasure
             then you kept last time. What do you say?"
           </p>
 
@@ -455,13 +455,13 @@ function Intro(props) {
             "Right, Ditwin and Gelfrat go left you two should be able to find
             gold." Linhart gave orders out to each to make groups, before he had
             finished Ditwin and Gelfrat walked off first down the left route
-            before they could be stuck with some 1st year. "Reingard, Tisle,
+            before they could be stuck with some 1st year. "Reingard, Tisiel,
             Hildebold & Petsche go in the middle. Nymandus and myself and Otto
             will go right."
           </p>
 
           <p>
-            As we stepped up to the entrances Tisle whispered to me, "The doors
+            As we stepped up to the entrances Tisiel whispered to me, "The doors
             are marked easy, medium and hard. Be careful in there." I gave a
             short nod and walked though.
           </p>
@@ -671,7 +671,7 @@ function Intro(props) {
             it stood for 3 and did not take much to translate. On the other side
             of the door was yet another weird room, there was no floor this time
             just a bottomless black pit with mist rising from below. Across
-            which was an old wood and rope bridge which swang in the .... lack
+            which was an old wood and rope bridge which swung in the .... lack
             of wind. Sitting at the foot of the bridge was Linhart. He gave me a
             quick look over his shoulder before saying. "So the stairs outside
             lead down to the other entrances?"
