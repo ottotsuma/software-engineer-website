@@ -1864,13 +1864,42 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         to be a paladin.
       </p>
       <p>
-        "Nice wings." Noah said. I could of slapped my own face, did he really just say something so awkward.
+        "Nice wings." Noah said. I could of slapped my own face, did he really
+        just say something so awkward.
       </p>
       <p>
-        Master deep voice came out in German or Aldenese, either way it filled the room as he said. "With the description's of your demonic skin color I was hoping you were from Xibalba, but you really are a burnt elf. I thank you for the compliment. I trust you have been told of my small request."
+        Master deep voice came out in German or Aldenese, either way it filled
+        the room as he said. "With the description's of your demonic skin color
+        I was hoping you were from Xibalba, but you really are a burnt elf. I
+        thank you for the compliment. I trust you have been told of my small
+        request."
+      </p>
+      <p>Ah potato's, knew I forgot something.</p>
+      <p>
+        "Dark elf. Not burnt elf. This is my natural skin, we are not the same
+        race." Noah corrected. Did he have a death wish? It took long enough to
+        get here!
       </p>
       <p>
-        Ah potato's, knew I forgot something. 
+        "A different race? The only change is the color of your skin?" Master
+        questioned.
+      </p>
+      <p>
+        "Ah, no. Actually there are other differences. The short of it is that
+        our racial traits and skill trees are different but we both have a
+        common ancestor." Noah explained. I too was interested in this as I had
+        though dark elves would be either elves but with dark skin or the more
+        classical dark in mind and powers, but they usually have light skin. I
+        would have to ask Noah later more about this.
+      </p>
+      <p>
+        "The people from across the sea are truly interesting. More races. I
+        would love to learn more but you must leave soon, I trust you will
+        inform Noah of our plans Sarah?" He looked at me and I nodded. "Go now,
+        we will speak again in the future." Master said walking out of the light
+        and back into the darkness. Although I could continue to see him walk
+        further into the room I took Noah out, master was right, we had to leave
+        under the cover of night.
       </p>
       {/* Nahual */}
     </Content>
