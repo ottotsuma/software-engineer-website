@@ -1908,6 +1908,30 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
     <Content style={{ overflowWrap: "anywhere" }}>
       <p>Going South</p>
       <p>
+        We had set off that night in the same carriage we took during the
+        evening. Kiksotz was teaching me how to drive the carriage because he
+        would be leaving us before the border. Sarah and Josh were in the back
+        roleplaying as some posh western woman and her mute bodyguard.
+      </p>
+      <p>
+        "So tell me again how sending us into a war is going to help you and
+        your master?" I asked Kiksotz for the fifth time.
+      </p>
+      <p>
+        "As I said before, you're not going to fight in the war, just look for a
+        single person. A person with the ability to use white lightning. Then
+        report it back to us." Kiksotz explained again.
+      </p>
+      <p>"While there is a war happening around us?" I asked.</p>
+      <p>
+        "Move around at night, your skin would make you harder to spot." Kiksotz
+        jested.
+      </p>
+      <p>
+        "We both know I cannot see in the dark. Ah let's change the topic, "
+      </p>
+
+      <p>
         This land is old. Just because it is new to you does not mean it was not
         here before. This land use to be unified under one great empire,
         Pocotcotco. Like all empires, even the great ones, it crumbled. From its
