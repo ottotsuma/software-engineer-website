@@ -1928,51 +1928,57 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         jested.
       </p>
       <p>
-        "We both know I cannot see in the dark. Ah let's change the topic, "
-      </p>
-
-      <p>
-        This land is old. Just because it is new to you does not mean it was not
-        here before. This land use to be unified under one great empire,
-        Pocotcotco. Like all empires, even the great ones, it crumbled. From its
-        ruins came new countries, cultures and ideas. The fall of an empire is
-        not like a fire. The past is not washed away, the people that made up
-        that old empire, although fewer were still there. Each new nation dealt
-        with this in different ways. The Republic, let it doors open to anyone
-        and everyone so long as they serve the republic and obey their laws. As
-        such the republic could field greater armies, produce more resources and
-        therefore took up more land. It did however lead to many people of many
-        different backgrounds and cultures and beliefs all living together.
+        "We both know I cannot see in the dark. Ah let's change the topic, why
+        did you and your master come to the republic? He said you were both from
+        Xibalba. Why not come to the old land, why stay in the new land?"
       </p>
       <p>
-        The two biggest contributors of people to the republic where the
-        Aldenese who took their axes against the Pocotcotcos left behind in the
-        empires collapse. They were also not very welcoming of refugees of war.
-        The second contributors were the elves. After they took their freedom,
-        if you were on their island and not an elf it was time to get out.
+        "This land is old. Just because it is new to you does not mean it was
+        not here before." Kiksotz started to explain. "To understand why we came
+        to the republic over the other countries I assume you mean, well i'll
+        give you a brief history since you are new to this, old land." Kiksotz
+        smiled at his own joke. "This land use to be unified under one great
+        empire, Pocotcotco. Like all empires, even the great ones, it crumbled.
+        From its ruins came new countries, cultures and ideas. The fall of an
+        empire is not like a fire. The past is not washed away, the people that
+        made up that old empire, although fewer were still there. Each new
+        nation dealt with this in different ways. The Republic, let it doors
+        open to anyone and everyone so long as they serve the republic and obey
+        their laws. As such the republic could field greater armies, produce
+        more resources and therefore took up more land. It did however lead to
+        many people of many different backgrounds and cultures and beliefs all
+        living together."
       </p>
       <p>
-        The smaller kingdoms and nations made around the foundations of the
+        "The two biggest contributors of people to the republic where the
+        Aldenese who took up their axes against the Pocotcotcos that were left
+        behind in the empires collapse. They were also not very welcoming of
+        refugees of war. The second contributors were the elves. After they took
+        their freedom, if you were on their island and not an elf it was time to
+        get out."
+      </p>
+      <p>
+        "The smaller kingdoms and nations made around the foundations of the
         republic were soon swallowed up although not though war at first but
         though membership. The offers were the nobles would be given a higher
         rank then their common people, a title and offices in the government.
         Jobs they were doing anyway. The common people gained the right to run
-        for and elect their own officials to a citizens assembly.
+        for and elect their own officials to a citizens assembly."
       </p>
       <p>
-        Well that is how the republic came to be what it is today. With lands
+        "Well that is how the republic came to be what it is today. With lands
         stretching so far, unbreakable class distinctions rooted in family
         history and the internal discord that comes with many cultures living
         close to each other. They squabble and fight over things we as outsiders
-        see as worthless reasons to fight.
+        see as worthless reasons to fight."
       </p>
       <p>
-        This made it easy for master and myself to slip in using the name of an
+        "This made it easy for master and myself to slip in using the name of an
         old family who had fallen on hard times. With gold and gems and the
-        strength to back it up, no one would call us liars. Or make the
-        connection to the increase in vampire attacks.
+        strength to back it up, no one would mistake us for the sea people, or
+        call us liars."
       </p>
-      <p>So how is it you and your master come to be apart of the republic?</p>
+      <p>So why did you leave Xibalba? Noah asked.</p>
       {/* Give the blood bottle to Sarah */}
       {/* In the south you join the war and find Alden people. See the side of the war from the republic. */}
       {/* The purpose of joining as mercenaries, but working with the vampires to carve out a piece of land to rule */}
