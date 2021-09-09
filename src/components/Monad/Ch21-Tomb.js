@@ -200,10 +200,10 @@ function Intro(props) {
 
           <p>
             It took a few days travel the we found our selves far beyond the
-            sight of the academy, in a field where the grass grew to the hight
+            sight of the academy, in a field where the grass grew to the height
             of a tall man. The blades seem sharp to the touch and would leave
             paper cuts on your bare skin if you where not careful. We were
-            harassed by large flying beatles around level 1 ~ 4 ambushing us in
+            harassed by large flying beetles around level 1 ~ 4 ambushing us in
             quick raids. A melee attack was too hard, they where the size of a
             fist up to the size of a skull but moved too quickly so magic worked
             better.
@@ -284,7 +284,7 @@ function Intro(props) {
             One of the 3rd years did get his foot stuck in one, lost his boot in
             the process of being dragged out, he had a fat face, bulbous ruddy
             nose and crooked front tooth. Ditwin was his name, an earth mage
-            specialising in rocks mostly. During the fights with the beatles in
+            specialising in rocks mostly. During the fights with the beetles in
             the grasslands his abilities produced great rocks the size of a mans
             chest for both defense and offence but in the end achieved very
             little with his poor accuracy.
@@ -585,7 +585,7 @@ function Intro(props) {
             hole below it, spikes ran along the hole and out from inside came a
             huge roar. Spit and bile sprayed all over also being stopped by the
             unknown force falling onto the floor below and like slop rolled back
-            into the water.Then, it spoke. "Stop tickling me! Are you here to
+            into the water. Then, it spoke. "Stop tickling me! Are you here to
             torment me? I was asleep for so long then awoken by your constant
             tickling!"
           </p>

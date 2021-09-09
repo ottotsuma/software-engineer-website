@@ -302,7 +302,7 @@ function Intro(props) {
             seeds grow.
           </p>
           <p>
-            I kept finding three-legged crows and shotting lighting seeds at
+            I kept finding three-legged crows and shooting lighting seeds at
             them taking care to run away after. I noticed sometimes I missed my
             target with the lightning seeds so I guess the accuracy of this
             spell is like lightning-ball, it sometimes just goes off target. I

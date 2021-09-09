@@ -68,7 +68,7 @@ function Intro(props) {
 
           <p>
             Soon the monster fell and our first day of training would stop
-            here.The monster had dropped a necklace made of teeth and an eye
+            here. The monster had dropped a necklace made of teeth and an eye
             ball. None of us really wanted them, but we would sell them for
             money, centaurs cannot be found outside of the academy.
           </p>

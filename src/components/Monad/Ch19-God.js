@@ -431,7 +431,7 @@ Noticed by a God - get the notice of a God, (varies) */}
           </p>
           <p>"I promise not to hit you in the back of the head." He replied with a smile.</p>
           <p>"Or the front" I added.</p>
-          <p>"Ot the front." He kept smiling.</p>
+          <p>"Or the front." He kept smiling.</p>
           <p>"Just, don't hit me anywhere with it! Your words make me
             uneasy!" I vented.
           </p>
@@ -445,7 +445,7 @@ Noticed by a God - get the notice of a God, (varies) */}
             long curved tunnel up to the arena entrance the light at the end of
             the tunnel spread around the mouth of the exit. Blinded, our eyes
             soon adjusted and before us was a metal gate holding us back from
-            entering the arena, the opposite team already waiting behind theres.
+            entering the arena, the opposite team already waiting behind theirs.
           </p>
 
           <p>

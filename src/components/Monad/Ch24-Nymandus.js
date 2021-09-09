@@ -52,7 +52,7 @@ function Intro(props) {
             I had just thrown a mana-rock into the pond when a bunch of freak
             looking flies came out and started to bite onto me. Easily enough to
             fix, I wrapped my whole body rock-mana and they can bite into that
-            all they want. I turned to see Gelfrat trying to help by shotting
+            all they want. I turned to see Gelfrat trying to help by shooting
             them off me with his water only to start screaming when they bit
             into him.
           </p>
@@ -230,7 +230,7 @@ function Intro(props) {
           <h4>Tisiel (& Reingard)</h4>
           <p>
             It felt like we had followed Vortigern's directions for half the
-            night because my legs where killing me. The pain was just shotting
+            night because my legs where killing me. The pain was just shooting
             up and down my legs from the ache. I wanted to at least spend some
             time with Reingard alone but Vortigern just had to ruin that, at
             least if we are going somewhere that somewhere we would still be
@@ -372,7 +372,7 @@ function Intro(props) {
           <p>
             While he was talking about all the different items we passed along I
             made my way to the treasure vault. It was another large door,
-            although this one was one quatre the size of the last one, maybe
+            although this one was one quarte the size of the last one, maybe
             this was a single person door for these giants. At some point
             Vortigern always left more questions then answers running around my
             head and I feel like it would take a life time or two to find out

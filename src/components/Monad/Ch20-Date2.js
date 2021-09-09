@@ -174,7 +174,7 @@ function Intro(props) {
             experience. I had never met anyone that had anything nice to say
             about their local lord or duke, but I had not yet had much dealings
             with them. Just the compliments I heard from the other villagers. It
-            is true the dukes are known to have tamed or captured fiers monsters
+            is true the dukes are known to have tamed or captured fierce monsters
             from the forests of Alden, without them our population would of been
             worn down in wars over the years. The idea we all had one and went
             hunting regularly though could not be true.

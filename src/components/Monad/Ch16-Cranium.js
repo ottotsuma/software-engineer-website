@@ -12,11 +12,11 @@ function Intro(props) {
           <p>
             After having arrived back in my room from the dinner party I removed
             the grey satin dress, shoulderless hour-glass shaped to fit my
-            waist, flowing off my hips giving me gliding wings down to my calfs
+            waist, flowing off my hips giving me gliding wings down to my calves
             if I walked too quickly. The thought of one day being able to just
             glide up into the sky with nothing but my foot steps made me feel
             like a kid again playing at magic, the reality was that using mana
-            was much more exserting then I had imagined in my make believe
+            was much more exerting then I had imagined in my make believe
             worlds.
           </p>
 
@@ -152,7 +152,7 @@ function Intro(props) {
 
           <p>
             "I might have an older brother, but that doesn't mean he likes
-            me.Anyway the point is we can recruit other people at the arena."
+            me. Anyway the point is we can recruit other people at the arena."
           </p>
 
           <p>
