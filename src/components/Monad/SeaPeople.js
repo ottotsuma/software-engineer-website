@@ -1986,7 +1986,6 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
       {/* Contact with Effie */}
       {/* The lands are re-conquered during the sea peoples invasion, turning it into the guild territory, before the expansion to the west. Some of the Aldenese hide in this guild. */}
       {/* The invasion of earth */}
-      <Shine>I LOVE YOU TSUMA!</Shine>
     </Content>
   ),
 };

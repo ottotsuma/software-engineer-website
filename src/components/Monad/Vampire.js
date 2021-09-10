@@ -83,7 +83,7 @@ export default function Vampire() {
         ]}
         type={"human"}
       />
-                  {/*  crimson flash, vampiric drain, vampiric wings, crimson aegis, Undying body, immortal body, unyielding blood demon, telepathy, fartalk */}
+      {/*  crimson flash, vampiric drain, vampiric wings, crimson aegis, Undying body, immortal body, unyielding blood demon, telepathy, fartalk */}
       <h1>Vampire Ranks</h1>
       <SubTitle>Vampires</SubTitle>
       <ul>
