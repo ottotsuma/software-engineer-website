@@ -206,7 +206,7 @@ function Intro(props) {
             The lightning seed gripping to Max was draining his health and
             recovering my mana however my health was not recovering. I had taken
             a lot of damage to my back, my muscles ached. The seed soldier had
-            taken most of the blow for me lsat time but it still hurt. I
+            taken most of the blow for me last time but it still hurt. I
             scrambled to for some of the other seeds in my pocket, maybe I would
             need to use them again. This is exactly why I needed to level up
             more, find better gear and not take fights right now, I had no good
@@ -311,7 +311,7 @@ function Intro(props) {
           <p>
             "This." Licking his lips. "Is the testing phase after months of
             carful crop breeding." He patted next to him. "Come and eat with me,
-            honestly I am dieing here." He said holding his belly.
+            honestly I am dying here." He said holding his belly.
           </p>
           <p>
             I sat down next to him and tried some of the food. It was really
@@ -505,7 +505,7 @@ function Intro(props) {
             the roof and a plant dropped down into the middle of the room.
           </p>
           <p>
-            "Luminus plant. This one is just a child but it can still bite you
+            "Luminous plant. This one is just a child but it can still bite you
             even if it cannot swallow you yet. It is somewhere between level 1 ~
             9 after level 9 they grow into adults, most of it's stats will be in
             strength. Good luck." Ralsan said as the plant unfolded into a giant
@@ -514,7 +514,7 @@ function Intro(props) {
             been nice!" I shouted as the plant moved to attack me.
           </p>
           <div className="pop">
-            Luminus plant
+            Luminous plant
             <img className="popOut" src={Planty} alt="Plant" />
           </div>
           <p>
@@ -522,7 +522,7 @@ function Intro(props) {
             and grew it into a soldier. The seed soldier charged into the plant.
             I took some paces backwards as the soldier would cover me while I
             cast spells from the back. I gathered my mana into the palm of my
-            hand and formed it into a lightning seed throwing it at the Luminus
+            hand and formed it into a lightning seed throwing it at the Luminous
             plant.
           </p>
           <p>
@@ -558,17 +558,17 @@ function Intro(props) {
           </p>
           <p>
             "Hey Otto, I don't mean to judge your style, but you know the
-            Luminus plant is taller then the dwarf tree?" Ralsan shouted across
+            Luminous plant is taller then the dwarf tree?" Ralsan shouted across
             the room.
           </p>
           <p>
-            I looked up, I saw the mouth of the Luminus plant open and start
+            I looked up, I saw the mouth of the Luminous plant open and start
             heading towards me. It had just reached over the top of the dwarf
             tree! I panicked and used 'lightning harvest' I had been practicing
-            with it so much and the Luminus plant is a kind of plant, a moving
+            with it so much and the Luminous plant is a kind of plant, a moving
             man eating kind. I might of survived a bite, I had 5 vitality and
             the plant cant of been over level 9 itself. I would never get to
-            find out if I would of survived though. The Luminus plant had just
+            find out if I would of survived though. The Luminous plant had just
             disappeared.
           </p>
           <p>
@@ -581,10 +581,10 @@ function Intro(props) {
           </p>
           <p>
             Who could blame him. No way right? I checked my inventory and sure
-            enough inside was Luminus plant parts. When I harvest the normal
+            enough inside was Luminous plant parts. When I harvest the normal
             bacon leaf plants I would get to keep the leaves and seeds. It
             seemed to just harvest what ever was useful. This time though I just
-            got some leaves. "Hey Ralsan, does the Luminus plant rarely produce
+            got some leaves. "Hey Ralsan, does the Luminous plant rarely produce
             seeds? Or anything useful?" I asked.
           </p>
           <p>

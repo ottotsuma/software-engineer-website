@@ -357,7 +357,7 @@ function Intro(props) {
 
           <p>
             Leon looked towards me puzzled but Milly just agreed, it seemed she
-            had grown quickly with her parents only dieing the year before I
+            had grown quickly with her parents only dying the year before I
             think it was. The food was good and I managed to catch up with Leon
             & Milly was good company too. I told him of the academy and my
             mission, the strange place that was Savigal. Leon told me of the

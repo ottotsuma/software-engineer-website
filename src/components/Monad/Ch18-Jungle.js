@@ -524,7 +524,7 @@ function Intro(props) {
             Shrorlei I had opted to stay outside just incase with Tisiel. I told
             her I had found another coin around the priest and guardian sitting
             on a stone alter between them. Showing her the coin. It was similar
-            to the coin in the last womans grave in weight & size. On her coin
+            to the coin in the last woman's grave in weight & size. On her coin
             was a king with a skull for a face and the other a strange symbol
             like the symbols on the table upstairs. This new coin had the same
             symbol on one side and priest on the other holding a heart above a

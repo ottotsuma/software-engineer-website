@@ -181,7 +181,7 @@ function Intro(props) {
             the academy. I have not thought about Effi and the others for a long
             time, I hope they are doing well. I was in front of a group of 10
             men holding spears and wearing leather armor. A guy tapped me on the
-            shoulder. "Alright sargent, just get these men though the obstacle
+            shoulder. "Alright sergeant, just get these men though the obstacle
             course course and you will get a pass and move to the next level." A
             man in about his 40's said to me wearing metal armor.
           </p>
@@ -233,7 +233,7 @@ function Intro(props) {
             Just like last time. I failed over and over. It was fine though
             because each time I learned something new from the man. I tried to
             ask his name but all he said was "Concentrate on your work." So I
-            took to naming him 'Knight'. The rank above sargent in the Aldenese
+            took to naming him 'Knight'. The rank above sergeant in the Aldenese
             army. Creative I know. Eventually I had passed, I learned a great
             amount about commanding summons. The third level though, it looked
             the same as the second however Knight's instructions ruined my fun.
@@ -469,7 +469,7 @@ function Intro(props) {
             seed-soldier took the hits for me, hitting the ants back when he
             could. I cast lighting seed at the ants. I missed. Baldly. It went
             down a hole the ants were coming out of before. While I did not mind
-            dieing in here too much, the death by a thousand ant bites would be
+            dying in here too much, the death by a thousand ant bites would be
             too painful, I couldn't cause enough damage to hundreds of ants to
             make them explode and get it over with. I could feel the lighting
             seed leeching mana from the ants on its way down, far too many ants.

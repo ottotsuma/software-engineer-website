@@ -286,7 +286,7 @@ function Intro(props) {
           </p>
           <p>
             "Most intriguing. There are no records of a monster eating plant
-            growing so quickly. It is already at it's 3rd stage." A womans voice
+            growing so quickly. It is already at it's 3rd stage." A woman's voice
             came from behind the plant.
           </p>
           <p>

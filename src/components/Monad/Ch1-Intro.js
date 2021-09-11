@@ -97,7 +97,7 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             ice magic spray out from me causing him to slow and be cut by small
             flakes of ice. I moved in and stabbed him just below the waist. He
             moved back holding his stomach and cursed in a language I don't
-            know. "썅놈" I moved back as he was dieing and gathered magic into
+            know. "썅놈" I moved back as he was dying and gathered magic into
             my hand. He reached down and pulled up a wand? He pointed it right
             at my head and the sound it gave off blew my ear drums out, there
             was a large flash of light, then nothing.
