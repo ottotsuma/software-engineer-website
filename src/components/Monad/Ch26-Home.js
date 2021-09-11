@@ -96,7 +96,7 @@ function Intro(props) {
             traveling with Takeo saying they where cold, he had given me warmer
             clothes I was going to return to him later but he insisted I burn
             them. I guess being in a tomb with dead bodies has left me with an
-            unpleasant oder. In short I had left out anything that happened in
+            unpleasant odor. In short I had left out anything that happened in
             the armory, along with the incident with the coffin and any mention
             of Vortigern chalking the discovery of the tomb to the third years.
           </p>
@@ -132,9 +132,9 @@ function Intro(props) {
             Leikan area? She was offering you far better and closer residences
             to the academy. You didn't have to be so polite and pick some where
             near the cliff side if that was your intention. It wouldn't be a
-            problem to move you close to the nobles quatres if you asked her." I
+            problem to move you close to the nobles quarters if you asked her." I
             caught the hint at the end, that even if I asked moving into the
-            nobles quatres would be impossible and even moving near it would be
+            nobles quarters would be impossible and even moving near it would be
             a huge upgrade for me.
           </p>
 
@@ -205,7 +205,7 @@ function Intro(props) {
           <p>"Ah I haven't paid yet." I said.</p>
 
           <p>
-            "Err, Ogori!" She shouted to the man behind the stall. He nodded
+            "Err, Ogoru!" She shouted to the man behind the stall. He nodded
             back. "It's done now let's go."
           </p>
 

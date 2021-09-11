@@ -316,7 +316,7 @@ function Intro(props) {
             else in the academy.
           </p>
           <p>
-            I went over to the training hall next to the princesses quatres.
+            I went over to the training hall next to the princesses quarters.
             Sure enough Takeo was inside training by himself. "Hey, do you know
             where Tsuma is? I got elected as class representative..."
           </p>

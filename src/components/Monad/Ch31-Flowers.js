@@ -402,7 +402,7 @@ function Intro(props) {
           </p>
           <p>
             "Huh, like a shield? That could work. Thank you Ralsan, really." I
-            said with ernest.
+            said with earnest.
           </p>
           <p>
             I wanted to try it out right here, but as I held the seed in my

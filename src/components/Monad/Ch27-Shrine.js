@@ -251,7 +251,7 @@ function Intro(props) {
             the pit of my stomach. To make a connection though the mask I had to
             produce a drop of my blood and place it inside of the mask where the
             mask would touch my face, place it on the alter inside the shrine
-            and make an ernest attempt to connect to the white stag God. If all
+            and make an earnest attempt to connect to the white stag God. If all
             went well the god would bless the mask and it would become a magical
             item, then I could fill the mask with my mana and bind it to myself.
           </p>
@@ -323,7 +323,7 @@ Deer are considered messengers to the gods in Shinto, especially Kasuga Shrine i
 
           <p>
             "It's a mask, all masks have some disease resistance, I thought
-            you'd know that."She said as if mentioning it was strange. It did
+            you'd know that. "She said as if mentioning it was strange. It did
             make sense since it covers your face, but that was not what I wanted
             to focus on, before I replied she carried on. "You have no home
             right? The lady you told me about said you would be coming to live

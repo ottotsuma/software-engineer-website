@@ -157,7 +157,7 @@ function Intro(props) {
           <p>
             I can use the shoes Tisiel gave me more to dodge attacks then to
             help me move in quickly maybe to strike then use them to get away,
-            but they only work after i've been stuck.
+            but they only work after I've been stuck.
           </p>
 
           <h4>pov Tisiel</h4>

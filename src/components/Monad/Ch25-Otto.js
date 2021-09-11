@@ -131,7 +131,7 @@ function Intro(props) {
           </p>
 
           <p>
-            "So, question i've had on my mind for a long time. We found you in
+            "So, question I've had on my mind for a long time. We found you in
             some kind of study right? What was that place?" I asked to pass the
             time.
           </p>
@@ -164,7 +164,7 @@ function Intro(props) {
 
           <p>
             "Are you just making small talk? Yes we often sealed things with
-            coins, they are easily stored and you can decorate them. Whats wrong
+            coins, they are easily stored and you can decorate them. What's wrong
             with that? Well it is not like I was allowed access to everything in
             every era but they mostly used this place to store things and the
             coins where kept by the people in charge of protecting them. I guess
@@ -343,12 +343,12 @@ function Intro(props) {
           <p>
             My mana recovered after one moment, the damage might of been small
             but so was my amount of mana. It seemed like because they where made
-            of these shadows nad just using the skeletons as armor my seed was
+            of these shadows and just using the skeletons as armor my seed was
             having a strange reaction causing my mana to shoot up.
           </p>
 
           <p>
-            I shot another seed at the next one, then the final skelton. While
+            I shot another seed at the next one, then the final skeleton. While
             my mana was almost drained from each shot it quickly recovered, the
             cool down for the spell should of taken me longer to cast then this.
             Something was unusual about this place but as long as I could stay

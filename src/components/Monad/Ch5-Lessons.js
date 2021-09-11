@@ -367,7 +367,7 @@ function Lessons(props) {
           />
           <div className="BreakPoint"></div>
           <p>
-            "Whats that face?" Tisiel asked walking out from the large door
+            "What's that face?" Tisiel asked walking out from the large door
             embedded into the cliff.
           </p>
           <p>

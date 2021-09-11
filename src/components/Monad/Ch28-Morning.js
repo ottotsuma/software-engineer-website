@@ -249,7 +249,7 @@ function Intro(props) {
           <p>
             "Hey Ralsan, I do have some spells that might be able to help out
             with farming... I am not sure if I should get them or not but I
-            would need to level up, im quite close really." I said hoping there
+            would need to level up, I'm quite close really." I said hoping there
             might be pests that come here since it is a farm. Maybe I could kill
             them.
           </p>

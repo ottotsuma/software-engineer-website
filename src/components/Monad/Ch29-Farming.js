@@ -119,7 +119,7 @@ function Intro(props) {
           <p>
             "No, hundreds usually they do them in batches. The quality is okay
             considering the speed though. How many can you do at once? What is
-            the description of the spell? Whats the efficiency or fail rate?" He
+            the description of the spell? What's the efficiency or fail rate?" He
             asked putting on a kind of business face.
           </p>
           <p>
