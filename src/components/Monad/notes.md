@@ -576,6 +576,8 @@ squids have blue blood because it is copper based, humans red because of hemoglo
 Good fish monsters on youtube, but the terror bird from south america is good.
 https://www.youtube.com/watch?v=M3xYV3UX_t4
 
+Swap south of Alden, Titanoboa 
+
 # Random Ideas:
 
 Healing
