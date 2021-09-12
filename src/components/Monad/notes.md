@@ -569,7 +569,7 @@ A lord of Xibalba whose name means `Blood Gatherer'. He is the father of the god
 Mitnal
 Also known as `Metnal' , this is the Quiche Maya word for the Underworld and corresponds with the Yucatec Maya vision known as Xibalba. According to the Popl Vuh, Mitnal was a dark land flowing with rivers of blood and pus and populated by deities with names such as Bloody Teeth, Bloody Claws, and Flying Scab, among others.
 
-
+Dragon of the  desert ate all the elephants on this land.
 
 # Random Ideas:
 
