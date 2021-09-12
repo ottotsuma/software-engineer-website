@@ -573,6 +573,9 @@ Dragon of the  desert ate all the elephants on this land.
 
 squids have blue blood because it is copper based, humans red because of hemoglobin, what other kinds of blood could we have?
 
+Good fish monsters on youtube, but the terror bird from south america is good.
+https://www.youtube.com/watch?v=M3xYV3UX_t4
+
 # Random Ideas:
 
 Healing
