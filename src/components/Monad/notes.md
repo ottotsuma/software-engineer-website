@@ -571,6 +571,8 @@ Also known as `Metnal' , this is the Quiche Maya word for the Underworld and cor
 
 Dragon of the  desert ate all the elephants on this land.
 
+squids have blue blood because it is copper based, humans red because of hemoglobin, what other kinds of blood could we have?
+
 # Random Ideas:
 
 Healing
