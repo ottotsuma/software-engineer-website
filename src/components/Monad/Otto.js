@@ -96,6 +96,13 @@ export default function Otto() {
         ]}
         type={"human"}
       />
+      <Spells
+        spells={[
+          // Negatives
+          { name: "Otitis Externa", level: 1 },
+        ]}
+        type={"negatives"}
+      />
     </div>
   );
 }

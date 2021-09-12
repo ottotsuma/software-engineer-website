@@ -1727,7 +1727,7 @@ export const spellList = {
     passive: false,
     1: "The user can now fly.",
   },
-  "Iceball": {
+  Iceball: {
     name: "Iceball",
     passive: false,
     1: "Shoots a ball of ice.",
@@ -2554,7 +2554,7 @@ export const spellList = {
     passive: false,
     1: "When using the skill while performing different types of kicks. A red line of blood aura in the shape of a crescent will be made. The attack carries a distance of ten meters but the aura will get smaller and weaker the further it travels. Costs 2 HP for every kick.",
   },
-  "Daze": {
+  Daze: {
     name: "Daze",
     passive: false,
     1: "This skill has no cost and can be used on the opponent to stun them between 0.2 seconds and 0.5 seconds at a time. Must have direct eye contact with the opponent. The skill has a chance of failing, depending on the strength of the enemy and on the user's charisma points. The more the skill is used on an opponent the higher chance they have off resisting.",
@@ -2616,7 +2616,7 @@ export const spellList = {
     passive: true,
     1: "No points can be spent on this passive. As it levels up the user becomes closer to becoming a vampire knight.",
   },
-  "Vampire": {
+  Vampire: {
     name: "Vampire",
     passive: true,
     1: "No points can be spent on this passive. As it levels up the user becomes closer to becoming a vampire noble.",
@@ -2716,9 +2716,14 @@ export const spellList = {
     passive: false,
     1: "While this mode is active, the caster draws in nearby entropic energy, draining residual power from any dead enemy nearby to restore the caster's mana.",
   },
+  "Otitis Externa": {
+    name: "Otitis Externa ",
+    negative: true,
+    1: "-2 sense when using ears alone.",
+  },
 };
 
-// Ghoul, Wight, Halfling, Vampire→Vampire Noble→Vampire Knight, Namanari Hannya <Chunari Hannya> <Honnari Hannya>, Dhampir, Banshee, Draugr→Great Draugr, Blood Fairy, Strigoi, 
+// Ghoul, Wight, Halfling, Vampire→Vampire Noble→Vampire Knight, Namanari Hannya <Chunari Hannya> <Honnari Hannya>, Dhampir, Banshee, Draugr→Great Draugr, Blood Fairy, Strigoi,
 
 // Berserker stuff ! Blood stuff !https://dragonage.fandom.com/wiki/Blood_Mage_(Origins)
 // '""',
@@ -2746,6 +2751,7 @@ function Spells({ spells, type }) {
         <SingleSpell
           key={index + "SingleSpell"}
           passive={element.passive || false}
+          negative={element.negative || false}
         >
           {element.name}
           {element[spells[index].level] ? (
@@ -2760,6 +2766,7 @@ function Spells({ spells, type }) {
         <SingleSpell
           key={index + "SingleSpell"}
           passive={spells[index].passive || false}
+          negative={element.negative || false}
         >
           {spells[index].name}
         </SingleSpell>
@@ -2768,7 +2775,14 @@ function Spells({ spells, type }) {
   }
   return (
     <>
-      {type === "mage" ? <Title>Spells:</Title> : <Title>Skills:</Title>}
+      {/* This title thing could be made into switch cases. */}
+      {type === "mage" ? <Title>Spells:</Title> : <Title></Title>}
+      {type === "negatives" ? <Title>Negatives:</Title> : <Title></Title>}
+      {type !== "negatives" && type !== "mage" ? (
+        <Title>Skills:</Title>
+      ) : (
+        <Title></Title>
+      )}
       <SpellsStyle>{array}</SpellsStyle>
     </>
   );
@@ -2813,6 +2827,7 @@ const SingleSpell = styled.div`
     rgb(218, 182, 111),
     rgb(244, 229, 203) 70.71%
   );`}
+  ${(props) => (props.negative ? "background: #f92b00;" : "")}
   margin: 1%;
   display: flex;
   justify-content: center;
