@@ -1,6 +1,7 @@
 import React from "react";
 import Item from "./../elements/item";
 import Title from './../elements/title'
+import SeaPeopleFunction from "./SeaPeople"; // 6
 
 function Intro(props) {
   return (
@@ -338,6 +339,8 @@ Deer are considered messengers to the gods in Shinto, especially Kasuga Shrine i
             replied.
           </p>
           <p>"Sure lets go" She said back with a nod.</p>
+        <div className="BreakPoint"></div>
+        <SeaPeopleFunction Chapter={6} />
         </div>
       </div>
     </div>

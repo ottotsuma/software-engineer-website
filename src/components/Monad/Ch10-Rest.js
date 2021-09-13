@@ -1,4 +1,5 @@
 import React from "react";
+import SeaPeopleFunction from "./SeaPeople";
 
 function Rest(props) {
   return (
@@ -123,6 +124,8 @@ function Rest(props) {
               Meet me in my room, I made a break though in the language.
             </p>
           </div>
+          <div className="BreakPoint"></div>
+          <SeaPeopleFunction Chapter={2} />
         </div>
       </div>
     </div>

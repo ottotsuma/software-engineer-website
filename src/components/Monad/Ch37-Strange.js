@@ -1,5 +1,7 @@
 import React from "react";
 import { Content } from "./styles"
+import SeaPeopleFunction from "./SeaPeople";// 7
+
 function Intro(props) {
 return (
 <Content>
@@ -9,6 +11,8 @@ return (
     {/* Leikans leave */}
     {/* Off to fight in the war */}
     <p></p>
+    <div className="BreakPoint"></div>
+        <SeaPeopleFunction Chapter={7} />
 </Content>
 );
 }

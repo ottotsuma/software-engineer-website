@@ -75,6 +75,8 @@ export const SeaPeople = {
   ),
   1: (
     <Content style={{ overflowWrap: "anywhere" }}>
+      <h4 style={{"textDecoration": "underline"}}>Sea People</h4>
+
       <p>"We'll be there soon." Josh said from behind me.</p>
       <p>
         "Awesome, I don't want to spend another minute on board this ship." I

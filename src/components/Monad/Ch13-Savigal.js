@@ -1,5 +1,6 @@
 import React from "react";
 import Item from "./../elements/item";
+import SeaPeopleFunction from "./SeaPeople";
 
 function Intro(props) {
   return (
@@ -557,6 +558,8 @@ function Intro(props) {
             The next morning I donned my new robe, the color of the yellow was
             not any better then it had been when I was almost asleep.
           </p>
+          <div className="BreakPoint"></div>
+          <SeaPeopleFunction Chapter={4} />
         </div>
       </div>
     </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Item from './../elements/item'
+import SeaPeopleFunction from "./SeaPeople";
 
 function Intro(props) {
   return (
@@ -160,6 +161,8 @@ function Intro(props) {
             name={"Mutt's Mitt's"}
             rating={"junk"}
           />
+          <div className="BreakPoint"></div>
+          <SeaPeopleFunction Chapter={3} />
         </div>
       </div>
     </div>

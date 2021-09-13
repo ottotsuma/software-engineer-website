@@ -5,7 +5,6 @@ import { Content } from "./styles";
 import Spin from "./../elements/spin";
 import Quest from "./../elements/quest";
 import LevelUp from "./../elements/levelup";
-import { SeaPeople } from "./SeaPeople";
 
 function Duel(props) {
   return (

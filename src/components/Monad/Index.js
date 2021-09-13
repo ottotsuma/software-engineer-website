@@ -36,6 +36,12 @@ import Chapter33 from "./Ch33-BackToSchool";
 import Chapter34 from "./Ch34-Duel";
 import Chapter35 from "./Ch35-Fight";
 import Chapter36 from "./Ch36-Farm";
+import Chapter37 from "./Ch37-Strange";
+import Chapter38 from "./Ch38-Nobles";
+import Chapter39 from "./Ch39-Leaving";
+import Chapter40 from "./Ch40-War";
+import Chapter41 from "./Ch41-Graduate";
+
 import SpellsPage from "./SpellsPage";
 import Otto from "./Otto";
 import SeaPeopleFunction from "./SeaPeople";
@@ -108,17 +114,22 @@ const ChapterList = [
   <Chapter34 Chapter={"Duel"} />,
   <Chapter35 Chapter={"Fight!"} />,
   <Chapter36 Chapter={"Farm!?"} />,
+  <Chapter37 Chapter={"Strange"} />,
+  <Chapter38 Chapter={"Nobel's"} />,
+  <Chapter39 Chapter={"Leaving"} />,
+  <Chapter40 Chapter={"War"} />,
+  <Chapter41 Chapter={"Graduate"} />,
   <Otto />,
-  <SeaPeopleFunction Chapter={0} />,
-  <SeaPeopleFunction Chapter={1} />,
-  <SeaPeopleFunction Chapter={2} />,
-  <SeaPeopleFunction Chapter={3} />,
-  <SeaPeopleFunction Chapter={4} />,
-  <SeaPeopleFunction Chapter={5} />,
-  <SeaPeopleFunction Chapter={6} />,
-  <SeaPeopleFunction Chapter={7} />,
-  <SeaPeopleFunction Chapter={8} />,
-  <SeaPeopleFunction Chapter={9} />,
+  // <SeaPeopleFunction Chapter={0} />,
+  // <SeaPeopleFunction Chapter={1} />,
+  // <SeaPeopleFunction Chapter={2} />,
+  // <SeaPeopleFunction Chapter={3} />,
+  // <SeaPeopleFunction Chapter={4} />,
+  // <SeaPeopleFunction Chapter={5} />,
+  // <SeaPeopleFunction Chapter={6} />,
+  // <SeaPeopleFunction Chapter={7} />,
+  // <SeaPeopleFunction Chapter={8} />,
+  // <SeaPeopleFunction Chapter={9} />,
   <Vampire />,
   <SpellsPage />,
 ];

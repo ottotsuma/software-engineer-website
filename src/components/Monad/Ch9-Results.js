@@ -1,4 +1,5 @@
 import React from "react";
+import SeaPeopleFunction from "./SeaPeople";
 
 function Results(props) {
   return (
@@ -297,6 +298,8 @@ Reingard". boy - alden likes Tisiel Skivali  becomes tank --> */}
             badly I decided to head back to the cliff side. I would try them
             another day.
           </p>
+          <div className="BreakPoint"></div>
+          <SeaPeopleFunction Chapter={1} />
         </div>
       </div>
     </div>
