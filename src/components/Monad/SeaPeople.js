@@ -34,6 +34,7 @@ export default function SeaPeopleFunction(props) {
     ? SeaPeople[props]
     : SeaPeople[props.Chapter];
 }
+// Rest period, results day is a good starting place.
 export const SeaPeople = {
   0: (
     <Content style={{ overflowWrap: "anywhere" }}>
