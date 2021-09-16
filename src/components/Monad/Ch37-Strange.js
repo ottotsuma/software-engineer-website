@@ -51,7 +51,7 @@ function Intro(props) {
       <p>
         "Nothing? I stored up stat points a few times and nothing changed.." Otto replied after being picked.
       </p>
-      <p>"On the surface yes. However, this is a real lesson you should be mindful of. The system displays some stats to you, but nothing everything about your body and your mana. Some of the stats are hidden. Let me give you some examples. Can anyone tell me their HP regeneration rate per second? "</p>
+      <p>"On the surface yes. However, this is a real lesson you should be mindful of. The system displays some stats to you, but nothing everything about your body and your mana. Some of the stats are hidden. Let me give you some examples. Can anyone tell me their HP regeneration rate per second? Your spell casting time reduction?"</p>
       <div className="BreakPoint"></div>
       <SeaPeopleFunction Chapter={7} />
     </Content>
