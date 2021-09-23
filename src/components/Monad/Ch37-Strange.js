@@ -46,12 +46,21 @@ function Intro(props) {
         "Very good, the mana does go into your body. If we stick with the
         strength analogy, the mana breaks down and rebuilds your muscles to
         increase the mana flow and storage in the muscles, therefor making you
-        stronger.Similar effects happen for the other stats. So the stat points are a display of how much foreign manner you have to be distributed. So what happens if you save up your stat points?"
+        stronger.Similar effects happen for the other stats. So the stat points
+        are a display of how much foreign manner you have to be distributed. So
+        what happens if you save up your stat points?"
       </p>
       <p>
-        "Nothing? I stored up stat points a few times and nothing changed.." Otto replied after being picked.
+        "Nothing? I stored up stat points a few times and nothing changed.."
+        Otto replied after being picked.
       </p>
-      <p>"On the surface yes. However, this is a real lesson you should be mindful of. The system displays some stats to you, but nothing everything about your body and your mana. Some of the stats are hidden. Let me give you some examples. Can anyone tell me their HP regeneration rate per second? Your spell casting time reduction?"</p>
+      <p>
+        "On the surface yes. However, this is a real lesson you should be
+        mindful of. The system displays some stats to you, but nothing
+        everything about your body and your mana. Some of the stats are hidden.
+        Let me give you some examples. Can anyone tell me their HP regeneration
+        rate per second? Your spell casting time reduction?"
+      </p>
       <div className="BreakPoint"></div>
       <SeaPeopleFunction Chapter={7} />
     </Content>

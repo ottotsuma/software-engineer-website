@@ -75,7 +75,7 @@ export const SeaPeople = {
   ),
   1: (
     <Content style={{ overflowWrap: "anywhere" }}>
-      <h4 style={{ "textDecoration": "underline" }}>Sea People</h4>
+      <h4 style={{ textDecoration: "underline" }}>Sea People</h4>
 
       <p>"We'll be there soon." Josh said from behind me.</p>
       <p>
@@ -1991,9 +1991,25 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
       {/* The invasion of earth */}
 
       {/* Crime */}
-      <p>Some say war helps drive innovation, the drive for survival pushing people to innovate. The only ones to ever profit from a war were criminals and lords.</p>
-      <p>This war would be no different. Right now the sea people were not lords of this land, if they acted on their own they would be criminals. Many would join the ranks of the armies assembled as conscripts or mercenaries. Not all however. Some wanted to play the hero, becoming lords though gathering the peoples favour.</p>
-      <p>Would there be anyone who wanted to be the criminals? Yes. Those who wanted a better odds at becoming the lords. In an established country you had to be born to the right family or be grated the title by a king or queen. Here before the countries are established, the lords would be those who killed the right people.</p>
+      <p>
+        Some say war helps drive innovation, the drive for survival pushing
+        people to innovate. The only ones to ever profit from a war were
+        criminals and lords.
+      </p>
+      <p>
+        This war would be no different. Right now the sea people were not lords
+        of this land, if they acted on their own they would be criminals. Many
+        would join the ranks of the armies assembled as conscripts or
+        mercenaries. Not all however. Some wanted to play the hero, becoming
+        lords though gathering the peoples favour.
+      </p>
+      <p>
+        Would there be anyone who wanted to be the criminals? Yes. Those who
+        wanted a better odds at becoming the lords. In an established country
+        you had to be born to the right family or be grated the title by a king
+        or queen. Here before the countries are established, the lords would be
+        those who killed the right people.
+      </p>
     </Content>
   ),
 };
