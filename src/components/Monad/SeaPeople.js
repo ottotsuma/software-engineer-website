@@ -2012,6 +2012,31 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
       </p>
     </Content>
   ),
+  10: (
+    <Content style={{ overflowWrap: "anywhere" }}>
+      <p>Chapter 10</p>
+    </Content>
+  ),
+  11: (
+    <Content style={{ overflowWrap: "anywhere" }}>
+      <p>Chapter 10</p>
+    </Content>
+  ),
+  12: (
+    <Content style={{ overflowWrap: "anywhere" }}>
+      <p>Chapter 10</p>
+    </Content>
+  ),
+  13: (
+    <Content style={{ overflowWrap: "anywhere" }}>
+      <p>Chapter 10</p>
+    </Content>
+  ),
+  14: (
+    <Content style={{ overflowWrap: "anywhere" }}>
+      <p>Chapter 10</p>
+    </Content>
+  ),
 };
 // Rouge Skills Used (Basic) - Fleet of Foot, Headbutt
 // Combo skills for each class: 'Slashing Edge' into 'Sharp Slash'

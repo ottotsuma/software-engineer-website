@@ -44,6 +44,7 @@ function Intro(props) {
             "Yeah the Lakian's were kind enough to explain the details to me." I
             replied.
           </p>
+          {/* Did they? */}
           <p>
             "Good, right then. Everyone can cast their vote by simple mana
             transfer. If you cannot interact with the academy system after all
@@ -318,7 +319,7 @@ function Intro(props) {
           <p>
             I went over to the training hall next to the princesses quarters.
             Sure enough Takeo was inside training by himself. "Hey, do you know
-            where Tsuma is? I got elected as class representative..."
+            where Tsuma is? I got elected as class champion..."
           </p>
           <p>
             Takeo stopped and turned to me. "She had to go with the princess
