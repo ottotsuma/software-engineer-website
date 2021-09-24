@@ -25,9 +25,50 @@ function Intro(props) {
         on what worked best so making these individual sized cages was barely an
         inconvenience to these train mages.
       </p>
+      <p>
+        While waiting one of the kinder teachers stood up on a make-shift podium
+        held up by the earth elements rocks. Lubin, a teacher I only knew of who
+        my own teachers spoke of as someone who taught them how to teach. He
+        climbed up and stood atop the rocks, an earth mage would just cast it
+        under themselves so he must not be an earth mage himself.
+      </p>
+      <p>
+        "Everyone. Now we are out of the ears of the audience, I will explain
+        some things that previously I would of been unable to tell you. To
+        start, the reason for the emphasis on the possibility of dieing. This is
+        not the inside of the arena, or one of the training areas. The magic
+        that usually teleports a student out in the event of low HP is not
+        installed as robustly as in the arena. For the shaper ones among you,
+        yes, that means it is installed but there is a much, much, higher risk
+        of you not being saved."
+      </p>
       {/* Gu poison */}
       {/*10,000 students per year. 36 students in a class, 278 classes? Well that is for the combat roles but not all students are combat. */}
-
+      <p>
+        "The final thing I want to tell you is why. The real reason why. Every
+        year around this time we normally hold duels. The result of these duels
+        going towards your final grade. The academy lets the military see these
+        results every year. The records show that almost all students at the
+        bottom by this point in the year do not preform well later on. Dieing
+        early or becoming a burden is the usual outcome for students at the
+        bottom who join the military."
+      </p>
+      <p>
+        "Now you might say that's fine not all students want to join the
+        military, maybe you don't want to join. I am sorry to break to this to
+        you now but there is to be a policy change in Alden. All students will
+        join the military after graduation. In the future all students at the
+        academy will be considered as part of the military also."
+      </p>
+      <p>
+        "So back to the main reason. Do you know what Gu Poison is? Well the
+        idea is something like sealing several venomous creatures inside a
+        closed container, where they devoured one another, the final creature
+        being the most venomous. If you need motivation to be the most venomous
+        here. The chances of you dieing is high. Very high. The winner however
+        will be rewarded far beyond what their classmates will receive. Good
+        luck to you all."
+      </p>
       {/* Showing of the arena and the contestants inside the jungle or walking to the area? */}
       <p></p>
       {/* 'Fans' making bets and saying the most retarded things you can think of */}
