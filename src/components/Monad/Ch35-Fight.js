@@ -6,16 +6,18 @@ function Intro(props) {
     <Content>
       <h4>Fight!</h4>
       <p>
-        The days had gone by since I was released. Chu-gong
-        had stayed down there after I left. I didn't offer to meet up with him after, I already had one guy act nice to me just to throw it in my face in the
-        same day.
+        The days had gone by since I was released. Chu-gong had stayed down
+        there after I left. I didn't offer to meet up with him after, I already
+        had one guy act nice to me just to throw it in my face in the same day.
       </p>
       <p>
-        My hands slipped across my robe as I rubbed the sweat off them. I thought I knew everything that was going to happen before the battle started, maybe I missed something in that meeting I was removed from but now I stood here in a small cage the overwhelming feeling was that I was not ready.
+        My hands slipped across my robe as I rubbed the sweat off them. I
+        thought I knew everything that was going to happen before the battle
+        started, maybe I missed something in that meeting I was removed from but
+        now I stood here in a small cage the overwhelming feeling was that I was
+        not ready.
       </p>
-      <p>
-        
-      </p>
+      <p></p>
       {/* Showing of the arena and the contestants inside the jungle or walking to the area? */}
       <p></p>
       {/* 'Fans' making bets and saying the most retarded things you can think of */}
