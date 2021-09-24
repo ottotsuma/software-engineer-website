@@ -14,10 +14,20 @@ function Intro(props) {
         My hands slipped across my robe as I rubbed the sweat off them. I
         thought I knew everything that was going to happen before the battle
         started, maybe I missed something in that meeting I was removed from but
-        now I stood here in a small cage the overwhelming feeling was that I was
-        not ready.
+        now I stood here in a small cage of earth the overwhelming feeling was
+        that I was not ready.
       </p>
-      <p></p>
+      <p>
+        Around were many other similar cages holding other students inside. The
+        earth element was one of the most common elements a mage could get.
+        Since that was the case many of the students, staff and mage-soldiers
+        used this element. There were extensive records though trial and error
+        on what worked best so making these individual sized cages was barely an
+        inconvenience to these train mages.
+      </p>
+      {/* Gu poison */}
+      {/*10,000 students per year. 36 students in a class, 278 classes? Well that is for the combat roles but not all students are combat. */}
+
       {/* Showing of the arena and the contestants inside the jungle or walking to the area? */}
       <p></p>
       {/* 'Fans' making bets and saying the most retarded things you can think of */}
