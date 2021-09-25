@@ -310,7 +310,7 @@ function Intro(props) {
             moment. As soon as I slowed down one of the three skeletons I could
             see shot a bone from his hand like a spear and it went though my
             right leg. It did not slow down at all and pierced all the way
-            though the other-side and stuck into the ground.
+            through the other-side and stuck into the ground.
           </p>
 
           <p>
@@ -409,7 +409,7 @@ function Intro(props) {
 
           <p>
             As the healing potions started to take affect again, I shuffled my
-            way though the darkness, there was a small light at the end of the
+            way through the darkness, there was a small light at the end of the
             darkness that lit up a small patch on the floor. I made it over to
             the light without issue, there didn't appear to be anything in here.
             I looked out and well it was not an exit. The hole was rectangle and

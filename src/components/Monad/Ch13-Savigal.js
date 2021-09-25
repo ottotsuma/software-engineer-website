@@ -22,7 +22,7 @@ function Intro(props) {
           </p>
 
           <p>
-            I made my way though the small market place buying fruits and
+            I made my way through the small market place buying fruits and
             rations for the trip back, I could make the trip in 2 days and rest
             at a town each night so I did not need much, but when traveling and
             with the funds to do so it' nice to try new things. After shopping I

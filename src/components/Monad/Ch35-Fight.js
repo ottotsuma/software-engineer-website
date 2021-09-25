@@ -1,4 +1,4 @@
-// Events starts and we follow Kaja though the event
+// Events starts and we follow Kaja through the event
 import React from "react";
 import { Content } from "./styles";
 function Intro(props) {

@@ -38,7 +38,7 @@ Noticed by a God - get the notice of a God, (varies) */}
             10 items in total Tisiel and Reingard had come back with. Tisiel
             took a staff with a skull affixed to the top which aided in the
             creation of skeletons. The other items would bring them in more
-            money then they could earn working though the academy. These items
+            money then they could earn working through the academy. These items
             where unique and that made them one of a kind, even if they were not
             the best, combat pieces would still be sort after.
           </p>
@@ -441,7 +441,7 @@ Noticed by a God - get the notice of a God, (varies) */}
             It was not long before the four of us found ourselves waiting at the
             foot of the entrance way to the arena, I had walked it before but
             that was when the arena was split and both combatants would enter
-            though the same gate, it felt different this time. We walked the
+            through the same gate, it felt different this time. We walked the
             long curved tunnel up to the arena entrance the light at the end of
             the tunnel spread around the mouth of the exit. Blinded, our eyes
             soon adjusted and before us was a metal gate holding us back from
@@ -561,7 +561,7 @@ Mana ball (lightning) (Pow: 1), Tether, Magic resistance (passive), Magic up (pa
           <p>
             Soon enough my team mates came back down the tunnel, walking, they
             had won the rest of the match with Raina's healing waters they were
-            able to grind though the rest of their health.
+            able to grind through the rest of their health.
           </p>
 
           <p>"Welcome back!" I greeted.</p>

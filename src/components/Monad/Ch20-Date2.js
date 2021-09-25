@@ -47,7 +47,7 @@ function Intro(props) {
             broomstick, big witch hat, and a black cat." She told me.
           </p>
           <p>"Just like the fairy tales. You would make a beautiful witch
-            zooming though the sky on your broomstick." I said.
+            zooming through the sky on your broomstick." I said.
           </p>
           <p>"I hope so.." She said softly and looked away a bit
             embarrassed by the compliments.

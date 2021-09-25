@@ -53,7 +53,7 @@ function Intro(props) {
           </p>
           <p>
             With these spells though, I guess I should go show Ralsan the
-            farming spells and see if they are useful. I walked back though the
+            farming spells and see if they are useful. I walked back through the
             fields scaring off the crows more then anything else. They were
             smart and knew to avoid me by a large margin now. I arrived back at
             the warehouse to see Ralsan having an energetic conversation with a
@@ -386,7 +386,7 @@ function Intro(props) {
             change made me jump.
           </p>
           <p>
-            "Was that it?" Olinda's voice came from her watching though the
+            "Was that it?" Olinda's voice came from her watching through the
             door. "Yeah." I replied hoping she was not to disappointed, it cost
             her that potion after all. I got the harvest from my inventory and
             placed it on the desk we were working on. The saplings where there
@@ -415,7 +415,7 @@ function Intro(props) {
             of fire mages back towards the farm gate. I was up another street so
             I just kept walking. He seemed stressed enough already without me
             stopping him. I was walking to the arena to see if I could get
-            myself a new weapon. As I twisted though the streets past the
+            myself a new weapon. As I twisted through the streets past the
             training areas I felt a firm hand grab my shoulder. "A monster
             eating plant suddenly sprouts up in the research lab. Redmond was in
             a huge panic and in no condition to tell me what happened, perhaps

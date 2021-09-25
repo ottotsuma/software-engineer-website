@@ -109,7 +109,7 @@ function Intro(props) {
           </p>
 
           <p>
-            We pushed though the last door and entered a long corridor at the
+            We pushed through the last door and entered a long corridor at the
             end was large pillars with a portal in the middle. Since it was
             still active we stepped though. Waiting on the other side was the
             rest of the groups, at opposite ends of the room. Of course the
@@ -168,13 +168,13 @@ function Intro(props) {
           <p>
             "Since you say so, test out your theory." Ditwin sneered as he moved
             to block them from retreating away. Tisiel just responded by walking
-            though the entrance way with confidence. After stepping though
+            through the entrance way with confidence. After stepping though
             Tisiel added "Basic rune theory is taught as an optional class,
             maybe you should try it some time."
           </p>
 
           <p>
-            We followed Tisiel's lead though the entrance way, along a bright
+            We followed Tisiel's lead through the entrance way, along a bright
             marble white corridor lined with statues holding large weapons made
             of the same stone as themselves, they where not a similar style to
             the ones found in the pyramid but no doubt they had a similar

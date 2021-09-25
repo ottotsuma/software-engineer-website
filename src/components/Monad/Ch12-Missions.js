@@ -23,7 +23,7 @@ function Intro(props) {
             taking this one, he had no idea what mosquitoes where but at least
             he would be helping someone. Tisiel's mission of going through old
             junk and decrypting them seemed to suit her, Reingard had even
-            joined her as a bodyguard. Otto left though the portal back to
+            joined her as a bodyguard. Otto left through the portal back to
             Banderedam, this mission would take him though Chihal and down to
             Savigal a port town on the border with Huonhia. Since his ID now had
             him marked as a combat mage he was able to join a merchant group

@@ -31,7 +31,7 @@ function Intro(props) {
 
           <p>
             Once inside we stood side by side, she handed me a coin with a hole
-            though the middle. We both tossed our coins into a box in front of
+            through the middle. We both tossed our coins into a box in front of
             us. Then we bowed twice, clapped out hands twice and finally bowed
             again. I made a small wish while doing this, unsure if we were
             suppose to wish for anything. Then We walked back outside and
@@ -249,7 +249,7 @@ function Intro(props) {
           <p>
             I could not help but let out a small laugh and smile, seeing that we
             would be bound in this small way gave me a feeling of butterflies in
-            the pit of my stomach. To make a connection though the mask I had to
+            the pit of my stomach. To make a connection through the mask I had to
             produce a drop of my blood and place it inside of the mask where the
             mask would touch my face, place it on the alter inside the shrine
             and make an earnest attempt to connect to the white stag God. If all

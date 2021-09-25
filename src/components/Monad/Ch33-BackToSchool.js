@@ -69,9 +69,9 @@ function Intro(props) {
             rock bottom so the other students must be also.
           </p>
           <p>
-            I could see though the mana, windows of writing. Forum, Shops,
+            I could see through the mana, windows of writing. Forum, Shops,
             Voting and Reports. It seemed simple enough, like the academy was
-            trying to modernize and make everything more efficient though the
+            trying to modernize and make everything more efficient through the
             use of mana, it was really intuitive, they must of spent a lot of
             time creating this.
           </p>
@@ -257,7 +257,7 @@ function Intro(props) {
           </p>
           <p>
             Seeing this spot again helped me calm down a little. While taking a
-            moment to think I thought back though the day. That new system in
+            moment to think I thought back through the day. That new system in
             the school was really unexpected, maybe it is a technology the
             military have and want us to get use to in the combat classes or it
             really is a new technology the academy has been developing.

@@ -181,7 +181,7 @@ function Intro(props) {
             the academy. I have not thought about Effi and the others for a long
             time, I hope they are doing well. I was in front of a group of 10
             men holding spears and wearing leather armor. A guy tapped me on the
-            shoulder. "Alright sergeant, just get these men though the obstacle
+            shoulder. "Alright sergeant, just get these men through the obstacle
             course course and you will get a pass and move to the next level." A
             man in about his 40's said to me wearing metal armor.
           </p>
@@ -521,7 +521,7 @@ function Intro(props) {
           </p>
           <p>
             Standing around here was not a good idea, not after what I just did.
-            So I made my way though the students and back to my home as quick as
+            So I made my way through the students and back to my home as quick as
             I could. The last thing I heard was Linhart shouting "Where the fuck
             is he!?" at the other students as I made my get away.
           </p>

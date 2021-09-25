@@ -427,7 +427,7 @@ function Intro(props) {
           <p>
             He pointed to what looked like the the same doors we came though
             except they where completely white and at the opposite end. "Linhart
-            pushed me though the lightning tunnel this is where it came out." He
+            pushed me through the lightning tunnel this is where it came out." He
             replied.
           </p>
 

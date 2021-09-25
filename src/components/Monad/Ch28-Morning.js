@@ -281,10 +281,10 @@ function Intro(props) {
             steal the seeds after they are planted. If you go now there might be
             some since we are all here eating." Ralsan said. Not waiting any
             longer I stood up and thanked him as much as I could while running
-            off though the fields.
+            off through the fields.
           </p>
           <p>
-            I had run though the fields until I found birds pecking at the
+            I had run through the fields until I found birds pecking at the
             ground. It was not long before I came across a three-legged crow.
             Some people say they represent the sun, I say they represent one
             exp! I shot my lighting seed at it and it landed on the crows wing.

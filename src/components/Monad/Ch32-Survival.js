@@ -222,7 +222,7 @@ function Intro(props) {
           </p>
           <p>
             "No, I mean a northern war. We are moving back to Leika because of
-            the dangers. Alden feels like it can break though the republic and
+            the dangers. Alden feels like it can break through the republic and
             claim back the lands it lost in the past and things will be over
             quickly. Leika feels like they are overestimating themselves a
             little. So for the princesses safety she is being called back...

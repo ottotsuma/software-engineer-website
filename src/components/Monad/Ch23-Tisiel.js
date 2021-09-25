@@ -64,7 +64,7 @@ function Intro(props) {
             large stone behind the throne. "Whats this say? It's not the same
             style as the witting on the walls. Just a theory but I think it was
             added later. To stop undead from coming out. I can see the light
-            magic inside it and the death magic spilling out under it though the
+            magic inside it and the death magic spilling out under it through the
             gaps, although you cannot see it you should trust me it is as clear
             as day to me."
           </p>

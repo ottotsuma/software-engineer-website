@@ -88,7 +88,7 @@ function Intro(props) {
           <p>
             "Okay we won't be in here long just a quick registration then down
             to the hall. It's good weather but another class is out there
-            today." After that he shifted though the papers he had brought in he
+            today." After that he shifted through the papers he had brought in he
             read through the list of class names again.
           </p>
           <p>

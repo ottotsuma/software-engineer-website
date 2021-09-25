@@ -72,7 +72,7 @@ function Intro(props) {
           </p>
           <p>
             "I..Yeah, I can do that. I'll wait for you under the autumn tree on
-            your right as you leave though the main door."
+            your right as you leave through the main door."
           </p>
           <p>"Perfect."</p>
 

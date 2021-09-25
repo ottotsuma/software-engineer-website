@@ -314,7 +314,7 @@ function Intro(props) {
           </p>
 
           <p>
-            Volker - "Demons." Volker's voice boomed though the room and bounced
+            Volker - "Demons." Volker's voice boomed through the room and bounced
             of the walls, he strode up to the table and slammed down a dead doe.
             The blood splattered across the table from it's wounds. Volker drew
             a knife and cut the animals throat and the blood ran down the table
@@ -364,7 +364,7 @@ function Intro(props) {
 
           <p>
             I followed after the others down into the depths of the pyramid. The
-            others where twisting and diving their way though the statues
+            others where twisting and diving their way through the statues
             towards the king, I decided to head over to the priest to see what
             kind of clues about their religion I could find out about.
           </p>
@@ -442,7 +442,7 @@ function Intro(props) {
 
           <p>
             "Time to go" I shouted, grabbing my parchments and Reingard's hard
-            we ran dodging ducking diving back though the stone warriors and to
+            we ran dodging ducking diving back through the stone warriors and to
             the stairs. Volker and Raina had clearly heard me and we made to to
             the stairs together, Otto and Shrorlei were no where to be seen. I
             tugged on Reingard's hand and we climbed the stairs looking out to
@@ -496,7 +496,7 @@ function Intro(props) {
           <p>
             I walked towards the stairs, I should wait there. On my way back I
             felt a sudden and blow to the back of my head, it felt as if my
-            brain way trying to jump though the front of my skull as I fell face
+            brain way trying to jump through the front of my skull as I fell face
             first into the ground, my nose bent on impact the blood splattered
             across the floor. I felt too much of a shock to move much at all the
             pain soon surged though me and I became overwhelmed. Reaching for my

@@ -1353,7 +1353,7 @@ export const SeaPeople = {
       <p>
         It was quiet refreshing to slow down for a moment and not be in a rush
         or combat, or stuck on a ship and just enjoy what was around me. I don't
-        know why I though the city should or would match the cities of the
+        know why I thought the city should or would match the cities of the
         european medieval design, but the people spoke German so I guess it
         would of fit.
       </p>
