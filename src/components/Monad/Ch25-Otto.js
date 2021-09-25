@@ -139,7 +139,7 @@ function Intro(props) {
           <p>
             "Ah, did you learn the story witch of Alden? It was a story Tisiel
             taught me, well long story short it was her study after she
-            discovered the gate way to this land, the portal you came though
+            discovered the gate way to this land, the portal you came through
             near Brandenburg." Vortigern replied.
           </p>
 
@@ -158,7 +158,7 @@ function Intro(props) {
 
           <p>
             "So left me run this by you again, the Immortals made this tomb,
-            sealed it with coins and then they where passed down though the eras
+            sealed it with coins and then they where passed down through the eras
             until being left behind in tombs and forgotten?"
           </p>
 
@@ -284,7 +284,7 @@ function Intro(props) {
             be my resting place if I went that way. Reingard ran past me to grab
             Tisiel as she sprinted towards me leading the way down the tunnel.
             We did not get too far before another fork in the tunnels, I took
-            the left one without hesitation and as soon as I had run though the
+            the left one without hesitation and as soon as I had run through the
             bones on the ground I missed rose up. With the strange shadows
             grabbing at them pulling them into shape.
           </p>
@@ -298,7 +298,7 @@ function Intro(props) {
           <p>
             F... That is the grade I would give myself for this pigs dinner. I
             kept running. What else could I do? I was not going to turn and
-            fight. I shot though the tunnels as fast as I could. The tunnel I
+            fight. I shot through the tunnels as fast as I could. The tunnel I
             took had a slight up slope to it, if this really was inside the
             skull of a dead immortal I could only guess that going up would only
             lead me into his skull. A dead end. Maybe Tisiel and Reingard where

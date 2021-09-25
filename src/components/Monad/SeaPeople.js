@@ -318,7 +318,7 @@ export const SeaPeople = {
         Looking around our tiny patch of sand in the ocean, there was not too
         much to explore. There were some trees towards the middle but only a
         handful. There were other small patches of sand here and there with the
-        water crossing though them. I put my toes into one of the small water
+        water crossing through them. I put my toes into one of the small water
         pockets as we walked. It was warm and gentle. There were three major
         islands here but each was broken up by shallow water.
       </p>
@@ -582,7 +582,7 @@ export const SeaPeople = {
         not fit down the hallway. I ran after Sarah and we hid in one of the
         gaps in the wall. The crab ran up to us but could not turn around so was
         unable to do anything about us being behind. Josh had taken the opposite
-        wall and a huge crab claw smashed into and though him into the wall
+        wall and a huge crab claw smashed into and through him into the wall
         behind.
       </p>
       <p>
@@ -600,7 +600,7 @@ export const SeaPeople = {
       </p>
       <p>
         "Huh? I don't see that skill and I am level 37." I replied looking
-        though my skills list.
+        through my skills list.
       </p>
       <p>
         "Assassin, not Rouge. It's a different class. Anyway we can talk about
@@ -634,7 +634,7 @@ export const SeaPeople = {
         time! He tricked us!
       </p>
       <p>
-        We wanted to quickly move to the other side, Josh moved quickly though
+        We wanted to quickly move to the other side, Josh moved quickly through
         the shadows cast by the crab in my light and popped up on the other side
         but I was far to slow to act. Sarah pushed me under the crab between
         it's legs as the claw slammed into the sand wall behind were I was. It
@@ -775,7 +775,7 @@ export const SeaPeople = {
         damage then headbutt with a larger damage recoil, however with the
         passive 'Cranial Cushion' the recoil damage would again be reduced to
         almost nothing. I got under the crab and lunched myself up with the
-        strong goat legs. My horns pierced though the underbelly of the crab.
+        strong goat legs. My horns pierced through the underbelly of the crab.
       </p>
       <p>
         It did a lot of damage but my level was much lower then the crab who was
@@ -1002,7 +1002,7 @@ export const SeaPeople = {
         with its mouth.
       </p>
       <p>
-        Seeing body parts, organs and blood slide down inside the serpent though
+        Seeing body parts, organs and blood slide down inside the serpent through
         its translucent body reminded me of a lava lamp I had when I was a kid.
         Josh hit me on the side and shouted. "The Cliff! The Cliff!" I turned to
         see I had just left the boat to continue on it's path and we were coming
@@ -1073,7 +1073,7 @@ export const SeaPeople = {
       <div className="BreakPoint"></div>
       <p>
         We had wait for about 20 minutes before the sounds outside were just the
-        crash of the waves on the cliffs and the wind running though the gaps.
+        crash of the waves on the cliffs and the wind running through the gaps.
         My health had recovered from Sarah's snack and I had spent the time
         picking out Dark Elf skills to try. Our levels had been reduced by 90%
         from the Miasma, leaving me at level 3. I wish it had at least rounded
@@ -1261,7 +1261,7 @@ export const SeaPeople = {
         "No we don't need to. Only administrators and officials would live in
         there, we would need a good reason or passes to get let in. Luckily for
         us this state has almost never been attacked from land so they are
-        pretty lax about the outer city. I had once though about building our
+        pretty lax about the outer city. I had once thought about building our
         forces here but it really is too remote." She said before quickly adding
         "And I found a better place."
       </p>
@@ -1345,7 +1345,7 @@ export const SeaPeople = {
       {/* Vampire eyes red - purple - blue */}
       <h1>Monh</h1>
       <p>
-        After leaving the others I wondered though the city, every now an then
+        After leaving the others I wondered through the city, every now an then
         checking my inventory like the ID Sarah gave me was going to disappear
         for no reason. I liked having the freedom to move about, being trapped
         in a cell was no my idea of a good time and not why I played.
@@ -1378,7 +1378,7 @@ export const SeaPeople = {
         They put colorful cloth and patterns all over the place, some hanging
         down covering where I felt like the walls should of been. It gave the
         city a bright vibe that felt so foreign to me, the strong use of oranges
-        especially. The buildings still felt old though their stone looking
+        especially. The buildings still felt old through their stone looking
         cracked and worn.
       </p>
       <p>
@@ -1456,7 +1456,7 @@ export const SeaPeople = {
         rating="rare"
         rewards={"Miasma reduction OR Blood Bottle."}
         name="Possible Cure!"
-        details="Anna's husband recently died from a curse going around the republic, the government are pressed on two fronts with environmental disasters cropping up. Her husband was working on a possible cure before his death and left behind his notes & a blood bottle. Deliver these to his co-worker who travels though the city walls every day for work. Or you could just steal the bottle, and use his notes as toilet paper."
+        details="Anna's husband recently died from a curse going around the republic, the government are pressed on two fronts with environmental disasters cropping up. Her husband was working on a possible cure before his death and left behind his notes & a blood bottle. Deliver these to his co-worker who travels through the city walls every day for work. Or you could just steal the bottle, and use his notes as toilet paper."
       />
       <div className="pop">
         Blood Bottle
@@ -1479,7 +1479,7 @@ export const SeaPeople = {
       </p>
       <p>
         It seemed like this was gonna be an easy power up for me but kind of
-        annoying since I didn't know what time this guy would be coming though
+        annoying since I didn't know what time this guy would be coming through
         the gates after work. I could be waiting there for 5 minutes or a few
         hours. Whatever I'll go to the gate but if he is not out by midnight
         I'll just come back one day and hand the quest in right?
@@ -1552,7 +1552,7 @@ export const SeaPeople = {
         lust.
       </p>
       <p>
-        During out chat a man came though the door and started shouting about
+        During out chat a man came through the door and started shouting about
         "elves". It was obviously directed at me. The owner however did not want
         someone causing a fuss in his business and two large thuggish looking
         brutes came out holding wooden batons with metal studs and spikes coming
@@ -1862,7 +1862,7 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         bones on his face leading to horns of bone jutting atop his head. Under
         the bones was black leathery skin, I had stared the first time we met,
         he had a partial exoskeleton and a full endoskeleton. His blood red eyes
-        staring, unblinking though a face of bone far above us always made me
+        staring, unblinking through a face of bone far above us always made me
         shiver. He was the image of what I fought against in the past when I use
         to be a paladin.
       </p>
@@ -1891,7 +1891,7 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         "Ah, no. Actually there are other differences. The short of it is that
         our racial traits and skill trees are different but we both have a
         common ancestor." Noah explained. I too was interested in this as I had
-        though dark elves would be either elves but with dark skin or the more
+        through dark elves would be either elves but with dark skin or the more
         classical dark in mind and powers, but they usually have light skin. I
         would have to ask Noah later more about this.
       </p>
@@ -1962,8 +1962,8 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
       </p>
       <p>
         "The smaller kingdoms and nations made around the foundations of the
-        republic were soon swallowed up although not though war at first but
-        though membership. The offers were the nobles would be given a higher
+        republic were soon swallowed up although not through war at first but
+        through membership. The offers were the nobles would be given a higher
         rank then their common people, a title and offices in the government.
         Jobs they were doing anyway. The common people gained the right to run
         for and elect their own officials to a citizens assembly."
@@ -2001,7 +2001,7 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         of this land, if they acted on their own they would be criminals. Many
         would join the ranks of the armies assembled as conscripts or
         mercenaries. Not all however. Some wanted to play the hero, becoming
-        lords though gathering the peoples favour.
+        lords through gathering the peoples favour.
       </p>
       <p>
         Would there be anyone who wanted to be the criminals? Yes. Those who
@@ -2053,7 +2053,7 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
 // Stealth, Every point increases the duration by 10 seconds. However it also increases the cool down.
 // Dual Wield, Each point reduces the dual wielding penalty, and eventually it a buff.
 // Preparations, Can set up basic traps
-// Shadowstep, Move though the shadows instantly
+// Shadowstep, Move through the shadows instantly
 // Stealth Attack, An attack launched from stealth for bonus damage
 // Venom, adds poison to physical attacks
 // "Creature"-Venom, Ignores a % of poison resistance
