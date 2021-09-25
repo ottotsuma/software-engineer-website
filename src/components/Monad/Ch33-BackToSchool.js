@@ -56,7 +56,7 @@ function Intro(props) {
             everyone seem to go into a kind of trans. Unmoving and just their
             eye lids flickering. Lubin nudged me. "Just reach out with your
             mana, the school is trying a new method to connect an academy wide
-            system to every student by letting them access it though their mana.
+            system to every student by letting them access it through their mana.
             There have been a lot of problems so if you cannot connect don't
             worry about it."
           </p>

@@ -369,7 +369,7 @@ function Intro(props) {
             monster would only go to me as long as Takeo did not hit the monster
             or use any skills. It was a real eye opener to see how the rich
             would level so quickly. Takeo had clearly done this a lot and ran
-            though the jungle easily. He would run up to a monster and then run
+            through the jungle easily. He would run up to a monster and then run
             right back to me when it gave chase. I wonder what level his
             dexterity and strength is to be able to dodge so deftly and run so
             quick.
@@ -473,7 +473,7 @@ function Intro(props) {
           <p>
             "What!? obviously because not every kid is a freak like you. These
             plant monsters a tough. Well I mean for a low level, but you have
-            been ripping though them like paper. You are unnatural." He replied
+            been ripping through them like paper. You are unnatural." He replied
             poking at some chicken over a fire. At least It looked like
             chicken.. It could just be some monster he found.
           </p>
@@ -520,7 +520,7 @@ function Intro(props) {
           </p>
           <p>
             Not sure I got his sense of humor but he was a nice guy. He got me
-            into the academy though the same gate we left. This time by hiding
+            into the academy through the same gate we left. This time by hiding
             me inside of a blanket he made from a monster that looked similar to
             a bear. He carried me in saying he had just killed it and skinned
             it. I am more surprised his half baked plans actually worked. Maybe
