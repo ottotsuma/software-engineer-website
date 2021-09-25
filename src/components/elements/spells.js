@@ -2722,7 +2722,7 @@ export const spellList = {
     1: "-2 sense when using ears alone.",
   },
 };
-
+// fire cyclone - Ch 35
 // Ghoul, Wight, Halfling, Vampire→Vampire Noble→Vampire Knight, Namanari Hannya <Chunari Hannya> <Honnari Hannya>, Dhampir, Banshee, Draugr→Great Draugr, Blood Fairy, Strigoi,
 
 // Berserker stuff ! Blood stuff !https://dragonage.fandom.com/wiki/Blood_Mage_(Origins)

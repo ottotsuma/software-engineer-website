@@ -86,6 +86,12 @@ function Intro(props) {
         students were chosen as class champions, making the start a hectic wash
         of of colorful spells.
       </p>
+      <p>
+        Some of the students were a little slow or stunned like me at first. I
+        had thought there was going to be a count down or something! I wrapped
+        myself in a fire cyclone, a spell that would damage anyone who got too
+        close to me. The first thing I was doing was running deep into the trees as fast as I could.
+      </p>
       {/* 'Fans' making bets and saying the most retarded things you can think of */}
       {/* Some retard teacher explaining retarded rules */}
       {/* The start of the event with people running away, retards running for the middle to battle out the 'strongest' */}
