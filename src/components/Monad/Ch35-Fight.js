@@ -79,7 +79,7 @@ function Intro(props) {
         by anyone from Alden. Where they using us as test subjects?
       </p>
       <p>
-        My disgust at the academy would have to wait though as the earth cages
+        My disgust at the academy would have to wait though, as the earth cages
         crumbled each of us.
       </p>
       {/* 'Fans' making bets and saying the most retarded things you can think of */}

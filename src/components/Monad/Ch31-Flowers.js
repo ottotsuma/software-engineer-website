@@ -103,7 +103,7 @@ function Intro(props) {
           </p>
           <p>
             "Gather round, pick sticks from this pot and get into the group on
-            that stick. Numbers one though six." Lubin shouted around the hall
+            that stick. Numbers one through six." Lubin shouted around the hall
             as he walked in. As always his instructions were short and to the
             point. You'd think he was busy but he left so much information out
             about the school I was starting to think he was just lazy.

@@ -140,7 +140,7 @@ function Intro(props) {
 <li>Magic</li> Increases Magic damage, Mana
 <li>Dexterity (Reflexes)</li> Increases cool down of skills, casting of skills, dodge change, 
 
-<li>Sense</li> Trap Detect (All of the senses, hearing, taste, touch, smell.) Seeing though smoke screens and illusions. Seeing weakness and injuries in your opponent
+<li>Sense</li> Trap Detect (All of the senses, hearing, taste, touch, smell.) Seeing through smoke screens and illusions. Seeing weakness and injuries in your opponent
 <li>Charisma/personality</li> Increases NPC likability, command points,  
 
 <li>Magic defense</li> Increases resistance to magic, reduces magic damage taken (%)
@@ -198,7 +198,7 @@ function Intro(props) {
           </p>
           <p>
             "Well, honestly, there have been no major wars between us. We share
-            a small border but the major road from Alden to Leika is though
+            a small border but the major road from Alden to Leika is through
             Huonhia." She replied. Maybe she was less interested in the
             possibility and thought about the past.
           </p>
@@ -600,7 +600,7 @@ function Intro(props) {
             food? No that seems off somehow. Maybe there will be something in
             the library if I try the kingdoms history or mythologies.
           </p>
-          <p>For now though which spells to pick up?</p>
+          <p>For now though, which spells to pick up?</p>
           <p>
             I had just invested heavily into charisma so I picked up
             'Scarecrow', which would turn the plant matter into scarecrows under

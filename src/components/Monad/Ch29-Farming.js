@@ -226,7 +226,7 @@ function Intro(props) {
             Maybe he thought it was just lucky.
           </p>
           <p>
-            I proceeded though all of the seeds. When I had finished 5 little
+            I proceeded through all of the seeds. When I had finished 5 little
             saplings sat there on the desk poking their small heads from the
             seeds.
           </p>

@@ -139,7 +139,7 @@ function Intro(props) {
             <Shine>*Ping*</Shine> [Spear - Wooden shaft and metal head. +1 physical damage.] As
             I thought, it was a junk item. I could spend awhile inspecting the
             spears seeing if one with a good stat or basic tier had slipped
-            though as they tend to do.
+            through as they tend to do.
           </p>
           <p>[Spear: -1HP per hit.] What the hell?</p>
           <p>[Spear: 5% chance to break on use.] Nope.</p>
