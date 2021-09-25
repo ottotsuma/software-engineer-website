@@ -658,11 +658,10 @@ function Intro(props) {
             end of the hand looked burnt the nails long and black launched at my
             head. I grabbed hold of the door and pulled it open and tried to
             pull it closed behind me as the coffin lid finally fell from the
-            coffin onto the floor, the last thing I saw was eyeballs held into a
-            rotting skull by over stretched red muscles the eyeball was tinged
-            yellow ******
+            coffin onto the floor, the last thing I saw was glassed over sunken
+            eyeballs held into a rotting skull by over stretched red muscles.
           </p>
-          {/* starvation symptoms */}
+          {/* starvation symptoms - The eyes begin to sink in and glass over. - One prominent sign in children is a swollen belly. Skin loosens and turns pale in color, and there may be swelling of the feet and ankles. */}
 
           {/* Bridge or riddles? */}
 

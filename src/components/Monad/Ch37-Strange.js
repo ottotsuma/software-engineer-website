@@ -63,7 +63,7 @@ function Intro(props) {
         increase or decrease percentage?"
       </p>
       <p>
-        **** waited for long enough that the silence almost felt awkward before
+        ****[teacher] waited for long enough that the silence almost felt awkward before
         saying "These are things that the system will not tell you directly. You
         have not read the studies conducted on these topics, but I have. Should
         you trust me then I can report that there are negative effects

@@ -5,9 +5,7 @@ function Intro(props) {
       <div className="Frame">
         <div className="Content">
           {/* POV CHANGE? */}
-
           <h4>POV Tisiel</h4>
-
           <p>
             So the era of the pyramid, those people had found this place last
             and that means the kings tomb and the witches or any after had not
@@ -62,13 +60,13 @@ function Intro(props) {
           </p>
 
           <p>
-            "Hey Tisiel, Skull, Reingard." Nymandus called out. "I obviously
-            cannot read any of this script, but it is written in the ****
-            script, it is not the same as the witting on the walls. Just a
-            theory but it was added after to stop the undead from spilling out.
-            I can see the light magic inside it and the death magic spilling out
-            around it, although you cannot see it you should trust me it is as
-            clear as day to me."
+            "Hey Tisiel, Skull, Reingard." Nymandus called out, pointing at a
+            large stone behind the throne. "Whats this say? It's not the same
+            style as the witting on the walls. Just a theory but I think it was
+            added later. To stop undead from coming out. I can see the light
+            magic inside it and the death magic spilling out under it though the
+            gaps, although you cannot see it you should trust me it is as clear
+            as day to me."
           </p>
 
           <p>"Moving it would require strength..." Reingard said "Otto...?"</p>

@@ -573,14 +573,13 @@ function Intro(props) {
           <p>'Lightning germination (2) - '</p>
 
           <p>
-            That left me with *** spell points and I could look though the basic
-            spells available still. It would have to wait until level 30 before
-            any intermediate spells showed. When I was a lightning mage I could
-            just pick up the histories of lightning mages to see which spells
-            lead to unlocking other spells in the future. This time I could only
-            see some of the basic spells and had no idea if following these
-            basic spells would unlock any intermediate spells at all let alone
-            which spells they might be!
+            I would have to wait until level 30 before any intermediate spells
+            showed. When I was a lightning mage I could just pick up the
+            histories of lightning mages to see which spells lead to unlocking
+            other spells in the future. This time I could only see some of the
+            basic spells and had no idea if following these basic spells would
+            unlock any intermediate spells at all let alone which spells they
+            might be!
           </p>
           {Kʼawiil()}
           <p>
