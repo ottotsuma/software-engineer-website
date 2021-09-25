@@ -80,7 +80,11 @@ function Intro(props) {
       </p>
       <p>
         My disgust at the academy would have to wait though, as the earth cages
-        crumbled each of us. The area we were fighting in was the jungles to the east of the academy. 
+        crumbled each of us. The area we were fighting in was the jungles to the
+        east of the academy. They were usually thick with trees but a clearing
+        had been made to house us for the start of the event. More then 270
+        students were chosen as class champions, making the start a hectic wash
+        of of colorful spells.
       </p>
       {/* 'Fans' making bets and saying the most retarded things you can think of */}
       {/* Some retard teacher explaining retarded rules */}
