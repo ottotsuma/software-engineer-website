@@ -88,7 +88,7 @@ function Travel(props) {
           </p>
           <p>"Erm your parents?" I added.</p>
           <p>
-            "Monsters. Ethautenheim to Banderedam passes though the province of
+            "Monsters. Ethautenheim to Banderedam passes through the province of
             Bilkotgopia. Risky trip, but pays well. Work at Banderedam depends
             on the ports and the academy. So both do poorly in the winter, so
             trips like this one to the southern towns to make trades can be
@@ -155,7 +155,7 @@ function Travel(props) {
             books to start with." I said.
           </p>
           <p>
-            We continued walking though the forest in a long snaking line,
+            We continued walking through the forest in a long snaking line,
             occasionally talking to each other when I said. "There is a lot of
             noise coming from up ahead." Sure everyone was talking or
             complaining their feet hurt but this was different.
@@ -183,8 +183,8 @@ function Travel(props) {
           {/* This really needs to come up when you get to the academy... */}
           <p>
             "But the guards." Before I could finish my sentence I saw a a guard
-            cut down a 14 year old girl. From neck though the body and out
-            though the opposite side, just above the hip. To far to hear what
+            cut down a 14 year old girl. From neck through the body and out
+            through the opposite side, just above the hip. To far to hear what
             the guard said it looked as if they had turned on the students.
             Following Leon, I ran as fast as I could until they where just
             beyond the sounds of metal, shouts and screams.
@@ -234,7 +234,7 @@ function Travel(props) {
             don't want to get caught up in it."
           </p>
           <p>
-            Leon nodded and they crawled out. We made our way though the forest
+            Leon nodded and they crawled out. We made our way through the forest
             towards the river, the sounds of battle kept coming from where the
             students were, making me wonder what was going on. We ran until the
             sounds had died out and then just walked. After a while of walking I
@@ -254,16 +254,16 @@ function Travel(props) {
             had blood seeping out of the cracks between his burnt skin, there
             was no hair on his body and his lower lip was completely removed
             along with his ears. He was currently eating the girls insides
-            though her belly tearing at the flesh with his hands of bone and
+            through her belly tearing at the flesh with his hands of bone and
             burnt rotten flesh, shoveling the meat into his mouth where most of
-            it ended up back inside the girl though the gaps in his teeth.
+            it ended up back inside the girl through the gaps in his teeth.
           </p>
 
           <p>
             Leon vomited, loudly. The half-man screamed towards Leon and dragged
             it's self across the ground at surprising speed towards him. Having seen Leon vomit, I
             rushed over to help him. Upon hearing the scream and seeing the
-            moving cadaver chasing him down I tried to push my mana though my
+            moving cadaver chasing him down I tried to push my mana through my
             body and out of my hand like I had with the Kappa. The rush felt
             easier this time with all the practice I had had. The ball of light
             shined pale blue, glowing lit up the ground and trees, before the
@@ -352,7 +352,7 @@ function Travel(props) {
             it moved further up. It's mouth looked like a large creepy smile.
           </p>
           <p>
-            I managed to rip my foot though the trunk of the tree and started to
+            I managed to rip my foot through the trunk of the tree and started to
             dash across the tree towards Leon. Leon's face was pale and sweaty
             watching what was happening, I just dashed towards him as fast as I
             could with my arms spread out trying to keep my balance. I heard a
@@ -382,7 +382,7 @@ function Travel(props) {
           </p>
           <p>
             "This part of Alden is next to the monster territory. Maybe more of
-            them got though then normal with the soldiers being taken towards
+            them got through then normal with the soldiers being taken towards
             the republic more and more." He replied following after me.
           </p>
           <p>

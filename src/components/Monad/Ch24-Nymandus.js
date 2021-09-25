@@ -166,7 +166,7 @@ function Intro(props) {
             I walked over the stone he was sat on earlier. If the others where
             underneath it would save me the time to just wait here if what he
             said was true. As I was walking there, my body felt cold, shivering
-            like a ghost had passed though me, my stomach roiled and turned
+            like a ghost had passed through me, my stomach roiled and turned
             inside. Then I vomited. Bent over holding my stomach as its contents
             emptied onto the stone floor. Guess I had a common reaction after
             all.
@@ -268,7 +268,7 @@ function Intro(props) {
 
           <p>
             Fine keep your riddles, you'll have to tell me later I thought
-            stepping inside past the doors, as we walked though the doors kept
+            stepping inside past the doors, as we walked through the doors kept
             opening slowly. inside was giant reception desk inside a stone wall,
             like a take away shop in the academy. The desk was entirely empty,
             would of been weirder if it was not honestly.

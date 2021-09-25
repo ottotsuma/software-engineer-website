@@ -211,17 +211,17 @@ function Intro(props) {
           </p>
 
           <p>
-            "Though the gate Ditwin" Nymandus replied in an almost bored tone as
-            if this outing had turned into taking a child though a museum they
+            "Through the gate Ditwin" Nymandus replied in an almost bored tone as
+            if this outing had turned into taking a child through a museum they
             had no interest in. Sure enough in the direction Nymandus was
             pointing was a large gate house in the first wall, at around 8m tall
             with thick square towers flanking either side of a gate way. The
-            metal gate was not lowered and so we walked though, zig zagging our
-            way up though each of the walled sections.
+            metal gate was not lowered and so we walked through, zig zagging our
+            way up through each of the walled sections.
           </p>
 
           <p>
-            After passing though without so much as a scratch from the abandoned
+            After passing through without so much as a scratch from the abandoned
             defenses the final wall with a tunnel like gate way which was 15m
             long in complete darkness opened into a room lit with dim fires
             around the perimeter. The moment Reingard step inside a slow clap

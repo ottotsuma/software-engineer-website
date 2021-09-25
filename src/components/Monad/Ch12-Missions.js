@@ -21,7 +21,7 @@ function Intro(props) {
             one of the mission slips said "Lightning mage wanted: To put
             manaballs around bathhouse to keep mosquitoes away." He had ended up
             taking this one, he had no idea what mosquitoes where but at least
-            he would be helping someone. Tisiel's mission of going though old
+            he would be helping someone. Tisiel's mission of going through old
             junk and decrypting them seemed to suit her, Reingard had even
             joined her as a bodyguard. Otto left though the portal back to
             Banderedam, this mission would take him though Chihal and down to

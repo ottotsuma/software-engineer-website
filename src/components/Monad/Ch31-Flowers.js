@@ -89,7 +89,7 @@ function Intro(props) {
             "Okay we won't be in here long just a quick registration then down
             to the hall. It's good weather but another class is out there
             today." After that he shifted though the papers he had brought in he
-            read though the list of class names again.
+            read through the list of class names again.
           </p>
           <p>
             The halls were used for clubs related to combat because the walls,
@@ -458,7 +458,7 @@ function Intro(props) {
           <p>
             "Apparently they didn't at first, but the farmers just kept building
             it again. It takes ages to get to the south farms if you have to go
-            back though the academy and it is not like anything but beasts
+            back through the academy and it is not like anything but beasts
             attack this place. Even then it's been decades.." Ralsan replied
             walking down earth and wood stairs. I shrugged and followed, seems
             like the farmers had a point.
@@ -528,7 +528,7 @@ function Intro(props) {
           <p>
             The seed arced and landed on top of the plants stem, it had moved
             its head down to bite at my seed soldier and to my surprise ripped
-            straight though it like a hot knife though butter. It spasmed it's
+            stright through it like a hot knife through butter. It spasmed it's
             head back and forth violently ripping the seed soldier to pieces in
             moments.
           </p>

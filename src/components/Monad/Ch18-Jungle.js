@@ -146,7 +146,7 @@ function Intro(props) {
             While the others rested I took out my notes and copied down the
             symbol's. I tried to match them to ones I already knew, there was:
             four I did not know, then a Bone Staff, a Skull Staff, two more
-            unknowns, a Wing and another unknown. I started to look though the
+            unknowns, a Wing and another unknown. I started to look through the
             book for similar markings.
           </p>
           {/* Xiquiripat ("Flying Scab") and Cuchumaquic ("Gathered Blood"), who sicken people's blood;
@@ -213,7 +213,7 @@ function Intro(props) {
           </p>
 
           <p>
-            I turned back to looking though Tisiel's notes, the same marking
+            I turned back to looking through Tisiel's notes, the same marking
             kept coming over over and over. It's one I saw in the other places
             also, first the graveyard, then the door in the cliff side and now
             here.
@@ -474,7 +474,7 @@ function Intro(props) {
 
           <h4>POV Shrorlei</h4>
           <p>
-            I had spent my time going though the art-work on the walls when I
+            I had spent my time going through the art-work on the walls when I
             felt the pyramid shake again, before I could make to to the stair
             case I saw the others move up and the lid shut. I did no panic I had
             food, water and they would open the lid again, if not though a new

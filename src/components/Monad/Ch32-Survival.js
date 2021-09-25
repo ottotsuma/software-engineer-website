@@ -148,7 +148,7 @@ function Intro(props) {
 */}
           <div className="BreakPoint"></div>
           <p>
-            After reading though the book there was some obvious differences
+            After reading through the book there was some obvious differences
             from the books used in Alden. The stats were called attributes and
             split into catagories of minor and major. Major being Vitality,
             strength, Magic, Dexterity, Sense & Charisma. Where Magic defense
@@ -590,7 +590,7 @@ function Intro(props) {
             had no idea were to start.
           </p>
           <p>
-            After reading though most of the spells it became clear there were 3
+            After reading through most of the spells it became clear there were 3
             trees of spells. Farming, Lightning and serpents. As well as a mix
             between each of them, such as lightning seeds being a mix between
             lighting and farming. It got me thinking about Kʼawiil's identity.
@@ -616,7 +616,7 @@ function Intro(props) {
           {/* <p>Lightning harvest: Harvest the target.</p> */}
           {/* Quality of harvested materials */}
           <p>
-            After I looked though the passives, since they applied without me
+            After I looked through the passives, since they applied without me
             having to think about them there was no real down side to pick them
             up. After all with lots of spells I have to cast there might be
             times where I do not have the chance to cast them all. Okay, more

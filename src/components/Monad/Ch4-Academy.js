@@ -42,7 +42,7 @@ function Academy(props) {
             the village hall.
           </p>
           <p>
-            Once I stepped though the portal I could see stretched out before me
+            Once I stepped through the portal I could see stretched out before me
             a long white bridge, winged with trees leading to a large palace.
             The door around 30m in height, looked like it was made of gold. With
             towers pointing out from the structure and. The rooves where lined
@@ -200,11 +200,11 @@ function Academy(props) {
             voice came from inside and the head looking out responded. "Another
             of the dammed, one of us." With a big smile. The door suddenly
             creaked and a portion of it opened only large enough for a single
-            body to pass though. "Welcome home brother." A sinister voice
+            body to pass through. "Welcome home brother." A sinister voice
             sounded out from the door.
           </p>
           <p>
-            Squeezing though the gap the door had made and into the main hall.
+            Squeezing through the gap the door had made and into the main hall.
             The hall went deep into the cliff, stretching down further then I
             could see but then again that might just be because it was dark.
             Every now and then there was large stone pillars with cube tops.
@@ -253,7 +253,7 @@ function Academy(props) {
             going red.
           </p>
           <p>
-            "When passing though the military camps I had thought they placed
+            "When passing through the military camps I had thought they placed
             all students of any standing in the same accommodations." I replied
             a little confused by this strange introduction.
           </p>
@@ -433,7 +433,7 @@ function Academy(props) {
             always have to be inside." I joked.
           </p>
           <p>
-            I went to my room after parting ways to read though the books that
+            I went to my room after parting ways to read through the books that
             the note had told me to. The MM&M book was a about mages and how to
             use the basic spells. In short it described them as a class which
             casts spells using mana. The book went on in more detail on the

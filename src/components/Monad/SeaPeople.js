@@ -1014,7 +1014,7 @@ export const SeaPeople = {
       <p>
         The boat felt like it picked up speed as a wave pushed us up into the
         cliff. Sarah had me hold on as she slammed herself into the cliff. The
-        shock ran though me and I saw my health drop by only by a little. She
+        shock ran through me and I saw my health drop by only by a little. She
         pushed me into a gap in the cliff and came in after blocking the
         entrance with her shield. "How did you even spot this small gap in the
         dark?" I questioned.
@@ -1730,7 +1730,7 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         holes for passers by to gape into, everyone was sealed up.
       </p>
       <p>
-        As we passed though the wall I sat with a straight back looking ahead,
+        As we passed through the wall I sat with a straight back looking ahead,
         both passive and annoyed, trying to give some sort of air of a noble
         woman. We were moving out of the main city into the lower town and these
         were just guards so while the facade was not needed, you never know who

@@ -83,7 +83,7 @@ function Rest(props) {
 
           <p>
             His magic must be stronger then mine to counter it like that I
-            thought. I ran though the water letting a lighting ball fly from my
+            thought. I ran through the water letting a lighting ball fly from my
             hands. He left loose a fireball at my lightning ball, mine collapsed
             on impact, but his flew past me. When I had got in close he threw up
             a wall of fire between us, I jumped into it and slammed my warhammer
@@ -110,7 +110,7 @@ function Rest(props) {
             monsters until I am strong enough to travel out of Alden.
           </p>
 {/* Shrorlei,  Reingard, Tisiel, Ralsan, Leon*/}
-          <p>I left and went to find Tisiel to see if she had made any progress. Walking though the smaller training areas I ran into Ralsan & Shrorlei. "Hey are you two going to train?" I asked them.</p>
+          <p>I left and went to find Tisiel to see if she had made any progress. Walking through the smaller training areas I ran into Ralsan & Shrorlei. "Hey are you two going to train?" I asked them.</p>
 
           <p></p>
 
@@ -121,7 +121,7 @@ function Rest(props) {
           <div className="Note">
             <h4 id="Fancy">To Otto,</h4>
             <p id="Fancy">
-              Meet me in my room, I made a break though in the language.
+              Meet me in my room, I made a break through in the language.
             </p>
           </div>
           <div className="BreakPoint"></div>

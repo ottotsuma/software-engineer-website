@@ -45,7 +45,7 @@ function Intro(props) {
           </p>
           <p>
             "No! They just work together like a set of keys that are split up.
-            Now be serious." She scalded. Tisiel read though the script as best
+            Now be serious." She scalded. Tisiel read through the script as best
             she could. The language sounded clumsy but that might of just been
             Tisiel unfamiliarly with the sounds. Without having ever heard
             anyone speak the language it was a miracle she was even trying.
@@ -93,11 +93,11 @@ function Intro(props) {
           <p>"I dunno, mood lighting, sexy skulls" I pointed out.</p>
           <p>
             "Phahaha, you freak. Get looking for loot." She laughed and moved
-            into the room to search though the books.
+            into the room to search through the books.
           </p>
-          <p>"Yeah alright" I said and went to look though the room also.</p>
+          <p>"Yeah alright" I said and went to look through the room also.</p>
           <p>
-            While Tisiel was looking though the books, I whipped out my wand and
+            While Tisiel was looking through the books, I whipped out my wand and
             looked for magic items. Most of the objects in the room remained as
             they where. The items in the room with mana still inside started to
             glow in my vision, apart from the glowing orb. It was already
@@ -107,8 +107,8 @@ function Intro(props) {
             A quill left on the table, a wizards hat screwed up in a corner, a
             pendent on top of the chess of draws and one of the skulls on the
             book shelf. I took these items and placed them on the desk together.
-            When Tisiel had finished looking though the books and taking the
-            ones she liked in a small pile on the desk we decided to go though
+            When Tisiel had finished looking through the books and taking the
+            ones she liked in a small pile on the desk we decided to go through
             what we had found.
           </p>
           <p>
@@ -123,7 +123,7 @@ function Intro(props) {
           <p>
             "Yeah, even though I've been joking about this place, I don't want
             to spend too long down here." With that we went back to Tisiel's
-            room to search though what we had found, after all this place was
+            room to search through what we had found, after all this place was
             kind of creepy.
           </p>
           {/* Break point? */}
@@ -239,7 +239,7 @@ function Intro(props) {
           </p>
           {/* What fucking research? Nothing about the coins? */}
           <p>
-            "Finally the princesses coin, who though more research I am not sure
+            "Finally the princesses coin, who through more research I am not sure
             if she was their daughter at all. I am not even sure if they are
             related and this coin is a mystery to me, can't find any references
             to coins like it, and I cannot tell what kind of magic it contains."
@@ -261,7 +261,7 @@ function Intro(props) {
             ring. Your strength stat is not related to your muscle mass anyway,
             you trickster."
           </p>
-          <p>"Hehe you saw though that. Next is the skull-" She started</p>
+          <p>"Hehe you saw through that. Next is the skull-" She started</p>
           <p>"Yours." I interrupted.</p>
           <p>"It might be amazing." She suggested.</p>
           <p>

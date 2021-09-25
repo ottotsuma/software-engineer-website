@@ -118,7 +118,7 @@ function Fifth(props) {
           </p>
 
           <p>
-            "No not really, I trust you have read though the histories at least
+            "No not really, I trust you have read through the histories at least
             once? You are not the first mage to try strength and magic. I'm sure
             you won't be the last but it is very uncommon during peace times."
             He replied.

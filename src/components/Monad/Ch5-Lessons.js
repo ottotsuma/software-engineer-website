@@ -135,7 +135,7 @@ function Lessons(props) {
           </Elementals>
           <p>
             "Each element has a set of spells that come with it. These elements
-            behind me are common elements found though the whole continent. If
+            behind me are common elements found through the whole continent. If
             we focus on earth for example, spells might include defensive spells
             like earth wall, offensive spells like earth spike or non-combat
             spells like soften." Lubin said.
@@ -170,7 +170,7 @@ function Lessons(props) {
             explained.
           </p>
           <p>
-            We then split into small groups to look though the histories book
+            We then split into small groups to look through the histories book
             and asked to match up as many persons in the book to the jobs found
             in Alden. This would help us get familiar with the histories book,
             some of the people inside and the jobs found in Alden all at the
@@ -198,7 +198,7 @@ function Lessons(props) {
 
           <p>
             "If there are any questions, you will be seeing me once a day, four
-            days a week, so please wait until you have read though 'Exemplary
+            days a week, so please wait until you have read through 'Exemplary
             mages: a history' before asking questions. As you might find your
             answers in there." Lubin said.
           </p>
@@ -215,7 +215,7 @@ function Lessons(props) {
           <p>
             In the library on the cliff side I got to reading the histories
             under one of the large stone pillars with light coming out from it.
-            After reading though so many of the Mages from the past I soon found
+            After reading through so many of the Mages from the past I soon found
             myself bored and looking for anything else to distract me. I started
             looking along the spines of the old books around the library; 'Fire
             Magic', 'Faming with mana - Pocotcotcan magic', 'Lusty Ma...', 'The
@@ -279,7 +279,7 @@ function Lessons(props) {
           </p>
           <p>
             "Hey it's not like the other mages had normal names. How did you
-            know I would go to the old library and look though the books
+            know I would go to the old library and look through the books
             anyway?" I asked.
           </p>
           <p>
@@ -414,7 +414,7 @@ function Lessons(props) {
             some. After about 40 minutes we arrive at the ruin, it was layed out
             in a square with black metal spikes protruding from the ground all
             around making a wall. They where too close to each other for us to
-            squeeze though but that was not the main problem. Passing between
+            squeeze through but that was not the main problem. Passing between
             the spikes was an eerie ghost like gas.
           </p>
 
@@ -440,7 +440,7 @@ function Lessons(props) {
           </p>
           <p>
             With a shake of my head I picked up the ring from Tisiel's hand and
-            placed it on my own. I then pushed my mana though the tip of my
+            placed it on my own. I then pushed my mana through the tip of my
             finger and it came out like a rope. Attaching the ring to the end of
             the rope like tether, it stuck when I willed it to grab the ring.
             Pushing the tethered ring into the gas I was surprised when nothing
@@ -471,7 +471,7 @@ function Lessons(props) {
           </p>
           <p>
             The grass was strangely cold considering the the weather as not cold
-            today. We walked though the graves and to the door of the mausoleum.
+            today. We walked through the graves and to the door of the mausoleum.
             It resembled the old academy buildings but in a way it looked like a
             cheaper copy. The stones where white and the doors where a black
             metal. The difference was that the building here was not lined with
@@ -520,7 +520,7 @@ function Lessons(props) {
           </p>
           <p>
             Tisiel just smiled as she crouched down opened a book she got from a
-            pack on her waist. She started reading though it marking her fingers
+            pack on her waist. She started reading through it marking her fingers
             along the signs on the stone sarcophagus. I wanted to know what it
             said but also if Tisiel could even read this script. It was clearly
             old and did not resemble Aldenese at all. I wanted to guess more
@@ -533,7 +533,7 @@ function Lessons(props) {
             her fingers had rings on them. her spine had a necklace resting on
             it and behind her skull wsa a tiara. Each of them looked expensive.
             I had seen jewelry before, and magic items but they where usually
-            gems placed onto a band of metal. These though the metal was crafted
+            gems placed onto a band of metal. These through the metal was crafted
             into scenes with monsters and animals and humans all around each
             item. As I was inspecting the tiara Tisiel looked up at me strange
             look.
@@ -568,7 +568,7 @@ function Lessons(props) {
             see what you found." She said looking at my small pile of loot.
           </p>
           <p>
-            Tisiel looked though the items before deciding she had no idea which
+            Tisiel looked through the items before deciding she had no idea which
             where important and which where not. We did not have all the time in
             the world so I interrupted her inspections. "Look away for a
             moment."
@@ -584,7 +584,7 @@ function Lessons(props) {
           </p>
           <p>"Like I would..." I muttered.</p>
           <p>
-            I took out the wand I had got in Banderdam and passed mana though it
+            I took out the wand I had got in Banderdam and passed mana through it
             before placing it back. I then moved the kings crown, wand & ring to
             once side. The Queens tiara & ring. The princesses coin also. "You
             can look again"

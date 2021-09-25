@@ -12,7 +12,7 @@ function Intro(props) {
           <p>
             Otto could not help but stop listening to the conversation, his eyes
             had been caught and his full attention was now directly focused the
-            woman who had just walked though the door. Stunning smooth shoulder
+            woman who had just walked through the door. Stunning smooth shoulder
             length straight black hair, slightly tanned smooth skin, almond
             shaped eyes, as she looked around the room he could not help but
             admire how elegant and graceful she was moving about between the

@@ -40,8 +40,8 @@ function Banderedam(props) {
           <p>
             Once at the gate, guards where outside checking people coming into
             the city. With my ID card, letters of introduction to the magic
-            academy and my age it was easy for me to pass though the gate. Leon
-            lived there so he was able to pass though easily. Meeting up again
+            academy and my age it was easy for me to pass through the gate. Leon
+            lived there so he was able to pass through easily. Meeting up again
             inside Leon took me to the shopping district so he could drop off
             his package and I could go shopping for a wand.
           </p>
@@ -163,12 +163,12 @@ Charlemagne in 794 decreed that a single silver penny (weighing 1.7 grams) shoul
           <p>
             "It's yours, if I where you I'd keep it to yourself. Although it
             gives you access to the skill, still costs mana, you have to push
-            your mana into the wand, though it and out the other side. Normally
+            your mana into the wand, through it and out the other side. Normally
             I ask people not to test wands in here but in this case it won't do
             any harm so give it ago." He said.
           </p>
           <p>
-            "If you are sure." I pushed my mana into the wand, it flowed though
+            "If you are sure." I pushed my mana into the wand, it flowed through
             like my arm is longer then normal feeling apart of myself as far as
             the mana is concerned and out the other side where upon my eye sight
             is filled in color. Almost all objects in the shop glow different

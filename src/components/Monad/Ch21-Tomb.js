@@ -172,7 +172,7 @@ function Intro(props) {
             academy robes on our backs we left to meet with the group waiting
             outside. The awkward greetings over they quickly informed us the new
             guy was given permission to go into the field for his studies and
-            could take others with him as help. This way they could pass though
+            could take others with him as help. This way they could pass through
             without raising any suspicions during a time when the academy was
             clamping down on student exploration outside of the academy grounds.
           </p>
@@ -326,7 +326,7 @@ function Intro(props) {
           </p>
 
           <p>
-            After a short walk though the tunnel wide enough to stand only 2 by
+            After a short walk through the tunnel wide enough to stand only 2 by
             2 we soon exited though to another larger cavern. Before us was a
             giant temple, with columns stretching far into the air but not
             touching the roof, they appeared to be randomly placed coming out of
@@ -398,7 +398,7 @@ function Intro(props) {
           <p>"He gave me no time." Tisiel replied without a care.</p>
 
           <p>
-            "Earth ball!" Ditwin called mana though his body into his hand in
+            "Earth ball!" Ditwin called mana through his body into his hand in
             the shaped of a ball and fused his earth element within, as soon as
             the rock was formed he shot it towards Tisiel.
           </p>
@@ -415,7 +415,7 @@ function Intro(props) {
             "Now, now. There is no need for violence. Gelfrat honorably gave up
             his blood so we may enter. No one would believe he was fool enough
             to now know what he was doing, he knew all along. Now put down your
-            anger..." Linhart walked though the middle of the two parties that
+            anger..." Linhart walked through the middle of the two parties that
             had formed.
           </p>
 
@@ -463,7 +463,7 @@ function Intro(props) {
           <p>
             As we stepped up to the entrances Tisiel whispered to me, "The doors
             are marked easy, medium and hard. Be careful in there." I gave a
-            short nod and walked though.
+            short nod and walked through.
           </p>
           <h4>Vault Tomb</h4>
 
@@ -770,7 +770,7 @@ function Intro(props) {
             On reflection I guess the ghost takes your first reply as your
             answer. Still was it so hard? Maybe it was, maybe because my dad
             told me childish riddles everyday I find this kind of thing easy.
-            With a shrug I walked though the door and up the stairs to the door
+            With a shrug I walked through the door and up the stairs to the door
             marked with two.
           </p>
         </div>

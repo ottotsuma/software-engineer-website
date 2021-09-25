@@ -55,7 +55,7 @@ Noticed by a God - get the notice of a God, (varies) */}
 
           <p>
             Tisiel - "No no we were ... just come in it's fine, I have so much
-            new information to look though, it's a shame the academy will be
+            new information to look through, it's a shame the academy will be
             taking over the site and I won't be able to gather anymore first
             hand information but come take a look." She gestured me to come and
             sit as Reingard sat down next to her desk also. Across it was layed

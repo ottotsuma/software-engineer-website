@@ -93,7 +93,7 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
           </p>
           <p>
             I used my sword to move my opponents to one side and launched a ball
-            of hardened ice into his chest.He pushed though the pain so I let my
+            of hardened ice into his chest. He pushed through the pain so I let my
             ice magic spray out from me causing him to slow and be cut by small
             flakes of ice. I moved in and stabbed him just below the waist. He
             moved back holding his stomach and cursed in a language I don't
@@ -153,16 +153,16 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             went to the walls.
           </p>
           <p>
-            I left the town, and went though the forests. I went to the area
-            where the sea people where last seen and going though the forest I
+            I left the town, and went through the forests. I went to the area
+            where the sea people where last seen and going through the forest I
             saw their boats off in the distance. I had to check if any of them
-            had come ashore before reporting back. I passed though the forest
+            had come ashore before reporting back. I passed through the forest
             easily with my legs and body strengthened by mana. The trees that
             would scratch at my skin bent and broke as I passed by quickly
             leaving behind no marks on my skin.
           </p>
           <p>
-            I found them. Moving though the forest slowly. They did not see me,
+            I found them. Moving through the forest slowly. They did not see me,
             I know this place like the back of my hand. I pulled out my dairy
             and started to take notes on their location, how many, kind of
             weapons etc. I wrote down everything I could remember, right up
@@ -222,7 +222,7 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
           <p>
             "Elves have cat fever. Gianlongian in Huonhia has a drought, their
             second biggest port city included. Desonean in the Kingdom has
-            flooded, the main river though the kingdom that is. To top it all
+            flooded, the main river through the kingdom that is. To top it all
             off a Malgian Crusade has been called in the Kingdom, I can only
             hope those crazy zealots die in the desert." Robert said.
           </p>
@@ -310,7 +310,7 @@ most people learn inspect but either see
             "Provoke"
           </p>
           <p>
-            The sounds of the fight ring out though the small clearing. "Hig-h
+            The sounds of the fight ring out through the small clearing. "Hig-h
             Impact!!", "Fire Ball!". "fire ball? That's not a junior skill that's
             intermediate. We all agreed to start at junior level." Berk grows
             towards the smaller Otto. "I thought we must of leveled up by now!"
@@ -378,7 +378,7 @@ most people learn inspect but either see
             apparent advantage. Beke slams his shield into the creature and
             stabs at its ribs with his wooden sword shouting "shield bash" with
             great joy. Eugen follows up by stabbing into the creature with his
-            spear, the tip is dull but with enough force to pierce though the
+            spear, the tip is dull but with enough force to pierce through the
             creatures skin, a long high screech sounds out in the clearing,
             confident Eugen tries to thrust further in but is unable. A toy
             arrow lands at Jakob's feet, Nils off into the distance. A child's
@@ -674,7 +674,7 @@ most people learn inspect but either see
             seen a man who replaced his eyes with that of a bird of prey, made
             him an amazing archer. The point is being a Rouge is about taking
             what advantages a monster has and making them or own. From level 1
-            though to 10 we mimic the monster we want to steal from, learn how
+            through to 10 we mimic the monster we want to steal from, learn how
             they fight so that we can kill them, eat their heart and take their
             spirit for our own."
           </p>
@@ -785,7 +785,7 @@ most people learn inspect but either see
             go hunting to become level one.
           </p>
           <p>
-            The first thing I had to do was read though a book about stats. I
+            The first thing I had to do was read through a book about stats. I
             had to learn their names and what they do before I could join in the
             normal lessons. Today the others were looking at maps of the whole
             continent and learning about the people and places. I really wanted

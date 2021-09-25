@@ -28,7 +28,7 @@ function Results(props) {
           <p>
             With around 10,000 students in each year. Give or take the amount of
             students coming and going abroad and children born in that year. The
-            true number could only be found out though the academy's records,
+            true number could only be found out through the academy's records,
             and I don't have time for that. Plus there are many students like
             Tisiel who have opted out of combat already and more will come. I
             was just trying to psych myself up, just incase my ranking was in

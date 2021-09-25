@@ -70,11 +70,22 @@ function Intro(props) {
         luck to you all."
       </p>
       {/* Showing of the arena and the contestants inside the jungle or walking to the area? */}
-      <p></p>
+      <p>
+        Lubin had left my sight and I couldn't help but ponder on what he said.
+        They had set up a similar mechanism to save the students if their HP got
+        to low but it was barely functional? I had been in the arena most more
+        then most first years and everyone in the dueling club knew the
+        mechanisms of the arena were found in the state they are today, not made
+        by anyone from Alden. Where they using us as test subjects?
+      </p>
+      <p>
+        My disgust at the academy would have to wait though as the earth cages
+        crumbled each of us.
+      </p>
       {/* 'Fans' making bets and saying the most retarded things you can think of */}
       {/* Some retard teacher explaining retarded rules */}
       {/* The start of the event with people running away, retards running for the middle to battle out the 'strongest' */}
-      {/* tracking of students though the jungles */}
+      {/* tracking of students through the jungles */}
       {/* Dumb 'events' */}
       {/* More dumb student banter */}
       {/* Cornering students and beating them to death */}
@@ -83,7 +94,7 @@ function Intro(props) {
   );
 }
 export default Intro;
-// It ends half way though the event with Chu-gong needing to die to save Kaja
+// It ends half way through the event with Chu-gong needing to die to save Kaja
 
 // Alden takes part of the republic finding the republic slaves fighting them
 // Alden takes people of the republics north and west ans sea people as slaves

@@ -343,7 +343,7 @@ function Intro(props) {
 
           <p>
             "Relax Milly this is Otto, I told you about him he saved my life
-            coming back though the forest, he brought food and I was hoping you
+            coming back through the forest, he brought food and I was hoping you
             would be able to cook..."
           </p>
 
@@ -369,7 +369,7 @@ function Intro(props) {
           <p>
             "Ah I had been meaning to thank you more for helping me get back
             home alive, I didn't really have anything to give at the time, but
-            recently I traveled though the forest guiding a Huonhia traveler and
+            recently I traveled through the forest guiding a Huonhia traveler and
             came across this." Leon placed a bone white mask on my lap, it had
             large stag like antlers sticking out of the top but it looked to all
             be on piece no joins or breaks and all of it bone white, when I

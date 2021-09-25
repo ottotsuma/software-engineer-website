@@ -13,14 +13,14 @@ function Intro(props) {
             I had no idea how to reply to Arrilian. He was the last person I
             expected to see, as the head of the first years I figured he was
             always busy. Since I could not really refuse him, I had to follow
-            him. He took me into the arena, not though the normal entrance but
+            him. He took me into the arena, not through the normal entrance but
             one I never really noticed until the stones moves apart when his
-            mana touched it. We walked up a very wide staircase and though a
+            mana touched it. We walked up a very wide staircase and through a
             double door. The room inside was huge. With tables, chairs and even
             small kitchen areas. "What is this place?" I could not help but ask.
           </p>
           <p>
-            "The VIP room, though that door is the viewing platform, the large
+            "The VIP room, through that door is the viewing platform, the large
             one you would of see the head of the school and myself sitting on
             during your initial trials." He said while sitting down at a small
             table.
@@ -89,7 +89,7 @@ function Intro(props) {
             just inspected by students there was junk items mixed in with basic
             items but nothing rare or above. Those items get filtered out to
             either be used by the academy or sold to Alden's government. I
-            looked though the warhammers again. I thought it was a good idea
+            looked through the warhammers again. I thought it was a good idea
             last time, the histories where full of inquisitors which needed to
             taken in rouge mages, their builds where great counter to mages.
             Only after trying to match their builds I came to understand they
@@ -186,7 +186,7 @@ function Intro(props) {
             man in about his 40's said to me wearing metal armor.
           </p>
           <p>
-            "Erm, okay. Go though the obstacle course." I commanded to the men
+            "Erm, okay. Go through the obstacle course." I commanded to the men
             in front of me. With that they ran down the middle of the obstacle
             course without going near a single obstacle, coming to a stop at the
             other end.
@@ -207,7 +207,7 @@ function Intro(props) {
           </p>
           <p>
             This time I gave instructions about which obstacles to do in order
-            and where they should go. They ran though the course again, except
+            and where they should go. They ran through the course again, except
             this time they ran into the last obstacle. It was a wall they had to
             climb. They ran into it and kept running...
           </p>
@@ -312,7 +312,7 @@ function Intro(props) {
           </p>
           {/* 	Royal Adviser, Mayor, Librarian, Diplomat, Linguist */}
           <p>
-            Being curious I decided to look though the group and duel shops. I
+            Being curious I decided to look through the group and duel shops. I
             was there for the rest of the afternoon more or less, the items on
             sale ranged from basic tier all the way up to epic tier. The problem
             was the cost was impossible. The Miscellaneous section contained one

@@ -63,7 +63,7 @@ const data: SkillType[] = [
                     title: "Thunder Kiss",
                     tooltip: {
                       content:
-                        "Deals damage though a targets whole body on contact with your lips.",
+                        "Deals damage through a targets whole body on contact with your lips.",
                     },
                     children: [
                       {

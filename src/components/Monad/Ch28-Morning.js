@@ -198,7 +198,7 @@ function Intro(props) {
           </p>
           <p>
             I walked with Ralsan to the gate he was walking to. Unlike the gates
-            I passed though when heading to the tomb this one was much smaller,
+            I passed through when heading to the tomb this one was much smaller,
             there was only two guards and the sign above the gate said. "Farmers
             only".
           </p>
@@ -232,7 +232,7 @@ function Intro(props) {
             me another. Perk of working on the farms I guess.
           </p>
           <p>
-            I looked though my spells list while Ralsan was talking to me.
+            I looked through my spells list while Ralsan was talking to me.
             Surprised that I had more then one spell with the word 'Seed' inside
             the description. I could only see the basic level spells because my
             level was too low. Apart from lightning seeds, there was also:
@@ -240,7 +240,7 @@ function Intro(props) {
             Lightning harvest.
           </p>
           <p>
-            What shocked me more when I finally looked though the descriptions
+            What shocked me more when I finally looked through the descriptions
             was the strange things they did. Kʼawiil might have lighting powers
             but was not limited to that like a mage. There where skills and
             spells for snakes, farming, fertility and even a spell for a

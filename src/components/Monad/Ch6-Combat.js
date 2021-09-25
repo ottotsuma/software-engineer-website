@@ -53,7 +53,7 @@ function Combat(props) {
             we will move onto charms and how to counter them." Lubin said
             waiting for questions to come. */}
           <p>
-            The lesson continued as normal, reading though past mages, their
+            The lesson continued as normal, reading through past mages, their
             feats, discoveries and challenges. I decided to check out my current
             stats since there was a fight coming up.
           </p>
@@ -90,7 +90,7 @@ function Combat(props) {
             Luckily for me I had a high compatibility with lightning.
           </p>
           <p>
-            Looking though the list of spells a lighting mage could learn, it
+            Looking through the list of spells a lighting mage could learn, it
             was the same list as the normal mage spells, except the names and
             descriptions had changed a little because of the element type that
             could be applied. I of course still had my spells from before like
@@ -136,7 +136,7 @@ function Combat(props) {
             willpower items. So I thought it would be a good idea to invest in
             strength, that way I could deal with those people also. There was
             nothing in the rules to say I had to use only magic, and my element
-            lightning would travel though a metal blade easier then a wooden
+            lightning would travel through a metal blade easier then a wooden
             wand.
           </p>
 
@@ -279,7 +279,7 @@ function Combat(props) {
 
           <p>
             "Don't be sorry, your prize is to do that again soon against some
-            one else. You were my final match and I don't plan on going though
+            one else. You were my final match and I don't plan on going through
             that pain again any time soon. You don't know? Teacher should of
             told you, during a duel your health stops at 10 points so no one
             dies. If you want to know more then that you'll have to ask
