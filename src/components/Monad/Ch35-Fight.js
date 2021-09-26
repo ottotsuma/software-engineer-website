@@ -90,7 +90,10 @@ function Intro(props) {
         Some of the students were a little slow or stunned like me at first. I
         had thought there was going to be a count down or something! I wrapped
         myself in a fire cyclone, a spell that would damage anyone who got too
-        close to me. The first thing I was doing was running deep into the trees as fast as I could.
+        close to me. The first thing I was doing was running into the trees as fast as I could.
+      </p>
+      <p>
+        The ground was moving and shifting under the wishes of the earth mages, the wind shot one way and then the other under the control of the wind mages. I kept putting one foot in front of the other, pushing though the freezing and burning changes I felt on my skin. I was almost at the edge of the jungle when a dull pain stuck the side of my skull, it rang around my head, bouncing inside as I fell to the floor. I braced myself with my hands but my head was so dizzy it hurt my wrist when I landed. On the floor next to where I fell was a rock held together by earth mana, it quickly fell back into dirt, the mage that cast it must be off knocked out, or worse.
       </p>
       {/* 'Fans' making bets and saying the most retarded things you can think of */}
       {/* Some retard teacher explaining retarded rules */}
