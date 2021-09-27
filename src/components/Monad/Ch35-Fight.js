@@ -112,6 +112,7 @@ function Intro(props) {
         on in front of the other and ran into the tree line and deep into the
         jungle. I told myself over and over, 'don't stop'.
       </p>
+      <div className="BreakPoint"></div>
       <p>
         
       </p>
