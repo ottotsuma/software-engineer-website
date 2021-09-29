@@ -147,6 +147,7 @@ Human body: Stats 0 - 10, 5 is normal and 10 is the best a human can get. (This 
 <li> Vampire - Strength - +1 Vitality - +1 Magic - +1 Dexterity - +1 Sense - +1. (Blood magic is always unlocked)🧛‍♂️
 <li> Dark Elf  - ??? [Desert elves]
 <li> Snow Elves - [Cave elves]
+<li> Sea Elves - [Mythical]
 <li> Automitia - ???
 <li> Undead (generic) - ???
 <li> Krogan - ???

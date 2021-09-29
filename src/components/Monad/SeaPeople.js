@@ -878,6 +878,10 @@ export const SeaPeople = {
         said standing next to our little rowing boat under her black sun
         umbrella.
       </p>
+      <div className="BreakPoint"></div>
+      <p>
+        Elves migration - All elves started off in a big forest, thought to be the forest ****. There they worshiped the spirits that made up nature, kind of like gods. This has been misinterpreted as a worship of nature itself but its not untrue. Anyway these are the elves as most people know them even today. A long time ago there was a split in the thoughts of the elves and where the gods of nature lay. These splits from the religion are referred to as 'dark elves'. My kind often mistaken for the only dark elves because our skin is often dark grey to black in colour, desert elves would be the true name. The desert elves as the names suggests moved south into the deserts in search of the gods of nature that lay there. Next come the snow or cave elves, they moved north into the snowy lands for the same reasons. Finally the sea elves, who drowned trying to find the gods of the ocean.
+      </p>
     </Content>
   ),
   6: (
