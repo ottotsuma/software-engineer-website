@@ -28,8 +28,8 @@ function Intro(props) {
         screaming that was a trap. I decided to keep edging around to see if I
         could see a way inside. Then I saw another student. Black robe with
         yellow trim, a lightning mage. They were standing within one of the corn
-        fields looking at the plants, pulling them down, close to their face each
-        time.
+        fields looking at the plants, pulling them down, close to their face
+        each time.
       </p>
       <p>
         "Don't worry. The plants wont harm you. If you tell me your name." The
@@ -124,7 +124,20 @@ function Intro(props) {
         out. But mostly I want your fire to cook." He said. It's been day and
         night can he really not go that long without eating?
       </p>
-      <p></p>
+      <p>
+        "Whats your game?" I asked. "You cannot sit this out, we have to kill
+        each other."
+      </p>
+      <p>
+        "That is what they said. If we don't kill each other, maybe they will
+        even come for us themselves. I'd rather fight a losing fight against the
+        ones who put us in this situation then play their game." He responded
+        putting the meat on sticks over a pile of wood.
+      </p>
+      <p>
+        I still had the flame playing around in the palm of my hand. I threw it
+        in his direction, onto the pile of wood, which started a fire.
+      </p>
       {/* Otto Vs Morons */}
       {/* Living in the farm */}
       {/* Last of the morons */}
