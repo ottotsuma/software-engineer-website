@@ -2717,12 +2717,16 @@ export const spellList = {
     1: "While this mode is active, the caster draws in nearby entropic energy, draining residual power from any dead enemy nearby to restore the caster's mana.",
   },
   "Otitis Externa": {
-    name: "Otitis Externa ",
+    name: "Otitis Externa",
     negative: true,
     1: "-2 sense when using ears alone.",
   },
+  "fire cyclone": {
+    name: "fire cyclone",
+    1: "A cyclone of fire starts winding up and spins towards your target.",
+  },
 };
-// fire cyclone - Ch 35
+
 // Ghoul, Wight, Halfling, Vampire→Vampire Noble→Vampire Knight, Namanari Hannya <Chunari Hannya> <Honnari Hannya>, Dhampir, Banshee, Draugr→Great Draugr, Blood Fairy, Strigoi,
 
 // Berserker stuff ! Blood stuff !https://dragonage.fandom.com/wiki/Blood_Mage_(Origins)

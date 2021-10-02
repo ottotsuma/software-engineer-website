@@ -138,6 +138,7 @@ function Intro(props) {
         I still had the flame playing around in the palm of my hand. I threw it
         in his direction, onto the pile of wood, which started a fire.
       </p>
+      <p></p>
       {/* Otto Vs Morons */}
       {/* Living in the farm */}
       {/* Last of the morons */}
