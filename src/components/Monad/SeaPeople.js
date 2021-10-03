@@ -2011,7 +2011,7 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         and here we are now."
       </p>
       <p>
-        "Speaking of here now." Kiksotz said drawing the carriage to a stop.
+        "Speaking of here now." Kiksotz said drawing the carriage to a stop. "Up ahead is the boarder of Monh. The county below is Baberg. You want to head directly south when you come to the cross roads towards the town of Weildengen. All the normal land and sea routes on the way to Alden are carefully monitored. There is a river on the boarder to Alden called Kehzach. From our reports this is one of the locations students will be monitoring, you just have to monitor them and report back if you see the person we are looking for."
       </p>
       {/* Give the blood bottle to Sarah */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}
