@@ -1998,6 +1998,12 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         call us liars."
       </p>
       <p>So why did you leave Xibalba? Noah asked.</p>
+      <p>
+        There was a few moments of silence before Kiksotz replied. "Xibalba.
+        Truthfully is not a place you would leave willingly. Master and I were
+        accused of ripping the head of some hero or other and playing sports
+        with his freshly severed head. It was so long ago who even remembers. "
+      </p>
       {/* Give the blood bottle to Sarah */}
       {/* In the south you join the war and find Alden people. See the side of the war from the republic. */}
       {/* The purpose of joining as mercenaries, but working with the vampires to carve out a piece of land to rule */}
