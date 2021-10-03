@@ -1,10 +1,14 @@
 import React from "react";
+import SpellCards from "./SpellCards";
 
 function Fifth(props) {
   return (
     <div className="Monad" id="3">
       <div className="Frame">
         <div className="Content">
+        {SpellCards([
+          ["Fireball", 1, "fire"],
+        ])}
           <h4>The fifth day.</h4>
           {/* 30kg warhammer... ? */}
           <p>

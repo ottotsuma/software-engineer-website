@@ -180,6 +180,7 @@ export const spellList = {
   },
   "Lightning harvest": {
     name: "Lightning harvest",
+    element: "lightning",
     note: "Harvest the target. [If the target is below 20% HP this attack does 200% more damage. If this target is a 'plant' type this attack does 500% more damage. If this attack kills the target you have a chance to harvest something.]",
     1: "Harvest the target. [If the target is below 20% HP this attack does 200% more damage. If this target is a 'plant' type this attack does 500% more damage. If this attack kills the target you have a chance to harvest something.]",
     2: "Harvest the target. [If the target is below 20% HP this attack does 250% more damage. If this target is a 'plant' type this attack does 600% more damage. If this attack kills the target you have a chance to harvest something.]",
@@ -193,6 +194,8 @@ export const spellList = {
   },
   "Lightning growth": {
     name: "Lightning growth",
+    element: "lightning",
+    image: "https://cdn.dribbble.com/users/36602/screenshots/3544179/growing-tree-svg-animation-recut.gif",
     1: "Force the target to grow.", // 5% increase stats
     2: "Force the target to grow.", // ch32 // +1 all base stats
     3: "All targets base stats +2 for the duration of the spells.",
@@ -200,6 +203,8 @@ export const spellList = {
   },
   "Lightning germination": {
     name: "Lightning germination",
+    element: "lightning",
+    image: "https://static.wixstatic.com/media/45e716_c8ae22cc571b4429ac23a59b4ddf9ef0~mv2.gif",
     1: "Stimulate a target into germinating", // 10\10 secs
     2: "Stimulate a target into germinating", // ch32 // 10\9 secs
     3: "Target heals 12% of their max hp over 7 seconds.", // 12\7
@@ -213,12 +218,15 @@ export const spellList = {
   },
   "Seeds to Soldiers": {
     name: "Seeds to Soldiers",
+    element: "wood",
     note: "Take [x] seed(s), use energy to give life to [x] soldier(s). [x is equal to spell level.]",
     1: "Take 1 seed, use energy to give life to 1 soldier.",
     2: "Take 2 seeds, use energy to give life to 2 soldiers.",
   },
   "Lightning seeds": {
     name: "Lightning seeds",
+    element: "lightning",
+    image: "http://2.bp.blogspot.com/-k4C_Lq6Y7fw/VDtBXWA2LCI/AAAAAAAABrY/QEUTlVZ76RI/s1600/lightningBall_small.gif",
     note: "Shoots a group of [x] seed(s) in a spread from the user. The seeds attach to opponent(s) and cause lightning damage over time. A part of the damage is used to restore your as mana. [x is equal to spell level.]",
     1: "Shoots a group of 1 seed in a spread from the user. The seeds attach to an opponent and cause lightning damage over time. A part of the damage is used to restore your as mana.",
     2: "Shoots a group of 2 seeds in a spread from the user. The seeds attach to opponents and cause lightning damage over time. A part of the damage is used to restore your as mana.",

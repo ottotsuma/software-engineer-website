@@ -44,6 +44,12 @@ const elementList = {
     image:
       "https://github.com/ottotsuma/ottotsuma.github.io/blob/master/images/spells%20effects/b199a7695f5c44443faeb497ccd954e2.gif?raw=true",
   },
+  mana: {
+    color: "purple",
+    image: "https://i.pinimg.com/originals/ae/b8/53/aeb853e7b70e6c1b425d2d68c4cc1da8.gif",
+  }
+  // https://i.pinimg.com/originals/a9/73/81/a973812d8aa84593342bd26a1f696ee6.gif - green ball
+  // https://i.pinimg.com/originals/0f/86/2d/0f862dd65afdf557ba7a9451892c41c4.gif - portal
 };
 export default function SpellCards(listOfCards) {
   const cardArray = [];

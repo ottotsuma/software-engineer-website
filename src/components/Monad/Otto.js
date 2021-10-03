@@ -4,13 +4,6 @@ import Equipment from "./../elements/equipment";
 import Stats from "./../elements/stats";
 import Spells from "./../elements/spells";
 import SpellCards from "./SpellCards";
-import styled from "styled-components";
-
-const CardHand = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-`;
 
 export default function Otto() {
   return (
@@ -23,7 +16,8 @@ export default function Otto() {
           [],
           ["Dave", 1, "poop"],
           ["fire cyclone", 1],
-          ["Iceball", 2]
+          ["Iceball", 2],
+          ["Lightning seeds", 2, "lightning"]
         ])}
       </div>
       <Stats

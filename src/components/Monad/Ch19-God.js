@@ -3,7 +3,7 @@ import Equipment from "./../elements/equipment";
 import Stats from "./../elements/stats";
 import Item from "./../elements/item";
 import Title from "./../elements/title";
-
+import SpellCards from "./SpellCards";
 
 function Intro(props) {
   return (
@@ -190,7 +190,9 @@ Noticed by a God - get the notice of a God, (varies) */}
             "Kʼawiil's lightning seeds. Plant the seeds of lighting on a target
             and lightning skills will be amplified."
           </p>
-
+          {SpellCards([
+          ["Lightning seeds", 1, "lightning"]
+        ])}
           <p>
             Ekʼ Chuah was not a lightning god, lightning demon or anything of
             the sort. Where in the hell did Ekʼ Chuah get a lightning power from

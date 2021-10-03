@@ -2,6 +2,7 @@ import React from "react";
 import Spells from "./../elements/spells";
 import Stats from "./../elements/stats";
 import styled from "styled-components";
+import SpellCards from "./SpellCards";
 
 /* Elementals */
 
@@ -632,6 +633,9 @@ function Lessons(props) {
             into the golem. Under the bombardment soon the golem fell apart with
             a creepy cry of anguish.
           </p>
+          {SpellCards([
+          ["Mana Ball", 1, "mana"],
+        ])}
           <p>
             "They must of all been guardians for the tomb right? For them to be
             so weak... Some of them even broke apart when activated." I said

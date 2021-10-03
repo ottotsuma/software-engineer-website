@@ -2,6 +2,7 @@ import React from "react";
 import Stats from "./../elements/stats";
 import Title, {Shine} from './../elements/title'
 import LevelUp from "./../elements/levelup";
+import SpellCards from "./SpellCards";
 
 function Intro(props) {
   return (
@@ -239,6 +240,12 @@ function Intro(props) {
             Lightning germination, Seeds to soldiers, Lightning growth,
             Lightning harvest.
           </p>
+          {SpellCards([
+          ["Lightning germination", 1, "lightning"],
+          ["Seeds to soldiers", 1, "wood"],
+          ["Lightning growth", 1, "lightning"],
+          ["Lightning harvest", 1, "lightning"]
+        ])}
           <p>
             What shocked me more when I finally looked through the descriptions
             was the strange things they did. Kʼawiil might have lighting powers
