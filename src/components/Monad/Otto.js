@@ -24,10 +24,10 @@ const elementList = {
 }
 
 function MakeCard (name, level, element) {
-  const elementalColor = elementList[element].color
-  const spellName = spellList[name].name
-  const spellDisc = spellList[name][level]
-  const elementImage = elementList[element].image
+  const elementalColor = elementList[element].color || 'black'
+  const spellName = spellList[name].name || 'No Name'
+  const spellDisc = spellList[name][level] || 'No Description'
+  const elementImage = elementList[element].image || ''
   return (
     <CardContainer>
     <Card element={elementalColor}>
