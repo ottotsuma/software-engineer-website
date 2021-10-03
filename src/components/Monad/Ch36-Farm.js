@@ -143,11 +143,6 @@ function Intro(props) {
       {/* Living in the farm */}
       {/* Last of the morons */}
       {/* it's love! ... No it's not */}
-      {/* Strange class */}
-      {/* Nobles argue */}
-      {/* Leikans leave */}
-      {/* Off to fight in the war */}
-      <p></p>
     </Content>
   );
 }

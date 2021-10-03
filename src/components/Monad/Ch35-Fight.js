@@ -114,15 +114,18 @@ function Intro(props) {
       </p>
       <div className="BreakPoint"></div>
       <p>
-        
+        {/* 'Fans' making bets and saying the most retarded things you can think of */}
       </p>
-      {/* 'Fans' making bets and saying the most retarded things you can think of */}
       {/* Some retard teacher explaining retarded rules */}
       {/* The start of the event with people running away, retards running for the middle to battle out the 'strongest' */}
-      {/* tracking of students through the jungles */}
+      <div className="BreakPoint"></div>
+      <p>
+        {/* tracking of students through the jungles */}
+      </p>
       {/* Dumb 'events' */}
       {/* More dumb student banter */}
       {/* Cornering students and beating them to death */}
+      <div className="BreakPoint"></div>
       {/* running away */}
     </Content>
   );
