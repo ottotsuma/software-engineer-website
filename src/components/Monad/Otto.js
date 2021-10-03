@@ -23,7 +23,7 @@ export default function Otto() {
           [],
           ["Dave", 1, "poop"],
           ["fire cyclone", 1],
-          ["Iceball", 1]
+          ["Iceball", 2]
         ])}
       </div>
       <Stats
