@@ -1729,8 +1729,10 @@ export const spellList = {
   },
   Iceball: {
     name: "Iceball",
+    element: "ice",
     passive: false,
     1: "Shoots a ball of ice.",
+    2: "Shoots a larger ball of ice.",
   },
   Lightning: {
     name: "Lightning",
@@ -2725,6 +2727,8 @@ export const spellList = {
     name: "fire cyclone",
     element: "fire",
     image: "https://i.pinimg.com/originals/10/9c/fd/109cfdb1f2c6b96cd5d99486753cecd0.gif",
+    negative: false,
+    passive: false,
     1: "A cyclone of fire starts winding up and spins towards your target.",
   },
 };

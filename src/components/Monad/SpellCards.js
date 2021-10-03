@@ -22,27 +22,27 @@ const elementList = {
   wood: {
     color: "#11630A",
     image:
-      "https://github.com/ottotsuma/ottotsuma.github.io/blob/master/images/spells%20effects/b323b0af13f20645569964f9c75b4909.gif?raw=true",
+      "https://github.com/ottotsuma/ottotsuma.github.io/blob/master/images/spells%20effects/13f2a99f60457a624fae45d7be0bad65.gif?raw=true",
   },
   water: {
     color: "#4FA9FF",
     image:
-      "https://github.com/ottotsuma/ottotsuma.github.io/blob/master/images/spells%20effects/b323b0af13f20645569964f9c75b4909.gif?raw=true",
+      "https://github.com/ottotsuma/ottotsuma.github.io/blob/master/images/spells%20effects/53393042b7d6b478cb8f450127cded85.gif?raw=true",
   },
   ice: {
     color: "#B2FCFF",
     image:
-      "https://github.com/ottotsuma/ottotsuma.github.io/blob/master/images/spells%20effects/b323b0af13f20645569964f9c75b4909.gif?raw=true",
+      "https://i.pinimg.com/originals/cf/a7/18/cfa718ab7b172dad6c8d3a13a73df0bc.gif",
   },
   wind: {
     color: "#A4C9AA",
     image:
-      "https://github.com/ottotsuma/ottotsuma.github.io/blob/master/images/spells%20effects/b323b0af13f20645569964f9c75b4909.gif?raw=true",
+      "https://github.com/ottotsuma/ottotsuma.github.io/blob/master/images/spells%20effects/e5a4c2e0ce407b50e52b9a7dd13ded12.gif?raw=true   ",
   },
   earth: {
     color: "#FBAD16",
     image:
-      "https://github.com/ottotsuma/ottotsuma.github.io/blob/master/images/spells%20effects/b323b0af13f20645569964f9c75b4909.gif?raw=true",
+      "https://github.com/ottotsuma/ottotsuma.github.io/blob/master/images/spells%20effects/b199a7695f5c44443faeb497ccd954e2.gif?raw=true",
   },
 };
 export default function SpellCards(listOfCards) {

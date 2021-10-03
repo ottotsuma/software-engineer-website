@@ -22,7 +22,8 @@ export default function Otto() {
           ["Blood Hammer Drill", 1, "blood"],
           [],
           ["Dave", 1, "poop"],
-          ["fire cyclone", 1]
+          ["fire cyclone", 1],
+          ["Iceball", 1]
         ])}
       </div>
       <Stats
