@@ -24,17 +24,19 @@ const elementList = {
 }
 
 function MakeCard (name, level, element) {
-  const elementalColor = elementList[element].color || 'black'
-  const spellName = spellList[name].name || 'No Name'
-  const spellDisc = spellList[name][level] || 'No Description'
-  const elementImage = elementList[element].image || ''
+  element = spellList[name] ? spellList[name].element || element : element
+  const elementalColor = elementList[element] ? elementList[element].color : 'black'
+  const spellName = spellList[name] ? spellList[name].name : name || 'No Name'
+  const spellDisc = spellList[name] && level ? spellList[name][level] : 'No Description'
+  const elementImage = elementList[element] ? elementList[element].image : ''
+
   return (
     <CardContainer>
     <Card element={elementalColor}>
       <TitleWrap><CardTitle>{spellName}</CardTitle><TitleSpan>{spellName}</TitleSpan></TitleWrap>
       <CardElement onError={imageError} src={elementImage}></CardElement>
       <DiscWrap><CardDisc>{spellDisc}</CardDisc><DiscSpan>{spellDisc}</DiscSpan></DiscWrap>
-      <CardSub>Level: {level}</CardSub>
+      <CardSub>Level: {level ? level : '???'}</CardSub>
     </Card>
   </CardContainer>
   )
@@ -122,6 +124,7 @@ display: -webkit-box;
 `;
 const DiscWrap = styled.div`
 width: 100%;
+justify-content: center;
 display: flex;
 &:hover ${DiscSpan} {
   visibility: visible;
@@ -144,6 +147,8 @@ export default function Otto() {
       {MakeCard('Sparks', 1, 'lightning')}
       {MakeCard('Fireball', 1, 'fire')}
       {MakeCard('Blood Hammer Drill', 1, 'blood')}
+      {MakeCard()}
+      {MakeCard('Dave', 1, 'poop')}
       </CardHand>
       <Stats
         type={"description"}
