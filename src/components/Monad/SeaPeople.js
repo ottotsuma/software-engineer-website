@@ -2002,9 +2002,19 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         There was a few moments of silence before Kiksotz replied. "Xibalba.
         Truthfully is not a place you would leave willingly. Master and I were
         accused of ripping the head of some hero or other and playing sports
-        with his freshly severed head. It was so long ago who even remembers. "
+        with his freshly severed head. It was so long ago who even remembers. To
+        keep things short, the heros Gods invaded Xibalba, specifically to find
+        me and master, and erase us. Needless to say they did not completely
+        achieve that goal, as Gods cannot walk among mortals, we fled here a
+        place we were not totally unfamiliar with in the country of
+        Pocotocotcan. From there we slipped into the republic as I said before
+        and here we are now."
+      </p>
+      <p>
+        "Speaking of here now." Kiksotz said drawing the carriage to a stop.
       </p>
       {/* Give the blood bottle to Sarah */}
+      {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}
       {/* In the south you join the war and find Alden people. See the side of the war from the republic. */}
       {/* The purpose of joining as mercenaries, but working with the vampires to carve out a piece of land to rule */}
       {/* switching sides during the conquest to keep land? */}
