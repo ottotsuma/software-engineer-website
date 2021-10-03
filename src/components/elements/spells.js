@@ -2723,6 +2723,8 @@ export const spellList = {
   },
   "fire cyclone": {
     name: "fire cyclone",
+    element: "fire",
+    image: "https://i.pinimg.com/originals/10/9c/fd/109cfdb1f2c6b96cd5d99486753cecd0.gif",
     1: "A cyclone of fire starts winding up and spins towards your target.",
   },
 };

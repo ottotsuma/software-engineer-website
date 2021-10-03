@@ -64,7 +64,8 @@ function MakeCard(name, level, element) {
   const spellName = spellList[name] ? spellList[name].name : name || "No Name";
   const spellDisc =
     spellList[name] && level ? spellList[name][level] : "No Description";
-  const elementImage = elementList[element] ? elementList[element].image : "";
+  let elementImage = spellList[name] ? spellList[name].image || undefined : undefined
+  if(!elementImage) elementImage = elementList[element] ? elementList[element].image : "";
 
   return (
     <CardContainer key={name + 'key' + Math.random()}>
