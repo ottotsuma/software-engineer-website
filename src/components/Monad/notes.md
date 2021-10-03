@@ -4,6 +4,8 @@ https://guides.github.com/features/mastering-markdown/
 Pokemon Style Elements battles!
 // Obsidian is the royals resource 
 
+// Water Pure (defence) , natural (healing) , dirty (poison)
+
 https://www.wikiwand.com/en/List_of_mythological_objects
 
 https://www.wikiwand.com/en/Xiuhcoatl
