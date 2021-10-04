@@ -4,6 +4,14 @@ https://guides.github.com/features/mastering-markdown/
 Pokemon Style Elements battles!
 // Obsidian is the royals resource 
 
+// The villain overall is the sea people, but the villain of Alden arc should be a noble who comes earlier in the story then intended to set up a level of respect, power and intelligence. The sea people is a overarching strange treat to the people of Monad.
+
+// The villains are defeated near the start, then enslaved so its hard to see them as a threat, that is how they are treated by the natives also. But the treat comes later once they establish themselves. This will be hard to write.
+
+// Otto becomes the villain for the Aldenese later (Well a Thief) but the hero of leika but to start with is another villain of leika as he is a foreigner. Maybe these chapters would be better from another's view point.
+
+// Alden / elves are the villain for the other countries. Until they are not, replaced by something worse, the sea peoples empire.
+
 // Water Pure (defence) , natural (healing) , dirty (poison)
 
 https://www.wikiwand.com/en/List_of_mythological_objects

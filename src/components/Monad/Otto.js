@@ -18,7 +18,8 @@ export default function Otto() {
           ["fire cyclone", 1],
           ["Iceball", 2],
           ["Lightning seeds", 2, "lightning"],
-          ["Magic Up", 1, 'mana']
+          ["Magic Up", 1, 'mana'],
+          ["Otitis Externa", 1]
         ])}
       </div>
       <Stats
