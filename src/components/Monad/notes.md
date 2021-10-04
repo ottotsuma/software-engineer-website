@@ -4,6 +4,8 @@ https://guides.github.com/features/mastering-markdown/
 Pokemon Style Elements battles!
 // Obsidian is the royals resource 
 
+// Otto starts of young, at fault of his birth status, unable to make use of the gifts given. Grows from the mentors lessons and overcomes the birth status. 
+
 // The villain overall is the sea people, but the villain of Alden arc should be a noble who comes earlier in the story then intended to set up a level of respect, power and intelligence. The sea people is a overarching strange treat to the people of Monad.
 
 // The villains are defeated near the start, then enslaved so its hard to see them as a threat, that is how they are treated by the natives also. But the treat comes later once they establish themselves. This will be hard to write.
@@ -476,6 +478,7 @@ Secrets -
 Food - Fertile land, but too focused on military to make good use of it
 Economy type -
 Unique Unit - Witches
+Places of Interest - Kustet (Salt mining town)
 
 Republic (EU?Roman) 🏛
 Military - Varied individuals from states, strong together, strong military, weak navy
@@ -488,6 +491,7 @@ Secrets -
 Food - Fertile land in the east, less fertile to the south and west.
 Economy type -
 Unique Unit - Throwing Axes
+Places of Interest - Baberg Bridge, Siklad Gold mine, Furlin salt mine, Horod iron mine town.
 
 League (Elf) 🧝‍♀️
 Military - Medium individuals, strong together but only one race, strong navy, medium military (use to be weak)
@@ -536,6 +540,7 @@ Secrets - Racist
 Food - Fertile land makes good use of it
 Economy type -
 Unique Unit - Samurai
+Places of Interest - Aesemria silver mine town
 
 Huonhia - essos, lyric speaking? - free city types ⚔
 Military - Strong individuals, strong core, weak auxiliary branches, would be strong overall if they would work together
