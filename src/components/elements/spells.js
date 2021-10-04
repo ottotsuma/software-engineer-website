@@ -269,6 +269,7 @@ export const spellList = {
   },
   "Magic Up": {
     name: "Magic Up",
+    element: "mana",
     passive: true,
     1: "Increases the intensity of mana in the body.",
     2: "Magic +2",

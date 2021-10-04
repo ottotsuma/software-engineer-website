@@ -72,10 +72,12 @@ function MakeCard(name, level, element) {
     spellList[name] && level ? spellList[name][level] : "No Description";
   let elementImage = spellList[name] ? spellList[name].image || undefined : undefined
   if(!elementImage) elementImage = elementList[element] ? elementList[element].image : "";
+  const isPassive = spellList[name] ? spellList[name].passive || false : false
+  if(isPassive) elementImage = 'https://static.wikia.nocookie.net/imaginaughts/images/4/4b/Stock-footage-a-looping-background-with-energy-ball.jpg'
 
   return (
     <CardContainer key={name + 'key' + Math.random()}>
-      <Card element={elementalColor}>
+      <Card isPassive={isPassive} element={elementalColor}>
         <TitleWrap>
           <CardTitle>{spellName}</CardTitle>
           <TitleSpan>{spellName}</TitleSpan>
@@ -130,7 +132,7 @@ const Card = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: white;
+  ${props => props.isPassive ? 'background: #54CC4F' : 'background: white'};
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 0.5rem;
   margin: 0.5rem;
