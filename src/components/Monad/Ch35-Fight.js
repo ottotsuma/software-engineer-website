@@ -115,13 +115,34 @@ function Intro(props) {
       <div className="BreakPoint"></div>
       <p>
         {/* 'Fans' making bets and saying the most retarded things you can think of */}
+        "Did you see that!? That blonde girl almost died without doing anything.
+        She just ran from the start."
       </p>
-      {/* Some retard teacher explaining retarded rules */}
-      {/* The start of the event with people running away, retards running for the middle to battle out the 'strongest' */}
-      <div className="BreakPoint"></div>
       <p>
-        {/* tracking of students through the jungles */}
+        "Nah, I ain't gonna spend my time watching losers. Check out the middle
+        of the field, it's like a king of the hill. So many people died. The
+        first person was teleported out but I haven't see another."
       </p>
+      {/* Kaja was a little shorter then me, dark blonde hair and dark blue eyes */}
+      {/* Some retard teacher explaining retarded rules */}
+      
+      {/* The start of the event with people running away, retards running for the middle to battle out the 'strongest' */}
+      <p>
+        "Sir, why were we asked to vote on class representatives? Wouldn't it be
+        better to use our test scores?"
+      </p>
+      <p>
+        "Huh? It's because the students know each other better then the teachers
+        can. There are so many of you it was more efficient to let the students
+        single out their weakest members. Yes, some stronger members might of
+        volunteered for the role, but these kind of psychopaths who jump at the
+        chance to murder are hardly suitable candidates to be your team mates.
+        Just relax and sit back in the knowledge if it is their fate to die they
+        did not drag you down with them."
+      </p>
+      <div className="BreakPoint"></div>
+      {/* tracking of students through the jungles */}
+      <p></p>
       {/* Dumb 'events' */}
       {/* More dumb student banter */}
       {/* Cornering students and beating them to death */}
