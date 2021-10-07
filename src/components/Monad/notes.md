@@ -24,6 +24,13 @@ https://blog-cdn.reedsy.com/uploads/2018/07/Rick-and-Morty-Story-Wheel-Annotated
 
 # Notes:
 
+The new world is in a balance. 
+The Republic fractures from invasions by the Elves, late empire problems, uninterested ruling class, Alden invasion, Sea people sabotage.
+Alden invades Huonhia, they both collapse under the sea peoples invasion.
+The Kingdom having become the Empire forms a deal with Leika but are both destroyed by the sea people
+Our characters flee though the desert/Chalbia into Pocotcotco, who are under invasion by the Elves.
+Who again fall before the sea people in ruin.
+
 <p>1: They are in a zone of comfort</p>
 <p>2: But they want something</p>
 <p>3: They enter an unfamiliar situation</p>
@@ -100,7 +107,7 @@ Could defense and magic defense be rolled into vitality, magic and strength?
 
 Critical defense, parry, glance, defend
 
-# Levels:
+## Levels:
 
 Human body: Stats 0 - 10, 5 is normal and 10 is the best a human can get. (This is without mana.) 
 
