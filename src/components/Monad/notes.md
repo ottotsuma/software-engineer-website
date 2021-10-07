@@ -24,6 +24,9 @@ https://blog-cdn.reedsy.com/uploads/2018/07/Rick-and-Morty-Story-Wheel-Annotated
 
 # Notes:
 
+It has been at least 107 years since the fall of Pocotcotco as an empire.
+The Elves and the republic have had at least 2 famous battles against each other.
+
 The new world is in a balance. 
 The Republic fractures from invasions by the Elves, late empire problems, uninterested ruling class, Alden invasion, Sea people sabotage.
 Alden invades Huonhia, they both collapse under the sea peoples invasion.

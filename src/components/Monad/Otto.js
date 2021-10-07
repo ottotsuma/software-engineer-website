@@ -200,13 +200,27 @@ export function Effi () {
   return (
     <div>
       <p>1: They are in a zone of comfort</p>
+      <p>Starts in the town with her family.</p>
       <p>2: But they want something</p>
+      <p>To become strong enough to protect them</p>
       <p>3: They enter an unfamiliar situation</p>
+      <p>The military camps of Alden</p>
+
       <p>4: Adapt to it</p>
+      <p>Finds her place in the ranks</p>
+
       <p>5: Get what they wanted</p>
+      <p>Becomes strong enough to fight basic monsters</p>
+
       <p>6: Pay a heavy price</p>
+      <p></p>
+
       <p>7: Then return to the familia situation</p>
+      <p>Comes back to her family, finding they have died.</p>
+
       <p>8: Having changed</p>
+      <p>Vengeful and lost at her families death</p>
+
     </div>
   )
 }
