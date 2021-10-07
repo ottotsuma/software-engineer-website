@@ -38,6 +38,7 @@ export default function SeaPeopleFunction(props) {
 export const SeaPeople = {
   0: (
     <Content style={{ overflowWrap: "anywhere" }}>
+      {/* Notes page for sea people - Although everything is in the notes. */}
       <h1>Sea people</h1>
       <p>
         A group of sea travelers with different races. Their classes will be
@@ -76,7 +77,7 @@ export const SeaPeople = {
   1: (
     <Content style={{ overflowWrap: "anywhere" }}>
       <h4 style={{ textDecoration: "underline" }}>Sea People</h4>
-
+      {/* Intro of Josh, Noah & Sarah. Looks and personalities. They are not NPC. */}
       <p>"We'll be there soon." Josh said from behind me.</p>
       <p>
         "Awesome, I don't want to spend another minute on board this ship." I
@@ -84,7 +85,7 @@ export const SeaPeople = {
         ocean.
       </p>
       <p>
-        "Who knew you could get sick inside of a game? I feel bad for you man."
+        "Who knew you could get sea sick inside of a game? I feel bad for you man."
         Josh said patting my back. That didn't help so I hugged the side of the
         ship tighter.
       </p>
@@ -115,6 +116,7 @@ export const SeaPeople = {
   ),
   2: (
     <Content style={{ overflowWrap: "anywhere" }}>
+      {/* This whole chapter is trash, it sets Sarah up as a pro-gamer, Noah as a dark elf, Josh as an assassin. */}
       <p>
         I found Josh sitting in his bed in a room below deck. The ship only had
         a few rooms like this, the captains, 3 VIP guest rooms and the ships
@@ -145,9 +147,10 @@ export const SeaPeople = {
         After all I have been playing since launch. I mean, when I am not
         working that is." He smiled, he was a little more relaxed and less
         serious then Sarah. I guess that was to be expected. Josh had a normal
-        day job and played the game for fun but Sarah was a professional gamer.
+        day job as an engineer and played the game for fun but Sarah was a professional gamer.
         This was her job.
       </p>
+      {/* This line will need so many re-writes because it's setting up his return to the game */}
       <p>
         "Well, to be honest I don't really know what the meta is like now. What
         is the best build or style you know? I reached level 50 before but when
@@ -2011,7 +2014,14 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         and here we are now."
       </p>
       <p>
-        "Speaking of here now." Kiksotz said drawing the carriage to a stop. "Up ahead is the boarder of Monh. The county below is Baberg. You want to head directly south when you come to the cross roads towards the town of Weildengen. All the normal land and sea routes on the way to Alden are carefully monitored. There is a river on the boarder to Alden called Kehzach. From our reports this is one of the locations students will be monitoring, you just have to monitor them and report back if you see the person we are looking for."
+        "Speaking of here now." Kiksotz said drawing the carriage to a stop. "Up
+        ahead is the boarder of Monh. The county below is Baberg. You want to
+        head directly south when you come to the cross roads towards the town of
+        Weildengen. All the normal land and sea routes on the way to Alden are
+        carefully monitored. There is a river on the boarder to Alden called
+        Kehzach. From our reports this is one of the locations students will be
+        monitoring, you just have to monitor them and report back if you see the
+        person we are looking for."
       </p>
       {/* Give the blood bottle to Sarah */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}
