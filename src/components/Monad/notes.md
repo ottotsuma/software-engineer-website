@@ -24,6 +24,15 @@ https://blog-cdn.reedsy.com/uploads/2018/07/Rick-and-Morty-Story-Wheel-Annotated
 
 # Notes:
 
+<p>1: They are in a zone of comfort</p>
+<p>2: But they want something</p>
+<p>3: They enter an unfamiliar situation</p>
+<p>4: Adapt to it</p>
+<p>5: Get what they wanted</p>
+<p>6: Pay a heavy price</p>
+<p>7: Then return to the familia situation</p>
+<p>8: Having changed</p>
+
 ## Example below:
 
 https://github.com/ottotsuma/ottotsuma.github.io/blob/master/images/goblin.jpg?raw=true

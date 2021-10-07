@@ -34,6 +34,45 @@ export default function SeaPeopleFunction(props) {
     ? SeaPeople[props]
     : SeaPeople[props.Chapter];
 }
+
+export function WritingWheel () {
+  return (
+    <div>
+      <p>1: They are in a zone of comfort</p>
+      <p>2: But they want something</p>
+      <p>3: They enter an unfamiliar situation</p>
+      <p>4: Adapt to it</p>
+      <p>5: Get what they wanted</p>
+      <p>6: Pay a heavy price</p>
+      <p>7: Then return to the familia situation</p>
+      <p>8: Having changed</p>
+    </div>
+  )
+}
+
+export const DirtySeaPeople = () => {
+  return (
+    <div>
+      <p>1: They are in a zone of comfort</p>
+      {/*  */}
+      <p>2: But they want something</p>
+      {/* To found a guild in the new world */}
+      <p>3: They enter an unfamiliar situation</p>
+      {/* Arrival on the new world */}
+      <p>4: Adapt to it</p>
+      {/* Do quests to reduce the miasma, join the vampires & on going war */}
+      <p>5: Get what they wanted</p>
+      {/* Found a guild in the new world */}
+      <p>6: Pay a heavy price</p>
+      {/* The three of them cannot die, so they must pay with something else. */}
+      <p>7: Then return to the familia situation</p>
+      {/*  */}
+      <p>8: Having changed</p>
+      {/*  */}
+    </div>
+  )
+}
+
 // Rest period, results day is a good starting place.
 export const SeaPeople = {
   0: (

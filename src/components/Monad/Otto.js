@@ -8,6 +8,7 @@ import SpellCards from "./SpellCards";
 export default function Otto() {
   return (
     <div style={{ color: "black" }}>
+      {DirtyOtto()}
       <div>
         {SpellCards([
           ["Sparks", 1, "lightning"],
@@ -121,6 +122,110 @@ export default function Otto() {
     </div>
   );
 }
+
+export function DirtyOtto () {
+  return (
+    <div>
+      <p>1: They are in a zone of comfort</p>
+      <p>At home with his family</p>
+      {/* 2nd time: Back at the Banderdam with his friends. */}
+      <p>2: But they want something</p>
+      <p>To be a strong wizard</p>
+      {/* 2nd time: Revenge */}
+      <p>3: They enter an unfamiliar situation</p>
+      <p>Academy / war</p>
+      {/* 2nd time: Being accused of crime */}
+      <p>4: Adapt to it</p>
+      <p>Fight and survive</p>
+      {/* 2nd time: Flee */}
+      <p>5: Get what they wanted</p>
+      <p>Become recognized as powerful</p>
+      {/* 2nd time: Kills prince */}
+      <p>6: Pay a heavy price</p>
+      <p>Lose his family</p>
+      {/* 2nd time: Lose his friends */}
+      {/* 3rd: Lose the class that made him powerful */}
+      <p>7: Then return to the familia situation</p>
+      <p>Come back to the village</p>
+      {/* 2nd time: With his friends on a ship, except his friends are reduced because of the cost to 1. */}
+      <p>8: Having changed</p>
+      <p>Upset and angry at the loss</p>.
+      {/* 2nd time: No longer vengeful */}
+    </div>
+  )
+}
+export function Kaja () {
+  return (
+    <div>
+      <p>1: They are in a zone of comfort</p>
+      <p>2: But they want something</p>
+      <p>3: They enter an unfamiliar situation</p>
+      <p>4: Adapt to it</p>
+      <p>5: Get what they wanted</p>
+      <p>6: Pay a heavy price</p>
+      <p>7: Then return to the familia situation</p>
+      <p>8: Having changed</p>
+    </div>
+  )
+}
+export function Linhart () {
+  return (
+    <div>
+      <p>1: They are in a zone of comfort</p>
+      <p>2: But they want something</p>
+      <p>3: They enter an unfamiliar situation</p>
+      <p>4: Adapt to it</p>
+      <p>5: Get what they wanted</p>
+      <p>6: Pay a heavy price</p>
+      <p>7: Then return to the familia situation</p>
+      <p>8: Having changed</p>
+    </div>
+  )
+}
+export function Beke () {
+  return (
+    <div>
+      <p>1: They are in a zone of comfort</p>
+      <p>2: But they want something</p>
+      <p>3: They enter an unfamiliar situation</p>
+      <p>4: Adapt to it</p>
+      <p>5: Get what they wanted</p>
+      <p>6: Pay a heavy price</p>
+      <p>7: Then return to the familia situation</p>
+      <p>8: Having changed</p>
+    </div>
+  )
+}
+export function Effi () {
+  return (
+    <div>
+      <p>1: They are in a zone of comfort</p>
+      <p>2: But they want something</p>
+      <p>3: They enter an unfamiliar situation</p>
+      <p>4: Adapt to it</p>
+      <p>5: Get what they wanted</p>
+      <p>6: Pay a heavy price</p>
+      <p>7: Then return to the familia situation</p>
+      <p>8: Having changed</p>
+    </div>
+  )
+}
+export function Nils () {
+  return (
+    <div>
+      <p>1: They are in a zone of comfort</p>
+      <p>2: But they want something</p>
+      <p>3: They enter an unfamiliar situation</p>
+      <p>4: Adapt to it</p>
+      <p>5: Get what they wanted</p>
+      <p>6: Pay a heavy price</p>
+      <p>7: Then return to the familia situation</p>
+      <p>8: Having changed</p>
+    </div>
+  )
+}
+
+
 
 // Academy, border guard, monster hunters, fugitive, leikan prince, farmer, war lord? Flees the sea people invasion turns south, find the bird people, fight eleven pirates, sail to the old world. Or use the under ground road...
 
