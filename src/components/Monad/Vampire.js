@@ -80,6 +80,7 @@ export default function Vampire() {
           { name: "Vampire Noble", level: 1 },
           { name: "Vampire Knight", level: 1 },
           { name: "Vampire Lord", level: 1 },
+          { name: "", level: 1 },
         ]}
         type={"human"}
       />

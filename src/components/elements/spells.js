@@ -2785,7 +2785,7 @@ function Spells({ spells, type }) {
         <SingleSpell
           key={index + "SingleSpell"}
           passive={spells[index].passive || false}
-          negative={element.negative || false}
+          negative={spells[index].negative || false}
         >
           {spells[index].name}
         </SingleSpell>
