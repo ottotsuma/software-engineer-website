@@ -195,7 +195,8 @@ export const spellList = {
   "Lightning growth": {
     name: "Lightning growth",
     element: "lightning",
-    image: "https://cdn.dribbble.com/users/36602/screenshots/3544179/growing-tree-svg-animation-recut.gif",
+    image:
+      "https://cdn.dribbble.com/users/36602/screenshots/3544179/growing-tree-svg-animation-recut.gif",
     1: "Force the target to grow.", // 5% increase stats
     2: "Force the target to grow.", // ch32 // +1 all base stats
     3: "All targets base stats +2 for the duration of the spells.",
@@ -204,7 +205,8 @@ export const spellList = {
   "Lightning germination": {
     name: "Lightning germination",
     element: "lightning",
-    image: "https://static.wixstatic.com/media/45e716_c8ae22cc571b4429ac23a59b4ddf9ef0~mv2.gif",
+    image:
+      "https://static.wixstatic.com/media/45e716_c8ae22cc571b4429ac23a59b4ddf9ef0~mv2.gif",
     1: "Stimulate a target into germinating", // 10\10 secs
     2: "Stimulate a target into germinating", // ch32 // 10\9 secs
     3: "Target heals 12% of their max hp over 7 seconds.", // 12\7
@@ -226,7 +228,8 @@ export const spellList = {
   "Lightning seeds": {
     name: "Lightning seeds",
     element: "lightning",
-    image: "http://2.bp.blogspot.com/-k4C_Lq6Y7fw/VDtBXWA2LCI/AAAAAAAABrY/QEUTlVZ76RI/s1600/lightningBall_small.gif",
+    image:
+      "http://2.bp.blogspot.com/-k4C_Lq6Y7fw/VDtBXWA2LCI/AAAAAAAABrY/QEUTlVZ76RI/s1600/lightningBall_small.gif",
     note: "Shoots a group of [x] seed(s) in a spread from the user. The seeds attach to opponent(s) and cause lightning damage over time. A part of the damage is used to restore your as mana. [x is equal to spell level.]",
     1: "Shoots a group of 1 seed in a spread from the user. The seeds attach to an opponent and cause lightning damage over time. A part of the damage is used to restore your as mana.",
     2: "Shoots a group of 2 seeds in a spread from the user. The seeds attach to opponents and cause lightning damage over time. A part of the damage is used to restore your as mana.",
@@ -2735,7 +2738,8 @@ export const spellList = {
   "fire cyclone": {
     name: "fire cyclone",
     element: "fire",
-    image: "https://i.pinimg.com/originals/10/9c/fd/109cfdb1f2c6b96cd5d99486753cecd0.gif",
+    image:
+      "https://i.pinimg.com/originals/10/9c/fd/109cfdb1f2c6b96cd5d99486753cecd0.gif",
     negative: false,
     passive: false,
     1: "A cyclone of fire starts winding up and spins towards your target.",
@@ -2792,13 +2796,23 @@ function Spells({ spells, type }) {
       );
     }
   }
+  function getTitle(type) {
+    switch (type) {
+      case "mage":
+        return <Title>Spells:</Title>;
+      case "negatives":
+        return <Title>Negatives:</Title>;
+      case "conditions":
+        return <Title>Conditions:</Title>;
+      default: 
+      return <Title>Skills:</Title>;
+    }
+  }
   return (
     <>
       {/* This title thing could be made into switch cases. */}
-      {type === "mage" ? <Title>Spells:</Title> : <Title></Title>}
-      {type === "negatives" ? <Title>Negatives:</Title> : <Title></Title>}
-      {type !== "negatives" && type !== "mage" ? (
-        <Title>Skills:</Title>
+      {type ? (
+        getTitle(type)
       ) : (
         <Title></Title>
       )}

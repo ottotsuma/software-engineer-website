@@ -117,7 +117,7 @@ export default function Otto() {
           // Negatives
           { name: "Otitis Externa", level: 1 },
         ]}
-        type={"negatives"}
+        type={"conditions"}
       />
     </div>
   );
