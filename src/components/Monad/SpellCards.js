@@ -46,8 +46,9 @@ const elementList = {
   },
   mana: {
     color: "purple",
-    image: "https://i.pinimg.com/originals/ae/b8/53/aeb853e7b70e6c1b425d2d68c4cc1da8.gif",
-  }
+    image:
+      "https://i.pinimg.com/originals/ae/b8/53/aeb853e7b70e6c1b425d2d68c4cc1da8.gif",
+  },
   // https://i.pinimg.com/originals/a9/73/81/a973812d8aa84593342bd26a1f696ee6.gif - green ball
   // https://i.pinimg.com/originals/0f/86/2d/0f862dd65afdf557ba7a9451892c41c4.gif - portal
 };
@@ -68,17 +69,31 @@ function MakeCard(name, level, element) {
     ? elementList[element].color
     : "black";
   const spellName = spellList[name] ? spellList[name].name : name || "No Name";
-  const spellDisc =
+  let spellDisc =
     spellList[name] && level ? spellList[name][level] : "No Description";
-  let elementImage = spellList[name] ? spellList[name].image || undefined : undefined
-  if(!elementImage) elementImage = elementList[element] ? elementList[element].image : "";
-  const isPassive = spellList[name] ? spellList[name].passive || false : false
-  if(isPassive) elementImage = 'https://static.wikia.nocookie.net/imaginaughts/images/4/4b/Stock-footage-a-looping-background-with-energy-ball.jpg'
-  const isNegative = spellList[name] ? spellList[name].negative || false : false
-  if(isNegative) elementImage = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShrZBpFyDDZ5v1smJc5VLRPIvo8YwM6wJBKg&usqp=CAU'
+  if(!spellDisc || spellDisc.length < 1) spellDisc = "No Description";
+  let elementImage = spellList[name]
+    ? spellList[name].image || undefined
+    : undefined;
+  if (!elementImage)
+    elementImage = elementList[element] ? elementList[element].image : "";
+  const isPassive = spellList[name] ? spellList[name].passive || false : false;
+  if (isPassive)
+    elementImage =
+      "https://static.wikia.nocookie.net/imaginaughts/images/4/4b/Stock-footage-a-looping-background-with-energy-ball.jpg";
+  const isNegative = spellList[name]
+    ? spellList[name].negative || false
+    : false;
+  if (isNegative)
+    elementImage =
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShrZBpFyDDZ5v1smJc5VLRPIvo8YwM6wJBKg&usqp=CAU";
   return (
-    <CardContainer key={name + 'key' + Math.random()}>
-      <Card isPassive={isPassive} isNegative={isNegative} element={elementalColor}>
+    <CardContainer key={name + "key" + Math.random()}>
+      <Card
+        isPassive={isPassive}
+        isNegative={isNegative}
+        element={elementalColor}
+      >
         <TitleWrap>
           <CardTitle>{spellName}</CardTitle>
           <TitleSpan>{spellName}</TitleSpan>
@@ -133,8 +148,8 @@ const Card = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  ${props => props.isPassive ? 'background: #54CC4F' : 'background: white'};
-  ${props => props.isNegative ? 'background: #F92B00' : ''};
+  ${(props) => (props.isPassive ? "background: #54CC4F" : "background: white")};
+  ${(props) => (props.isNegative ? "background: #F92B00" : "")};
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 0.5rem;
   margin: 0.5rem;

@@ -11,17 +11,7 @@ export default function Otto() {
       {DirtyOtto()}
       <div>
         {SpellCards([
-          ["Sparks", 1, "lightning"],
-          ["Fireball", 1, "fire"],
-          ["Blood Hammer Drill", 1, "blood"],
-          [],
-          ["Dave", 1, "poop"],
-          ["fire cyclone", 1],
-          ["Iceball", 2],
-          ["Lightning seeds", 2, "lightning"],
-          ["Magic Up", 1, 'mana'],
-          ["Otitis Externa", 1],
-          ["Youth", 1] // Age ? 
+          ["Iceball", 2, "ice"],
         ])}
       </div>
       <Stats
