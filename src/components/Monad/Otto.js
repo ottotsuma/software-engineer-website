@@ -158,13 +158,29 @@ export function Kaja () {
   return (
     <div>
       <p>1: They are in a zone of comfort</p>
+      <p>With her farther</p>
+
       <p>2: But they want something</p>
+      <p>To become a lord protector</p>
+
       <p>3: They enter an unfamiliar situation</p>
+      <p>Academy</p>
+
       <p>4: Adapt to it</p>
+      <p>Survive</p>
+
       <p>5: Get what they wanted</p>
+      <p>Her fame from the game will give her the position she wanted</p>
+
       <p>6: Pay a heavy price</p>
+      <p>Her faith?</p>
+
       <p>7: Then return to the familia situation</p>
+      <p>Returns back to her farther town as a lord protector</p>
+
       <p>8: Having changed</p>
+      <p>Is not the happy girl she once was, cynical and icy</p>
+
     </div>
   )
 }
