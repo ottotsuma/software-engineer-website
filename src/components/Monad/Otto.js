@@ -188,13 +188,21 @@ export function Linhart () {
   return (
     <div>
       <p>1: They are in a zone of comfort</p>
+      <p>Working as a 3rd year researchers assistant at the academy.</p>
       <p>2: But they want something</p>
+      <p></p>
       <p>3: They enter an unfamiliar situation</p>
+      <p></p>
       <p>4: Adapt to it</p>
+      <p></p>
       <p>5: Get what they wanted</p>
+      <p></p>
       <p>6: Pay a heavy price</p>
+      <p></p>
       <p>7: Then return to the familia situation</p>
+      <p></p>
       <p>8: Having changed</p>
+      <p></p>
     </div>
   )
 }
