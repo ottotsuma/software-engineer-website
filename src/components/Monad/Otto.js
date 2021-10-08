@@ -30,22 +30,27 @@ export default function Otto() {
           name: "Otto",
           level: 10,
           class: "Kʼawiil.",
+          race: "Human.",
           spells: 8,
           passives: 32,
           titles: 5,
           "spell points": 0, // from class
           "stat points": 0, // from race
-          vitality: 1,
+          vitality: 2, // 1 from Healthy, 1 from Youth
           strength: 1, // 1 from title
           endurance: 0,
-          magic: 14, // 1 from title, 10 from leveling, 1 from robe, unlikely to be wearing the mask
+          magic: 14, // 1 from title, 10 from leveling, 2 from robe, unlikely to be wearing the mask, 1 from Youth
           willpower: 3, // 1 from title
-          dexterity: 4, // 2 from the level 1 & 10
-          sense: 2, // 1 from human
-          charisma: 15, // 2 from human, 1 from title, 10 from leveling
-          // rest from passives
+          dexterity: 4, // 2 from the level 1 & 10, 2 from Quick
+          sense: 2, // 1 from human, 2 from Perception
+          charisma: 16, // 2 from human, 1 from title, 10 from leveling, 2 from Persuasive, , 1 from Youth
+          // Titles
+          // Back to School - Enter the academy, +1 mag
+          // Apprentice - Reach level 10, +1 charm
+          // Found a unique item - +1 str
+          // Found a unique class - +1 mdef
         }}
-        notes={"4 spell per level, 1 stats per level,"}
+        notes={"4 spell per level, 1 stats per level, Human +1 stat every 10 levels."}
       />
       {/* This equipment is level 5? So maybe needs stat changes */}
       <Equipment
@@ -120,6 +125,32 @@ export default function Otto() {
           { name: "Youth", level: 1 },
         ]}
         type={"conditions"}
+      />
+      <Stats
+        type={"description"}
+        stats={{
+          name: "Ideal",
+          level: 100,
+          class: "???",
+          race: "Mana Creature.",
+          spells: 0,
+          passives: 0,
+          titles: 0,
+          "spell points": 0, // from class
+          "stat points": 0, // from race
+          vitality: 100, 
+          strength: 0, 
+          endurance: 25,
+          magic: 105, 
+          willpower: 25, 
+          dexterity: 25, 
+          sense: 25, 
+          charisma: 100, 
+        }}
+        // Magic +5 Immune: Poison, Disease
+        // https://www.dandwiki.com/wiki/Mana_Creature_(5e_Race)
+        // Team bonus comes from class.
+        notes={"1 spell per level, 4 stats per level, Mana Creature every 10 levels stores another form."}
       />
     </div>
   );

@@ -116,6 +116,8 @@ Human body: Stats 0 - 10, 5 is normal and 10 is the best a human can get. (This 
 
 ---
 
+<!-- Extra Stat points = Humans? -->
+
 <li>0 - Basic mana spells unlocked, mana flow, cap raised to 1.
 <li>10 - Picked first element, Mix first element with basic mana spells, Cap Raised to 2
 <li>20 - Extra Stat points, Cap Raised to 3

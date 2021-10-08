@@ -47,6 +47,15 @@ const statList = {
     minor:
       "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina.",
   },
+  race: {
+    name: "Vitality",
+    description: "This is your race.",
+    numeric: "Increases HP by 14.5 per point.",
+    vague: "Increases your durability.",
+    major: "Increased health points.",
+    minor:
+      "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina.",
+  },
   skills: {
     name: "This is the total amount of your unique skills.",
     description: "Increases your health points",
