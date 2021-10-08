@@ -7,6 +7,16 @@ import React from "react";
 // Fighter: ?? -- ?? -- ?? (3rd one is intermediate), (4th advanced) [look up sword techniques]
 // Mage: ?? -- ?? -- ?? (3rd one is intermediate), (4th advanced)
 
+
+// <li>Vitality</li> Health points, Resistances to hot/cold / poison
+// <li>Endurance</li> Increases resistance to physical damage, reduces physical damage taken (%)
+// <li>Willpower</li> Increases resistance to magic, reduces magic damage taken (%)
+// <li>Magic</li> Increases Magic damage, Mana
+// <li>Strength</li> Increased physical damage. Minor: Increased storage capacity. Reduce damage taken during a successful block. Increased resistance to falling. Increased movement speed.
+// <li>Dexterity (Reflexes)</li> Reduces time between using skills, casting of skills, dodge change, movement on rough terrain
+// <li>Sense</li> Range of attacks, accuracy. Trap Detect (All of the senses, hearing, taste, touch, smell.) Seeing though smoke screens and illusions. Seeing weakness and injuries in your opponent (CRIT), Range of summons / familia can move from you.
+// <li>Charisma</li> Increases NPC likability, command points
+
 export const spellList = {
   Child: {
     note: "Child = 0 - 12.",
@@ -15,7 +25,7 @@ export const spellList = {
     image: "",
     negative: false,
     passive: true,
-    1: "",
+    1: "Max Stat: 5.",
   },
   Youth: {
     note: "Youth = 13-19 yrs.",
@@ -24,7 +34,7 @@ export const spellList = {
     image: "",
     negative: false,
     passive: true,
-    1: "",
+    1: "Vitality, Magic, Charisma: +1.",
   },
   Adult: {
     note: "Adult = 20-39 yrs.",
@@ -33,7 +43,7 @@ export const spellList = {
     image: "",
     negative: false,
     passive: true,
-    1: "",
+    1: "Vitality, Strength: +1.",
   },
   Older: {
     note: "Older = 40-59 yrs.",
@@ -42,7 +52,7 @@ export const spellList = {
     image: "",
     negative: false,
     passive: true,
-    1: "",
+    1: "Sense, Dexterity, Vitality, Strength: -1.",
   },
   Aged: {
     note: "Aged = 60+",
@@ -51,7 +61,7 @@ export const spellList = {
     image: "",
     negative: false,
     passive: true,
-    1: "",
+    1: "All stats: -1.",
   },
   "Sharp Slash": {
     note: "Rogue",
