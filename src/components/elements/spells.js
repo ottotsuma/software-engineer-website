@@ -7,7 +7,6 @@ import React from "react";
 // Fighter: ?? -- ?? -- ?? (3rd one is intermediate), (4th advanced) [look up sword techniques]
 // Mage: ?? -- ?? -- ?? (3rd one is intermediate), (4th advanced)
 
-
 // <li>Vitality</li> Health points, Resistances to hot/cold / poison
 // <li>Endurance</li> Increases resistance to physical damage, reduces physical damage taken (%)
 // <li>Willpower</li> Increases resistance to magic, reduces magic damage taken (%)
