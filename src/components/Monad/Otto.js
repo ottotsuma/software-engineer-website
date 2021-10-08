@@ -21,7 +21,7 @@ export default function Otto() {
           ["Lightning seeds", 2, "lightning"],
           ["Magic Up", 1, 'mana'],
           ["Otitis Externa", 1],
-          ["Youth", 1]
+          ["Youth", 1] // Age ? 
         ])}
       </div>
       <Stats
