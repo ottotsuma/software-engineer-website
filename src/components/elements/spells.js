@@ -9,7 +9,7 @@ import React from "react";
 
 export const spellList = {
   Child: {
-    note: "Child = 0 - 12",
+    note: "Child = 0 - 12.",
     name: "Child",
     element: "None",
     image: "",
