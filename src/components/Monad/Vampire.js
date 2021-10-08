@@ -80,7 +80,13 @@ export default function Vampire() {
           { name: "Vampire Noble", level: 1 },
           { name: "Vampire Knight", level: 1 },
           { name: "Vampire Lord", level: 1 },
-          { name: "", level: 1 },
+          { name: "Porphyric Hemophilia", level: 1, negative: true },
+          { name: "Noxiphilic Sanguivoria", level: 1, negative: true },
+          { name: "Sanguinare Vampiris", level: 1, negative: true },
+          { name: "Porphyria cutanea tarda", level: 1, negative: true },
+          { name: "Porphyria ", level: 1, negative: true },
+          
+          // Drain Fatigue 5pts, Vampirism (after a three day incubation period)
         ]}
         type={"human"}
       />
