@@ -20,7 +20,8 @@ export default function Otto() {
           ["Iceball", 2],
           ["Lightning seeds", 2, "lightning"],
           ["Magic Up", 1, 'mana'],
-          ["Otitis Externa", 1]
+          ["Otitis Externa", 1],
+          ["Youth", 1]
         ])}
       </div>
       <Stats
@@ -116,6 +117,7 @@ export default function Otto() {
         spells={[
           // Negatives
           { name: "Otitis Externa", level: 1 },
+          { name: "Youth", level: 1 },
         ]}
         type={"conditions"}
       />

@@ -8,6 +8,51 @@ import React from "react";
 // Mage: ?? -- ?? -- ?? (3rd one is intermediate), (4th advanced)
 
 export const spellList = {
+  Child: {
+    note: "Child = 0 - 12",
+    name: "Child",
+    element: "None",
+    image: "",
+    negative: false,
+    passive: true,
+    1: "",
+  },
+  Youth: {
+    note: "Youth = 13-19 yrs.",
+    name: "Youth",
+    element: "None",
+    image: "",
+    negative: false,
+    passive: true,
+    1: "",
+  },
+  Adult: {
+    note: "Adult = 20-39 yrs.",
+    name: "Adult",
+    element: "None",
+    image: "",
+    negative: false,
+    passive: true,
+    1: "",
+  },
+  Older: {
+    note: "Older = 40-59 yrs.",
+    name: "Older",
+    element: "None",
+    image: "",
+    negative: false,
+    passive: true,
+    1: "",
+  },
+  Aged: {
+    note: "Aged = 60+",
+    name: "Aged",
+    element: "None",
+    image: "",
+    negative: false,
+    passive: true,
+    1: "",
+  },
   "Sharp Slash": {
     note: "Rogue",
     name: "Sharp Slash",
@@ -2804,18 +2849,14 @@ function Spells({ spells, type }) {
         return <Title>Negatives:</Title>;
       case "conditions":
         return <Title>Conditions:</Title>;
-      default: 
-      return <Title>Skills:</Title>;
+      default:
+        return <Title>Skills:</Title>;
     }
   }
   return (
     <>
       {/* This title thing could be made into switch cases. */}
-      {type ? (
-        getTitle(type)
-      ) : (
-        <Title></Title>
-      )}
+      {type ? getTitle(type) : <Title></Title>}
       <SpellsStyle>{array}</SpellsStyle>
     </>
   );

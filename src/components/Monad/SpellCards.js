@@ -175,6 +175,7 @@ const CardDisc = styled.div`
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+  min-height: 46.67px;
 `;
 const DiscWrap = styled.div`
   width: 100%;
