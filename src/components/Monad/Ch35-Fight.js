@@ -152,14 +152,34 @@ function Intro(props) {
         Just relax and sit back in the knowledge if it is their fate to die they
         did not drag you down with them."
       </p>
-      <p></p>
+      <p>"Wait, wait. Look over there, isn't that **** ?"</p>
+      <p>
+        "Oh shit yeah! I saw him on the lists, he's one of the favorites to
+        win."
+      </p>
+      <p>
+        "Lists? What are you boys talking about? Are the students placing bets
+        on this?"
+      </p>
+      <p>
+        "Err, yeah. It's on the academy board. I thought the teachers knew about
+        it since it's on the public board."
+      </p>
+      <p>
+        "Honestly, it's all kind of alien to us. But I want in, help me place a
+        bet."
+      </p>
       <div className="BreakPoint"></div>
       {/* tracking of students through the jungles */}
-      <p></p>
+      <p>take *** from the line above and follow him though his 'fun' time.</p>
       {/* Dumb 'events' */}
+      <p>Sandstorms, mutant beasts, floods, care packages.</p>
       {/* More dumb student banter */}
+      <p>Bets, poop dialog.</p>
       {/* Cornering students and beating them to death */}
+      <p>Murder, find Kaja.</p>
       <div className="BreakPoint"></div>
+      <p>Kaja show down and fail</p>
       {/* running away */}
     </Content>
   );
