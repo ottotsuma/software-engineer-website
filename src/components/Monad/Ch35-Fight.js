@@ -152,7 +152,7 @@ function Intro(props) {
         Just relax and sit back in the knowledge if it is their fate to die they
         did not drag you down with them."
       </p>
-      <p>"Wait, wait. Look over there, isn't that **** ?"</p>
+      <p>"Wait, wait. Look over there, isn't that Garin?"</p>
       <p>
         "Oh shit yeah! I saw him on the lists, he's one of the favorites to
         win."
@@ -171,8 +171,9 @@ function Intro(props) {
       </p>
       <div className="BreakPoint"></div>
       {/* tracking of students through the jungles */}
-      <p>take *** from the line above and follow him though his 'fun' time.</p>
+      <p>take Garin from the line above and follow him though his 'fun' time.</p>
       {/* Dumb 'events' */}
+      {/* Jarvia - spear */}
       <p>Sandstorms, mutant beasts, floods, care packages.</p>
       {/* More dumb student banter */}
       <p>Bets, poop dialog.</p>

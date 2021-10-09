@@ -6,7 +6,7 @@ Pokemon Style Elements battles!
 
 // Otto starts of young, at fault of his birth status, unable to make use of the gifts given. Grows from the mentors lessons and overcomes the birth status. 
 
-// The villain overall is the sea people, but the villain of Alden arc should be a noble who comes earlier in the story then intended to set up a level of respect, power and intelligence. The sea people is a overarching strange treat to the people of Monad.
+// The villain overall is the sea people, but the villain of Alden arc should be a noble who comes earlier in the story then intended to set up a level of respect, power and intelligence. The sea people is a overarching strange treat to the people of Monad. - Alphonse
 
 // The villains are defeated near the start, then enslaved so its hard to see them as a threat, that is how they are treated by the natives also. But the treat comes later once they establish themselves. This will be hard to write.
 
