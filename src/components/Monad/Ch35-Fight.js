@@ -118,14 +118,26 @@ function Intro(props) {
         "Did you see that!? That blonde girl almost died without doing anything.
         She just ran from the start."
       </p>
+      {/* Kaja was a little shorter then me, dark blonde hair and dark blue eyes */}
       <p>
         "Nah, I ain't gonna spend my time watching losers. Check out the middle
         of the field, it's like a king of the hill. So many people died. The
-        first person was teleported out but I haven't see another."
+        first person was teleported out but I haven't see another get so lucky."
       </p>
-      {/* Kaja was a little shorter then me, dark blonde hair and dark blue eyes */}
+      <p>
+        "Damn there is a pile of them there. Do you think they all died already?
+        Surely they are just knocked out."
+      </p>
+      <p>
+        "I don't think they are knocked out. Look that body just got set on fire
+        and didn't twitch at all. They're dead."
+      </p>
+      <p>"Feels kind weird. It was so fast it doesn’t feel real you know?"</p>
       {/* Some retard teacher explaining retarded rules */}
-      
+      <p>
+        "It's like the teacher said though, it's just the class rejects they
+        wouldn't of amounted to much anyway. Don't worry so much."
+      </p>
       {/* The start of the event with people running away, retards running for the middle to battle out the 'strongest' */}
       <p>
         "Sir, why were we asked to vote on class representatives? Wouldn't it be
@@ -140,6 +152,7 @@ function Intro(props) {
         Just relax and sit back in the knowledge if it is their fate to die they
         did not drag you down with them."
       </p>
+      <p></p>
       <div className="BreakPoint"></div>
       {/* tracking of students through the jungles */}
       <p></p>
