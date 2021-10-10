@@ -344,7 +344,6 @@ Charter sheets -
 <li> - Kiksotz, Blood bat, vampire of the new world: Monh
 <li> - Camazotz, Death Bat, Vampire god of the new world. 
 <li>Farald - expert professor on why students hp stops at 10hp in duels.
-<li>Vasso of house Elzach. Tall boy with stylish blonde hair, deep blue eyes, strong, jaw and a large nose. (Rapist who gets away with it.)
 <li>Vortigern - Magic item, use to be an immortal and part of the middle party during the end times of their era. Think 'yes minster' when writing his dialog.
 <li>Lubin (Heart of a man; heart of the sea.) - teacher of magic
 <li>Leon -
@@ -378,7 +377,8 @@ Tisiel Skivali - (cliffs) imperial name,(huonoia) - scholar/necromancer (GONE)
 
 Famous Mages:
 Alden:
-<li>Surname: Elzach - Alden's Grand Duke has royal lightning, it is purple in color and has not been seen outside of their family.
+<li>Vasso Elzach - Tall boy with stylish blonde hair, deep blue eyes, strong, jaw and a large nose. - Alden (Trees/Witches), Mage(lightning/???), Human, Noble, Obsidian, [Respect, Intelligence, Power], [Charisma, Magic, Sense], Items (Power comes from Royal items they never usually produce a mage.), Spells: [], (Prince of Alden. Wants mages to be more influential in the Aldenese army. War breaks out. Grows power, massing people around him, blames minorities for problems. Sets up and funds a puppet opponent to make these minorities appear to be a threat. Becomes a general in the army. Alden becomes open to attacks from the sea/inside. Return to Alden to defend from the sea people. Is back in Alden as a prince.) - Alden's Grand Duke has royal lightning, it is purple in color and has not been seen outside of their family.
+<li>Alphonse Elzach - 
 <li>Argavereri's Viscount uses a green smoke element, most unusual.
 <li>Baron Mann based at Soldenheim famously uses runes.
 
