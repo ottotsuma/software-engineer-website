@@ -2,7 +2,8 @@ https://guides.github.com/features/mastering-markdown/
 
 # To do:
 Pokemon Style Elements battles!
-// Obsidian is the royals resource 
+// Obsidian is the royals resource - Obsidian is hard, brittle, and amorphous; it therefore fractures with sharp edges. In the past, it was used to manufacture cutting and piercing tools, and it has been used experimentally as surgical scalpel blades.
+He's so sorry his mamma swapped him for a dog. And then drowned the dog.
 
 // Otto starts of young, at fault of his birth status, unable to make use of the gifts given. Grows from the mentors lessons and overcomes the birth status. 
 
