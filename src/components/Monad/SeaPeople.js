@@ -2068,6 +2068,27 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         "Wait what was the carriage and acting like a nobles for?" I added with
         my eye brows raised.
       </p>
+      <p>
+        "Every time we are around Kiksotz or Master we must act out being nobles
+        of the Republic. Everything is for perception of others, so we are able
+        to take our place as minor rulers after. However we also must undergo
+        our current mission to pay back master for our new ID's. Nobles cannot
+        be seen doing that which is why Kiksotz escorted us to the border, from
+        now we must go under our 2nd identities." Sarah replied as if I should
+        of know. Was anything ever explained anything to me and Noah?
+      </p>
+      <p>
+        I don't really know the kind of power 'Master' had but the joint quest
+        had finally had me and Noah added to it. The reward made me shut my
+        mouth and become a lot more willing to go along with the ride. It's not
+        everyday you get to eat for free.
+      </p>
+      <Quest
+        rating="rare"
+        rewards={""}
+        name=""
+        details=""
+      />
       {/* Give the blood bottle to Sarah */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}
       {/* In the south you join the war and find Alden people. See the side of the war from the republic. */}
