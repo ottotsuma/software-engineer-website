@@ -35,7 +35,7 @@ export default function SeaPeopleFunction(props) {
     : SeaPeople[props.Chapter];
 }
 
-export function WritingWheel () {
+export function WritingWheel() {
   return (
     <div>
       <p>1: They are in a zone of comfort</p>
@@ -47,7 +47,7 @@ export function WritingWheel () {
       <p>7: Then return to the familia situation</p>
       <p>8: Having changed</p>
     </div>
-  )
+  );
 }
 
 export const DirtySeaPeople = () => {
@@ -70,8 +70,8 @@ export const DirtySeaPeople = () => {
       <p>8: Having changed</p>
       {/*  */}
     </div>
-  )
-}
+  );
+};
 
 // Rest period, results day is a good starting place.
 export const SeaPeople = {
@@ -124,9 +124,9 @@ export const SeaPeople = {
         ocean.
       </p>
       <p>
-        "Who knew you could get sea sick inside of a game? I feel bad for you man."
-        Josh said patting my back. That didn't help so I hugged the side of the
-        ship tighter.
+        "Who knew you could get sea sick inside of a game? I feel bad for you
+        man." Josh said patting my back. That didn't help so I hugged the side
+        of the ship tighter.
       </p>
       <p>
         "And I said if you call it a game you won't be joining me on this trip."
@@ -186,8 +186,8 @@ export const SeaPeople = {
         After all I have been playing since launch. I mean, when I am not
         working that is." He smiled, he was a little more relaxed and less
         serious then Sarah. I guess that was to be expected. Josh had a normal
-        day job as an engineer and played the game for fun but Sarah was a professional gamer.
-        This was her job.
+        day job as an engineer and played the game for fun but Sarah was a
+        professional gamer. This was her job.
       </p>
       {/* This line will need so many re-writes because it's setting up his return to the game */}
       <p>
@@ -1976,14 +1976,14 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
       </p>
       <p>
         "So tell me again how sending us into a war is going to help you and
-        your master?" I asked Kiksotz for the fifth time.
+        your master?" Noah asked Kiksotz for the fifth time.
       </p>
       <p>
         "As I said before, you're not going to fight in the war, just look for a
         single person. A person with the ability to use white lightning. Then
         report it back to us." Kiksotz explained again.
       </p>
-      <p>"While there is a war happening around us?" I asked.</p>
+      <p>"While there is a war happening around us?" Noah asked.</p>
       <p>
         "Move around at night, your skin would make you harder to spot." Kiksotz
         jested.
@@ -2055,12 +2055,18 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
       <p>
         "Speaking of here now." Kiksotz said drawing the carriage to a stop. "Up
         ahead is the boarder of Monh. The county below is Baberg. You want to
-        head directly south when you come to the cross roads towards the town of
-        Weildengen. All the normal land and sea routes on the way to Alden are
+        head directly south, when you come to the cross roads near the town of
+        Weildengen. All the normal land, and sea routes on the way to Alden are
         carefully monitored. There is a river on the boarder to Alden called
-        Kehzach. From our reports this is one of the locations students will be
+        Kehzach. From our reports, this is one of the locations students will be
         monitoring, you just have to monitor them and report back if you see the
         person we are looking for."
+      </p>
+      <p>"Sounds simple enough." Noah said getting down from the carriage.</p>
+      <p>"We can do it." Sarah added stepping silently onto the floor.</p>
+      <p>
+        "Wait what was the carriage and acting like a nobles for?" I added with
+        my eye brows raised.
       </p>
       {/* Give the blood bottle to Sarah */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}
