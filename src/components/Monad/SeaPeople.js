@@ -2095,7 +2095,7 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         There was no reason to speak any more about it, this is the best kind of
         quest.
       </p>
-      {/* Give the blood bottle to Sarah */}
+      {/* Give the blood bottle to Sarah, after she is injured by the priest */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}
       {/* In the south you join the war and find Alden people. See the side of the war from the republic. */}
       {/* The purpose of joining as mercenaries, but working with the vampires to carve out a piece of land to rule */}
