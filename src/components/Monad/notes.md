@@ -437,6 +437,30 @@ Otto 10 the oldest son of Michkel and Karla, with two younger brothers, and a si
 Nils 10 the 8th child of the village leader, although only 5 remain.
 Jakob 9, dies, A small boy, shy and ungifted.
 
+Effie Level 10, Fighter/Paladin points: 2
+
+Fighter 
+1 Charge, Moves quickly in a straight line (1)
+2 Heavy blow, High damage output strike (1)
+3 Battle shout, Increases the stats of allies (1)
+4 High impact, Smashes the ground or target causing an AOE (1)
+5 Strength up, Increases Strength(+) (1)
+6 Vitality up, Increases Vitality(+) (1)
+7 Provoke, Provoke and tease them so that they want to attack you.(1)
+8 Shield Bash (1)
+
+Paladin 
+Faith Spells
+Cover - Take all damage intended for another party member. (time, amount, distance) 
+Rampart - reduce damage taken to all near by (amount, time)
+Sentinel - reduce damage taken (amount, time)
+Hallowed ground - (living) Allies in the area cannot be affected by negative effects (time) 
+https://wiki.guildwars2.com/wiki/Hallowed_Ground, 
+https://ffxiv.gamerescape.com/wiki/Hallowed_Ground
+
+Sanctuary (heal allies) - set the area around you (distance, time, amount) {arrow attacks hurt tank instead of party if they hit, heals members inside that are not undead/demon etc hurts demons/undead.}
+https://wiki.guildwars2.com/wiki/Sanctuary 
+
 Karla & Michkel - husband and wife, parents of otto +2
 Sarah and Robert - husband and wife, parents to 4
 
