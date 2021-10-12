@@ -2085,10 +2085,16 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
       </p>
       <Quest
         rating="rare"
-        rewards={""}
-        name=""
-        details=""
+        rewards={"Reduce miasma 20%"}
+        name="Report the location of Kʼawiil's mage."
+        details="Kiksotz & Master are interested in the whereabouts of a mage rumored to have gained the power of Kʼawiil. If found this may trigger additional quests."
       />
+      <p>
+        A large miasma reduction equivalent to 20 levels just for finding a kid.
+        A chance as a quest line were the rewards would only increase in folds.
+        There was no reason to speak any more about it, this is the best kind of
+        quest.
+      </p>
       {/* Give the blood bottle to Sarah */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}
       {/* In the south you join the war and find Alden people. See the side of the war from the republic. */}
