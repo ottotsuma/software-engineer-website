@@ -2095,6 +2095,52 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         There was no reason to speak any more about it, this is the best kind of
         quest.
       </p>
+      <p>
+        Kiksotz had turned the carriage around and waved us off as he headed
+        back to the city. Sarah had a hood around her head betime I turned back.
+        "What? You're suppose to be the greatest assassin in our guild, blend in
+        already." She quipped.
+      </p>
+      <p>
+        "You don't put a hood on to blend in." I opened my inventory and took
+        out normal clothes of the people of Alden. "Put these on both of you.
+        Over your armor is fine but if you have disguise skill but if you don't
+        putting clothes on top of your armor will render your armor stats
+        useless." I told them. To my sunrise they both had skills for disguise.
+        Sarah from her vampire class, Noah said the dark elves learn it ass a
+        race skill and I had it as an assassin.
+      </p>
+      <p>
+        They must of put 1 point in each. It was clear they had their armor on
+        underneath to me, especially Sarah's large blue armor. Hopefully the
+        people we will be passing don't look to closely at us.
+      </p>
+      <p>
+        Walking along the only road out of Monh had us passing the odd merchant
+        traveler or grain cart bustling past mostly in the same direction as us.
+        Most of the traffic would be stopped at Konavelheim for the night or if
+        they were faster straight to the port of Kipold. After the crossroads
+        the road to Weildengen was more or less our own.
+      </p>
+      <p>
+        The sun had set when we arrived at Weildengen. While it was inside of
+        the Baberg territory, the capital saw this place as some backwater
+        hunting village. That took no deduction, as it was the first thing the
+        guard said Sarah when we arrived. That and her disguise was poor. He
+        mistook her for some noble from the west, which was the vibe she was
+        going for before. Noah he took for a slave, I think his eleven features
+        and the look of a tourist gave him away.
+      </p>
+      <p>
+        
+      </p>
+      {/* "Up ahead is the boarder of Monh. The county below is Baberg. You want to
+        head directly south, when you come to the cross roads near the town of
+        Weildengen. All the normal land, and sea routes on the way to Alden are
+        carefully monitored. There is a river on the boarder to Alden called
+        Kehzach. From our reports, this is one of the locations students will be
+        monitoring, you just have to monitor them and report back if you see the
+        person we are looking for." */}
       {/* Give the blood bottle to Sarah, after she is injured by the priest */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}
       {/* In the south you join the war and find Alden people. See the side of the war from the republic. */}

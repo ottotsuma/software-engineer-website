@@ -394,6 +394,9 @@ the main quests], (From the main island, recently started playing, no
 dlc), none, saw the adverts for coming and wanted to try. None(0)
 
 IRL - Midlife crisis, quit working as **** and got into video editing / youtube / twitch
+
+Skills:
+Darkelf: Disguise (1)
 </li>
 <li>
 Girl: Sarah, Vampire, Use to be a human paladin, class(Tank[Guardian])
@@ -403,6 +406,9 @@ get in before the other guilds. PET(60),
 file:///C:/Users/snows/Documents/GitHub/ottotsuma.github.io/guard100.html
 
 IRL - PRO Gamer
+
+Skills: 
+Vampire: Disguise (1)
 </li>
 <li>
 Boy: Josh, Human, class(Rogue-subtype[Assassin]) Recently became
@@ -412,6 +418,9 @@ assassin, 92,
 man), clan/guild, accompany the same guild. RAT(100)
 
 IRL - Engineer working remote
+
+Skills: 
+Assassin: Disguise (2+)
 </li>
 
 ###### Extra People:
