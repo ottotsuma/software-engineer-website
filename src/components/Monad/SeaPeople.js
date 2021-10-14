@@ -2140,7 +2140,24 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         any attempts to do so would not go unpunished or unnoticed. The perfect
         place to sneak across a normally thinly guarded border.
       </p>
-      <p></p>
+      <p>
+        The town was far from using up all of the possible building space,
+        however the land that was left was being used for farming space. Unlike
+        my home town the farms in the republic were communal, just like they
+        where in Monh. The town was not too different in style, just much
+        smaller. The tallest building reaching 4 floors. The buildings were all
+        painted white and pink-red, the towns flag hanging on the palisade gates
+        we passed though. It was a quartering pattern of alternating white and
+        pink-red color, a triangular cut was removed from the bottom and finally
+        a three-leafed clover leaf shaped emblem sat in the middle of the field
+        with reverse colors to the field.
+      </p>
+      <p>
+        "Should of been an acorn." Sarah said out loud.
+      </p>
+      <p>"What?" Noah replied confused.</p>
+      <p>"Nothing. "</p>
+      {/* Dingy Dungeon = pink red */}
       {/* Give the blood bottle to Sarah, after she is injured by the priest */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}
       {/* All the normal land, and sea routes on the way to Alden are
