@@ -2152,6 +2152,7 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         a three-leafed clover leaf shaped emblem sat in the middle of the field
         with reverse colors to the field.
       </p>
+      {/* Dingy Dungeon = pink red */}
       <p>"Should of been an acorn." Sarah said out loud.</p>
       {/* Reference to the german suit of cards */}
       <p>"What?" Noah replied confused.</p>
@@ -2163,7 +2164,7 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
       </p>
       <p>"Thanks." I replied putting it away for now.</p>
       <p></p>
-      {/* Dingy Dungeon = pink red */}
+      
       {/* Give the blood bottle to Sarah, after she is injured by the priest */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}
       {/* All the normal land, and sea routes on the way to Alden are
