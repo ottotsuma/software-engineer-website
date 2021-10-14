@@ -2152,12 +2152,17 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         a three-leafed clover leaf shaped emblem sat in the middle of the field
         with reverse colors to the field.
       </p>
-      <p>
-        "Should of been an acorn." Sarah said out loud.
-      </p>
+      <p>"Should of been an acorn." Sarah said out loud.</p>
       {/* Reference to the german suit of cards */}
       <p>"What?" Noah replied confused.</p>
-      <p>"Nothing. "</p>
+      <p>
+        "Nothing. Oh just encase anyone asks, our purpose here is to hunt
+        monsters for a bounty put out by the capital. Josh, you cannot speak
+        German so I'll give you the bounty to hold onto, you can just show
+        this." She said handing me a cream sheet.
+      </p>
+      <p>"Thanks." I replied putting it away for now.</p>
+      <p></p>
       {/* Dingy Dungeon = pink red */}
       {/* Give the blood bottle to Sarah, after she is injured by the priest */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}
