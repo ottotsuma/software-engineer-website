@@ -2132,8 +2132,15 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         and the look of a tourist gave him away.
       </p>
       <p>
-
+        The town is pincered between wet lands and the sea, sitting in temperate
+        forest that covers the majority of the east of the republic. This town
+        was the end of the road, the path to Alden from here would be across the
+        unpaved wetlands and rivers. This made this area almost inaccessible to
+        large movements, the monsters lurking in the wetlands would make sure
+        any attempts to do so would not go unpunished or unnoticed. The perfect
+        place to sneak across a normally thinly guarded border.
       </p>
+      <p></p>
       {/* Give the blood bottle to Sarah, after she is injured by the priest */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}
       {/* All the normal land, and sea routes on the way to Alden are
