@@ -2155,6 +2155,7 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
       <p>
         "Should of been an acorn." Sarah said out loud.
       </p>
+      {/* Reference to the german suit of cards */}
       <p>"What?" Noah replied confused.</p>
       <p>"Nothing. "</p>
       {/* Dingy Dungeon = pink red */}
