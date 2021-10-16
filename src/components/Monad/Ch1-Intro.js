@@ -279,28 +279,24 @@ most people learn inspect but either see
           </p>
           {/* <!-- <p>The children are armed with wood swords, shields, spears and staves. Today like most days they pretend to be heroes from old stories, facing off in small 1v1's with little organization or any teams at all. After settling their small disputes and deciding who gets to be which hero they turn to battle their foe as a team. Under the command of Ilse, who while not the oldest child was Eugen had to little ambition to even lead a group as small as this and Beke who's temper is too hot to make any meaningful decisions. They charge in and out fighting a tree with a 'monster' draw onto the side.</p> --> */}
           {/* <!-- What about adding the children arguing instead of just saying they did? --> */}
-          <p>"I want to be a fighter today!"</p>
+          <p>"I want to be a fighter today!" Little Otto declared picked up a small stick from the ground and giving it a good swing.</p>
           <p>
-            "Do you even know what fighters do? I heard your parents where
-            farmers"
+            "Ahaha, Do you even know anything about fighters?" Beke jabbed.
           </p>
           <p>
-            "Of course I know! We all went to lessons, they move the mana inside
-            them to where it is needed to become faster or stronger" Otto
-            replies happy with himself
+            "Of course I know! They move the mana inside
+            their bodies to where it is needed, to become faster or stronger." Otto
+            replied happy with himself.
           </p>
           <p>
-            "You cant be a fighter, you don't have a sword, bow or anything at
-            all! you have to be a mage, unless you want to be a rouge.." Beke
-            snickers.
+            "You can't be a fighter. You don't have a sword, bow or anything at
+            all! You're holding a stick, that's like a mages wand. You have to be a mage, unless you want to be a rouge.." Beke snickered.
           </p>
-          <p> Otto picks up a stick and swings it about like a sword</p>
-          <p>"Ahahaha" Beke burst into laughter</p>
-          <p>"It's a wand. I was just testing it."</p>
           <p>
-            "You two stop arguing and get into position the monster is here!"
-            Ilse points to a tree with a monster draw onto it's side..
+            Otto stared at Beke in anger, twisting his lips, debating about what to reply when Ilse cut between the two. "You two stop arguing and get into position the monster is here!"
+            She pointed to a tree with a crudely drawn monster on it's side.
           </p>
+          {/* Here */}
           <p>
             That is how the team ended up with 4 melee fighters, 2 ranged
             fighters and 1 mage
