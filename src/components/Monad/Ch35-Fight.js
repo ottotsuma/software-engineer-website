@@ -122,7 +122,8 @@ function Intro(props) {
       <p>
         "Nah, I ain't gonna spend my time watching losers. Check out the middle
         of the field, it's like a king of the hill. So many people died. The
-        first person was teleported out but I haven't see another get so lucky." - Student B
+        first person was teleported out but I haven't see another get so lucky."
+        - Student B
       </p>
       <p>
         "Damn there is a pile of them there. Do you think they all died already?
@@ -172,10 +173,16 @@ function Intro(props) {
       <div className="BreakPoint"></div>
       {/* Going for a 3rd party viewer, history style because of the people watching the game. */}
       <p>
-        Garin had gathered a small group around him. Fighting alone, even the strongest would lose a fight to a group of people. Forming alliances are an important aspect of survival, by helping each other stay alive they eliminate small groups of competitors around them giving them better odd's at winning.
+        Garin had gathered a small group around him. Fighting alone, even the
+        strongest would lose a fight to a group of people. Forming alliances are
+        an important aspect of survival, by helping each other stay alive they
+        eliminate small groups of competitors around them giving them better
+        odd's at winning.
       </p>
       {/* tracking of students through the jungles */}
-      <p>Take Garin from the line above and follow him though his 'fun' time.</p>
+      <p>
+        Take Garin from the line above and follow him though his 'fun' time.
+      </p>
       {/* Dumb 'events' */}
       {/* Jarvia - spear */}
       <p>Sandstorms, mutant beasts, floods, care packages.</p>
