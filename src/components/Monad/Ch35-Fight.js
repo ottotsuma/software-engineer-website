@@ -116,32 +116,32 @@ function Intro(props) {
       <p>
         {/* 'Fans' making bets and saying the most retarded things you can think of */}
         "Did you see that!? That blonde girl almost died without doing anything.
-        She just ran from the start."
+        She just ran from the start." - Student A
       </p>
       {/* Kaja was a little shorter then me, dark blonde hair and dark blue eyes */}
       <p>
         "Nah, I ain't gonna spend my time watching losers. Check out the middle
         of the field, it's like a king of the hill. So many people died. The
-        first person was teleported out but I haven't see another get so lucky."
+        first person was teleported out but I haven't see another get so lucky." - Student B
       </p>
       <p>
         "Damn there is a pile of them there. Do you think they all died already?
-        Surely they are just knocked out."
+        Surely they are just knocked out." - Student A
       </p>
       <p>
         "I don't think they are knocked out. Look that body just got set on fire
-        and didn't twitch at all. They're dead."
+        and didn't twitch at all. They're dead." - Student B
       </p>
       <p>"Feels kind weird. It was so fast it doesn’t feel real you know?"</p>
       {/* Some retard teacher explaining retarded rules */}
       <p>
         "It's like the teacher said though, it's just the class rejects they
-        wouldn't of amounted to much anyway. Don't worry so much."
+        wouldn't of amounted to much anyway. Don't worry so much." - Student A
       </p>
       {/* The start of the event with people running away, retards running for the middle to battle out the 'strongest' */}
       <p>
         "Sir, why were we asked to vote on class representatives? Wouldn't it be
-        better to use our test scores?"
+        better to use our test scores?" - Student B
       </p>
       <p>
         "Huh? It's because the students know each other better then the teachers
@@ -150,24 +150,24 @@ function Intro(props) {
         volunteered for the role, but these kind of psychopaths who jump at the
         chance to murder are hardly suitable candidates to be your team mates.
         Just relax and sit back in the knowledge if it is their fate to die they
-        did not drag you down with them."
+        did not drag you down with them." - Teacher
       </p>
-      <p>"Wait, wait. Look over there, isn't that Garin?"</p>
+      <p>"Wait, wait. Look over there, isn't that Garin?"</p> - Student A
       <p>
         "Oh shit yeah! I saw him on the lists, he's one of the favorites to
-        win."
+        win." - Student B
       </p>
       <p>
         "Lists? What are you boys talking about? Are the students placing bets
-        on this?"
+        on this?" - Teacher
       </p>
       <p>
         "Err, yeah. It's on the academy board. I thought the teachers knew about
-        it since it's on the public board."
+        it since it's on the public board." - Student B
       </p>
       <p>
         "Honestly, it's all kind of alien to us. But I want in, help me place a
-        bet."
+        bet." The teacher replied.
       </p>
       <div className="BreakPoint"></div>
       {/* tracking of students through the jungles */}
