@@ -170,7 +170,10 @@ function Intro(props) {
         bet." The teacher replied.
       </p>
       <div className="BreakPoint"></div>
-      <p></p>
+      {/* Going for a 3rd party viewer, history style because of the people watching the game. */}
+      <p>
+        Garin had gathered a small group around him. Fighting alone, even the strongest would lose a fight to a group of people. Forming alliances are an important aspect of survival, by helping each other stay alive they eliminate small groups of competitors around them giving them better odd's at winning.
+      </p>
       {/* tracking of students through the jungles */}
       <p>Take Garin from the line above and follow him though his 'fun' time.</p>
       {/* Dumb 'events' */}
