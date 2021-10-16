@@ -171,7 +171,7 @@ function Intro(props) {
       </p>
       <div className="BreakPoint"></div>
       {/* tracking of students through the jungles */}
-      <p>take Garin from the line above and follow him though his 'fun' time.</p>
+      <p>Take Garin from the line above and follow him though his 'fun' time.</p>
       {/* Dumb 'events' */}
       {/* Jarvia - spear */}
       <p>Sandstorms, mutant beasts, floods, care packages.</p>
