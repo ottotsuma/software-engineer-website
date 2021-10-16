@@ -2163,8 +2163,9 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         this." She said handing me a cream sheet.
       </p>
       <p>"Thanks." I replied putting it away for now.</p>
-      <p></p>
-      
+      <p>
+
+      </p>
       {/* Give the blood bottle to Sarah, after she is injured by the priest */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}
       {/* All the normal land, and sea routes on the way to Alden are
