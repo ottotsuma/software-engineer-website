@@ -170,6 +170,7 @@ function Intro(props) {
         bet." The teacher replied.
       </p>
       <div className="BreakPoint"></div>
+      <p></p>
       {/* tracking of students through the jungles */}
       <p>Take Garin from the line above and follow him though his 'fun' time.</p>
       {/* Dumb 'events' */}
