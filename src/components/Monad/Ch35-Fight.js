@@ -179,6 +179,110 @@ function Intro(props) {
         eliminate small groups of competitors around them giving them better
         odd's at winning.
       </p>
+      <p>
+        Garin had gathered a small group around him. Fighting alone,even the
+        strongest would lose a fight to a group of people. Forming alliances are
+        an important aspect of survival,by helping each other stay alive they
+        eliminate small groups of competitors around them giving them better
+        odd's at winning.
+      </p>
+      <p>
+        While Garin was considered the strongest mage in the group,the other
+        members were no burdens. Once the list of odd’s was posted and bets
+        started to be made,this group started to form of students likely to win.
+        Their goal was simple,eliminate those with lower odd’s,there by
+        increasing their own.
+      </p>
+      <p>
+        The group was made of 9,it was too large not to splinter. Non of the
+        participants were of noble birth,however that did not make them weak.
+        Garin and Jarvia were actually the top in the class and were voted in so
+        their class would win.{" "}
+      </p>
+      <p>
+        The starting battle had been a hectic brawl,the students had gone though
+        a fight of flight from the start. Water magic had clashed with fire
+        making the air in this clearing humid. The earth magic had reshaped the
+        land below their feet into an uneven mess with pillars and large rocks
+        littering the landscape. There were no blood mages present,still the
+        rocks were stained a burnt maroon,the water still mixed with the crimson
+        liquid in places.
+      </p>
+      <p>
+        What had started as a small group of nine in a sea of students and
+        spells,was now whittled down to four. It was hard to say how many had
+        been saved and removed from the arena by professor “”””’s creation. The
+        four of their like laying at their feet could tempt them to say it was
+        one-in-five. The litany of corpses decorating the field like a morbid
+        pumpkin patch seemed to scream in disagreement.
+      </p>
+      <p>
+        How many had run into the woods? How many had died running there? How
+        many had stayed to fight? No one knew right now. It was safe to say more
+        then half of those who had entered were morbid decorations now.
+      </p>
+      <p>
+        Jarvia was the first to speak. “The rest ran into the woods. We should
+        hunt down as many as we can before they form groups.”
+      </p>
+      <p>
+        “Shouldn’t we rest? I mean look...”“””replied trailing off into a blank
+        stare across the field.
+      </p>
+      <p>
+        “The longer we rest,the more they rest. Do you want to be a burn to the
+        group?”Garin added.
+      </p>
+      <p>“It was just a suggestion.”“””replied.</p>
+      <p>
+        “Don’t worry so much. Although that fight was hard,now they are alone.
+        The one’s who ran at the start were cowards. Now we can hunt them down
+        leisurely and have some fun.”Garin laughed.
+      </p>
+      <p>
+        “I want to say don”t underestimate a foe but even I agree those who did
+        not fight here are just cowards. It will be easy for us to clean
+        up.”Jarvia smirked.
+      </p>
+      <p>
+        Garin checked his status. 30% HP and almost depleted all my mana. I’ll
+        make “””take care of the weak ones while I recover. I can’t let Jarvia
+        know I’m weak right now.
+      </p>
+      <p>
+        The moment we left the center the air air felt fresher,less humid. I
+        felt dizzy suddenly. Hot bile bubbled up from my core,coating my tongue.
+        I couldn’t hold it in and vomited onto the floor. Jarvia stared at me,so
+        I spoke between breaths. “The jungle really smells.”She didn’t reply
+        first,PersonB did who had been quiet up until now. She also spewed hot
+        sick onto a fern.
+      </p>
+      <p>
+        “Mmm”“””hummed. He was pale but that was it. I spat on the ground and
+        walked forward my head up high. The jungle was free and wild,the canopy
+        of trees blocked out most of the sunlight,however it was not dark. Small
+        plants brushed up against our ankles. Our robes kept all other wandering
+        feelers of the jungle from our skin,aside from the bugs.{" "}
+      </p>
+      <p>
+        The small flying bugs would find their way to biting and stinging us no
+        matter the location. PersonB wasted mana batting them away from her
+        until she was reprimanded by Jarvia. I could see how it was,the girls
+        were going to stick together in the end. Maybe I shouldn’t tire “”””out
+        too much.
+      </p>
+      <p>
+        The first person we found who had run from the start had become
+        nourishment for a swarm of green flying beetles. They were each the side
+        of an adults hand and crawled across his body ripping off chunks of
+        flesh and bone in their pincers. The sound squished like stepping in on
+        wet moss before crunching loudly.
+      </p>
+      <p>
+        The teachers had told us they would clear up the worst and largest of
+        the monsters but would and could not keep all of them out. We were lucky
+        they were feeding.
+      </p>
       {/* tracking of students through the jungles */}
       <p>
         Take Garin from the line above and follow him though his 'fun' time.
