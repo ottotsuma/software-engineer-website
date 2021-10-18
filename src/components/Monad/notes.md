@@ -5,6 +5,8 @@ Pokemon Style Elements battles!
 // Obsidian is the royals resource - Obsidian is hard, brittle, and amorphous; it therefore fractures with sharp edges. In the past, it was used to manufacture cutting and piercing tools, and it has been used experimentally as surgical scalpel blades.
 He's so sorry his mamma swapped him for a dog. And then drowned the dog.
 
+// kick in the balls - level 9: A kick, that causes the the life of those yet to be, to flash though the mind of the person on the receiving end.
+
 // Otto starts of young, at fault of his birth status, unable to make use of the gifts given. Grows from the mentors lessons and overcomes the birth status. 
 
 // The villain overall is the sea people, but the villain of Alden arc should be a noble who comes earlier in the story then intended to set up a level of respect, power and intelligence. The sea people is a overarching strange treat to the people of Monad. - Alphonse
