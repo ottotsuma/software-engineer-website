@@ -197,7 +197,7 @@ function Intro(props) {
         The group was made of 9,it was too large not to splinter. Non of the
         participants were of noble birth,however that did not make them weak.
         Garin and Jarvia were actually the top in the class and were voted in so
-        their class would win.{" "}
+        their class would win.
       </p>
       <p>
         The starting battle had been a hectic brawl,the students had gone though
@@ -211,7 +211,7 @@ function Intro(props) {
       <p>
         What had started as a small group of nine in a sea of students and
         spells,was now whittled down to four. It was hard to say how many had
-        been saved and removed from the arena by professor “”””’s creation. The
+        been saved and removed from the arena by professor Farald’s creation. The
         four of their like laying at their feet could tempt them to say it was
         one-in-five. The litany of corpses decorating the field like a morbid
         pumpkin patch seemed to scream in disagreement.
@@ -222,53 +222,53 @@ function Intro(props) {
         then half of those who had entered were morbid decorations now.
       </p>
       <p>
-        Jarvia was the first to speak. “The rest ran into the woods. We should
-        hunt down as many as we can before they form groups.”
+        Jarvia was the first to speak. "The rest ran into the woods. We should
+        hunt down as many as we can before they form groups."
       </p>
       <p>
-        “Shouldn’t we rest? I mean look...”“””replied trailing off into a blank
+        "Shouldn’t we rest? I mean look..." Milo replied trailing off into a blank
         stare across the field.
       </p>
       <p>
-        “The longer we rest,the more they rest. Do you want to be a burn to the
-        group?”Garin added.
+        "The longer we rest,the more they rest. Do you want to be a burn to the
+        group?" Garin added.
       </p>
-      <p>“It was just a suggestion.”“””replied.</p>
+      <p>"It was just a suggestion." Milo replied.</p>
       <p>
-        “Don’t worry so much. Although that fight was hard,now they are alone.
+        "Don’t worry so much. Although that fight was hard,now they are alone.
         The one’s who ran at the start were cowards. Now we can hunt them down
-        leisurely and have some fun.”Garin laughed.
+        leisurely and have some fun." Garin laughed.
       </p>
       <p>
-        “I want to say don”t underestimate a foe but even I agree those who did
+        "I want to say don't underestimate a foe but even I agree those who did
         not fight here are just cowards. It will be easy for us to clean
-        up.”Jarvia smirked.
+        up." Jarvia smirked.
       </p>
       <p>
         Garin checked his status. 30% HP and almost depleted all my mana. I’ll
-        make “””take care of the weak ones while I recover. I can’t let Jarvia
+        make Milo take care of the weak ones while I recover. I can’t let Jarvia
         know I’m weak right now.
       </p>
       <p>
         The moment we left the center the air air felt fresher,less humid. I
         felt dizzy suddenly. Hot bile bubbled up from my core,coating my tongue.
         I couldn’t hold it in and vomited onto the floor. Jarvia stared at me,so
-        I spoke between breaths. “The jungle really smells.”She didn’t reply
-        first,PersonB did who had been quiet up until now. She also spewed hot
+        I spoke between breaths. "The jungle really smells." She didn’t reply
+        first, Bruna did who had been quiet up until now. She also spewed hot
         sick onto a fern.
       </p>
       <p>
-        “Mmm”“””hummed. He was pale but that was it. I spat on the ground and
+        "Mmm" Milo hummed. He was pale but that was it. I spat on the ground and
         walked forward my head up high. The jungle was free and wild,the canopy
         of trees blocked out most of the sunlight,however it was not dark. Small
         plants brushed up against our ankles. Our robes kept all other wandering
-        feelers of the jungle from our skin,aside from the bugs.{" "}
+        feelers of the jungle from our skin,aside from the bugs.
       </p>
       <p>
         The small flying bugs would find their way to biting and stinging us no
-        matter the location. PersonB wasted mana batting them away from her
+        matter the location. Bruna wasted mana batting them away from her
         until she was reprimanded by Jarvia. I could see how it was,the girls
-        were going to stick together in the end. Maybe I shouldn’t tire “”””out
+        were going to stick together in the end. Maybe I shouldn’t tire Milo out
         too much.
       </p>
       <p>
