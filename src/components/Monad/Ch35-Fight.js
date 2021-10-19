@@ -211,10 +211,10 @@ function Intro(props) {
       <p>
         What had started as a small group of nine in a sea of students and
         spells,was now whittled down to four. It was hard to say how many had
-        been saved and removed from the arena by professor Farald’s creation. The
-        four of their like laying at their feet could tempt them to say it was
-        one-in-five. The litany of corpses decorating the field like a morbid
-        pumpkin patch seemed to scream in disagreement.
+        been saved and removed from the arena by professor Farald’s creation.
+        The four of their like laying at their feet could tempt them to say it
+        was one-in-five. The litany of corpses decorating the field like a
+        morbid pumpkin patch seemed to scream in disagreement.
       </p>
       <p>
         How many had run into the woods? How many had died running there? How
@@ -226,8 +226,8 @@ function Intro(props) {
         hunt down as many as we can before they form groups."
       </p>
       <p>
-        "Shouldn’t we rest? I mean look..." Milo replied trailing off into a blank
-        stare across the field.
+        "Shouldn’t we rest? I mean look..." Milo replied trailing off into a
+        blank stare across the field.
       </p>
       <p>
         "The longer we rest,the more they rest. Do you want to be a burn to the
@@ -241,8 +241,8 @@ function Intro(props) {
       </p>
       <p>
         "I want to say don't underestimate a foe but even I agree those who did
-        not fight here are just cowards. It will be easy for us to clean
-        up." Jarvia smirked.
+        not fight here are just cowards. It will be easy for us to clean up."
+        Jarvia smirked.
       </p>
       <p>
         Garin checked his status. 30% HP and almost depleted all my mana. I’ll
@@ -266,10 +266,10 @@ function Intro(props) {
       </p>
       <p>
         The small flying bugs would find their way to biting and stinging us no
-        matter the location. Bruna wasted mana batting them away from her
-        until she was reprimanded by Jarvia. I could see how it was,the girls
-        were going to stick together in the end. Maybe I shouldn’t tire Milo out
-        too much.
+        matter the location. Bruna wasted mana batting them away from her until
+        she was reprimanded by Jarvia. I could see how it was,the girls were
+        going to stick together in the end. Maybe I shouldn’t tire Milo out too
+        much.
       </p>
       <p>
         The first person we found who had run from the start had become
@@ -284,8 +284,11 @@ function Intro(props) {
         they were feeding.
       </p>
       <p>
-        
+        "Elsa?" Bruna said looking over. All I saw was monsters and chunks of
+        flesh. "It's Elsa, she was in my sculpting class. She use to make the
+        most beautiful mini ice castles with her magic." Bruna told to the bugs?
       </p>
+      <p>"Well, I guess she was one of the unlucky ones." I said, not really sure what to say, and immediately realised I should of said nothing when Bruna burst into tears.</p>
       {/* tracking of students through the jungles */}
       <p>
         Take Garin from the line above and follow him though his 'fun' time.
