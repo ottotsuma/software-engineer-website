@@ -276,12 +276,15 @@ function Intro(props) {
         nourishment for a swarm of green flying beetles. They were each the side
         of an adults hand and crawled across his body ripping off chunks of
         flesh and bone in their pincers. The sound squished like stepping in on
-        wet moss before crunching loudly.
+        wet moss before an abrupt loud crunching sound.
       </p>
       <p>
         The teachers had told us they would clear up the worst and largest of
         the monsters but would and could not keep all of them out. We were lucky
         they were feeding.
+      </p>
+      <p>
+        
       </p>
       {/* tracking of students through the jungles */}
       <p>
