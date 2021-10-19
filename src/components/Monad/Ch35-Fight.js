@@ -288,8 +288,21 @@ function Intro(props) {
         flesh. "It's Elsa, she was in my sculpting class. She use to make the
         most beautiful mini ice castles with her magic." Bruna told to the bugs?
       </p>
-      <p>"Well, I guess she was one of the unlucky ones." I said, not really sure what to say, and immediately realised I should of said nothing when Bruna burst into tears. It was the kind of sobbing that wrenched at your heart strings. "Come on Bruna, you knew how this would end of most of the people in this." I said to try and shake her into reality.</p>
-      <p>"It's different when it's someone you know." Bruna chocked back though sobs.</p> 
+      <p>
+        "Well, I guess she was one of the unlucky ones." I said, not really sure
+        what to say, and immediately realised I should of said nothing when
+        Bruna burst into tears. It was the kind of sobbing that wrenched at your
+        heart strings. "Come on Bruna, you knew how this would end of most of
+        the people in this." I said to try and shake her into reality.
+      </p>
+      <p>
+        "It's different when it's someone you know." Bruna chocked back though
+        sobs. She lifted the muddy earth from around her feet and bombarded the bugs around Elsa with a brown hail.
+      </p>
+      {/* Bruna - Earth */}
+      {/* Garin - Guard */}
+      {/* Milo */}
+      {/* Jarvia - Spear */}
       {/* tracking of students through the jungles */}
       <p>
         Take Garin from the line above and follow him though his 'fun' time.
