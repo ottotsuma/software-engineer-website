@@ -299,6 +299,9 @@ function Intro(props) {
         "It's different when it's someone you know." Bruna chocked back though
         sobs. She lifted the muddy earth from around her feet and bombarded the bugs around Elsa with a brown hail.
       </p>
+      <p>
+        The swam, aggrieved with Bruna, started a buzz of screaking and clattering. Do I help her or abandon her here? That was really dumb. Without the group  I can't be sure to win alone. I was not the only one hesitating because the bugs had already made it to Bruna and she was in the middle of raising a wall of dirt when we all finally moved.
+      </p>
       {/* Bruna - Earth */}
       {/* Garin - Guard */}
       {/* Milo */}
