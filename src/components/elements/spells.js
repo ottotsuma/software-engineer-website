@@ -512,6 +512,27 @@ export const spellList = {
     8: "+8 Charisma.",
     9: "+9 Charisma.",
     10: "+10 Charisma, I'll do it, even if I don't like it.",
+    stats: [{
+      charisma: 1,
+    },{
+      charisma: 2,
+    },{
+      charisma: 3,
+    },{
+      charisma: 4,
+    },{
+      charisma: 5,
+    },{
+      charisma: 6,
+    },{
+      charisma: 7,
+    },{
+      charisma: 8,
+    },{
+      charisma: 9,
+    },{
+      charisma: 10,
+    },]
   },
   Brave: {
     name: "Brave",

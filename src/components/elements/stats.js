@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import React from "react";
 import {spellList} from './spells'
+import {racesList} from './races'
+
 // Kʼawiil - Lightning, seeds, abundance, powerful one, fertility, serpent
 
 const statList = {
@@ -229,7 +231,14 @@ function _try(func, fallbackValue) {
 function Stats({ stats, type, skills }) {
   const array = [];
   const keys = Object.keys(stats);
-
+  if(stats.race) {
+    const raceStats = Object.keys(racesList[stats.race]);
+    if(raceStats) {
+      raceStats.map((raceStat) => {
+        stats[raceStat] = stats[raceStat] + racesList[stats.race][raceStat]
+      })
+    }
+  }
   if(skills) {
     skills.map((skill) => {
       const spellStats = _try(() => spellList[skill.name].stats[skill.level-1])

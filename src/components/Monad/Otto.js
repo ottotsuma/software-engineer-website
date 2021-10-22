@@ -9,63 +9,63 @@ export default function Otto() {
   return (
     <div style={{ color: "black" }}>
       {DirtyOtto()}
-      <div>
-        {SpellCards([
-          ["Iceball", 2, "ice"],
-        ])}
-      </div>
+      <div>{SpellCards([["Iceball", 2, "ice"]])}</div>
       <Stats
         type={"description"}
         stats={{
           name: "Otto",
           level: 10,
-          class: "Kʼawiil.",
-          race: "Human.",
+          class: "Kʼawiil",
+          race: "human",
           spells: 8,
           passives: 32,
           titles: 5,
           "spell points": 0, // from class
           "stat points": 0, // from race
-          vitality: 0, 
+          vitality: 0,
           strength: 1, // 1 from title
           endurance: 0,
           magic: 13, // 1 from title, 10 from leveling, 2 from robe, unlikely to be wearing the mask
           willpower: 3, // 1 from title
           dexterity: 2, // 2 from the level 1 & 10
-          sense: 2, // 1 from human, 2 from Perception
-          charisma: 16, // 2 from human, 1 from title, 10 from leveling, 2 from Persuasive, , 1 from Youth
+          sense: 0,
+          charisma: 11, // 1 from title, 10 from leveling
           // Titles
           // Back to School - Enter the academy, +1 mag
           // Apprentice - Reach level 10, +1 charm
           // Found a unique item - +1 str
           // Found a unique class - +1 mdef
         }}
+        // Makes skills an object of skill types 'human' 'mage' and they be the arrays.
+        // Do the same thing for equipment and titles?
         skills={[
-            { name: "Otitis Externa", level: 1 },
-            { name: "Youth", level: 1 },
-            { name: "Human Ingenuity", level: 2 },
-            { name: "Persuasive", level: 2 },
-            { name: "Quick", level: 2 },
-            { name: "Perception", level: 2 },
-            { name: "Athletic", level: 2 },
-            { name: "Healthy", level: 2 },
-            { name: "Adaptable", level: 2 },
-            { name: "Brave", level: 2 },
-            { name: "Lightning germination", level: 2 },
-            { name: "Lightning growth", level: 2 },
-            { name: "Lightning harvest", level: 2 },
-            { name: "Seeds to Soldiers", level: 2 },
-            { name: "Lightning seeds", level: 2 }, // 5 points spent on old spells
-            // New Spells Below
-            { name: "Scarecrow", level: 2 },
-            { name: "Kʼawiil Burst", level: 2 },
-            { name: "Kʼawiil Bolt", level: 2 },
-            { name: "Serpent Skin", level: 2 },
-            { name: "Serpent Pattern", level: 2 }, // 10 points spent on new spells
-            { name: "Reap What You Sow", level: 2 },
-            { name: "Bountiful Harvest", level: 2 },
-          ]}
-        notes={"4 spell per level, 1 stats per level, Human +1 stat every 10 levels."}
+          { name: "Otitis Externa", level: 1 },
+          { name: "Youth", level: 1 },
+          { name: "Human Ingenuity", level: 2 },
+          { name: "Persuasive", level: 2 },
+          { name: "Quick", level: 2 },
+          { name: "Perception", level: 2 },
+          { name: "Athletic", level: 2 },
+          { name: "Healthy", level: 2 },
+          { name: "Adaptable", level: 2 },
+          { name: "Brave", level: 2 },
+          { name: "Lightning germination", level: 2 },
+          { name: "Lightning growth", level: 2 },
+          { name: "Lightning harvest", level: 2 },
+          { name: "Seeds to Soldiers", level: 2 },
+          { name: "Lightning seeds", level: 2 }, // 5 points spent on old spells
+          // New Spells Below
+          { name: "Scarecrow", level: 2 },
+          { name: "Kʼawiil Burst", level: 2 },
+          { name: "Kʼawiil Bolt", level: 2 },
+          { name: "Serpent Skin", level: 2 },
+          { name: "Serpent Pattern", level: 2 }, // 10 points spent on new spells
+          { name: "Reap What You Sow", level: 2 },
+          { name: "Bountiful Harvest", level: 2 },
+        ]}
+        notes={
+          "4 spell per level, 1 stats per level, Human +1 stat every 10 levels."
+        }
       />
       {/* This equipment is level 5? So maybe needs stat changes */}
       <Equipment
@@ -84,18 +84,18 @@ export default function Otto() {
           },
         }}
       />
-      {/* <li>
-      Body:<font color="blue"> Hui Lu's Battle Armor</font> ???
-    </li>
-    <li>
-      Hands:<font color="blue"> Hui Lu's Enchanting Gloves</font> ???
-    </li>
-    <li>
-      Feet:<font color="blue"> Hui Lu's Burning Boots</font> ???
-    </li>
-    <li>
-      Weapon:<font color="blue"> </font>
-    </li> */}
+      <li>
+        Body:<font color="blue"> Hui Lu's Battle Armor</font> ???
+      </li>
+      <li>
+        Hands:<font color="blue"> Hui Lu's Enchanting Gloves</font> ???
+      </li>
+      <li>
+        Feet:<font color="blue"> Hui Lu's Burning Boots</font> ???
+      </li>
+      <li>
+        Weapon:<font color="blue"> </font>
+      </li>
       {/* gloves, adds fire to a weapon. boots, change the surface to fire. chest, reflect damage as fire when hit in melee*/}
       <h1>Other Items</h1>
       <Spells
@@ -147,31 +147,33 @@ export default function Otto() {
           name: "Ideal",
           level: 100,
           class: "???",
-          race: "Mana Creature.",
+          race: "mana creature",
           spells: 0,
           passives: 0,
           titles: 0,
           "spell points": 0, // from class
           "stat points": 0, // from race
-          vitality: 100, 
-          strength: 0, 
+          vitality: 100,
+          strength: 0,
           endurance: 25,
-          magic: 105, 
-          willpower: 25, 
-          dexterity: 25, 
-          sense: 25, 
-          charisma: 100, 
+          magic: 100,
+          willpower: 25,
+          dexterity: 25,
+          sense: 25,
+          charisma: 100,
         }}
         // Magic +5 Immune: Poison, Disease
         // https://www.dandwiki.com/wiki/Mana_Creature_(5e_Race)
         // Team bonus comes from class.
-        notes={"1 spell per level, 4 stats per level, Mana Creature every 10 levels stores another form."}
+        notes={
+          "1 spell per level, 4 stats per level, mana creature every 10 levels stores another form."
+        }
       />
     </div>
   );
 }
 
-export function DirtyOtto () {
+export function DirtyOtto() {
   return (
     <div>
       <p>1: They are in a zone of comfort</p>
@@ -197,12 +199,11 @@ export function DirtyOtto () {
       <p>Come back to the village</p>
       {/* 2nd time: With his friends on a ship, except his friends are reduced because of the cost to 1. */}
       <p>8: Having changed</p>
-      <p>Upset and angry at the loss</p>.
-      {/* 2nd time: No longer vengeful */}
+      <p>Upset and angry at the loss</p>.{/* 2nd time: No longer vengeful */}
     </div>
-  )
+  );
 }
-export function Kaja () {
+export function Kaja() {
   return (
     <div>
       <p>1: They are in a zone of comfort</p>
@@ -228,11 +229,10 @@ export function Kaja () {
 
       <p>8: Having changed</p>
       <p>Is not the happy girl she once was, cynical and icy</p>
-
     </div>
-  )
+  );
 }
-export function Linhart () {
+export function Linhart() {
   return (
     <div>
       <p>1: They are in a zone of comfort</p>
@@ -252,9 +252,9 @@ export function Linhart () {
       <p>8: Having changed</p>
       <p></p>
     </div>
-  )
+  );
 }
-export function Beke () {
+export function Beke() {
   return (
     <div>
       <p>1: They are in a zone of comfort</p>
@@ -266,9 +266,9 @@ export function Beke () {
       <p>7: Then return to the familia situation</p>
       <p>8: Having changed</p>
     </div>
-  )
+  );
 }
-export function Effi () {
+export function Effi() {
   return (
     <div>
       <p>1: They are in a zone of comfort</p>
@@ -292,11 +292,10 @@ export function Effi () {
 
       <p>8: Having changed</p>
       <p>Vengeful and lost at her families death</p>
-
     </div>
-  )
+  );
 }
-export function Nils () {
+export function Nils() {
   return (
     <div>
       <p>1: They are in a zone of comfort</p>
@@ -308,10 +307,8 @@ export function Nils () {
       <p>7: Then return to the familia situation</p>
       <p>8: Having changed</p>
     </div>
-  )
+  );
 }
-
-
 
 // Academy, border guard, monster hunters, fugitive, leikan prince, farmer, war lord? Flees the sea people invasion turns south, find the bird people, fight eleven pirates, sail to the old world. Or use the under ground road...
 
