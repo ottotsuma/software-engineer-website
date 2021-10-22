@@ -218,6 +218,7 @@ function perc2color(perc) {
 }
 
 function Stats({ stats, type }) {
+  // take the stats key and match it to a player attribute and add a spells list? Then take the player attributes from those spells?
   const array = [];
   const keys = Object.keys(stats);
   for (let index = 0; index < keys.length; index++) {
