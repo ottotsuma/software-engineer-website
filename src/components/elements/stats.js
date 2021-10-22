@@ -4,6 +4,7 @@ import {spellList} from './spells'
 import {racesList} from './races'
 import Spells from './spells'
 import {titlesList} from './titles'
+import Equipment from './equipment'
 
 // Kʼawiil - Lightning, seeds, abundance, powerful one, fertility, serpent
 
@@ -230,7 +231,7 @@ function _try(func, fallbackValue) {
   }
 }
 
-function Stats({ stats, type, skills, showSkills, titles, showTitles }) {
+function Stats({ stats, type, skills, showSkills, titles, showTitles, items, showItems }) {
   const array = [];
   if(stats.race) {
     const raceStats = Object.keys(racesList[stats.race]);
@@ -239,6 +240,18 @@ function Stats({ stats, type, skills, showSkills, titles, showTitles }) {
         stats[raceStat] = stats[raceStat] + racesList[stats.race][raceStat]
       })
     }
+  }
+  const itemsArray = []
+  if(items) {
+    itemsArray.push ( <Equipment items={items} key={'Items'} />)
+    Object.keys(items).map((itemArea) => {
+      const itemStats = _try( () => items[itemArea].stats)
+      if(itemStats) {
+        Object.keys(itemStats).map((titleStat) => {
+          stats[titleStat] = stats[titleStat] + itemStats[Object.keys(itemStats)]
+        })
+      }
+    })
   }
   if(titles) {
     if(titles.length > 0) {
@@ -288,6 +301,7 @@ function Stats({ stats, type, skills, showSkills, titles, showTitles }) {
       <Title>Stats:</Title>
       <StatsStyle>{array}</StatsStyle>
       {showSkills && spellsArray}
+      {showItems && itemsArray}
     </>
   );
 }

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Item from "./../elements/item";
-import Equipment from "./../elements/equipment";
 import Stats from "./../elements/stats";
 import SpellCards from "./SpellCards";
 
@@ -23,14 +22,15 @@ export default function Otto() {
           vitality: 0,
           strength: 0,
           endurance: 0,
-          magic: 12, // 10 from leveling, 2 from robe, unlikely to be wearing the mask
-          willpower: 2, // there is a missing title with 2 willpower (somewhere)
+          magic: 10, // 10 from leveling
+          willpower: 0,
           dexterity: 2, // 2 from the level 1 & 10
           sense: 0,
           charisma: 10, // 10 from leveling
         }}
         // Makes skills an object of skill types 'human' 'mage' and they be the arrays.
         // Do the same thing for equipment and titles?
+        showTitles={false} // currently does nothing
         titles={['Back to School', 'Apprentice', 'Found a unique item', 'Found a unique class']}
         showSkills={true}
         skills={{
@@ -67,12 +67,7 @@ export default function Otto() {
           { name: "Youth", level: 1 },
           ],
         }}
-        notes={
-          "4 spell per level, 2 stats per level, Human +1 stat every 10 levels."
-        }
-      />
-      {/* This equipment is level 5? So maybe needs stat changes */}
-      <Equipment
+        showItems={true}
         items={{
           Head: {
             name: "Heavenly White Stag Mask",
@@ -80,14 +75,20 @@ export default function Otto() {
               "Magic: +2, Disease resistance + 20%, Mana regeneration + 20%, blessing of 建御雷 [Takemikazuchi].",
             rating: "unique",
             long: "Blessing of 建御雷 [Takemikazuchi]: Resist lightning +20%, Lightning cost - 15%, Lightning power +20%. ",
+            stats: {magic: 2}
           },
           Body: {
             name: "Academy Robe (Black/Yellow).",
             effect: "Magic: +2, Lightning +2%, Health +10.",
             rating: "junk",
+            stats: {magic: 2}
           },
         }}
+        notes={
+          "4 spell per level, 2 stats per level, Human +1 stat every 10 levels."
+        }
       />
+      {/* This equipment is level 5? So maybe needs stat changes */}
       <h1>Other Items</h1>
       <li>
         Body:<font color="blue"> Hui Lu's Battle Armor</font> ???
