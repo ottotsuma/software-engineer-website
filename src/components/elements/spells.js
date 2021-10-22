@@ -34,6 +34,11 @@ export const spellList = {
     negative: false,
     passive: true,
     1: "Vitality, Magic, Charisma: +1.",
+    stats: [{
+      vitality: 1,
+      magic: 1,
+      charisma: 1,
+    }]
   },
   Adult: {
     note: "Adult = 20-39 yrs.",
@@ -581,6 +586,27 @@ export const spellList = {
     8: "Vitality +5, chance to resist poisons & diseases, increase to HP regeneration.",
     9: "Vitality +5, chance to resist poisons & diseases, greater HP regeneration.",
     10: "Vitality +5, greater chance to resist poisons & diseases, greater HP regeneration.",
+    stats: [{
+      vitality: 1,
+    },{
+      vitality: 1,
+    },{
+      vitality: 2,
+    },{
+      vitality: 3,
+    },{
+      vitality: 3,
+    },{
+      vitality: 4,
+    },{
+      vitality: 4,
+    },{
+      vitality: 5,
+    },{
+      vitality: 5,
+    },{
+      vitality: 5,
+    },]
   },
   Athletic: {
     name: "Athletic",
@@ -609,12 +635,39 @@ export const spellList = {
     8: "Sense +8",
     9: "Sense +9",
     10: "Sense +10, basic traps will cause 0 damage.",
+    stats: [{
+      sense: 1,
+    },{
+      sense: 2,
+    },{
+      sense: 3,
+    },{
+      sense: 4,
+    },{
+      sense: 5,
+    },{
+      sense: 6,
+    },{
+      sense: 7,
+    },{
+      sense: 8,
+    },{
+      sense: 9,
+    },{
+      sense: 10,
+    },]
   },
   Quick: {
     name: "Quick",
     passive: true,
     1: "Dexterity +1",
     2: "Dexterity +2",
+    stats: [{
+      dexterity: 1,
+    },
+    {
+      dexterity: 2,
+    },]
   },
   "Pure of mind": {
     name: "Pure of mind",

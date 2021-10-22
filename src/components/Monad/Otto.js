@@ -26,12 +26,12 @@ export default function Otto() {
           titles: 5,
           "spell points": 0, // from class
           "stat points": 0, // from race
-          vitality: 2, // 1 from Healthy, 1 from Youth
+          vitality: 0, 
           strength: 1, // 1 from title
           endurance: 0,
-          magic: 14, // 1 from title, 10 from leveling, 2 from robe, unlikely to be wearing the mask, 1 from Youth
+          magic: 13, // 1 from title, 10 from leveling, 2 from robe, unlikely to be wearing the mask
           willpower: 3, // 1 from title
-          dexterity: 4, // 2 from the level 1 & 10, 2 from Quick
+          dexterity: 2, // 2 from the level 1 & 10
           sense: 2, // 1 from human, 2 from Perception
           charisma: 16, // 2 from human, 1 from title, 10 from leveling, 2 from Persuasive, , 1 from Youth
           // Titles
@@ -40,6 +40,31 @@ export default function Otto() {
           // Found a unique item - +1 str
           // Found a unique class - +1 mdef
         }}
+        skills={[
+            { name: "Otitis Externa", level: 1 },
+            { name: "Youth", level: 1 },
+            { name: "Human Ingenuity", level: 2 },
+            { name: "Persuasive", level: 2 },
+            { name: "Quick", level: 2 },
+            { name: "Perception", level: 2 },
+            { name: "Athletic", level: 2 },
+            { name: "Healthy", level: 2 },
+            { name: "Adaptable", level: 2 },
+            { name: "Brave", level: 2 },
+            { name: "Lightning germination", level: 2 },
+            { name: "Lightning growth", level: 2 },
+            { name: "Lightning harvest", level: 2 },
+            { name: "Seeds to Soldiers", level: 2 },
+            { name: "Lightning seeds", level: 2 }, // 5 points spent on old spells
+            // New Spells Below
+            { name: "Scarecrow", level: 2 },
+            { name: "Kʼawiil Burst", level: 2 },
+            { name: "Kʼawiil Bolt", level: 2 },
+            { name: "Serpent Skin", level: 2 },
+            { name: "Serpent Pattern", level: 2 }, // 10 points spent on new spells
+            { name: "Reap What You Sow", level: 2 },
+            { name: "Bountiful Harvest", level: 2 },
+          ]}
         notes={"4 spell per level, 1 stats per level, Human +1 stat every 10 levels."}
       />
       {/* This equipment is level 5? So maybe needs stat changes */}

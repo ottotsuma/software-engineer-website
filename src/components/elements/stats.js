@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import React from "react";
-
+import {spellList} from './spells'
 // Kʼawiil - Lightning, seeds, abundance, powerful one, fertility, serpent
 
 const statList = {
@@ -217,15 +217,32 @@ function perc2color(perc) {
   return '#' + ('000000' + h.toString(16)).slice(-6);
 }
 
-function Stats({ stats, type }) {
-  // take the stats key and match it to a player attribute (statList) and add a spells list? Then take the player attributes from those spells?
-  // import spells and a show toggle in here?
-  // {
-  //   human: [],
-  //   mage: [],
-  // }
+function _try(func, fallbackValue) {
+  try {
+      var value = func();
+      return (value === null || value === undefined) ? fallbackValue : value;
+  } catch (e) {
+      return fallbackValue;
+  }
+}
+
+function Stats({ stats, type, skills }) {
   const array = [];
   const keys = Object.keys(stats);
+
+  if(skills) {
+    skills.map((skill) => {
+      const spellStats = _try(() => spellList[skill.name].stats[skill.level-1])
+      if(spellStats) {
+        for (let index = 0; index < Object.keys(spellStats).length; index++) {
+          if(keys.includes(Object.keys(spellStats)[index])) {
+            stats[Object.keys(spellStats)[index]] = stats[Object.keys(spellStats)[index]] + spellStats[Object.keys(spellStats)[index]]
+          }
+        }
+      }
+    })
+  }
+
   for (let index = 0; index < keys.length; index++) {
     const element = <Wrap><Inline>{keys[index]}: </Inline><Inline style={{color: perc2color(stats[keys[index]])}}>{stats[keys[index]]}</Inline></Wrap>;
     const spam = statList[keys[index]];
