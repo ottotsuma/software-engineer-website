@@ -208,6 +208,7 @@ const statList = {
 };
 
 function perc2color(perc) {
+  if(perc < 0) perc = 0
   if (perc > 100) return "rgb(36, 255, 0)"
   var r, g, b = 0;
   if (perc < 50) {
@@ -248,7 +249,7 @@ function Stats({ stats, type, skills, showSkills, titles, showTitles, items, sho
       const itemStats = _try( () => items[itemArea].stats)
       if(itemStats) {
         Object.keys(itemStats).map((titleStat) => {
-          stats[titleStat] = stats[titleStat] + itemStats[Object.keys(itemStats)]
+          stats[titleStat] = stats[titleStat] + itemStats[titleStat]
         })
       }
     })

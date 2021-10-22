@@ -23,4 +23,8 @@ export const titlesList = {
             willpower: 1
         }
     },
+    'Novice Harvester' : {
+        condition: '',
+        description: 'increases harvesting skills by 10%'
+    }
 }

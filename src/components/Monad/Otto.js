@@ -31,7 +31,7 @@ export default function Otto() {
         // Makes skills an object of skill types 'human' 'mage' and they be the arrays.
         // Do the same thing for equipment and titles?
         showTitles={false} // currently does nothing
-        titles={['Back to School', 'Apprentice', 'Found a unique item', 'Found a unique class']}
+        titles={['Back to School', 'Apprentice', 'Found a unique item', 'Found a unique class', 'Novice Harvester']}
         showSkills={true}
         skills={{
           human: [
@@ -123,6 +123,77 @@ export default function Otto() {
           dexterity: 25,
           sense: 25,
           charisma: 100,
+        }}
+        showItems={true}
+        items={{
+          Head: {
+            name: "Nahkriin (Mask)",
+            effect:
+              "Magic +30, -20% Restoration and Destruction mana cost.",
+            rating: "unique",
+            long: "",
+            stats: {magic: 30}
+          },
+          Body: {
+            name: "Ziedrich",
+            effect: "Halves damage from all elements. Strength, endurance, magic, willpower + 20.",
+            rating: "legendary",
+            stats: {strength: 20, endurance: 20, magic: 20, willpower: 20}
+          },
+          Hands: {
+            name: "Linwe's Gloves",
+            effect: "one-handed attacks do 15% more damage.",
+            rating: "unique",
+            stats: {}
+          },
+          Feet: {
+            name: "Bubonic Trail",
+            effect: "Skill: Death Walk, 30% increased Movement Speed, 4% increased maximum Hp.",
+            rating: "unique",
+            long: 'Death Walk: While you walk, this skill causes corpses near your steps to explode, dealing fire damage in an area. The explosions of the corpses are not affected by modifiers to spell damage, and cannot be reflected.',
+            stats: {}
+          },
+          Acc1: {
+            name: "Protect Ring",
+            effect: "Keeps Barrier & Magic-Barrier active.",
+            rating: "epic",
+            stats: {}
+          },
+          Acc2: {
+            name: "Force of Nature",
+            effect: "Adds random nature elements to attack. Absorbs some MP from nature element-based attacks.",
+            rating: "legendary",
+            stats: {}
+          },
+          Acc3: {
+            name: "Dark Cloak",
+            effect: "Willpower +5, MP regen + 10%, magic resistance +5%, normal weapon resistance +3% and stealth bonus. It also increases encounter chance, hostility, and suspicion.",
+            rating: "epic",
+            stats: {willpower: 5}
+          },
+          Acc4: {
+            name: "Magic Master",
+            effect: "Max hp - 50%. Max mp + 50%. Strength & Endurance - 20. Magic & Willpower + 20. Stores one magic spell for free use.",
+            rating: "legendary",
+            stats: {
+              strength: -20,
+              endurance: -20,
+              magic: 20,
+              willpower: 20
+            }
+          },
+          Weapon: {
+            name: "Otto`s Umbrella",
+            effect: "Resist Water, Resist Light, Magic +70.",
+            rating: "epic",
+            stats: {magic: 70}
+          },
+          "Off-hand" : {
+            name: `Silver Horn Custom "Trident"`,
+            effect: "(+15 magic when used in offhand). Damage + 1.25x Magic",
+            rating: "unique",
+            stats: {magic: 15}
+          }
         }}
         // Magic +5 Immune: Poison, Disease
         // https://www.dandwiki.com/wiki/Mana_Creature_(5e_Race)
