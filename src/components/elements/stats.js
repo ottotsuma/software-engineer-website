@@ -2,6 +2,8 @@ import styled from "styled-components";
 import React from "react";
 import {spellList} from './spells'
 import {racesList} from './races'
+import Spells from './spells'
+import {titlesList} from './titles'
 
 // Kʼawiil - Lightning, seeds, abundance, powerful one, fertility, serpent
 
@@ -228,9 +230,8 @@ function _try(func, fallbackValue) {
   }
 }
 
-function Stats({ stats, type, skills }) {
+function Stats({ stats, type, skills, showSkills, titles, showTitles }) {
   const array = [];
-  const keys = Object.keys(stats);
   if(stats.race) {
     const raceStats = Object.keys(racesList[stats.race]);
     if(raceStats) {
@@ -239,17 +240,37 @@ function Stats({ stats, type, skills }) {
       })
     }
   }
-  if(skills) {
-    skills.map((skill) => {
-      const spellStats = _try(() => spellList[skill.name].stats[skill.level-1])
-      if(spellStats) {
-        for (let index = 0; index < Object.keys(spellStats).length; index++) {
-          if(keys.includes(Object.keys(spellStats)[index])) {
-            stats[Object.keys(spellStats)[index]] = stats[Object.keys(spellStats)[index]] + spellStats[Object.keys(spellStats)[index]]
-          }
-        }
+  if(titles) {
+    if(titles.length > 0) {
+      stats.titles = titles.length
+    }
+    titles.map((title) => {
+      const titleStats = _try(() => titlesList[title].stats)
+      if(titleStats) {
+        Object.keys(titleStats).map((titleStat) => {
+          stats[titleStat] = stats[titleStat] + titleStats[Object.keys(titleStats)]
+        })
       }
     })
+  }
+  const keys = Object.keys(stats);
+  const spellsArray = []
+  if(skills) {
+    const skillsByTypes = Object.keys(skills)
+    for (let j = 0; j < skillsByTypes.length; j++) {
+      const skillListByType = skills[skillsByTypes[j]];
+      skillListByType.map((skill) => {
+        const spellStats = _try(() => spellList[skill.name].stats[skill.level-1])
+        if(spellStats) {
+          for (let index = 0; index < Object.keys(spellStats).length; index++) {
+            if(keys.includes(Object.keys(spellStats)[index])) {
+              stats[Object.keys(spellStats)[index]] = stats[Object.keys(spellStats)[index]] + spellStats[Object.keys(spellStats)[index]]
+            }
+          }
+        }
+      })
+      spellsArray.push(<Spells key={j + 'Spells'} spells={skillListByType} type={skillsByTypes[j]} />)
+    }
   }
 
   for (let index = 0; index < keys.length; index++) {
@@ -266,6 +287,7 @@ function Stats({ stats, type, skills }) {
     <>
       <Title>Stats:</Title>
       <StatsStyle>{array}</StatsStyle>
+      {showSkills && spellsArray}
     </>
   );
 }

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Item from "./../elements/item";
 import Equipment from "./../elements/equipment";
 import Stats from "./../elements/stats";
-import Spells from "./../elements/spells";
 import SpellCards from "./SpellCards";
 
 export default function Otto() {
@@ -19,52 +18,57 @@ export default function Otto() {
           race: "human",
           spells: 8,
           passives: 32,
-          titles: 5,
-          "spell points": 0, // from class
-          "stat points": 0, // from race
+          "spell points": 0, // from class 4 per level (normal/rare/epic/legendary)
+          "stat points": 0, // from race 2 per level
           vitality: 0,
-          strength: 1, // 1 from title
+          strength: 0,
           endurance: 0,
-          magic: 13, // 1 from title, 10 from leveling, 2 from robe, unlikely to be wearing the mask
-          willpower: 3, // 1 from title
+          magic: 12, // 10 from leveling, 2 from robe, unlikely to be wearing the mask
+          willpower: 2, // there is a missing title with 2 willpower (somewhere)
           dexterity: 2, // 2 from the level 1 & 10
           sense: 0,
-          charisma: 11, // 1 from title, 10 from leveling
-          // Titles
-          // Back to School - Enter the academy, +1 mag
-          // Apprentice - Reach level 10, +1 charm
-          // Found a unique item - +1 str
-          // Found a unique class - +1 mdef
+          charisma: 10, // 10 from leveling
         }}
         // Makes skills an object of skill types 'human' 'mage' and they be the arrays.
         // Do the same thing for equipment and titles?
-        skills={[
+        titles={['Back to School', 'Apprentice', 'Found a unique item', 'Found a unique class']}
+        showSkills={true}
+        skills={{
+          human: [
+            { name: "Human Ingenuity", level: 2 },
+            { name: "Persuasive", level: 2 },
+            { name: "Quick", level: 2 },
+            { name: "Perception", level: 2 },
+            { name: "Athletic", level: 2 },
+            { name: "Healthy", level: 2 },
+            { name: "Adaptable", level: 2 },
+            { name: "Brave", level: 2 },
+            // { name: "Pure of mind", level: 2 },
+            // { name: "Magic Enthusiast", level: 2 }, // 20
+          ],
+          mage: [
+            { name: "Lightning germination", level: 2 },
+            { name: "Lightning growth", level: 2 },
+            { name: "Lightning harvest", level: 2 },
+            { name: "Seeds to Soldiers", level: 2 },
+            { name: "Lightning seeds", level: 2 }, // 5 points spent on old spells
+            // New Spells Below
+            { name: "Scarecrow", level: 2 },
+            { name: "Kʼawiil Burst", level: 2 },
+            { name: "Kʼawiil Bolt", level: 2 },
+            { name: "Serpent Skin", level: 2 },
+            { name: "Serpent Pattern", level: 2 }, // 10 points spent on new spells
+            { name: "Reap What You Sow", level: 2 },
+            { name: "Bountiful Harvest", level: 2 },
+          ],
+          conditions: [
+          // Negatives
           { name: "Otitis Externa", level: 1 },
           { name: "Youth", level: 1 },
-          { name: "Human Ingenuity", level: 2 },
-          { name: "Persuasive", level: 2 },
-          { name: "Quick", level: 2 },
-          { name: "Perception", level: 2 },
-          { name: "Athletic", level: 2 },
-          { name: "Healthy", level: 2 },
-          { name: "Adaptable", level: 2 },
-          { name: "Brave", level: 2 },
-          { name: "Lightning germination", level: 2 },
-          { name: "Lightning growth", level: 2 },
-          { name: "Lightning harvest", level: 2 },
-          { name: "Seeds to Soldiers", level: 2 },
-          { name: "Lightning seeds", level: 2 }, // 5 points spent on old spells
-          // New Spells Below
-          { name: "Scarecrow", level: 2 },
-          { name: "Kʼawiil Burst", level: 2 },
-          { name: "Kʼawiil Bolt", level: 2 },
-          { name: "Serpent Skin", level: 2 },
-          { name: "Serpent Pattern", level: 2 }, // 10 points spent on new spells
-          { name: "Reap What You Sow", level: 2 },
-          { name: "Bountiful Harvest", level: 2 },
-        ]}
+          ],
+        }}
         notes={
-          "4 spell per level, 1 stats per level, Human +1 stat every 10 levels."
+          "4 spell per level, 2 stats per level, Human +1 stat every 10 levels."
         }
       />
       {/* This equipment is level 5? So maybe needs stat changes */}
@@ -84,6 +88,7 @@ export default function Otto() {
           },
         }}
       />
+      <h1>Other Items</h1>
       <li>
         Body:<font color="blue"> Hui Lu's Battle Armor</font> ???
       </li>
@@ -97,50 +102,7 @@ export default function Otto() {
         Weapon:<font color="blue"> </font>
       </li>
       {/* gloves, adds fire to a weapon. boots, change the surface to fire. chest, reflect damage as fire when hit in melee*/}
-      <h1>Other Items</h1>
-      <Spells
-        spells={[
-          { name: "Lightning germination", level: 2 },
-          { name: "Lightning growth", level: 2 },
-          { name: "Lightning harvest", level: 2 },
-          { name: "Seeds to Soldiers", level: 2 },
-          { name: "Lightning seeds", level: 2 }, // 5 points spent on old spells
-          // New Spells Below
-          { name: "Scarecrow", level: 2 },
-          { name: "Kʼawiil Burst", level: 2 },
-          { name: "Kʼawiil Bolt", level: 2 },
-          { name: "Serpent Skin", level: 2 },
-          { name: "Serpent Pattern", level: 2 }, // 10 points spent on new spells
-          { name: "Reap What You Sow", level: 2 },
-          { name: "Bountiful Harvest", level: 2 },
-        ]}
-        type={"mage"}
-      />
-      <div className="BreakPoint"></div>
-      {/* Human skills, but also could have God based skills and passives. The snake ones looked good. */}
-      <Spells
-        spells={[
-          { name: "Human Ingenuity", level: 2 },
-          { name: "Persuasive", level: 2 },
-          { name: "Quick", level: 2 },
-          { name: "Perception", level: 2 },
-          { name: "Athletic", level: 2 },
-          { name: "Healthy", level: 2 },
-          { name: "Adaptable", level: 2 },
-          { name: "Brave", level: 2 },
-          // { name: "Pure of mind", level: 2 },
-          // { name: "Magic Enthusiast", level: 2 }, // 20
-        ]}
-        type={"human"}
-      />
-      <Spells
-        spells={[
-          // Negatives
-          { name: "Otitis Externa", level: 1 },
-          { name: "Youth", level: 1 },
-        ]}
-        type={"conditions"}
-      />
+
       <Stats
         type={"description"}
         stats={{
@@ -150,7 +112,6 @@ export default function Otto() {
           race: "mana creature",
           spells: 0,
           passives: 0,
-          titles: 0,
           "spell points": 0, // from class
           "stat points": 0, // from race
           vitality: 100,
