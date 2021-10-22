@@ -218,7 +218,7 @@ function perc2color(perc) {
 }
 
 function Stats({ stats, type }) {
-  // take the stats key and match it to a player attribute and add a spells list? Then take the player attributes from those spells?
+  // take the stats key and match it to a player attribute (statList) and add a spells list? Then take the player attributes from those spells?
   // import spells and a show toggle in here?
   // {
   //   human: [],
