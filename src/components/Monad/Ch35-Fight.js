@@ -133,7 +133,7 @@ function Intro(props) {
         "I don't think they are knocked out. Look that body just got set on fire
         and didn't twitch at all. They're dead." - Student B
       </p>
-      <p>"Feels kind weird. It was so fast it doesn’t feel real you know?"</p>
+      <p>"Feels kind weird. It was so fast it doesn't feel real you know?"</p>
       {/* Some retard teacher explaining retarded rules */}
       <p>
         "It's like the teacher said though, it's just the class rejects they
@@ -188,9 +188,9 @@ function Intro(props) {
       </p>
       <p>
         While Garin was considered the strongest mage in the group,the other
-        members were no burdens. Once the list of odd’s was posted and bets
+        members were no burdens. Once the list of odd's was posted and bets
         started to be made,this group started to form of students likely to win.
-        Their goal was simple,eliminate those with lower odd’s,there by
+        Their goal was simple,eliminate those with lower odd's,there by
         increasing their own.
       </p>
       <p>
@@ -211,7 +211,7 @@ function Intro(props) {
       <p>
         What had started as a small group of nine in a sea of students and
         spells,was now whittled down to four. It was hard to say how many had
-        been saved and removed from the arena by professor Farald’s creation.
+        been saved and removed from the arena by professor Farald's creation.
         The four of their like laying at their feet could tempt them to say it
         was one-in-five. The litany of corpses decorating the field like a
         morbid pumpkin patch seemed to scream in disagreement.
@@ -226,7 +226,7 @@ function Intro(props) {
         hunt down as many as we can before they form groups."
       </p>
       <p>
-        "Shouldn’t we rest? I mean look..." Milo replied trailing off into a
+        "Shouldn't we rest? I mean look..." Milo replied trailing off into a
         blank stare across the field.
       </p>
       <p>
@@ -235,8 +235,8 @@ function Intro(props) {
       </p>
       <p>"It was just a suggestion." Milo replied.</p>
       <p>
-        "Don’t worry so much. Although that fight was hard,now they are alone.
-        The one’s who ran at the start were cowards. Now we can hunt them down
+        "Don't worry so much. Although that fight was hard,now they are alone.
+        The one's who ran at the start were cowards. Now we can hunt them down
         leisurely and have some fun." Garin laughed.
       </p>
       <p>
@@ -245,15 +245,15 @@ function Intro(props) {
         Jarvia smirked.
       </p>
       <p>
-        Garin checked his status. 30% HP and almost depleted all my mana. I’ll
-        make Milo take care of the weak ones while I recover. I can’t let Jarvia
-        know I’m weak right now.
+        Garin checked his status. 30% HP and almost depleted all my mana. I'll
+        make Milo take care of the weak ones while I recover. I can't let Jarvia
+        know I'm weak right now.
       </p>
       <p>
         The moment we left the center the air air felt fresher,less humid. I
         felt dizzy suddenly. Hot bile bubbled up from my core,coating my tongue.
-        I couldn’t hold it in and vomited onto the floor. Jarvia stared at me,so
-        I spoke between breaths. "The jungle really smells." She didn’t reply
+        I couldn't hold it in and vomited onto the floor. Jarvia stared at me,so
+        I spoke between breaths. "The jungle really smells." She didn't reply
         first, Bruna did who had been quiet up until now. She also spewed hot
         sick onto a fern.
       </p>
@@ -268,7 +268,7 @@ function Intro(props) {
         The small flying bugs would find their way to biting and stinging us no
         matter the location. Bruna wasted mana batting them away from her until
         she was reprimanded by Jarvia. I could see how it was,the girls were
-        going to stick together in the end. Maybe I shouldn’t tire Milo out too
+        going to stick together in the end. Maybe I shouldn't tire Milo out too
         much.
       </p>
       <p>
@@ -290,7 +290,7 @@ function Intro(props) {
       </p>
       <p>
         "Well, I guess she was one of the unlucky ones." I said, not really sure
-        what to say, and immediately realised I should of said nothing when
+        what to say, and immediately realized I should of said nothing when
         Bruna burst into tears. It was the kind of sobbing that wrenched at your
         heart strings. "Come on Bruna, you knew how this would end of most of
         the people in this." I said to try and shake her into reality.
@@ -303,7 +303,7 @@ function Intro(props) {
         The swam, aggrieved with Bruna, started a buzz of screaking and clattering. Do I help her or abandon her here? That was really dumb. Without the group  I can't be sure to win alone. I was not the only one hesitating because the bugs had already made it to Bruna and she was in the middle of raising a wall of dirt when we all finally moved.
       </p>
 
-      <p>The first to jump into action after Bruna was Jarvia,she brought up a tree root from the moved earth and crudely transformed it into a wood spear. Grabbing it in both of her hands,she trust it into the air,though the body of a beetle trying to fly around the wall of dirt. I conjured and morphed a metal sheet pushing back several beetles trying to move around the other side. “Milo!”I shouted as he moved in and unloaded a wave of flames across the beetles.</p>
+      <p>The first to jump into action after Bruna was Jarvia,she brought up a tree root from the moved earth and crudely transformed it into a wood spear. Grabbing it in both of her hands,she trust it into the air,though the body of a beetle trying to fly around the wall of dirt. I conjured and morphed a metal sheet pushing back several beetles trying to move around the other side. "Milo!"I shouted as he moved in and unloaded a wave of flames across the beetles.</p>
       
       <p>They screeched and screamed,flailing their many limbs into each other and thin metal sheet I bore down on them. When Milo had let up he looked haggard,now was not the time to take advantage of him but the beetles. They had fled in all directions unable to pass though my barrier. Jarvia had moved a few paces back,the manic beetles too overwhelming,caused her to fall back and bring up more tree roots from the ground to guard her sides. There was a handful of burning remains in front of her defiant stance.</p>
 
@@ -313,23 +313,23 @@ function Intro(props) {
 
 
 
-      <p>“How long do you need?”I asked to Milo behind me. I formed the metal sheet into a pole,it was a little deformed but that just added to it’s charter. When a beetle came close,I would break it.</p>
+      <p>"How long do you need?"I asked to Milo behind me. I formed the metal sheet into a pole,it was a little deformed but that just added to it's charter. When a beetle came close,I would break it.</p>
 
 
 
-      <p>“We should save Bruna.”Milo replied. He ran forward and then darted behind me again when a burnt beetle had come to take it’s revenge.</p>
+      <p>"We should save Bruna."Milo replied. He ran forward and then darted behind me again when a burnt beetle had come to take it's revenge.</p>
 
 
 
-      <p>“She brought this on herself,how long do you need before you can do that again?”I demanded to know. I smashed one of the beetles wings with my pole making it hobble and fall from the sky.</p>
+      <p>"She brought this on herself,how long do you need before you can do that again?"I demanded to know. I smashed one of the beetles wings with my pole making it hobble and fall from the sky.</p>
 
 
 
-      <p>“They won’t form up again like that twice,I’ll just use fireballs to take them out individually.”Milo replied back,getting back into action shooting a fireball at the downed beetle. There was a screeching until it turned on it’s back,wriggled and went silent,the sound of cackling fire consuming it’s body.</p>
+      <p>"They won't form up again like that twice,I'll just use fireballs to take them out individually."Milo replied back,getting back into action shooting a fireball at the downed beetle. There was a screeching until it turned on it's back,wriggled and went silent,the sound of cackling fire consuming it's body.</p>
 
 
 
-      <p>“Jarvia! Milo cannot do that again,let’s grab Bruna together. ”I shouted across to her. She hesitated for a moment before nodding. She sprinted a moment after I did,I formed the metal back into a sheet and pushed at the beetles around Bruna,leaving the two onto of her to Jarvia. I grabbed the back of her collar and pulled her along the ground keeping the metal sheet across my left and half of her front. Jarvia keep the right side with her spear while we retreated back to the small nest of roots Jarvia had made.</p>
+      <p>"Jarvia! Milo cannot do that again,let's grab Bruna together. "I shouted across to her. She hesitated for a moment before nodding. She sprinted a moment after I did,I formed the metal back into a sheet and pushed at the beetles around Bruna,leaving the two onto of her to Jarvia. I grabbed the back of her collar and pulled her along the ground keeping the metal sheet across my left and half of her front. Jarvia keep the right side with her spear while we retreated back to the small nest of roots Jarvia had made.</p>
 
 
 
@@ -337,7 +337,7 @@ function Intro(props) {
 
 
 
-      <p>We had killed around half when they stopped coming at us. Most had gone back to their meal having lost interest in fighting for a new one. I grabbed the back of Bruna’s collar in that opening and we all retreated.</p>
+      <p>We had killed around half when they stopped coming at us. Most had gone back to their meal having lost interest in fighting for a new one. I grabbed the back of Bruna's collar in that opening and we all retreated.</p>
 
 
 
@@ -345,43 +345,43 @@ function Intro(props) {
 
 
 
-      <p>“It really hurts.”Bruna kept repeating. </p>
+      <p>"It really hurts."Bruna kept repeating. </p>
 
 
 
-      <p>“I should of left you to die. What a waste of mana,time,everything!”I shouted at her crying on the floor. She just sobbed. Her legs had not stopped bleeding,the bites were too deep. She looked pale.</p>
+      <p>"I should of left you to die. What a waste of mana,time,everything!"I shouted at her crying on the floor. She just sobbed. Her legs had not stopped bleeding,the bites were too deep. She looked pale.</p>
 
 
 
-      <p>I wanted to stab her with a stick. I grabbed Milo and looked to make an exit. “She’s done for. She will just be a burden to us now.”I spat out. “I am not going to become and easy target because of her mistake.”I continued.</p>
+      <p>I wanted to stab her with a stick. I grabbed Milo and looked to make an exit. "She's done for. She will just be a burden to us now."I spat out. "I am not going to become and easy target because of her mistake."I continued.</p>
 
 
 
-      <p>Milo did not disagree,he just looked over at her then looked away. He knew it also. Jarvia was not a fool. Just because Bruna was a girl,did not mean she was going to risk her self for that moron. It’s not like Bruna was even her friend before this. Her real accomplice had become the jungles food back in the center.</p>
+      <p>Milo did not disagree,he just looked over at her then looked away. He knew it also. Jarvia was not a fool. Just because Bruna was a girl,did not mean she was going to risk her self for that moron. It's not like Bruna was even her friend before this. Her real accomplice had become the jungles food back in the center.</p>
 
 
 
-      <p>Just as our trio moved away from Bruna her whole being burst into balls of light. “That lucky...”I mouthed silently.</p>
+      <p>Just as our trio moved away from Bruna her whole being burst into balls of light. "That lucky..."I mouthed silently.</p>
 
 
 
-      <p>“Did you guys see? She was saved by professor “””creation.”Milo practically shouted in my ear.</p>
+      <p>"Did you guys see? She was saved by professor Farald's creation."Milo practically shouted in my ear.</p>
 
 
 
-      <p>“Yeah,we saw. Now just hope it’s not just morons that machine saves.”I partly threatened.</p>
+      <p>"Yeah,we saw. Now just hope it's not just morons that machine saves."I partly threatened.</p>
 
 
 
-      <p>Our journey away was less enthusiastic then our entrance. With a person less our group of three might be those with good odd’s when rated alone against the other participants but they could form larger groups then us. My internal thoughts were intrupted by Jarvia saying “Your metal element is far more versatile then you showed in practice. Where do you even hide it?”</p>
+      <p>Our journey away was less enthusiastic then our entrance. With a person less our group of three might be those with good odd's when rated alone against the other participants but they could form larger groups then us. My internal thoughts were interrupted by Jarvia saying "Your metal element is far more versatile then you showed in practice. Where do you even hide it?"</p>
 
 
 
-      <p>“I have practiced since we met up on the outside. As for were I keep my metal,that’s a trade secret.”I replied back with a small smile,I was glad she was worried.</p>
+      <p>"I have practiced since we met up on the outside. As for were I keep my metal,that's a trade secret."I replied back with a small smile,I was glad she was worried.</p>
 
 
 
-      <p>After losing Bruna we just wondered the jungle for awhile,there was not as many traces of the other students as I had originally hoped. The first person we came across was a water mage. A girl. Non of us knew her name,maybe I was feeling a bit angry about Burna’s actions cost me,but I did not let her die fast. The rules said we had to defeat the other students,it didn’t really say what we could not do. It’s not like Jarvia or Milo could complain,who would they tell? When I win it’s not like they can do anything about it.</p>
+      <p>After losing Bruna we just wondered the jungle for awhile,there was not as many traces of the other students as I had originally hoped. The first person we came across was a water mage. A girl. Non of us knew her name,maybe I was feeling a bit angry about Bruna's actions cost me,but I did not let her die fast. The rules said we had to defeat the other students,it didn't really say what we could not do. It's not like Jarvia or Milo could complain,who would they tell? When I win it's not like they can do anything about it.</p>
 
 
 
@@ -389,7 +389,7 @@ function Intro(props) {
 
 
 
-      <p>As the day went on,I was getting a little hungry. Not hungry enough to try eating anything in the jungle. They said the event’s area would slowly close in so we would not be in here more then a week,</p>
+      <p>As the day went on,I was getting a little hungry. Not hungry enough to try eating anything in the jungle. They said the event's area would slowly close in so we would not be in here more then a week,</p>
 
 
 
