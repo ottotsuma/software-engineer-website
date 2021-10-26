@@ -456,19 +456,15 @@ function Intro(props) {
         other groups, just single people fighting each other. Everyone was
         either tired or panicked when they saw us, it was really easy.
       </p>
-      {/* Garin - guard/metal
-
-Milo - fire
-
-Jarvia - wood/spear */}
+      <p>
+         
+      </p>
+      {/* Garin - guard/metal / Milo - fire / Jarvia - wood/spear */}
       {/* Bruna - Earth */}
       {/* Garin - Guard */}
       {/* Milo */}
       {/* Jarvia - Spear */}
       {/* tracking of students through the jungles */}
-      <p>
-        Take Garin from the line above and follow him though his 'fun' time.
-      </p>
       {/* Dumb 'events' */}
       {/* Jarvia - spear */}
       <p>Sandstorms, mutant beasts, floods, care packages.</p>
