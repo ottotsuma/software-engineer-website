@@ -454,7 +454,7 @@ function Intro(props) {
         The afternoon was more mellow. The hunger had passed and now we were
         just gently strolling around. No matter were we passed by there was no
         other groups, just single people fighting each other. Everyone was
-        either tired or panicked when they saw us,it was really easy.
+        either tired or panicked when they saw us, it was really easy.
       </p>
       {/* Garin - guard/metal
 
