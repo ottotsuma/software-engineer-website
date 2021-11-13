@@ -457,7 +457,18 @@ function Intro(props) {
         either tired or panicked when they saw us, it was really easy.
       </p>
       <p>
-         
+        I guess our overseers also thought it was a little to easy. The weather
+        was perfectly calm,the undisturbed ecosystem under the blanket cover of
+        tall trees. With no notice,a sandstorm,something
+        unnatural,magical,whipped though the jungle. The fallen pieces crept
+        along the ground like spilled water,as the fierce winds splattered our
+        faces with yellow specks causing us to go blind.
+      </p>
+      <p>
+        Covering our faces with our hands we ran though the jungle seeking
+        shelter. If there was to be any cliffs they would be on the edge of the
+        area we could go and likely this was a sign that area was getting
+        smaller.
       </p>
       {/* Garin - guard/metal / Milo - fire / Jarvia - wood/spear */}
       {/* Bruna - Earth */}
