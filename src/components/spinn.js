@@ -276,7 +276,7 @@ overflow: auto;
 `;
 
 const CardBackground = styled.div`
-height: 300px;
+// height: 300px;
 background: #602080;
 ${props => props.css || ''};
 `;
