@@ -470,6 +470,24 @@ function Intro(props) {
         area we could go and likely this was a sign that area was getting
         smaller.
       </p>
+
+      <p>That’s when we stumbled across a small cave entrance,tucked between some tree’s and covered by hanging moss. It was Jarvia who stumbled across it really. She tripped over and fell though the foliage which covered it,when she did not come back out right away Milo poked his head though and let me know it was a cave.</p>
+
+      <p>It was perfect to hide out this little sand storm. The sand warped and wrapped by the hanging foliage,piled up neatly on the floor,unable to whip around inside so freely as it had outside.</p>
+
+      <p>This cave was perfect. There was no creeping tree roots for Jarvia to fashion into her infamous spears. We each lit small mana balls in our hands to see. Red,Green or Silver light lighting our figures.</p>
+
+      <p>There was not much to see in the cave,it was just plain rocks. Maybe further down there could be metal deposits. Without an earth-mage between us it would be hard to shift though the rock and find anything useful,but any metal would help me. Sitting around waiting out the storm was not productive anyway,and as is known,those who don’t try can never win.</p>
+
+      <p>Milo & Jarvia tagged along as I explored deeper into the cave. Non of it interested me. Rocks,cracks,drips. I found a small alcove with nothing there. We had only walked for a minute or two before finding the end of the cave.</p>
+
+      <p>Right at the back of the cave was an impure manaball. It was blue with flecks of purple swimming around inside. It was the kink of purple mana we all started with as mages. I had never heard of mage who’s element did not combine fully with their mana,but I guess these kind of mages never do anything worth writing down.</p>
+
+      <p>The light showed not a single figure but two. Intertwined. People acted strange with their life on the line. They scrambled for their robes,wands or whatever else they had with them when I formed a shield from my mana. It looked and felt like real metal every time. It had cost me serval spell points to unlock but it was like my mother had shown me,only hers was bigger and more solid.</p>
+
+      <p>Guard yourself,so that you can enact revenge. Those were my mothers words. Gods only know what words the mother left these two,and the God’s would be the only one’s to know what their thoughts were as I ran and slammed it into them. I smashed the girls head against the rocks at the back of the cave. It cracked and squelched. The boy roared tears and held his hand over my face,pouring water into my eyes,nose and mouth. He held his hand firm clinging to me.</p>
+
+      <p>I could not hit him with my shield. I tried to drag him off me,pull his hand away but I couldn’t. He held tight.</p>
       {/* Garin - guard/metal / Milo - fire / Jarvia - wood/spear */}
       {/* Bruna - Earth */}
       {/* Garin - Guard */}
