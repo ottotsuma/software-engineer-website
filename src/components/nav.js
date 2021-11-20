@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import styled from 'styled-components'
 import {myFunction, droppy} from './Monad/Index'
+// import SpinWheel from './SpinWheel'
 
 function Nav() {
   return (

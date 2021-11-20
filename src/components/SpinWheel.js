@@ -1,4 +1,4 @@
-import React, { useEffect, useState, config } from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import DownArrow from "./../assets/down-arrow-svgrepo-com.svg";
 import { useSpring, animated } from "react-spring";
@@ -45,7 +45,7 @@ const Down = styled(animated.img)`
 `;
 
 export default function SpinWheel(props) {
-  const alphabet = [
+  const alphabet = props.array ? props.array : [
     "A",
     "B",
     "C",
@@ -76,6 +76,8 @@ export default function SpinWheel(props) {
   const [start, setStart] = useState(0);
   const [end, setEnd] = useState(5);
   const [displayMenu, setDisplayMenu] = useState(alphabet.slice(start, end));
+  const [inn, setInn] = useState(false);
+
 
   const updateMenu = (newMenu) => {
     setDisplayMenu(newMenu);
@@ -96,23 +98,22 @@ export default function SpinWheel(props) {
     updateMenu(newMenu);
   }
 
-function preventDefault (e) {
+  function preventDefault (e) {
     e = e || window.event
     if (e.preventDefault) {
       e.preventDefault()
     }
     e.returnValue = false
   }
-const enableScroll = () => {
-    document.removeEventListener('wheel', preventDefault, {
+
+  useEffect(() => {  
+    if(inn) {
+      document.addEventListener('wheel', preventDefault, {
         passive: false,
       })
-}
-const disableScroll = () => {
-    document.addEventListener('wheel', preventDefault, {
-      passive: false,
-    })
-}
+    }
+    return () => document.removeEventListener('wheel', preventDefault, false)
+  }, [inn]);
 
   const springArrow = useSpring({
     loop: true,
@@ -125,8 +126,8 @@ const disableScroll = () => {
     <div>
       <Menu
         onWheel={makeNewMenu}
-        onMouseEnter={disableScroll}
-        onMouseLeave={enableScroll}
+        onMouseEnter={() => setInn(true)}
+        onMouseLeave={() => setInn(false)}
         menuStyle={props.menuStyle}
       >
         {displayMenu.map((item, index) => (
