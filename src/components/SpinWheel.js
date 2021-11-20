@@ -3,6 +3,11 @@ import styled from "styled-components";
 import DownArrow from "./../assets/down-arrow-svgrepo-com.svg";
 import { useSpring, animated } from "react-spring";
 
+const Wrap = styled.div`
+  ${props => (props.id === '0' ? "display: block;" : "display: none;")}
+  ${(props) => (props.Wrap ? props.Wrap : "")}
+`;
+
 const Menu = styled.div`
   color: white;
   max-width: 180px;
@@ -36,6 +41,7 @@ const Item = styled.div`
   justify-content: center;
   align-items: center;
   z-index: 101;
+  cursor: pointer;
   ${(props) => (props.itemStyle ? props.itemStyle : "")}
 `;
 
@@ -44,10 +50,38 @@ const Down = styled(animated.img)`
   ${(props) => (props.downstyle ? props.downstyle : "")}
 `;
 
+const ObjectItem = styled.div`
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  &:hover {
+    background-image: -webkit-linear-gradient(
+      left,
+      rgba(248, 248, 255, 0.2),
+      rgba(248, 248, 255, 0.3),
+      rgba(248, 248, 255, 0.2)
+    );
+  }
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 101;
+  ${(props) => (props.ObjectItem ? props.ObjectItem : "")}
+`;
+
 export default function SpinWheel(props) {
   const alphabet = props.array ? props.array : [
     "A",
     "B",
+    {
+      name: 'Otto',
+      wife: 'Tsuma',
+      Age: '29',
+      games: {
+        1: 'Skyrim'
+      }
+    },
     "C",
     "D",
     "E",
@@ -73,6 +107,23 @@ export default function SpinWheel(props) {
     "Y",
     "Z",
   ];
+  function dealWithObject (obj, i) {
+    const objectList = Object.values(obj)
+    const objectKeys = Object.keys(obj)
+    const newWheel = <SpinWheel key={`SpinWheel${i}`} id={`SpinWheel${i}`} menuStyle={`
+    position: absolute;
+    margin-left: 90px;
+    `} array={objectList} />
+    return <ObjectItem onMouseEnter={() => document.getElementById(`SpinWheel${i}`).style.display = 'block'} ObjectItem={props.ObjectItem} key={i} >{newWheel}</ObjectItem>
+  }
+  if(!Array.isArray(alphabet)) {
+   dealWithObject(alphabet)
+  }
+  alphabet.map((item, index) => {
+    if(typeof item === 'object') {
+      dealWithObject(item, index)
+    }
+  })
   const [start, setStart] = useState(0);
   const [end, setEnd] = useState(5);
   const [displayMenu, setDisplayMenu] = useState(alphabet.slice(start, end));
@@ -123,7 +174,7 @@ export default function SpinWheel(props) {
   });
 
   return (
-    <div>
+    <Wrap key={props.id || '0'} id={props.id || '0'} >
       <Menu
         onWheel={makeNewMenu}
         onMouseEnter={() => setInn(true)}
@@ -131,9 +182,10 @@ export default function SpinWheel(props) {
         menuStyle={props.menuStyle}
       >
         {displayMenu.map((item, index) => (
-          <Item itemStyle={props.itemStyle} key={index}>
+          typeof item !== 'object' ? <Item itemStyle={props.itemStyle} key={index}>
             {item}
           </Item>
+          : dealWithObject(item, index)
         ))}
       </Menu>
       {end < alphabet.length && DownArrow && (
@@ -144,6 +196,6 @@ export default function SpinWheel(props) {
           src={DownArrow}
         />
       )}
-    </div>
+    </Wrap>
   );
 }

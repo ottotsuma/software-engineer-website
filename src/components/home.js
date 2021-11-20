@@ -81,11 +81,12 @@ function Home(props) {
   console.log(props);
   const playSpring = window.screen.width > 590;
   const springGlass = useSpring({
-    // loop: true,
-    from: { width: playSpring ? "30%" : "250px"},
+    from: { width: playSpring ? "30%" : "250px" },
     to: { width: playSpring ? "60%" : "250px" },
+    leave: { width: playSpring ? "30%" : "250px" },
     config: { clamp: true, mass: 2, tension: 60, friction: 20 },
   });
+
   function change(props) {
     const win = window.open(props, "_blank");
     win.focus();
@@ -648,7 +649,6 @@ const Glass = styled(animated.div)`
   border-radius: 2rem;
   z-index: 3;
   backdrop-filter: blur(2rem);
-  
 `;
 
 const Circle1 = styled.div`
@@ -696,15 +696,18 @@ const LinkImage = styled.img`
   }
 `;
 
-const HomeImage = styled.img`
-cursor: pointer;
-  width: 30%;
-  // height: 70%;
+const HomeImage = styled(animated.img)`
+  cursor: pointer;
+  width: 25%;
+  height: 25%;
   border-radius: 1rem;
   padding: 2px;
   margin: 1rem;
   @media screen and (max-width: 590px) {
     display: none;
+  }
+  :hover {
+    transform: scale(1.1);
   }
 `;
 
