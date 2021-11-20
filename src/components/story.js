@@ -13,10 +13,12 @@ import Witch from "./../assets/witch7.jpg";
 import Weather from "./../assets/weather.png";
 import Blackjack from "./blackjack";
 import styled from 'styled-components'
+import SpinWheel from './SpinWheel'
 
 function Story(props) {
   return (
     <div className="Playground">
+      <SpinWheel />
       <Blackjack />
       <Titles>Book</Titles>
       <a href="Monad/1">Go to story</a>
