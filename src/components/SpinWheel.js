@@ -110,7 +110,8 @@ export default function SpinWheel(props) {
         "Z",
       ];
   function dealWithObject(obj, i) {
-    let name = 'More'
+    let name = undefined;
+    let usable = props.name;
     let objectList;
     let objectKeys;
     if (Array.isArray(obj)) {
@@ -119,10 +120,13 @@ export default function SpinWheel(props) {
       objectList = Object.values(obj);
       objectKeys = Object.keys(obj);
       objectList.map((subItem, index) => {
-        if(typeof subItem === "object"){
-          name = objectKeys[index]
+        if (typeof subItem === "object") {
+          name = objectKeys[index];
         }
-      })
+      });
+      if (!props.name) {
+        usable = objectKeys[0];
+      }
     }
     const newWheel = (
       <SpinWheel
@@ -147,7 +151,7 @@ export default function SpinWheel(props) {
         ObjectItem={props.ObjectItem}
         key={i}
       >
-        {props.name ? props.name : 'More'}
+        {usable ? usable : "More"}
         {newWheel}
       </ObjectItem>
     );
