@@ -81,7 +81,6 @@ export default function SpinWheel(props) {
     setDisplayMenu(newMenu);
   };
   function makeNewMenu(event) {
-    event.preventDefault();
     if (event.deltaY > 0) {
       if (end + 1 < alphabet.length + 1) {
         setStart(start + 1);
@@ -96,8 +95,24 @@ export default function SpinWheel(props) {
     const newMenu = alphabet.slice(start, end);
     updateMenu(newMenu);
   }
-  const el = document.querySelector("div");
-  el.onwheel = makeNewMenu;
+
+function preventDefault (e) {
+    e = e || window.event
+    if (e.preventDefault) {
+      e.preventDefault()
+    }
+    e.returnValue = false
+  }
+const enableScroll = () => {
+    document.removeEventListener('wheel', preventDefault, {
+        passive: false,
+      })
+}
+const disableScroll = () => {
+    document.addEventListener('wheel', preventDefault, {
+      passive: false,
+    })
+}
 
   const springArrow = useSpring({
     loop: true,
@@ -108,7 +123,12 @@ export default function SpinWheel(props) {
 
   return (
     <div>
-      <Menu menuStyle={props.menuStyle}>
+      <Menu
+        onWheel={makeNewMenu}
+        onMouseEnter={disableScroll}
+        onMouseLeave={enableScroll}
+        menuStyle={props.menuStyle}
+      >
         {displayMenu.map((item, index) => (
           <Item itemStyle={props.itemStyle} key={index}>
             {item}
