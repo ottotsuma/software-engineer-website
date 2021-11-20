@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import React from 'react'
+import { useSpring, animated } from "react-spring";
 
 function Modal2(props) {
 
@@ -20,11 +21,18 @@ function Modal2(props) {
             props.reject();
         }, 150);
     };
+
+    const springProps = useSpring({
+        from: { opacity: 0 },
+        to: { opacity: 1 },
+        leave: {opacity: 0},
+        config: { clamp: true, mass: 1, tension: 250, friction: 1 },
+      });
     
     return (
         <Wrapper>
             {props.close ? <Outside css={'-webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px);'} onClick={() => props.close()}></Outside> : <Outside onClick={() => reject()}></Outside>}
-            <Modal className='dynamicWidth' data-width='0'>
+            <Modal style={springProps} className='dynamicWidth' data-width='0'>
                 {props.title ? <h1>{props.title}</h1> : <div></div>}
                 {props.insert}
                 {props.close ? <Button onClick={() => props.close()}>{props.cancel || 'Cancel'}</Button> : <Button onClick={() => reject()}>{props.cancel || 'Cancel'}</Button>}
@@ -64,7 +72,7 @@ opacity: 0.4;
 ${props => props.css || ''}
 `;
 
- const Modal = styled.div`
+ const Modal = styled(animated.div)`
 position: absolute;
 z-index: 10;
 background: #161b21;
@@ -99,11 +107,11 @@ height: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
-&:hover ${Modal}{
-    opacity: 1;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -ms-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-}
+// &:hover ${Modal}{
+//     opacity: 1;
+//     -webkit-transition: opacity 1s ease-in-out;
+//     -moz-transition: opacity 1s ease-in-out;
+//     -ms-transition: opacity 1s ease-in-out;
+//     -o-transition: opacity 1s ease-in-out;
+// }
 `;
