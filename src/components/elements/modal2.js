@@ -114,4 +114,5 @@ align-items: center;
 //     -ms-transition: opacity 1s ease-in-out;
 //     -o-transition: opacity 1s ease-in-out;
 // }
+white-space: pre-wrap
 `;

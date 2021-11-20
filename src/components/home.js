@@ -7,6 +7,7 @@ import Secret from "./../assets/Group1.png";
 import Food from "./../assets/foodlogo.png";
 import Video from "./video";
 import styled, { keyframes } from "styled-components";
+import { useSpring, animated } from "react-spring";
 
 import Modal from "./elements/modal";
 import Tech from "./tech";
@@ -76,6 +77,12 @@ const Language = {
 function Home(props) {
   // Change window function
   console.log(props);
+  const springGlass = useSpring({
+    // loop: true,
+    from: { width: '30%'},
+    to: { width: '60%' },
+    config: { clamp: true, mass: 3, tension: 150, friction: 42 },
+  });
   function change(props) {
     const win = window.open(props, "_blank");
     win.focus();
@@ -96,6 +103,12 @@ function Home(props) {
   function updateTimeline() {
     setShowTimeline(!showTimeline);
   }
+
+  const [showItem1, setShowItem1] = useState(false);
+  function updateShowItem1() {
+    setShowItem1(!showItem1);
+  }
+
   return (
     <GlassWrapper>
       {show && (
@@ -112,7 +125,18 @@ function Home(props) {
           close={updateTimeline}
         />
       )}
-      <Glass>
+                    {/* <h3>{Language[lang].MunchifyTitle}</h3>
+              <Para>{Language[lang].MunchifyDisc}</Para>
+            </InnerBox>
+            <Para>{Language[lang].MunchifyTech}</Para> */}
+      {showItem1 && (
+        <Modal2
+          title={Language[lang].MunchifyTitle}
+          insert={Language[lang].MunchifyDisc + '\n Made with: ' + Language[lang].MunchifyTech}
+          close={updateShowItem1}
+        />
+      )}
+      <Glass style={springGlass}>
         <Profile>
           <NameWrap>
             <Video />
@@ -207,6 +231,7 @@ function Home(props) {
           </Anchor2>
         </Profile>
         <Right>
+        <HomeImage onClick={() => updateShowItem1()} src={Munchify} alt="Munchify" />
           {/* <Box
             onClick={() =>
               change("https://github.com/Spring-CC/restaurant-native-app")
@@ -219,7 +244,14 @@ function Home(props) {
             </InnerBox>
             <Para>{Language[lang].MunchifyTech}</Para>
           </Box> */}
-          <Box
+          <HomeImage
+              onError={imageError}
+              src={
+                "https://yt3.ggpht.com/ytc/AAUvwni9DJA2UfBnLyffWzkPZp7yLUJG0RHSf1WXqTEEvg=s176-c-k-c0x00ffffff-no-rj"
+              }
+              alt="LJL"
+            />
+          {/* <Box
             onClick={() =>
               change("https://www.youtube.com/channel/UCiN3B0QRdL4wn1TMJ_cJyMQ")
             }
@@ -236,7 +268,8 @@ function Home(props) {
               <Para>{Language[lang].CGPCDisc}</Para>
             </InnerBox>
             <Para>{Language[lang].CGPCTech}</Para>
-          </Box>
+          </Box> */}
+          <HomeImage src={Secret} alt="Secret Box" />
           {/* <Box onClick={() => change("https://github.com/ottotsuma/SoloMVP")}>
             <HomeImage src={Secret} alt="Technical Skills" />
             <InnerBox>
@@ -245,7 +278,14 @@ function Home(props) {
             </InnerBox>
             <Para>{Language[lang].SecretTech}</Para>
           </Box> */}
-          <Box onClick={() => change("https://dekki.com/en/?page=1")}>
+          <HomeImage
+            onError={imageError}
+              src={
+                "https://pbs.twimg.com/profile_images/1062990176106905601/s7nYomEa_400x400.jpg"
+              }
+              alt="Dekki"
+            />
+          {/* <Box onClick={() => change("https://dekki.com/en/?page=1")}>
             <HomeImage
             onError={imageError}
               src={
@@ -258,7 +298,7 @@ function Home(props) {
               <Para>{Language[lang].DekkiDisc}</Para>
             </InnerBox>
             <Para>{Language[lang].DekkiTech}</Para>
-          </Box>
+          </Box> */}
           {/* <Box
             onClick={() => change("https://github.com/ottotsuma/React-App2")}
           >
@@ -269,7 +309,7 @@ function Home(props) {
             </InnerBox>
             <Para>{Language[lang].RecipesTech}</Para>
           </Box> */}
-          <Box
+          {/* <Box
             onClick={() => change("https://github.com/ottotsuma/React-App2")}
           >
             <HomeImage src={Food} alt="Technical Skills" onError={imageError} />
@@ -278,7 +318,7 @@ function Home(props) {
               <Para>{Language[lang].RecipesDisc}</Para>
             </InnerBox>
             <Para>{Language[lang].RecipesTech}</Para>
-          </Box>
+          </Box> */}
         </Right>
       </Glass>
       <Circle1 />
@@ -469,10 +509,13 @@ const List = styled.div`
 
 const Right = styled.div`
   display: flex;
-  flex-direction: column;
+  // flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  flex: 2;
+  // flex: 2;
+  margin-left: 250px;
+  overflow: hidden;
+  flex-wrap: wrap;
   @media screen and (max-width: 426px) {
     display: none;
   }
@@ -485,13 +528,16 @@ const Profile = styled.div`
     rgba(255, 255, 255, 0.5)
   );
   border-radius: 1rem;
-  flex: 1;
+  // flex: 1;
   color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
+  width: 250px;
+    height: 100%;
+    position: absolute;
 `;
 
 const GlassWrapper = styled.div`
@@ -501,14 +547,15 @@ const GlassWrapper = styled.div`
   align-items: center;
 `;
 
-const Glass = styled.div`
+const Glass = styled(animated.div)`
   background: linear-gradient(
     0deg,
     rgba(255, 255, 255, 0.6),
     rgba(255, 255, 255, 0.3)
   );
   min-height: 80vh;
-  width: 60%;
+  // width: 60%;
+  min-width: 250px;
   display: flex;
   border-radius: 2rem;
   z-index: 3;
@@ -561,8 +608,8 @@ const LinkImage = styled.img`
 `;
 
 const HomeImage = styled.img`
-  width: 20%;
-  height: 70%;
+  width: 30%;
+  // height: 70%;
   border-radius: 1rem;
   padding: 2px;
   margin: 1rem;
