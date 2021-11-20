@@ -20,9 +20,10 @@ import { imageError } from "./color";
 
 // Embed video player of your youtube video!
 const YouTubeUrl = "https://www.youtube.com/embed/m86uLnh7OfU";
-
+// 「保存」、「登録」、「完了」、「キャンセル」
 const Language = {
   ja: {
+    Cancel: "キャンセル",
     name: "ダラー・ショーン",
     projects: "プロジェクト",
     experience: "経験",
@@ -48,6 +49,7 @@ const Language = {
     RecipesTitle: "夫のレシピ",
   },
   en: {
+    Cancel: "Cancel",
     name: "Shaun Darragh",
     projects: "Projects",
     experience: "Experience",
@@ -77,10 +79,11 @@ const Language = {
 function Home(props) {
   // Change window function
   console.log(props);
+  const playSpring = window.screen.width > 590;
   const springGlass = useSpring({
     // loop: true,
-    from: { width: "30%" },
-    to: { width: "60%" },
+    from: { width: playSpring ? "30%" : "250px"},
+    to: { width: playSpring ? "60%" : "250px" },
     config: { clamp: true, mass: 2, tension: 60, friction: 20 },
   });
   function change(props) {
@@ -124,6 +127,11 @@ function Home(props) {
     setShowItem4(!showItem4);
   }
 
+  const [showItem5, setShowItem5] = useState(false);
+  function updateShowItem5() {
+    setShowItem5(!showItem5);
+  }
+
   return (
     <GlassWrapper>
       {show && (
@@ -153,6 +161,7 @@ function Home(props) {
             Language[lang].MunchifyTech
           }
           close={updateShowItem1}
+          cancel={Language[lang].Cancel}
         />
       )}
       {showItem2 && (
@@ -162,6 +171,7 @@ function Home(props) {
             Language[lang].CGPCDisc + "\n Made with: " + Language[lang].CGPCTech
           }
           close={updateShowItem2}
+          cancel={Language[lang].Cancel}
         />
       )}
       {showItem3 && (
@@ -173,6 +183,7 @@ function Home(props) {
             Language[lang].DekkiTech
           }
           close={updateShowItem3}
+          cancel={Language[lang].Cancel}
         />
       )}
       {showItem4 && (
@@ -184,6 +195,19 @@ function Home(props) {
             Language[lang].SecretTech
           }
           close={updateShowItem4}
+          cancel={Language[lang].Cancel}
+        />
+      )}
+      {showItem5 && (
+        <Modal2
+          title={Language[lang].RecipesTitle}
+          insert={
+            Language[lang].RecipesDisc +
+            "\n Made with: " +
+            Language[lang].RecipesTech
+          }
+          close={updateShowItem5}
+          cancel={Language[lang].Cancel}
         />
       )}
       <Glass style={springGlass}>
@@ -307,6 +331,7 @@ function Home(props) {
             alt="Secret Box"
             onClick={() => updateShowItem4()}
           />
+          <HomeImage src={Food} onClick={() => updateShowItem5()} alt="Food" />
           {/* <Box
             onClick={() =>
               change("https://github.com/Spring-CC/restaurant-native-app")
@@ -579,7 +604,7 @@ const Right = styled.div`
   margin-left: 250px;
   overflow: hidden;
   flex-wrap: wrap;
-  @media screen and (max-width: 426px) {
+  @media screen and (max-width: 590px) {
     display: none;
   }
 `;
@@ -623,6 +648,7 @@ const Glass = styled(animated.div)`
   border-radius: 2rem;
   z-index: 3;
   backdrop-filter: blur(2rem);
+  
 `;
 
 const Circle1 = styled.div`
@@ -671,6 +697,7 @@ const LinkImage = styled.img`
 `;
 
 const HomeImage = styled.img`
+cursor: pointer;
   width: 30%;
   // height: 70%;
   border-radius: 1rem;

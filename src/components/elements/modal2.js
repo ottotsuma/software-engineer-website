@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import React from 'react'
 import { useSpring, animated } from "react-spring";
+import {colors} from './colors'
 
 function Modal2(props) {
 
@@ -48,7 +49,7 @@ export default Modal2
 
 const Button = styled.div`
   color: white;
-  background: #0d89eb;
+  background: ${colors.red.normal};
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,7 +57,7 @@ const Button = styled.div`
   margin: 10px;
   cursor: pointer;
   &:hover {
-      background: #2CA8FF;
+      background: ${colors.red.light};
   }
 `;
 
