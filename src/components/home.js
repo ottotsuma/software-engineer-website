@@ -16,7 +16,7 @@ import Modal2 from "./elements/modal2";
 import Timeline from "./timeline";
 import Spin from "./spinn";
 
-import {imageError} from './color'
+import { imageError } from "./color";
 
 // Embed video player of your youtube video!
 const YouTubeUrl = "https://www.youtube.com/embed/m86uLnh7OfU";
@@ -35,7 +35,7 @@ const Language = {
     MunchifyTitle: "Munchify!",
     CGPCDisc: "LOL 日本プロリーグ「LJL」ゲームオーバーレイ",
     CGPCTech: "React, Styled-Components, Firebase, AWS",
-    CGPCTitle: "CGPC",
+    CGPCTitle: "CGPC (LJL)",
     DekkiDisc:
       "DEKKIはゲームを愛する人たちが語り合えるゲームコミュニティプラットフォームです。",
     DekkiTech: "React, Styled-Components, AWS",
@@ -60,7 +60,7 @@ const Language = {
     MunchifyTitle: "Munchify!",
     CGPCDisc: "Game overlay for LOL Japan League「LJL」",
     CGPCTech: "React, Styled-Components, Firebase, AWS",
-    CGPCTitle: "CGPC",
+    CGPCTitle: "CGPC (LJL)",
     DekkiDisc: "A community platform for gamers to talk about games they love",
     DekkiTech: "React, Styled-Components, AWS",
     DekkiTitle: "Dekki",
@@ -79,8 +79,8 @@ function Home(props) {
   console.log(props);
   const springGlass = useSpring({
     // loop: true,
-    from: { width: '30%'},
-    to: { width: '60%' },
+    from: { width: "30%" },
+    to: { width: "60%" },
     config: { clamp: true, mass: 2, tension: 60, friction: 20 },
   });
   function change(props) {
@@ -109,6 +109,21 @@ function Home(props) {
     setShowItem1(!showItem1);
   }
 
+  const [showItem2, setShowItem2] = useState(false);
+  function updateShowItem2() {
+    setShowItem2(!showItem2);
+  }
+
+  const [showItem3, setShowItem3] = useState(false);
+  function updateShowItem3() {
+    setShowItem3(!showItem3);
+  }
+
+  const [showItem4, setShowItem4] = useState(false);
+  function updateShowItem4() {
+    setShowItem4(!showItem4);
+  }
+
   return (
     <GlassWrapper>
       {show && (
@@ -125,15 +140,50 @@ function Home(props) {
           close={updateTimeline}
         />
       )}
-                    {/* <h3>{Language[lang].MunchifyTitle}</h3>
+      {/* <h3>{Language[lang].MunchifyTitle}</h3>
               <Para>{Language[lang].MunchifyDisc}</Para>
             </InnerBox>
             <Para>{Language[lang].MunchifyTech}</Para> */}
       {showItem1 && (
         <Modal2
           title={Language[lang].MunchifyTitle}
-          insert={Language[lang].MunchifyDisc + '\n Made with: ' + Language[lang].MunchifyTech}
+          insert={
+            Language[lang].MunchifyDisc +
+            "\n Made with: " +
+            Language[lang].MunchifyTech
+          }
           close={updateShowItem1}
+        />
+      )}
+      {showItem2 && (
+        <Modal2
+          title={Language[lang].CGPCTitle}
+          insert={
+            Language[lang].CGPCDisc + "\n Made with: " + Language[lang].CGPCTech
+          }
+          close={updateShowItem2}
+        />
+      )}
+      {showItem3 && (
+        <Modal2
+          title={Language[lang].DekkiTitle}
+          insert={
+            Language[lang].DekkiDisc +
+            "\n Made with: " +
+            Language[lang].DekkiTech
+          }
+          close={updateShowItem3}
+        />
+      )}
+      {showItem4 && (
+        <Modal2
+          title={Language[lang].SecretTitle}
+          insert={
+            Language[lang].SecretDisc +
+            "\n Made with: " +
+            Language[lang].SecretTech
+          }
+          close={updateShowItem4}
         />
       )}
       <Glass style={springGlass}>
@@ -231,7 +281,32 @@ function Home(props) {
           </Anchor2>
         </Profile>
         <Right>
-        <HomeImage onClick={() => updateShowItem1()} src={Munchify} alt="Munchify" />
+          <HomeImage
+            onError={imageError}
+            src={
+              "https://yt3.ggpht.com/ytc/AAUvwni9DJA2UfBnLyffWzkPZp7yLUJG0RHSf1WXqTEEvg=s176-c-k-c0x00ffffff-no-rj"
+            }
+            alt="LJL"
+            onClick={() => updateShowItem2()}
+          />
+          <HomeImage
+            onError={imageError}
+            src={
+              "https://pbs.twimg.com/profile_images/1062990176106905601/s7nYomEa_400x400.jpg"
+            }
+            alt="Dekki"
+            onClick={() => updateShowItem3()}
+          />
+          <HomeImage
+            onClick={() => updateShowItem1()}
+            src={Munchify}
+            alt="Munchify"
+          />
+          <HomeImage
+            src={Secret}
+            alt="Secret Box"
+            onClick={() => updateShowItem4()}
+          />
           {/* <Box
             onClick={() =>
               change("https://github.com/Spring-CC/restaurant-native-app")
@@ -244,13 +319,7 @@ function Home(props) {
             </InnerBox>
             <Para>{Language[lang].MunchifyTech}</Para>
           </Box> */}
-          <HomeImage
-              onError={imageError}
-              src={
-                "https://yt3.ggpht.com/ytc/AAUvwni9DJA2UfBnLyffWzkPZp7yLUJG0RHSf1WXqTEEvg=s176-c-k-c0x00ffffff-no-rj"
-              }
-              alt="LJL"
-            />
+
           {/* <Box
             onClick={() =>
               change("https://www.youtube.com/channel/UCiN3B0QRdL4wn1TMJ_cJyMQ")
@@ -269,7 +338,7 @@ function Home(props) {
             </InnerBox>
             <Para>{Language[lang].CGPCTech}</Para>
           </Box> */}
-          <HomeImage src={Secret} alt="Secret Box" />
+
           {/* <Box onClick={() => change("https://github.com/ottotsuma/SoloMVP")}>
             <HomeImage src={Secret} alt="Technical Skills" />
             <InnerBox>
@@ -278,13 +347,7 @@ function Home(props) {
             </InnerBox>
             <Para>{Language[lang].SecretTech}</Para>
           </Box> */}
-          <HomeImage
-            onError={imageError}
-              src={
-                "https://pbs.twimg.com/profile_images/1062990176106905601/s7nYomEa_400x400.jpg"
-              }
-              alt="Dekki"
-            />
+
           {/* <Box onClick={() => change("https://dekki.com/en/?page=1")}>
             <HomeImage
             onError={imageError}
@@ -536,8 +599,8 @@ const Profile = styled.div`
   align-items: center;
   text-align: center;
   width: 250px;
-    height: 100%;
-    position: absolute;
+  height: 100%;
+  position: absolute;
 `;
 
 const GlassWrapper = styled.div`

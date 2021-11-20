@@ -46,8 +46,8 @@ position: absolute;
 width: 100px;
 height: 100px;
 z-index: 1;
-left: 20%;
-top: 80%;
+left: 53%;
+top: 81%;
 
 @media screen and (max-width: 730px) {
   display: none;
