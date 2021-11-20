@@ -81,7 +81,7 @@ function Home(props) {
     // loop: true,
     from: { width: '30%'},
     to: { width: '60%' },
-    config: { clamp: true, mass: 3, tension: 150, friction: 42 },
+    config: { clamp: true, mass: 2, tension: 60, friction: 20 },
   });
   function change(props) {
     const win = window.open(props, "_blank");
