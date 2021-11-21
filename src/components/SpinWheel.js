@@ -118,7 +118,7 @@ export default function SpinWheel(props) {
               key={index}
             >
               {props.name ? props.name : `More ${index}`}
-              {<FontAwesomeIcon icon={faChevronRight}  />}
+              {<FontAwesomeIcon style={{position: 'absolute', marginLeft: `70px`}} icon={faChevronRight}  />}
               {newWheel}
             </ObjectItem>
           );
