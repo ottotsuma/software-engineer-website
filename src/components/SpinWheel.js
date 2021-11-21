@@ -76,6 +76,7 @@ const ObjectItem = styled.div`
   ${(props) => (props.ObjectItem ? props.ObjectItem : "")}
 `;
 
+// Perhaps if you pass-down the required functions but has them called in the same way.
 
 export default function SpinWheel(props) {
   const springArrow = useSpring({
@@ -93,7 +94,7 @@ export default function SpinWheel(props) {
       const arrayReplace = [];
       props.array.map((item, index) => {
         if (Array.isArray(item)) {
-          const newWheel =  (
+          const newWheel = (
             <SpinWheel
               key={`SpinWheel${index}`}
               id={`SpinWheel${index}`}
@@ -118,7 +119,12 @@ export default function SpinWheel(props) {
               key={index}
             >
               {props.name ? props.name : `More ${index}`}
-              {<FontAwesomeIcon style={{position: 'absolute', marginLeft: `70px`}} icon={faChevronRight}  />}
+              {
+                <FontAwesomeIcon
+                  style={{ position: "absolute", marginLeft: `70px` }}
+                  icon={faChevronRight}
+                />
+              }
               {newWheel}
             </ObjectItem>
           );
@@ -136,7 +142,7 @@ export default function SpinWheel(props) {
       setAlphabet(checkedArray);
       updateMenu(checkedArray.slice(start, end));
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const [start, setStart] = useState(0);
@@ -179,8 +185,8 @@ export default function SpinWheel(props) {
   }, [inn]);
 
   const updateInn = (value) => {
-    setInn(value)
-  }
+    setInn(value);
+  };
 
   return (
     <Wrap id={props.id || "0"}>
@@ -190,7 +196,7 @@ export default function SpinWheel(props) {
           updateInn(true);
         }}
         onMouseLeave={() => {
-          updateInn(false)
+          updateInn(false);
         }}
         menuStyle={props.menuStyle}
       >
