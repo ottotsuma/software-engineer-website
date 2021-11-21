@@ -76,18 +76,6 @@ export default function SpinWheel(props) {
     : [
         "A",
         "B",
-        {
-          Person: "Otto",
-          Wife: "Tsuma",
-          Age: "29",
-          Games: {
-            1: "Skyrim",
-          },
-          Food: {
-            Breakfast: "Orange",
-          },
-          Pet: "None",
-        },
         "C",
         "D",
         "E",
@@ -127,8 +115,8 @@ export default function SpinWheel(props) {
     let newWheel = (
       <SpinWheel
         nameList={Object.keys(obj)}
-        key={`SpinWheel${i}`}
-        id={`SpinWheel${i}`}
+        key={`SpinWheel${i+name}`}
+        id={`SpinWheel${i+name}`}
         menuStyle={`
         position: absolute;
         margin-left: 0px;
@@ -139,10 +127,10 @@ export default function SpinWheel(props) {
     return (
       <ObjectItem
         onMouseLeave={() =>
-          (document.getElementById(`SpinWheel${i}`).style.display = "none")
+          (document.getElementById(`SpinWheel${i+name}`).style.display = "none")
         }
         onMouseEnter={() =>
-          (document.getElementById(`SpinWheel${i}`).style.display = "block")
+          (document.getElementById(`SpinWheel${i+name}`).style.display = "block")
         }
         ObjectItem={props.ObjectItem}
         key={i}

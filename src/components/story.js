@@ -15,10 +15,53 @@ import Blackjack from "./blackjack";
 import styled from 'styled-components'
 import SpinWheel from './SpinWheel'
 
+const alphabet =  [
+    "A",
+    "B",
+    ['A', 'B', 'C'],
+    {
+      Name: "Otto",
+      Wife: "Tsuma",
+      Age: "29",
+      Games: {
+        1: "Skyrim",
+      },
+      Food: {
+        Breakfast: "Orange",
+      },
+      Pet: "None",
+    },
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z",
+  ];
+  const names = Object.keys(alphabet)
+
 function Story(props) {
   return (
     <div className="Playground">
-      <SpinWheel />
+      <SpinWheel nameList={names} array={alphabet} />
       <Blackjack />
       <Titles>Book</Titles>
       <a href="Monad/1">Go to story</a>
