@@ -83,6 +83,10 @@ export default function SpinWheel(props) {
           Games: {
             1: "Skyrim",
           },
+          Food: {
+            Breakfast: "Orange",
+          },
+          Pet: "None",
         },
         "C",
         "D",
@@ -111,7 +115,6 @@ export default function SpinWheel(props) {
       ];
   function dealWithObject(obj, i) {
     let name = undefined;
-    let usable = props.name;
     let objectList;
     let objectKeys;
     if (Array.isArray(obj)) {
@@ -119,23 +122,28 @@ export default function SpinWheel(props) {
     } else {
       objectList = Object.values(obj);
       objectKeys = Object.keys(obj);
-      objectList.map((subItem, index) => {
+      name = Object.keys(obj)[0]
+    }
+    let newName;
+    if (props.oldObject) {
+      Object.values(props.oldObject).map((subItem, index) => {
         if (typeof subItem === "object") {
-          name = objectKeys[index];
+          newName = Object.keys(props.oldObject)[index];
         }
       });
-      if (!props.name) {
-        usable = objectKeys[0];
-      }
     }
-    const newWheel = (
+    if(props.newName){
+      name = props.newName
+    }
+    let newWheel = (
       <SpinWheel
-        name={name}
+        newName={newName}
+        oldObject={obj}
         key={`SpinWheel${i}`}
         id={`SpinWheel${i}`}
         menuStyle={`
-    position: absolute;
-    margin-left: 0px;
+        position: absolute;
+        margin-left: 0px;
     `}
         array={objectList}
       />
@@ -151,7 +159,7 @@ export default function SpinWheel(props) {
         ObjectItem={props.ObjectItem}
         key={i}
       >
-        {usable ? usable : "More"}
+        {name ? name : "More"}
         {newWheel}
       </ObjectItem>
     );
