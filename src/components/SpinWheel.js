@@ -77,7 +77,7 @@ export default function SpinWheel(props) {
         "A",
         "B",
         {
-          Name: "Otto",
+          Person: "Otto",
           Wife: "Tsuma",
           Age: "29",
           Games: {

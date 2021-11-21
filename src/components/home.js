@@ -81,9 +81,8 @@ function Home(props) {
   console.log(props);
   const playSpring = window.screen.width > 590;
   const springGlass = useSpring({
-    from: { width: playSpring ? "30%" : "250px" },
+    from: { width: playSpring ? "0%" : "250px" },
     to: { width: playSpring ? "60%" : "250px" },
-    leave: { width: playSpring ? "30%" : "250px" },
     config: { clamp: true, mass: 2, tension: 60, friction: 20 },
   });
 
@@ -132,6 +131,14 @@ function Home(props) {
   function updateShowItem5() {
     setShowItem5(!showItem5);
   }
+  // const [toggle, setToggle] = useState(true);
+  // setTimeout(() => {
+  //   setToggle(false)
+  // }, 2000);
+  // const springReverse = useSpring({
+  //   transform: toggle ? "translateX(0px)" : "translateX(-250px)",
+  //   config: { clamp: true, mass: 2, tension: 60, friction: 20 },
+  // });
 
   return (
     <GlassWrapper>
@@ -149,10 +156,6 @@ function Home(props) {
           close={updateTimeline}
         />
       )}
-      {/* <h3>{Language[lang].MunchifyTitle}</h3>
-              <Para>{Language[lang].MunchifyDisc}</Para>
-            </InnerBox>
-            <Para>{Language[lang].MunchifyTech}</Para> */}
       {showItem1 && (
         <Modal2
           title={Language[lang].MunchifyTitle}
@@ -212,6 +215,7 @@ function Home(props) {
         />
       )}
       <Glass style={springGlass}>
+        {/* <Profile2 style={springReverse}>AAA</Profile2> */}
         <Profile>
           <NameWrap>
             <Video />
@@ -608,6 +612,19 @@ const Right = styled.div`
   @media screen and (max-width: 590px) {
     display: none;
   }
+`;
+
+const Profile2 = styled(animated.div)`
+background: linear-gradient(
+  0deg,
+  rgba(255, 255, 255, 0.9),
+  rgba(255, 255, 255, 0.5)
+);
+min-height: 80vh;
+min-width: 250px;
+display: flex;
+border-radius: 2rem;
+z-index: 3;
 `;
 
 const Profile = styled.div`
