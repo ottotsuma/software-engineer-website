@@ -114,31 +114,19 @@ export default function SpinWheel(props) {
         "Z",
       ];
   function dealWithObject(obj, i) {
-    let name = undefined;
     let objectList;
-    let objectKeys;
+    let name = "";
     if (Array.isArray(obj)) {
       objectList = obj;
     } else {
       objectList = Object.values(obj);
-      objectKeys = Object.keys(obj);
-      name = Object.keys(obj)[0]
     }
-    let newName;
-    if (props.oldObject) {
-      Object.values(props.oldObject).map((subItem, index) => {
-        if (typeof subItem === "object") {
-          newName = Object.keys(props.oldObject)[index];
-        }
-      });
-    }
-    if(props.newName){
-      name = props.newName
+    if (props.nameList) {
+      name = props.nameList[i];
     }
     let newWheel = (
       <SpinWheel
-        newName={newName}
-        oldObject={obj}
+        nameList={Object.keys(obj)}
         key={`SpinWheel${i}`}
         id={`SpinWheel${i}`}
         menuStyle={`
