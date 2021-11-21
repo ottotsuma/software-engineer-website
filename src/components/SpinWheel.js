@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import DownArrow from "./../assets/down-arrow-svgrepo-com.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { useSpring, animated } from "react-spring";
 
 const Wrap = styled.div`
@@ -50,10 +52,14 @@ const Down = styled(animated.img)`
   ${(props) => (props.downstyle ? props.downstyle : "")}
 `;
 
+const Right = styled(animated.img)`
+  width: 25px;
+  background: white;
+  ${(props) => (props.downstyle ? props.downstyle : "")}
+`;
+
 const ObjectItem = styled.div`
-  border-bottom-color: white;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
+  width: 100%;
   &:hover {
     background-image: -webkit-linear-gradient(
       left,
@@ -71,86 +77,70 @@ const ObjectItem = styled.div`
 `;
 
 export default function SpinWheel(props) {
-  const alphabet = props.array
-    ? props.array
-    : [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E",
-        "F",
-        "G",
-        "H",
-        "I",
-        "J",
-        "K",
-        "L",
-        "M",
-        "N",
-        "O",
-        "P",
-        "Q",
-        "R",
-        "S",
-        "T",
-        "U",
-        "V",
-        "W",
-        "X",
-        "Y",
-        "Z",
-      ];
-  function dealWithObject(obj, i) {
-    let objectList;
-    let name = "";
-    if (Array.isArray(obj)) {
-      objectList = obj;
-    } else {
-      objectList = Object.values(obj);
-    }
-    if (props.nameList) {
-      name = props.nameList[i];
-    }
-    let newWheel = (
-      <SpinWheel
-        nameList={Object.keys(obj)}
-        key={`SpinWheel${i+name}`}
-        id={`SpinWheel${i+name}`}
-        menuStyle={`
-        position: absolute;
-        margin-left: 0px;
-    `}
-        array={objectList}
-      />
-    );
-    return (
-      <ObjectItem
-        onMouseLeave={() =>
-          (document.getElementById(`SpinWheel${i+name}`).style.display = "none")
-        }
-        onMouseEnter={() =>
-          (document.getElementById(`SpinWheel${i+name}`).style.display = "block")
-        }
-        ObjectItem={props.ObjectItem}
-        key={i}
-      >
-        {name ? name : "More"}
-        {newWheel}
-      </ObjectItem>
-    );
-  }
-  if (typeof alphabet === "object" && !Array.isArray(alphabet)) {
-    dealWithObject(alphabet);
-  }
-  alphabet.map((item, index) => {
-    if (typeof item === "object") {
-      dealWithObject(item, index);
-    }
+  const springArrow = useSpring({
+    loop: true,
+    from: { y: 0 },
+    to: { y: 5 },
+    config: { clamp: true, mass: 3, tension: 150, friction: 42 },
   });
+  const [alphabet, setAlphabet] = useState([]);
+
+  useEffect(() => {
+    if (props.array) {
+      if (!Array.isArray(props.array)) {
+        setAlphabet([]);
+      }
+      const arrayReplace = [];
+      props.array.map((item, index) => {
+        if (Array.isArray(item)) {
+          console.log(item)
+          const newWheel =  (
+            <SpinWheel
+              key={`SpinWheel${index}`}
+              id={`SpinWheel${index}`}
+              menuStyle={`
+              position: absolute;
+              margin-left: 0px;
+          `}
+              array={item[index]}
+            />
+          );
+          arrayReplace.push(
+            <ObjectItem
+              onMouseLeave={() =>
+                (document.getElementById(`SpinWheel${index}`).style.display =
+                  "none")
+              }
+              onMouseEnter={() =>
+                (document.getElementById(`SpinWheel${index}`).style.display =
+                  "block")
+              }
+              ObjectItem={props.ObjectItem}
+              key={index}
+            >
+              {props.name ? props.name : 'More'}
+              {newWheel}
+            </ObjectItem>
+          );
+        } else {
+          arrayReplace.push(item);
+        }
+      });
+      const checkedArray = arrayReplace.filter((item, index) => {
+        if (!React.isValidElement(item)) {
+          return false;
+        } else {
+          return true;
+        }
+      });
+      setAlphabet(checkedArray);
+      updateMenu(checkedArray.slice(start, end));
+    }
+  }, []);
+
   const [start, setStart] = useState(0);
   const [end, setEnd] = useState(5);
-  const [displayMenu, setDisplayMenu] = useState(alphabet.slice(start, end));
+  const [displayMenu, setDisplayMenu] = useState([]);
   const [inn, setInn] = useState(false);
 
   const updateMenu = (newMenu) => {
@@ -171,7 +161,6 @@ export default function SpinWheel(props) {
     const newMenu = alphabet.slice(start, end);
     updateMenu(newMenu);
   }
-
   function preventDefault(e) {
     e = e || window.event;
     if (e.preventDefault) {
@@ -179,7 +168,6 @@ export default function SpinWheel(props) {
     }
     e.returnValue = false;
   }
-
   useEffect(() => {
     if (inn) {
       document.addEventListener("wheel", preventDefault, {
@@ -189,30 +177,23 @@ export default function SpinWheel(props) {
     return () => document.removeEventListener("wheel", preventDefault, false);
   }, [inn]);
 
-  const springArrow = useSpring({
-    loop: true,
-    from: { y: 0 },
-    to: { y: 5 },
-    config: { clamp: true, mass: 3, tension: 150, friction: 42 },
-  });
-
   return (
-    <Wrap key={props.id || "0"} id={props.id || "0"}>
+    <Wrap id={props.id || "0"}>
       <Menu
         onWheel={makeNewMenu}
-        onMouseEnter={() => setInn(true)}
-        onMouseLeave={() => setInn(false)}
+        onMouseEnter={() => {
+          setInn(true);
+        }}
+        onMouseLeave={() => {
+          setInn(false);
+        }}
         menuStyle={props.menuStyle}
       >
-        {displayMenu.map((item, index) =>
-          typeof item !== "object" ? (
-            <Item itemStyle={props.itemStyle} key={index}>
-              {item}
-            </Item>
-          ) : (
-            dealWithObject(item, index)
-          )
-        )}
+        {displayMenu.map((item, index) => (
+          <Item itemStyle={props.itemStyle} key={index}>
+            {item}
+          </Item>
+        ))}
       </Menu>
       {end < alphabet.length && DownArrow && (
         <Down
