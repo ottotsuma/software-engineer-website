@@ -76,6 +76,7 @@ const ObjectItem = styled.div`
   ${(props) => (props.ObjectItem ? props.ObjectItem : "")}
 `;
 
+
 export default function SpinWheel(props) {
   const springArrow = useSpring({
     loop: true,
@@ -84,7 +85,6 @@ export default function SpinWheel(props) {
     config: { clamp: true, mass: 3, tension: 150, friction: 42 },
   });
   const [alphabet, setAlphabet] = useState([]);
-
   useEffect(() => {
     if (props.array) {
       if (!Array.isArray(props.array)) {
@@ -93,7 +93,6 @@ export default function SpinWheel(props) {
       const arrayReplace = [];
       props.array.map((item, index) => {
         if (Array.isArray(item)) {
-          console.log(item)
           const newWheel =  (
             <SpinWheel
               key={`SpinWheel${index}`}
@@ -102,7 +101,7 @@ export default function SpinWheel(props) {
               position: absolute;
               margin-left: 0px;
           `}
-              array={item[index]}
+              array={item}
             />
           );
           arrayReplace.push(
@@ -118,7 +117,8 @@ export default function SpinWheel(props) {
               ObjectItem={props.ObjectItem}
               key={index}
             >
-              {props.name ? props.name : 'More'}
+              {props.name ? props.name : `More ${index}`}
+              {<FontAwesomeIcon icon={faChevronRight}  />}
               {newWheel}
             </ObjectItem>
           );
@@ -136,6 +136,7 @@ export default function SpinWheel(props) {
       setAlphabet(checkedArray);
       updateMenu(checkedArray.slice(start, end));
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const [start, setStart] = useState(0);
@@ -177,15 +178,19 @@ export default function SpinWheel(props) {
     return () => document.removeEventListener("wheel", preventDefault, false);
   }, [inn]);
 
+  const updateInn = (value) => {
+    setInn(value)
+  }
+
   return (
     <Wrap id={props.id || "0"}>
       <Menu
         onWheel={makeNewMenu}
         onMouseEnter={() => {
-          setInn(true);
+          updateInn(true);
         }}
         onMouseLeave={() => {
-          setInn(false);
+          updateInn(false)
         }}
         menuStyle={props.menuStyle}
       >

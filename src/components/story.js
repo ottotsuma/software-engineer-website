@@ -17,11 +17,12 @@ import SpinWheel from './SpinWheel'
 import {droppy} from './Monad/Index'
 
 const alphabet = droppy()
-alphabet.unshift([droppy()])
+alphabet.unshift(droppy())
+alphabet.unshift([<div>1</div>])
 function Story(props) {
   return (
     <div className="Playground">
-      <SpinWheel array={alphabet} name='Monad' />
+      <SpinWheel array={alphabet} />
       <Blackjack />
       <Titles>Book</Titles>
       <a href="Monad/1">Go to story</a>
