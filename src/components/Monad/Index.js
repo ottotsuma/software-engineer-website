@@ -134,7 +134,7 @@ const ChapterList = [
   <SpellsPage />,
 ];
 
-export function droppy() {
+export function droppy(props) {
   let rows = new Array(ChapterList.length).fill(0).map((zero, index) => (
     <Link
       key={index}
@@ -142,6 +142,7 @@ export function droppy() {
       className="dropdown-content-a"
       onClick={() => callBack(index)}
       to={"/Monad/" + (index + 1)}
+      style={props ? props : null}
     >
       Ch {index + 1}
       {ChapterList[index].props.Chapter

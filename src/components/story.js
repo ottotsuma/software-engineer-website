@@ -16,9 +16,11 @@ import styled from 'styled-components'
 import SpinWheel from './SpinWheel'
 import {droppy} from './Monad/Index'
 
-const alphabet = droppy()
-alphabet.unshift(droppy())
-alphabet.unshift([<div>1</div>])
+const linkStyle = {
+width: "100%",
+color: "white",
+}
+const alphabet = droppy(linkStyle)
 function Story(props) {
   return (
     <div className="Playground">
