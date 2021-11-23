@@ -21,6 +21,7 @@ width: "100%",
 color: "white",
 }
 const alphabet = droppy(linkStyle)
+alphabet.unshift([<div>Hello</div>, <div>This</div>, <div>That</div>])
 function Story(props) {
   return (
     <div className="Playground">
