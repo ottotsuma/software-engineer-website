@@ -6,24 +6,25 @@ function Intro(props) {
     <Content>
       <h4>Fight!</h4>
       <p>
-        The days had gone by since I was released. Chu-gong had stayed down
-        there after I left. I didn't offer to meet up with him after, I already
-        had one guy act nice to me just to throw it in my face in the same day.
+        The days had flown by since I was released from holding. Chu-gong was
+        still down there when I left. We did not arrange to meet up after he
+        left, I already had one guy act nice to me when I needed a friend, only
+        to throw it in my face in the same day.
       </p>
       <p>
-        My hands slipped across my robe as I rubbed the sweat off them. I
+        My hands slipped across my robe as I rubbed the sweat from them. I
         thought I knew everything that was going to happen before the battle
-        started, maybe I missed something in that meeting I was removed from but
-        now I stood here in a small cage of earth the overwhelming feeling was
-        that I was not ready.
+        started. Maybe I missed something in that meeting I was removed from,
+        but now stood here in a small cage made of earth, the overwhelming
+        feeling was that I was not ready.
       </p>
       <p>
-        Around were many other similar cages holding other students inside. The
-        earth element was one of the most common elements a mage could get.
-        Since that was the case many of the students, staff and mage-soldiers
-        used this element. There were extensive records though trial and error
-        on what worked best so making these individual sized cages was barely an
-        inconvenience to these train mages.
+        Around were many other similar cages, holding other students inside. The
+        earth element was one of the most common elements, especially in Alden.
+        So many of the students, staff and mage-soldiers had this element. There
+        were extensive records, though trial and error on what spells worked
+        well and what did not. Making these individual sized cages would barely
+        be an inconvenience to these train mages.
       </p>
       <p>
         While waiting one of the kinder teachers stood up on a make-shift podium
