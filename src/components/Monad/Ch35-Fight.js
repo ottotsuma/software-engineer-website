@@ -527,7 +527,7 @@ function Intro(props) {
         held his hand firm clinging to me.
       </p>
       <p>
-        I could not hit him with my shield. I tried to drag him off me,pull his
+        I could not hit him with my shield. I tried to drag him off me, pull his
         hand away but I couldn’t. He held tight.
       </p>
       {/* Garin - guard/metal / Milo - fire / Jarvia - wood/spear */}
