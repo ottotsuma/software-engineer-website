@@ -530,14 +530,27 @@ function Intro(props) {
         I could not hit him with my shield. I tried to drag him off me, pull his
         hand away, but I couldn’t. He held tight. I thought I might breath in
         the water any moment. I slammed my body into the wall trying to shake
-        him off me. I held my breath wondering what Milo & Jarvia were doing this whole time.
+        him off me. I held my breath wondering what Milo & Jarvia were doing
+        this whole time.
       </p>
       <p>
-        I didn't want to do this, but he left me no choice. I broke the metal shield down and let it mix back into my mana inside me. I then pushed the mana though my back and into the boy's body. This was a spell that my family taught me. The metal would wrap the target and push it away from you, guarding you, however each time the target struggled against it it would drain my mana. This was my last resort.
+        I didn't want to do this, but he left me no choice. I broke the metal
+        shield down and let it mix back into my mana inside me. I then pushed
+        the mana though my back and into the boy's body. This was a spell that
+        my family taught me. The metal would wrap the target and push it away
+        from you, guarding you, however each time the target struggled against
+        it it would drain my mana. This was my last resort.
       </p>
       <p>
-        Only being level 1 the force was no that strong but it was enough to help pry him from my face and let me take in a breath of air.
+        Only being level 1 the force was no that strong but it was enough to
+        help pry him from my face and let me take in a breath of air. I felt my
+        mana drain from me for a moment, as the boy pushed back but then it
+        suddenly stopped. Jarvia as stood to his side with a root made spear
+        sitting though his side. "You ran in without informing your team mates.
+        You're lucky I found a root around here." She said to me pulling the
+        spear out of his side, splashing blood on the ground.
       </p>
+      <p></p>
       {/* Garin - guard/metal / Milo - fire / Jarvia - wood/spear */}
       {/* Bruna - Earth */}
       {/* Garin - Guard */}
