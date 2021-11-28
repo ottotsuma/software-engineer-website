@@ -542,15 +542,19 @@ function Intro(props) {
         it it would drain my mana. This was my last resort.
       </p>
       <p>
-        Only being level 1 the force was no that strong but it was enough to
+        Only being level one the force was no that strong but it was enough to
         help pry him from my face and let me take in a breath of air. I felt my
         mana drain from me for a moment, as the boy pushed back but then it
         suddenly stopped. Jarvia as stood to his side with a root made spear
         sitting though his side. "You ran in without informing your team mates.
-        You're lucky I found a root around here." She said to me pulling the
+        You're lucky I found a root around here." She said to me, pulling the
         spear out of his side, splashing blood on the ground.
       </p>
-      <p></p>
+      <p>
+        I wanted to retort, all I could do was breath heavily. Milo was kneeling
+        over the girl, his hand in front of her nose & mouth. "She's not
+        breathing." He said. He was not made for this game.
+      </p>
       {/* Garin - guard/metal / Milo - fire / Jarvia - wood/spear */}
       {/* Bruna - Earth */}
       {/* Garin - Guard */}
