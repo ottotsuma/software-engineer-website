@@ -555,6 +555,7 @@ function Intro(props) {
         over the girl, his hand in front of her nose & mouth. "She's not
         breathing." He said. He was not made for this game.
       </p>
+      <p>"Let's just use this place to sit out the sand storm. I mean, not like they were doing." I joked.</p>
       {/* Garin - guard/metal / Milo - fire / Jarvia - wood/spear */}
       {/* Bruna - Earth */}
       {/* Garin - Guard */}
