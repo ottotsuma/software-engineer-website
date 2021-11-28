@@ -460,10 +460,10 @@ function Intro(props) {
       <p>
         I guess our overseers also thought it was a little to easy. The weather
         was perfectly calm, the undisturbed ecosystem under the blanket cover of
-        tall trees. With no notice, a sandstorm, something
-        unnatural, magical, whipped though the jungle. The fallen pieces crept
-        along the ground like spilled water, as the fierce winds splattered our
-        faces with yellow specks causing us to go blind.
+        tall trees. With no notice, a sandstorm, something unnatural, magical,
+        whipped though the jungle. The fallen pieces crept along the ground like
+        spilled water, as the fierce winds splattered our faces with yellow
+        specks causing us to go blind.
       </p>
       <p>
         Covering our faces with our hands we ran though the jungle seeking
@@ -492,9 +492,9 @@ function Intro(props) {
         There was not much to see in the cave,it was just plain rocks. Maybe
         further down there could be metal deposits. Without an earth-mage
         between us it would be hard to shift though the rock and find anything
-        useful, but any metal would help me. Sitting around waiting out the storm
-        was not productive anyway, and as is known, those who don’t try can never
-        win.
+        useful, but any metal would help me. Sitting around waiting out the
+        storm was not productive anyway, and as is known, those who don’t try
+        can never win.
       </p>
       <p>
         Milo & Jarvia tagged along as I explored deeper into the cave. Non of it
@@ -519,16 +519,24 @@ function Intro(props) {
       </p>
       <p>
         Guard yourself, so that you can enact revenge. Those were my mothers
-        words. Gods only know what words the mother left these two, and the God’s
-        would be the only one’s to know what their thoughts were as I ran and
-        slammed it into them. I smashed the girls head against the rocks at the
-        back of the cave. It cracked and squelched. The boy roared tears and
-        held his hand over my face,pouring water into my eyes, nose and mouth. He
-        held his hand firm clinging to me.
+        words. Gods only know what words the mother left these two, and the
+        God’s would be the only one’s to know what their thoughts were as I ran
+        and slammed it into them. I smashed the girls head against the rocks at
+        the back of the cave. It cracked and squelched. The boy roared tears and
+        held his hand over my face, pouring water into my eyes, nose and mouth.
+        He held his hand firm clinging to me.
       </p>
       <p>
         I could not hit him with my shield. I tried to drag him off me, pull his
-        hand away, but I couldn’t. He held tight.
+        hand away, but I couldn’t. He held tight. I thought I might breath in
+        the water any moment. I slammed my body into the wall trying to shake
+        him off me. I held my breath wondering what Milo & Jarvia were doing this whole time.
+      </p>
+      <p>
+        I didn't want to do this, but he left me no choice. I broke the metal shield down and let it mix back into my mana inside me. I then pushed the mana though my back and into the boy's body. This was a spell that my family taught me. The metal would wrap the target and push it away from you, guarding you, however each time the target struggled against it it would drain my mana. This was my last resort.
+      </p>
+      <p>
+        Only being level 1 the force was no that strong but it was enough to help pry him from my face and let me take in a breath of air.
       </p>
       {/* Garin - guard/metal / Milo - fire / Jarvia - wood/spear */}
       {/* Bruna - Earth */}
