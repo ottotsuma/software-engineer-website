@@ -555,20 +555,15 @@ function Intro(props) {
         over the girl, his hand in front of her nose & mouth. "She's not
         breathing." He said. He was not made for this game.
       </p>
-      <p>"Let's just use this place to sit out the sand storm. I mean, not like they were doing." I joked.</p>
+      <p>
+        "Let's just use this place to sit out the sand storm. I mean, not like
+        they were doing." I joked. It landed flat.
+      </p>
+      <p></p>
       {/* Garin - guard/metal / Milo - fire / Jarvia - wood/spear */}
       {/* Bruna - Earth */}
-      {/* Garin - Guard */}
-      {/* Milo */}
-      {/* Jarvia - Spear */}
-      {/* tracking of students through the jungles */}
-      {/* Dumb 'events' */}
-      {/* Jarvia - spear */}
-      <p>Sandstorms, mutant beasts, floods, care packages.</p>
-      {/* More dumb student banter */}
-      <p>Bets, poop dialog.</p>
-      {/* Cornering students and beating them to death */}
-      <p>Murder, find Kaja.</p>
+      {/* <p>Sandstorms, mutant beasts, floods, care packages.</p> */}
+      {/* <p>Murder, find Kaja.</p> */}
       <div className="BreakPoint"></div>
       <p>Kaja show down and fail</p>
       {/* running away */}
