@@ -559,13 +559,24 @@ function Intro(props) {
         "Let's just use this place to sit out the sand storm. I mean, not like
         they were doing." I joked. It landed flat.
       </p>
-      <p></p>
       {/* Garin - guard/metal / Milo - fire / Jarvia - wood/spear */}
       {/* Bruna - Earth */}
       {/* <p>Sandstorms, mutant beasts, floods, care packages.</p> */}
-      {/* <p>Murder, find Kaja.</p> */}
       <div className="BreakPoint"></div>
-      <p>Kaja show down and fail</p>
+      <p>
+        The first day was the worst. After running into the jungle, I vomited,
+        became dizzy and cried. I just kept thinking 'put one foot in front of
+        the other', careful not to trip and fall on tree roots.
+      </p>
+      <p>
+        The plants that were my height were mostly soft large green foliage, it
+        was easy to run though but made it hard to see far. I didn't rest, when
+        I could not run, I walked.
+      </p>
+      <p>
+        I just kept wanting to get further away. If I couldn't see them when I
+        looked back, they could not see me either.
+      </p>
       {/* running away */}
     </Content>
   );
