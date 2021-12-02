@@ -920,7 +920,7 @@ export const SeaPeople = {
         said standing next to our little rowing boat under her black sun
         umbrella.
       </p>
-      <div className="BreakPoint"></div>
+      <div className="BreakPoint" />
       <p>
         All elves started off in a big forest, thought to be the forest ****.
         There they worshiped the spirits that made up nature, kind of like gods.
@@ -987,7 +987,7 @@ export const SeaPeople = {
         "She kicked him in the nuts. On Earth. Any who..." He knocked on the
         door not giving me time to think about what he had just said.
       </p>
-      <div className="BreakPoint"></div>
+      <div className="BreakPoint" />
       <p>
         The night was really dark. There was no moon in the sky, well moons, on
         this world there were 3. We were rowing in as quick as we could, and as
@@ -1128,7 +1128,7 @@ export const SeaPeople = {
         "The shield. It is a pretty big give away." She replied and closed her
         eyes.
       </p>
-      <div className="BreakPoint"></div>
+      <div className="BreakPoint" />
       <p>
         We had wait for about 20 minutes before the sounds outside were just the
         crash of the waves on the cliffs and the wind running through the gaps.
@@ -1676,7 +1676,7 @@ export const SeaPeople = {
         when we landed, so I just though I'd rest in the cell a little while,
         and I fell asleep.
       </p>
-      <div className="BreakPoint"></div>
+      <div className="BreakPoint" />
       {/* Master = Camazotz, cast out from creation
       
       Chaac *L*

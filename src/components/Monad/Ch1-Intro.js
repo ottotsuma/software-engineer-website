@@ -102,7 +102,7 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             at my head and the sound it gave off blew my ear drums out, there
             was a large flash of light, then nothing.
           </p>
-          <div className="BreakPoint"></div>
+          <div className="BreakPoint" />
           <h3>Steinauhau</h3>
           {/* The Grand Duchy of Alden is home to 3.2 million people */}
           <p>
@@ -168,7 +168,7 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             weapons etc. I wrote down everything I could remember, right up
             until I heard a click then my vision went black.
           </p>
-          <div className="BreakPoint"></div>
+          <div className="BreakPoint" />
           <h3>Michkel</h3>
           {/* <!-- starting with the kids meeting as friends, introduce the town, some news the people, small parts of the world, culture--> */}
           <p>
@@ -261,7 +261,7 @@ most people learn inspect but either see
 - progress bar 
 - use list 
 --> */}
-          <div className="BreakPoint"></div>
+          <div className="BreakPoint" />
           <h3>Play day</h3>
           {/* <!-- Children in the forest --> */}
           <p>
@@ -350,7 +350,7 @@ most people learn inspect but either see
             decade.
           </p> */}
           {/* <!-- around the year 21-22 the rebellion breaks out --> */}
-          <div className="BreakPoint"></div>
+          <div className="BreakPoint" />
           <h3>Incident</h3>
           {/* <!-- redo - as Effie --> */}
           <p>
@@ -453,7 +453,7 @@ most people learn inspect but either see
             details={""}
             name={"Otto"}
           />
-          <div className="BreakPoint"></div>
+          <div className="BreakPoint" />
           <h3>The body</h3>
           <p>
             After hearting the children scream like they where really in trouble
@@ -490,7 +490,7 @@ most people learn inspect but either see
           </div>
           {/* <!-- Lurking in the water is a strange child-sized humanoid that resembles a bizarre cross between a turtle, a lizard, and a monkey. It has a beak-like mouth, scaly reptilian skin, clawed and webbed hands, and a turtle-like shell on its back. In the top of its head is a bowl-like depression filled with water. --> */}
           {/* <!-- https://forgottenrealms.fandom.com/wiki/Kappa --> */}
-          <div className="BreakPoint"></div>
+          <div className="BreakPoint" />
           <h3>Aftermath</h3>
           {/* <!-- punishment --> */}
           {/* <!-- a reflection for some of the others maybe about the deaths? monsters? --> */}
@@ -632,7 +632,7 @@ most people learn inspect but either see
             "Ahahaha, no, no. Don't know much about Rogues do you? Alright let's
             start from the beginning"
           </p>
-          <div className="BreakPoint"></div>
+          <div className="BreakPoint" />
           <h3>Training</h3>
           <p>
             While the other children trained and practiced Beke was taken to one
@@ -770,7 +770,7 @@ most people learn inspect but either see
             in a party. This made humans particularly in large numbers, and
             political environments.
           </p>
-          <div className="BreakPoint"></div>
+          <div className="BreakPoint" />
           <h4>Effi POV</h4>
           <p>
             I had joined the fighter group. I was surprised to see that even the

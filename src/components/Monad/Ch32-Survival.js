@@ -146,7 +146,7 @@ function Intro(props) {
 <li>Magic defense</li> Increases resistance to magic, reduces magic damage taken (%)
 <li>defense</li> Increases resistance to physical damage, reduces physical damage taken (%)
 */}
-          <div className="BreakPoint"></div>
+          <div className="BreakPoint" />
           <p>
             After reading through the book there was some obvious differences
             from the books used in Alden. The stats were called attributes and
@@ -353,7 +353,7 @@ function Intro(props) {
             bring back. Did not think it would be plant monsters but if you say
             so." He replied.
           </p>
-          <div className="BreakPoint"></div>
+          <div className="BreakPoint" />
           <p>
             He did as he said he would, sneaking me out of the academy and
             taking me deep into the jungle. I thought they would search him as
@@ -663,7 +663,7 @@ function Intro(props) {
             ]}
             type={"mage"}
           />
-          <div className="BreakPoint"></div>
+          <div className="BreakPoint" />
           {/* Human skills, but also could have God based skills and passives. The snake ones looked good. */}
           <Spells
             spells={[

@@ -5,7 +5,7 @@ function Intro(props) {
 return (
 <Content>
 <SeaPeopleFunction Chapter={9} />
-<div className="BreakPoint"></div>
+<div className="BreakPoint" />
     <h4>Elite 4</h4>
 </Content>
 );

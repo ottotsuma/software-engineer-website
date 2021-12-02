@@ -55,7 +55,7 @@ export default function Vampire() {
       {/* 
       https://my-vampire-system.fandom.com/wiki/Quinn_Talen/Abilities
       */}
-      <div className="BreakPoint"></div>
+      <div className="BreakPoint" />
       <h1>Vampire specific skills (Blood + Other)</h1>
       <Spells
         spells={[

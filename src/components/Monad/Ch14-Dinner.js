@@ -7,7 +7,7 @@ function Intro(props) {
       <div className="Frame">
         <div className="Content">
           <SeaPeopleFunction Chapter={5} />
-        <div className="BreakPoint"></div>
+        <div className="BreakPoint" />
           <h4>Dinner</h4>
           <p>
             Otto could not help but stop listening to the conversation, his eyes

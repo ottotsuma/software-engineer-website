@@ -98,7 +98,7 @@ function Intro(props) {
             upcoming event is .... Otto." Lubin placed his hands down by his
             side.
           </p>
-          <div className="BreakPoint"></div>
+          <div className="BreakPoint" />
           <p>
             After class Lubin kept me behind saying he was going to explain what
             was to happen. Since I was elected class champion it came as no
@@ -370,7 +370,7 @@ function Intro(props) {
             about my prospects we left leaving behind instructions to inform
             Lubin I would be taking part.
           </p>
-          <div className="BreakPoint"></div>
+          <div className="BreakPoint" />
           {/* <p>Kaja, Fire-mage, First year, Fireball, flame cloak, (Soldenheim), (Dead mother, ), (Join military as a fire mage), (Equipment/spells/stats?), Reason for being elected Champion: Likely to win. Strong combatant and adaptable. Combat class, elected because of the influence of bitches. Bullied throughout the year by the girls from Haisengen and nearby cities for being too manly.</p> */}
           <p>Today I received a letter from my farther in Soldenheim.</p>
           <p id="Fancy">Hey Zwetchenkuchen,</p>

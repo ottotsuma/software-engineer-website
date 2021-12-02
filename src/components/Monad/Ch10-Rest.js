@@ -124,7 +124,7 @@ function Rest(props) {
               Meet me in my room, I made a break through in the language.
             </p>
           </div>
-          <div className="BreakPoint"></div>
+          <div className="BreakPoint" />
           <SeaPeopleFunction Chapter={2} />
         </div>
       </div>

@@ -7,7 +7,7 @@ function Intro(props) {
     <Content>
       <h4>Juice Up</h4>
       <SeaPeopleFunction Chapter={8} />
-      <div className="BreakPoint"></div>
+      <div className="BreakPoint" />
       <h4>The Nobles</h4>
       {/* Nobles argue */}
       {/* Leikans leave */}

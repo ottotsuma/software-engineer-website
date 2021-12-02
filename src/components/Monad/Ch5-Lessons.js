@@ -329,7 +329,7 @@ function Lessons(props) {
             her bags the last item being the book on her desk she was talking
             about.
           </p>
-          <div className="BreakPoint"></div>
+          <div className="BreakPoint" />
 
           <p>Later out in front of the cliff side.</p>
           <Stats
@@ -366,7 +366,7 @@ function Lessons(props) {
             ]}
             type={"mage"}
           />
-          <div className="BreakPoint"></div>
+          <div className="BreakPoint" />
           <p>
             "What's that face?" Tisiel asked walking out from the large door
             embedded into the cliff.

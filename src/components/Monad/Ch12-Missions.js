@@ -161,7 +161,7 @@ function Intro(props) {
             name={"Mutt's Mitt's"}
             rating={"junk"}
           />
-          <div className="BreakPoint"></div>
+          <div className="BreakPoint" />
           <SeaPeopleFunction Chapter={3} />
         </div>
       </div>

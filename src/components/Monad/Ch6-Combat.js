@@ -208,7 +208,7 @@ function Combat(props) {
             plan I greeted Daniel with a smile and a bow. Daniel bowed back and
             we made our way into the area.
           </p>
-          <div className="BreakPoint"></div>
+          <div className="BreakPoint" />
           <p>
             It was hot, too hot. The moment we stepped out I could feel my face
             starting to sweat, the crowd where shouting on their friends and now
@@ -247,7 +247,7 @@ function Combat(props) {
             great pain in my feet and legs as an earth spike shot out of the
             ground and sent me flying. The match was over.
           </p>
-          <div className="BreakPoint"></div>
+          <div className="BreakPoint" />
           <p>
             Waking in an unfamiliar bed with bright white light shining into my
             eyes, I reached my hand to cover my face from the brightness and

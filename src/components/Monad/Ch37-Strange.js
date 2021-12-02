@@ -73,7 +73,7 @@ function Intro(props) {
         points of course. Just a little something to keep in mind before a life
         and death situation."
       </p>
-      <div className="BreakPoint"></div>
+      <div className="BreakPoint" />
       <SeaPeopleFunction Chapter={7} />
     </Content>
   );

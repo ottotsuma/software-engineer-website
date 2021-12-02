@@ -81,7 +81,7 @@ function Duel(props) {
         me?
       </p>
       <p>I really miss my dad.</p>
-      <div className="BreakPoint"></div>
+      <div className="BreakPoint" />
       <p>
         I needed to get stronger. I could not make the excuse he was a third
         year and had a higher level then me and better equipment. Third years
@@ -293,7 +293,7 @@ function Duel(props) {
         restricted for students and left me there!
       </p>
       <p>I suppose it matters little if I die in a cell or the jungle.</p>
-      <div className="BreakPoint"></div>
+      <div className="BreakPoint" />
       <p>
         It had been hours and I felt like my night would end there so I went to
         sleep. They didn't even send me food. They were suppose to take care of

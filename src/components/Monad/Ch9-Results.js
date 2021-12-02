@@ -298,7 +298,7 @@ Reingard". boy - alden likes Tisiel Skivali  becomes tank --> */}
             badly I decided to head back to the cliff side. I would try them
             another day.
           </p>
-          <div className="BreakPoint"></div>
+          <div className="BreakPoint" />
           <SeaPeopleFunction Chapter={1} />
         </div>
       </div>

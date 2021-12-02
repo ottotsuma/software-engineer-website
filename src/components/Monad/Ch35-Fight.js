@@ -113,7 +113,7 @@ function Intro(props) {
         on in front of the other and ran into the tree line and deep into the
         jungle. I told myself over and over, 'don't stop'.
       </p>
-      <div className="BreakPoint"></div>
+      <div className="BreakPoint" />
       <p>
         {/* 'Fans' making bets and saying the most retarded things you can think of */}
         "Did you see that!? That blonde girl almost died without doing anything.
@@ -171,7 +171,7 @@ function Intro(props) {
         "Honestly, it's all kind of alien to us. But I want in, help me place a
         bet." The teacher replied.
       </p>
-      <div className="BreakPoint"></div>
+      <div className="BreakPoint" />
       {/* Going for a 3rd party viewer, history style because of the people watching the game. */}
       <p>
         Garin had gathered a small group around him. Fighting alone, even the
@@ -562,7 +562,7 @@ function Intro(props) {
       {/* Garin - guard/metal / Milo - fire / Jarvia - wood/spear */}
       {/* Bruna - Earth */}
       {/* <p>Sandstorms, mutant beasts, floods, care packages.</p> */}
-      <div className="BreakPoint"></div>
+      <div className="BreakPoint" />
       <p>
         The first day was the worst. After running into the jungle, I vomited,
         became dizzy and cried. I just kept thinking 'put one foot in front of
@@ -575,7 +575,7 @@ function Intro(props) {
       </p>
       <p>
         I just kept wanting to get further away. If I couldn't see them when I
-        looked back, they could not see me either.
+        looked back, they could not see me either. 
       </p>
       {/* running away */}
     </Content>
