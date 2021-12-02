@@ -575,7 +575,10 @@ function Intro(props) {
       </p>
       <p>
         I just kept wanting to get further away. If I couldn't see them when I
-        looked back, they could not see me either. 
+        looked back, they could not see me either. The further I got from the
+        middle the safer I felt. It was silly really, no where was really safe.
+        I guess my best outcome is to hope I run into no one else until near the
+        end so my chances of being saved by professor Farald are higher.
       </p>
       {/* running away */}
     </Content>
