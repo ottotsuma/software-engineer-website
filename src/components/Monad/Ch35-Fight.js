@@ -580,6 +580,7 @@ function Intro(props) {
         I guess my best outcome is to hope I run into no one else until near the
         end, so my chances of being saved by professor Farald are higher.
       </p>
+      <p></p>
       {/* running away */}
     </Content>
   );
