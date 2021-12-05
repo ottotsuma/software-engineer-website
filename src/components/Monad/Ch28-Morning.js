@@ -1,6 +1,6 @@
 import React from "react";
 import Stats from "./../elements/stats";
-import Title, {Shine} from './../elements/title'
+import Title, { Shine } from "./../elements/title";
 import LevelUp from "./../elements/levelup";
 import SpellCards from "./SpellCards";
 
@@ -241,11 +241,11 @@ function Intro(props) {
             Lightning harvest.
           </p>
           {SpellCards([
-          ["Lightning germination", 1, "lightning"],
-          ["Seeds to soldiers", 1, "wood"],
-          ["Lightning growth", 1, "lightning"],
-          ["Lightning harvest", 1, "lightning"]
-        ])}
+            ["Lightning germination", 1, "lightning"],
+            ["Seeds to soldiers", 1, "wood"],
+            ["Lightning growth", 1, "lightning"],
+            ["Lightning harvest", 1, "lightning"],
+          ])}
           <p>
             What shocked me more when I finally looked through the descriptions
             was the strange things they did. Kʼawiil might have lighting powers
@@ -304,9 +304,9 @@ function Intro(props) {
             While I stood there in my frustration I failed the notice the crow
             turn towards me and attempt a dive bomb into me. Flying downwards at
             great speed with its beak ready to pierce me. I jumped out the way
-            at the last moment, <Shine>*Ping*</Shine>, exp + 1. The crow had died mid flight
-            and then crashed into the ground. At least it's body will help the
-            seeds grow.
+            at the last moment, <Shine>*Ping*</Shine>, exp + 1. The crow had
+            died mid flight and then crashed into the ground. At least it's body
+            will help the seeds grow.
           </p>
           <p>
             I kept finding three-legged crows and shooting lighting seeds at
@@ -355,21 +355,22 @@ function Intro(props) {
           </p>
           <p>
             I genuinely considered it, I had strange farming spells that would
-            put me in a specialty. I also had the inspect skill so
-            I could check the durability of all the tools that needed to be
-            used. Then I would go back to killing pests.
+            put me in a specialty. I also had the inspect skill so I could check
+            the durability of all the tools that needed to be used. Then I would
+            go back to killing pests.
           </p>
           <LevelUp
-        level={5}
-        race={"normal"}
-        class={"legendary"}
-        type={"mage"}
-        details={""}
-        name={"Otto"}
-      />
+            level={5}
+            race={"normal"}
+            class={"legendary"}
+            type={"mage"}
+            details={""}
+            name={"Otto"}
+          />
           <p>
-            I had reached level 2 a while ago, I just never told anyone hoping to get more
-            experience. After reaching level 5 the exp gained from the pests had seriously dropped and I became bored.
+            I had reached level 2 a while ago, I just never told anyone hoping
+            to get more experience. After reaching level 5 the exp gained from
+            the pests had seriously dropped and I became bored.
           </p>
           {/* Lets stick with the plan of more spell points instead of stats. And use passives to increase the stats? Or items. */}
           {/* Germination normally done with fire mages, takes ages. Ice mages to store them. (Other jobs include packing and shipping food.) */}
@@ -406,20 +407,22 @@ function Intro(props) {
             */}
           <p>
             I had way more spell points to spend then even when I was level 14
-            before, but the stat points remained the same. Increasing my magic was obvious choice every level. It
-            increased the power of my lighting seeds, but what to do with the
-            rest? I also need to pick some new spells. I had to get
-            'Seeds to Soldiers'. The other spells I thought about before, did I
-            really want to get the spells that helped with farming...
+            before, but the stat points remained the same. Increasing my magic
+            was obvious choice every level. It increased the power of my
+            lighting seeds, but what to do with the rest? I also need to pick
+            some new spells. I had to get 'Seeds to Soldiers'. The other spells
+            I thought about before, did I really want to get the spells that
+            helped with farming...
           </p>
           {/* decided to put 5 points into Vitality, staying alive was a
             must after all. For now, my opponents are crows, rats and other pests
             so that is fine.  */}
           <p>
-            Ah screw it, I'll get the farming spells, I have more then enough points. If I join the military I
-            can just say they are survival skills.. Lightning germination,
-            growth and harvest. This better be worth it. Now I had the spells
-            unlocked I could read their description in full.
+            Ah screw it, I'll get the farming spells, I have more then enough
+            points. If I join the military I can just say they are survival
+            skills.. Lightning germination, growth and harvest. This better be
+            worth it. Now I had the spells unlocked I could read their
+            description in full.
           </p>
           {/*  Apart from lightning seeds, there was also:
             Lightning germination, Seeds to soldiers, Lightning growth,
