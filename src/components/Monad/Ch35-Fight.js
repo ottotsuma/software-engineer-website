@@ -581,6 +581,7 @@ function Intro(props) {
         end, so my chances of being saved by professor Farald are higher.
       </p>
       <p></p>
+      {/* Plan x-mas 25th for Tsuma. The 24th is the meal it seems. */}
       {/* running away */}
     </Content>
   );
