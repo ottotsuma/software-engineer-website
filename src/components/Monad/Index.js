@@ -62,10 +62,10 @@ const Buttons = styled.button`
 const ChapterContainer = styled.div`
 max-width: 100%;
 max-height: 100%;
-background: ${props => props.darkMode ? 'black' : `linear-gradient(0deg, rgba(34,89,195,0.7) 9%, rgba(45,253,209,0.3) 100% )`};
+background: ${props => props.darkMode ? '#474747' : `linear-gradient(0deg, rgba(34,89,195,0.7) 9%, rgba(45,253,209,0.3) 100% )`};
 `
 const StyledArticle = styled.article`
-color: ${props => props.darkMode ? 'white' : `black`};
+color: ${props => props.darkMode ? '#CCCCCC' : `#1A1A1A`};
 `
 
 
