@@ -1,6 +1,7 @@
 // Events starts and we follow Kaja through the event
 import React from "react";
 import { Content } from "./styles";
+import {Otto, Lubin, Arrilian, Jarvia, Kaja} from './CharacterFonts'
 function Intro(props) {
   return (
     <Content>
@@ -563,25 +564,24 @@ function Intro(props) {
       {/* Bruna - Earth */}
       {/* <p>Sandstorms, mutant beasts, floods, care packages.</p> */}
       <div className="BreakPoint" />
-      <p>
+      <Kaja>
         The first day was the worst. After running into the jungle, I vomited,
         became dizzy and cried. I just kept thinking 'put one foot in front of
         the other', careful not to trip and fall on tree roots.
-      </p>
-      <p>
+      </Kaja>
+      <Kaja>
         The plants that were my height were mostly soft large green foliage, it
         was easy to run though but made it hard to see far. I didn't rest, when
         I could not run, I walked.
-      </p>
-      <p>
+      </Kaja>
+      <Kaja>
         I just kept wanting to get further away. If I couldn't see them when I
         looked back, they could not see me either. The further I got from the
         middle, the safer I felt. It was silly really, no where was really safe.
         I guess my best outcome is to hope I run into no one else until near the
         end, so my chances of being saved by professor Farald are higher.
-      </p>
-      <p></p>
-      {/* Plan x-mas 25th for Tsuma. The 24th is the meal it seems. */}
+      </Kaja>
+      <Kaja></Kaja>
       {/* running away */}
     </Content>
   );

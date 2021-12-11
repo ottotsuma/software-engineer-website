@@ -10,6 +10,7 @@ import Equipment from "./../elements/equipment";
 import Stats from "./../elements/stats";
 import Spells from "./../elements/spells";
 import Blood from "./../../assets/Blood.jpg";
+import {Sarah} from "./CharacterFonts"
 
 export const Shine = styled.p`
   font-size: xxx-large;
