@@ -44,7 +44,7 @@
   margin: 0;
   padding: 0;
   /* word-break: break-word; */
-  font-family: "Yusei Magic", sans-serif;
+  /* font-family: "Yusei Magic", sans-serif; */
 }
 
 /* Remove? */
@@ -210,11 +210,6 @@ ul {
   margin-right: 4%;
   font-size: large;
   overflow-x: none;
-}
-
-.Monad p {
-  padding: 1%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .Monad h3 {

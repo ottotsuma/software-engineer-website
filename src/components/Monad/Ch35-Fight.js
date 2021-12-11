@@ -1,7 +1,7 @@
 // Events starts and we follow Kaja through the event
 import React from "react";
 import { Content } from "./styles";
-import {Otto, Lubin, Arrilian, Jarvia, Kaja} from './CharacterFonts'
+import {Otto, Lubin, Arrilian, Jarvia, Kaja, Garin, Milo} from './CharacterFonts'
 function Intro(props) {
   return (
     <Content>
@@ -182,13 +182,6 @@ function Intro(props) {
         odd's at winning.
       </p>
       <p>
-        Garin had gathered a small group around him. Fighting alone, even the
-        strongest would lose a fight to a group of people. Forming alliances are
-        an important aspect of survival, by helping each other stay alive they
-        eliminate small groups of competitors around them giving them better
-        odd's at winning.
-      </p>
-      <p>
         While Garin was considered the strongest mage in the group, the other
         members were no burdens. Once the list of odd's was posted and bets
         started to be made, this group started to form of students likely to
@@ -221,44 +214,46 @@ function Intro(props) {
       <p>
         How many had run into the woods? How many had died running there? How
         many had stayed to fight? No one knew right now. It was safe to say more
-        then half of those who had entered were morbid decorations now.
+        then half of those who had entered were morbid decorations now. 
       </p>
       <p>
-        Jarvia was the first to speak. "The rest ran into the woods. We should
+        Jarvia was the first to speak.</p>
+      <Jarvia>
+        "The rest ran into the woods. We should
         hunt down as many as we can before they form groups."
-      </p>
-      <p>
+      </Jarvia>
+      <Milo>
         "Shouldn't we rest? I mean look..." Milo replied trailing off into a
         blank stare across the field.
-      </p>
-      <p>
+      </Milo>
+      <Garin>
         "The longer we rest, the more they rest. Do you want to be a burn to the
         group?" Garin added.
-      </p>
+      </Garin>
       <p>"It was just a suggestion." Milo replied.</p>
-      <p>
+      <Garin>
         "Don't worry so much. Although that fight was hard, now they are alone.
         The one's who ran at the start were cowards. Now we can hunt them down
         leisurely and have some fun." Garin laughed.
-      </p>
-      <p>
+      </Garin>
+      <Jarvia>
         "I want to say don't underestimate a foe but even I agree those who did
         not fight here are just cowards. It will be easy for us to clean up."
         Jarvia smirked.
-      </p>
+      </Jarvia>
       <p>
         Garin checked his status. 30% HP and almost depleted all my mana. I'll
         make Milo take care of the weak ones while I recover. I can't let Jarvia
         know I'm weak right now.
       </p>
-      <p>
+      <Garin>
         The moment we left the center the air air felt fresher, less humid. I
         felt dizzy suddenly. Hot bile bubbled up from my core, coating my
         tongue. I couldn't hold it in and vomited onto the floor. Jarvia stared
         at me, so I spoke between breaths. "The jungle really smells." She
         didn't reply first, Bruna did who had been quiet up until now. She also
         spewed hot sick onto a fern.
-      </p>
+      </Garin>
       <p>
         "Mmm" Milo hummed. He was pale but that was it. I spat on the ground and
         walked forward my head up high. The jungle was free and wild, the canopy
@@ -266,20 +261,20 @@ function Intro(props) {
         Small plants brushed up against our ankles. Our robes kept all other
         wandering feelers of the jungle from our skin, aside from the bugs.
       </p>
-      <p>
+      <Garin>
         The small flying bugs would find their way to biting and stinging us no
         matter the location. Bruna wasted mana batting them away from her until
         she was reprimanded by Jarvia. I could see how it was, the girls were
         going to stick together in the end. Maybe I shouldn't tire Milo out too
         much.
-      </p>
-      <p>
+      </Garin>
+      <Garin>
         The first person we found who had run from the start had become
         nourishment for a swarm of green flying beetles. They were each the side
         of an adults hand and crawled across his body ripping off chunks of
         flesh and bone in their pincers. The sound squished like stepping in on
         wet moss before an abrupt loud crunching sound.
-      </p>
+      </Garin>
       <p>
         The teachers had told us they would clear up the worst and largest of
         the monsters but would and could not keep all of them out. We were lucky
@@ -556,10 +551,10 @@ function Intro(props) {
         over the girl, his hand in front of her nose & mouth. "She's not
         breathing." He said. He was not made for this game.
       </p>
-      <p>
+      <Garin>
         "Let's just use this place to sit out the sand storm. I mean, not like
         they were doing." I joked. It landed flat.
-      </p>
+      </Garin>
       {/* Garin - guard/metal / Milo - fire / Jarvia - wood/spear */}
       {/* Bruna - Earth */}
       {/* <p>Sandstorms, mutant beasts, floods, care packages.</p> */}
@@ -581,7 +576,9 @@ function Intro(props) {
         I guess my best outcome is to hope I run into no one else until near the
         end, so my chances of being saved by professor Farald are higher.
       </Kaja>
-      <Kaja></Kaja>
+      <Kaja>
+        
+      </Kaja>
       {/* running away */}
     </Content>
   );

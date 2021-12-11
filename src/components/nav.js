@@ -71,4 +71,5 @@ align-items: center;
 justify-content: space-evenly;
 padding: 1vh;
 background: #0d89eb;
+font-family: "Yusei Magic", sans-serif;
 `

@@ -48,6 +48,12 @@ export const Daniel = styled.p`
 export const Kaja = styled.p`
   font-family: "Yusei Magic", sans-serif;
 `;
+export const Milo = styled.p`
+  font-family: "Yusei Magic", sans-serif;
+`;
+export const Garin = styled.p`
+  font-family: "Yusei Magic", sans-serif;
+`;
 export const Linhart = styled.p`
   font-family: "Yusei Magic", sans-serif;
 `;

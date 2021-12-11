@@ -651,6 +651,7 @@ const GlassWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Yusei Magic", sans-serif;
 `;
 
 const Glass = styled(animated.div)`
