@@ -55,7 +55,20 @@ const Buttons = styled.button`
   outline: none;
   padding: 0;
   font-family: "Yusei Magic", sans-serif;
+  color: ${props => props.darkMode ? 'white' : 'black'};
+  background-color: ${props => props.darkMode ? 'white' : ''};
 `;
+
+const ChapterContainer = styled.div`
+max-width: 100%;
+max-height: 100%;
+background: ${props => props.darkMode ? 'black' : `linear-gradient(0deg, rgba(34,89,195,0.7) 9%, rgba(45,253,209,0.3) 100% )`};
+`
+const StyledArticle = styled.article`
+color: ${props => props.darkMode ? 'white' : `black`};
+`
+
+
 
 const scrollTop = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
@@ -159,6 +172,10 @@ export function myFunction() {
 }
 
 export default function Monad(params) {
+  const [darkMode, setDarkMode] = useState(false)
+  function updateDarkMode ()  {
+    setDarkMode(!darkMode)
+  }
   const [isPage, setPage] = useState("");
   const synth = window.speechSynthesis;
   let flag = false;
@@ -223,13 +240,21 @@ export default function Monad(params) {
 
   if (number === ChapterList.length) {
     return (
-      <div className="Chapter-Container">
+      <ChapterContainer darkMode={darkMode}>
+        <Buttons darkMode={darkMode} onClick={() => updateDarkMode()} id='darkMode' style={{
+              background: "none",
+              border: "none",
+              cursor: "pointer",
+              outline: "none",
+              height: "48px",
+              padding: 0,
+            }}>Toggle Dark Mode</Buttons>
         {"speechSynthesis" in window && <div className="buttons">
           <Buttons
           onClick={() => onClickPlay()}
             id="play"
+            darkMode={darkMode}
             style={{
-              background: "none",
               border: "none",
               cursor: "pointer",
               outline: "none",
@@ -244,8 +269,8 @@ export default function Monad(params) {
           <Buttons
           onClick={() => onClickPause()}
             id="pause"
+            darkMode={darkMode}
             style={{
-              background: "none",
               border: "none",
               cursor: "pointer",
               outline: "none",
@@ -260,8 +285,8 @@ export default function Monad(params) {
           <Buttons
           onClick={() => onClickStop()}
             id="stop"
+            darkMode={darkMode}
             style={{
-              background: "none",
               border: "none",
               cursor: "pointer",
               outline: "none",
@@ -289,7 +314,7 @@ export default function Monad(params) {
             {droppy()}
           </div>
         </div> */}
-        <article>{isPage}</article>
+        <StyledArticle darkMode={darkMode}>{isPage}</StyledArticle>
         <Link
           className="Footer-Button"
           id="Previous"
@@ -301,17 +326,25 @@ export default function Monad(params) {
         <button className="Footer-Button" onClick={() => scrollTop()}>
           Top
         </button>
-      </div>
+      </ChapterContainer>
     );
   } else if (number > 1) {
     return (
-      <div className="Chapter-Container">
+      <ChapterContainer darkMode={darkMode}>
+        <Buttons darkMode={darkMode} onClick={() => updateDarkMode()} id='darkMode' style={{
+              background: "none",
+              border: "none",
+              cursor: "pointer",
+              outline: "none",
+              height: "48px",
+              padding: 0,
+            }}>Toggle Dark Mode</Buttons>
         {"speechSynthesis" in window && <div className="buttons">
           <Buttons
+          darkMode={darkMode}
           onClick={() => onClickPlay()}
             id="play"
             style={{
-              background: "none",
               border: "none",
               cursor: "pointer",
               outline: "none",
@@ -326,8 +359,8 @@ export default function Monad(params) {
           <Buttons
           onClick={() => onClickPause()}
             id="pause"
+            darkMode={darkMode}
             style={{
-              background: "none",
               border: "none",
               cursor: "pointer",
               outline: "none",
@@ -342,8 +375,8 @@ export default function Monad(params) {
           <Buttons
           onClick={() => onClickStop()}
             id="stop"
+            darkMode={darkMode}
             style={{
-              background: "none",
               border: "none",
               cursor: "pointer",
               outline: "none",
@@ -378,7 +411,7 @@ export default function Monad(params) {
         >
           Next
         </Link>
-        <article>{isPage}</article>
+        <StyledArticle darkMode={darkMode}>{isPage}</StyledArticle>
         <Link
           className="Footer-Button"
           id="Previous"
@@ -398,17 +431,25 @@ export default function Monad(params) {
         >
           Next
         </Link>
-      </div>
+      </ChapterContainer>
     );
   } else {
     return (
-      <div className="Chapter-Container">
+      <ChapterContainer darkMode={darkMode}>
+        <Buttons darkMode={darkMode} onClick={() => updateDarkMode()} id='darkMode' style={{
+              background: "none",
+              border: "none",
+              cursor: "pointer",
+              outline: "none",
+              height: "48px",
+              padding: 0,
+            }}>Toggle Dark Mode</Buttons>
         {"speechSynthesis" in window && <div className="buttons">
           <Buttons
           onClick={() => onClickPlay()}
             id="play"
+            darkMode={darkMode}
             style={{
-              background: "none",
               border: "none",
               cursor: "pointer",
               outline: "none",
@@ -423,8 +464,8 @@ export default function Monad(params) {
           <Buttons
           onClick={() => onClickPause()}
             id="pause"
+            darkMode={darkMode}
             style={{
-              background: "none",
               border: "none",
               cursor: "pointer",
               outline: "none",
@@ -439,8 +480,8 @@ export default function Monad(params) {
           <Buttons
           onClick={() => onClickStop()}
             id="stop"
+            darkMode={darkMode}
             style={{
-              background: "none",
               border: "none",
               cursor: "pointer",
               outline: "none",
@@ -467,7 +508,7 @@ export default function Monad(params) {
         >
           Next
         </Link>
-        <article>{isPage}</article>
+        <StyledArticle darkMode={darkMode}>{isPage}</StyledArticle>
         <button className="Footer-Button" onClick={() => scrollTop()}>
           Top
         </button>
@@ -478,7 +519,7 @@ export default function Monad(params) {
         >
           Next
         </Link>
-      </div>
+      </ChapterContainer>
     );
   }
 }

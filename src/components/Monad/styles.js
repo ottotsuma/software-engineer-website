@@ -6,7 +6,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 
-color: black;
+// color: black;
 margin-left: 4%;
 margin-right: 4%;
 font-size: large;
