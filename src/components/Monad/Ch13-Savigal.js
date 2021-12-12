@@ -10,32 +10,32 @@ function Intro(props) {
         <div className="Content">
           <h4>Savigal</h4>
           <Otto>
-            Savigal port was so small it did not even have a market worth a
-            mention, just ships and merchants setting up on wooden crates or out
-            the back of the wagons, no real stalls. The port had 2 ships in
+            Savigal port was so small, it did not even have a market worth a
+            mention. Just ships and merchants. The merchants set their goods up
+            on wooden crates or out the back of the wagons, no real stalls, but
+            I was hungry and not about to complain. The port had 2 ships in
             dock, a small cog with one sail. The other was a Hatalia ship, a
-            balinger with a single mast with many holes for oars although they
-            where closed right now, I could only tell it was from Hatalia
-            because of the flag flown from the rear of the ship, it was unlikely
-            they built the ship themselves, Hatalia's navy might be as large as
-            Aldens but they where a much larger country. Hatalian's brought
-            their ships from Chalbia.
+            balinger with a single mast with many holes for oars. Although the
+            sails were closed right now, I could only tell it was from The
+            Kingdom of Hatalia because of the flag flown from the rear of the
+            ship. It was unlikely they built the ship themselves, The kingdoms's
+            navy might be as large as Aldens but they brought their ships from
+            Chalbia.
           </Otto>
+          <p>
+            I made my way through the small market place buying fruits, I always
+            had a thing for fruits. I had traveling funds and it'
+            nice to try new things. After shopping I went to the office
+            building, normally a small town like this would use the village hall
+            for any government administration, but since Savigal was a port town
+            capable of being used during times of war it had a government office
+            building here. All I had to do was take my ID and mission slip in
+            and in return they informed the bathhouse. While I waited for the
+            sun go to down, since the mission was to take place just after the
+            sun sets, I rested in the large tavern.
+          </p>
 
-          {/* -- re do  */}
-          {/* <p>
-            I made my way through the small market place buying fruits and
-            rations for the trip back, I could make the trip in 2 days and rest
-            at a town each night so I did not need much, but when traveling and
-            with the funds to do so it' nice to try new things. After shopping I
-            went to the office building, normally a small town like this would
-            use the village hall for any government administration, but since
-            Savigal was a port town capable of being used during times of war it
-            had a government office building here. All I had to do was take my
-            ID and mission slip in and in return they informed the bathhouse.
-            While I waited for the sun go to down since the mission was to take
-            place just after the sun sets I rested in the rather large tavern.
-          </p> */}
+          {/* I could make the trip in 2 days and rest at a town each night so I did not need much, */}
           <p>
             Just after the sun set I made my way to the bath house, waiting for
             me was an elderly woman, hunched over a small cane in her hand she
@@ -116,7 +116,7 @@ function Intro(props) {
             would drown that embarrassment in drink.
           </p>
 
-{/* Days in the village? */}
+          {/* Days in the village? - re do*/}
           <h4>side quest</h4>
           <p>
             Just as I was getting my first drink the bar tender handed me a
@@ -166,8 +166,8 @@ function Intro(props) {
 
           <p>
             "Ah well I know it's not part of the request I sent to the academy,
-            but would you lightning a manaball here also? Just to help out an old
-            women, no one wants to be bitten by those nasty thing."
+            but would you lightning a manaball here also? Just to help out an
+            old women, no one wants to be bitten by those nasty thing."
           </p>
 
           <p>"Yeah alright." I lit up the stone totem from the inside.</p>
@@ -289,7 +289,6 @@ function Intro(props) {
             too long."
           </p>
 
-          {/* Banderedam Part 2 */}
           <h4>Banderedam Part 2</h4>
           {/* <!-- Town - Talk to Leon and his sister, who gives Otto the mask he found in the forest. --> */}
           <p>

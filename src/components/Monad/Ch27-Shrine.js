@@ -130,7 +130,7 @@ function Intro(props) {
             this for each of the elements and one final set of pure life
             elemental, after a lot of fighting and exchanges of money and land.
             Alden holds the metal set, Huonhia the water set, Leika the wood
-            set, Hatalia the fire set, Chingaling the earth set, leaving the
+            set, The Kingdom of Hatalia the fire set, Chingaling the earth set, leaving the
             final set of pure life in Utnaulach at the academy. What you have
             given me is too much, but I cannot say no... The sets are used to
             research the abilities on them, they are worth starting wars over."
