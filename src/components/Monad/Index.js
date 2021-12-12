@@ -172,7 +172,7 @@ export function myFunction() {
 }
 
 export default function Monad(params) {
-  const [darkMode, setDarkMode] = useState(false)
+  const [darkMode, setDarkMode] = useState(true)
   function updateDarkMode ()  {
     setDarkMode(!darkMode)
   }
