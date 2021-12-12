@@ -1,6 +1,7 @@
 import React from "react";
 import Item from "./../elements/item";
 import SeaPeopleFunction from "./SeaPeople";
+import { Otto } from "./CharacterFonts";
 
 function Intro(props) {
   return (
@@ -8,7 +9,7 @@ function Intro(props) {
       <div className="Frame">
         <div className="Content">
           <h4>Savigal</h4>
-          <p>
+          <Otto>
             Savigal port was so small it did not even have a market worth a
             mention, just ships and merchants setting up on wooden crates or out
             the back of the wagons, no real stalls. The port had 2 ships in
@@ -19,9 +20,10 @@ function Intro(props) {
             they built the ship themselves, Hatalia's navy might be as large as
             Aldens but they where a much larger country. Hatalian's brought
             their ships from Chalbia.
-          </p>
+          </Otto>
 
-          <p>
+          {/* -- re do  */}
+          {/* <p>
             I made my way through the small market place buying fruits and
             rations for the trip back, I could make the trip in 2 days and rest
             at a town each night so I did not need much, but when traveling and
@@ -33,9 +35,7 @@ function Intro(props) {
             ID and mission slip in and in return they informed the bathhouse.
             While I waited for the sun go to down since the mission was to take
             place just after the sun sets I rested in the rather large tavern.
-          </p>
-
-          {/* <h4>The bath houses</h4> */}
+          </p> */}
           <p>
             Just after the sun set I made my way to the bath house, waiting for
             me was an elderly woman, hunched over a small cane in her hand she
@@ -59,8 +59,8 @@ function Intro(props) {
 
           <p>
             "Don't worry the only danger to your mission is making it all the
-            way out here, the task of putting up mana-balls should be simple
-            really. Follow me I just need you to put lightning-mana balls inside
+            way out here, the task of putting up manaballs should be simple
+            really. Follow me I just need you to put lightning-manaballs inside
             these stone totems. Should keep those damned things away. What you
             doing back there don't be shy the bathhouse is empty tonight."
           </p>
@@ -72,12 +72,20 @@ function Intro(props) {
           <p>"Yes Ma`am."</p>
 
           <p>
-            The mission was really short, after putting a few lighting mana
-            balls and chatting to the bathhouse lady for awhile I found out the
-            mana-balls had gone out because the mana stones keeping them active
-            had run out. I also learned mosquitoes are small bugs that bite you,
-            and it is really itchy! The cure however is a 40 degree bath ...
-            This has to be the best perk of the job.
+            The task was really short, around the bathing area where stone
+            totems about my height, they had sloped tops to keep the rain off,
+            under was a hole around the size of my hand. I placed my hand inside
+            and created a manaball with lightning infused inside. After putting
+            a few lightning-manaballs around the bathhouse and chatting to the
+            bathhouse lady for awhile I found out the manaballs I left behind
+            kept the mana I expended, so my mana was not regenerating. They
+            would fade eventually though the night and that was why I had to
+            stay in town until the usual mage returned from their trip.
+          </p>
+          <p>
+            I also learned mosquitoes are small bugs that bite you, and it's
+            really itchy! The cure however is a 40 degree bath ... This had to
+            be the best perk of the job.
           </p>
 
           <p>
@@ -108,6 +116,7 @@ function Intro(props) {
             would drown that embarrassment in drink.
           </p>
 
+{/* Days in the village? */}
           <h4>side quest</h4>
           <p>
             Just as I was getting my first drink the bar tender handed me a
@@ -157,7 +166,7 @@ function Intro(props) {
 
           <p>
             "Ah well I know it's not part of the request I sent to the academy,
-            but would you light a manaball here also? Just to help out an old
+            but would you lightning a manaball here also? Just to help out an old
             women, no one wants to be bitten by those nasty thing."
           </p>
 
@@ -202,9 +211,9 @@ function Intro(props) {
           <p>
             I ended up having to give Mia my address so she could send me mail
             if she had more questions about the academy, when they found out I
-            was staying in the cliff side they pitied me a bit, but if I'm honest
-            since day one I have enjoyed staying there. I waved good bye and set
-            off along the path to Tisiel.
+            was staying in the cliff side they pitied me a bit, but if I'm
+            honest since day one I have enjoyed staying there. I waved good bye
+            and set off along the path to Tisiel.
           </p>
 
           {/* Home again */}
@@ -322,13 +331,13 @@ function Intro(props) {
             of the money though, they sent me on a mission and knew how much I
             would be paid for that at least. Arriving back at the shop I had
             left a over an hour ago Leon was still inside, it seemed that
-            clocking off even at after sundown was a favor to the shop keeper
-            he owed. We walked and talked as we made our way to Leon's place,
-            while it was inside the walls of Banderedam it was not near the
-            market but across the other side of town in what appeared to be
-            where the working class of the city lived. The houses were not run
-            down and decrypted but there where children out playing, the streets
-            where even clean. I decided it best not ask I might come off as rude
+            clocking off even at after sundown was a favor to the shop keeper he
+            owed. We walked and talked as we made our way to Leon's place, while
+            it was inside the walls of Banderedam it was not near the market but
+            across the other side of town in what appeared to be where the
+            working class of the city lived. The houses were not run down and
+            decrypted but there where children out playing, the streets where
+            even clean. I decided it best not ask I might come off as rude
             assuming it would be dirty and run down. Once we made it to a three
             story building and walked up to the 3rd floor, inside was Leon's
             sister. Mouse brown hair like her brother but longer, she was
@@ -352,8 +361,8 @@ function Intro(props) {
           <p>"I err.. But he's our guest."</p>
 
           <p>
-            "Nice to meet you Milly I am Otto, I'll help you cook, It's
-            not my first time and Leon can clean up." I said as soft as I could.
+            "Nice to meet you Milly I am Otto, I'll help you cook, It's not my
+            first time and Leon can clean up." I said as soft as I could.
           </p>
 
           <p>
@@ -369,10 +378,10 @@ function Intro(props) {
           <p>
             "Ah I had been meaning to thank you more for helping me get back
             home alive, I didn't really have anything to give at the time, but
-            recently I traveled through the forest guiding a Huonhia traveler and
-            came across this." Leon placed a bone white mask on my lap, it had
-            large stag like antlers sticking out of the top but it looked to all
-            be on piece no joins or breaks and all of it bone white, when I
+            recently I traveled through the forest guiding a Huonhia traveler
+            and came across this." Leon placed a bone white mask on my lap, it
+            had large stag like antlers sticking out of the top but it looked to
+            all be on piece no joins or breaks and all of it bone white, when I
             touched it, it felt like the bones I had received from the
             skeletons, but somehow harder. The mask had two eye holes and
             stopped just short of where your mouth would be, on the forehead was
@@ -531,7 +540,7 @@ function Intro(props) {
           <Item
             name={"Bouncy Boots."}
             rating={"junk"}
-            effect={'Stores energy to help you bounce!'}
+            effect={"Stores energy to help you bounce!"}
           />
 
           {/* <!-- Get invited to dinner --> */}
