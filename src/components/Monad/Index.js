@@ -41,7 +41,7 @@ import Chapter38 from "./Ch38-Nobles";
 import Chapter39 from "./Ch39-Leaving";
 import Chapter40 from "./Ch40-War";
 import Chapter41 from "./Ch41-Graduate";
-
+import { colors } from "./../color";
 import SpellsPage from "./SpellsPage";
 import Otto from "./Otto";
 import SeaPeopleFunction from "./SeaPeople";
@@ -55,20 +55,25 @@ const Buttons = styled.button`
   outline: none;
   padding: 0;
   font-family: "Yusei Magic", sans-serif;
-  color: ${props => props.darkMode ? 'white' : 'black'};
-  background-color: ${props => props.darkMode ? 'white' : ''};
+  color: ${(props) => (props.darkMode ? "white" : "black")};
+  background-color: ${(props) => (props.darkMode ? "white" : "")};
+  &:hover {
+    color: ${colors.red};
+    background ${colors.blue};
+    zoom: 1.1;
+  }
 `;
 
 const ChapterContainer = styled.div`
-max-width: 100%;
-max-height: 100%;
-background: ${props => props.darkMode ? '#474747' : `linear-gradient(0deg, rgba(34,89,195,0.7) 9%, rgba(45,253,209,0.3) 100% )`};
-`
+  max-width: 100%;
+  max-height: 100%;
+  background: ${(props) =>
+    props.darkMode ? colors.grey : colors.lightBackground};
+`;
+
 const StyledArticle = styled.article`
-color: ${props => props.darkMode ? '#CCCCCC' : `#1A1A1A`};
-`
-
-
+  color: ${(props) => (props.darkMode ? colors.offWhite : colors.offBlack)};
+`;
 
 const scrollTop = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
@@ -172,28 +177,36 @@ export function myFunction() {
 }
 
 export default function Monad(params) {
-  const [darkMode, setDarkMode] = useState(true)
-  function updateDarkMode ()  {
-    setDarkMode(!darkMode)
+  const [darkMode, setDarkMode] = useState(true);
+  function updateDarkMode() {
+    setDarkMode(!darkMode);
   }
   const [isPage, setPage] = useState("");
   const synth = window.speechSynthesis;
   let flag = false;
-  
+
   const playEle = document.querySelector("#play");
   const pauseEle = document.querySelector("#pause");
   const stopEle = document.querySelector("#stop");
-      
+
   function onClickPlay() {
     if (!flag) {
       flag = true;
       const utterance = new SpeechSynthesisUtterance(
         document.querySelector("article").textContent
       );
-      SpeechSynthesisUtterance.lang = 'en-GR';
+      SpeechSynthesisUtterance.lang = "en-GR";
       SpeechSynthesisUtterance.rate = 0.7;
-      console.log(synth.getVoices())
-      utterance.voice = synth.getVoices()[synth.getVoices().map(function(e) { return e.lang; }).indexOf('en-GB')];
+      console.log(synth.getVoices());
+      utterance.voice =
+        synth.getVoices()[
+          synth
+            .getVoices()
+            .map(function (e) {
+              return e.lang;
+            })
+            .indexOf("en-GB")
+        ];
 
       utterance.onend = function () {
         flag = false;
@@ -241,63 +254,72 @@ export default function Monad(params) {
   if (number === ChapterList.length) {
     return (
       <ChapterContainer darkMode={darkMode}>
-        <Buttons darkMode={darkMode} onClick={() => updateDarkMode()} id='darkMode' style={{
-              background: "none",
-              border: "none",
-              cursor: "pointer",
-              outline: "none",
-              height: "48px",
-              padding: 0,
-            }}>Toggle Dark Mode</Buttons>
-        {"speechSynthesis" in window && <div className="buttons">
-          <Buttons
-          onClick={() => onClickPlay()}
-            id="play"
-            darkMode={darkMode}
-            style={{
-              border: "none",
-              cursor: "pointer",
-              outline: "none",
-              height: "48px",
-              width: "48px",
-              padding: 0,
-              backgroundImage:
-                "url(https://rpsthecoder.github.io/js-speech-synthesis/play.svg)",
-            }}
-          ></Buttons>{" "}
-          &nbsp;
-          <Buttons
-          onClick={() => onClickPause()}
-            id="pause"
-            darkMode={darkMode}
-            style={{
-              border: "none",
-              cursor: "pointer",
-              outline: "none",
-              height: "48px",
-              width: "48px",
-              padding: 0,
-              backgroundImage:
-                "url(https://rpsthecoder.github.io/js-speech-synthesis/pause.svg)",
-            }}
-          ></Buttons>{" "}
-          &nbsp;
-          <Buttons
-          onClick={() => onClickStop()}
-            id="stop"
-            darkMode={darkMode}
-            style={{
-              border: "none",
-              cursor: "pointer",
-              outline: "none",
-              height: "48px",
-              width: "48px",
-              padding: 0,
-              backgroundImage:
-                "url(https://rpsthecoder.github.io/js-speech-synthesis/stop.svg)",
-            }}
-          ></Buttons>
-        </div>}
+        <Buttons
+          darkMode={darkMode}
+          onClick={() => updateDarkMode()}
+          id="darkMode"
+          style={{
+            background: "none",
+            border: "none",
+            cursor: "pointer",
+            outline: "none",
+            height: "48px",
+            padding: 0,
+          }}
+        >
+          Toggle Dark Mode
+        </Buttons>
+        {"speechSynthesis" in window && (
+          <div className="buttons">
+            <Buttons
+              onClick={() => onClickPlay()}
+              id="play"
+              darkMode={darkMode}
+              style={{
+                border: "none",
+                cursor: "pointer",
+                outline: "none",
+                height: "48px",
+                width: "48px",
+                padding: 0,
+                backgroundImage:
+                  "url(https://rpsthecoder.github.io/js-speech-synthesis/play.svg)",
+              }}
+            ></Buttons>{" "}
+            &nbsp;
+            <Buttons
+              onClick={() => onClickPause()}
+              id="pause"
+              darkMode={darkMode}
+              style={{
+                border: "none",
+                cursor: "pointer",
+                outline: "none",
+                height: "48px",
+                width: "48px",
+                padding: 0,
+                backgroundImage:
+                  "url(https://rpsthecoder.github.io/js-speech-synthesis/pause.svg)",
+              }}
+            ></Buttons>{" "}
+            &nbsp;
+            <Buttons
+              onClick={() => onClickStop()}
+              id="stop"
+              darkMode={darkMode}
+              style={{
+                border: "none",
+                cursor: "pointer",
+                outline: "none",
+                height: "48px",
+                width: "48px",
+                padding: 0,
+                backgroundImage:
+                  "url(https://rpsthecoder.github.io/js-speech-synthesis/stop.svg)",
+              }}
+            ></Buttons>
+          </div>
+        )}
         <Link
           className="Footer-Button"
           id="Previous"
@@ -331,63 +353,72 @@ export default function Monad(params) {
   } else if (number > 1) {
     return (
       <ChapterContainer darkMode={darkMode}>
-        <Buttons darkMode={darkMode} onClick={() => updateDarkMode()} id='darkMode' style={{
-              background: "none",
-              border: "none",
-              cursor: "pointer",
-              outline: "none",
-              height: "48px",
-              padding: 0,
-            }}>Toggle Dark Mode</Buttons>
-        {"speechSynthesis" in window && <div className="buttons">
-          <Buttons
+        <Buttons
           darkMode={darkMode}
-          onClick={() => onClickPlay()}
-            id="play"
-            style={{
-              border: "none",
-              cursor: "pointer",
-              outline: "none",
-              height: "48px",
-              width: "48px",
-              padding: 0,
-              backgroundImage:
-                "url(https://rpsthecoder.github.io/js-speech-synthesis/play.svg)",
-            }}
-          ></Buttons>{" "}
-          &nbsp;
-          <Buttons
-          onClick={() => onClickPause()}
-            id="pause"
-            darkMode={darkMode}
-            style={{
-              border: "none",
-              cursor: "pointer",
-              outline: "none",
-              height: "48px",
-              width: "48px",
-              padding: 0,
-              backgroundImage:
-                "url(https://rpsthecoder.github.io/js-speech-synthesis/pause.svg)",
-            }}
-          ></Buttons>{" "}
-          &nbsp;
-          <Buttons
-          onClick={() => onClickStop()}
-            id="stop"
-            darkMode={darkMode}
-            style={{
-              border: "none",
-              cursor: "pointer",
-              outline: "none",
-              height: "48px",
-              width: "48px",
-              padding: 0,
-              backgroundImage:
-                "url(https://rpsthecoder.github.io/js-speech-synthesis/stop.svg)",
-            }}
-          ></Buttons>
-        </div>}
+          onClick={() => updateDarkMode()}
+          id="darkMode"
+          style={{
+            background: "none",
+            border: "none",
+            cursor: "pointer",
+            outline: "none",
+            height: "48px",
+            padding: 0,
+          }}
+        >
+          Toggle Dark Mode
+        </Buttons>
+        {"speechSynthesis" in window && (
+          <div className="buttons">
+            <Buttons
+              darkMode={darkMode}
+              onClick={() => onClickPlay()}
+              id="play"
+              style={{
+                border: "none",
+                cursor: "pointer",
+                outline: "none",
+                height: "48px",
+                width: "48px",
+                padding: 0,
+                backgroundImage:
+                  "url(https://rpsthecoder.github.io/js-speech-synthesis/play.svg)",
+              }}
+            ></Buttons>{" "}
+            &nbsp;
+            <Buttons
+              onClick={() => onClickPause()}
+              id="pause"
+              darkMode={darkMode}
+              style={{
+                border: "none",
+                cursor: "pointer",
+                outline: "none",
+                height: "48px",
+                width: "48px",
+                padding: 0,
+                backgroundImage:
+                  "url(https://rpsthecoder.github.io/js-speech-synthesis/pause.svg)",
+              }}
+            ></Buttons>{" "}
+            &nbsp;
+            <Buttons
+              onClick={() => onClickStop()}
+              id="stop"
+              darkMode={darkMode}
+              style={{
+                border: "none",
+                cursor: "pointer",
+                outline: "none",
+                height: "48px",
+                width: "48px",
+                padding: 0,
+                backgroundImage:
+                  "url(https://rpsthecoder.github.io/js-speech-synthesis/stop.svg)",
+              }}
+            ></Buttons>
+          </div>
+        )}
         <Link
           className="Footer-Button"
           id="Previous"
@@ -436,63 +467,72 @@ export default function Monad(params) {
   } else {
     return (
       <ChapterContainer darkMode={darkMode}>
-        <Buttons darkMode={darkMode} onClick={() => updateDarkMode()} id='darkMode' style={{
-              background: "none",
-              border: "none",
-              cursor: "pointer",
-              outline: "none",
-              height: "48px",
-              padding: 0,
-            }}>Toggle Dark Mode</Buttons>
-        {"speechSynthesis" in window && <div className="buttons">
-          <Buttons
-          onClick={() => onClickPlay()}
-            id="play"
-            darkMode={darkMode}
-            style={{
-              border: "none",
-              cursor: "pointer",
-              outline: "none",
-              height: "48px",
-              width: "48px",
-              padding: 0,
-              backgroundImage:
-                "url(https://rpsthecoder.github.io/js-speech-synthesis/play.svg)",
-            }}
-          ></Buttons>{" "}
-          &nbsp;
-          <Buttons
-          onClick={() => onClickPause()}
-            id="pause"
-            darkMode={darkMode}
-            style={{
-              border: "none",
-              cursor: "pointer",
-              outline: "none",
-              height: "48px",
-              width: "48px",
-              padding: 0,
-              backgroundImage:
-                "url(https://rpsthecoder.github.io/js-speech-synthesis/pause.svg)",
-            }}
-          ></Buttons>{" "}
-          &nbsp;
-          <Buttons
-          onClick={() => onClickStop()}
-            id="stop"
-            darkMode={darkMode}
-            style={{
-              border: "none",
-              cursor: "pointer",
-              outline: "none",
-              height: "48px",
-              width: "48px",
-              padding: 0,
-              backgroundImage:
-                "url(https://rpsthecoder.github.io/js-speech-synthesis/stop.svg)",
-            }}
-          ></Buttons>
-        </div>}
+        <Buttons
+          darkMode={darkMode}
+          onClick={() => updateDarkMode()}
+          id="darkMode"
+          style={{
+            background: "none",
+            border: "none",
+            cursor: "pointer",
+            outline: "none",
+            height: "48px",
+            padding: 0,
+          }}
+        >
+          Toggle Dark Mode
+        </Buttons>
+        {"speechSynthesis" in window && (
+          <div className="buttons">
+            <Buttons
+              onClick={() => onClickPlay()}
+              id="play"
+              darkMode={darkMode}
+              style={{
+                border: "none",
+                cursor: "pointer",
+                outline: "none",
+                height: "48px",
+                width: "48px",
+                padding: 0,
+                backgroundImage:
+                  "url(https://rpsthecoder.github.io/js-speech-synthesis/play.svg)",
+              }}
+            ></Buttons>{" "}
+            &nbsp;
+            <Buttons
+              onClick={() => onClickPause()}
+              id="pause"
+              darkMode={darkMode}
+              style={{
+                border: "none",
+                cursor: "pointer",
+                outline: "none",
+                height: "48px",
+                width: "48px",
+                padding: 0,
+                backgroundImage:
+                  "url(https://rpsthecoder.github.io/js-speech-synthesis/pause.svg)",
+              }}
+            ></Buttons>{" "}
+            &nbsp;
+            <Buttons
+              onClick={() => onClickStop()}
+              id="stop"
+              darkMode={darkMode}
+              style={{
+                border: "none",
+                cursor: "pointer",
+                outline: "none",
+                height: "48px",
+                width: "48px",
+                padding: 0,
+                backgroundImage:
+                  "url(https://rpsthecoder.github.io/js-speech-synthesis/stop.svg)",
+              }}
+            ></Buttons>
+          </div>
+        )}
         {/* <div className="dropdown">
           <button onClick={() => myFunction()} className="dropbtn">
             Dropdown
