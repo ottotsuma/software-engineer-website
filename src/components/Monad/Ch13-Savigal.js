@@ -116,6 +116,8 @@ function Intro(props) {
             would drown that embarrassment in drink.
           </p>
 
+          <Otto></Otto>
+
           {/* Days in the village? - re do*/}
           <h4>side quest</h4>
           <p>
