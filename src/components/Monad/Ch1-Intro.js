@@ -3,10 +3,11 @@ import MapOfAlden from "./../../assets/MapOfAlden.png";
 import HTMLFlipBook from "react-pageflip";
 import Stats from "./../elements/stats";
 import LevelUp from "./../elements/levelup";
+import { Content } from "./styles";
 
 const Intro = (props) => {
   return (
-    <div className="Monad" id="1">
+    <Content>
       <div className="Frame">
         <div id="test" className="Content">
           {/* <!-- military education is also about the history --> */}
@@ -882,7 +883,7 @@ There are 3 religious splits along the same lines.
 --> */}
         </div>
       </div>
-    </div>
+    </Content>
   );
 };
 

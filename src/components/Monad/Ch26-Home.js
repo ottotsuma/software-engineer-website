@@ -1,8 +1,8 @@
 import React from "react";
-
+import { Content } from "./styles";
 function Intro(props) {
   return (
-    <div className="Monad" id="3">
+    <Content>
       <div className="Frame">
         <div className="Content">
           <h4>Home against</h4>
@@ -324,7 +324,7 @@ Sent to train up north behind front lines cleaning up stay monsters (meet with o
 */}
         </div>
       </div>
-    </div>
+    </Content>
   );
 }
 export default Intro;

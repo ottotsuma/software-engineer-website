@@ -1,9 +1,9 @@
 import React from "react";
 import SeaPeopleFunction from "./SeaPeople";
-
+import { Content } from "./styles";
 function Results(props) {
   return (
-    <div className="Monad" id="3">
+    <Content>
       <div className="Frame">
         <div className="Content">
           <h4>Results day</h4>
@@ -302,7 +302,7 @@ Reingard". boy - alden likes Tisiel Skivali  becomes tank --> */}
           <SeaPeopleFunction Chapter={1} />
         </div>
       </div>
-    </div>
+    </Content>
   );
 }
 export default Results;

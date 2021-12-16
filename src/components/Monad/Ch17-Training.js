@@ -1,9 +1,9 @@
 import React from "react";
 import Stats from "./../elements/stats";
-
+import { Content } from "./styles";
 function Intro(props) {
   return (
-    <div className="Monad" id="3">
+    <Content>
       <div className="Frame">
         <div className="Content">
           {/* <!-- Training. --> */}
@@ -238,7 +238,7 @@ function Intro(props) {
           <p>"Let's!"</p>
         </div>
       </div>
-    </div>
+    </Content>
   );
 }
 export default Intro;

@@ -9,10 +9,10 @@ import Harpy from "./../../assets/Harpy.jpg";
 import Demon1 from "./../../assets/1.jpg";
 import Demon2 from "./../../assets/2.jpg";
 import Demon3 from "./../../assets/3.jpg";
-
+import { Content } from "./styles";
 function Intro(props) {
   return (
-    <div className="Monad" id="3">
+    <Content>
       <div className="Frame">
         <div className="Content">
           <h3>Back to school</h3>
@@ -559,7 +559,7 @@ function Intro(props) {
           </p>
         </div>
       </div>
-    </div>
+    </Content>
   );
 }
 export default Intro;

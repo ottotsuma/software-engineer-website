@@ -1,10 +1,11 @@
 import React from "react";
 import Item from './../elements/item'
+import { Content } from "./styles";
 
 // Dead girl, corps fish 
 function Banderedam(props) {
   return (
-    <div className="Monad" id="3">
+    <Content>
       <div className="Frame">
         <div className="Content">
           <h3>City of Banderedam</h3>
@@ -236,7 +237,7 @@ Charlemagne in 794 decreed that a single silver penny (weighing 1.7 grams) shoul
           </p>
         </div>
       </div>
-    </div>
+    </Content>
   );
 }
 export default Banderedam;

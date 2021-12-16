@@ -1,10 +1,10 @@
 import React from "react";
 import anty from "./../../assets/anty.jpg";
 import Title, {Shine} from './../elements/title'
-
+import { Content } from "./styles";
 function Intro(props) {
   return (
-    <div className="Monad" id="3">
+    <Content>
       <div className="Frame">
         <div className="Content">
           <h4>Arrilian</h4>
@@ -527,7 +527,7 @@ function Intro(props) {
           </p>
         </div>
       </div>
-    </div>
+    </Content>
   );
 }
 export default Intro;

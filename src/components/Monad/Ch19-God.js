@@ -4,10 +4,10 @@ import Stats from "./../elements/stats";
 import Item from "./../elements/item";
 import Title from "./../elements/title";
 import SpellCards from "./SpellCards";
-
+import { Content } from "./styles";
 function Intro(props) {
   return (
-    <div className="Monad" id="3">
+    <Content>
       <div className="Frame">
         <div className="Content">
           {/*  Xiquiripat ("Flying Scab") and Cuchumaquic ("Gathered Blood"), who sicken people's blood;
@@ -634,7 +634,7 @@ Mana ball (lightning) (Pow: 1), Tether, Magic resistance (passive), Magic up (pa
           </p>
         </div>
       </div>
-    </div>
+    </Content>
   );
 }
 export default Intro;

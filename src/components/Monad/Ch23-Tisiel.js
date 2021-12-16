@@ -1,7 +1,8 @@
 import React from "react";
+import { Content } from "./styles";
 function Intro(props) {
   return (
-    <div className="Monad" id="3">
+    <Content>
       <div className="Frame">
         <div className="Content">
           {/* POV CHANGE? */}
@@ -606,7 +607,7 @@ function Intro(props) {
           </p>
         </div>
       </div>
-    </div>
+    </Content>
   );
 }
 export default Intro;

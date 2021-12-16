@@ -1,8 +1,9 @@
 import React from "react";
 import Lightning from "./../../assets/lightningcolors.png";
+import { Content } from "./styles";
 function Fourth(props) {
   return (
-    <div className="Monad" id="3">
+    <Content>
       <div className="Frame">
         <div className="Content">
           <h4>The fourth day.</h4>
@@ -257,7 +258,7 @@ Lightning travel (Mana).
 <p>Chain lightning - Shocks target and travels to (1) other target(s) within (1)m. </p> --> */}
         </div>
       </div>
-    </div>
+    </Content>
   );
 }
 export default Fourth;

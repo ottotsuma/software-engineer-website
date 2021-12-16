@@ -1,9 +1,9 @@
 import React from "react";
 import Shapold from "./../../assets/shapold.png";
-
+import { Content } from "./styles";
 function Intro(props) {
   return (
-    <div className="Monad" id="3">
+    <Content>
       <div className="Frame">
         <div className="Content">
           {/* <!-- Dinner / POV - -->  */}
@@ -276,7 +276,7 @@ function Intro(props) {
           </div>
         </div>
       </div>
-    </div>
+    </Content>
   );
 }
 export default Intro;

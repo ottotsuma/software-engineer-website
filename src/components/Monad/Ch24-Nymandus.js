@@ -1,7 +1,8 @@
 import React from "react";
+import { Content } from "./styles";
 function Intro(props) {
   return (
-    <div className="Monad" id="3">
+    <Content>
       <div className="Frame">
         <div className="Content">
           {/* Nymiadas */}
@@ -745,7 +746,7 @@ function Intro(props) {
           <p>We set off back into the tunnels with Vortigern leading us.</p>
         </div>
       </div>
-    </div>
+    </Content>
   );
 }
 export default Intro;

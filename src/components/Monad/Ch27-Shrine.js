@@ -2,10 +2,10 @@ import React from "react";
 import Item from "./../elements/item";
 import Title from './../elements/title'
 import SeaPeopleFunction from "./SeaPeople"; // 6
-
+import { Content } from "./styles";
 function Intro(props) {
   return (
-    <div className="Monad" id="3">
+    <Content>
       <div className="Frame">
         <div className="Content">
           {/* Placeholder */}
@@ -343,7 +343,7 @@ Deer are considered messengers to the gods in Shinto, especially Kasuga Shrine i
         <SeaPeopleFunction Chapter={6} />
         </div>
       </div>
-    </div>
+    </Content>
   );
 }
 export default Intro;

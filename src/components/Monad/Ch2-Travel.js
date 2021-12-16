@@ -1,8 +1,9 @@
 import React from "react";
+import { Content } from "./styles";
 
 function Travel(props) {
   return (
-    <div className="Monad" id="2">
+    <Content>
       <div className="Frame">
         <div className="Content">
           <h3>Travel</h3>
@@ -405,7 +406,7 @@ function Travel(props) {
           </p>
         </div>
       </div>
-    </div>
+    </Content>
   );
 }
 export default Travel;

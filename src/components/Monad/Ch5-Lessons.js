@@ -3,6 +3,7 @@ import Spells from "./../elements/spells";
 import Stats from "./../elements/stats";
 import styled from "styled-components";
 import SpellCards from "./SpellCards";
+import { Content } from "./styles";
 
 /* Elementals */
 
@@ -29,7 +30,7 @@ const Element = styled.div`
 
 function Lessons(props) {
   return (
-    <div className="Monad" id="3">
+    <Content>
       <div className="Frame">
         <div className="Content">
           {/* Re - introduce why they will be dueling, what it means, why the fuck there is an elemental class on the fourth day. */}
@@ -668,7 +669,7 @@ function Lessons(props) {
           {/* <!-- This class recommends areas for leveling up to 10, and what you should do after reaching level 10 , 1 point per spell until level 30, different elements. --> */}
         </div>
       </div>
-    </div>
+    </Content>
   );
 }
 export default Lessons;

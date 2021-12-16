@@ -3,10 +3,10 @@ import Stats from "./../elements/stats";
 import Title, { Shine } from "./../elements/title";
 import LevelUp from "./../elements/levelup";
 import SpellCards from "./SpellCards";
-
+import { Content } from "./styles";
 function Intro(props) {
   return (
-    <div className="Monad" id="3">
+    <Content>
       <div className="Frame">
         <div className="Content">
           <h4>The Morning</h4>
@@ -498,7 +498,7 @@ collect or obtain (a resource) for future use.
           </p>
         </div>
       </div>
-    </div>
+    </Content>
   );
 }
 export default Intro;

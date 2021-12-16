@@ -1,9 +1,9 @@
 import React from "react";
 import SeaPeopleFunction from "./SeaPeople"; // 5
-
+import { Content } from "./styles";
 function Intro(props) {
   return (
-    <div className="Monad" id="3">
+    <Content>
       <div className="Frame">
         <div className="Content">
           <SeaPeopleFunction Chapter={5} />
@@ -97,7 +97,7 @@ function Intro(props) {
           </p>
         </div>
       </div>
-    </div>
+    </Content>
   );
 }
 export default Intro;

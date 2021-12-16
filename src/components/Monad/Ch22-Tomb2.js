@@ -1,7 +1,8 @@
 import React from "react";
+import { Content } from "./styles";
 function Intro(props) {
   return (
-    <div className="Monad" id="3">
+    <Content>
       <div className="Frame">
         <div className="Content">
           <h4>part 2</h4>
@@ -485,7 +486,7 @@ Now
           </p>
         </div>
       </div>
-    </div>
+    </Content>
   );
 }
 export default Intro;

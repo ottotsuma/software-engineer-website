@@ -1,9 +1,9 @@
 import React from "react";
 import Equipment from "./../elements/equipment";
-
+import { Content } from "./styles";
 function Intro(props) {
   return (
-    <div className="Monad" id="3">
+    <Content>
       <div className="Frame">
         <div className="Content">
           <h4>Tisiel's Note</h4>
@@ -373,7 +373,7 @@ Coin (daughter) - (???) - O
           />
         </div>
       </div>
-    </div>
+    </Content>
   );
 }
 export default Intro;

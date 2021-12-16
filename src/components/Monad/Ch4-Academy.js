@@ -1,10 +1,11 @@
 import React from "react";
 import Witch from "./../../assets/witch7.jpg";
 import Stats from "./../elements/stats";
+import { Content } from "./styles";
 
 function Academy(props) {
   return (
-    <div className="Monad" id="3">
+    <Content>
       <div className="Frame">
         <div className="Content">
           <h3>Academy</h3>
@@ -488,7 +489,7 @@ function Academy(props) {
           </p>
         </div>
       </div>
-    </div>
+    </Content>
   );
 }
 export default Academy;

@@ -1,9 +1,9 @@
 import React from "react";
 import SeaPeopleFunction from "./SeaPeople";
-
+import { Content } from "./styles";
 function Rest(props) {
   return (
-    <div className="Monad" id="3">
+    <Content>
       <div className="Frame">
         <div className="Content">
           <h4>Rest period</h4>
@@ -128,7 +128,7 @@ function Rest(props) {
           <SeaPeopleFunction Chapter={2} />
         </div>
       </div>
-    </div>
+    </Content>
   );
 }
 export default Rest;

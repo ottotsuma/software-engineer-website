@@ -1,9 +1,9 @@
 import React from "react";
 import SpellCards from "./SpellCards";
-
+import { Content } from "./styles";
 function Fifth(props) {
   return (
-    <div className="Monad" id="3">
+    <Content>
       <div className="Frame">
         <div className="Content">
         {SpellCards([
@@ -167,7 +167,7 @@ function Fifth(props) {
           {/* Library? Or just cut to the book? */}
         </div>
       </div>
-    </div>
+    </Content>
   );
 }
 export default Fifth;
