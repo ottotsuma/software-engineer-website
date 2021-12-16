@@ -434,11 +434,10 @@ function Intro(props) {
             in cloth from my back on my waist. Luckily I was not a fire-mage
             before this and would still need to create fire like everyone else.
             I am sure it might of been possible with lightning but I did not
-            have that level of control. My inventory was 140 items before, room
-            enough for countless pieces of junk but now I could only access 10
-            slots. Luckily I filled the health potions and other important
+            have that level of control. My inventory was 14kg items before, room
+            enough for countless pieces of junk but now I could only access 1kg. Luckily I filled the health potions and other important
             things in first but that left the random warm clothes and things I
-            could set fire to out of reach.
+            could set fire to were ejected when I leveled down, and destroyed by the lightning.
           </p>
 
           <p>

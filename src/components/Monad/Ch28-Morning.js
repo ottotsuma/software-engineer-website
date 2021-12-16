@@ -457,7 +457,7 @@ function Intro(props) {
             It was the same result each time. The fourth time however I heard a
             noise that happens when you try to put something in your inventory
             but it's full. I looked inside and sure enough was my lunch and 4
-            harvested plants. One in each box. I decided to inspect the plants.
+            harvested plants. I decided to inspect the plants.
           </p>
           <p>Bacon Leaf: Quality: 10.</p>
           <p>

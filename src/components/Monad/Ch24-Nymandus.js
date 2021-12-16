@@ -363,7 +363,7 @@ function Intro(props) {
             the immortals where obsessed with these rings, but erm well. Now you
             have your inventory the demand for this item has made it very cheap
             today. It acts as a second inventory, a place to store things. Since
-            you can store 10 items per level even a low level has vast storage
+            you can store 1kg per level even a low level has sizeable storage
             space as it is today." He rambled on some more but gave no
             indication that any of the items in here really stood out as worth
             anything crazy today.
