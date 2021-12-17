@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFont } from "@fortawesome/free-solid-svg-icons";
 import Chapter1 from "./Ch1-Intro";
 import Chapter2 from "./Ch2-Travel";
 import Chapter3 from "./Ch3-Banderedam";
@@ -70,9 +72,21 @@ const ChapterContainer = styled.div`
   background: ${(props) =>
     props.darkMode ? colors.grey : colors.lightBackground};
 `;
+export const Sticky = styled.div`
+position: -webkit-sticky;
+position: sticky;
+top: 20px;
+display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    overflow: hidden;
+    width: ${props => props.open ? '100%' : '3%'};
+    height: ${props => props.open ? '100%' : '20px'};
 
+`;
 const StyledArticle = styled.article`
   color: ${(props) => (props.darkMode ? colors.offWhite : colors.offBlack)};
+  font-size: ${props => props.size ? props.size : '18px'};
 `;
 
 const scrollTop = () => {
@@ -178,6 +192,11 @@ export function myFunction() {
 
 export default function Monad(params) {
   const [darkMode, setDarkMode] = useState(true);
+  const [sizeState, setSizeState] = useState('18px');
+  function updateSizeState(size) {
+    console.log(size)
+    setSizeState(size);
+  }
   function updateDarkMode() {
     setDarkMode(!darkMode);
   }
@@ -244,6 +263,19 @@ export default function Monad(params) {
       synth.cancel();
     }
   }
+
+  const [sizeArray, setSizeArray] = useState([]);
+  const [sizeOpen, setSizeOpen] = useState(false);
+
+  useEffect(() => {
+    const possibleSizes = ['14px', '16px', '18px', '20px', '24px', '26px']
+    const buttonArray = []
+    for (let index = 0; index < possibleSizes.length; index++) {
+      const size = possibleSizes[index];
+      buttonArray.push(<div key={size} onClick={() => updateSizeState(size)}>{size}</div>)
+    }
+    setSizeArray(buttonArray)
+  }, []);
 
   useEffect(() => {
     console.log("Page: ", number);
@@ -336,7 +368,7 @@ export default function Monad(params) {
             {droppy()}
           </div>
         </div> */}
-        <StyledArticle darkMode={darkMode}>{isPage}</StyledArticle>
+        <StyledArticle size={sizeState} darkMode={darkMode}>{isPage}</StyledArticle>
         <Link
           className="Footer-Button"
           id="Previous"
@@ -353,6 +385,9 @@ export default function Monad(params) {
   } else if (number > 1) {
     return (
       <ChapterContainer darkMode={darkMode}>
+        <Sticky open={sizeOpen}><div style={{display: sizeOpen ? 'block' : 'none'}}>{sizeArray}</div><button onClick={()=>setSizeOpen(!sizeOpen)}><FontAwesomeIcon
+                  icon={faFont}
+                /></button></Sticky>
         <Buttons
           darkMode={darkMode}
           onClick={() => updateDarkMode()}
@@ -442,7 +477,7 @@ export default function Monad(params) {
         >
           Next
         </Link>
-        <StyledArticle darkMode={darkMode}>{isPage}</StyledArticle>
+        <StyledArticle size={sizeState} darkMode={darkMode}>{isPage}</StyledArticle>
         <Link
           className="Footer-Button"
           id="Previous"
@@ -548,7 +583,7 @@ export default function Monad(params) {
         >
           Next
         </Link>
-        <StyledArticle darkMode={darkMode}>{isPage}</StyledArticle>
+        <StyledArticle size={sizeState} darkMode={darkMode}>{isPage}</StyledArticle>
         <button className="Footer-Button" onClick={() => scrollTop()}>
           Top
         </button>

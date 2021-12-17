@@ -9,7 +9,7 @@ align-items: center;
 // color: black;
 margin-left: 4%;
 margin-right: 4%;
-font-size: large;
+// font-size: large;
 overflow-x: none;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 
