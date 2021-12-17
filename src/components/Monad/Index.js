@@ -73,15 +73,16 @@ const ChapterContainer = styled.div`
     props.darkMode ? colors.grey : colors.lightBackground};
 `;
 export const Sticky = styled.div`
-position: -webkit-sticky;
-position: sticky;
-top: 20px;
+// position: -webkit-sticky;
+// position: sticky;
+position: absolute;
+top: 40px;
 display: flex;
     flex-direction: row;
     align-items: baseline;
     overflow: hidden;
     width: ${props => props.open ? '100%' : '3%'};
-    height: ${props => props.open ? '100%' : '20px'};
+    height: ${props => props.open ? '100%' : '100%'};
 
 `;
 const StyledArticle = styled.article`
@@ -272,7 +273,7 @@ export default function Monad(params) {
     const buttonArray = []
     for (let index = 0; index < possibleSizes.length; index++) {
       const size = possibleSizes[index];
-      buttonArray.push(<div key={size} onClick={() => updateSizeState(size)}>{size}</div>)
+      buttonArray.push(<Buttons style={{padding: '5px', border: '2px solid black'}} key={size} onClick={() => updateSizeState(size)}>{size}</Buttons>)
     }
     setSizeArray(buttonArray)
   }, []);
@@ -385,7 +386,7 @@ export default function Monad(params) {
   } else if (number > 1) {
     return (
       <ChapterContainer darkMode={darkMode}>
-        <Sticky open={sizeOpen}><div style={{display: sizeOpen ? 'block' : 'none'}}>{sizeArray}</div><button onClick={()=>setSizeOpen(!sizeOpen)}><FontAwesomeIcon
+        <Sticky open={sizeOpen}><div style={{display: sizeOpen ? 'flex' : 'none', flexDirection: 'column'}}>{sizeArray}</div><button onClick={()=>setSizeOpen(!sizeOpen)}><FontAwesomeIcon
                   icon={faFont}
                 /></button></Sticky>
         <Buttons
