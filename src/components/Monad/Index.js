@@ -76,7 +76,7 @@ export const Sticky = styled.div`
 // position: -webkit-sticky;
 // position: sticky;
 position: absolute;
-top: 40px;
+top: 7vh;
 display: flex;
     flex-direction: row;
     align-items: baseline;
