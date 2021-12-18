@@ -287,6 +287,9 @@ export default function Monad(params) {
   if (number === ChapterList.length) {
     return (
       <ChapterContainer darkMode={darkMode}>
+                <Sticky open={sizeOpen}><div style={{display: sizeOpen ? 'flex' : 'none', flexDirection: 'column'}}>{sizeArray}</div><button onClick={()=>setSizeOpen(!sizeOpen)}><FontAwesomeIcon
+                  icon={faFont}
+                /></button></Sticky>
         <Buttons
           darkMode={darkMode}
           onClick={() => updateDarkMode()}
@@ -503,6 +506,9 @@ export default function Monad(params) {
   } else {
     return (
       <ChapterContainer darkMode={darkMode}>
+                <Sticky open={sizeOpen}><div style={{display: sizeOpen ? 'flex' : 'none', flexDirection: 'column'}}>{sizeArray}</div><button onClick={()=>setSizeOpen(!sizeOpen)}><FontAwesomeIcon
+                  icon={faFont}
+                /></button></Sticky>
         <Buttons
           darkMode={darkMode}
           onClick={() => updateDarkMode()}
