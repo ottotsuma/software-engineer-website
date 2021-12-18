@@ -788,7 +788,7 @@ most people learn inspect but either see
             continent and learning about the people and places. I really wanted
             to join in so I studied hard.
           </p>
-          <div className="book">
+          <div className="book" style={{color: 'black'}}>
             <HTMLFlipBook width={200} height={200}>
               <div className="demoPage">
                 <p>Vitality</p>
