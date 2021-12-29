@@ -861,6 +861,7 @@ most people learn inspect but either see
             from the academy we were some of the first students in the country
             to set off.
           </p>
+          {/* The prince to be taken from Simons roman video, were they watch the execution of the slaves. One of the roman senators/emperors would make a good role model. */}
           {/* 
 <!-- 
 These are the names given by the people of Alden.   
