@@ -1,7 +1,15 @@
 // Events starts and we follow Kaja through the event
 import React from "react";
 import { Content } from "./styles";
-import { Otto, Lubin, Arrilian, Jarvia, Kaja, Garin, Milo } from './CharacterFonts'
+import {
+  Otto,
+  Lubin,
+  Arrilian,
+  Jarvia,
+  Kaja,
+  Garin,
+  Milo,
+} from "./CharacterFonts";
 function Intro(props) {
   return (
     <Content>
@@ -216,11 +224,10 @@ function Intro(props) {
         many had stayed to fight? No one knew right now. It was safe to say more
         then half of those who had entered were morbid decorations now.
       </p>
-      <p>
-        Jarvia was the first to speak.</p>
+      <p>Jarvia was the first to speak.</p>
       <Jarvia>
-        "The rest ran into the woods. We should
-        hunt down as many as we can before they form groups."
+        "The rest ran into the woods. We should hunt down as many as we can
+        before they form groups."
       </Jarvia>
       <Milo>
         "Shouldn't we rest? I mean look..." Milo replied trailing off into a
@@ -570,28 +577,63 @@ function Intro(props) {
         I could not run, I walked.
       </Kaja>
       <Kaja>
-        I just wanting to get further away. If I couldn't see them when I
-        looked back, they could not see me either. The further I got from the
-        middle, the safer I felt. It was silly really, no where was really safe.
-        I guess my best outcome is to hope I run into no one else until near the
-        end, so my chances of being saved by professor Farald are higher.
+        I just wanting to get further away. If I couldn't see them when I looked
+        back, they could not see me either. The further I got from the middle,
+        the safer I felt. It was silly really, no where was really safe. I guess
+        my best outcome is to hope I run into no one else until near the end, so
+        my chances of being saved by professor Farald are higher.
       </Kaja>
       <Kaja>
-        As I neared the edge of the arena, I knew it was the edge because of tall wall of earth towering over the trees looming over me. Atop roamed little figures, I assumed were the staff responsible for this event. The Military and the academy staff. They were so high up it was impossible to make out any details about them.</Kaja>
-
-      <Kaja>I kept moving until I stood at the foot of this wall. It felt cold under its shadow. The soil looked like it could be scrapped apart by hand, however when I pressed my hand against it, it felt as hard as any wall in the academy, not something I could just dig out. I stood staring at the wall for awhile, before slumping down against it.</Kaja>
-
-      <Kaja>The staff had said they expected this event to only last a few days at most. The objective was for a student to be the last one standing. I had a lot of time to think about these rules during my time with ????. The last one standing did not mean the person who beat everyone else in combat. It did not even mean the last two had to even fight each other. What if I just hide really well? How long could I hide for? What would I need. Water and food and a place to hide.</Kaja>
-
-      <Kaja>The staff of course had though about people hiding at the edge of the arena and said it would slowly become smaller as the contestants dwindled.</Kaja>
-
-      <Kaja>It was not a sure fire plan, but, it was what I was going to do. Run and hide until I was the last. I just had to make it out of here, to see my dad again.</Kaja>
-
-      <Kaja>Water and food. This jungle was not a baron wasteland it was a lush green jungle, the ferns stood as tall as me all around there must be an abundance of water and food here.</Kaja>
-
-      <Kaja>Water was the most important, with my fire magic I could boil the water and therefore somewhat purify the food. The easiest way to find water was by following animals. The staff said they only killed monsters they deemed as too threatening so presumably they left the harmless animals alone. If I could not find any animals before the afternoon I would try and get water from vines to keep myself going and attempt to find more water tomorrow.</Kaja>
-
-      <Kaja>Hopefully they water sources are not busy today, since most people will be hiding or fighting, hopefully not many came all the way to the edge of the arena. Hopefully.
+        As I neared the edge of the arena, I knew it was the edge because of
+        tall wall of earth towering over the trees looming over me. Atop roamed
+        little figures, I assumed were the staff responsible for this event. The
+        Military and the academy staff. They were so high up it was impossible
+        to make out any details about them.
+      </Kaja>
+      <Kaja>
+        I kept moving until I stood at the foot of this wall. It felt cold under
+        its shadow. The soil looked like it could be scrapped apart by hand,
+        however when I pressed my hand against it, it felt as hard as any wall
+        in the academy, not something I could just dig out. I stood staring at
+        the wall for awhile, before slumping down against it.
+      </Kaja>
+      <Kaja>
+        The staff had said they expected this event to only last a few days at
+        most. The objective was for a student to be the last one standing. I had
+        a lot of time to think about these rules during my time with ????. The
+        last one standing did not mean the person who beat everyone else in
+        combat. It did not even mean the last two had to even fight each other.
+        What if I just hide really well? How long could I hide for? What would I
+        need. Water and food and a place to hide.
+      </Kaja>
+      <Kaja>
+        The staff of course had though about people hiding at the edge of the
+        arena and said it would slowly become smaller as the contestants
+        dwindled.
+      </Kaja>
+      <Kaja>
+        It was not a sure fire plan, but, it was what I was going to do. Run and
+        hide until I was the last. I just had to make it out of here, to see my
+        dad again.
+      </Kaja>
+      <Kaja>
+        Water and food. This jungle was not a baron wasteland it was a lush
+        green jungle, the ferns stood as tall as me all around there must be an
+        abundance of water and food here.
+      </Kaja>
+      <Kaja>
+        Water was the most important, with my fire magic I could boil the water
+        and therefore somewhat purify the food. The easiest way to find water
+        was by following animals. The staff said they only killed monsters they
+        deemed as too threatening so presumably they left the harmless animals
+        alone. If I could not find any animals before the afternoon I would try
+        and get water from vines to keep myself going and attempt to find more
+        water tomorrow.
+      </Kaja>
+      <Kaja>
+        Hopefully they water sources are not busy today, since most people will
+        be hiding or fighting, hopefully not many came all the way to the edge
+        of the arena. Hopefully.
       </Kaja>
       {/* running away */}
     </Content>
