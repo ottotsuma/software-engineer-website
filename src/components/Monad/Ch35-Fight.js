@@ -493,7 +493,7 @@ function Intro(props) {
       </p>
       <p>
         There was not much to see in the cave,it was just plain rocks. Maybe
-        further down there could be metal deposits. Without an earth-mage
+        further down, there could be metal deposits. Without an earth-mage
         between us it would be hard to shift though the rock and find anything
         useful, but any metal would help me. Sitting around waiting out the
         storm was not productive anyway, and as is known, those who don’t try
@@ -631,9 +631,12 @@ function Intro(props) {
         water tomorrow.
       </Kaja>
       <Kaja>
-        Hopefully they water sources are not busy today, since most people will
+        Hopefully the water sources are not busy today, since most people will
         be hiding or fighting, hopefully not many came all the way to the edge
         of the arena. Hopefully.
+      </Kaja>
+      <Kaja>
+
       </Kaja>
       {/* running away */}
     </Content>
