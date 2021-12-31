@@ -636,7 +636,20 @@ function Intro(props) {
         of the arena. Hopefully.
       </Kaja>
       <Kaja>
-
+        I had only been walking around for two hours when I stumbled across a
+        small pond. It was sitting in an opening, fed by a small stream and
+        leaving from another. It was barely a pond, more of a large puddle.
+        Still it was water. I did a quick check over my shoulder and around the
+        edge of the pond and saw no one. Quickly, I dove out and scooped up the
+        water up in a water skin bottle. It was a basic item before going
+        exploring, only those who never planned to venture far from the comfort
+        of their own homes would not carry them constantly.
+      </Kaja>
+      <Kaja>
+        Right. With that done, I need to find a place I can boil the water, I
+        could try to boil it in the pond but it would just flow away down
+        stream. If I boil it in my bottle I might have an accident involving the
+        bottle.
       </Kaja>
       {/* running away */}
     </Content>
