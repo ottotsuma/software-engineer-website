@@ -448,7 +448,7 @@ Otto 10 the oldest son of Michkel and Karla, with two younger brothers, and a si
 Nils 10 the 8th child of the village leader, although only 5 remain.
 Jakob 9, dies, A small boy, shy and ungifted.
 
-Effie Level 10, Fighter/Paladin points: 2
+Effi Level 10, Fighter/Paladin points: 2
 
 Fighter 
 1 Charge, Moves quickly in a straight line (1)

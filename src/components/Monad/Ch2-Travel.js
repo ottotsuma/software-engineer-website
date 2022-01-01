@@ -1,5 +1,6 @@
 import React from "react";
 import { Content } from "./styles";
+import { Effi, Otto } from "./CharacterFonts";
 
 function Travel(props) {
   return (
@@ -7,34 +8,64 @@ function Travel(props) {
       <div className="Frame">
         <div className="Content">
           <h3>Travel</h3>
+          <Effi>
+            A small party of students and a handful of adults had arrived from
+            Swexausern in the afternoon. They would camp out in the town hall,
+            after which as a larger group we would all set off south together.
+            The students from Swexausern were not totally unknown to all of us,
+            some of us would go north with our parents or they come south, that
+            was if those parents were traders or guards to traders.
+          </Effi>
+          <Effi>
+            Instead of playing and chatting with our friends into the night we
+            were ushered home early tonight. Some of the students did not
+            understand why at first. This happened ever year though, our parents
+            would be saying good bye, making sure we were ready to head off into
+            the world. Although we were heading to academy's, schools and
+            military camps; it was our departure from the nest.
+          </Effi>
+          <Effi>
+            In the morning the adults that came with the students headed back
+            north, replaced by some of our own parents and village elders. I was
+            glad my mother would be coming along, although she made it clear she
+            would be heading back when they arrived at the next town.
+          </Effi>
+          <Effi>
+            The trip was a short one. I had walked with my mother the whole
+            time, asking her questions about what to do and look out for on the
+            way there. She had told me the trip to the camp I was going to was
+            not so far. Also that I should keep my mind on the camp itself. She
+            had gone to the same camp in the past and let me know that it was
+            not an easy thing to adjust to. It would be hard work, especially
+            for a girl who had never been to a city before. The camp I was going
+            to was near the city of Grafen. A large city, far bigger than any
+            town I had been to in the past. Or so she told me.
+          </Effi>
+          <Effi>Todtenwei</Effi>
+          {/* Alphonse -  In the arena, 30 had been commended to die. Malnourished and with cuts and bruises still healing from rough treatment by their jailors. They were completely naked and jeered at spitefully by the crowd. Each has their hands tied behind their back, standing on a long plank of wood resting on a fulcrum. Suddenly there is a loud grown of scraping wood and the clanking of chains, 20 beasts are raised though the floor from the network under the arena. They have been deliberately kept starving for today. They took no time to spot their prey and with a loud screaming roar each charged forward. The panicked prisoners watch the beasts approach, in a flash the beasts are upon them, the first leap out of the way rising high into the air on the long plank of wood, safe for a moment from mutilation that would of been their destiny if they had remained on the ground. However this temporary respite comes at a cost, the men at the other end of the plank are each lowered towards the ground, with the beasts below. Their faces, legs, torsoes are ripped apart with pincers, claws and fangs. The lucky ones are killed quickly, while the others are ripped torn and devoured while they are still alive and screaming. Some of them blind with fear leap into the air, sending their opposite side down into the beasts. The beasts tare into them, the whole thing is a perverse game of seeing who will die last, although death is inevitable for everyone involved. */}
           <p>
-            All of the students from town set off on the same day. We traveled
-            to separate destinations and along the way change the adults
-            traveling with us. At first the instructors of the town school
-            traveled with us until we reached the town of Todtenwei, the next
-            town along. From there we changed guardians every town, village or
-            city until our destinations. The closest school was the military
-            camp for fighters and rouges, they were septate camps by close to
-            each other. There were camps all over Alden so students never really
-            had to travel that far unless they were like the remainder of us.
-            Either going to Alden's capital to learn from the specialist schools
-            of art, finance, dance, etc. Or like myself going to Banderedam and
-            joining the magic academy. Alden only had one magic academy so
-            students no matter how far would have to make their way there.
-            Although the journey to this point had been as expected where small
-            monsters where driven off by the numbers or guardians the road to
-            Banderedam traveled close to Huonhia and near an area often overrun
-            by monsters. It was a rainforest where a few major rivers became one
-            and followed into the sea, if it where not for the abundance of
-            monsters it is likely this would be the location of some major
-            cities.
+            The closest school was the military camp for fighters and rouges,
+            they were septate camps by close to each other. There were camps all
+            over Alden so students never really had to travel that far unless
+            they were like the remainder of us. Either going to Alden's capital
+            to learn from the specialist schools of art, finance, dance, etc. Or
+            like myself going to Banderedam and joining the magic academy. Alden
+            only had one magic academy so students no matter how far would have
+            to make their way there. Although the journey to this point had been
+            as expected where small monsters where driven off by the numbers or
+            guardians the road to Banderedam traveled close to Huonhia and near
+            an area often overrun by monsters. It was a rainforest where a few
+            major rivers became one and followed into the sea, if it where not
+            for the abundance of monsters it is likely this would be the
+            location of some major cities.
           </p>
 
-          <p>
+          {/* Otto */}
+          <Otto>
             I found myself walking next to a tall boy with short brown hair. He
             had the makings of a small mustache on his upper lip, a refined
             pointed nose and a bit of acne around his cheeks.
-          </p>
+          </Otto>
           <p>
             "Names Leon, if you care to ask" The tall boy said in a upbeat tone.
           </p>
@@ -262,19 +293,19 @@ function Travel(props) {
 
           <p>
             Leon vomited, loudly. The half-man screamed towards Leon and dragged
-            it's self across the ground at surprising speed towards him. Having seen Leon vomit, I
-            rushed over to help him. Upon hearing the scream and seeing the
-            moving cadaver chasing him down I tried to push my mana through my
-            body and out of my hand like I had with the Kappa. The rush felt
-            easier this time with all the practice I had had. The ball of light
-            shined pale blue, glowing lit up the ground and trees, before the
-            ball spiraled forward blinding the monster for a moment giving me
-            the chance to free Leon of his short sword. I ran towards the
-            monster and kicked dirt up into its eyes and mouth, it flailed about
-            and pushed the dirt from its eyes before showing his teeth in a
-            growl. Using this time, I ran in a circle to the side of the monster
-            before turning on my heel, running straight for the monster holding
-            the blade by my side and lunging it into the creatures head.
+            it's self across the ground at surprising speed towards him. Having
+            seen Leon vomit, I rushed over to help him. Upon hearing the scream
+            and seeing the moving cadaver chasing him down I tried to push my
+            mana through my body and out of my hand like I had with the Kappa.
+            The rush felt easier this time with all the practice I had had. The
+            ball of light shined pale blue, glowing lit up the ground and trees,
+            before the ball spiraled forward blinding the monster for a moment
+            giving me the chance to free Leon of his short sword. I ran towards
+            the monster and kicked dirt up into its eyes and mouth, it flailed
+            about and pushed the dirt from its eyes before showing his teeth in
+            a growl. Using this time, I ran in a circle to the side of the
+            monster before turning on my heel, running straight for the monster
+            holding the blade by my side and lunging it into the creatures head.
           </p>
           <p>
             I wondered if there would be another level up or notification, but
@@ -287,9 +318,10 @@ function Travel(props) {
           </p>
 
           <p>
-            Leaving Leon against a tree to recover himself, and taking serval glances at that thing. I started to search
-            the dead girl, finding on her some coins, accessories, an ID and a
-            few school supplies and food.
+            Leaving Leon against a tree to recover himself, and taking serval
+            glances at that thing. I started to search the dead girl, finding on
+            her some coins, accessories, an ID and a few school supplies and
+            food.
           </p>
 
           <p>
@@ -353,14 +385,15 @@ function Travel(props) {
             it moved further up. It's mouth looked like a large creepy smile.
           </p>
           <p>
-            I managed to rip my foot through the trunk of the tree and started to
-            dash across the tree towards Leon. Leon's face was pale and sweaty
-            watching what was happening, I just dashed towards him as fast as I
-            could with my arms spread out trying to keep my balance. I heard a
-            thud and the tree shake, followed by the sound of the bark of the
-            tree ripping. I fell down and clung into the tree as Leon shouted
-            "Don't stop just run!" I picked myself up and ran as fast as I could
-            along the tree which started to fall behind me and pick up Leon.
+            I managed to rip my foot through the trunk of the tree and started
+            to dash across the tree towards Leon. Leon's face was pale and
+            sweaty watching what was happening, I just dashed towards him as
+            fast as I could with my arms spread out trying to keep my balance. I
+            heard a thud and the tree shake, followed by the sound of the bark
+            of the tree ripping. I fell down and clung into the tree as Leon
+            shouted "Don't stop just run!" I picked myself up and ran as fast as
+            I could along the tree which started to fall behind me and pick up
+            Leon.
           </p>
           <p>
             I ran until the tree start to pull Leon off the ground, I pushed all
