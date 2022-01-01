@@ -637,6 +637,8 @@ Desert (Monsters) - They are monsters. It's hard to say.
 
 \*/}
 
+
+
 # Myths
 https://www.worldhistory.org/article/415/the-mayan-pantheon-the-many-gods-of-the-maya/
 Camazotz
@@ -656,6 +658,22 @@ Good fish monsters on youtube, but the terror bird from south america is good.
 https://www.youtube.com/watch?v=M3xYV3UX_t4
 
 Swap south of Alden, Titanoboa 
+
+
+## Items
+Alden - 
+Kojkan - Serpents tooth.
+
+Japanese - 
+Ame-no-nuhoko – Japanese halberd which formed the first island.
+Kusanagi – Legendary Japanese sword. Can also be considered as Kusanagi-No-Tsurugi.
+Muramasa - The katana forged by famous swordsmith Muramasa, it was rumored that it was a demonic sword that can curse the wielder to murder people. It also said that the demonic sword rumor was made by Ieyasu Tokugawa, the 1st Shogun of the Tokugawa Shogunate because he hated those swords made by Muramasa.
+Tonbogiri – One of three legendary spears created by the famed swordsmith Muramasa. It is said to be so sharp that a dragonfly landing on the edge would be instantly cut in half. This is the origin of the name.
+Honjo Masamune - A legendary and very real Japanese sword (with alleged mythical abilities), created by Japan's greatest swordsmith, Goro Nyudo Masamune. The Masamune sword is by far the most referenced Japanese sword in popular fiction, ranging through books, movies and computer games.
+Murasame - A magical katana that mentioned in fiction Nansō Satomi Hakkenden, it said the blade can moist itself to wash off the blood stain for keeping it sharp.
+
+Other  - 
+The Jem of Kukulkan - the Mayan Serpents Jem has the ability to control all elements. Like fire, wind, and ice, though the Serpent only has the wind jem.
 
 # Random Ideas:
 

@@ -41,7 +41,48 @@ function Travel(props) {
             to was near the city of Grafen. A large city, far bigger than any
             town I had been to in the past. Or so she told me.
           </Effi>
-          <Effi>Todtenwei</Effi>
+          <Effi>
+            Steinauhau to Todtenwei was around 8 hours. So again the arriving
+            students, myself included this time, would rest in the town hall.
+            Unlike Steinauhau Todtenwei had a river running though the town,
+            although it had no port and was not a major trading post smaller
+            ships could come up river and trade. I had been here before with my
+            mother, she had taken me when I was younger, because I had begged
+            her to for days. Nobody wanted to stay stuck in one town forever, so
+            I had begged to go with her every time she set off with a merchant.
+            It was not often she went after having children, she said she use to
+            go more but preferred to do her duties closer to home now. Last time
+            we came the town was not nearly as busy as it was today.
+          </Effi>
+          <Effi>
+            As we approached the town we could all see a larger then usual ship
+            sitting in the river. It was a Galley, a kind of ship that used oars
+            and sails, most trade ships would just use sails and only have oars
+            for an emergency. Hiring a full crew of rowers would of ruined any
+            profit you could of made otherwise.
+          </Effi>
+          <Effi>
+            At first all the students, myself included, thought this was a war
+            galley, the kind the navy used. The adults knew better however. This
+            galley was wider, and rather then the open deck for soldiers to use
+            during combat, it had a very large cabin a top. Almost blocking the
+            view of the captain. It's most distinguishing feature though was the
+            sails were sporting royal insignia and colors. The witch of Alden
+            burning a feathered dragon, a knight with ultra-violet purple
+            lightning (紫气东来), running up his spear, lodged inside the same
+            feathered dragon.
+          </Effi>
+          <Effi>
+            You could tell which royal was aboard by the supporting flags flown
+            from the cabin. Crown prince, heir apparent, Alphonse Elzach. His
+            was simple, his sword 'Kojkan' being shoved though his crown. It was
+            said the crown was on top, but it just looked like he shoved the
+            sword though it. Kojkan was a strange name, even for a sword. This
+            sword was suppose to have magic powers, be very old, and passed down
+            to the heir to commemorate his position. It looked dirty. It was
+            black like dried blood, even the blade, like the thing was never
+            rubbed clean.
+          </Effi>
           {/* Alphonse -  In the arena, 30 had been commended to die. Malnourished and with cuts and bruises still healing from rough treatment by their jailors. They were completely naked and jeered at spitefully by the crowd. Each has their hands tied behind their back, standing on a long plank of wood resting on a fulcrum. Suddenly there is a loud grown of scraping wood and the clanking of chains, 20 beasts are raised though the floor from the network under the arena. They have been deliberately kept starving for today. They took no time to spot their prey and with a loud screaming roar each charged forward. The panicked prisoners watch the beasts approach, in a flash the beasts are upon them, the first leap out of the way rising high into the air on the long plank of wood, safe for a moment from mutilation that would of been their destiny if they had remained on the ground. However this temporary respite comes at a cost, the men at the other end of the plank are each lowered towards the ground, with the beasts below. Their faces, legs, torsoes are ripped apart with pincers, claws and fangs. The lucky ones are killed quickly, while the others are ripped torn and devoured while they are still alive and screaming. Some of them blind with fear leap into the air, sending their opposite side down into the beasts. The beasts tare into them, the whole thing is a perverse game of seeing who will die last, although death is inevitable for everyone involved. */}
           <p>
             The closest school was the military camp for fighters and rouges,
