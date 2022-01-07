@@ -493,7 +493,7 @@ function Intro(props) {
       </p>
       <p>
         There was not much to see in the cave,it was just plain rocks. Maybe
-        further down there could be metal deposits. Without an earth-mage
+        further down, there could be metal deposits. Without an earth-mage
         between us it would be hard to shift though the rock and find anything
         useful, but any metal would help me. Sitting around waiting out the
         storm was not productive anyway, and as is known, those who don’t try
@@ -631,10 +631,27 @@ function Intro(props) {
         water tomorrow.
       </Kaja>
       <Kaja>
-        Hopefully they water sources are not busy today, since most people will
+        Hopefully the water sources are not busy today, since most people will
         be hiding or fighting, hopefully not many came all the way to the edge
         of the arena. Hopefully.
       </Kaja>
+      <Kaja>
+        I had only been walking around for two hours when I stumbled across a
+        small pond. It was sitting in an opening, fed by a small stream and
+        leaving from another. It was barely a pond, more of a large puddle.
+        Still it was water. I did a quick check over my shoulder and around the
+        edge of the pond and saw no one. Quickly, I dove out and scooped up the
+        water up in a water skin bottle. It was a basic item before going
+        exploring, only those who never planned to venture far from the comfort
+        of their own homes would not carry them constantly.
+      </Kaja>
+      <Kaja>
+        Right. With that done, I need to find a place I can boil the water, I
+        could try to boil it in the pond but it would just flow away down
+        stream. If I boil it in my bottle I might have an accident involving the
+        bottle.
+      </Kaja>
+      <Kaja>Just as my thoughts had start to wonder from me I was pulled back to reality by the sound of a breaking twig.</Kaja>
       {/* running away */}
     </Content>
   );
