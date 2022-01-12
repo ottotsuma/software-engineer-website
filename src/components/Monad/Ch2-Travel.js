@@ -115,8 +115,16 @@ function Travel(props) {
             would always see them.
           </Effi>
           <Effi>
-            
+            Shield and dreams in hand I grouped up with the others from our
+            village, as well as the students who joined us previously. The
+            students from this town would also join us on our walk south. I had
+            spotted Otto traveling with us, he stayed with the other mages from
+            our village although he didn't seem to speak much. I pulled him
+            along with me from that point on, at least until we would reach
+            Grafen he would have someone to talk to. Although that was a little
+            under halfway for his journey to the mage academy.
           </Effi>
+          <Effi></Effi>
           {/* Alphonse -  In the arena, 30 had been commended to die. Malnourished and with cuts and bruises still healing from rough treatment by their jailors. They were completely naked and jeered at spitefully by the crowd. Each has their hands tied behind their back, standing on a long plank of wood resting on a fulcrum. Suddenly there is a loud grown of scraping wood and the clanking of chains, 20 beasts are raised though the floor from the network under the arena. They have been deliberately kept starving for today. They took no time to spot their prey and with a loud screaming roar each charged forward. The panicked prisoners watch the beasts approach, in a flash the beasts are upon them, the first leap out of the way rising high into the air on the long plank of wood, safe for a moment from mutilation that would of been their destiny if they had remained on the ground. However this temporary respite comes at a cost, the men at the other end of the plank are each lowered towards the ground, with the beasts below. Their faces, legs, torsoes are ripped apart with pincers, claws and fangs. The lucky ones are killed quickly, while the others are ripped torn and devoured while they are still alive and screaming. Some of them blind with fear leap into the air, sending their opposite side down into the beasts. The beasts tare into them, the whole thing is a perverse game of seeing who will die last, although death is inevitable for everyone involved. */}
           <p>
             The closest school was the military camp for fighters and rouges,
