@@ -73,6 +73,7 @@ Mastery over skills, so the skills level up? Costs points / experience.
 Switchable classes on one account? That would be nice for players in real life but this is just a story...
 Durability for items is a nice idea, having to repair them.
 Death is not always -1 level or whatever, the penalties can change.
+Stealing the bird from a nest and raise it
 
 
 NPC
