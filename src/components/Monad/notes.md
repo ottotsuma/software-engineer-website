@@ -494,7 +494,7 @@ Edmure age ~ davids, lives in the village
 15 - 16 2nd year
 16 - 18 work exp 
 
-<li>Effi - Tank, 6, Mace and Shield (Starts with a sword).Knight/Paladin -> Guardian
+<li>Effi - Tank, 6, Mace and Shield (Starts with a sword). Knight/Paladin -> Guardian
 <li>Naoki - DPS, 9, Katana (Japanese) - Samurai
 <li>Sophia - Tank, 4, Large Battle Axe- Barbarian
 <li>Emilia - DPS, 6, Spear - Dragoon
@@ -504,6 +504,7 @@ Edmure age ~ davids, lives in the village
 <li>Ehrhart - Healer, 9, Warhammer - BattleMage ->Inquisitor
 <li>Konrad - Support, 5, Twin Swords or Rapier?? -> Priest
 <li>Alajos - DPS, 8, Saber (hungarian) Huszár
+<li> Friedrich Odeck - Teacher at Grafen / company commander
 
 sword and shield, two handed, war hammer, battle axe, mace, spear? War scythe? halberd, bows, crossbows, kuni, shuriken, throwing knife, thrown spear,
 

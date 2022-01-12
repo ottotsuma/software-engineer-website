@@ -90,7 +90,33 @@ function Travel(props) {
             other adults stayed with us for the night in tents near Red Borough
             the district next to the castle.
           </Effi>
-          <Effi></Effi>
+          <Effi>
+            In the morning the adults from our village set off back over the
+            bridge and back to home. My mother left me with some kind words, a
+            kiss, and a shield. I knew what role I wanted to take in the future.
+            While everyone at the army camp would be a Fighter class we would
+            all proreform different roles in a real fight. I wanted to be the
+            Tank, the role was to protect the rest of the team from the monsters
+            attacks. My mother was also a Tank when she fought, she had tried to
+            persuade me against it a few times but in the end I would not budge.
+            The shield she left me was one she had used in the past, she had it
+            repaired and re-painted for me.
+          </Effi>
+          <Effi>
+            On the front of the shield was light blue with two golden stags down
+            the middle. This was the banner of Steinauhau, the shield originally
+            had the banner of Soldenheim on, my mothers home town. It was
+            something I quite liked, although it was not unique my family was
+            not noble so we were not allowed to have our own banner, however
+            most students would be using the banner of Alden not their home
+            towns, so it was somewhat different. The final detail that stood out
+            for me the most though was on the inside of the shield she had
+            painted the words 'You Are Loved' right at the top near the rim so I
+            would always see them.
+          </Effi>
+          <Effi>
+            
+          </Effi>
           {/* Alphonse -  In the arena, 30 had been commended to die. Malnourished and with cuts and bruises still healing from rough treatment by their jailors. They were completely naked and jeered at spitefully by the crowd. Each has their hands tied behind their back, standing on a long plank of wood resting on a fulcrum. Suddenly there is a loud grown of scraping wood and the clanking of chains, 20 beasts are raised though the floor from the network under the arena. They have been deliberately kept starving for today. They took no time to spot their prey and with a loud screaming roar each charged forward. The panicked prisoners watch the beasts approach, in a flash the beasts are upon them, the first leap out of the way rising high into the air on the long plank of wood, safe for a moment from mutilation that would of been their destiny if they had remained on the ground. However this temporary respite comes at a cost, the men at the other end of the plank are each lowered towards the ground, with the beasts below. Their faces, legs, torsoes are ripped apart with pincers, claws and fangs. The lucky ones are killed quickly, while the others are ripped torn and devoured while they are still alive and screaming. Some of them blind with fear leap into the air, sending their opposite side down into the beasts. The beasts tare into them, the whole thing is a perverse game of seeing who will die last, although death is inevitable for everyone involved. */}
           <p>
             The closest school was the military camp for fighters and rouges,
