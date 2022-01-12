@@ -10,11 +10,12 @@ function Travel(props) {
           <h3>Travel</h3>
           <Effi>
             A small party of students and a handful of adults had arrived from
-            Swexausern in the afternoon. They would camp out in the town hall,
-            after which as a larger group we would all set off south together.
-            The students from Swexausern were not totally unknown to all of us,
-            some of us would go north with our parents or they come south, that
-            was if those parents were traders or guards to traders.
+            Swexausern in the afternoon. They would camp out in an open space
+            near Dog Forge, a part of town near the castle. After which, as a
+            larger group, we would all set off south together. The students from
+            Swexausern were not totally unknown to all of us, some of us would
+            go north with our parents or they come south, that was if those
+            parents were traders or guards to traders.
           </Effi>
           <Effi>
             Instead of playing and chatting with our friends into the night we
@@ -43,7 +44,7 @@ function Travel(props) {
           </Effi>
           <Effi>
             Steinauhau to Todtenwei was around 8 hours. So again the arriving
-            students, myself included this time, would rest in the town hall.
+            students, myself included this time, would set up camp and rest.
             Unlike Steinauhau Todtenwei had a river running though the town,
             although it had no port and was not a major trading post smaller
             ships could come up river and trade. I had been here before with my
@@ -84,8 +85,12 @@ function Travel(props) {
             rubbed clean.
           </Effi>
           <Effi>
-            Oh well, non of that was my business anyway. The town had not changed from when I last visited all those years ago. 
+            Oh well, non of that was my business anyway. The town had not
+            changed from when I last visited all those years ago. Mother and the
+            other adults stayed with us for the night in tents near Red Borough
+            the district next to the castle.
           </Effi>
+          <Effi></Effi>
           {/* Alphonse -  In the arena, 30 had been commended to die. Malnourished and with cuts and bruises still healing from rough treatment by their jailors. They were completely naked and jeered at spitefully by the crowd. Each has their hands tied behind their back, standing on a long plank of wood resting on a fulcrum. Suddenly there is a loud grown of scraping wood and the clanking of chains, 20 beasts are raised though the floor from the network under the arena. They have been deliberately kept starving for today. They took no time to spot their prey and with a loud screaming roar each charged forward. The panicked prisoners watch the beasts approach, in a flash the beasts are upon them, the first leap out of the way rising high into the air on the long plank of wood, safe for a moment from mutilation that would of been their destiny if they had remained on the ground. However this temporary respite comes at a cost, the men at the other end of the plank are each lowered towards the ground, with the beasts below. Their faces, legs, torsoes are ripped apart with pincers, claws and fangs. The lucky ones are killed quickly, while the others are ripped torn and devoured while they are still alive and screaming. Some of them blind with fear leap into the air, sending their opposite side down into the beasts. The beasts tare into them, the whole thing is a perverse game of seeing who will die last, although death is inevitable for everyone involved. */}
           <p>
             The closest school was the military camp for fighters and rouges,

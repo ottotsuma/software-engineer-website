@@ -66,13 +66,24 @@ Basic, Intermediate, Advanced.
 
 Ajisukitakahikone = Japanese version of God K
 
+The classes and races could be catabolized into tiers [1, 2, 3] or ranks [bronze, silver, gold], [junk, common, normal, rare, elite]
+Class / Race bonuses grow with your levels
+Items that grow with you for a period of time, I.e. Level 0 - 10 sword. Level 50 - 90 staff. Something like that.
+Mastery over skills, so the skills level up? Costs points / experience.
+Switchable classes on one account? That would be nice for players in real life but this is just a story...
+Durability for items is a nice idea, having to repair them.
+Death is not always -1 level or whatever, the penalties can change.
+
+
 NPC
 You level up for the first time and your class is picked.
 You find out which element you are most suited to at level 10 (Can pick).
 
 USER
-You pick a basic class and become level 1.
-You pick an element at level 10.
+You pick a basic class and become level 1. 
+level 1 - 9 is the tutorial period.
+You pick an element at level 10. 
+At this point you can use teleport stations, and travel to cities.
 
 ## Speeches:
 
@@ -792,3 +803,11 @@ Use when: Describing someone who looks sick or doesn’t look good. Can also be 
 Meaning: This is a short form for son of a bitch short, also known as 개새끼 [gae-sae-ggi]
 
 썅놈
+
+# Map 
+Map: https://azgaar.github.io/Fantasy-Map-Generator/
+Towns: 
+https://watabou.github.io/city-generator/?size=18&seed=272082858&name=Todtenwei&population=2265&greens=0&farms=1&citadel=1&urban_castle=0&plaza=0&temple=0
+
+Todtenwei - 272082858
+Steinauhau - 5628570730133
