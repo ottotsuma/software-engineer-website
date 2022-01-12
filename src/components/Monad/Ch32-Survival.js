@@ -398,6 +398,7 @@ function Intro(props) {
             usually get it's seeds giving me the ability to make soldiers out of
             the same type of monster.
           </p>
+          {/* Re do, this is poop */}
           <LevelUp
             level={10}
             race={"normal"}

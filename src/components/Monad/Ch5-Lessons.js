@@ -204,10 +204,17 @@ function Lessons(props) {
             mages: a history' before asking questions. As you might find your
             answers in there." Lubin said.
           </p>
-
           <p>
-            Shortly after the class was dismissed. I went to the library along
-            with many of the other students from my class and other first year
+            At the end of the class every student got a message from their
+            system. +3 experience for gaining understanding towards your class
+            'Mage'. +2 experience for knowledge about your element 'Lightning'.
+            With this every student would be fired up to learn more. It was the
+            safest and fastest way to level up and how most people were able to
+            progress even up to level 20 or more without ever fighting.
+          </p>
+          <p>
+            Shortly after the class was dismissed, I went to the library along
+            with many of the other students from my class, alongside other first year
             classes. The main library was split into sections. First years could
             only access the first floor which soon became packed. I couldn't see
             a good place to sit with students everywhere. I had the book I
@@ -217,13 +224,13 @@ function Lessons(props) {
           <p>
             In the library on the cliff side I got to reading the histories
             under one of the large stone pillars with light coming out from it.
-            After reading through so many of the Mages from the past I soon found
-            myself bored and looking for anything else to distract me. I started
-            looking along the spines of the old books around the library; 'Fire
-            Magic', 'Faming with mana - Pocotcotcan magic', 'Lusty Ma...', 'The
-            Summoner: Morian Zenas'. "Oh he's in the histories book, wonder if
-            it's different". I said a loud, clearly the studying was driving me
-            mad.
+            After reading through so many of the Mages from the past I soon
+            found myself bored and looking for anything else to distract me. I
+            started looking along the spines of the old books around the
+            library; 'Fire Magic', 'Faming with mana - Pocotcotcan magic',
+            'Lusty Ma...', 'The Summoner: Morian Zenas'. "Oh he's in the
+            histories book, wonder if it's different". I said a loud, clearly
+            the studying was driving me mad.
           </p>
 
           <p>
@@ -286,9 +293,9 @@ function Lessons(props) {
           </p>
           <p>
             "Truthfully I didn't. Just took a chance, to see if you where
-            interested in the door or knew anything about it. That's why I showed
-            you around, no one else had taken any real interest in it. So do you
-            want to know whats behind the door?" she asked.
+            interested in the door or knew anything about it. That's why I
+            showed you around, no one else had taken any real interest in it. So
+            do you want to know whats behind the door?" she asked.
           </p>
           <p>
             "Well, yeah" I replied, it was obvious wasn't it? I already tried to
@@ -391,10 +398,7 @@ function Lessons(props) {
             dexterity. For me I picked Magic and Sense, since I want to be an
             explorer." She replied.
           </p>
-          <p>
-            "I should pick vitality, dexterity maybe
-            charisma..." I said.
-          </p>
+          <p>"I should pick vitality, dexterity maybe charisma..." I said.</p>
           <p>"You are just naming all of them." She laughed.</p>
           <p>"Urgh I can't decide!" I was frustrated.</p>
           <p>"Lets just go, you can pick on the way." She said.</p>
@@ -473,12 +477,12 @@ function Lessons(props) {
           </p>
           <p>
             The grass was strangely cold considering the the weather as not cold
-            today. We walked through the graves and to the door of the mausoleum.
-            It resembled the old academy buildings but in a way it looked like a
-            cheaper copy. The stones where white and the doors where a black
-            metal. The difference was that the building here was not lined with
-            a golden material and instead was lined with small figures acting
-            out scenes.
+            today. We walked through the graves and to the door of the
+            mausoleum. It resembled the old academy buildings but in a way it
+            looked like a cheaper copy. The stones where white and the doors
+            where a black metal. The difference was that the building here was
+            not lined with a golden material and instead was lined with small
+            figures acting out scenes.
           </p>
           {/* Pre-Dao, Dao, Immortal, Dark-Age, (Dawn Age) Great Migration, Warning Kingdoms Period (mausoleum), Pyramid (The One Kingdom), Pocotocotcan Empire, Witch, Now. */}
           <p>
@@ -522,12 +526,12 @@ function Lessons(props) {
           </p>
           <p>
             Tisiel just smiled as she crouched down opened a book she got from a
-            pack on her waist. She started reading through it marking her fingers
-            along the signs on the stone sarcophagus. I wanted to know what it
-            said but also if Tisiel could even read this script. It was clearly
-            old and did not resemble Aldenese at all. I wanted to guess more
-            about it but in the end I was only 14 and what did I know about the
-            academy, it's history or even other languages.
+            pack on her waist. She started reading through it marking her
+            fingers along the signs on the stone sarcophagus. I wanted to know
+            what it said but also if Tisiel could even read this script. It was
+            clearly old and did not resemble Aldenese at all. I wanted to guess
+            more about it but in the end I was only 14 and what did I know about
+            the academy, it's history or even other languages.
           </p>
           <p>
             I started pushing the stone lid to one side. In the first I saw a
@@ -535,10 +539,10 @@ function Lessons(props) {
             her fingers had rings on them. her spine had a necklace resting on
             it and behind her skull wsa a tiara. Each of them looked expensive.
             I had seen jewelry before, and magic items but they where usually
-            gems placed onto a band of metal. These through the metal was crafted
-            into scenes with monsters and animals and humans all around each
-            item. As I was inspecting the tiara Tisiel looked up at me strange
-            look.
+            gems placed onto a band of metal. These through the metal was
+            crafted into scenes with monsters and animals and humans all around
+            each item. As I was inspecting the tiara Tisiel looked up at me
+            strange look.
           </p>
           <p>"I remember this being your idea, you might need them" I said.</p>
           <p>
@@ -570,9 +574,9 @@ function Lessons(props) {
             see what you found." She said looking at my small pile of loot.
           </p>
           <p>
-            Tisiel looked through the items before deciding she had no idea which
-            where important and which where not. We did not have all the time in
-            the world so I interrupted her inspections. "Look away for a
+            Tisiel looked through the items before deciding she had no idea
+            which where important and which where not. We did not have all the
+            time in the world so I interrupted her inspections. "Look away for a
             moment."
           </p>
           <p>
@@ -586,10 +590,10 @@ function Lessons(props) {
           </p>
           <p>"Like I would..." I muttered.</p>
           <p>
-            I took out the wand I had got in Banderdam and passed mana through it
-            before placing it back. I then moved the kings crown, wand & ring to
-            once side. The Queens tiara & ring. The princesses coin also. "You
-            can look again"
+            I took out the wand I had got in Banderdam and passed mana through
+            it before placing it back. I then moved the kings crown, wand & ring
+            to once side. The Queens tiara & ring. The princesses coin also.
+            "You can look again"
           </p>
           <p>
             "I had to wait for you to make two piles?" Tisiel said turning back
@@ -607,8 +611,8 @@ function Lessons(props) {
           <p>
             "Sure, let's put them in your bag, keep them safe." I said not
             really minding. I could identify the mana inside them and get the
-            stats with my inspect skill but that won't help finding out about the
-            history or further clues they may provide about the door in the
+            stats with my inspect skill but that won't help finding out about
+            the history or further clues they may provide about the door in the
             cliff side.
           </p>
           {/* I refer you to further up where you need to write about the battle mage and Tisiel's parents and dream. */}
@@ -634,9 +638,7 @@ function Lessons(props) {
             into the golem. Under the bombardment soon the golem fell apart with
             a creepy cry of anguish.
           </p>
-          {SpellCards([
-          ["Mana Ball", 1, "mana"],
-        ])}
+          {SpellCards([["Mana Ball", 1, "mana"]])}
           <p>
             "They must of all been guardians for the tomb right? For them to be
             so weak... Some of them even broke apart when activated." I said

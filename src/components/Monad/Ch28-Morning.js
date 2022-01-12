@@ -342,16 +342,22 @@ function Intro(props) {
             them would come out of a nest I would shoot a seed inside and get
             more experience.
           </p>
+          {/* Level problems here */}
           <p>
             I decided to join the farming club, it turned out to be a nice safe
-            way to get low level experience. Classes where a pain as each time I
-            would have to say I was not ready to join in yet. Lubin had seen me
-            after class twice already to check up on me and make reports back to
-            Lenne. After 3 weeks I thought they might of realised something was
-            wrong but when they asked about the farming club I said it was going
-            really well and I was enjoying Lubin made it a point that I could
-            always drop out of combat classes and take a non-combat role if the
-            experience had me unable to cast spells.
+            way to get some extra low level experience. Classes where a pain
+            now, when I was a mage the more I learned about Mages or my element
+            I would gain large amounts of experience. However now the Mage
+            specific classes gave me no experience and the lightning classes
+            only very little. On top of that since I could no longer cast the
+            basic spells each time I would have to say I was not ready to join
+            in yet. Lubin had seen me after class twice already to check up on
+            me and make reports back to Lenne. After 3 weeks I thought they
+            might of realised something was wrong but when they asked about the
+            farming club I said it was going really well and I was enjoying
+            Lubin made it a point that I could always drop out of combat classes
+            and take a non-combat role if the experience had me unable to cast
+            spells.
           </p>
           <p>
             I genuinely considered it, I had strange farming spells that would
