@@ -27,6 +27,39 @@ https://blog-cdn.reedsy.com/uploads/2018/07/Rick-and-Morty-Story-Wheel-Annotated
 
 # Notes:
 
+Death - 
+Exp lose - simple.
+Exp debt - Fun idea, you have to earn that much exp before your bar goes back to normal.
+Skill loss - Like how? Points loss? OR like you become less proficient? 
+permadeath - Hell no.
+Corpse runs, full loot drop. Runescape style. Not a personal fan of this.
+Single / Many item drops. I'm okay with this.
+Debuffs - I love it. They should not last forever, or be curable if they do. Make the user go out of their way as a punishment.
+Repairs - Great money sink.
+Time out - Yeah, just not all the time. Maybe special cases.
+http://wiki.projectgorgon.com/wiki/Website_Death_Penalties_Explained - Fun
+Death can be fun, something like the curses shown here.
+
+Places people die:
+In town:
+Out of town:
+Fighting normal monsters:
+Fighting a boss:
+Raids:
+Dungeons:
+PVP arena:
+PVP outside:
+PVP In town:
+PVP guild war:
+PVP nation war:
+Committed a Crime:
+Dueling:
+traps:
+Self kill:
+Team damage:
+Resurrected:
+
+
 It has been at least 107 years since the fall of Pocotcotco as an empire.
 The Elves and the republic have had at least 2 famous battles against each other.
 
