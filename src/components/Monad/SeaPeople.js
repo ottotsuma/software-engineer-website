@@ -1619,6 +1619,7 @@ export const SeaPeople = {
         was still racing getting ready to run when ... Nothing happened. What
         the hell?
       </p>
+      {/* This is trash */}
       <p>
         The guy pointed his finger directly at me and said he hated all elves.
         Even if I had been burnt and cursed by the Gods I was still an elf. The
