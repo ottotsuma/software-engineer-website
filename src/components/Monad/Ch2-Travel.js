@@ -141,7 +141,39 @@ function Travel(props) {
             stands and since the wall was easy to see over even for the shortest
             of children we stood and watched.
           </Effi>
-          {/* Alphonse -  In the arena, 30 had been commended to die. Malnourished and with cuts and bruises still healing from rough treatment by their jailors. They were completely naked and jeered at spitefully by the crowd. Each has their hands tied behind their back, standing on a long plank of wood resting on a fulcrum. Suddenly there is a loud grown of scraping wood and the clanking of chains, 20 beasts are raised though the floor from the network under the arena. They have been deliberately kept starving for today. They took no time to spot their prey and with a loud screaming roar each charged forward. The panicked prisoners watch the beasts approach, in a flash the beasts are upon them, the first leap out of the way rising high into the air on the long plank of wood, safe for a moment from mutilation that would of been their destiny if they had remained on the ground. However this temporary respite comes at a cost, the men at the other end of the plank are each lowered towards the ground, with the beasts below. Their faces, legs, torsoes are ripped apart with pincers, claws and fangs. The lucky ones are killed quickly, while the others are ripped torn and devoured while they are still alive and screaming. Some of them blind with fear leap into the air, sending their opposite side down into the beasts. The beasts tare into them, the whole thing is a perverse game of seeing who will die last, although death is inevitable for everyone involved. */}
+          <div className="BreakPoint" />
+          <Otto>Switch to Otto</Otto>
+          <Otto>
+            In the arena, 30 people had been commended to die. Malnourished and
+            with cuts and bruises still healing from rough treatment by their
+            captors. They were completely naked and jeered at spitefully by the
+            crowd in the stands. Each has their hands tied behind their back,
+            standing on a long plank of wood resting on a fulcrum. Suddenly
+            there was a loud grown of scraping wood and the clanking of chains.
+            20 beasts were set lose from cages that were out of site between the
+            stands. The beasts had been deliberately kept starving for today, it
+            was a common practice when using lesser beasts for hunting.
+          </Otto>
+          <Otto>Beast Type</Otto>
+          <Otto>
+            They took no time to spot their prey, and with a loud screaming roar
+            each charged forward. The panicked prisoners watch the beasts
+            approach, in a flash the beasts were upon them. The first to leap out of
+            the way raised high into the air on the long plank of wood, safe for
+            a moment from mutilation that would of been their destiny if they
+            had remained on the ground. However this temporary respite came at
+            a cost, the men at the other end of the plank were each lowered
+            towards the ground, with the beasts below. Their faces, legs,
+            torsoes were ripped apart with pincers, claws and fangs. The lucky
+            ones were killed quickly, while the others are ripped torn and
+            devoured while they are still alive and screaming. Some of them
+            blind with fear leap into the air, sending their opposite side down
+            into the beasts. The beasts tore into them, the whole thing was a
+            perverse game of seeing who will die last, although death was
+            inevitable for everyone involved.
+          </Otto>
+          {/* Alphonse -  */}
+          <Otto>Outcome</Otto>
           <p>
             The closest school was the military camp for fighters and rouges,
             they were septate camps by close to each other. There were camps all
