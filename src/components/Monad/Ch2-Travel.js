@@ -142,7 +142,15 @@ function Travel(props) {
             of children we stood and watched.
           </Effi>
           <div className="BreakPoint" />
-          <Otto>Switch to Otto</Otto>
+          <Otto>
+            Effi had suddenly stopped speaking and stood looking into the
+            make-shift arena. We had come here expecting a speech from a prince
+            in fancy clothes. However what lay before our eyes were people
+            covered it cuts and bruises. Some being dragged over to the middle
+            of the arena, all naked. They were criminals, today the prince would
+            exsect their punishment. Their sentence had already passed, today
+            was a demonstration, a deterrence to other aspiring criminals.
+          </Otto>
           <Otto>
             In the arena, 30 people had been commended to die. Malnourished and
             with cuts and bruises still healing from rough treatment by their
@@ -158,23 +166,63 @@ function Travel(props) {
           <Otto>
             They took no time to spot their prey, and with a loud screaming roar
             each charged forward. The panicked prisoners watch the beasts
-            approach, in a flash the beasts were upon them. The first to leap out of
-            the way raised high into the air on the long plank of wood, safe for
-            a moment from mutilation that would of been their destiny if they
-            had remained on the ground. However this temporary respite came at
-            a cost, the men at the other end of the plank were each lowered
-            towards the ground, with the beasts below. Their faces, legs,
-            torsoes were ripped apart with pincers, claws and fangs. The lucky
-            ones were killed quickly, while the others are ripped torn and
+            approach, in a flash the beasts were upon them. The first to leap
+            out of the way raised high into the air on the long plank of wood,
+            safe for a moment from mutilation that would of been their destiny
+            if they had remained on the ground. However this temporary respite
+            came at a cost, the men at the other end of the plank were each
+            lowered towards the ground, with the beasts below. Their faces,
+            legs, torsoes were ripped apart with pincers, claws and fangs. The
+            lucky ones were killed quickly, while the others are ripped torn and
             devoured while they are still alive and screaming. Some of them
             blind with fear leap into the air, sending their opposite side down
             into the beasts. The beasts tore into them, the whole thing was a
             perverse game of seeing who will die last, although death was
             inevitable for everyone involved.
           </Otto>
-          {/* Alphonse -  */}
-          <Otto>Outcome</Otto>
-          <p>
+          <Otto>
+            Sitting in a wooden stand covered in the colors of royalty was the
+            prince. The seats had cloth covering them and banners standing
+            taller than knights that stood beside them. The first prince,
+            Alphonse Elzach.
+          </Otto>
+          <Otto>
+            This prince was the one who condemned these men to die. He was also
+            the one who had chosen to do so in such an unusual fashion. The
+            death sentence was not uncommon, but only reserved for the worst of
+            crimes. To find 30 people in one town condemned to death. Had the
+            town kept them for the prince, or had the prince added those who
+            would otherwise receive lesser punishments? Who would ever know. One
+            thing was sure though, this was entertainment for the prince and his
+            entourage. The smile sticking to his face was large and full of
+            laughter each time those down below would fall into the beasts path.
+          </Otto>
+          <Otto>
+            We had all known death before. This left a different taste in my
+            mouth. Were all people form the big cities like this, or was it just
+            this one prince?
+          </Otto>
+          <Otto>
+            We had departed from the town right after their deaths. The walk out
+            was quieter then when we arrived.
+          </Otto>
+          <Otto>
+            The next few towns were uneventful in comparison. The next big event
+            was when Effi & the other Fighter and some of the Rogue students
+            left us at Grafen. Grafen was not a small town but a large city,
+            sitting on the second largest road in Alden, the north-south road.
+            This was also the first time we made camp outside of the town for
+            the night.
+          </Otto>
+          <Otto>
+            The students leaving us here would not venture into the city either
+            but the military camps set up on the opposite side of the river to
+            the city. From here although I would walk with other students to the
+            academy numbering in the hundreds after picking up more mages from
+            Grafen, and other travelers to the capital, it was the loneliest I
+            had felt.
+          </Otto>
+          {/* <p>
             The closest school was the military camp for fighters and rouges,
             they were septate camps by close to each other. There were camps all
             over Alden so students never really had to travel that far unless
@@ -189,13 +237,12 @@ function Travel(props) {
             major rivers became one and followed into the sea, if it where not
             for the abundance of monsters it is likely this would be the
             location of some major cities.
-          </p>
-
-          {/* Otto */}
+          </p> */}
           <Otto>
-            I found myself walking next to a tall boy with short brown hair. He
-            had the makings of a small mustache on his upper lip, a refined
-            pointed nose and a bit of acne around his cheeks.
+            After walking the road alone for 5 days I found myself walking next
+            to a tall boy with short brown hair. He had the makings of a small
+            mustache on his upper lip, a refined pointed nose and a bit of acne
+            around his cheeks.
           </Otto>
           <p>
             "Names Leon, if you care to ask" The tall boy said in a upbeat tone.
@@ -235,11 +282,12 @@ function Travel(props) {
           </p>
           <p>
             "Suppose so. Well Chingaling was a country before, made up of people
-            from Hathapatson to Dodgud. Alden and Huonhia split the country in
-            two and claimed it for their own. Although the official story is the
-            people of Banderedam where demon worshipers so Alden occupied that
-            area and Huonhia occupied the rest to protect the people from Alden.
-            I suppose the truth depends on who you ask." He explained.
+            from Hathapatson in Alden to Dodgud in Huonhia. Alden and Huonhia
+            split the country in two and claimed it for their own. Although the
+            official story is the people of Banderedam where demon worshipers so
+            Alden occupied that area and Huonhia occupied the rest to protect
+            the people from Alden. I suppose the truth depends on who you ask."
+            He explained.
           </p>
           <p>
             "So you must be local then?" I asked, since I don't even know the
@@ -250,12 +298,13 @@ function Travel(props) {
             sister and little brother." He replied happily.
           </p>
           <p>"Erm your parents?" I added.</p>
+          {/* Whats he on about, make him come from the capital. */}
           <p>
-            "Monsters. Ethautenheim to Banderedam passes through the province of
-            Bilkotgopia. Risky trip, but pays well. Work at Banderedam depends
-            on the ports and the academy. So both do poorly in the winter, so
-            trips like this one to the southern towns to make trades can be
-            profitable." He explained.
+            "Monsters. The capital city of Alden to Banderedam passes through
+            the province of Bilkotgopia. Risky trip, but pays well. Work at
+            Banderedam depends on the ports and the academy. So both do poorly
+            in the winter, so trips like this one to the southern towns to make
+            trades can be profitable." He explained.
           </p>
           <p>"So you make this trip every year?" I asked.</p>
           <p>
