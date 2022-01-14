@@ -651,7 +651,10 @@ function Intro(props) {
         stream. If I boil it in my bottle I might have an accident involving the
         bottle.
       </Kaja>
-      <Kaja>Just as my thoughts had start to wonder from me I was pulled back to reality by the sound of a breaking twig.</Kaja>
+      <Kaja>
+        Just as my thoughts had start to wonder from me I was pulled back to
+        reality by the sound of a breaking twig.
+      </Kaja>
       {/* running away */}
     </Content>
   );
