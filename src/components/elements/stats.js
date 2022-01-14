@@ -26,7 +26,7 @@ const statList = {
     minor: "Example",
   },
   name: {
-    name: "Vitality",
+    name: "Name",
     description: "This is your name!",
     numeric: "Increases HP by 14.5 per point.",
     vague: "Increases your durability.",
@@ -35,7 +35,7 @@ const statList = {
       "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina.",
   },
   level: {
-    name: "Vitality",
+    name: "Level",
     description: "As your level increases you will become stronger!",
     numeric: "Increases HP by 14.5 per point.",
     vague: "Increases your durability.",
@@ -44,7 +44,7 @@ const statList = {
       "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina.",
   },
   class: {
-    name: "Vitality",
+    name: "Class",
     description: "This is your class.",
     numeric: "Increases HP by 14.5 per point.",
     vague: "Increases your durability.",
@@ -53,7 +53,7 @@ const statList = {
       "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina.",
   },
   race: {
-    name: "Vitality",
+    name: "Race",
     description: "This is your race.",
     numeric: "Increases HP by 14.5 per point.",
     vague: "Increases your durability.",
@@ -62,8 +62,8 @@ const statList = {
       "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina.",
   },
   skills: {
-    name: "This is the total amount of your unique skills.",
-    description: "Increases your health points",
+    name: "Skills.",
+    description: "Amount of learnt skills.",
     numeric: "Increases HP by 14.5 per point.",
     vague: "Increases your durability.",
     major: "Increased health points.",
@@ -71,8 +71,8 @@ const statList = {
       "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina.",
   },
   spells: {
-    name: "This is the total amount of your unique spells.",
-    description: "Increases your health points",
+    name: "Spells.",
+    description: "Amount of learnt spells.",
     numeric: "Increases HP by 14.5 per point.",
     vague: "Increases your durability.",
     major: "Increased health points.",
@@ -81,7 +81,7 @@ const statList = {
   },
   titles: {
     name: "Vitality",
-    description: "This is the amount of titles you hold.",
+    description: "Total obtained titles.",
     numeric: "Increases HP by 14.5 per point.",
     vague: "Increases your durability.",
     major: "Increased health points.",
