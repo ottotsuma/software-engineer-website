@@ -647,9 +647,9 @@ function Intro(props) {
       </Kaja>
       <Kaja>
         Right. With that done, I need to find a place I can boil the water, I
-        could try to boil it in the pond but it would just flow away down
-        stream. If I boil it in my bottle I might have an accident involving the
-        bottle.
+        could try to boil it in the pond but the water would just flow down
+        stream, never really heating up to a boiling point. If I boil it in my
+        bottle I might have an accident involving the bottle.
       </Kaja>
       <Kaja>
         Just as my thoughts had start to wonder from me I was pulled back to
