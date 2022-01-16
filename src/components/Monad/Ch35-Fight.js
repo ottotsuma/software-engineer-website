@@ -656,11 +656,25 @@ function Intro(props) {
         reality by the sound of a breaking twig.
       </Kaja>
       <Kaja>
-        I span on my heels to face the direction the sound came from. I stood, knees bent, ready to jump into action any time. Staring into the wood line until I saw movement. A small, cute, brown bunny hopped out and stared at me. We stood unmoving for awhile until I stood up straight. I was not going to kill a bunny. As soon as I stood up, the bunny bolted, skidding, pushing its little back legs so hard it made more sound then movement for a while.
+        I span on my heels to face the direction the sound came from. I stood,
+        knees bent, ready to jump into action any time. Staring into the wood
+        line until I saw movement. A small, cute, brown bunny hopped out and
+        stared at me. We stood unmoving for awhile until I stood up straight. I
+        was not going to kill a bunny. As soon as I stood up, the bunny bolted,
+        skidding, pushing its little back legs so hard it made more sound then
+        movement for a while.
       </Kaja>
       <Kaja>
-        
+        Just as I let my guard down, a man into sight in the tree line, and in a
+        low, calm, deep voice said to me "You should never let your guard down."
       </Kaja>
+      <Kaja>
+        I turned, stunned. "Chu!" I shouted out with joy. The mysterious man
+        stood in the dark tree line had stepped out showing himself to be
+        Chu-gong, the boy who had shared a night with me in a cell after I had
+        annoyed Arrilian.
+      </Kaja>
+      {/* Chu-gong */}
       {/* running away */}
     </Content>
   );
