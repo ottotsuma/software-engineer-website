@@ -655,6 +655,12 @@ function Intro(props) {
         Just as my thoughts had start to wonder from me I was pulled back to
         reality by the sound of a breaking twig.
       </Kaja>
+      <Kaja>
+        I span on my heels to face the direction the sound came from. I stood, knees bent, ready to jump into action any time. Staring into the wood line until I saw movement. A small, cute, brown bunny hopped out and stared at me. We stood unmoving for awhile until I stood up straight. I was not going to kill a bunny. As soon as I stood up, the bunny bolted, skidding, pushing its little back legs so hard it made more sound then movement for a while.
+      </Kaja>
+      <Kaja>
+        
+      </Kaja>
       {/* running away */}
     </Content>
   );
