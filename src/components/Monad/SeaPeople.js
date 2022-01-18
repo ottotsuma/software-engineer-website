@@ -10,7 +10,7 @@ import Equipment from "./../elements/equipment";
 import Stats from "./../elements/stats";
 import Spells from "./../elements/spells";
 import Blood from "./../../assets/Blood.jpg";
-import {Sarah} from "./CharacterFonts"
+import { Sarah } from "./CharacterFonts";
 
 export const Shine = styled.p`
   font-size: xxx-large;
@@ -177,25 +177,46 @@ export const SeaPeople = {
         I stepped inside and sat on the only chair in the room. "Yeah, I guess I
         am getting use to it or the sea is becoming calmer. Anyway I heard you
         are also a rogue class right? I wanted some advice on how I should use
-        my stat points and what skills to learn, it's been awhile."
+        my attribute points and what skills to learn, it's been awhile."
       </p>
       <p>
         "Ah yeah. I mean I am a rouge type... My class is assassin, which is a
         type of rouge but I have a very specific play style and set of skills.
         If you want that kind of play style I can share my build with you but if
         it is just generic advice for rouges or play styles I can still help.
-        After all I have been playing since launch. I mean, when I am not
-        working that is." He smiled, he was a little more relaxed and less
-        serious then Sarah. I guess that was to be expected. Josh had a normal
-        day job as an engineer and played the game for fun but Sarah was a
-        professional gamer. This was her job.
+        After all I have been playing since launch." He smiled, he was a little
+        more relaxed and less serious then Sarah. I guess that was to be
+        expected. Josh had a normal day job and played the game for fun but
+        Sarah was a professional gamer & streamer. This was her job.
+      </p>
+      <p>
+        Monad, like all modern massively multiplayer online games (MMO Games),
+        are played inside Virtual Gaming Cabins or Virtual Gaming Pods if you
+        still use the old version. When you go to sleep inside them you can play
+        the game while you body rests. This lead to a rise in MMO Games, people
+        now more hours a day to play games without effecting their day time.
+      </p>
+      <p>
+        Players are able to enter in and the cabin will provide the energy and
+        nutrients required by the body at any time, just had to refill the
+        nutrient fluids. It is capable of simulating the body's muscles,
+        preventing the body from weakening after playing for long periods of
+        time. So spending many hours inside the cabin was no problem at all.
+        Since they also functioned as health cabins, tracking your heart rate
+        and helping healing process, anyone recovering from an injury might as
+        well use them.
+      </p>
+      <p>
+        The final benefit, everything was faster inside the pod. So players
+        could play for 24 hours in the game and only 12 hours would pass in real
+        life. People like Sarah would play much longer then 12 hours and spend
+        her awake time complying, editing and uploading her videos.
       </p>
       {/* This line will need so many re-writes because it's setting up his return to the game */}
       <p>
-        "Well, to be honest I don't really know what the meta is like now. What
-        is the best build or style you know? I reached level 50 before but when
-        my race changed I have only been able to get back to level 37 now." I
-        admitted.
+        "Well, to be honest I don't really know what direction would be best. I
+        reached level 50 before but when my race changed, I have only been able
+        to get back to level 37 now." I admitted.
       </p>
       <p>
         "Ah bummer man. You must of got an unlucky role. Dark elf is still a
@@ -442,9 +463,9 @@ export const SeaPeople = {
         Sarah seemed shocked but Josh did not react at all almost expecting it.
         We had talked about it before but he said Sarah might appear strong on
         the out side, especially with her skills as a gamer and her charters
-        attributes. However she was a shy person and rarely asked anyone to join,
-        most of the people that joined her guild were invited by others already
-        in the guild.
+        attributes. However she was a shy person and rarely asked anyone to
+        join, most of the people that joined her guild were invited by others
+        already in the guild.
       </p>
       <p>
         A screen popped up in front of me. You have been invited to join the
@@ -548,7 +569,8 @@ export const SeaPeople = {
         massive version of the crabs came out of the sea, standing at the height
         of 3/4 of a man and would be a real challenge, but the loot was really
         poor. Since we were under the effects of the miasma, even at half
-        strength, our attributes were reduced making weak enemies appear stronger.
+        strength, our attributes were reduced making weak enemies appear
+        stronger.
       </p>
       <p>
         We picked pearls from the ponds and ate dodo when we got hungry. That
@@ -721,10 +743,10 @@ export const SeaPeople = {
       </p>
       <p>[Your level has been capped at 30, However you are below level 30.]</p>
       <p>
-        The miasma had halved all of our attributes but I was only just realising
-        that it also half our level. Only now when it came to fight for the
-        first time since the Miasma was this strong did I realise all my level
-        30 skills were blocked!
+        The miasma had halved all of our attributes but I was only just
+        realising that it also half our level. Only now when it came to fight
+        for the first time since the Miasma was this strong did I realise all my
+        level 30 skills were blocked!
       </p>
       <p>
         I was level 37, but because of the Miasma I was effectively level 19.
@@ -773,9 +795,9 @@ export const SeaPeople = {
         As soon as I had activated the fuse, horns grew from the front of my
         head, spiraling around and back pointing forward. My feet turned into
         hooves as fur grew out the side of my legs. The transformation not only
-        changed my physical appearance but also my attributes and the effects of some
-        of my rouge skills. This was why people played rouge, for a game based
-        around options, this class had the most to pick from.
+        changed my physical appearance but also my attributes and the effects of
+        some of my rouge skills. This was why people played rouge, for a game
+        based around options, this class had the most to pick from.
       </p>
       <p>
         The first skill I used was 'Fleet of Foot' for movement increase, I used
@@ -930,12 +952,12 @@ export const SeaPeople = {
         A long time ago there was a split in the thoughts of the elves and where
         the gods of nature lay. These splits from the religion are referred to
         as 'dark elves'. My kind often mistaken for the only dark elves because
-        our skin is often ash grey in colour, desert elves would be
-        the true name. The desert elves as the names suggests moved south into
-        the deserts in search of the gods of nature that lay there. Next come
-        the snow or cave elves, they moved north into the snowy lands for the
-        same reasons. Finally the sea elves, who drowned trying to find the gods
-        of the ocean.
+        our skin is often ash grey in colour, desert elves would be the true
+        name. The desert elves as the names suggests moved south into the
+        deserts in search of the gods of nature that lay there. Next come the
+        snow or cave elves, they moved north into the snowy lands for the same
+        reasons. Finally the sea elves, who drowned trying to find the gods of
+        the ocean.
       </p>
     </Content>
   ),
@@ -1465,8 +1487,8 @@ export const SeaPeople = {
       <p>
         There levels in the cities I had visited in the past where not that
         high, around the mid 50's up to 70's. It would be a mistake to think
-        that they are weak though. Even in area's where players attributes where not
-        reduced NPC's with the role of city guard received boosts to their
+        that they are weak though. Even in area's where players attributes where
+        not reduced NPC's with the role of city guard received boosts to their
         damage dealt against players and reduced damage dealt by players to
         them. Nothing that could not be overcome with better equipment. The main
         problem with fighting them was two unique abilities, the first was to
@@ -2165,9 +2187,7 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         this." She said handing me a cream sheet.
       </p>
       <p>"Thanks." I replied putting it away for now.</p>
-      <p>
-
-      </p>
+      <p></p>
       {/* Give the blood bottle to Sarah, after she is injured by the priest */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}
       {/* All the normal land, and sea routes on the way to Alden are

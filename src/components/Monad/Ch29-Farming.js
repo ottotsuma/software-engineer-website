@@ -10,7 +10,7 @@ function Intro(props) {
           <p>
             I had new spells, I still needed to level up some more but I had
             more points to spend then before. I could make up for the difference
-            in stat points with items or titles. Right now I am missing even a
+            in attribute points with items or titles. Right now I am missing even a
             weapon.
           </p>
           {/* https://www.sacred-texts.com/cfu/mlc/mlc10.htm - obscure fire god from china */}

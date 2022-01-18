@@ -61,7 +61,7 @@ function Intro(props) {
             missing one week, or changing clubs. After all I had just been set
             back to level one, if I went like this it would be too obvious, even
             if I kept up my on physical body to its peak I would fall behind
-            those with stat points in dexterity, strength and vitality.
+            those with attribute points in dexterity, strength and vitality.
           </p>
 
           <p>
@@ -130,7 +130,7 @@ function Intro(props) {
             about what kind of club I really did want to join anyway, we could
             always move around and switch clubs if the new club would accept us.
             My magic was now strange and did not match everyone else, all of my
-            stat points had reset so I was a blank slate again. It's not unheard
+            attribute points had reset so I was a blank slate again. It's not unheard
             of, people who join great families or the military have had
             resources given to them to change their element, or even their whole
             class. This was different however, because if I admitted I was level
@@ -413,7 +413,7 @@ function Intro(props) {
             */}
           <p>
             I had way more spell points to spend then even when I was level 14
-            before, but the stat points remained the same. Increasing my magic
+            before, but the attribute points remained the same. Increasing my magic
             was obvious choice every level. It increased the power of my
             lighting seeds, but what to do with the rest? I also need to pick
             some new spells. I had to get 'Seeds to Soldiers'. The other spells

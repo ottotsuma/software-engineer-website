@@ -185,7 +185,7 @@ function Intro(props) {
             A weird sound came out from behind me, I turned and saw nothing. It
             sounded like Ditwin to me, although muffled. I went over to the
             stone behind the throne and tried to push it a side but it would not
-            move even a little. Strength was a stat for people who wanted to die
+            move even a little. Strength was a attribute for people who wanted to die
             up close anyway, I would just use my mana to move it. I put the
             cloth bag of black powder inside a gap in the stone and set it on
             fire and jumped back. I had got it from a professor while studying
@@ -539,7 +539,7 @@ function Intro(props) {
             "Starting from the right, with the black and red set. It say's here
             it is infused with the element of fire in each of the pieces, a
             different skill is attached would be the best way to translate this
-            I think. There is no stat buff on any piece, and let me just add
+            I think. There is no attribute buff on any piece, and let me just add
             that magic items with skills are rare today but in the time off
             immortals is basically unheard of outside of royal circles. There is
             a brief description of each skill but if the armor even contains

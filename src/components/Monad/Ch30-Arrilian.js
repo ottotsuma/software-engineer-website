@@ -138,7 +138,7 @@ function Intro(props) {
           <p>
             <Shine>*Ping*</Shine> [Spear - Wooden shaft and metal head. +1 physical damage.] As
             I thought, it was a junk item. I could spend awhile inspecting the
-            spears seeing if one with a good stat or basic tier had slipped
+            spears seeing if one with a good attribute or basic tier had slipped
             through as they tend to do.
           </p>
           <p>[Spear: -1HP per hit.] What the hell?</p>
@@ -149,8 +149,8 @@ function Intro(props) {
           </p>
           <p>
             [<font className="Normal">Big Spear</font>: +1 Charisma.] Err, it
-            has a stat increase but something feels wrong about using this. I
-            took the spear with me, I guess I was lucky to find a stat increase.
+            has a attribute increase but something feels wrong about using this. I
+            took the spear with me, I guess I was lucky to find a attribute increase.
             I wouldn't of taken it but I remembered that Charisma has an effect
             on command which is used to give orders to summons. Maybe my seed
             soldiers would benefit from this. Either way it was free so work

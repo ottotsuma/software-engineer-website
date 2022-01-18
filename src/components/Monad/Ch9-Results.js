@@ -237,7 +237,7 @@ Reingard". boy - alden likes Tisiel Skivali  becomes tank --> */}
           <p>
             The strength challenge was easy, touch the totem go inside and hit a
             giant drum with all your strength. I scored 12. Which matched my
-            strength stat so they must be linked to that. Once I left the trial
+            strength attribute so they must be linked to that. Once I left the trial
             I checked the pillar outside where names written on it with scores
             next to them. A message appeared in front of me when I inspected the
             pillar.

@@ -216,7 +216,7 @@ function Intro(props) {
             and set off along the path to Tisiel.
           </p> */}
 
-          {/* New quest */}
+          {/* New quest */}  
           <p>In the morning - </p>
           <p>
             Savigal was a port town on the edge of Huonhia now. In the past

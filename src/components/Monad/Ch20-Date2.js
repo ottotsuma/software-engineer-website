@@ -39,7 +39,7 @@ function Intro(props) {
           <p>
             "Ah, thank you but I have a plan. There is a mage in the history',
             an inquisitor. It's not the most direct way but if I keep going I
-            can match his stat distribution, I already have the same element.
+            can match his attribute distribution, I already have the same element.
             What about you? Last time we spoke you said you where learning witch
             magic, tell me about it." I said.
           </p>

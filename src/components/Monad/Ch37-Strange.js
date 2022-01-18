@@ -13,8 +13,8 @@ function Intro(props) {
       <p>
         "Now that you are all at a point were you understand the very basics,
         it's time for you to learn the next step. Understanding the fundamentals
-        of why it works. Why when you put stat points into Strength do you get
-        stronger? Why do you get stat points at level ups? Why do you level up?"
+        of why it works. Why when you put attribute points into Strength do you get
+        stronger? Why do you get attribute points at level ups? Why do you level up?"
       </p>
       <p>"I just kind of thought that's just how it worked."</p>
       <p>
@@ -46,12 +46,12 @@ function Intro(props) {
         "Very good, the mana does go into your body. If we stick with the
         strength analogy, the mana breaks down and rebuilds your muscles to
         increase the mana flow and storage in the muscles, therefor making you
-        stronger.Similar effects happen for the other attributes. So the stat points
+        stronger.Similar effects happen for the other attributes. So the attribute points
         are a display of how much foreign manner you have to be distributed. So
-        what happens if you save up your stat points?"
+        what happens if you save up your attribute points?"
       </p>
       <p>
-        "Nothing? I stored up stat points a few times and nothing changed.."
+        "Nothing? I stored up attribute points a few times and nothing changed.."
         Otto replied after being picked.
       </p>
       <p>

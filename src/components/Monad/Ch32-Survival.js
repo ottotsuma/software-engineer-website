@@ -176,7 +176,7 @@ function Intro(props) {
             Alden. For this trip I was shown some of the teaching materials used
             in Alden but I only briefly viewed them. The main difference is the
             layout and importance of the attributes or attributes. The difference in
-            views has lead to different stat distributions between out people. I
+            views has lead to different attribute distributions between out people. I
             think this is why Alden is famous for heavy close combat infantry. A
             stronger focus on defense and magic defense then we have." She said
             confirming some of my first thoughts.
@@ -270,13 +270,13 @@ function Intro(props) {
             what you said today worries me." She replied.
           </p>
           <p>
-            "Right now I am going to help you pick which stat points to focus
+            "Right now I am going to help you pick which attribute points to focus
             on, then I am going to re-introduce you to Takeo. You met him
             before, he helped you come back from the tomb you went to last time.
             He is going to help you level up." She said.
           </p>
           <p>
-            And that was how things played out. We ended up agreeing to put stat
+            And that was how things played out. We ended up agreeing to put attribute
             points into Charisma, it was better to have others fight for me then
             risking myself since I had the seed soldiers. She wanted me to put
             points into sense also so that I would be able to sense danger,

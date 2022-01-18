@@ -258,7 +258,7 @@ function Intro(props) {
           </p>
           <p>
             "Aha, I'll take them, even if you are trying to get rid of that
-            ring. Your strength stat is not related to your muscle mass anyway,
+            ring. Your strength attribute is not related to your muscle mass anyway,
             you trickster."
           </p>
           <p>"Hehe you saw through that. Next is the skull-" She started</p>

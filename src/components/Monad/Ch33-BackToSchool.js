@@ -65,7 +65,7 @@ function Intro(props) {
             mana trying to move my mind around the room. Eventually I bumped
             into others until I found what they were all reaching out to, a
             thread of mana coming from somewhere inside the academy. I latched
-            onto it. They must put these in every class room, my sense stat is
+            onto it. They must put these in every class room, my sense attribute is
             rock bottom so the other students must be also.
           </p>
           <p>
@@ -283,7 +283,7 @@ function Intro(props) {
             seemed to have new items for sale and discounts on their class
             manuals and training manuals. These were really useful if you wanted
             to join the main army group as it would lay out what to pick for
-            your spells and stat points to be able to join. Those who followed
+            your spells and attribute points to be able to join. Those who followed
             these instructions would not have to join the auxiliary force and
             would be paid more. My chance of this had long gone since I no
             longer had a class that could follow these guidelines.

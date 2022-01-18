@@ -112,7 +112,7 @@ function Intro(props) {
             he was under that robe. I was by no means a mountain of muscles,
             even Reingard was larger then I was. However everyone here knew
             muscles would not help in a fight between mages as most mages do not
-            put any stat points into strength so their muscles would just be for
+            put any attribute points into strength so their muscles would just be for
             show.
           </p>
 

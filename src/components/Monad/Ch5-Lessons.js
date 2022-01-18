@@ -67,7 +67,7 @@ function Lessons(props) {
             you can take as a Mage. The kind of jobs you can get in Alden and
             beyond. Since all of you here are taking the combat class this will
             give you an idea of the jobs you can get as a warrior-mage. And
-            finally where to put your stat points." Lubin said.
+            finally where to put your attribute points." Lubin said.
           </p>
           <p>
             "We will start with a brief look at the common elements mages have
@@ -183,7 +183,7 @@ function Lessons(props) {
             asked to present our findings in small groups.
           </p>
           <p>
-            "Now lets look at how to invest your stat points. Firstly, Magic
+            "Now lets look at how to invest your attribute points. Firstly, Magic
             affects the total amount of MP you have, so that is usually the main
             stat for Mages. Even if you plan to be a front line fighter, healer
             or non-combatant." Lubin said after the class had come back to watch
@@ -191,7 +191,7 @@ function Lessons(props) {
           </p>
 
           <p>
-            "For the other stat points & spell points we have provided you a
+            "For the other attribute points & spell points we have provided you a
             book containing what past mages have done and how it worked out for
             them. You can either copy one of them or just learn from what they
             did and make your own path. Unless you want to join the military

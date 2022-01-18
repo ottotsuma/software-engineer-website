@@ -74,7 +74,7 @@ function Intro(props) {
 
           <p>
             The others gave Otto a strange look, only Reingard and myself knew
-            Otto's stat point distribution. While he was clearly not to happy
+            Otto's attribute point distribution. While he was clearly not to happy
             that one of his trump cards was revealed, considering who Ditwin and
             Gelfrat are they would not take this into account when fighting
             later, our only real problem was this Nymandus who was far more
@@ -509,13 +509,13 @@ function Intro(props) {
             forearm and hand. On top of the staff was a small fireball covering
             the end. He pointed it in my direction and said "You are not even
             level 20 yet, perhaps I should teach you the difference is not just
-            stat points, some of my skills are level 2 and 3. You know your
-            strength stat seems pretty high, I bet your charisma attributes are rock
+            attribute points, some of my skills are level 2 and 3. You know your
+            strength attribute seems pretty high, I bet your charisma attributes are rock
             bottom. Stand up."
           </p>
 
           <p>
-            I was not sure what he meant by my charisma stat being rock bottom,
+            I was not sure what he meant by my charisma attribute being rock bottom,
             why did that matter? I was going to do as he asked anyway while he
             had that thing pointed at me, but I felt more compelled to stand up,
             almost like my body wanted to before my mind. I soon found myself
@@ -543,7 +543,7 @@ function Intro(props) {
           </p>
 
           <p>
-            "Seems like my charisma stat is not that high then. Walk down there
+            "Seems like my charisma attribute is not that high then. Walk down there
             or i'll blast you anyway. You're a lightning mage, so you should be
             fine." He smiled a half smile at his own words.
           </p>
