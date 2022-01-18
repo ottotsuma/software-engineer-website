@@ -164,28 +164,6 @@ function Intro(props) {
           </p>
 
           <p>"So, why did you call me out here?"</p>
-
-          <p>
-            Savigal was a port town on the edge of Huonhia now. In the past
-            however this town use to sit in the middle of Chingaling, a small
-            port with little reason to become a port at the time. It was right
-            next to a large monster territory, not the fastest port to Chihal.
-            What made Savigal stand out back then was the dungeons located near
-            by.
-          </p>
-          <p>
-            There were dungeons near the source of the river west of Savigal.
-            North-west into the jungle, just west of the main road. North-east
-            inside a hill and of course the various high level dungeons to the
-            south, in the monster territory. The most famous dungeon around
-            these parts though is the one in town. The reason for that is
-            because it is a very low level dungeon.
-          </p>
-          <p></p>
-{/* 8 ~ 14 */}
-{/* Wandering Zombie,  
-Ancient Zombie, Berserk Zombie, Corpse Ranger, Skeleton Soldier, Skeleton Lancer, 
-Corpse Sergeant  */}
           <p>
             "Ah well I know it's not part of the request I sent to the academy,
             but would you lightning a manaball here also? Just to help out an
@@ -230,13 +208,40 @@ Corpse Sergeant  */}
             make it to Chihal and look around the market by the afternoon.
           </p>
 
-          <p>
+          {/* <p>
             I ended up having to give Mia my address so she could send me mail
             if she had more questions about the academy, when they found out I
             was staying in the cliff side they pitied me a bit, but if I'm
             honest since day one I have enjoyed staying there. I waved good bye
             and set off along the path to Tisiel.
+          </p> */}
+
+          {/* New quest */}
+
+          <p>
+            Savigal was a port town on the edge of Huonhia now. In the past
+            however this town use to sit in the middle of Chingaling, a small
+            port with little reason to become a port at the time. It was right
+            next to a large monster territory, not the fastest port to Chihal.
+            What made Savigal stand out back then was the dungeons located near
+            by.
           </p>
+          <p>
+            There were dungeons near the source of the river west of Savigal.
+            North-west into the jungle, just west of the main road. North-east
+            inside a hill and of course the various high level dungeons to the
+            south, in the monster territory. The most famous dungeon around
+            these parts though is the one in town. The reason for that is
+            because it is a very low level dungeon.
+          </p>
+          <p>
+            It's a level 10 dungeon, although the monsters inside are all level
+            10, they vary in difficulty.
+          </p>
+          {/* 8 ~ 14 */}
+          {/* Wandering Zombie,  
+Ancient Zombie, Berserk Zombie, Corpse Ranger, Skeleton Soldier, Skeleton Lancer, 
+Corpse Sergeant  */}
 
           {/* Home again */}
           <p>
