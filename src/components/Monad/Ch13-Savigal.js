@@ -25,15 +25,15 @@ function Intro(props) {
           </Otto>
           <p>
             I made my way through the small market place buying fruits, I always
-            had a thing for fruits. I had traveling funds and it'
-            nice to try new things. After shopping I went to the office
-            building, normally a small town like this would use the village hall
-            for any government administration, but since Savigal was a port town
-            capable of being used during times of war it had a government office
-            building here. All I had to do was take my ID and mission slip in
-            and in return they informed the bathhouse. While I waited for the
-            sun go to down, since the mission was to take place just after the
-            sun sets, I rested in the large tavern.
+            had a thing for fruits. I had traveling funds and it' nice to try
+            new things. After shopping I went to the office building, normally a
+            small town like this would use the village hall for any government
+            administration, but since Savigal was a port town capable of being
+            used during times of war it had a government office building here.
+            All I had to do was take my ID and mission slip in and in return
+            they informed the bathhouse. While I waited for the sun go to down,
+            since the mission was to take place just after the sun sets, I
+            rested in the large tavern.
           </p>
 
           {/* I could make the trip in 2 days and rest at a town each night so I did not need much, */}
@@ -117,8 +117,6 @@ function Intro(props) {
             would drown that embarrassment in drink.
           </p>
 
-          <Otto></Otto>
-
           {/* Days in the village? - re do*/}
           <h4>side quest</h4>
           <p>
@@ -167,6 +165,27 @@ function Intro(props) {
 
           <p>"So, why did you call me out here?"</p>
 
+          <p>
+            Savigal was a port town on the edge of Huonhia now. In the past
+            however this town use to sit in the middle of Chingaling, a small
+            port with little reason to become a port at the time. It was right
+            next to a large monster territory, not the fastest port to Chihal.
+            What made Savigal stand out back then was the dungeons located near
+            by.
+          </p>
+          <p>
+            There were dungeons near the source of the river west of Savigal.
+            North-west into the jungle, just west of the main road. North-east
+            inside a hill and of course the various high level dungeons to the
+            south, in the monster territory. The most famous dungeon around
+            these parts though is the one in town. The reason for that is
+            because it is a very low level dungeon.
+          </p>
+          <p></p>
+{/* 8 ~ 14 */}
+{/* Wandering Zombie,  
+Ancient Zombie, Berserk Zombie, Corpse Ranger, Skeleton Soldier, Skeleton Lancer, 
+Corpse Sergeant  */}
           <p>
             "Ah well I know it's not part of the request I sent to the academy,
             but would you lightning a manaball here also? Just to help out an

@@ -26,13 +26,40 @@ https://www.wikiwand.com/en/Xiuhcoatl
 https://blog-cdn.reedsy.com/uploads/2018/07/Rick-and-Morty-Story-Wheel-Annotated.jpg
 
 # Notes:
-
+ 
+## Unsorted
 Coins - 1 gold - around 1000 or 30 days of work ? 
 Mana Coins
 Silver
 bronze
 
 Smart contracts 
+
+Basic, Intermediate, Advanced.
+
+Ajisukitakahikone = Japanese version of God K
+
+The classes and races could be catabolized into tiers [1, 2, 3] or ranks [bronze, silver, gold], [junk, common, normal, rare, elite]
+Class / Race bonuses grow with your levels
+Items that grow with you for a period of time, I.e. Level 0 - 10 sword. Level 50 - 90 staff. Something like that.
+Mastery over skills, so the skills level up? Costs points / experience.
+Switchable classes on one account? That would be nice for players in real life but this is just a story...
+Durability for items is a nice idea, having to repair them.
+Death is not always -1 level or whatever, the penalties can change.
+Stealing the bird from a nest and raise it
+Roulette - good idea from ff14, daily bonus, and helps lower players get matches
+Item need vs greed. can only need on your own class.
+
+
+NPC
+You level up for the first time and your class is picked.
+You find out which element you are most suited to at level 10 (Can pick).
+
+USER
+You pick a basic class and become level 1. 
+level 1 - 9 is the tutorial period.
+You pick an element at level 10. 
+At this point you can use teleport stations, and travel to cities.
 
 Death - 
 Exp lose - simple.
@@ -100,33 +127,53 @@ return (
 }
 export default Intro;
 
-## Undefined:
+## Parties & Raids
+Half party / Light party = 4 
+Party / Full party = 8 
+Full Raid or Alliance = 3 parties or 24 players
+After that you can do the Army size of 50, 100 + 
 
-Basic, Intermediate, Advanced.
+## Dungeons 
 
-Ajisukitakahikone = Japanese version of God K
+Normal
+Hard
+Elite
+Hell
 
-The classes and races could be catabolized into tiers [1, 2, 3] or ranks [bronze, silver, gold], [junk, common, normal, rare, elite]
-Class / Race bonuses grow with your levels
-Items that grow with you for a period of time, I.e. Level 0 - 10 sword. Level 50 - 90 staff. Something like that.
-Mastery over skills, so the skills level up? Costs points / experience.
-Switchable classes on one account? That would be nice for players in real life but this is just a story...
-Durability for items is a nice idea, having to repair them.
-Death is not always -1 level or whatever, the penalties can change.
-Stealing the bird from a nest and raise it
-Roulette - good idea from ff14, daily bonus, and helps lower players get matches
-Item need vs greed. can only need on your own class.
+## Towns and cities
 
+forge / armory 
+Stores
+Ministries (finance, defence)
+backgrounds
+Skill instructors ?
+Alliance teleport
+Auction house
+town teleport
+Assembly hall
+Citizen registation
+bars
+Dueling 
+Arena
+Castle wars
 
-NPC
-You level up for the first time and your class is picked.
-You find out which element you are most suited to at level 10 (Can pick).
+## Items
 
-USER
-You pick a basic class and become level 1. 
-level 1 - 9 is the tutorial period.
-You pick an element at level 10. 
-At this point you can use teleport stations, and travel to cities.
+### Weapons 
+
++4 and +5 weapons
+Soft, white glow
+
++6 and +7 weapons
+
++8 and +9 Weapons
+
++10 and +11 weapons
+
++12, +13, and +14 weapons
+
++15 weapons
+
 
 ## Speeches:
 

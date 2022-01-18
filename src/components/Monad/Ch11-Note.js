@@ -334,7 +334,7 @@ Ring (queen) - (junk) Ring of Little Strength. Strength +5 - O
 Coin (daughter) - (???) - O
 --> */}
           <p>
-            The last thing I did that day was check out my equipment stats, now
+            The last thing I did that day was check out my equipment attributes, now
             that I had some new items.
           </p>
           <Equipment
