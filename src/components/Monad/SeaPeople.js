@@ -212,20 +212,31 @@ export const SeaPeople = {
         life. People like Sarah would play much longer then 12 hours and spend
         her awake time complying, editing and uploading her videos.
       </p>
-      {/* This line will need so many re-writes because it's setting up his return to the game */}
       <p>
         "Well, to be honest I don't really know what direction would be best. I
         reached level 50 before but when my race changed, I have only been able
-        to get back to level 37 now." I admitted.
+        to get back to level 37 now." I admitted. I had not played for awhile.
+        Monad has the most interactive NPC's and the great immersion. Maybe
+        streamers, like Sarah, get a lot of views from their role playing
+        streams. While others make money in other ways. To get in on this big
+        market other game companies tried to also make fantasy RPGs, but they
+        were never as real as Monad. I had left Monad for awhile to try and play
+        some of these new releases but ultimately came back as nothing held a
+        candle to Monads giant world.
       </p>
       <p>
         "Ah bummer man. You must of got an unlucky role. Dark elf is still a
-        humanoid race of the same rarity as human right?" He asked.
+        humanoid race of the same rarity as human right? So the level loss
+        should of been small." He asked.
       </p>
       <p>
         "Ah no, it is a rare rated race. So I went one rarity up, and although
-        its humanoid it is a species of elf so I jumped two races... So instead
-        of the random level reduction it took me back to level 1." I replied.
+        its humanoid, it is a species of elf so I jumped from human, to elf, to
+        dark elf... So instead of the random level reduction it took me back to
+        level 1." I replied. This was to account for players turning into all
+        kinds of races. If you were once a human and turned into something with
+        winds, tentacles or claws, it would take some getting use to. To account
+        for this, when you changed race or class you would lose a few levels.
       </p>
       <p>
         "I suddenly don't feel bad for you at all. You got a rare race at level
