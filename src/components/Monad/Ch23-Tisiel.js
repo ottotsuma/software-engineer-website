@@ -510,7 +510,7 @@ function Intro(props) {
             the end. He pointed it in my direction and said "You are not even
             level 20 yet, perhaps I should teach you the difference is not just
             stat points, some of my skills are level 2 and 3. You know your
-            strength stat seems pretty high, I bet your charisma stats are rock
+            strength stat seems pretty high, I bet your charisma attributes are rock
             bottom. Stand up."
           </p>
 

@@ -73,7 +73,7 @@ function Academy(props) {
             School - Enter the academy, +1 Magic]. I was elated, I had only just
             joined and already my magic was increasing! Why was it called "Back
             to School?" If it is unlocked the first time you come? never mind. I
-            quickly loaded my stats.
+            quickly loaded my attributes.
           </p>
           <Stats
             type={"description"}

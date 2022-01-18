@@ -27,6 +27,13 @@ https://blog-cdn.reedsy.com/uploads/2018/07/Rick-and-Morty-Story-Wheel-Annotated
 
 # Notes:
 
+Coins - 1 gold - around 1000 or 30 days of work ? 
+Mana Coins
+Silver
+bronze
+
+Smart contracts 
+
 Death - 
 Exp lose - simple.
 Exp debt - Fun idea, you have to earn that much exp before your bar goes back to normal.

@@ -30,7 +30,7 @@ function Intro(props) {
 
           <p>
             "That is a good plan! Maybe it will work. You know you cannot reset
-            your stats, but I'll let you in on a secret. You can if you change
+            your attributes, but I'll let you in on a secret. You can if you change
             your class or element, you can reset back to level one and do it all
             over again. It is mostly just nobles who can afford to do this but
             if you want I can share a class from Leika with you..." She said.

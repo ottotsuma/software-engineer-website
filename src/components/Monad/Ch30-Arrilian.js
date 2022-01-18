@@ -420,7 +420,7 @@ function Intro(props) {
           {/* <p>Lightning germination: Stimulate a target into germinating.</p> */}
           {/* During germination, repair processes are activated to deal with accumulated DNA damage. - Kind of heal & Quality */}
           {/* <p>Lightning growth: Force the target to grow.</p> */}
-          {/* Increases quality of plant & stats given - buff spell */}
+          {/* Increases quality of plant & attributes given - buff spell */}
           {/* <p>Lightning harvest: Harvest the target.</p> */}
           {/* Execute and take the drops */}
           <p>
@@ -508,7 +508,7 @@ function Intro(props) {
           <p>
             I fell to the ground, and picked a seed out of my bag. I grew it
             into a soldier and Linhart was pinned down by the thing, I had not
-            boosted it stats but it was enough to hold him, it only took seconds
+            boosted it attributes but it was enough to hold him, it only took seconds
             before the acid ants were on top of all of us. They bite and spat
             acid as the other students fought back I watched as Linhart screamed
             while the ants bit him. Maybe it was too much but clearly he had

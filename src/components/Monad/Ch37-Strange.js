@@ -46,7 +46,7 @@ function Intro(props) {
         "Very good, the mana does go into your body. If we stick with the
         strength analogy, the mana breaks down and rebuilds your muscles to
         increase the mana flow and storage in the muscles, therefor making you
-        stronger.Similar effects happen for the other stats. So the stat points
+        stronger.Similar effects happen for the other attributes. So the stat points
         are a display of how much foreign manner you have to be distributed. So
         what happens if you save up your stat points?"
       </p>
@@ -56,8 +56,8 @@ function Intro(props) {
       </p>
       <p>
         "On the surface yes. However, this is a real lesson you should be
-        mindful of. The system displays some stats to you, but nothing
-        everything about your body and your mana. Some of the stats are hidden.
+        mindful of. The system displays some attributes to you, but nothing
+        everything about your body and your mana. Some of the attributes are hidden.
         Let me give you some examples. Can anyone tell me their HP regeneration
         rate per second? Your spell casting time reduction? Experience points
         increase or decrease percentage?"

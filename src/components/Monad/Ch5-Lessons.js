@@ -238,7 +238,7 @@ function Lessons(props) {
             concluded that the people that wrote the histories just copied
             directly from these older books. Cutting out the stories and reasons
             why they made their decisions and just wrote down the outcomes and
-            stats.
+            attributes.
           </p>
 
           <p>

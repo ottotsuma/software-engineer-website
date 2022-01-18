@@ -358,7 +358,7 @@ Noticed by a God - get the notice of a God, (varies) */}
               },
             }}
           />
-          <p>And then check my current stats.</p>
+          <p>And then check my current attributes.</p>
           <Stats
             type={"description"}
             stats={{
@@ -452,9 +452,9 @@ Noticed by a God - get the notice of a God, (varies) */}
 
           <p>
             Arena Guard -- "You can move around in your half of the arena before
-            the match stats, position how you like, set traps and cast spells
+            the match attributes, position how you like, set traps and cast spells
             but if you make a move, spell or anything else to the other half of
-            the arena or combatants before the match stats you will be
+            the arena or combatants before the match attributes you will be
             disqualified. Good luck."
           </p>
 

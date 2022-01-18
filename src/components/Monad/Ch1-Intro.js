@@ -498,7 +498,7 @@ most people learn inspect but either see
           <p>
             Sitting alone in my room later that night I could not help but
             reflect back on what was told to me earlier. The numbers displayed
-            in front of me right now where my stats and my level, 1.
+            in front of me right now where my attributes and my level, 1.
           </p>
           <Stats
             type={"description"}
@@ -525,11 +525,11 @@ most people learn inspect but either see
             I was told not to spend any of the points, that I was going to be
             sent to the town hall tomorrow to be tested for my aptitude. Not
             everyone could use inspect, so external tools where used to find out
-            their stats and class. Since I was a mage when I am 14 I will go to
+            their attributes and class. Since I was a mage when I am 14 I will go to
             the magic academy in Banderedam.
           </p>
           <p>
-            Almost all the stats where 0 however, this could not be good.
+            Almost all the attributes where 0 however, this could not be good.
             Thinking at first there was a mistake I asked my parents but I soon
             learned that these numbers are a display of how much the mana can
             affect me and my spells, them being 0 just means that my mana flow
@@ -539,11 +539,11 @@ most people learn inspect but either see
           <p>
             All children growing up are told stories of heros and villains,
             magic, monsters, and great warriors. But nothing was ever said about
-            how to unlock their class, skills, or stats. Almost like everyone
+            how to unlock their class, skills, or attributes. Almost like everyone
             who had unlocked them was sworn to silence, today I found out that
-            was true. For their own protection as the only way to unlock stats
+            was true. For their own protection as the only way to unlock attributes
             was to slay a monster in battle without the help of anyone with
-            stats, knowing this some children might carelessly try and fight a
+            attributes, knowing this some children might carelessly try and fight a
             monster before they where 14. Naturally not everyone kept the secret
             and most children had killed a monster before they where 14 just
             usually just one their parent had picked out for them, something
@@ -782,7 +782,7 @@ most people learn inspect but either see
             go hunting to become level one.
           </p>
           <p>
-            The first thing I had to do was read through a book about stats. I
+            The first thing I had to do was read through a book about attributes. I
             had to learn their names and what they do before I could join in the
             normal lessons. Today the others were looking at maps of the whole
             continent and learning about the people and places. I really wanted
@@ -825,7 +825,7 @@ most people learn inspect but either see
             </HTMLFlipBook>
           </div>
           <p>
-            There was more to each of the stats I was told but to join one of
+            There was more to each of the attributes I was told but to join one of
             the military academy's which all fighters at age 14 were expected to
             do, this basic understanding was a must.
           </p>

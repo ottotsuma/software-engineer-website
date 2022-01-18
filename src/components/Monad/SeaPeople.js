@@ -442,7 +442,7 @@ export const SeaPeople = {
         Sarah seemed shocked but Josh did not react at all almost expecting it.
         We had talked about it before but he said Sarah might appear strong on
         the out side, especially with her skills as a gamer and her charters
-        stats. However she was a shy person and rarely asked anyone to join,
+        attributes. However she was a shy person and rarely asked anyone to join,
         most of the people that joined her guild were invited by others already
         in the guild.
       </p>
@@ -548,7 +548,7 @@ export const SeaPeople = {
         massive version of the crabs came out of the sea, standing at the height
         of 3/4 of a man and would be a real challenge, but the loot was really
         poor. Since we were under the effects of the miasma, even at half
-        strength, our stats were reduced making weak enemies appear stronger.
+        strength, our attributes were reduced making weak enemies appear stronger.
       </p>
       <p>
         We picked pearls from the ponds and ate dodo when we got hungry. That
@@ -721,7 +721,7 @@ export const SeaPeople = {
       </p>
       <p>[Your level has been capped at 30, However you are below level 30.]</p>
       <p>
-        The miasma had halved all of our stats but I was only just realising
+        The miasma had halved all of our attributes but I was only just realising
         that it also half our level. Only now when it came to fight for the
         first time since the Miasma was this strong did I realise all my level
         30 skills were blocked!
@@ -773,7 +773,7 @@ export const SeaPeople = {
         As soon as I had activated the fuse, horns grew from the front of my
         head, spiraling around and back pointing forward. My feet turned into
         hooves as fur grew out the side of my legs. The transformation not only
-        changed my physical appearance but also my stats and the effects of some
+        changed my physical appearance but also my attributes and the effects of some
         of my rouge skills. This was why people played rouge, for a game based
         around options, this class had the most to pick from.
       </p>
@@ -1465,7 +1465,7 @@ export const SeaPeople = {
       <p>
         There levels in the cities I had visited in the past where not that
         high, around the mid 50's up to 70's. It would be a mistake to think
-        that they are weak though. Even in area's where players stats where not
+        that they are weak though. Even in area's where players attributes where not
         reduced NPC's with the role of city guard received boosts to their
         damage dealt against players and reduced damage dealt by players to
         them. Nothing that could not be overcome with better equipment. The main
@@ -2107,7 +2107,7 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         "You don't put a hood on to blend in." I opened my inventory and took
         out normal clothes of the people of Alden. "Put these on both of you.
         Over your armor is fine but if you have disguise skill but if you don't
-        putting clothes on top of your armor will render your armor stats
+        putting clothes on top of your armor will render your armor attributes
         useless." I told them. To my sunrise they both had skills for disguise.
         Sarah from her vampire class, Noah said the dark elves learn it ass a
         race skill and I had it as an assassin.

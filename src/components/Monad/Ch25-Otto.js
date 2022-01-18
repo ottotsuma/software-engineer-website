@@ -10,7 +10,7 @@ function Intro(props) {
           {/* spring loaded coffin lol */}
           <h4>Otto</h4>
           <p>
-            I couldn't help by every few seconds check my stats, in some kind of
+            I couldn't help by every few seconds check my attributes, in some kind of
             hope that they would change back to what they where before.
           </p>
           <Stats

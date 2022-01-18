@@ -56,7 +56,7 @@ function Combat(props) {
           <p>
             The lesson continued as normal, reading through past mages, their
             feats, discoveries and challenges. I decided to check out my current
-            stats since there was a fight coming up.
+            attributes since there was a fight coming up.
           </p>
           <Stats
             type={"description"}
@@ -306,7 +306,7 @@ function Combat(props) {
             of this. If they did think of it before, it's unlikely they would be
             able to use it at this level since shocking touch alone would have
             no way to knock out Daniel in one hit. Without increasing my
-            strength stats earlier the damage the spear would of been to little
+            strength attribute earlier the damage the spear would of been to little
             and I would of lost.
           </p>
           <p>

@@ -118,7 +118,7 @@ function Intro(props) {
           </p>
 
           <p>
-            Quickly reviewing my stats so far I saw that I had no defenses, very
+            Quickly reviewing my attributes so far I saw that I had no defenses, very
             little health and was still reliant on a melee weapon. On the other
             hand I had high mana, high magic output, perhaps there was someway I
             could turn this into a defense.{" "}

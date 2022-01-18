@@ -55,7 +55,7 @@ function Intro(props) {
             like a soft plant weaved and threaded into its self.
           </p>
           <p>
-            "So how much do you know about the stats themselves?" She asked me
+            "So how much do you know about the attributes themselves?" She asked me
             while I was saying I had points left over and unsure what to use
             them for.
           </p>
@@ -149,7 +149,7 @@ function Intro(props) {
           <div className="BreakPoint" />
           <p>
             After reading through the book there was some obvious differences
-            from the books used in Alden. The stats were called attributes and
+            from the books used in Alden. The attributes were called attributes and
             split into catagories of minor and major. Major being Vitality,
             strength, Magic, Dexterity, Sense & Charisma. Where Magic defense
             and defense were donated as minor. Within each was also Major
@@ -160,22 +160,22 @@ function Intro(props) {
           </p>
           <p>
             This was mind blowing. I thought all countries had the same
-            understanding of stats as Alden did. Did Leika know more then we did
+            understanding of attributes as Alden did. Did Leika know more then we did
             or was it just a different view of the same topics? And more
             importantly there was importance placed on Charisma and Sense was
             higher in the Leikan teachings while in Aldenese these were seen as
-            minor even noncombat like stats.
+            minor even noncombat like attributes.
           </p>
           <p>
             "Why is there so little importance on the role of defense in this
-            book? Is this just how Leikans view the stats?" I asked hoping to
+            book? Is this just how Leikans view the attributes?" I asked hoping to
             clear up some of my confusion.
           </p>
           <p>
             "I was confused too when I first saw how things were taught here in
             Alden. For this trip I was shown some of the teaching materials used
             in Alden but I only briefly viewed them. The main difference is the
-            layout and importance of the attributes or stats. The difference in
+            layout and importance of the attributes or attributes. The difference in
             views has lead to different stat distributions between out people. I
             think this is why Alden is famous for heavy close combat infantry. A
             stronger focus on defense and magic defense then we have." She said

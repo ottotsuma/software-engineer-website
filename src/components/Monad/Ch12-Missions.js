@@ -125,7 +125,7 @@ function Intro(props) {
             alone they will target you and take you out, run quick and get into
             the group." at his shout I ran, I ran as fast as I could, not having
             invested many points into dexterity it was not easy as I used the
-            strength I had invested into my stats to pump my legs as hard as I
+            strength I had invested into my attributes to pump my legs as hard as I
             could. Soon enough the wolves noticed me, the small one charged
             towards me as the merchant's and body guards intercepted the larger
             wolves taking this opportunity to attack them. Seeing the wolf run

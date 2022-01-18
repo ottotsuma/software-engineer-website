@@ -127,7 +127,7 @@ Charlemagne in 794 decreed that a single silver penny (weighing 1.7 grams) shoul
           <p>
             The shop keeper layed out 3 wands before me. "Nothing quite as fancy
             as some of the other wands, but at least useable by a beginner. Now
-            I should explain the stats displayed are reflective of my
+            I should explain the attributes displayed are reflective of my
             measurements, that is to say the exact effect it will have on will
             be reflective of your own level. Maybe a point lower, nothing more."
           </p>

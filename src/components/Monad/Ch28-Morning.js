@@ -378,7 +378,7 @@ function Intro(props) {
             to get more experience. After reaching level 5 the exp gained from
             the pests had seriously dropped and I became bored.
           </p>
-          {/* Lets stick with the plan of more spell points instead of stats. And use passives to increase the stats? Or items. */}
+          {/* Lets stick with the plan of more spell points instead of attributes. And use passives to increase the attributes? Or items. */}
           {/* Germination normally done with fire mages, takes ages. Ice mages to store them. (Other jobs include packing and shipping food.) */}
           <Stats
             type={"description"}
@@ -448,7 +448,7 @@ function Intro(props) {
             I tried to use the spell on a certain body part after reading that
             description, no luck.
           </p>
-          {/* Increases quality of plant & stats given - buff spell */}
+          {/* Increases quality of plant & attributes given - buff spell */}
           <p>Lightning harvest: Harvest the target.</p>
           {/* Quality of harvested materials */}
           <p>
