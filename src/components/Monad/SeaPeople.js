@@ -930,7 +930,7 @@ export const SeaPeople = {
         A long time ago there was a split in the thoughts of the elves and where
         the gods of nature lay. These splits from the religion are referred to
         as 'dark elves'. My kind often mistaken for the only dark elves because
-        our skin is often dark grey to black in colour, desert elves would be
+        our skin is often ash grey in colour, desert elves would be
         the true name. The desert elves as the names suggests moved south into
         the deserts in search of the gods of nature that lay there. Next come
         the snow or cave elves, they moved north into the snowy lands for the
