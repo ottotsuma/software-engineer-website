@@ -140,23 +140,6 @@ Hard
 Elite
 Hell
 
-## Towns and cities
-
-forge / armory 
-Stores
-Ministries (finance, defence)
-backgrounds
-Skill instructors ?
-Alliance teleport
-Auction house
-town teleport
-Assembly hall
-Citizen registation
-bars
-Dueling 
-Arena
-Castle wars
-
 ## Items
 
 ### Weapons 
@@ -903,3 +886,22 @@ https://watabou.github.io/city-generator/?size=18&seed=272082858&name=Todtenwei&
 Todtenwei - 272082858
 Steinauhau - 5628570730133
 Alden - 839360670
+Savigal - 640470293
+
+## Towns and cities
+
+Bathhouse
+forge / armory 
+Stores
+Ministries (finance, defence)
+backgrounds
+Skill instructors ?
+Alliance teleport
+Auction house
+town teleport
+Assembly hall
+Citizen registation
+bars
+Dueling 
+Arena
+Castle wars
