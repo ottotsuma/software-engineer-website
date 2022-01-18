@@ -203,11 +203,11 @@ function Intro(props) {
             This is going to be so awkward. In the end Mia was easy to talk to,
             since we were almost the same age and I had only just joined the
             academy and she was so interested in it we had a lot to talk about.
-            I ended up sleeping there after Mia went home, at least I saved the
-            cost of a room, I would head back early in the morning and try to
-            make it to Chihal and look around the market by the afternoon.
+            I ended up sleeping there for the night. At least I saved the
+            cost of a room.
           </p>
-
+          {/* I would head back early in the morning and try to
+            make it to Chihal and look around the market by the afternoon. */}
           {/* <p>
             I ended up having to give Mia my address so she could send me mail
             if she had more questions about the academy, when they found out I
@@ -217,7 +217,7 @@ function Intro(props) {
           </p> */}
 
           {/* New quest */}
-
+          <p>In the morning - </p>
           <p>
             Savigal was a port town on the edge of Huonhia now. In the past
             however this town use to sit in the middle of Chingaling, a small
@@ -236,13 +236,14 @@ function Intro(props) {
           </p>
           <p>
             It's a level 10 dungeon, although the monsters inside are all level
-            10, they vary in difficulty.
+            10, they vary in difficulty. Level 10 dungeons only require four
+            people to join, it should not be impossible to find three more to
+            join you.
           </p>
           {/* 8 ~ 14 */}
           {/* Wandering Zombie,  
 Ancient Zombie, Berserk Zombie, Corpse Ranger, Skeleton Soldier, Skeleton Lancer, 
 Corpse Sergeant  */}
-
           {/* Home again */}
           <p>
             On the journey back I saw more guards then usual, maybe because of
