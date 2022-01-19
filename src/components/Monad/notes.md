@@ -791,6 +791,7 @@ https://www.youtube.com/watch?v=M3xYV3UX_t4
 Swap south of Alden, Titanoboa 
 
 # Random Ideas:
+Miasma, "a contagious power... that has an independent life of its own. Until purged by the sacrificial death of the wrongdoer, society would be chronically infected by catastrophe".
 
 Healing
 Human Cav that heals around him while damaging
@@ -851,8 +852,6 @@ high level rouges in mayan and aztec lands, high level spirits passed by old hou
 DLC island
 
 desert religion with a quest to listen to the whole sermon posted by a troll
-
-\*/}
 
 Killing of the God causes the faithful to lose their powers and cough up blood
 The killing of the german god causes Effi to lose her powers and has to fight to restore her faith
