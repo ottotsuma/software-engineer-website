@@ -136,32 +136,73 @@ After that you can do the Army size of 50, 100 +
 
 
 ## Monsters
-Driver ants https://www.youtube.com/watch?v=OnooyOZRzkM
+Driver ants https://www.youtube.com/watch?v=OnooyOZRzkM - Blind large ants with pincers, swarming anything they come into contact with until one side is dead.
+
+Sea Star zombies - Limbs detaching and living their own life for a period of time. The main body can regrow the limbs.
 
 ## Dungeons 
-
-Normal
-Hard
-Elite
-Hell
+Normal - attack paths shown, aoe wind up and markers given, and slow (Players only). [Casual]
+Hard - attack paths shown Quickly, aoe wind up and markers given Briefly, faster (Players only). [Effort]
+Elite - attack paths NOT shown, aoe wind up and markers NOT given, however the wind up is not instant (Players only). [Elite]
+Hell - aoe almost instant or instant [Insane]
 
 ## Items
 
+Alden - 
+Kojkan - Serpents tooth.
+
+Japanese - 
+Ame-no-nuhoko – Japanese halberd which formed the first island.
+Kusanagi – Legendary Japanese sword. Can also be considered as Kusanagi-No-Tsurugi.
+Muramasa - The katana forged by famous swordsmith Muramasa, it was rumored that it was a demonic sword that can curse the wielder to murder people. It also said that the demonic sword rumor was made by Ieyasu Tokugawa, the 1st Shogun of the Tokugawa Shogunate because he hated those swords made by Muramasa.
+Tonbogiri – One of three legendary spears created by the famed swordsmith Muramasa. It is said to be so sharp that a dragonfly landing on the edge would be instantly cut in half. This is the origin of the name.
+Honjo Masamune - A legendary and very real Japanese sword (with alleged mythical abilities), created by Japan's greatest swordsmith, Goro Nyudo Masamune. The Masamune sword is by far the most referenced Japanese sword in popular fiction, ranging through books, movies and computer games.
+Murasame - A magical katana that mentioned in fiction Nansō Satomi Hakkenden, it said the blade can moist itself to wash off the blood stain for keeping it sharp.
+
+### Sets
+Mycenaean Dendra Panoply - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armor-ensembles-history_1.jpg?ezimgfmt=ng:webp/ngcb20 
+
+Persian Immortal Armor - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armor-ensembles-history_5.jpg?ezimgfmt=ng:webp/ngcb20
+
+Roman Lorica Segmentata - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armor-ensembles-history_9.jpg?ezimgfmt=ng:webp/ngcb20
+
+Sassanid Savaran Armor - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armor-ensembles-history_14.jpg?ezimgfmt=ng:webp/ngcb20
+
+Eastern Roman Cataphract - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armor-ensembles-history_17.jpg?ezimgfmt=ng:webp/ngcb20
+
+Samurai Ō-yoroi - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armor-ensembles-history_24.jpg?ezimgfmt=ng:webp/ngcb20
+
+Siculo-Norman Knight Armor - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armor-ensembles-history_25.jpg?ezimgfmt=ng:webp/ngcb20
+
+Mongol Keshik Armor - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armor-ensembles-history_30.jpg?ezimgfmt=ng:webp/ngcb20
+
+Aztec Jaguar Warrior Armor - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armor-ensembles-history_35.jpg?ezimgfmt=ng:webp/ngcb20
+
+German Landsknecht Dress - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armor-ensembles-history_41.jpg?ezimgfmt=ng:webp/ngcb20
+
+Polish Winged Hussar Armor - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armor-ensembles-history_45.jpg?ezimgfmt=ng:webp/ngcb20
+
+https://en.wikipedia.org/wiki/List_of_mythological_objects#Personal_armor
+
 ### Weapons 
 
-+4 and +5 weapons
-Soft, white glow
+Creating your own weapon, materials, design, craft, enchant, use to make a history, name
 
-+6 and +7 weapons
+Maybe just don't have them glow. It looks shit and takes away from unique weapons
++4 ~ +6 weapons = Soft, white glow
++7 ~ +8 weapons = Color glow of your mana
++9 Weapons = Strong color glow of your mana
++10 weapons = Effect Glow, adding in the elements effects with the glow
++11 weapons = 
 
-+8 and +9 Weapons
+Lightning axe, an axe that is wielded by the Maya rain deity Chaac and used to produce thunder and rain. (Maya mythology)
 
-+10 and +11 weapons
-
-+12, +13, and +14 weapons
-
-+15 weapons
-
+### Armor 
+### Accessories 
+Gem of Kukulkan, the Mayan god brought fire, earth, air, and water to the world. Kukulkan, though, only has the wind gem, and with it can control the air. (Maya mythology)
+The Jem of Kukulkan - the Mayan Serpents Jem has the ability to control all elements. Like fire, wind, and ice, though the Serpent only has the wind jem.
+### Materials
+### Quest Items
 
 ## Speeches:
 
@@ -748,22 +789,6 @@ Good fish monsters on youtube, but the terror bird from south america is good.
 https://www.youtube.com/watch?v=M3xYV3UX_t4
 
 Swap south of Alden, Titanoboa 
-
-
-## Items
-Alden - 
-Kojkan - Serpents tooth.
-
-Japanese - 
-Ame-no-nuhoko – Japanese halberd which formed the first island.
-Kusanagi – Legendary Japanese sword. Can also be considered as Kusanagi-No-Tsurugi.
-Muramasa - The katana forged by famous swordsmith Muramasa, it was rumored that it was a demonic sword that can curse the wielder to murder people. It also said that the demonic sword rumor was made by Ieyasu Tokugawa, the 1st Shogun of the Tokugawa Shogunate because he hated those swords made by Muramasa.
-Tonbogiri – One of three legendary spears created by the famed swordsmith Muramasa. It is said to be so sharp that a dragonfly landing on the edge would be instantly cut in half. This is the origin of the name.
-Honjo Masamune - A legendary and very real Japanese sword (with alleged mythical abilities), created by Japan's greatest swordsmith, Goro Nyudo Masamune. The Masamune sword is by far the most referenced Japanese sword in popular fiction, ranging through books, movies and computer games.
-Murasame - A magical katana that mentioned in fiction Nansō Satomi Hakkenden, it said the blade can moist itself to wash off the blood stain for keeping it sharp.
-
-Other  - 
-The Jem of Kukulkan - the Mayan Serpents Jem has the ability to control all elements. Like fire, wind, and ice, though the Serpent only has the wind jem.
 
 # Random Ideas:
 
