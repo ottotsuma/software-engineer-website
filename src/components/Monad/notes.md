@@ -127,11 +127,16 @@ return (
 }
 export default Intro;
 
+
 ## Parties & Raids
 Half party / Light party = 4 
 Party / Full party = 8 
 Full Raid or Alliance = 3 parties or 24 players
 After that you can do the Army size of 50, 100 + 
+
+
+## Monsters
+Driver ants https://www.youtube.com/watch?v=OnooyOZRzkM
 
 ## Dungeons 
 
