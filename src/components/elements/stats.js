@@ -261,12 +261,19 @@ function _try(func, fallbackValue) {
 function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTitles, items, showItems }) {
   const array = [];
   const baseStats = stats
+  const HPList = []
+  const MPList = []
+
   
   if(stats.race) {
     const raceStats = Object.keys(racesList[stats.race].stats);
     if(raceStats) {
       raceStats.map((raceStat) => {
-        if(typeof (racesList[stats.race].stats[raceStat]) === 'number') {
+        if (raceStat === 'HP') {
+          HPList.push(racesList[stats.race].stats[raceStat])
+        } else if (raceStat === 'MP') {
+          MPList.push(racesList[stats.race].stats[raceStat])
+        } else if(typeof (racesList[stats.race].stats[raceStat]) === 'number') {
           stats[raceStat] = stats[raceStat] + racesList[stats.race].stats[raceStat]
         } else if (typeof (racesList[stats.race].stats[raceStat]) === 'string') {
           if((racesList[stats.race].stats[raceStat]).includes('*')){
@@ -281,7 +288,11 @@ function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTit
     const classStats = _try(() => classList[stats.class].stats)
     if(classStats) {
       Object.keys(classStats).map((classStat) => {
-        if(typeof (classList[stats.class].stats[classStat]) === 'number') {
+        if (classStat === 'HP') {
+          HPList.push(classList[stats.class].stats[classStat])
+        } else if (classStat === 'MP') {
+          MPList.push(classList[stats.class].stats[classStat])
+        } else if(typeof (classList[stats.class].stats[classStat]) === 'number') {
           stats[classStat] = stats[classStat] + classList[stats.class].stats[classStat]
         } else if (typeof (classList[stats.class].stats[classStat]) === 'string') {
           if((classList[stats.class].stats[classStat]).includes('*')){
@@ -309,6 +320,10 @@ function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTit
                 const multiplierValue = parseFloat(spellStats[Object.keys(spellStats)[index]].substring(1))
                 stats[Object.keys(spellStats)[index]] = stats[Object.keys(spellStats)[index]] * multiplierValue
               }
+            } else if (Object.keys(spellStats)[index] === 'HP') {
+              HPList.push(spellStats[Object.keys(spellStats)[index]])
+            } else if (Object.keys(spellStats)[index] === 'MP') {
+              MPList.push(spellStats[Object.keys(spellStats)[index]])
             }
           }
         }
@@ -322,13 +337,17 @@ function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTit
     Object.keys(items).map((itemArea) => {
       const itemStats = _try( () => items[itemArea].stats)
       if(itemStats) {
-        Object.keys(itemStats).map((titleStat) => {
-          if(typeof (itemStats[titleStat]) === 'number') {
-            stats[titleStat] = stats[titleStat] + itemStats[titleStat]
-          } else if (typeof (itemStats[titleStat]) === 'string') {
-            if((itemStats[titleStat]).includes('*')){
-              const multiplierValue = parseFloat(itemStats[titleStat].substring(1))
-              stats[titleStat] = stats[titleStat] * multiplierValue
+        Object.keys(itemStats).map((itemStat) => {
+          if (itemStat === 'HP') {
+            HPList.push(itemStats[itemStat])
+          } else if (itemStat === 'MP') {
+            MPList.push(itemStats[itemStat])
+          } else if(typeof (itemStats[itemStat]) === 'number') {
+            stats[itemStat] = stats[itemStat] + itemStats[itemStat]
+          } else if (typeof (itemStats[itemStat]) === 'string') {
+            if((itemStats[itemStat]).includes('*')){
+              const multiplierValue = parseFloat(itemStats[itemStat].substring(1))
+              stats[itemStat] = stats[itemStat] * multiplierValue
             }
           }
         })
@@ -343,7 +362,11 @@ function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTit
         stats['title'] = equippedTitle + ', ' + titlesList[equippedTitle].description
       }
       Object.keys(titleStats).map((titleStat) => {
-        if(typeof (titleStats[titleStat]) === 'number') {
+        if (titleStat === 'HP') {
+          HPList.push(titleStats[titleStat])
+        } else if (titleStat === 'MP') {
+          MPList.push(titleStats[titleStat])
+        } else if(typeof (titleStats[titleStat]) === 'number') {
           stats[titleStat] = stats[titleStat] + titleStats[titleStat] // applies the stats
         } else if (typeof (titleStats[titleStat]) === 'string') {
           if((titleStats[titleStat]).includes('*')){
@@ -358,11 +381,36 @@ function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTit
   // Add HP and MP Values
   //  level *5 magic * 8 = mp // level * 10 vit * 14.5 +100 = hp 
   stats['HP'] = _try(() => (stats['level'] * 10) + (stats['vitality']) * 14.5 + 100)
+  let tempHP = stats['HP']
+  for (let index = 0; index < HPList.length; index++) {
+    if(typeof (HPList[index]) === 'number') {
+      tempHP = tempHP + HPList[index]
+    } else if (typeof (HPList[index]) === 'string') {
+      if((HPList[index]).includes('*')){
+        const multiplierValue = parseFloat(HPList[index].substring(1))
+        tempHP = tempHP * multiplierValue
+      }
+    }
+  }
+  stats['HP'] = parseInt(tempHP)
+
   stats['MP'] = _try(() => (stats['level'] * 5) + (stats['magic']) * 8)
+  let tempMP = stats['MP']
+  for (let index = 0; index < MPList.length; index++) {
+    if(typeof (MPList[index]) === 'number') {
+      tempMP = tempMP + MPList[index]
+    } else if (typeof (MPList[index]) === 'string') {
+      if((MPList[index]).includes('*')){
+        const multiplierValue = parseFloat(MPList[index].substring(1))
+        tempMP = tempMP * multiplierValue
+      }
+    }
+  }
+  stats['MP'] = parseInt(tempMP)
   keys.push('HP', 'MP')
 
   for (let index = 0; index < keys.length; index++) {
-    const element = <Wrap><Inline>{keys[index]}: </Inline><Inline style={{color: perc2color(stats[keys[index]])}}>{stats[keys[index]]}</Inline></Wrap>;
+    const element = <Wrap><Inline>{keys[index]}: </Inline><Inline style={{color: perc2color(stats[keys[index]])}}>{typeof (stats[keys[index]]) === 'number' ? parseInt(stats[keys[index]]) : stats[keys[index]]}</Inline></Wrap>;
     const spam = statList[keys[index]];
     array.push(
       <SingleStat key={index + "stat"}>

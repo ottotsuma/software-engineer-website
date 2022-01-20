@@ -793,6 +793,8 @@ Swap south of Alden, Titanoboa
 # Random Ideas:
 Miasma, "a contagious power... that has an independent life of its own. Until purged by the sacrificial death of the wrongdoer, society would be chronically infected by catastrophe".
 
+Quest - hell or high water
+
 Healing
 Human Cav that heals around him while damaging
 heals an ally and attacks nearby enemies

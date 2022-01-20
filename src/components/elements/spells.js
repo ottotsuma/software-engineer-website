@@ -610,7 +610,7 @@ export const spellList = {
     stats: [{
       vitality: 1,
     },{
-      vitality: 1,
+      vitality: 1
     },{
       vitality: 2,
     },{
