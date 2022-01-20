@@ -3,19 +3,22 @@ export const titlesList = {
         condition: 'Enter the academy',
         stats: {
             magic: 1
-        }
+        },
+        description: ''
     },
     'Apprentice': {
         condition: 'Reach level 10',
         stats: {
             charisma: 1
-        }
+        },
+        description: ''
     },
     'Found a unique item': {
         condition: '',
         stats: {
             strength: 1
-        }
+        },
+        description: 'Strength +1.'
     },
     'Found a unique class': {
         condition: '',

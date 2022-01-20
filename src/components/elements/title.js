@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import {titlesList} from './titles';
 
 const colors = {
     junk: "rgb(109, 109, 109)",
@@ -13,10 +14,12 @@ const colors = {
 };
 
 function Title(props) {
+    console.log(props.name)
+    console.log(titlesList[props.name])
     return (
         <Main rank={props.rank}>
             <Shine>*Ping*</Shine>{' '}
-             <TitleStyle>New Title:</TitleStyle> {props.rank ? <Rank >{props.rank}:</Rank>: ''} {props.name} : {props.effect}
+             <TitleStyle>New Title:</TitleStyle> {props.rank ? <Rank >{props.rank}:</Rank>: ''} {props.name} {!!titlesList[props.name].description && `: ${titlesList[props.name].description}`}
         </Main>
     )
 }
