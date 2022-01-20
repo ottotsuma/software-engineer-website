@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import {monadColors as colors} from './colors'
 
 // src: for image || question mark
 // height: || 300px
@@ -8,17 +9,6 @@ import styled from 'styled-components';
 // name || ''
 // effect || ''
 // long // for long writing below the item. Don't use with image!
-
-const colors = {
-    junk: "rgb(109, 109, 109)",
-    normal: "blue",
-    rare: "green",
-    epic: "red",
-    legendary: "orange",
-    unique: "purple",
-    growth: "#e2abac",
-    quest: "gold",
-};
 
 function perc2color(perc) {
     if (perc > 100) return "rgb(36, 255, 0)"

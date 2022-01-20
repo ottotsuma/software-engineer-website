@@ -64,3 +64,13 @@ export const colors = {
     linkHover: '#fd9d20',
     linkInvert: '#ff7d08',
 };
+export const monadColors = {
+    junk: "rgb(109, 109, 109)",
+    normal: "blue",
+    rare: "green",
+    epic: "red",
+    legendary: "orange",
+    unique: "purple",
+    growth: "#e2abac",
+    quest: "gold",
+}

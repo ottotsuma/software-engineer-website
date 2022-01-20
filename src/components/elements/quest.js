@@ -1,16 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components';
-
-const colors = {
-  junk: "rgb(109, 109, 109)",
-  normal: "blue",
-  rare: "green",
-  epic: "red",
-  legendary: "orange",
-  unique: "purple",
-  growth: "#e2abac",
-  quest: "gold",
-};
+import {monadColors as colors} from './colors'
 
 export default function Quest(props) {
   const [spanCSS, SetSpanCSS] = useState(false);

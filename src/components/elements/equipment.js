@@ -1,16 +1,6 @@
 import styled from "styled-components";
 import React from "react";
-
-const colors = {
-  junk: "rgb(109, 109, 109)",
-  normal: "blue",
-  rare: "green",
-  epic: "red",
-  legendary: "orange",
-  unique: "purple",
-  growth: "#e2abac",
-  quest: "gold",
-};
+import {monadColors as colors} from './colors'
 
 // the effects are based on stats not level so it would be something maybe combined into stats?
 function Stats({ items }) {

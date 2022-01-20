@@ -1,17 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import {titlesList} from './titles';
-
-const colors = {
-    junk: "rgb(109, 109, 109)",
-    normal: "blue",
-    rare: "green",
-    epic: "red",
-    legendary: "orange",
-    unique: "purple",
-    growth: "#e2abac",
-    quest: "gold",
-};
+import {monadColors as colors} from './colors'
 
 function Title(props) {
     console.log(props.name)
