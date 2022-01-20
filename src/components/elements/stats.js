@@ -88,6 +88,15 @@ const statList = {
     minor:
       "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina.",
   },
+  title: {
+    name: "Vitality",
+    description: "Currently equipped title.",
+    numeric: "Increases HP by 14.5 per point.",
+    vague: "Increases your durability.",
+    major: "Increased health points.",
+    minor:
+      "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina.",
+  },
   "skill points": {
     name: "Vitality",
     description: "This is the amount of unspent skill points you have.",
@@ -255,8 +264,12 @@ function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTit
     })
   }
   if(equippedTitle) {
+    stats['title'] = equippedTitle
     const titleStats = _try(() => titlesList[equippedTitle].stats) // find title from list of titles, returns array of stats and values
     if(titleStats) {
+      if(titlesList[equippedTitle].description) {
+        stats['title'] = equippedTitle + ', ' + titlesList[equippedTitle].description
+      }
       Object.keys(titleStats).map((titleStat) => {
         if(typeof (titleStats[titleStat]) === 'number') {
           stats[titleStat] = stats[titleStat] + titleStats[titleStat] // applies the stats
@@ -312,9 +325,12 @@ function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTit
       </SingleStat>
     );
   }
+
+
   return (
     <>
-      <Title>Stats:</Title>
+    
+      <Title>Attributes:</Title>
       <StatsStyle>{array}</StatsStyle>
       {showSkills && spellsArray}
       {showItems && itemsArray}

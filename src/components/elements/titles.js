@@ -22,10 +22,11 @@ export const titlesList = {
         stats: {
             willpower: 1,
             magic: '*1.5'
-        }
+        },
+        description: 'Willpower +1. Magic +50%.'
     },
     'Novice Harvester' : {
         condition: '',
-        description: 'increases harvesting skills by 10%'
+        description: 'increases harvesting skills by 10%.'
     }
 }
