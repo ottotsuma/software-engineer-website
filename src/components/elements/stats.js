@@ -80,7 +80,7 @@ const statList = {
   },
   skills: {
     name: "Skills.",
-    description: "Amount of learnt skills.",
+    description: "Total learnt skills.",
     numeric: "Increases HP by 14.5 per point.",
     vague: "Increases your durability.",
     major: "Increased health points.",
@@ -89,7 +89,7 @@ const statList = {
   },
   spells: {
     name: "Spells.",
-    description: "Amount of learnt spells.",
+    description: "Total learnt spells.",
     numeric: "Increases HP by 14.5 per point.",
     vague: "Increases your durability.",
     major: "Increased health points.",
@@ -356,7 +356,6 @@ function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTit
 
   // Add HP and MP Values
   //  level *5 magic * 8 = mp // level * 10 vit * 14.5 +100 = hp 
-
   stats['HP'] = _try(() => (stats['level'] * 10) + (stats['vitality']) * 14.5 + 100)
   stats['MP'] = _try(() => (stats['level'] * 5) + (stats['magic']) * 8)
   keys.push('HP', 'MP')
