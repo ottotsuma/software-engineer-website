@@ -4,8 +4,6 @@ import {titlesList} from './titles';
 import {monadColors as colors} from './colors'
 
 function Title(props) {
-    console.log(props.name)
-    console.log(titlesList[props.name])
     return (
         <Main rank={props.rank}>
             <Shine>*Ping*</Shine>{' '}
