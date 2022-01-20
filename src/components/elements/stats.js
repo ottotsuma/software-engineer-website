@@ -244,6 +244,7 @@ function _try(func, fallbackValue) {
 
 function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTitles, items, showItems }) {
   const array = [];
+  // Need base stats to * everything by.
   if(stats.race) {
     const raceStats = Object.keys(racesList[stats.race].stats);
     if(raceStats) {
@@ -274,15 +275,45 @@ function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTit
       })
     }
   }
+  const keys = Object.keys(stats);
+  const spellsArray = []
+  if(skills) {
+    const skillsByTypes = Object.keys(skills)
+    for (let j = 0; j < skillsByTypes.length; j++) {
+      const skillListByType = skills[skillsByTypes[j]];
+      skillListByType.map((skill) => {
+        const spellStats = _try(() => spellList[skill.name].stats[skill.level-1])
+        if(spellStats) {
+          for (let index = 0; index < Object.keys(spellStats).length; index++) {
+            if(keys.includes(Object.keys(spellStats)[index])) {
+              if(typeof (spellStats[Object.keys(spellStats)[index]]) === 'number') {
+                stats[Object.keys(spellStats)[index]] = stats[Object.keys(spellStats)[index]] + spellStats[Object.keys(spellStats)[index]]
+              } else if (typeof (spellStats[Object.keys(spellStats)[index]]) === 'string'){
+                const multiplierValue = parseFloat(spellStats[Object.keys(spellStats)[index]].substring(1))
+                stats[Object.keys(spellStats)[index]] = stats[Object.keys(spellStats)[index]] * multiplierValue
+              }
+            }
+          }
+        }
+      })
+      spellsArray.push(<Spells key={j + 'Spells'} spells={skillListByType} type={skillsByTypes[j]} />)
+    }
+  }
   const itemsArray = []
   if(items) {
-    // Items with * / % needs to be added
     itemsArray.push ( <Equipment items={items} key={'Items'} />)
     Object.keys(items).map((itemArea) => {
       const itemStats = _try( () => items[itemArea].stats)
       if(itemStats) {
         Object.keys(itemStats).map((titleStat) => {
-          stats[titleStat] = stats[titleStat] + itemStats[titleStat] // replace this line with the * type of lines
+          if(typeof (itemStats[titleStat]) === 'number') {
+            stats[titleStat] = stats[titleStat] + itemStats[titleStat]
+          } else if (typeof (itemStats[titleStat]) === 'string') {
+            if((itemStats[titleStat]).includes('*')){
+              const multiplierValue = parseFloat(itemStats[titleStat].substring(1))
+              stats[titleStat] = stats[titleStat] * multiplierValue
+            }
+          }
         })
       }
     })
@@ -306,25 +337,8 @@ function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTit
       })
     }
   }
-  const keys = Object.keys(stats);
-  const spellsArray = []
-  if(skills) {
-    const skillsByTypes = Object.keys(skills)
-    for (let j = 0; j < skillsByTypes.length; j++) {
-      const skillListByType = skills[skillsByTypes[j]];
-      skillListByType.map((skill) => {
-        const spellStats = _try(() => spellList[skill.name].stats[skill.level-1])
-        if(spellStats) {
-          for (let index = 0; index < Object.keys(spellStats).length; index++) {
-            if(keys.includes(Object.keys(spellStats)[index])) {
-              stats[Object.keys(spellStats)[index]] = stats[Object.keys(spellStats)[index]] + spellStats[Object.keys(spellStats)[index]] // replace this line with the * type of lines
-            }
-          }
-        }
-      })
-      spellsArray.push(<Spells key={j + 'Spells'} spells={skillListByType} type={skillsByTypes[j]} />)
-    }
-  }
+
+  // Add HP and MP Values
 
   for (let index = 0; index < keys.length; index++) {
     const element = <Wrap><Inline>{keys[index]}: </Inline><Inline style={{color: perc2color(stats[keys[index]])}}>{stats[keys[index]]}</Inline></Wrap>;
@@ -340,7 +354,6 @@ function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTit
 
   return (
     <>
-    
       <Title>Attributes:</Title>
       <StatsStyle>{array}</StatsStyle>
       {showSkills && spellsArray}
