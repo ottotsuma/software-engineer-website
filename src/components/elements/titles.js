@@ -1,4 +1,11 @@
 export const titlesList = {
+    'Religious': {
+        condition: 'Picked a god to worship.',
+        stats: {
+            magic: 1
+        },
+        description: 'Picked a god to worship. Magic +1.'
+    },
     'Back to School': {
         condition: 'Enter the academy',
         stats: {
