@@ -18,6 +18,22 @@ const statList = {
     major: "Example",
     minor: "Example",
   },
+  HP: {
+    name: "HP",
+    description: "Total Max Health",
+    numeric: "Example",
+    vague: "Example",
+    major: "Example",
+    minor: "Example",
+  },
+  MP: {
+    name: "MP",
+    description: "Total Max Mana",
+    numeric: "Example",
+    vague: "Example",
+    major: "Example",
+    minor: "Example",
+  },
   faith: {
     name: "Faith",
     description: "Amount of God given spells that can be cast per day.",
@@ -339,6 +355,11 @@ function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTit
   }
 
   // Add HP and MP Values
+  //  level *5 magic * 8 = mp // level * 10 vit * 14.5 +100 = hp 
+
+  stats['HP'] = _try(() => (stats['level'] * 10) + (stats['vitality']) * 14.5 + 100)
+  stats['MP'] = _try(() => (stats['level'] * 5) + (stats['magic']) * 8)
+  keys.push('HP', 'MP')
 
   for (let index = 0; index < keys.length; index++) {
     const element = <Wrap><Inline>{keys[index]}: </Inline><Inline style={{color: perc2color(stats[keys[index]])}}>{stats[keys[index]]}</Inline></Wrap>;
