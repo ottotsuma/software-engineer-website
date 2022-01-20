@@ -31,6 +31,7 @@ export default function Otto() {
         // Makes skills an object of skill types 'human' 'mage' and they be the arrays.
         // Do the same thing for equipment and titles?
         showTitles={false} // currently does nothing
+        equippedTitle="Found a unique class"
         titles={['Back to School', 'Apprentice', 'Found a unique item', 'Found a unique class', 'Novice Harvester']}
         showSkills={true}
         skills={{
@@ -102,7 +103,8 @@ export default function Otto() {
       <li>
         Weapon:<font color="blue"> </font>
       </li>
-      {/* gloves, adds fire to a weapon. boots, change the surface to fire. chest, reflect damage as fire when hit in melee*/}
+      {/* mysterious bird named Pi Fang and a hundred other fire-birds shut up in a gourd */}
+      {/* gloves, adds fire to a weapon. boots, change the surface to fire. chest, reflect damage as fire when hit in melee, how about fireball falls from the sky*/}
 
       <Stats
         type={"description"}

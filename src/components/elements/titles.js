@@ -20,7 +20,8 @@ export const titlesList = {
     'Found a unique class': {
         condition: '',
         stats: {
-            willpower: 1
+            willpower: 1,
+            magic: '*1.5'
         }
     },
     'Novice Harvester' : {
