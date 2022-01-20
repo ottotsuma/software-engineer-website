@@ -1,9 +1,8 @@
 export const racesList = {
- human: {
-    charisma: 2,
-    sense: 1,
- },
- "mana creature" : {
-   magic: 5
- }
-}
+  human: {
+    stats: { charisma: 2, sense: 1 },
+  },
+  "mana creature": {
+    stats: { magic: 5 },
+  },
+};

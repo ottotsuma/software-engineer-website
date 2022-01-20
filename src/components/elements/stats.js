@@ -2,6 +2,7 @@ import styled from "styled-components";
 import React from "react";
 import {spellList} from './spells'
 import {racesList} from './races'
+import {classList} from './classes'
 import Spells from './spells'
 import {titlesList} from './titles'
 import Equipment from './equipment'
@@ -244,21 +245,44 @@ function _try(func, fallbackValue) {
 function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTitles, items, showItems }) {
   const array = [];
   if(stats.race) {
-    const raceStats = Object.keys(racesList[stats.race]);
+    const raceStats = Object.keys(racesList[stats.race].stats);
     if(raceStats) {
       raceStats.map((raceStat) => {
-        stats[raceStat] = stats[raceStat] + racesList[stats.race][raceStat]
+        if(typeof (racesList[stats.race].stats[raceStat]) === 'number') {
+          stats[raceStat] = stats[raceStat] + racesList[stats.race].stats[raceStat]
+        } else if (typeof (racesList[stats.race].stats[raceStat]) === 'string') {
+          if((racesList[stats.race].stats[raceStat]).includes('*')){
+            const multiplierValue = parseFloat(racesList[stats.race].stats[raceStat].substring(1))
+            stats[raceStat] = stats[raceStat] * multiplierValue
+          }
+        }
+      })
+    }
+  }
+  if(stats.class) {
+    const classStats = _try(() => classList[stats.class].stats)
+    if(classStats) {
+      Object.keys(classStats).map((classStat) => {
+        if(typeof (classList[stats.class].stats[classStat]) === 'number') {
+          stats[classStat] = stats[classStat] + classList[stats.class].stats[classStat]
+        } else if (typeof (classList[stats.class].stats[classStat]) === 'string') {
+          if((classList[stats.class].stats[classStat]).includes('*')){
+            const multiplierValue = parseFloat(classList[stats.class].stats[classStat].substring(1))
+            stats[classStat] = stats[classStat] * multiplierValue
+          }
+        }
       })
     }
   }
   const itemsArray = []
   if(items) {
+    // Items with * / % needs to be added
     itemsArray.push ( <Equipment items={items} key={'Items'} />)
     Object.keys(items).map((itemArea) => {
       const itemStats = _try( () => items[itemArea].stats)
       if(itemStats) {
         Object.keys(itemStats).map((titleStat) => {
-          stats[titleStat] = stats[titleStat] + itemStats[titleStat]
+          stats[titleStat] = stats[titleStat] + itemStats[titleStat] // replace this line with the * type of lines
         })
       }
     })
@@ -293,7 +317,7 @@ function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTit
         if(spellStats) {
           for (let index = 0; index < Object.keys(spellStats).length; index++) {
             if(keys.includes(Object.keys(spellStats)[index])) {
-              stats[Object.keys(spellStats)[index]] = stats[Object.keys(spellStats)[index]] + spellStats[Object.keys(spellStats)[index]]
+              stats[Object.keys(spellStats)[index]] = stats[Object.keys(spellStats)[index]] + spellStats[Object.keys(spellStats)[index]] // replace this line with the * type of lines
             }
           }
         }
