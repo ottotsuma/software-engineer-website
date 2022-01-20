@@ -282,19 +282,6 @@ function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTit
       })
     }
   }
-  // if(titles) {
-    // if(titles.length > 0) {
-    //   stats.titles = titles.length
-    // }
-    // titles.map((title) => {
-    //   const titleStats = _try(() => titlesList[title].stats)
-    //   if(titleStats) {
-    //     Object.keys(titleStats).map((titleStat) => {
-    //       // stats[titleStat] = stats[titleStat] + titleStats[Object.keys(titleStats)] // applies every titles stats
-    //     })
-    //   }
-    // })
-  // }
   const keys = Object.keys(stats);
   const spellsArray = []
   if(skills) {
