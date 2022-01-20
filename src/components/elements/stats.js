@@ -260,7 +260,8 @@ function _try(func, fallbackValue) {
 
 function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTitles, items, showItems }) {
   const array = [];
-  // Need base stats to * everything by.
+  const baseStats = stats
+  
   if(stats.race) {
     const raceStats = Object.keys(racesList[stats.race].stats);
     if(raceStats) {
