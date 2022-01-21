@@ -1,5 +1,5 @@
 import React from "react";
-import Item from './../elements/item'
+import Item from "./../elements/item";
 import SeaPeopleFunction from "./SeaPeople";
 import { Content } from "./styles";
 function Intro(props) {
@@ -19,15 +19,15 @@ function Intro(props) {
           <p>
             The missions where not the adventure thill ride Otto had expected,
             one of the mission slips said "Lightning mage wanted: To put
-            manaballs around bathhouse to keep mosquitoes away, while our lightning mage is on holiday." He had ended up
-            taking this one, he had no idea what mosquitoes where but at least
-            he would be helping someone. Tisiel's mission of going through old
-            junk and decrypting them seemed to suit her, Reingard had even
-            joined her as a bodyguard. Otto left through the portal back to
-            Banderedam, this mission would take him though Chihal and down to
-            Savigal a port town on the border with Huonhia. Since his ID now had
-            him marked as a combat mage he was able to join a merchant group
-            heading to Chihal.
+            manaballs around bathhouse to keep mosquitoes away, while our
+            lightning mage is on holiday." He had ended up taking this one, he
+            had no idea what mosquitoes where but at least he would be helping
+            someone. Tisiel's mission of going through old junk and decrypting
+            them seemed to suit her, Reingard had even joined her as a
+            bodyguard. Otto left through the portal back to Banderedam, this
+            mission would take him though Chihal and down to Savigal a port town
+            on the border with Huonhia. Since his ID now had him marked as a
+            combat mage he was able to join a merchant group heading to Chihal.
           </p>
 
           <p>
@@ -77,10 +77,10 @@ function Intro(props) {
             grabbing his warhammer Otto span around looking about. Nothing.
             Closer inspection would show he had been dead awhile, his flesh was
             mostly gone, the eyes removed it seemed the animals had long been at
-            his body, the smell was bad but that's not what had Otto's attention.
-            Tangled in the vines the man was wearing strange clothes, even
-            strange for a noble, a blue jacket with gold trim, but it had no
-            hood and didn't feel like a woolen robe. The cuffs and shoulders
+            his body, the smell was bad but that's not what had Otto's
+            attention. Tangled in the vines the man was wearing strange clothes,
+            even strange for a noble, a blue jacket with gold trim, but it had
+            no hood and didn't feel like a woolen robe. The cuffs and shoulders
             where not sewn into the sleeves but rather left to hand over the
             top. The mans face was strange too, but hard to judge a man who's
             been picked at by the birds. Looking down on the ground some of the
@@ -125,8 +125,8 @@ function Intro(props) {
             alone they will target you and take you out, run quick and get into
             the group." at his shout I ran, I ran as fast as I could, not having
             invested many points into dexterity it was not easy as I used the
-            strength I had invested into my attributes to pump my legs as hard as I
-            could. Soon enough the wolves noticed me, the small one charged
+            strength I had invested into my attributes to pump my legs as hard
+            as I could. Soon enough the wolves noticed me, the small one charged
             towards me as the merchant's and body guards intercepted the larger
             wolves taking this opportunity to attack them. Seeing the wolf run
             towards me with its fangs out scared me. I gripped tight around the

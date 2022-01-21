@@ -100,25 +100,23 @@ function Intro(props) {
           <p>
             "Huh?" I jumped up and grabbed for my warhammer, the cold soon
             gripped by body after leaving the warm waters. As I looked towards
-            the scream I noticed it was a girl wrapped in a towel, soon her
-            mother came to her and I remembered I was naked.
+            the scream I noticed it was a girl wrapped in a towel, then I
+            quickly remembered I was naked.
           </p>
 
           <p>
             "Ah you're still in here? I didn't think you'd still be in here oh
-            dearie me put a towel around yourself gave the girl a fight" the
+            dearie me put a towel around yourself gave the girl a fright" the
             bathhouse woman seemed to be enjoying the mischief she had made. Is
             she so bored as to set me up like this!?
           </p>
 
           <p>
-            After apologizing to the girl and her mother and the many other
-            women on the way out I made my way over to the tavern. Tonight I
-            would drown that embarrassment in drink.
+            After apologizing to the girl, the many other women I ran past on
+            the way out, I made my way over to the tavern. Tonight I would drown
+            that embarrassment in drink.
           </p>
-
           {/* Days in the village? - re do*/}
-          <h4>side quest</h4>
           <p>
             Just as I was getting my first drink the bar tender handed me a
             note, on the front was my name in scribbled hand writing. Inside was
@@ -141,7 +139,7 @@ function Intro(props) {
             "...It's almost like you don't want my money.. Fine I'm going.."
           </p>
 
-          <p>"Take care of yourself, no doubt she's up to no good."</p>
+          <p>"Take care of yourself kid, no doubt she's up to no good."</p>
 
           <p>"...Yeah"</p>
 
@@ -203,8 +201,8 @@ function Intro(props) {
             This is going to be so awkward. In the end Mia was easy to talk to,
             since we were almost the same age and I had only just joined the
             academy and she was so interested in it we had a lot to talk about.
-            I ended up sleeping there for the night. At least I saved the
-            cost of a room.
+            I ended up sleeping there for the night. At least I saved the cost
+            of a room.
           </p>
           {/* I would head back early in the morning and try to
             make it to Chihal and look around the market by the afternoon. */}
@@ -215,7 +213,17 @@ function Intro(props) {
             honest since day one I have enjoyed staying there. I waved good bye
             and set off along the path to Tisiel.
           </p> */}
-          <p>In the morning - </p>
+          <p>
+            In the morning I woke gently with the sun on my face. I wonder how
+            long I had really slept for, Mia had kept me up quite late I think.
+            Maybe just the amount of questions wore me down. Walked around
+            quietly after I woke up to see if I could find the bathhouse woman,
+            Mrs. Huber. Who insisted I just called her gran.
+          </p>
+          <p>
+            
+          </p>
+          {/* Be here for a week while the mage is on holiday visiting her family. */}
           <p>
             Savigal was a port town on the edge of Huonhia now. In the past
             however this town use to sit in the middle of Chingaling, a small
