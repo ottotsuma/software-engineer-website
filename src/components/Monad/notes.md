@@ -791,6 +791,8 @@ https://www.youtube.com/watch?v=M3xYV3UX_t4
 Swap south of Alden, Titanoboa 
 
 # Random Ideas:
+Add LoL style PVP mode , other content is needed in end games.
+
 Miasma, "a contagious power... that has an independent life of its own. Until purged by the sacrificial death of the wrongdoer, society would be chronically infected by catastrophe".
 
 Quest - hell or high water
