@@ -793,6 +793,8 @@ Swap south of Alden, Titanoboa
 # Random Ideas:
 Add LoL style PVP mode , other content is needed in end games.
 
+Some people wont need help to do things, they will just do things. Crafting etc but be nice to not ignore them in terms of usefulness, wanted, their meta.
+
 Hidden bosses, clues, working together,
 Guilds fighting over castles and towns 
 The pvp effects the PVE, the costs of doing anything by taxes etc, are you friends with this guild or neutral.
