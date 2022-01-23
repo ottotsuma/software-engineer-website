@@ -15,6 +15,14 @@ export const titlesList = {
         },
         description: ''
     },
+    'Academy Graduate': {
+        name: 'Academy Graduate',
+        condition: 'Graduate from a magic academy',
+        stats: {
+            magic: 1
+        },
+        description: ''
+    },
     'Apprentice': {
         name: 'Apprentice',
         condition: 'Reach level 10',
@@ -43,6 +51,16 @@ export const titlesList = {
     'Novice Harvester' : {
         name: 'Novice Harvester',
         condition: 'Harvest 10 different ingredients',
+        description: 'increases harvesting skills by 10%.'
+    },
+    'Intermediate Harvester' : {
+        name: 'Intermediate Harvester',
+        condition: 'Harvest 100 different ingredients',
+        description: 'increases harvesting skills by 10%.'
+    },
+    'Advanced Harvester' : {
+        name: 'Advanced Harvester',
+        condition: 'Harvest 1000 different ingredients',
         description: 'increases harvesting skills by 10%.'
     }
 }
