@@ -1,5 +1,6 @@
 export const titlesList = {
     'Religious': {
+        name: 'Religious',
         condition: 'Picked a god to worship.',
         stats: {
             magic: 1
@@ -7,6 +8,7 @@ export const titlesList = {
         description: 'Picked a god to worship. Magic +1.'
     },
     'Back to School': {
+        name: 'Back to School',
         condition: 'Enter the academy',
         stats: {
             magic: 1
@@ -14,6 +16,7 @@ export const titlesList = {
         description: ''
     },
     'Apprentice': {
+        name: 'Apprentice',
         condition: 'Reach level 10',
         stats: {
             charisma: 1
@@ -21,7 +24,8 @@ export const titlesList = {
         description: ''
     },
     'Found a unique item': {
-        condition: '',
+        name: 'There can only be one',
+        condition: 'Found a unique item',
         stats: {
             strength: 1
         },
@@ -37,7 +41,8 @@ export const titlesList = {
         description: 'Willpower +1. Magic +50%.'
     },
     'Novice Harvester' : {
-        condition: '',
+        name: 'Novice Harvester',
+        condition: 'Harvest 10 different ingredients',
         description: 'increases harvesting skills by 10%.'
     }
 }

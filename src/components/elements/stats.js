@@ -355,7 +355,7 @@ function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTit
     })
   }
   if(equippedTitle) {
-    stats['title'] = equippedTitle
+    stats['title'] = titlesList[equippedTitle].name ? titlesList[equippedTitle].name : equippedTitle // if it has a name use the name, else use what ever the user put in.
     const titleStats = _try(() => titlesList[equippedTitle].stats) // find title from list of titles, returns array of stats and values
     if(titleStats) {
       if(titlesList[equippedTitle].description) {
