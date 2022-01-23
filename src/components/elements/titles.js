@@ -27,8 +27,9 @@ export const titlesList = {
         },
         description: 'Strength +1.'
     },
-    'Found a unique class': {
-        condition: '',
+    'The One The Only': {
+        name: 'The One The Only',
+        condition: 'Found a unique class',
         stats: {
             willpower: 1,
             magic: '*1.5'
