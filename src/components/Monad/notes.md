@@ -793,6 +793,17 @@ Swap south of Alden, Titanoboa
 # Random Ideas:
 Add LoL style PVP mode , other content is needed in end games.
 
+Hidden bosses, clues, working together,
+Guilds fighting over castles and towns 
+The pvp effects the PVE, the costs of doing anything by taxes etc, are you friends with this guild or neutral.
+The pve effecting the pvp, getting items and equipment to fuel the pvp or monsters changing the landscape 
+World bosses that need multiple Guilds
+Item sets don't drop from one dungeon but a part from each dungeon. 
+The classes all have to have reasons to exists, immune to magic, immune to fire, immune to physical
+the classes have to counter each other in a kind of card game style were nothing is ever better then all others just better then 1 or 2 
+
+World bosses trigger pvp mode for all? So you have to fight off gankers 
+
 Miasma, "a contagious power... that has an independent life of its own. Until purged by the sacrificial death of the wrongdoer, society would be chronically infected by catastrophe".
 
 Quest - hell or high water
