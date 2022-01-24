@@ -221,14 +221,19 @@ function Intro(props) {
             Mrs. Huber. Who insisted I just called her gran.
           </p>
           <p>
-            
+            She made me breakfast while catching me up on the small details that
+            would not fit on the message she had sent to the academy. The job
+            was to light the bathhouse with lightning every night while the
+            usual mage was away visiting family. I would be here about a week
+            staying with Gran and Mia. During breakfast Gran also told me about
+            the town and things I could do during the day time.
           </p>
           {/* Be here for a week while the mage is on holiday visiting her family. */}
           <p>
             Savigal was a port town on the edge of Huonhia now. In the past
-            however this town use to sit in the middle of Chingaling, a small
+            this town use to sit in the middle of Chingaling. It was a small
             port with little reason to become a port at the time. It was right
-            next to a large monster territory, not the fastest port to Chihal.
+            next to a large monster territory, not the fastest port to Chihal, the closest big city.
             What made Savigal stand out back then was the dungeons located near
             by.
           </p>
@@ -242,9 +247,9 @@ function Intro(props) {
           </p>
           <p>
             It's a level 10 dungeon, although the monsters inside are all level
-            10, they vary in difficulty. Level 10 dungeons only require four
+            10, they vary in difficulty. "Level 10 dungeons only require four
             people to join, it should not be impossible to find three more to
-            join you.
+            join you." Gran had said as I finished eating.
           </p>
           {/* 8 ~ 14 */}
           {/* Wandering Zombie,  
