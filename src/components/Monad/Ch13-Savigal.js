@@ -251,6 +251,9 @@ function Intro(props) {
             people to join, it should not be impossible to find three more to
             join you." Gran had said as I finished eating.
           </p>
+          <p>
+            
+          </p>
           {/* 8 ~ 14 */}
           {/* Wandering Zombie,  
 Ancient Zombie, Berserk Zombie, Corpse Ranger, Skeleton Soldier, Skeleton Lancer, 
