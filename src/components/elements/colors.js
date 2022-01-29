@@ -65,12 +65,15 @@ export const colors = {
     linkInvert: '#ff7d08',
 };
 export const monadColors = {
-    junk: "rgb(109, 109, 109)",
-    normal: "blue",
+    junk: "rgb(109, 109, 109)", // grey
+    common: "rgb(168, 168, 168)", // light grey
+    normal: "blue", 
+    intermediate: "rgb(69, 150, 255)", // light blue
+    advanced: "rgb(50, 205, 219)", // cyan
     rare: "green",
     epic: "red",
     legendary: "orange",
     unique: "purple",
-    growth: "#e2abac",
+    growth: "#e2abac", // pink?
     quest: "gold",
 }

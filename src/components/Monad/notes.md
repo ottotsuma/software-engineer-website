@@ -39,7 +39,7 @@ Basic, Intermediate, Advanced.
 
 Ajisukitakahikone = Japanese version of God K
 
-The classes and races could be catabolized into tiers [1, 2, 3] or ranks [bronze, silver, gold], [junk, common, normal, rare, elite]
+The classes and races could be catabolized into tiers [1, 2, 3] or ranks [bronze, silver, gold], [junk, common, normal, intermediate, advanced rare, elite, epic, legendary, unique]
 Class / Race bonuses grow with your levels
 Items that grow with you for a period of time, I.e. Level 0 - 10 sword. Level 50 - 90 staff. Something like that.
 Mastery over skills, so the skills level up? Costs points / experience.
@@ -267,11 +267,12 @@ Human body: Stats 0 - 10, 5 is normal and 10 is the best a human can get. (This 
 
 ## Class/Team bouses: 
 <!-- https://ottotsuma.github.io/advclass.html -->
-<!-- Basic -->
+<!-- Basic/ -->
 <li>Fighter - +1 Strength.
 <li>Rouge - +1 Dexterity.
 <li>Mage - +1 Magic.
 
+<!-- Common -->
 <!-- Normal -->
 <li>Summoner - Summon maintain cost is reduced
 <li>Paladin - Can use holy objects, cannot use unholy objects
@@ -279,6 +280,8 @@ Human body: Stats 0 - 10, 5 is normal and 10 is the best a human can get. (This 
 <li>Scout - Sense + 5
 <li>Battlemage - Strength & Magic +1
 <li>Thief - Dexterity + 2
+<!-- Intermediate -->
+<!-- Advanced -->
 <!-- Rare -->
 <li>Knight Commander - Commanded units gain hp is increased
 <li>Assassin - Damage from sneak attacks is increased
@@ -637,7 +640,9 @@ Based on mesoamerican continent and ends with more advanced people landing slowl
 
 ## Tiers:
 
-Junk (Grey) / Basic (Blue) / Rare (Green) / Epic (Red) / Legendary (Orange) / Unique (Purple) / God (Gold)
+Junk (Grey) / Common(Light grey) / Basic (Blue) / intermediate(Light blue)/ Advanced(Cyan) / Rare (Green) / Epic (Red) / Legendary (Orange) / Unique (Purple) / God (Gold)
+
+E D C B A S
 
 team bonus for fighter/rogue/mage
 
@@ -646,6 +651,38 @@ Blue - 0 - 50 +2, 51 - 100 + 3
 Green - 0 - 50 + 3, 51 - 100 +2
 Red - 0-50 +3, 51 - 100 +3
 Orange - 0-50 + 4, 51 - 100 +3
+
+## Guilds
+Should guilds get buffs during non guild activities? I think not.
+### Things guilds can do
+ - Stables for mounts
+ - Guild residence
+ - Guild quests
+ - Guild wars
+ - Towns / Cities
+ - Guild storage
+ - Contribution points
+ - Private room
+ - Guild battle flag
+ - Guild emblem
+ - Flying ships / Subs
+ - War tanks
+ - Guardians (for the guild, think the guards around the vampires in skyrim.)
+ - Building their own castle? Maybe the residence just changes into that in the end.
+ - Mines
+ - Auction house
+ - Ship yard
+ - Wizard tower
+ - Training towers / squares 
+
+### Types of guilds
+    - PVE
+    - PVP
+    - Traders
+    - Crafters
+    - Corporate
+    - Friends
+    - Roleplayers
 
 ## Countries:
 
