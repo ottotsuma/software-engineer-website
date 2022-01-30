@@ -28,6 +28,9 @@ https://blog-cdn.reedsy.com/uploads/2018/07/Rick-and-Morty-Story-Wheel-Annotated
 # Notes:
  
 ## Unsorted
+
+What if !! . . 24 hour or what ever timers / quests / daily's didn't just sit there making players have to come back everyday to no content, what if they stacked up and when you came back after 3 days you got 3 charges. Etc. Nicer for players who have to work.
+
 Coins - 1 gold - around 1000 or 30 days of work ? 
 Mana Coins
 Silver

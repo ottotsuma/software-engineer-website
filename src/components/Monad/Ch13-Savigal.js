@@ -230,12 +230,12 @@ function Intro(props) {
           </p>
           {/* Be here for a week while the mage is on holiday visiting her family. */}
           <p>
-            Savigal was a port town on the edge of Huonhia now. In the past
-            this town use to sit in the middle of Chingaling. It was a small
-            port with little reason to become a port at the time. It was right
-            next to a large monster territory, not the fastest port to Chihal, the closest big city.
-            What made Savigal stand out back then was the dungeons located near
-            by.
+            Savigal was a port town on the edge of Huonhia now. In the past this
+            town use to sit in the middle of Chingaling. It was a small port
+            with little reason to become a port at the time. It was right next
+            to a large monster territory, not the fastest port to Chihal, the
+            closest big city. What made Savigal stand out back then was the
+            dungeons located near by.
           </p>
           <p>
             There were dungeons near the source of the river west of Savigal.
@@ -250,6 +250,19 @@ function Intro(props) {
             10, they vary in difficulty. "Level 10 dungeons only require four
             people to join, it should not be impossible to find three more to
             join you." Gran had said as I finished eating.
+          </p>
+          <p>
+            Despite being a small town, there was no lack of people wanting to
+            take on the dungeon. Both old and young. A level 10 dungeon was out
+            of reach of most of the students of the town but the teaching staff
+            were going in with the oldest of the students.
+          </p>
+          <p>
+            Joined in were travelers and other students who had made it out here
+            on missions. While most adults were over level 10 dungeons were a
+            special place that would reduce a persons level if it were too high.
+            Because of this what the students were getting most from this
+            co-operation was know-how and information.
           </p>
           <p>
             
