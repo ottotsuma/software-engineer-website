@@ -292,7 +292,12 @@ function Intro(props) {
             from the academy or military camps.
           </p>
           <p>
-          Klemens, Anneliese & Oskar were my group members. 
+            Klemens, Anneliese & Oskar were my group members. Oskar was the
+            instructor, a fighter who had changed his class to swordsman at
+            level 10. Now he was level 40 his level would be pull back down to
+            10 for the duration of the dungeon. Anneliese was a level 6 fighter.
+            Finally Klemens was a level 5 rouge. Since non of us three had
+            reached level 10 yet, non of us had unlocked any new classes.
           </p>
           {/* 8 ~ 14 */}
           {/* Wandering Zombie,  

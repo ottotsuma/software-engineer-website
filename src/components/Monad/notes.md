@@ -1,5 +1,7 @@
 https://guides.github.com/features/mastering-markdown/
 
+Re-Write all early story to have 1 - 9 being mage, no element and at level 10 you find out your element so they can change class like the rouge and fighter. Chapter 13 and earlier.
+
 # To do:
 Pokemon Style Elements battles!
 // Obsidian is the royals resource - Obsidian is hard, brittle, and amorphous; it therefore fractures with sharp edges. In the past, it was used to manufacture cutting and piercing tools, and it has been used experimentally as surgical scalpel blades.
