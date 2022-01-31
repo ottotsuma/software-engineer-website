@@ -265,7 +265,34 @@ function Intro(props) {
             co-operation was know-how and information.
           </p>
           <p>
-            
+            I made my way closer to the groups of people around the dungeon. No
+            one made any indication to reach out to me as I came closer,
+            everyone already busy speaking in little groups. Since I had made no
+            waves I decided to introduce myself to one of the groups, after all
+            even if I cannot join them they will help me direct me to the right
+            people.
+          </p>
+          <p>
+            I walked up to a group containing some students and adults directing
+            and teaching them as they got ready to enter the dungeon. My chances
+            of joining them was zero, they already had a group of four so I
+            asked for a moment of their time, introduced myself and asked if
+            they could help point me in the right direction to join a group. The
+            whole interaction was very quick, the adult directing the group was
+            happy to help point me over to a bald man standing near a notice
+            board.
+          </p>
+          <p>
+            Hermann was very stern but not rigid, he was not thrown out by my
+            sudden arrival but welcomed it. Since it was my first time he put me
+            in a group as a student with two others from the town, and one
+            adult. They had all been before so I was the first timer. After I
+            had been given the okay by the instructor leading this group Hermann
+            would then allow me to join other groups of travelers and students
+            from the academy or military camps.
+          </p>
+          <p>
+          Klemens, Anneliese & Oskar were my group members. 
           </p>
           {/* 8 ~ 14 */}
           {/* Wandering Zombie,  
