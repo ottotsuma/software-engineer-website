@@ -151,6 +151,7 @@ Hell - aoe almost instant or instant [Insane]
 
 ## Items
 
+### Unordered Items
 Alden - 
 Kojkan - Serpents tooth.
 
@@ -188,6 +189,8 @@ Polish Winged Hussar Armor - https://www.realmofhistory.com/wp-content/uploads/2
 https://en.wikipedia.org/wiki/List_of_mythological_objects#Personal_armor
 
 ### Weapons 
+
+Bubble wand.
 
 Creating your own weapon, materials, design, craft, enchant, use to make a history, name
 
