@@ -296,11 +296,15 @@ function Intro(props) {
             instructor, a fighter who had changed his class to swordsman at
             level 10. Now he was level 40 his level would be pull back down to
             10 for the duration of the dungeon. Anneliese was a level 6 fighter.
-            Finally Klemens was a level 5 rouge. Since they had not reached level 10 yet, neither of them unlocked any new classes.
+            Finally Klemens was a level 5 rouge. Since they had not reached
+            level 10 yet, neither of them unlocked any new classes.
           </p>
           <p>
             
           </p>
+          {/* Oskar, swordman, old. 
+              Anneliese, Fighter.
+              Klemens, rouge */}
           {/* 11 ~ 14 */}
           {/* Wandering Zombie,  
 Ancient Zombie, Berserk Zombie, Corpse Ranger, Skeleton Soldier, Skeleton Lancer, 
