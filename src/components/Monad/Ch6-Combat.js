@@ -82,6 +82,7 @@ function Combat(props) {
               "Titles: Magic +1 from title. Willpower + 1 from magic resistance skill. Spells: Mana ball (lightning) (Pow: 1), Tether, Magic resistance (passive), Magic up (passive), Strike (lightning) (Pow: 2+2),  Magic regen (passive)"
             }
           />
+          {/* This is BS. Why is reaching level 10 done off screen!? */}
           <p>
             I had picked up the element lighting when I reached level 10. There
             was a few for me to pick from, the teachers had said that the

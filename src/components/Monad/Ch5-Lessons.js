@@ -207,8 +207,7 @@ function Lessons(props) {
           <p>
             At the end of the class every student got a message from their
             system. +3 experience for gaining understanding towards your class
-            'Mage'. +2 experience for knowledge about your element 'Lightning'.
-            With this every student would be fired up to learn more. It was the
+            'Mage'. With this every student would be fired up to learn more. It was the
             safest and fastest way to level up and how most people were able to
             progress even up to level 20 or more without ever fighting.
           </p>

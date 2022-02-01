@@ -110,8 +110,7 @@ Charlemagne in 794 decreed that a single silver penny (weighing 1.7 grams) shoul
             into?"
           </p>
           <p>
-            "I am not too sure myself, I think I want the lightning element.
-            Sorry I am not sure."
+            "Sorry I am not sure."
           </p>
           <p>"A mage who apiologies, rare."</p>
           <p>
