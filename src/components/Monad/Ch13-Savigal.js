@@ -1,7 +1,7 @@
 import React from "react";
 import Item from "./../elements/item";
 import SeaPeopleFunction from "./SeaPeople";
-import { Otto } from "./CharacterFonts";
+import { Otto, System } from "./CharacterFonts";
 import { Content } from "./styles";
 
 function Intro(props) {
@@ -300,8 +300,21 @@ function Intro(props) {
             level 10 yet, neither of them unlocked any new classes.
           </p>
           <p>
-            
+            When we were all ready, as a group we walked up the entrance to the
+            dungeon. The entrance was like a giant foxes hole, taller then Oskar
+            by himself and another half. Although it was dug right into the
+            earth the entrance hole was pitch black from the outside, I could
+            not see what I would step into even right up close to it.
           </p>
+          <p>
+            Oskar stepped in first, signaling he had set the difficulty of the
+            dungeon, there were no changes to the entrance indicating that the
+            difficulty was set to normal. Stepping in my vision quickly changed
+            and adapted. The usual system messages appeared.
+          </p>
+          <System>
+            "You have entered the level 10 dungeon 'In holes and corners'. Difficulty [normal]."
+          </System>
           {/* Oskar, swordman, old. 
               Anneliese, Fighter.
               Klemens, rouge */}

@@ -517,6 +517,9 @@ Tisiel Skivali - (cliffs) imperial name,(huonoia) - scholar/necromancer (GONE)
 <li>Berta - Otto's group (3)
 <li>Max - Fought against Otto in the group.
 <li>Satyr Cruk, Chief of war of the goat clan. (old lands)
+<li> Oskar, adult swordsman Savigal level 10 dungeon.
+<li> Anneliese, Fighter, Child, Savigal, level 10 dungeon.
+<li> Klemens, rouge, child, Savigal level 10 dungeon.
 ---
 
 Alden Royals:

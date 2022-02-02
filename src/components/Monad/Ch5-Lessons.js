@@ -269,7 +269,7 @@ function Lessons(props) {
 
           <p>
             Sitting there looking back at me was Tisiel. "Breaking into a ladies
-            room without even knocking what kind of man are you?" She questioned
+            room without even knocking, what kind of man are you?" She questioned
             me.
           </p>
           <p>"Wait I can explain!" I exclaimed.</p>
@@ -458,7 +458,7 @@ function Lessons(props) {
             the ground in an instant and the gas dissipated. Behind was left
             grave stones, grass and a small stone mausoleum in the middle.
           </p>
-
+            {/* Dungeon */}
           <p>
             "Ladies first." I said, holding out my open palm like a gentleman.
           </p>

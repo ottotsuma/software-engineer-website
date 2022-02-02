@@ -8,6 +8,9 @@ import styled from "styled-components";
   // font-family: 'Aladin', cursive;
   // font-family: 'Sofia', cursive;
   // font-family: "Yusei Magic", sans-serif;
+  export const System = styled.p`
+  
+  `;
   export const Effi = styled.p`
   
 `;
