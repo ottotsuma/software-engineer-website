@@ -316,8 +316,10 @@ function Intro(props) {
             "You have entered the level 10 dungeon 'In holes and corners'. Difficulty [normal]. Everyone above level 10 will be synced down to level 10. It is someone's first time in the dungeon, therefore all drop rates are increased by 20%, also death penalties are reduced by 10%."
           </System>
           <Oskar>
-
+            "Since it is your first time Otto your role will be damage dealer and support if you have any spells that can assist the party over all, that way you will have time to learn about dungeon. I am not the best at tanking, however I have enough experience running this dungeon so I will be the party's tank. Klemens will also be a damage dealer, leaving Anneliese to be our secondary tank. I know you want to be a damage dealer also, so this is just as a back up, hopefully you won't need to take over. So is everyone ready?"
           </Oskar>
+          <Anneliese></Anneliese>
+          <Klemens></Klemens>
           {/* Oskar, swordman, old. 
               Anneliese, Fighter.
               Klemens, rouge */}
