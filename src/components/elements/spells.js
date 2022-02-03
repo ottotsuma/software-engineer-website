@@ -2976,6 +2976,7 @@ const SingleSpell = styled.div`
   border-radius: 6px;
   padding: 5px;
   width: auto;
+  color: black;
   background: ${(props) =>
     props.passive
       ? "#54cc4f;"

@@ -1,7 +1,7 @@
 import React from "react";
 import Item from "./../elements/item";
 import SeaPeopleFunction from "./SeaPeople";
-import { Otto, System, Oskar, Mia, Klemens, Anneliese  } from "./CharacterFonts";
+import { Otto, System, Oskar, Mia, Klemens, Anneliese } from "./CharacterFonts";
 import { Content } from "./styles";
 
 function Intro(props) {
@@ -313,13 +313,81 @@ function Intro(props) {
             and adapted. The usual system messages appeared.
           </p>
           <System>
-            "You have entered the level 10 dungeon 'In holes and corners'. Difficulty [normal]. Everyone above level 10 will be synced down to level 10. It is someone's first time in the dungeon, therefore all drop rates are increased by 20%, also death penalties are reduced by 10%."
+            "You have entered the level 10 dungeon 'In holes and corners'.
+            Difficulty [normal]. Everyone above level 10 will be synced down to
+            level 10. It is someone's first time in the dungeon, therefore all
+            drop rates are increased by 20%, also death penalties are reduced by
+            10%."
           </System>
           <Oskar>
-            "Since it is your first time Otto your role will be damage dealer and support if you have any spells that can assist the party over all, that way you will have time to learn about dungeon. I am not the best at tanking, however I have enough experience running this dungeon so I will be the party's tank. Klemens will also be a damage dealer, leaving Anneliese to be our secondary tank. I know you want to be a damage dealer also, so this is just as a back up, hopefully you won't need to take over. So is everyone ready?"
+            "Since it is your first time Otto your role will be damage dealer
+            and support if you have any spells that can assist the party over
+            all, that way you will have time to learn about dungeon. I am not
+            the best at tanking, however I have enough experience running this
+            dungeon so I will be the party's tank. Klemens will also be a damage
+            dealer, leaving Anneliese to be our secondary tank. I know you want
+            to be a damage dealer also, so this is just as a back up, hopefully
+            you won't need to take over. So is everyone ready?" Oskar said after
+            I had read over the system messages.
           </Oskar>
-          <Anneliese></Anneliese>
-          <Klemens></Klemens>
+          <Anneliese>"Yeah." Anneliese replied.</Anneliese>
+          <Klemens>"I'm ready." Klemens nodded.</Klemens>
+          <Otto>"Yes." I added.</Otto>
+          <Oskar>
+            "Up first will be a group of unarmed Wandering Zombies. There will
+            be between 3 and 5. They are quite weak, but I might like one slip
+            though so Anneliese will pick up any that slip though. As a mage
+            you'll want to fight from the rear, right?" Oskar asked as we walked
+            down a gentle slope of earth.
+          </Oskar>
+          <Otto>
+            "I think I will be more useful with this warhammer then the wand." I
+            replied a little worried he would think less of me as a mage.
+          </Otto>
+          <Oskar>
+            "Oh-ho. A mage who is not a coward, I like that. Here we though
+            Anneliese was going to have to baby sit you all day." Oskar laughed
+            loudly. His laughter was cut short as the Wandering Zombies had
+            heard him and shambled around to greet us. "Me and my big mouth."
+            Oskar added before dashing into the middle of the group, swinging
+            his sword in an arc, clipping the zombies with the tip to pull their
+            agro.
+          </Oskar>
+          <Otto>
+            It was a really impressive display of skill, he must of done this
+            dungeon hundreds of times before to be able to perfectly judge their
+            attack times to be able to dodge all their attacks, and land his own
+            attack on all of them like that. I did not know what kind of defense
+            they had so to test things out I used Charged Charge and as the
+            skill ended I brought my warhammer down on one of their heads.
+          </Otto>
+          <Otto>
+            A satisfying critical hit, 192 damage. Each zombie had 1,206HP so
+            the attack had only taken 6% of it's total HP. However it's head was
+            dented in, the electricity had run though and shot out of the sides
+            causing blood to shoot off in all directions. When it turned to
+            attack me I swang the warhammer down low into it's knee, dealing 100
+            more damage and slowing down its turn. While I had the time I cast
+            chain-lightning as I brought my warhammer down again, the lightning
+            bolt sprang from the Wandering Zombie I was attacking into another.
+            The spell was only level 1 though so it did not bounce to another.
+          </Otto>
+          <Otto>
+            Since me and Oskar had been synced down to level 10, both our
+            strengths were capped at 10. He had other Wandering Zombies to keep
+            the agro of and would not waste time getting mine back. He was not a
+            tank as he had said, so he must be keeping his agro changing skill
+            in reserve encase of an accident.
+          </Otto>
+          <Otto>
+            Not that I could not handle one Wandering Zombie alone. They were
+            slow, and had no weapons making their damage minimal. They were just
+            durable enough to last about 40 seconds under our combined
+            onslaught.
+          </Otto>
+          {/* Att, 10, Lvl, 10, Power, 1.5? Def 0, total 150, critical hit, 20% ~ 35% */}
+          {/* let Base damage = (((100 * ((ATT*LVL) / (ATT+LVL))) * PWR) + 100)/(100/LVL) let Damage = ((Base damage) - (DEF)) */}
+          {/* Chain-lightning, Tether, mana-ball lightning cloak, shocking touch, Charged Charge and wall of lightning. Magic Resistance, Magic Up, Strike, Magic Regen */}
           {/* Oskar, swordman, old. 
               Anneliese, Fighter.
               Klemens, rouge */}
