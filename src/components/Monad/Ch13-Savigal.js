@@ -1,7 +1,7 @@
 import React from "react";
 import Item from "./../elements/item";
 import SeaPeopleFunction from "./SeaPeople";
-import { Otto, System } from "./CharacterFonts";
+import { Otto, System, Oskar, Mia, Klemens, Anneliese  } from "./CharacterFonts";
 import { Content } from "./styles";
 
 function Intro(props) {
@@ -313,8 +313,11 @@ function Intro(props) {
             and adapted. The usual system messages appeared.
           </p>
           <System>
-            "You have entered the level 10 dungeon 'In holes and corners'. Difficulty [normal]."
+            "You have entered the level 10 dungeon 'In holes and corners'. Difficulty [normal]. Everyone above level 10 will be synced down to level 10. It is someone's first time in the dungeon, therefore all drop rates are increased by 20%, also death penalties are reduced by 10%."
           </System>
+          <Oskar>
+
+          </Oskar>
           {/* Oskar, swordman, old. 
               Anneliese, Fighter.
               Klemens, rouge */}

@@ -9,7 +9,15 @@ import styled from "styled-components";
   // font-family: 'Sofia', cursive;
   // font-family: "Yusei Magic", sans-serif;
   export const System = styled.p`
-  
+  font-family: 'Gugi', cursive;
+  `;
+  export const Anneliese = styled.p`
+  `;
+  export const Mia = styled.p`
+  `;
+  export const Klemens = styled.p`
+  `;
+  export const Oskar = styled.p`
   `;
   export const Effi = styled.p`
   
