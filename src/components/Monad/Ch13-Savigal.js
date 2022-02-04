@@ -372,6 +372,8 @@ function Intro(props) {
             bolt sprang from the Wandering Zombie I was attacking into another.
             The spell was only level 1 though so it did not bounce to another.
           </Otto>
+          {/* let Base damage = (((100 * ((ATT*LVL) / (ATT+LVL))) * PWR) + 100)/(100/LVL) let Damage = ((Base damage) - (DEF)) */}
+          {/* Att, 10, Lvl, 10, Power, 1.5? Def 0, total 150, critical hit, 20% ~ 35% */}
           <Otto>
             Since me and Oskar had been synced down to level 10, both our
             strengths were capped at 10. He had other Wandering Zombies to keep
@@ -408,20 +410,29 @@ function Intro(props) {
           </Klemens>
           <Oskar>
             "Okay, from here on there will be more Wandering Zombies and mixed
-            in with them Ancient Zombies. They move faster, hit
-            harder, have more health. Overall though they are similar. The final
-            zombie to watch out for is the Berserk Zombie, this one
-            has similar stats to the Wandering Zombies but more health then the
-            Ancient Zombies and a berserk skill that increases their stats above
-            an Ancient Zombie for a short time. After the skill ends however,
-            they are very weak." Oskar informed me.
+            in with them Ancient Zombies. They move faster, hit harder, have
+            more health. Overall though they are similar. The final zombie to
+            watch out for is the Berserk Zombie, this one has similar stats to
+            the Wandering Zombies but more health then the Ancient Zombies and a
+            berserk skill that increases their stats above an Ancient Zombie for
+            a short time. After the skill ends however, they are very weak."
+            Oskar informed me.
           </Oskar>
           <Oskar>
             "At the end of the dungeon is a boss monster we have to fight to end
-            the dungeon. The boss is a skeleton lancer and a skeleton soldier. They are monsters from the hard mode of this dungeon rather then the dungeons real boss. Still they are a good fight." Oskar added as we ran into another group of zombies.
+            the dungeon. The boss is a skeleton lancer and a skeleton soldier.
+            They are monsters from the hard mode of this dungeon rather then the
+            dungeons real boss. Still they are a good fight." Oskar added as we
+            ran into another group of zombies.
           </Oskar>
-          {/* Att, 10, Lvl, 10, Power, 1.5? Def 0, total 150, critical hit, 20% ~ 35% */}
-          {/* let Base damage = (((100 * ((ATT*LVL) / (ATT+LVL))) * PWR) + 100)/(100/LVL) let Damage = ((Base damage) - (DEF)) */}
+          <Otto>
+            The fights were fast paced, my blood really got boiling beating the
+            zombies. Half the team was over leveled for this dungeon, even
+            though we were synced down that still left us with the maximum
+            attributes you could have in this dungeon. The other half of the
+            team, although a lower level had ran this dungeon many times over
+            and knew it well.
+          </Otto>
           {/* Chain-lightning, Tether, mana-ball lightning cloak, shocking touch, Charged Charge and wall of lightning. Magic Resistance, Magic Up, Strike, Magic Regen */}
           {/* Oskar, swordman, old. 
               Anneliese, Fighter.

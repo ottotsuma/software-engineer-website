@@ -151,6 +151,12 @@ Hard - attack paths shown Quickly, aoe wind up and markers given Briefly, faster
 Elite - attack paths NOT shown, aoe wind up and markers NOT given, however the wind up is not instant (Players only). [Elite]
 Hell - aoe almost instant or instant [Insane]
 
+            "You have entered the level 10 dungeon 'In holes and corners'.
+            Difficulty [normal]. Everyone above level 10 will be synced down to
+            level 10. It is someone's first time in the dungeon, therefore all
+            drop rates are increased by 20%, also death penalties are reduced by
+            10%."
+
 ## Items
 
 ### Unordered Items
