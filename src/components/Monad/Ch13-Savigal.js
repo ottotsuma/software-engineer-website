@@ -434,8 +434,16 @@ function Intro(props) {
             and knew it well. Our time to the bosses was only around 40 minutes.
           </Otto>
           <Otto>
-            
+            The bosses were not even named, they really were just a Skeleton
+            Lancer, as the name suggested a skeleton holding a spear. Although
+            to say skeleton gave me the impression they were human sized, they
+            towered over me by another 2 heads on top of mine. They were wide
+            also, like adding another 50% to the size of my chest and other
+            bones. The other was matching in size but with a dilapidated wooden
+            shield and rusted bent sword. While they might not be the most
+            efficient weapons, they would be nasty on impact.
           </Otto>
+          <Oskar>"Okay so this is the reason we need a second tank in this dungeon. Since we don't have healers between us it's important we put out enough damage to deal with them both before we run out of health ourselves. If one person tries to tank both of them it would put a greater burden on our time limits. So if you guys can take the lancer first, take it in turns tanking the monster starting with Anneliese. After that come save me, alright?" Oskar laughed to lighten the mood.</Oskar>
           {/* Chain-lightning, Tether, mana-ball lightning cloak, shocking touch, Charged Charge and wall of lightning. Magic Resistance, Magic Up, Strike, Magic Regen */}
           {/* Oskar, swordman, old. 
               Anneliese, Fighter.
