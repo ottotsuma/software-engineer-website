@@ -431,7 +431,10 @@ function Intro(props) {
             though we were synced down that still left us with the maximum
             attributes you could have in this dungeon. The other half of the
             team, although a lower level had ran this dungeon many times over
-            and knew it well.
+            and knew it well. Our time to the bosses was only around 40 minutes.
+          </Otto>
+          <Otto>
+            
           </Otto>
           {/* Chain-lightning, Tether, mana-ball lightning cloak, shocking touch, Charged Charge and wall of lightning. Magic Resistance, Magic Up, Strike, Magic Regen */}
           {/* Oskar, swordman, old. 
