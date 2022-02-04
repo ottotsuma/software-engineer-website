@@ -385,6 +385,41 @@ function Intro(props) {
             durable enough to last about 40 seconds under our combined
             onslaught.
           </Otto>
+          <Oskar>
+            "Hey, nice work there Otto." Oskar said as we finished them off.
+          </Oskar>
+          <Klemens>
+            "Yeah, our time might be quite quick today." Klemens added.
+          </Klemens>
+          <Anneliese>
+            "Yeah, you were good." Anneliese announced a little louder then she
+            meant.
+          </Anneliese>
+          <Otto>
+            "Yeah, a shame they didn't drop anything nice." I replied picking up
+            something they left behind.
+          </Otto>
+          <Klemens>
+            "Normally they drop even less. Even a 20% increase in junk is just
+            20% more junk after all. Rotting Flesh, Zombies Eyes, Old Bone. All
+            the items they drop are basically worthless, even a pet won't sniff
+            them." Klemens informed me while I was reaching for one. With that I
+            just stopped reaching down and left the items on the floor.
+          </Klemens>
+          <Oskar>
+            "Okay, from here on there will be more Wandering Zombies and mixed
+            in with them Ancient Zombies. They move faster, hit
+            harder, have more health. Overall though they are similar. The final
+            zombie to watch out for is the Berserk Zombie, this one
+            has similar stats to the Wandering Zombies but more health then the
+            Ancient Zombies and a berserk skill that increases their stats above
+            an Ancient Zombie for a short time. After the skill ends however,
+            they are very weak." Oskar informed me.
+          </Oskar>
+          <Oskar>
+            "At the end of the dungeon is a boss monster we have to fight to end
+            the dungeon. The boss is a skeleton lancer and a skeleton soldier. They are monsters from the hard mode of this dungeon rather then the dungeons real boss. Still they are a good fight." Oskar added as we ran into another group of zombies.
+          </Oskar>
           {/* Att, 10, Lvl, 10, Power, 1.5? Def 0, total 150, critical hit, 20% ~ 35% */}
           {/* let Base damage = (((100 * ((ATT*LVL) / (ATT+LVL))) * PWR) + 100)/(100/LVL) let Damage = ((Base damage) - (DEF)) */}
           {/* Chain-lightning, Tether, mana-ball lightning cloak, shocking touch, Charged Charge and wall of lightning. Magic Resistance, Magic Up, Strike, Magic Regen */}
