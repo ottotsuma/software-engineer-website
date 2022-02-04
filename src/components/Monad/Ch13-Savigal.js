@@ -443,7 +443,25 @@ function Intro(props) {
             shield and rusted bent sword. While they might not be the most
             efficient weapons, they would be nasty on impact.
           </Otto>
-          <Oskar>"Okay so this is the reason we need a second tank in this dungeon. Since we don't have healers between us it's important we put out enough damage to deal with them both before we run out of health ourselves. If one person tries to tank both of them it would put a greater burden on our time limits. So if you guys can take the lancer first, take it in turns tanking the monster starting with Anneliese. After that come save me, alright?" Oskar laughed to lighten the mood.</Oskar>
+          <Oskar>
+            "Okay so this is the reason we need a second tank in this dungeon.
+            Since we don't have healers between us it's important we put out
+            enough damage to deal with them both before we run out of health
+            ourselves. If one person tries to tank both of them it would put a
+            greater burden on our time limits. So if you guys can take the
+            lancer first, take it in turns tanking the monster starting with
+            Anneliese. After that come save me, alright?" Oskar laughed to
+            lighten the mood.
+          </Oskar>
+          <Otto>
+            Klemens wielded two short blades, Anneliese had a small wooden
+            shield, it barely covered arm but it was more then enough to deflect
+            blows. Paired with it she had a short axe with a curved head. Oskar
+            plunged in first, Anneliese nipped at his heels. She went shield
+            first, making contact with the skeletons spear head and deflecting
+            it out of the way, followed up by her axe into the monsters ribs,
+            before quickly pulling back.
+          </Otto>
           {/* Chain-lightning, Tether, mana-ball lightning cloak, shocking touch, Charged Charge and wall of lightning. Magic Resistance, Magic Up, Strike, Magic Regen */}
           {/* Oskar, swordman, old. 
               Anneliese, Fighter.
