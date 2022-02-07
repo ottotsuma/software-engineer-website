@@ -523,8 +523,39 @@ function Intro(props) {
             them. She lost more health then she did before also.
           </Otto>
           <Otto>
-            The next time Anneliese was hit back I cast <InlineSpell spellName={"Wall of Lightning"} level={1} /> in
-            front of the Skeleton Lancer. 
+            The next time Anneliese was hit back I cast{" "}
+            <InlineSpell spellName={"Wall of Lightning"} level={1} /> in front
+            of the Skeleton Lancer. The Skeleton Lancer just ignored the
+            lightning coming up from the ground and paced into it on it's way to
+            Anneliese. Seeing what I did Anneliese pushed herself into the
+            Skeleton Lancer to keep it on top of the lightning, if it did not
+            mind taking damage, we did not mind helping it die faster.
+          </Otto>
+          <Otto>
+            As I ran in again the Skeleton Lancer span it's whole body around
+            without moving it's legs. Holding onto the spear it held it out and
+            moved in a full circle around using only its upper body. The attack
+            had caught me off guard and slashed though my academy robe, my blood
+            stained his spear and spattered across the floor. Luckily the cut
+            was not too deep but my health had dropped by 30%.
+          </Otto>
+          <Otto>
+            After beating us all back the Skeleton Lancers bones turned a dull
+            grey, it put the foot of the spear on the floor and knelt down
+            holding onto it. It's berserk skill had only lasted 10 seconds and
+            now it was in a weakened state. Quite an extreme one too since it
+            could no longer move.
+          </Otto>
+          <Anneliese>
+            "Quickly do all the damage you can. While it is weakened it's
+            defense is reduced and cannot fight back, however this will only
+            last a short period." Anneliese notified me then jumped into taking
+            out her revenge on the Skeleton Lancer.
+          </Anneliese>
+          <Otto>
+            As a team we unloaded every spell, skill and attack we could muster
+            onto the boss, with its weakened defense its health visibly dropped
+            at an alarming rate.
           </Otto>
           {/* Chain-lightning, <InlineSpell spellName={'Tether'} level={1} />, <InlineSpell spellName={"Mana Ball"} level={1} /> lightning cloak, shocking touch, Charged Charge and wall of lightning. Magic Resistance, Magic Up, Strike, Magic Regen */}
           {/* Oskar, swordman, old. 
