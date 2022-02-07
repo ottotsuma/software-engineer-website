@@ -462,14 +462,39 @@ function Intro(props) {
             it out of the way, followed up by her axe into the monsters ribs,
             before quickly pulling back.
           </Otto>
+          <Otto>
+            I did not stand around scratch my bum, while Anneliese was
+            attracting the monster me and Klemens moved in a pincer around the
+            side, as soon as Anneliese and Oskar moved the bosses away from each
+            other me and Klemens jumped in assaulting the Skeleton Lancer. I
+            slammed my warhammer into the monsters back with Strike, when the HP
+            bar barely moved I was a little shocked. I knew the bosses would be
+            stronger but they were around ten times more defensive then their
+            zombie counterparts.
+          </Otto>
+          <Otto>
+            Seeing this was not going to be a quick kill I cast mana-ball.
+            Thanks to the infused lightning element mana-ball would hover around
+            the Skeleton Lancer and occasionally zap it for 1 damage. Since it
+            was currently ignoring me I followed mana-ball up with Shocking
+            Touch, the lightning ran across his body doing good damage but
+            causing no other effects.
+          </Otto>
+          <Otto>
+            A little frustrated I cast tether to the bottom of the skeletons
+            spear and yanked on it hard. The tether broke but the spear was
+            pulled back a little, instead of making contact with Anneliese the
+            spear stopped short.
+          </Otto>
+          {/* Use tether on the spear */}
           {/* Chain-lightning, Tether, mana-ball lightning cloak, shocking touch, Charged Charge and wall of lightning. Magic Resistance, Magic Up, Strike, Magic Regen */}
           {/* Oskar, swordman, old. 
               Anneliese, Fighter.
               Klemens, rouge */}
           {/* 11 ~ 14 */}
           {/* Wandering Zombie,  
-Ancient Zombie, Berserk Zombie, Corpse Ranger, Skeleton Soldier, Skeleton Lancer, 
-Corpse Sergeant  */}
+              Ancient Zombie, Berserk Zombie, Corpse Ranger, Skeleton Soldier, Skeleton Lancer, 
+              Corpse Sergeant  */}
           {/* Home again */}
           <p>
             On the journey back I saw more guards then usual, maybe because of
