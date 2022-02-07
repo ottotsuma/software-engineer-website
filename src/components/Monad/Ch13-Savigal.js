@@ -486,15 +486,39 @@ function Intro(props) {
             pulled back a little, instead of making contact with Anneliese the
             spear stopped short.
           </Otto>
-          {/* Use tether on the spear */}
+          <Otto>
+            The skeleton did not really react to my pulling of his spear, so I
+            kept doing it. Every time I hit him with my warhammer I pulled on
+            the back end of his spear. Despite is high defenses we chipped his
+            health down, as it reached 30% the Skeleton Lancers bones started to
+            turn a soft red.
+          </Otto>
+          <Anneliese>
+            "It's using its berserk skill, be careful!" Anneliese warned us.
+          </Anneliese>
+          <Otto>
+            I tired to grab the end of his spear with tether again, this time
+            the tether broke right away and his spear was not slowed down at all
+            hitting Anneliese's shield and pushing her back three steps. His
+            berserk skill had made him much stronger and faster.
+          </Otto>
+          <Otto>
+            Knowing Anneliese was in danger I bombarded the skeleton over and
+            over with my warhammer chipping away slowly at is HP. I was worried
+            Anneliese would not hold on easily. Every time the Skeleton Lancer
+            attacked before it would chip a little of Anneliese HP away and she
+            would move his spear to the side making sure she was not hurt badly.
+            Now however she was being pushed back with each hit, barely blocking
+            them. She lost more health then she did before also.
+          </Otto>
+          <Otto>
+            The next time Anneliese was hit back I cast wall of lightning in front of the Skeleton Lancer.
+          </Otto>
           {/* Chain-lightning, Tether, mana-ball lightning cloak, shocking touch, Charged Charge and wall of lightning. Magic Resistance, Magic Up, Strike, Magic Regen */}
           {/* Oskar, swordman, old. 
               Anneliese, Fighter.
               Klemens, rouge */}
           {/* 11 ~ 14 */}
-          {/* Wandering Zombie,  
-              Ancient Zombie, Berserk Zombie, Corpse Ranger, Skeleton Soldier, Skeleton Lancer, 
-              Corpse Sergeant  */}
           {/* Home again */}
           <p>
             On the journey back I saw more guards then usual, maybe because of
