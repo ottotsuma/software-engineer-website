@@ -3,7 +3,7 @@ import Item from "./../elements/item";
 import SeaPeopleFunction from "./SeaPeople";
 import { Otto, System, Oskar, Mia, Klemens, Anneliese } from "./CharacterFonts";
 import { Content } from "./styles";
-import {InlineSpell} from './../elements/spells'
+import { InlineSpell } from "./../elements/spells";
 function Intro(props) {
   return (
     <Content>
@@ -358,7 +358,8 @@ function Intro(props) {
             dungeon hundreds of times before to be able to perfectly judge their
             attack times to be able to dodge all their attacks, and land his own
             attack on all of them like that. I did not know what kind of defense
-            they had so to test things out I used Charged Charge and as the
+            they had so to test things out I used{" "}
+            <InlineSpell spellName={"Charged Charge"} level={1} /> and as the
             skill ended I brought my warhammer down on one of their heads.
           </Otto>
           <Otto>
@@ -367,10 +368,11 @@ function Intro(props) {
             dented in, the electricity had run though and shot out of the sides
             causing blood to shoot off in all directions. When it turned to
             attack me I swang the warhammer down low into it's knee, dealing 100
-            more damage and slowing down its turn. While I had the time I cast
-            chain-lightning as I brought my warhammer down again, the lightning
-            bolt sprang from the Wandering Zombie I was attacking into another.
-            The spell was only level 1 though so it did not bounce to another.
+            more damage and slowing down its turn. While I had the time I cast{" "}
+            <InlineSpell spellName={"Chain Lightning"} level={1} /> as I brought
+            my warhammer down again, the lightning bolt sprang from the
+            Wandering Zombie I was attacking into another. The spell was only
+            level 1 though so it did not bounce to another.
           </Otto>
           {/* let Base damage = (((100 * ((ATT*LVL) / (ATT+LVL))) * PWR) + 100)/(100/LVL) let Damage = ((Base damage) - (DEF)) */}
           {/* Att, 10, Lvl, 10, Power, 1.5? Def 0, total 150, critical hit, 20% ~ 35% */}
@@ -467,24 +469,31 @@ function Intro(props) {
             attracting the monster me and Klemens moved in a pincer around the
             side, as soon as Anneliese and Oskar moved the bosses away from each
             other me and Klemens jumped in assaulting the Skeleton Lancer. I
-            slammed my warhammer into the monsters back with Strike, when the HP
-            bar barely moved I was a little shocked. I knew the bosses would be
+            slammed my warhammer into the monsters back with{" "}
+            <InlineSpell spellName={"Strike"} level={1} />, when the HP bar
+            barely moved I was a little shocked. I knew the bosses would be
             stronger but they were around ten times more defensive then their
             zombie counterparts.
           </Otto>
           <Otto>
-            Seeing this was not going to be a quick kill I cast mana-ball.
-            Thanks to the infused lightning element mana-ball would hover around
+            Seeing this was not going to be a quick kill I cast{" "}
+            <InlineSpell spellName={"Mana Ball"} level={1} />. Thanks to the
+            infused lightning element{" "}
+            <InlineSpell spellName={"Mana Ball"} level={1} /> would hover around
             the Skeleton Lancer and occasionally zap it for 1 damage. Since it
-            was currently ignoring me I followed mana-ball up with Shocking
-            Touch, the lightning ran across his body doing good damage but
-            causing no other effects.
+            was currently ignoring me I followed{" "}
+            <InlineSpell spellName={"Mana Ball"} level={1} /> up with{" "}
+            <InlineSpell spellName={"Shocking Touch"} level={1} />, the
+            lightning ran across his body doing good damage but causing no other
+            effects.
           </Otto>
           <Otto>
-            A little frustrated I cast tether to the bottom of the skeletons
-            spear and yanked on it hard. The tether broke but the spear was
-            pulled back a little, instead of making contact with Anneliese the
-            spear stopped short.
+            A little frustrated I cast{" "}
+            <InlineSpell spellName={"Tether"} level={1} /> to the bottom of the
+            skeletons spear and yanked on it hard. The{" "}
+            <InlineSpell spellName={"Tether"} level={1} /> broke but the spear
+            was pulled back a little, instead of making contact with Anneliese
+            the spear stopped short.
           </Otto>
           <Otto>
             The skeleton did not really react to my pulling of his spear, so I
@@ -497,10 +506,12 @@ function Intro(props) {
             "It's using its berserk skill, be careful!" Anneliese warned us.
           </Anneliese>
           <Otto>
-            I tired to grab the end of his spear with tether again, this time
-            the tether broke right away and his spear was not slowed down at all
-            hitting Anneliese's shield and pushing her back three steps. His
-            berserk skill had made him much stronger and faster.
+            I tired to grab the end of his spear with{" "}
+            <InlineSpell spellName={"Tether"} level={1} /> again, this time the{" "}
+            <InlineSpell spellName={"Tether"} level={1} /> broke right away and
+            his spear was not slowed down at all hitting Anneliese's shield and
+            pushing her back three steps. His berserk skill had made him much
+            stronger and faster.
           </Otto>
           <Otto>
             Knowing Anneliese was in danger I bombarded the skeleton over and
@@ -512,9 +523,10 @@ function Intro(props) {
             them. She lost more health then she did before also.
           </Otto>
           <Otto>
-            The next time Anneliese was hit back I cast wall of lightning in front of the Skeleton Lancer. <InlineSpell spellName={'Tether'} level={1} />
+            The next time Anneliese was hit back I cast <InlineSpell spellName={"Wall of Lightning"} level={1} /> in
+            front of the Skeleton Lancer. 
           </Otto>
-          {/* Chain-lightning, Tether, mana-ball lightning cloak, shocking touch, Charged Charge and wall of lightning. Magic Resistance, Magic Up, Strike, Magic Regen */}
+          {/* Chain-lightning, <InlineSpell spellName={'Tether'} level={1} />, <InlineSpell spellName={"Mana Ball"} level={1} /> lightning cloak, shocking touch, Charged Charge and wall of lightning. Magic Resistance, Magic Up, Strike, Magic Regen */}
           {/* Oskar, swordman, old. 
               Anneliese, Fighter.
               Klemens, rouge */}

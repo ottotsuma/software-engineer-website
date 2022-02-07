@@ -1,6 +1,7 @@
 import React from "react";
 import Stats from "./../elements/stats";
 import { Content } from "./styles";
+import {InlineSpell} from './../elements/spells'
 function Intro(props) {
   return (
     <Content>
@@ -33,7 +34,7 @@ function Intro(props) {
             Reingard struck first with balls of mana and tanked the centaurs
             hooves with his shield reinforced in his metal mana. Shooting into
             action, I charged into the monster with the skill 'Charged Charge'
-            and stuck down with strike (lightning) infused into my warhammer, I
+            and stuck down with <InlineSpell spellName={'Strike'} level={1} /> (lightning) infused into my warhammer, I
             had picked up a few tricks on the way. Just like that 10% of its
             health disappeared.
           </p>
@@ -155,9 +156,9 @@ function Intro(props) {
           </p>
 
           <p>
-            I can use the shoes Tisiel gave me more to dodge attacks then to
-            help me move in quickly maybe to strike then use them to get away,
-            but they only work after I've been stuck.
+            I can use the shoes Tisiel gave me to dodge attacks, more then to
+            help me move in quickly. Maybe I could hit them and then use the shoes to get away,
+            but they only work after I've been stuck first.
           </p>
 
           <h4>pov Tisiel</h4>

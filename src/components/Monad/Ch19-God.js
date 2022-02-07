@@ -5,6 +5,7 @@ import Item from "./../elements/item";
 import Title from "./../elements/title";
 import SpellCards from "./SpellCards";
 import { Content } from "./styles";
+import {InlineSpell} from './../elements/spells'
 function Intro(props) {
   return (
     <Content>
@@ -471,9 +472,9 @@ Noticed by a God - get the notice of a God, (varies) */}
             group with staffs, wands and a dai-furyo (hand fan). Reingard was
             stood in front of me a little to my left and Volker in front of
             Raina to our left. The match started with the sounding of a large
-            bell, I opened with a wall of lightning wall in front of Volker's
+            bell, I opened with a <InlineSpell spellName={"Wall of Lightning"} level={1} /> wall in front of Volker's
             opponents, turning my attention to Reingard who had thrown his chain
-            while keeping his shield up trying to strike a mage with a wand in
+            while keeping his shield up, trying to strike a mage with a wand in
             the back, when they moved Reingard adjusted the path with his mana
             and stuck him in the stomach, the mage keeled over but was not out.
           </p>
@@ -545,14 +546,14 @@ Noticed by a God - get the notice of a God, (varies) */}
             I ran straight for him trying to finish him off also when I was hit
             with a wind infused manaball, the blow had come so quick I did not
             register it at first (-43%). I could not allow him to keep that up,
-            I stuck with lightning strike (-57%), he had high magic defenses it
+            I stuck with lightning <InlineSpell spellName={'Strike'} level={1} /> (-57%), he had high magic defenses it
             seems. I sprinted into him with my warhammer striking his chest, his
             body soon disappeared from the arena as I felt a huge pressure above
             me push me down and a sucking woosh, next thing I saw was the arena
             underground where I had come in, standing next to an small water
             fountain at the base of the entrance tunnel to the area. I must of
             reached my last 10 hp, guess he still had enough mp left to use
-            strike also.
+            <InlineSpell spellName={'Strike'} level={1} /> also.
           </p>
 
           {/* mana drain is power of spell * 10?  */}

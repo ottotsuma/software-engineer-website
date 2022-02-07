@@ -5,6 +5,8 @@ import styled from "styled-components";
 import SpellCards from "./SpellCards";
 import { Content } from "./styles";
 import { Otto, System, Tisiel } from "./CharacterFonts";
+import {InlineSpell} from './../elements/spells'
+
 /* Elementals */
 
 const Elementals = styled.div`
@@ -447,7 +449,7 @@ function Lessons(props) {
             With a shake of my head I picked up the ring from Tisiel's hand and
             placed it on my own. I then pushed my mana through the tip of my
             finger and it came out like a rope. Attaching the ring to the end of
-            the rope like tether, it stuck when I willed it to grab the ring.
+            the rope like <InlineSpell spellName={'Tether'} level={1} />, it stuck when I willed it to grab the ring.
             Pushing the tethered ring into the gas I was surprised when nothing
             happened, pushing it past the bars and out and placing it on the
             alter.
@@ -656,7 +658,7 @@ function Lessons(props) {
           <p>
             I turned to see the golem running after Tisiel, I slowed down and
             decided to double back and help. Running up to the golem I cast
-            'Strike' and the golem became enraged as the mana struck down from
+            <InlineSpell spellName={'Strike'} level={1} /> and the golem became enraged as the mana struck down from
             above him landing on his arm. The crack in his shoulder filled with
             the mana and threatened to tare his arm off. "Tisiel, attack it." I
             shouted. Tisiel turned and threw a ball of mana into it. One arm
@@ -685,7 +687,7 @@ function Lessons(props) {
           </p>
           <p>
             "It's possible, but the fun is in the discovery. Now get the ring
-            with tether and let's leave before something else comes to life."
+            with <InlineSpell spellName={'Tether'} level={1} /> and let's leave before something else comes to life."
             Tisiel replied walking past the alter.
           </p>
           <p>

@@ -104,8 +104,8 @@ export const spellList = {
     name: "Lightning Storm",
     1: "Call lightning to randomly strike an area.",
   },
-  "Wall of lightning": {
-    name: "Wall of lightning",
+  "Wall of Lightning": {
+    name: "Wall of Lightning",
     1: "Raise a wall of lightning before you.",
   },
   "Static Field": {
@@ -2875,6 +2875,7 @@ export const spellList = {
 };
 
 export function InlineSpell ({spellName, level}) {
+  // console.log(spellList[Object.keys(spellList).find(key => key.toLowerCase() === spellName.toLowerCase())]);
   return <Inline>{spellName}<SpellSpan>{spellList[spellName][level] || ''}</SpellSpan></Inline>
 }
 
@@ -3016,6 +3017,7 @@ const SpellSpan = styled.span`
 
 const Inline = styled.div`
 display: contents;
+font-family: 'monospace';
 &:hover ${SpellSpan} {
   visibility: visible;
 }

@@ -3,6 +3,7 @@ import Spells from "./../elements/spells";
 import Stats from "./../elements/stats";
 import Item from "./../elements/item";
 import { Content } from "./styles";
+import {InlineSpell} from './../elements/spells'
 
 function Combat(props) {
   return (
@@ -114,7 +115,7 @@ function Combat(props) {
               { name: "Lightning Cloak", level: 1 },
               { name: "Thunderbolt", level: 1 },
               { name: "Static Field", level: 1 },
-              { name: "Wall of lightning", level: 1 },
+              { name: "Wall of Lightning", level: 1 },
               { name: "Lightning Storm", level: 1 },
               { name: "Discharge", level: 1 },
               { name: "Charged Charge", level: 1 },
@@ -130,7 +131,7 @@ function Combat(props) {
 
           <p>
             I decided to pick up, lightning cloak, shocking touch, chain
-            lighting, Charged Charge and wall of lightning.
+            lighting, Charged Charge and <InlineSpell spellName={"Wall of Lightning"} level={1} />.
           </p>
 
           <p>
@@ -144,7 +145,7 @@ function Combat(props) {
 
           <p>
             My hp at the moment was 210. The largest direct attack a level 10
-            student using a non elemental attack would be 'Strike' dealing
+            student using a non elemental attack would be <InlineSpell spellName={'Strike'} level={1} /> dealing
             around 100hp. Maybe even with the element added I could take two
             hits. My plan would fall apart if the hit was a critical however.
           </p>
@@ -230,7 +231,7 @@ function Combat(props) {
             Daniel at start of the match. Daniel opened with a manaball which
             gathered in the palm of his hand and looked to be made of mud and
             earth, before I had time to debate Daniel's element it was flung
-            towards me at great speed. Casting wall of lightning in front of me,
+            towards me at great speed. Casting <InlineSpell spellName={"Wall of Lightning"} level={1} /> in front of me,
             lightning bolts stuck up from the ground reaching to my chest in
             height. I ducked and the ball hit the lighting bolts and broke
             apart. The pieces of the ball exploded out in all directions some of

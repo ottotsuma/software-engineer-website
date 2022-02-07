@@ -23,7 +23,7 @@ function Intro(props) {
 
           <p>
             He excused himself as hastily has he could and made his way across
-            the room to try and strike a conversation with her only to be caught
+            the room to try and strike up a conversation with her only to be caught
             by old professor Farald, I heard from young Daniel you where curious
             about how the duel system works. Unable to escape he had to hope he
             could find her later.

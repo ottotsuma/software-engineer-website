@@ -2,6 +2,8 @@ import React from "react";
 import Item from "./../elements/item";
 import SeaPeopleFunction from "./SeaPeople";
 import { Content } from "./styles";
+import {InlineSpell} from './../elements/spells'
+
 function Intro(props) {
   return (
     <Content>
@@ -142,7 +144,7 @@ function Intro(props) {
 
           <p>
             He ran to help with the two larger wolves, I tried to strike one of
-            them with a lightning strike, 0.05% damage. One of the larger wolves
+            them with a lightning infused <InlineSpell spellName={'Strike'} level={1} />, 0.05% damage. One of the larger wolves
             was slayed the other ran bleeding back into the forest. I was later
             told by Giselher the large body guard who speared the smaller wolf
             that the large wolves where between level 20 and 29. They had high
