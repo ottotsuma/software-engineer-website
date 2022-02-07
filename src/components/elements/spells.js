@@ -2874,6 +2874,10 @@ export const spellList = {
   },
 };
 
+export function InlineSpell ({spellName, level}) {
+  return <Inline>{spellName}<SpellSpan>{spellList[spellName][level] || ''}</SpellSpan></Inline>
+}
+
 // Ghoul, Wight, Halfling, Vampire→Vampire Noble→Vampire Knight, Namanari Hannya <Chunari Hannya> <Honnari Hannya>, Dhampir, Banshee, Draugr→Great Draugr, Blood Fairy, Strigoi,
 
 // Berserker stuff ! Blood stuff !https://dragonage.fandom.com/wiki/Blood_Mage_(Origins)
@@ -2996,4 +3000,23 @@ const SingleSpell = styled.div`
   &:hover ${Span} {
     visibility: visible;
   }
+`;
+
+const SpellSpan = styled.span`
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  width: auto;
+  position: absolute;
+  z-index: 2;
+`;
+
+const Inline = styled.div`
+display: contents;
+&:hover ${SpellSpan} {
+  visibility: visible;
+}
 `;

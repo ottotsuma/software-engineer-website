@@ -3,7 +3,7 @@ import Item from "./../elements/item";
 import SeaPeopleFunction from "./SeaPeople";
 import { Otto, System, Oskar, Mia, Klemens, Anneliese } from "./CharacterFonts";
 import { Content } from "./styles";
-
+import {InlineSpell} from './../elements/spells'
 function Intro(props) {
   return (
     <Content>
@@ -512,7 +512,7 @@ function Intro(props) {
             them. She lost more health then she did before also.
           </Otto>
           <Otto>
-            The next time Anneliese was hit back I cast wall of lightning in front of the Skeleton Lancer.
+            The next time Anneliese was hit back I cast wall of lightning in front of the Skeleton Lancer. <InlineSpell spellName={'Tether'} level={1} />
           </Otto>
           {/* Chain-lightning, Tether, mana-ball lightning cloak, shocking touch, Charged Charge and wall of lightning. Magic Resistance, Magic Up, Strike, Magic Regen */}
           {/* Oskar, swordman, old. 
