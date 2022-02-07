@@ -4,7 +4,7 @@ import Stats from "./../elements/stats";
 import styled from "styled-components";
 import SpellCards from "./SpellCards";
 import { Content } from "./styles";
-
+import { Otto, System, Tisiel } from "./CharacterFonts";
 /* Elementals */
 
 const Elementals = styled.div`
@@ -183,19 +183,19 @@ function Lessons(props) {
             asked to present our findings in small groups.
           </p>
           <p>
-            "Now lets look at how to invest your attribute points. Firstly, Magic
-            affects the total amount of MP you have, so that is usually the main
-            stat for Mages. Even if you plan to be a front line fighter, healer
-            or non-combatant." Lubin said after the class had come back to watch
-            him lecture.
+            "Now lets look at how to invest your attribute points. Firstly,
+            Magic affects the total amount of MP you have, so that is usually
+            the main stat for Mages. Even if you plan to be a front line
+            fighter, healer or non-combatant." Lubin said after the class had
+            come back to watch him lecture.
           </p>
 
           <p>
-            "For the other attribute points & spell points we have provided you a
-            book containing what past mages have done and how it worked out for
-            them. You can either copy one of them or just learn from what they
-            did and make your own path. Unless you want to join the military
-            directly." Lubin followed up with.
+            "For the other attribute points & spell points we have provided you
+            a book containing what past mages have done and how it worked out
+            for them. You can either copy one of them or just learn from what
+            they did and make your own path. Unless you want to join the
+            military directly." Lubin followed up with.
           </p>
 
           <p>
@@ -207,18 +207,18 @@ function Lessons(props) {
           <p>
             At the end of the class every student got a message from their
             system. +3 experience for gaining understanding towards your class
-            'Mage'. With this every student would be fired up to learn more. It was the
-            safest and fastest way to level up and how most people were able to
-            progress even up to level 20 or more without ever fighting.
+            'Mage'. With this every student would be fired up to learn more. It
+            was the safest and fastest way to level up and how most people were
+            able to progress even up to level 20 or more without ever fighting.
           </p>
           <p>
             Shortly after the class was dismissed, I went to the library along
-            with many of the other students from my class, alongside other first year
-            classes. The main library was split into sections. First years could
-            only access the first floor which soon became packed. I couldn't see
-            a good place to sit with students everywhere. I had the book I
-            needed with me anyway it's not like I had to use the library to
-            study so I went back to the cliff side.
+            with many of the other students from my class, alongside other first
+            year classes. The main library was split into sections. First years
+            could only access the first floor which soon became packed. I
+            couldn't see a good place to sit with students everywhere. I had the
+            book I needed with me anyway it's not like I had to use the library
+            to study so I went back to the cliff side.
           </p>
           <p>
             In the library on the cliff side I got to reading the histories
@@ -269,8 +269,8 @@ function Lessons(props) {
 
           <p>
             Sitting there looking back at me was Tisiel. "Breaking into a ladies
-            room without even knocking, what kind of man are you?" She questioned
-            me.
+            room without even knocking, what kind of man are you?" She
+            questioned me.
           </p>
           <p>"Wait I can explain!" I exclaimed.</p>
           <p>
@@ -458,7 +458,7 @@ function Lessons(props) {
             the ground in an instant and the gas dissipated. Behind was left
             grave stones, grass and a small stone mausoleum in the middle.
           </p>
-            {/* Dungeon */}
+          {/* Dungeon */}
           <p>
             "Ladies first." I said, holding out my open palm like a gentleman.
           </p>
@@ -466,13 +466,41 @@ function Lessons(props) {
 
           <p>"No zombies, surprising." I said walking in first.</p>
           <p>"Don't jinx it." She said poking me in the back.</p>
-          <p>"Grab the ring?" I said as we got near the alter.</p>
+          <System>
+            "You have entered the field dungeon 'Let Sleeping God's Lie'.
+            Difficulty [normal]. It is someone's first time in the dungeon,
+            therefore all drop rates are increased by 20%, also death penalties
+            are reduced by 10%."
+          </System>
+          <Otto>
+            "A system message? Tisiel, do you know what this is?" I asked
+            confused.
+          </Otto>
+          <Tisiel>
+            "It's the same message you get in every dungeon. Although this is my
+            first time in a field dungeon. Have you never been to a dungeon
+            before?" Tisiel asked surprised.
+          </Tisiel>
+          <Otto>
+            "This is my first time even hearing about dungeons." I admitted.
+          </Otto>
+          <Tisiel>
+            "Aww, it's your first time. Dungeons are usually quite dangerous
+            places, full of monsters and if you are lucky treasures. Normal
+            dungeons you just have to fight your way though to the end and kill
+            a boss monster to get the reward. Since this is a field dungeon
+            however, I have only read about them but there might not necessarily
+            be any monsters, a boss, or even treasures. It might even be full of
+            traps." Tisiel replied like a little book worm.
+          </Tisiel>
+          {/* <p>"Grab the ring?" I said as we got near the alter.</p>
           <p>"On the way out, same method or we die." She pointed out.</p>
-          <p>"Glad I asked..." I said walking past it.</p>
+          <p>"Glad I asked..." I said walking past it.</p> */}
           <p>
-            There were what I would call normal grave stones with writing on the
-            stones, although faded out now. Others looked like sculptures of
-            people, monsters & various unusual designs.
+            Looking around, there were what I would call normal grave stones,
+            with faded writing on stone embedded into the ground and curved at
+            the top. Others looked like sculptures of people, monsters & various
+            unusual designs.
           </p>
           <p>
             The grass was strangely cold considering the the weather as not cold

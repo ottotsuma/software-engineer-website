@@ -239,7 +239,7 @@ function Travel(props) {
             location of some major cities.
           </p> */}
           <Otto>
-            After walking the road alone for 5 days I found myself walking next
+            After walking the road alone for 5 days, I found myself walking next
             to a tall boy with short brown hair. He had the makings of a small
             mustache on his upper lip, a refined pointed nose and a bit of acne
             around his cheeks.

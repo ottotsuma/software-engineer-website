@@ -31,19 +31,17 @@ function Banderedam(props) {
               alt="Banderedam"
             />
           </div>
-
           <p>
-            After getting out of the boat at the temporary station set up to
-            deal with the large influx of people we made our way to the town by
+            After getting out of the boat, at the temporary station set up to
+            deal with the large influx of students, we made our way to the town by
             foot.
           </p>
-
           <p>
-            Once at the gate, guards where outside checking people coming into
+            Once at the gate we passed though a checkpoint where guards were checking people coming into
             the city. With my ID card, letters of introduction to the magic
-            academy and my age it was easy for me to pass through the gate. Leon
-            lived there so he was able to pass through easily. Meeting up again
-            inside Leon took me to the shopping district so he could drop off
+            academy and my age, it was easy for me to pass through the gate. Leon
+            lived there, so he was able to pass through without issue. After meeting up again
+            inside Leon took me to the shopping district, so he could drop off
             his package and I could go shopping for a wand.
           </p>
 
