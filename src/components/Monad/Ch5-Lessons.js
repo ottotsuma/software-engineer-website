@@ -5,7 +5,7 @@ import styled from "styled-components";
 import SpellCards from "./SpellCards";
 import { Content } from "./styles";
 import { Otto, System, Tisiel } from "./CharacterFonts";
-import {InlineSpell} from './../elements/spells'
+import { InlineSpell } from "./../elements/spells";
 
 /* Elementals */
 
@@ -449,10 +449,10 @@ function Lessons(props) {
             With a shake of my head I picked up the ring from Tisiel's hand and
             placed it on my own. I then pushed my mana through the tip of my
             finger and it came out like a rope. Attaching the ring to the end of
-            the rope like <InlineSpell spellName={'Tether'} level={1} />, it stuck when I willed it to grab the ring.
-            Pushing the tethered ring into the gas I was surprised when nothing
-            happened, pushing it past the bars and out and placing it on the
-            alter.
+            the rope like <InlineSpell spellName={"Tether"} level={1} />, it
+            stuck when I willed it to grab the ring. Pushing the tethered ring
+            into the gas I was surprised when nothing happened, pushing it past
+            the bars and out and placing it on the alter.
           </p>
 
           <p>
@@ -658,14 +658,14 @@ function Lessons(props) {
           <p>
             I turned to see the golem running after Tisiel, I slowed down and
             decided to double back and help. Running up to the golem I cast
-            <InlineSpell spellName={'Strike'} level={1} /> and the golem became enraged as the mana struck down from
-            above him landing on his arm. The crack in his shoulder filled with
-            the mana and threatened to tare his arm off. "Tisiel, attack it." I
-            shouted. Tisiel turned and threw a ball of mana into it. One arm
-            broke off and seeing that manaball can be used as a weapon, I joined
-            in and created a ball of mana in the palm of my hand and slammed it
-            into the golem. Under the bombardment soon the golem fell apart with
-            a creepy cry of anguish.
+            <InlineSpell spellName={"Strike"} level={1} /> and the golem became
+            enraged as the mana struck down from above him landing on his arm.
+            The crack in his shoulder filled with the mana and threatened to
+            tare his arm off. "Tisiel, attack it." I shouted. Tisiel turned and
+            threw a ball of mana into it. One arm broke off and seeing that
+            manaball can be used as a weapon, I joined in and created a ball of
+            mana in the palm of my hand and slammed it into the golem. Under the
+            bombardment soon the golem fell apart with a creepy cry of anguish.
           </p>
           {SpellCards([["Mana Ball", 1, "mana"]])}
           <p>
@@ -687,9 +687,15 @@ function Lessons(props) {
           </p>
           <p>
             "It's possible, but the fun is in the discovery. Now get the ring
-            with <InlineSpell spellName={'Tether'} level={1} /> and let's leave before something else comes to life."
-            Tisiel replied walking past the alter.
+            with <InlineSpell spellName={"Tether"} level={1} /> and let's leave
+            before something else comes to life." Tisiel replied walking past
+            the alter.
           </p>
+          <System>
+            "You have left the field dungeon 'Let Sleeping God's Lie'.
+            Difficulty [normal]. Completion rate 20%. **** exp will be rewarded
+            to each party member."
+          </System>
           <p>
             Tisiel practically locked herself in her room for a few days, only
             coming out to go to lessons and eat. I went to check on her
