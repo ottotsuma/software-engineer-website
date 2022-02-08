@@ -422,7 +422,7 @@ function Intro(props) {
           </Oskar>
           <Oskar>
             "At the end of the dungeon is a boss monster we have to fight to end
-            the dungeon. The boss is a skeleton lancer and a skeleton soldier.
+            the dungeon. The boss is a Skeleton Lancer and a Skeleton Soldier.
             They are monsters from the hard mode of this dungeon rather then the
             dungeons real boss. Still they are a good fight." Oskar added as we
             ran into another group of zombies.
@@ -553,9 +553,12 @@ function Intro(props) {
             out her revenge on the Skeleton Lancer.
           </Anneliese>
           <Otto>
-            As a team we unloaded every spell, skill and attack we could muster
-            onto the boss, with its weakened defense its health visibly dropped
-            at an alarming rate.
+            As a team we unloaded every spell, skill, and attack we could muster
+            onto the boss, with its weakened defense, its health visibly dropped
+            at an alarming rate. Soon it's health had reached zero before it
+            could recover from it's weakened state. Despite bursting into a
+            shower of items, the white lights of each item glowing temptingly,
+            we moved onto the Skeleton Soldier.
           </Otto>
           {/* Chain-lightning, <InlineSpell spellName={'Tether'} level={1} />, <InlineSpell spellName={"Mana Ball"} level={1} /> lightning cloak, shocking touch, Charged Charge and wall of lightning. Magic Resistance, Magic Up, Strike, Magic Regen */}
           {/* Oskar, swordman, old. 
