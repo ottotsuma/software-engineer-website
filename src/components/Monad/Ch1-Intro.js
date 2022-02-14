@@ -94,14 +94,14 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
           </p>
           <p>
             I used my sword to move my opponents to one side and launched a ball
-            of hardened ice into his chest. He pushed through the pain so I let my
-            ice magic spray out from me causing him to slow and be cut by small
-            flakes of ice. I moved in and stabbed him just below the waist. He
-            moved back holding his stomach and cursed in a language I don't
-            know. "썅놈" I moved back as he was dying and gathered magic into
-            my hand. He reached down and pulled up a wand? He pointed it right
-            at my head and the sound it gave off blew my ear drums out, there
-            was a large flash of light, then nothing.
+            of hardened ice into his chest. He pushed through the pain so I let
+            my ice magic spray out from me causing him to slow and be cut by
+            small flakes of ice. I moved in and stabbed him just below the
+            waist. He moved back holding his stomach and cursed in a language I
+            don't know. "썅놈" I moved back as he was dying and gathered magic
+            into my hand. He reached down and pulled up a wand? He pointed it
+            right at my head and the sound it gave off blew my ear drums out,
+            there was a large flash of light, then nothing.
           </p>
           <div className="BreakPoint" />
           <h3>Steinauhau</h3>
@@ -243,10 +243,11 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
           <p>
             Every night I teach my son Otto more about the skill. Inspect is one
             of the few skills in the world that do not require skill points to
-            learn, which is nice. However that means it requires talent,
-            practice and luck. I was lucky enough to have mediocre talent. It's
-            a safe well paying job, I hope Otto can learn it so he can have a
-            safe life.
+            learn, which is nice. However the passive skill appraisal, which
+            increases how much information the inspect skill uncovers, did
+            require skill points. I was lucky enough to learn the skill though
+            sheer luck. It's a safe well paying job, I always hoped Otto could
+            learn it too so he can have a safe life.
           </p>
           {/* <!-- 284,139 rebels --> */}
           {/* <!-- IMPORTANT  */}
@@ -280,22 +281,26 @@ most people learn inspect but either see
           </p>
           {/* <!-- <p>The children are armed with wood swords, shields, spears and staves. Today like most days they pretend to be heroes from old stories, facing off in small 1v1's with little organization or any teams at all. After settling their small disputes and deciding who gets to be which hero they turn to battle their foe as a team. Under the command of Ilse, who while not the oldest child was Eugen had to little ambition to even lead a group as small as this and Beke who's temper is too hot to make any meaningful decisions. They charge in and out fighting a tree with a 'monster' draw onto the side.</p> --> */}
           {/* <!-- What about adding the children arguing instead of just saying they did? --> */}
-          <p>"I want to be a fighter today!" Little Otto declared picked up a small stick from the ground and giving it a good swing.</p>
           <p>
-            "Ahaha, Do you even know anything about fighters?" Beke jabbed.
+            "I want to be a fighter today!" Little Otto declared picked up a
+            small stick from the ground and giving it a good swing.
           </p>
+          <p>"Ahaha, Do you even know anything about fighters?" Beke jabbed.</p>
           <p>
-            "Of course I know! They move the mana inside
-            their bodies to where it is needed, to become faster or stronger." Otto
-            replied happy with himself.
+            "Of course I know! They move the mana inside their bodies to where
+            it is needed, to become faster or stronger." Otto replied happy with
+            himself.
           </p>
           <p>
             "You can't be a fighter. You don't have a sword, bow or anything at
-            all! You're holding a stick, that's like a mages wand. You have to be a mage, unless you want to be a rouge.." Beke snickered.
+            all! You're holding a stick, that's like a mages wand. You have to
+            be a mage, unless you want to be a rouge.." Beke snickered.
           </p>
           <p>
-            Otto stared at Beke in anger, twisting his lips, debating about what to reply when Ilse cut between the two. "You two stop arguing and get into position the monster is here!"
-            She pointed to a tree with a crudely drawn monster on it's side.
+            Otto stared at Beke in anger, twisting his lips, debating about what
+            to reply when Ilse cut between the two. "You two stop arguing and
+            get into position the monster is here!" She pointed to a tree with a
+            crudely drawn monster on it's side.
           </p>
           {/* Here */}
           <p>
@@ -308,19 +313,19 @@ most people learn inspect but either see
           </p>
           <p>
             The sounds of the fight ring out through the small clearing. "Hig-h
-            Impact!!", "Fire Ball!". "fire ball? That's not a junior skill that's
-            intermediate. We all agreed to start at junior level." Berk grows
-            towards the smaller Otto. "I thought we must of leveled up by now!"
-            retorts Otto. "Why would we level up it's not even dead yet!" Berk
-            shouts back. "come on now, we can't get distracted in a fight! Otto
-            must of just got tired of being the mage every time" Ilse steps in
-            to redirect Berks attention. "He's the mage because he cannot afford
-            a real weapon, that is not even a wand it's just a stick" Beke spits
-            out. Otto looks down at the stick in his hand, true enough it was no
-            real wand. "that's what wands are, just sticks, now kill that
-            monster!" Isle points towards the tree and Beke runs up and slams
-            his shield into the tree and stabs it with his sword point before
-            triumphantly shouting that he had slain the monster.
+            Impact!!", "Fire Ball!". "fire ball? That's not a junior skill
+            that's intermediate. We all agreed to start at junior level." Berk
+            grows towards the smaller Otto. "I thought we must of leveled up by
+            now!" retorts Otto. "Why would we level up it's not even dead yet!"
+            Berk shouts back. "come on now, we can't get distracted in a fight!
+            Otto must of just got tired of being the mage every time" Ilse steps
+            in to redirect Berks attention. "He's the mage because he cannot
+            afford a real weapon, that is not even a wand it's just a stick"
+            Beke spits out. Otto looks down at the stick in his hand, true
+            enough it was no real wand. "that's what wands are, just sticks, now
+            kill that monster!" Isle points towards the tree and Beke runs up
+            and slams his shield into the tree and stabs it with his sword point
+            before triumphantly shouting that he had slain the monster.
           </p>
           {/* <!-- The play introduces the reader in to what happens in the world, and monsters --> */}
           {/* <!-- play comes to an end, the festivities start --> */}
@@ -525,8 +530,8 @@ most people learn inspect but either see
             I was told not to spend any of the points, that I was going to be
             sent to the town hall tomorrow to be tested for my aptitude. Not
             everyone could use inspect, so external tools where used to find out
-            their attributes and class. Since I was a mage when I am 14 I will go to
-            the magic academy in Banderedam.
+            their attributes and class. Since I was a mage when I am 14 I will
+            go to the magic academy in Banderedam.
           </p>
           <p>
             Almost all the attributes where 0 however, this could not be good.
@@ -539,15 +544,15 @@ most people learn inspect but either see
           <p>
             All children growing up are told stories of heros and villains,
             magic, monsters, and great warriors. But nothing was ever said about
-            how to unlock their class, skills, or attributes. Almost like everyone
-            who had unlocked them was sworn to silence, today I found out that
-            was true. For their own protection as the only way to unlock attributes
-            was to slay a monster in battle without the help of anyone with
-            attributes, knowing this some children might carelessly try and fight a
-            monster before they where 14. Naturally not everyone kept the secret
-            and most children had killed a monster before they where 14 just
-            usually just one their parent had picked out for them, something
-            less dangerous.
+            how to unlock their class, skills, or attributes. Almost like
+            everyone who had unlocked them was sworn to silence, today I found
+            out that was true. For their own protection as the only way to
+            unlock attributes was to slay a monster in battle without the help
+            of anyone with attributes, knowing this some children might
+            carelessly try and fight a monster before they where 14. Naturally
+            not everyone kept the secret and most children had killed a monster
+            before they where 14 just usually just one their parent had picked
+            out for them, something less dangerous.
           </p>
           <p>
             Before bed I was told the story of the witch of Alden. This was a
@@ -782,13 +787,13 @@ most people learn inspect but either see
             go hunting to become level one.
           </p>
           <p>
-            The first thing I had to do was read through a book about attributes. I
-            had to learn their names and what they do before I could join in the
-            normal lessons. Today the others were looking at maps of the whole
-            continent and learning about the people and places. I really wanted
-            to join in so I studied hard.
+            The first thing I had to do was read through a book about
+            attributes. I had to learn their names and what they do before I
+            could join in the normal lessons. Today the others were looking at
+            maps of the whole continent and learning about the people and
+            places. I really wanted to join in so I studied hard.
           </p>
-          <div className="book" style={{color: 'black'}}>
+          <div className="book" style={{ color: "black" }}>
             <HTMLFlipBook width={200} height={200}>
               <div className="demoPage">
                 <p>Vitality</p>
@@ -825,15 +830,15 @@ most people learn inspect but either see
             </HTMLFlipBook>
           </div>
           <p>
-            There was more to each of the attributes I was told but to join one of
-            the military academy's which all fighters at age 14 were expected to
-            do, this basic understanding was a must.
+            There was more to each of the attributes I was told but to join one
+            of the military academy's which all fighters at age 14 were expected
+            to do, this basic understanding was a must.
           </p>
           <p>
             Now I could join in the lesson with the others! Each group had a
-            large map laid out on the floor and had to match the people group
-            to each of the areas they lived in. While people moved around so it
-            was not like all elves lived in one place but it was safe to say the
+            large map laid out on the floor and had to match the people group to
+            each of the areas they lived in. While people moved around so it was
+            not like all elves lived in one place but it was safe to say the
             majority lived in the Mifuegan League, the most western country.
             Aldenese was easy! That was right here in Alden.
           </p>
