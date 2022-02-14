@@ -4,6 +4,8 @@ import SeaPeopleFunction from "./SeaPeople";
 import { Otto, System, Oskar, Mia, Klemens, Anneliese } from "./CharacterFonts";
 import { Content } from "./styles";
 import { InlineSpell } from "./../elements/spells";
+import { InlineItem } from "./../elements/item";
+
 function Intro(props) {
   return (
     <Content>
@@ -563,7 +565,7 @@ function Intro(props) {
           <Otto>
             With four of us focusing on the Skeleton Soldier it's health
             whittled down faster then the Lancer. Oskar had come prepared with a
-            Training Health Potion, it came in a slender finger width tube. The
+            <InlineItem itemName={"Training Health Potion"} />, it came in a slender finger width tube. The
             liquid inside was viscous, brown and smelly. It would recover HP
             very slowly, slower then your natural recovery rate, over two
             minutes. The reason it was not very popular was that it did not

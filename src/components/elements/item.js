@@ -25,6 +25,38 @@ function perc2color(perc) {
     return '#' + ('000000' + h.toString(16)).slice(-6);
 }
 
+export const ItemList = {
+  "Training Health Potion" : {
+    name: 'Training Health Potion',
+    description: 'Recovers 1HP every 5 seconds for the next 120 seconds.', // 24 HP
+  }
+}
+
+export function InlineItem ({itemName}) {
+  // console.log(spellList[Object.keys(spellList).find(key => key.toLowerCase() === spellName.toLowerCase())]);
+  return <Inline>{itemName}<ItemSpan>{ItemList[itemName].description || ''}</ItemSpan></Inline>
+}
+
+const ItemSpan = styled.span`
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  width: auto;
+  position: absolute;
+  z-index: 2;
+`;
+
+const Inline = styled.div`
+display: contents;
+font-family: 'monospace';
+&:hover ${ItemSpan} {
+  visibility: visible;
+}
+`;
+
 function Item(props) {
     const array = [];
     if (props.stats) {
