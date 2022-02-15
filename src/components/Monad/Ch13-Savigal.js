@@ -565,12 +565,13 @@ function Intro(props) {
           <Otto>
             With four of us focusing on the Skeleton Soldier it's health
             whittled down faster then the Lancer. Oskar had come prepared with a
-            <InlineItem itemName={"Training Health Potion"} />, it came in a slender finger width tube. The
-            liquid inside was viscous, brown and smelly. It would recover HP
-            very slowly, slower then your natural recovery rate, over two
-            minutes. The reason it was not very popular was that it did not
-            stack with other potions used, if you drank another potion withing
-            that time it would cancels the Training Health Potion's effect.
+            <InlineItem itemName={"Training Health Potion"} />, it came in a
+            slender finger width tube. The liquid inside was viscous, brown and
+            smelly. It would recover HP very slowly, slower then your natural
+            recovery rate, over two minutes. The reason it was not very popular
+            was that it did not stack with other potions used, if you drank
+            another potion withing that time it would cancels the Training
+            Health Potion's effect.
           </Otto>
           <Otto>
             Although the potion was not needed, Oskar felt it was better to be
@@ -578,6 +579,7 @@ function Intro(props) {
             any money Oskar made from delving into this dungeon, making money
             was never the point.
           </Otto>
+          <Otto></Otto>
           {/* Chain-lightning, <InlineSpell spellName={'Tether'} level={1} />, <InlineSpell spellName={"Mana Ball"} level={1} /> lightning cloak, shocking touch, Charged Charge and wall of lightning. Magic Resistance, Magic Up, Strike, Magic Regen */}
           {/* Oskar, swordman, old. 
               Anneliese, Fighter.
