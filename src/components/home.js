@@ -609,7 +609,7 @@ const Right = styled.div`
   margin-left: 250px;
   overflow: hidden;
   flex-wrap: wrap;
-  @media screen and (max-width: 590px) {
+  @media screen and (max-width: 1000px) {
     display: none;
   }
 `;
