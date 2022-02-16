@@ -8,7 +8,7 @@ function Banderedam(props) {
     <Content>
       <div className="Frame">
         <div className="Content">
-          <h3>City of Banderedam</h3>
+          <h4>City of Banderedam</h4>
           <p>
             Arriving before the city of Banderedam, trails of students heading
             to the academy could be seen next to the city. The city itself was

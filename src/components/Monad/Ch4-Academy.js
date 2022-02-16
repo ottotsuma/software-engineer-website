@@ -8,7 +8,7 @@ function Academy(props) {
     <Content>
       <div className="Frame">
         <div className="Content">
-          <h3>Academy</h3>
+          <h4>Academy</h4>
           <p>
             The academy at first appeared to be a large and quite impressive
             building but I had expected a much wider campus and maybe more then

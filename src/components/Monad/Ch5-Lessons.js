@@ -38,7 +38,7 @@ function Lessons(props) {
       <div className="Frame">
         <div className="Content">
           {/* Re - introduce why they will be dueling, what it means, why the fuck there is an elemental class on the fourth day. */}
-          <h3>Lessons</h3>
+          <h4>Lessons</h4>
           {/* Lubin */}
           <p>
             "Now who can tell me what separates a Mage from a Fighter? In

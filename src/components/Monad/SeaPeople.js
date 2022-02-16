@@ -574,6 +574,7 @@ export const SeaPeople = {
   ),
   5: (
     <Content style={{ overflowWrap: "anywhere" }}>
+      <h4>Save the prince!</h4>
       <p>
         I wanted to try fighting the giant crabs on the other island but I was
         told it was a bit of a waste of time. If you killed too many of them a

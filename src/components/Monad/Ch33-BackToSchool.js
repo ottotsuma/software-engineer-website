@@ -15,7 +15,7 @@ function Intro(props) {
     <Content>
       <div className="Frame">
         <div className="Content">
-          <h3>Back to school</h3>
+          <h4>Back to school</h4>
           <p>
             The next day I walked into the usual morning class room, to be
             greeted by the most unwelcome faces I have met in my short stay on

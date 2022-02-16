@@ -7,7 +7,7 @@ function Travel(props) {
     <Content>
       <div className="Frame">
         <div className="Content">
-          <h3>Travel</h3>
+          <h4>Travel</h4>
           <Effi>
             A small party of students and a handful of adults had arrived from
             Swexausern in the afternoon. They would camp out in an open space
