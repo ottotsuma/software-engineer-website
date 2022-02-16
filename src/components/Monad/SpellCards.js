@@ -2,6 +2,7 @@ import React from "react";
 import { spellList } from "./../elements/spells";
 import styled from "styled-components";
 import { imageError } from "./../color";
+import { colors } from './../elements/colors'
 // https://tropedia.fandom.com/wiki/Color-Coded_Elements
 const elementList = {
   lightning: {
@@ -165,6 +166,7 @@ const CardTitle = styled.h2`
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  color: ${colors.black.off}
 `;
 const TitleWrap = styled.div`
   width: 100%;
@@ -191,6 +193,7 @@ const CardDisc = styled.div`
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   min-height: 46.67px;
+  color: ${colors.black.off}
 `;
 const DiscWrap = styled.div`
   width: 100%;
@@ -202,6 +205,7 @@ const DiscWrap = styled.div`
 `;
 const CardSub = styled.div`
   margin-top: 2%;
+  color: ${colors.black.off}
 `;
 
 const CardHand = styled.div`

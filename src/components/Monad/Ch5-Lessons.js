@@ -6,6 +6,7 @@ import SpellCards from "./SpellCards";
 import { Content } from "./styles";
 import { Otto, System, Tisiel } from "./CharacterFonts";
 import { InlineSpell } from "./../elements/spells";
+import {colors} from './../elements/colors'
 
 /* Elementals */
 
@@ -21,9 +22,10 @@ const Elementals = styled.div`
 const Element = styled.div`
   border-color: black;
   border-style: solid;
-  border-width: 0.1rem;
+  // border-width: 0.1rem;
   margin: 1rem;
   background: white;
+  color: ${colors.black.off};
   img {
     width: 8rem;
     height: 10rem;

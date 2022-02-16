@@ -1,9 +1,11 @@
 export const colors = {
     black: {
         normal: '#000',
+        off: '#1A1A1A',
     },
     white: {
         normal: '#fff',
+        off: '#CCCCCC#CCCCCC',
     },
     grey: {
         tab: '#adb7c5',
