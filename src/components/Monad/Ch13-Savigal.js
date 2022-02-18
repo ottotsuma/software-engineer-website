@@ -579,7 +579,9 @@ function Intro(props) {
             any money Oskar made from delving into this dungeon, making money
             was never the point.
           </Otto>
-          <Otto></Otto>
+          <Otto>
+            
+          </Otto>
           {/* Chain-lightning, <InlineSpell spellName={'Tether'} level={1} />, <InlineSpell spellName={"Mana Ball"} level={1} /> lightning cloak, shocking touch, Charged Charge and wall of lightning. Magic Resistance, Magic Up, Strike, Magic Regen */}
           {/* Oskar, swordman, old. 
               Anneliese, Fighter.

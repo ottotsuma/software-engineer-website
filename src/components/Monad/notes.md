@@ -217,6 +217,14 @@ Gem of Kukulkan, the Mayan god brought fire, earth, air, and water to the world.
 The Jem of Kukulkan - the Mayan Serpents Jem has the ability to control all elements. Like fire, wind, and ice, though the Serpent only has the wind jem.
 ### Materials
 ### Quest Items
+### Cash shop
+Aesthetic house Items
+Costumes
+Flashy items like a firework
+Festival items
+
+### Time save items - should not be sold in shop
+EXP boost for changing class/race to catch back up to where you were?, Or jump right back.
 
 ## Speeches:
 
