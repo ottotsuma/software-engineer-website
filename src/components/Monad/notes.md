@@ -216,6 +216,8 @@ Lightning axe, an axe that is wielded by the Maya rain deity Chaac and used to p
 Gem of Kukulkan, the Mayan god brought fire, earth, air, and water to the world. Kukulkan, though, only has the wind gem, and with it can control the air. (Maya mythology)
 The Jem of Kukulkan - the Mayan Serpents Jem has the ability to control all elements. Like fire, wind, and ice, though the Serpent only has the wind jem.
 ### Materials
+Whale skin for coating boats to go faster
+
 ### Quest Items
 ### Cash shop
 Aesthetic house Items
