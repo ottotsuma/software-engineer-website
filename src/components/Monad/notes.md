@@ -151,21 +151,24 @@ Hard - attack paths shown Quickly, aoe wind up and markers given Briefly, faster
 Elite - attack paths NOT shown, aoe wind up and markers NOT given, however the wind up is not instant (Players only). [Elite]
 Hell - aoe almost instant or instant [Insane]
 
-            "You have entered the level 10 dungeon 'In holes and corners'.
-            Difficulty [normal]. Everyone above level 10 will be synced down to
-            level 10. It is someone's first time in the dungeon, therefore all
-            drop rates are increased by 20%, also death penalties are reduced by
-            10%."
+"You have entered the level 10 dungeon 'In holes and corners'.
+Difficulty [normal]. Everyone above level 10 will be synced down to
+level 10. It is someone's first time in the dungeon, therefore all
+drop rates are increased by 20%, also death penalties are reduced by
+10%."
 
 ## Items
 ### drop rates
 Always
-Common (22/128)
-Common (19/128)
-Uncommon (3/128)
+Common (22/128) - 17%
+Common (19/128) - 15%
+Less then 10% ~ uncommon
+Uncommon (3/128) - 2.3%
 Uncommon (2/128) - 1.5%
-Rare (1/128)
+Less then 1% = rare
+Rare (1/128) - 0.8%
 Rare (1/360) - 0.3%
+Less then 0.1% = super rare
 
 Drops that require a specific item (Or luck level) to be equipped to drop.
 ### Unordered Items
