@@ -46,7 +46,7 @@ export const ItemList = {
   },
   "Trainee Bone Spear" : {
     name: 'Trainee Bone Spear',
-    description: '',
+    description: 'Tiny increase in spear proficiency when equipped.',
     image: '',
     effect: '', // Price since it was shown In a shop.
   }
@@ -83,7 +83,7 @@ function Item(props) {
         const keys = Object.keys(props.stats);
         for (let index = 0; index < keys.length; index++) {
             // make these into styled items with props => props.color so you can change the color of the stats!
-            const element = <div style={{ marginRight: "5px" }}>{keys[index] + ": "}</div>
+            const element = <div style={{ textTransform: 'capitalize', marginRight: "5px" }}>{keys[index] + ": "}</div>
             const element2 = <div style={{ color: perc2color(props.stats[keys[index]] * 10) }}>{props.stats[keys[index]]}</div>;
             array.push(
                 <SingleStat key={index + "stat"}>
@@ -112,7 +112,7 @@ function Item(props) {
                 <Card height={props.height} width={props.width} src={props.src}>
                     {props.rating ? <TitleItem color={colors[props.rating]}>{props.name || ''}</TitleItem> : <Title color={colors[props.rating]}>{props.name || ''}</Title>}
                     {array.length > 0 && <Span>{array}</Span>}
-                    {props.effect ? <Name style={{background:"#f8f8ff"}}>{props.effect}</Name> : <div></div>}
+                    {props.effect ? <Name style={{background:"#f8f8ff"}}>{props.effect}<br />{props.effect2 ? props.effect2 : ''}</Name> : <div></div>}
                 </Card>
             </Main>
         )
@@ -157,7 +157,6 @@ display: flex;
 `;
 
 const SingleStat = styled.li`
-  text-transform: capitalize;
   border-radius: 6px;
   padding: 1px;
   width: auto;
@@ -211,7 +210,7 @@ position:relative; /* important */
     visibility: visible;
   }
   &:hover ${Name} {
-    max-height:50%; /* important */
+    max-height:100%; /* important */
   }
 `;
 

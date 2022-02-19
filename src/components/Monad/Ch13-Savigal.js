@@ -580,17 +580,18 @@ function Intro(props) {
             was never the point.
           </Otto>
           <Otto>
-            With our combined efforts the Skeleton Soldier soon burst into a small pile of items. Each shining with a pale light that indicated they were common items. Like the zombies the skeletons dropped mostly material items, used for crafting or medicines and the like. However unlike the zombies the skeletons materials had a marketable value and were less repulsive in nature. Most of it consisted of various bones which could be ground into powder or sold to necromancers. The skeleton lancer had left behind a {' '}<InlineItem itemName={"Trainee Bone Spear"} />, 
+            With our combined efforts the Skeleton Soldier soon burst into a small pile of items. Each shining with a pale light that indicated they were common items. Like the zombies the skeletons dropped mostly material items, used for crafting or medicines and the like. However unlike the zombies the skeletons materials had a marketable value and were less repulsive in nature. Most of it consisted of various bones which could be ground into powder or sold to necromancers. The Skeleton Lancer had left behind a {' '}<InlineItem itemName={"Trainee Bone Spear"} />, in amongst its drops. While the Skeleton Soldier had dropped no armor or weapons there was a {' '} <InlineItem itemName={"Damaged Bone Charm"} />. While they were both common items the spear was an uncommon drop, around 1.5% chance. The charm was a rare drop with a 0.3% chance. With a 20% increase that was still only a little more then a 0.5% increase for the charm.
           </Otto>
           
           <Item 
           stats={{
-              Skill: "Third Eye",
-              "Control minion": 1,
-              sense: 1,
+              Skill: "Bone Lance.", // To see skill effects you need to put it somewhere else.
+              strength: 5,
             }} 
+            rating={'advanced'}
             name={'Bone Lance'}
-            effect='¤'
+            effect2='Set Effect: 10% increase to strength and endurance (3). Weaker beasts are less likely to initiate battle with you (5).' // hat, armor, lance, shield, shoes.
+            effect="Bone Lance: Launch yourself Strength/100(m) forward, dealing 200% damage on impact."
             src={'https://ottotsuma.github.io/images/people/2d7002b02e419fb5cca7be2ec8e9f755.jpg'}
             />
           {/* Chain-lightning, <InlineSpell spellName={'Tether'} level={1} />, <InlineSpell spellName={"Mana Ball"} level={1} /> lightning cloak, shocking touch, Charged Charge and wall of lightning. Magic Resistance, Magic Up, Strike, Magic Regen */}

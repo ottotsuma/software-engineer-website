@@ -158,7 +158,16 @@ Hell - aoe almost instant or instant [Insane]
             10%."
 
 ## Items
+### drop rates
+Always
+Common (22/128)
+Common (19/128)
+Uncommon (3/128)
+Uncommon (2/128) - 1.5%
+Rare (1/128)
+Rare (1/360) - 0.3%
 
+Drops that require a specific item (Or luck level) to be equipped to drop.
 ### Unordered Items
 Alden - 
 Kojkan - Serpents tooth.
