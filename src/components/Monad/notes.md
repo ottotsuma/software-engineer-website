@@ -40,11 +40,9 @@ bronze
 
 Smart contracts 
 
-Basic, Intermediate, Advanced.
 
 Ajisukitakahikone = Japanese version of God K
 
-The classes and races could be catabolized into tiers [1, 2, 3] or ranks [bronze, silver, gold], [junk, common, normal, intermediate, advanced rare, elite, epic, legendary, unique]
 Class / Race bonuses grow with your levels
 Items that grow with you for a period of time, I.e. Level 0 - 10 sword. Level 50 - 90 staff. Something like that.
 Mastery over skills, so the skills level up? Costs points / experience.
@@ -677,9 +675,14 @@ Based on mesoamerican continent and ends with more advanced people landing slowl
 {/* Pre-Dao, Dao-era, Immortal-era, (Huge beats, men struggling, the island is cleansed of men), (Foundation of empires in the east and this continent is invaded by the humans for the first time since the immortals), (Men overcome beasts and empires start here and in the east the religious wars start), Pyramid (Kʼawiil) Empires of men, Pocotocotcan (The one empire), Witch (Rebellion), Now. */}
 {/* Pre-Dao, Dao, Immortal, Dark-Age, (Dawn Age) Great Migration, Warning Kingdoms Period, Pyramid (The One Kingdom), Pocotocotcan Empire, Witch, Now. */}
 
-## Tiers:
+## Tiers / Ranks:
 
 Junk (Grey) / Common(Light grey) / Basic (Blue) / intermediate(Light blue)/ Advanced(Cyan) / Rare (Green) / Epic (Red) / Legendary (Orange) / Unique (Purple) / God (Gold)
+
+
+Basic, Intermediate, Advanced.
+
+The classes and races could be catabolized into tiers [1, 2, 3] or ranks [bronze, silver, gold], [junk, common, normal, intermediate, advanced rare, elite, epic, legendary, unique]
 
 E D C B A S
 
