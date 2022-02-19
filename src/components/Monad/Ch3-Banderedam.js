@@ -64,7 +64,8 @@ function Banderedam(props) {
           </p>
           
 
-          <Item stats={{
+          <Item 
+          stats={{
               Skill: "Third Eye",
               "Control minion": 1,
               sense: 1,

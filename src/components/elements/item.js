@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import {monadColors as colors} from './colors'
+import {monadColors as colors, colors as fixmeplease} from './colors'
 
 // src: for image || question mark
 // height: || 300px
@@ -29,12 +29,32 @@ export const ItemList = {
   "Training Health Potion" : {
     name: 'Training Health Potion',
     description: 'Recovers 1HP every 5 seconds for the next 120 seconds.', // 24 HP
+    image: '',
+    effect: '', // Price since it was shown In a shop.
+  },
+  "Soul bound wand" : {
+    name: 'Soul bound wand',
+    description: 'Third Eye (active skill). Control minion: +1, sense: +1,',
+    image: 'https://ottotsuma.github.io/images/items/wand1.png',
+    effect: '¤3,200,000', // Price since it was shown In a shop.
+  },
+  "Bone Lance" : {
+    name: 'Bone Lance',
+    description: '',
+    image: 'https://ottotsuma.github.io/images/people/2d7002b02e419fb5cca7be2ec8e9f755.jpg',
+    effect: '', // Price since it was shown In a shop.
+  },
+  "Trainee Bone Spear" : {
+    name: 'Trainee Bone Spear',
+    description: '',
+    image: '',
+    effect: '', // Price since it was shown In a shop.
   }
 }
 
 export function InlineItem ({itemName}) {
   // console.log(spellList[Object.keys(spellList).find(key => key.toLowerCase() === spellName.toLowerCase())]);
-  return <Inline>{itemName}<ItemSpan>{ItemList[itemName].description || ''}</ItemSpan></Inline>
+  return <Inline>{itemName}<ItemSpan>{ItemList[itemName] ? ItemList[itemName].description : ''}</ItemSpan></Inline>
 }
 
 const ItemSpan = styled.span`
@@ -154,7 +174,8 @@ const Name = styled.div`
   max-height:0; /* important */
   overflow:hidden; /* important */
   transition:max-height 300ms ease-in; /* important */
-  font-weight: bold
+  font-weight: bold;
+  color: ${fixmeplease.black.off};
 `;
 
 const Span = styled.span`

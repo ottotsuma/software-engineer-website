@@ -34,7 +34,7 @@ export const Noah = styled.p`
 `;
 export const Otto = styled.p`
   
-  font-family: 'Charm', cursive;
+  // font-family: 'Charm', cursive;
 `;
 export const Kiksotz = styled.p`
   

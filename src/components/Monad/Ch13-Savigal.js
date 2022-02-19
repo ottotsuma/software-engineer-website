@@ -565,7 +565,7 @@ function Intro(props) {
           <Otto>
             With four of us focusing on the Skeleton Soldier it's health
             whittled down faster then the Lancer. Oskar had come prepared with a
-            <InlineItem itemName={"Training Health Potion"} />, it came in a
+            {' '}<InlineItem itemName={"Training Health Potion"} />, it came in a
             slender finger width tube. The liquid inside was viscous, brown and
             smelly. It would recover HP very slowly, slower then your natural
             recovery rate, over two minutes. The reason it was not very popular
@@ -580,8 +580,19 @@ function Intro(props) {
             was never the point.
           </Otto>
           <Otto>
-            
+            With our combined efforts the Skeleton Soldier soon burst into a small pile of items. Each shining with a pale light that indicated they were common items. Like the zombies the skeletons dropped mostly material items, used for crafting or medicines and the like. However unlike the zombies the skeletons materials had a marketable value and were less repulsive in nature. Most of it consisted of various bones which could be ground into powder or sold to necromancers. The skeleton lancer had left behind a {' '}<InlineItem itemName={"Trainee Bone Spear"} />, 
           </Otto>
+          
+          <Item 
+          stats={{
+              Skill: "Third Eye",
+              "Control minion": 1,
+              sense: 1,
+            }} 
+            name={'Bone Lance'}
+            effect='¤'
+            src={'https://ottotsuma.github.io/images/people/2d7002b02e419fb5cca7be2ec8e9f755.jpg'}
+            />
           {/* Chain-lightning, <InlineSpell spellName={'Tether'} level={1} />, <InlineSpell spellName={"Mana Ball"} level={1} /> lightning cloak, shocking touch, Charged Charge and wall of lightning. Magic Resistance, Magic Up, Strike, Magic Regen */}
           {/* Oskar, swordman, old. 
               Anneliese, Fighter.
