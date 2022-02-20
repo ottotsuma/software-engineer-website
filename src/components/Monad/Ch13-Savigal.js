@@ -582,22 +582,48 @@ function Intro(props) {
           <Otto>
             With our combined efforts the Skeleton Soldier soon burst into a small pile of items. Each shining with a pale light that indicated they were common items. Like the zombies the skeletons dropped mostly material items, used for crafting or medicines and the like. However unlike the zombies the skeletons materials had a marketable value and were less repulsive in nature. Most of it consisted of various bones which could be ground into powder or sold to necromancers. The Skeleton Lancer had left behind a {' '}<InlineItem itemName={"Trainee Bone Spear"} />, in amongst its drops. While the Skeleton Soldier had dropped no armor or weapons there was a {' '} <InlineItem itemName={"Damaged Bone Charm"} />. While they were both common items the spear was an uncommon drop, around 1.5% chance. The charm was a rare drop with a 0.3% chance. With a 20% increase that was still only a little more then a 0.5% increase for the charm.
           </Otto>
-          
-          <Item 
-          stats={{
+          <Klemens>
+            "Man we realllly lucked out. I've been in this dungeon thousands of times and I never saw the charm drop before!" Klemens exclaimed.
+          </Klemens>
+          <Oskar>
+            "Despite Klemens exaggeration of how often we dive into this dungeon, he's not wrong. This is a very rare drop. As the rules state though, we four will be given the first right to purchase, if we pass on that then we will sell the charm on the market and split the profits." Oskar stated while putting the charm into his inventory.
+          </Oskar>
+          <Otto>
+            It was clear no one in the party would or even could afford to buy the bone charm so splitting it between two students and a tag along was overwhelmingly generous of the towns rules. Once all the drops were collected and handed over to Oskar he told me to look up. At first I was confused, then under the giggles of Klemens and Anneliese, I looked up and saw above us while we were fighting the dungeon bosses were two more skeleton monsters. One with a crown atop his head and another with a ribbon on hers. While I was shocked and confused, Oskar gave a low bow and the skeleton king clapped his lifeless hands like a round of appulse. A white fuzzy light gripped a hold of us all and the next moment I was back staring at the hole dug into the earth that led into the dungeon.
+          </Otto>
+          <Anneliese>
+            "Come on, we have to go with Oskar to report our success and get paid for the loot." Anneliese tugged at my robe bringing me back. "Did the skeleton king and queen scare you? They gave me a fight the first time too. Do you want to hear the story about them?" Anneliese asked.
+          </Anneliese>
+          <Klemens>
+            "It's just a myth, no one really knows what caused the dungeon. My pa said all dungeons are different." Klemens added.
+          </Klemens>
+          <Otto>
+            "Mmm even so I'd like to hear it while we wait for Oskar. We won't have to do anything during the reporting process right?" I asked them back.
+          </Otto>
+          <Anneliese>
+            "That's right. They just say we did well and later we have to write about what we could of done better, but I can do that later." Anneliese informed me before telling me the tale of the skeletons trapped forever in a dungeon.
+          </Anneliese>
+          <Otto>
+            The pair had once been a criminal couple, who had later crowned themselves as the king and queen of crime. While there pervious crimes had them as wanted individuals their crowning themselves as a king and queen was a slap in the face to the ruling class of the time. They had set out to put an end to this criminal couple once and for all. However the queen was a famously strong lancer and the king had served as a soldier before his life of crime and they ended up holding out in a cave. Their pursuers had buried them in that cave and that cave was now the dungeon and their resting place. Since they were a king and queen our expeditions into the dungeon were their entertainment. At least that was the myth.
+          </Otto>
+          <Otto>
+            Our reward for finding the charm and spear had been bountiful, at least, in my eyes. It was more then enough to afford a few treats for myself this week, and maybe Mia. Plus I would have enough money to make a trip to the market and maybe pick up a cheap accessory. It would of been nice if I could afford a better weapon or armor but even without the treats it was not enough. After all exchanging a charm from a level 10 dungeon between 4 people it was already impressive enough.
+          </Otto>
+          <Otto>
+            Out of curiosity I asked them to show me the items I should look out for this week. While I would only be running the normal difficulty, the pair still wanted to show me the items that dropped from higher levels. The highest item was the Bone Lance. With a drop rate lower then 0.1%, although no one knew how much lower, it had dropped only from the hell mode six times. Well six times it was recorded. The dungeons difficulty was set at normal, hard, elite, hell. Needless to say although only six had dropped, how many parties could actually complete a level 10 hell mode dungeon? If they were a higher level their levels would only be synced down when they tried. Doing so was akin to suicide for normal people.
+          </Otto>
+          <Item
+            stats={{
               Skill: "Bone Lance.", // To see skill effects you need to put it somewhere else.
               strength: 5,
-            }} 
+            }}
             rating={'advanced'}
             name={'Bone Lance'}
             effect2='Set Effect: 10% increase to strength and endurance (3). Weaker beasts are less likely to initiate battle with you (5).' // hat, armor, lance, shield, shoes.
             effect="Bone Lance: Launch yourself Strength/100(m) forward, dealing 200% damage on impact."
             src={'https://ottotsuma.github.io/images/people/2d7002b02e419fb5cca7be2ec8e9f755.jpg'}
-            />
+          />
           {/* Chain-lightning, <InlineSpell spellName={'Tether'} level={1} />, <InlineSpell spellName={"Mana Ball"} level={1} /> lightning cloak, shocking touch, Charged Charge and wall of lightning. Magic Resistance, Magic Up, Strike, Magic Regen */}
-          {/* Oskar, swordman, old. 
-              Anneliese, Fighter.
-              Klemens, rouge */}
           {/* 11 ~ 14 */}
           {/* Home again */}
           <p>
