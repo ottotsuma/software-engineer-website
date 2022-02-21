@@ -5,6 +5,7 @@ import { Otto, System, Oskar, Mia, Klemens, Anneliese } from "./CharacterFonts";
 import { Content } from "./styles";
 import { InlineSpell } from "./../elements/spells";
 import { InlineItem } from "./../elements/item";
+import Stats from "./../elements/stats";
 
 function Intro(props) {
   return (
@@ -697,6 +698,30 @@ function Intro(props) {
           {/* Chain-lightning, <InlineSpell spellName={'Tether'} level={1} />, <InlineSpell spellName={"Mana Ball"} level={1} /> lightning cloak, shocking touch, Charged Charge and wall of lightning. Magic Resistance, Magic Up, Strike, Magic Regen */}
           {/* 11 ~ 14 */}
           {/* Home again */}
+          <Stats
+            type={"description"}
+            stats={{
+              name: "Otto",
+              level: 12,
+              class: "Mage",
+              element: "Lightning",
+              spells: 6,
+              titles: 1,
+              "spell points": 6,
+              "stat points": 0,
+              vitality: 0,
+              strength: 12,
+              endurance: 0,
+              magic: 14,
+              willpower: 1,
+              dexterity: 0,
+              sense: 1,
+              charisma: 2,
+            }}
+            notes={
+              "Titles: Magic +1 from title. Willpower + 1 from magic resistance skill. Spells: Mana ball (lightning) (Pow: 1), Tether, Magic resistance (passive), Magic up (passive), Strike (lightning) (Pow: 2+2),  Magic regen (passive). [This is the old version of Stats please see 'Otto'."
+            }
+          />
           <p>
             On the journey back I saw more guards then usual, maybe because of
             yesterdays attack. I managed to make it back to the market by just
