@@ -695,12 +695,26 @@ function Intro(props) {
             }
           />
           <Otto>
-            
+            After gawking at the <InlineItem itemName={"Bone Lance"} /> for
+            awhile, I left Anneliese, Klemens and Oskar and headed back to Grans
+            house. Gran had gone to the market in the morning, after that I was
+            not sure but now she was back home going though records in a large
+            binder. Seems like Gran is a busy person. I didn't want to disturb
+            her, just ler her know I came back. However once I announced myself,
+            Gran had asked me how it was, that should would make me some food to
+            come sit down.. So I could not refuse.
           </Otto>
-          {/* Grinding over a week, show a level 12 level up. Talk about Mia and Gran some more and the work at the bath house, then head home. */}
-          {/* Chain-lightning, <InlineSpell spellName={'Tether'} level={1} />, <InlineSpell spellName={"Mana Ball"} level={1} /> lightning cloak, shocking touch, Charged Charge and wall of lightning. Magic Resistance, Magic Up, Strike, Magic Regen */}
-          {/* 11 ~ 14 */}
-          {/* Home again */}
+          <Otto>
+            We talked until Mia came home then I left with Gran to preform my
+            duties at the bath house. Thankfully Gran had not played any tricks
+            on me this time. The week continued like that, I went into the
+            dungeon with students or travelers, although I never saw another
+            charm or spear drop. I brought Mia, myself and Gran things from the
+            market, although Gran had no stomach for sweet things.
+          </Otto>
+          <Otto>
+            I had made it to level 12 during my stay here. Sadly however the week came to an end when the usual mage came back from visiting family.
+          </Otto>
           <Stats
             type={"description"}
             stats={{
@@ -725,6 +739,7 @@ function Intro(props) {
               "Titles: Magic +1 from title. Willpower + 1 from magic resistance skill. Spells: Mana ball (lightning) (Pow: 1), Tether, Magic resistance (passive), Magic up (passive), Strike (lightning) (Pow: 2+2),  Magic regen (passive). [This is the old version of Stats please see 'Otto'."
             }
           />
+          {/* Chain-lightning, <InlineSpell spellName={'Tether'} level={1} />, <InlineSpell spellName={"Mana Ball"} level={1} /> lightning cloak, shocking touch, Charged Charge and wall of lightning. Magic Resistance, Magic Up, Strike, Magic Regen */}
           <p>
             On the journey back I saw more guards then usual, maybe because of
             yesterdays attack. I managed to make it back to the market by just
