@@ -355,6 +355,7 @@ function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTit
     })
   }
   if(equippedTitle) {
+    keys.splice(1, 0, 'title');
     stats['title'] = titlesList[equippedTitle].name ? titlesList[equippedTitle].name : equippedTitle // if it has a name use the name, else use what ever the user put in.
     const titleStats = _try(() => titlesList[equippedTitle].stats) // find title from list of titles, returns array of stats and values
     if(titleStats) {
@@ -408,7 +409,6 @@ function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTit
   }
   stats['MP'] = parseInt(tempMP)
   keys.push('HP', 'MP')
-
   for (let index = 0; index < keys.length; index++) {
     const element = <Wrap><Inline>{keys[index]}: </Inline><Inline style={{color: perc2color(stats[keys[index]])}}>{typeof (stats[keys[index]]) === 'number' ? parseInt(stats[keys[index]]) : stats[keys[index]]}</Inline></Wrap>;
     const spam = statList[keys[index]];
