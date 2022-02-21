@@ -82,7 +82,7 @@ export default function Otto() {
             name: "Academy Robe (Black/Yellow).",
             effect: "Magic: +2, Lightning +2%, Health +10.",
             rating: "junk",
-            stats: {magic: 2}
+            stats: {magic: 2, HP: 10}
           },
         }}
         notes={
