@@ -694,6 +694,9 @@ function Intro(props) {
               "https://ottotsuma.github.io/images/people/2d7002b02e419fb5cca7be2ec8e9f755.jpg"
             }
           />
+          <Otto>
+            
+          </Otto>
           {/* Grinding over a week, show a level 12 level up. Talk about Mia and Gran some more and the work at the bath house, then head home. */}
           {/* Chain-lightning, <InlineSpell spellName={'Tether'} level={1} />, <InlineSpell spellName={"Mana Ball"} level={1} /> lightning cloak, shocking touch, Charged Charge and wall of lightning. Magic Resistance, Magic Up, Strike, Magic Regen */}
           {/* 11 ~ 14 */}
