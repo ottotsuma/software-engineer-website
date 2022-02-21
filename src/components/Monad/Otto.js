@@ -31,8 +31,8 @@ export default function Otto() {
         // Makes skills an object of skill types 'human' 'mage' and they be the arrays.
         // Do the same thing for equipment and titles?
         showTitles={false} // currently does nothing
-        equippedTitle="The One The Only"
-        titles={['Back to School', 'Apprentice', 'Found a unique item', 'The One The Only', 'Novice Harvester']}
+        equippedTitle="The One, The Only"
+        titles={['Back to School', 'Apprentice', 'Found a unique item', 'The One, The Only', 'Novice Harvester']}
         showSkills={true}
         skills={{
           human: [

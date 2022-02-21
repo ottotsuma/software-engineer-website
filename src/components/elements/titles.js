@@ -39,8 +39,8 @@ export const titlesList = {
         },
         description: 'Strength +1.'
     },
-    'The One The Only': {
-        name: 'The One The Only',
+    'The One, The Only': {
+        name: 'The One, The Only',
         condition: 'Found a unique class',
         stats: {
             willpower: 1,
