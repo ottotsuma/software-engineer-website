@@ -9,6 +9,7 @@ import {
   Kaja,
   Garin,
   Milo,
+  Chu,
 } from "./CharacterFonts";
 function Intro(props) {
   return (
@@ -674,6 +675,17 @@ function Intro(props) {
         Chu-gong, the boy who had shared a night with me in a cell after I had
         annoyed Arrilian.
       </Kaja>
+      <Kaja>"What are you doing here!?" I blurted out.</Kaja>
+      <Chu>
+        "Same reason as you." He said walking up to me and flicking my head.
+        "You should take more care, even if you know me, there are no friends in
+        here." He warned.
+      </Chu>
+      <Kaja>
+        "But still, it would be silly to fight each other, with so many others
+        after us it would be better if we worked together." I stated.
+      </Kaja>
+      <Chu>"Exactly my thoughts." He replied.</Chu>
       {/* Chu-gong */}
       {/* running away */}
     </Content>

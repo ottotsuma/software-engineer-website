@@ -69,6 +69,10 @@ export const Ralsan = styled.p`
 export const Daniel = styled.p`
   
 `;
+
+export const Chu = styled.p`
+  // Chu-gong;
+`;
 export const Kaja = styled.p`
   // font-family: 'Corinthia', cursive;
 `;
