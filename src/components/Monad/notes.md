@@ -2,6 +2,14 @@ https://guides.github.com/features/mastering-markdown/
 
 Re-Write all early story to have 1 - 9 being mage, no element and at level 10 you find out your element so they can change class like the rouge and fighter. Chapter 13 and earlier.
 # Random Ideas:
+
+Strength[2]	Strength increases Physical Attack Power and the weight behind each attack.
+Agility[3]	Agility increases Attack Speed and Movement Speed.
+Endurance[4]	Endurance increases maximum HP and stamina.
+Inteligence[5]	Intelligence increases Magical Attack Power and maximum MP.
+Vitality[6]	Vitality increases the recovery rate of MP and HP.
+https://reincarnationofthestrongestswordgod.fandom.com/wiki/Attributes
+
 Stealing the bird from a nest and raise it
 
 NPC
