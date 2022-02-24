@@ -10,9 +10,9 @@ Inteligence[5]	Intelligence increases Magical Attack Power and maximum MP.
 Vitality[6]	Vitality increases the recovery rate of MP and HP.
 https://reincarnationofthestrongestswordgod.fandom.com/wiki/Attributes
 
-
-
 Stealing the bird from a nest and raise it
+Quest - hell or high water
+Pigeons without wings - attacking ?
 
 NPC
 You level up for the first time and your class is picked.
@@ -24,89 +24,11 @@ level 1 - 9 is the tutorial period.
 You pick an element at level 10. 
 At this point you can use teleport stations, and travel to cities.
 
-It has been at least 107 years since the fall of Pocotcotco as an empire.
-The Elves and the republic have had at least 2 famous battles against each other.
-
-The new world is in a balance. 
-The Republic fractures from invasions by the Elves, late empire problems, uninterested ruling class, Alden invasion, Sea people sabotage.
-Alden invades Huonhia, they both collapse under the sea peoples invasion.
-The Kingdom having become the Empire forms a deal with Leika but are both destroyed by the sea people
-Our characters flee though the desert/Chalbia into Pocotcotco, who are under invasion by the Elves.
-Who again fall before the sea people in ruin.
-
-
-Miasma, "a contagious power... that has an independent life of its own. Until purged by the sacrificial death of the wrongdoer, society would be chronically infected by catastrophe".
-
-Quest - hell or high water
-
-Healing
-Human Cav that heals around him while damaging
-heals an ally and attacks nearby enemies
-warlock skill healing
-granting shields
-
-Support
-summoning hero ?
-stuns
-cc
-boots
-shields
-
-
-Darker tomb raiding, zombies of different kinds, traps, layouts, treasure, deaths, betrayal, stronger and weaker people, Otto and necro woman trick older students to think they are bulling them to going into the tomb together only for otto and co to betray them instead and they die as a result. 
-
-undead hags, water hags, blood corpse, flies, 
-
 // Vampire type, more blood taken makes them stronger so often conflict with humans
 // Vampire type, more hunger makes them stronger so often hide from humans
 // The people coming off the boats don't have to be human
 // Merging the stats into a few, Vitality, magic, strength, sense, charm
-// No classes? Just race and element?
 
-Pigeons without wings - attacking ?
-
-Dark spots under the eyes reduce glare adn increase accuracy (Cheetah)
-
-
-empire emperor dies and the mother fights back against the sons reforms, the reforms chose one religion and code of ethics to rule by instating new schools and imperial examinations, the court fight back and the new emperor puts his pawns in low level positions though-out the court so he can control it in secret when his mother dies he pacifies the lower realms
-
-during the war monsters get past and kill villagers from Otto's village his parents included and the blame is placed on otto and his forces but in was in fact the young lords
-
-auto hunt class
-
-maps show continent in real time
-
-between tomb and tombs add challenge classes to non and antagonist for the academy
-
-class elements for different colours
-
-human in step perk 1.1x to stats with lover/opposite gender when together
-
-leaf taken human form to get revenge on the one who plucked it
-
-alden invades the republic east and west forms confederation, alden and empire war over Dwarves lands
-
-the emperor is really the empress
-
-elf's use to be pirate like and split into factions
-
-the old lands spreads disease to the new and in return the L god sends back syphilis, new world has more flying troops abilities and items they are a rarity in the new worlds
-
-high level rouges in mayan and aztec lands, high level spirits passed by old houses and the poor have to fight for the scraps
-
-DLC island
-
-desert religion with a quest to listen to the whole sermon posted by a troll
-
-Killing of the God causes the faithful to lose their powers and cough up blood
-The killing of the german god causes Effi to lose her powers and has to fight to restore her faith
-The killing is because of Otto, Effi never finds out
-Tisiel and Reingard and otto go into the tomb and tisiel lets Reingard die so she can acquire the lich legacy and the others that follow in die in various ways the final being used as Otto's sacrifice
-Otto gains the new class in the dungeon from the god he follows and sets out on a path to kill his own god
-Tsuma reveals she is powerful and the princess of the other land when Otto is trapped with no way out, his country betraying him
-Tsuma takes an interest in german witch magic that was her real reason for comings
-the mask is the legacy of the deer god of lightning, the lightning god class is given to otto also, the quest is set out to acquire the god race.
-Tsuma was on a quest to learn the german magic and to acquire a new class by combining the class of her lands with the new one.
 
 # To do:
 Pokemon Style Elements battles!
@@ -148,196 +70,6 @@ return (
 );
 }
 export default Intro;
-
-
-## Story
-
-<p>1: They are in a zone of comfort</p>
-<p>2: But they want something</p>
-<p>3: They enter an unfamiliar situation</p>
-<p>4: Adapt to it</p>
-<p>5: Get what they wanted</p>
-<p>6: Pay a heavy price</p>
-<p>7: Then return to the familia situation</p>
-<p>8: Having changed</p>
-
-Blood tax, one child from 40 house holds. (Ottomans)
-
-### Speeches:
-
-Using total war general speeches for the speeches
-
-"By the gods, how dare these peasants dare raise a hand in rebellion? How dare they? What were they thinking, if anything? Were they bored with buggering goats? Well, we'll kill them, and make the goats feel safer."
-
-The enemy may have the Moon People on their side, but we have lovely hats! And those hats will protect us from their fearsome gaze! (If your general has the “mad” trait)
-
-
-### People:
-
-<p>Ralsan is my name,
-this is Tisiel" A girl imperial name,(huonoia)
-"Shrorlei Crerlass" dwarven name
-Reingard". boy - alden
-
-Charter sheets -
-<li> - Kiksotz, Blood bat, vampire of the new world: Monh
-<li> - Camazotz, Death Bat, Vampire god of the new world. 
-<li>Farald - expert professor on why students hp stops at 10hp in duels.
-<li>Vortigern - Magic item, use to be an immortal and part of the middle party during the end times of their era. Think 'yes minster' when writing his dialog.
-<li>Lubin (Heart of a man; heart of the sea.) - teacher of magic
-<li>Leon -
-<li>Shrorlei Crerlass - (cliffs) dwarven name (DEAD)
-Tisiel Skivali - (cliffs) imperial name,(huonoia) - scholar/necromancer (GONE)
-<li>Reingard - (cliffs) alden (metal element) - tank (DEAD?)
-<li>Ralsan - (cliffs) farmer (pervert who gets nose bleeds easily. Needs to be added before Chapter 28)
-<li>Otto -
-<li>Daniel - Duels Otto on the 3rd day. (Earth)
-<li>Kaja - Duels Otto on the 5th day. (Fire) (Soldenheim, family: farther. Picked for contest at academy.)
-<li>Linhart - (fire) - blonde curly hair, being led on by a 3rd year girl, shes taking his tokens, but she has a boyfriend.
-<li>Ditwin - Cromwell from black adder (earth) (DEAD)
-<li>Gelfrat - (water) (DEAD)
-<li>HILDEBOLD - (water)
-<li>PETSCHE - (Wind)
-<li>NYMANDUS - (light) (DEAD)
-<li>Volker - Arena (fire) + Jungle
-<li>Raina - Arena (water) + Jungle
-<li>Takeo - Tsuma house hold guard. Met outside of the tomb of the dead immortals
-<li>Arrilian Sirillin - head of the first years at the academy, 68 years old from the kingdom, noble.
-<li>Lenne Klein (means small) - student welfare at the academy
-<li>Redmond - works in the farm research
-<li>Olinda - works in the farm research
-<li>Jarvia = spear-keen
-<li>Sophie - Lubin class champion (Some middling family attached to a noble family)
-<li>Mila - Otto's group (3)
-<li>Berta - Otto's group (3)
-<li>Max - Fought against Otto in the group.
-<li>Satyr Cruk, Chief of war of the goat clan. (old lands)
-<li> Oskar, adult swordsman Savigal level 10 dungeon.
-<li> Anneliese, Fighter, Child, Savigal, level 10 dungeon.
-<li> Klemens, rouge, child, Savigal level 10 dungeon.
----
-
-Alden Royals:
-<li>Vasso Elzach - Tall boy with stylish blonde hair, deep blue eyes, strong, jaw and a large nose. - Alden (Trees/Witches), Mage(lightning/???), Human, Noble, Obsidian, [Respect, Intelligence, Power], [Charisma, Magic, Sense], Items (Power comes from Royal items they never usually produce a mage.), Spells: [], (Prince of Alden. Wants mages to be more influential in the Aldenese army. War breaks out. Grows power, massing people around him, blames minorities for problems. Sets up and funds a puppet opponent to make these minorities appear to be a threat. Becomes a general in the army. Alden becomes open to attacks from the sea/inside. Return to Alden to defend from the sea people. Is back in Alden as a prince.) - Alden's Grand Duke has royal lightning, it is purple in color and has not been seen outside of their family.
-<li>Alphonse Elzach - 
-Famous Mages - Alden:
-<li>Argavereri's Viscount uses a green smoke element, most unusual.
-<li>Baron Mann based at Soldenheim famously uses runes.
-
-### Sea People:
-<li>
-Example: Name, race, class(), level, equipment, backstory(Main island,
-other dlc before? ), clan/guild, reason for coming. PET(level)
-</li>
-<li>
-Boy: Name, Noah. Dark Elf?, class(Rogue[]), 37, [Normal/Rare, mostly from
-the main quests], (From the main island, recently started playing, no
-dlc), none, saw the adverts for coming and wanted to try. None(0)
-
-IRL - Midlife crisis, quit working as **** and got into video editing / youtube / twitch
-
-Skills:
-Darkelf: Disguise (1)
-</li>
-<li>
-Girl: Sarah, Vampire, Use to be a human paladin, class(Tank[Guardian])
-Wants to change to blood warrior, 100, [mixed normal, rare epic with
-one unique], (Pro-gamer, guild leader, small dlc before), clan/guild,
-get in before the other guilds. PET(60),
-file:///C:/Users/snows/Documents/GitHub/ottotsuma.github.io/guard100.html
-
-IRL - PRO Gamer
-
-Skills: 
-Vampire: Disguise (1)
-</li>
-<li>
-Boy: Josh, Human, class(Rogue-subtype[Assassin]) Recently became
-assassin, 92,
-[file:///C:/Users/snows/Documents/GitHub/ottotsuma.github.io/Assassin.html
-, but not unique items], (Member of the same guild, small dlc, company
-man), clan/guild, accompany the same guild. RAT(100)
-
-IRL - Engineer working remote
-
-Skills: 
-Assassin: Disguise (2+)
-</li>
-
-#### Extra People:
-
-{/_
-Charter Profile
-Level:
-Class: (Shown:)(Hidden:)
-Familia: (Shared:)(Not Shared:)
-Race: (Shown:)(Hidden:)
-Stats:
-Titles:
-Equipment: (Primary:)(Secondary:)(Head:)(Body:)(Hands:)(Feet:)(Acc1:)(Acc2:)(Acc3:)(Acc4:)
-Skills: (I:)(Class:)(Race:)(Familia:)(Chosen:)(Items:)
-Misc Items:
-_/}
-
-Eugen 13,dies years of age, larger, and taller then the others of the group, but without a temper or ambition
-Beke, 12 a slow child, but easily angered.
-Ilse 12,dies, the oldest child of Sarah and Robert.
-Effi 10 the younger sister of Ilse.
-Otto 10 the oldest son of Michkel and Karla, with two younger brothers, and a sister on the way.
-Nils 10 the 8th child of the village leader, although only 5 remain.
-Jakob 9, dies, A small boy, shy and ungifted.
-
-Effi Level 10, Fighter/Paladin points: 2
-
-Fighter 
-1 Charge, Moves quickly in a straight line (1)
-2 Heavy blow, High damage output strike (1)
-3 Battle shout, Increases the stats of allies (1)
-4 High impact, Smashes the ground or target causing an AOE (1)
-5 Strength up, Increases Strength(+) (1)
-6 Vitality up, Increases Vitality(+) (1)
-7 Provoke, Provoke and tease them so that they want to attack you.(1)
-8 Shield Bash (1)
-
-Paladin 
-Faith Spells
-Cover - Take all damage intended for another party member. (time, amount, distance) 
-Rampart - reduce damage taken to all near by (amount, time)
-Sentinel - reduce damage taken (amount, time)
-Hallowed ground - (living) Allies in the area cannot be affected by negative effects (time) 
-https://wiki.guildwars2.com/wiki/Hallowed_Ground, 
-https://ffxiv.gamerescape.com/wiki/Hallowed_Ground
-
-Sanctuary (heal allies) - set the area around you (distance, time, amount) {arrow attacks hurt tank instead of party if they hit, heals members inside that are not undead/demon etc hurts demons/undead.}
-https://wiki.guildwars2.com/wiki/Sanctuary 
-
-Karla & Michkel - husband and wife, parents of otto +2
-Sarah and Robert - husband and wife, parents to 4
-
-David age > 70, lives in the village
-Edmure age ~ davids, lives in the village
-
-0-14 village
-14-15 first year
-15 - 16 2nd year
-16 - 18 work exp 
-
-<li>Effi - Tank, 6, Mace and Shield (Starts with a sword). Knight/Paladin -> Guardian
-<li>Naoki - DPS, 9, Katana (Japanese) - Samurai
-<li>Sophia - Tank, 4, Large Battle Axe- Barbarian
-<li>Emilia - DPS, 6, Spear - Dragoon
-<li>Klara - DPS, 7, Twin Axes - Barbarian
-<li>Charlotte - Support, 4, Bow - (Yennenga) Archer
-<li>Johannes - Healer, 5, Bow Archer/Knight
-<li>Ehrhart - Healer, 9, Warhammer - BattleMage ->Inquisitor
-<li>Konrad - Support, 5, Twin Swords or Rapier?? -> Priest
-<li>Alajos - DPS, 8, Saber (hungarian) Huszár
-<li> Friedrich Odeck - Teacher at Grafen / company commander
-
-sword and shield, two handed, war hammer, battle axe, mace, spear? War scythe? halberd, bows, crossbows, kuni, shuriken, throwing knife, thrown spear,
-
-Sophia and Johnna's have sex while he is sick from after camping in the rain.
-Based on mesoamerican continent and ends with more advanced people landing slowly on the shores until the disease takes them then many come.
 
 
 ## Game
@@ -637,7 +369,30 @@ Human body: Stats 0 - 10, 5 is normal and 10 is the best a human can get. (This 
 
 ---
 
-### Class/Team bouses: 
+### Class: 
+#### Class Ideas: 
+
+Dark spots under the eyes reduce glare adn increase accuracy (Cheetah)
+
+auto hunt class
+
+maps show continent in real time
+
+human in step perk 1.1x to stats with lover/opposite gender when together
+
+Healing
+Human Cav that heals around him while damaging
+heals an ally and attacks nearby enemies
+warlock skill healing
+granting shields
+
+Support
+summoning hero ?
+stuns
+cc
+boots
+shields
+#### /Team bouses:
 <!-- https://ottotsuma.github.io/advclass.html -->
 <!-- Basic/ -->
 <li>Fighter - +1 Strength.
@@ -842,7 +597,227 @@ https://progamercity.net/aika-guides/1173-aika-char-pran-exp-table.html
 ---
 ### Skills/Spells
 Mastery over skills, so the skills level up? Costs points / experience.
+## Story
+Also see History under Physical World.
+
+<p>1: They are in a zone of comfort</p>
+<p>2: But they want something</p>
+<p>3: They enter an unfamiliar situation</p>
+<p>4: Adapt to it</p>
+<p>5: Get what they wanted</p>
+<p>6: Pay a heavy price</p>
+<p>7: Then return to the familia situation</p>
+<p>8: Having changed</p>
+
+DLC island
+leaf taken human form to get revenge on the one who plucked it
+
+alden invades the republic east and west forms confederation, alden and empire war over Dwarves lands
+
+the emperor is really the empress
+
+elf's use to be pirate like and split into factions
+
+the old lands spreads disease to the new and in return the L god sends back syphilis, new world has more flying troops abilities and items they are a rarity in the new worlds
+
+high level rouges in mayan and aztec lands, high level spirits passed by old houses and the poor have to fight for the scraps
+
+desert religion with a quest to listen to the whole sermon posted by a troll
+
+Killing of the God causes the faithful to lose their powers and cough up blood
+The killing of the german god causes Effi to lose her powers and has to fight to restore her faith
+The killing is because of Otto, Effi never finds out
+Tisiel and Reingard and otto go into the tomb and tisiel lets Reingard die so she can acquire the lich legacy and the others that follow in die in various ways the final being used as Otto's sacrifice
+Otto gains the new class in the dungeon from the god he follows and sets out on a path to kill his own god
+Tsuma reveals she is powerful and the princess of the other land when Otto is trapped with no way out, his country betraying him
+Tsuma takes an interest in german witch magic that was her real reason for comings
+the mask is the legacy of the deer god of lightning, the lightning god class is given to otto also, the quest is set out to acquire the god race.
+Tsuma was on a quest to learn the german magic and to acquire a new class by combining the class of her lands with the new one.
+
+empire emperor dies and the mother fights back against the sons reforms, the reforms chose one religion and code of ethics to rule by instating new schools and imperial examinations, the court fight back and the new emperor puts his pawns in low level positions though-out the court so he can control it in secret when his mother dies he pacifies the lower realms
+
+during the war monsters get past and kill villagers from Otto's village his parents included and the blame is placed on otto and his forces but in was in fact the young lords
+
+### Speeches:
+
+Using total war general speeches for the speeches
+
+"By the gods, how dare these peasants dare raise a hand in rebellion? How dare they? What were they thinking, if anything? Were they bored with buggering goats? Well, we'll kill them, and make the goats feel safer."
+
+The enemy may have the Moon People on their side, but we have lovely hats! And those hats will protect us from their fearsome gaze! (If your general has the “mad” trait)
+
+
+### People:
+
+<p>Ralsan is my name,
+this is Tisiel" A girl imperial name,(huonoia)
+"Shrorlei Crerlass" dwarven name
+Reingard". boy - alden
+
+Charter sheets -
+<li> - Kiksotz, Blood bat, vampire of the new world: Monh
+<li> - Camazotz, Death Bat, Vampire god of the new world. 
+<li>Farald - expert professor on why students hp stops at 10hp in duels.
+<li>Vortigern - Magic item, use to be an immortal and part of the middle party during the end times of their era. Think 'yes minster' when writing his dialog.
+<li>Lubin (Heart of a man; heart of the sea.) - teacher of magic
+<li>Leon -
+<li>Shrorlei Crerlass - (cliffs) dwarven name (DEAD)
+Tisiel Skivali - (cliffs) imperial name,(huonoia) - scholar/necromancer (GONE)
+<li>Reingard - (cliffs) alden (metal element) - tank (DEAD?)
+<li>Ralsan - (cliffs) farmer (pervert who gets nose bleeds easily. Needs to be added before Chapter 28)
+<li>Otto -
+<li>Daniel - Duels Otto on the 3rd day. (Earth)
+<li>Kaja - Duels Otto on the 5th day. (Fire) (Soldenheim, family: farther. Picked for contest at academy.)
+<li>Linhart - (fire) - blonde curly hair, being led on by a 3rd year girl, shes taking his tokens, but she has a boyfriend.
+<li>Ditwin - Cromwell from black adder (earth) (DEAD)
+<li>Gelfrat - (water) (DEAD)
+<li>HILDEBOLD - (water)
+<li>PETSCHE - (Wind)
+<li>NYMANDUS - (light) (DEAD)
+<li>Volker - Arena (fire) + Jungle
+<li>Raina - Arena (water) + Jungle
+<li>Takeo - Tsuma house hold guard. Met outside of the tomb of the dead immortals
+<li>Arrilian Sirillin - head of the first years at the academy, 68 years old from the kingdom, noble.
+<li>Lenne Klein (means small) - student welfare at the academy
+<li>Redmond - works in the farm research
+<li>Olinda - works in the farm research
+<li>Jarvia = spear-keen
+<li>Sophie - Lubin class champion (Some middling family attached to a noble family)
+<li>Mila - Otto's group (3)
+<li>Berta - Otto's group (3)
+<li>Max - Fought against Otto in the group.
+<li>Satyr Cruk, Chief of war of the goat clan. (old lands)
+<li> Oskar, adult swordsman Savigal level 10 dungeon.
+<li> Anneliese, Fighter, Child, Savigal, level 10 dungeon.
+<li> Klemens, rouge, child, Savigal level 10 dungeon.
+---
+
+Alden Royals:
+<li>Vasso Elzach - Tall boy with stylish blonde hair, deep blue eyes, strong, jaw and a large nose. - Alden (Trees/Witches), Mage(lightning/???), Human, Noble, Obsidian, [Respect, Intelligence, Power], [Charisma, Magic, Sense], Items (Power comes from Royal items they never usually produce a mage.), Spells: [], (Prince of Alden. Wants mages to be more influential in the Aldenese army. War breaks out. Grows power, massing people around him, blames minorities for problems. Sets up and funds a puppet opponent to make these minorities appear to be a threat. Becomes a general in the army. Alden becomes open to attacks from the sea/inside. Return to Alden to defend from the sea people. Is back in Alden as a prince.) - Alden's Grand Duke has royal lightning, it is purple in color and has not been seen outside of their family.
+<li>Alphonse Elzach - 
+Famous Mages - Alden:
+<li>Argavereri's Viscount uses a green smoke element, most unusual.
+<li>Baron Mann based at Soldenheim famously uses runes.
+
+### Sea People:
+<li>
+Example: Name, race, class(), level, equipment, backstory(Main island,
+other dlc before? ), clan/guild, reason for coming. PET(level)
+</li>
+<li>
+Boy: Name, Noah. Dark Elf?, class(Rogue[]), 37, [Normal/Rare, mostly from
+the main quests], (From the main island, recently started playing, no
+dlc), none, saw the adverts for coming and wanted to try. None(0)
+
+IRL - Midlife crisis, quit working as **** and got into video editing / youtube / twitch
+
+Skills:
+Darkelf: Disguise (1)
+</li>
+<li>
+Girl: Sarah, Vampire, Use to be a human paladin, class(Tank[Guardian])
+Wants to change to blood warrior, 100, [mixed normal, rare epic with
+one unique], (Pro-gamer, guild leader, small dlc before), clan/guild,
+get in before the other guilds. PET(60),
+file:///C:/Users/snows/Documents/GitHub/ottotsuma.github.io/guard100.html
+
+IRL - PRO Gamer
+
+Skills: 
+Vampire: Disguise (1)
+</li>
+<li>
+Boy: Josh, Human, class(Rogue-subtype[Assassin]) Recently became
+assassin, 92,
+[file:///C:/Users/snows/Documents/GitHub/ottotsuma.github.io/Assassin.html
+, but not unique items], (Member of the same guild, small dlc, company
+man), clan/guild, accompany the same guild. RAT(100)
+
+IRL - Engineer working remote
+
+Skills: 
+Assassin: Disguise (2+)
+</li>
+
+#### Extra People:
+
+{/_
+Charter Profile
+Level:
+Class: (Shown:)(Hidden:)
+Familia: (Shared:)(Not Shared:)
+Race: (Shown:)(Hidden:)
+Stats:
+Titles:
+Equipment: (Primary:)(Secondary:)(Head:)(Body:)(Hands:)(Feet:)(Acc1:)(Acc2:)(Acc3:)(Acc4:)
+Skills: (I:)(Class:)(Race:)(Familia:)(Chosen:)(Items:)
+Misc Items:
+_/}
+
+Eugen 13,dies years of age, larger, and taller then the others of the group, but without a temper or ambition
+Beke, 12 a slow child, but easily angered.
+Ilse 12,dies, the oldest child of Sarah and Robert.
+Effi 10 the younger sister of Ilse.
+Otto 10 the oldest son of Michkel and Karla, with two younger brothers, and a sister on the way.
+Nils 10 the 8th child of the village leader, although only 5 remain.
+Jakob 9, dies, A small boy, shy and ungifted.
+
+Effi Level 10, Fighter/Paladin points: 2
+
+Fighter 
+1 Charge, Moves quickly in a straight line (1)
+2 Heavy blow, High damage output strike (1)
+3 Battle shout, Increases the stats of allies (1)
+4 High impact, Smashes the ground or target causing an AOE (1)
+5 Strength up, Increases Strength(+) (1)
+6 Vitality up, Increases Vitality(+) (1)
+7 Provoke, Provoke and tease them so that they want to attack you.(1)
+8 Shield Bash (1)
+
+Paladin 
+Faith Spells
+Cover - Take all damage intended for another party member. (time, amount, distance) 
+Rampart - reduce damage taken to all near by (amount, time)
+Sentinel - reduce damage taken (amount, time)
+Hallowed ground - (living) Allies in the area cannot be affected by negative effects (time) 
+https://wiki.guildwars2.com/wiki/Hallowed_Ground, 
+https://ffxiv.gamerescape.com/wiki/Hallowed_Ground
+
+Sanctuary (heal allies) - set the area around you (distance, time, amount) {arrow attacks hurt tank instead of party if they hit, heals members inside that are not undead/demon etc hurts demons/undead.}
+https://wiki.guildwars2.com/wiki/Sanctuary 
+
+Karla & Michkel - husband and wife, parents of otto +2
+Sarah and Robert - husband and wife, parents to 4
+
+David age > 70, lives in the village
+Edmure age ~ davids, lives in the village
+
+0-14 village
+14-15 first year
+15 - 16 2nd year
+16 - 18 work exp 
+
+<li>Effi - Tank, 6, Mace and Shield (Starts with a sword). Knight/Paladin -> Guardian
+<li>Naoki - DPS, 9, Katana (Japanese) - Samurai
+<li>Sophia - Tank, 4, Large Battle Axe- Barbarian
+<li>Emilia - DPS, 6, Spear - Dragoon
+<li>Klara - DPS, 7, Twin Axes - Barbarian
+<li>Charlotte - Support, 4, Bow - (Yennenga) Archer
+<li>Johannes - Healer, 5, Bow Archer/Knight
+<li>Ehrhart - Healer, 9, Warhammer - BattleMage ->Inquisitor
+<li>Konrad - Support, 5, Twin Swords or Rapier?? -> Priest
+<li>Alajos - DPS, 8, Saber (hungarian) Huszár
+<li> Friedrich Odeck - Teacher at Grafen / company commander
+
+sword and shield, two handed, war hammer, battle axe, mace, spear? War scythe? halberd, bows, crossbows, kuni, shuriken, throwing knife, thrown spear,
+
+Sophia and Johnna's have sex while he is sick from after camping in the rain.
+Based on mesoamerican continent and ends with more advanced people landing slowly on the shores until the disease takes them then many come.
+
+
 ## Physical World
+### Monsters
+undead hags, water hags, blood corpse, flies, 
 ### Countries:
 
 Granduchy - elected grand duke from dukes.
@@ -964,11 +939,25 @@ Desert (Monsters) - They are monsters. It's hard to say.
 
 \*/}
 
-### Eras:
+### Eras/History:
 
 {/* Pre-Dao, Dao-era, Immortal-era, (Huge beats, men struggling, the island is cleansed of men), (Foundation of empires in the east and this continent is invaded by the humans for the first time since the immortals), (Men overcome beasts and empires start here and in the east the religious wars start), Pyramid (Kʼawiil) Empires of men, Pocotocotcan (The one empire), Witch (Rebellion), Now. */}
 {/* Pre-Dao, Dao, Immortal, Dark-Age, (Dawn Age) Great Migration, Warning Kingdoms Period, Pyramid (The One Kingdom), Pocotocotcan Empire, Witch, Now. */}
 
+Blood tax, one child from 40 house holds. (Ottomans)
+
+It has been at least 107 years since the fall of Pocotcotco as an empire.
+The Elves and the republic have had at least 2 famous battles against each other.
+
+The new world is in a balance. 
+The Republic fractures from invasions by the Elves, late empire problems, uninterested ruling class, Alden invasion, Sea people sabotage.
+Alden invades Huonhia, they both collapse under the sea peoples invasion.
+The Kingdom having become the Empire forms a deal with Leika but are both destroyed by the sea people
+Our characters flee though the desert/Chalbia into Pocotcotco, who are under invasion by the Elves.
+Who again fall before the sea people in ruin.
+
+
+Miasma, "a contagious power... that has an independent life of its own. Until purged by the sacrificial death of the wrongdoer, society would be chronically infected by catastrophe".
 
 ### Myths
 Ajisukitakahikone = Japanese version of God K
