@@ -71,7 +71,6 @@ return (
 }
 export default Intro;
 
-
 ## Game
 
 24 hour or what ever timers / quests / daily's didn't just sit there making players have to come back everyday to no content.
@@ -307,7 +306,6 @@ Festival items
 
 #### Time save items - should not be sold in shop
 EXP boost for changing class/race to catch back up to where you were?, Or jump right back.
-
 ## Account
 Players have one account.
 Players can switch between classes in a safe zone. 
@@ -398,6 +396,94 @@ shields
 <li>Fighter - +1 Strength.
 <li>Rouge - +1 Dexterity.
 <li>Mage - +1 Magic.
+<!-- Ideas -->
+https://www.dandwiki.com/wiki/5e_Classes
+Mage Schools?
+• Abjuration
+• Conjuration
+• Divination
+• Enchantment
+• Evocation
+• Illusion
+• Necromancy
+• Transmutation
+
+<li>Shield Warrior - .
+<li>Guardian Knight - .
+Warrior
+Berserkers
+
+Weapons Specialist
+Swordsman
+Assassins
+Rangers
+
+Healers
+Clerics
+Druids
+Oracles
+
+Elementalists
+Summoner
+Cursemancers
+
+Sky Knight
+Spell Breaker
+Bloodrage Warrior
+Demonblade Knight 
+Traveling Bard 
+Covert Killer
+Astromancer
+Magic Knight
+Flame Shaman
+Shadow Dancer 
+Magic Swordsman
+Magic Warrior
+Barbarian
+Savage Warrior
+Divine Warrior 
+Necromancer
+Holy Warrior
+Witch
+Lightning Saint
+Forest Saint
+Yin Yang Saint
+Magic-eye Hunter
+Dragon Slayer
+Sea God's Legacy
+Blade Saint 
+Bard
+Druid
+Monk
+Paladin
+Sorcerer
+Warlock
+Wizard
+Artificer
+Blood Hunter
+White Mage
+Scholar
+Astrologian
+Sage
+Dark Knight
+Gunbreaker
+Dragoon
+Ninja
+Samurai
+Reaper
+Machinist
+Dancer
+Black Mage
+Red Mage
+Blue Mage
+Necromancer.
+Shaman.
+Witch.
+Pirate.
+Con Artist.
+Pugilist.
+Gladiator.
+Legionnaire Fighter.
 
 <!-- Common -->
 <!-- Normal -->
@@ -813,8 +899,6 @@ sword and shield, two handed, war hammer, battle axe, mace, spear? War scythe? h
 
 Sophia and Johnna's have sex while he is sick from after camping in the rain.
 Based on mesoamerican continent and ends with more advanced people landing slowly on the shores until the disease takes them then many come.
-
-
 ## Physical World
 ### Monsters
 undead hags, water hags, blood corpse, flies, 
