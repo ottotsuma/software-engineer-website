@@ -10,7 +10,7 @@ import Equipment from "./../elements/equipment";
 import Stats from "./../elements/stats";
 import Spells from "./../elements/spells";
 import Blood from "./../../assets/Blood.jpg";
-import { Sarah } from "./CharacterFonts";
+import { Sarah, Josh } from "./CharacterFonts";
 
 export const Shine = styled.p`
   font-size: xxx-large;
@@ -2223,14 +2223,14 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
       <p>"Should of been an acorn." Sarah said out loud.</p>
       {/* Reference to the german suit of cards */}
       <p>"What?" Noah replied confused.</p>
-      <p>
+      <Sarah>
         "Nothing. Oh just encase anyone asks, our purpose here is to hunt
         monsters for a bounty put out by the capital. Josh, you cannot speak
-        German so I'll give you the bounty to hold onto, you can just show
-        this." She said handing me a cream sheet.
-      </p>
-      <p>"Thanks." I replied putting it away for now.</p>
-      <p></p>
+        German, so I'll give you the bounty to hold onto so you can just point
+        at it." She said handing me a cream sheet.
+      </Sarah>
+      <Josh>"Thanks." I replied putting it away for now.</Josh>
+      <Josh></Josh>
       {/* Give the blood bottle to Sarah, after she is injured by the priest */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}
       {/* All the normal land, and sea routes on the way to Alden are

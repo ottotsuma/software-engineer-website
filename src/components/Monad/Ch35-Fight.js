@@ -686,6 +686,7 @@ function Intro(props) {
         after us it would be better if we worked together." I stated.
       </Kaja>
       <Chu>"Exactly my thoughts." He replied.</Chu>
+      <Kaja></Kaja>
       {/* Chu-gong */}
       {/* running away */}
     </Content>
