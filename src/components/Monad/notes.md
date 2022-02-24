@@ -10,6 +10,8 @@ Inteligence[5]	Intelligence increases Magical Attack Power and maximum MP.
 Vitality[6]	Vitality increases the recovery rate of MP and HP.
 https://reincarnationofthestrongestswordgod.fandom.com/wiki/Attributes
 
+
+
 Stealing the bird from a nest and raise it
 
 NPC
