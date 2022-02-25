@@ -55,10 +55,10 @@ export const classList = {
   Cursemancers: {
     stats: {
     },
-    team: '',
-    self: '',
+    team: 'Aggro skills are slightly more effective.',
+    self: 'Curses cast time is reduced 25%.',
     image: '',
-    notes: '',
+    notes: 'Can curse up a storm of colorful language.',
     tier: ''
   },
 };
