@@ -93,6 +93,34 @@ export const classList = {
   },
 };
 
+// <!-- Normal -->
+// <li>Summoner - Summon maintain cost is reduced
+// <li>Paladin - Can use holy objects, cannot use unholy objects
+// <li>Pyromancer - Fire spells cost 5% less
+// <li>Scout - Sense + 5
+// <li>Battlemage - Strength & Magic +1
+// <li>Thief - Dexterity + 2
+// <!-- Intermediate -->
+// <!-- Advanced -->
+// <!-- Rare -->
+// <li>Knight Commander - Commanded units gain hp is increased
+// <li>Assassin - Damage from sneak attacks is increased
+// <li>Pirate - 🏴‍☠️ Swimming +5% movement speed
+// <li>Witchdoctor - Unknown
+// <li>Priest - Can use holy objects, cannot use unholy objects
+// <li>Inquisitor - Can use holy objects, cannot use unholy objects
+// <li>Darkknight - Cannot use holy objects, can use unholy objects
+// <!-- Epic -->
+// <li>Viking - Swimming +5% movement speed
+// <li>Blood Warrior - Access to blood skills
+// <li>Deathknight - Unknown
+// <!-- Legendary -->
+// <li>King - All Stats + 10%, hp + 5%, mana + 3%, movement speed -10%
+// <li>DEMIURGE - +1 to the main stat of crafted items
+// <li>Kʼawiil - 
+// <!-- Unique -->
+// <li>Pope - Unknown
+
 function _try(func, fallbackValue) {
   try {
     var value = func();
