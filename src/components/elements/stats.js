@@ -264,9 +264,10 @@ function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTit
   const HPList = []
   const MPList = []
 
-  
+  let RaceSpan = undefined
   if(stats.race) {
     const raceStats = Object.keys(racesList[stats.race].stats);
+    RaceSpan = _try(() => Object.keys(racesList[stats.race].notes));
     if(raceStats) {
       raceStats.map((raceStat) => {
         if (raceStat === 'HP') {
@@ -284,8 +285,10 @@ function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTit
       })
     }
   }
+  let ClassSpan = undefined
   if(stats.class) {
     const classStats = _try(() => classList[stats.class].stats)
+    ClassSpan = _try(() => classList[stats.class].notes)
     if(classStats) {
       Object.keys(classStats).map((classStat) => {
         if (classStat === 'HP') {
@@ -412,12 +415,28 @@ function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTit
   for (let index = 0; index < keys.length; index++) {
     const element = <Wrap><Inline>{keys[index]}: </Inline><Inline style={{color: perc2color(stats[keys[index]])}}>{typeof (stats[keys[index]]) === 'number' ? parseInt(stats[keys[index]]) : stats[keys[index]]}</Inline></Wrap>;
     const spam = statList[keys[index]];
-    array.push(
-      <SingleStat key={index + "stat"}>
-        {element}
-        {!!type && <Span>{spam['description']}</Span>}
-      </SingleStat>
-    );
+    if(keys[index] === 'class' && ClassSpan) {
+      array.push(
+        <SingleStat key={index + "stat"}>
+          {element}
+          {!!type && <Span>{ClassSpan}</Span>}
+        </SingleStat>
+      );
+    } else if (keys[index] === 'race' && RaceSpan) {
+      array.push(
+        <SingleStat key={index + "stat"}>
+          {element}
+          {!!type && <Span>{RaceSpan}</Span>}
+        </SingleStat>
+      );
+    } else {
+      array.push(
+        <SingleStat key={index + "stat"}>
+          {element}
+          {!!type && <Span>{spam['description']}</Span>}
+        </SingleStat>
+      );
+    }
   }
 
 

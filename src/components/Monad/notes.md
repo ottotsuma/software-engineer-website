@@ -391,6 +391,7 @@ cc
 boots
 shields
 #### /Team bouses:
+See: classList in classes.js
 <!-- https://ottotsuma.github.io/advclass.html -->
 <!-- Basic/ -->
 <li>Fighter - +1 Strength.
@@ -510,6 +511,7 @@ Legionnaire Fighter.
 <!-- Legendary -->
 <li>King - All Stats + 10%, hp + 5%, mana + 3%, movement speed -10%
 <li>DEMIURGE - +1 to the main stat of crafted items
+<li>Kʼawiil - 
 <!-- Unique -->
 <li>Pope - Unknown
 
