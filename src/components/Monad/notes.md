@@ -380,6 +380,7 @@ Thief
 Trainer
 Festivalist 
 <!-- Ideas -->
+https://midnight-wolf.fandom.com/wiki/Fantasy/Medieval_Character_Jobs_or_Occupations
 https://www.dandwiki.com/wiki/5e_Classes
 Mage Schools?
 • Abjuration

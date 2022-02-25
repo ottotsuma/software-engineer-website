@@ -17,40 +17,61 @@ export const classList = {
     stats: {
       strength: 1,
     },
-    team: 'Strength +1.'
+    team: 'Strength +1.',
+    image: '',
+    notes: '',
+    tier: ''
   },
   Rouge: {
     stats: {
       dexterity: 1,
     },
-    team: 'Dexterity +1.'
+    team: 'Dexterity +1.',
+    image: '',
+    notes: '',
+    tier: ''
   },
   "Kʼawiil": {
     stats: {
       magic: 0,
     },
-    self: 'All stats increase as the rain gets stronger. Max 10%.'
+    self: 'All stats increase as the rain gets stronger. Max 10%.',
+    image: '',
+    notes: '',
+    tier: ''
   },
   "Shield Warrior": {
     stats: {
       "Shield Skills": "+1",
     },
-    team: 'Shield Skills: +1.'
+    team: 'Shield Skills: +1.',
+    image: '',
+    notes: '',
+    tier: ''
   },
   "Warrior": {
     stats: {
     },
-    team: 'Stamina +10%.'
+    team: 'Stamina +10%.',
+    image: '',
+    notes: '',
+    tier: ''
   },
   "Guardian Knight": {
     stats: {
     },
-    self: 'Absorb 3% of damage done to a maximum of 7 allies within 10m.'
+    self: 'Absorb 3% of damage done to a maximum of 7 allies within 10m.',
+    image: '',
+    notes: '',
+    tier: ''
   },
   "Berserker": {
     stats: {
     },
-    self: 'Strength increases as health decreases.'
+    self: 'Strength increases as health decreases.',
+    image: '',
+    notes: '',
+    tier: ''
   },
   Cursemancers: {
     stats: {
