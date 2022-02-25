@@ -10,7 +10,7 @@ export const classList = {
     team: 'Magic +1.',
     self: '',
     image: 'https://ottotsuma.github.io/images/people/Test.gif',
-    notes: '',
+    notes: 'Solve all your problems with magic. Mages are the basic class for magical classes.',
     tier: 'normal'
   },
   Fighter: {
@@ -51,6 +51,15 @@ export const classList = {
     stats: {
     },
     self: 'Strength increases as health decreases.'
+  },
+  Cursemancers: {
+    stats: {
+    },
+    team: '',
+    self: '',
+    image: '',
+    notes: '',
+    tier: ''
   },
 };
 
