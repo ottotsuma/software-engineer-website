@@ -369,34 +369,16 @@ Human body: Stats 0 - 10, 5 is normal and 10 is the best a human can get. (This 
 
 ### Class: 
 #### Class Ideas: 
-
-Dark spots under the eyes reduce glare adn increase accuracy (Cheetah)
-
-auto hunt class
-
-maps show continent in real time
-
-human in step perk 1.1x to stats with lover/opposite gender when together
-
-Healing
-Human Cav that heals around him while damaging
-heals an ally and attacks nearby enemies
-warlock skill healing
-granting shields
-
-Support
-summoning hero ?
-stuns
-cc
-boots
-shields
-#### /Team bouses:
-See: classList in classes.js
-<!-- https://ottotsuma.github.io/advclass.html -->
-<!-- Basic/ -->
-<li>Fighter - +1 Strength.
-<li>Rouge - +1 Dexterity.
-<li>Mage - +1 Magic.
+https://finalfantasy.fandom.com/wiki/Category:Jobs_in_Final_Fantasy_X-2
+Mascot
+Psychic
+Lucy Lady
+Songstress
+Alchemist
+Freelancer
+Thief
+Trainer
+Festivalist 
 <!-- Ideas -->
 https://www.dandwiki.com/wiki/5e_Classes
 Mage Schools?
@@ -486,6 +468,33 @@ Pugilist.
 Gladiator.
 Legionnaire Fighter.
 
+Dark spots under the eyes reduce glare adn increase accuracy (Cheetah)
+
+auto hunt class
+
+maps show continent in real time
+
+human in step perk 1.1x to stats with lover/opposite gender when together
+
+Healing
+Human Cav that heals around him while damaging
+heals an ally and attacks nearby enemies
+warlock skill healing
+granting shields
+
+Support
+summoning hero ?
+stuns
+cc
+boots
+shields
+#### /Team bouses:
+See: classList in classes.js
+<!-- https://ottotsuma.github.io/advclass.html -->
+<!-- Basic/ -->
+<li>Fighter - +1 Strength.
+<li>Rouge - +1 Dexterity.
+<li>Mage - +1 Magic.
 <!-- Common -->
 <!-- Normal -->
 <li>Summoner - Summon maintain cost is reduced

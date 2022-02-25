@@ -5,7 +5,7 @@ export const colors = {
     },
     white: {
         normal: '#fff',
-        off: '#CCCCCC#CCCCCC',
+        off: '#CCCCCC',
     },
     grey: {
         tab: '#adb7c5',

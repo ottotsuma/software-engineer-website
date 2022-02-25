@@ -267,7 +267,13 @@ function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTit
   let RaceSpan = undefined
   if(stats.race) {
     const raceStats = Object.keys(racesList[stats.race].stats);
-    RaceSpan = _try(() => Object.keys(racesList[stats.race].notes));
+    RaceSpan = _try(() => racesList[stats.race].team)
+    if(RaceSpan) RaceSpan = 'Team: ' + RaceSpan
+    if(!RaceSpan) {
+      RaceSpan = _try(() => racesList[stats.race].self)
+      if(RaceSpan) RaceSpan = 'Self: ' + RaceSpan
+    }
+
     if(raceStats) {
       raceStats.map((raceStat) => {
         if (raceStat === 'HP') {
@@ -288,7 +294,12 @@ function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTit
   let ClassSpan = undefined
   if(stats.class) {
     const classStats = _try(() => classList[stats.class].stats)
-    ClassSpan = _try(() => classList[stats.class].notes)
+    ClassSpan = _try(() => classList[stats.class].team)
+    if(ClassSpan) ClassSpan = 'Team: ' + ClassSpan
+    if(!ClassSpan) {
+      ClassSpan = _try(() => classList[stats.class].self)
+      if(ClassSpan) ClassSpan = 'Self: ' + ClassSpan
+    }
     if(classStats) {
       Object.keys(classStats).map((classStat) => {
         if (classStat === 'HP') {

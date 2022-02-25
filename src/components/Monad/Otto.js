@@ -2,10 +2,12 @@ import React, { useState } from "react";
 import Item from "./../elements/item";
 import Stats from "./../elements/stats";
 import SpellCards from "./SpellCards";
+import ClassDisplay from './../elements/classes'
 
 export default function Otto() {
   return (
     <div style={{ color: "black" }}>
+      {ClassDisplay('Mage')}
       {DirtyOtto()}
       <div>{SpellCards([["Iceball", 2, "ice"]])}</div>
       <Stats
