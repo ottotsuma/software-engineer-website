@@ -61,6 +61,15 @@ export const classList = {
     notes: 'Can curse up a storm of colorful language.',
     tier: ''
   },
+  Witch: {
+    stats: {
+    },
+    team: 'Spells cast 3% faster.',
+    self: 'The more witches in your team, the stronger Coven spells become.',
+    image: '',
+    notes: '',
+    tier: ''
+  },
 };
 
 function _try(func, fallbackValue) {
@@ -74,7 +83,6 @@ function _try(func, fallbackValue) {
 
 export default function ClassDisplay(Class) {
   const Data = _try(() => classList[Class])
-  console.log(Data)
   return (
     <BackgroundWrap>
     <Wrap Tier={monadColors[Data.tier] || ''}>
