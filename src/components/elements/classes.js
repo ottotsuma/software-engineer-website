@@ -66,7 +66,7 @@ export const classList = {
     },
     team: 'Spells cast 3% faster.',
     self: 'The more witches in your team, the stronger Coven spells become.',
-    image: '',
+    image: 'https://ottotsuma.github.io/images/people/witch6.jpg',
     notes: '',
     tier: ''
   },
