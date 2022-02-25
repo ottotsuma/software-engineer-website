@@ -20,7 +20,7 @@ export const classList = {
     team: 'Strength +1.',
     image: '',
     notes: '',
-    tier: ''
+    tier: 'normal'
   },
   Rouge: {
     stats: {
@@ -29,7 +29,7 @@ export const classList = {
     team: 'Dexterity +1.',
     image: '',
     notes: '',
-    tier: ''
+    tier: 'normal'
   },
   "Kʼawiil": {
     stats: {
@@ -38,7 +38,7 @@ export const classList = {
     self: 'All stats increase as the rain gets stronger. Max 10%.',
     image: '',
     notes: '',
-    tier: ''
+    tier: 'legendary'
   },
   "Shield Warrior": {
     stats: {
@@ -55,7 +55,7 @@ export const classList = {
     team: 'Stamina +10%.',
     image: '',
     notes: '',
-    tier: ''
+    tier: 'normal'
   },
   "Guardian Knight": {
     stats: {
@@ -91,35 +91,192 @@ export const classList = {
     notes: '',
     tier: ''
   },
+  Summoner: {
+    stats: {
+    },
+    team: 'Summon maintain cost is reduced.',
+    self: '',
+    image: '',
+    notes: '',
+    tier: 'normal'
+  },
+  Paladin: {
+    stats: {
+    },
+    team: '',
+    self: 'Can use holy objects, cannot use unholy objects.',
+    image: '',
+    notes: '',
+    tier: 'normal'
+  },
+  Pyromancer: {
+    stats: {
+    },
+    team: 'Fire spells cost 5% less.',
+    self: '',
+    image: '',
+    notes: '',
+    tier: 'normal'
+  },
+  Battlemage: {
+    stats: {
+      strength: 1,
+      magic: 1,
+    },
+    team: '',
+    self: '',
+    image: '',
+    notes: '',
+    tier: 'normal'
+  },
+  Scout: {
+    stats: {
+      sense: 5,
+    },
+    team: '',
+    self: '',
+    image: '',
+    notes: '',
+    tier: 'normal'
+  },
+  Thief: {
+    stats: {
+      dexterity: 2,
+    },
+    team: '',
+    self: '',
+    image: '',
+    notes: '',
+    tier: 'normal'
+  },
+  Assassin: {
+    stats: {
+    },
+    team: 'Damage from sneak attacks is increased.',
+    self: '',
+    image: '',
+    notes: '',
+    tier: 'rare'
+  },
+  "Knight Commander": {
+    stats: {
+    },
+    team: 'Commanded units HP is increased.',
+    self: '',
+    image: '',
+    notes: '',
+    tier: 'rare'
+  },
+  Pirate: {
+    stats: {
+    },
+    team: '🏴‍☠️ Swimming +5% movement speed.',
+    self: '',
+    image: '',
+    notes: '',
+    tier: 'rare'
+  },
+  Witchdoctor: {
+    stats: {
+    },
+    team: '',
+    self: '',
+    image: '',
+    notes: '',
+    tier: 'rare'
+  },
+  Priest: {
+    stats: {
+    },
+    team: '',
+    self: 'Can use holy objects, cannot use unholy objects',
+    image: '',
+    notes: '',
+    tier: 'rare'
+  },
+  Inquisitor: {
+    stats: {
+    },
+    team: '',
+    self: 'Can use holy objects, cannot use unholy objects',
+    image: '',
+    notes: '',
+    tier: 'rare'
+  },
+  Darkknight: {
+    stats: {
+    },
+    team: '',
+    self: 'Cannot use holy objects, can use unholy objects',
+    image: '',
+    notes: '',
+    tier: 'rare'
+  },
+  Viking: {
+    stats: {
+    },
+    team: '',
+    self: 'Swimming +5% movement speed.',
+    image: '',
+    notes: '',
+    tier: 'epic'
+  },
+  "Blood Warrior": {
+    stats: {
+    },
+    team: '',
+    self: 'Access to blood skills.',
+    image: '',
+    notes: '',
+    tier: 'epic'
+  },
+  Deathknight: {
+    stats: {
+    },
+    team: '',
+    self: '',
+    image: '',
+    notes: '',
+    tier: 'epic'
+  },
+  King: {
+    stats: {
+      HP: "*1.05",
+      MP: "*1.03",
+      Vitality: "*1.10",
+      Endurance: "*1.10",
+      Willpower: "*1.10",
+      Magic: "*1.10",
+      Strength: "*1.10",
+      Dexterity: "*1.10",
+      Sense: "*1.10",
+      Charisma: "*1.10",
+    },
+    team: '',
+    self: 'All Stats + 10%, hp + 5%, mana + 3%, movement speed -10%',
+    image: '',
+    notes: '',
+    tier: 'legendary'
+  },
+  DEMIURGE: {
+    stats: {
+    },
+    team: '+1 to the main stat of crafted items',
+    self: '',
+    image: '',
+    notes: '',
+    tier: 'legendary'
+  },
+  Pope: {
+    stats: {
+    },
+    team: '',
+    self: '',
+    image: '',
+    notes: '',
+    tier: 'unique'
+  },
 };
-
-// <!-- Normal -->
-// <li>Summoner - Summon maintain cost is reduced
-// <li>Paladin - Can use holy objects, cannot use unholy objects
-// <li>Pyromancer - Fire spells cost 5% less
-// <li>Scout - Sense + 5
-// <li>Battlemage - Strength & Magic +1
-// <li>Thief - Dexterity + 2
-// <!-- Intermediate -->
-// <!-- Advanced -->
-// <!-- Rare -->
-// <li>Knight Commander - Commanded units gain hp is increased
-// <li>Assassin - Damage from sneak attacks is increased
-// <li>Pirate - 🏴‍☠️ Swimming +5% movement speed
-// <li>Witchdoctor - Unknown
-// <li>Priest - Can use holy objects, cannot use unholy objects
-// <li>Inquisitor - Can use holy objects, cannot use unholy objects
-// <li>Darkknight - Cannot use holy objects, can use unholy objects
-// <!-- Epic -->
-// <li>Viking - Swimming +5% movement speed
-// <li>Blood Warrior - Access to blood skills
-// <li>Deathknight - Unknown
-// <!-- Legendary -->
-// <li>King - All Stats + 10%, hp + 5%, mana + 3%, movement speed -10%
-// <li>DEMIURGE - +1 to the main stat of crafted items
-// <li>Kʼawiil - 
-// <!-- Unique -->
-// <li>Pope - Unknown
 
 function _try(func, fallbackValue) {
   try {
