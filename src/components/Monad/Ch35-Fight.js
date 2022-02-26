@@ -686,7 +686,9 @@ function Intro(props) {
         after us it would be better if we worked together." I stated.
       </Kaja>
       <Chu>"Exactly my thoughts." He replied.</Chu>
-      <Kaja></Kaja>
+      <Kaja>
+        
+      </Kaja>
       {/* Chu-gong */}
       {/* Moving from the pond to conflict with Garin & co. Chu 'dies' and Kaja runs towards Otto. */}
       {/* running away */}
