@@ -3,13 +3,6 @@ https://guides.github.com/features/mastering-markdown/
 Re-Write all early story to have 1 - 9 being mage, no element and at level 10 you find out your element so they can change class like the rogue and fighter. Chapter 13 and earlier.
 # Random Ideas:
 
-Strength[2]	Strength increases Physical Attack Power and the weight behind each attack.
-Agility[3]	Agility increases Attack Speed and Movement Speed.
-Endurance[4]	Endurance increases maximum HP and stamina.
-Inteligence[5]	Intelligence increases Magical Attack Power and maximum MP.
-Vitality[6]	Vitality increases the recovery rate of MP and HP.
-https://reincarnationofthestrongestswordgod.fandom.com/wiki/Attributes
-
 Stealing the bird from a nest and raise it
 Quest - hell or high water
 Pigeons without wings - attacking ?
@@ -317,18 +310,22 @@ The classes all have to have reasons to exists, immune to magic, immune to fire,
 the classes have to counter each other in a kind of card game style were nothing is ever better then all others just better then 1 or 2 
 
 ### Stats:
-<li>Vitality</li> Health points, Resistances to hot/cold / poison
+<li>Vitality</li> Increases the recovery rate of MP and HP. Total HP. Basic resistances.
 <li>Endurance</li> Increases resistance to physical damage, reduces physical damage taken (%)
 <li>Willpower</li> Increases resistance to magic, reduces magic damage taken (%)
 
-<li>Magic</li> Increases Magic damage, Mana
-<li>Strength</li> Increased physical damage. Minor: Increased storage capacity. Reduce damage taken during a successful block. Increased resistance to falling. Increased movement speed.
+<li>Magic</li> increases Magical Attack Power and maximum MP.
+<li>Strength</li> Increased Physical Attack Power and the weight behind each attack. Minor: Increased storage capacity. Reduce damage taken during a successful block. Increased resistance to falling. Increased movement speed.
 
 <li>Dexterity (Reflexes)</li> Reduces time between using skills, casting of skills, dodge change, movement on rough terrain
 
 <li>Sense</li> Range of attacks, accuracy. Trap Detect (All of the senses, hearing, taste, touch, smell.) Seeing though smoke screens and illusions. Seeing weakness and injuries in your opponent (CRIT), Range of summons / familia can move from you.
 
 <li>Charisma</li> Increases NPC likability, command points
+
+Agility[3]	Agility increases Attack Speed and Movement Speed.
+Endurance[4]	Endurance increases maximum HP and stamina.
+https://reincarnationofthestrongestswordgod.fandom.com/wiki/Attributes
 
 [Commander] - Charisma & Vitality 
 [Tank/Fighter] - Strength & Vit 

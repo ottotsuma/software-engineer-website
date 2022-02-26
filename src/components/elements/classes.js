@@ -19,7 +19,7 @@ export const classList = {
     },
     team: 'Strength +1.',
     image: 'https://ottotsuma.github.io/images/people/f7327f5068dcdd7e858b87e1da393c62.jpg',
-    notes: '',
+    notes: 'Fighters are the base class for physical classes.',
     tier: 'normal'
   },
   Rogue: {
@@ -253,9 +253,9 @@ export const classList = {
       Charisma: "*1.10",
     },
     team: '',
-    self: 'All Stats + 10%, hp + 5%, mana + 3%, movement speed -10%',
-    image: '',
-    notes: '',
+    self: 'All Stats + 10%, HP + 5%, MP + 3%, movement speed -10%.',
+    image: 'https://ottotsuma.github.io/images/people/king.jpg',
+    notes: 'Born to rule.',
     tier: 'legendary'
   },
   DEMIURGE: {
