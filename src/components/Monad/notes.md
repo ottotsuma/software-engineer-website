@@ -317,14 +317,12 @@ the classes have to counter each other in a kind of card game style were nothing
 <li>Magic</li> increases Magical Attack Power and maximum MP.
 <li>Strength</li> Increased Physical Attack Power and the weight behind each attack. Minor: Increased storage capacity. Reduce damage taken during a successful block. Increased resistance to falling. Increased movement speed.
 
-<li>Dexterity (Reflexes)</li> Reduces time between using skills, casting of skills, dodge change, movement on rough terrain
+<li>Dexterity (Reflexes)</li>Increases Attack Speed, dodge change, movement on rough terrain. Reduces skills cool down.
 
 <li>Sense</li> Range of attacks, accuracy. Trap Detect (All of the senses, hearing, taste, touch, smell.) Seeing though smoke screens and illusions. Seeing weakness and injuries in your opponent (CRIT), Range of summons / familia can move from you.
 
 <li>Charisma</li> Increases NPC likability, command points
 
-Agility[3]	Agility increases Attack Speed and Movement Speed.
-Endurance[4]	Endurance increases maximum HP and stamina.
 https://reincarnationofthestrongestswordgod.fandom.com/wiki/Attributes
 
 [Commander] - Charisma & Vitality 
