@@ -91,7 +91,7 @@ function Intro(props) {
             either be used by the academy or sold to Alden's government. I
             looked through the warhammers again. I thought it was a good idea
             last time, the histories where full of inquisitors which needed to
-            taken in rouge mages, their builds where great counter to mages.
+            taken in rogue mages, their builds where great counter to mages.
             Only after trying to match their builds I came to understand they
             very specialized and really hard to use at a low level.
           </p>
@@ -300,7 +300,7 @@ function Intro(props) {
           <p>
             The options here made sense. The class boobs was a real surprise
             though. Inside were books that let you change your class from mage,
-            fighter or rouge into a new class like I had done. Someone at the
+            fighter or rogue into a new class like I had done. Someone at the
             academy, maybe Lubin? Had told me some families had their own
             classes. I guess it makes sense for the military to have some too.
           </p>

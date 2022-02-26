@@ -7,8 +7,14 @@ import ClassDisplay from './../elements/classes'
 export default function Otto() {
   return (
     <div style={{ color: "black" }}>
+      <div style={{display: "flex", justifyContent: "center"}}>
       {ClassDisplay('Mage')}
+      {ClassDisplay('Fighter')}
+      {ClassDisplay('Rogue')}
+      {ClassDisplay('King')}
+      </div>
       {DirtyOtto()}
+
       <div>{SpellCards([["Iceball", 2, "ice"]])}</div>
       <Stats
         type={"description"}

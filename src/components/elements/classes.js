@@ -9,7 +9,7 @@ export const classList = {
     },
     team: 'Magic +1.',
     self: '',
-    image: 'https://ottotsuma.github.io/images/people/Test.gif',
+    image: 'https://ottotsuma.github.io/images/people/b5185cca016eecd75b62833fdf2cfc43.jpg',
     notes: 'Solve all your problems with magic. Mages are the basic class for magical classes.',
     tier: 'normal'
   },
@@ -18,17 +18,17 @@ export const classList = {
       strength: 1,
     },
     team: 'Strength +1.',
-    image: '',
+    image: 'https://ottotsuma.github.io/images/people/f7327f5068dcdd7e858b87e1da393c62.jpg',
     notes: '',
     tier: 'normal'
   },
-  Rouge: {
+  Rogue: {
     stats: {
       dexterity: 1,
     },
     team: 'Dexterity +1.',
-    image: '',
-    notes: '',
+    image: 'https://ottotsuma.github.io/images/people/0156c7576b1704ee70a55e4d1bd0db74.jpg',
+    notes: `What doesn't kill you makes you stronger. Combine with beast souls to gain their power.`,
     tier: 'normal'
   },
   "Kʼawiil": {
@@ -309,7 +309,7 @@ align-items: center;
 const Wrap = styled.div`
 border-radius: 6px;
 padding: 5px;
-width: 150px;
+max-width: 200px;
 color: ${colors.black.off};
 background: ${colors.white.off};
 margin: 1%;
@@ -330,8 +330,10 @@ width: 100%;
 height: 100%;
 `;
 const Info = styled.div`
+margin-bottom: 5px;
 `;
 const Team = styled.div`
 `;
 const Self = styled.div`
+margin-bottom: 5px;
 `;

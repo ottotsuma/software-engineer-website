@@ -1,6 +1,6 @@
 https://guides.github.com/features/mastering-markdown/
 
-Re-Write all early story to have 1 - 9 being mage, no element and at level 10 you find out your element so they can change class like the rouge and fighter. Chapter 13 and earlier.
+Re-Write all early story to have 1 - 9 being mage, no element and at level 10 you find out your element so they can change class like the rogue and fighter. Chapter 13 and earlier.
 # Random Ideas:
 
 Strength[2]	Strength increases Physical Attack Power and the weight behind each attack.
@@ -494,7 +494,7 @@ See: classList in classes.js
 <!-- https://ottotsuma.github.io/advclass.html -->
 <!-- Basic/ -->
 <li>Fighter - +1 Strength.
-<li>Rouge - +1 Dexterity.
+<li>Rogue - +1 Dexterity.
 <li>Mage - +1 Magic.
 <!-- Common -->
 <!-- Normal -->
@@ -787,7 +787,7 @@ Tisiel Skivali - (cliffs) imperial name,(huonoia) - scholar/necromancer (GONE)
 <li>Satyr Cruk, Chief of war of the goat clan. (old lands)
 <li> Oskar, adult swordsman Savigal level 10 dungeon.
 <li> Anneliese, Fighter, Child, Savigal, level 10 dungeon.
-<li> Klemens, rouge, child, Savigal level 10 dungeon.
+<li> Klemens, rogue, child, Savigal level 10 dungeon.
 ---
 
 Alden Royals:

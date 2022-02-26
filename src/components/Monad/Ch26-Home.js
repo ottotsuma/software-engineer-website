@@ -266,7 +266,7 @@ function Intro(props) {
  */}
 
           {/* 
-Rouge: 5% increase to damage to flank/behind
+Rogue: 5% increase to damage to flank/behind
 Mage: 5% reduction to magic spell cost
 Fighter: 5% less damage taken
 Will have to go back and change skills, every 10 levels cap increases by 1.

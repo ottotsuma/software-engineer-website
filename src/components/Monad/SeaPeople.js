@@ -76,9 +76,9 @@ export const DirtySeaPeople = () => {
 
 // Rest period, results day is a good starting place.
 
-// Rouge Skills Used (Basic) - Fleet of Foot, Headbutt
+// Rogue Skills Used (Basic) - Fleet of Foot, Headbutt
 // Combo skills for each class: 'Slashing Edge' into 'Sharp Slash'
-// Rouge: Side/Back -- Back -- Side (3rd one is intermediate), (4th advanced)
+// Rogue: Side/Back -- Back -- Side (3rd one is intermediate), (4th advanced)
 // Fighter: ?? -- ?? -- ?? (3rd one is intermediate), (4th advanced)
 // Mage: ?? -- ?? -- ?? (3rd one is intermediate), (4th advanced)
 
@@ -211,8 +211,8 @@ export const SeaPeople = {
         my attribute points and what skills to learn, it's been awhile."
       </p>
       <p>
-        "Ah yeah. I mean I am a rouge type... My class is assassin, which is a
-        type of rouge but I have a very specific play style and set of skills.
+        "Ah yeah. I mean I am a rogue type... My class is assassin, which is a
+        type of rogue but I have a very specific play style and set of skills.
         If you want that kind of play style I can share my build with you but if
         it is just generic advice for rouges or play styles I can still help.
         After all I have been playing since launch." He smiled, he was a little
@@ -711,7 +711,7 @@ export const SeaPeople = {
         through my skills list.
       </p>
       <p>
-        "Assassin, not Rouge. It's a different class. Anyway we can talk about
+        "Assassin, not Rogue. It's a different class. Anyway we can talk about
         things like that after. The crab will be back soon." Josh pointed in the
         direction of the crab, while I could not see the end clearly I could
         hear the noises the crab was making and knew it had not left.
@@ -821,9 +821,9 @@ export const SeaPeople = {
       <p>
         I did not want to be left out and seeing the other crab claw closing
         down on Sarah from the side I sprinted forward. Since I only had my
-        basic rouge skills I decided to show off what a basic rouge could do!
+        basic rogue skills I decided to show off what a basic rogue could do!
         The first thing I did was merge with my monster spirit, this was a skill
-        specific to rouge type classes, any monster you kill solo, if you absorb
+        specific to rogue type classes, any monster you kill solo, if you absorb
         the monsters spirit you get access to some of the monsters skills! This
         was the draw to picking rouges.
       </p>
@@ -833,13 +833,13 @@ export const SeaPeople = {
         40 boss, Satyr Cruk, Chief of war of the goat clan.
       </p>
       {/* https://www.fantasynamegenerators.com/satyr-faun-names.php */}
-      {/* file:///C:/Users/snows/Documents/GitHub/ottotsuma.github.io/rouge.html */}
+      {/* file:///C:/Users/snows/Documents/GitHub/ottotsuma.github.io/rogue.html */}
       <p>
         As soon as I had activated the fuse, horns grew from the front of my
         head, spiraling around and back pointing forward. My feet turned into
         hooves as fur grew out the side of my legs. The transformation not only
         changed my physical appearance but also my attributes and the effects of
-        some of my rouge skills. This was why people played rouge, for a game
+        some of my rogue skills. This was why people played rogue, for a game
         based around options, this class had the most to pick from.
       </p>
       <p>
@@ -850,10 +850,10 @@ export const SeaPeople = {
         Sarah. With my horns attached my 'Headbutt' skill did no recoil damage
         to myself and more to my target.
       </p>
-      {/* https://ottotsuma.github.io/rouge */}
+      {/* https://ottotsuma.github.io/rogue */}
       <p>
         With my two short swords I slashed out in claw pattern I had picked up
-        when my rouge spirit was a tiger. 'Slashing Edge' into 'Sharp Slash'.
+        when my rogue spirit was a tiger. 'Slashing Edge' into 'Sharp Slash'.
         The damage was far less than Josh was doing but I was helping keep the
         other claw away from Sarah more then damaging.
       </p>

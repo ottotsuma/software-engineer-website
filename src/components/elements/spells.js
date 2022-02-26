@@ -3,7 +3,7 @@ import React from "react";
 
 // Kʼawiil - Lightning, seeds, abundance, powerful one, fertility, serpent
 
-// Rouge: Side/Back -- Back -- Side (3rd one is intermediate), (4th advanced)
+// Rogue: Side/Back -- Back -- Side (3rd one is intermediate), (4th advanced)
 // Fighter: ?? -- ?? -- ?? (3rd one is intermediate), (4th advanced) [look up sword techniques]
 // Mage: ?? -- ?? -- ?? (3rd one is intermediate), (4th advanced)
 

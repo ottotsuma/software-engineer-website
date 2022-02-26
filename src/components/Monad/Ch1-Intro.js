@@ -294,7 +294,7 @@ most people learn inspect but either see
           <p>
             "You can't be a fighter. You don't have a sword, bow or anything at
             all! You're holding a stick, that's like a mages wand. You have to
-            be a mage, unless you want to be a rouge.." Beke snickered.
+            be a mage, unless you want to be a rogue.." Beke snickered.
           </p>
           <p>
             Otto stared at Beke in anger, twisting his lips, debating about what
@@ -611,9 +611,9 @@ most people learn inspect but either see
             confused at his statement "Sorry?"
           </p>
           <p>
-            "Expected you to be a Fighter, seems you are a Rouge, the stone
+            "Expected you to be a Fighter, seems you are a Rogue, the stone
             measures not only the type of mana you have but also elements
-            present inside. There is no mistake, the type of mana is rouge.
+            present inside. There is no mistake, the type of mana is rogue.
             Water and wood elements are not unusual for this area."
           </p>
           <p>
@@ -674,7 +674,7 @@ most people learn inspect but either see
             "Aha well yes" he gestures towards his own tail. "However also no.
             It is not about having extra body parts, although you can, I've even
             seen a man who replaced his eyes with that of a bird of prey, made
-            him an amazing archer. The point is being a Rouge is about taking
+            him an amazing archer. The point is being a Rogue is about taking
             what advantages a monster has and making them or own. From level 1
             through to 10 we mimic the monster we want to steal from, learn how
             they fight so that we can kill them, eat their heart and take their

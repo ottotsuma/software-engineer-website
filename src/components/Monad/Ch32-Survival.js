@@ -286,7 +286,7 @@ function Intro(props) {
           </p>
           <p>
             Takeo came in while we were talking and had dark black lines around
-            his eyes. "Don't worry he is not tired. He is a rouge, one of his
+            his eyes. "Don't worry he is not tired. He is a rogue, one of his
             skills gives him these dark circles around his eyes to help reduce
             glare and make it easier to hit things." Tsuma said after seeing me
             look at his face too long.

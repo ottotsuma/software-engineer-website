@@ -45,7 +45,7 @@ function Fourth(props) {
           {/* Needs to be an introduction when the elements are measured in the students so they can pick which element to take, or recommendation */}
           <p>
             "Red is quite rare, as it's a mix of lightning and rare fire
-            elements. Although there are exceptions this is just a rouge guide
+            elements. Although there are exceptions this is just a rogue guide
             line. What I would have you do this lesson is learn from each others
             and my own lightning colours. Make notes on the color, and what kind
             of mana concentrate the lighting is made of, you can do this with
