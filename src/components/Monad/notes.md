@@ -521,7 +521,6 @@ See: classList in classes.js
 <li>Pope - Unknown
 
 ---
-
 ### Race/Self Bonuses: 
 <!-- https://ottotsuma.github.io/race.html -->
 <!-- Normal -->
