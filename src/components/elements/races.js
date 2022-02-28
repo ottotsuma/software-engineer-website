@@ -64,8 +64,8 @@ export const racesList = {
     team: '',
     self: 'Cold resist +5%.',
     images: '',
-    notes: 'Ice element.',
-    tier: 'normal'
+    notes: 'Cave elves, Ice element.',
+    tier: 'rare'
   },
   "Dark Elf": {
     stats: { willpower: 2 },
@@ -73,7 +73,7 @@ export const racesList = {
     self: 'Resist heat +5%.',
     images: '',
     notes: 'Desert Elf, Umbral, Grey Elf, Ash Elf, NOT Drow. They make no sense. Fire element.',
-    tier: 'normal',
+    tier: 'rare',
     link: 'https://www.5esrd.com/races/elf/subrace-options/umbral-elf/, https://www.reddit.com/r/UnearthedArcana/comments/bha9uj/elven_subrace_ash_elf_a_tough_race_of_greyskinned/, https://www.artstation.com/artwork/zrZXd'
   },
   "Water Elf": {
@@ -82,30 +82,120 @@ export const racesList = {
     self: 'Can breath underwater.',
     images: '',
     notes: 'Sea Elf, Water Element.',
-    tier: 'normal'
+    tier: 'rare'
+  },
+  "Vampire": {
+    stats: {
+      strength: 1,
+      vitality: 1,
+      magic: 1,
+      dexterity: 1,
+      sense: 1,
+    },
+    team: '',
+    self: 'Blood magic is always unlocked. 🧛‍♂️',
+    images: '',
+    notes: '',
+    tier: 'rare'
+  },
+  "Automitia": {
+    stats: {},
+    team: '',
+    self: '',
+    images: '',
+    notes: '',
+    tier: 'rare'
+  },
+  "Undead": {
+    stats: {},
+    team: '',
+    self: '',
+    images: '',
+    notes: '',
+    tier: 'rare'
+  },
+  "Krogan": {
+    stats: {},
+    team: '',
+    self: '',
+    images: '',
+    notes: '',
+    tier: 'rare'
+  },
+  "Turian": {
+    stats: {},
+    team: '',
+    self: '',
+    images: '',
+    notes: '',
+    tier: 'rare'
+  },
+  "Fairy": {
+    stats: {},
+    team: '',
+    self: '',
+    images: '',
+    notes: '🧚‍♀️',
+    tier: 'rare'
+  },
+  "Zombie": {
+    stats: {},
+    team: '',
+    self: '',
+    images: '',
+    notes: '🧟‍♂️',
+    tier: 'rare'
+  },
+  "Mermaid": {
+    stats: {},
+    team: '',
+    self: '',
+    images: '',
+    notes: '🧜‍♀️',
+    tier: 'rare'
+  },
+  "Thri-kreen": {
+    stats: {},
+    team: '',
+    self: '',
+    images: '',
+    notes: '',
+    tier: 'epic'
+  },
+  "Kenku": {
+    stats: {},
+    team: '',
+    self: '',
+    images: '',
+    notes: '',
+    tier: 'epic'
+  },
+  "Kitsune": {
+    stats: {},
+    team: '',
+    self: '',
+    images: '',
+    notes: '',
+    tier: 'epic'
+  },
+  "Goblin": {
+    stats: {},
+    team: '',
+    self: '',
+    images: '',
+    notes: '',
+    tier: 'epic'
+  },
+  "Troglodytes": {
+    stats: {},
+    team: '',
+    self: '',
+    images: '',
+    notes: '',
+    tier: 'epic'
   },
 };
 // Bakeneko (monster) (one tail) cat demon,  & nekomata (race) (two tails), raises the dead with dances.
-
-// <!-- Rare -->
-// <li> Vampire - Strength - +1 Vitality - +1 Magic - +1 Dexterity - +1 Sense - +1. (Blood magic is always unlocked)🧛‍♂️
-// <li> Dark Elf  - ??? [Desert elves]
-// <li> Snow Elves - [Cave elves]
-// <li> Sea Elves - [Mythical]
-// <li> Automitia - ???
-// <li> Undead (generic) - ???
-// <li> Krogan - ???
-// <li> Turian - ???
-// <li>🧜‍♀️
-// <li>🧚‍♀️
-// <li>🧟‍♂️
-
-// <!-- Epic -->
-// <li> Kitsune - ???
-// <li> Goblin - ???
-// <li> Thri-kreen - ???
-// <li> Kenku - ???
-// <li> Troglodytes - ???
 
 function _try(func, fallbackValue) {
   try {
