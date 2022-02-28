@@ -18,6 +18,7 @@ export const classList = {
       strength: 1,
     },
     team: 'Strength +1.',
+    self: '',
     image: 'https://ottotsuma.github.io/images/people/f7327f5068dcdd7e858b87e1da393c62.jpg',
     notes: 'Fighters are the base class for physical classes.',
     tier: 'normal'
@@ -27,14 +28,15 @@ export const classList = {
       dexterity: 1,
     },
     team: 'Dexterity +1.',
+    self: '',
     image: 'https://ottotsuma.github.io/images/people/0156c7576b1704ee70a55e4d1bd0db74.jpg',
     notes: `What doesn't kill you makes you stronger. Combine with beast souls to gain their power.`,
     tier: 'normal'
   },
   "Kʼawiil": {
     stats: {
-      magic: 0,
     },
+    team: '',
     self: 'All stats increase as the rain gets stronger. Max 10%.',
     image: '',
     notes: '',
@@ -44,7 +46,8 @@ export const classList = {
     stats: {
       "Shield Skills": "+1",
     },
-    team: 'Shield Skills: +1.',
+    self: 'Shield Skills: +1.',
+    team: '',
     image: '',
     notes: '',
     tier: ''
@@ -52,6 +55,7 @@ export const classList = {
   "Warrior": {
     stats: {
     },
+    self: '',
     team: 'Stamina +10%.',
     image: '',
     notes: '',
@@ -61,6 +65,7 @@ export const classList = {
     stats: {
     },
     self: 'Absorb 3% of damage done to a maximum of 7 allies within 10m.',
+    team: '',
     image: '',
     notes: '',
     tier: ''
@@ -69,6 +74,7 @@ export const classList = {
     stats: {
     },
     self: 'Strength increases as health decreases.',
+    team: '',
     image: '',
     notes: '',
     tier: ''
@@ -95,7 +101,7 @@ export const classList = {
     stats: {
     },
     team: 'Summon maintain cost is reduced.',
-    self: '',
+    self: 'Summon Eidolon Spell +1 (MAX: 10).',
     image: '',
     notes: '',
     tier: 'normal'
