@@ -109,7 +109,7 @@ export const classList = {
   Paladin: {
     stats: {
     },
-    team: '',
+    team: 'Unholy protection, unholy attacks deal 3% less.',
     self: 'Can use holy objects, cannot use unholy objects.',
     image: '',
     notes: '',
@@ -137,20 +137,20 @@ export const classList = {
   },
   Scout: {
     stats: {
-      sense: 5,
+      sense: 2,
     },
-    team: '',
-    self: '',
+    team: 'Sense +1.',
+    self: 'Sense +1.',
     image: '',
     notes: '',
     tier: 'normal'
   },
   Thief: {
     stats: {
-      dexterity: 2,
+      dexterity: 1,
     },
     team: '',
-    self: '',
+    self: 'dexterity +1.',
     image: '',
     notes: '',
     tier: 'normal'
@@ -168,7 +168,7 @@ export const classList = {
     stats: {
     },
     team: 'Commanded units HP is increased.',
-    self: '',
+    self: 'Summon Knight Skill +1.',
     image: '',
     notes: '',
     tier: 'rare'
@@ -295,17 +295,21 @@ function _try(func, fallbackValue) {
 
 export default function ClassDisplay(Class) {
   const Data = _try(() => classList[Class])
-  return (
-    <BackgroundWrap>
-    <Wrap Tier={monadColors[Data.tier] || ''}>
-      <Name>{Class}</Name>
-      {Data.image ? <Display src={Data.image} alt={Class} /> : <></>}
-      <Info>{Data.notes ? Data.notes : ''}</Info>
-      <Self>{Data.self ? 'Self: ' + Data.self : ''}</Self>
-      <Team>{Data.team ? 'Team Bonus: ' +Data.team : ''}</Team>
-    </Wrap>
-    </BackgroundWrap>
-  )
+  if(Data) {
+    return (
+      <BackgroundWrap>
+      <Wrap Tier={monadColors[Data.tier] || ''}>
+        <Name>{Class}</Name>
+        {Data.image ? <Display src={Data.image} alt={Class} /> : <></>}
+        <Info>{Data.notes ? Data.notes : ''}</Info>
+        <Self>{Data.self ? 'Self: ' + Data.self : ''}</Self>
+        <Team>{Data.team ? 'Team Bonus: ' +Data.team : ''}</Team>
+      </Wrap>
+      </BackgroundWrap>
+    )
+  } else {
+    return <div></div>
+  }
 }
 const BackgroundWrap = styled.div`
 display: flex;
