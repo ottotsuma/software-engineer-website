@@ -3,6 +3,8 @@ https://guides.github.com/features/mastering-markdown/
 Re-Write all early story to have 1 - 9 being mage, no element and at level 10 you find out your element so they can change class like the rogue and fighter. Chapter 13 and earlier.
 # Random Ideas:
 
+Non-aggression pact for discounts using guild services.
+
 Stealing the bird from a nest and raise it
 Quest - hell or high water
 Pigeons without wings - attacking ?
@@ -49,21 +51,6 @@ https://www.wikiwand.com/en/Xiuhcoatl
 https://blog-cdn.reedsy.com/uploads/2018/07/Rick-and-Morty-Story-Wheel-Annotated.jpg
 
 # Notes:
-
-### Example below:
-
-https://github.com/ottotsuma/ottotsuma.github.io/blob/master/images/goblin.jpg?raw=true
-
-import React from "react";
-import { Content } from "./styles"
-function Intro(props) {
-return (
-<Content>
-</Content>
-);
-}
-export default Intro;
-
 ## Game
 
 24 hour or what ever timers / quests / daily's didn't just sit there making players have to come back everyday to no content.

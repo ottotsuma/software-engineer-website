@@ -2037,8 +2037,8 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
       <p>Going South</p>
       <p>
         We had set off that night in the same carriage we took during the
-        evening. Kiksotz was teaching me how to drive the carriage because he
-        would be leaving us before the border. Sarah and Josh were in the back
+        evening. Kiksotz was teaching Noah how to drive the carriage because he
+        would be leaving us before the border. Sarah and I were in the back
         roleplaying as some posh western woman and her mute bodyguard.
       </p>
       <p>
@@ -2230,7 +2230,9 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         at it." She said handing me a cream sheet.
       </Sarah>
       <Josh>"Thanks." I replied putting it away for now.</Josh>
-      <Josh></Josh>
+      <Josh>
+        We rode up to the guards posted at the village entrance. They seemed unsurprised by our wagon and far more interested in Noah.
+      </Josh>
       {/* Give the blood bottle to Sarah, after she is injured by the priest */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}
       {/* All the normal land, and sea routes on the way to Alden are
