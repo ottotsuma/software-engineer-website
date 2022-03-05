@@ -2256,6 +2256,9 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         quite frustrating to find yourself unable to understand anyone around
         you.
       </Josh>
+      <Josh>
+        The town was not very busy, it was remote, and the war was mostly being fought further to the west this was still a border town to the country they were at war with, I guess this is why Kiksotz chose this town in the first place.
+      </Josh>
       {/* Give the blood bottle to Sarah, after she is injured by the priest */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}
       {/* All the normal land, and sea routes on the way to Alden are
