@@ -2235,15 +2235,27 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         We rode up to the guards posted at the village entrance. They seemed
         unsurprised by our wagon and far more interested in Noah.
       </Josh>
-      <p>
+      <Josh>
         The guards shouted something at Noah. Sarah just huffed and turned to
         me. "They just asked if Noah had a disease, you know because he's a dark
         elf." I could not help but giggle, it should not be funny, but his being
         misunderstood was his misfortune.
-      </p>
-      <p>
-        She made her annoyance known to the guards, probably telling them the story Kiksotz told us to use. Noah was not diseased but Sarah's slave, his skin has been like it from birth and he was thrown out of the eleven territories because of it. My job was simple, look menacing but bored. I like to think my face was made for this role.
-      </p>
+      </Josh>
+      <Josh>
+        She made her annoyance known to the guards, probably telling them the
+        story Kiksotz told us to use. Noah was not diseased but Sarah's slave,
+        his skin has been like it from birth and he was thrown out of the eleven
+        territories because of it. My job was simple, look menacing but bored. I
+        like to think my face was made for this role.
+      </Josh>
+      <Josh>
+        They must of only spoken the necessaries however when you cannot
+        understand a word being said, the whole transaction seemed to last
+        forever. When we finally got inside the town I was relieved. I had no
+        idea if they were arguing, getting along or just making small talk. It's
+        quite frustrating to find yourself unable to understand anyone around
+        you.
+      </Josh>
       {/* Give the blood bottle to Sarah, after she is injured by the priest */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}
       {/* All the normal land, and sea routes on the way to Alden are
