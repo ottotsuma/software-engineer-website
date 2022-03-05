@@ -6,7 +6,7 @@ export default function Levelup(props) {
   const [accept, setAccept] = useState(false);
   const [stats, setStats] = useState([]);
 
-  const races = {
+  const species = {
     normal: {
       stat: 2,
     },
@@ -120,11 +120,11 @@ export default function Levelup(props) {
       array.push(`Advanced classes unlocked. `);
     }
 
-    if (races[props.race].skill) {
-      skill = skill + races[props.race].skill;
+    if (species[props.species].skill) {
+      skill = skill + species[props.species].skill;
     }
-    if (races[props.race].stat) {
-      stat = stat + races[props.race].stat;
+    if (species[props.species].stat) {
+      stat = stat + species[props.species].stat;
     }
     if (classes[props.class].skill) {
       skill = skill + classes[props.class].skill;

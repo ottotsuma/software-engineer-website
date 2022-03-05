@@ -459,7 +459,7 @@ function Academy(props) {
                   <p id="Card-Font">
                     Not Shared: Cute, Shadow steps, Meow music
                   </p>
-                  <h4 className="Card-Font">Race: Human.</h4>
+                  <h4 className="Card-Font">Species: Human.</h4>
                   <p id="Card-Font">Sense +1 Charisma +2</p>
                   <p id="Card-Font">(Can use all tools and weapons)</p>
                 </div>

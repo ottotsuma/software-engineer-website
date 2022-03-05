@@ -385,7 +385,7 @@ function Intro(props) {
           </p>
           <LevelUp
             level={6}
-            race={"normal"}
+            species={"normal"}
             class={"legendary"}
             type={"mage"}
             details={""}
@@ -401,7 +401,7 @@ function Intro(props) {
           {/* Re do, this is poop */}
           <LevelUp
             level={10}
-            race={"normal"}
+            species={"normal"}
             class={"legendary"}
             type={"mage"}
             details={""}
@@ -595,7 +595,7 @@ function Intro(props) {
             trees of spells. Farming, Lightning and serpents. As well as a mix
             between each of them, such as lightning seeds being a mix between
             lighting and farming. It got me thinking about Kʼawiil's identity.
-            There were serpent type races in the kingdom, it is said they are
+            There were serpent type species in the kingdom, it is said they are
             similar to humans but more snake like features. Perhaps Kʼawiil was
             once one of theirs? A lighting mage who used his powers to harvest
             food? No that seems off somehow. Maybe there will be something in

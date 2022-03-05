@@ -350,7 +350,7 @@ function Duel(props) {
       </p>
       {Book()}
       <p>
-        Orcs? Goblins? I thought these were monsters not another race, and there
+        Orcs? Goblins? I thought these were monsters not another species, and there
         are some I never even heard of... I should return this and maybe ask
         where he's from, maybe these are monsters from Leika and the book is
         badly translated? I did not want to slide the book over and it not reach
@@ -535,7 +535,7 @@ const BookOfRaces = styled.div`
 // Vampire type, more hunger makes them stronger so often hide from humans
 // The people coming off the boats don't have to be human
 // Merging the stats into a few, Vitality, magic, strength, sense, charm
-// No classes? Just race and element?
+// No classes? Just species and element?
 
 // killing array that targets above certain mana levels.
 // Vampire woman vs Poison woman and Tank man.

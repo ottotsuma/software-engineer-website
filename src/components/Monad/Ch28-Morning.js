@@ -28,7 +28,7 @@ function Intro(props) {
 
           <p>
             For a start the magic classes where about the Mage class. The only
-            parts of the lecture I could use where bits on the human race skills
+            parts of the lecture I could use where bits on the human species skills
             which was in the past the least relevant as I wanted to be a combat
             mage and not really the party leader. Also the lessons about mana
             and magic in a more general sense. I could only hope to get though
@@ -367,7 +367,7 @@ function Intro(props) {
           </p>
           <LevelUp
             level={5}
-            race={"normal"}
+            species={"normal"}
             class={"legendary"}
             type={"mage"}
             details={""}

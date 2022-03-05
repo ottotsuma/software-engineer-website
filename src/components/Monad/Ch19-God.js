@@ -66,7 +66,7 @@ Noticed by a God - get the notice of a God, (varies) */}
           <p>
             "The various names printed on the table were things they gave
             offerings to, of blood. We believe animals and possibly humans or
-            other races but we are unsure for now. The main point is there where
+            other species but we are unsure for now. The main point is there where
             10 of them and they are kind of demons. I call them this because the
             blood and the references to them being down under so I think this is
             the best translation for now." - Tisiel

@@ -174,7 +174,7 @@ function Intro(props) {
           </p>
           <p>
             I learned a lot about the kingdom and the Shoshoni people. The
-            kingdom had many people groups and races along with that came many
+            kingdom had many people groups and species along with that came many
             religions and cultures. In the town of Metium, a small town of the
             coast of the kingdom on an island all to itself was the last place
             where the Old Elladan Pantheon was still the majority religion. The
@@ -588,5 +588,5 @@ export default Intro;
 // Otto gains the new class in the dungeon from the god he follows and sets out on a path to kill his own god
 // Tsuma reveals she is powerful and the princess of the other land when Otto is trapped with no way out, his country betraying him
 // Tsuma takes an interest in german witch magic that was her real reason for comings
-// the mask is the legacy of the deer god of lightning, the lightning god class is given to otto also, the quest is set out to acquire the god race.
+// the mask is the legacy of the deer god of lightning, the lightning god class is given to otto also, the quest is set out to acquire the god species.
 // Tsuma was on a quest to learn the german magic and to acquire a new class by combining the class of her lands with the new one.

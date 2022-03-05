@@ -22,11 +22,11 @@ export default function Otto() {
           name: "Otto",
           level: 10,
           class: "Kʼawiil",
-          race: "human",
+          species: "human",
           spells: 8,
           passives: 32,
           "spell points": 0, // from class 4 per level (normal/rare/epic/legendary)
-          "stat points": 0, // from race 2 per level
+          "stat points": 0, // from species 2 per level
           vitality: 0,
           strength: 0,
           endurance: 0,
@@ -120,11 +120,11 @@ export default function Otto() {
           name: "Ideal",
           level: 100,
           class: "???",
-          race: "mana creature",
+          species: "mana creature",
           spells: 0,
           passives: 0,
           "spell points": 0, // from class
-          "stat points": 0, // from race
+          "stat points": 0, // from species
           vitality: 100,
           strength: 0,
           endurance: 25,

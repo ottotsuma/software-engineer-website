@@ -359,7 +359,7 @@ function Intro(props) {
           <p>
             "Everything in this room would of been a great treasure back then.
             The problems that the enchantments might of decayed, there could be
-            a race restriction or in some cases like the ring of storage in your
+            a species restriction or in some cases like the ring of storage in your
             hand, a very rare and useful enchantment in my time, I remember we
             the immortals where obsessed with these rings, but erm well. Now you
             have your inventory the demand for this item has made it very cheap
@@ -518,7 +518,7 @@ function Intro(props) {
           <p>
             "One or two might not take up much room, but there is thousands at
             least. It might be better to take one of the magical weapons back
-            and hope the enchantment is useful or there is no race
+            and hope the enchantment is useful or there is no species
             restrictions." He replied earnestly.
           </p>
 
@@ -572,7 +572,7 @@ function Intro(props) {
             was question marks which was both good news and bad. Good news is
             they still contained at the very least trace amounts of mana. Bad
             news was, how much, did they still have skills inside? Was this just
-            junk? Would they be restricted by race?
+            junk? Would they be restricted by species?
           </p>
 
           <p>

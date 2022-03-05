@@ -11,7 +11,7 @@ function Intro(props) {
             So the era of the pyramid, those people had found this place last
             and that means the kings tomb and the witches or any after had not
             found this place but had found those coins perhaps left behind by
-            the race of people who built the pyramid. Thinking of this each of
+            the species of people who built the pyramid. Thinking of this each of
             these groups should have historical names they match up to.
             "Vortigern, what where the names of the people from each of the
             eras? I can't believed I never asked..."
@@ -19,9 +19,9 @@ function Intro(props) {
 
           <p>
             "Hmmm, well as you might know each era is home to many different
-            races, tribes, people groups it would be hard to put one name on
+            species, tribes, people groups it would be hard to put one name on
             them so. I mean my people called them selves 'The Immortals' as the
-            best translation but it is not like every sentient race called
+            best translation but it is not like every sentient species called
             themselves so." The skull replied while remembering his old life.
             "Before us we called those people 'The Dao', so my best guess would
             be to say... Pre-Dao, Dao-era, Immortal-era, Dark-Age, Great
@@ -418,7 +418,7 @@ function Intro(props) {
             "Sometimes I wonder if the Gods of fortune and destiny hate me.
             Forget about the God Lands there is no reason for a mortal to even
             know of their existence you can never even visit. Only those with a
-            God level race can, and you are a human, a normal level race.
+            God level species can, and you are a human, a normal level species.
             Finally, your joke might be slightly right, they are not my friends
             but other Gods with the same area of worship, we only work together
             to avoid being defeated by the Gods with the opposite area of

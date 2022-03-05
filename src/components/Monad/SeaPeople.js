@@ -112,7 +112,7 @@ export const SeaPeople = {
       {/* Notes page for sea people - Although everything is in the notes. */}
       <h1>Sea people</h1>
       <p>
-        A group of sea travelers with different races. Their classes will be
+        A group of sea travelers with different species. Their classes will be
         advanced classes because they have all reached level 100 at some point.
         The miasma effect will reduce their capabilities by 90% and be removed
         as they complete more quests on the DLC island.
@@ -120,7 +120,7 @@ export const SeaPeople = {
       <h2>List of the group</h2>
       <ul style={{ overflowWrap: "anywhere" }}>
         <li style={{ overflowWrap: "anywhere" }}>
-          Example: Name, race, class(), level, equipment, backstory(Main island,
+          Example: Name, species, class(), level, equipment, backstory(Main island,
           other dlc before? ), clan/guild, reason for coming. PET(level)
         </li>
         <li style={{ overflowWrap: "anywhere" }}>
@@ -245,7 +245,7 @@ export const SeaPeople = {
       </p>
       <p>
         "Well, to be honest I don't really know what direction would be best. I
-        reached level 50 before but when my race changed, I have only been able
+        reached level 50 before but when my species changed, I have only been able
         to get back to level 37 now." I admitted. I had not played for awhile.
         Monad has the most interactive NPC's and the great immersion. Maybe
         streamers, like Sarah, get a lot of views from their role playing
@@ -257,20 +257,20 @@ export const SeaPeople = {
       </p>
       <p>
         "Ah bummer man. You must of got an unlucky role. Dark elf is still a
-        humanoid race of the same rarity as human right? So the level loss
+        humanoid species of the same rarity as human right? So the level loss
         should of been small." He asked.
       </p>
       <p>
-        "Ah no, it is a rare rated race. So I went one rarity up, and although
+        "Ah no, it is a rare rated species. So I went one rarity up, and although
         its humanoid, it is a species of elf so I jumped from human, to elf, to
         dark elf... So instead of the random level reduction it took me back to
         level 1." I replied. This was to account for players turning into all
-        kinds of races. If you were once a human and turned into something with
+        kinds of species. If you were once a human and turned into something with
         winds, tentacles or claws, it would take some getting use to. To account
-        for this, when you changed race or class you would lose a few levels.
+        for this, when you changed species or class you would lose a few levels.
       </p>
       <p>
-        "I suddenly don't feel bad for you at all. You got a rare race at level
+        "I suddenly don't feel bad for you at all. You got a rare species at level
         50." He joked. "But hey, what are the skills like for a dark elf? Tell
         me all the ones you can see, I'll see if they match your play style!" He
         suddenly seemed excited at finding out something new.
@@ -279,7 +279,7 @@ export const SeaPeople = {
         I told him everything I could, from the skills to the bonuses and draw
         backs of being a dark elf. What he found most surprising was that
         despite reaching level 50 I never got a pet. The thing was when I
-        reached level 50 I got the race change at the same time so I didn't wait
+        reached level 50 I got the species change at the same time so I didn't wait
         to get a pet. We all make mistakes. So we kept talking until we became
         hungry.
       </p>
@@ -756,7 +756,7 @@ export const SeaPeople = {
         Sarah appeared were I was once stood and I knew these two had been
         playing for longer then me but this level of reaction and knowing which
         skills would be useful was far above me right now. Maybe my Dark Elf
-        race had some cool and unique abilities I just had to think of ways to
+        species had some cool and unique abilities I just had to think of ways to
         use them. We ran without talking again towards the crab, however this
         time we were getting closer to where the crab must be turning around and
         he came back quicker. Or at the same speed just we were closer to his
@@ -952,7 +952,7 @@ export const SeaPeople = {
       <p>But my raged was calmed by that sweet sound of a level up.</p>
       <LevelUp
         level={38}
-        race={"rare"}
+        species={"rare"}
         class={"normal"}
         type={"rogue"}
         details={""}
@@ -1695,8 +1695,8 @@ export const SeaPeople = {
       </p>
       <p>
         I screamed at him about how I am not a bloody wood elf, I was a dark
-        elf. We hated the wood elves more then any other race! Thanks to my less
-        then stellar German, the introduction of a race he had never heard of
+        elf. We hated the wood elves more then any other species! Thanks to my less
+        then stellar German, the introduction of a species he had never heard of
         and my fits of rage he barely understood any of it.
       </p>
       <p>
@@ -2005,11 +2005,11 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
       <p>Ah potato's, knew I forgot something.</p>
       <p>
         "Dark elf. Not burnt elf. This is my natural skin, we are not the same
-        race." Noah corrected. Did he have a death wish? It took long enough to
+        species." Noah corrected. Did he have a death wish? It took long enough to
         get here!
       </p>
       <p>
-        "A different race? The only change is the color of your skin?" Master
+        "A different species? The only change is the color of your skin?" Master
         questioned.
       </p>
       <p>
@@ -2021,7 +2021,7 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         would have to ask Noah later more about this.
       </p>
       <p>
-        "The people from across the sea are truly interesting. More races. I
+        "The people from across the sea are truly interesting. More species. I
         would love to learn more but you must leave soon, I trust you will
         inform Noah of our plans Sarah?" He looked at me and I nodded. "Go now,
         we will speak again in the future." Master said walking out of the light
@@ -2175,7 +2175,7 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         putting clothes on top of your armor will render your armor attributes
         useless." I told them. To my sunrise they both had skills for disguise.
         Sarah from her vampire class, Noah said the dark elves learn it ass a
-        race skill and I had it as an assassin.
+        species skill and I had it as an assassin.
       </p>
       <p>
         They must of put 1 point in each. It was clear they had their armor on

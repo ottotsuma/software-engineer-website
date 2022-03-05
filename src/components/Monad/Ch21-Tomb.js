@@ -6,7 +6,7 @@ function Intro(props) {
       <div className="Frame">
         <div className="Content">
           <h4>tomb raid</h4>
-          {/* Have item the mask, wand to detect magic, bouncy shoes. Titles & race! */}
+          {/* Have item the mask, wand to detect magic, bouncy shoes. Titles & species! */}
           <p>
             No sooner had I made it back inside of the cliff side I was ambushed
             by Tisiel and Reingard. The excitement on their faces left me
@@ -53,7 +53,7 @@ function Intro(props) {
             4 chairs and spread out a map across the table.
           </p>
 
-          {/* unique race, lighting resistance, lightning trap */}
+          {/* unique species, lighting resistance, lightning trap */}
 
           <p>
             We had not been there more then 1 hour before we were approached by

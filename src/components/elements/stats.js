@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import React from "react";
 import {spellList} from './spells'
-import {racesList} from './races'
+import {racesList} from './species'
 import {classList} from './classes'
 import Spells from './spells'
 import {titlesList} from './titles'
@@ -69,9 +69,9 @@ const statList = {
     minor:
       "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina.",
   },
-  race: {
-    name: "Race",
-    description: "This is your race.",
+  species: {
+    name: "Species",
+    description: "This is your species.",
     numeric: "Increases HP by 14.5 per point.",
     vague: "Increases your durability.",
     major: "Increased health points.",
@@ -265,26 +265,26 @@ function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTit
   const MPList = []
 
   let RaceSpan = undefined
-  if(stats.race) {
-    const raceStats = Object.keys(racesList[stats.race].stats);
-    RaceSpan = _try(() => racesList[stats.race].team)
+  if(stats.species) {
+    const raceStats = Object.keys(racesList[stats.species].stats);
+    RaceSpan = _try(() => racesList[stats.species].team)
     if(RaceSpan) RaceSpan = 'Team: ' + RaceSpan
     if(!RaceSpan) {
-      RaceSpan = _try(() => racesList[stats.race].self)
+      RaceSpan = _try(() => racesList[stats.species].self)
       if(RaceSpan) RaceSpan = 'Self: ' + RaceSpan
     }
 
     if(raceStats) {
       raceStats.map((raceStat) => {
         if (raceStat === 'HP') {
-          HPList.push(racesList[stats.race].stats[raceStat])
+          HPList.push(racesList[stats.species].stats[raceStat])
         } else if (raceStat === 'MP') {
-          MPList.push(racesList[stats.race].stats[raceStat])
-        } else if(typeof (racesList[stats.race].stats[raceStat]) === 'number') {
-          stats[raceStat] = stats[raceStat] + racesList[stats.race].stats[raceStat]
-        } else if (typeof (racesList[stats.race].stats[raceStat]) === 'string') {
-          if((racesList[stats.race].stats[raceStat]).includes('*')){
-            const multiplierValue = parseFloat(racesList[stats.race].stats[raceStat].substring(1))
+          MPList.push(racesList[stats.species].stats[raceStat])
+        } else if(typeof (racesList[stats.species].stats[raceStat]) === 'number') {
+          stats[raceStat] = stats[raceStat] + racesList[stats.species].stats[raceStat]
+        } else if (typeof (racesList[stats.species].stats[raceStat]) === 'string') {
+          if((racesList[stats.species].stats[raceStat]).includes('*')){
+            const multiplierValue = parseFloat(racesList[stats.species].stats[raceStat].substring(1))
             stats[raceStat] = stats[raceStat] * multiplierValue
           }
         }
@@ -433,7 +433,7 @@ function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTit
           {!!type && <Span>{ClassSpan}</Span>}
         </SingleStat>
       );
-    } else if (keys[index] === 'race' && RaceSpan) {
+    } else if (keys[index] === 'species' && RaceSpan) {
       array.push(
         <SingleStat key={index + "stat"}>
           {element}

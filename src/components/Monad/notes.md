@@ -79,13 +79,13 @@ Junk (Grey) / Common(Light grey) / Basic (Blue) / intermediate(Light blue)/ Adva
 
 Basic, Intermediate, Advanced.
 
-The classes and races could be catabolized into tiers [1, 2, 3] or ranks [bronze, silver, gold], [junk, common, normal, intermediate, advanced rare, elite, epic, legendary, unique]
+The classes and species could be catabolized into tiers [1, 2, 3] or ranks [bronze, silver, gold], [junk, common, normal, intermediate, advanced rare, elite, epic, legendary, unique]
 
 E D C B A S
 
 team bonus for fighter/rogue/mage
 
-<li>Classes/Races</li>
+<li>Classes/Species</li>
 Blue - 0 - 50 +2, 51 - 100 + 3
 Green - 0 - 50 + 3, 51 - 100 +2
 Red - 0-50 +3, 51 - 100 +3
@@ -285,14 +285,14 @@ Flashy items like a firework
 Festival items
 
 #### Time save items - should not be sold in shop
-EXP boost for changing class/race to catch back up to where you were?, Or jump right back.
+EXP boost for changing class/species to catch back up to where you were?, Or jump right back.
 ## Account
 Players have one account.
 Players can switch between classes in a safe zone. 
 - The same: Your name, death penalties, story progression and storage
 - Changed: Your base stats, equipped items, level, skills/spells.
 
-Class / Race bonuses grow with your levels
+Class / Species bonuses grow with your levels
 The classes all have to have reasons to exists, immune to magic, immune to fire, immune to physical
 the classes have to counter each other in a kind of card game style were nothing is ever better then all others just better then 1 or 2 
 
@@ -508,7 +508,7 @@ See: classList in classes.js
 <li>Pope - Unknown
 
 ---
-### Race/Self Bonuses: 
+### Species/Self Bonuses: 
 <!-- https://ottotsuma.github.io/race.html -->
 <!-- Normal -->
 <li> Human - Sense - +1 Charisma - +2 (Can use all basic items without restrictions)🧙‍♂️
@@ -710,7 +710,7 @@ Tisiel and Reingard and otto go into the tomb and tisiel lets Reingard die so sh
 Otto gains the new class in the dungeon from the god he follows and sets out on a path to kill his own god
 Tsuma reveals she is powerful and the princess of the other land when Otto is trapped with no way out, his country betraying him
 Tsuma takes an interest in german witch magic that was her real reason for comings
-the mask is the legacy of the deer god of lightning, the lightning god class is given to otto also, the quest is set out to acquire the god race.
+the mask is the legacy of the deer god of lightning, the lightning god class is given to otto also, the quest is set out to acquire the god species.
 Tsuma was on a quest to learn the german magic and to acquire a new class by combining the class of her lands with the new one.
 
 empire emperor dies and the mother fights back against the sons reforms, the reforms chose one religion and code of ethics to rule by instating new schools and imperial examinations, the court fight back and the new emperor puts his pawns in low level positions though-out the court so he can control it in secret when his mother dies he pacifies the lower realms
@@ -780,7 +780,7 @@ Famous Mages - Alden:
 
 ### Sea People:
 <li>
-Example: Name, race, class(), level, equipment, backstory(Main island,
+Example: Name, species, class(), level, equipment, backstory(Main island,
 other dlc before? ), clan/guild, reason for coming. PET(level)
 </li>
 <li>
@@ -825,11 +825,11 @@ Charter Profile
 Level:
 Class: (Shown:)(Hidden:)
 Familia: (Shared:)(Not Shared:)
-Race: (Shown:)(Hidden:)
+Species: (Shown:)(Hidden:)
 Stats:
 Titles:
 Equipment: (Primary:)(Secondary:)(Head:)(Body:)(Hands:)(Feet:)(Acc1:)(Acc2:)(Acc3:)(Acc4:)
-Skills: (I:)(Class:)(Race:)(Familia:)(Chosen:)(Items:)
+Skills: (I:)(Class:)(Species:)(Familia:)(Chosen:)(Items:)
 Misc Items:
 _/}
 
@@ -936,11 +936,11 @@ Unique Unit - Throwing Axes
 Places of Interest - Baberg Bridge, Siklad Gold mine, Furlin salt mine, Horod iron mine town.
 
 League (Elf) 🧝‍♀️
-Military - Medium individuals, strong together but only one race, strong navy, medium military (use to be weak)
+Military - Medium individuals, strong together but only one species, strong navy, medium military (use to be weak)
 Diplomacy - None, mostly negative
 Religion -
 Culture -
-Ambition - Enslave the other races
+Ambition - Enslave the other species
 Stability - Mostly stable
 Secrets -
 Food -

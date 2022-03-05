@@ -139,7 +139,7 @@ const SubTitle = styled.h4`
 
 // Fast Regeneration
 // Life Absorption
-// Create Lesser Race by Bloodsucking
+// Create Lesser Species by Bloodsucking
 // Weapon Resistance
 // Ice-type Damage Resistance
 

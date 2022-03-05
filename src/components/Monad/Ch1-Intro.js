@@ -453,7 +453,7 @@ most people learn inspect but either see
           <p>"Level up!" the words cover Otto's vision.</p>
           <LevelUp
             level={1}
-            race={"normal"}
+            species={"normal"}
             class={"normal"}
             type={"mage"}
             details={""}
@@ -755,15 +755,15 @@ most people learn inspect but either see
           <p>
             "You all have 2 skill trees right now. Your class, for you all
             sitting here today that is Mage. If you put points into this skill
-            tree you will learn magic spells. Your second tree is your race, for
-            everyone here today that is clearly Human. For other races such as
-            elves from the Mifuegan League and naga from the Kingdom, their race
-            tree will not be human but of their own race."
+            tree you will learn magic spells. Your second tree is your species, for
+            everyone here today that is clearly Human. For other species such as
+            elves from the Mifuegan League and naga from the Kingdom, their species
+            tree will not be human but of their own species."
           </p>
           <p>
             "Today we will be looking at the Human skill tree. This skill tree
             is often overlooked by not only combat focused people but also other
-            races. While other races might get direct combat related skills and
+            species. While other species might get direct combat related skills and
             buffs the human skill tree is mostly focused around the charisma
             stat. This is the most overlooked stat in my opinion but you can
             make up your own mind."

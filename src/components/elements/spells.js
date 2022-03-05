@@ -1407,7 +1407,7 @@ export const spellList = {
   "Turn Undead": {
     name: "Turn Undead",
     passive: false,
-    1: "Undead races will be damaged in an area around you.",
+    1: "Undead species will be damaged in an area around you.",
   },
   "Turn the Faithless": {
     name: "Turn the Faithless",

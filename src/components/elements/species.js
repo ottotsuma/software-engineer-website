@@ -195,7 +195,7 @@ export const racesList = {
     tier: 'epic'
   },
 };
-// Bakeneko (monster) (one tail) cat demon,  & nekomata (race) (two tails), raises the dead with dances.
+// Bakeneko (monster) (one tail) cat demon,  & nekomata (species) (two tails), raises the dead with dances.
 
 function _try(func, fallbackValue) {
   try {
@@ -206,14 +206,14 @@ function _try(func, fallbackValue) {
   }
 }
 
-export default function RaceDisplay(Race) {
-  const Data = _try(() => racesList[Race])
+export default function RaceDisplay(Species) {
+  const Data = _try(() => racesList[Species])
   if(Data) {
     return (
       <BackgroundWrap>
       <Wrap Tier={monadColors[Data.tier] || ''}>
-        <Name>{Race}</Name>
-        {Data.image ? <Display src={Data.image} alt={Race} /> : <></>}
+        <Name>{Species}</Name>
+        {Data.image ? <Display src={Data.image} alt={Species} /> : <></>}
         <Info>{Data.notes ? Data.notes : ''}</Info>
         <Self>{Data.self ? 'Self: ' + Data.self : ''}</Self>
         <Team>{Data.team ? 'Team Bonus: ' +Data.team : ''}</Team>

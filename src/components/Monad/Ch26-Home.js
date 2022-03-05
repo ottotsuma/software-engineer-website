@@ -287,10 +287,10 @@ Charter Profile: Linhart
 Level: 20~30 (25) 
 Class:Mage(Fire) (Shown:+5 Magic)(Hidden: None)(Team Bonus: 5% reduction to magic spell cost)
 Familia: None (Shared:)(Not Shared:)
-Race:Human(Shown:Sense +1, Charisma +2)(Hidden: None)
+Species:Human(Shown:Sense +1, Charisma +2)(Hidden: None)
 Titles: 10 (2 not on list, become a noble & another.)
 Equipment: (Primary: Fire staff (normal))(Secondary: Dagger)(Head:)(Body: Light leather)(Hands: Leather)(Feet: Leather)(Acc1: Ring)(Acc2:)(Acc3:)(Acc4:)
-Skills: (I:)(Class: Manaball (1), Fireball (2), Flamethrower(2))(Race:)(Familia:)(Items:)
+Skills: (I:)(Class: Manaball (1), Fireball (2), Flamethrower(2))(Species:)(Familia:)(Items:)
 Misc Items: 
 Stats: Strength - +0, Vitality - +0, Defense - +0, Magic - +25, MDef - +10, Dexterity - +0, Sense - +0, Charisma - +15
 */}

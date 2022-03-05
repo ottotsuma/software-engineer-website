@@ -486,7 +486,7 @@ function Intro(props) {
           <p>
             The art work had been beautiful but haunting. It had shown a war, a
             great war but not over land, food, water, precious gems but people.
-            They had gone to war against other races for their people. To be
+            They had gone to war against other species for their people. To be
             precise the dwarves, elf's, gnoll's, gnomes and many I had never
             seen before. They took them to this temple, placed them on the
             tables and removed their hearts. It was hard to say why, or what
