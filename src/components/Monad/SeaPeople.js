@@ -120,8 +120,8 @@ export const SeaPeople = {
       <h2>List of the group</h2>
       <ul style={{ overflowWrap: "anywhere" }}>
         <li style={{ overflowWrap: "anywhere" }}>
-          Example: Name, species, class(), level, equipment, backstory(Main island,
-          other dlc before? ), clan/guild, reason for coming. PET(level)
+          Example: Name, species, class(), level, equipment, backstory(Main
+          island, other dlc before? ), clan/guild, reason for coming. PET(level)
         </li>
         <li style={{ overflowWrap: "anywhere" }}>
           Boy: Name, Dark Elf?, class(Rogue[]), 37, [Normal/Rare, mostly from
@@ -245,10 +245,10 @@ export const SeaPeople = {
       </p>
       <p>
         "Well, to be honest I don't really know what direction would be best. I
-        reached level 50 before but when my species changed, I have only been able
-        to get back to level 37 now." I admitted. I had not played for awhile.
-        Monad has the most interactive NPC's and the great immersion. Maybe
-        streamers, like Sarah, get a lot of views from their role playing
+        reached level 50 before but when my species changed, I have only been
+        able to get back to level 37 now." I admitted. I had not played for
+        awhile. Monad has the most interactive NPC's and the great immersion.
+        Maybe streamers, like Sarah, get a lot of views from their role playing
         streams. While others make money in other ways. To get in on this big
         market other game companies tried to also make fantasy RPGs, but they
         were never as real as Monad. I had left Monad for awhile to try and play
@@ -261,27 +261,28 @@ export const SeaPeople = {
         should of been small." He asked.
       </p>
       <p>
-        "Ah no, it is a rare rated species. So I went one rarity up, and although
-        its humanoid, it is a species of elf so I jumped from human, to elf, to
-        dark elf... So instead of the random level reduction it took me back to
-        level 1." I replied. This was to account for players turning into all
-        kinds of species. If you were once a human and turned into something with
-        winds, tentacles or claws, it would take some getting use to. To account
-        for this, when you changed species or class you would lose a few levels.
+        "Ah no, it is a rare rated species. So I went one rarity up, and
+        although its humanoid, it is a species of elf so I jumped from human, to
+        elf, to dark elf... So instead of the random level reduction it took me
+        back to level 1." I replied. This was to account for players turning
+        into all kinds of species. If you were once a human and turned into
+        something with winds, tentacles or claws, it would take some getting use
+        to. To account for this, when you changed species or class you would
+        lose a few levels.
       </p>
       <p>
-        "I suddenly don't feel bad for you at all. You got a rare species at level
-        50." He joked. "But hey, what are the skills like for a dark elf? Tell
-        me all the ones you can see, I'll see if they match your play style!" He
-        suddenly seemed excited at finding out something new.
+        "I suddenly don't feel bad for you at all. You got a rare species at
+        level 50." He joked. "But hey, what are the skills like for a dark elf?
+        Tell me all the ones you can see, I'll see if they match your play
+        style!" He suddenly seemed excited at finding out something new.
       </p>
       <p>
         I told him everything I could, from the skills to the bonuses and draw
         backs of being a dark elf. What he found most surprising was that
         despite reaching level 50 I never got a pet. The thing was when I
-        reached level 50 I got the species change at the same time so I didn't wait
-        to get a pet. We all make mistakes. So we kept talking until we became
-        hungry.
+        reached level 50 I got the species change at the same time so I didn't
+        wait to get a pet. We all make mistakes. So we kept talking until we
+        became hungry.
       </p>
     </Content>
   ),
@@ -756,8 +757,8 @@ export const SeaPeople = {
         Sarah appeared were I was once stood and I knew these two had been
         playing for longer then me but this level of reaction and knowing which
         skills would be useful was far above me right now. Maybe my Dark Elf
-        species had some cool and unique abilities I just had to think of ways to
-        use them. We ran without talking again towards the crab, however this
+        species had some cool and unique abilities I just had to think of ways
+        to use them. We ran without talking again towards the crab, however this
         time we were getting closer to where the crab must be turning around and
         he came back quicker. Or at the same speed just we were closer to his
         start point now so the moment we saw him we had to pick a side to run
@@ -1695,9 +1696,9 @@ export const SeaPeople = {
       </p>
       <p>
         I screamed at him about how I am not a bloody wood elf, I was a dark
-        elf. We hated the wood elves more then any other species! Thanks to my less
-        then stellar German, the introduction of a species he had never heard of
-        and my fits of rage he barely understood any of it.
+        elf. We hated the wood elves more then any other species! Thanks to my
+        less then stellar German, the introduction of a species he had never
+        heard of and my fits of rage he barely understood any of it.
       </p>
       <p>
         You know what? Screw this Erich and his people. Someone else can help
@@ -2005,8 +2006,8 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
       <p>Ah potato's, knew I forgot something.</p>
       <p>
         "Dark elf. Not burnt elf. This is my natural skin, we are not the same
-        species." Noah corrected. Did he have a death wish? It took long enough to
-        get here!
+        species." Noah corrected. Did he have a death wish? It took long enough
+        to get here!
       </p>
       <p>
         "A different species? The only change is the color of your skin?" Master
@@ -2231,10 +2232,17 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
       </Sarah>
       <Josh>"Thanks." I replied putting it away for now.</Josh>
       <Josh>
-        We rode up to the guards posted at the village entrance. They seemed unsurprised by our wagon and far more interested in Noah.
+        We rode up to the guards posted at the village entrance. They seemed
+        unsurprised by our wagon and far more interested in Noah.
       </Josh>
       <p>
-        "What's wrong with you? Is it disease?" A guard shouted up to Noah. I could not help but giggle, it should not be funny, but his being misunderstood was his misfortune.
+        The guards shouted something at Noah. Sarah just huffed and turned to
+        me. "They just asked if Noah had a disease, you know because he's a dark
+        elf." I could not help but giggle, it should not be funny, but his being
+        misunderstood was his misfortune.
+      </p>
+      <p>
+        She made her annoyance known to the guards, probably telling them the story Kiksotz told us to use. Noah was not diseased but Sarah's slave, his skin has been like it from birth and he was thrown out of the eleven territories because of it. My job was simple, look menacing but bored. I like to think my face was made for this role.
       </p>
       {/* Give the blood bottle to Sarah, after she is injured by the priest */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}
@@ -2298,4 +2306,3 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
     </Content>
   ),
 };
-
