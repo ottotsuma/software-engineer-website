@@ -769,6 +769,7 @@ Tisiel Skivali - (cliffs) imperial name,(huonoia) - scholar/necromancer (GONE)
 <li> Oskar, adult swordsman Savigal level 10 dungeon.
 <li> Anneliese, Fighter, Child, Savigal, level 10 dungeon.
 <li> Klemens, rogue, child, Savigal level 10 dungeon.
+<li> Juan Ponce de León - New world player, Inquisitor of Sarahs old church.
 ---
 
 Alden Royals:

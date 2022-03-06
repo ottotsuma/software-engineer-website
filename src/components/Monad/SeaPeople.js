@@ -10,7 +10,7 @@ import Equipment from "./../elements/equipment";
 import Stats from "./../elements/stats";
 import Spells from "./../elements/spells";
 import Blood from "./../../assets/Blood.jpg";
-import { Sarah, Josh } from "./CharacterFonts";
+import { Sarah, Josh, Juan, Noah } from "./CharacterFonts";
 
 export const Shine = styled.p`
   font-size: xxx-large;
@@ -2303,9 +2303,14 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         abilities as rewards. A fight over religions influence was a fight
         between the gods themselves.
       </Josh>
-      <p>
+      <Juan>
+        {/* Juan Ponce de León */}
+        The old man then turned around and looked right at Sarah. "Oh!" He exclaimed, holding his arms out wide either side of himself. "It has been a long time. Why so stiff? Do you not remember me?" the old man asked in a loud voice.
         {/* turns around and addresses Sarah having no idea she left the church. */}
-      </p>
+      </Juan>
+      <Sarah>
+        "Forgive me Inquisitor Juan, I was just shocked to see you here. Last we met was in "
+      </Sarah>
       {/* Give the blood bottle to Sarah, after she is injured by the priest */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}
       {/* All the normal land, and sea routes on the way to Alden are

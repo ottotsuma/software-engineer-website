@@ -11,6 +11,9 @@ import styled from "styled-components";
   export const System = styled.p`
   font-family: 'Gugi', cursive;
   `;
+  export const Juan = styled.p`
+  // Juan Ponce de León 
+  `;
   export const Anneliese = styled.p`
   `;
   export const Mia = styled.p`
