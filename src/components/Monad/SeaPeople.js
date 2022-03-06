@@ -2257,8 +2257,55 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         you.
       </Josh>
       <Josh>
-        The town was not very busy, it was remote, and the war was mostly being fought further to the west this was still a border town to the country they were at war with, I guess this is why Kiksotz chose this town in the first place.
+        The town was not very busy, it was remote, and the war was mostly being
+        fought further to the west this was still a border town to the country
+        they were at war with, I guess this is why Kiksotz chose this town in
+        the first place.
       </Josh>
+      <Josh>
+        Noah lead our carriage over to an inn, it seems we were allowed, due to
+        Sarah's noble status to use the carriage to get to the inn but after our
+        arrival the carriage and mounts would have to go back to the stable. The
+        inn was nothing much even if they told me it was the largest in town.
+        The biggest of anything in a small town was never very big. Three floors
+        tall, with orange, red, yellow, pink cloth hanging from each window,
+        even if they were pinned at top and bottom they still flapped about in
+        the wind.
+      </Josh>
+      <Josh>
+        We had our belongings transferred into the rooms. The boxes we took with
+        us contained nothing but cotton and other common materials, the whole
+        thing was just a sham. It's not like Sarah really owned lots of fancy
+        dresses, clothes and jewelry a real noble would own.
+      </Josh>
+      {/* https://static.wikia.nocookie.net/shadowverse/images/f/f3/Priest_of_the_Cudgel.png/revision/latest?cb=20171006174601 */}
+      <Josh>
+        I was escorting Sarah into the inn when she stood frozen in place,
+        looking at the back of some bald headed man in a grey robe. His robe was
+        not even well kept, it was dirty at the bottom, coated in dried mud. I
+        inspected him since he had caught Sarah's attention and was shocked to
+        discover he was a player not an NPC.
+      </Josh>
+      <Josh>
+        Not everyone brought good equipment with them on the journey, after all
+        the trip was dangerous, each new continent came with hidden dangers.
+        However this person gave off no sense of danger, nothing on him looked
+        new or useful. I whispered to Sarah. "Do you know him?"
+      </Josh>
+      <Sarah>
+        "Yeah." Sarah replied softly. "He's an Inquisitor of my old church."
+      </Sarah>
+      <Josh>
+        "That.." I could not finish my sentence. Church's, or any religion in
+        Monad could play a huge role to a player. Religions could be a key power
+        player in a kingdom or span across several kingdoms. The god's often
+        played an active role in this world, manifesting powers, items and
+        abilities as rewards. A fight over religions influence was a fight
+        between the gods themselves.
+      </Josh>
+      <p>
+        {/* turns around and addresses Sarah having no idea she left the church. */}
+      </p>
       {/* Give the blood bottle to Sarah, after she is injured by the priest */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}
       {/* All the normal land, and sea routes on the way to Alden are
