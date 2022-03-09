@@ -3,6 +3,8 @@ https://guides.github.com/features/mastering-markdown/
 Re-Write all early story to have 1 - 9 being mage, no element and at level 10 you find out your element so they can change class like the rogue and fighter. Chapter 13 and earlier.
 # Random Ideas:
 
+area + species conquest ffx
+
 Non-aggression pact for discounts using guild services.
 
 Stealing the bird from a nest and raise it
