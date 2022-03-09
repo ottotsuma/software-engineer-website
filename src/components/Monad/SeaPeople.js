@@ -2305,11 +2305,15 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
       </Josh>
       <Juan>
         {/* Juan Ponce de León */}
-        The old man then turned around and looked right at Sarah. "Oh!" He exclaimed, holding his arms out wide either side of himself. "It has been a long time. Why so stiff? Do you not remember me?" the old man asked in a loud voice.
+        The old man then turned around and looked right at Sarah. "Oh!" He
+        exclaimed, holding his arms out wide either side of himself. "It has
+        been a long time. Why so stiff? Do you not remember me?" the old man
+        asked in a loud voice.
         {/* turns around and addresses Sarah having no idea she left the church. */}
       </Juan>
       <Sarah>
-        "Forgive me Inquisitor Juan, I was just shocked to see you here. Last we met was in "
+        "Forgive me Inquisitor Juan, I was just shocked to see you here. Last we
+        met was in "
       </Sarah>
       {/* Give the blood bottle to Sarah, after she is injured by the priest */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}
