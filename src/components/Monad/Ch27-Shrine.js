@@ -12,7 +12,7 @@ function Intro(props) {
           <h4>Shrine Date</h4>
           {/* Mask */}
           <p>
-            We walked from the restaurants back to the wooded area of the Leikan
+            We walked from the restaurants back to the wooded area of the Niyoshon
             people, we went down a quiet path I had never thought to take
             before. At the bottom was a shrine. A small pond sat in front of the
             shrine with a narrow stone bridge crossing over the middle of the
@@ -129,8 +129,8 @@ function Intro(props) {
             which Lakia is currently in control of. Inside they found a set like
             this for each of the elements and one final set of pure life
             elemental, after a lot of fighting and exchanges of money and land.
-            Alden holds the metal set, Huonhia the water set, Leika the wood
-            set, The Kingdom of Hatalia the fire set, Chingaling the earth set, leaving the
+            Alden holds the metal set, Herkikia the water set, Niyosho the wood
+            set, The Kingdom of Naj'es the fire set, Chingaling the earth set, leaving the
             final set of pure life in Utnaulach at the academy. What you have
             given me is too much, but I cannot say no... The sets are used to
             research the abilities on them, they are worth starting wars over."
@@ -149,7 +149,7 @@ function Intro(props) {
             suggested.
           </p>
           <p>
-            "Of course I can there is actually a Leikan princess here, it would
+            "Of course I can there is actually a Niyoshon princess here, it would
             not be a problem for her to do it. However this is taking a big
             research opportunity away from Alden." She replied.
           </p>
@@ -172,7 +172,7 @@ function Intro(props) {
             "Perfect time for a date, it has cheered me up." I said smiling. I
             took out the mask I had gotten from Leon back when I last visited
             him. We had no clue about what it was or used for but I figured I'd
-            give a shot asking, since it looks like a Leikan design. I held it
+            give a shot asking, since it looks like a Niyoshon design. I held it
             out in two hands and asked, "Do you know what this is? I don't. It
             was a gift from a friend.."
           </p>
@@ -237,8 +237,8 @@ function Intro(props) {
           <p>
             "The stag mask you have represents one of the gods of lightning. The
             white stag is from one of the local religions, Chingaling I believe.
-            They have a similar religion to us, Alden puts Chingaling, Huonhia
-            and Leika's religions into the same category." Pointing to the white
+            They have a similar religion to us, Alden puts Chingaling, Herkikia
+            and Niyosho's religions into the same category." Pointing to the white
             tiger mask she has on her face and says "This mask also represents a
             God of lightning, Byakko, he is the lord of season of autumn, the
             west and metal. What is import for us though is that both will be
@@ -313,7 +313,7 @@ Deer are considered messengers to the gods in Shinto, especially Kasuga Shrine i
             "Oh, yeah the second type is not a kind of mask you will be able to
             get. It is a godly mask, this kind of mask there is only one of in
             the world and contains the true blessing of that God. These masks
-            are held in the main shrine in Otsu the capital city of Leika. Yours
+            are held in the main shrine in Otsu the capital city of Niyosho. Yours
             should show an increase in magic right?"
           </p>
 

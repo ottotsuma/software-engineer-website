@@ -33,7 +33,7 @@ function Intro(props) {
             your attributes, but I'll let you in on a secret. You can if you change
             your class or element, you can reset back to level one and do it all
             over again. It is mostly just nobles who can afford to do this but
-            if you want I can share a class from Leika with you..." She said.
+            if you want I can share a class from Niyosho with you..." She said.
           </p>
 
           <p>
@@ -181,14 +181,14 @@ function Intro(props) {
             hunting regularly though could not be true.
           </p>
           <p>
-            "Say what is Leika like? How is it different?" I asked, wondering if
+            "Say what is Niyosho like? How is it different?" I asked, wondering if
             there would truly be any difference or it was that rich where very
             different form the normal people.
           </p>
           <p>
             "Hmm, I guess everyone who visits says it is clean, people are
             polite and that is is safe. Everyone told me I have to stay with the
-            other Leikans while I am in Alden, that Alden is not as safe. It's
+            other Niyoshons while I am in Alden, that Alden is not as safe. It's
             really annoying because I cannot even leave the academy while I am
             here!" She complained.
           </p>
@@ -208,7 +208,7 @@ function Intro(props) {
           <p>
             "Well for a start Alden uses tamed monsters from the forests which
             are really unique and cool! They have witches and curse magic while
-            in Leika we use the 鬼 (Oni), kind of demon like creatures we summon
+            in Niyosho we use the 鬼 (Oni), kind of demon like creatures we summon
             instead and they can be really creepy." She seemed really excited to
             see Aldens monsters, I would have to show her someday! "Oh we also
             make the melon pop that is famous! I hear Alden buys lots of it."
@@ -224,7 +224,7 @@ function Intro(props) {
           <p>
             "The sea people invasion over 10 years ago, he was a scout and was
             tracking them. I don't really know anything more, I was 0 years old
-            after all. Did they invade Leika?" I asked kind of curious.
+            after all. Did they invade Niyosho?" I asked kind of curious.
           </p>
           <p>
             "No, their first major landing was in Huonhoa, to be honest from
@@ -247,7 +247,7 @@ function Intro(props) {
           <p>"I'd like that." She replied.</p>
           <p>
             Soon we were back on the ground after having spoke more about Alden
-            and Leika. I wanted to keep talking to her, I guess the fair ground
+            and Niyosho. I wanted to keep talking to her, I guess the fair ground
             kind of reached it's climax already since it was so small. There is
             the log flume but who wants to get wet on a cold day!
           </p>

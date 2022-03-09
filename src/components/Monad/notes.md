@@ -1,7 +1,19 @@
 https://guides.github.com/features/mastering-markdown/
 
 Re-Write all early story to have 1 - 9 being mage, no element and at level 10 you find out your element so they can change class like the rogue and fighter. Chapter 13 and earlier.
+ 
+
+
 # Random Ideas:
+Migration of humans, Starting from the core.
+1) - Core + Wood-Elves (Europe)
+2)  - (Asia) - Connected across a large tundra?
+3)  - (Middle east) - Safer, route.
+4)  - (Indians) - Large single continent. (Deep water)
+5)  - (Africa) (Large new continent)
+6) Charia (New world) Large single content (Story)
+
+Dreonoqai, Kiubari, Yefux, Rosheakoris, Ulos
 
 area + species conquest ffx
 
@@ -40,7 +52,7 @@ He's so sorry his mamma swapped him for a dog. And then drowned the dog.
 
 // The villains are defeated near the start, then enslaved so its hard to see them as a threat, that is how they are treated by the natives also. But the treat comes later once they establish themselves. This will be hard to write.
 
-// Otto becomes the villain for the Aldenese later (Well a Thief) but the hero of leika but to start with is another villain of leika as he is a foreigner. Maybe these chapters would be better from another's view point.
+// Otto becomes the villain for the Aldenese later (Well a Thief) but the hero of Niyosho but to start with is another villain of Niyosho as he is a foreigner. Maybe these chapters would be better from another's view point.
 
 // Alden / elves are the villain for the other countries. Until they are not, replaced by something worse, the sea peoples empire.
 
@@ -900,6 +912,20 @@ Based on mesoamerican continent and ends with more advanced people landing slowl
 undead hags, water hags, blood corpse, flies, 
 ### Countries:
 
+Rename Leika to Niyosho
+Huonhia - Herkikia
+Hatalia - Naj'es
+Chalbia - Solzi
+
+Grand Duchy of Alden
+Republic of Heilerbach
+Mifuegan League
+Pocotcotco
+Kingdom of Naj'es
+Principality of Niyosho
+Principality of Huonhia
+Solzi
+
 Granduchy - elected grand duke from dukes.
 principality - ruled by a prince 
 kingdom - king
@@ -974,7 +1000,7 @@ Food - Mostly desert, imports food from others
 Economy type -
 Unique Unit - 
 
-Leika (Japan) ⛩
+Niyosho (Japan) ⛩
 Military - weak individuals, strong together, strong military, Strong navy
 Diplomacy - Medium, while they do not strongly anger anyone they are hardly friendly
 Religion - Shinto
@@ -989,7 +1015,7 @@ Places of Interest - Aesemria silver mine town
 
 Huonhia - essos, lyric speaking? - free city types ⚔
 Military - Strong individuals, strong core, weak auxiliary branches, would be strong overall if they would work together
-Diplomacy - Too focused internally, suits the leika just fine.
+Diplomacy - Too focused internally, suits the Niyosho just fine.
 Religion - Many gods.
 Culture - Each city has it's own differences but generally they are about their peoples freedom while enslaving others.
 Ambition - lack of...
@@ -999,7 +1025,7 @@ Food - Fertile land, but worked by the slaves
 Economy type -
 Unique Unit - Sacred Band
 
-Chalbia (Port) ⚓
+Solzi- Chalbia (Port) ⚓
 Military - Average individuals, strong navy, weak land forces, but very rich
 Diplomacy - Good with most, it's all about trade money and friends.
 Religion -
@@ -1032,8 +1058,8 @@ The Elves and the republic have had at least 2 famous battles against each other
 The new world is in a balance. 
 The Republic fractures from invasions by the Elves, late empire problems, uninterested ruling class, Alden invasion, Sea people sabotage.
 Alden invades Huonhia, they both collapse under the sea peoples invasion.
-The Kingdom having become the Empire forms a deal with Leika but are both destroyed by the sea people
-Our characters flee though the desert/Chalbia into Pocotcotco, who are under invasion by the Elves.
+The Kingdom having become the Empire forms a deal with Niyosho but are both destroyed by the sea people
+Our characters flee though the desert/Solzi into Pocotcotco, who are under invasion by the Elves.
 Who again fall before the sea people in ruin.
 
 

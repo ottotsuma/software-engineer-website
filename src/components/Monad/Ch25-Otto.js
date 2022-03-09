@@ -509,7 +509,7 @@ function Intro(props) {
           <p>
             He was wearing odd clothes, kind of cloth that folded over his chest
             in serval layers and baggy trousers. His shoes where made of plants
-            woven into each other, in all he looked like a Leikan. "You
+            woven into each other, in all he looked like a Niyoshon. "You
             alright?" I asked a little startled that there was even anyone here.
           </p>
 

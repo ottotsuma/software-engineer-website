@@ -27,13 +27,13 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
           </div>
           {/* Some kind of fight? */}
           <p>
-            In the Principality of Huonhia at the northern most point, I stood
-            waiting to receive orders from the Huonhian general. I was part of a
+            In the Principality of Herkikia at the northern most point, I stood
+            waiting to receive orders from the Herkikian general. I was part of a
             mercenary company brought up for this battle, we where a mixed band.
             I am a magic swords man wielding both magic and a short sword, the
             max next to me was a berserker wearing the head of a wampus cat and
             holding a giant two handed club. It was normal for us to work in
-            small groups with whoever but a Huonhia general was wealthy enough
+            small groups with whoever but a Herkikia general was wealthy enough
             to buy up our whole company and a few others for the season.
           </p>
           <p>
@@ -77,7 +77,7 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
           <p>I guess that is why he has the title 'The mad'.</p>
           <p>"Charge!"</p>
           <p>
-            The Huonhians moved in first, in lines with long spears pointed out
+            The Herkikians moved in first, in lines with long spears pointed out
             over their shields. They formed walls of spears and white armor. To
             the flanks where the skirmishers, those who threw projectiles or
             magic into the enemies to tie them down. We where behind them. Once
@@ -149,7 +149,7 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
           <p>
             Edmure whispered into my ear, there have been sightings of the sea
             people off the coast. They had been pushed back into the sea at the
-            last battle of Huonhia so they must either be heading home or
+            last battle of Herkikia so they must either be heading home or
             looking for a new place to land. I nodded and left the town hall and
             went to the walls.
           </p>
@@ -221,7 +221,7 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
           </p>
           <p>"Aha, well is there any news not from the Republic?" I asked.</p>
           <p>
-            "Elves have cat fever. Gianlongian in Huonhia has a drought, their
+            "Elves have cat fever. Gianlongian in Herkikia has a drought, their
             second biggest port city included. Desonean in the Kingdom has
             flooded, the main river through the kingdom that is. To top it all
             off a Malgian Crusade has been called in the Kingdom, I can only
@@ -340,11 +340,11 @@ most people learn inspect but either see
           {/* <!-- news could be brought back from the town hall by Robert --> */}
           {/* <p>
             Chab Jun 12 21-22, The Grand Duchy shares a large boarder with the
-            Principality of Huonhia to the south-east, a small boarder with the
-            Principality of Leikia to the South. A mostly abandoned boarder with
+            Principality of Herkikia to the south-east, a small boarder with the
+            Principality of Niyosho to the South. A mostly abandoned boarder with
             the Kingdom of Hatalisa to the west. The kingdom has recently made
             peace with the Pocotocotcan Theocracy, after joining forces with
-            Leikia, Chalbia & the Mifuegan League off far to the west, the peace
+            Niyosho, Solzi & the Mifuegan League off far to the west, the peace
             led Pocotocotcan to give lands to the Empire, including the trading
             town of Tlapatan.
           </p> */}
@@ -871,9 +871,9 @@ most people learn inspect but either see
 <!-- 
 These are the names given by the people of Alden.   
 Alden - german 
-huonhia - essos, lyric speaking? - free city types
-hatalia - desert people, empire from the god of items books
-leika, sea people, japanese? inspired 
+Herkikia - essos, lyric speaking? - free city types
+Naj'es - desert people, empire from the god of items books
+Niyosho, sea people, japanese? inspired 
 chaibia, rivers, boats, ships trade, LOR inspired human mixed settlement 
 pocotcotco - south american inspired, religious 
 mifuengo - high elf ES inspired - yeah
@@ -881,7 +881,7 @@ heilerbach - the republic, eastern centric, like russia shaped, italian roman?
 
 Alden has a religious and cultural split in the north east. 
 
-Culture: Huonhia its self is greek, free city types. the people in the north of both states are hungarian.
+Culture: Herkikia its self is greek, free city types. the people in the north of both states are hungarian.
 To the W dwarven is the main culture in Alden. Split with 2 other nation states.
 
 There are 3 religious splits along the same lines.

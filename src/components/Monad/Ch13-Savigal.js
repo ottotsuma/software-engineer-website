@@ -18,13 +18,13 @@ function Intro(props) {
             mention. Just ships and merchants. The merchants set their goods up
             on wooden crates or out the back of the wagons, no real stalls, but
             I was hungry and not about to complain. The port had 2 ships in
-            dock, a small cog with one sail. The other was a Hatalia ship, a
+            dock, a small cog with one sail. The other was a Naj'es ship, a
             balinger with a single mast with many holes for oars. Although the
             sails were closed right now, I could only tell it was from The
-            Kingdom of Hatalia because of the flag flown from the rear of the
+            Kingdom of Naj'es because of the flag flown from the rear of the
             ship. It was unlikely they built the ship themselves, The kingdoms's
             navy might be as large as Aldens but they brought their ships from
-            Chalbia.
+            Solzi.
           </Otto>
           <p>
             I made my way through the small market place buying fruits, I always
@@ -233,7 +233,7 @@ function Intro(props) {
           </p>
           {/* Be here for a week while the mage is on holiday visiting her family. */}
           <p>
-            Savigal was a port town on the edge of Huonhia now. In the past this
+            Savigal was a port town on the edge of Herkikia now. In the past this
             town use to sit in the middle of Chingaling. It was a small port
             with little reason to become a port at the time. It was right next
             to a large monster territory, not the fastest port to Chihal, the
@@ -900,7 +900,7 @@ function Intro(props) {
           <p>
             "Ah I had been meaning to thank you more for helping me get back
             home alive, I didn't really have anything to give at the time, but
-            recently I traveled through the forest guiding a Huonhia traveler
+            recently I traveled through the forest guiding a Herkikia traveler
             and came across this." Leon placed a bone white mask on my lap, it
             had large stag like antlers sticking out of the top but it looked to
             all be on piece no joins or breaks and all of it bone white, when I
@@ -913,7 +913,7 @@ function Intro(props) {
           <p>
             "Ah truth be told, I am not too sure what it does, I showed it to my
             master but he said to keep it it was not something he could sell,
-            it's not a mana item he said. Apparently it is from Leika apart of
+            it's not a mana item he said. Apparently it is from Niyosho apart of
             their old religion."
           </p>
 

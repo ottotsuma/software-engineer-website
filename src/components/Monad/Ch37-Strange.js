@@ -8,7 +8,7 @@ function Intro(props) {
       <h4>Odd balls</h4>
       {/* Strange class */}
       {/* Nobles argue */}
-      {/* Leikans leave */}
+      {/* Niyoshons leave */}
       {/* Off to fight in the war */}
       <p>
         "Now that you are all at a point were you understand the very basics,
@@ -21,7 +21,7 @@ function Intro(props) {
         "Well your not the first or only to think so. For the longest time if
         anyone did care their voice was not recorded. We actually owe to
         parities for our current theories in Alden. The witch of the west and
-        the Leikans. Thanks in part to their, alternative views on subjects. We
+        the Niyoshons. Thanks in part to their, alternative views on subjects. We
         currently believe that, and pay attention now." He turned and started
         drawing on the board behind him. A human body at first....
       </p>

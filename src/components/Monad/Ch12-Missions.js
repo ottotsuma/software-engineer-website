@@ -28,7 +28,7 @@ function Intro(props) {
             them seemed to suit her, Reingard had even joined her as a
             bodyguard. Otto left through the portal back to Banderedam, this
             mission would take him though Chihal and down to Savigal a port town
-            on the border with Huonhia. Since his ID now had him marked as a
+            on the border with Herkikia. Since his ID now had him marked as a
             combat mage he was able to join a merchant group heading to Chihal.
           </p>
 
@@ -37,7 +37,7 @@ function Intro(props) {
             Chihal sat between 3 ports so naturally had a large market place.
             There were no walls, no castle and seemed very peaceful, it was far
             from any border conflict with the monsters down south even if
-            Huonhia ever tried to invade it was unlikely they would push this
+            Herkikia ever tried to invade it was unlikely they would push this
             far to assault Chihal it could not serve any strategic importance.
             The town it's self was rather small, there were few farms outside
             tended by mages who had retired from the academy and inside the town

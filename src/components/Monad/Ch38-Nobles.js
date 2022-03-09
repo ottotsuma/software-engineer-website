@@ -10,7 +10,7 @@ function Intro(props) {
       <div className="BreakPoint" />
       <h4>The Nobles</h4>
       {/* Nobles argue */}
-      {/* Leikans leave */}
+      {/* Niyoshons leave */}
       {/* Off to fight in the war */}
       <p></p>
     </Content>

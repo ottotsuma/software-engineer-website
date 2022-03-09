@@ -146,8 +146,8 @@ function Academy(props) {
             going to be living above the shops and restaurants. I walked just a
             little further and saw the houses of stone had become wooden,
             although still nice. The rooves where pointed and curved at the end
-            and looked like how I would imagine a house from Leika would be.
-            Leika's were suppose to be famous for living with the environment,
+            and looked like how I would imagine a house from Niyosho would be.
+            Niyosho's were suppose to be famous for living with the environment,
             so I always imagined them living in wooden houses.
           </p>
           <p>
@@ -382,17 +382,17 @@ function Academy(props) {
             asked.
           </p>
           <p>
-            "Nowhere special but just past the Leika's area is the restaurants
+            "Nowhere special but just past the Niyosho's area is the restaurants
             that are closest to here, they all seem fine to me. You know the
             place with the normal houses we can't stay in..." She replied.
           </p>
           <p>
-            "Lead the way, I'll pay. I knew those houses were Leikan style. Why
+            "Lead the way, I'll pay. I knew those houses were Niyoshon style. Why
             are they out here? Don't they have their own academy in Alden?" I
             asked.
           </p>
           <p>
-            "Ohhh have you not spent the loan yet?" She asked. "Oh a Leikan
+            "Ohhh have you not spent the loan yet?" She asked. "Oh a Niyoshon
             princess came to study Aldenese magic. That's all I really know to
             be honest." She added.
           </p>

@@ -122,7 +122,7 @@ function Intro(props) {
             dwindling number and the place seemed to bring the occupants back
             luck. Despite it being nice to have a lot of room to myself, she was
             right that place would just hold old memories now. So I asked to be
-            moved to the wooded Leikan area, which was met with a shocked face
+            moved to the wooded Niyoshon area, which was met with a shocked face
             from Lenne, but she said if I insisted that was the place I wanted
             to be that would be fine but if I changed my mind I should come back
             anytime and tell her.
@@ -130,7 +130,7 @@ function Intro(props) {
 
           <p>
             After Lenne parted ways with us Lubin asked "Why did you chose the
-            Leikan area? She was offering you far better and closer residences
+            Niyoshon area? She was offering you far better and closer residences
             to the academy. You didn't have to be so polite and pick some where
             near the cliff side if that was your intention. It wouldn't be a
             problem to move you close to the nobles quarters if you asked her." I
@@ -144,15 +144,15 @@ function Intro(props) {
             I was thinking at the time. Lubin just laughed and put it down to me
             not haven eaten a good meal in a long time. Once we had reached the
             academy's market and shopping area Lubin headed back to the academy,
-            he had to work after all. I headed into the Leikan area to get some
+            he had to work after all. I headed into the Niyoshon area to get some
             food and then I would go to the cliffs to pack.
           </p>
 
           <p>
             I headed to the same place I had the ramen before. I picked another
             stand, a kind of want to try all of the foods here while I could.
-            Leikan food is not popular in Alden and hard to find. You would
-            think it would be easier being that Leika is not far from Alden but
+            Niyoshon food is not popular in Alden and hard to find. You would
+            think it would be easier being that Niyosho is not far from Alden but
             their diet is so different.
           </p>
 

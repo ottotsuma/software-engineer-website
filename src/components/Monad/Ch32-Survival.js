@@ -29,12 +29,12 @@ function Intro(props) {
             Vasso's family might be the co-head of magic in Alden and a Duke,
             but Alden voted for their rulers from the dukes and was therefore
             not next in line for the throne. While the princess was next in line
-            for the throne of Leika.
+            for the throne of Niyosho.
           </p>
           <p>
             It made sense though, if he could secure that marriage it would
             almost be foolish to not elect house Elzach to the throne and use
-            that alliance to secure the southern border with Huonhia. The
+            that alliance to secure the southern border with Herkikia. The
             kingdom might not like the new alliance but Alden would have more
             breaking room to stand up to them. However from what Tsuma was
             saying the princess would sooner burn all and any relations with
@@ -160,15 +160,15 @@ function Intro(props) {
           </p>
           <p>
             This was mind blowing. I thought all countries had the same
-            understanding of attributes as Alden did. Did Leika know more then we did
+            understanding of attributes as Alden did. Did Niyosho know more then we did
             or was it just a different view of the same topics? And more
             importantly there was importance placed on Charisma and Sense was
-            higher in the Leikan teachings while in Aldenese these were seen as
+            higher in the Niyoshon teachings while in Aldenese these were seen as
             minor even noncombat like attributes.
           </p>
           <p>
             "Why is there so little importance on the role of defense in this
-            book? Is this just how Leikans view the attributes?" I asked hoping to
+            book? Is this just how Niyoshons view the attributes?" I asked hoping to
             clear up some of my confusion.
           </p>
           <p>
@@ -182,7 +182,7 @@ function Intro(props) {
             confirming some of my first thoughts.
           </p>
           <p>
-            "Leika is famous for archers and nature magic right? I did some
+            "Niyosho is famous for archers and nature magic right? I did some
             reading while I have been staying here." I said hoping she would be
             impressed.
           </p>
@@ -198,8 +198,8 @@ function Intro(props) {
           </p>
           <p>
             "Well, honestly, there have been no major wars between us. We share
-            a small border but the major road from Alden to Leika is through
-            Huonhia." She replied. Maybe she was less interested in the
+            a small border but the major road from Alden to Niyosho is through
+            Herkikia." She replied. Maybe she was less interested in the
             possibility and thought about the past.
           </p>
           <p>
@@ -212,7 +212,7 @@ function Intro(props) {
           </p>
           <p>"Yeah?" I answered.</p>
           <p>
-            "Well the princess is going to be called back to Leika also. I
+            "Well the princess is going to be called back to Niyosho also. I
             should not really be telling you this but I want to give you what I
             can... Alden is preparing for war." She said.
           </p>
@@ -221,10 +221,10 @@ function Intro(props) {
             few years." I said confused.
           </p>
           <p>
-            "No, I mean a northern war. We are moving back to Leika because of
+            "No, I mean a northern war. We are moving back to Niyosho because of
             the dangers. Alden feels like it can break through the republic and
             claim back the lands it lost in the past and things will be over
-            quickly. Leika feels like they are overestimating themselves a
+            quickly. Niyosho feels like they are overestimating themselves a
             little. So for the princesses safety she is being called back...
             That means I have to leave also..." She said gently breaking the
             news.
@@ -254,7 +254,7 @@ function Intro(props) {
             a lie. If it was Tsuma it was the truth.
           </p>
           <p>
-            "Well this kind of thing has happened in Leika in the past. I think
+            "Well this kind of thing has happened in Niyosho in the past. I think
             that is were they got the idea from and are using it as a kind of
             experiment on the students to see the effects. Even if you are not
             picked from your class, war is coming to Alden. You need to be

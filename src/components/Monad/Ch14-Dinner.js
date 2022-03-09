@@ -44,7 +44,7 @@ function Intro(props) {
             call me Tsuma."
           </p>
           <p>
-            "Nice to meet you Tsuma, your acescent are you from Leika? It's very
+            "Nice to meet you Tsuma, your acescent are you from Niyosho? It's very
             loverly."
           </p>
           <p>"Yes, I came here as an exchange, I am in my second year here."</p>
@@ -67,7 +67,7 @@ function Intro(props) {
           <p>"Ah that won't be possible the seats are arranged before hand."</p>
           <p>
             "How about a date? A short one, tonight after the dinner. I'd like
-            to take you to a cafe and talk, I've never been to Leika so perhaps
+            to take you to a cafe and talk, I've never been to Niyosho so perhaps
             we can start there."
           </p>
           <p>

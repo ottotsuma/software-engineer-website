@@ -40,7 +40,7 @@ function Intro(props) {
             I ate and walked outside, one of the men that lived in the small
             village style they set up waved to me and shouted "You must of come
             home late last night I did not see you in the baths." Ah that,
-            Leikan people bathed every night in public baths. At first it was
+            Niyoshon people bathed every night in public baths. At first it was
             really weird to me that they bathed together and every single night,
             but honestly I got over it pretty quickly.
           </p>
@@ -668,14 +668,14 @@ function Intro(props) {
           <div className="BreakPoint" />
           <p>
             I had to get back quickly. I had a date tonight so I saw Ralsan off
-            at the farm and ran back to the Leikan area. I bathed quickly and
+            at the farm and ran back to the Niyoshon area. I bathed quickly and
             headed over to the princesses manor. Tsuma worked there as a hand
             maid to the princess, but I had never met the princess. Not that a
             princess should meet someone like me.
           </p>
           <p>
             She was waiting for me in the manors garden. Wearing a long bright
-            red skirt and wrapped white top in the Leikan style she looked
+            red skirt and wrapped white top in the Niyoshon style she looked
             beautiful. (Picture here? Think Kimono.) I walked over and she
             turned her head to look at me. "And here I was thinking you wouldn't
             show up."
@@ -694,7 +694,7 @@ function Intro(props) {
           </p>
           <p>"Eh? You never had flowers before?" I asked confused.</p>
           <p>
-            "Well in Leika we use them for funerals, so I guess no one wants to
+            "Well in Niyosho we use them for funerals, so I guess no one wants to
             be reminded of the dead." She said looking at the flower.
           </p>
           <p>"Oh. I am sorry I had no idea." I said a little awkwardly.</p>

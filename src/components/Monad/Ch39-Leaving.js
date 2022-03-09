@@ -4,7 +4,7 @@ function Intro(props) {
 return (
 <Content>
     <h4>Leaving</h4>
-    {/* Leikans leave */}
+    {/* Niyoshons leave */}
     {/* Off to fight in the war */}
 </Content>
 );

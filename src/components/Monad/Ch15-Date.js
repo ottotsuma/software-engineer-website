@@ -113,7 +113,7 @@ function Intro(props) {
           </p>
 
           <p>
-            "Oh his Alden is a little rusty we only speak Leikan at home.. Off
+            "Oh his Alden is a little rusty we only speak Niyoshon at home.. Off
             you go play!" She made a shooing motion with her hands as Byakko
             looked a little displeased muttering to himself "My Alden is just
             fine I can speak over 20 languages fluently..." He jumped onto the
@@ -175,7 +175,7 @@ function Intro(props) {
 
           <p>
             "Oh, no no I am sorry I forgot it was super late. I'll walk you
-            home, I have to walk past the Leikan camp to get back to the cliff
+            home, I have to walk past the Niyoshon camp to get back to the cliff
             side."
           </p>
 
@@ -207,7 +207,7 @@ function Intro(props) {
             impressed by her ambition.
           </p>
 
-          <p>We parted ways outside the Leikan camp and I headed back to the cliff side for the night.</p>
+          <p>We parted ways outside the Niyoshon camp and I headed back to the cliff side for the night.</p>
 
           {/* <!-- Date 2 --> */}
           <h4>Play Date</h4>
@@ -256,7 +256,7 @@ function Intro(props) {
                 <h4 id="Small-Headline">Nektarios Lamprallis The Madder!</h4>
                 <div className="Newspaper-Content">
                   <p id="News">
-                    Nektarios Lamprallis the mad, general who led the Huonhians
+                    Nektarios Lamprallis the mad, general who led the Herkikians
                     against the sea people 10 years ago has been given the title
                     'Totally mad'. <br />
                     In a recent investigation into missing funds it was

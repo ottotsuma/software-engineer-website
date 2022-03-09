@@ -314,7 +314,7 @@ function Duel(props) {
       <p>
         A boy stumbled by my cell as if he had been pushed, with straight black
         hair, a pale completion but otherwise well kept and clean. He was not
-        Aldenese, he looked almost Leikan. Wearing a black academy robe with a
+        Aldenese, he looked almost Niyoshon. Wearing a black academy robe with a
         purple trim. That is not one you see often I thought, although I heard
         there where a few in the academy more then other academy's but he is a
         Necromancer.
@@ -352,7 +352,7 @@ function Duel(props) {
       <p>
         Orcs? Goblins? I thought these were monsters not another species, and there
         are some I never even heard of... I should return this and maybe ask
-        where he's from, maybe these are monsters from Leika and the book is
+        where he's from, maybe these are monsters from Niyosho and the book is
         badly translated? I did not want to slide the book over and it not reach
         his cell, so I pushed it with some of my mana not infused with my
         element.

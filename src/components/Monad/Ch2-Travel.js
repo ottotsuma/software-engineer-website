@@ -232,7 +232,7 @@ function Travel(props) {
             only had one magic academy so students no matter how far would have
             to make their way there. Although the journey to this point had been
             as expected where small monsters where driven off by the numbers or
-            guardians the road to Banderedam traveled close to Huonhia and near
+            guardians the road to Banderedam traveled close to Herkikia and near
             an area often overrun by monsters. It was a rainforest where a few
             major rivers became one and followed into the sea, if it where not
             for the abundance of monsters it is likely this would be the
@@ -282,10 +282,10 @@ function Travel(props) {
           </p>
           <p>
             "Suppose so. Well Chingaling was a country before, made up of people
-            from Hathapatson in Alden to Dodgud in Huonhia. Alden and Huonhia
+            from Hathapatson in Alden to Dodgud in Herkikia. Alden and Herkikia
             split the country in two and claimed it for their own. Although the
             official story is the people of Banderedam where demon worshipers so
-            Alden occupied that area and Huonhia occupied the rest to protect
+            Alden occupied that area and Herkikia occupied the rest to protect
             the people from Alden. I suppose the truth depends on who you ask."
             He explained.
           </p>
