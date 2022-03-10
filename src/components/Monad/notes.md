@@ -912,10 +912,12 @@ Based on mesoamerican continent and ends with more advanced people landing slowl
 undead hags, water hags, blood corpse, flies, 
 ### Countries:
 
-Rename Leika to Niyosho
-Huonhia - Herkikia
+Rename Leika to Shogunate of Niyosho,
+Huonhia - League of Herkikia
 Hatalia - Naj'es
 Chalbia - Solzi
+
+Mifuegan League to United Provinces of Oflralensa
 
 Grand Duchy of Alden
 Republic of Heilerbach
