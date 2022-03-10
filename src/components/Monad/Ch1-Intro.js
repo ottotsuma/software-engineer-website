@@ -27,7 +27,7 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
           </div>
           {/* Some kind of fight? */}
           <p>
-            In the Principality of Herkikia at the northern most point, I stood
+            In the Herkikia League at the northern most point, I stood
             waiting to receive orders from the Herkikian general. I was part of a
             mercenary company brought up for this battle, we where a mixed band.
             I am a magic swords man wielding both magic and a short sword, the
@@ -340,11 +340,11 @@ most people learn inspect but either see
           {/* <!-- news could be brought back from the town hall by Robert --> */}
           {/* <p>
             Chab Jun 12 21-22, The Grand Duchy shares a large boarder with the
-            Principality of Herkikia to the south-east, a small boarder with the
-            Principality of Niyosho to the South. A mostly abandoned boarder with
-            the Kingdom of Hatalisa to the west. The kingdom has recently made
+            Herkikia League to the south-east, a small boarder with the
+            Shogunate of Niyosho to the South. A mostly abandoned boarder with
+            the Kingdom of Naj'es to the west. The kingdom has recently made
             peace with the Pocotocotcan Theocracy, after joining forces with
-            Niyosho, Solzi & the Mifuegan League off far to the west, the peace
+            Niyosho, Solzi & the United Provinces of Oflralensa off far to the west, the peace
             led Pocotocotcan to give lands to the Empire, including the trading
             town of Tlapatan.
           </p> */}
@@ -566,10 +566,11 @@ most people learn inspect but either see
             where she built up her power and with that power pushed out the
             westerns and founded the city of Alden. Seeing this weakness in
             their rulers the other people of the east threw off their western
-            rulers and built kingdoms and principality's for themselves. The
+            rulers and built kingdoms and Leagues's  for themselves. The
             witch not wanting to rule alone made her commanders dukes. So Alden
             is a Grand Duchy.
           </p>
+          {/* League = Herkikia League */}
           <h4>Beke POV</h4>
           <p>
             Beke outside the town hall, looking around he could see some of the
@@ -757,7 +758,7 @@ most people learn inspect but either see
             sitting here today that is Mage. If you put points into this skill
             tree you will learn magic spells. Your second tree is your species, for
             everyone here today that is clearly Human. For other species such as
-            elves from the Mifuegan League and naga from the Kingdom, their species
+            elves from the United Provinces of Oflralensa and naga from the Kingdom, their species
             tree will not be human but of their own species."
           </p>
           <p>
@@ -839,7 +840,7 @@ most people learn inspect but either see
             large map laid out on the floor and had to match the people group to
             each of the areas they lived in. While people moved around so it was
             not like all elves lived in one place but it was safe to say the
-            majority lived in the Mifuegan League, the most western country.
+            majority lived in the United Provinces of Oflralensa, the most western country.
             Aldenese was easy! That was right here in Alden.
           </p>
           {/* <h3>Departure</h3> */}

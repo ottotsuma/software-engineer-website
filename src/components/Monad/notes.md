@@ -912,20 +912,20 @@ Based on mesoamerican continent and ends with more advanced people landing slowl
 undead hags, water hags, blood corpse, flies, 
 ### Countries:
 
-Rename Leika to Shogunate of Niyosho,
-Huonhia - League of Herkikia
+Rename 
+Leika - Shogunate of Niyosho,
+Huonhia - Herkikia League
 Hatalia - Naj'es
 Chalbia - Solzi
-
-Mifuegan League to United Provinces of Oflralensa
+Mifuegan League - United Provinces of Oflralensa
 
 Grand Duchy of Alden
 Republic of Heilerbach
-Mifuegan League
+United Provinces of Oflralensa
 Pocotcotco
 Kingdom of Naj'es
-Principality of Niyosho
-Principality of Huonhia
+Shogunate of Niyosho
+Herkikia League
 Solzi
 
 Granduchy - elected grand duke from dukes.
@@ -990,7 +990,7 @@ Food - Fertile land, but too focused on traditional ways to make good use of it
 Economy type -
 Unique Unit - Eagle Warrior
 
-Kingdom (Empire) 🦎
+Kingdom of Naj'es (Empire) 🦎
 Military - weak individuals, strong together, many varied units with a strong core, strong military, weak navy
 Diplomacy - Arrogant but rational
 Religion - State religion - , split off religions -
@@ -1002,7 +1002,7 @@ Food - Mostly desert, imports food from others
 Economy type -
 Unique Unit - 
 
-Niyosho (Japan) ⛩
+Shogunate of Niyosho (Japan) ⛩
 Military - weak individuals, strong together, strong military, Strong navy
 Diplomacy - Medium, while they do not strongly anger anyone they are hardly friendly
 Religion - Shinto
