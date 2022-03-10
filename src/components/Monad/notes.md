@@ -2,16 +2,9 @@ https://guides.github.com/features/mastering-markdown/
 
 Re-Write all early story to have 1 - 9 being mage, no element and at level 10 you find out your element so they can change class like the rogue and fighter. Chapter 13 and earlier.
  
-
+Ibn Battuta - Legendary quest.
 
 # Random Ideas:
-Migration of humans, Starting from the core.
-1) - Core + Wood-Elves (Europe)
-2)  - (Asia) - Connected across a large tundra?
-3)  - (Middle east) - Safer, route.
-4)  - (Indians) - Large single continent. (Deep water)
-5)  - (Africa) (Large new continent)
-6) Charia (New world) Large single content (Story)
 
 Dreonoqai, Kiubari, Yefux, Rosheakoris, Ulos
 
@@ -1142,6 +1135,14 @@ Todtenwei - 272082858
 Steinauhau - 5628570730133
 Alden - 839360670
 Savigal - 640470293
+
+Migration of humans, Starting from the core.
+1) [Meroyri] - Core + Wood-Elves (Europe) + Tundra 
+2) [Lóng_zhī_guó] - (China) + Tundra 
+3) [Rayndr] - (Bridge, Al Bhed) - Safer, route.
+4) かざんとう -> あばんそふ [Abansofu]  (Xuanzang / Journey to the West) - (Indians) - Large single continent. (Deep water)
+5) [Lith_eru] - (Large new continent, sand world) [the location of the immortals war, their bodies made the desert, their power changed to mana and made the first humans]
+6) [Charia] (New world) Large single content (Story)
 
 ### Towns and cities
 
