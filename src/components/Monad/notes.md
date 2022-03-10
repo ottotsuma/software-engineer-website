@@ -934,7 +934,7 @@ kingdom - king
 republic - representatives from each place - all elected also
 Places joined together though alliance? to act as one unit under one representative
 pocotcotco ?
-chalbia ?
+Solzi ?
 
 Normal in the world to reach level 100, but few reset because the chances of unlocking anything new is little and it leaves you open to attack while you level back up. The advanced classes play a large role in the old lands but in the new world people are leveling up less so getting to 100 is a big deal.
 
@@ -1015,7 +1015,7 @@ Economy type -
 Unique Unit - Samurai
 Places of Interest - Aesemria silver mine town
 
-Huonhia - essos, lyric speaking? - free city types ⚔
+Herkikia League - essos, lyric speaking? - free city types ⚔
 Military - Strong individuals, strong core, weak auxiliary branches, would be strong overall if they would work together
 Diplomacy - Too focused internally, suits the Niyosho just fine.
 Religion - Many gods.
@@ -1059,7 +1059,7 @@ The Elves and the republic have had at least 2 famous battles against each other
 
 The new world is in a balance. 
 The Republic fractures from invasions by the Elves, late empire problems, uninterested ruling class, Alden invasion, Sea people sabotage.
-Alden invades Huonhia, they both collapse under the sea peoples invasion.
+Alden invades Herkikia League, they both collapse under the sea peoples invasion.
 The Kingdom having become the Empire forms a deal with Niyosho but are both destroyed by the sea people
 Our characters flee though the desert/Solzi into Pocotcotco, who are under invasion by the Elves.
 Who again fall before the sea people in ruin.
