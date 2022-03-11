@@ -350,7 +350,6 @@ function Combat(props) {
           <p>"Ah, I'll be down shortly, thank you Ralsan." I replied.</p>
 
           {/* <!-- 
-
 let ATT = 15
 let LVL = 15
 let DEF = 0

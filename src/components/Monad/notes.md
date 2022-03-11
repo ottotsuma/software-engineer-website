@@ -6,6 +6,20 @@ Ibn Battuta - Legendary quest.
 
 # Random Ideas:
 
+Calculations: 
+https://www.breck-mckye.com/ffvii_damage_calc/ 
+http://z.purei.org/ffixcalc.php
+
+function Damage3 (ATK, DEF, LVL1, LVL2, Reduction = 1) {
+    const Power = (ATK + ((ATK + LVL1)/32) * ((ATK * LVL1)/32))
+    console.log((Power))
+    const Defense = (DEF + ((DEF + LVL2)/32) * ((DEF * LVL2)/32))*0.75
+    console.log(Defense)
+    return ((Power+(Power/100 * Math.random()*3)) - (Defense+(Defense/100 * Math.random()*3)))/Reduction
+}
+console.log(Damage3(100, 100, 100, 100))
+
+
 Dreonoqai, Kiubari, Yefux, Rosheakoris, Ulos
 
 area + species conquest ffx

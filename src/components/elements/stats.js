@@ -395,6 +395,7 @@ function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTit
 
   // Add HP and MP Values
   //  level *5 magic * 8 = mp // level * 10 vit * 14.5 +100 = hp 
+  // So at 100, 1100 ~ 2550
   stats['HP'] = _try(() => (stats['level'] * 10) + (stats['vitality']) * 14.5 + 100)
   let tempHP = stats['HP']
   for (let index = 0; index < HPList.length; index++) {
