@@ -2313,8 +2313,17 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
       </Juan>
       <Sarah>
         "Forgive me Inquisitor Juan, I was just shocked to see you here. Last we
-        met was in "
+        met was in Lith Eru." Sarah quickly recovered.
       </Sarah>
+      <Juan>
+        "Well, the church has to help these heathens see the right path, no? It is why you are here also, is it not? Surely you don't think the church only sent your group?" Juan asked.
+      </Juan>
+      <Sarah>
+        "Ah, no, it's just. I guess I have been here awhile and not had word that anyone else had made it over yet. As you know communication here is very difficult." Sarah replied watching her words.
+      </Sarah>
+      <Juan>
+        
+      </Juan>
       {/* Give the blood bottle to Sarah, after she is injured by the priest */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}
       {/* All the normal land, and sea routes on the way to Alden are
