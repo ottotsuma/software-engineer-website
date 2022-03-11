@@ -2325,7 +2325,20 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         that anyone else had made it over yet. As you know communication here is
         very difficult." Sarah replied watching her words.
       </Sarah>
-      <Juan></Juan>
+      <Juan>
+        "That is very true. I myself have lost communication with the church,
+        nevertheless I continue with the task given to me by our God." Juan
+        smugly replied, lording over Sarah that he had a task directly from a
+        God.
+      </Juan>
+      <Sarah>"A direct task!? What is it!?" Sarah startled.</Sarah>
+      <Juan>
+        "Yes, it is true. This humble servant communicated directly and received
+        a divine task." He smiled and puffed out his chest a little.
+      </Juan>
+      <Sarah>
+        
+      </Sarah>
       {/* Give the blood bottle to Sarah, after she is injured by the priest */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}
       {/* All the normal land, and sea routes on the way to Alden are
