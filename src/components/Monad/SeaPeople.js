@@ -2337,8 +2337,21 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         a divine task." He smiled and puffed out his chest a little.
       </Juan>
       <Sarah>
-        
+        "Ah well, if we can be of any help, please let me know. I am currently
+        undergoing a task of my own, although it is not of divine origin.
+        Hopefully it will help us shrug off more of this miasma, so we can be of
+        help." Sarah nodded, trying to bring the conversation to a close.
       </Sarah>
+      <Juan>
+        "How rude of me. You must be tired after such a long travel. I was just
+        heading back out anyway, I must convert more heretics." Juan held
+        Sarah's hand in a slow shake before taking his leave out of the inn.
+        Even adding that he would see us tonight, since he too was staying at
+        the inn.
+      </Juan>
+      <Josh>
+        
+      </Josh>
       {/* Give the blood bottle to Sarah, after she is injured by the priest */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}
       {/* All the normal land, and sea routes on the way to Alden are
