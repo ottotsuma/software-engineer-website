@@ -7,17 +7,24 @@ Ibn Battuta - Legendary quest.
 # Random Ideas:
 
 Calculations: 
-https://www.breck-mckye.com/ffvii_damage_calc/ 
-http://z.purei.org/ffixcalc.php
+At higher levels it should take longer, since you have access to more skills you want to use. Rather then looking at the damage output it should be how many moves more can someone take.
 
-function Damage3 (ATK, DEF, LVL1, LVL2, Reduction = 1) {
+function Damage3 (ATK, DEF, LVL1, LVL2) {
     const Power = (ATK + ((ATK + LVL1)/32) * ((ATK * LVL1)/32))*0.5
     console.log((Power))
     const Defense = (DEF + ((DEF + LVL2)/32) * ((DEF * LVL2)/32))*0.25
     console.log(Defense)
-    return ((Power+(Power/100 * Math.random()*3)) - (Defense+(Defense/100 * Math.random()*3)))/Reduction
+    let Answer = ((Power+(Power/100 * Math.random()*3)) - (Defense+(Defense/100 * Math.random()*3)))/(LVL2*DEF/(10*LVL1))
+    if (Answer > 0) return Answer
+    return 1
 }
-console.log(Damage3(100, 60, 100, 100))
+// 1100 HP
+console.log((Damage3(100, 100, 100, 100)/1100)*100)
+// 210 HP
+console.log((Damage3(10, 1, 10, 10)/210)*100)
+// 1100 HP
+console.log((Damage3(20, 20, 100, 100)/1100)*100)
+
 
 
 Dreonoqai, Kiubari, Yefux, Rosheakoris, Ulos
