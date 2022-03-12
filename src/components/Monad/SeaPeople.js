@@ -2345,12 +2345,22 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
       <Juan>
         "How rude of me. You must be tired after such a long travel. I was just
         heading back out anyway, I must convert more heretics." Juan held
-        Sarah's hand in a slow shake before taking his leave out of the inn.
+        Sarah's hand in a slow shake, before taking his leave out of the inn.
         Even adding that he would see us tonight, since he too was staying at
         the inn.
       </Juan>
       <Josh>
-        
+        After the brief exchange Sarah shot me a warning look to keep my mouth
+        closed. If I didn't know better I would swear she hates my voice. Saying
+        nothing I just accompanied her into our room. The room was split into
+        two like most high class rooms were. The first room with two smaller
+        beds pushed into the walls at the sides flanking a door into the second
+        room. This will be where me and Noah are expected to stay keeping guard.
+        Sarah's room was much larger then our little entrance way. The room
+        opened into a canopy double bed to the right, a large window at the far
+        wall and a fire place to the left. The window was like the others found
+        throughout the republics old buildings, covered by colorful clothes,
+        with wooden shutters when you wanted privacy.
       </Josh>
       {/* Give the blood bottle to Sarah, after she is injured by the priest */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}
