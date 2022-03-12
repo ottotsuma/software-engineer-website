@@ -568,7 +568,7 @@ function Lessons(props) {
             I started pushing the stone lid to one side. In the first I saw a
             skeleton of a woman, probably. There was a woman carved on top and
             her fingers had rings on them. her spine had a necklace resting on
-            it and behind her skull wsa a tiara. Each of them looked expensive.
+            it and behind her skull was a tiara. Each of them looked expensive.
             I had seen jewelry before, and magic items but they where usually
             gems placed onto a band of metal. These through the metal was
             crafted into scenes with monsters and animals and humans all around

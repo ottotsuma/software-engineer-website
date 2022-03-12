@@ -304,9 +304,16 @@ Lightning axe, an axe that is wielded by the Maya rain deity Chaac and used to p
 Gem of Kukulkan, the Mayan god brought fire, earth, air, and water to the world. Kukulkan, though, only has the wind gem, and with it can control the air. (Maya mythology)
 The Jem of Kukulkan - the Mayan Serpents Jem has the ability to control all elements. Like fire, wind, and ice, though the Serpent only has the wind jem.
 ##### Types: 
+###### Hat/Crown:
+- Crown (king) - (green) Crown of the Dammed. Magic + 25, -5 Charisma, control undead +1.
 ###### Rings:
+- Kings Rings, Ch5, Ring of initial undead control. mag + 10, Control undead +1 (normal)
+- Ring of Little Strength, Ch11, Strength +1
+- Ring (queen) - (junk) Ring of Little Strength. Strength +5
 ###### Amulets/Necklaces:
 Necklace is just a normal accessory but an amulet should be magical in nature.
+- Pendent of Medium Magic, Ch11, Magic +2 , Strength -1.
+- necklace made of teeth, Ch17
 ###### Earings/Piercings:
 ###### Belt:
 ###### Glasses:
@@ -314,14 +321,21 @@ Necklace is just a normal accessory but an amulet should be magical in nature.
 ###### Collar/Choker:
 ###### Tattoo:
 ###### Manicure:
+###### Tiara:
+- Queens tiara, Ch5, Queen's Pawn. Skill: Animate stone. (rare)
 ###### Hair Clip/ Hair Accs:
 ###### Scarves:
 - Black scarf - Hides users identity
 ###### Capes:
 
 #### Materials
-Whale skin for coating boats to go faster
+- Whale skin for coating boats to go faster
 
+#### Misc Items
+- Quill - (blue) Enchanting chance of success + 5%
+- Skull - (blue) Skull of victim. Control undead +2 - T
+###### Coins:
+- Princesses Coin, Ch5
 #### Quest Items
 #### Cash shop
 Aesthetic house Items
