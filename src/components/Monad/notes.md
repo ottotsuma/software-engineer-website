@@ -6,6 +6,8 @@ Ibn Battuta - Legendary quest.
 
 # Random Ideas:
 
+Vampire healing, Healing spells that can heal people or debuff. Giving the healers options to attack. Heals that deal a set amount of healing to a group, targeting the lowest HP first.
+
 Calculations: 
 At higher levels it should take longer, since you have access to more skills you want to use. Rather then looking at the damage output it should be how many moves more can someone take.
 
