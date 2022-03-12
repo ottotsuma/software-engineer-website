@@ -300,8 +300,25 @@ Lightning axe, an axe that is wielded by the Maya rain deity Chaac and used to p
 
 #### Armor 
 #### Accessories 
+
 Gem of Kukulkan, the Mayan god brought fire, earth, air, and water to the world. Kukulkan, though, only has the wind gem, and with it can control the air. (Maya mythology)
 The Jem of Kukulkan - the Mayan Serpents Jem has the ability to control all elements. Like fire, wind, and ice, though the Serpent only has the wind jem.
+##### Types: 
+###### Rings:
+###### Amulets/Necklaces:
+Necklace is just a normal accessory but an amulet should be magical in nature.
+###### Earings/Piercings:
+###### Belt:
+###### Glasses:
+###### Bracelet/Anklet:
+###### Collar/Choker:
+###### Tattoo:
+###### Manicure:
+###### Hair Clip/ Hair Accs:
+###### Scarves:
+- Black scarf - Hides users identity
+###### Capes:
+
 #### Materials
 Whale skin for coating boats to go faster
 
