@@ -303,6 +303,17 @@ export function Kaja (Chapter) {
       }}
       showItems={true}
       items={{
+        Weapon: {
+          name: "wand",
+          effect: "Controlling ambient mana is easier.",
+          rating: "junk",
+        },
+        Shield: {
+          name: "Leather covered wooden shield",
+          effect: "Endurance +1, Fire resistance + 1%, chance to block physical attacks.",
+          rating: "junk",
+          stats: {endurance: 1}
+        },
         Body: {
           name: "Academy Robe (Black/Red).",
           effect: "Magic: +2, Fire +2%, HP +10.",
