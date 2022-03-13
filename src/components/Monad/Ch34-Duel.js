@@ -29,7 +29,7 @@ function Duel(props) {
       </p>
       <p>
         I gathered my mana while I was down and once the flames dispersed I
-        jumped up and shot a fire ball at him. I grabbed my shield by the edge
+        jumped up and shot a fireball at him. I grabbed my shield by the edge
         and pulled it up and ran in a zig zag pattern forward.
       </p>
       <p>

@@ -23,7 +23,7 @@ function Combat(props) {
           <Item
             stats={{
               Magic: "+1",
-              Health: "+10",
+              HP: "+10",
             }}
             name={"Academy Robe (black)."}
             rating={"junk"}

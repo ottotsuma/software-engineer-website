@@ -323,7 +323,7 @@ Noticed by a God - get the notice of a God, (varies) */}
               },
               Body: {
                 name: "Academy Robe (Black/Yellow)",
-                effect: "Magic: +2, Lightning +1%, Health +10.",
+                effect: "Magic: +2, Lightning +1%, HP +10.",
                 rating: "junk",
               },
               Hands: {

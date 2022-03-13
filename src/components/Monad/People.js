@@ -88,7 +88,7 @@ export default function Otto() {
           },
           Body: {
             name: "Academy Robe (Black/Yellow).",
-            effect: "Magic: +2, Lightning +2%, Health +10.",
+            effect: "Magic: +2, Lightning +2%, HP +10.",
             rating: "junk",
             stats: {magic: 2, HP: 10}
           },
@@ -257,12 +257,12 @@ export function Kaja (Chapter) {
         species: "human",
         spells: 0,
         passives: 0,
-        "spell points": 20, // from class 2 per level (normal/rare/epic/legendary)
-        "stat points": 22, // from species 2 per level // 1 per every 10 levels
+        "spell points": 20-6, // from class 2 per level (normal/rare/epic/legendary)
+        "stat points": 22-10, // from species 2 per level // 1 per every 10 levels
         vitality: 0,
         strength: 0,
         endurance: 0,
-        magic: 0,
+        magic: 10,
         willpower: 0,
         dexterity: 0,
         sense: 0,
@@ -285,10 +285,16 @@ export function Kaja (Chapter) {
           // { name: "Adaptable", level: 2 },
           // { name: "Brave", level: 2 },
           // { name: "Pure of mind", level: 2 },
-          // { name: "Magic Enthusiast", level: 2 }, // 20
+          // { name: "Magic Enthusiast", level: 2 },
         ],
         mage: [
           { name: "Mana Ball", level: 1 },
+          { name: "Fireball", level: 1 },
+          { name: "fire cyclone", level: 1 },
+          { name: "fire mine", level: 1 },
+          { name: "Magic Up", level: 2 },
+
+          // Magic Regen, Shield Burst, Mana Wings, Mana Shield, Mana Slide, Missile, Strike, Magic Up, Magic Resistance, Tether, Mana Orbs
         ],
         conditions: [
         // Negatives
@@ -299,7 +305,7 @@ export function Kaja (Chapter) {
       items={{
         Body: {
           name: "Academy Robe (Black/Red).",
-          effect: "Magic: +2, Fire +2%, Health +10.",
+          effect: "Magic: +2, Fire +2%, HP +10.",
           rating: "junk",
           stats: {magic: 2, HP: 10}
         },

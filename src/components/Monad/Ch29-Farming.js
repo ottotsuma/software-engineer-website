@@ -24,7 +24,7 @@ function Intro(props) {
               },
               Body: {
                 name: "Academy Robe (Black/Yellow).",
-                effect: "Magic: +1, Lightning +1%, Health +10.",
+                effect: "Magic: +1, Lightning +1%, HP +10.",
                 rating: "junk",
               },
             }}

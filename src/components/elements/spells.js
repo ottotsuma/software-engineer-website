@@ -348,6 +348,27 @@ export const spellList = {
     9: "Magic +9",
     10: "Magic +10, mana recovery +10%.",
     classes: ["mage"],
+    stats: [{
+      magic: 1,
+    }, {
+      magic: 2,
+    }, {
+      magic: 3,
+    }, {
+      magic: 4,
+    }, {
+      magic: 5,
+    }, {
+      magic: 6,
+    }, {
+      magic: 7,
+    }, {
+      magic: 8,
+    }, {
+      magic: 9,
+    }, {
+      magic: 10,
+    }]
   },
   Strike: {
     name: "Strike",
@@ -2883,6 +2904,15 @@ export const spellList = {
     negative: false,
     passive: false,
     1: "A cyclone of fire starts winding up and spins towards your target.",
+  },
+  "fire mine": {
+    name: "fire mine",
+    element: "fire",
+    image:
+      "https://static.wikia.nocookie.net/elderscrolls/images/8/87/SKRMFire_Rune.png",
+    negative: false,
+    passive: false,
+    1: "Casting it causes blobs of fire to shoot from the hands and stick to surfaces. When a target steps on or passes too closely to a Fire mine, it explodes, causing fire damage.",
   },
 };
 
