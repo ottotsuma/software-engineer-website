@@ -11,6 +11,8 @@ import Stats from "./../elements/stats";
 import Spells from "./../elements/spells";
 import Blood from "./../../assets/Blood.jpg";
 import { Sarah, Josh, Juan, Noah } from "./CharacterFonts";
+import {Noah as NoahStats} from './People';
+
 
 export const Shine = styled.p`
   font-size: xxx-large;
@@ -2399,6 +2401,7 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         or queen. Here before the countries are established, the lords would be
         those who killed the right people.
       </p>
+      {NoahStats(1)}
     </Content>
   ),
   10: (

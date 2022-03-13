@@ -17,6 +17,17 @@ import React from "react";
 // <li>Charisma</li> Increases NPC likability, command points
 
 export const spellList = {
+  Player: {
+    note: "Not an NPC.",
+    name: "Astral soul projection",
+    element: "None",
+    image: "",
+    negative: false,
+    passive: true,
+    1: "Passive all players posses.",
+    stats: [{
+    }]
+  },
   Child: {
     note: "Child = 0 - 12.",
     name: "Child",

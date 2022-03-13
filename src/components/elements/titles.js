@@ -7,13 +7,20 @@ export const titlesList = {
         },
         description: 'Picked a god to worship. Magic +1.'
     },
+    'Princess': {
+        name: 'Princess',
+        condition: 'Become the princess of a country.',
+        stats: {
+        },
+        description: 'Princess of a country.'
+    },
     'Back to School': {
         name: 'Back to School',
         condition: 'Enter the academy',
         stats: {
             magic: 1
         },
-        description: ''
+        description: 'Joined a magic academy: Magic +1.'
     },
     'Academy Graduate': {
         name: 'Academy Graduate',

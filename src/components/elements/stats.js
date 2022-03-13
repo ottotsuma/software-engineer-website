@@ -1,11 +1,11 @@
 import styled from "styled-components";
 import React from "react";
-import {spellList} from './spells'
-import {racesList} from './species'
-import {classList} from './classes'
-import Spells from './spells'
-import {titlesList} from './titles'
-import Equipment from './equipment'
+import { spellList } from "./spells";
+import { racesList } from "./species";
+import { classList } from "./classes";
+import Spells from "./spells";
+import { titlesList } from "./titles";
+import Equipment from "./equipment";
 
 // Kʼawiil - Lightning, seeds, abundance, powerful one, fertility, serpent
 
@@ -219,8 +219,7 @@ const statList = {
     numeric: "Passive skills do not need to be activated.",
     vague: "Passive skills do not need to be activated.",
     major: "Passive skills do not need to be activated.",
-    minor:
-      "Passive skills do not need to be activated.",
+    minor: "Passive skills do not need to be activated.",
   },
   element: {
     name: "Element",
@@ -234,223 +233,290 @@ const statList = {
 };
 
 function perc2color(perc) {
-  if(perc < 0) perc = 0
-  if (perc > 100) return "rgb(36, 255, 0)"
-  var r, g, b = 0;
+  if (perc < 0) perc = 0;
+  if (perc > 100) return "rgb(36, 255, 0)";
+  var r,
+    g,
+    b = 0;
   if (perc < 50) {
-      r = 255;
-      g = Math.round(5.1 * perc);
-  }
-  else {
-      g = 255;
-      r = Math.round(510 - 5.10 * perc);
+    r = 255;
+    g = Math.round(5.1 * perc);
+  } else {
+    g = 255;
+    r = Math.round(510 - 5.1 * perc);
   }
   var h = r * 0x10000 + g * 0x100 + b * 0x1;
-  return '#' + ('000000' + h.toString(16)).slice(-6);
+  return "#" + ("000000" + h.toString(16)).slice(-6);
 }
 
 function _try(func, fallbackValue) {
   try {
-      var value = func();
-      return (value === null || value === undefined) ? fallbackValue : value;
+    var value = func();
+    return value === null || value === undefined ? fallbackValue : value;
   } catch (e) {
-      return fallbackValue;
+    return fallbackValue;
   }
 }
 
-function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTitles, items, showItems }) {
+function Stats({
+  stats,
+  type,
+  skills,
+  showSkills,
+  titles,
+  equippedTitle,
+  showTitles,
+  items,
+  showItems,
+}) {
   const array = [];
-  const baseStats = stats
-  const HPList = []
-  const MPList = []
+  const baseStats = stats;
+  const HPList = [];
+  const MPList = [];
 
-  let RaceSpan = undefined
-  if(stats.species) {
+  let RaceSpan = undefined;
+  if (stats.species) {
     const raceStats = Object.keys(racesList[stats.species].stats);
-    RaceSpan = _try(() => racesList[stats.species].team)
-    if(RaceSpan) RaceSpan = 'Team: ' + RaceSpan
-    if(!RaceSpan) {
-      RaceSpan = _try(() => racesList[stats.species].self)
-      if(RaceSpan) RaceSpan = 'Self: ' + RaceSpan
+    RaceSpan = _try(() => racesList[stats.species].team);
+    if (RaceSpan) RaceSpan = "Team: " + RaceSpan;
+    if (!RaceSpan) {
+      RaceSpan = _try(() => racesList[stats.species].self);
+      if (RaceSpan) RaceSpan = "Self: " + RaceSpan;
     }
 
-    if(raceStats) {
+    if (raceStats) {
       raceStats.map((raceStat) => {
-        if (raceStat === 'HP') {
-          HPList.push(racesList[stats.species].stats[raceStat])
-        } else if (raceStat === 'MP') {
-          MPList.push(racesList[stats.species].stats[raceStat])
-        } else if(typeof (racesList[stats.species].stats[raceStat]) === 'number') {
-          stats[raceStat] = stats[raceStat] + racesList[stats.species].stats[raceStat]
-        } else if (typeof (racesList[stats.species].stats[raceStat]) === 'string') {
-          if((racesList[stats.species].stats[raceStat]).includes('*')){
-            const multiplierValue = parseFloat(racesList[stats.species].stats[raceStat].substring(1))
-            stats[raceStat] = stats[raceStat] * multiplierValue
+        if (raceStat === "HP") {
+          HPList.push(racesList[stats.species].stats[raceStat]);
+        } else if (raceStat === "MP") {
+          MPList.push(racesList[stats.species].stats[raceStat]);
+        } else if (
+          typeof racesList[stats.species].stats[raceStat] === "number"
+        ) {
+          stats[raceStat] =
+            stats[raceStat] + racesList[stats.species].stats[raceStat];
+        } else if (
+          typeof racesList[stats.species].stats[raceStat] === "string"
+        ) {
+          if (racesList[stats.species].stats[raceStat].includes("*")) {
+            const multiplierValue = parseFloat(
+              racesList[stats.species].stats[raceStat].substring(1)
+            );
+            stats[raceStat] = stats[raceStat] * multiplierValue;
           }
         }
-      })
+      });
     }
   }
-  let ClassSpan = undefined
-  if(stats.class) {
-    const classStats = _try(() => classList[stats.class].stats)
-    ClassSpan = _try(() => classList[stats.class].team)
-    if(ClassSpan) ClassSpan = 'Team: ' + ClassSpan
-    if(!ClassSpan) {
-      ClassSpan = _try(() => classList[stats.class].self)
-      if(ClassSpan) ClassSpan = 'Self: ' + ClassSpan
+  let ClassSpan = undefined;
+  if (stats.class) {
+    const classStats = _try(() => classList[stats.class].stats);
+    ClassSpan = _try(() => classList[stats.class].team);
+    if (ClassSpan) ClassSpan = "Team: " + ClassSpan;
+    if (!ClassSpan) {
+      ClassSpan = _try(() => classList[stats.class].self);
+      if (ClassSpan) ClassSpan = "Self: " + ClassSpan;
     }
-    if(classStats) {
+    if (classStats) {
       Object.keys(classStats).map((classStat) => {
-        if (classStat === 'HP') {
-          HPList.push(classList[stats.class].stats[classStat])
-        } else if (classStat === 'MP') {
-          MPList.push(classList[stats.class].stats[classStat])
-        } else if(typeof (classList[stats.class].stats[classStat]) === 'number') {
-          stats[classStat] = stats[classStat] + classList[stats.class].stats[classStat]
-        } else if (typeof (classList[stats.class].stats[classStat]) === 'string') {
-          if((classList[stats.class].stats[classStat]).includes('*')){
-            const multiplierValue = parseFloat(classList[stats.class].stats[classStat].substring(1))
-            stats[classStat] = stats[classStat] * multiplierValue
+        if (classStat === "HP") {
+          HPList.push(classList[stats.class].stats[classStat]);
+        } else if (classStat === "MP") {
+          MPList.push(classList[stats.class].stats[classStat]);
+        } else if (
+          typeof classList[stats.class].stats[classStat] === "number"
+        ) {
+          stats[classStat] =
+            stats[classStat] + classList[stats.class].stats[classStat];
+        } else if (
+          typeof classList[stats.class].stats[classStat] === "string"
+        ) {
+          if (classList[stats.class].stats[classStat].includes("*")) {
+            const multiplierValue = parseFloat(
+              classList[stats.class].stats[classStat].substring(1)
+            );
+            stats[classStat] = stats[classStat] * multiplierValue;
           }
         }
-      })
+      });
     }
   }
   const keys = Object.keys(stats);
-  const spellsArray = []
-  if(skills) {
-    const skillsByTypes = Object.keys(skills)
+  const spellsArray = [];
+  if (skills) {
+    const skillsByTypes = Object.keys(skills);
     for (let j = 0; j < skillsByTypes.length; j++) {
       const skillListByType = skills[skillsByTypes[j]];
       skillListByType.map((skill) => {
-        const spellStats = _try(() => spellList[skill.name].stats[skill.level-1])
-        if(spellStats) {
+        const spellStats = _try(
+          () => spellList[skill.name].stats[skill.level - 1]
+        );
+        if (spellStats) {
           for (let index = 0; index < Object.keys(spellStats).length; index++) {
-            if(keys.includes(Object.keys(spellStats)[index])) {
-              if(typeof (spellStats[Object.keys(spellStats)[index]]) === 'number') {
-                stats[Object.keys(spellStats)[index]] = stats[Object.keys(spellStats)[index]] + spellStats[Object.keys(spellStats)[index]]
-              } else if (typeof (spellStats[Object.keys(spellStats)[index]]) === 'string'){
-                const multiplierValue = parseFloat(spellStats[Object.keys(spellStats)[index]].substring(1))
-                stats[Object.keys(spellStats)[index]] = stats[Object.keys(spellStats)[index]] * multiplierValue
+            if (keys.includes(Object.keys(spellStats)[index])) {
+              if (
+                typeof spellStats[Object.keys(spellStats)[index]] === "number"
+              ) {
+                stats[Object.keys(spellStats)[index]] =
+                  stats[Object.keys(spellStats)[index]] +
+                  spellStats[Object.keys(spellStats)[index]];
+              } else if (
+                typeof spellStats[Object.keys(spellStats)[index]] === "string"
+              ) {
+                const multiplierValue = parseFloat(
+                  spellStats[Object.keys(spellStats)[index]].substring(1)
+                );
+                stats[Object.keys(spellStats)[index]] =
+                  stats[Object.keys(spellStats)[index]] * multiplierValue;
               }
-            } else if (Object.keys(spellStats)[index] === 'HP') {
-              HPList.push(spellStats[Object.keys(spellStats)[index]])
-            } else if (Object.keys(spellStats)[index] === 'MP') {
-              MPList.push(spellStats[Object.keys(spellStats)[index]])
+            } else if (Object.keys(spellStats)[index] === "HP") {
+              HPList.push(spellStats[Object.keys(spellStats)[index]]);
+            } else if (Object.keys(spellStats)[index] === "MP") {
+              MPList.push(spellStats[Object.keys(spellStats)[index]]);
             }
           }
         }
-      })
-      spellsArray.push(<Spells key={j + 'Spells'} spells={skillListByType} type={skillsByTypes[j]} />)
+      });
+      spellsArray.push(
+        <Spells
+          key={j + "Spells"}
+          spells={skillListByType}
+          type={skillsByTypes[j]}
+        />
+      );
     }
   }
-  const itemsArray = []
-  if(items) {
-    itemsArray.push ( <Equipment items={items} key={'Items'} />)
+  const itemsArray = [];
+  if (items) {
+    itemsArray.push(<Equipment items={items} key={"Items"} />);
     Object.keys(items).map((itemArea) => {
-      const itemStats = _try( () => items[itemArea].stats)
-      if(itemStats) {
+      const itemStats = _try(() => items[itemArea].stats);
+      if (itemStats) {
         Object.keys(itemStats).map((itemStat) => {
-          if (itemStat === 'HP') {
-            HPList.push(itemStats[itemStat])
-          } else if (itemStat === 'MP') {
-            MPList.push(itemStats[itemStat])
-          } else if(typeof (itemStats[itemStat]) === 'number') {
-            stats[itemStat] = stats[itemStat] + itemStats[itemStat]
-          } else if (typeof (itemStats[itemStat]) === 'string') {
-            if((itemStats[itemStat]).includes('*')){
-              const multiplierValue = parseFloat(itemStats[itemStat].substring(1))
-              stats[itemStat] = stats[itemStat] * multiplierValue
+          if (itemStat === "HP") {
+            HPList.push(itemStats[itemStat]);
+          } else if (itemStat === "MP") {
+            MPList.push(itemStats[itemStat]);
+          } else if (typeof itemStats[itemStat] === "number") {
+            stats[itemStat] = stats[itemStat] + itemStats[itemStat];
+          } else if (typeof itemStats[itemStat] === "string") {
+            if (itemStats[itemStat].includes("*")) {
+              const multiplierValue = parseFloat(
+                itemStats[itemStat].substring(1)
+              );
+              stats[itemStat] = stats[itemStat] * multiplierValue;
             }
           }
-        })
+        });
       }
-    })
+    });
   }
-  if(equippedTitle) {
-    keys.splice(1, 0, 'title');
-    stats['title'] = titlesList[equippedTitle].name ? titlesList[equippedTitle].name : equippedTitle // if it has a name use the name, else use what ever the user put in.
-    const titleStats = _try(() => titlesList[equippedTitle].stats) // find title from list of titles, returns array of stats and values
-    if(titleStats) {
-      if(titlesList[equippedTitle].description) {
-        stats['title'] = equippedTitle + ', ' + titlesList[equippedTitle].description
+  let TitleSpan = undefined;
+  if (equippedTitle) {
+    keys.splice(1, 0, "title");
+    stats["title"] = titlesList[equippedTitle].name
+      ? titlesList[equippedTitle].name
+      : equippedTitle; // if it has a name use the name, else use what ever the user put in.
+    const titleStats = _try(() => titlesList[equippedTitle].stats); // find title from list of titles, returns array of stats and values
+    if (titleStats) {
+      if (titlesList[equippedTitle].description) {
+        TitleSpan = titlesList[equippedTitle].description;
+        //   stats['title'] = equippedTitle + ', ' + titlesList[equippedTitle].description
       }
       Object.keys(titleStats).map((titleStat) => {
-        if (titleStat === 'HP') {
-          HPList.push(titleStats[titleStat])
-        } else if (titleStat === 'MP') {
-          MPList.push(titleStats[titleStat])
-        } else if(typeof (titleStats[titleStat]) === 'number') {
-          stats[titleStat] = stats[titleStat] + titleStats[titleStat] // applies the stats
-        } else if (typeof (titleStats[titleStat]) === 'string') {
-          if((titleStats[titleStat]).includes('*')){
-            const multiplierValue = parseFloat(titleStats[titleStat].substring(1))
-            stats[titleStat] = stats[titleStat] * multiplierValue
+        if (titleStat === "HP") {
+          HPList.push(titleStats[titleStat]);
+        } else if (titleStat === "MP") {
+          MPList.push(titleStats[titleStat]);
+        } else if (typeof titleStats[titleStat] === "number") {
+          stats[titleStat] = stats[titleStat] + titleStats[titleStat]; // applies the stats
+        } else if (typeof titleStats[titleStat] === "string") {
+          if (titleStats[titleStat].includes("*")) {
+            const multiplierValue = parseFloat(
+              titleStats[titleStat].substring(1)
+            );
+            stats[titleStat] = stats[titleStat] * multiplierValue;
           }
         }
-      })
+      });
     }
   }
 
   // Add HP and MP Values
-  //  level *5 magic * 8 = mp // level * 10 vit * 14.5 +100 = hp 
+  //  level *5 magic * 8 = mp // level * 10 vit * 14.5 +100 = hp
   // So at 100, 1100 ~ 2550
-  stats['HP'] = _try(() => (stats['level'] * 10) + (stats['vitality']) * 14.5 + 100)
-  let tempHP = stats['HP']
+  stats["HP"] = _try(
+    () => stats["level"] * 10 + stats["vitality"] * 14.5 + 100
+  );
+  let tempHP = stats["HP"];
   for (let index = 0; index < HPList.length; index++) {
-    if(typeof (HPList[index]) === 'number') {
-      tempHP = tempHP + HPList[index]
-    } else if (typeof (HPList[index]) === 'string') {
-      if((HPList[index]).includes('*')){
-        const multiplierValue = parseFloat(HPList[index].substring(1))
-        tempHP = tempHP * multiplierValue
+    if (typeof HPList[index] === "number") {
+      tempHP = tempHP + HPList[index];
+    } else if (typeof HPList[index] === "string") {
+      if (HPList[index].includes("*")) {
+        const multiplierValue = parseFloat(HPList[index].substring(1));
+        tempHP = tempHP * multiplierValue;
       }
     }
   }
-  stats['HP'] = parseInt(tempHP)
+  stats["HP"] = parseInt(tempHP);
 
-  stats['MP'] = _try(() => (stats['level'] * 5) + (stats['magic']) * 8)
-  let tempMP = stats['MP']
+  stats["MP"] = _try(() => stats["level"] * 5 + stats["magic"] * 8);
+  let tempMP = stats["MP"];
   for (let index = 0; index < MPList.length; index++) {
-    if(typeof (MPList[index]) === 'number') {
-      tempMP = tempMP + MPList[index]
-    } else if (typeof (MPList[index]) === 'string') {
-      if((MPList[index]).includes('*')){
-        const multiplierValue = parseFloat(MPList[index].substring(1))
-        tempMP = tempMP * multiplierValue
+    if (typeof MPList[index] === "number") {
+      tempMP = tempMP + MPList[index];
+    } else if (typeof MPList[index] === "string") {
+      if (MPList[index].includes("*")) {
+        const multiplierValue = parseFloat(MPList[index].substring(1));
+        tempMP = tempMP * multiplierValue;
       }
     }
   }
-  stats['MP'] = parseInt(tempMP)
-  keys.push('HP', 'MP')
+  stats["MP"] = parseInt(tempMP);
+  keys.push("HP", "MP");
   for (let index = 0; index < keys.length; index++) {
-    const element = <Wrap><Inline>{keys[index]}: </Inline><Inline style={{color: perc2color(stats[keys[index]])}}>{typeof (stats[keys[index]]) === 'number' ? parseInt(stats[keys[index]]) : stats[keys[index]]}</Inline></Wrap>;
+    const element = (
+      <Wrap>
+        <Inline>{keys[index]}: </Inline>
+        <Inline style={{ color: perc2color(stats[keys[index]]) }}>
+          {typeof stats[keys[index]] === "number"
+            ? parseInt(stats[keys[index]])
+            : stats[keys[index]]}
+        </Inline>
+      </Wrap>
+    );
     const spam = statList[keys[index]];
-    if(keys[index] === 'class' && ClassSpan) {
+    if (keys[index] === "class" && ClassSpan) {
       array.push(
         <SingleStat key={index + "stat"}>
           {element}
           {!!type && <Span>{ClassSpan}</Span>}
         </SingleStat>
       );
-    } else if (keys[index] === 'species' && RaceSpan) {
+    } else if (keys[index] === "species" && RaceSpan) {
       array.push(
         <SingleStat key={index + "stat"}>
           {element}
           {!!type && <Span>{RaceSpan}</Span>}
         </SingleStat>
       );
+    } else if (keys[index] === "title" && TitleSpan) {
+      array.push(
+        <SingleStat key={index + "stat"}>
+          {element}
+          {!!type && <Span>{TitleSpan}</Span>}
+        </SingleStat>
+      );
     } else {
       array.push(
         <SingleStat key={index + "stat"}>
           {element}
-          {!!type && <Span>{spam['description']}</Span>}
+          {!!type && <Span>{spam["description"]}</Span>}
         </SingleStat>
       );
     }
   }
-
 
   return (
     <>
@@ -463,11 +529,10 @@ function Stats({ stats, type, skills, showSkills, titles, equippedTitle, showTit
 }
 export default Stats;
 
-const Wrap = styled.div`
-`;
+const Wrap = styled.div``;
 
 const Inline = styled.div`
-display: contents;
+  display: contents;
 `;
 
 const Title = styled.h1`

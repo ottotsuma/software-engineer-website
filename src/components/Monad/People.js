@@ -357,6 +357,177 @@ export function Kaja (Chapter) {
     )
   }
 }
+export function Tsuma (Chapter) {
+  if (Chapter) {
+    return (
+      <Stats
+      type={"description"}
+      stats={{
+        name: "Tsuma",
+        level: 10,
+        class: "mage",
+        species: "human",
+        spells: 0,
+        passives: 0,
+        "spell points": 10, // from class 1 per level (normal/rare/epic/legendary)
+        "stat points": 22, // from species 2 per level // 1 per every 10 levels
+        vitality: 0,
+        strength: 0,
+        endurance: 0,
+        magic: 0,
+        willpower: 0,
+        dexterity: 0,
+        sense: 0,
+        charisma: 0,
+      }}
+      // Makes skills an object of skill types 'human' 'mage' and they be the arrays.
+      // Do the same thing for equipment and titles?
+      showTitles={false} // currently does nothing
+      equippedTitle="Princess"
+      titles={['Back to School', 'Apprentice', 'Princess']}
+      showSkills={true}
+      skills={{
+        human: [
+          // { name: "Human Ingenuity", level: 2 },
+          // { name: "Persuasive", level: 2 },
+          // { name: "Quick", level: 2 },
+          // { name: "Perception", level: 2 },
+          // { name: "Athletic", level: 2 },
+          // { name: "Healthy", level: 2 },
+          // { name: "Adaptable", level: 2 },
+          // { name: "Brave", level: 2 },
+          // { name: "Pure of mind", level: 2 },
+          // { name: "Magic Enthusiast", level: 2 },
+        ],
+        mage: [
+          // { name: "Mana Ball", level: 1 },
+          // { name: "Fireball", level: 2 },
+          // { name: "Fire Wrap", level: 1 },
+          // { name: "Fire Mine", level: 1 },
+          // { name: "Magic Up", level: 2 },
+          // { name: "Magic Regen", level: 1 },
+          // Mana Ball, Magic Regen, Shield Burst, Mana Wings, Mana Shield, Mana Slide, Missile, Strike, Magic Up, Magic Resistance, Tether, Mana Orbs
+        ],
+        conditions: [
+        // Negatives
+        { name: "Youth", level: 1 },
+        ],
+      }}
+      showItems={true}
+      items={{
+        Body: {
+          name: "Academy Robe (Black/??).",
+          effect: "Magic: +2, ?? +2%, HP +10.",
+          rating: "junk",
+          stats: {magic: 2, HP: 10}
+        },
+      }}
+      notes={
+        "Eyes as part of the cats skills, see the witch of alden.",
+        "2 spell per level, 2 stats per level, Human +1 stat every 10 levels."
+      }
+    />
+    )
+  } else {
+    return (
+      <div>
+      <p>1: They are in a zone of comfort</p>
+
+      <p>2: But they want something</p>
+
+      <p>3: They enter an unfamiliar situation</p>
+
+      <p>4: Adapt to it</p>
+
+      <p>5: Get what they wanted</p>
+
+      <p>6: Pay a heavy price</p>
+
+      <p>7: Then return to the familia situation</p>
+
+      <p>8: Having changed</p>
+    </div>
+    )
+  }
+}
+export function Noah (Chapter) {
+  if (Chapter) {
+    return (
+      <Stats
+      type={"description"}
+      stats={{
+        name: "Noah",
+        level: 37,
+        class: "Rogue",
+        species: "Dark Elf",
+        spells: 0,
+        passives: 0,
+        "spell points": 37, // from class 1 per level (normal/rare/epic/legendary)
+        "stat points": 37+37+4-37, // from species 2 per level // 1 per every 10 levels
+        vitality: 0,
+        strength: 0,
+        endurance: 0,
+        magic: 0,
+        willpower: 0,
+        dexterity: 37,
+        sense: 0,
+        charisma: 0,
+      }}
+      // Makes skills an object of skill types 'human' 'mage' and they be the arrays.
+      // Do the same thing for equipment and titles?
+      showTitles={false} // currently does nothing
+      equippedTitle="Princess"
+      titles={['Princess']}
+      showSkills={false}
+      skills={{
+        "Dark Elf": [
+        ],
+        rogue: [
+          // { name: "Mana Ball", level: 1 },
+        ],
+        conditions: [
+        // Negatives
+        { name: "Player", level: 1 },
+        ],
+      }}
+      showItems={false}
+      items={{
+        Body: {
+          name: "Academy Robe (Black/??).",
+          effect: "",
+          rating: "junk",
+          stats: {magic: 0, HP: 0}
+        },
+      }}
+      notes={
+        "Eyes as part of the cats skills, see the witch of alden.",
+        "2 spell per level, 2 stats per level, Human +1 stat every 10 levels."
+      }
+    />
+    )
+  } else {
+    return (
+      <div>
+      <p>1: They are in a zone of comfort</p>
+
+      <p>2: But they want something</p>
+
+      <p>3: They enter an unfamiliar situation</p>
+
+      <p>4: Adapt to it</p>
+
+      <p>5: Get what they wanted</p>
+
+      <p>6: Pay a heavy price</p>
+
+      <p>7: Then return to the familia situation</p>
+
+      <p>8: Having changed</p>
+    </div>
+    )
+  }
+}
+
 export function Linhart() {
   return (
     <div>
