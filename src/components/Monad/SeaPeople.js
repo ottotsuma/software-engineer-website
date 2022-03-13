@@ -5,7 +5,7 @@ import { Content } from "./styles";
 import Spin from "./../elements/spin";
 import Quest from "./../elements/quest";
 import LevelUp from "./../elements/levelup";
-import Otto from "./Otto";
+import Otto from "./People";
 import Equipment from "./../elements/equipment";
 import Stats from "./../elements/stats";
 import Spells from "./../elements/spells";
@@ -2350,17 +2350,20 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         the inn.
       </Juan>
       <Josh>
-        After the brief exchange Sarah shot me a warning look to keep my mouth
+        After the brief exchange, Sarah shot me a warning look to keep my mouth
         closed. If I didn't know better I would swear she hates my voice. Saying
-        nothing I just accompanied her into our room. The room was split into
-        two like most high class rooms were. The first room with two smaller
-        beds pushed into the walls at the sides flanking a door into the second
-        room. This will be where me and Noah are expected to stay keeping guard.
+        nothing, I accompanied her into our room. The room was split into
+        two, like most high class rooms were. The first room, with two small
+        beds pushed into the walls at the sides, flanking a door into the second
+        room. This will be where me and Noah are expected to stay, keeping guard.
         Sarah's room was much larger then our little entrance way. The room
         opened into a canopy double bed to the right, a large window at the far
         wall and a fire place to the left. The window was like the others found
         throughout the republics old buildings, covered by colorful clothes,
         with wooden shutters when you wanted privacy.
+      </Josh>
+      <Josh>
+
       </Josh>
       {/* Give the blood bottle to Sarah, after she is injured by the priest */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}

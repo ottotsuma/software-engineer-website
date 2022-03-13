@@ -1,6 +1,7 @@
 // Events starts and we follow Kaja through the event
 import React from "react";
 import { Content } from "./styles";
+import {Kaja as KajaStats} from './People';
 import {
   Otto,
   Lubin,
@@ -689,6 +690,7 @@ function Intro(props) {
       <Kaja>
         
       </Kaja>
+      {KajaStats(35)}
       {/* Chu-gong */}
       {/* Moving from the pond to conflict with Garin & co. Chu 'dies' and Kaja runs towards Otto. */}
       {/* running away */}

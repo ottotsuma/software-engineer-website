@@ -27,8 +27,6 @@ console.log((Damage3(10, 1, 10, 10)/210)*100)
 // 1100 HP
 console.log((Damage3(20, 20, 100, 100)/1100)*100)
 
-
-
 Dreonoqai, Kiubari, Yefux, Rosheakoris, Ulos
 
 area + species conquest ffx

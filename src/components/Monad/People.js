@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Item from "./../elements/item";
-import Stats from "./../elements/stats";
+import Item from "../elements/item";
+import Stats from "../elements/stats";
 import SpellCards from "./SpellCards";
-import ClassDisplay from './../elements/classes'
+import ClassDisplay from '../elements/classes'
 
 export default function Otto() {
   return (
@@ -215,7 +215,6 @@ export default function Otto() {
     </div>
   );
 }
-
 export function DirtyOtto() {
   return (
     <div>
@@ -246,9 +245,73 @@ export function DirtyOtto() {
     </div>
   );
 }
-export function Kaja() {
-  return (
-    <div>
+export function Kaja (Chapter) {
+  if (Chapter) {
+    return (
+      <Stats
+      type={"description"}
+      stats={{
+        name: "Kaja",
+        level: 10,
+        class: "mage",
+        species: "human",
+        spells: 0,
+        passives: 0,
+        "spell points": 20, // from class 2 per level (normal/rare/epic/legendary)
+        "stat points": 22, // from species 2 per level // 1 per every 10 levels
+        vitality: 0,
+        strength: 0,
+        endurance: 0,
+        magic: 0,
+        willpower: 0,
+        dexterity: 0,
+        sense: 0,
+        charisma: 0,
+      }}
+      // Makes skills an object of skill types 'human' 'mage' and they be the arrays.
+      // Do the same thing for equipment and titles?
+      showTitles={false} // currently does nothing
+      equippedTitle="Back to School"
+      titles={['Back to School', 'Apprentice']}
+      showSkills={true}
+      skills={{
+        human: [
+          // { name: "Human Ingenuity", level: 2 },
+          // { name: "Persuasive", level: 2 },
+          // { name: "Quick", level: 2 },
+          // { name: "Perception", level: 2 },
+          // { name: "Athletic", level: 2 },
+          // { name: "Healthy", level: 2 },
+          // { name: "Adaptable", level: 2 },
+          // { name: "Brave", level: 2 },
+          // { name: "Pure of mind", level: 2 },
+          // { name: "Magic Enthusiast", level: 2 }, // 20
+        ],
+        mage: [
+          { name: "Mana Ball", level: 1 },
+        ],
+        conditions: [
+        // Negatives
+        { name: "Youth", level: 1 },
+        ],
+      }}
+      showItems={true}
+      items={{
+        Body: {
+          name: "Academy Robe (Black/Red).",
+          effect: "Magic: +2, Fire +2%, Health +10.",
+          rating: "junk",
+          stats: {magic: 2, HP: 10}
+        },
+      }}
+      notes={
+        "2 spell per level, 2 stats per level, Human +1 stat every 10 levels."
+      }
+    />
+    )
+  } else {
+    return (
+      <div>
       <p>1: They are in a zone of comfort</p>
       <p>With her farther</p>
 
@@ -273,7 +336,8 @@ export function Kaja() {
       <p>8: Having changed</p>
       <p>Is not the happy girl she once was, cynical and icy</p>
     </div>
-  );
+    )
+  }
 }
 export function Linhart() {
   return (

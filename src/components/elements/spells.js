@@ -305,6 +305,7 @@ export const spellList = {
     name: "Mana Ball",
     1: "Gathers mana into a ball. Gives off a small amount of light.",
     2: "Mana ball create is instant, flight speed +25%.",
+    classes: ["mage"],
   },
   "Mana Orbs": {
     name: "Mana Orbs",
@@ -318,16 +319,19 @@ export const spellList = {
     8: "10% increase in mana ball damage.",
     9: "Balls can move away form their path of orbit if a target is near by.",
     10: "Balls can be shot in all directions, bounce off walls or max range and coming back.",
+    classes: ["mage"],
   },
   Tether: {
     name: "Tether",
     1: "Gathers mana into a string shape.",
     2: "Two objects within 10’ of each other be-come linked and cannot be moved more than 10’ apart.",
+    classes: ["mage"],
   },
   "Magic Resistance": {
     name: "Magic Resistance",
     passive: true,
     1: "Passive: Resists mana foreign to the body, on surface level.",
+    classes: ["mage"],
   },
   "Magic Up": {
     name: "Magic Up",
@@ -343,10 +347,12 @@ export const spellList = {
     8: "Magic +8",
     9: "Magic +9",
     10: "Magic +10, mana recovery +10%.",
+    classes: ["mage"],
   },
   Strike: {
     name: "Strike",
     1: "Calls mana in the environment to gather and strike down from above.",
+    classes: ["mage"],
   },
   Missile: {
     name: "Missile",
@@ -360,6 +366,7 @@ export const spellList = {
     8: "+1 Missile.",
     9: "Missile damage +10%.", // you have 5 missiles so if all land its a 50% boost!
     10: "Missiles become one big missile, splash damage on impact.",
+    classes: ["mage"],
   },
   "Mana Slide": {
     name: "Mana Slide",
@@ -372,11 +379,13 @@ export const spellList = {
     7: "50% further.",
     8: "+10% speed.",
     9: "15% cost reduction.",
+    classes: ["mage"],
   },
   "Mana Shield": {
     name: "Mana Shield",
     1: "Produces a shield of mana around the user.",
     2: "Takes 5% less damage.",
+    classes: ["mage"],
   },
   "Mana Wings": {
     name: "Mana Wings",
@@ -390,15 +399,18 @@ export const spellList = {
     8: "Can be used underwater.",
     9: "Wings take 5% less damage.",
     10: "Twice as many wings, half the cost.",
+    classes: ["mage"],
   },
   "Shield Burst": {
     name: "Shield Burst",
     1: "Explodes the mana left in the mana shield, into an attack.",
+    classes: ["mage"],
   },
   "Magic Regen": {
     name: "Magic Regen",
     passive: true,
     1: "Increases mana recovery speed.",
+    classes: ["mage"],
   },
   Talented: {
     name: "Talented",

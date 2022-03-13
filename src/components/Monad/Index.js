@@ -45,7 +45,7 @@ import Chapter40 from "./Ch40-War";
 import Chapter41 from "./Ch41-Graduate";
 import { colors } from "./../color";
 import SpellsPage from "./SpellsPage";
-import Otto from "./Otto";
+import Otto from "./People"; // check this still works
 import SeaPeopleFunction from "./SeaPeople";
 import Vampire from "./Vampire";
 import styled from "styled-components";
