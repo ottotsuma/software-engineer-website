@@ -416,7 +416,7 @@ function Intro(props) {
               class: "Kʼawiil.",
               spells: 5,
               titles: 5,
-              "spell points": 35,
+              "spell points": 15,
               "stat points": 0,
               vitality: 0,
               strength: 1, // 1 from title
@@ -427,7 +427,7 @@ function Intro(props) {
               sense: 1, // 1 from human
               charisma: 13, // 2 from human, 1 from title, 10 from leveling
             }}
-            notes={"4 spell per level, 1 stats per level,"}
+            notes={"2 spell per level, 1 stats per level,"}
           />
           {/* Titles: 
             Back to School - +1 Magic
@@ -655,10 +655,10 @@ function Intro(props) {
               { name: "Lightning seeds", level: 2 }, // 5 points spent on old spells
               // New Spells Below
               { name: "Scarecrow", level: 2 },
-              { name: "Kʼawiil Burst", level: 2 },
+              // { name: "Kʼawiil Burst", level: 2 },
               { name: "Kʼawiil Bolt", level: 2 },
               { name: "Serpent Skin", level: 2 },
-              { name: "Serpent Pattern", level: 2 }, // 10 points spent on new spells
+              // { name: "Serpent Pattern", level: 2 }, // 10 points spent on new spells
               { name: "Reap What You Sow", level: 2 },
               { name: "Bountiful Harvest", level: 2 },
             ]}
@@ -666,21 +666,21 @@ function Intro(props) {
           />
           <div className="BreakPoint" />
           {/* Human skills, but also could have God based skills and passives. The snake ones looked good. */}
-          <Spells
+          {/* <Spells
             spells={[
-              { name: "Human Ingenuity", level: 2 },
-              { name: "Persuasive", level: 2 },
-              { name: "Quick", level: 2 },
-              { name: "Perception", level: 2 },
-              { name: "Athletic", level: 2 },
-              { name: "Healthy", level: 2 },
-              { name: "Adaptable", level: 2 },
-              { name: "Brave", level: 2 },
+              // { name: "Human Ingenuity", level: 2 },
+              // { name: "Persuasive", level: 2 },
+              // { name: "Quick", level: 2 },
+              // { name: "Perception", level: 2 },
+              // { name: "Athletic", level: 2 },
+              // { name: "Healthy", level: 2 },
+              // { name: "Adaptable", level: 2 },
+              // { name: "Brave", level: 2 },
               // { name: "Pure of mind", level: 2 },
               // { name: "Magic Enthusiast", level: 2 }, // 20
             ]}
             type={"human"}
-          />
+          /> */}
           <p>
             Let's just hope they are useful in the future also. With that I went
             sleep.

@@ -5,6 +5,7 @@ import SpellCards from "./SpellCards";
 import ClassDisplay from '../elements/classes'
 
 export default function Otto() {
+  // Ch32
   return (
     <div style={{ color: "black" }}>
       <div style={{display: "flex", justifyContent: "center"}}>
@@ -24,9 +25,9 @@ export default function Otto() {
           class: "Kʼawiil",
           species: "human",
           spells: 8,
-          passives: 32,
-          "spell points": 0, // from class 4 per level (normal/rare/epic/legendary)
-          "stat points": 0, // from species 2 per level
+          passives: 2,
+          "spell points": 20-20, // from class 4 per level (normal/rare/epic/legendary), Increase Free Ability Points received for every increase in Level by 2 points.
+          "stat points": 22-22, // from species 2 per level
           vitality: 0,
           strength: 0,
           endurance: 0,
@@ -39,34 +40,34 @@ export default function Otto() {
         // Makes skills an object of skill types 'human' 'mage' and they be the arrays.
         // Do the same thing for equipment and titles?
         showTitles={false} // currently does nothing
-        equippedTitle="The One, The Only"
+        equippedTitle="Apprentice"
         titles={['Back to School', 'Apprentice', 'Found a unique item', 'The One, The Only', 'Novice Harvester']}
         showSkills={true}
         skills={{
-          human: [
-            { name: "Human Ingenuity", level: 2 },
-            { name: "Persuasive", level: 2 },
-            { name: "Quick", level: 2 },
-            { name: "Perception", level: 2 },
-            { name: "Athletic", level: 2 },
-            { name: "Healthy", level: 2 },
-            { name: "Adaptable", level: 2 },
-            { name: "Brave", level: 2 },
+          // human: [
+            // { name: "Human Ingenuity", level: 2 },
+            // { name: "Persuasive", level: 2 },
+            // { name: "Quick", level: 2 },
+            // { name: "Perception", level: 2 },
+            // { name: "Athletic", level: 2 },
+            // { name: "Healthy", level: 2 },
+            // { name: "Adaptable", level: 2 },
+            // { name: "Brave", level: 2 },
             // { name: "Pure of mind", level: 2 },
             // { name: "Magic Enthusiast", level: 2 }, // 20
-          ],
+          // ],
           mage: [
             { name: "Lightning germination", level: 2 },
             { name: "Lightning growth", level: 2 },
             { name: "Lightning harvest", level: 2 },
             { name: "Seeds to Soldiers", level: 2 },
-            { name: "Lightning seeds", level: 2 }, // 5 points spent on old spells
+            { name: "Lightning seeds", level: 2 },
             // New Spells Below
             { name: "Scarecrow", level: 2 },
-            { name: "Kʼawiil Burst", level: 2 },
+            // { name: "Kʼawiil Burst", level: 2 },
             { name: "Kʼawiil Bolt", level: 2 },
             { name: "Serpent Skin", level: 2 },
-            { name: "Serpent Pattern", level: 2 }, // 10 points spent on new spells
+            // { name: "Serpent Pattern", level: 2 },
             { name: "Reap What You Sow", level: 2 },
             { name: "Bountiful Harvest", level: 2 },
           ],
@@ -94,7 +95,7 @@ export default function Otto() {
           },
         }}
         notes={
-          "4 spell per level, 2 stats per level, Human +1 stat every 10 levels."
+          "2 spell per level, 2 stats per level, Human +1 stat every 10 levels."
         }
       />
       {/* This equipment is level 5? So maybe needs stat changes */}
@@ -257,14 +258,14 @@ export function Kaja (Chapter) {
         species: "human",
         spells: 0,
         passives: 0,
-        "spell points": 10-8, // from class 1 per level (normal/rare/epic/legendary)
-        "stat points": 22-10, // from species 2 per level // 1 per every 10 levels
-        vitality: 0,
+        "spell points": 10-10, // from class 1 per level (normal/rare/epic/legendary)
+        "stat points": 22-22, // from species 2 per level // 1 per every 10 levels
+        vitality: 10,
         strength: 0,
         endurance: 0,
         magic: 10,
         willpower: 0,
-        dexterity: 0,
+        dexterity: 2,
         sense: 0,
         charisma: 0,
       }}
@@ -289,11 +290,11 @@ export function Kaja (Chapter) {
         ],
         mage: [
           { name: "Mana Ball", level: 1 },
-          { name: "Fireball", level: 1 },
-          { name: "fire cyclone", level: 1 },
-          { name: "fire mine", level: 1 },
+          { name: "Fireball", level: 2 },
+          { name: "Fire Wrap", level: 1 },
+          { name: "Fire Mine", level: 1 },
           { name: "Magic Up", level: 2 },
-
+          { name: "Magic Regen", level: 1 },
           // Magic Regen, Shield Burst, Mana Wings, Mana Shield, Mana Slide, Missile, Strike, Magic Up, Magic Resistance, Tether, Mana Orbs
         ],
         conditions: [

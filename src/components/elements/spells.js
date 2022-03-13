@@ -2040,7 +2040,8 @@ export const spellList = {
   Fireball: {
     name: "Fireball",
     passive: false,
-    1: "Shoots a ball of fire.",
+    1: "Shoots a ball of fire directly in front of you.",
+    2: "Shoots a ball of fire directly in front of you.",
   },
   Fly: {
     name: "Fly",
@@ -3043,8 +3044,8 @@ export const spellList = {
     negative: true,
     1: "-2 sense when using ears alone.",
   },
-  "fire cyclone": {
-    name: "fire cyclone",
+  "Fire Cyclone": {
+    name: "Fire Cyclone",
     element: "fire",
     image:
       "https://i.pinimg.com/originals/10/9c/fd/109cfdb1f2c6b96cd5d99486753cecd0.gif",
@@ -3052,14 +3053,23 @@ export const spellList = {
     passive: false,
     1: "A cyclone of fire starts winding up and spins towards your target.",
   },
-  "fire mine": {
-    name: "fire mine",
+  "Fire Wrap": {
+    name: "Fire Wrap",
+    element: "fire",
+    image:
+      "",
+    negative: false,
+    passive: false,
+    1: "Wraps you in a cyclone of fire, Causing Fire damage to anyone who gets too close to you.",
+  },
+  "Fire Mine": {
+    name: "Fire Mine",
     element: "fire",
     image:
       "https://static.wikia.nocookie.net/elderscrolls/images/8/87/SKRMFire_Rune.png",
     negative: false,
     passive: false,
-    1: "Casting it causes blobs of fire to shoot from the hands and stick to surfaces. When a target steps on or passes too closely to a Fire mine, it explodes, causing fire damage.",
+    1: "Casting it causes blobs of fire to shoot from the hands and stick to surfaces. When a target steps on or passes too closely to a Fire Mine, it explodes, causing fire damage.",
   },
 };
 

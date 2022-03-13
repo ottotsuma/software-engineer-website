@@ -101,9 +101,7 @@ function Intro(props) {
       <p>
         Some of the students were a little slow or stunned like me at first. I
         had thought there was going to be a count down or something! I wrapped
-        myself in a fire cyclone, a spell that would damage anyone who got too
-        close to me. The first thing I was doing was running into the trees as
-        fast as I could.
+        myself in a fire cyclone using Fire Wrap, a spell that would damage anyone who got too close to me. The first thing I was doing was running into the trees as fast as I could.
       </p>
       <p>
         The ground was moving and shifting under the wishes of the earth mages,
