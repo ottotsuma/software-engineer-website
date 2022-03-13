@@ -175,6 +175,27 @@ export const spellList = {
     3: "Endurance +3",
     4: "Endurance +4",
     5: "Endurance +5",
+    stats: [{
+      endurance: 1,
+    }, {
+      endurance: 2,
+    }, {
+      endurance: 3,
+    }, {
+      endurance: 4,
+    }, {
+      endurance: 5,
+    }, {
+      endurance: 6,
+    }, {
+      endurance: 7,
+    }, {
+      endurance: 8,
+    }, {
+      endurance: 9,
+    }, {
+      endurance: 10,
+    }]
   },
   Haietlik: {
     name: "Haietlik",
@@ -746,6 +767,27 @@ export const spellList = {
     7: "Magic +7",
     8: "Magic +8",
     9: "Magic +9",
+    stats: [{
+      magic: 1,
+    }, {
+      magic: 2,
+    }, {
+      magic: 3,
+    }, {
+      magic: 4,
+    }, {
+      magic: 5,
+    }, {
+      magic: 6,
+    }, {
+      magic: 7,
+    }, {
+      magic: 8,
+    }, {
+      magic: 9,
+    }, {
+      magic: 10,
+    }]
   },
   "Magic Enthusiast": {
     name: "Magical Enthusiast",
@@ -759,30 +801,135 @@ export const spellList = {
     7: "Magic +7",
     8: "Magic +8",
     9: "Magic +9",
+    stats: [{
+      magic: 1,
+    }, {
+      magic: 2,
+    }, {
+      magic: 3,
+    }, {
+      magic: 4,
+    }, {
+      magic: 5,
+    }, {
+      magic: 6,
+    }, {
+      magic: 7,
+    }, {
+      magic: 8,
+    }, {
+      magic: 9,
+    }, {
+      magic: 10,
+    }]
   },
   "Arcane Inclination": {
     name: "Arcane Inclination",
     passive: true,
     1: "Magic +1",
     2: "Magic +2",
+    stats: [{
+      magic: 1,
+    }, {
+      magic: 2,
+    }, {
+      magic: 3,
+    }, {
+      magic: 4,
+    }, {
+      magic: 5,
+    }, {
+      magic: 6,
+    }, {
+      magic: 7,
+    }, {
+      magic: 8,
+    }, {
+      magic: 9,
+    }, {
+      magic: 10,
+    }]
   },
   "Arcane Tradition Focus": {
     name: "Arcane Tradition Focus",
     passive: true,
     1: "Magic +1",
     2: "Magic +2",
+    stats: [{
+      magic: 1,
+    }, {
+      magic: 2,
+    }, {
+      magic: 3,
+    }, {
+      magic: 4,
+    }, {
+      magic: 5,
+    }, {
+      magic: 6,
+    }, {
+      magic: 7,
+    }, {
+      magic: 8,
+    }, {
+      magic: 9,
+    }, {
+      magic: 10,
+    }]
   },
   "Arcane Tradition Prodigy": {
     name: "Arcane Tradition Prodigy",
     passive: true,
     1: "Magic +1",
     2: "Magic +2",
+    stats: [{
+      magic: 1,
+    }, {
+      magic: 2,
+    }, {
+      magic: 3,
+    }, {
+      magic: 4,
+    }, {
+      magic: 5,
+    }, {
+      magic: 6,
+    }, {
+      magic: 7,
+    }, {
+      magic: 8,
+    }, {
+      magic: 9,
+    }, {
+      magic: 10,
+    }]
   },
   Astute: {
     name: "Astute",
     passive: true,
     1: "Magic +1",
     2: "Magic +2",
+    stats: [{
+      magic: 1,
+    }, {
+      magic: 2,
+    }, {
+      magic: 3,
+    }, {
+      magic: 4,
+    }, {
+      magic: 5,
+    }, {
+      magic: 6,
+    }, {
+      magic: 7,
+    }, {
+      magic: 8,
+    }, {
+      magic: 9,
+    }, {
+      magic: 10,
+    }]
   },
   "Basic God": {
     name: "Basic God",

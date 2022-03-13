@@ -257,7 +257,7 @@ export function Kaja (Chapter) {
         species: "human",
         spells: 0,
         passives: 0,
-        "spell points": 20-6, // from class 2 per level (normal/rare/epic/legendary)
+        "spell points": 10-8, // from class 1 per level (normal/rare/epic/legendary)
         "stat points": 22-10, // from species 2 per level // 1 per every 10 levels
         vitality: 0,
         strength: 0,
@@ -285,7 +285,7 @@ export function Kaja (Chapter) {
           // { name: "Adaptable", level: 2 },
           // { name: "Brave", level: 2 },
           // { name: "Pure of mind", level: 2 },
-          // { name: "Magic Enthusiast", level: 2 },
+          { name: "Magic Enthusiast", level: 2 },
         ],
         mage: [
           { name: "Mana Ball", level: 1 },
