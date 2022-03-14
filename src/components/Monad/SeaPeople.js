@@ -2365,8 +2365,11 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         with wooden shutters when you wanted privacy.
       </Josh>
       <Josh>
-
+        "As nice as my small bed in a dark entrance way is, I am going to take a look around the town and pick up some items." I told Sarah after looking around the room.
       </Josh>
+      <Sarah>
+        "Okay, I have guild matters to catch up on anyway so I'll just be up here. Avoid Juan if you can, he's a little.. Pushy, about joining the church." Sarah warned me, then I took my leave.
+      </Sarah>
       {/* Give the blood bottle to Sarah, after she is injured by the priest */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}
       {/* All the normal land, and sea routes on the way to Alden are
