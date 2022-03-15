@@ -95,7 +95,7 @@ export const racesList = {
     team: '',
     self: 'Blood magic is always unlocked. 🧛‍♂️',
     images: '',
-    notes: '',
+    notes: '{ name: "Vampire Eyes", level: 1 }, { name: "Vampiric Powers", level: 1 },{ name: "Vampire", level: 1 },',
     tier: 'rare'
   },
   "Automitia": {

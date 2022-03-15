@@ -530,13 +530,13 @@ export function Sarah (Chapter) {
         spells: 0,
         passives: 0,
         "spell points": 100, // from class 1 per level (normal/rare/epic/legendary)
-        "stat points": 111, // from species 2 per level // 1 per every 10 levels
+        "stat points": 211-211, // from species 2 per level // 1 per every 10 levels
         vitality: 100,
-        strength: 0,
-        endurance: 0,
-        magic: 0,
+        strength: 60,
+        endurance: 11,
+        magic: 20,
         willpower: 0,
-        dexterity: 0,
+        dexterity: 20,
         sense: 0,
         charisma: 0,
       }}
@@ -548,10 +548,13 @@ export function Sarah (Chapter) {
       showSkills={true}
       skills={{
         "vampire": [
-          // Blood magic is always unlocked. 🧛‍♂️
+          { name: "Vampire Eyes", level: 1 },
+          { name: "Vampiric Powers", level: 1 },
+          { name: "Vampire", level: 1 },
+          // Basic Vampire Martial Arts, Vampiric Influence, 
         ],
         paladin: [
-          // { name: "Mana Ball", level: 1 },
+          { name: "Fallen Paladin", level: 1 },
         ],
         conditions: [
         // Negatives

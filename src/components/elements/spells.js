@@ -3082,6 +3082,16 @@ export const spellList = {
     passive: false,
     1: "Casting it causes blobs of fire to shoot from the hands and stick to surfaces. When a target steps on or passes too closely to a Fire Mine, it explodes, causing fire damage.",
   },
+  "Fallen Paladin": {
+    name: "Fallen Paladin",
+    element: "",
+    image:
+      "",
+    negative: true,
+    passive: true,
+    1: "A paladin without the support of a God is stripped of faith and unable to use any Paladin skills.",
+  },
+  
 };
 
 export function InlineSpell ({spellName, level}) {
