@@ -11,8 +11,7 @@ import Stats from "./../elements/stats";
 import Spells from "./../elements/spells";
 import Blood from "./../../assets/Blood.jpg";
 import { Sarah, Josh, Juan, Noah } from "./CharacterFonts";
-import {Noah as NoahStats} from './People';
-
+import { Noah as NoahStats, Sarah as SarahStats } from "./People";
 
 export const Shine = styled.p`
   font-size: xxx-large;
@@ -2354,22 +2353,27 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
       <Josh>
         After the brief exchange, Sarah shot me a warning look to keep my mouth
         closed. If I didn't know better I would swear she hates my voice. Saying
-        nothing, I accompanied her into our room. The room was split into
-        two, like most high class rooms were. The first room, with two small
-        beds pushed into the walls at the sides, flanking a door into the second
-        room. This will be where me and Noah are expected to stay, keeping guard.
-        Sarah's room was much larger then our little entrance way. The room
-        opened into a canopy double bed to the right, a large window at the far
-        wall and a fire place to the left. The window was like the others found
-        throughout the republics old buildings, covered by colorful clothes,
-        with wooden shutters when you wanted privacy.
+        nothing, I accompanied her into our room. The room was split into two,
+        like most high class rooms were. The first room, with two small beds
+        pushed into the walls at the sides, flanking a door into the second
+        room. This will be where me and Noah are expected to stay, keeping
+        guard. Sarah's room was much larger then our little entrance way. The
+        room opened into a canopy double bed to the right, a large window at the
+        far wall and a fire place to the left. The window was like the others
+        found throughout the republics old buildings, covered by colorful
+        clothes, with wooden shutters when you wanted privacy.
       </Josh>
       <Josh>
-        "As nice as my small bed in a dark entrance way is, I am going to take a look around the town and pick up some items." I told Sarah after looking around the room.
+        "As nice as my small bed in a dark entrance way is, I am going to take a
+        look around the town and pick up some items." I told Sarah after looking
+        around the room.
       </Josh>
       <Sarah>
-        "Okay, I have guild matters to catch up on anyway so I'll just be up here. Avoid Juan if you can, he's a little.. Pushy, about joining the church." Sarah warned me, then I took my leave.
+        "Okay, I have guild matters to catch up on anyway so I'll just be up
+        here. Avoid Juan if you can, he's a little.. Pushy, about joining the
+        church." Sarah warned me, then I took my leave.
       </Sarah>
+      {SarahStats(9)}
       {/* Give the blood bottle to Sarah, after she is injured by the priest */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}
       {/* All the normal land, and sea routes on the way to Alden are
@@ -2404,7 +2408,7 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         or queen. Here before the countries are established, the lords would be
         those who killed the right people.
       </p>
-      {NoahStats(1)}
+      {NoahStats(9)}
     </Content>
   ),
   10: (
