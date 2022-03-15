@@ -6,6 +6,7 @@ import { classList } from "./classes";
 import Spells from "./spells";
 import { titlesList } from "./titles";
 import Equipment from "./equipment";
+import {monadColors} from "./colors"
 
 // Kʼawiil - Lightning, seeds, abundance, powerful one, fertility, serpent
 
@@ -488,23 +489,53 @@ function Stats({
     );
     const spam = statList[keys[index]];
     if (keys[index] === "class" && ClassSpan) {
+      const classElement = (
+        <Wrap>
+          <Inline>{keys[index]}: </Inline>
+          <Inline style={{ color: monadColors[classList[stats[keys[index]]].tier] }}>
+            {typeof stats[keys[index]] === "number"
+              ? parseInt(stats[keys[index]])
+              : stats[keys[index]]}
+          </Inline>
+        </Wrap>
+      );
       array.push(
         <SingleStat key={index + "stat"}>
-          {element}
+          {classElement}
           {!!type && <Span>{ClassSpan}</Span>}
         </SingleStat>
       );
     } else if (keys[index] === "species" && RaceSpan) {
+      const speciesElement = (
+        <Wrap>
+          <Inline>{keys[index]}: </Inline>
+          <Inline style={{ color: monadColors[racesList[stats[keys[index]]].tier] }}>
+            {typeof stats[keys[index]] === "number"
+              ? parseInt(stats[keys[index]])
+              : stats[keys[index]]}
+          </Inline>
+        </Wrap>
+      );
       array.push(
         <SingleStat key={index + "stat"}>
-          {element}
+          {speciesElement}
           {!!type && <Span>{RaceSpan}</Span>}
         </SingleStat>
       );
     } else if (keys[index] === "title" && TitleSpan) {
+      const titleElement = (
+        <Wrap>
+          <Inline>{keys[index]}: </Inline>
+          <Inline style={{ color: monadColors[titlesList[stats[keys[index]]].tier] }}>
+            {typeof stats[keys[index]] === "number"
+              ? parseInt(stats[keys[index]])
+              : stats[keys[index]]}
+          </Inline>
+        </Wrap>
+      );
       array.push(
         <SingleStat key={index + "stat"}>
-          {element}
+          {titleElement}
           {!!type && <Span>{TitleSpan}</Span>}
         </SingleStat>
       );

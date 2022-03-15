@@ -12,7 +12,8 @@ export const titlesList = {
         condition: 'Become the princess of a country.',
         stats: {
         },
-        description: 'Princess of a country.'
+        description: 'Princess of a country.',
+        tier: "legendary"
     },
     'Back to School': {
         name: 'Back to School',

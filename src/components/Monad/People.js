@@ -414,8 +414,7 @@ export function Tsuma (Chapter) {
         },
       }}
       notes={
-        "Eyes as part of the cats skills, see the witch of alden.",
-        "2 spell per level, 2 stats per level, Human +1 stat every 10 levels."
+        "Eyes as part of the cats skills, see the witch of alden. 2 spell per level, 2 stats per level, Human +1 stat every 10 levels."
       }
     />
     )
@@ -492,7 +491,6 @@ export function Noah (Chapter) {
         },
       }}
       notes={
-        "Eyes as part of the cats skills, see the witch of alden.",
         "2 spell per level, 2 stats per level, Human +1 stat every 10 levels."
       }
     />
@@ -550,6 +548,7 @@ export function Sarah (Chapter) {
       showSkills={true}
       skills={{
         "vampire": [
+          // Blood magic is always unlocked. 🧛‍♂️
         ],
         paladin: [
           // { name: "Mana Ball", level: 1 },
@@ -569,7 +568,6 @@ export function Sarah (Chapter) {
         },
       }}
       notes={
-        "Eyes as part of the cats skills, see the witch of alden.",
         "2 spell per level, 2 stats per level, Human +1 stat every 10 levels."
       }
     />
