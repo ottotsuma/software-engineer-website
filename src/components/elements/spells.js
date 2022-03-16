@@ -2712,9 +2712,9 @@ export const spellList = {
     passive: false,
     1: "",
   },
-  "Doubled Damage by Fire": {
-    name: "Doubled Damage by Fire",
-    passive: false,
+  "Weak To Fire": {
+    name: "Weak To Fire",
+    passive: true,
     1: "",
   },
   "Eating, Drinking, and Breathing are Unnecessary": {
@@ -2929,6 +2929,47 @@ export const spellList = {
     name: "Vampiric Powers",
     passive: true,
     1: "No points can be spent on this passive. As the severity of vampirism increases, the vampire's weakness and strengths enhance. Some effects are constant across the infection, while others are dynamic.",
+    2: "Hunger level 20%.",
+    3: "Hunger level 30%.",
+    4: "Hunger level 40%.",
+    5: "Hunger level 50%.",
+    6: "Hunger level 60%.",
+    7: "Hunger level 70%.",
+    8: "Hunger level 80%.",
+    9: "Hunger level 90%.",
+    10: "Hunger level 100%.",
+    stats: [{
+      strength: 1,
+      magic: 1,
+    },{
+      strength: 1,
+      magic: 1,
+      sense: 1,
+    },{
+      strength: 1,
+      magic: 1,
+    },{
+      strength: 1,
+      magic: 1,
+    },{
+      strength: 1,
+      magic: 1,
+    },{
+      strength: 1,
+      magic: 1,
+    },{
+      strength: 1,
+      magic: 1,
+    },{
+      strength: 1,
+      magic: 1,
+    },{
+      strength: 1,
+      magic: 1,
+    },{
+      strength: 1,
+      magic: 1,
+    },]
   },
   "Ghoul's Strength": {
     name: "Ghoul's Strength",
