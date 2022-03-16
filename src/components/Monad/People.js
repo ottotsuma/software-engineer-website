@@ -551,7 +551,8 @@ export function Sarah (Chapter) {
           { name: "Vampire Eyes", level: 1 },
           { name: "Vampiric Powers", level: 1 },
           { name: "Vampire", level: 1 },
-          // Basic Vampire Martial Arts, Vampiric Influence, 
+          // Above is all (I)
+          // Basic Vampire Martial Arts, Vampiric Influence, Blood Wall, Blood Bank, Blood Storage, Blood Hardening, Sleep Immunity, Blood Armor, 
         ],
         paladin: [
           { name: "Fallen Paladin", level: 1 },
