@@ -37,6 +37,8 @@ export const ItemList = {
     description: 'Third Eye (active skill). Control minion: +1, sense: +1,',
     image: 'https://ottotsuma.github.io/images/items/wand1.png',
     effect: '¤3,200,000', // Price since it was shown In a shop.
+    rating: "normal",
+    stats: {sense: 1}
   },
   "Bone Lance" : {
     name: 'Bone Lance',
@@ -49,8 +51,98 @@ export const ItemList = {
     description: 'Tiny increase in spear proficiency when equipped.',
     image: '',
     effect: '', // Price since it was shown In a shop.
-  }
+  },
+  "Paladin Engeler's Body Armor (silver rank)": {
+    name: "Paladin Engeler's Body Armor (silver rank)",
+    description: "Reduces physical damage taken by 10%, except spears. Endurance +1, Endurance +10%.",
+    rating: "epic",
+    stats: {endurance: 1, enduranceMultiplier: 1.1}
+  },
+  "Paladin Engeler's Sallet (silver rank)": {
+    name: "Paladin Engeler's Sallet (silver rank)",
+    description: "Endurance +1.8.",
+    rating: "epic",
+    stats: {endurance: 1.8}
+  },
+  "Paladin Engeler's Gauntlets (silver rank)": {
+    name: "Paladin Engeler's Gauntlets (silver rank)",
+    description: "Endurance +1.",
+    rating: "epic",
+    stats: {endurance: 1}
+  },
+  "Paladin Engeler's Sabaton (silver rank)": {
+    name: "Paladin Engeler's Sabaton (silver rank)",
+    description: "Endurance +1.2.",
+    rating: "epic",
+    stats: {endurance: 1.2}
+  },
+  "Paladin Engeler's Mace (silver rank)": {
+    name: "Paladin Engeler's Mace (silver rank)",
+    description: "Strength +3.",
+    rating: "epic",
+    stats: {strength: 3}
+  },
+  "Paladin Engeler's Shield (silver rank)": {
+    name: "Paladin Engeler's Shield (silver rank)",
+    description: "Threat increased 20%, Reduce received damage from Demons by 7%, Reduce received damage from Undead by 7%, chance to block 20%.",
+    rating: "epic",
+    stats: {endurance: 0}
+  },
+  "Paladin Engeler's Cape (silver rank)": {
+    name: "Paladin Engeler's Cape (silver rank)",
+    description: "Increase HP by 315, Increase MP by 225.",
+    rating: "epic",
+    stats: {HP: 315, MP: 225}
+  },
+  "Demon Hunter Necklace": {
+    name: "Demon Hunter Necklace",
+    description: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
+    rating: "epic",
+  },
+  "Demon Hunter Bracelet": {
+    name: "Demon Hunter Bracelet",
+    description: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
+    rating: "epic",
+  },
+  "Demon Hunter Earring": {
+    name: "Demon Hunter Earring",
+    description: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
+    rating: "epic",
+  },
+  "Demon Hunter Ring": {
+    name: "Demon Hunter Ring",
+    description: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
+    rating: "epic",
+  },
+  "Paladin Engeler's Set (3/7)" : {
+    name: "Paladin Engeler's Set",
+    description: "HP + 217.0, endurance + 0.9",
+    rating: "epic",
+    stats: {endurance: 0.9, HP: 217}
+  },
+  "Paladin Engeler's Set (4/7)" : {
+    name: "Paladin Engeler's Set",
+    description: "Crit Rate: +1, Critical Damage: +2.5%.",
+    rating: "epic",
+    // stats: {}
+  },
+  "Paladin Engeler's Set (7/7)" : {
+    name: "Paladin Engeler's Set",
+    description: "Skill: One of the Twelve; Increases all stats by 12% for 7 seconds.",
+    rating: "epic",
+    stats: {endurance: 0}
+  },
+  "Toads Skin Jacket" : {
+    name: 'Toads Skin Jacket',
+    description: 'Has a small chance to poison on contact, dexterity +1.', // 24 HP
+    image: 'https://ffxiv.gamerescape.com/w/images/7/70/Model-Toadskin_Jacket-Male-Hyur.png',
+    rating: "normal",
+    stats: {endurance: 0},
+    effect: '', // Price since it was shown In a shop.
+  },
 }
+
+// Toadskin Jacket - https://ffxiv.gamerescape.com/wiki/Category:Rogue_Body/iLevel_30-39
 
 // ##### Types: 
 // ###### Hat/Crown:

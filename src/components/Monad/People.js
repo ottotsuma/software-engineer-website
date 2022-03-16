@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Item from "../elements/item";
+import {ItemList} from "../elements/item";
 import Stats from "../elements/stats";
 import SpellCards from "./SpellCards";
 import ClassDisplay from '../elements/classes'
@@ -478,16 +478,80 @@ export function Noah (Chapter) {
         ],
         conditions: [
         // Negatives
+        { name: "Miasma", level: 90 },
         { name: "Player", level: 1 },
         ],
       }}
-      showItems={false}
+      showItems={true}
       items={{
+        // https://aikadb.astrobunny.net/simple.php?rifleman-rifle-of-freedom
         Body: {
-          name: "Academy Robe (Black/??).",
-          effect: "",
-          rating: "junk",
-          stats: {magic: 0, HP: 0}
+          name: ItemList["Toads Skin Jacket"].name,
+          description: ItemList["Toads Skin Jacket"].description,
+          rating: ItemList["Toads Skin Jacket"].rating,
+          stats: ItemList["Toads Skin Jacket"].stats
+        },
+        Head: {
+          name: "Paladin Engeler's Sallet (silver rank)",
+          effect: "Endurance +1.8.",
+          rating: "epic",
+          stats: {endurance: 1.8}
+        },
+        Hands: {
+          name: "Paladin Engeler's Gauntlets (silver rank)",
+          effect: "Endurance +1.",
+          rating: "epic",
+          stats: {endurance: 1}
+        },
+        Feet: {
+          name: "Paladin Engeler's Sabaton (silver rank)",
+          effect: "Endurance +1.2.",
+          rating: "epic",
+          stats: {endurance: 1.2}
+        },
+        Weapon: {
+          name: "Paladin Engeler's Mace (silver rank)",
+          effect: "Strength +3.",
+          rating: "epic",
+          stats: {strength: 3}
+        },
+        Shield: {
+          name: "Paladin Engeler's Shield (silver rank)",
+          effect: "Threat increased 20%, Reduce received damage from Demons by 7%, Reduce received damage from Undead by 7%, chance to block 20%.",
+          rating: "epic",
+          stats: {endurance: 0}
+        },
+        Cape: {
+          name: "Paladin Engeler's Cape (silver rank)",
+          effect: "Increase HP by 315, Increase MP by 225.",
+          rating: "epic",
+          stats: {HP: 315, MP: 225}
+        },
+        necklace: {
+          name: "Demon Hunter Necklace",
+          effect: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
+          rating: "epic",
+        },
+        bracelet: {
+          name: "Demon Hunter Bracelet",
+          effect: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
+          rating: "epic",
+        },
+        earing: {
+          name: "	Demon Hunter Earring",
+          effect: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
+          rating: "epic",
+        },
+        ring: {
+          name: "Ring of Destruction",
+          effect: "Increase critical rate by 6.",
+          rating: "normal",
+        },
+        "Set Effect (3/7)" : {
+          name: "Paladin Engeler's Set",
+          effect: "HP + 217.0, endurance + 0.9",
+          rating: "epic",
+          stats: {endurance: 0.9, HP: 217}
         },
       }}
       notes={
@@ -601,7 +665,7 @@ export function Sarah (Chapter) {
         },
         Shield: {
           name: "Paladin Engeler's Shield (silver rank)",
-          effect: "Threat increased 20%, Reduce received damage from Demon by 7%, Reduce received damage from Undead by 7%, chance to block 20%.",
+          effect: "Threat increased 20%, Reduce received damage from Demons by 7%, Reduce received damage from Undead by 7%, chance to block 20%.",
           rating: "epic",
           stats: {endurance: 0}
         },
@@ -610,6 +674,26 @@ export function Sarah (Chapter) {
           effect: "Increase HP by 315, Increase MP by 225.",
           rating: "epic",
           stats: {HP: 315, MP: 225}
+        },
+        necklace: {
+          name: "Demon Hunter Necklace",
+          effect: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
+          rating: "epic",
+        },
+        bracelet: {
+          name: "Demon Hunter Bracelet",
+          effect: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
+          rating: "epic",
+        },
+        earing: {
+          name: "Demon Hunter Earring",
+          effect: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
+          rating: "epic",
+        },
+        ring: {
+          name: "Demon Hunter Ring",
+          effect: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
+          rating: "epic",
         },
         "Set Effect (3/7)" : {
           name: "Paladin Engeler's Set",
