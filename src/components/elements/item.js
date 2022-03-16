@@ -31,6 +31,10 @@ export const ItemList = {
     description: 'Recovers 1HP every 5 seconds for the next 120 seconds.', // 24 HP
     image: '',
     effect: '', // Price since it was shown In a shop.
+    note: '',
+    type: 'potion',
+    stats: {},
+    rating: '',
   },
   "Soul bound wand" : {
     name: 'Soul bound wand',
@@ -38,99 +42,138 @@ export const ItemList = {
     image: 'https://ottotsuma.github.io/images/items/wand1.png',
     effect: '¤3,200,000', // Price since it was shown In a shop.
     rating: "normal",
-    stats: {sense: 1}
+    stats: {sense: 1},
+    note: '',
+    type: 'wand',
   },
   "Bone Lance" : {
     name: 'Bone Lance',
     description: '',
     image: 'https://ottotsuma.github.io/images/people/2d7002b02e419fb5cca7be2ec8e9f755.jpg',
     effect: '', // Price since it was shown In a shop.
+    rating: "",
+    stats: {},
+    note: '',
+    type: 'spear',
   },
   "Trainee Bone Spear" : {
     name: 'Trainee Bone Spear',
     description: 'Tiny increase in spear proficiency when equipped.',
     image: '',
     effect: '', // Price since it was shown In a shop.
+    rating: "",
+    stats: {},
+    note: '',
+    type: 'spear',
   },
   "Paladin Engeler's Body Armor (silver rank)": {
     name: "Paladin Engeler's Body Armor (silver rank)",
     description: "Reduces physical damage taken by 10%, except spears. Endurance +1, Endurance +10%.",
     rating: "epic",
-    stats: {endurance: 1, enduranceMultiplier: 1.1}
+    stats: {endurance: 1, enduranceMultiplier: 1.1},
+    note: '',
+    type: 'armor',
   },
   "Paladin Engeler's Sallet (silver rank)": {
     name: "Paladin Engeler's Sallet (silver rank)",
     description: "Endurance +1.8.",
     rating: "epic",
-    stats: {endurance: 1.8}
+    stats: {endurance: 1.8},
+    note: '',
+    type: 'hat',
   },
   "Paladin Engeler's Gauntlets (silver rank)": {
     name: "Paladin Engeler's Gauntlets (silver rank)",
     description: "Endurance +1.",
     rating: "epic",
-    stats: {endurance: 1}
+    stats: {endurance: 1},
+    note: '',
+    type: 'gloves',
   },
   "Paladin Engeler's Sabaton (silver rank)": {
     name: "Paladin Engeler's Sabaton (silver rank)",
     description: "Endurance +1.2.",
     rating: "epic",
-    stats: {endurance: 1.2}
+    stats: {endurance: 1.2},
+    note: '',
+    type: 'boots',
   },
   "Paladin Engeler's Mace (silver rank)": {
     name: "Paladin Engeler's Mace (silver rank)",
     description: "Strength +3.",
     rating: "epic",
-    stats: {strength: 3}
+    stats: {strength: 3},
+    note: '',
+    type: 'mace',
   },
   "Paladin Engeler's Shield (silver rank)": {
     name: "Paladin Engeler's Shield (silver rank)",
     description: "Threat increased 20%, Reduce received damage from Demons by 7%, Reduce received damage from Undead by 7%, chance to block 20%.",
     rating: "epic",
-    stats: {endurance: 0}
+    stats: {endurance: 0},
+    note: '',
+    type: 'shield',
   },
   "Paladin Engeler's Cape (silver rank)": {
     name: "Paladin Engeler's Cape (silver rank)",
     description: "Increase HP by 315, Increase MP by 225.",
     rating: "epic",
-    stats: {HP: 315, MP: 225}
+    stats: {HP: 315, MP: 225},
+    note: '',
+    type: 'cape',
   },
   "Demon Hunter Necklace": {
     name: "Demon Hunter Necklace",
     description: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
     rating: "epic",
+    stats: {},
+    note: '',
+    type: 'Necklace',
   },
   "Demon Hunter Bracelet": {
     name: "Demon Hunter Bracelet",
     description: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
     rating: "epic",
+    note: '',
+    type: 'bracelet',
   },
   "Demon Hunter Earring": {
     name: "Demon Hunter Earring",
     description: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
     rating: "epic",
+    note: '',
+    type: 'earring',
   },
   "Demon Hunter Ring": {
     name: "Demon Hunter Ring",
     description: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
     rating: "epic",
+    note: '',
+    type: 'ring',
   },
   "Paladin Engeler's Set (3/7)" : {
     name: "Paladin Engeler's Set",
     description: "HP + 217.0, endurance + 0.9",
     rating: "epic",
-    stats: {endurance: 0.9, HP: 217}
+    stats: {endurance: 0.9, HP: 217},
+    note: '',
+    type: 'set effect',
   },
   "Paladin Engeler's Set (4/7)" : {
     name: "Paladin Engeler's Set",
     description: "Crit Rate: +1, Critical Damage: +2.5%.",
     rating: "epic",
     // stats: {}
+    note: '',
+    type: 'set effect',
   },
   "Paladin Engeler's Set (7/7)" : {
     name: "Paladin Engeler's Set",
     description: "Skill: One of the Twelve; Increases all stats by 12% for 7 seconds.",
     rating: "epic",
-    stats: {endurance: 0}
+    stats: {endurance: 0},
+    note: '',
+    type: 'set effect',
   },
   "Toads Skin Jacket" : {
     name: 'Toads Skin Jacket',
@@ -139,13 +182,23 @@ export const ItemList = {
     rating: "normal",
     stats: {dexterity: 1},
     effect: '', // Price since it was shown In a shop.
-    note: 'https://ffxiv.gamerescape.com/wiki/Category:Rogue_Body/iLevel_30-39'
+    note: 'https://ffxiv.gamerescape.com/wiki/Category:Rogue_Body/iLevel_30-39',
+    type: 'armor',
+  },
+  "Crown of the Dammed" : {
+    name: 'Crown of the Dammed',
+    description: 'Magic + 25, -5 Charisma, control undead +1.',
+    image: '',
+    rating: "normal",
+    stats: {magic: 25, charisma: -5},
+    effect: '', // Price since it was shown In a shop.
+    note: '',
+    type: 'hat'
   },
 }
 
 // ##### Types: 
 // ###### Hat/Crown:
-// - Crown (king) - (green) Crown of the Dammed. Magic + 25, -5 Charisma, control undead +1.
 // ###### Rings:
 // - Kings Rings, Ch5, Ring of initial undead control. mag + 10, Control undead +1 (normal)
 // - Ring of Little Strength, Ch11, Strength +1
