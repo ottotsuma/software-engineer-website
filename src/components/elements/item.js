@@ -134,15 +134,14 @@ export const ItemList = {
   },
   "Toads Skin Jacket" : {
     name: 'Toads Skin Jacket',
-    description: 'Has a small chance to poison on contact, dexterity +1.', // 24 HP
+    description: 'Has a small chance to poison on contact, dexterity +1.',
     image: 'https://ffxiv.gamerescape.com/w/images/7/70/Model-Toadskin_Jacket-Male-Hyur.png',
     rating: "normal",
     stats: {dexterity: 1},
     effect: '', // Price since it was shown In a shop.
+    note: 'https://ffxiv.gamerescape.com/wiki/Category:Rogue_Body/iLevel_30-39'
   },
 }
-
-// Toadskin Jacket - https://ffxiv.gamerescape.com/wiki/Category:Rogue_Body/iLevel_30-39
 
 // ##### Types: 
 // ###### Hat/Crown:
