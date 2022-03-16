@@ -560,56 +560,75 @@ export function Sarah (Chapter) {
         conditions: [
         // Negatives
         { name: "Player", level: 1 },
+        { name: "Miasma", level: 90 },
         ],
       }}
       showItems={true}
       items={{
         // https://en.wikipedia.org/wiki/Paladin#:~:text=The%20Paladins%20(or%20Twelve%20Peers,Round%20Table%20in%20Arthurian%20romance.
         // https://en.wikipedia.org/wiki/List_of_medieval_armour_components
+        // https://www.timelessmyths.com/arthurian/peers/
+        // https://aikaonlinena.fandom.com/wiki/Paladin_Sets / https://aikadb.astrobunny.net/simple.php?paladin-blade-of-twilight-paladin
         Body: {
-          name: "Paladin Engeler's Body Armor",
-          effect: "Reduces physical damage taken by 10%, except spears.",
+          name: "Paladin Engeler's Body Armor (silver rank)",
+          effect: "Reduces physical damage taken by 10%, except spears. Endurance +1, Endurance +10%.",
           rating: "epic",
           stats: {endurance: 1, enduranceMultiplier: 1.1}
         },
         Head: {
-          name: "Paladin Engeler's Sallet",
-          effect: ".",
+          name: "Paladin Engeler's Sallet (silver rank)",
+          effect: "Endurance +1.8.",
           rating: "epic",
-          stats: {endurance: 1}
+          stats: {endurance: 1.8}
         },
         Hands: {
-          name: "Paladin Engeler's Gauntlets",
-          effect: ".",
+          name: "Paladin Engeler's Gauntlets (silver rank)",
+          effect: "Endurance +1.",
           rating: "epic",
           stats: {endurance: 1}
         },
         Feet: {
-          name: "Paladin Engeler's Sabaton",
-          effect: ".",
+          name: "Paladin Engeler's Sabaton (silver rank)",
+          effect: "Endurance +1.2.",
           rating: "epic",
-          stats: {endurance: 1}
+          stats: {endurance: 1.2}
         },
         Weapon: {
-          name: "Paladin Engeler's Mace",
-          effect: ".",
+          name: "Paladin Engeler's Mace (silver rank)",
+          effect: "Strength +3.",
           rating: "epic",
+          stats: {strength: 3}
         },
         Shield: {
-          name: "Paladin Engeler's Shield",
-          effect: ".",
+          name: "Paladin Engeler's Shield (silver rank)",
+          effect: "Threat increased 20%, Reduce received damage from Demon by 7%, Reduce received damage from Undead by 7%, chance to block 20%.",
           rating: "epic",
+          stats: {endurance: 0}
         },
         Cape: {
-          name: "Paladin Engeler's Cape",
-          effect: ".",
+          name: "Paladin Engeler's Cape (silver rank)",
+          effect: "Increase HP by 315, Increase MP by 225.",
           rating: "epic",
+          stats: {HP: 315, MP: 225}
         },
-        "Paladin Engeler's" : {
-          name: "Set Effect (7/7)",
+        "Set Effect (3/7)" : {
+          name: "Paladin Engeler's Set",
+          effect: "HP + 217.0, endurance + 0.9",
+          rating: "epic",
+          stats: {endurance: 0.9, HP: 217}
+        },
+        "Set Effect (4/7)" : {
+          name: "Paladin Engeler's Set",
+          effect: "Crit Rate: +1, Critical Damage: +2.5%.",
+          rating: "epic",
+          // stats: {}
+        },
+        "Set Effect (7/7)" : {
+          name: "Paladin Engeler's Set",
           effect: "Skill: One of the Twelve; Increases all stats by 12% for 7 seconds.",
           rating: "epic",
-        }
+          stats: {endurance: 0}
+        },
       }}
       notes={
         "2 spell per level, 2 stats per level, Human +1 stat every 10 levels. https://ottotsuma.github.io/images/people/w1.jpg"

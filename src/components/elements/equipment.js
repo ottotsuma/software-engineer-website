@@ -62,6 +62,7 @@ const Span = styled.span`
 `;
 
 const SingleStat = styled.li`
+  flex-wrap: wrap;
   text-transform: capitalize;
   padding: 1px;
   width: auto;

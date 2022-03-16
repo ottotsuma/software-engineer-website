@@ -365,7 +365,7 @@ function Stats({
       const skillListByType = skills[skillsByTypes[j]];
       skillListByType.map((skill) => {
         const spellStats = _try(
-          () => spellList[skill.name].stats[skill.level - 1]
+          () => spellList[skill.name].stats[skill.level - 1] || spellList[skill.name].stats[skill.level]
         );
         if (spellStats) {
           for (let index = 0; index < Object.keys(spellStats).length; index++) {
@@ -522,11 +522,12 @@ function Stats({
 
   // multiplierList
   multiplierList.map((value => {
-    console.log(value)
     const statName = Object.keys(value)
-    console.log(stats[statName])
-    stats[statName] = stats[statName] * value[statName]
-    console.log(stats[statName])
+    if(value[statName] < 0) {
+      stats[statName] = (stats[statName]) * (1-(-value[statName]))
+    } else {
+      stats[statName] = stats[statName] * value[statName]
+    }
   }))
   for (let index = 0; index < keys.length; index++) {
     const element = (

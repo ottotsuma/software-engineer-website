@@ -17,6 +17,25 @@ import React from "react";
 // <li>Charisma</li> Increases NPC likability, command points
 
 export const spellList = {
+  Miasma: {
+    note: "Miasma.",
+    name: "Miasma",
+    element: "None",
+    image: "",
+    negative: true,
+    passive: true,
+    1: "Reduces all stats by 1%.",
+    90: "Reduces all stats by 90%.",
+    stats: {90:{
+      strengthMultiplier: -0.90,
+      vitalityMultiplier: -0.90,
+      magicMultiplier: -0.90,
+      dexterityMultiplier: -0.90,
+      senseMultiplier: -0.90,
+      enduranceMultiplier: -0.90,
+      willpowerMultiplier: -0.90,
+    }}
+  },
   Player: {
     note: "Not an NPC.",
     name: "Astral soul projection",
