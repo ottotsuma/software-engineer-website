@@ -2940,6 +2940,8 @@ export const spellList = {
     10: "Hunger level 100%.",
     stats: [{
       strength: 1,
+      // strengthMultiplier: 2,
+      // enduranceMultiplier: 2,
       magic: 1,
     },{
       strength: 1,
@@ -2948,27 +2950,35 @@ export const spellList = {
     },{
       strength: 1,
       magic: 1,
+      sense: 1,
     },{
       strength: 1,
       magic: 1,
+      sense: 1,
     },{
       strength: 1,
       magic: 1,
+      sense: 1,
     },{
       strength: 1,
       magic: 1,
+      sense: 1,
     },{
       strength: 1,
       magic: 1,
+      sense: 1,
     },{
       strength: 1,
       magic: 1,
+      sense: 1,
     },{
       strength: 1,
       magic: 1,
+      sense: 1,
     },{
       strength: 1,
       magic: 1,
+      sense: 1,
     },]
   },
   "Ghoul's Strength": {

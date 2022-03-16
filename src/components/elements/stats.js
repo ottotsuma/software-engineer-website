@@ -374,6 +374,12 @@ function Stats({
               HPList.push(spellStats[Object.keys(spellStats)[index]]);
             } else if (Object.keys(spellStats)[index] === "MP") {
               MPList.push(spellStats[Object.keys(spellStats)[index]]);
+            } else if (Object.keys(spellStats)[index]) {
+              if(keys.includes(Object.keys(spellStats)[index].slice(0, -10))){
+                stats[Object.keys(spellStats)[index].slice(0, -10)] =
+                stats[Object.keys(spellStats)[index].slice(0, -10)] *
+                spellStats[Object.keys(spellStats)[index]];
+              }
             }
           }
         }
