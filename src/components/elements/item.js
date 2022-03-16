@@ -137,7 +137,7 @@ export const ItemList = {
     description: 'Has a small chance to poison on contact, dexterity +1.', // 24 HP
     image: 'https://ffxiv.gamerescape.com/w/images/7/70/Model-Toadskin_Jacket-Male-Hyur.png',
     rating: "normal",
-    stats: {endurance: 0},
+    stats: {dexterity: 1},
     effect: '', // Price since it was shown In a shop.
   },
 }
