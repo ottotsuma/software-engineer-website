@@ -34,6 +34,8 @@ export const spellList = {
       senseMultiplier: -0.90,
       enduranceMultiplier: -0.90,
       willpowerMultiplier: -0.90,
+      HPMultiplier: -0.90,
+      MPMultiplier: -0.90,
     }}
   },
   Player: {
