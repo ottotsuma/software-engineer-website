@@ -562,17 +562,57 @@ export function Sarah (Chapter) {
         { name: "Player", level: 1 },
         ],
       }}
-      showItems={false}
+      showItems={true}
       items={{
+        // https://en.wikipedia.org/wiki/Paladin#:~:text=The%20Paladins%20(or%20Twelve%20Peers,Round%20Table%20in%20Arthurian%20romance.
+        // https://en.wikipedia.org/wiki/List_of_medieval_armour_components
         Body: {
-          name: "Academy Robe (Black/??).",
-          effect: "",
-          rating: "junk",
-          stats: {magic: 0, HP: 0}
+          name: "Paladin Engeler's Body Armor",
+          effect: "Reduces physical damage taken by 10%, except spears.",
+          rating: "epic",
+          stats: {endurance: 1, enduranceMultiplier: 1.1}
         },
+        Head: {
+          name: "Paladin Engeler's Sallet",
+          effect: ".",
+          rating: "epic",
+          stats: {endurance: 1}
+        },
+        Hands: {
+          name: "Paladin Engeler's Gauntlets",
+          effect: ".",
+          rating: "epic",
+          stats: {endurance: 1}
+        },
+        Feet: {
+          name: "Paladin Engeler's Sabaton",
+          effect: ".",
+          rating: "epic",
+          stats: {endurance: 1}
+        },
+        Weapon: {
+          name: "Paladin Engeler's Mace",
+          effect: ".",
+          rating: "epic",
+        },
+        Shield: {
+          name: "Paladin Engeler's Shield",
+          effect: ".",
+          rating: "epic",
+        },
+        Cape: {
+          name: "Paladin Engeler's Cape",
+          effect: ".",
+          rating: "epic",
+        },
+        "Paladin Engeler's" : {
+          name: "Set Effect (7/7)",
+          effect: "Skill: One of the Twelve; Increases all stats by 12% for 7 seconds.",
+          rating: "epic",
+        }
       }}
       notes={
-        "2 spell per level, 2 stats per level, Human +1 stat every 10 levels."
+        "2 spell per level, 2 stats per level, Human +1 stat every 10 levels. https://ottotsuma.github.io/images/people/w1.jpg"
       }
     />
     )

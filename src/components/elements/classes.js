@@ -107,13 +107,13 @@ export const classList = {
     tier: 'normal'
   },
   Paladin: {
-    stats: {
-    },
     team: 'Unholy protection, unholy attacks deal 3% less.',
     self: 'Can use holy objects, cannot use unholy objects.',
     image: '',
     notes: '',
-    tier: 'normal'
+    tier: 'normal',
+    stats: {
+    },
   },
   Pyromancer: {
     stats: {

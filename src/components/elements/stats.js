@@ -6,7 +6,7 @@ import { classList } from "./classes";
 import Spells from "./spells";
 import { titlesList } from "./titles";
 import Equipment from "./equipment";
-import {monadColors} from "./colors"
+import { monadColors } from "./colors"
 
 // Kʼawiil - Lightning, seeds, abundance, powerful one, fertility, serpent
 
@@ -274,6 +274,8 @@ function Stats({
   const baseStats = stats;
   const HPList = [];
   const MPList = [];
+  const multiplierList = []
+  const keys = Object.keys(stats);
 
   let RaceSpan = undefined;
   if (stats.species) {
@@ -289,8 +291,14 @@ function Stats({
       raceStats.map((raceStat) => {
         if (raceStat === "HP") {
           HPList.push(racesList[stats.species].stats[raceStat]);
+        } else if (raceStat === "HPMultiplier") {
+          multiplierList.push({ HP: racesList[stats.species].stats[raceStat] })
+        } else if (raceStat === "MPMultiplier") {
+          multiplierList.push({ MP: racesList[stats.species].stats[raceStat] })
         } else if (raceStat === "MP") {
           MPList.push(racesList[stats.species].stats[raceStat]);
+        } else if (keys.includes(raceStat.slice(0, -10))) {
+          multiplierList.push({ [raceStat.slice(0, -10)]: racesList[stats.species].stats[raceStat] })
         } else if (
           typeof racesList[stats.species].stats[raceStat] === "number"
         ) {
@@ -303,7 +311,8 @@ function Stats({
             const multiplierValue = parseFloat(
               racesList[stats.species].stats[raceStat].substring(1)
             );
-            stats[raceStat] = stats[raceStat] * multiplierValue;
+            // stats[raceStat] = stats[raceStat] * multiplierValue;
+            multiplierList.push({ [raceStat]: multiplierValue })
           }
         }
       });
@@ -322,8 +331,14 @@ function Stats({
       Object.keys(classStats).map((classStat) => {
         if (classStat === "HP") {
           HPList.push(classList[stats.class].stats[classStat]);
+        } else if (classStat === "HPMultiplier") {
+          multiplierList.push({ HP: classList[stats.class].stats[classStat] })
+        } else if (classStat === "MPMultiplier") {
+          multiplierList.push({ MP: classList[stats.class].stats[classStat] })
         } else if (classStat === "MP") {
           MPList.push(classList[stats.class].stats[classStat]);
+        } else if (keys.includes(classStat.slice(0, -10))) {
+          multiplierList.push({ [classStat.slice(0, -10)]: classList[stats.class].stats[classStat] })
         } else if (
           typeof classList[stats.class].stats[classStat] === "number"
         ) {
@@ -336,13 +351,13 @@ function Stats({
             const multiplierValue = parseFloat(
               classList[stats.class].stats[classStat].substring(1)
             );
-            stats[classStat] = stats[classStat] * multiplierValue;
+            // stats[classStat] = stats[classStat] * multiplierValue;
+            multiplierList.push({ [classStat]: multiplierValue })
           }
         }
       });
     }
   }
-  const keys = Object.keys(stats);
   const spellsArray = [];
   if (skills) {
     const skillsByTypes = Object.keys(skills);
@@ -367,18 +382,23 @@ function Stats({
                 const multiplierValue = parseFloat(
                   spellStats[Object.keys(spellStats)[index]].substring(1)
                 );
-                stats[Object.keys(spellStats)[index]] =
-                  stats[Object.keys(spellStats)[index]] * multiplierValue;
+                // stats[Object.keys(spellStats)[index]] = stats[Object.keys(spellStats)[index]] * multiplierValue;
+                multiplierList.push({ [Object.keys(spellStats)[index]]: multiplierValue })
               }
+            } else if (Object.keys(spellStats)[index] === "HPMultiplier") {
+              multiplierList.push({ HP: spellStats[Object.keys(spellStats)[index]] })
+            } else if (Object.keys(spellStats)[index] === "MPMultiplier") {
+              multiplierList.push({ MP: spellStats[Object.keys(spellStats)[index]] })
             } else if (Object.keys(spellStats)[index] === "HP") {
               HPList.push(spellStats[Object.keys(spellStats)[index]]);
             } else if (Object.keys(spellStats)[index] === "MP") {
               MPList.push(spellStats[Object.keys(spellStats)[index]]);
             } else if (Object.keys(spellStats)[index]) {
-              if(keys.includes(Object.keys(spellStats)[index].slice(0, -10))){
-                stats[Object.keys(spellStats)[index].slice(0, -10)] =
-                stats[Object.keys(spellStats)[index].slice(0, -10)] *
-                spellStats[Object.keys(spellStats)[index]];
+              if (keys.includes(Object.keys(spellStats)[index].slice(0, -10))) {
+                // stats[Object.keys(spellStats)[index].slice(0, -10)] =
+                // stats[Object.keys(spellStats)[index].slice(0, -10)] *
+                // spellStats[Object.keys(spellStats)[index]];
+                multiplierList.push({ [Object.keys(spellStats)[index].slice(0, -10)]: spellStats[Object.keys(spellStats)[index]] })
               }
             }
           }
@@ -402,8 +422,15 @@ function Stats({
         Object.keys(itemStats).map((itemStat) => {
           if (itemStat === "HP") {
             HPList.push(itemStats[itemStat]);
+          } else if (itemStat === "HPMultiplier") {
+            multiplierList.push({ HP: itemStats[itemStat] })
+          } else if (itemStat === "MPMultiplier") {
+            multiplierList.push({ MP: itemStats[itemStat] })
           } else if (itemStat === "MP") {
             MPList.push(itemStats[itemStat]);
+          } else if (keys.includes(itemStat.slice(0, -10))) {
+            // stats[itemStat.slice(0, -10)] = stats[itemStat.slice(0, -10)] * itemStats[itemStat];
+            multiplierList.push({ [itemStat.slice(0, -10)]: itemStats[itemStat] })
           } else if (typeof itemStats[itemStat] === "number") {
             stats[itemStat] = stats[itemStat] + itemStats[itemStat];
           } else if (typeof itemStats[itemStat] === "string") {
@@ -411,7 +438,8 @@ function Stats({
               const multiplierValue = parseFloat(
                 itemStats[itemStat].substring(1)
               );
-              stats[itemStat] = stats[itemStat] * multiplierValue;
+              // stats[itemStat] = stats[itemStat] * multiplierValue;
+              multiplierList.push({ [itemStat]: multiplierValue })
             }
           }
         });
@@ -433,8 +461,14 @@ function Stats({
       Object.keys(titleStats).map((titleStat) => {
         if (titleStat === "HP") {
           HPList.push(titleStats[titleStat]);
+        } else if (titleStat === "HPMultiplier") {
+          multiplierList.push({ HP: titleStats[titleStat] })
+        } else if (titleStat === "MPMultiplier") {
+          multiplierList.push({ MP: titleStats[titleStat] })
         } else if (titleStat === "MP") {
           MPList.push(titleStats[titleStat]);
+        }  else if (keys.includes(titleStat.slice(0, -10))) {
+          multiplierList.push({ [titleStat.slice(0, -10)]: titleStats[titleStat] })
         } else if (typeof titleStats[titleStat] === "number") {
           stats[titleStat] = stats[titleStat] + titleStats[titleStat]; // applies the stats
         } else if (typeof titleStats[titleStat] === "string") {
@@ -442,7 +476,8 @@ function Stats({
             const multiplierValue = parseFloat(
               titleStats[titleStat].substring(1)
             );
-            stats[titleStat] = stats[titleStat] * multiplierValue;
+            // stats[titleStat] = stats[titleStat] * multiplierValue;
+            multiplierList.push({ [titleStat]: multiplierValue })
           }
         }
       });
@@ -462,7 +497,8 @@ function Stats({
     } else if (typeof HPList[index] === "string") {
       if (HPList[index].includes("*")) {
         const multiplierValue = parseFloat(HPList[index].substring(1));
-        tempHP = tempHP * multiplierValue;
+        // tempHP = tempHP * multiplierValue;
+        multiplierList.push({ HP: multiplierValue })
       }
     }
   }
@@ -476,12 +512,22 @@ function Stats({
     } else if (typeof MPList[index] === "string") {
       if (MPList[index].includes("*")) {
         const multiplierValue = parseFloat(MPList[index].substring(1));
-        tempMP = tempMP * multiplierValue;
+        // tempMP = tempMP * multiplierValue;
+        multiplierList.push({ MP: multiplierValue })
       }
     }
   }
   stats["MP"] = parseInt(tempMP);
   keys.push("HP", "MP");
+
+  // multiplierList
+  multiplierList.map((value => {
+    console.log(value)
+    const statName = Object.keys(value)
+    console.log(stats[statName])
+    stats[statName] = stats[statName] * value[statName]
+    console.log(stats[statName])
+  }))
   for (let index = 0; index < keys.length; index++) {
     const element = (
       <Wrap>

@@ -135,6 +135,7 @@ export const SeaPeople = {
           one unique], (Pro-gamer, guild leader, small dlc before), clan/guild,
           get in before the other guilds. PET(60),
           file:///C:/Users/snows/Documents/GitHub/ottotsuma.github.io/guard100.html
+          https://ottotsuma.github.io/images/people/w1.jpg
         </li>
         <li style={{ overflowWrap: "anywhere" }}>
           Boy: Josh, Human, class(Rogue-subtype[Assassin]) Recently became
