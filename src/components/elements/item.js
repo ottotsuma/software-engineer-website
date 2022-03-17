@@ -311,7 +311,7 @@ export const ItemList = {
     description: 'Dexterity +1.',
     image: 'https://ffxiv.gamerescape.com/w/images/9/9a/Model-Linen_Halfgloves-Male-Hyur.png',
     rating: "junk",
-    stats: {dexterity : 1},
+    stats: { dexterity: 1 },
     effect: '', // Price since it was shown In a shop.
     note: '',
     type: 'gloves'
@@ -321,7 +321,7 @@ export const ItemList = {
     description: 'Magic +1, Willpower: +1, Spell Speed: +1%.',
     image: 'https://ffxiv.gamerescape.com/w/images/9/9a/Model-Linen_Halfgloves-Male-Hyur.png',
     rating: "normal",
-    stats: {magic : 1, willpower: 1},
+    stats: { magic: 1, willpower: 1 },
     effect: '', // Price since it was shown In a shop.
     note: '',
     type: 'gloves'
@@ -331,7 +331,7 @@ export const ItemList = {
     description: 'Magic +1, Willpower: +1, Spell Speed: +1%.',
     image: 'https://ffxiv.gamerescape.com/w/images/3/34/Model-Battlemage%27s_Hat-Male-Hyur.png',
     rating: "normal",
-    stats: {magic : 1, willpower: 1},
+    stats: { magic: 1, willpower: 1 },
     effect: '', // Price since it was shown In a shop.
     note: '',
     type: 'hat'
@@ -341,7 +341,7 @@ export const ItemList = {
     description: 'Magic +1, Willpower: +1, Spell Speed: +1%.',
     image: 'https://ffxiv.gamerescape.com/w/images/6/63/Model-Battlemage%27s_Robe-Male-Hyur.png',
     rating: "normal",
-    stats: {magic : 1, willpower: 1},
+    stats: { magic: 1, willpower: 1 },
     effect: '', // Price since it was shown In a shop.
     note: '',
     type: 'armor'
@@ -351,7 +351,7 @@ export const ItemList = {
     description: 'Magic +1, Willpower: +1, Spell Speed: +1%.',
     image: 'https://ffxiv.gamerescape.com/w/images/0/0c/Model-Battlemage%27s_Crakows-Male-Hyur.png',
     rating: "normal",
-    stats: {magic : 1, willpower: 1},
+    stats: { magic: 1, willpower: 1 },
     effect: '', // Price since it was shown In a shop.
     note: '',
     type: 'boots'
@@ -361,7 +361,7 @@ export const ItemList = {
     description: 'Magic +1, Willpower: +1, Spell Speed: +1%.',
     image: 'https://ffxiv.gamerescape.com/w/images/2/2e/Model-Battlemage%27s_Breeches-Male-Hyur.png',
     rating: "normal",
-    stats: {magic : 1, willpower: 1},
+    stats: { magic: 1, willpower: 1 },
     effect: '', // Price since it was shown In a shop.
     note: '',
     type: 'trousers'
@@ -370,7 +370,7 @@ export const ItemList = {
     name: "Battlemage's Set (4/4)",
     description: "Magic +1, Willpower: +1, Spell Speed: +1%.",
     rating: "normal",
-    stats: {magic : 1, willpower: 1},
+    stats: { magic: 1, willpower: 1 },
     note: '',
     type: 'set effect',
   },
@@ -389,17 +389,17 @@ export const ItemList = {
     description: 'Critical hit rate: +1, Endurance: +1.',
     image: 'https://ffxiv.gamerescape.com/w/images/2/23/Model-Qarn_Jackboots-Male-Hyur.png',
     rating: "normal",
-    stats: {endurance: 1},
+    stats: { endurance: 1 },
     effect: '', // Price since it was shown In a shop.
     note: '',
     type: 'boots'
   },
   "Rogue's Ring": {
     name: "Rogue's Ring",
-    description: 'Critical hit rate: +1, Dexterity: +1.',
+    description: { 1: 'Critical hit rate: +1, Dexterity: +1.', 3: 'Critical hit rate: +3, Dexterity: +3.', 9: 'Critical hit rate: +9, Dexterity: +9.' },
     image: 'https://ffxiv.gamerescape.com/w/images/thumb/0/05/Model-Rogue%27s_Ring.png/450px-Model-Rogue%27s_Ring.png',
     rating: "normal",
-    stats: {3:{dexterity: 3}, 9:{dexterity: 9},},
+    stats: { 3: { dexterity: 3 }, 9: { dexterity: 9 }, },
     effect: '', // Price since it was shown In a shop.
     note: 'https://ffxiv.gamerescape.com/wiki/Category:Ring/iLevel_30-39',
     type: 'ring'
@@ -409,7 +409,7 @@ export const ItemList = {
     description: 'Cutting deals 3% more damage, strength: +1.',
     image: 'https://i.pinimg.com/564x/e4/b7/5d/e4b75d01d093430bb055a82dc5967c38.jpg',
     rating: "normal",
-    stats: {strength: 1},
+    stats: { strength: 1 },
     effect: '', // Price since it was shown In a shop.
     note: '',
     type: 'sword'
@@ -419,7 +419,7 @@ export const ItemList = {
     description: 'strength: +1.',
     image: 'https://i.pinimg.com/564x/36/0d/28/360d2889c232ccfc54439397d95198d2.jpg',
     rating: "junk",
-    stats: {strength: 1},
+    stats: { strength: 1 },
     effect: '', // Price since it was shown In a shop.
     note: '',
     type: 'sword'
@@ -429,7 +429,7 @@ export const ItemList = {
     description: 'Disease resistance +3%.',
     image: '',
     rating: "junk",
-    stats: {strength: 0},
+    stats: { strength: 0 },
     effect: '', // Price since it was shown In a shop.
     note: '',
     type: 'hat'
@@ -439,7 +439,7 @@ export const ItemList = {
     description: '',
     image: '',
     rating: "rare",
-    stats: {strength: 0},
+    stats: { strength: 0 },
     effect: '', // Price since it was shown In a shop.
     note: '',
     type: 'armor'
@@ -449,7 +449,7 @@ export const ItemList = {
     description: '',
     image: '',
     rating: "junk",
-    stats: {strength: 0},
+    stats: { strength: 0 },
     effect: '', // Price since it was shown In a shop.
     note: '',
     type: 'boots'
@@ -460,10 +460,10 @@ export const ItemList = {
     image: '',
     rating: "normal",
     stats: {
-      1:{dexterity: 1},
-      5:{dexterity: 5},
-      9:{dexterity: 9},
-      10:{dexterity: 10}
+      1: { dexterity: 1 },
+      5: { dexterity: 5 },
+      9: { dexterity: 9 },
+      10: { dexterity: 10 }
     },
     effect: '', // Price since it was shown In a shop.
     note: '',

@@ -523,7 +523,7 @@ export function Noah(Chapter) {
           },
           ring: {
             name: ItemList["Rogue's Ring"].name,
-            effect: ItemList["Rogue's Ring"].description,
+            effect: ItemList["Rogue's Ring"].description[3],
             rating: ItemList["Rogue's Ring"].rating,
             stats: ItemList["Rogue's Ring"].stats[3]
           },
@@ -813,7 +813,7 @@ export function Josh(Chapter) {
           },
           ring: {
             name: ItemList["Rogue's Ring"].name,
-            effect: ItemList["Rogue's Ring"].description,
+            effect: ItemList["Rogue's Ring"].description[9],
             rating: ItemList["Rogue's Ring"].rating,
             stats: ItemList["Rogue's Ring"].stats[9]
           },
