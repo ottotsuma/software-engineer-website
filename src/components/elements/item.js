@@ -383,8 +383,8 @@ export const ItemList = {
     note: '',
     type: 'scarf'
   },
-  "Qarn Jackboots": {
-    name: "Qarn Jackboots",
+  "Rayndr Jackboots": {
+    name: "Rayndr Jackboots",
     description: 'Critical hit rate: +1, Endurance: +1.',
     image: 'https://ffxiv.gamerescape.com/w/images/2/23/Model-Qarn_Jackboots-Male-Hyur.png',
     rating: "normal",
@@ -402,6 +402,26 @@ export const ItemList = {
     effect: '', // Price since it was shown In a shop.
     note: 'https://ffxiv.gamerescape.com/wiki/Category:Ring/iLevel_30-39',
     type: 'ring'
+  },
+  "Dark Elf's Scimitar": {
+    name: "Dark Elf's Scimitar",
+    description: 'Cutting deals 3% more damage, strength: +1.',
+    image: 'https://i.pinimg.com/564x/e4/b7/5d/e4b75d01d093430bb055a82dc5967c38.jpg',
+    rating: "normal",
+    stats: {strength: 1},
+    effect: '', // Price since it was shown In a shop.
+    note: '',
+    type: 'sword'
+  },
+  "Meroyri Xiphos": {
+    name: "Meroyri Xiphos",
+    description: 'strength: +1.',
+    image: 'https://i.pinimg.com/564x/36/0d/28/360d2889c232ccfc54439397d95198d2.jpg',
+    rating: "junk",
+    stats: {strength: 1},
+    effect: '', // Price since it was shown In a shop.
+    note: '',
+    type: 'sword'
   },
 }
 // ##### Types: 

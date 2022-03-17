@@ -504,16 +504,22 @@ export function Noah(Chapter) {
             stats: ItemList["Linen Halfgloves"].stats
           },
           Feet: {
-            name: ItemList["Qarn Jackboots"].name,
-            effect: ItemList["Qarn Jackboots"].description,
-            rating: ItemList["Qarn Jackboots"].rating,
-            stats: ItemList["Qarn Jackboots"].stats
+            name: ItemList["Rayndr Jackboots"].name,
+            effect: ItemList["Rayndr Jackboots"].description,
+            rating: ItemList["Rayndr Jackboots"].rating,
+            stats: ItemList["Rayndr Jackboots"].stats
           },
           Weapon: {
-            name: ItemList["Linen Halfgloves"].name,
-            effect: ItemList["Linen Halfgloves"].description,
-            rating: ItemList["Linen Halfgloves"].rating,
-            stats: ItemList["Linen Halfgloves"].stats
+            name: ItemList["Dark Elf's Scimitar"].name,
+            effect: ItemList["Dark Elf's Scimitar"].description,
+            rating: ItemList["Dark Elf's Scimitar"].rating,
+            stats: ItemList["Dark Elf's Scimitar"].stats
+          },
+          "Off-hand": {
+            name: ItemList["Meroyri Xiphos"].name,
+            effect: ItemList["Meroyri Xiphos"].description,
+            rating: ItemList["Meroyri Xiphos"].rating,
+            stats: ItemList["Meroyri Xiphos"].stats
           },
           ring: {
             name: ItemList["Rogue's Ring"].name,

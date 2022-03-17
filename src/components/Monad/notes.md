@@ -104,7 +104,6 @@ World bosses that need multiple Guilds (NON PVP & PVP modes)
 
 Junk (Grey) / Common(Light grey) / Basic (Blue) / intermediate(Light blue)/ Advanced(Cyan) / Rare (Green) / Epic (Red) / Legendary (Orange) / Unique (Purple) / God (Gold)
 
-
 Basic, Intermediate, Advanced.
 
 The classes and species could be catabolized into tiers [1, 2, 3] or ranks [bronze, silver, gold], [junk, common, normal, intermediate, advanced rare, elite, epic, legendary, unique]
