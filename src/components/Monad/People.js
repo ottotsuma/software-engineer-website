@@ -492,10 +492,10 @@ export function Noah(Chapter) {
             stats: ItemList["Toads Skin Jacket"].stats
           },
           Head: {
-            name: ItemList["Linen Halfgloves"].name,
-            effect: ItemList["Linen Halfgloves"].description,
-            rating: ItemList["Linen Halfgloves"].rating,
-            stats: ItemList["Linen Halfgloves"].stats
+            name: ItemList["Rayndr Face Mask"].name,
+            effect: ItemList["Rayndr Face Mask"].description,
+            rating: ItemList["Rayndr Face Mask"].rating,
+            stats: ItemList["Rayndr Face Mask"].stats
           },
           Hands: {
             name: ItemList["Linen Halfgloves"].name,

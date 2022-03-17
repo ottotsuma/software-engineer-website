@@ -423,6 +423,16 @@ export const ItemList = {
     note: '',
     type: 'sword'
   },
+  "Rayndr Face Mask": {
+    name: "Rayndr Face Mask",
+    description: 'Disease resistance +3%.',
+    image: '',
+    rating: "junk",
+    stats: {strength: 0},
+    effect: '', // Price since it was shown In a shop.
+    note: '',
+    type: 'hat'
+  },
 }
 // ##### Types: 
 // ###### Hat/Crown:
