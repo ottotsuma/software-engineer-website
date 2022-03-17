@@ -1,7 +1,7 @@
 // Events starts and we follow Kaja through the event
 import React from "react";
 import { Content } from "./styles";
-import {Kaja as KajaStats} from './People';
+import { Kaja as KajaStats } from './People';
 import {
   Otto,
   Lubin,
@@ -686,7 +686,7 @@ function Intro(props) {
       </Kaja>
       <Chu>"Exactly my thoughts." He replied.</Chu>
       <Kaja>
-        
+
       </Kaja>
       {KajaStats(35)}
       {/* Chu-gong */}
