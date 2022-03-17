@@ -11,7 +11,7 @@ import Stats from "./../elements/stats";
 import Spells from "./../elements/spells";
 import Blood from "./../../assets/Blood.jpg";
 import { Sarah, Josh, Juan, Noah } from "./CharacterFonts";
-import { Noah as NoahStats, Sarah as SarahStats } from "./People";
+import { Noah as NoahStats, Sarah as SarahStats, Josh as JoshStats } from "./People";
 
 export const Shine = styled.p`
   font-size: xxx-large;
@@ -125,11 +125,13 @@ export const SeaPeople = {
           island, other dlc before? ), clan/guild, reason for coming. PET(level)
         </li>
         <li style={{ overflowWrap: "anywhere" }}>
+          {NoahStats(1)}
           Boy: Name, Dark Elf?, class(Rogue[]), 37, [Normal/Rare, mostly from
           the main quests], (From the main island, recently started playing, no
           dlc), none, saw the adverts for coming and wanted to try. None(0)
         </li>
         <li style={{ overflowWrap: "anywhere" }}>
+          {SarahStats(1)}
           Girl: Sarah, Vampire, Use to be a human paladin, class(Tank[Guardian])
           Wants to change to blood warrior, 100, [mixed normal, rare epic with
           one unique], (Pro-gamer, guild leader, small dlc before), clan/guild,
@@ -138,8 +140,7 @@ export const SeaPeople = {
           https://ottotsuma.github.io/images/people/w1.jpg
         </li>
         <li style={{ overflowWrap: "anywhere" }}>
-          Boy: Josh, Human, class(Rogue-subtype[Assassin]) Recently became
-          assassin, 92,
+          {JoshStats(1)}
           [file:///C:/Users/snows/Documents/GitHub/ottotsuma.github.io/Assassin.html
           , but not unique items], (Member of the same guild, small dlc, company
           man), clan/guild, accompany the same guild. RAT(100)

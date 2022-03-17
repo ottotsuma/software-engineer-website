@@ -715,6 +715,158 @@ export function Sarah(Chapter) {
     )
   }
 }
+export function Josh(Chapter) {
+  if (Chapter) {
+    return (
+      <Stats
+        type={"description"}
+        stats={{
+          name: "Josh",
+          level: 92,
+          class: "Assassin",
+          species: "Human",
+          spells: 0,
+          passives: 0,
+          "spell points": 92, // from class 1 per level (normal/rare/epic/legendary)
+          "stat points": 194-90-50-50-2-2, // from species 2 per level // 1 per every 10 levels
+          vitality: 0,
+          strength: 50,
+          endurance: 0,
+          magic: 0,
+          willpower: 0,
+          dexterity: 92,
+          sense: 52,
+          charisma: 0,
+        }}
+        // Makes skills an object of skill types 'human' 'mage' and they be the arrays.
+        // Do the same thing for equipment and titles?
+        showTitles={false} // currently does nothing
+        equippedTitle="Princess"
+        titles={['Princess']}
+        showSkills={true}
+        skills={{
+          "human": [
+            // Above is all (I)
+          ],
+          assassin: [
+          ],
+          conditions: [
+            // Negatives
+            { name: "Player", level: 1 },
+            { name: "Miasma", level: 90 },
+          ],
+        }}
+        showItems={true}
+        items={{
+          // https://aikaonlinena.fandom.com/wiki/Paladin_Sets / https://aikadb.astrobunny.net/simple.php?paladin-blade-of-twilight-paladin
+          Body: {
+            name: "Paladin Engeler's Body Armor (silver rank)",
+            effect: "Reduces physical damage taken by 10%, except spears. Endurance +1, Endurance +10%.",
+            rating: "epic",
+            stats: { endurance: 1, enduranceMultiplier: 1.1 }
+          },
+          Head: {
+            name: "Paladin Engeler's Sallet (silver rank)",
+            effect: "Endurance +1.8.",
+            rating: "epic",
+            stats: { endurance: 1.8 }
+          },
+          Hands: {
+            name: "Paladin Engeler's Gauntlets (silver rank)",
+            effect: "Endurance +1.",
+            rating: "epic",
+            stats: { endurance: 1 }
+          },
+          Feet: {
+            name: "Paladin Engeler's Sabaton (silver rank)",
+            effect: "Endurance +1.2.",
+            rating: "epic",
+            stats: { endurance: 1.2 }
+          },
+          Weapon: {
+            name: "Paladin Engeler's Mace (silver rank)",
+            effect: "Strength +3.",
+            rating: "epic",
+            stats: { strength: 3 }
+          },
+          Shield: {
+            name: "Paladin Engeler's Shield (silver rank)",
+            effect: "Threat increased 20%, Reduce received damage from Demons by 7%, Reduce received damage from Undead by 7%, chance to block 20%.",
+            rating: "epic",
+            stats: { endurance: 0 }
+          },
+          Cape: {
+            name: "Paladin Engeler's Cape (silver rank)",
+            effect: "Increase HP by 315, Increase MP by 225.",
+            rating: "epic",
+            stats: { HP: 315, MP: 225 }
+          },
+          necklace: {
+            name: "Demon Hunter Necklace",
+            effect: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
+            rating: "epic",
+          },
+          bracelet: {
+            name: "Demon Hunter Bracelet",
+            effect: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
+            rating: "epic",
+          },
+          earing: {
+            name: "Demon Hunter Earring",
+            effect: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
+            rating: "epic",
+          },
+          ring: {
+            name: "Demon Hunter Ring",
+            effect: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
+            rating: "epic",
+          },
+          "Set Effect (3/7)": {
+            name: "Paladin Engeler's Set",
+            effect: "HP + 217.0, endurance + 0.9",
+            rating: "epic",
+            stats: { endurance: 0.9, HP: 217 }
+          },
+          "Set Effect (4/7)": {
+            name: "Paladin Engeler's Set",
+            effect: "Crit Rate: +1, Critical Damage: +2.5%.",
+            rating: "epic",
+            // stats: {}
+          },
+          "Set Effect (7/7)": {
+            name: "Paladin Engeler's Set",
+            effect: "Skill: One of the Twelve; Increases all stats by 12% for 7 seconds.",
+            rating: "epic",
+            stats: { endurance: 0 }
+          },
+        }}
+        notes={
+          "2 spell per level, 2 stats per level, Human +1 stat every 10 levels. https://ottotsuma.github.io/images/people/w1.jpg"
+        }
+      />
+    )
+  } else {
+    return (
+      <div>
+        <p>1: They are in a zone of comfort</p>
+
+        <p>2: But they want something</p>
+
+        <p>3: They enter an unfamiliar situation</p>
+
+        <p>4: Adapt to it</p>
+
+        <p>5: Get what they wanted</p>
+
+        <p>6: Pay a heavy price</p>
+
+        <p>7: Then return to the familia situation</p>
+
+        <p>8: Having changed</p>
+      </div>
+    )
+  }
+}
 
 export function Linhart() {
   return (
