@@ -305,6 +305,104 @@ export const ItemList = {
     note: '',
     type: 'misc'
   },
+  "Linen Halfgloves": {
+    name: "Linen Halfgloves",
+    description: 'Dexterity +1.',
+    image: 'https://ffxiv.gamerescape.com/w/images/9/9a/Model-Linen_Halfgloves-Male-Hyur.png',
+    rating: "junk",
+    stats: {dexterity : 1},
+    effect: '', // Price since it was shown In a shop.
+    note: '',
+    type: 'gloves'
+  },
+  "Battlemage's Gloves": {
+    name: "Battlemage's Gloves",
+    description: 'Magic +1, Willpower: +1, Spell Speed: +1%.',
+    image: 'https://ffxiv.gamerescape.com/w/images/9/9a/Model-Linen_Halfgloves-Male-Hyur.png',
+    rating: "normal",
+    stats: {magic : 1, willpower: 1},
+    effect: '', // Price since it was shown In a shop.
+    note: '',
+    type: 'gloves'
+  },
+  "Battlemage's Hat": {
+    name: "Battlemage's Hat",
+    description: 'Magic +1, Willpower: +1, Spell Speed: +1%.',
+    image: 'https://ffxiv.gamerescape.com/w/images/3/34/Model-Battlemage%27s_Hat-Male-Hyur.png',
+    rating: "normal",
+    stats: {magic : 1, willpower: 1},
+    effect: '', // Price since it was shown In a shop.
+    note: '',
+    type: 'hat'
+  },
+  "Battlemage's Robe": {
+    name: "Battlemage's Robe",
+    description: 'Magic +1, Willpower: +1, Spell Speed: +1%.',
+    image: 'https://ffxiv.gamerescape.com/w/images/6/63/Model-Battlemage%27s_Robe-Male-Hyur.png',
+    rating: "normal",
+    stats: {magic : 1, willpower: 1},
+    effect: '', // Price since it was shown In a shop.
+    note: '',
+    type: 'armor'
+  },
+  "Battlemage's Crakows": {
+    name: "Battlemage's Crakows",
+    description: 'Magic +1, Willpower: +1, Spell Speed: +1%.',
+    image: 'https://ffxiv.gamerescape.com/w/images/0/0c/Model-Battlemage%27s_Crakows-Male-Hyur.png',
+    rating: "normal",
+    stats: {magic : 1, willpower: 1},
+    effect: '', // Price since it was shown In a shop.
+    note: '',
+    type: 'boots'
+  },
+  "Battlemage's Breeches": {
+    name: "Battlemage's Breeches",
+    description: 'Magic +1, Willpower: +1, Spell Speed: +1%.',
+    image: 'https://ffxiv.gamerescape.com/w/images/2/2e/Model-Battlemage%27s_Breeches-Male-Hyur.png',
+    rating: "normal",
+    stats: {magic : 1, willpower: 1},
+    effect: '', // Price since it was shown In a shop.
+    note: '',
+    type: 'trousers'
+  },
+  "Battlemage's Set (4/4)": {
+    name: "Battlemage's Set (4/4)",
+    description: "Magic +1, Willpower: +1, Spell Speed: +1%.",
+    rating: "normal",
+    stats: {magic : 1, willpower: 1},
+    note: '',
+    type: 'set effect',
+  },
+  "Cotton Scarf": {
+    name: "Cotton Scarf",
+    description: '',
+    image: 'https://ffxiv.gamerescape.com/w/images/a/a1/Model-Cotton_Scarf-Male-Hyur.png',
+    rating: "junk",
+    stats: {},
+    effect: '', // Price since it was shown In a shop.
+    note: '',
+    type: 'scarf'
+  },
+  "Qarn Jackboots": {
+    name: "Qarn Jackboots",
+    description: 'Critical hit rate: +1, Endurance: +1.',
+    image: 'https://ffxiv.gamerescape.com/w/images/2/23/Model-Qarn_Jackboots-Male-Hyur.png',
+    rating: "normal",
+    stats: {endurance: 1},
+    effect: '', // Price since it was shown In a shop.
+    note: '',
+    type: 'boots'
+  },
+  "Rogue's Ring": {
+    name: "Rogue's Ring",
+    description: 'Critical hit rate: +1, Dexterity: +1.',
+    image: 'https://ffxiv.gamerescape.com/w/images/thumb/0/05/Model-Rogue%27s_Ring.png/450px-Model-Rogue%27s_Ring.png',
+    rating: "normal",
+    stats: {dexterity: 1},
+    effect: '', // Price since it was shown In a shop.
+    note: 'https://ffxiv.gamerescape.com/wiki/Category:Ring/iLevel_30-39',
+    type: 'ring'
+  },
 }
 // ##### Types: 
 // ###### Hat/Crown:

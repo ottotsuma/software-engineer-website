@@ -492,66 +492,34 @@ export function Noah(Chapter) {
             stats: ItemList["Toads Skin Jacket"].stats
           },
           Head: {
-            name: "Paladin Engeler's Sallet (silver rank)",
-            effect: "Endurance +1.8.",
-            rating: "epic",
-            stats: { endurance: 1.8 }
+            name: ItemList["Linen Halfgloves"].name,
+            effect: ItemList["Linen Halfgloves"].description,
+            rating: ItemList["Linen Halfgloves"].rating,
+            stats: ItemList["Linen Halfgloves"].stats
           },
           Hands: {
-            name: "Paladin Engeler's Gauntlets (silver rank)",
-            effect: "Endurance +1.",
-            rating: "epic",
-            stats: { endurance: 1 }
+            name: ItemList["Linen Halfgloves"].name,
+            effect: ItemList["Linen Halfgloves"].description,
+            rating: ItemList["Linen Halfgloves"].rating,
+            stats: ItemList["Linen Halfgloves"].stats
           },
           Feet: {
-            name: "Paladin Engeler's Sabaton (silver rank)",
-            effect: "Endurance +1.2.",
-            rating: "epic",
-            stats: { endurance: 1.2 }
+            name: ItemList["Qarn Jackboots"].name,
+            effect: ItemList["Qarn Jackboots"].description,
+            rating: ItemList["Qarn Jackboots"].rating,
+            stats: ItemList["Qarn Jackboots"].stats
           },
           Weapon: {
-            name: "Paladin Engeler's Mace (silver rank)",
-            effect: "Strength +3.",
-            rating: "epic",
-            stats: { strength: 3 }
-          },
-          Shield: {
-            name: "Paladin Engeler's Shield (silver rank)",
-            effect: "Threat increased 20%, Reduce received damage from Demons by 7%, Reduce received damage from Undead by 7%, chance to block 20%.",
-            rating: "epic",
-            stats: { endurance: 0 }
-          },
-          Cape: {
-            name: "Paladin Engeler's Cape (silver rank)",
-            effect: "Increase HP by 315, Increase MP by 225.",
-            rating: "epic",
-            stats: { HP: 315, MP: 225 }
-          },
-          necklace: {
-            name: "Demon Hunter Necklace",
-            effect: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
-            rating: "epic",
-          },
-          bracelet: {
-            name: "Demon Hunter Bracelet",
-            effect: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
-            rating: "epic",
-          },
-          earing: {
-            name: "	Demon Hunter Earring",
-            effect: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
-            rating: "epic",
+            name: ItemList["Linen Halfgloves"].name,
+            effect: ItemList["Linen Halfgloves"].description,
+            rating: ItemList["Linen Halfgloves"].rating,
+            stats: ItemList["Linen Halfgloves"].stats
           },
           ring: {
-            name: "Ring of Destruction",
-            effect: "Increase critical rate by 6.",
-            rating: "normal",
-          },
-          "Set Effect (3/7)": {
-            name: "Paladin Engeler's Set",
-            effect: "HP + 217.0, endurance + 0.9",
-            rating: "epic",
-            stats: { endurance: 0.9, HP: 217 }
+            name: ItemList["Rogue's Ring"].name,
+            effect: ItemList["Rogue's Ring"].description,
+            rating: ItemList["Rogue's Ring"].rating,
+            stats: ItemList["Rogue's Ring"].stats
           },
         }}
         notes={
