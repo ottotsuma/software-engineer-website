@@ -259,6 +259,10 @@ function _try(func, fallbackValue) {
   }
 }
 
+function roundDownToNearest10(num) {
+  return Math.floor(num / 10) * 10;
+}
+
 function Stats({
   stats,
   type,
@@ -417,7 +421,8 @@ function Stats({
   if (items) {
     itemsArray.push(<Equipment items={items} key={"Items"} />);
     Object.keys(items).map((itemArea) => {
-      const itemStats = _try(() => items[itemArea].stats);
+      const itemLevel = roundDownToNearest10(stats.level)/10
+      const itemStats = _try(() => items[itemArea].stats[itemLevel] || items[itemArea].stats);
       if (itemStats) {
         Object.keys(itemStats).map((itemStat) => {
           if (itemStat === "HP") {

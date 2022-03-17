@@ -2375,6 +2375,7 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         here. Avoid Juan if you can, he's a little.. Pushy, about joining the
         church." Sarah warned me, then I took my leave.
       </Sarah>
+      {JoshStats(1)}
       {SarahStats(9)}
       {/* Give the blood bottle to Sarah, after she is injured by the priest */}
       {/* Even the birds seem to hold their tongues. It was as if even nature was speechless  */}

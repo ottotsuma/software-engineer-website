@@ -525,7 +525,7 @@ export function Noah(Chapter) {
             name: ItemList["Rogue's Ring"].name,
             effect: ItemList["Rogue's Ring"].description,
             rating: ItemList["Rogue's Ring"].rating,
-            stats: ItemList["Rogue's Ring"].stats
+            stats: ItemList["Rogue's Ring"].stats[3]
           },
         }}
         notes={
@@ -724,7 +724,7 @@ export function Josh(Chapter) {
           name: "Josh",
           level: 92,
           class: "Assassin",
-          species: "Human",
+          species: "human",
           spells: 0,
           passives: 0,
           "spell points": 92, // from class 1 per level (normal/rare/epic/legendary)
@@ -743,7 +743,7 @@ export function Josh(Chapter) {
         showTitles={false} // currently does nothing
         equippedTitle="Princess"
         titles={['Princess']}
-        showSkills={true}
+        showSkills={false}
         skills={{
           "human": [
             // Above is all (I)
@@ -758,18 +758,18 @@ export function Josh(Chapter) {
         }}
         showItems={true}
         items={{
-          // https://aikaonlinena.fandom.com/wiki/Paladin_Sets / https://aikadb.astrobunny.net/simple.php?paladin-blade-of-twilight-paladin
+          // https://ffxiv.gamerescape.com/wiki/Sky_Pirate%27s_Fending_Set#Hyur%20 / https://ottotsuma.github.io/images/people/9d6e202641a645ff31d6a93f2c589feb.jpg
           Body: {
-            name: "Paladin Engeler's Body Armor (silver rank)",
-            effect: "Reduces physical damage taken by 10%, except spears. Endurance +1, Endurance +10%.",
-            rating: "epic",
-            stats: { endurance: 1, enduranceMultiplier: 1.1 }
+            name: ItemList["Shadow Pirate's Coat"].name,
+            effect: ItemList["Shadow Pirate's Coat"].description,
+            rating: ItemList["Shadow Pirate's Coat"].rating,
+            stats: ItemList["Shadow Pirate's Coat"].stats
           },
           Head: {
-            name: "Paladin Engeler's Sallet (silver rank)",
-            effect: "Endurance +1.8.",
-            rating: "epic",
-            stats: { endurance: 1.8 }
+            name: ItemList["Rayndr Face Mask"].name,
+            effect: ItemList["Rayndr Face Mask"].description,
+            rating: ItemList["Rayndr Face Mask"].rating,
+            stats: ItemList["Rayndr Face Mask"].stats
           },
           Hands: {
             name: "Paladin Engeler's Gauntlets (silver rank)",
@@ -778,7 +778,7 @@ export function Josh(Chapter) {
             stats: { endurance: 1 }
           },
           Feet: {
-            name: "Paladin Engeler's Sabaton (silver rank)",
+            name: "Leather Pirate Boots",
             effect: "Endurance +1.2.",
             rating: "epic",
             stats: { endurance: 1.2 }
@@ -795,49 +795,33 @@ export function Josh(Chapter) {
             rating: "epic",
             stats: { endurance: 0 }
           },
-          Cape: {
-            name: "Paladin Engeler's Cape (silver rank)",
-            effect: "Increase HP by 315, Increase MP by 225.",
-            rating: "epic",
-            stats: { HP: 315, MP: 225 }
-          },
-          necklace: {
-            name: "Demon Hunter Necklace",
-            effect: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
-            rating: "epic",
-          },
-          bracelet: {
-            name: "Demon Hunter Bracelet",
-            effect: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
-            rating: "epic",
-          },
-          earing: {
-            name: "Demon Hunter Earring",
-            effect: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
-            rating: "epic",
-          },
-          ring: {
-            name: "Demon Hunter Ring",
-            effect: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
-            rating: "epic",
-          },
           "Set Effect (3/7)": {
             name: "Paladin Engeler's Set",
             effect: "HP + 217.0, endurance + 0.9",
             rating: "epic",
             stats: { endurance: 0.9, HP: 217 }
           },
-          "Set Effect (4/7)": {
-            name: "Paladin Engeler's Set",
-            effect: "Crit Rate: +1, Critical Damage: +2.5%.",
+          bracelet: {
+            name: "Black Braid Bracelet",
+            effect: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
             rating: "epic",
-            // stats: {}
           },
-          "Set Effect (7/7)": {
-            name: "Paladin Engeler's Set",
-            effect: "Skill: One of the Twelve; Increases all stats by 12% for 7 seconds.",
+          earing: {
+            name: "Tidas earring",
+            effect: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
             rating: "epic",
-            stats: { endurance: 0 }
+          },
+          ring: {
+            name: ItemList["Rogue's Ring"].name,
+            effect: ItemList["Rogue's Ring"].description,
+            rating: ItemList["Rogue's Ring"].rating,
+            stats: ItemList["Rogue's Ring"].stats[9]
+          },
+          "second ring": {
+            name: ItemList["Black Band"].name,
+            effect: ItemList["Black Band"].description,
+            rating: ItemList["Black Band"].rating,
+            stats: ItemList["Black Band"].stats[9]
           },
         }}
         notes={

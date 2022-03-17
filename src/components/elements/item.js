@@ -26,6 +26,7 @@ function perc2color(perc) {
 }
 
 export const ItemList = {
+  // Should stats really be : {1:{magic: 1}, 2:{magic: 2}}
   "Training Health Potion": {
     name: 'Training Health Potion',
     description: 'Recovers 1HP every 5 seconds for the next 120 seconds.', // 24 HP
@@ -398,7 +399,7 @@ export const ItemList = {
     description: 'Critical hit rate: +1, Dexterity: +1.',
     image: 'https://ffxiv.gamerescape.com/w/images/thumb/0/05/Model-Rogue%27s_Ring.png/450px-Model-Rogue%27s_Ring.png',
     rating: "normal",
-    stats: {dexterity: 1},
+    stats: {3:{dexterity: 3}, 9:{dexterity: 9},},
     effect: '', // Price since it was shown In a shop.
     note: 'https://ffxiv.gamerescape.com/wiki/Category:Ring/iLevel_30-39',
     type: 'ring'
@@ -433,6 +434,42 @@ export const ItemList = {
     note: '',
     type: 'hat'
   },
+  "Shadow Pirate's Coat": {
+    name: "Shadow Pirate's Coat",
+    description: '',
+    image: '',
+    rating: "rare",
+    stats: {strength: 0},
+    effect: '', // Price since it was shown In a shop.
+    note: '',
+    type: 'armor'
+  },
+  "Leather Pirate Boots": {
+    name: "Leather Pirate Boots",
+    description: '',
+    image: '',
+    rating: "junk",
+    stats: {strength: 0},
+    effect: '', // Price since it was shown In a shop.
+    note: '',
+    type: 'boots'
+  },
+  "Black Band": {
+    name: "Black Band",
+    description: 'Dexterity: +1.',
+    image: '',
+    rating: "normal",
+    stats: {
+      1:{dexterity: 1},
+      5:{dexterity: 5},
+      9:{dexterity: 9},
+      10:{dexterity: 10}
+    },
+    effect: '', // Price since it was shown In a shop.
+    note: '',
+    type: 'ring'
+  },
+  // Black Band
 }
 // ##### Types: 
 // ###### Hat/Crown:
