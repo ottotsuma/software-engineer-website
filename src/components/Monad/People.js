@@ -772,44 +772,45 @@ export function Josh(Chapter) {
             stats: ItemList["Rayndr Face Mask"].stats
           },
           Hands: {
-            name: "Paladin Engeler's Gauntlets (silver rank)",
+            name: "P",
             effect: "Endurance +1.",
-            rating: "epic",
+            rating: "normal",
             stats: { endurance: 1 }
           },
           Feet: {
             name: "Leather Pirate Boots",
             effect: "Endurance +1.2.",
-            rating: "epic",
+            rating: "normal",
             stats: { endurance: 1.2 }
           },
           Weapon: {
-            name: "Paladin Engeler's Mace (silver rank)",
+            name: "P",
             effect: "Strength +3.",
-            rating: "epic",
+            rating: "rare",
             stats: { strength: 3 }
           },
-          Shield: {
-            name: "Paladin Engeler's Shield (silver rank)",
+          "Off hand": {
+            name: "P",
             effect: "Threat increased 20%, Reduce received damage from Demons by 7%, Reduce received damage from Undead by 7%, chance to block 20%.",
-            rating: "epic",
+            rating: "rare",
             stats: { endurance: 0 }
           },
           "Set Effect (3/7)": {
-            name: "Paladin Engeler's Set",
+            name: "P",
             effect: "HP + 217.0, endurance + 0.9",
-            rating: "epic",
+            rating: "rare",
             stats: { endurance: 0.9, HP: 217 }
           },
           bracelet: {
             name: "Black Braid Bracelet",
             effect: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
-            rating: "epic",
+            rating: "normal",
           },
           earing: {
-            name: "Tidas earring",
-            effect: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
-            rating: "epic",
+            name: ItemList["Tidus Earring"].name,
+            effect: ItemList["Tidus Earring"].description,
+            rating: ItemList["Tidus Earring"].rating,
+            stats: ItemList["Tidus Earring"].stats[9]
           },
           ring: {
             name: ItemList["Rogue's Ring"].name,

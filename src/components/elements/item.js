@@ -469,7 +469,18 @@ export const ItemList = {
     note: '',
     type: 'ring'
   },
-  // Black Band
+  "Tidus Earring": {
+    name: "Tidus Earring",
+    description: 'Dexterity +9, Swimming speed +5, Can breath underwater for 5 minutes.',
+    image: 'https://image.vector-park.jp/images/item/original2/019/2017/08/24/019-201708240761_1.jpg?t=1572379770',
+    rating: "epic",
+    stats: {
+      9: { dexterity: 9 },
+    },
+    effect: '', // Price since it was shown In a shop.
+    note: '',
+    type: 'earring'
+  },
 }
 // ##### Types: 
 // ###### Hat/Crown:
