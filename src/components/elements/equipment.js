@@ -13,7 +13,7 @@ function Stats({ items }) {
         {items[keys[index]].name}:
       </div>
     );
-    const effect = items[keys[index]].effect || items[keys[index]].description;
+    const effect = items[keys[index]].description || items[keys[index]].effect;
     const long = items[keys[index]].long;
     const space = <div style={{ background: "inherit", width: "3px" }}> </div>;
     array.push(

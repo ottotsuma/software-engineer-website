@@ -771,12 +771,9 @@ export function Josh(Chapter) {
             rating: ItemList["Featureless Deathwood Mask"].rating,
             stats: ItemList["Featureless Deathwood Mask"].stats
           },
-          Hands: {
-            name: "P",
-            effect: "",
-            rating: "normal",
-            stats: { endurance: 1 }
-          },
+          Hands: 
+            ItemList["Heavenly White Stag Mask"]
+          ,
           Feet: {
             name: ItemList["Leather Pirate Boots"].name,
             effect: ItemList["Leather Pirate Boots"].description,
@@ -787,7 +784,7 @@ export function Josh(Chapter) {
             name: "P",
             effect: "",
             rating: "rare",
-            stats: { strength: 3 }
+            stats: { strength: 0 }
           },
           "Off hand": {
             name: "P",
@@ -799,7 +796,7 @@ export function Josh(Chapter) {
             name: "P",
             effect: "",
             rating: "rare",
-            stats: { endurance: 0.9, HP: 217 }
+            stats: { endurance: 0, HP: 2 }
           },
           bracelet: {
             name: ItemList["Black Braid Bracelet"].name,

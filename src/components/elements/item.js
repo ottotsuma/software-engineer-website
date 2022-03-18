@@ -483,12 +483,12 @@ export const ItemList = {
   },
   "Featureless Deathwood Mask": {
     name: "Featureless Deathwood Mask",
-    description: '',
+    description: '22',
     image: '',
     rating: "rare",
     stats: {
     },
-    effect: '', // Price since it was shown In a shop.
+    effect: '11', // Price since it was shown In a shop.
     note: '',
     type: 'hat'
   },
@@ -531,7 +531,8 @@ export const ItemList = {
     image: '',
     rating: "unique",
     stats: { magic: 2 },
-    effect: 'Blessing of 建御雷 [Takemikazuchi]: Resist lightning +20%, Lightning cost - 15%, Lightning power +20%.', // Price since it was shown In a shop.
+    effect: '',
+    long: 'Blessing of 建御雷 [Takemikazuchi]: Resist lightning +20%, Lightning cost - 15%, Lightning power +20%.', // Price since it was shown In a shop.
     note: '',
     type: 'hat'
   },
