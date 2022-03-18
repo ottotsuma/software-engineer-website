@@ -452,7 +452,7 @@ export function Noah(Chapter) {
           species: "Dark Elf",
           spells: 0,
           passives: 0,
-          "spell points": 37, // from class 1 per level (normal/rare/epic/legendary)
+          "skill points": 37, // from class 1 per level (normal/rare/epic/legendary)
           "stat points": 37 + 37 + 4 - 37 - 20, // from species 2 per level // 1 per every 10 levels
           vitality: 0,
           strength: 20,
@@ -567,7 +567,7 @@ export function Sarah(Chapter) {
           species: "Vampire",
           spells: 0,
           passives: 0,
-          "spell points": 100, // from class 1 per level (normal/rare/epic/legendary)
+          "skill points": 100, // from class 1 per level (normal/rare/epic/legendary)
           "stat points": 211 - 211, // from species 2 per level // 1 per every 10 levels
           vitality: 100,
           strength: 60,
@@ -727,7 +727,7 @@ export function Josh(Chapter) {
           species: "human",
           spells: 0,
           passives: 0,
-          "spell points": 92, // from class 1 per level (normal/rare/epic/legendary)
+          "skill points": 92, // from class 1 per level (normal/rare/epic/legendary)
           "stat points": 194-90-50-50-2-2, // from species 2 per level // 1 per every 10 levels
           vitality: 0,
           strength: 50,
@@ -773,37 +773,37 @@ export function Josh(Chapter) {
           },
           Hands: {
             name: "P",
-            effect: "Endurance +1.",
+            effect: "",
             rating: "normal",
             stats: { endurance: 1 }
           },
           Feet: {
             name: "Leather Pirate Boots",
-            effect: "Endurance +1.2.",
+            effect: "",
             rating: "normal",
             stats: { endurance: 1.2 }
           },
           Weapon: {
             name: "P",
-            effect: "Strength +3.",
+            effect: "",
             rating: "rare",
             stats: { strength: 3 }
           },
           "Off hand": {
             name: "P",
-            effect: "Threat increased 20%, Reduce received damage from Demons by 7%, Reduce received damage from Undead by 7%, chance to block 20%.",
+            effect: "",
             rating: "rare",
             stats: { endurance: 0 }
           },
           "Set Effect (3/7)": {
             name: "P",
-            effect: "HP + 217.0, endurance + 0.9",
+            effect: "",
             rating: "rare",
             stats: { endurance: 0.9, HP: 217 }
           },
           bracelet: {
             name: "Black Braid Bracelet",
-            effect: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
+            effect: "",
             rating: "normal",
           },
           earing: {
@@ -820,7 +820,7 @@ export function Josh(Chapter) {
           },
           "second ring": {
             name: ItemList["Black Band"].name,
-            effect: ItemList["Black Band"].description,
+            effect: ItemList["Black Band"].description[9],
             rating: ItemList["Black Band"].rating,
             stats: ItemList["Black Band"].stats[9]
           },

@@ -456,7 +456,7 @@ export const ItemList = {
   },
   "Black Band": {
     name: "Black Band",
-    description: 'Dexterity: +1.',
+    description: {1:'Dexterity: +1.', 9:'Dexterity: +1.'},
     image: '',
     rating: "normal",
     stats: {
