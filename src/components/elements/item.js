@@ -481,7 +481,74 @@ export const ItemList = {
     note: '',
     type: 'earring'
   },
+  "Featureless Deathwood Mask": {
+    name: "Featureless Deathwood Mask",
+    description: '',
+    image: '',
+    rating: "rare",
+    stats: {
+    },
+    effect: '', // Price since it was shown In a shop.
+    note: '',
+    type: 'hat'
+  },
+  "Black Braid Bracelet": {
+    name: "Black Braid Bracelet",
+    description: '',
+    image: '',
+    rating: "junk",
+    stats: {
+    },
+    effect: '', // Price since it was shown In a shop.
+    note: '',
+    type: 'bracelet'
+  },
+  "Frost Gloves": {
+    name: "Frost Gloves",
+    description: '',
+    image: '',
+    rating: "normal",
+    stats: {
+    },
+    effect: '', // Price since it was shown In a shop.
+    note: '',
+    type: 'gloves'
+  },
+  "Flame Gloves": {
+    name: "Flame Gloves",
+    description: '',
+    image: '',
+    rating: "normal",
+    stats: {
+    },
+    effect: '', // Price since it was shown In a shop.
+    note: '',
+    type: 'gloves'
+  },
+  "Heavenly White Stag Mask": {
+    name: "Heavenly White Stag Mask",
+    description: 'Magic: +2, Disease resistance + 20%, Mana regeneration + 20%, blessing of 建御雷 [Takemikazuchi].',
+    image: '',
+    rating: "unique",
+    stats: { magic: 2 },
+    effect: 'Blessing of 建御雷 [Takemikazuchi]: Resist lightning +20%, Lightning cost - 15%, Lightning power +20%.', // Price since it was shown In a shop.
+    note: '',
+    type: 'hat'
+  },
+  "Academy Robe (Black/Yellow)": {
+    name: "Academy Robe (Black/Yellow)",
+    description: 'Magic: +2, Lightning +2%, HP +10.',
+    image: '',
+    rating: "junk",
+    stats: { magic: 2, HP: 10 },
+    effect: '', // Price since it was shown In a shop.
+    note: '',
+    type: 'armor'
+  },
 }
+// Body:<font color="blue"> Hui Lu's Battle Armor</font> ???
+//   Hands:<font color="blue"> Hui Lu's Enchanting Gloves</font> ???
+//   Feet:<font color="blue"> Hui Lu's Burning Boots</font> ???
 // ##### Types: 
 // ###### Hat/Crown:
 // ###### Rings:

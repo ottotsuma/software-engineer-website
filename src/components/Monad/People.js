@@ -766,10 +766,10 @@ export function Josh(Chapter) {
             stats: ItemList["Shadow Pirate's Coat"].stats
           },
           Head: {
-            name: ItemList["Rayndr Face Mask"].name,
-            effect: ItemList["Rayndr Face Mask"].description,
-            rating: ItemList["Rayndr Face Mask"].rating,
-            stats: ItemList["Rayndr Face Mask"].stats
+            name: ItemList["Featureless Deathwood Mask"].name,
+            effect: ItemList["Featureless Deathwood Mask"].description,
+            rating: ItemList["Featureless Deathwood Mask"].rating,
+            stats: ItemList["Featureless Deathwood Mask"].stats
           },
           Hands: {
             name: "P",
@@ -778,10 +778,10 @@ export function Josh(Chapter) {
             stats: { endurance: 1 }
           },
           Feet: {
-            name: "Leather Pirate Boots",
-            effect: "",
-            rating: "normal",
-            stats: { endurance: 1.2 }
+            name: ItemList["Leather Pirate Boots"].name,
+            effect: ItemList["Leather Pirate Boots"].description,
+            rating: ItemList["Leather Pirate Boots"].rating,
+            stats: ItemList["Leather Pirate Boots"].stats
           },
           Weapon: {
             name: "P",
@@ -802,9 +802,10 @@ export function Josh(Chapter) {
             stats: { endurance: 0.9, HP: 217 }
           },
           bracelet: {
-            name: "Black Braid Bracelet",
-            effect: "",
-            rating: "normal",
+            name: ItemList["Black Braid Bracelet"].name,
+            effect: ItemList["Black Braid Bracelet"].description,
+            rating: ItemList["Black Braid Bracelet"].rating,
+            stats: ItemList["Black Braid Bracelet"].stats
           },
           earing: {
             name: ItemList["Tidus Earring"].name,
