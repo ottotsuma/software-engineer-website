@@ -26,6 +26,7 @@ function perc2color(perc) {
 }
 
 export const ItemList = {
+  // Each item can be enchanted by level / 10. That is how you increase the stats, not an automatic increase.
   // Should stats really be : {1:{magic: 1}, 2:{magic: 2}}
   "Training Health Potion": {
     name: 'Training Health Potion',

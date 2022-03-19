@@ -3163,7 +3163,8 @@ export const spellList = {
     passive: true,
     1: "A paladin without the support of a God is stripped of faith and unable to use any Paladin skills.",
   },
-  
+  // Berserkergang and other AOE2 skills.
+  // Vampiric frenzy - Less hp = more strength
 };
 
 export function InlineSpell ({spellName, level}) {
