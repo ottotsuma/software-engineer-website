@@ -79,20 +79,8 @@ export default function Otto() {
         }}
         showItems={true}
         items={{
-          Head: {
-            name: "Heavenly White Stag Mask",
-            effect:
-              "Magic: +2, Disease resistance + 20%, Mana regeneration + 20%, blessing of 建御雷 [Takemikazuchi].",
-            rating: "unique",
-            long: "Blessing of 建御雷 [Takemikazuchi]: Resist lightning +20%, Lightning cost - 15%, Lightning power +20%. ",
-            stats: { magic: 2 }
-          },
-          Body: {
-            name: "Academy Robe (Black/Yellow).",
-            effect: "Magic: +2, Lightning +2%, HP +10.",
-            rating: "junk",
-            stats: { magic: 2, HP: 10 }
-          },
+          Head: ItemList["Heavenly White Stag Mask"],
+          Body: ItemList["Academy Robe (Black/Yellow)"],
         }}
         notes={
           "2 spell per level, 2 stats per level, Human +1 stat every 10 levels."
@@ -772,7 +760,7 @@ export function Josh(Chapter) {
             stats: ItemList["Featureless Deathwood Mask"].stats
           },
           Hands: 
-            ItemList["Heavenly White Stag Mask"]
+            ItemList["Otari Kote"]
           ,
           Feet: {
             name: ItemList["Leather Pirate Boots"].name,

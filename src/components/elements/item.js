@@ -547,10 +547,89 @@ export const ItemList = {
     note: '',
     type: 'armor'
   },
+  "Hui Lu's Battle Armor": {
+    name: "Hui Lu's Battle Armor",
+    description: '',
+    image: '',
+    rating: "",
+    stats: {},
+    effect: '', // Price since it was shown In a shop.
+    note: '',
+    type: 'armor',
+    0: {
+      name: "Hui Lu's Battle Armor",
+      description: '???',
+      image: '',
+      rating: "normal",
+      stats: {},
+      effect: '', // Price since it was shown In a shop.
+      note: '',
+      type: 'armor'
+    }
+  },
+  "Hui Lu's Enchanting Gloves": {
+    name: "Hui Lu's Enchanting Gloves",
+    description: '',
+    image: '',
+    rating: "",
+    stats: {},
+    effect: '', // Price since it was shown In a shop.
+    note: '',
+    type: 'gloves',
+    0: {
+      name: "Hui Lu's Enchanting Gloves",
+      description: '???',
+      image: '',
+      rating: "normal",
+      stats: {},
+      effect: '', // Price since it was shown In a shop.
+      note: '',
+      type: 'gloves'
+    }
+  },
+  "Hui Lu's Burning Boots": {
+    name: "Hui Lu's Burning Boots",
+    description: '',
+    image: '',
+    rating: "",
+    stats: {},
+    effect: '', // Price since it was shown In a shop.
+    note: '',
+    type: 'boots',
+    0: {
+      name: "Hui Lu's Burning Boots",
+      description: '???',
+      image: '',
+      rating: "normal",
+      stats: {},
+      effect: '', // Price since it was shown In a shop.
+      note: '',
+      type: 'boots'
+    }
+  },
+  "Otari Kote": {
+    name: "Otari Kote",
+    description: '',
+    image: '',
+    rating: "normal",
+    stats: {
+    },
+    effect: '', // Price since it was shown In a shop.
+    note: '',
+    type: 'gloves'
+  },
+  "Otari ": {
+    name: "Otari ",
+    description: '',
+    image: '',
+    rating: "rare",
+    stats: {
+    },
+    effect: '', // Price since it was shown In a shop.
+    note: '',
+    type: 'dagger'
+  },
 }
-// Body:<font color="blue"> Hui Lu's Battle Armor</font> ???
-//   Hands:<font color="blue"> Hui Lu's Enchanting Gloves</font> ???
-//   Feet:<font color="blue"> Hui Lu's Burning Boots</font> ???
 // ##### Types: 
 // ###### Hat/Crown:
 // ###### Rings:
