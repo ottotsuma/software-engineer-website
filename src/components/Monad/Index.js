@@ -165,7 +165,7 @@ const ChapterList = [
   // <SeaPeopleFunction Chapter={8} />,
   // <SeaPeopleFunction Chapter={9} />,
   <Vampire />,
-  <SpellsPage />,
+  // <SpellsPage />,
 ];
 
 export function droppy(props) {
