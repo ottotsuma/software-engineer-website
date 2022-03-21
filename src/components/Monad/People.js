@@ -2,17 +2,17 @@ import React, { useState } from "react";
 import { ItemList } from "../elements/item";
 import Stats from "../elements/stats";
 import SpellCards from "./SpellCards";
-import ClassDisplay from '../elements/classes'
+import ClassDisplay from "../elements/classes";
 
 export default function Otto() {
   // Ch32
   return (
     <div style={{ color: "black" }}>
       <div style={{ display: "flex", justifyContent: "center" }}>
-        {ClassDisplay('Mage')}
-        {ClassDisplay('Fighter')}
-        {ClassDisplay('Rogue')}
-        {ClassDisplay('King')}
+        {ClassDisplay("Mage")}
+        {ClassDisplay("Fighter")}
+        {ClassDisplay("Rogue")}
+        {ClassDisplay("King")}
       </div>
       {DirtyOtto()}
 
@@ -41,7 +41,13 @@ export default function Otto() {
         // Do the same thing for equipment and titles?
         showTitles={false} // currently does nothing
         equippedTitle="Apprentice"
-        titles={['Back to School', 'Apprentice', 'Found a unique item', 'The One, The Only', 'Novice Harvester']}
+        titles={[
+          "Back to School",
+          "Apprentice",
+          "Found a unique item",
+          "The One, The Only",
+          "Novice Harvester",
+        ]}
         showSkills={true}
         skills={{
           // human: [
@@ -127,72 +133,76 @@ export default function Otto() {
         items={{
           Head: {
             name: "Nahkriin (Mask)",
-            effect:
-              "Magic +30, -20% Restoration and Destruction mana cost.",
+            effect: "Magic +30, -20% Restoration and Destruction mana cost.",
             rating: "unique",
             long: "",
-            stats: { magic: 30 }
+            stats: { magic: 30 },
           },
           Body: {
             name: "Ziedrich",
-            effect: "Halves damage from all elements. Strength, endurance, magic, willpower + 20.",
+            effect:
+              "Halves damage from all elements. Strength, endurance, magic, willpower + 20.",
             rating: "legendary",
-            stats: { strength: 20, endurance: 20, magic: 20, willpower: 20 }
+            stats: { strength: 20, endurance: 20, magic: 20, willpower: 20 },
           },
           Hands: {
             name: "Linwe's Gloves",
             effect: "one-handed attacks do 15% more damage.",
             rating: "unique",
-            stats: {}
+            stats: {},
           },
           Feet: {
             name: "Bubonic Trail",
-            effect: "Skill: Death Walk, 30% increased Movement Speed, 4% increased maximum Hp.",
+            effect:
+              "Skill: Death Walk, 30% increased Movement Speed, 4% increased maximum Hp.",
             rating: "unique",
-            long: 'Death Walk: While you walk, this skill causes corpses near your steps to explode, dealing fire damage in an area. The explosions of the corpses are not affected by modifiers to spell damage, and cannot be reflected.',
-            stats: {}
+            long: "Death Walk: While you walk, this skill causes corpses near your steps to explode, dealing fire damage in an area. The explosions of the corpses are not affected by modifiers to spell damage, and cannot be reflected.",
+            stats: {},
           },
           Acc1: {
             name: "Protect Ring",
             effect: "Keeps Barrier & Magic-Barrier active.",
             rating: "epic",
-            stats: {}
+            stats: {},
           },
           Acc2: {
             name: "Force of Nature",
-            effect: "Adds random nature elements to attack. Absorbs some MP from nature element-based attacks.",
+            effect:
+              "Adds random nature elements to attack. Absorbs some MP from nature element-based attacks.",
             rating: "legendary",
-            stats: {}
+            stats: {},
           },
           Acc3: {
             name: "Dark Cloak",
-            effect: "Willpower +5, MP regen + 10%, magic resistance +5%, normal weapon resistance +3% and stealth bonus. It also increases encounter chance, hostility, and suspicion.",
+            effect:
+              "Willpower +5, MP regen + 10%, magic resistance +5%, normal weapon resistance +3% and stealth bonus. It also increases encounter chance, hostility, and suspicion.",
             rating: "epic",
-            stats: { willpower: 5 }
+            stats: { willpower: 5 },
           },
           Acc4: {
             name: "Magic Master",
-            effect: "Max hp - 50%. Max mp + 50%. Strength & Endurance - 20. Magic & Willpower + 20. Stores one magic spell for free use.",
+            effect:
+              "Max hp - 50%. Max mp + 50%. Strength & Endurance - 20. Magic & Willpower + 20. Stores one magic spell for free use.",
             rating: "legendary",
             stats: {
               strength: -20,
               endurance: -20,
               magic: 20,
-              willpower: 20
-            }
+              willpower: 20,
+            },
           },
           Weapon: {
             name: "Otto`s Umbrella",
             effect: "Resist Water, Resist Light, Magic +70.",
             rating: "epic",
-            stats: { magic: 70 }
+            stats: { magic: 70 },
           },
           "Off-hand": {
             name: `Silver Horn Custom "Trident"`,
             effect: "(+15 magic when used in offhand). Damage + 1.25x Magic",
             rating: "unique",
-            stats: { magic: 15 }
-          }
+            stats: { magic: 15 },
+          },
         }}
         // Magic +5 Immune: Poison, Disease
         // https://www.dandwiki.com/wiki/Mana_Creature_(5e_Race)
@@ -261,12 +271,10 @@ export function Kaja(Chapter) {
         // Do the same thing for equipment and titles?
         showTitles={false} // currently does nothing
         equippedTitle="Back to School"
-        titles={['Back to School', 'Apprentice']}
+        titles={["Back to School", "Apprentice"]}
         showSkills={true}
         skills={{
-          human: [
-            { name: "Magic Enthusiast", level: 2 },
-          ],
+          human: [{ name: "Magic Enthusiast", level: 2 }],
           mage: [
             { name: "Mana Ball", level: 1 },
             { name: "Fireball", level: 2 },
@@ -290,22 +298,23 @@ export function Kaja(Chapter) {
           },
           Shield: {
             name: "Leather covered wooden shield",
-            effect: "Endurance +1, Fire resistance + 1%, chance to block physical attacks.",
+            effect:
+              "Endurance +1, Fire resistance + 1%, chance to block physical attacks.",
             rating: "junk",
-            stats: { endurance: 1 }
+            stats: { endurance: 1 },
           },
           Body: {
             name: "Academy Robe (Black/Red).",
             effect: "Magic: +2, Fire +2%, HP +10.",
             rating: "junk",
-            stats: { magic: 2, HP: 10 }
+            stats: { magic: 2, HP: 10 },
           },
         }}
         notes={
           "2 spell per level, 2 stats per level, Human +1 stat every 10 levels."
         }
       />
-    )
+    );
   } else {
     return (
       <div>
@@ -333,7 +342,7 @@ export function Kaja(Chapter) {
         <p>8: Having changed</p>
         <p>Is not the happy girl she once was, cynical and icy</p>
       </div>
-    )
+    );
   }
 }
 export function Tsuma(Chapter) {
@@ -363,7 +372,7 @@ export function Tsuma(Chapter) {
         // Do the same thing for equipment and titles?
         showTitles={false} // currently does nothing
         equippedTitle="Princess"
-        titles={['Back to School', 'Apprentice', 'Princess']}
+        titles={["Back to School", "Apprentice", "Princess"]}
         showSkills={true}
         skills={{
           human: [
@@ -398,14 +407,14 @@ export function Tsuma(Chapter) {
             name: "Academy Robe (Black/??).",
             effect: "Magic: +2, ?? +2%, HP +10.",
             rating: "junk",
-            stats: { magic: 2, HP: 10 }
+            stats: { magic: 2, HP: 10 },
           },
         }}
         notes={
           "Eyes as part of the cats skills, see the witch of alden. 2 spell per level, 2 stats per level, Human +1 stat every 10 levels."
         }
       />
-    )
+    );
   } else {
     return (
       <div>
@@ -425,7 +434,7 @@ export function Tsuma(Chapter) {
 
         <p>8: Having changed</p>
       </div>
-    )
+    );
   }
 }
 export function Noah(Chapter) {
@@ -455,11 +464,11 @@ export function Noah(Chapter) {
         // Do the same thing for equipment and titles?
         showTitles={false} // currently does nothing
         equippedTitle="Princess"
-        titles={['Princess']}
+        titles={["Princess"]}
         showSkills={false}
         skills={{
           "Dark Elf": [
-            // Disguise + 1 Because Darkelf: Disguise (1) ? 
+            // Disguise + 1 Because Darkelf: Disguise (1) ?
           ],
           rogue: [
             // { name: "Mana Ball", level: 1 },
@@ -477,37 +486,37 @@ export function Noah(Chapter) {
             name: ItemList["Toads Skin Jacket"].name,
             description: ItemList["Toads Skin Jacket"].description,
             rating: ItemList["Toads Skin Jacket"].rating,
-            stats: ItemList["Toads Skin Jacket"].stats
+            stats: ItemList["Toads Skin Jacket"].stats,
           },
           Head: {
             name: ItemList["Rayndr Face Mask"].name,
             effect: ItemList["Rayndr Face Mask"].description,
             rating: ItemList["Rayndr Face Mask"].rating,
-            stats: ItemList["Rayndr Face Mask"].stats
+            stats: ItemList["Rayndr Face Mask"].stats,
           },
           Hands: {
             name: ItemList["Linen Halfgloves"].name,
             effect: ItemList["Linen Halfgloves"].description,
             rating: ItemList["Linen Halfgloves"].rating,
-            stats: ItemList["Linen Halfgloves"].stats
+            stats: ItemList["Linen Halfgloves"].stats,
           },
           Feet: {
             name: ItemList["Rayndr Jackboots"].name,
             effect: ItemList["Rayndr Jackboots"].description,
             rating: ItemList["Rayndr Jackboots"].rating,
-            stats: ItemList["Rayndr Jackboots"].stats
+            stats: ItemList["Rayndr Jackboots"].stats,
           },
           Weapon: {
             name: ItemList["Dark Elf's Scimitar"].name,
             effect: ItemList["Dark Elf's Scimitar"].description,
             rating: ItemList["Dark Elf's Scimitar"].rating,
-            stats: ItemList["Dark Elf's Scimitar"].stats
+            stats: ItemList["Dark Elf's Scimitar"].stats,
           },
           "Off-hand": {
             name: ItemList["Meroyri Xiphos"].name,
             effect: ItemList["Meroyri Xiphos"].description,
             rating: ItemList["Meroyri Xiphos"].rating,
-            stats: ItemList["Meroyri Xiphos"].stats
+            stats: ItemList["Meroyri Xiphos"].stats,
           },
           ring: ItemList["Rogue's Ring"][3],
         }}
@@ -515,7 +524,7 @@ export function Noah(Chapter) {
           "2 spell per level, 2 stats per level, Human +1 stat every 10 levels."
         }
       />
-    )
+    );
   } else {
     return (
       <div>
@@ -535,7 +544,7 @@ export function Noah(Chapter) {
 
         <p>8: Having changed</p>
       </div>
-    )
+    );
   }
 }
 export function Sarah(Chapter) {
@@ -565,19 +574,17 @@ export function Sarah(Chapter) {
         // Do the same thing for equipment and titles?
         showTitles={false} // currently does nothing
         equippedTitle="Princess"
-        titles={['Princess']}
+        titles={["Princess"]}
         showSkills={true}
         skills={{
-          "vampire": [
+          vampire: [
             { name: "Vampire Eyes", level: 1 },
             { name: "Vampiric Powers", level: 1 },
             { name: "Vampire", level: 1 },
             // Above is all (I)
-            // Basic Vampire Martial Arts, Vampiric Influence, Blood Wall, Blood Bank, Blood Storage, Blood Hardening, Sleep Immunity, Blood Armor, 
+            // Basic Vampire Martial Arts, Vampiric Influence, Blood Wall, Blood Bank, Blood Storage, Blood Hardening, Sleep Immunity, Blood Armor,
           ],
-          paladin: [
-            { name: "Fallen Paladin", level: 1 },
-          ],
+          paladin: [{ name: "Fallen Paladin", level: 1 }],
           conditions: [
             // Negatives
             { name: "Player", level: 1 },
@@ -592,71 +599,77 @@ export function Sarah(Chapter) {
           // https://aikaonlinena.fandom.com/wiki/Paladin_Sets / https://aikadb.astrobunny.net/simple.php?paladin-blade-of-twilight-paladin
           Body: {
             name: "Paladin Engeler's Body Armor (silver rank)",
-            effect: "Reduces physical damage taken by 10%, except spears. Endurance +1, Endurance +10%.",
+            effect:
+              "Reduces physical damage taken by 10%, except spears. Endurance +1, Endurance +10%.",
             rating: "epic",
-            stats: { endurance: 1, enduranceMultiplier: 1.1 }
+            stats: { endurance: 1, enduranceMultiplier: 1.1 },
           },
           Head: {
             name: "Paladin Engeler's Sallet (silver rank)",
             effect: "Endurance +1.8.",
             rating: "epic",
-            stats: { endurance: 1.8 }
+            stats: { endurance: 1.8 },
           },
           Hands: {
             name: "Paladin Engeler's Gauntlets (silver rank)",
             effect: "Endurance +1.",
             rating: "epic",
-            stats: { endurance: 1 }
+            stats: { endurance: 1 },
           },
           Feet: {
             name: "Paladin Engeler's Sabaton (silver rank)",
             effect: "Endurance +1.2.",
             rating: "epic",
-            stats: { endurance: 1.2 }
+            stats: { endurance: 1.2 },
           },
           Weapon: {
             name: "Paladin Engeler's Mace (silver rank)",
             effect: "Strength +3.",
             rating: "epic",
-            stats: { strength: 3 }
+            stats: { strength: 3 },
           },
           Shield: {
             name: "Paladin Engeler's Shield (silver rank)",
-            effect: "Threat increased 20%, Reduce received damage from Demons by 7%, Reduce received damage from Undead by 7%, chance to block 20%.",
+            effect:
+              "Threat increased 20%, Reduce received damage from Demons by 7%, Reduce received damage from Undead by 7%, chance to block 20%.",
             rating: "epic",
-            stats: { endurance: 0 }
+            stats: { endurance: 0 },
           },
           Cape: {
             name: "Paladin Engeler's Cape (silver rank)",
             effect: "Increase HP by 315, Increase MP by 225.",
             rating: "epic",
-            stats: { HP: 315, MP: 225 }
+            stats: { HP: 315, MP: 225 },
           },
           necklace: {
             name: "Demon Hunter Necklace",
-            effect: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
+            effect:
+              "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
             rating: "epic",
           },
           bracelet: {
             name: "Demon Hunter Bracelet",
-            effect: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
+            effect:
+              "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
             rating: "epic",
           },
           earing: {
             name: "Demon Hunter Earring",
-            effect: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
+            effect:
+              "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
             rating: "epic",
           },
           ring: {
             name: "Demon Hunter Ring",
-            effect: "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
+            effect:
+              "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
             rating: "epic",
           },
           "Set Effect (3/7)": {
             name: "Paladin Engeler's Set",
             effect: "HP + 217.0, endurance + 0.9",
             rating: "epic",
-            stats: { endurance: 0.9, HP: 217 }
+            stats: { endurance: 0.9, HP: 217 },
           },
           "Set Effect (4/7)": {
             name: "Paladin Engeler's Set",
@@ -666,16 +679,17 @@ export function Sarah(Chapter) {
           },
           "Set Effect (7/7)": {
             name: "Paladin Engeler's Set",
-            effect: "Skill: One of the Twelve; Increases all stats by 12% for 7 seconds.",
+            effect:
+              "Skill: One of the Twelve; Increases all stats by 12% for 7 seconds.",
             rating: "epic",
-            stats: { endurance: 0 }
+            stats: { endurance: 0 },
           },
         }}
         notes={
           "2 spell per level, 2 stats per level, Human +1 stat every 10 levels. https://ottotsuma.github.io/images/people/w1.jpg"
         }
       />
-    )
+    );
   } else {
     return (
       <div>
@@ -695,7 +709,7 @@ export function Sarah(Chapter) {
 
         <p>8: Having changed</p>
       </div>
-    )
+    );
   }
 }
 export function Josh(Chapter) {
@@ -711,7 +725,7 @@ export function Josh(Chapter) {
           spells: 0,
           passives: 0,
           "skill points": 92, // from class 1 per level (normal/rare/epic/legendary)
-          "stat points": 194-90-50-50-2-2, // from species 2 per level // 1 per every 10 levels
+          "stat points": 194 - 90 - 50 - 50 - 2 - 2, // from species 2 per level // 1 per every 10 levels
           vitality: 0,
           strength: 50,
           endurance: 0,
@@ -725,14 +739,13 @@ export function Josh(Chapter) {
         // Do the same thing for equipment and titles?
         showTitles={false} // currently does nothing
         equippedTitle="Princess"
-        titles={['Princess']}
+        titles={["Princess"]}
         showSkills={false}
         skills={{
-          "human": [
+          human: [
             // Above is all (I)
           ],
-          assassin: [
-          ],
+          assassin: [],
           conditions: [
             // Negatives
             { name: "Player", level: 1 },
@@ -754,7 +767,7 @@ export function Josh(Chapter) {
             name: ItemList["Tidus Earring"].name,
             effect: ItemList["Tidus Earring"].description,
             rating: ItemList["Tidus Earring"].rating,
-            stats: ItemList["Tidus Earring"].stats[9]
+            stats: ItemList["Tidus Earring"].stats[9],
           },
           ring: ItemList["Rogue's Ring"][9],
           "second ring": ItemList["Black Band"][9],
@@ -763,7 +776,7 @@ export function Josh(Chapter) {
           "2 spell per level, 2 stats per level, Human +1 stat every 10 levels. https://ottotsuma.github.io/images/people/w1.jpg"
         }
       />
-    )
+    );
   } else {
     return (
       <div>
@@ -783,7 +796,7 @@ export function Josh(Chapter) {
 
         <p>8: Having changed</p>
       </div>
-    )
+    );
   }
 }
 

@@ -26,17 +26,19 @@ export const spellList = {
     passive: true,
     1: "Reduces all stats by 1%.",
     90: "Reduces all stats by 90%.",
-    stats: {90:{
-      strengthMultiplier: -0.90,
-      vitalityMultiplier: -0.90,
-      magicMultiplier: -0.90,
-      dexterityMultiplier: -0.90,
-      senseMultiplier: -0.90,
-      enduranceMultiplier: -0.90,
-      willpowerMultiplier: -0.90,
-      HPMultiplier: -0.90,
-      MPMultiplier: -0.90,
-    }}
+    stats: {
+      90: {
+        strengthMultiplier: -0.9,
+        vitalityMultiplier: -0.9,
+        magicMultiplier: -0.9,
+        dexterityMultiplier: -0.9,
+        senseMultiplier: -0.9,
+        enduranceMultiplier: -0.9,
+        willpowerMultiplier: -0.9,
+        HPMultiplier: -0.9,
+        MPMultiplier: -0.9,
+      },
+    },
   },
   Player: {
     note: "Not an NPC.",
@@ -46,8 +48,7 @@ export const spellList = {
     negative: false,
     passive: true,
     1: "Passive all players posses.",
-    stats: [{
-    }]
+    stats: [{}],
   },
   Child: {
     note: "Child = 0 - 12.",
@@ -66,11 +67,13 @@ export const spellList = {
     negative: false,
     passive: true,
     1: "Vitality, Magic, Charisma: +1.",
-    stats: [{
-      vitality: 1,
-      magic: 1,
-      charisma: 1,
-    }]
+    stats: [
+      {
+        vitality: 1,
+        magic: 1,
+        charisma: 1,
+      },
+    ],
   },
   Adult: {
     note: "Adult = 20-39 yrs.",
@@ -207,27 +210,38 @@ export const spellList = {
     3: "Endurance +3",
     4: "Endurance +4",
     5: "Endurance +5",
-    stats: [{
-      endurance: 1,
-    }, {
-      endurance: 2,
-    }, {
-      endurance: 3,
-    }, {
-      endurance: 4,
-    }, {
-      endurance: 5,
-    }, {
-      endurance: 6,
-    }, {
-      endurance: 7,
-    }, {
-      endurance: 8,
-    }, {
-      endurance: 9,
-    }, {
-      endurance: 10,
-    }]
+    stats: [
+      {
+        endurance: 1,
+      },
+      {
+        endurance: 2,
+      },
+      {
+        endurance: 3,
+      },
+      {
+        endurance: 4,
+      },
+      {
+        endurance: 5,
+      },
+      {
+        endurance: 6,
+      },
+      {
+        endurance: 7,
+      },
+      {
+        endurance: 8,
+      },
+      {
+        endurance: 9,
+      },
+      {
+        endurance: 10,
+      },
+    ],
   },
   Haietlik: {
     name: "Haietlik",
@@ -401,27 +415,38 @@ export const spellList = {
     9: "Magic +9",
     10: "Magic +10, mana recovery +10%.",
     classes: ["mage"],
-    stats: [{
-      magic: 1,
-    }, {
-      magic: 2,
-    }, {
-      magic: 3,
-    }, {
-      magic: 4,
-    }, {
-      magic: 5,
-    }, {
-      magic: 6,
-    }, {
-      magic: 7,
-    }, {
-      magic: 8,
-    }, {
-      magic: 9,
-    }, {
-      magic: 10,
-    }]
+    stats: [
+      {
+        magic: 1,
+      },
+      {
+        magic: 2,
+      },
+      {
+        magic: 3,
+      },
+      {
+        magic: 4,
+      },
+      {
+        magic: 5,
+      },
+      {
+        magic: 6,
+      },
+      {
+        magic: 7,
+      },
+      {
+        magic: 8,
+      },
+      {
+        magic: 9,
+      },
+      {
+        magic: 10,
+      },
+    ],
   },
   Strike: {
     name: "Strike",
@@ -598,27 +623,38 @@ export const spellList = {
     8: "+8 Charisma.",
     9: "+9 Charisma.",
     10: "+10 Charisma, I'll do it, even if I don't like it.",
-    stats: [{
-      charisma: 1,
-    },{
-      charisma: 2,
-    },{
-      charisma: 3,
-    },{
-      charisma: 4,
-    },{
-      charisma: 5,
-    },{
-      charisma: 6,
-    },{
-      charisma: 7,
-    },{
-      charisma: 8,
-    },{
-      charisma: 9,
-    },{
-      charisma: 10,
-    },]
+    stats: [
+      {
+        charisma: 1,
+      },
+      {
+        charisma: 2,
+      },
+      {
+        charisma: 3,
+      },
+      {
+        charisma: 4,
+      },
+      {
+        charisma: 5,
+      },
+      {
+        charisma: 6,
+      },
+      {
+        charisma: 7,
+      },
+      {
+        charisma: 8,
+      },
+      {
+        charisma: 9,
+      },
+      {
+        charisma: 10,
+      },
+    ],
   },
   Brave: {
     name: "Brave",
@@ -693,27 +729,38 @@ export const spellList = {
     8: "Vitality +5, chance to resist poisons & diseases, increase to HP regeneration.",
     9: "Vitality +5, chance to resist poisons & diseases, greater HP regeneration.",
     10: "Vitality +5, greater chance to resist poisons & diseases, greater HP regeneration.",
-    stats: [{
-      vitality: 1,
-    },{
-      vitality: 1
-    },{
-      vitality: 2,
-    },{
-      vitality: 3,
-    },{
-      vitality: 3,
-    },{
-      vitality: 4,
-    },{
-      vitality: 4,
-    },{
-      vitality: 5,
-    },{
-      vitality: 5,
-    },{
-      vitality: 5,
-    },]
+    stats: [
+      {
+        vitality: 1,
+      },
+      {
+        vitality: 1,
+      },
+      {
+        vitality: 2,
+      },
+      {
+        vitality: 3,
+      },
+      {
+        vitality: 3,
+      },
+      {
+        vitality: 4,
+      },
+      {
+        vitality: 4,
+      },
+      {
+        vitality: 5,
+      },
+      {
+        vitality: 5,
+      },
+      {
+        vitality: 5,
+      },
+    ],
   },
   Athletic: {
     name: "Athletic",
@@ -742,39 +789,52 @@ export const spellList = {
     8: "Sense +8",
     9: "Sense +9",
     10: "Sense +10, basic traps will cause 0 damage.",
-    stats: [{
-      sense: 1,
-    },{
-      sense: 2,
-    },{
-      sense: 3,
-    },{
-      sense: 4,
-    },{
-      sense: 5,
-    },{
-      sense: 6,
-    },{
-      sense: 7,
-    },{
-      sense: 8,
-    },{
-      sense: 9,
-    },{
-      sense: 10,
-    },]
+    stats: [
+      {
+        sense: 1,
+      },
+      {
+        sense: 2,
+      },
+      {
+        sense: 3,
+      },
+      {
+        sense: 4,
+      },
+      {
+        sense: 5,
+      },
+      {
+        sense: 6,
+      },
+      {
+        sense: 7,
+      },
+      {
+        sense: 8,
+      },
+      {
+        sense: 9,
+      },
+      {
+        sense: 10,
+      },
+    ],
   },
   Quick: {
     name: "Quick",
     passive: true,
     1: "Dexterity +1",
     2: "Dexterity +2",
-    stats: [{
-      dexterity: 1,
-    },
-    {
-      dexterity: 2,
-    },]
+    stats: [
+      {
+        dexterity: 1,
+      },
+      {
+        dexterity: 2,
+      },
+    ],
   },
   "Pure of mind": {
     name: "Pure of mind",
@@ -799,27 +859,38 @@ export const spellList = {
     7: "Magic +7",
     8: "Magic +8",
     9: "Magic +9",
-    stats: [{
-      magic: 1,
-    }, {
-      magic: 2,
-    }, {
-      magic: 3,
-    }, {
-      magic: 4,
-    }, {
-      magic: 5,
-    }, {
-      magic: 6,
-    }, {
-      magic: 7,
-    }, {
-      magic: 8,
-    }, {
-      magic: 9,
-    }, {
-      magic: 10,
-    }]
+    stats: [
+      {
+        magic: 1,
+      },
+      {
+        magic: 2,
+      },
+      {
+        magic: 3,
+      },
+      {
+        magic: 4,
+      },
+      {
+        magic: 5,
+      },
+      {
+        magic: 6,
+      },
+      {
+        magic: 7,
+      },
+      {
+        magic: 8,
+      },
+      {
+        magic: 9,
+      },
+      {
+        magic: 10,
+      },
+    ],
   },
   "Magic Enthusiast": {
     name: "Magical Enthusiast",
@@ -833,135 +904,190 @@ export const spellList = {
     7: "Magic +7",
     8: "Magic +8",
     9: "Magic +9",
-    stats: [{
-      magic: 1,
-    }, {
-      magic: 2,
-    }, {
-      magic: 3,
-    }, {
-      magic: 4,
-    }, {
-      magic: 5,
-    }, {
-      magic: 6,
-    }, {
-      magic: 7,
-    }, {
-      magic: 8,
-    }, {
-      magic: 9,
-    }, {
-      magic: 10,
-    }]
+    stats: [
+      {
+        magic: 1,
+      },
+      {
+        magic: 2,
+      },
+      {
+        magic: 3,
+      },
+      {
+        magic: 4,
+      },
+      {
+        magic: 5,
+      },
+      {
+        magic: 6,
+      },
+      {
+        magic: 7,
+      },
+      {
+        magic: 8,
+      },
+      {
+        magic: 9,
+      },
+      {
+        magic: 10,
+      },
+    ],
   },
   "Arcane Inclination": {
     name: "Arcane Inclination",
     passive: true,
     1: "Magic +1",
     2: "Magic +2",
-    stats: [{
-      magic: 1,
-    }, {
-      magic: 2,
-    }, {
-      magic: 3,
-    }, {
-      magic: 4,
-    }, {
-      magic: 5,
-    }, {
-      magic: 6,
-    }, {
-      magic: 7,
-    }, {
-      magic: 8,
-    }, {
-      magic: 9,
-    }, {
-      magic: 10,
-    }]
+    stats: [
+      {
+        magic: 1,
+      },
+      {
+        magic: 2,
+      },
+      {
+        magic: 3,
+      },
+      {
+        magic: 4,
+      },
+      {
+        magic: 5,
+      },
+      {
+        magic: 6,
+      },
+      {
+        magic: 7,
+      },
+      {
+        magic: 8,
+      },
+      {
+        magic: 9,
+      },
+      {
+        magic: 10,
+      },
+    ],
   },
   "Arcane Tradition Focus": {
     name: "Arcane Tradition Focus",
     passive: true,
     1: "Magic +1",
     2: "Magic +2",
-    stats: [{
-      magic: 1,
-    }, {
-      magic: 2,
-    }, {
-      magic: 3,
-    }, {
-      magic: 4,
-    }, {
-      magic: 5,
-    }, {
-      magic: 6,
-    }, {
-      magic: 7,
-    }, {
-      magic: 8,
-    }, {
-      magic: 9,
-    }, {
-      magic: 10,
-    }]
+    stats: [
+      {
+        magic: 1,
+      },
+      {
+        magic: 2,
+      },
+      {
+        magic: 3,
+      },
+      {
+        magic: 4,
+      },
+      {
+        magic: 5,
+      },
+      {
+        magic: 6,
+      },
+      {
+        magic: 7,
+      },
+      {
+        magic: 8,
+      },
+      {
+        magic: 9,
+      },
+      {
+        magic: 10,
+      },
+    ],
   },
   "Arcane Tradition Prodigy": {
     name: "Arcane Tradition Prodigy",
     passive: true,
     1: "Magic +1",
     2: "Magic +2",
-    stats: [{
-      magic: 1,
-    }, {
-      magic: 2,
-    }, {
-      magic: 3,
-    }, {
-      magic: 4,
-    }, {
-      magic: 5,
-    }, {
-      magic: 6,
-    }, {
-      magic: 7,
-    }, {
-      magic: 8,
-    }, {
-      magic: 9,
-    }, {
-      magic: 10,
-    }]
+    stats: [
+      {
+        magic: 1,
+      },
+      {
+        magic: 2,
+      },
+      {
+        magic: 3,
+      },
+      {
+        magic: 4,
+      },
+      {
+        magic: 5,
+      },
+      {
+        magic: 6,
+      },
+      {
+        magic: 7,
+      },
+      {
+        magic: 8,
+      },
+      {
+        magic: 9,
+      },
+      {
+        magic: 10,
+      },
+    ],
   },
   Astute: {
     name: "Astute",
     passive: true,
     1: "Magic +1",
     2: "Magic +2",
-    stats: [{
-      magic: 1,
-    }, {
-      magic: 2,
-    }, {
-      magic: 3,
-    }, {
-      magic: 4,
-    }, {
-      magic: 5,
-    }, {
-      magic: 6,
-    }, {
-      magic: 7,
-    }, {
-      magic: 8,
-    }, {
-      magic: 9,
-    }, {
-      magic: 10,
-    }]
+    stats: [
+      {
+        magic: 1,
+      },
+      {
+        magic: 2,
+      },
+      {
+        magic: 3,
+      },
+      {
+        magic: 4,
+      },
+      {
+        magic: 5,
+      },
+      {
+        magic: 6,
+      },
+      {
+        magic: 7,
+      },
+      {
+        magic: 8,
+      },
+      {
+        magic: 9,
+      },
+      {
+        magic: 10,
+      },
+    ],
   },
   "Basic God": {
     name: "Basic God",
@@ -2959,48 +3085,59 @@ export const spellList = {
     8: "Hunger level 80%.",
     9: "Hunger level 90%.",
     10: "Hunger level 100%.",
-    stats: [{
-      strength: 1,
-      // strengthMultiplier: 2,
-      // enduranceMultiplier: 2,
-      magic: 1,
-    },{
-      strength: 1,
-      magic: 1,
-      sense: 1,
-    },{
-      strength: 1,
-      magic: 1,
-      sense: 1,
-    },{
-      strength: 1,
-      magic: 1,
-      sense: 1,
-    },{
-      strength: 1,
-      magic: 1,
-      sense: 1,
-    },{
-      strength: 1,
-      magic: 1,
-      sense: 1,
-    },{
-      strength: 1,
-      magic: 1,
-      sense: 1,
-    },{
-      strength: 1,
-      magic: 1,
-      sense: 1,
-    },{
-      strength: 1,
-      magic: 1,
-      sense: 1,
-    },{
-      strength: 1,
-      magic: 1,
-      sense: 1,
-    },]
+    stats: [
+      {
+        strength: 1,
+        // strengthMultiplier: 2,
+        // enduranceMultiplier: 2,
+        magic: 1,
+      },
+      {
+        strength: 1,
+        magic: 1,
+        sense: 1,
+      },
+      {
+        strength: 1,
+        magic: 1,
+        sense: 1,
+      },
+      {
+        strength: 1,
+        magic: 1,
+        sense: 1,
+      },
+      {
+        strength: 1,
+        magic: 1,
+        sense: 1,
+      },
+      {
+        strength: 1,
+        magic: 1,
+        sense: 1,
+      },
+      {
+        strength: 1,
+        magic: 1,
+        sense: 1,
+      },
+      {
+        strength: 1,
+        magic: 1,
+        sense: 1,
+      },
+      {
+        strength: 1,
+        magic: 1,
+        sense: 1,
+      },
+      {
+        strength: 1,
+        magic: 1,
+        sense: 1,
+      },
+    ],
   },
   "Ghoul's Strength": {
     name: "Ghoul's Strength",
@@ -3139,8 +3276,7 @@ export const spellList = {
   "Fire Wrap": {
     name: "Fire Wrap",
     element: "fire",
-    image:
-      "",
+    image: "",
     negative: false,
     passive: false,
     1: "Wraps you in a cyclone of fire, Causing Fire damage to anyone who gets too close to you.",
@@ -3157,8 +3293,7 @@ export const spellList = {
   "Fallen Paladin": {
     name: "Fallen Paladin",
     element: "",
-    image:
-      "",
+    image: "",
     negative: true,
     passive: true,
     1: "A paladin without the support of a God is stripped of faith and unable to use any Paladin skills.",
@@ -3167,9 +3302,14 @@ export const spellList = {
   // Vampiric frenzy - Less hp = more strength
 };
 
-export function InlineSpell ({spellName, level}) {
+export function InlineSpell({ spellName, level }) {
   // console.log(spellList[Object.keys(spellList).find(key => key.toLowerCase() === spellName.toLowerCase())]);
-  return <Inline>{spellName}<SpellSpan>{spellList[spellName][level] || ''}</SpellSpan></Inline>
+  return (
+    <Inline>
+      {spellName}
+      <SpellSpan>{spellList[spellName][level] || ""}</SpellSpan>
+    </Inline>
+  );
 }
 
 // Ghoul, Wight, Halfling, Vampire→Vampire Noble→Vampire Knight, Namanari Hannya <Chunari Hannya> <Honnari Hannya>, Dhampir, Banshee, Draugr→Great Draugr, Blood Fairy, Strigoi,
@@ -3309,9 +3449,9 @@ const SpellSpan = styled.span`
 `;
 
 const Inline = styled.div`
-display: contents;
-font-family: 'monospace';
-&:hover ${SpellSpan} {
-  visibility: visible;
-}
+  display: contents;
+  font-family: "monospace";
+  &:hover ${SpellSpan} {
+    visibility: visible;
+  }
 `;
