@@ -747,51 +747,14 @@ export function Josh(Chapter) {
         showItems={true}
         items={{
           // https://ffxiv.gamerescape.com/wiki/Sky_Pirate%27s_Fending_Set#Hyur%20 / https://ottotsuma.github.io/images/people/9d6e202641a645ff31d6a93f2c589feb.jpg
-          Body: {
-            name: ItemList["Shadow Pirate's Coat"].name,
-            effect: ItemList["Shadow Pirate's Coat"].description,
-            rating: ItemList["Shadow Pirate's Coat"].rating,
-            stats: ItemList["Shadow Pirate's Coat"].stats
-          },
-          Head: {
-            name: ItemList["Featureless Deathwood Mask"].name,
-            effect: ItemList["Featureless Deathwood Mask"].description,
-            rating: ItemList["Featureless Deathwood Mask"].rating,
-            stats: ItemList["Featureless Deathwood Mask"].stats
-          },
-          Hands: 
-            ItemList["Otari Kote"]
-          ,
-          Feet: {
-            name: ItemList["Leather Pirate Boots"].name,
-            effect: ItemList["Leather Pirate Boots"].description,
-            rating: ItemList["Leather Pirate Boots"].rating,
-            stats: ItemList["Leather Pirate Boots"].stats
-          },
-          Weapon: {
-            name: "P",
-            effect: "",
-            rating: "rare",
-            stats: { strength: 0 }
-          },
-          "Off hand": {
-            name: "P",
-            effect: "",
-            rating: "rare",
-            stats: { endurance: 0 }
-          },
-          "Set Effect (3/7)": {
-            name: "P",
-            effect: "",
-            rating: "rare",
-            stats: { endurance: 0, HP: 2 }
-          },
-          bracelet: {
-            name: ItemList["Black Braid Bracelet"].name,
-            effect: ItemList["Black Braid Bracelet"].description,
-            rating: ItemList["Black Braid Bracelet"].rating,
-            stats: ItemList["Black Braid Bracelet"].stats
-          },
+          Body: ItemList["Shadow Pirate's Coat"],
+          Head: ItemList["Featureless Deathwood Mask"],
+          Hands: ItemList["Otari Kote"],
+          Feet: ItemList["Leather Pirate Boots"],
+          Weapon: ItemList["Glide Moroha"],
+          "Off hand": ItemList["Gale Moroha"],
+          "Set Effect": ItemList["Glide & Gale (2/2)"],
+          bracelet: ItemList["Black Braid Bracelet"],
           earing: {
             name: ItemList["Tidus Earring"].name,
             effect: ItemList["Tidus Earring"].description,

@@ -618,16 +618,35 @@ export const ItemList = {
     note: '',
     type: 'gloves'
   },
-  "Otari ": {
-    name: "Otari ",
-    description: '',
+  "Glide Moroha": {
+    name: "Glide Moroha",
+    description: 'Deals +5 ice damage. Ice skills cost 5% less mana, other skills cost 2% less mana.',
     image: '',
     rating: "rare",
     stats: {
     },
     effect: '', // Price since it was shown In a shop.
-    note: '',
+    note: 'Moroha is the type of blade. Ice.',
     type: 'dagger'
+  },
+  "Gale Moroha": {
+    name: "Gale Moroha",
+    description: 'Deals +1 wind damage. Attack speed starts at 10% of user maximum speed. Skill cool downs are reduced 3%.',
+    image: '',
+    rating: "rare",
+    stats: {
+    },
+    effect: '', // Price since it was shown In a shop.
+    note: 'Moroha is the type of blade. Wind.',
+    type: 'dagger'
+  },
+  "Glide & Gale (2/2)": {
+    name: "Set Effect:",
+    description: "Skill: Biting Wind (Lowest Item Enchant Level).",
+    rating: "rare",
+    stats: {},
+    note: '',
+    type: 'set effect',
   },
 }
 // ##### Types: 

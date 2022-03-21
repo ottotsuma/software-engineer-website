@@ -356,8 +356,8 @@ the classes have to counter each other in a kind of card game style were nothing
 
 ### Stats:
 <li>Vitality</li> Increases the recovery rate of MP and HP. Total HP. Basic resistances.
-<li>Endurance</li> Increases resistance to physical damage, reduces physical damage taken (%)
-<li>Willpower</li> Increases resistance to magic, reduces magic damage taken (%)
+<li>Endurance</li> Increases resistance to physical damage, reduces physical damage taken (%), increases stamina.
+<li>Willpower</li> Increases resistance to magic, reduces magic damage taken (%), resistance to mental attacks.
 
 <li>Magic</li> increases Magical Attack Power and maximum MP.
 <li>Strength</li> Increased Physical Attack Power and the weight behind each attack. Minor: Increased storage capacity. Reduce damage taken during a successful block. Increased resistance to falling. Increased movement speed.
