@@ -509,12 +509,7 @@ export function Noah(Chapter) {
             rating: ItemList["Meroyri Xiphos"].rating,
             stats: ItemList["Meroyri Xiphos"].stats
           },
-          ring: {
-            name: ItemList["Rogue's Ring"].name,
-            effect: ItemList["Rogue's Ring"].description[3],
-            rating: ItemList["Rogue's Ring"].rating,
-            stats: ItemList["Rogue's Ring"].stats[3]
-          },
+          ring: ItemList["Rogue's Ring"][3],
         }}
         notes={
           "2 spell per level, 2 stats per level, Human +1 stat every 10 levels."
@@ -761,12 +756,7 @@ export function Josh(Chapter) {
             rating: ItemList["Tidus Earring"].rating,
             stats: ItemList["Tidus Earring"].stats[9]
           },
-          ring: {
-            name: ItemList["Rogue's Ring"].name,
-            effect: ItemList["Rogue's Ring"].description[9],
-            rating: ItemList["Rogue's Ring"].rating,
-            stats: ItemList["Rogue's Ring"].stats[9]
-          },
+          ring: ItemList["Rogue's Ring"][9],
           "second ring": ItemList["Black Band"][9],
         }}
         notes={

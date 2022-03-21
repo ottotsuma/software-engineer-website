@@ -397,13 +397,33 @@ export const ItemList = {
   },
   "Rogue's Ring": {
     name: "Rogue's Ring",
-    description: { 1: 'Critical hit rate: +1, Dexterity: +1.', 3: 'Critical hit rate: +3, Dexterity: +3.', 9: 'Critical hit rate: +9, Dexterity: +9.' },
+    description: 'Critical hit rate: +1, Dexterity: +1.',
     image: 'https://ffxiv.gamerescape.com/w/images/thumb/0/05/Model-Rogue%27s_Ring.png/450px-Model-Rogue%27s_Ring.png',
     rating: "normal",
-    stats: { 3: { dexterity: 3 }, 9: { dexterity: 9 }, },
+    stats: { dexterity: 1 },
     effect: '', // Price since it was shown In a shop.
     note: 'https://ffxiv.gamerescape.com/wiki/Category:Ring/iLevel_30-39',
-    type: 'ring'
+    type: 'ring',
+    3: {
+      name: "Rogue's Ring +3",
+      description: 'Critical hit rate: +3, Dexterity: +3.',
+      image: 'https://ffxiv.gamerescape.com/w/images/thumb/0/05/Model-Rogue%27s_Ring.png/450px-Model-Rogue%27s_Ring.png',
+      rating: "normal",
+      stats: {  dexterity: 3 },
+      effect: '', // Price since it was shown In a shop.
+      note: 'https://ffxiv.gamerescape.com/wiki/Category:Ring/iLevel_30-39',
+      type: 'ring'
+    },
+    9: {
+      name: "Rogue's Ring +9",
+      description: 'Critical hit rate: +9, Dexterity: +9.',
+      image: 'https://ffxiv.gamerescape.com/w/images/thumb/0/05/Model-Rogue%27s_Ring.png/450px-Model-Rogue%27s_Ring.png',
+      rating: "normal",
+      stats: { dexterity: 9 },
+      effect: '', // Price since it was shown In a shop.
+      note: 'https://ffxiv.gamerescape.com/wiki/Category:Ring/iLevel_30-39',
+      type: 'ring'
+    }
   },
   "Dark Elf's Scimitar": {
     name: "Dark Elf's Scimitar",
