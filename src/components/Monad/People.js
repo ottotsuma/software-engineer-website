@@ -767,12 +767,7 @@ export function Josh(Chapter) {
             rating: ItemList["Rogue's Ring"].rating,
             stats: ItemList["Rogue's Ring"].stats[9]
           },
-          "second ring": {
-            name: ItemList["Black Band"].name,
-            effect: ItemList["Black Band"].description[9],
-            rating: ItemList["Black Band"].rating,
-            stats: ItemList["Black Band"].stats[9]
-          },
+          "second ring": ItemList["Black Band"][9],
         }}
         notes={
           "2 spell per level, 2 stats per level, Human +1 stat every 10 levels. https://ottotsuma.github.io/images/people/w1.jpg"

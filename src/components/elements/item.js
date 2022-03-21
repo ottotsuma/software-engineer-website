@@ -457,18 +457,23 @@ export const ItemList = {
   },
   "Black Band": {
     name: "Black Band",
-    description: {1:'Dexterity: +1.', 9:'Dexterity: +1.'},
+    description: 'Dexterity: +1.',
     image: '',
     rating: "normal",
-    stats: {
-      1: { dexterity: 1 },
-      5: { dexterity: 5 },
-      9: { dexterity: 9 },
-      10: { dexterity: 10 }
-    },
+    stats: {dexterity: 1},
     effect: '', // Price since it was shown In a shop.
     note: '',
-    type: 'ring'
+    type: 'ring',
+    9: {
+      name: "Black Band +9",
+      description: 'Dexterity: +9.',
+      image: '',
+      rating: "normal",
+      stats: {dexterity: 9},
+      effect: '', // Price since it was shown In a shop.
+      note: '',
+      type: 'ring'
+    }
   },
   "Tidus Earring": {
     name: "Tidus Earring",
