@@ -457,7 +457,7 @@ export const ItemList = {
   },
   "Shadow Pirate's Coat": {
     name: "Shadow Pirate's Coat",
-    description: '',
+    description: 'Hiding in shadows is 40% more effective. +150 water resistance. 2% water resistance.',
     image: '',
     rating: "rare",
     stats: { strength: 0 },
@@ -467,10 +467,10 @@ export const ItemList = {
   },
   "Leather Pirate Boots": {
     name: "Leather Pirate Boots",
-    description: '',
+    description: '+1 Endurance.',
     image: '',
     rating: "junk",
-    stats: { strength: 0 },
+    stats: { endurance: 1 },
     effect: '', // Price since it was shown In a shop.
     note: '',
     type: 'boots'
@@ -509,12 +509,12 @@ export const ItemList = {
   },
   "Featureless Deathwood Mask": {
     name: "Featureless Deathwood Mask",
-    description: '22',
+    description: 'Hides the users stats, name and other details.',
     image: '',
     rating: "rare",
     stats: {
     },
-    effect: '11', // Price since it was shown In a shop.
+    effect: '', // Price since it was shown In a shop.
     note: '',
     type: 'hat'
   },
@@ -634,10 +634,11 @@ export const ItemList = {
   },
   "Otari Kote": {
     name: "Otari Kote",
-    description: '',
+    description: 'Endurance +1, Skill: Powdered Snow Defense (Passive).',
     image: '',
     rating: "normal",
     stats: {
+      endurance: 1
     },
     effect: '', // Price since it was shown In a shop.
     note: '',
