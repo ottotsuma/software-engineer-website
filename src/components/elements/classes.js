@@ -247,8 +247,8 @@ export const classList = {
   },
   King: {
     stats: {
-      HP: "*1.05",
-      MP: "*1.03",
+      HP: "*2",
+      MP: "*1.5",
       Vitality: "*1.10",
       Endurance: "*1.10",
       Willpower: "*1.10",
@@ -259,7 +259,7 @@ export const classList = {
       Charisma: "*1.10",
     },
     team: '',
-    self: 'All Stats + 10%, HP + 5%, MP + 3%, movement speed -10%.',
+    self: 'All Stats + 10%, HP + 100%, MP + 50%, movement speed -10%.',
     image: 'https://ottotsuma.github.io/images/people/king.jpg',
     notes: 'Born to rule.',
     tier: 'legendary'
