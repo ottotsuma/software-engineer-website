@@ -18,7 +18,29 @@ function _try(func, fallbackValue) {
 // 5) [Lith_eru] - (Large new continent, sand world) [the location of the immortals war, their bodies made the desert, their power changed to mana and made the first humans]
 // 6) [Charia] (New world) Large single content (Story)
 
-export const nationList = {
+// Todtenwei - 272082858
+// Savigal - 640470293
+
+export const locationsList = {
+  Steinauhau: {
+    notes: 'map seed: 5628570730133',
+    location: 'Alden',
+    Bathhouse: false,
+    forge: true,
+    armory: false,
+    Stores: true,
+    Ministries: false,
+    "Skill instructors": false,
+    "Alliance teleport": false,
+    "Auction house": false,
+    "Town teleport": false,
+    "Assembly hall": false,
+    "Citizen registration": false,
+    "bars": false,
+    "Dueling": false,
+    "Arena": false,
+    "Castle wars": false,
+  },
   Alden: {
     language: 'german 🎄',
     name: 'Alden',
@@ -128,14 +150,14 @@ export const nationList = {
 // Food - Imports  
 // Economy type -
 
-export default function NationDisplay(Nation) {
-  const Data = _try(() => nationList[Nation])
+export default function LocationsDisplay(Locations) {
+  const Data = _try(() => locationsList[Locations])
   if(Data) {
     return (
       <BackgroundWrap>
       <Wrap CountryColor={monadColors[Data.color] || ''}>
-        <Name>{Nation}</Name>
-        {Data.map ? <Display src={Data.map} alt={Nation} /> : <></>}
+        <Name>{Locations}</Name>
+        {Data.map ? <Display src={Data.map} alt={Locations} /> : <></>}
         <Info>{Data["Unique Unit"] ? Data["Unique Unit"] : ''}</Info>
       </Wrap>
       </BackgroundWrap>
