@@ -25,12 +25,18 @@ export const locationsList = {
   Steinauhau: {
     notes: 'map seed: 5628570730133',
     location: 'Alden',
+    population: '6901',
+    Temperature: '15',
+    Elevation: 18,
+    Type: 'Naval',
+    Culture: 'German',
+
     buildings: {
       "Defensive Structures": {
-        "Castle": false,
+        "Castle": true,
         "Archer Towers": false,
         "Watch Tower": false,
-        Walls: false,
+        Walls: true,
         Motte: false,
         "Killing fields": false,
         Keep: false,
@@ -41,7 +47,7 @@ export const locationsList = {
         "Alliance teleport": false,
         "Town teleport": false,
         "Airport": false,
-        "Harbour": false,
+        "Harbour": true,
         "Stable": false,
         "Wagon Facilities": false,
       },
@@ -53,12 +59,17 @@ export const locationsList = {
         Stores: false,
         "Auction house": false,
         "Arena": false,
+        "Market Place": true,
+        "Trade Center": true,
       },
       "Government Buildings": {
         "Skill Instructors": false,
         "City Hall": false,
         "Assembly hall": false,
       },
+      "Misc Buildings": {
+        "shanty town": true,
+      }
     }
   },
   Alden: {
