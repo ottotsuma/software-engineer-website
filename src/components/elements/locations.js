@@ -9,19 +9,52 @@ function _try(func, fallbackValue) {
       return fallbackValue;
     }
   }
-
-//   Migration of humans, Starting from the core.
-// 1) [Meroyri] - Core + Wood-Elves (Europe) + Tundra 
-// 2) [Lóng_zhī_guó] - (China) + Tundra 
-// 3) [Rayndr] - (Bridge, Al Bhed) - Safer, route.
-// 4) かざんとう -> あばんそふ [Abansofu]  (Xuanzang / Journey to the West) - (Indians) - Large single continent. (Deep water)
-// 5) [Lith_eru] - (Large new continent, sand world) [the location of the immortals war, their bodies made the desert, their power changed to mana and made the first humans]
-// 6) [Charia] (New world) Large single content (Story)
-
 // Todtenwei - 272082858
 // Savigal - 640470293
 
 export const locationsList = {
+  Meroyri: {
+    name:'Meroyri',
+    location:'Old world',
+    DLC: 1,
+    meaning: '',
+  },
+  Lóng_zhī_guó: {
+    name:'Lóng zhī guó',
+    location:'Old East',
+    DLC: 2,
+    meaning: 'Land of dragons',
+  },
+  Rayndr: {
+    name:'Rayndr',
+    location:'Middle Bridge',
+    DLC: 3,
+    meaning: 'Hearth',
+  },
+  Abansofu: {
+    name:'Abansofu',
+    notes: 'Bottom Right, Below; Lóng_zhī_guó. Large single continent, Main Quest; Xuanzang / Journey to the West.',
+    location:'Bottom Right.',
+    DLC: 4,
+    meaning: 'High island (火山島)',
+
+  },
+  Lith_eru: {
+    name:'Lith eru',
+    notes: '(Large new continent, sand world) [the location of the immortals war, their bodies made the desert, their power changed to mana and made the first humans]',
+    location:'South.',
+    DLC: 5,
+    meaning: 'Lith = ash, eru = desert',
+
+  },
+  Charia: {
+    name:'Charia',
+    notes: '',
+    location:'West',
+    DLC: 6,
+    meaning: '',
+
+  },
   Steinauhau: {
     notes: 'map seed: 5628570730133',
     location: 'Alden',
@@ -30,7 +63,7 @@ export const locationsList = {
     Elevation: 18,
     Type: 'Naval',
     Culture: 'German',
-
+    Trade: true,
     buildings: {
       "Defensive Structures": {
         "Castle": true,
@@ -60,7 +93,6 @@ export const locationsList = {
         "Auction house": false,
         "Arena": false,
         "Market Place": true,
-        "Trade Center": true,
       },
       "Government Buildings": {
         "Skill Instructors": false,
