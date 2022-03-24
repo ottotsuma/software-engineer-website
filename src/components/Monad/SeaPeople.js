@@ -11,7 +11,11 @@ import Stats from "./../elements/stats";
 import Spells from "./../elements/spells";
 import Blood from "./../../assets/Blood.jpg";
 import { Sarah, Josh, Juan, Noah } from "./CharacterFonts";
-import { Noah as NoahStats, Sarah as SarahStats, Josh as JoshStats } from "./People";
+import {
+  Noah as NoahStats,
+  Sarah as SarahStats,
+  Josh as JoshStats,
+} from "./People";
 
 export const Shine = styled.p`
   font-size: xxx-large;
@@ -2375,6 +2379,11 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         here. Avoid Juan if you can, he's a little.. Pushy, about joining the
         church." Sarah warned me, then I took my leave.
       </Sarah>
+    </Content>
+  ),
+  10: (
+    <Content style={{ overflowWrap: "anywhere" }}>
+      <p>Weildengen</p>
       <Josh></Josh>
       {JoshStats(1)}
       {SarahStats(9)}
@@ -2413,11 +2422,6 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         those who killed the right people.
       </p>
       {NoahStats(9)}
-    </Content>
-  ),
-  10: (
-    <Content style={{ overflowWrap: "anywhere" }}>
-      <p>Chapter 10</p>
     </Content>
   ),
   11: (
