@@ -257,7 +257,7 @@ function Home(props) {
             <Linkey>
               <LinkImage
                 onError={imageError}
-                src="https://image.flaticon.com/icons/png/512/25/25231.png"
+                src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
                 alt=" "
               />
               <AStyled href="https://github.com/ottotsuma" target="_blank">

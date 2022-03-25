@@ -193,7 +193,7 @@ export function myFunction() {
 
 export default function Monad(params) {
   const [darkMode, setDarkMode] = useState(true);
-  const [sizeState, setSizeState] = useState('18px');
+  const [sizeState, setSizeState] = useState('24px');
   function updateSizeState(size) {
     console.log(size)
     setSizeState(size);
