@@ -123,6 +123,31 @@ export const HitoriStory = {
         good, that's when they realised what kind of abilities he gained." Hide
         explained.
       </p>
+      <p>
+        "Oh... How is he even still alive? If he has no fighting abilities, why
+        does he even come into dungeons? Since he entered so many years ago with
+        the strength of an unskilled, it wouldn't make sense for him to leave
+        there alive every time, since even some with good abilities can't..."
+        Utano was shocked.
+      </p>
+      <p>
+        "Nobody knows... Some say he only hides when he enters the dungeon,
+        others say he keeps giving support from afar. Either way he's just going
+        to be a burden on us." Hide said.
+      </p>
+      <p>
+        Utano's shoulders slumped down after hearing what Hide had said. I tried
+        to not listen in, but they were in the next row, they could of moved.
+        The teenagers began betting on who would kill more monsters. Some of the
+        adults talked about how much money they would get from this dungeon, and
+        some even ridiculed me out loud, saying how useless I was.
+      </p>
+      <p>
+        I tried my best not to pay attention to any of this. I opened my skills
+        menu and focused on then new skill I had unlocked but had not used yet,
+        a part of me was hoping I would never have to use it.
+      </p>
+
       {/* Fire bird boy, revives on death. */}
     </Content>
   ),
