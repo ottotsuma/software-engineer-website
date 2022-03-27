@@ -135,18 +135,18 @@ export const HitoriStory = {
         others say he keeps giving support from afar. Either way he's just going
         to be a burden on us." Hide said.
       </p>
-      <p>
+      <Hitori>
         Utano's shoulders slumped down after hearing what Hide had said. I tried
         to not listen in, but they were in the next row, they could of moved.
         The teenagers began betting on who would kill more monsters. Some of the
         adults talked about how much money they would get from this dungeon, and
         some even ridiculed me out loud, saying how useless I was.
-      </p>
-      <p>
+      </Hitori>
+      <Hitori>
         I tried my best not to pay attention to any of this. I opened my skills
         menu and focused on then new skill I had unlocked but had not used yet,
         a part of me was hoping I would never have to use it.
-      </p>
+      </Hitori>
 
       {/* Fire bird boy, revives on death. */}
     </Content>
