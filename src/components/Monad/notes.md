@@ -788,6 +788,8 @@ The enemy may have the Moon People on their side, but we have lovely hats! And t
 
 ### People:
 
+Hitori火鳥 - fire bird
+
 <p>Ralsan is my name,
 this is Tisiel" A girl imperial name,(huonoia)
 "Shrorlei Crerlass" dwarven name

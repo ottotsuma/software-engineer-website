@@ -8,6 +8,8 @@ import styled from "styled-components";
   // font-family: 'Aladin', cursive;
   // font-family: 'Sofia', cursive;
   // font-family: "Yusei Magic", sans-serif;
+  export const Hitori = styled.p`
+  `;
   export const System = styled.p`
   font-family: 'Gugi', cursive;
   `;
