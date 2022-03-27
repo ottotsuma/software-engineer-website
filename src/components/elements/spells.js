@@ -37,6 +37,7 @@ export const spellList = {
         willpowerMultiplier: -0.9,
         HPMultiplier: -0.9,
         MPMultiplier: -0.9,
+        // level: '*0.1'
       },
     },
   },
