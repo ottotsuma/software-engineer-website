@@ -686,7 +686,7 @@ function Intro(props) {
       </Kaja>
       <Chu>"Exactly my thoughts." He replied.</Chu>
       <Kaja>
-
+        
       </Kaja>
       {KajaStats(35)}
       {/* Chu-gong */}
