@@ -209,15 +209,18 @@ export const HitoriStory = {
         The adults, on the other hand, started to exchange some information and decide tactics. In the end, the woman with the one eye, was determined to be the leader of the group. When almost everything was decided, she looked at me and commented, "You're not as hot headed as the others."
       </Hitori>
       <Hitori>
-
+        Some adults looked at him surprised, maybe knowing how weak I was, while others looked at him approving the decision. I knew what she meant, since this was not the first time we were doing a dungeon together. 
+      </Hitori>
+      <Hitori>
+        While many thought that I was only afraid of monsters and didn't have the courage to do anything, others with more insightful vision realized countless times that I was never caught in a trap and had several times given valuable information during the raid. That is, I knew much more about the dungeon I invaded than most normal people.
+      </Hitori>
+      <Hitori>
+        While most students spent time reading up on their class and skills. I could not. There was no book about my class, no guide for which skills to pick and combine; so instead I spent that time reading up on the next dungeon I would be sent to. The monsters found inside, the layout and the random factors that have occurred within. Since I had no guide to my skills for survival, I had to survive using my knowledge of the dungeon.
+      </Hitori>
+      <Hitori>
+          Looking back at the one-eyed woman, I calmly replied. "This dungeon is the home of the King of Rats. Inside there is a huge maze of tunnels, with rats the size of ponies roaming within. Most probably, the overly confident teenagers will end up walking around aimlessly inside. Since the rats' sense of smell is very acute, we have practically gained an incredible number of 7 lures to use. Honestly, for me, we can use those 7 to attract as many rats as possible and end their numbers little by little, since if we go to fight the Rat King with a lot of rats still living, when he goes into berserk mode we will be killed."
       </Hitori>
 {/* Farming the resources from the dungeons by sending people in over and over. */}
-
-Some adults looked at him surprised, knowing how weak Noah was, while others looked at him approving the decision he took when asking Noah's opinion.
-
-Noah knew what he meant, since this was not the first time the two were going to a Fortress together. While many thought that Noah was only afraid of monsters and didn't have the courage to do anything, others with more insightful vision realized countless times that Noah was never caught in a trap and had several times given valuable information during the invasion. That is, he knew much more about the fortresses he invaded than most normal people.
-
-Obviously, the man with the scar was the second type of person. Looking at him calmly, Noah answered, "This, as many know, is the Fortress of the King of Rats. Inside that portal there is practically a huge maze with the appearance of a sewer, with rats the size of motorcycles living within. Most probably, the retards... teenagers will end up walking around aimlessly inside. Since the rats' sense of smell is very acute inside the sewer, we have practically gained an incredible number of 7 lures to use. Honestly, for me, we can use those 7 to attract as many rats as possible and end their numbers little by little, since if we go to fight the Rat King with a lot of rats still living, when he goes into berserk mode we will be killed."
 
 Many who had never heard Noah speak raised an eyebrow in amazement. Really, what he said made sense. Some had proposed the idea to go straight to the chief of the fortress, but remembering that this chief had a berserk mode, they could only abandon the idea after hearing what Noah said. With a nod, the man with the scar confirmed that Noah's plan was the best for the group and so they also entered the portal.
 
