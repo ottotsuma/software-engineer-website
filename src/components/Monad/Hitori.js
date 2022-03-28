@@ -15,6 +15,7 @@ import {
   Sarah as SarahStats,
   Josh as JoshStats,
 } from "./People";
+import SpellCards from "./SpellCards";
 
 export const Shine = styled.p`
   font-size: xxx-large;
@@ -147,7 +148,19 @@ export const HitoriStory = {
         menu and focused on then new skill I had unlocked but had not used yet,
         a part of me was hoping I would never have to use it.
       </Hitori>
+      <div>{SpellCards([["Rebirth", 1]])}</div>
+      {/* <Spells
+        spells={[{ name: "Rebirth", level: 1 }]}
+        type={"fighter"}
+      /> */}
+      {/* Fire bird boy, revives on death. */}
+    </Content>
+  ),
+  1: (
+    <Content style={{ overflowWrap: "anywhere" }}>
+      <Hitori>
 
+      </Hitori>
       {/* Fire bird boy, revives on death. */}
     </Content>
   ),
