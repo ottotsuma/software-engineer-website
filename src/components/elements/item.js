@@ -697,6 +697,60 @@ export const ItemList = {
     note: "",
     type: "set effect",
   },
+  "Niyosho Gakuran": {
+    name: "Niyosho Gakuran",
+    description: "The male school uniform of Niyosho.",
+    rating: "junk",
+    stats: {},
+    note: "gakuran (学ラン)",
+    type: "armor",
+  },
+  "Niyosho Hakama": {
+    name: "Niyosho Hakama",
+    description: "The school uniform of Niyosho.",
+    rating: "junk",
+    stats: {},
+    note: "Hakama",
+    type: "armor",
+  },
+  "Otto's Leaky Wand": {
+    name: "Otto's Leaky Wand",
+    description: "Can only be used by Otto. Command +1, Command over plant's +4.",
+    rating: "normal",
+    stats: {},
+    note: "",
+    type: "wand",
+  },
+  "Jokoto Wakizashi": {
+    name: "Jokoto Wakizashi",
+    description: "A 55cm length short sword. This sword was made long ago, it is very worn.",
+    rating: "junk",
+    stats: {},
+    note: "Jokotō (ancient swords, until around A.D. 900), https://en.wikipedia.org/wiki/Wakizashi",
+    type: "wand",
+  }, 
+  // Originally students just wore standard everyday clothes to school; kimono for female students, with hakama for male students. During the Meiji period, students began to wear uniforms modelled after Western dress.[2]
+  //  seifuku (制服).The sailor fuku (セーラー服, sērā fuku) (lit. 'sailor outfit') is a common style of uniform worn by female middle school students, traditionally by high school students, and occasionally, elementary school students. It was introduced as a school uniform in 1920 in Heian Jogakuin (平安女学院)[10] and 1921 by the principal of Fukuoka Jo Gakuin University (福岡女学院),[11] Elizabeth Lee. It was modeled after the uniform used by the British Royal Navy at the time, which Lee had experienced as an exchange student in the United Kingdom.
+
+//   The following are types of Japanese swords:
+
+// Tsurugi/Ken (剣, "sword"): A straight two edged sword that was mainly produced prior to the 10th century. Before the 10th century, they completely disappeared as weapons and came to be made only as offerings to Shinto shrines and Buddhist temples.
+// Chokutō (直刀, "straight sword"): A straight single edged sword that was mainly produced prior to the 10th century. Since the 10th century, they disappeared as weapons and came to be made only as offerings to Shinto shrines and Buddhist temples.
+// Tachi (太刀, "long sword"): A sword that is generally longer and more curved than the later katana, with curvature often centered from the middle or towards the tang, and often including the tang. Tachi were worn suspended, with the edge downward. The tachi was in vogue before the 15th century.
+// Kodachi (小太刀, "small Tachi"): A shorter version of the tachi, but with similar mounts and intended use, mostly found in the 13th century or earlier.
+// Ōdachi (大太刀, "big Tachi")/Nodachi (野太刀, "field Tachi"): Very large tachi, some in excess of 90 cm, and usually a blade of the late 14th century.
+// Nagamaki (長巻, "long wrapping"): A sword with an exceptionally long handle, usually about as long as the blade. The name refers to the length of the handle wrapping.[1]
+// Katana (刀, "sword"): A sword with a curved blade longer than 60 cm (there is no upper length limit but generally they are shorter than 90 cm), worn with the edge upwards in the sash. It was developed from sasuga, a kind of tantō, around the 14th century, and became the mainstream replacing tachi from the 15th century.
+// Wakizashi (脇差, "side inserted [sword]"): A general term for a sword between one and two shaku long (30 cm and 60 cm in modern measurement), predominantly made after 1600. Generally it is the short blade that accompanies a katana in the traditional samurai daisho pairing of swords, but may be worn by classes other than the samurai as a single blade, also worn edge up as the katana. The name derives from the way the sword would be stuck at one's side through the obi (sash/belt).[8]
+// Tantō (短刀, "short blade"): A sword with a blade shorter than 30 cm. Tantō is generally classified as a sword, but its usage is the same as that of a knife. Usually one-edged, but some were double-edged, though asymmetrical.
+// There are bladed weapons made in the same traditional manner as Japanese swords, which are not swords, but which are still Japanese sword (nihontō) (as "tō" means "blade", rather than specifically "sword"):
+
+// Naginata (なぎなた, 薙刀): A polearm with a curved single-edged blade. Naginata mounts consist of a long wooden pole, different from a nagamaki mount, which is shorter and wrapped.
+// Yari (槍, "spear"): A spear, or spear-like polearm. Yari have various blade forms, from a simple double edged and flat blade, to a triangular cross section double edged blade, to those with a symmetric cross-piece (jumonji-yari) or those with an asymmetric cross piece. The main blade is symmetric and straight unlike a naginata, and usually smaller but can be as large or bigger than some naginata blades.
+// Other edged weapons or tools that are made using the same methods as Japanese swords:
+
+// Arrowheads for war, yajiri (or yanone).
+// Kogatana (小刀, "small blade"): An accessory or utility knife, sometimes found mounted in a pocket on the side of the scabbard of a sword. A typical blade is about 10 cm long and 1 cm wide, and is made using the same techniques as the larger sword blades. Also referred to as a "Kozuka" (小柄), which literally means 'small handle', but this terminology can also refer to the handle and the blade together. In entertainment media, the kogatana is sometimes shown as a throwing weapon, but its real purpose was the same as a 'pocket knife' in the West.[9]
 };
 // ##### Types:
 // ###### Hat/Crown:

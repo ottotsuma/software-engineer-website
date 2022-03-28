@@ -826,8 +826,8 @@ export function Hitori(Chapter) {
         // Makes skills an object of skill types 'human' 'mage' and they be the arrays.
         // Do the same thing for equipment and titles?
         showTitles={false} // currently does nothing
-        equippedTitle="Princess"
-        titles={["Princess"]}
+        equippedTitle="Student"
+        titles={["Student"]}
         showSkills={false}
         skills={{
           human: [
@@ -842,11 +842,8 @@ export function Hitori(Chapter) {
         }}
         showItems={true}
         items={{
-          Body: ItemList["Shadow Pirate's Coat"],
-          Head: ItemList["Featureless Deathwood Mask"],
-          Hands: ItemList["Otari Kote"],
-          Feet: ItemList["Leather Pirate Boots"],
-          Weapon: ItemList["Glide Moroha"],
+          Body: ItemList["Niyosho Hakama"],
+          Weapon: ItemList["Jokoto Wakizashi"],
         }}
         notes={
           "2 spell per level, 2 stats per level, Human +1 stat every 10 levels. https://ottotsuma.github.io/images/people/w1.jpg"

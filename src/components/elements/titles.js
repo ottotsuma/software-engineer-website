@@ -23,6 +23,14 @@ export const titlesList = {
         },
         description: 'Joined a magic academy: Magic +1.'
     },
+    'Student': {
+        name: 'Student',
+        condition: 'Become a student.',
+        stats: {
+            charisma: 1
+        },
+        description: 'Become a student: Charisma +1.'
+    },
     'Academy Graduate': {
         name: 'Academy Graduate',
         condition: 'Graduate from a magic academy',
