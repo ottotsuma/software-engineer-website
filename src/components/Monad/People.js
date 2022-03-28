@@ -806,14 +806,14 @@ export function Hitori(Chapter) {
         type={"description"}
         stats={{
           name: "Hitori",
-          level: 2,
+          level: 1,
           rank: 'F',
           class: "Phoenix",
           species: "human",
           skills: 1,
           passives: 0,
-          "skill points": 2-1, // from class 1 per level (normal/rare/epic/legendary)
-          "stat points": 5, // from species 2 per level // 1 per every 10 levels
+          "skill points": 1-1, // from class 1 per level (normal/rare/epic/legendary)
+          "stat points": 3, // from species 2 per level // 1 per every 10 levels
           vitality: 0,
           strength: 0,
           endurance: 0,

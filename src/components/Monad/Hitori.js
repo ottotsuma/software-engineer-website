@@ -199,6 +199,56 @@ export const HitoriStory = {
         need. If I could at least have an ability that caused some damage I
         could be re-evaluated as a low rank F instead of a useless rank F.
       </Hitori>
+      <Hitori>
+        The ride trundled on until we arrived at the dungeon. The other teenagers were the first to run off the bus, the adults were far less willing. The dungeon, this dungeon you could smell before you saw it. It was a sewages system from a previous civilization. The entrance was a man sized hole in the ground. Standing near by was a soldier with a list in his hand.
+      </Hitori>
+      <Hitori>
+          
+      </Hitori>
+
+"Great, only one person didn't come. He probably died..." The agent told himself while counting everyone who was entering the portal. One by one he looked at the faces of the Blesseds and marked on the tablet who would enter.
+
+After everyone stored their belongings in the closet assigned to them, the agent spoke, "Great, you'll be a team of 15 people. The organization of the team will be decided by yourselves; I have nothing to do with it. As you have already signed the affidavit that we, the government, have no involvement in the possible case of your death, I wish you luck. The reward for the completion of the Fortress will obviously be given upon conclusion. The portal is already open, so you can enter as soon as you want".
+
+
+When the agent finished speaking, the teen named Harry already started walking towards the portal, completely ignoring the existence of others. Apparently this was already something normal, since right after he took the first step, the other 6 teenagers followed him entering the portal also, while ignoring the adults and Noah.
+
+The adults, on the other hand, started to exchange some information and decide tactics. In the end, the man with the scar, the Blessed Rank D, was determined to be the leader of the group. When almost everything was decided, he looked at Noah and commented, "What do you think?"
+
+Some adults looked at him surprised, knowing how weak Noah was, while others looked at him approving the decision he took when asking Noah's opinion.
+
+Noah knew what he meant, since this was not the first time the two were going to a Fortress together. While many thought that Noah was only afraid of monsters and didn't have the courage to do anything, others with more insightful vision realized countless times that Noah was never caught in a trap and had several times given valuable information during the invasion. That is, he knew much more about the fortresses he invaded than most normal people.
+
+Obviously, the man with the scar was the second type of person. Looking at him calmly, Noah answered, "This, as many know, is the Fortress of the King of Rats. Inside that portal there is practically a huge maze with the appearance of a sewer, with rats the size of motorcycles living within. Most probably, the retards... teenagers will end up walking around aimlessly inside. Since the rats' sense of smell is very acute inside the sewer, we have practically gained an incredible number of 7 lures to use. Honestly, for me, we can use those 7 to attract as many rats as possible and end their numbers little by little, since if we go to fight the Rat King with a lot of rats still living, when he goes into berserk mode we will be killed."
+
+Many who had never heard Noah speak raised an eyebrow in amazement. Really, what he said made sense. Some had proposed the idea to go straight to the chief of the fortress, but remembering that this chief had a berserk mode, they could only abandon the idea after hearing what Noah said. With a nod, the man with the scar confirmed that Noah's plan was the best for the group and so they also entered the portal.
+
+Passing through the portal, a terrible smell of feces and rotten things flooded Noah's nose. If it was the first time he felt this, Noah might have felt sick, but having passed through this fortress at least 3 times in the last 4 years, the smell no longer affected him.
+
+Unfortunately, this did not mean that it did not affect others. Looking at the ground, it was possible to see a vomit trail, most likely left behind by those teenagers who entered before them and were not used to this kind of situation. Unfortunately for some and fortunately for others, this made the group's work of tracking down the 7 walking baits much easier.
+
+While Noah watched the surroundings for something different, the people in his group started to draw the weapons they brought. Unfortunately, no kind of firearm worked after crossing the gate. While it might have been too easy to deal with the low rank Fortresses if they could use guns, as one went into the high rank Fortresses, the monsters were all strong enough to resist the firearms of humans.
+
+This was tested in abandoned Fortresses, since if no one invades a Fortress after some time, the monsters inside start to come out the gate and attack everything they see ahead. Once a Rank C Fortress was responsible for the destruction of an entire village since there was no blessed powerful enough there. From then on, the government had to adopt measures so that at least blessed rank F and E take care of the low rank Fortresses, thus distributing the staff correctly and not wasting manpower.
+
+When everyone had equipped their melee weapons, Noah finally realized something strange: the noise!
+
+"Shit, the Fortress is not making noise!" Noah spoke quickly while looking at the man with the scar.
+
+"So what if it's not making noise?" A fat man asked in a presumptuous tone. It was he who proposed to go straight to kill the King of the Rats, but Noah refuted the idea he gave and left him with a sour mood.
+
+Noah looked at him with a disappointed look and shook his head. He knew the fat man was a middle-aged Blessed Rank E who never managed to actually reach the strength of Rank E, being forced to always invade Rank F Fortresses because he was too weak to advance Rank. Even the man, being more than 30 years old, never bothered to learn or study the Fortresses he invaded. Hence came the disappointment Noah had for the man who only depended on having a stronger Blessing to survive until today.
+
+"Are you dumb?" asked the man with the scar while looking at the fat man. "The most striking feature of the King of the Rats Fortress is the wind that runs in here at such a high speed that it seems to be whistling. Can you hear any whistling by chance?"
+
+Hearing the scar man's question, the fat man finally noticed his own folly and realized that the whistling noise he always heard around here was not present this time. "What's happening?" He asked with a little fear.
+
+Noah wanted an opportunity to get away from the group without arousing suspicion and test the blessing he received from Lucifer, and now the opportunity had fallen right in his lap. "Something must be wrong. I'm going for a walk through the Fortress to look for it; you guys keep an eye out for the 7 baits."
+
+"Don't die needlessly." Said the man with the scar. Taking a final look at Noah, he and the other adventures chased after the vomit trail. After going a few times to Fortresses with Noah, he knew this boy would not die here even if something abnormal happened.
+
+However, nobody knew that something that could really kill anyone there was truly happening inside that Fortress…
+
     </Content>
   ),
 };
