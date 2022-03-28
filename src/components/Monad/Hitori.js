@@ -203,17 +203,15 @@ export const HitoriStory = {
         The ride trundled on until we arrived at the dungeon. The other teenagers were the first to run off the bus, the adults were far less willing. The dungeon, this dungeon you could smell before you saw it. It was a sewages system from a previous civilization. The entrance was a man sized hole in the ground. Standing near by was a soldier with a list in his hand.
       </Hitori>
       <Hitori>
-          
+        The list was a list of our names. Once we were checked off the soldier left us to our own devices. The organization of the team was left to be decided by ourselves; along with our safety inside the dungeon. As soon as the soldier had walked to one side the teen named ** already started walking towards the entrance, completely ignoring the existence of others. Apparently this was already something normal, since right after he took the first step, the other 6 teenagers followed him entering the dungeon, all while ignoring the adults and me.
       </Hitori>
+      <Hitori>
+        The adults, on the other hand, started to exchange some information and decide tactics. In the end, the woman with the one eye, was determined to be the leader of the group. When almost everything was decided, she looked at me and commented, "You're not as hot headed as the others."
+      </Hitori>
+      <Hitori>
 
-"Great, only one person didn't come. He probably died..." The agent told himself while counting everyone who was entering the portal. One by one he looked at the faces of the Blesseds and marked on the tablet who would enter.
-
-After everyone stored their belongings in the closet assigned to them, the agent spoke, "Great, you'll be a team of 15 people. The organization of the team will be decided by yourselves; I have nothing to do with it. As you have already signed the affidavit that we, the government, have no involvement in the possible case of your death, I wish you luck. The reward for the completion of the Fortress will obviously be given upon conclusion. The portal is already open, so you can enter as soon as you want".
-
-
-When the agent finished speaking, the teen named Harry already started walking towards the portal, completely ignoring the existence of others. Apparently this was already something normal, since right after he took the first step, the other 6 teenagers followed him entering the portal also, while ignoring the adults and Noah.
-
-The adults, on the other hand, started to exchange some information and decide tactics. In the end, the man with the scar, the Blessed Rank D, was determined to be the leader of the group. When almost everything was decided, he looked at Noah and commented, "What do you think?"
+      </Hitori>
+{/* Farming the resources from the dungeons by sending people in over and over. */}
 
 Some adults looked at him surprised, knowing how weak Noah was, while others looked at him approving the decision he took when asking Noah's opinion.
 
