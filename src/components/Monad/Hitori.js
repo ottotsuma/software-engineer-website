@@ -11,7 +11,6 @@ import Stats from "./../elements/stats";
 import Spells from "./../elements/spells";
 import { Hitori } from "./CharacterFonts";
 import {
-  Noah as NoahStats,
   Sarah as SarahStats,
   Josh as JoshStats,
 } from "./People";
@@ -158,6 +157,18 @@ export const HitoriStory = {
   ),
   1: (
     <Content style={{ overflowWrap: "anywhere" }}>
+      <Hitori>
+        Anyone who had ever heard of me always thought I was useless, always thought that the abilities I had were useless, but only I knew the truth. My class was something my farther had found and protected, something he passed to me when I was old enough. It was an unusual class, with non-conventional abilities.
+      </Hitori>
+      <Hitori>
+        While most of my classmates awakened regular classes, fighter, mage & rouge. However not everyone was equal. Obviously, some people were stronger than others, even with the same skills. So in order to make it easier to distinguish each one in terms of strength, the students were separated among several Rankings [F, E, D, C, B, A, and S]. After unlocking their own abilities, the students could apply for a test of abilities where an evaluator would test how lethal or useful that person's abilities were and what the potential of that person's abilities was for the future; students were separated by Rankings in this way.
+      </Hitori>
+      <Hitori>
+        In my year, there was even a boy who scored a Rank B, and as expected, he became the school idol. Of course, the school's head master didn't miss the opportunity to publicize it throughout the city that in his school a student had achieved a B Rank.
+      </Hitori>
+      <Hitori>
+        Of course, just receiving a Rank B wouldn't turn a person into a monster with the power to destroy a village. No, all the students started from the bottom, but the amount of help you would receive and what you could do in the future was affected by your rank. Since your student rank included your potential and not your current power, achieving true B rank power would take time.
+      </Hitori>
       <Hitori>
 
       </Hitori>
