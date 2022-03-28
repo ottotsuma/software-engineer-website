@@ -3315,14 +3315,15 @@ export const spellList = {
     passive: true,
     1: "The lower total HP you have, the higher your strength becomes.",
   },
-  "Rebirth": {
-    name: "Rebirth",
+  "Rebirth Flame": {
+    name: "Rebirth Flame",
     element: "",
     image: "",
     negative: false,
     passive: true,
     1: "After death, your body will turn to ashes, and you shall be reborn from the flames with 10% of your total HP.",
   },
+  // Phoenix Flame
 };
 
 export function InlineSpell({ spellName, level }) {

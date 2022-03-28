@@ -10,10 +10,7 @@ import Equipment from "./../elements/equipment";
 import Stats from "./../elements/stats";
 import Spells from "./../elements/spells";
 import { Hitori } from "./CharacterFonts";
-import {
-  Sarah as SarahStats,
-  Josh as JoshStats,
-} from "./People";
+import { Sarah as SarahStats, Josh as JoshStats } from "./People";
 import SpellCards from "./SpellCards";
 
 export const Shine = styled.p`
@@ -147,9 +144,9 @@ export const HitoriStory = {
         menu and focused on then new skill I had unlocked but had not used yet,
         a part of me was hoping I would never have to use it.
       </Hitori>
-      <div>{SpellCards([["Rebirth", 1]])}</div>
+      <div>{SpellCards([["Rebirth Flame", 1]])}</div>
       {/* <Spells
-        spells={[{ name: "Rebirth", level: 1 }]}
+        spells={[{ name: "Rebirth Flame", level: 1 }]}
         type={"fighter"}
       /> */}
       {/* Fire bird boy, revives on death. */}
@@ -158,19 +155,52 @@ export const HitoriStory = {
   1: (
     <Content style={{ overflowWrap: "anywhere" }}>
       <Hitori>
-        Anyone who had ever heard of me always thought I was useless, always thought that the abilities I had were useless, but only I knew the truth. My class was something my farther had found and protected, something he passed to me when I was old enough. It was an unusual class, with non-conventional abilities.
+        Anyone who had ever heard of me always thought I was useless, always
+        thought that the abilities I had were useless, but only I knew the
+        truth. My class was something my farther had found and protected,
+        something he passed to me when I was old enough. It was an unusual
+        class, with non-conventional abilities.
       </Hitori>
       <Hitori>
-        While most of my classmates awakened regular classes, fighter, mage & rouge. However not everyone was equal. Obviously, some people were stronger than others, even with the same skills. So in order to make it easier to distinguish each one in terms of strength, the students were separated among several Rankings [F, E, D, C, B, A, and S]. After unlocking their own abilities, the students could apply for a test of abilities where an evaluator would test how lethal or useful that person's abilities were and what the potential of that person's abilities was for the future; students were separated by Rankings in this way.
+        While most of my classmates awakened regular classes, fighter, mage &
+        rouge. However not everyone was equal. Obviously, some people were
+        stronger than others, even with the same skills. So in order to make it
+        easier to distinguish each one in terms of strength, the students were
+        separated among several Rankings [F, E, D, C, B, A, and S]. After
+        unlocking their own abilities, the students could apply for a test of
+        abilities where an evaluator would test how lethal or useful that
+        person's abilities were and what the potential of that person's
+        abilities was for the future; students were separated by Rankings in
+        this way.
       </Hitori>
       <Hitori>
-        In my year, there was even a boy who scored a Rank B, and as expected, he became the school idol. Of course, the school's head master didn't miss the opportunity to publicize it throughout the city that in his school a student had achieved a B Rank.
+        In my year, there was even a boy who scored a Rank B, and as expected,
+        he became the school idol. Of course, the school's head master didn't
+        miss the opportunity to publicize it throughout the city that in his
+        school a student had achieved a B Rank.
       </Hitori>
       <Hitori>
-        Of course, just receiving a Rank B wouldn't turn a person into a monster with the power to destroy a village. No, all the students started from the bottom, but the amount of help you would receive and what you could do in the future was affected by your rank. Since your student rank included your potential and not your current power, achieving true B rank power would take time.
+        Of course, just receiving a Rank B wouldn't turn a person into a monster
+        with the power to destroy a village. No, all the students started from
+        the bottom, but the amount of help you would receive and what you could
+        do in the future was affected by your rank. Since your student rank
+        included your potential and not your current power, achieving true B
+        rank power would take time.
       </Hitori>
       <Hitori>
-
+        Honestly even with my new ability, I did not have much confidence.
+        Firstly I had to die before the ability would even happen, who knows if
+        it might malfunction. Even if it works, I come back with 10% of my total
+        HP. So I go from being the lowest possible rank F to the lowest possible
+        rank F +10%. It's hardly a game changer.
+      </Hitori>
+      <Hitori>
+        The only thing I had confidence in was that once I was a higher level, I
+        could unlock the new ability. I could already see some of its
+        information now, even if it was grey and blurry. "Phoenix Flame", there
+        was some text about it dealing damage, but that would be exactly what I
+        need. If I could at least have an ability that caused some damage I
+        could be re-evaluated as a low rank F instead of a useless rank F.
       </Hitori>
       {/* Fire bird boy, revives on death. */}
     </Content>
