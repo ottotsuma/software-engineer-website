@@ -3317,8 +3317,8 @@ export const spellList = {
   },
   "Rebirth Flame": {
     name: "Rebirth Flame",
-    element: "",
-    image: "",
+    element: "fire",
+    image: "https://images.squarespace-cdn.com/content/v1/57d34a6d725e254062172fe9/1579643445519-XXWBWFTZIZ23TNWBECJI/thumbnail_phoenix+rising.jpg",
     negative: false,
     passive: true,
     1: "After death, your body will turn to ashes, and you shall be reborn from the flames with 10% of your total HP.",

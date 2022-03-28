@@ -799,6 +799,82 @@ export function Josh(Chapter) {
     );
   }
 }
+export function Hitori(Chapter) {
+  if (Chapter) {
+    return (
+      <Stats
+        type={"description"}
+        stats={{
+          name: "Hitori",
+          level: 2,
+          rank: 'F',
+          class: "Phoenix",
+          species: "human",
+          skills: 1,
+          passives: 0,
+          "skill points": 2-1, // from class 1 per level (normal/rare/epic/legendary)
+          "stat points": 5, // from species 2 per level // 1 per every 10 levels
+          vitality: 0,
+          strength: 0,
+          endurance: 0,
+          magic: 0,
+          willpower: 0,
+          dexterity: 0,
+          sense: 0,
+          charisma: 0,
+        }}
+        // Makes skills an object of skill types 'human' 'mage' and they be the arrays.
+        // Do the same thing for equipment and titles?
+        showTitles={false} // currently does nothing
+        equippedTitle="Princess"
+        titles={["Princess"]}
+        showSkills={false}
+        skills={{
+          human: [
+            // Above is all (I)
+          ],
+          phoenix: [
+            { name: "Rebirth Flame", level: 1 },
+          ],
+          conditions: [
+            // Negatives
+          ],
+        }}
+        showItems={true}
+        items={{
+          Body: ItemList["Shadow Pirate's Coat"],
+          Head: ItemList["Featureless Deathwood Mask"],
+          Hands: ItemList["Otari Kote"],
+          Feet: ItemList["Leather Pirate Boots"],
+          Weapon: ItemList["Glide Moroha"],
+        }}
+        notes={
+          "2 spell per level, 2 stats per level, Human +1 stat every 10 levels. https://ottotsuma.github.io/images/people/w1.jpg"
+        }
+      />
+    );
+  } else {
+    return (
+      <div>
+        <p>1: They are in a zone of comfort</p>
+
+        <p>2: But they want something</p>
+
+        <p>3: They enter an unfamiliar situation</p>
+
+        <p>4: Adapt to it</p>
+
+        <p>5: Get what they wanted</p>
+
+        <p>6: Pay a heavy price</p>
+
+        <p>7: Then return to the familia situation</p>
+
+        <p>8: Having changed</p>
+      </div>
+    );
+  }
+}
 
 export function Linhart() {
   return (

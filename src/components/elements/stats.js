@@ -231,7 +231,34 @@ const statList = {
     minor:
       "Increased resistance to hot, cold & natural poisons. Increased health & stamina regeneration also total stamina.",
   },
+  rank: {
+    name: "rank",
+    description: "Power rank.",
+    numeric: "",
+    vague: "",
+    major: "",
+    minor:
+      "",
+  }
 };
+
+function RankColour(Rank) {
+  if(!Rank) {
+    return ''
+  } else if (Rank === 'F') {
+    return `${monadColors.junk}`
+  } else if (Rank === 'D') {
+    return `${monadColors.common}`
+  } else if (Rank === 'C') {
+    return `${monadColors.intermediate}`
+  } else if (Rank === 'B') {
+    return `${monadColors.advanced}`
+  } else if (Rank === 'A') {
+    return `${monadColors.rare}`
+  } else if (Rank === 'S') {
+    return `${monadColors.epic}`
+  }
+}
 
 function perc2color(perc) {
   if (perc < 0) perc = 0;
@@ -597,6 +624,23 @@ function Stats({
           {!!type && <Span>{TitleSpan}</Span>}
         </SingleStat>
       );
+    } else if (keys[index] === "rank") {
+        const rankElement = (
+          <Wrap>
+            <Inline>{keys[index]}: </Inline>
+            <Inline style={{ color: RankColour(stats[keys[index]]) }}>
+              {typeof stats[keys[index]] === "number"
+                ? parseInt(stats[keys[index]])
+                : stats[keys[index]]}
+            </Inline>
+          </Wrap>
+        );
+        array.push(
+          <SingleStat key={index + "stat"}>
+            {rankElement}
+            {!!type && <Span>{spam["description"]}</Span>}
+          </SingleStat>
+        );
     } else {
       array.push(
         <SingleStat key={index + "stat"}>

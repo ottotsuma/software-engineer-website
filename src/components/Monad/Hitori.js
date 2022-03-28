@@ -10,7 +10,7 @@ import Equipment from "./../elements/equipment";
 import Stats from "./../elements/stats";
 import Spells from "./../elements/spells";
 import { Hitori } from "./CharacterFonts";
-import { Sarah as SarahStats, Josh as JoshStats } from "./People";
+import { Hitori as HitoriStats } from "./People";
 import SpellCards from "./SpellCards";
 
 export const Shine = styled.p`
@@ -144,11 +144,8 @@ export const HitoriStory = {
         menu and focused on then new skill I had unlocked but had not used yet,
         a part of me was hoping I would never have to use it.
       </Hitori>
-      <div>{SpellCards([["Rebirth Flame", 1]])}</div>
-      {/* <Spells
-        spells={[{ name: "Rebirth Flame", level: 1 }]}
-        type={"fighter"}
-      /> */}
+      <div>{SpellCards([["Rebirth Flame", 1, 'fire']])}</div>
+      {HitoriStats(1)}
       {/* Fire bird boy, revives on death. */}
     </Content>
   ),
@@ -202,7 +199,6 @@ export const HitoriStory = {
         need. If I could at least have an ability that caused some damage I
         could be re-evaluated as a low rank F instead of a useless rank F.
       </Hitori>
-      {/* Fire bird boy, revives on death. */}
     </Content>
   ),
 };
