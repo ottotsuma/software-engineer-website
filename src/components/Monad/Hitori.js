@@ -270,17 +270,121 @@ export const HitoriStory = {
       </Hitori>
       <Hitori>
         "Are you short a few marbles?" asked the woman with one-eye. "The most
-        striking feature of the King of the Rats dungeon is the wind that runs
-        in here at such a high speed that it seems to be whistling. Can you hear
-        any whistling by chance?"
+        striking feature of the King of the Rats dungeon is the echo that is made
+        in here, even when you cannot see the rats you can hear their cackles and scratching. Can you hear anything like that?"
       </Hitori>
       <Hitori>
         Hearing the womans's question, the fat man finally noticed his own folly
-        and realized that the whistling noise he always heard around here was
+        and realized that the noises he always heard around here was
         not present this time. "What's happening?" He asked with a little fear.
       </Hitori>
       <Hitori>"Something must be wrong." I muttered.</Hitori>
       {/* Farming the resources from the dungeons by sending people in over and over. */}
+    </Content>
+  ),
+  2: (
+    <Content style={{ overflowWrap: "anywhere" }}>
+        <Hitori>
+            The sewer was a twisted maze, were the monster rats would hound you and wear you down until you found the kings lair. To say that I was not nervous would be a lie. On numerous occasions someone expelled me from the group inside the dungeon because of how weak I was, although this time was different it did not calm me any more so.
+        </Hitori>
+        <Hitori>
+            The eerie silence had us all on edge. Preparing myself mentally, I took the short sword I was given by the school. At some point, in a side passage, a pair of black eyes poked slightly out of the water and began to watch me cautiously. Just as the rat watched me, I watched him, trying to predict what the rat would do.
+        </Hitori>
+        <Hitori>
+            'This rat is watching me… combined with the silence, something is very wrong this time. Usually these monsters just attack without thinking about the consequences, just following their instincts, but not that rat; he is intentionally watching me and analyzing his opponent.
+        </Hitori>
+        <Hitori>
+            I turned to signal the others in the group, only to notice over my shoulder at some point, somehow, we must of been surrounded. We had kept our eyes pealed and ears open. The rats this time around were acting much smarter then the past. My thoughts were soon rudely cut short, the monster jumped out of the water towards me with its teeth open as it let out a loud shrill cry.
+        </Hitori>
+        <Hitori>
+            Only one of us two would make it out alive after this confrontation, while this was not the first monster I had killed, I was far from an expert. Over the past 2 years I had solo killed less monsters then I had fingers.
+        </Hitori>
+A few seconds later, 
+
+Knowing that the rat was going to let that cry out to try to intimidate him, I simply ignored it and reacted faster than the rat expected by pointing the knife in its direction.
+
+In a split second the monster that was already in the middle of a jump realized that jumping was not the smartest decision it could have made. Since the rat's size was almost as big as a motorcycle, it was not difficult for I to stab at it. However, with the size of the animal being greater, its resistance was also proportionally greater.
+
+The knife penetrated only 4 cm into the rat's rib before stopping. I quickly plucked the knife out of the wound, causing the blood to spill out more intensely as well as doing more damage to the rat's organs than leaving the knife there. He moved away from the rat again.
+
+The rat, feeling intense pain in its ribs, felt its anger increase exponentially and launched itself again towards I. Learning from its mistake, this time the rat did not jump but came running across the floor after I, causing the cut from the knife to continue to grow and more blood to leak.
+
+Visibly, the rat was more agitated, but I knew it wouldn't remain that way for long. As the rat ran towards him, I opened his left palm and pointed toward the rat as a great blast of fire came out of his hand and engulfed the giant rodent.
+
+Sensing the danger of fire, the rat tried to run back into the sewage, but the moment it turned its back on I to try to run, I took the opportunity to stick the knife in the monster's head, thus ending the creature's life.
+
+[+1 Exp]
+
+        The teenagers, each holding their own weapon, walked in a clearly awkward formation that they saw on the internet as everyone kept a calm face as they walked.
+
+In their group, they had 7 Blessed. There were 5 Blessed Rank E and 2 Blessed Rank D: the Rank D being Harry and Wendy (the girl who wanted to talk to Noah because he was handsome, but gave up after finding out how weak he was).
+
+Harry, being an ice wizard, was at the rear of the formation along with Wendy, who was a cleric. In the group there were also two people who used a bow and four who would fight hand-to-hand: among them was Amy, who had told Wendy how weak Noah was.
+
+The group roamed the sewer for a few minutes and no monsters appeared. And because they were young, impatience soon hit them, making them let their guard down and talk to each other.
+
+"Where are the monsters?" Amy asked a little nervously as she held the sword in her hand.
+
+"I don't know. Just because I wanted to kill some of them, did they decide to hide?" said a boy who held a large shield.
+
+"They were probably scared when they felt our strength, especially Harry's strength," said the girl who flattered Harry before entering the portal. She carried a bow in one hand.
+
+"They are just Rank F monsters, did you really think they would have the courage to appear in front of us? Why don't we go straight to the King of Rats room and kill him right away? I can't stand the smell anymore!" said Harry, shortly before holding back from retching for the fifth time.
+
+"Isn't it too dangerous? Did anyone research the King of Rats?" Wendy asked, a little concerned.
+
+"Bah, why research? This is just a Rank F stronghold; we just need to go to the King's room and kill him soon," said a boy carrying a big ax.
+
+"So, let's g-..." Before Amy could finish the sentence, three rats peeked above the water's surface, watching the 7 teenagers.
+
+Seeing the three rats were each the size of a motorcycle, some of the teenagers finally felt scared. Looking at a pair of eyes the size of two tennis balls, Wendy swallowed hard, imagining the size of these monsters' mouths.
+
+Seeing the humans start to get scared, the rats took the opportunity and launched themselves towards their prey. Even though they were outnumbered, the rats had much better coordination with each other, thus gradually causing the wounds they inflicted on the adolescents to increase steadily.
+
+At some point during the battle, one of the rats bit the ankle of a boy who carried two swords, and feeling the extraordinary pain in his own leg, instinctively the boy let go of his own weapons and used his Blessing to the fullest, allowing him to become much faster and more agile than that he was previously.
+
+
+Unfortunately, the rat had already sunk its teeth into the boy's leg and nothing the boy tried to do could make it let go of that leg. The rodent's huge teeth gradually tore through the boy's flesh more and more, smearing it completely with blood.
+
+Harry, feeling his heart racing, also used his own blessing to the fullest and hurled a huge block of ice towards the rat that had grabbed the boy's leg. But that only made the situation worse, since from the blow, the rat, still with its mouth clamped into boy, was flung into the river of sewage, carrying the boy with him and leaving a bloody trail of fleshy remains that tore off from the boy's leg. All-the-while the boy's cries of despair echoed through the tunnel.
+
+For a few moments it was possible to hear the boy struggling and asking for help in the water, but after a few seconds, only silence permeated the area.
+
+At that time, all the teenagers in the group knew they had messed up when they came alone. They thought they could kill the monsters however they pleased because they were blessed with rank E and D Blessings, but life showed them that the only certainty anyone can have is that one day he will die. Otherwise, everything is uncertain.
+
+Having lost a companion, the other 6 teenagers despaired and started to use their Blessing skills nonstop on the remaining two rats until the rats could no longer stand and died.
+
+Sitting in a corner of the sewer, the teenagers no longer even cared about the unpleasant smell of the place. The only thing they wanted now was a comfortable place to rest, a good bed to sleep in, and never to return to this place. But they knew that they could no longer leave without a reason after having entered the fortress, as they signed a contract with the government before entering stating that they would only leave if completion was impossible or they had successfully completed the invasion of the fortress.
+
+"Roy... I can't believe I'm never going to see Roy again..." Amy sighed, as she stopped the tears from falling when she remembered the boy who had been taken by the rat.
+
+"Well, my dad warned me to be careful and prepare for losses... I just didn't think it would happen anytime soon," Said the shield boy.
+
+While they rested and mourned, Wendy used her own blessing to heal the injuries that everyone received during that battle while she cried and blamed herself for not being able to do anything to save Roy.
+
+At some point, a phrase that Amy spoke to her on the bus came to Wendy's mind. "He always manages to slip out alive with one or two members of the invasion team."
+
+Remembering Noah, Wendy looked around for the Blessed who always came out alive along with someone else, but didn't see him anywhere. She knew that for someone to stay alive for so long in the fortresses oftentimes the person would be the only survivor of the team itself in an invasion. But Noah always left alive with more than one person, so if she stayed with him, she would probably be able stay alive here. But now it was too late; even looking around, she found nothing of him.
+
+'If I had gone to talk to him, he could have told me some ways to survive in here. Now, I don't even know if I will be able to get out alive myself, much less with someone else with me.' Wendy thought to herself as she looked at Amy with an angry look, while Amy had no idea why Wendy would be mad with her.
+
+A few moments ago, the adults reached the teenagers but followed the strategy that Noah had suggested and their leader agreed with: to just remain quiet while watching the fierce battle that the teenagers had. Even when they saw the boy die, they didn't move an inch. Having seen so many people die over the years as Blessed, it hardened their hearts to the point they didn't mind seeing some arrogant children having some difficulty. Many were happy and approved of Noah's idea of ​​letting the teenagers be the bait for them, since now the teenagers had stopped being arrogant, in addition to getting rid of two monsters in the dungeon on their own while the elders watched without injury.
+
+Seeing that the now previous children had become much more humble than when they arrived, the scarred man made the decision to unite the two groups so that they would be more likely to kill the King of Rats, since if he were to fight with only the group of 8 people who he had, it would be a very difficult battle. He had noticed something strange this time about the rats, but did not quite remedy yet what it was...
+
+However, as his group approached, the scarred man noticed that while the other children were happy to see them coming, their leader got angry and stood up from the floor while shouting, "Why didn't you come to help us?!"
+
+Hearing Harry's question, the scarred man just raised an eyebrow and answered, "Why should have we?"
+
+Hearing the man's question, Harry was speechless. After all, they were under no obligation to help them, but he also felt bad when he remembered Roy. "We came in here together, so you had to help us!"
+
+Seeing that the boy was already ignoring reason just to blame someone, the man who was not obliged to put up with it walked forward towards Harry until his hand grabbed the boy's throat and lifted him off the floor. "Who do you think you're talking to, boy? If you're feeling bad that your little friend died, do you want me to send you to hell with him? We came here to invite you to join us so that we have a better chance of surviving inside here and killing the King of Rats. As we already have 13 people, you will not be missed if an accident were to happen. Do you understand me?" the man asked, as he tightened his grip on the boy's throat.
+
+Looking at the man who held him off the floor by the throat, Harry finally felt the fear of death for the second time since entering the fortress. He looked into that man's eyes and knew that if he did anything wrong, that man would kill him right there and then. Fearing for his life, Harry nodded desperately in agreement and begged the man to let go of his throat.
+
+Upon falling to the ground, Harry felt completely humiliated while he had to breathe heavily the stinky sewage air. Inside his heart, Harry vowed to take revenge on everyone who was forcing him to go through this.
+
+
     </Content>
   ),
 };
