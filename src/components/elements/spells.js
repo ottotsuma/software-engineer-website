@@ -3411,7 +3411,7 @@ function Spells({ spells, type }) {
   return (
     <>
       {/* This title thing could be made into switch cases. */}
-      {type ? getTitle(type) : <Title></Title>}
+      {array.length > 0 && type ? getTitle(type) : <Title></Title>}
       <SpellsStyle>{array}</SpellsStyle>
     </>
   );
