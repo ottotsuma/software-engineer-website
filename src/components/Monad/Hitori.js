@@ -227,18 +227,9 @@ export const HitoriStory = {
           Moving down into the sewer system a terrible smell of feces and rotten things hanged in the air. If it was the first time I felt this, I might have felt sick, but having passed through this dungeon at least 3 times in the last 2 years, the smell no longer affected me as much.
       </Hitori>
       <Hitori>
-        Unfortunately, the same could not be said for my new companions. Looking at the ground, it was possible to see a pool of vomit, most, likely left behind by those teenagers. Fortunately for us this meant they had not got too far after entering, making them easier to trail.
+        Unfortunately, the same could not be said for my new companions. Looking at the ground, it was possible to see a pool of vomit, most, likely left behind by those teenagers. Fortunately for us this meant they had not got too far after entering, making them easier to trail. After awhile everyone had noticed the same, the only noise was our own footsteps, everyone in our group had ran this dungeon at least once. I imagine some of the adults here had run this dungeon almost a hundred times.
       </Hitori>
 {/* Farming the resources from the dungeons by sending people in over and over. */}
-
-While Noah watched the surroundings for something different, the people in his group started to draw the weapons they brought. Unfortunately, no kind of firearm worked after crossing the gate. While it might have been too easy to deal with the low rank Fortresses if they could use guns, as one went into the high rank Fortresses, the monsters were all strong enough to resist the firearms of humans.
-
-This was tested in abandoned Fortresses, since if no one invades a Fortress after some time, the monsters inside start to come out the gate and attack everything they see ahead. Once a Rank C Fortress was responsible for the destruction of an entire village since there was no blessed powerful enough there. From then on, the government had to adopt measures so that at least blessed rank F and E take care of the low rank Fortresses, thus distributing the staff correctly and not wasting manpower.
-
-When everyone had equipped their melee weapons, Noah finally realized something strange: the noise!
-
-"Shit, the Fortress is not making noise!" Noah spoke quickly while looking at the man with the scar.
-
 "So what if it's not making noise?" A fat man asked in a presumptuous tone. It was he who proposed to go straight to kill the King of the Rats, but Noah refuted the idea he gave and left him with a sour mood.
 
 Noah looked at him with a disappointed look and shook his head. He knew the fat man was a middle-aged Blessed Rank E who never managed to actually reach the strength of Rank E, being forced to always invade Rank F Fortresses because he was too weak to advance Rank. Even the man, being more than 30 years old, never bothered to learn or study the Fortresses he invaded. Hence came the disappointment Noah had for the man who only depended on having a stronger Blessing to survive until today.
