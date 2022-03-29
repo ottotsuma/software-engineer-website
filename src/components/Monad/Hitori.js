@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Item from "./../elements/item";
 import styled from "styled-components";
-import { Content } from "./styles";
+import { Content, Shine } from "./styles";
 import Spin from "./../elements/spin";
 import Quest from "./../elements/quest";
 import LevelUp from "./../elements/levelup";
@@ -12,24 +12,6 @@ import Spells from "./../elements/spells";
 import { Hitori } from "./CharacterFonts";
 import { Hitori as HitoriStats } from "./People";
 import SpellCards from "./SpellCards";
-
-export const Shine = styled.p`
-  font-size: xxx-large;
-  font-weight: 900;
-  animation: color-change 1s infinite;
-  display: contents;
-  @keyframes color-change {
-    0% {
-      color: yellow;
-    }
-    50% {
-      color: orange;
-    }
-    100% {
-      color: pink;
-    }
-  }
-`;
 
 export default function HitoriStoryFunction(props) {
   return typeof props === "number"
