@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import React from "react";
-
+import { classList } from './classes'
 // Kʼawiil - Lightning, seeds, abundance, powerful one, fertility, serpent
 
 // Rogue: Side/Back -- Back -- Side (3rd one is intermediate), (4th advanced)
@@ -3323,6 +3323,14 @@ export const spellList = {
     passive: true,
     1: "After death, your body will turn to ashes, and you shall be reborn from the flames with 10% of your total HP.",
   },
+  "Birthed In Flame": {
+    name: "Birthed In Flame",
+    element: "fire",
+    image: "https://images.squarespace-cdn.com/content/v1/57d34a6d725e254062172fe9/1579643445519-XXWBWFTZIZ23TNWBECJI/thumbnail_phoenix+rising.jpg",
+    negative: false,
+    passive: true,
+    1: "A body birthed in flames holders stronger affinity with fire, +5% increase to all fire related abilities.",
+  },
   // Phoenix Flame
 };
 
@@ -3386,6 +3394,8 @@ function Spells({ spells, type }) {
       );
     }
   }
+  //  IF classList contains Type then it's a class skill
+  
   function getTitle(type) {
     switch (type) {
       case "mage":
@@ -3395,7 +3405,7 @@ function Spells({ spells, type }) {
       case "conditions":
         return <Title>Conditions:</Title>;
       default:
-        return <Title>Skills:</Title>;
+        return <Title>{type} Skills:</Title>;
     }
   }
   return (
@@ -3411,6 +3421,7 @@ export default Spells;
 const Title = styled.h1`
   display: flex;
   justify-content: center;
+  text-transform: capitalize;
 `;
 
 const SpellsStyle = styled.div`

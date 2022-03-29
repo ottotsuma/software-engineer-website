@@ -206,7 +206,7 @@ export const HitoriStory = {
         The list was a list of our names. Once we were checked off the soldier left us to our own devices. The organization of the team was left to be decided by ourselves; along with our safety inside the dungeon. As soon as the soldier had walked to one side the teen named ** already started walking towards the entrance, completely ignoring the existence of others. Apparently this was already something normal, since right after he took the first step, the other 6 teenagers followed him entering the dungeon, all while ignoring the adults and me.
       </Hitori>
       <Hitori>
-        The adults, on the other hand, started to exchange some information and decide tactics. In the end, the woman with the one eye, was determined to be the leader of the group. When almost everything was decided, she looked at me and commented, "You're not as hot headed as the others."
+        The adults, on the other hand, started to exchange some information and decide tactics. In the end, the woman with the one eye, was determined to be the leader of the group. When almost everything was decided, she looked at me and commented, "You're not as hot headed as the other young ones, what are your thoughts?."
       </Hitori>
       <Hitori>
         Some adults looked at him surprised, maybe knowing how weak I was, while others looked at him approving the decision. I knew what she meant, since this was not the first time we were doing a dungeon together. 
@@ -220,13 +220,16 @@ export const HitoriStory = {
       <Hitori>
           Looking back at the one-eyed woman, I calmly replied. "This dungeon is the home of the King of Rats. Inside there is a huge maze of tunnels, with rats the size of ponies roaming within. Most probably, the overly confident teenagers will end up walking around aimlessly inside. Since the rats' sense of smell is very acute, we have practically gained an incredible number of 7 lures to use. Honestly, for me, we can use those 7 to attract as many rats as possible and end their numbers little by little, since if we go to fight the Rat King with a lot of rats still living, when he goes into berserk mode we will be killed."
       </Hitori>
+      <Hitori>
+          Those who had not fought along side be before seemed surprised by my insight, and willingness to use my class mates as decoys. That was their mistake, they were not my classmates, anyone my own age had long since graduated from dungeon introductions, going into dungeons with higher level adults for protection, or simply become a non-combatant.
+      </Hitori>
+      <Hitori>
+          Moving down into the sewer system a terrible smell of feces and rotten things hanged in the air. If it was the first time I felt this, I might have felt sick, but having passed through this dungeon at least 3 times in the last 2 years, the smell no longer affected me as much.
+      </Hitori>
+      <Hitori>
+        Unfortunately, the same could not be said for my new companions. Looking at the ground, it was possible to see a pool of vomit, most, likely left behind by those teenagers. Fortunately for us this meant they had not got too far after entering, making them easier to trail.
+      </Hitori>
 {/* Farming the resources from the dungeons by sending people in over and over. */}
-
-Many who had never heard Noah speak raised an eyebrow in amazement. Really, what he said made sense. Some had proposed the idea to go straight to the chief of the fortress, but remembering that this chief had a berserk mode, they could only abandon the idea after hearing what Noah said. With a nod, the man with the scar confirmed that Noah's plan was the best for the group and so they also entered the portal.
-
-Passing through the portal, a terrible smell of feces and rotten things flooded Noah's nose. If it was the first time he felt this, Noah might have felt sick, but having passed through this fortress at least 3 times in the last 4 years, the smell no longer affected him.
-
-Unfortunately, this did not mean that it did not affect others. Looking at the ground, it was possible to see a vomit trail, most likely left behind by those teenagers who entered before them and were not used to this kind of situation. Unfortunately for some and fortunately for others, this made the group's work of tracking down the 7 walking baits much easier.
 
 While Noah watched the surroundings for something different, the people in his group started to draw the weapons they brought. Unfortunately, no kind of firearm worked after crossing the gate. While it might have been too easy to deal with the low rank Fortresses if they could use guns, as one went into the high rank Fortresses, the monsters were all strong enough to resist the firearms of humans.
 
