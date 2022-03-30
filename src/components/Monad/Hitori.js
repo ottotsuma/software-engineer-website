@@ -330,14 +330,12 @@ export const HitoriStory = {
             The teenagers were not being quiet, not that they were joking around still. The sounds of battle bounced and echoed off the walls of the sewer system. The teenagers, each holding their own weapon, stood in a clearly awkward formation that they learned in class.
         </Hitori>
         <Hitori>
-            Theirs was a group of seven, 5 students with rank E and 2 with rank D. The rank D's were Utano and Hotaru.
+            Theirs was a group of seven, 5 students with rank E and 2 with rank D. The rank D's were Utano and Hotaru. While this was their rank they could achieve in the future, it was usually also a good indicator of their combat capabilities. Hotaru and Utano were both mages, Hotaru fought up close with Chokutō blade in one hand and small Kabutowari blade in the other, Utano used a wand from behind. The group also had two fighters who used bows and four who used melee weapons.
         </Hitori>
+        <Hitori>
 
+        </Hitori>
         {/* Wendy = Utano, Harry = Hotaru */}
-
-Harry, being an ice wizard, was at the rear of the formation along with Wendy, who was a cleric. In the group there were also two people who used a bow and four who would fight hand-to-hand: among them was Amy, who had told Wendy how weak Noah was.
-
-The group roamed the sewer for a few minutes and no monsters appeared. And because they were young, impatience soon hit them, making them let their guard down and talk to each other.
 
 "Where are the monsters?" Amy asked a little nervously as she held the sword in her hand.
 
