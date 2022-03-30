@@ -228,13 +228,13 @@ export const HitoriStory = {
       </Hitori>
       <Hitori>
         Looking back at the one-eyed woman, I calmly replied. "This dungeon is
-        the home of the King of Rats. Inside there is a huge maze of tunnels,
-        with rats the size of ponies roaming within. Most probably, the overly
+        the home of the Gangikozō King. Gangikozōs are hairy, monkey-like water spirits which usually inhabit rivers. Their most notable features are their webbed hands and toes, and their long teeth which are sharp and jagged like files. Inside there is a huge maze of tunnels,
+        with Gangikozōs the size of ponies roaming within. Most probably, the overly
         confident teenagers will end up walking around aimlessly inside. Since
-        the rats' sense of smell is very acute, we have practically gained an
+        the Gangikozōs' sense of smell is very acute, we have practically gained an
         incredible number of 7 lures to use. Honestly, for me, we can use those
-        7 to attract as many rats as possible and end their numbers little by
-        little, since if we go to fight the Rat King with a lot of rats still
+        7 to attract as many Gangikozōs as possible and end their numbers little by
+        little, since if we go to fight the Gangikozō King with a lot of Gangikozōs still
         living, when he goes into berserk mode we will be killed."
       </Hitori>
       <Hitori>
@@ -270,8 +270,8 @@ export const HitoriStory = {
       </Hitori>
       <Hitori>
         "Are you short a few marbles?" asked the woman with one-eye. "The most
-        striking feature of the King of the Rats dungeon is the echo that is made
-        in here, even when you cannot see the rats you can hear their cackles and scratching. Can you hear anything like that?"
+        striking feature of the King of the Gangikozōs dungeon is the echo that is made
+        in here, even when you cannot see the Gangikozōs you can hear their cackles and scratching. Can you hear anything like that?"
       </Hitori>
       <Hitori>
         Hearing the womans's question, the fat man finally noticed his own folly
@@ -285,39 +285,55 @@ export const HitoriStory = {
   2: (
     <Content style={{ overflowWrap: "anywhere" }}>
         <Hitori>
-            The sewer was a twisted maze, were the monster rats would hound you and wear you down until you found the kings lair. To say that I was not nervous would be a lie. On numerous occasions someone expelled me from the group inside the dungeon because of how weak I was, although this time was different it did not calm me any more so.
+            The sewer was a twisted maze, were the monster Gangikozōs would hound you and wear you down until you found the kings lair. To say that I was not nervous would be a lie. On numerous occasions someone expelled me from the group inside the dungeon because of how weak I was, although this time was different it did not calm me any more so.
         </Hitori>
         <Hitori>
-            The eerie silence had us all on edge. Preparing myself mentally, I took the short sword I was given by the school. At some point, in a side passage, a pair of black eyes poked slightly out of the water and began to watch me cautiously. Just as the rat watched me, I watched him, trying to predict what the rat would do.
+            The eerie silence had us all on edge. Preparing myself mentally, I took the short sword I was given by the school. At some point, in a side passage, a pair of black eyes poked slightly out of the water and began to watch me cautiously. Just as the Gangikozō watched me, I watched him, trying to predict what the Gangikozō would do.
         </Hitori>
         <Hitori>
-            'This rat is watching me… combined with the silence, something is very wrong this time. Usually these monsters just attack without thinking about the consequences, just following their instincts, but not that rat; he is intentionally watching me and analyzing his opponent.
+            'This Gangikozō is watching me… combined with the silence, something is very wrong this time. Usually these monsters just attack without thinking about the consequences, just following their instincts, but not that Gangikozō; he is intentionally watching me and analyzing his opponent.
         </Hitori>
         <Hitori>
-            I turned to signal the others in the group, only to notice over my shoulder at some point, somehow, we must of been surrounded. We had kept our eyes pealed and ears open. The rats this time around were acting much smarter then the past. My thoughts were soon rudely cut short, the monster jumped out of the water towards me with its teeth open as it let out a loud shrill cry.
+            I turned to signal the others in the group, only to notice over my shoulder at some point, somehow, we must of been surrounded. We had kept our eyes pealed and ears open. The Gangikozōs this time around were acting much smarter then the past. My thoughts were soon rudely cut short, the monster jumped out of the water towards me with its teeth open as it let out a loud shrill cry.
         </Hitori>
         <Hitori>
-            Only one of us two would make it out alive after this confrontation, while this was not the first monster I had killed, I was far from an expert. Over the past 2 years I had solo killed less monsters then I had fingers.
+            Only one of us two would make it out alive after this confrontation, while this was not the first monster I had killed, I was far from an expert. Over the past 2 years I had solo killed less monsters then I had fingers. I pointed the sword in it's direction as it lunged towards me.
         </Hitori>
-A few seconds later, 
+        <Hitori>
+            In a split second the monster that was already in the middle of a jump realized that jumping was not the smartest decision it could have made. Since the Gangikozō's size was almost as big as a pony, it was not difficult for I to stab at it.
+        </Hitori>
+        <Hitori>
+            The sword penetrated only 4 cm into the Gangikozō's rib before stopping. I quickly plucked the sword out of the wound, causing the blood to spill out more intensely, as well as doing more damage to the Gangikozō's organs than leaving the sword there.
+        </Hitori>
+        <Hitori>
+            It must of been feeling intense pain in its ribs, because its anger exploded and it launched itself again towards me. Learning from its mistake, this time the Gangikozō did not jump but came running across the floor after me, causing the cut from the sword to continue to grow and more blood to leak.
+        </Hitori>
+        <Hitori>
+            The Gangikozō was visibly more angered, but I knew I couldn't remain that this for long. As the Gangikozō ran towards me, I could sense the danger running though me. I lunged my sword into the side of it's neck as it pushed me down. It's teeth sunk into my collar bone and further, ripping out a merchants amount of flesh.
+        </Hitori>
+        <Hitori>
+            At that point I was not sure who was screaming louder, me or the monster. I pulled down on the sword hard, trying to direct all my pain though my arms, pulling smoothly in places and yanking it over and over in others, until the monsters screaming stopped. It's head half hanging from its body.
+        </Hitori>
+        <Hitori>
+            [+1 Exp]
+        </Hitori>
+        <Hitori>
+            Everyone else was stronger then me, with abilities, they should of faired better then me. I am not sure I could be of any more use at this point. My vision blurred, I did not want to dull the pain, I needed it keep me awake. The worst thing I could do right now is sleep.
+        </Hitori>
+        <Hitori>
+            The first to find me was the woman with one eye. I'm sure my vision was worse then hers right now. She called over the healer in the group, I could not see how, but I could feel a warm, electric, jagged feeling pulse across my body, it focused on the hole in my collar. Soon the feeling came back, like pins and needles across were my flesh had been ripped from me. Like that, I felt my body was renewed, even if my mind was still unsteady.
+        </Hitori>
+        <Hitori>
+            We had to take some time to rest, while the others only had minor injuries, the healer had to use lots of their mana to help me with mine. After our rest we tried to find the teenagers as quickly as possible, the dungeon was stranger then before, they were not longer acting as lures for us to gather up the monsters and finish them off in a pincer of powers but stalking us like prey. It would be better to march in numbers now.
+        </Hitori>
+        <Hitori>
+            The teenagers were not being quiet, not that they were joking around still. The sounds of battle bounced and echoed off the walls of the sewer system. The teenagers, each holding their own weapon, stood in a clearly awkward formation that they learned in class.
+        </Hitori>
+        <Hitori>
+            Theirs was a group of seven, 5 students with rank E and 2 with rank D. The rank D's were Utano and Hotaru.
+        </Hitori>
 
-Knowing that the rat was going to let that cry out to try to intimidate him, I simply ignored it and reacted faster than the rat expected by pointing the knife in its direction.
-
-In a split second the monster that was already in the middle of a jump realized that jumping was not the smartest decision it could have made. Since the rat's size was almost as big as a motorcycle, it was not difficult for I to stab at it. However, with the size of the animal being greater, its resistance was also proportionally greater.
-
-The knife penetrated only 4 cm into the rat's rib before stopping. I quickly plucked the knife out of the wound, causing the blood to spill out more intensely as well as doing more damage to the rat's organs than leaving the knife there. He moved away from the rat again.
-
-The rat, feeling intense pain in its ribs, felt its anger increase exponentially and launched itself again towards I. Learning from its mistake, this time the rat did not jump but came running across the floor after I, causing the cut from the knife to continue to grow and more blood to leak.
-
-Visibly, the rat was more agitated, but I knew it wouldn't remain that way for long. As the rat ran towards him, I opened his left palm and pointed toward the rat as a great blast of fire came out of his hand and engulfed the giant rodent.
-
-Sensing the danger of fire, the rat tried to run back into the sewage, but the moment it turned its back on I to try to run, I took the opportunity to stick the knife in the monster's head, thus ending the creature's life.
-
-[+1 Exp]
-
-        The teenagers, each holding their own weapon, walked in a clearly awkward formation that they saw on the internet as everyone kept a calm face as they walked.
-
-In their group, they had 7 Blessed. There were 5 Blessed Rank E and 2 Blessed Rank D: the Rank D being Harry and Wendy (the girl who wanted to talk to Noah because he was handsome, but gave up after finding out how weak he was).
+        {/* Wendy = Utano, Harry = Hotaru */}
 
 Harry, being an ice wizard, was at the rear of the formation along with Wendy, who was a cleric. In the group there were also two people who used a bow and four who would fight hand-to-hand: among them was Amy, who had told Wendy how weak Noah was.
 
@@ -329,34 +345,34 @@ The group roamed the sewer for a few minutes and no monsters appeared. And becau
 
 "They were probably scared when they felt our strength, especially Harry's strength," said the girl who flattered Harry before entering the portal. She carried a bow in one hand.
 
-"They are just Rank F monsters, did you really think they would have the courage to appear in front of us? Why don't we go straight to the King of Rats room and kill him right away? I can't stand the smell anymore!" said Harry, shortly before holding back from retching for the fifth time.
+"They are just Rank F monsters, did you really think they would have the courage to appear in front of us? Why don't we go straight to the Gangikozō King room and kill him right away? I can't stand the smell anymore!" said Harry, shortly before holding back from retching for the fifth time.
 
-"Isn't it too dangerous? Did anyone research the King of Rats?" Wendy asked, a little concerned.
+"Isn't it too dangerous? Did anyone research the Gangikozō King?" Wendy asked, a little concerned.
 
 "Bah, why research? This is just a Rank F stronghold; we just need to go to the King's room and kill him soon," said a boy carrying a big ax.
 
-"So, let's g-..." Before Amy could finish the sentence, three rats peeked above the water's surface, watching the 7 teenagers.
+"So, let's g-..." Before Amy could finish the sentence, three Gangikozōs peeked above the water's surface, watching the 7 teenagers.
 
-Seeing the three rats were each the size of a motorcycle, some of the teenagers finally felt scared. Looking at a pair of eyes the size of two tennis balls, Wendy swallowed hard, imagining the size of these monsters' mouths.
+Seeing the three Gangikozōs were each the size of a motorcycle, some of the teenagers finally felt scared. Looking at a pair of eyes the size of two tennis balls, Wendy swallowed hard, imagining the size of these monsters' mouths.
 
-Seeing the humans start to get scared, the rats took the opportunity and launched themselves towards their prey. Even though they were outnumbered, the rats had much better coordination with each other, thus gradually causing the wounds they inflicted on the adolescents to increase steadily.
+Seeing the humans start to get scared, the Gangikozōs took the opportunity and launched themselves towards their prey. Even though they were outnumbered, the Gangikozōs had much better coordination with each other, thus gradually causing the wounds they inflicted on the adolescents to increase steadily.
 
-At some point during the battle, one of the rats bit the ankle of a boy who carried two swords, and feeling the extraordinary pain in his own leg, instinctively the boy let go of his own weapons and used his Blessing to the fullest, allowing him to become much faster and more agile than that he was previously.
+At some point during the battle, one of the Gangikozōs bit the ankle of a boy who carried two swords, and feeling the extraordinary pain in his own leg, instinctively the boy let go of his own weapons and used his Blessing to the fullest, allowing him to become much faster and more agile than that he was previously.
 
 
-Unfortunately, the rat had already sunk its teeth into the boy's leg and nothing the boy tried to do could make it let go of that leg. The rodent's huge teeth gradually tore through the boy's flesh more and more, smearing it completely with blood.
+Unfortunately, the Gangikozō had already sunk its teeth into the boy's leg and nothing the boy tried to do could make it let go of that leg. The rodent's huge teeth gradually tore through the boy's flesh more and more, smearing it completely with blood.
 
-Harry, feeling his heart racing, also used his own blessing to the fullest and hurled a huge block of ice towards the rat that had grabbed the boy's leg. But that only made the situation worse, since from the blow, the rat, still with its mouth clamped into boy, was flung into the river of sewage, carrying the boy with him and leaving a bloody trail of fleshy remains that tore off from the boy's leg. All-the-while the boy's cries of despair echoed through the tunnel.
+Harry, feeling his heart racing, also used his own blessing to the fullest and hurled a huge block of ice towards the Gangikozō that had grabbed the boy's leg. But that only made the situation worse, since from the blow, the Gangikozō, still with its mouth clamped into boy, was flung into the river of sewage, carrying the boy with him and leaving a bloody trail of fleshy remains that tore off from the boy's leg. All-the-while the boy's cries of despair echoed through the tunnel.
 
 For a few moments it was possible to hear the boy struggling and asking for help in the water, but after a few seconds, only silence permeated the area.
 
 At that time, all the teenagers in the group knew they had messed up when they came alone. They thought they could kill the monsters however they pleased because they were blessed with rank E and D Blessings, but life showed them that the only certainty anyone can have is that one day he will die. Otherwise, everything is uncertain.
 
-Having lost a companion, the other 6 teenagers despaired and started to use their Blessing skills nonstop on the remaining two rats until the rats could no longer stand and died.
+Having lost a companion, the other 6 teenagers despaired and started to use their Blessing skills nonstop on the remaining two Gangikozōs until the Gangikozōs could no longer stand and died.
 
 Sitting in a corner of the sewer, the teenagers no longer even cared about the unpleasant smell of the place. The only thing they wanted now was a comfortable place to rest, a good bed to sleep in, and never to return to this place. But they knew that they could no longer leave without a reason after having entered the fortress, as they signed a contract with the government before entering stating that they would only leave if completion was impossible or they had successfully completed the invasion of the fortress.
 
-"Roy... I can't believe I'm never going to see Roy again..." Amy sighed, as she stopped the tears from falling when she remembered the boy who had been taken by the rat.
+"Roy... I can't believe I'm never going to see Roy again..." Amy sighed, as she stopped the tears from falling when she remembered the boy who had been taken by the Gangikozō.
 
 "Well, my dad warned me to be careful and prepare for losses... I just didn't think it would happen anytime soon," Said the shield boy.
 
@@ -370,7 +386,7 @@ Remembering Noah, Wendy looked around for the Blessed who always came out alive 
 
 A few moments ago, the adults reached the teenagers but followed the strategy that Noah had suggested and their leader agreed with: to just remain quiet while watching the fierce battle that the teenagers had. Even when they saw the boy die, they didn't move an inch. Having seen so many people die over the years as Blessed, it hardened their hearts to the point they didn't mind seeing some arrogant children having some difficulty. Many were happy and approved of Noah's idea of ​​letting the teenagers be the bait for them, since now the teenagers had stopped being arrogant, in addition to getting rid of two monsters in the dungeon on their own while the elders watched without injury.
 
-Seeing that the now previous children had become much more humble than when they arrived, the scarred man made the decision to unite the two groups so that they would be more likely to kill the King of Rats, since if he were to fight with only the group of 8 people who he had, it would be a very difficult battle. He had noticed something strange this time about the rats, but did not quite remedy yet what it was...
+Seeing that the now previous children had become much more humble than when they arrived, the scarred man made the decision to unite the two groups so that they would be more likely to kill the Gangikozō King, since if he were to fight with only the group of 8 people who he had, it would be a very difficult battle. He had noticed something strange this time about the Gangikozōs, but did not quite remedy yet what it was...
 
 However, as his group approached, the scarred man noticed that while the other children were happy to see them coming, their leader got angry and stood up from the floor while shouting, "Why didn't you come to help us?!"
 
@@ -378,7 +394,7 @@ Hearing Harry's question, the scarred man just raised an eyebrow and answered, "
 
 Hearing the man's question, Harry was speechless. After all, they were under no obligation to help them, but he also felt bad when he remembered Roy. "We came in here together, so you had to help us!"
 
-Seeing that the boy was already ignoring reason just to blame someone, the man who was not obliged to put up with it walked forward towards Harry until his hand grabbed the boy's throat and lifted him off the floor. "Who do you think you're talking to, boy? If you're feeling bad that your little friend died, do you want me to send you to hell with him? We came here to invite you to join us so that we have a better chance of surviving inside here and killing the King of Rats. As we already have 13 people, you will not be missed if an accident were to happen. Do you understand me?" the man asked, as he tightened his grip on the boy's throat.
+Seeing that the boy was already ignoring reason just to blame someone, the man who was not obliged to put up with it walked forward towards Harry until his hand grabbed the boy's throat and lifted him off the floor. "Who do you think you're talking to, boy? If you're feeling bad that your little friend died, do you want me to send you to hell with him? We came here to invite you to join us so that we have a better chance of surviving inside here and killing the Gangikozō King. As we already have 13 people, you will not be missed if an accident were to happen. Do you understand me?" the man asked, as he tightened his grip on the boy's throat.
 
 Looking at the man who held him off the floor by the throat, Harry finally felt the fear of death for the second time since entering the fortress. He looked into that man's eyes and knew that if he did anything wrong, that man would kill him right there and then. Fearing for his life, Harry nodded desperately in agreement and begged the man to let go of his throat.
 
