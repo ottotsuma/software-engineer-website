@@ -332,18 +332,22 @@ export const HitoriStory = {
         <Hitori>
             Theirs was a group of seven, 5 students with rank E and 2 with rank D. The rank D's were Utano and Hotaru. While this was their rank they could achieve in the future, it was usually also a good indicator of their combat capabilities. Hotaru and Utano were both mages, Hotaru fought up close with Chokutō blade in one hand and small Kabutowari blade in the other, Utano used a wand from behind. The group also had two fighters who used bows and four who used melee weapons.
         </Hitori>
-        <Hitori>
-
-        </Hitori>
-        {/* Wendy = Utano, Harry = Hotaru */}
-
-"Where are the monsters?" Amy asked a little nervously as she held the sword in her hand.
-
-"I don't know. Just because I wanted to kill some of them, did they decide to hide?" said a boy who held a large shield.
-
-"They were probably scared when they felt our strength, especially Harry's strength," said the girl who flattered Harry before entering the portal. She carried a bow in one hand.
-
-"They are just Rank F monsters, did you really think they would have the courage to appear in front of us? Why don't we go straight to the Gangikozō King room and kill him right away? I can't stand the smell anymore!" said Harry, shortly before holding back from retching for the fifth time.
+        <p>
+            "What are these monsters?" Hide shouted nervously, sword in hand.
+        </p>
+        <p>
+            "I don't know. Just keep them back, and kill as many as possible will ya?" said a boy who held a large wooden shield to her right.
+        </p>
+        <p>
+            "Stop getting in the way, you're making me look bad in front of Hotaru!" complained a girl with a short bow trying to shoot though the gaps in their formation.
+        </p>
+        <p>
+            "They are just rank F monsters, it should hardly be a struggle, why do you all keep moving back?" demanded Hotaru, who between casts of manaballs and magic arrows, kept feeling the hot liquid fill his mouth.
+        </p>
+        <p>
+            
+        </p>
+        {/* Wendy = Utano, Harry = Hotaru, amy = Hide */}
 
 "Isn't it too dangerous? Did anyone research the Gangikozō King?" Wendy asked, a little concerned.
 
