@@ -144,7 +144,7 @@ const statList = {
   },
   vitality: {
     name: "Vitality",
-    description: "Increases your health points",
+    description: "Increases your health points.",
     numeric: "Increases HP by 14.5 per point.",
     vague: "Increases your durability.",
     major: "Increased health points.",
