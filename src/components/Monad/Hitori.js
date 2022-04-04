@@ -350,10 +350,13 @@ export const HitoriStory = {
         <p>
             "You just stay away from me." Hotaru commanded holding his hand over his nose.
         </p>
+        <p>
+            
+        </p>
         {/* Wendy = Utano, Harry = Hotaru, amy = Hide */}
-"So, let's g-..." Before Amy could finish the sentence, three Gangikozōs peeked above the water's surface, watching the 7 teenagers.
+"So, let's g-..." Before Hide could finish the sentence, three Gangikozōs peeked above the water's surface, watching the 7 teenagers.
 
-Seeing the three Gangikozōs were each the size of a motorcycle, some of the teenagers finally felt scared. Looking at a pair of eyes the size of two tennis balls, Wendy swallowed hard, imagining the size of these monsters' mouths.
+Seeing the three Gangikozōs were each the size of a pony, some of the teenagers finally felt scared. Looking at a pair of eyes the size of two tennis balls, Utano swallowed hard, imagining the size of these monsters' mouths.
 
 Seeing the humans start to get scared, the Gangikozōs took the opportunity and launched themselves towards their prey. Even though they were outnumbered, the Gangikozōs had much better coordination with each other, thus gradually causing the wounds they inflicted on the adolescents to increase steadily.
 
@@ -362,7 +365,7 @@ At some point during the battle, one of the Gangikozōs bit the ankle of a boy w
 
 Unfortunately, the Gangikozō had already sunk its teeth into the boy's leg and nothing the boy tried to do could make it let go of that leg. The rodent's huge teeth gradually tore through the boy's flesh more and more, smearing it completely with blood.
 
-Harry, feeling his heart racing, also used his own blessing to the fullest and hurled a huge block of ice towards the Gangikozō that had grabbed the boy's leg. But that only made the situation worse, since from the blow, the Gangikozō, still with its mouth clamped into boy, was flung into the river of sewage, carrying the boy with him and leaving a bloody trail of fleshy remains that tore off from the boy's leg. All-the-while the boy's cries of despair echoed through the tunnel.
+Hotaru, feeling his heart racing, also used his own blessing to the fullest and hurled a huge block of ice towards the Gangikozō that had grabbed the boy's leg. But that only made the situation worse, since from the blow, the Gangikozō, still with its mouth clamped into boy, was flung into the river of sewage, carrying the boy with him and leaving a bloody trail of fleshy remains that tore off from the boy's leg. All-the-while the boy's cries of despair echoed through the tunnel.
 
 For a few moments it was possible to hear the boy struggling and asking for help in the water, but after a few seconds, only silence permeated the area.
 
@@ -372,17 +375,17 @@ Having lost a companion, the other 6 teenagers despaired and started to use thei
 
 Sitting in a corner of the sewer, the teenagers no longer even cared about the unpleasant smell of the place. The only thing they wanted now was a comfortable place to rest, a good bed to sleep in, and never to return to this place. But they knew that they could no longer leave without a reason after having entered the fortress, as they signed a contract with the government before entering stating that they would only leave if completion was impossible or they had successfully completed the invasion of the fortress.
 
-"Roy... I can't believe I'm never going to see Roy again..." Amy sighed, as she stopped the tears from falling when she remembered the boy who had been taken by the Gangikozō.
+"Roy... I can't believe I'm never going to see Roy again..." Hide sighed, as she stopped the tears from falling when she remembered the boy who had been taken by the Gangikozō.
 
 "Well, my dad warned me to be careful and prepare for losses... I just didn't think it would happen anytime soon," Said the shield boy.
 
-While they rested and mourned, Wendy used her own blessing to heal the injuries that everyone received during that battle while she cried and blamed herself for not being able to do anything to save Roy.
+While they rested and mourned, Utano used her own blessing to heal the injuries that everyone received during that battle while she cried and blamed herself for not being able to do anything to save Roy.
 
-At some point, a phrase that Amy spoke to her on the bus came to Wendy's mind. "He always manages to slip out alive with one or two members of the invasion team."
+At some point, a phrase that Hide spoke to her on the bus came to Utano's mind. "He always manages to slip out alive with one or two members of the invasion team."
 
-Remembering Noah, Wendy looked around for the Blessed who always came out alive along with someone else, but didn't see him anywhere. She knew that for someone to stay alive for so long in the fortresses oftentimes the person would be the only survivor of the team itself in an invasion. But Noah always left alive with more than one person, so if she stayed with him, she would probably be able stay alive here. But now it was too late; even looking around, she found nothing of him.
+Remembering Noah, Utano looked around for the Blessed who always came out alive along with someone else, but didn't see him anywhere. She knew that for someone to stay alive for so long in the fortresses oftentimes the person would be the only survivor of the team itself in an invasion. But Noah always left alive with more than one person, so if she stayed with him, she would probably be able stay alive here. But now it was too late; even looking around, she found nothing of him.
 
-'If I had gone to talk to him, he could have told me some ways to survive in here. Now, I don't even know if I will be able to get out alive myself, much less with someone else with me.' Wendy thought to herself as she looked at Amy with an angry look, while Amy had no idea why Wendy would be mad with her.
+'If I had gone to talk to him, he could have told me some ways to survive in here. Now, I don't even know if I will be able to get out alive myself, much less with someone else with me.' Utano thought to herself as she looked at Hide with an angry look, while Hide had no idea why Utano would be mad with her.
 
 A few moments ago, the adults reached the teenagers but followed the strategy that Noah had suggested and their leader agreed with: to just remain quiet while watching the fierce battle that the teenagers had. Even when they saw the boy die, they didn't move an inch. Having seen so many people die over the years as Blessed, it hardened their hearts to the point they didn't mind seeing some arrogant children having some difficulty. Many were happy and approved of Noah's idea of ​​letting the teenagers be the bait for them, since now the teenagers had stopped being arrogant, in addition to getting rid of two monsters in the dungeon on their own while the elders watched without injury.
 
@@ -390,15 +393,15 @@ Seeing that the now previous children had become much more humble than when they
 
 However, as his group approached, the scarred man noticed that while the other children were happy to see them coming, their leader got angry and stood up from the floor while shouting, "Why didn't you come to help us?!"
 
-Hearing Harry's question, the scarred man just raised an eyebrow and answered, "Why should have we?"
+Hearing Hotaru's question, the scarred man just raised an eyebrow and answered, "Why should have we?"
 
-Hearing the man's question, Harry was speechless. After all, they were under no obligation to help them, but he also felt bad when he remembered Roy. "We came in here together, so you had to help us!"
+Hearing the man's question, Hotaru was speechless. After all, they were under no obligation to help them, but he also felt bad when he remembered Roy. "We came in here together, so you had to help us!"
 
-Seeing that the boy was already ignoring reason just to blame someone, the man who was not obliged to put up with it walked forward towards Harry until his hand grabbed the boy's throat and lifted him off the floor. "Who do you think you're talking to, boy? If you're feeling bad that your little friend died, do you want me to send you to hell with him? We came here to invite you to join us so that we have a better chance of surviving inside here and killing the Gangikozō King. As we already have 13 people, you will not be missed if an accident were to happen. Do you understand me?" the man asked, as he tightened his grip on the boy's throat.
+Seeing that the boy was already ignoring reason just to blame someone, the man who was not obliged to put up with it walked forward towards Hotaru until his hand grabbed the boy's throat and lifted him off the floor. "Who do you think you're talking to, boy? If you're feeling bad that your little friend died, do you want me to send you to hell with him? We came here to invite you to join us so that we have a better chance of surviving inside here and killing the Gangikozō King. As we already have 13 people, you will not be missed if an accident were to happen. Do you understand me?" the man asked, as he tightened his grip on the boy's throat.
 
-Looking at the man who held him off the floor by the throat, Harry finally felt the fear of death for the second time since entering the fortress. He looked into that man's eyes and knew that if he did anything wrong, that man would kill him right there and then. Fearing for his life, Harry nodded desperately in agreement and begged the man to let go of his throat.
+Looking at the man who held him off the floor by the throat, Hotaru finally felt the fear of death for the second time since entering the fortress. He looked into that man's eyes and knew that if he did anything wrong, that man would kill him right there and then. Fearing for his life, Hotaru nodded desperately in agreement and begged the man to let go of his throat.
 
-Upon falling to the ground, Harry felt completely humiliated while he had to breathe heavily the stinky sewage air. Inside his heart, Harry vowed to take revenge on everyone who was forcing him to go through this.
+Upon falling to the ground, Hotaru felt completely humiliated while he had to breathe heavily the stinky sewage air. Inside his heart, Hotaru vowed to take revenge on everyone who was forcing him to go through this.
     </Content>
   ),
 };
