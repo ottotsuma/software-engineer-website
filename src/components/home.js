@@ -303,7 +303,7 @@ function Home(props) {
                 GitHub
               </AStyled>
             </Linkey>
-            <Linkey>
+            {/* <Linkey>
               <LinkImage
                 onError={imageError}
                 src="https://www.pngfind.com/pngs/m/594-5947621_computer-icons-project-project-plan-black-text-project.png"
@@ -312,7 +312,7 @@ function Home(props) {
               <Link2 onClick={() => updateShow()}>
                 {Language[lang].projects}
               </Link2>
-            </Linkey>
+            </Linkey> */}
             <Linkey>
               <LinkImage
                 onError={imageError}
