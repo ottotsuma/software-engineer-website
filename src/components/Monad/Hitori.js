@@ -345,14 +345,12 @@ export const HitoriStory = {
             "They are just rank F monsters, it should hardly be a struggle, why do you all keep moving back?" demanded Hotaru, who between casts of manaballs and magic arrows, kept feeling the hot liquid fill his mouth.
         </p>
         <p>
-            
+            "Isn't it too dangerous? For F rank I mean, they are really sneaky." Said a bow carrying two swords who had been snuck up on and had his calf bitten into, dragged down though the sewage water before managing to break free with the help of the others.
+        </p>
+        <p>
+            "You just stay away from me." Hotaru commanded holding his hand over his nose.
         </p>
         {/* Wendy = Utano, Harry = Hotaru, amy = Hide */}
-
-"Isn't it too dangerous? Did anyone research the Gangikozō King?" Wendy asked, a little concerned.
-
-"Bah, why research? This is just a Rank F stronghold; we just need to go to the King's room and kill him soon," said a boy carrying a big ax.
-
 "So, let's g-..." Before Amy could finish the sentence, three Gangikozōs peeked above the water's surface, watching the 7 teenagers.
 
 Seeing the three Gangikozōs were each the size of a motorcycle, some of the teenagers finally felt scared. Looking at a pair of eyes the size of two tennis balls, Wendy swallowed hard, imagining the size of these monsters' mouths.
@@ -401,8 +399,6 @@ Seeing that the boy was already ignoring reason just to blame someone, the man w
 Looking at the man who held him off the floor by the throat, Harry finally felt the fear of death for the second time since entering the fortress. He looked into that man's eyes and knew that if he did anything wrong, that man would kill him right there and then. Fearing for his life, Harry nodded desperately in agreement and begged the man to let go of his throat.
 
 Upon falling to the ground, Harry felt completely humiliated while he had to breathe heavily the stinky sewage air. Inside his heart, Harry vowed to take revenge on everyone who was forcing him to go through this.
-
-
     </Content>
   ),
 };

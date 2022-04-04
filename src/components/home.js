@@ -5,6 +5,7 @@ import Cog from "./../assets/cog.png";
 import Munchify from "./../assets/512x512.png";
 import Secret from "./../assets/Group1.png";
 import Food from "./../assets/foodlogo.png";
+// https://pubgnoc.com/
 import Video from "./video";
 import styled, { keyframes } from "styled-components";
 import { useSpring, animated } from "react-spring";
@@ -47,6 +48,14 @@ const Language = {
     RecipesDisc: "空腹感を解消しよう！",
     RecipesTech: "React, PWA, Netlify",
     RecipesTitle: "夫のレシピ",
+    pubDisc: "大会ページ",
+    pubTech: "Gatsby, React-Spring, AWS",
+    pubTitle: "PUBGNOC",
+    pubURL: "https://pubgnoc.com/",
+    DekkiURL: "https://dekki.com/en/",
+    RecipesURL: "https://ottotsumarecipes.netlify.app/",
+    SecretURL: "https://secretbox.netlify.app/",
+    PokeURL: "https://ottotsuma.netlify.app",
   },
   en: {
     Cancel: "Cancel",
@@ -66,12 +75,21 @@ const Language = {
     DekkiDisc: "A community platform for gamers to talk about games they love",
     DekkiTech: "React, Styled-Components, AWS",
     DekkiTitle: "Dekki",
+    DekkiURL: "https://dekki.com/en/",
     SecretDisc: "A safety box for your secrets!",
     SecretTech: "React, NodeJS, MongoDB",
     SecretTitle: "The Secret Box",
     RecipesDisc: "Sort out your hunger!",
     RecipesTech: "React, PWA, Netlify",
     RecipesTitle: "Otto's Recipes",
+    pubDisc: "Tournament page for PUBGNOC",
+    pubURL: "https://pubgnoc.com/",
+    pubTech: "Gatsby, React-Spring, AWS",
+    pubTitle: "Pubgnoc",
+    DekkiURL: "https://dekki.com/en/",
+    RecipesURL: "https://ottotsumarecipes.netlify.app/",
+    SecretURL: "https://secretbox.netlify.app/",
+    PokeURL: "https://ottotsuma.netlify.app",
   },
 };
 
@@ -131,6 +149,11 @@ function Home(props) {
   function updateShowItem5() {
     setShowItem5(!showItem5);
   }
+
+  const [showItem6, setShowItem6] = useState(false);
+  function updateShowItem6() {
+    setShowItem6(!showItem6);
+  }
   // const [toggle, setToggle] = useState(true);
   // setTimeout(() => {
   //   setToggle(false)
@@ -168,6 +191,19 @@ function Home(props) {
           cancel={Language[lang].Cancel}
         />
       )}
+      {showItem6 && (
+        <Modal2
+          title={Language[lang].pubTitle}
+          url={Language[lang].pubURL}
+          insert={
+            Language[lang].pubDisc +
+            "\n Made with: " +
+            Language[lang].pubTech
+          }
+          close={updateShowItem6}
+          cancel={Language[lang].Cancel}
+        />
+      )}
       {showItem2 && (
         <Modal2
           title={Language[lang].CGPCTitle}
@@ -181,6 +217,7 @@ function Home(props) {
       {showItem3 && (
         <Modal2
           title={Language[lang].DekkiTitle}
+          url={Language[lang].DekkiURL}
           insert={
             Language[lang].DekkiDisc +
             "\n Made with: " +
@@ -193,6 +230,7 @@ function Home(props) {
       {showItem4 && (
         <Modal2
           title={Language[lang].SecretTitle}
+          url={Language[lang].SecretURL}
           insert={
             Language[lang].SecretDisc +
             "\n Made with: " +
@@ -205,6 +243,7 @@ function Home(props) {
       {showItem5 && (
         <Modal2
           title={Language[lang].RecipesTitle}
+          url={Language[lang].RecipesURL}
           insert={
             Language[lang].RecipesDisc +
             "\n Made with: " +
@@ -317,6 +356,14 @@ function Home(props) {
             }
             alt="LJL"
             onClick={() => updateShowItem2()}
+          />
+            <HomeImage
+            onError={imageError}
+            src={
+              "https://pubgnoc.com/static/53b73d6ef9cc0945598a9e490e0d4c22/ed7f8/NOClogo_220119ver-04.png"
+            }
+            alt="pubgnoc"
+            onClick={() => updateShowItem6()}
           />
           <HomeImage
             onError={imageError}
