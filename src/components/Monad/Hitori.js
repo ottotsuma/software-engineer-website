@@ -351,23 +351,12 @@ export const HitoriStory = {
             "You just stay away from me." Hotaru commanded holding his hand over his nose.
         </p>
         <p>
-            
+            Just as they were talking casually while fighting, the pace of the fight quickly changed when the boy with two swords stumbled from his injuries. He was bitten again, on the arm this time, Hotaru tried to help by shooting a manaball in the Gangikozōs direction, only to blind the swordsman. Quickly, a scream of despair echoed off the walls though the tunnel, letting us know we had to hurry. The boy was being dragged down into the sewage again.
         </p>
+        <Hitori>
+            For a few moments we could hear the boys struggles, sloshing the water about, pleading for help, by the time we arrived to the teenagers we could not see him.
+        </Hitori>
         {/* Wendy = Utano, Harry = Hotaru, amy = Hide */}
-"So, let's g-..." Before Hide could finish the sentence, three Gangikozōs peeked above the water's surface, watching the 7 teenagers.
-
-Seeing the three Gangikozōs were each the size of a pony, some of the teenagers finally felt scared. Looking at a pair of eyes the size of two tennis balls, Utano swallowed hard, imagining the size of these monsters' mouths.
-
-Seeing the humans start to get scared, the Gangikozōs took the opportunity and launched themselves towards their prey. Even though they were outnumbered, the Gangikozōs had much better coordination with each other, thus gradually causing the wounds they inflicted on the adolescents to increase steadily.
-
-At some point during the battle, one of the Gangikozōs bit the ankle of a boy who carried two swords, and feeling the extraordinary pain in his own leg, instinctively the boy let go of his own weapons and used his Blessing to the fullest, allowing him to become much faster and more agile than that he was previously.
-
-
-Unfortunately, the Gangikozō had already sunk its teeth into the boy's leg and nothing the boy tried to do could make it let go of that leg. The rodent's huge teeth gradually tore through the boy's flesh more and more, smearing it completely with blood.
-
-Hotaru, feeling his heart racing, also used his own blessing to the fullest and hurled a huge block of ice towards the Gangikozō that had grabbed the boy's leg. But that only made the situation worse, since from the blow, the Gangikozō, still with its mouth clamped into boy, was flung into the river of sewage, carrying the boy with him and leaving a bloody trail of fleshy remains that tore off from the boy's leg. All-the-while the boy's cries of despair echoed through the tunnel.
-
-For a few moments it was possible to hear the boy struggling and asking for help in the water, but after a few seconds, only silence permeated the area.
 
 At that time, all the teenagers in the group knew they had messed up when they came alone. They thought they could kill the monsters however they pleased because they were blessed with rank E and D Blessings, but life showed them that the only certainty anyone can have is that one day he will die. Otherwise, everything is uncertain.
 
