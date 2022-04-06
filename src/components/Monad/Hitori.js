@@ -358,7 +358,7 @@ export const HitoriStory = {
         </Hitori>
         <Hitori>
             Having lost a companion, the other six despaired and started to spam their skills and spells at the remaining Gangikozōs until we had caught up to them and joined in the battle, causing it to end quickly.
-        </Hitori>
+        </Hitori> 
         {/* Wendy = Utano, Harry = Hotaru, amy = Hide */}
 Sitting in a corner of the sewer, the teenagers no longer even cared about the unpleasant smell of the place. The only thing they wanted now was a comfortable place to rest, a good bed to sleep in, and never to return to this place. But they knew that they could no longer leave without a reason after having entered the fortress, as they signed a contract with the government before entering stating that they would only leave if completion was impossible or they had successfully completed the invasion of the fortress.
 
