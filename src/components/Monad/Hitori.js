@@ -359,8 +359,11 @@ export const HitoriStory = {
         <Hitori>
             Having lost a companion, the other six despaired and started to spam their skills and spells at the remaining Gangikozōs until we had caught up to them and joined in the battle, causing it to end quickly.
         </Hitori> 
+        <Hitori>
+            Over ten minutes later in a corner of the sewer, the teenagers no longer even cared about the unpleasant smell of the place. The only thing they wanted now was a comfortable place to rest, a good bed to sleep in, and never to return to this place. They could no longer leave however, without a reason after having entered the dungeon, everyone who joined one of these groups was required to pay with materials from the dungeon or equivalent worth. For school students with little or no backing there was no way they could afford it.
+        </Hitori>
         {/* Wendy = Utano, Harry = Hotaru, amy = Hide */}
-Sitting in a corner of the sewer, the teenagers no longer even cared about the unpleasant smell of the place. The only thing they wanted now was a comfortable place to rest, a good bed to sleep in, and never to return to this place. But they knew that they could no longer leave without a reason after having entered the fortress, as they signed a contract with the government before entering stating that they would only leave if completion was impossible or they had successfully completed the invasion of the fortress.
+
 
 "Roy... I can't believe I'm never going to see Roy again..." Hide sighed, as she stopped the tears from falling when she remembered the boy who had been taken by the Gangikozō.
 
@@ -386,7 +389,7 @@ Hearing the man's question, Hotaru was speechless. After all, they were under no
 
 Seeing that the boy was already ignoring reason just to blame someone, the man who was not obliged to put up with it walked forward towards Hotaru until his hand grabbed the boy's throat and lifted him off the floor. "Who do you think you're talking to, boy? If you're feeling bad that your little friend died, do you want me to send you to hell with him? We came here to invite you to join us so that we have a better chance of surviving inside here and killing the Gangikozō King. As we already have 13 people, you will not be missed if an accident were to happen. Do you understand me?" the man asked, as he tightened his grip on the boy's throat.
 
-Looking at the man who held him off the floor by the throat, Hotaru finally felt the fear of death for the second time since entering the fortress. He looked into that man's eyes and knew that if he did anything wrong, that man would kill him right there and then. Fearing for his life, Hotaru nodded desperately in agreement and begged the man to let go of his throat.
+Looking at the man who held him off the floor by the throat, Hotaru finally felt the fear of death for the second time since entering the dungeon. He looked into that man's eyes and knew that if he did anything wrong, that man would kill him right there and then. Fearing for his life, Hotaru nodded desperately in agreement and begged the man to let go of his throat.
 
 Upon falling to the ground, Hotaru felt completely humiliated while he had to breathe heavily the stinky sewage air. Inside his heart, Hotaru vowed to take revenge on everyone who was forcing him to go through this.
     </Content>
