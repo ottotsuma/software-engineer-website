@@ -356,13 +356,10 @@ export const HitoriStory = {
         <Hitori>
             For a few moments we could hear the boys struggles, sloshing the water about, pleading for help, by the time we arrived to the teenagers we could not see him. All the teenagers in the group must of known that they had messed up when they came alone, this time was unusual though, if we had known it would of been like this I am sure the one-eyed woman would of bullied them into staying in a larger group from the start.
         </Hitori>
-        <Hitori></Hitori>
+        <Hitori>
+            Having lost a companion, the other six despaired and started to spam their skills and spells at the remaining Gangikozōs until we had caught up to them and joined in the battle, causing it to end quickly.
+        </Hitori>
         {/* Wendy = Utano, Harry = Hotaru, amy = Hide */}
-
-At that time,  They thought they could kill the monsters however they pleased because they were blessed with rank E and D Blessings, but life showed them that the only certainty anyone can have is that one day he will die. Otherwise, everything is uncertain.
-
-Having lost a companion, the other 6 teenagers despaired and started to use their Blessing skills nonstop on the remaining two Gangikozōs until the Gangikozōs could no longer stand and died.
-
 Sitting in a corner of the sewer, the teenagers no longer even cared about the unpleasant smell of the place. The only thing they wanted now was a comfortable place to rest, a good bed to sleep in, and never to return to this place. But they knew that they could no longer leave without a reason after having entered the fortress, as they signed a contract with the government before entering stating that they would only leave if completion was impossible or they had successfully completed the invasion of the fortress.
 
 "Roy... I can't believe I'm never going to see Roy again..." Hide sighed, as she stopped the tears from falling when she remembered the boy who had been taken by the Gangikozō.
