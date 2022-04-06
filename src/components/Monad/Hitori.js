@@ -354,11 +354,12 @@ export const HitoriStory = {
             Just as they were talking casually while fighting, the pace of the fight quickly changed when the boy with two swords stumbled from his injuries. He was bitten again, on the arm this time, Hotaru tried to help by shooting a manaball in the Gangikozōs direction, only to blind the swordsman. Quickly, a scream of despair echoed off the walls though the tunnel, letting us know we had to hurry. The boy was being dragged down into the sewage again.
         </p>
         <Hitori>
-            For a few moments we could hear the boys struggles, sloshing the water about, pleading for help, by the time we arrived to the teenagers we could not see him.
+            For a few moments we could hear the boys struggles, sloshing the water about, pleading for help, by the time we arrived to the teenagers we could not see him. All the teenagers in the group must of known that they had messed up when they came alone, this time was unusual though, if we had known it would of been like this I am sure the one-eyed woman would of bullied them into staying in a larger group from the start.
         </Hitori>
+        <Hitori></Hitori>
         {/* Wendy = Utano, Harry = Hotaru, amy = Hide */}
 
-At that time, all the teenagers in the group knew they had messed up when they came alone. They thought they could kill the monsters however they pleased because they were blessed with rank E and D Blessings, but life showed them that the only certainty anyone can have is that one day he will die. Otherwise, everything is uncertain.
+At that time,  They thought they could kill the monsters however they pleased because they were blessed with rank E and D Blessings, but life showed them that the only certainty anyone can have is that one day he will die. Otherwise, everything is uncertain.
 
 Having lost a companion, the other 6 teenagers despaired and started to use their Blessing skills nonstop on the remaining two Gangikozōs until the Gangikozōs could no longer stand and died.
 
