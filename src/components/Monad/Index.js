@@ -291,21 +291,14 @@ export default function Monad(params) {
                   icon={faFont}
                 /></button></Sticky>
         <LinkStyled to="/">Home</LinkStyled>
-        <Buttons
+        <ButtonStyled
           darkMode={darkMode}
           onClick={() => updateDarkMode()}
           id="darkMode"
-          style={{
-            background: "none",
-            border: "none",
-            cursor: "pointer",
-            outline: "none",
-            height: "48px",
-            padding: 0,
-          }}
+
         >
           {darkMode ? 'Toggle Light Mode' : 'Toggle Dark Mode'}
-        </Buttons>
+        </ButtonStyled>
         {"speechSynthesis" in window && (
           <div className="buttons">
             <Buttons
@@ -357,14 +350,13 @@ export default function Monad(params) {
             ></Buttons>
           </div>
         )}
-        <Link
-          className="Footer-Button"
+        <LinkStyled
           id="Previous"
           onClick={() => PreviousPage()}
           to={"/Monad/" + (number - 1)}
         >
           Previous
-        </Link>
+        </LinkStyled>
         {/* <div className="dropdown">
           <button onClick={() => myFunction()} className="dropbtn">
             Dropdown
@@ -382,14 +374,13 @@ export default function Monad(params) {
           </div>
         </div>
         <StyledArticle size={sizeState} darkMode={darkMode}>{isPage}</StyledArticle>
-        <Link
-          className="Footer-Button"
+        <LinkStyled
           id="Previous"
           onClick={() => PreviousPage()}
           to={"/Monad/" + (number - 1)}
         >
           Previous
-        </Link>
+        </LinkStyled>
         <button className="Footer-Button" onClick={() => scrollTop()}>
           Top
         </button>
@@ -402,21 +393,13 @@ export default function Monad(params) {
                   icon={faFont}
                 /></button></Sticky>
                 <LinkStyled to="/">Home</LinkStyled>
-        <Buttons
+        <ButtonStyled
           darkMode={darkMode}
           onClick={() => updateDarkMode()}
           id="darkMode"
-          style={{
-            background: "none",
-            border: "none",
-            cursor: "pointer",
-            outline: "none",
-            height: "48px",
-            padding: 0,
-          }}
         >
           {darkMode ? 'Toggle Light Mode' : 'Toggle Dark Mode'}
-        </Buttons>
+        </ButtonStyled>
         {"speechSynthesis" in window && (
           <div className="buttons">
             <Buttons
@@ -468,14 +451,13 @@ export default function Monad(params) {
             ></Buttons>
           </div>
         )}
-        <Link
-          className="Footer-Button"
+        <LinkStyled
           id="Previous"
           onClick={() => PreviousPage()}
           to={"/Monad/" + (number - 1)}
         >
           Previous
-        </Link>
+        </LinkStyled>
         <div className="dropdown">
           <ButtonStyled onClick={() => myFunction()} className="">
             Monad
@@ -492,33 +474,30 @@ export default function Monad(params) {
             {droppy()}
           </div>
         </div> */}
-        <Link
-          className="Footer-Button"
+        <LinkStyled
           to={"/Monad/" + (number + 1)}
           onClick={() => NextPage()}
         >
           Next
-        </Link>
+        </LinkStyled>
         <StyledArticle size={sizeState} darkMode={darkMode}>{isPage}</StyledArticle>
-        <Link
-          className="Footer-Button"
+        <LinkStyled
           id="Previous"
           onClick={() => PreviousPage()}
           to={"/Monad/" + (number - 1)}
         >
           Previous
-        </Link>
+        </LinkStyled>
 
         <button className="Footer-Button" onClick={() => scrollTop()}>
           Top
         </button>
-        <Link
-          className="Footer-Button"
+        <LinkStyled
           to={"/Monad/" + (number + 1)}
           onClick={() => NextPage()}
         >
           Next
-        </Link>
+        </LinkStyled>
       </ChapterContainer>
     );
   } else {
@@ -528,21 +507,14 @@ export default function Monad(params) {
                   icon={faFont}
                 /></button></Sticky>
                 <LinkStyled to="/">Home</LinkStyled>
-        <Buttons
+        <ButtonStyled
           darkMode={darkMode}
           onClick={() => updateDarkMode()}
           id="darkMode"
-          style={{
-            background: "none",
-            border: "none",
-            cursor: "pointer",
-            outline: "none",
-            height: "48px",
-            padding: 0,
-          }}
+
         >
           {darkMode ? 'Toggle Light Mode' : 'Toggle Dark Mode'}
-        </Buttons>
+        </ButtonStyled>
         {"speechSynthesis" in window && (
           <div className="buttons">
             <Buttons
@@ -610,24 +582,22 @@ export default function Monad(params) {
             {droppy()}
           </div>
         </div>
-        <Link
-          className="Footer-Button"
+        <LinkStyled
           to={"/Monad/" + (number + 1)}
           onClick={() => NextPage()}
         >
           Next
-        </Link>
+        </LinkStyled>
         <StyledArticle size={sizeState} darkMode={darkMode}>{isPage}</StyledArticle>
         <button className="Footer-Button" onClick={() => scrollTop()}>
           Top
         </button>
-        <Link
-          className="Footer-Button"
+        <LinkStyled
           to={"/Monad/" + (number + 1)}
           onClick={() => NextPage()}
         >
           Next
-        </Link>
+        </LinkStyled>
       </ChapterContainer>
     );
   }
@@ -635,33 +605,45 @@ export default function Monad(params) {
 //  export default Monad;
 
 const ButtonStyled = styled.button`
-background: none!important;
-border: none;
-padding: 0!important;
-/*input has OS specific font-family*/
-text-decoration: underline;
+padding: 0 1.5rem;
+border-radius: 2rem;
+background: linear-gradient(
+  217deg,
+  rgb(218, 182, 111),
+  rgb(244, 229, 203) 70.71%
+);
+border-color: #512c2e;
+border-style: solid;
+border-width: 2px;
+font-size: large;
+color: black;
 cursor: pointer;
-font-size: 16px;
 
-color: white;
+font-family: "Yusei Magic", sans-serif;
 &:hover {
-    color: orange;
+  color: ${colors.red};
+  background ${colors.blue};
 }
 `;
 
 const LinkStyled = styled(Link)`
-background: none!important;
-border: none;
-padding: 0!important;
-/*input has OS specific font-family*/
-text-decoration: underline;
+padding: 0 1.5rem;
+border-radius: 2rem;
+background: linear-gradient(
+  217deg,
+  rgb(218, 182, 111),
+  rgb(244, 229, 203) 70.71%
+);
+border-color: #512c2e;
+border-style: solid;
+border-width: 2px;
+font-size: large;
+color: black;
 cursor: pointer;
-font-size: 16px;
 
-
-margin-right: 20px;
-color: white;
+font-family: "Yusei Magic", sans-serif;
 &:hover {
-    color: orange;
+  color: ${colors.red};
+  background ${colors.blue};
 }
 `;
