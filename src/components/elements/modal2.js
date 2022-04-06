@@ -36,7 +36,7 @@ function Modal2(props) {
             <Modal style={springProps} className='dynamicWidth' data-width='0'>
                 {props.title ? <h1>{props.title}</h1> : <div></div>}
                 {props.insert}
-                {props.url ? <a style={{color: 'white'}} href={props.url}>{props.url}</a> : <div></div>}
+                {props.url ? <a target="_blank" rel="noopener noreferrer" style={{color: 'white'}} href={props.url}>{props.url}</a> : <div></div>}
                 {props.close ? <Button onClick={() => props.close()}>{props.cancel || 'Cancel'}</Button> : <Button onClick={() => reject()}>{props.cancel || 'Cancel'}</Button>}
             </Modal>
         </Wrapper>
