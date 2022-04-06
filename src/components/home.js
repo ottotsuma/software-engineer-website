@@ -19,6 +19,8 @@ import Spin from "./spinn";
 
 import { imageError } from "./color";
 
+import {myFunction, droppy} from './Monad/Index'
+
 // Embed video player of your youtube video!
 const YouTubeUrl = "https://www.youtube.com/embed/m86uLnh7OfU";
 // 「保存」、「登録」、「完了」、「キャンセル」
@@ -341,6 +343,14 @@ function Home(props) {
                 {Language[lang].tech}
               </Link2>
             </Linkey>
+            <Linkey>
+            <LinkImage src={'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Font_Awesome_5_solid_book.svg/896px-Font_Awesome_5_solid_book.svg.png'} alt=" " />
+            <Anchor to="/Monad/1">
+            <p>
+              {'Monad'}
+            </p>
+          </Anchor>
+        </Linkey>
           </List>
           <Anchor2 to="/Blackjack">
             <p to="/Blackjack" style={{ color: "white" }}>
@@ -556,6 +566,19 @@ const LinkStyled = styled(Link)`
   &:hover {
     background: #2ca8ff;
   }
+`;
+const Anchor = styled(Link)`
+  // fake link!
+  color: black;
+  // background: #0d89eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  &:hover {
+    background: #2ca8ff;
+  }
+  text-decoration: underline;
 `;
 
 const Anchor2 = styled(Link)`

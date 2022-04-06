@@ -15,7 +15,7 @@ function App() {
     <>
     <Main>
             <BrowserRouter>
-                <Nav />
+                {/* <Nav /> */}
                 <Route path="/" component={Home} exact />
                 <Route path="/story" component={Story} />
                 {/* <Route path="/tech" component={tech} /> */}

@@ -290,6 +290,7 @@ export default function Monad(params) {
                 <Sticky open={sizeOpen}><div style={{display: sizeOpen ? 'flex' : 'none', flexDirection: 'column'}}>{sizeArray}</div><button onClick={()=>setSizeOpen(!sizeOpen)}><FontAwesomeIcon
                   icon={faFont}
                 /></button></Sticky>
+        <LinkStyled to="/">Home</LinkStyled>
         <Buttons
           darkMode={darkMode}
           onClick={() => updateDarkMode()}
@@ -303,7 +304,7 @@ export default function Monad(params) {
             padding: 0,
           }}
         >
-          Toggle Dark Mode
+          {darkMode ? 'Toggle Light Mode' : 'Toggle Dark Mode'}
         </Buttons>
         {"speechSynthesis" in window && (
           <div className="buttons">
@@ -372,6 +373,14 @@ export default function Monad(params) {
             {droppy()}
           </div>
         </div> */}
+        <div className="dropdown">
+          <ButtonStyled onClick={() => myFunction()} className="">
+            Monad
+          </ButtonStyled>
+          <div id="myDropdown" className="dropdown-content">
+            {droppy()}
+          </div>
+        </div>
         <StyledArticle size={sizeState} darkMode={darkMode}>{isPage}</StyledArticle>
         <Link
           className="Footer-Button"
@@ -392,6 +401,7 @@ export default function Monad(params) {
         <Sticky open={sizeOpen}><div style={{display: sizeOpen ? 'flex' : 'none', flexDirection: 'column'}}>{sizeArray}</div><button onClick={()=>setSizeOpen(!sizeOpen)}><FontAwesomeIcon
                   icon={faFont}
                 /></button></Sticky>
+                <LinkStyled to="/">Home</LinkStyled>
         <Buttons
           darkMode={darkMode}
           onClick={() => updateDarkMode()}
@@ -405,7 +415,7 @@ export default function Monad(params) {
             padding: 0,
           }}
         >
-          Toggle Dark Mode
+          {darkMode ? 'Toggle Light Mode' : 'Toggle Dark Mode'}
         </Buttons>
         {"speechSynthesis" in window && (
           <div className="buttons">
@@ -466,6 +476,14 @@ export default function Monad(params) {
         >
           Previous
         </Link>
+        <div className="dropdown">
+          <ButtonStyled onClick={() => myFunction()} className="">
+            Monad
+          </ButtonStyled>
+          <div id="myDropdown" className="dropdown-content">
+            {droppy()}
+          </div>
+        </div>
         {/* <div className="dropdown">
           <button onClick={() => myFunction()} className="dropbtn">
             Dropdown
@@ -509,6 +527,7 @@ export default function Monad(params) {
                 <Sticky open={sizeOpen}><div style={{display: sizeOpen ? 'flex' : 'none', flexDirection: 'column'}}>{sizeArray}</div><button onClick={()=>setSizeOpen(!sizeOpen)}><FontAwesomeIcon
                   icon={faFont}
                 /></button></Sticky>
+                <LinkStyled to="/">Home</LinkStyled>
         <Buttons
           darkMode={darkMode}
           onClick={() => updateDarkMode()}
@@ -522,7 +541,7 @@ export default function Monad(params) {
             padding: 0,
           }}
         >
-          Toggle Dark Mode
+          {darkMode ? 'Toggle Light Mode' : 'Toggle Dark Mode'}
         </Buttons>
         {"speechSynthesis" in window && (
           <div className="buttons">
@@ -583,6 +602,14 @@ export default function Monad(params) {
             {droppy()}
           </div>
         </div> */}
+        <div className="dropdown">
+          <ButtonStyled onClick={() => myFunction()} className="">
+            Monad
+          </ButtonStyled>
+          <div id="myDropdown" className="dropdown-content">
+            {droppy()}
+          </div>
+        </div>
         <Link
           className="Footer-Button"
           to={"/Monad/" + (number + 1)}
@@ -606,3 +633,35 @@ export default function Monad(params) {
   }
 }
 //  export default Monad;
+
+const ButtonStyled = styled.button`
+background: none!important;
+border: none;
+padding: 0!important;
+/*input has OS specific font-family*/
+text-decoration: underline;
+cursor: pointer;
+font-size: 16px;
+
+color: white;
+&:hover {
+    color: orange;
+}
+`;
+
+const LinkStyled = styled(Link)`
+background: none!important;
+border: none;
+padding: 0!important;
+/*input has OS specific font-family*/
+text-decoration: underline;
+cursor: pointer;
+font-size: 16px;
+
+
+margin-right: 20px;
+color: white;
+&:hover {
+    color: orange;
+}
+`;
