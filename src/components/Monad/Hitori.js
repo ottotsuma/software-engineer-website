@@ -362,9 +362,10 @@ export const HitoriStory = {
         <Hitori>
             Over ten minutes later in a corner of the sewer, the teenagers no longer even cared about the unpleasant smell of the place. The only thing they wanted now was a comfortable place to rest, a good bed to sleep in, and never to return to this place. They could no longer leave however, without a reason after having entered the dungeon, everyone who joined one of these groups was required to pay with materials from the dungeon or equivalent worth. For school students with little or no backing there was no way they could afford it.
         </Hitori>
+        <Hitori>
+            
+        </Hitori>
         {/* Wendy = Utano, Harry = Hotaru, amy = Hide */}
-
-
 "Roy... I can't believe I'm never going to see Roy again..." Hide sighed, as she stopped the tears from falling when she remembered the boy who had been taken by the Gangikozō.
 
 "Well, my dad warned me to be careful and prepare for losses... I just didn't think it would happen anytime soon," Said the shield boy.
