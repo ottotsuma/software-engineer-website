@@ -363,12 +363,9 @@ export const HitoriStory = {
             Over ten minutes later in a corner of the sewer, the teenagers no longer even cared about the unpleasant smell of the place. The only thing they wanted now was a comfortable place to rest, a good bed to sleep in, and never to return to this place. They could no longer leave however, without a reason after having entered the dungeon, everyone who joined one of these groups was required to pay with materials from the dungeon or equivalent worth. For school students with little or no backing there was no way they could afford it.
         </Hitori>
         <Hitori>
-            Hide was still sobbing over her dead friend.
+            Hide was still sobbing over her dead friend. Utano used her healing spell on some of the teenagers who had received more minor injuries.
         </Hitori>
         {/* Wendy = Utano, Harry = Hotaru, amy = Hide */}
-
-While they rested and mourned, Utano used her own blessing to heal the injuries that everyone received during that battle while she cried and blamed herself for not being able to do anything to save Roy.
-
 At some point, a phrase that Hide spoke to her on the bus came to Utano's mind. "He always manages to slip out alive with one or two members of the invasion team."
 
 Remembering Noah, Utano looked around for the Blessed who always came out alive along with someone else, but didn't see him anywhere. She knew that for someone to stay alive for so long in the fortresses oftentimes the person would be the only survivor of the team itself in an invasion. But Noah always left alive with more than one person, so if she stayed with him, she would probably be able stay alive here. But now it was too late; even looking around, she found nothing of him.
