@@ -366,14 +366,6 @@ export const HitoriStory = {
             Hide was still sobbing over her dead friend. Utano used her healing spell on some of the teenagers who had received more minor injuries.
         </Hitori>
         {/* Wendy = Utano, Harry = Hotaru, amy = Hide */}
-At some point, a phrase that Hide spoke to her on the bus came to Utano's mind. "He always manages to slip out alive with one or two members of the invasion team."
-
-Remembering Noah, Utano looked around for the Blessed who always came out alive along with someone else, but didn't see him anywhere. She knew that for someone to stay alive for so long in the fortresses oftentimes the person would be the only survivor of the team itself in an invasion. But Noah always left alive with more than one person, so if she stayed with him, she would probably be able stay alive here. But now it was too late; even looking around, she found nothing of him.
-
-'If I had gone to talk to him, he could have told me some ways to survive in here. Now, I don't even know if I will be able to get out alive myself, much less with someone else with me.' Utano thought to herself as she looked at Hide with an angry look, while Hide had no idea why Utano would be mad with her.
-
-A few moments ago, the adults reached the teenagers but followed the strategy that Noah had suggested and their leader agreed with: to just remain quiet while watching the fierce battle that the teenagers had. Even when they saw the boy die, they didn't move an inch. Having seen so many people die over the years as Blessed, it hardened their hearts to the point they didn't mind seeing some arrogant children having some difficulty. Many were happy and approved of Noah's idea of ​​letting the teenagers be the bait for them, since now the teenagers had stopped being arrogant, in addition to getting rid of two monsters in the dungeon on their own while the elders watched without injury.
-
 Seeing that the now previous children had become much more humble than when they arrived, the scarred man made the decision to unite the two groups so that they would be more likely to kill the Gangikozō King, since if he were to fight with only the group of 8 people who he had, it would be a very difficult battle. He had noticed something strange this time about the Gangikozōs, but did not quite remedy yet what it was...
 
 However, as his group approached, the scarred man noticed that while the other children were happy to see them coming, their leader got angry and stood up from the floor while shouting, "Why didn't you come to help us?!"

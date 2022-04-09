@@ -5,7 +5,7 @@ Re-Write all early story to have 1 - 9 being mage, no element and at level 10 yo
 Ibn Battuta - Legendary quest.
 
 # Random Ideas:
-
+Aberforth the goat fucker.
 Have one of each of the charters gather for something bigger.
 
 Vampire healing, Healing spells that can heal people or debuff. Giving the healers options to attack. Heals that deal a set amount of healing to a group, targeting the lowest HP first.
