@@ -682,12 +682,15 @@ function Intro(props) {
       </Chu>
       <Kaja>
         "But still, it would be silly to fight each other, with so many others
-        after us it would be better if we worked together." I stated.
+        after us." I stated.
       </Kaja>
-      <Chu>"Exactly my thoughts." He replied.</Chu>
+      <Chu>"Exactly my thoughts. Do you want to work together?" He replied.</Chu>
       <Kaja>
-        
+        I paused for a moment, its not like he personally had done anything wrong. However life repeats itself at times, he might be a good person, but is it worth taking the risk just to be betrayed. I guess my silence gave away my answer as he quickly recovered and replied on my behalf.
       </Kaja>
+      <Chu>
+        "Don't trust me huh? I guess that's fair we have only met once before." He said.
+      </Chu>
       {KajaStats(35)}
       {/* Chu-gong */}
       {/* Moving from the pond to conflict with Garin & co. Chu 'dies' and Kaja runs towards Otto. */}

@@ -145,11 +145,10 @@ function Intro(props) {
         ones who put us in this situation then play their game." He responded
         putting the meat on sticks over a pile of wood.
       </p>
-      <p>
+      <Kaja>
         I still had the flame playing around in the palm of my hand. I threw it
         in his direction, onto the pile of wood, which started a fire.
-      </p>
-      <p></p>
+      </Kaja>
       {/* Otto Vs Morons */}
       {/* Living in the farm */}
       {/* Last of the morons */}
