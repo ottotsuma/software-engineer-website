@@ -695,7 +695,7 @@ function Intro(props) {
         "It's not that you have done anything wrong. Just. Like you said, right now is not the time for trust." I replied slowly.
       </Kaja>
       <Chu>
-        
+        "I understand."
       </Chu>
       {KajaStats(35)}
       {/* Chu-gong */}
