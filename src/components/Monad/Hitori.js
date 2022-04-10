@@ -228,14 +228,18 @@ export const HitoriStory = {
       </Hitori>
       <Hitori>
         Looking back at the one-eyed woman, I calmly replied. "This dungeon is
-        the home of the Gangikozō King. Gangikozōs are hairy, monkey-like water spirits which usually inhabit rivers. Their most notable features are their webbed hands and toes, and their long teeth which are sharp and jagged like files. Inside there is a huge maze of tunnels,
-        with Gangikozōs the size of ponies roaming within. Most probably, the overly
+        the home of the Gangikozō King. Gangikozōs are hairy, monkey-like water
+        spirits which usually inhabit rivers. Their most notable features are
+        their webbed hands and toes, and their long teeth which are sharp and
+        jagged like files. Inside there is a huge maze of tunnels, with
+        Gangikozōs the size of ponies roaming within. Most probably, the overly
         confident teenagers will end up walking around aimlessly inside. Since
-        the Gangikozōs' sense of smell is very acute, we have practically gained an
-        incredible number of 7 lures to use. Honestly, for me, we can use those
-        7 to attract as many Gangikozōs as possible and end their numbers little by
-        little, since if we go to fight the Gangikozō King with a lot of Gangikozōs still
-        living, when he goes into berserk mode we will be killed."
+        the Gangikozōs' sense of smell is very acute, we have practically gained
+        an incredible number of 7 lures to use. Honestly, for me, we can use
+        those 7 to attract as many Gangikozōs as possible and end their numbers
+        little by little, since if we go to fight the Gangikozō King with a lot
+        of Gangikozōs still living, when he goes into berserk mode we will be
+        killed."
       </Hitori>
       <Hitori>
         Those who had not fought along side be before seemed surprised by my
@@ -270,13 +274,14 @@ export const HitoriStory = {
       </Hitori>
       <Hitori>
         "Are you short a few marbles?" asked the woman with one-eye. "The most
-        striking feature of the King of the Gangikozōs dungeon is the echo that is made
-        in here, even when you cannot see the Gangikozōs you can hear their cackles and scratching. Can you hear anything like that?"
+        striking feature of the King of the Gangikozōs dungeon is the echo that
+        is made in here, even when you cannot see the Gangikozōs you can hear
+        their cackles and scratching. Can you hear anything like that?"
       </Hitori>
       <Hitori>
         Hearing the womans's question, the fat man finally noticed his own folly
-        and realized that the noises he always heard around here was
-        not present this time. "What's happening?" He asked with a little fear.
+        and realized that the noises he always heard around here was not present
+        this time. "What's happening?" He asked with a little fear.
       </Hitori>
       <Hitori>"Something must be wrong." I muttered.</Hitori>
       {/* Farming the resources from the dungeons by sending people in over and over. */}
@@ -284,101 +289,213 @@ export const HitoriStory = {
   ),
   2: (
     <Content style={{ overflowWrap: "anywhere" }}>
-        <Hitori>
-            The sewer was a twisted maze, were the monster Gangikozōs would hound you and wear you down until you found the kings lair. To say that I was not nervous would be a lie. On numerous occasions someone expelled me from the group inside the dungeon because of how weak I was, although this time was different it did not calm me any more so.
-        </Hitori>
-        <Hitori>
-            The eerie silence had us all on edge. Preparing myself mentally, I took the short sword I was given by the school. At some point, in a side passage, a pair of black eyes poked slightly out of the water and began to watch me cautiously. Just as the Gangikozō watched me, I watched him, trying to predict what the Gangikozō would do.
-        </Hitori>
-        <Hitori>
-            'This Gangikozō is watching me… combined with the silence, something is very wrong this time. Usually these monsters just attack without thinking about the consequences, just following their instincts, but not that Gangikozō; he is intentionally watching me and analyzing his opponent.
-        </Hitori>
-        <Hitori>
-            I turned to signal the others in the group, only to notice over my shoulder at some point, somehow, we must of been surrounded. We had kept our eyes pealed and ears open. The Gangikozōs this time around were acting much smarter then the past. My thoughts were soon rudely cut short, the monster jumped out of the water towards me with its teeth open as it let out a loud shrill cry.
-        </Hitori>
-        <Hitori>
-            Only one of us two would make it out alive after this confrontation, while this was not the first monster I had killed, I was far from an expert. Over the past 2 years I had solo killed less monsters then I had fingers. I pointed the sword in it's direction as it lunged towards me.
-        </Hitori>
-        <Hitori>
-            In a split second the monster that was already in the middle of a jump realized that jumping was not the smartest decision it could have made. Since the Gangikozō's size was almost as big as a pony, it was not difficult for I to stab at it.
-        </Hitori>
-        <Hitori>
-            The sword penetrated only 4 cm into the Gangikozō's rib before stopping. I quickly plucked the sword out of the wound, causing the blood to spill out more intensely, as well as doing more damage to the Gangikozō's organs than leaving the sword there.
-        </Hitori>
-        <Hitori>
-            It must of been feeling intense pain in its ribs, because its anger exploded and it launched itself again towards me. Learning from its mistake, this time the Gangikozō did not jump but came running across the floor after me, causing the cut from the sword to continue to grow and more blood to leak.
-        </Hitori>
-        <Hitori>
-            The Gangikozō was visibly more angered, but I knew I couldn't remain that this for long. As the Gangikozō ran towards me, I could sense the danger running though me. I lunged my sword into the side of it's neck as it pushed me down. It's teeth sunk into my collar bone and further, ripping out a merchants amount of flesh.
-        </Hitori>
-        <Hitori>
-            At that point I was not sure who was screaming louder, me or the monster. I pulled down on the sword hard, trying to direct all my pain though my arms, pulling smoothly in places and yanking it over and over in others, until the monsters screaming stopped. It's head half hanging from its body.
-        </Hitori>
-        <Hitori>
-            [+1 Exp]
-        </Hitori>
-        <Hitori>
-            Everyone else was stronger then me, with abilities, they should of faired better then me. I am not sure I could be of any more use at this point. My vision blurred, I did not want to dull the pain, I needed it keep me awake. The worst thing I could do right now is sleep.
-        </Hitori>
-        <Hitori>
-            The first to find me was the woman with one eye. I'm sure my vision was worse then hers right now. She called over the healer in the group, I could not see how, but I could feel a warm, electric, jagged feeling pulse across my body, it focused on the hole in my collar. Soon the feeling came back, like pins and needles across were my flesh had been ripped from me. Like that, I felt my body was renewed, even if my mind was still unsteady.
-        </Hitori>
-        <Hitori>
-            We had to take some time to rest, while the others only had minor injuries, the healer had to use lots of their mana to help me with mine. After our rest we tried to find the teenagers as quickly as possible, the dungeon was stranger then before, they were not longer acting as lures for us to gather up the monsters and finish them off in a pincer of powers but stalking us like prey. It would be better to march in numbers now.
-        </Hitori>
-        <Hitori>
-            The teenagers were not being quiet, not that they were joking around still. The sounds of battle bounced and echoed off the walls of the sewer system. The teenagers, each holding their own weapon, stood in a clearly awkward formation that they learned in class.
-        </Hitori>
-        <Hitori>
-            Theirs was a group of seven, 5 students with rank E and 2 with rank D. The rank D's were Utano and Hotaru. While this was their rank they could achieve in the future, it was usually also a good indicator of their combat capabilities. Hotaru and Utano were both mages, Hotaru fought up close with Chokutō blade in one hand and small Kabutowari blade in the other, Utano used a wand from behind. The group also had two fighters who used bows and four who used melee weapons.
-        </Hitori>
-        <p>
-            "What are these monsters?" Hide shouted nervously, sword in hand.
-        </p>
-        <p>
-            "I don't know. Just keep them back, and kill as many as possible will ya?" said a boy who held a large wooden shield to her right.
-        </p>
-        <p>
-            "Stop getting in the way, you're making me look bad in front of Hotaru!" complained a girl with a short bow trying to shoot though the gaps in their formation.
-        </p>
-        <p>
-            "They are just rank F monsters, it should hardly be a struggle, why do you all keep moving back?" demanded Hotaru, who between casts of manaballs and magic arrows, kept feeling the hot liquid fill his mouth.
-        </p>
-        <p>
-            "Isn't it too dangerous? For F rank I mean, they are really sneaky." Said a bow carrying two swords who had been snuck up on and had his calf bitten into, dragged down though the sewage water before managing to break free with the help of the others.
-        </p>
-        <p>
-            "You just stay away from me." Hotaru commanded holding his hand over his nose.
-        </p>
-        <p>
-            Just as they were talking casually while fighting, the pace of the fight quickly changed when the boy with two swords stumbled from his injuries. He was bitten again, on the arm this time, Hotaru tried to help by shooting a manaball in the Gangikozōs direction, only to blind the swordsman. Quickly, a scream of despair echoed off the walls though the tunnel, letting us know we had to hurry. The boy was being dragged down into the sewage again.
-        </p>
-        <Hitori>
-            For a few moments we could hear the boys struggles, sloshing the water about, pleading for help, by the time we arrived to the teenagers we could not see him. All the teenagers in the group must of known that they had messed up when they came alone, this time was unusual though, if we had known it would of been like this I am sure the one-eyed woman would of bullied them into staying in a larger group from the start.
-        </Hitori>
-        <Hitori>
-            Having lost a companion, the other six despaired and started to spam their skills and spells at the remaining Gangikozōs until we had caught up to them and joined in the battle, causing it to end quickly.
-        </Hitori> 
-        <Hitori>
-            Over ten minutes later in a corner of the sewer, the teenagers no longer even cared about the unpleasant smell of the place. The only thing they wanted now was a comfortable place to rest, a good bed to sleep in, and never to return to this place. They could no longer leave however, without a reason after having entered the dungeon, everyone who joined one of these groups was required to pay with materials from the dungeon or equivalent worth. For school students with little or no backing there was no way they could afford it.
-        </Hitori>
-        <Hitori>
-            Hide was still sobbing over her dead friend. Utano used her healing spell on some of the teenagers who had received more minor injuries.
-        </Hitori>
-        {/* Wendy = Utano, Harry = Hotaru, amy = Hide */}
-Seeing that the now previous children had become much more humble than when they arrived, the scarred man made the decision to unite the two groups so that they would be more likely to kill the Gangikozō King, since if he were to fight with only the group of 8 people who he had, it would be a very difficult battle. He had noticed something strange this time about the Gangikozōs, but did not quite remedy yet what it was...
-
-However, as his group approached, the scarred man noticed that while the other children were happy to see them coming, their leader got angry and stood up from the floor while shouting, "Why didn't you come to help us?!"
-
-Hearing Hotaru's question, the scarred man just raised an eyebrow and answered, "Why should have we?"
-
-Hearing the man's question, Hotaru was speechless. After all, they were under no obligation to help them, but he also felt bad when he remembered Roy. "We came in here together, so you had to help us!"
-
-Seeing that the boy was already ignoring reason just to blame someone, the man who was not obliged to put up with it walked forward towards Hotaru until his hand grabbed the boy's throat and lifted him off the floor. "Who do you think you're talking to, boy? If you're feeling bad that your little friend died, do you want me to send you to hell with him? We came here to invite you to join us so that we have a better chance of surviving inside here and killing the Gangikozō King. As we already have 13 people, you will not be missed if an accident were to happen. Do you understand me?" the man asked, as he tightened his grip on the boy's throat.
-
-Looking at the man who held him off the floor by the throat, Hotaru finally felt the fear of death for the second time since entering the dungeon. He looked into that man's eyes and knew that if he did anything wrong, that man would kill him right there and then. Fearing for his life, Hotaru nodded desperately in agreement and begged the man to let go of his throat.
-
-Upon falling to the ground, Hotaru felt completely humiliated while he had to breathe heavily the stinky sewage air. Inside his heart, Hotaru vowed to take revenge on everyone who was forcing him to go through this.
+      <Hitori>
+        The sewer was a twisted maze, were the monster Gangikozōs would hound
+        you and wear you down until you found the kings lair. To say that I was
+        not nervous would be a lie. On numerous occasions someone expelled me
+        from the group inside the dungeon because of how weak I was, although
+        this time was different it did not calm me any more so.
+      </Hitori>
+      <Hitori>
+        The eerie silence had us all on edge. Preparing myself mentally, I took
+        the short sword I was given by the school. At some point, in a side
+        passage, a pair of black eyes poked slightly out of the water and began
+        to watch me cautiously. Just as the Gangikozō watched me, I watched him,
+        trying to predict what the Gangikozō would do.
+      </Hitori>
+      <Hitori>
+        'This Gangikozō is watching me… combined with the silence, something is
+        very wrong this time. Usually these monsters just attack without
+        thinking about the consequences, just following their instincts, but not
+        that Gangikozō; he is intentionally watching me and analyzing his
+        opponent.
+      </Hitori>
+      <Hitori>
+        I turned to signal the others in the group, only to notice over my
+        shoulder at some point, somehow, we must of been surrounded. We had kept
+        our eyes pealed and ears open. The Gangikozōs this time around were
+        acting much smarter then the past. My thoughts were soon rudely cut
+        short, the monster jumped out of the water towards me with its teeth
+        open as it let out a loud shrill cry.
+      </Hitori>
+      <Hitori>
+        Only one of us two would make it out alive after this confrontation,
+        while this was not the first monster I had killed, I was far from an
+        expert. Over the past 2 years I had solo killed less monsters then I had
+        fingers. I pointed the sword in it's direction as it lunged towards me.
+      </Hitori>
+      <Hitori>
+        In a split second the monster that was already in the middle of a jump
+        realized that jumping was not the smartest decision it could have made.
+        Since the Gangikozō's size was almost as big as a pony, it was not
+        difficult for I to stab at it.
+      </Hitori>
+      <Hitori>
+        The sword penetrated only 4 cm into the Gangikozō's rib before stopping.
+        I quickly plucked the sword out of the wound, causing the blood to spill
+        out more intensely, as well as doing more damage to the Gangikozō's
+        organs than leaving the sword there.
+      </Hitori>
+      <Hitori>
+        It must of been feeling intense pain in its ribs, because its anger
+        exploded and it launched itself again towards me. Learning from its
+        mistake, this time the Gangikozō did not jump but came running across
+        the floor after me, causing the cut from the sword to continue to grow
+        and more blood to leak.
+      </Hitori>
+      <Hitori>
+        The Gangikozō was visibly more angered, but I knew I couldn't remain
+        that this for long. As the Gangikozō ran towards me, I could sense the
+        danger running though me. I lunged my sword into the side of it's neck
+        as it pushed me down. It's teeth sunk into my collar bone and further,
+        ripping out a merchants amount of flesh.
+      </Hitori>
+      <Hitori>
+        At that point I was not sure who was screaming louder, me or the
+        monster. I pulled down on the sword hard, trying to direct all my pain
+        though my arms, pulling smoothly in places and yanking it over and over
+        in others, until the monsters screaming stopped. It's head half hanging
+        from its body.
+      </Hitori>
+      <Hitori>[+1 Exp]</Hitori>
+      <Hitori>
+        Everyone else was stronger then me, with abilities, they should of
+        faired better then me. I am not sure I could be of any more use at this
+        point. My vision blurred, I did not want to dull the pain, I needed it
+        keep me awake. The worst thing I could do right now is sleep.
+      </Hitori>
+      <Hitori>
+        The first to find me was the woman with one eye. I'm sure my vision was
+        worse then hers right now. She called over the healer in the group, I
+        could not see how, but I could feel a warm, electric, jagged feeling
+        pulse across my body, it focused on the hole in my collar. Soon the
+        feeling came back, like pins and needles across were my flesh had been
+        ripped from me. Like that, I felt my body was renewed, even if my mind
+        was still unsteady.
+      </Hitori>
+      <Hitori>
+        We had to take some time to rest, while the others only had minor
+        injuries, the healer had to use lots of their mana to help me with mine.
+        After our rest we tried to find the teenagers as quickly as possible,
+        the dungeon was stranger then before, they were not longer acting as
+        lures for us to gather up the monsters and finish them off in a pincer
+        of powers but stalking us like prey. It would be better to march in
+        numbers now.
+      </Hitori>
+      <Hitori>
+        The teenagers were not being quiet, not that they were joking around
+        still. The sounds of battle bounced and echoed off the walls of the
+        sewer system. The teenagers, each holding their own weapon, stood in a
+        clearly awkward formation that they learned in class.
+      </Hitori>
+      <Hitori>
+        Theirs was a group of seven, 5 students with rank E and 2 with rank D.
+        The rank D's were Utano and Hotaru. While this was their rank they could
+        achieve in the future, it was usually also a good indicator of their
+        combat capabilities. Hotaru and Utano were both mages, Hotaru fought up
+        close with Chokutō blade in one hand and small Kabutowari blade in the
+        other, Utano used a wand from behind. The group also had two fighters
+        who used bows and four who used melee weapons.
+      </Hitori>
+      <p>"What are these monsters?" Hide shouted nervously, sword in hand.</p>
+      <p>
+        "I don't know. Just keep them back, and kill as many as possible will
+        ya?" said a boy who held a large wooden shield to her right.
+      </p>
+      <p>
+        "Stop getting in the way, you're making me look bad in front of Hotaru!"
+        complained a girl with a short bow trying to shoot though the gaps in
+        their formation.
+      </p>
+      <p>
+        "They are just rank F monsters, it should hardly be a struggle, why do
+        you all keep moving back?" demanded Hotaru, who between casts of
+        manaballs and magic arrows, kept feeling the hot liquid fill his mouth.
+      </p>
+      <p>
+        "Isn't it too dangerous? For F rank I mean, they are really sneaky."
+        Said a bow carrying two swords who had been snuck up on and had his calf
+        bitten into, dragged down though the sewage water before managing to
+        break free with the help of the others.
+      </p>
+      <p>
+        "You just stay away from me." Hotaru commanded holding his hand over his
+        nose.
+      </p>
+      <p>
+        Just as they were talking casually while fighting, the pace of the fight
+        quickly changed when the boy with two swords stumbled from his injuries.
+        He was bitten again, on the arm this time, Hotaru tried to help by
+        shooting a manaball in the Gangikozōs direction, only to blind the
+        swordsman. Quickly, a scream of despair echoed off the walls though the
+        tunnel, letting us know we had to hurry. The boy was being dragged down
+        into the sewage again.
+      </p>
+      <Hitori>
+        For a few moments we could hear the boys struggles, sloshing the water
+        about, pleading for help, by the time we arrived to the teenagers we
+        could not see him. All the teenagers in the group must of known that
+        they had messed up when they came alone, this time was unusual though,
+        if we had known it would of been like this I am sure the one-eyed woman
+        would of bullied them into staying in a larger group from the start.
+      </Hitori>
+      <Hitori>
+        Having lost a companion, the other six despaired and started to spam
+        their skills and spells at the remaining Gangikozōs until we had caught
+        up to them and joined in the battle, causing it to end quickly.
+      </Hitori>
+      <Hitori>
+        Over ten minutes later in a corner of the sewer, the teenagers no longer
+        even cared about the unpleasant smell of the place. The only thing they
+        wanted now was a comfortable place to rest, a good bed to sleep in, and
+        never to return to this place. They could no longer leave however,
+        without a reason after having entered the dungeon, everyone who joined
+        one of these groups was required to pay with materials from the dungeon
+        or equivalent worth. For school students with little or no backing there
+        was no way they could afford it.
+      </Hitori>
+      <Hitori>
+        Hide was still sobbing over her dead friend. Utano used her healing
+        spell on some of the teenagers who had received more minor injuries.
+        Hotaru, made out that the fault lay with our group that had just
+        arrived.
+      </Hitori>
+      <p>
+        Hotaru's face was beat red, getting closer and closer to her, as he
+        raised his voice, "How could you tail behind leisurely, hearing our
+        screams!? You had been here before! You knew what awaited us, yet you
+        did not even try to warn us. Do you think we are your free ride!? How
+        can you live with yourself, you use us as fodder so you can claim an
+        easy pay check!" he screamed at the one-eyed woman, his face getting
+        only a hands width from hers.
+      </p>
+      <p>
+        Seeing that the boy was already ignoring reason just to blame someone,
+        the woman who was not obliged to put up with it, raised her hand quickly
+        and grabbed the boy's throat and lifted him off the floor. "Who do you
+        think you're talking to, boy? If you're feeling bad that your little
+        friend died, do you want me to send you to hell with him? We came here
+        to invite you to join us so that we have a better chance of surviving
+        inside here. As we already have 13 people, you will not be missed if an
+        accident were to happen. Do you understand me?" the woman asked, as he
+        tightened she grip on the boy's throat.
+      </p>
+      <p>
+        Looking at the woman who held him off the floor by the throat, Hotaru
+        finally felt the fear of death for the second time since entering the
+        dungeon. He looked into that womans's eye and knew that if he did
+        anything wrong, that she would kill him right there and then. Fearing
+        for his life, Hotaru nodded desperately in agreement.
+      </p>
+      <Hitori>
+        Upon falling to the ground, completely humiliated, breathing heavily the
+        stinky sewage air. His eyes betrayed his heart, Hotaru clearly wanted to
+        take revenge on everyone who was forcing him to go through this. It
+        looks like only I caught that look, or I imagined it. Betrayal was not
+        so rare at the bottom, it's not like anyone would take the time to check
+        thoroughly why someone died inside a dungeon full of monsters.
+      </Hitori>
+      {/* Wendy = Utano, Harry = Hotaru, amy = Hide */}
     </Content>
   ),
 };
