@@ -691,6 +691,12 @@ function Intro(props) {
       <Chu>
         "Don't trust me huh? I guess that's fair we have only met once before." He said.
       </Chu>
+      <Kaja>
+        "It's not that you have done anything wrong. Just. Like you said, right now is not the time for trust." I replied slowly.
+      </Kaja>
+      <Chu>
+        
+      </Chu>
       {KajaStats(35)}
       {/* Chu-gong */}
       {/* Moving from the pond to conflict with Garin & co. Chu 'dies' and Kaja runs towards Otto. */}
