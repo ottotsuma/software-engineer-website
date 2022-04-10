@@ -1,6 +1,17 @@
 import React from "react";
 import { Content } from "./styles";
 import SeaPeopleFunction from "./SeaPeople"; // 7
+import { Otto as OttoStats } from './People';
+import {
+  Otto,
+  Lubin,
+  Arrilian,
+  Jarvia,
+  Kaja,
+  Garin,
+  Milo,
+  Chu,
+} from "./CharacterFonts";
 
 function Intro(props) {
   return (
@@ -75,6 +86,9 @@ function Intro(props) {
         before a life and death situation."
       </p>
       <div className="BreakPoint" />
+      <Otto>
+        
+      </Otto>
       <SeaPeopleFunction Chapter={7} />
     </Content>
   );

@@ -1,6 +1,17 @@
 //  Picks up from Kaja being saved to finding Otto's grotto
 import React from "react";
 import { Content } from "./styles";
+import { Kaja as KajaStats } from "./People";
+import {
+  Otto,
+  Lubin,
+  Arrilian,
+  Jarvia,
+  Kaja,
+  Garin,
+  Milo,
+  Chu,
+} from "./CharacterFonts";
 function Intro(props) {
   return (
     <Content>
