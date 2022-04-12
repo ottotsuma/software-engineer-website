@@ -703,6 +703,9 @@ function Intro(props) {
       <Kaja>
         I waited for a moment after he blended into the dark. I then sprinted into the trees in the other direction. My eyes quickly adjusted to the shade, 
       </Kaja>
+      <Kaja>
+        
+      </Kaja>
       {KajaStats(35)}
       {/* Chu-gong */}
       {/* Moving from the pond to conflict with Garin & co. Chu 'dies' and Kaja runs towards Otto. */}
