@@ -695,8 +695,9 @@ function Intro(props) {
         "It's not that you have done anything wrong. Just. Like you said, right now is not the time for trust." I replied slowly.
       </Kaja>
       <Chu>
-        "I understand."
+        "I understand. Since there can only be one, its best if we split up here, I'd hate for us two to be the last standing." He laughed it off at the end, before I could reply, letting out no real words just a breath of air and a strange noise, he turned and walked back into the forest with a wave of his hand.
       </Chu>
+      <Kaja>Maybe that was a mistake. There is safety in numbers. I still cannot bring myself to trust him though.</Kaja>
       {KajaStats(35)}
       {/* Chu-gong */}
       {/* Moving from the pond to conflict with Garin & co. Chu 'dies' and Kaja runs towards Otto. */}
