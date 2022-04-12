@@ -744,7 +744,7 @@ export const ItemList = {
     image:"https://ottotsuma.github.io/images/items/AutumnCloak.jpg",
     stats: {},
     note: "",
-    type: "",
+    type: "Cloak",
   }, 
 //   The following are types of Japanese swords:
 // Tsurugi/Ken (剣, "sword"): A straight two edged sword that was mainly produced prior to the 10th century. Before the 10th century, they completely disappeared as weapons and came to be made only as offerings to Shinto shrines and Buddhist temples.
