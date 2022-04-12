@@ -701,10 +701,10 @@ function Intro(props) {
         Maybe that was a mistake. There is safety in numbers. I still cannot bring myself to trust him though.
       </Kaja>
       <Kaja>
-        I waited for a moment after he blended into the dark. I then sprinted into the trees in the other direction. My eyes quickly adjusted to the shade, 
+        I waited for a moment after he blended into the dark. I then sprinted into the trees in the other direction. My eyes quickly adjusted to the shade, to the change in brightness. 
       </Kaja>
       <Kaja>
-        
+        Now I have water, my fire magic, all I need now is food. In such a jungle rich with life finding food should be easy. Things went pretty smoothly without interruption for a few hours. It made me wonder how many students really made it out of the start location.
       </Kaja>
       {KajaStats(35)}
       {/* Chu-gong */}
