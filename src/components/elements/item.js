@@ -727,7 +727,7 @@ export const ItemList = {
     rating: "junk",
     stats: {},
     note: "Jokotō (ancient swords, until around A.D. 900), https://en.wikipedia.org/wiki/Wakizashi",
-    type: "wand",
+    type: "sword",
   }, 
   "Seifuku": {
     name: "Seifuku",
@@ -737,6 +737,15 @@ export const ItemList = {
     note: "seifuku (制服). The sailor fuku (セーラー服, sērā fuku) (lit. 'sailor outfit') is a common style of uniform worn by female middle school students, traditionally by high school students.",
     type: "armor",
   },
+  "": {
+    name: "Autumn Cloak",
+    description: "Once a day you can cause the leaves on this cloak to swirl around you, obscuring you from sight for one minute.",
+    rating: "rare",
+    image:"https://ottotsuma.github.io/images/items/AutumnCloak.jpg",
+    stats: {},
+    note: "",
+    type: "",
+  }, 
 //   The following are types of Japanese swords:
 // Tsurugi/Ken (剣, "sword"): A straight two edged sword that was mainly produced prior to the 10th century. Before the 10th century, they completely disappeared as weapons and came to be made only as offerings to Shinto shrines and Buddhist temples.
 // Chokutō (直刀, "straight sword"): A straight single edged sword that was mainly produced prior to the 10th century. Since the 10th century, they disappeared as weapons and came to be made only as offerings to Shinto shrines and Buddhist temples.
