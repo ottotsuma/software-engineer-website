@@ -697,7 +697,12 @@ function Intro(props) {
       <Chu>
         "I understand. Since there can only be one, its best if we split up here, I'd hate for us two to be the last standing." He laughed it off at the end, before I could reply, letting out no real words just a breath of air and a strange noise, he turned and walked back into the forest with a wave of his hand.
       </Chu>
-      <Kaja>Maybe that was a mistake. There is safety in numbers. I still cannot bring myself to trust him though.</Kaja>
+      <Kaja>
+        Maybe that was a mistake. There is safety in numbers. I still cannot bring myself to trust him though.
+      </Kaja>
+      <Kaja>
+        I waited for a moment after he blended into the dark. I then sprinted into the trees in the other direction. My eyes quickly adjusted to the shade, 
+      </Kaja>
       {KajaStats(35)}
       {/* Chu-gong */}
       {/* Moving from the pond to conflict with Garin & co. Chu 'dies' and Kaja runs towards Otto. */}
