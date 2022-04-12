@@ -706,7 +706,10 @@ function Intro(props) {
       <Kaja>
         Now I have water, my fire magic, all I need now is food. In such a jungle rich with life finding food should be easy. Things went pretty smoothly without interruption for a few hours. It made me wonder how many students really made it out of the start location.
       </Kaja>
-      {KajaStats(35)}
+      <Kaja>
+        
+      </Kaja>
+      {KajaStats(35)} 
       {/* Chu-gong */}
       {/* Moving from the pond to conflict with Garin & co. Chu 'dies' and Kaja runs towards Otto. */}
       {/* running away */}
