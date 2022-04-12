@@ -710,7 +710,7 @@ export const ItemList = {
     description: "The school uniform of Niyosho.",
     rating: "junk",
     stats: {},
-    note: "Hakama",
+    note: "Originally students just wore standard everyday clothes to school; kimono for female students, with hakama for male students. During the Meiji period, students began to wear uniforms modelled after Western dress.",
     type: "armor",
   },
   "Otto's Leaky Wand": {
@@ -729,11 +729,15 @@ export const ItemList = {
     note: "Jokotō (ancient swords, until around A.D. 900), https://en.wikipedia.org/wiki/Wakizashi",
     type: "wand",
   }, 
-  // Originally students just wore standard everyday clothes to school; kimono for female students, with hakama for male students. During the Meiji period, students began to wear uniforms modelled after Western dress.[2]
-  //  seifuku (制服).The sailor fuku (セーラー服, sērā fuku) (lit. 'sailor outfit') is a common style of uniform worn by female middle school students, traditionally by high school students, and occasionally, elementary school students. It was introduced as a school uniform in 1920 in Heian Jogakuin (平安女学院)[10] and 1921 by the principal of Fukuoka Jo Gakuin University (福岡女学院),[11] Elizabeth Lee. It was modeled after the uniform used by the British Royal Navy at the time, which Lee had experienced as an exchange student in the United Kingdom.
-
+  "Seifuku": {
+    name: "Seifuku",
+    description: "High school sailor outfit worn by female students of Niyosho.",
+    rating: "junk",
+    stats: {},
+    note: "seifuku (制服). The sailor fuku (セーラー服, sērā fuku) (lit. 'sailor outfit') is a common style of uniform worn by female middle school students, traditionally by high school students.",
+    type: "armor",
+  },
 //   The following are types of Japanese swords:
-
 // Tsurugi/Ken (剣, "sword"): A straight two edged sword that was mainly produced prior to the 10th century. Before the 10th century, they completely disappeared as weapons and came to be made only as offerings to Shinto shrines and Buddhist temples.
 // Chokutō (直刀, "straight sword"): A straight single edged sword that was mainly produced prior to the 10th century. Since the 10th century, they disappeared as weapons and came to be made only as offerings to Shinto shrines and Buddhist temples.
 // Tachi (太刀, "long sword"): A sword that is generally longer and more curved than the later katana, with curvature often centered from the middle or towards the tang, and often including the tang. Tachi were worn suspended, with the edge downward. The tachi was in vogue before the 15th century.
