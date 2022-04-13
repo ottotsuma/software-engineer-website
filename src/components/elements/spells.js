@@ -83,7 +83,14 @@ export const spellList = {
     image: "",
     negative: false,
     passive: true,
-    1: "Vitality, Strength: +1.",
+    stats: [
+      {
+        vitality: 1,
+        strength: 1,
+        charisma: 1,
+      },
+    ],
+    1: "Vitality, Strength, Charisma: +1.",
   },
   Older: {
     note: "Older = 40-59 yrs.",
@@ -92,6 +99,14 @@ export const spellList = {
     image: "",
     negative: true,
     passive: true,
+    stats: [
+      {
+        sense: -1,
+        dexterity: -1,
+        vitality: -1,
+        strength: -1,
+      },
+    ],
     1: "Sense, Dexterity, Vitality, Strength: -1.",
   },
   Aged: {
@@ -102,6 +117,18 @@ export const spellList = {
     negative: true,
     passive: true,
     1: "All stats: -1.",
+    stats: [
+      {
+        sense: -1,
+        dexterity: -1,
+        vitality: -1,
+        strength: -1,
+        magic: -1,
+        willpower: -1,
+        charisma: -1,
+        endurance: -1,
+      },
+    ],
   },
   "Sharp Slash": {
     note: "Rogue",
