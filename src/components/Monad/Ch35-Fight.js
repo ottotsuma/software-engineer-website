@@ -1,7 +1,7 @@
 // Events starts and we follow Kaja through the event
 import React from "react";
 import { Content } from "./styles";
-import { Kaja as KajaStats } from './People';
+import { Kaja as KajaStats } from "./People";
 import {
   Otto,
   Lubin,
@@ -101,7 +101,9 @@ function Intro(props) {
       <p>
         Some of the students were a little slow or stunned like me at first. I
         had thought there was going to be a count down or something! I wrapped
-        myself in a fire cyclone using Fire Wrap, a spell that would damage anyone who got too close to me. The first thing I was doing was running into the trees as fast as I could.
+        myself in a fire cyclone using Fire Wrap, a spell that would damage
+        anyone who got too close to me. The first thing I was doing was running
+        into the trees as fast as I could.
       </p>
       <p>
         The ground was moving and shifting under the wishes of the earth mages,
@@ -684,32 +686,47 @@ function Intro(props) {
         "But still, it would be silly to fight each other, with so many others
         after us." I stated.
       </Kaja>
-      <Chu>"Exactly my thoughts. Do you want to work together?" He replied.</Chu>
-      <Kaja>
-        I paused for a moment, its not like he personally had done anything wrong. However life repeats itself at times, he might be a good person, but is it worth taking the risk just to be betrayed. I guess my silence gave away my answer as he quickly recovered and replied on my behalf.
-      </Kaja>
       <Chu>
-        "Don't trust me huh? I guess that's fair we have only met once before." He said.
+        "Exactly my thoughts. Do you want to work together?" He replied.
       </Chu>
       <Kaja>
-        "It's not that you have done anything wrong. Just. Like you said, right now is not the time for trust." I replied slowly.
+        I paused for a moment, its not like he personally had done anything
+        wrong. However life repeats itself at times, he might be a good person,
+        but is it worth taking the risk just to be betrayed. I guess my silence
+        gave away my answer as he quickly recovered and replied on my behalf.
       </Kaja>
       <Chu>
-        "I understand. Since there can only be one, its best if we split up here, I'd hate for us two to be the last standing." He laughed it off at the end, before I could reply, letting out no real words just a breath of air and a strange noise, he turned and walked back into the forest with a wave of his hand.
+        "Don't trust me huh? I guess that's fair we have only met once before."
+        He said.
       </Chu>
       <Kaja>
-        Maybe that was a mistake. There is safety in numbers. I still cannot bring myself to trust him though.
+        "It's not that you have done anything wrong. Just. Like you said, right
+        now is not the time for trust." I replied slowly.
+      </Kaja>
+      <Chu>
+        "I understand. Since there can only be one, its best if we split up
+        here, I'd hate for us two to be the last standing." He laughed it off at
+        the end, before I could reply, letting out no real words just a breath
+        of air and a strange noise, he turned and walked back into the forest
+        with a wave of his hand.
+      </Chu>
+      <Kaja>
+        Maybe that was a mistake. There is safety in numbers. I still cannot
+        bring myself to trust him though.
       </Kaja>
       <Kaja>
-        I waited for a moment after he blended into the dark. I then sprinted into the trees in the other direction. My eyes quickly adjusted to the shade, to the change in brightness. 
+        I waited for a moment after he blended into the dark. I then sprinted
+        into the trees in the other direction. My eyes quickly adjusted to the
+        shade, to the change in brightness.
       </Kaja>
       <Kaja>
-        Now I have water, my fire magic, all I need now is food. In such a jungle rich with life finding food should be easy. Things went pretty smoothly without interruption for a few hours. It made me wonder how many students really made it out of the start location.
+        Now I have water, my fire magic, all I need now is food. In such a
+        jungle rich with life finding food should be easy. Things went pretty
+        smoothly without interruption for a few hours. It made me wonder how
+        many students really made it out of the start location.
       </Kaja>
-      <Kaja>
-        
-      </Kaja>
-      {KajaStats(35)} 
+      <Kaja></Kaja>
+      {KajaStats(35)}
       {/* Chu-gong */}
       {/* Moving from the pond to conflict with Garin & co. Chu 'dies' and Kaja runs towards Otto. */}
       {/* running away */}
