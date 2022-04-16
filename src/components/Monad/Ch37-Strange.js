@@ -1,7 +1,7 @@
 import React from "react";
 import { Content } from "./styles";
 import SeaPeopleFunction from "./SeaPeople"; // 7
-import { Otto as OttoStats } from './People';
+import { Otto as OttoStats } from "./People";
 import {
   Otto,
   Lubin,
@@ -17,7 +17,66 @@ function Intro(props) {
   return (
     <Content>
       <h4>Odd balls</h4>
+      {/* Arrilian Sent Otto here. Lubin remains Otto's tutor. Professor Farald teaches this class.*/}
       {/* Strange class */}
+      {/* <Otto>
+        Arrilian had not given me a choice in the outcome, although it was not as bad as I had originally assumed. I thought the students with unique powers and no-one to back them up were experimented on, after all you never saw any students with strange powers usually. Just rumours. Contrary to my wild fantasy, they were all put in an 'oddballs' class. A class made of students with classes or powers outside of the normal teachers knowledge.
+      </Otto> */}
+      <Otto>
+        Arrilian had not given me a chance after laying his hands on my
+        shoulders. From the arena I was taken directly to a classroom with Lubin
+        waiting for me. While Kaja was taken off with the woman from the
+        military.
+      </Otto>
+      <Lubin>
+        "You have the leisure to day dream?" Lubin said breaking my thoughts.
+      </Lubin>
+      <Otto>
+        "Sorry, it seems I am tired after days of fending for myself and killing
+        my fellow students." I replied curtly.
+      </Otto>
+      <Lubin>
+        Lubin gave back a flat smile. "Then I will try my best to get to the
+        point. If you connect to the schools system, you'll find I sent you
+        messages about your new room and classes you have to attend."
+      </Lubin>
+      <Otto>
+        "New room? I had only just moved in with the Lekia's." I cut him off
+        worried I would lose my quiet place.
+      </Otto>
+      <Lubin>
+        "Yes, and now you have showed unusual powers you have been given a new
+        room to move you closer to the academy grounds. You could think of it as
+        an upgrade. Your room will be near your new class mates, the classroom
+        is on the same floor." Lubin stopped to let me digest what he had just
+        said.
+      </Lubin>
+      <Otto>
+        "I can still go back there right? To eat and visit?" I inquired not to
+        happy at the change.
+      </Otto>
+      <Lubin>
+        Lubin gave a low cough and looked past me. "While there is not a rule
+        forcing you to stay in your new quatres exactly... Ah just to eat right?
+        I am sure it would be fine." His voice raised a little to the end,
+        unsure himself? Or not trusting I only want to eat there. Maybe he knows
+        I like a girl from their camp.
+      </Lubin>
+      <Lubin>
+        His eyes rested back on me and he carried on. "Let me finish up so you
+        can rest. The academy wants to know everything about your powers,
+        including were and when you first acquired them. We both know your class
+        was a mage when you arrived, I don't see any physical changes to you,
+        and you have not used any mage spells recently. Both me and Arrilian are
+        betting you changed your class and these are not faith powers." He
+        inquired.
+      </Lubin>
+      <Otto>
+        So, I told him. I was too tired to lie. Although I did skip over any
+        items I found, I told him everything even about Ekʼ Chuah, the God I had
+        found in the temple, who since giving me this power had been
+        uncontactable ever since.
+      </Otto>
       {/* Nobles argue */}
       {/* Niyoshons leave */}
       {/* Off to fight in the war */}
@@ -75,7 +134,7 @@ function Intro(props) {
         Experience points increase or decrease percentage?"
       </p>
       <p>
-        ****[teacher] waited for long enough that the silence almost felt
+        Professor Farald waited for long enough that the silence almost felt
         awkward before saying "These are things that the system will not tell
         you directly. You have not read the studies conducted on these topics,
         but I have. Should you trust me then I can report that there are
@@ -86,9 +145,7 @@ function Intro(props) {
         before a life and death situation."
       </p>
       <div className="BreakPoint" />
-      <Otto>
-        
-      </Otto>
+      <Otto></Otto>
       <SeaPeopleFunction Chapter={7} />
     </Content>
   );

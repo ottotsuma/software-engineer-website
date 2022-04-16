@@ -153,6 +153,7 @@ function Intro(props) {
       {/* Living in the farm */}
       {/* Last of the morons */}
       {/* it's love! ... No it's not */}
+      {/* Arrilian tells him his secret is out between the higher ups and he's being moved to a special class. */}
     </Content>
   );
 }
