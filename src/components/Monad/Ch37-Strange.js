@@ -41,7 +41,7 @@ function Intro(props) {
         messages about your new room and classes you have to attend."
       </Lubin>
       <Otto>
-        "New room? I had only just moved in with the Lekia's." I cut him off
+        "New room? I had only just moved in with the Lakia's." I cut him off
         worried I would lose my quiet place.
       </Otto>
       <Lubin>
