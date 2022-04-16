@@ -75,7 +75,10 @@ function Intro(props) {
         So, I told him. I was too tired to lie. Although I did skip over any
         items I found, I told him everything even about Ekʼ Chuah, the God I had
         found in the temple, who since giving me this power had been
-        un-contactable ever since.
+        un-contactable ever since. Once I was done telling him my story I was let go, I told them I wanted to get my things from my old house in Lakia, so they let me go sleep there for now.
+      </Otto>
+      <Otto>
+        
       </Otto>
       {/* Nobles argue */}
       {/* Niyoshons leave */}
