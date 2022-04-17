@@ -89,7 +89,7 @@ function Intro(props) {
         I decided to change from the clothes they had given me into my pajamas. I put their clothes into my inventory and set off. I took a quick look back at the house and the other houses in a small cove in the forest. 
       </Otto>
       <Otto>
-        
+        The only place I was going right now was the princess manor. Not to see the princess, we were not even aquatinted. Of course it was to see Tsuma.
       </Otto>
       <Tsuma>
 
