@@ -77,32 +77,76 @@ function Intro(props) {
         So, I told him. I was too tired to lie. Although I did skip over any
         items I found, I told him everything even about Ekʼ Chuah, the God I had
         found in the temple, who since giving me this power had been
-        un-contactable ever since. Once I was done telling him my story I was let go, I told them I wanted to get my things from my old house in Lakia, so they let me go sleep there for now.
+        un-contactable ever since. Once I was done telling him my story I was
+        let go, I told them I wanted to get my things from my old house in
+        Lakia, so they let me go sleep there for now.
       </Otto>
       <Otto>
-        The man who had looked after me all this time was not in the house when I got home. I felt bad that I would not get to thank him for every day he had made me breakfast and let me stay in his house at all. I slept for the rest of the day, and that night only waking up later the next day. The sun shone in though the window, but I was in no rush to wake up. I knew I would have to at least show my face at the academy today before Lubin came looking for me but I really wish I had time to soak everything in.
+        The man who had looked after me all this time was not in the house when
+        I got home. I felt bad that I would not get to thank him for every day
+        he had made me breakfast and let me stay in his house at all. I slept
+        for the rest of the day, and that night only waking up later the next
+        day. The sun shone in though the window, but I was in no rush to wake
+        up. I knew I would have to at least show my face at the academy today
+        before Lubin came looking for me but I really wish I had time to soak
+        everything in.
       </Otto>
       <Otto>
-        I kicked the sheets off me and looked around my room for any items I might of forgotten. My White Stag Mask & Hui Lu's armor pieces were kept inside my storage ring. My Academy Robe would likely be replaced when I move classes anyway. Apart from that, I did not really own anything. No weapon, accessories, personal clothes or even things I brought from home. I knew I could not bring anything from home, since I owned nothing at home also.
+        I kicked the sheets off me and looked around my room for any items I
+        might of forgotten. My White Stag Mask & Hui Lu's armor pieces were kept
+        inside my storage ring. My Academy Robe would likely be replaced when I
+        move classes anyway. Apart from that, I did not really own anything. No
+        weapon, accessories, personal clothes or even things I brought from
+        home. I knew I could not bring anything from home, since I owned nothing
+        at home also.
       </Otto>
       <Otto>
-        I decided to change from the clothes they had given me into my pajamas. I put their clothes into my inventory and set off. I took a quick look back at the house and the other houses in a small cove in the forest. 
+        I decided to change from the clothes they had given me into my pajamas.
+        I put their clothes into my inventory and set off. I took a quick look
+        back at the house and the other houses in a small cove in the forest.
       </Otto>
       <Otto>
-        The only place I was going right now was the princess manor. Not to see the princess, we were not even aquatinted. Of course it was to see Tsuma.
+        The only place I was going right now was the princess manor. Not to see
+        the princess, we were not even aquatinted. Of course it was to see
+        Tsuma.
       </Otto>
       <Otto>
-        The 'house' the princess was staying in still overwhelmed me something so large could be made of wood and not fall in on itself. The structures around the academy were all made a long time ago of a kind of white stone. The castles of Alden either built by the Aldenese of local stone or repurposed Pocotocotcan castles. This was not a castle, or even a palace just a house for a princess for a year. It was not super tall, only 4 or 5 floors tall, it was hard to tell from the architecture.
+        The 'house' the princess was staying in still overwhelmed me something
+        so large could be made of wood and not fall in on itself. The structures
+        around the academy were all made a long time ago of a kind of white
+        stone. The castles of Alden either built by the Aldenese of local stone
+        or repurposed Pocotocotcan castles. This was not a castle, or even a
+        palace just a house for a princess for a year. It was not super tall,
+        only 4 or 5 floors tall, it was hard to tell from the architecture.
       </Otto>
       <Otto>
-        It's width is what made me call it big. The fact that it had not fallen in on itself. There were what on most houses would be rooves, here were like skirts flaring out further then the last at each new layer. Hanging from the four corners of them each hung ornaments. The beams were left brown, but anywhere were the wood was flat, it was painted white. Giving it a pure look. Of all the times I had been here before I always used the side gate in the wall that surrounded the building.
+        It's width is what made me call it big. The fact that it had not fallen
+        in on itself. There were what on most houses would be rooves, here were
+        like skirts flaring out further then the last at each new layer. Hanging
+        from the four corners of them each hung ornaments. The beams were left
+        brown, but anywhere were the wood was flat, it was painted white. Giving
+        it a pure look. Of all the times I had been here before I always used
+        the side gate in the wall that surrounded the building.
       </Otto>
-      <Tsuma>
-
-      </Tsuma>
-      <Takeo>
-
-      </Takeo>
+      <Otto>
+        When I stepped up to the gate the guards pulled open the side gate
+        again. I thanked them quickly and slide inside. I walked between the
+        neatly kept flower beds, heading to the small hut near the princesses
+        house, the one I previously met Takeo in. Before arriving however, my
+        eyes were drawn to the flash of red as a door to the side of the
+        princesses house opened.
+      </Otto>
+      <Otto>
+        In an outfit I had seen about the camp before, however this was my first
+        time seeing an outfit so red, it was bright and vivid, the color beaming
+        off the fabric. The outfit was an ankle-length gown with long, expansive
+        sleeves and a V-neck. It had neither buttons nor ties, being lapped left
+        over right across the chest and secured at the waist by a broad sash.
+        The girl wearing the outfit was Tsuma. I felt my cheeks tug at my lips,
+        and a bright smile came across my face.
+      </Otto>
+      <Tsuma></Tsuma>
+      <Takeo></Takeo>
       {/* Nobles argue */}
       {/* Niyoshons leave */}
       {/* Off to fight in the war */}
