@@ -239,7 +239,7 @@ const Title = styled.p`
   margin-left: 0;
   margin-right: 0;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 28px;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   color: ${(props) => props.color || "white"};
