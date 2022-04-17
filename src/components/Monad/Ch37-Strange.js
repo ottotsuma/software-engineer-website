@@ -86,7 +86,10 @@ function Intro(props) {
         I kicked the sheets off me and looked around my room for any items I might of forgotten. My White Stag Mask & Hui Lu's armor pieces were kept inside my storage ring. My Academy Robe would likely be replaced when I move classes anyway. Apart from that, I did not really own anything. No weapon, accessories, personal clothes or even things I brought from home. I knew I could not bring anything from home, since I owned nothing at home also.
       </Otto>
       <Otto>
-
+        I decided to change from the clothes they had given me into my pajamas. I put their clothes into my inventory and set off. I took a quick look back at the house and the other houses in a small cove in the forest. 
+      </Otto>
+      <Otto>
+        
       </Otto>
       <Tsuma>
 

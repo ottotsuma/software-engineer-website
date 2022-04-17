@@ -41,6 +41,10 @@ export const Otto = styled.p`
   
   // font-family: 'Charm', cursive;
 `;
+export const Tsuma = styled.p`
+  
+  // font-family: 'Charm', cursive;
+`;
 export const Kiksotz = styled.p`
   
 `;
