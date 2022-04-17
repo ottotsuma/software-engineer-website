@@ -11,6 +11,8 @@ import {
   Garin,
   Milo,
   Chu,
+  Takeo,
+  Tsuma,
 } from "./CharacterFonts";
 
 function Intro(props) {
@@ -81,8 +83,17 @@ function Intro(props) {
         The man who had looked after me all this time was not in the house when I got home. I felt bad that I would not get to thank him for every day he had made me breakfast and let me stay in his house at all. I slept for the rest of the day, and that night only waking up later the next day. The sun shone in though the window, but I was in no rush to wake up. I knew I would have to at least show my face at the academy today before Lubin came looking for me but I really wish I had time to soak everything in.
       </Otto>
       <Otto>
-        I kicked the sheets off me and looked around my room for any items I might of forgotten.
+        I kicked the sheets off me and looked around my room for any items I might of forgotten. My White Stag Mask & Hui Lu's armor pieces were kept inside my storage ring. My Academy Robe would likely be replaced when I move classes anyway. Apart from that, I did not really own anything. No weapon, accessories, personal clothes or even things I brought from home. I knew I could not bring anything from home, since I owned nothing at home also.
       </Otto>
+      <Otto>
+
+      </Otto>
+      <Tsuma>
+
+      </Tsuma>
+      <Takeo>
+
+      </Takeo>
       {/* Nobles argue */}
       {/* Niyoshons leave */}
       {/* Off to fight in the war */}
