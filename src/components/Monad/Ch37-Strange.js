@@ -91,6 +91,12 @@ function Intro(props) {
       <Otto>
         The only place I was going right now was the princess manor. Not to see the princess, we were not even aquatinted. Of course it was to see Tsuma.
       </Otto>
+      <Otto>
+        The 'house' the princess was staying in still overwhelmed me something so large could be made of wood and not fall in on itself. The structures around the academy were all made a long time ago of a kind of white stone. The castles of Alden either built by the Aldenese of local stone or repurposed Pocotocotcan castles. This was not a castle, or even a palace just a house for a princess for a year. It was not super tall, only 4 or 5 floors tall, it was hard to tell from the architecture.
+      </Otto>
+      <Otto>
+        It's width is what made me call it big. The fact that it had not fallen in on itself. There were what on most houses would be rooves, here were like skirts flaring out further then the last at each new layer. Hanging from the four corners of them each hung ornaments. The beams were left brown, but anywhere were the wood was flat, it was painted white. Giving it a pure look. Of all the times I had been here before I always used the side gate in the wall that surrounded the building.
+      </Otto>
       <Tsuma>
 
       </Tsuma>
