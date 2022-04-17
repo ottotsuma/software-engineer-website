@@ -78,7 +78,10 @@ function Intro(props) {
         un-contactable ever since. Once I was done telling him my story I was let go, I told them I wanted to get my things from my old house in Lakia, so they let me go sleep there for now.
       </Otto>
       <Otto>
-        
+        The man who had looked after me all this time was not in the house when I got home. I felt bad that I would not get to thank him for every day he had made me breakfast and let me stay in his house at all. I slept for the rest of the day, and that night only waking up later the next day. The sun shone in though the window, but I was in no rush to wake up. I knew I would have to at least show my face at the academy today before Lubin came looking for me but I really wish I had time to soak everything in.
+      </Otto>
+      <Otto>
+        I kicked the sheets off me and looked around my room for any items I might of forgotten.
       </Otto>
       {/* Nobles argue */}
       {/* Niyoshons leave */}
