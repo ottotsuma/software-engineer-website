@@ -1,5 +1,8 @@
 import React from "react";
 import { Content } from "./styles";
+import { Otto as OttoStats } from "./People";
+import { Vortigern, Tisiel } from "./CharacterFonts";
+
 function Intro(props) {
   return (
     <Content>
@@ -9,89 +12,100 @@ function Intro(props) {
           <h4>Cranium communion</h4>
           <p>pov Tisiel</p>
           {/* <!-- Weird skull talking thing - Tisiel --> */}
+          <Tisiel>
+            The dinner party had been a blast, the food was nice, I got to dance
+            with Reingard. He looked so handsome even if he wore the same formal
+            academy clothes as most of the other boys.
+          </Tisiel>
+          <Tisiel>
+            The grey shoulderless hour-glass satin dress, glided down my body.
+            It was nice to soon be back in my comfortable fluffy pajamas. The
+            Academy had provided all students with clothes sleep, formal
+            occasions and classes. However nothing beats your own pajamas.
+          </Tisiel>
+          <Tisiel>
+            My room was still a mess. An organized mess, were things were
+            carefully placed were they were suppose to be. Even if I often
+            forgot were they were. It was a collection of things I had found
+            digging around tombs with my parents, snooping around the academy
+            and poking about the older lesser or unused parts of the academy.
+            Honestly I might never of come if that was not the case. The academy
+            was almost like it was housed in it's own miniature world, with even
+            more to find inside of it. Most people think the academy is just a
+            far away land connected though the portals, but that's hardly a fun
+            way to think of things.
+          </Tisiel>
           <p>
-            After having arrived back in my room from the dinner party I removed
-            the grey satin dress, shoulderless hour-glass shaped to fit my
-            waist, flowing off my hips giving me gliding wings down to my calves
-            if I walked too quickly. The thought of one day being able to just
-            glide up into the sky with nothing but my foot steps made me feel
-            like a kid again playing at magic, the reality was that using mana
-            was much more exerting then I had imagined in my make believe
-            worlds.
+            Looking though the bones, trinkets and nick-nacks. I tried to find
+            my latest note book I still had to find out more about my latest
+            editions to my collection. Settling down into an old wooden chair by
+            my study table, I always wrap my hands around the curved handle, old
+            habits.
           </p>
 
-          <p>
-            Slipping into my room wear and feeling much more like my self again,
-            with my collections of tombs, bones, nick-nacks and skulls to greet
-            me back into what I enjoyed most, solving the mysteries they
-            presented. Settling down into an old wooden chair by my study table,
-            I always wrap my hands around the curved handle, old habits.
-          </p>
-
-          <p>"Well it's not quite as orderly as my study but I approve."</p>
+          <Vortigern>
+            "Well it's not quite as orderly as my study but I approve." A
+            strange deep voice said from some location.
+          </Vortigern>
 
           <p>
-            Stopping and looking around the room, I had to pause and wonder if I
-            had gone crazy, perhaps a little drunk.
+            I froze and slowly looking around the room, I had to pause and
+            wonder if I had gone crazy, a little drunk perhaps?
           </p>
 
-          <p>"Down here"</p>
+          <Vortigern>"Down here" The voice said again.</Vortigern>
 
           <p>
-            I shot out of my own skin, jumping up onto the chair. "Who is
-            here!?"
+            I shot out of my own skin, jumping up onto the chair, like a mouse
+            had just run across my toes. "Who is here!?" I demanded to know.
           </p>
-
-          <p>"Down here, I on top of your books."</p>
+          <Vortigern>
+            "Down here, on top of your books." The voice said in same monotone
+            pitch.
+          </Vortigern>
 
           <p>
-            ".... The.. Skull!?" My eyes fixed to the skull on the books,
-            nothing unusual about it really. It did not move, the jaw stayed in
-            placed, no eyes appeared in the sockets. There was a small amount of
-            magical energy given off, it seemed no different from any other
-            magic item.
+            ".... The.. Skull!?" My eyes fixed to the skull I had placed on-top
+            of the books. There was nothing unusual about it really. It did not
+            move, the jaw stayed in placed, no eyes appeared in the sockets.
+            There was a small amount of magical energy given off, it seemed no
+            different from any other magic item.
           </p>
 
-          <p>"Your first time meeting a sealed spirit?"</p>
+          <p>"Your first time meeting a sealed spirit?" The skull asked.</p>
 
-          <p>"....Yes?"</p>
+          <p>"....Yes?" I replied a little unsure if I was being tricked.</p>
 
           <p>
-            "Ahaha, well you seem like a smart girl, what do you think I am?"
+            "Ahaha, well you seem like a smart girl, what do you think I am?" He said his tone finally changing, he sounded old, the kind of old man who might pass into death from a sharp wind.
           </p>
-
           <p>
             "Did... Someone trap your spirit into this skull? Was it your
-            skull?.."
+            skull?.." I was not sure I wanted to know the answer to my second question.
           </p>
 
           <p>
-            "Well you are sharp. Yes my spirit was bound to my skull as part of
-            my peoples funeral process. It was not a common process because the
-            materials needed are rather rare, so it is reserved for only those
-            who could afford it. I think the results speak for themselves, I am
-            dead but not gone from this plane."
+            "Well, you are a sharp one. Yes my spirit was bound to my skull as part of an uncommon funeral process. The
+            materials needed are rather rare, and the process was only achieved at the end of our civilization. I think the results speak for themselves, I am dead but not gone from this plane." He explained a little proudly.
           </p>
-
           <p>
             "Can you still use magic? Can you move? How long have you been
-            dead?"
+            dead?" I had a thousand more questions, who wouldn't in this kind of situation? 
           </p>
-
           <p>
             "I suppose these are normal questions since it is your first time.
-            Very well, I cannot use magic directly I would need a medium to act
+            Very well, I cannot use magic directly, I would need a medium to act
             though or a source of mana which I am attached to. I cannot move.
             Hmm hard to say really, I continued as I am currently for a few
             civilizations before being left inside that witches study."
           </p>
 
-          <p>"A few civilizations? Not years? Or centuries?"</p>
-
-          <p>
+          <Tisiel>"A few civilizations? Not years? Or centuries?" I interrupted very confused.</Tisiel>
+{/* Vortigern, Tisiel */}
+          <Vortigern>
             "Yes, I mean 5 in total if I include my own. It looks like you have
             found items from some of them."
-          </p>
+          </Vortigern>
 
           <p>
             "This is a lot to take in.. So the study became your second tomb?
@@ -151,8 +165,8 @@ function Intro(props) {
           </p>
 
           <p>
-            "I might have an older brother, but that doesn't mean he likes
-            me. Anyway the point is we can recruit other people at the arena."
+            "I might have an older brother, but that doesn't mean he likes me.
+            Anyway the point is we can recruit other people at the arena."
           </p>
 
           <p>

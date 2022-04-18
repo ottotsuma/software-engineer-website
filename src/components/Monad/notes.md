@@ -1056,7 +1056,7 @@ Shogunate of Niyosho (Japan) ⛩
 Military - weak individuals, strong together, strong military, Strong navy
 Diplomacy - Medium, while they do not strongly anger anyone they are hardly friendly
 Religion - Shinto
-Culture -
+Culture - They build beautiful things, enjoy beauty, but cast out the ugly.
 Ambition - Become isolationist
 Stability - Stable
 Secrets - Racist
