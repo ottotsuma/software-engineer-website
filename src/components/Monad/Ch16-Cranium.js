@@ -109,20 +109,19 @@ function Intro(props) {
             "Th-this is a lot to take in... So the study we found you in became your second tomb? What about your first? I'd love any help you could give!" I was unable to hold back how excited I was to find out about the past.
           </Tisiel>
 {/* Vortigern, Tisiel */}
-          <p>
-            "Oh, Don't think it has escaped me that most of the items here are
-            taken from the tombs of the dead. Trying to raid my tomb? This is my
-            resting place, this skull. My people did not believe that we took
-            anything physical into the next life."
-          </p>
-
-          <p>
+          <Vortigern>
+            "I guess so, that witch left me there when she went gallivanting off into the world, she must of forgotten about me. My first, long story. I can tell you another time. I could even give you the location of another tomb near this academy. That witch spent so long looking into it but never came back to get her maps, so I assume she never visited." It seemed the he had not spoken to anyone in a long time, his train of thoughts were going a little all over the place.
+          </Vortigern>
+          <Tisiel>
+            "Can you tell me about the new tomb!?" I inquired.
+          </Tisiel>
+          <Vortigern>
             "I could tell you about the location of another tomb if that is what
             your interest is. The civilization that took over from my own buried
             their dead in pyramid shaped tombs. First the person who had died,
             then followed by their servants, guards and what ever else they
             would be taking to their next life with them."
-          </p>
+          </Vortigern>
 
           <p>
             Unable to resist, I spent the whole night chatting to a skull, well
