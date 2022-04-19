@@ -101,12 +101,11 @@ function Intro(props) {
           </p>
 
           <Tisiel>"A few civilizations? Not years? Or centuries?" I interrupted very confused.</Tisiel>
-{/* Vortigern, Tisiel */}
           <Vortigern>
-            "Yes, I mean 5 in total if I include my own. It looks like you have
-            found items from some of them."
+            "Yes, I five in total if I include my own, I guess I never lived though the whole of my own civilizations time. It looks like you have
+            found items with a similar design to a few I know." He confirmed.
           </Vortigern>
-
+{/* Vortigern, Tisiel */}
           <p>
             "This is a lot to take in.. So the study became your second tomb?
             What about your first?"
