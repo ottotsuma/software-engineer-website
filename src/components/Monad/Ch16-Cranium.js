@@ -105,12 +105,10 @@ function Intro(props) {
             "Yes, I five in total if I include my own, I guess I never lived though the whole of my own civilizations time. It looks like you have
             found items with a similar design to a few I know." He confirmed.
           </Vortigern>
+          <Tisiel>
+            "Th-this is a lot to take in... So the study we found you in became your second tomb? What about your first? I'd love any help you could give!" I was unable to hold back how excited I was to find out about the past.
+          </Tisiel>
 {/* Vortigern, Tisiel */}
-          <p>
-            "This is a lot to take in.. So the study became your second tomb?
-            What about your first?"
-          </p>
-
           <p>
             "Oh, Don't think it has escaped me that most of the items here are
             taken from the tombs of the dead. Trying to raid my tomb? This is my
