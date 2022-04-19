@@ -145,10 +145,12 @@ function Intro(props) {
         The girl wearing the outfit was Tsuma. I felt my cheeks tug at my lips,
         and a bright smile came across my face.
       </Otto>
+      <Tsuma>
+        "I am glad you did not forget about me. I am glad to see you again also, I knew you would not die. My Otto could never be so weak." Tsuma happily said walking over to me, I think she was trying to move quickly but the dress was restricting her feet.
+      </Tsuma>
       <Otto>
-        
+        ""
       </Otto>
-      <Tsuma></Tsuma>
       <Takeo></Takeo>
       {/* Nobles argue */}
       {/* Niyoshons leave */}
