@@ -108,7 +108,6 @@ function Intro(props) {
           <Tisiel>
             "Th-this is a lot to take in... So the study we found you in became your second tomb? What about your first? I'd love any help you could give!" I was unable to hold back how excited I was to find out about the past.
           </Tisiel>
-{/* Vortigern, Tisiel */}
           <Vortigern>
             "I guess so, that witch left me there when she went gallivanting off into the world, she must of forgotten about me. My first, long story. I can tell you another time. I could even give you the location of another tomb near this academy. That witch spent so long looking into it but never came back to get her maps, so I assume she never visited." It seemed the he had not spoken to anyone in a long time, his train of thoughts were going a little all over the place.
           </Vortigern>
@@ -118,7 +117,6 @@ function Intro(props) {
           <Vortigern>
             "Ah right, the one I have in mind is from a civilization during the witches time who kept me last. They kept their dead in pyramid shaped tombs, filled with items and servants to take over into their next life. Well it was not exactly a super old tomb at the time, maybe just constructed, must be old now. Eheheh." He started giggling to himself, it was slightly odd.
           </Vortigern>
-
           <Tisiel>
             Unable to resist, I spent the whole night chatting to a skull, well
             the person bond to the skull. Gwrtheyrn was his name but since it
@@ -126,7 +124,7 @@ function Intro(props) {
             better but he seemed fussy about what he would be called. I managed
             to copy down to a rough map of where the tomb should be.
           </Tisiel>
-
+          {/* Vortigern, Tisiel */}
           {/* <!-- Arena -->  */}
           <p>
             Todays lesson started with an announcement, there would be arena
