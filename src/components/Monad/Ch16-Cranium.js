@@ -116,20 +116,16 @@ function Intro(props) {
             "Can you tell me about the new tomb!?" I inquired.
           </Tisiel>
           <Vortigern>
-            "I could tell you about the location of another tomb if that is what
-            your interest is. The civilization that took over from my own buried
-            their dead in pyramid shaped tombs. First the person who had died,
-            then followed by their servants, guards and what ever else they
-            would be taking to their next life with them."
+            "Ah right, the one I have in mind is from a civilization during the witches time who kept me last. They kept their dead in pyramid shaped tombs, filled with items and servants to take over into their next life. Well it was not exactly a super old tomb at the time, maybe just constructed, must be old now. Eheheh." He started giggling to himself, it was slightly odd.
           </Vortigern>
 
-          <p>
+          <Tisiel>
             Unable to resist, I spent the whole night chatting to a skull, well
             the person bond to the skull. Gwrtheyrn was his name but since it
             was a bit of a mouthful we agreed to call him Vortigern, not much
             better but he seemed fussy about what he would be called. I managed
             to copy down to a rough map of where the tomb should be.
-          </p>
+          </Tisiel>
 
           {/* <!-- Arena -->  */}
           <p>
