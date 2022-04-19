@@ -145,6 +145,9 @@ function Intro(props) {
         The girl wearing the outfit was Tsuma. I felt my cheeks tug at my lips,
         and a bright smile came across my face.
       </Otto>
+      <Otto>
+        
+      </Otto>
       <Tsuma></Tsuma>
       <Takeo></Takeo>
       {/* Nobles argue */}
