@@ -160,7 +160,7 @@ function Intro(props) {
         "Of course." I replied.
       </Otto>
       <Otto>
-        
+        We stood and hugged. nothing moved for the longest time. 
       </Otto>
       <Takeo></Takeo>
       {/* Nobles argue */}
