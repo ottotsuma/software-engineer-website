@@ -146,10 +146,21 @@ function Intro(props) {
         and a bright smile came across my face.
       </Otto>
       <Tsuma>
-        "I am glad you did not forget about me. I am glad to see you again also, I knew you would not die. My Otto could never be so weak." Tsuma happily said walking over to me, I think she was trying to move quickly but the dress was restricting her feet.
+        "I am glad you did not forget about me. I am also happy I get to see you
+        again. I was worried." Tsuma softly said walking over to me, I think she
+        was trying to move quickly but the dress was restricting her feet.
       </Tsuma>
       <Otto>
-        ""
+        "What kind of a man would I be if I left you so soon. You will have me for many more years to come." I gave a big smile and pulled her in for a hug.
+      </Otto>
+      <Tsuma>
+        "Do you really mean it!?" She asked.
+      </Tsuma>
+      <Otto>
+        "Of course." I replied.
+      </Otto>
+      <Otto>
+        
       </Otto>
       <Takeo></Takeo>
       {/* Nobles argue */}
