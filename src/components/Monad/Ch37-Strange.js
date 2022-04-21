@@ -151,18 +151,22 @@ function Intro(props) {
         was trying to move quickly but the dress was restricting her feet.
       </Tsuma>
       <Otto>
-        "What kind of a man would I be if I left you so soon. You will have me for many more years to come." I gave a big smile and pulled her in for a hug.
+        "What kind of a man would I be if I left you so soon. You will have me
+        for many more years to come." I gave a big smile and pulled her in for a
+        hug.
       </Otto>
-      <Tsuma>
-        "Do you really mean it!?" She asked.
-      </Tsuma>
+      <Tsuma>"Do you really mean it!?" She asked.</Tsuma>
+      <Otto>"Of course." I replied.</Otto>
       <Otto>
-        "Of course." I replied.
+        We stood and hugged. I kept my eyes closed the whole time, I felt so
+        right hugging Tsuma that I did not even hear Takeo close in on us.
       </Otto>
-      <Otto>
-        We stood and hugged. nothing moved for the longest time. 
-      </Otto>
-      <Takeo></Takeo>
+      <Takeo>
+        "Hey hey now, you two are off in your own world." When I opened my eyes,
+        we broke our hug slowly still holding hands I saw behind her was Takeo,
+        his friendly face was nice to see again. Not as nice as Tsuma's though,
+        best keep that to myself.
+      </Takeo>
       {/* Nobles argue */}
       {/* Niyoshons leave */}
       {/* Off to fight in the war */}
