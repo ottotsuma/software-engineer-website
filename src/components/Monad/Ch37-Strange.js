@@ -167,6 +167,15 @@ function Intro(props) {
         his friendly face was nice to see again. Not as nice as Tsuma's though,
         best keep that to myself.
       </Takeo>
+      <Otto>
+        "It's good to see you again." I replied.
+      </Otto>
+      <Takeo>
+        "Yeah yeah, I'll leave you two alone in a moment. I just came to say, I am glad you are fine." He patted my shoulder and walked back into the princesses house.
+      </Takeo>
+      <Otto>
+        As he patted my shoulder, I replied "Thank you."
+      </Otto>
       {/* Nobles argue */}
       {/* Niyoshons leave */}
       {/* Off to fight in the war */}
