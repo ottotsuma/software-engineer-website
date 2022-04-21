@@ -5,9 +5,9 @@ import {monadColors as colors} from './colors'
 
 function Title(props) {
     return (
-        <Main rank={props.rank}>
+        <Main>
             <Shine>*Ping*</Shine>{' '}
-             <TitleStyle>New Title:</TitleStyle> {props.rank ? <Rank >{props.rank}:</Rank>: ''} {props.name}{!!titlesList[props.name].description && `: ${titlesList[props.name].description}`}
+             <TitleStyle>New Title:</TitleStyle> {props.rank ? <Rank rank={props.rank}>{props.rank}:</Rank>: ''} {props.name}{!!titlesList[props.name].description && `; ${titlesList[props.name].description}`}
         </Main>
     )
 }
@@ -15,14 +15,14 @@ function Title(props) {
 export default Title
 
 const TitleStyle = styled.div`
-color: orange;
+// color: orange;
 display: contents;
 `;
 
 const Rank = styled.div`
 display: contents;
 text-transform: capitalize;
-
+color: ${props => colors[props.rank]};
 `;
 
 export const Shine = styled.div`
@@ -52,5 +52,4 @@ export const Shine = styled.div`
 // }
 
 const Main = styled.div`
-color: ${props => colors[props.rank]};
 `;
