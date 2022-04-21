@@ -272,7 +272,7 @@ export default function Monad(params) {
       const size = possibleSizes[index];
       buttonArray.push(<Buttons style={{ padding: '5px', border: '2px solid black' }} key={size} onClick={() => updateState(setSizeState,size)}>{size}</Buttons>)
     }
-    for (let index = 0; index < possibleColors.length; index++) {
+    for (let index = 0; index < possibleColors.length-1; index++) {
       const NewColor = possibleColors[index];
       buttonArray.push(<Buttons style={{ padding: '5px', border: '2px solid black' }} key={NewColor} onClick={() => updateState(SetColorState, colors[NewColor])}>{NewColor}</Buttons>)
     }
