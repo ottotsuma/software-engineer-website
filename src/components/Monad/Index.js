@@ -193,7 +193,7 @@ export function myFunction() {
 export default function Monad(params) {
   const [darkMode, setDarkMode] = useState(true);
   const [sizeState, setSizeState] = useState('24px');
-  const [colorState, SetColorState] = useState(false);
+  const [colorState, SetColorState] = useState('');
   function updateState(StateFunction, NewState) {
     StateFunction(NewState)
   }
@@ -223,7 +223,6 @@ export default function Monad(params) {
           })
           .indexOf("en-GB")
         ];
-
       utterance.onend = function () {
         flag = false;
         playEle.className = pauseEle.className = "";
