@@ -82,7 +82,7 @@ export const Sticky = styled.div`
   width: ${props => props.open ? '100%' : ''};
   height: ${props => props.open ? '100%' : '100%'};
   max-height: 80vh;
-  overflow: scroll;
+  overflow-y: ${props => props.open ? 'scroll' : 'hidden'};
 `;
 const StyledArticle = styled.article`
   color: ${(props) => props.color ? props.color : (props.darkMode ? colors.offWhite : colors.offBlack)};
