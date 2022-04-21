@@ -676,10 +676,19 @@ const Right = styled.div`
   justify-content: space-around;
   align-items: center;
   // flex: 2;
-  margin-left: 250px;
+  margin-left: 33%;
   overflow: hidden;
   flex-wrap: wrap;
+  @media screen and (max-width: 1263px) {
+    margin-left: 250px;
+  }
   @media screen and (max-width: 1000px) {
+    flex-direction: column;
+    img:nth-child(n+4) {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 418px) {
     display: none;
   }
 `;
@@ -711,7 +720,11 @@ const Profile = styled.div`
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
-  width: 250px;
+  width: 33%;
+  @media screen and (max-width: 1263px) {
+    width: 250px;
+  }
+  // min-width: 250px;
   height: 100%;
   position: absolute;
 `;
@@ -791,6 +804,9 @@ const HomeImage = styled(animated.img)`
   border-radius: 1rem;
   padding: 2px;
   margin: 1rem;
+  @media screen and (max-width: 1263px) {
+    width: 33%;
+  }
   @media screen and (max-width: 590px) {
     display: none;
   }
