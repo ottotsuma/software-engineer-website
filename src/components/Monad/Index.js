@@ -43,7 +43,7 @@ import Chapter38 from "./Ch38-Nobles";
 import Chapter39 from "./Ch39-Leaving";
 import Chapter40 from "./Ch40-War";
 import Chapter41 from "./Ch41-Graduate";
-import { colors } from "./../color";
+import { colors, textColors } from "./../elements/colors";
 import SpellsPage from "./SpellsPage";
 import Otto from "./People"; // check this still works
 import SeaPeopleFunction from "./SeaPeople";
@@ -60,8 +60,8 @@ const Buttons = styled.button`
   color: ${(props) => (props.darkMode ? "white" : "black")};
   background-color: ${(props) => (props.darkMode ? "white" : "")};
   &:hover {
-    color: ${colors.red};
-    background ${colors.blue};
+    color: ${colors.red.normal};
+    background ${colors.blue.normal};
     zoom: 1.1;
   }
 `;
@@ -70,7 +70,7 @@ const ChapterContainer = styled.div`
   max-width: 100%;
   max-height: 100%;
   background: ${(props) =>
-    props.darkMode ? colors.grey : colors.lightBackground};
+    props.darkMode ? colors.grey.oldNormal : colors.lightBackground};
 `;
 export const Sticky = styled.div`
   position: fixed;
@@ -85,7 +85,7 @@ export const Sticky = styled.div`
   overflow-y: ${props => props.open ? 'scroll' : 'hidden'};
 `;
 const StyledArticle = styled.article`
-  color: ${(props) => props.color ? props.color : (props.darkMode ? colors.offWhite : colors.offBlack)};
+  color: ${(props) => props.color ? props.color : (props.darkMode ? colors.white.off : colors.black.off)};
   font-size: ${props => props.size ? props.size : '18px'};
 `;
 
@@ -265,7 +265,7 @@ export default function Monad(params) {
 
   useEffect(() => {
     const possibleSizes = ['14px', '16px', '18px', '20px', '24px', '26px', 'xxx-large'];
-    const possibleColors = Object.keys(colors);
+    const possibleColors = Object.keys(textColors);
     const buttonArray = []
     for (let index = 0; index < possibleSizes.length; index++) {
       const size = possibleSizes[index];
@@ -273,7 +273,7 @@ export default function Monad(params) {
     }
     for (let index = 0; index < possibleColors.length-1; index++) {
       const NewColor = possibleColors[index];
-      buttonArray.push(<Buttons style={{ padding: '5px', border: '2px solid black' }} key={NewColor} onClick={() => updateState(SetColorState, colors[NewColor])}>{NewColor}</Buttons>)
+      buttonArray.push(<Buttons style={{ padding: '5px', border: '2px solid black' }} key={NewColor} onClick={() => updateState(SetColorState, textColors[NewColor])}>{NewColor}</Buttons>)
     }
     setSizeArray(buttonArray)
   }, []);
@@ -632,8 +632,8 @@ cursor: pointer;
 
 font-family: "Yusei Magic", sans-serif;
 &:hover {
-  color: ${colors.red};
-  background ${colors.blue};
+  color: ${colors.red.normal};
+  background ${colors.blue.normal};
 }
 `;
 
@@ -654,7 +654,7 @@ cursor: pointer;
 
 font-family: "Yusei Magic", sans-serif;
 &:hover {
-  color: ${colors.red};
-  background ${colors.blue};
+  color: ${colors.red.normal};
+  background ${colors.blue.normal};
 }
 `;

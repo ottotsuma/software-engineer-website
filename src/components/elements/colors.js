@@ -8,6 +8,7 @@ export const colors = {
     // offWhite: '#CCCCCC',
     // offBlack: '#1A1A1A',
     // grey: '#474747',
+    lightBackground: `linear-gradient(0deg, rgba(34,89,195,0.7) 9%, rgba(45,253,209,0.3) 100% )`,
     electricLime: '#c1ff00',
     black: {
         normal: '#000',
@@ -22,6 +23,7 @@ export const colors = {
         lighter: '#6e7b8b',
         light: '#47515d', //In the SCSS variables is called: grey-hover
         normal: '#2f353d',
+        oldNormal: '#474747',
         medium: '#23292f',
         dark: '#161b21',
     },
@@ -88,4 +90,17 @@ export const monadColors = {
     unique: "purple",
     growth: "#e2abac", // pink?
     quest: "gold",
+}
+
+export const textColors = {
+    blue: "#0d89eb",
+    lightBlue: "#2CA8FF",
+    darkBlue: "#161b21",
+    red: "#f92b00",
+    lightRed: "#ff5745",
+    green: "#54cc4f",
+    offWhite: '#CCCCCC',
+    offBlack: '#1A1A1A',
+    grey: '#474747',
+    electricLime: '#c1ff00',
 }
