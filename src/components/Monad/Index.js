@@ -264,7 +264,7 @@ export default function Monad(params) {
   const [sizeOpen, setSizeOpen] = useState(false);
 
   useEffect(() => {
-    const possibleSizes = ['14px', '16px', '18px', '20px', '24px', '26px'];
+    const possibleSizes = ['14px', '16px', '18px', '20px', '24px', '26px', 'xxx-large'];
     const possibleColors = Object.keys(colors);
     const buttonArray = []
     for (let index = 0; index < possibleSizes.length; index++) {
