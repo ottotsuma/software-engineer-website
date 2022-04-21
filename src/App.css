@@ -360,10 +360,11 @@ ul {
   /* font-family: 'News Cycle', sans-serif; */
   font-family: ui-monospace;
   text-decoration: underline;
-
-  @media screen and (max-width: 550px) {
-    font-size: 200%;
- }
+}
+@media screen and (max-width: 550px) {
+  #Headline {
+  font-size: 200%;
+  }
 }
 
 #Newspaper-Image {
@@ -378,10 +379,11 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  @media screen and (max-width: 550px) {
-     flex-direction: column;
+}
+@media screen and (max-width: 550px) {
+  .Newspaper-Content {
+    flex-direction: column;
   }
- 
 }
 
 .Newspaper-Left,
