@@ -73,20 +73,19 @@ const ChapterContainer = styled.div`
     props.darkMode ? colors.grey : colors.lightBackground};
 `;
 export const Sticky = styled.div`
-// position: -webkit-sticky;
-// position: sticky;
-position: absolute;
-top: 7vh;
-display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    overflow: hidden;
-    width: ${props => props.open ? '100%' : '3%'};
-    height: ${props => props.open ? '100%' : '100%'};
-
+  position: fixed;
+  top: 7vh;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  overflow: hidden;
+  width: ${props => props.open ? '100%' : ''};
+  height: ${props => props.open ? '100%' : '100%'};
+  max-height: 80vh;
+  overflow: scroll;
 `;
 const StyledArticle = styled.article`
-  color: ${(props) => (props.darkMode ? colors.offWhite : colors.offBlack)};
+  color: ${(props) => props.color ? props.color : (props.darkMode ? colors.offWhite : colors.offBlack)};
   font-size: ${props => props.size ? props.size : '18px'};
 `;
 
@@ -194,12 +193,9 @@ export function myFunction() {
 export default function Monad(params) {
   const [darkMode, setDarkMode] = useState(true);
   const [sizeState, setSizeState] = useState('24px');
-  function updateSizeState(size) {
-    console.log(size)
-    setSizeState(size);
-  }
-  function updateDarkMode() {
-    setDarkMode(!darkMode);
+  const [colorState, SetColorState] = useState(false);
+  function updateState(StateFunction, NewState) {
+    StateFunction(NewState)
   }
   const [isPage, setPage] = useState("");
   const synth = window.speechSynthesis;
@@ -220,12 +216,12 @@ export default function Monad(params) {
       console.log(synth.getVoices());
       utterance.voice =
         synth.getVoices()[
-          synth
-            .getVoices()
-            .map(function (e) {
-              return e.lang;
-            })
-            .indexOf("en-GB")
+        synth
+          .getVoices()
+          .map(function (e) {
+            return e.lang;
+          })
+          .indexOf("en-GB")
         ];
 
       utterance.onend = function () {
@@ -269,31 +265,47 @@ export default function Monad(params) {
   const [sizeOpen, setSizeOpen] = useState(false);
 
   useEffect(() => {
-    const possibleSizes = ['14px', '16px', '18px', '20px', '24px', '26px']
+    const possibleSizes = ['14px', '16px', '18px', '20px', '24px', '26px'];
+    const possibleColors = Object.keys(colors);
     const buttonArray = []
     for (let index = 0; index < possibleSizes.length; index++) {
       const size = possibleSizes[index];
-      buttonArray.push(<Buttons style={{padding: '5px', border: '2px solid black'}} key={size} onClick={() => updateSizeState(size)}>{size}</Buttons>)
+      buttonArray.push(<Buttons style={{ padding: '5px', border: '2px solid black' }} key={size} onClick={() => updateState(setSizeState,size)}>{size}</Buttons>)
+    }
+    for (let index = 0; index < possibleColors.length; index++) {
+      const NewColor = possibleColors[index];
+      buttonArray.push(<Buttons style={{ padding: '5px', border: '2px solid black' }} key={NewColor} onClick={() => updateState(SetColorState, colors[NewColor])}>{NewColor}</Buttons>)
     }
     setSizeArray(buttonArray)
   }, []);
 
   useEffect(() => {
     console.log("Page: ", number);
-    setPage(ChapterList[window.location.href.match(/\d+$/)[0] - 1]);
+    updateState(setPage, (ChapterList[window.location.href.match(/\d+$/)[0] - 1]));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [number]);
+
+  const [scrollTopState, setScrollTop] = useState(true);
+  useEffect(() => {
+    window.onscroll = function () {
+      if (window.pageYOffset === 0) {
+        setScrollTop(true)
+      } else {
+        setScrollTop(false)
+      }
+    };
+  }, [])
 
   if (number === ChapterList.length) {
     return (
       <ChapterContainer darkMode={darkMode}>
-                <Sticky open={sizeOpen}><div style={{display: sizeOpen ? 'flex' : 'none', flexDirection: 'column'}}>{sizeArray}</div><button onClick={()=>setSizeOpen(!sizeOpen)}><FontAwesomeIcon
-                  icon={faFont}
-                /></button></Sticky>
+        <Sticky open={sizeOpen}><div style={{ display: sizeOpen ? 'flex' : 'none', flexDirection: 'column' }}>{sizeArray}</div><button onClick={() => setSizeOpen(!sizeOpen)}><FontAwesomeIcon
+          icon={faFont}
+        /></button></Sticky>
         <LinkStyled to="/">Home</LinkStyled>
         <ButtonStyled
           darkMode={darkMode}
-          onClick={() => updateDarkMode()}
+          onClick={() => updateState(setDarkMode, !darkMode)}
           id="darkMode"
 
         >
@@ -373,7 +385,7 @@ export default function Monad(params) {
             {droppy()}
           </div>
         </div>
-        <StyledArticle size={sizeState} darkMode={darkMode}>{isPage}</StyledArticle>
+        <StyledArticle size={sizeState} color={colorState} darkMode={darkMode}>{isPage}</StyledArticle>
         <LinkStyled
           id="Previous"
           onClick={() => PreviousPage()}
@@ -381,21 +393,21 @@ export default function Monad(params) {
         >
           Previous
         </LinkStyled>
-        <button className="Footer-Button" onClick={() => scrollTop()}>
+        {!scrollTopState && <button className="Footer-Button" onClick={() => scrollTop()}>
           Top
-        </button>
+        </button>}
       </ChapterContainer>
     );
   } else if (number > 1) {
     return (
       <ChapterContainer darkMode={darkMode}>
-        <Sticky open={sizeOpen}><div style={{display: sizeOpen ? 'flex' : 'none', flexDirection: 'column'}}>{sizeArray}</div><button onClick={()=>setSizeOpen(!sizeOpen)}><FontAwesomeIcon
-                  icon={faFont}
-                /></button></Sticky>
-                <LinkStyled to="/">Home</LinkStyled>
+        <Sticky open={sizeOpen}><div style={{ display: sizeOpen ? 'flex' : 'none', flexDirection: 'column' }}>{sizeArray}</div><button onClick={() => setSizeOpen(!sizeOpen)}><FontAwesomeIcon
+          icon={faFont}
+        /></button></Sticky>
+        <LinkStyled to="/">Home</LinkStyled>
         <ButtonStyled
           darkMode={darkMode}
-          onClick={() => updateDarkMode()}
+          onClick={() => updateState(setDarkMode, !darkMode)}
           id="darkMode"
         >
           {darkMode ? 'Toggle Light Mode' : 'Toggle Dark Mode'}
@@ -480,7 +492,7 @@ export default function Monad(params) {
         >
           Next
         </LinkStyled>
-        <StyledArticle size={sizeState} darkMode={darkMode}>{isPage}</StyledArticle>
+        <StyledArticle size={sizeState} color={colorState} darkMode={darkMode}>{isPage}</StyledArticle>
         <LinkStyled
           id="Previous"
           onClick={() => PreviousPage()}
@@ -489,9 +501,9 @@ export default function Monad(params) {
           Previous
         </LinkStyled>
 
-        <button className="Footer-Button" onClick={() => scrollTop()}>
+        {!scrollTopState && <button className="Footer-Button" onClick={() => scrollTop()}>
           Top
-        </button>
+        </button>}
         <LinkStyled
           to={"/Monad/" + (number + 1)}
           onClick={() => NextPage()}
@@ -503,13 +515,13 @@ export default function Monad(params) {
   } else {
     return (
       <ChapterContainer darkMode={darkMode}>
-                <Sticky open={sizeOpen}><div style={{display: sizeOpen ? 'flex' : 'none', flexDirection: 'column'}}>{sizeArray}</div><button onClick={()=>setSizeOpen(!sizeOpen)}><FontAwesomeIcon
-                  icon={faFont}
-                /></button></Sticky>
-                <LinkStyled to="/">Home</LinkStyled>
+        <Sticky open={sizeOpen}><div style={{ display: sizeOpen ? 'flex' : 'none', flexDirection: 'column' }}>{sizeArray}</div><button onClick={() => setSizeOpen(!sizeOpen)}><FontAwesomeIcon
+          icon={faFont}
+        /></button></Sticky>
+        <LinkStyled to="/">Home</LinkStyled>
         <ButtonStyled
           darkMode={darkMode}
-          onClick={() => updateDarkMode()}
+          onClick={() => updateState(setDarkMode, !darkMode)}
           id="darkMode"
 
         >
@@ -588,10 +600,10 @@ export default function Monad(params) {
         >
           Next
         </LinkStyled>
-        <StyledArticle size={sizeState} darkMode={darkMode}>{isPage}</StyledArticle>
-        <button className="Footer-Button" onClick={() => scrollTop()}>
+        <StyledArticle size={sizeState} color={colorState} darkMode={darkMode}>{isPage}</StyledArticle>
+        {!scrollTopState && <button className="Footer-Button" onClick={() => scrollTop()}>
           Top
-        </button>
+        </button>}
         <LinkStyled
           to={"/Monad/" + (number + 1)}
           onClick={() => NextPage()}
