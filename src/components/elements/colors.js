@@ -1,4 +1,14 @@
 export const colors = {
+    // blue: "#0d89eb",
+    // lightBlue: "#2CA8FF",
+    // darkBlue: "#161b21",
+    // red: "#f92b00",
+    // lightRed: "#ff5745",
+    // green: "#54cc4f",
+    // offWhite: '#CCCCCC',
+    // offBlack: '#1A1A1A',
+    // grey: '#474747',
+    electricLime: '#c1ff00',
     black: {
         normal: '#000',
         off: '#1A1A1A',
