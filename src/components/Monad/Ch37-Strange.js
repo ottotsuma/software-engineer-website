@@ -219,7 +219,22 @@ function Intro(props) {
         move away with Tsuma in the past but now the academy knew I was
         different it might be harder. I was still going to ask.
       </Otto>
-      <Tsuma></Tsuma>
+      <Tsuma>
+        "That's not all. The academy also asked us to leave. They are going to semi-close down the academy." Tsuma added.
+      </Tsuma>
+      <Otto>
+        "Close down the academy? They just invited me to a new class, why would they close it down shortly after?" I questioned.
+      </Otto>
+      <Tsuma>
+        "Semi-close down. While the researchers and majority of the teaching staff and all non-combat students will stay behind, the combat students and some of their teachers will be used as logistics support or monster clean up for the war. I am worried that means you as well. You told me recently that you could change over to the farming course right? Why don't you do that?" She inquired.
+      </Tsuma>
+      <Otto>
+        "I. I will ask, it's not like I want to go to war, but wit my recent move into a new class, I am not sure what faction I am in now honestly. To be truly honest though I want to go to Niyosho with you." I admit.
+      </Otto>
+      <Tsuma>
+        
+      </Tsuma>
+      {/* Go to the new room at night time */}
       {/* Nobles argue */}
       {/* Niyoshons leave */}
       {/* Off to fight in the war */}
