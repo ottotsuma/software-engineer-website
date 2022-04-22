@@ -232,7 +232,7 @@ function Intro(props) {
         "I. I will ask, it's not like I want to go to war, but wit my recent move into a new class, I am not sure what faction I am in now honestly. To be truly honest though I want to go to Niyosho with you." I admit.
       </Otto>
       <Tsuma>
-        
+        "If you could, I would be ecstatic! "
       </Tsuma>
       {/* Go to the new room at night time */}
       {/* Nobles argue */}
