@@ -196,7 +196,13 @@ function Intro(props) {
         "Well I guess so, but that won't effect us. I don't mean to encourage war but Alden will the ones moving into the republic, not them into us." I replied.
       </Otto>
       <Tsuma>
-        "It will effect us. That's why I'm telling you."
+        "It will effect us. That's why I'm telling you. The princess will have to move back to Niyosho, it's too dangerous for her to stay here during a war. Honestly, it was a lot of work getting here in the first place, many did not want her to come to Alden right now." Tsuma explained in a huff.
+      </Tsuma>
+      <Otto>
+        "Oh." I was a little heart broken. It's not like she was breaking up with me, but she was moving back to Niyosho. I was still in the academy and had no money to move to Niyosho. Maybe it would of been possible to move away with Tsuma in the past but now the academy knew I was different it might be harder. I was still going to ask.
+      </Otto>
+      <Tsuma>
+        
       </Tsuma>
       {/* Nobles argue */}
       {/* Niyoshons leave */}
