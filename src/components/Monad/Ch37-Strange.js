@@ -159,9 +159,10 @@ function Intro(props) {
       <Otto>"Of course." I replied.</Otto>
       <Otto>
         We stood and hugged. I kept my eyes closed the whole time, I felt so
-        right hugging Tsuma that I did not even hear Takeo close in on us.
+        right.
       </Otto>
-      <Takeo>
+      {/*  hugging Tsuma that I did not even hear Takeo close in on us. */}
+      {/* <Takeo>
         "Hey hey now, you two are off in your own world." When I opened my eyes,
         we broke our hug slowly still holding hands I saw behind her was Takeo,
         his friendly face was nice to see again. Not as nice as Tsuma's though,
@@ -175,7 +176,28 @@ function Intro(props) {
       </Takeo>
       <Otto>
         As he patted my shoulder, I replied "Thank you."
+      </Otto> */}
+      <Tsuma>
+        "As much as I want to stay like this for a long time, I have so many things to tell you." she said slowly breaking the hug and holding hands instead.
+      </Tsuma>
+      <Otto>
+        "What could possibly be so urgent, surely they are not running another tournament, the previous one was..."
       </Otto>
+      <Tsuma>
+        "The dumbest idea ever had by a human." Tsuma interrupted. "Alden is going to war with the republic." She almost declared.
+      </Tsuma>
+      <Otto>
+        "Well, were we not already?" I questioned. Our troops had moved onto the republics borders and supplied rebels with weapons and food.
+      </Otto>
+      <Tsuma>
+        "Not openly, and that changes everything! The republic have been unable to strike back at Alden, because nothing was out in the open, and no Aldenese troops had crossed the border. Now that will all change." Tsuma informed me.
+      </Tsuma>
+      <Otto>
+        "Well I guess so, but that won't effect us. I don't mean to encourage war but Alden will the ones moving into the republic, not them into us." I replied.
+      </Otto>
+      <Tsuma>
+        "It will effect us. That's why I'm telling you."
+      </Tsuma>
       {/* Nobles argue */}
       {/* Niyoshons leave */}
       {/* Off to fight in the war */}
