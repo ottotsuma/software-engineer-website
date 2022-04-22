@@ -5,6 +5,9 @@ Re-Write all early story to have 1 - 9 being mage, no element and at level 10 yo
 Ibn Battuta - Legendary quest.
 
 # Random Ideas:
+Dragons have no balls, its an elongated tubeula gland down the dragons tail to keep it cool and away from dragon fire
+endurance and stamina
+willpower and spell duration (efficiency? Duration max?)
 Aberforth the goat fucker.
 Amber, the dwarf who beat her husband.
 Candle Tree, The lights attract bugs and then the tree eats them.
