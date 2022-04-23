@@ -5,6 +5,8 @@ Re-Write all early story to have 1 - 9 being mage, no element and at level 10 yo
 Ibn Battuta - Legendary quest.
 
 # Random Ideas:
+Dad asks boy for reason to become stronger 
+
 Aberforth the goat fucker.
 Amber, the dwarf who beat her husband.
 
