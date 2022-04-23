@@ -5,12 +5,9 @@ Re-Write all early story to have 1 - 9 being mage, no element and at level 10 yo
 Ibn Battuta - Legendary quest.
 
 # Random Ideas:
-Dragons have no balls, its an elongated tubeula gland down the dragons tail to keep it cool and away from dragon fire
-endurance and stamina
-willpower and spell duration (efficiency? Duration max?)
 Aberforth the goat fucker.
 Amber, the dwarf who beat her husband.
-Candle Tree, The lights attract bugs and then the tree eats them.
+
 Have one of each of the charters gather for something bigger.
 
 Vampire healing, Healing spells that can heal people or debuff. Giving the healers options to attack. Heals that deal a set amount of healing to a group, targeting the lowest HP first.
@@ -364,7 +361,7 @@ the classes have to counter each other in a kind of card game style were nothing
 ### Stats:
 <li>Vitality</li> Increases the recovery rate of MP and HP. Total HP. Basic resistances.
 <li>Endurance</li> Increases resistance to physical damage, reduces physical damage taken (%), increases stamina.
-<li>Willpower</li> Increases resistance to magic, reduces magic damage taken (%), resistance to mental attacks.
+<li>Willpower</li> Increases resistance to magic, reduces magic damage taken (%), resistance to mental attacks. [spell duration (efficiency? Duration max?)] 
 
 <li>Magic</li> increases Magical Attack Power and maximum MP.
 <li>Strength</li> Increased Physical Attack Power and the weight behind each attack. Minor: Increased storage capacity. Reduce damage taken during a successful block. Increased resistance to falling. Increased movement speed.
@@ -963,6 +960,11 @@ Based on mesoamerican continent and ends with more advanced people landing slowl
 ## Physical World
 ### Monsters
 undead hags, water hags, blood corpse, flies, 
+
+Dragons have no balls, its an elongated tubeula gland down the dragons tail to keep it cool and away from dragon fire
+
+Candle Tree, The lights attract bugs and then the tree eats them.
+
 ### Countries:
 
 Rename 
