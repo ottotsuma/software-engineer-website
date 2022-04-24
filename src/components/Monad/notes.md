@@ -7,6 +7,8 @@ Ibn Battuta - Legendary quest.
 # Random Ideas:
 Dad asks boy for reason to become stronger 
 
+https://www.youtube.com/watch?v=FS0atiJcl0M
+
 Aberforth the goat fucker.
 Amber, the dwarf who beat her husband.
 

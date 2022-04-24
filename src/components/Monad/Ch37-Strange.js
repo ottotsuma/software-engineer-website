@@ -232,8 +232,11 @@ function Intro(props) {
         "I. I will ask, it's not like I want to go to war, but wit my recent move into a new class, I am not sure what faction I am in now honestly. To be truly honest though I want to go to Niyosho with you." I admit.
       </Otto>
       <Tsuma>
-        "If you could, I would be ecstatic! "
+        "If you could, I would be ecstatic! Your parents and friends are both here though, so you cannot just flee. The army would label you as a deserter. Then you would implicate them also, you'd never be able to see them again." Tsuma tailed off.
       </Tsuma>
+      <Otto>
+        "Hey, don't panic. I planned to ask, not escape. This is not a prison after all."
+      </Otto>
       {/* Go to the new room at night time */}
       {/* Nobles argue */}
       {/* Niyoshons leave */}
