@@ -7,6 +7,10 @@ Ibn Battuta - Legendary quest.
 # Random Ideas:
 Dad asks boy for reason to become stronger 
 
+Each person has a sin
+Otto - Wrath
+Tisiel = Power
+
 https://www.youtube.com/watch?v=FS0atiJcl0M
 
 Aberforth the goat fucker.
