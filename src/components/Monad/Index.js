@@ -44,9 +44,10 @@ import Chapter39 from "./Ch39-Leaving";
 import Chapter40 from "./Ch40-War";
 import Chapter41 from "./Ch41-Graduate";
 import { colors, textColors } from "./../elements/colors";
-import SpellsPage from "./SpellsPage";
+// import SpellsPage from "./SpellsPage";
 import Otto from "./People"; // check this still works
 import SeaPeopleFunction from "./SeaPeople";
+import HitoriStoryFunction from "./Hitori"; // 9 
 import Vampire from "./Vampire";
 import styled from "styled-components";
 
@@ -153,16 +154,19 @@ const ChapterList = [
   <Chapter40 Chapter={"War"} />,
   <Chapter41 Chapter={"Graduate"} />,
   <Otto />,
-  // <SeaPeopleFunction Chapter={0} />,
-  // <SeaPeopleFunction Chapter={1} />,
-  // <SeaPeopleFunction Chapter={2} />,
-  // <SeaPeopleFunction Chapter={3} />,
-  // <SeaPeopleFunction Chapter={4} />,
-  // <SeaPeopleFunction Chapter={5} />,
-  // <SeaPeopleFunction Chapter={6} />,
-  // <SeaPeopleFunction Chapter={7} />,
-  // <SeaPeopleFunction Chapter={8} />,
-  // <SeaPeopleFunction Chapter={9} />,
+  <SeaPeopleFunction Chapter={0} />,
+  <SeaPeopleFunction Chapter={1} />,
+  <SeaPeopleFunction Chapter={2} />,
+  <SeaPeopleFunction Chapter={3} />,
+  <SeaPeopleFunction Chapter={4} />,
+  <SeaPeopleFunction Chapter={5} />,
+  <SeaPeopleFunction Chapter={6} />,
+  <SeaPeopleFunction Chapter={7} />,
+  <SeaPeopleFunction Chapter={8} />,
+  <SeaPeopleFunction Chapter={9} />,
+  <HitoriStoryFunction Chapter={0} />,
+  <HitoriStoryFunction Chapter={1} />,
+  <HitoriStoryFunction Chapter={2} />,  
   <Vampire />,
   // <SpellsPage />,
 ];

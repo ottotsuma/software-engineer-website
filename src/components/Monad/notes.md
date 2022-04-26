@@ -5,7 +5,11 @@ Re-Write all early story to have 1 - 9 being mage, no element and at level 10 yo
 Ibn Battuta - Legendary quest.
 
 # Random Ideas:
+Monster is something to fear, the powerful animals found around the world are 'beasts'
+
 Dad asks boy for reason to become stronger 
+
+Change the first monster into a russian woodlands monster 
 
 Each person has a sin
 Otto - Wrath
@@ -74,8 +78,6 @@ At this point you can use teleport stations, and travel to cities.
 // The people coming off the boats don't have to be human
 // Merging the stats into a few, Vitality, magic, strength, sense, charm
 
-
-# To do:
 Pokemon Style Elements battles!
 // Obsidian is the royals resource - Obsidian is hard, brittle, and amorphous; it therefore fractures with sharp edges. In the past, it was used to manufacture cutting and piercing tools, and it has been used experimentally as surgical scalpel blades.
 He's so sorry his mamma swapped him for a dog. And then drowned the dog.
@@ -226,7 +228,22 @@ Time out - Yeah, just not all the time. Maybe special cases.
 http://wiki.projectgorgon.com/wiki/Website_Death_Penalties_Explained - Fun
 Death can be fun, something like the curses shown here.
 
-### Monsters
+### Monsters / Beasts
+Beast factions. 
+
+Undead - 
+
+Ghoul
+Wight
+Blood Fairy
+Strigoi
+Hannya
+Draugr
+Banshee
+vampiric beasts
+
+
+
 Driver ants https://www.youtube.com/watch?v=OnooyOZRzkM - Blind large ants with pincers, swarming anything they come into contact with until one side is dead.
 
 Sea Star zombies - Limbs detaching and living their own life for a period of time. The main body can regrow the limbs.
