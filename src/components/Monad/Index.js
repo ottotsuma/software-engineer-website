@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFont } from "@fortawesome/free-solid-svg-icons";
 import Chapter1 from "./Ch1-Intro";
@@ -43,57 +43,17 @@ import Chapter38 from "./Ch38-Nobles";
 import Chapter39 from "./Ch39-Leaving";
 import Chapter40 from "./Ch40-War";
 import Chapter41 from "./Ch41-Graduate";
-import { colors, textColors } from "./../elements/colors";
+import { textColors } from "./../elements/colors";
 // import SpellsPage from "./SpellsPage";
 import Otto from "./People"; // check this still works
 import SeaPeopleFunction from "./SeaPeople";
 import HitoriStoryFunction from "./Hitori"; // 9 
 import Vampire from "./Vampire";
-import styled from "styled-components";
-
-const Buttons = styled.button`
-  background: none;
-  border: none;
-  cursor: pointer;
-  outline: none;
-  padding: 0;
-  font-family: "Yusei Magic", sans-serif;
-  color: ${(props) => (props.darkMode ? "white" : "black")};
-  background-color: ${(props) => (props.darkMode ? "white" : "")};
-  &:hover {
-    color: ${colors.red.normal};
-    background ${colors.blue.normal};
-    zoom: 1.1;
-  }
-`;
-
-const ChapterContainer = styled.div`
-  max-width: 100%;
-  max-height: 100%;
-  background: ${(props) =>
-    props.darkMode ? colors.grey.oldNormal : colors.lightBackground};
-`;
-export const Sticky = styled.div`
-  position: fixed;
-  top: 7vh;
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-  overflow: hidden;
-  width: ${props => props.open ? '100%' : ''};
-  height: ${props => props.open ? '100%' : '100%'};
-  max-height: 80vh;
-  overflow-y: ${props => props.open ? 'scroll' : 'hidden'};
-`;
-const StyledArticle = styled.article`
-  color: ${(props) => props.color ? props.color : (props.darkMode ? colors.white.off : colors.black.off)};
-  font-size: ${props => props.size ? props.size : '18px'};
-`;
+import {ButtonStyled, LinkStyled, Buttons, Sticky, ChapterContainer, StyledArticle} from './styles'
 
 const scrollTop = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 };
-
 let number = 1;
 if (window.location.href.match(/\d+$/)) {
   number = parseInt(window.location.href.match(/\d+$/)[0]);
@@ -166,7 +126,7 @@ const ChapterList = [
   <SeaPeopleFunction Chapter={9} />,
   <HitoriStoryFunction Chapter={0} />,
   <HitoriStoryFunction Chapter={1} />,
-  <HitoriStoryFunction Chapter={2} />,  
+  <HitoriStoryFunction Chapter={2} />,
   <Vampire />,
   // <SpellsPage />,
 ];
@@ -273,9 +233,9 @@ export default function Monad(params) {
     const buttonArray = []
     for (let index = 0; index < possibleSizes.length; index++) {
       const size = possibleSizes[index];
-      buttonArray.push(<Buttons style={{ padding: '5px', border: '2px solid black' }} key={size} onClick={() => updateState(setSizeState,size)}>{size}</Buttons>)
+      buttonArray.push(<Buttons style={{ padding: '5px', border: '2px solid black' }} key={size} onClick={() => updateState(setSizeState, size)}>{size}</Buttons>)
     }
-    for (let index = 0; index < possibleColors.length-1; index++) {
+    for (let index = 0; index < possibleColors.length - 1; index++) {
       const NewColor = possibleColors[index];
       buttonArray.push(<Buttons style={{ padding: '5px', border: '2px solid black' }} key={NewColor} onClick={() => updateState(SetColorState, textColors[NewColor])}>{NewColor}</Buttons>)
     }
@@ -284,7 +244,14 @@ export default function Monad(params) {
 
   useEffect(() => {
     console.log("Page: ", number);
-    updateState(setPage, (ChapterList[window.location.href.match(/\d+$/)[0] - 1]));
+    const Location = window.location.href.match(/\d+$/)
+    if (Location) {
+      updateState(setPage, (ChapterList[Location[0] - 1]));
+    } else {
+      updateState(setPage, (ChapterList[[
+        "1"
+      ][0] - 1]));
+    }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [number]);
 
@@ -619,46 +586,3 @@ export default function Monad(params) {
 }
 //  export default Monad;
 
-const ButtonStyled = styled.button`
-padding: 0 1.5rem;
-border-radius: 2rem;
-background: linear-gradient(
-  217deg,
-  rgb(218, 182, 111),
-  rgb(244, 229, 203) 70.71%
-);
-border-color: #512c2e;
-border-style: solid;
-border-width: 2px;
-font-size: large;
-color: black;
-cursor: pointer;
-
-font-family: "Yusei Magic", sans-serif;
-&:hover {
-  color: ${colors.red.normal};
-  background ${colors.blue.normal};
-}
-`;
-
-const LinkStyled = styled(Link)`
-padding: 0 1.5rem;
-border-radius: 2rem;
-background: linear-gradient(
-  217deg,
-  rgb(218, 182, 111),
-  rgb(244, 229, 203) 70.71%
-);
-border-color: #512c2e;
-border-style: solid;
-border-width: 2px;
-font-size: large;
-color: black;
-cursor: pointer;
-
-font-family: "Yusei Magic", sans-serif;
-&:hover {
-  color: ${colors.red.normal};
-  background ${colors.blue.normal};
-}
-`;

@@ -1,5 +1,102 @@
 import styled from 'styled-components';
+import { colors } from "./../elements/colors";
+import { Link } from "react-router-dom";
 
+// Styles for Monad as a whole.
+export const Buttons = styled.button`
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  font-family: "Yusei Magic", sans-serif;
+  color: ${(props) => (props.darkMode ? "white" : "black")};
+  background-color: ${(props) => (props.darkMode ? "white" : "")};
+  &:hover {
+    color: ${colors.red.normal};
+    background ${colors.blue.normal};
+    zoom: 1.1;
+  }
+`;
+export const ChapterContainer = styled.div`
+  max-width: 100%;
+  max-height: 100%;
+  background: ${(props) =>
+    props.darkMode ? colors.grey.oldNormal : colors.lightBackground};
+`;
+export const Sticky = styled.div`
+  position: fixed;
+  top: 7vh;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  overflow: hidden;
+  width: ${props => props.open ? '100%' : ''};
+  height: ${props => props.open ? '100%' : '100%'};
+  max-height: 80vh;
+  overflow-y: ${props => props.open ? 'scroll' : 'hidden'};
+`;
+export const StyledArticle = styled.article`
+  color: ${(props) => props.color ? props.color : (props.darkMode ? colors.white.off : colors.black.off)};
+  font-size: ${props => props.size ? props.size : '18px'};
+`;
+export const ButtonStyled = styled.button`
+padding: 0 1.5rem;
+border-radius: 2rem;
+background: linear-gradient(
+  217deg,
+  rgb(218, 182, 111),
+  rgb(244, 229, 203) 70.71%
+);
+border-color: #512c2e;
+border-style: solid;
+border-width: 2px;
+font-size: large;
+color: black;
+cursor: pointer;
+
+font-family: "Yusei Magic", sans-serif;
+&:hover {
+  color: ${colors.red.normal};
+  background ${colors.blue.normal};
+}
+`;
+export const LinkStyled = styled(Link)`
+padding: 0 1.5rem;
+border-radius: 2rem;
+background: linear-gradient(
+  217deg,
+  rgb(218, 182, 111),
+  rgb(244, 229, 203) 70.71%
+);
+border-color: #512c2e;
+border-style: solid;
+border-width: 2px;
+font-size: large;
+color: black;
+cursor: pointer;
+
+font-family: "Yusei Magic", sans-serif;
+&:hover {
+  color: ${colors.red.normal};
+  background ${colors.blue.normal};
+}
+`;
+export const ButtonsA = styled.a`
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  font-family: "Yusei Magic", sans-serif;
+  color: black;
+  // background-color: ${(props) => (props.darkMode ? "white" : "")};
+  &:hover {
+    color: ${colors.red.normal};
+    background ${colors.blue.normal};
+    zoom: 1.1;
+  }
+`;
 export const Content = styled.div`
 display: flex;
 flex-direction: column;
@@ -23,7 +120,6 @@ h3 {
 }
 
 `;
-
 export const Shine = styled.p`
   font-size: xxx-large;
   font-weight: 900;

@@ -8,6 +8,7 @@ export default function Spin({ Array }) {
   useEffect(() => {
     console.log(Array);
     SetCurrent(Array[0]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   function Change(index) {
