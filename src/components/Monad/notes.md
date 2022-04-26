@@ -15,15 +15,15 @@ Each person has a sin
 Otto - Wrath
 Tisiel = Power 
 
-first is wrath. Wrath and rage are generally a response to when you feel your power is being taken or tresspassed upon. This emotion allowed you to sacrifice intellect for streingth to regain that power. This is not a healthy way to do it obviously but it is instinctual and it is a deadly sin because its so very self distructive. It is also one of two sins that are self fueling.
+first is wrath. Wrath and rage are generally a response to when you feel your power is being taken or trespassed upon. This emotion allowed you to sacrifice intellect for strength to regain that power. This is not a healthy way to do it obviously but it is instinctual and it is a deadly sin because its so very self destructive. It is also one of two sins that are self fueling.
 
 The most obvious is pride. Or ego. It is common for the arrogant or the egotist to believe they alone are worthy of more power. And since others are of no value to ego it means nothing to step on someone else to attain that power.
 
-Another is greed. The all consuming thirst for more. It doesnt matter if its owned by another, if it has nothing to do with you. Greed wants it all. Wealth, fame, women, men, objects, power, godhood. All of these things are to be taken by thoes who blindly live greed.
+Another is greed. The all consuming thirst for more. It doesn't matter if its owned by another, if it has nothing to do with you. Greed wants it all. Wealth, fame, women, men, objects, power, godhood. All of these things are to be taken by those who blindly live greed.
 
-An obscure one is envy. The fear of not being as good as another in some capacity. The fastest way to overcome your insecurities, to become more powerful than othwers.
+An obscure one is envy. The fear of not being as good as another in some capacity. The fastest way to overcome your insecurities, to become more powerful than others.
 
-And even lust. The singular obsession. It doeant mattwr what is lusted after if it becomes your obsession it is lust. Whether it be sexual or something else, lust is simply pure obsession. The lust for power is often the strongest form of lust.
+And even lust. The singular obsession. It doesn't matter what is lusted after if it becomes your obsession it is lust. Whether it be sexual or something else, lust is simply pure obsession. The lust for power is often the strongest form of lust.
 
 https://www.youtube.com/watch?v=FS0atiJcl0M
 
