@@ -10,6 +10,9 @@ export const colors = {
     // grey: '#474747',
     lightBackground: `linear-gradient(0deg, rgba(34,89,195,0.7) 9%, rgba(45,253,209,0.3) 100% )`,
     electricLime: '#c1ff00',
+    brown: {
+        Murasakitobi: '#512c31'
+    },
     black: {
         normal: '#000',
         off: '#1A1A1A',

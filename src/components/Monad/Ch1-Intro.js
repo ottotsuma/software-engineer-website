@@ -6,7 +6,7 @@ import LevelUp from "./../elements/levelup";
 import { Content } from "./styles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
-import { ButtonsA, Sticky } from './styles'
+import { ButtonsA, Sticky, BreakPoint } from './styles'
 
 const SectionTabs = [{ name: 'Monad', href: '#Monad' }, { name: 'Steinauhau', href: '#Steinauhau' }, { name: 'Michkel', href: '#Michkel' }, { name: 'PlayDay', href: '#PlayDay' }, { name: 'Incident', href: '#Incident' }, { name: 'TheBody', href: '#TheBody' }, { name: 'Aftermath', href: '#Aftermath' }, { name: 'Training', href: '#Training' }, { name: 'Otto', href: '#Otto' }, { name: 'Effi', href: '#Effi' }]
 const Intro = (props) => {
@@ -25,7 +25,7 @@ const Intro = (props) => {
         /></button></Sticky>
         <div id="test" className="Content">
           {/* <!-- military education is also about the history --> */}
-          <section id="Monad">
+          <BreakPoint id="Monad">
             <h1 id="title">Monad</h1>
             {/* Monad (philosophy), a term meaning "unit", used by philosophers to signify a variety of entities, originally the God and later such things as genus
 Monism, the concept of "one essence" in the metaphysical and theological theory */}
@@ -118,9 +118,9 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
               right at my head and the sound it gave off blew my ear drums out,
               there was a large flash of light, then nothing.
             </p>
-          </section>
-          <section id="Steinauhau">
-            <div className="BreakPoint" />
+          </BreakPoint>
+          <BreakPoint id="Steinauhau">
+
             <h3>Steinauhau</h3>
             {/* The Grand Duchy of Alden is home to 3.2 million people */}
             <p>
@@ -186,9 +186,9 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
               weapons etc. I wrote down everything I could remember, right up
               until I heard a click then my vision went black.
             </p>
-          </section>
-          <div className="BreakPoint" />
-          <section id="Michkel">
+          </BreakPoint>
+
+          <BreakPoint id="Michkel">
             <h3>Michkel</h3>
             {/* <!-- starting with the kids meeting as friends, introduce the town, some news the people, small parts of the world, culture--> */}
             <p>
@@ -282,9 +282,9 @@ most people learn inspect but either see
 - progress bar 
 - use list 
 --> */}
-          </section>
-          <div className="BreakPoint" />
-          <section id="PlayDay">
+          </BreakPoint>
+
+          <BreakPoint id="PlayDay">
             <h3>Play Day</h3>
             {/* <!-- Children in the forest --> */}
             <p>
@@ -377,9 +377,9 @@ most people learn inspect but either see
             decade.
           </p> */}
             {/* <!-- around the year 21-22 the rebellion breaks out --> */}
-          </section>
-          <div className="BreakPoint" />
-          <section id="Incident">
+          </BreakPoint>
+
+          <BreakPoint id="Incident">
             <h3>Incident</h3>
             {/* <!-- redo - as Effie --> */}
             <p>
@@ -482,9 +482,9 @@ most people learn inspect but either see
               details={""}
               name={"Otto"}
             />
-          </section>
-          <div className="BreakPoint" />
-          <section id="TheBody">
+          </BreakPoint>
+
+          <BreakPoint id="TheBody">
             <h3>The Body</h3>
             <p>
               After hearting the children scream like they where really in trouble
@@ -521,9 +521,9 @@ most people learn inspect but either see
             </div>
             {/* <!-- Lurking in the water is a strange child-sized humanoid that resembles a bizarre cross between a turtle, a lizard, and a monkey. It has a beak-like mouth, scaly reptilian skin, clawed and webbed hands, and a turtle-like shell on its back. In the top of its head is a bowl-like depression filled with water. --> */}
             {/* <!-- https://forgottenrealms.fandom.com/wiki/Kappa --> */}
-            <div className="BreakPoint" />
-          </section>
-          <section id="Aftermath">
+
+          </BreakPoint>
+          <BreakPoint id="Aftermath">
             <h3>Aftermath</h3>
             {/* <!-- punishment --> */}
             {/* <!-- a reflection for some of the others maybe about the deaths? monsters? --> */}
@@ -598,9 +598,9 @@ most people learn inspect but either see
               is a Grand Duchy.
             </p>
             {/* League = Herkikia League */}
-          </section>
-          <div className="BreakPoint" />
-          <section id="Training">
+          </BreakPoint>
+
+          <BreakPoint id="Training">
             <h3>Training</h3>
             <h4>Beke POV</h4>
             <p>
@@ -768,8 +768,8 @@ most people learn inspect but either see
             </p>
             <p>More silence.</p>
             {/* Move skill lessons to Beke. Otto doesn't need this chapter. */}
-          </section>
-          <section id="Otto">
+          </BreakPoint>
+          <BreakPoint id="Otto">
             <h4>Skill tree lesson - Otto</h4>
             <p>
               After being directed away by an old man behind a desk I was facing a
@@ -809,9 +809,9 @@ most people learn inspect but either see
               in a party. This made humans particularly in large numbers, and
               political environments.
             </p>
-          </section>
-          <div className="BreakPoint" />
-          <section id="Effi">
+          </BreakPoint>
+
+          <BreakPoint id="Effi">
             <h4>Effi POV</h4>
             <p>
               I had joined the fighter group. I was surprised to see that even the
@@ -901,7 +901,7 @@ most people learn inspect but either see
               from the academy we were some of the first students in the country
               to set off.
             </p>
-          </section>
+          </BreakPoint>
           {/*Alphonse -  In the arena, 30 had been commended to die. Malnourished and with cuts and bruises still healing from rough treatment by their jailors. They were completely naked and jeered at spitefully by the crowd. Each has their hands tied behind their back, standing on a long plank of wood resting on a fulcrum. Suddenly there is a loud grown of scraping wood and the clanking of chains, 20 beasts are raised though the floor from the network under the arena. They have been deliberately kept starving for today. They took no time to spot their prey and with a loud screaming roar each charged forward. The panicked prisoners watch the beasts approach, in a flash the beasts are upon them, the first leap out of the way rising high into the air on the long plank of wood, safe for a moment from mutilation that would of been their destiny if they had remained on the ground. However this temporary respite comes at a cost, the men at the other end of the plank are each lowered towards the ground, with the beasts below. Their faces, legs, torsoes are ripped apart with pincers, claws and fangs. The lucky ones are killed quickly, while the others are ripped torn and devoured while they are still alive and screaming. Some of them blind with fear leap into the air, sending their opposite side down into the beasts. The beasts tare into them, the whole thing is a perverse game of seeing who will die last, although death is inevitable for everyone involved. */}
           {/*
 <!-- 

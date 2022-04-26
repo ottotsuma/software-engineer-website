@@ -3,6 +3,9 @@ import { colors } from "./../elements/colors";
 import { Link } from "react-router-dom";
 
 // Styles for Monad as a whole.
+export const BreakPoint = styled.section`
+border-bottom: thick dotted #32a1ce;
+`;
 export const Buttons = styled.button`
   background: none;
   border: none;
@@ -48,7 +51,7 @@ background: linear-gradient(
   rgb(218, 182, 111),
   rgb(244, 229, 203) 70.71%
 );
-border-color: #512c2e;
+border-color: ${colors.brown.Murasakitobi};
 border-style: solid;
 border-width: 2px;
 font-size: large;
@@ -69,11 +72,11 @@ background: linear-gradient(
   rgb(218, 182, 111),
   rgb(244, 229, 203) 70.71%
 );
-border-color: #512c2e;
+border-color: ${colors.brown.Murasakitobi};
 border-style: solid;
 border-width: 2px;
 font-size: large;
-color: black;
+color: ${colors.black.normal};
 cursor: pointer;
 
 font-family: "Yusei Magic", sans-serif;
@@ -89,8 +92,8 @@ export const ButtonsA = styled.a`
   outline: none;
   padding: 0;
   font-family: "Yusei Magic", sans-serif;
-  color: black;
-  // background-color: ${(props) => (props.darkMode ? "white" : "")};
+  color: ${colors.black.normal};
+  background-color: ${colors.white.off};
   &:hover {
     color: ${colors.red.normal};
     background ${colors.blue.normal};
@@ -103,10 +106,8 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 
-// color: black;
 margin-left: 4%;
 margin-right: 4%;
-// font-size: large;
 overflow-x: none;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 
