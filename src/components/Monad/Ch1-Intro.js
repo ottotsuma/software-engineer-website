@@ -7,6 +7,7 @@ import { Content } from "./styles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
 import { ButtonsA, Sticky, BreakPoint } from './styles'
+import ImageZoom from './../elements/imageZoom'
 
 const SectionTabs = [{ name: 'Monad', href: '#Monad' }, { name: 'Steinauhau', href: '#Steinauhau' }, { name: 'Michkel', href: '#Michkel' }, { name: 'PlayDay', href: '#PlayDay' }, { name: 'Incident', href: '#Incident' }, { name: 'TheBody', href: '#TheBody' }, { name: 'Aftermath', href: '#Aftermath' }, { name: 'Training', href: '#Training' }, { name: 'Otto', href: '#Otto' }, { name: 'Effi', href: '#Effi' }]
 const Intro = (props) => {
@@ -33,12 +34,14 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             <div className="pop">
               Map of Chab
               {/* http://www.mesoweb.com/resources/vocabulary/English-Maya.html */}
-              <img
+              {/* <img
                 className="popOut"
-                src="https://ottotsuma.github.io/images/places/Charia%20Jun17%2013-14%20(1).jpeg"
+                src="https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-44.png"
                 height="400px"
                 alt="MapOfMonad"
-              />
+              /> */}
+              {/* <ImageZoom alt="MapOfMonad" image="https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-44.png" /> */}
+              <ImageZoom alt="MapOfMonad" image="https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-45.png" />
             </div>
             {/* Some kind of fight? */}
             <p>
