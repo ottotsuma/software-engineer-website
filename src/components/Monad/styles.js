@@ -55,7 +55,7 @@ border-color: ${colors.brown.Murasakitobi};
 border-style: solid;
 border-width: 2px;
 font-size: large;
-color: black;
+color: ${colors.black.normal};
 cursor: pointer;
 
 font-family: "Yusei Magic", sans-serif;
