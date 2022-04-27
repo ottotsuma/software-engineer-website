@@ -490,11 +490,11 @@ function Lessons(props) {
           </Otto>
           <Tisiel>
             "Aww, it's your first time. Dungeons are usually quite dangerous
-            places, full of monsters and if you are lucky treasures. Normal
+            places, full of beasts and if you are lucky treasures. Normal
             dungeons you just have to fight your way though to the end and kill
-            a boss monster to get the reward. Since this is a field dungeon
+            a boss, leader of beasts, to get the reward. Since this is a field dungeon
             however, I have only read about them but there might not necessarily
-            be any monsters, a boss, or even treasures. It might even be full of
+            be any beasts, a boss, or even treasures. It might even be full of
             traps." Tisiel replied like a little book worm.
           </Tisiel>
           {/* <p>"Grab the ring?" I said as we got near the alter.</p>
@@ -503,7 +503,7 @@ function Lessons(props) {
           <p>
             Looking around, there were what I would call normal grave stones,
             with faded writing on stone embedded into the ground and curved at
-            the top. Others looked like sculptures of people, monsters & various
+            the top. Others looked like sculptures of people, beasts & various
             unusual designs.
           </p>
           <p>
@@ -571,7 +571,7 @@ function Lessons(props) {
             it and behind her skull was a tiara. Each of them looked expensive.
             I had seen jewelry before, and magic items but they where usually
             gems placed onto a band of metal. These through the metal was
-            crafted into scenes with monsters and animals and humans all around
+            crafted into scenes with beasts and animals and humans all around
             each item. As I was inspecting the tiara Tisiel looked up at me
             strange look.
           </p>
