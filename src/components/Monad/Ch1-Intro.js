@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
 import { ButtonsA, Sticky, BreakPoint } from './styles'
 import ImageZoom from './../elements/imageZoom'
+import { Beke, Otto, Effi } from './CharacterFonts'
 
 const SectionTabs = [{ name: 'Monad', href: '#Monad' }, { name: 'Steinauhau', href: '#Steinauhau' }, { name: 'Michkel', href: '#Michkel' }, { name: 'PlayDay', href: '#PlayDay' }, { name: 'Incident', href: '#Incident' }, { name: 'TheBody', href: '#TheBody' }, { name: 'Aftermath', href: '#Aftermath' }, { name: 'Training', href: '#Training' }, { name: 'Otto', href: '#Otto' }, { name: 'Effi', href: '#Effi' }]
 const Intro = (props) => {
@@ -190,7 +191,6 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
               until I heard a click then my vision went black.
             </p>
           </BreakPoint>
-
           <BreakPoint id="Michkel">
             <h3>Michkel</h3>
             {/* <!-- starting with the kids meeting as friends, introduce the town, some news the people, small parts of the world, culture--> */}
@@ -286,7 +286,6 @@ most people learn inspect but either see
 - use list 
 --> */}
           </BreakPoint>
-
           <BreakPoint id="PlayDay">
             <h3>Play Day</h3>
             {/* <!-- Children in the forest --> */}
@@ -381,7 +380,6 @@ most people learn inspect but either see
           </p> */}
             {/* <!-- around the year 21-22 the rebellion breaks out --> */}
           </BreakPoint>
-
           <BreakPoint id="Incident">
             <h3>Incident</h3>
             {/* <!-- redo - as Effie --> */}
@@ -486,7 +484,6 @@ most people learn inspect but either see
               name={"Otto"}
             />
           </BreakPoint>
-
           <BreakPoint id="TheBody">
             <h3>The Body</h3>
             <p>
@@ -602,30 +599,24 @@ most people learn inspect but either see
             </p>
             {/* League = Herkikia League */}
           </BreakPoint>
-
           <BreakPoint id="Training">
             <h3>Training</h3>
             <h4>Beke POV</h4>
-            <p>
-              Beke outside the town hall, looking around he could see some of the
-              children he use to play with, the older children of the area. They
-              pay little or no attention to Beke as he comes into the hall they
-              instead are deep into their studies or practice.
-            </p>
-            <p>
-              He makes his way past the children on the right practicing with
-              swords, spears & shields. To the left children practice copying the
-              movements of different animals, boars, snakes, dogs, cats even rats.
-              A look of rejection comes across Beke's face to these children doing
-              odd movements. He arrives are the large wooden doors to the hall,
-              *describe the hall* He makes his way inside, seeing children sitting
-              around reading, silently, taking notes, the atmosphere in here
-              around these children made Beke feel unconformable, not his kind of
-              thing. Soon he finds himself stood in front of an elderly man with
-              grey hair, a long nose, long wrinkly fingers, the old man was
-              wearing a thick woolen cloak. Even Beke knew better then to
-              interrupt this particular man.
-            </p>
+            <Beke>
+              As I arrived at the town hall I could see others outside practicing holding weapons and swinging them under the supervision of an instructor. I knew them, they were the same age as me, I didn't make any friends among them. I was always friends with Ilse & Eugen. The others, Nils, Otto & Jakob were Effi's friends, not mine. They only joined us because Effi was Ilse's little sister.
+            </Beke>
+            <Beke>
+              As I walked I spotted another group. The weirdos. Their job class was rouge, today they were prancing around on the floor, mimicking the movement of their preferred animal. One was even wiggling on the floor like a snake, or more likely a worm. I could feel my face twist in contempt, nothing I could do about it, was their fault for acting that way.
+            </Beke>
+            <Beke>
+              I arrived at the door to the town hall. The hall smelled, earthy, musky a little stale. To counteract this, herbs and rushes were strewn across the floors. The walls were painted with scenes of Aldens past. I liked this part of the hall, there were depictions of the battles. As I walked along the painted halls, the work was interrupted by rooms of other kids sitting down in silence reading or listening to an instructor talk. I hope to shield and go outside like the first group I saw.
+            </Beke>
+            <Beke>
+              After reaching the back of the hall, there was small room with an elderly man inside. He
+              had grey hair, a long nose, long wrinkly fingers and the old man was
+              wearing a thick woolen cloak. I knew better then to
+              interrupt this particular man. So I waited.
+            </Beke>
             <p>After a few moments the mans voice booms out "Late".</p>
             <p>
               "S-sorry Mr. David I had to clean as punishment for.." his eyes
@@ -773,6 +764,10 @@ most people learn inspect but either see
             {/* Move skill lessons to Beke. Otto doesn't need this chapter. */}
           </BreakPoint>
           <BreakPoint id="Otto">
+            {/* meadowsweet and marjoram; EU => Yucatan spicigera, Mimosa pudica, Persea americana, Petiveria alliacea, Piper amalago, Psidium guajava, Tagetes erecta and T. lucida. */}
+
+            {/* Cempazúchitl of orange and yellow were mostly used. Our previous rules introduced the plant to this region, whenever a batch is found they are ripped up and used to cover up the smell of old wood in the town hall, also letting us walk on-top of them. */}
+            I arrived at the door to the town hall. The hall smelled, earthy, musky a little stale. To counteract this, herbs and rushes were strewn across the floors.
             <h4>Skill tree lesson - Otto</h4>
             <p>
               After being directed away by an old man behind a desk I was facing a
@@ -812,8 +807,8 @@ most people learn inspect but either see
               in a party. This made humans particularly in large numbers, and
               political environments.
             </p>
+            {/* Otto goes home and tells his parents about his day at school. The parents talk to him about what he wants and reasons for wanting it. */}
           </BreakPoint>
-
           <BreakPoint id="Effi">
             <h4>Effi POV</h4>
             <p>

@@ -5,6 +5,8 @@ Re-Write all early story to have 1 - 9 being mage, no element and at level 10 yo
 Ibn Battuta - Legendary quest.
 
 # Random Ideas:
+smells - http://www.triviumpublishing.com/articles/smellofthemiddleages.html
+
 Monster is something to fear, the powerful animals found around the world are 'beasts'
 
 Dad asks boy for reason to become stronger 

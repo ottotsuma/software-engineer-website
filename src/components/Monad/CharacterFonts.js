@@ -27,6 +27,9 @@ import styled from "styled-components";
   export const Effi = styled.p`
   
 `;
+export const Beke = styled.p`
+  
+`;
 export const Sarah = styled.p`
   
   font-family: 'Sofia', cursive;
