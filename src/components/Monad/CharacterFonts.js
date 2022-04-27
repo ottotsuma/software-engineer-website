@@ -1,30 +1,30 @@
 import styled from "styled-components";
 // font-family: 'MedievalSharp', cursive;
 // font-family: 'Architects Daughter', cursive;
-  // font-family: 'Redacted Script', cursive;
-  // font-family: 'Corinthia', cursive;
-  // font-family: 'Sevillana', cursive;
-  // font-family: 'Charm', cursive;
-  // font-family: 'Aladin', cursive;
-  // font-family: 'Sofia', cursive;
-  // font-family: "Yusei Magic", sans-serif;
-  export const Hitori = styled.p`
+// font-family: 'Redacted Script', cursive;
+// font-family: 'Corinthia', cursive;
+// font-family: 'Sevillana', cursive;
+// font-family: 'Charm', cursive;
+// font-family: 'Aladin', cursive;
+// font-family: 'Sofia', cursive;
+// font-family: "Yusei Magic", sans-serif;
+export const Hitori = styled.p`
   `;
-  export const System = styled.p`
+export const System = styled.p`
   font-family: 'Gugi', cursive;
   `;
-  export const Juan = styled.p`
+export const Juan = styled.p`
   // Juan Ponce de León 
   `;
-  export const Anneliese = styled.p`
+export const Anneliese = styled.p`
   `;
-  export const Mia = styled.p`
+export const Mia = styled.p`
   `;
-  export const Klemens = styled.p`
+export const Klemens = styled.p`
   `;
-  export const Oskar = styled.p`
+export const Oskar = styled.p`
   `;
-  export const Effi = styled.p`
+export const Effi = styled.p`
   
 `;
 export const Beke = styled.p`
