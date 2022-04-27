@@ -1,9 +1,6 @@
 https://guides.github.com/features/mastering-markdown/
 
 Re-Write all early story to have 1 - 9 being mage, no element and at level 10 you find out your element so they can change class like the rogue and fighter. Chapter 13 and earlier.
- 
-Ibn Battuta - Legendary quest.
-
 # Random Ideas:
 smells - http://www.triviumpublishing.com/articles/smellofthemiddleages.html
 
@@ -16,6 +13,7 @@ Change the first monster into a russian woodlands monster
 Each person has a sin
 Otto - Wrath
 Tisiel = Power 
+Ibn Battuta - Legendary quest.
 
 first is wrath. Wrath and rage are generally a response to when you feel your power is being taken or trespassed upon. This emotion allowed you to sacrifice intellect for strength to regain that power. This is not a healthy way to do it obviously but it is instinctual and it is a deadly sin because its so very self destructive. It is also one of two sins that are self fueling.
 
