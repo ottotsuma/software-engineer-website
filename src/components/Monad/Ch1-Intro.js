@@ -225,10 +225,10 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
               While setting up in the morning Robert joined us and shared the news
               of the of the on going northern border problems. People living there
               have been unhappy with the Republic's increased taxes and taking
-              their children to fight a war so far away from home. The villages
-              still had to fend off monsters of their own. The republic had a
+              their children and young adults to fight a war so far away from home. The villages
+              still had to fend off the local beasts of their own, just with less man power now. The republic had a
               massive Avalanche in Neuenese and a Fault in Moborodian, the earth
-              there had opened up and monsters in the depths had spread out. The
+              there had opened up and monsters and beasts from the depths had spread out. The
               rebels fed up with their treatment had forces between
               100,000~300,000. Since most where not soldiers beforehand the
               success of the rebels was blamed on Aldens supplying the rebels.
@@ -496,7 +496,7 @@ most people learn inspect but either see
             </p>
             <p>
               Hours later I was stood next to robert over the dead body of the
-              monster. "You know what kind of creature this is?" I asked. "Yeah, a
+              'monster'. "You know what kind of beast this is?" I asked. "Yeah, a
               Kappa, a young one at that, less then 2 years old." Robert replied.
               I looked towards Robert and he continued. "Not native to here of
               course, I've never seen one this far south, or this far from a
@@ -508,17 +508,18 @@ most people learn inspect but either see
               We stood watching the body burn. "Scouting turned up nothing, maybe
               it really did get driven south by the events in the north, there
               were no traces of other kappas in the area. That being said I have
-              had reports of increasing monster attacks from Swexausern." Robert
+              had reports of increasing beast attacks from Swexausern." Robert
               said.
             </p>
-            <div className="pop">
+            {/* Put new monster here. */}
+            {/* <div className="pop">
               Young-Kappa
               <img
                 className="popOut"
                 src="https://ottotsuma.github.io/images/monsters/Kappa.png"
                 alt="Kappa"
               />
-            </div>
+            </div> */}
             {/* <!-- Lurking in the water is a strange child-sized humanoid that resembles a bizarre cross between a turtle, a lizard, and a monkey. It has a beak-like mouth, scaly reptilian skin, clawed and webbed hands, and a turtle-like shell on its back. In the top of its head is a bowl-like depression filled with water. --> */}
             {/* <!-- https://forgottenrealms.fandom.com/wiki/Kappa --> */}
 
@@ -574,10 +575,10 @@ most people learn inspect but either see
               how to unlock their class, skills, or attributes. Almost like
               everyone who had unlocked them was sworn to silence, today I found
               out that was true. For their own protection as the only way to
-              unlock attributes was to slay a monster in battle without the help
+              unlock attributes was to slay a beast or monster in battle without the help
               of anyone with attributes, knowing this some children might
-              carelessly try and fight a monster before they where 14. Naturally
-              not everyone kept the secret and most children had killed a monster
+              carelessly try and fight a beast before they where 14. Naturally
+              not everyone kept the secret and most children had killed a beast
               before they where 14 just usually just one their parent had picked
               out for them, something less dangerous.
             </p>
@@ -682,7 +683,7 @@ most people learn inspect but either see
               Fighters move mana throughout their bodies to increase their speed,
               strength or even defend from attacks this much you might already
               know from your parents. A Rogue however uses their mana to reproduce
-              how monsters fight. It's not so much about the movements but how
+              how beasts fight. It's not so much about the movements but how
               they use their mana, let me show you.
             </p>
             <p>
@@ -692,7 +693,7 @@ most people learn inspect but either see
               tail, that is my spirit."
             </p>
             <p>
-              "So I can grow extra body parts, parts of monsters to help me
+              "So I can grow extra body parts, parts of beasts to help me
               fight!?"
             </p>
             <p>
@@ -700,8 +701,8 @@ most people learn inspect but either see
               It is not about having extra body parts, although you can, I've even
               seen a man who replaced his eyes with that of a bird of prey, made
               him an amazing archer. The point is being a Rogue is about taking
-              what advantages a monster has and making them or own. From level 1
-              through to 10 we mimic the monster we want to steal from, learn how
+              what advantages a beasts has and making them or own. From level 1
+              through to 10 we mimic the beasts we want to steal from, learn how
               they fight so that we can kill them, eat their heart and take their
               spirit for our own."
             </p>
