@@ -96,7 +96,7 @@ function Travel(props) {
             kiss, and a shield. I knew what role I wanted to take in the future.
             While everyone at the army camp would be a Fighter class we would
             all proreform different roles in a real fight. I wanted to be the
-            Tank, the role was to protect the rest of the team from the monsters
+            Tank, the role was to protect the rest of the team from the beasts
             attacks. My mother was also a Tank when she fought, she had tried to
             persuade me against it a few times but in the end I would not budge.
             The shield she left me was one she had used in the past, she had it
@@ -231,11 +231,11 @@ function Travel(props) {
             like myself going to Banderedam and joining the magic academy. Alden
             only had one magic academy so students no matter how far would have
             to make their way there. Although the journey to this point had been
-            as expected where small monsters where driven off by the numbers or
+            as expected where small beasts where driven off by the numbers or
             guardians the road to Banderedam traveled close to Herkikia and near
-            an area often overrun by monsters. It was a rainforest where a few
+            an area often overrun by beasts. It was a rainforest where a few
             major rivers became one and followed into the sea, if it where not
-            for the abundance of monsters it is likely this would be the
+            for the abundance of beasts it is likely this would be the
             location of some major cities.
           </p> */}
           <Otto>
@@ -300,7 +300,7 @@ function Travel(props) {
           <p>"Erm your parents?" I added.</p>
           {/* Whats he on about, make him come from the capital. */}
           <p>
-            "Monsters. The capital city of Alden to Banderedam passes through
+            "Beasts. The capital city of Alden to Banderedam passes through
             the province of Bilkotgopia. Risky trip, but pays well. Work at
             Banderedam depends on the ports and the academy. So both do poorly
             in the winter, so trips like this one to the southern towns to make
@@ -385,11 +385,11 @@ function Travel(props) {
             said dashing off to the left.
           </p>
           <p>
-            "Won't there just be more monsters in the trees?" I shouted looking
+            "Won't there just be more beasts in the trees?" I shouted looking
             at his back.
           </p>
           <p>
-            "Chance of monsters is still lower then defiantly monsters" He
+            "Chance of beasts is still lower then, defiantly beasts." He
             replied moving deeper in.
           </p>
           {/* This really needs to come up when you get to the academy... */}
@@ -412,8 +412,8 @@ function Travel(props) {
           </p>
           <p>
             "Yeah, sorry, a dark one. Close to the truth though. In Bilkotgopia
-            people go missing, it's always blamed on the monsters but strong
-            monsters rarely travel across into Alden." He explained.
+            people go missing, it's always blamed on the beasts but strong
+            beasts rarely travel across into Alden." He explained.
           </p>
           <p>
             "So what is the truth?" I asked, confused by what I just saw, I
@@ -442,7 +442,7 @@ function Travel(props) {
             awkward smile.
           </p>
           <p>
-            "Let's move, even if it is not monsters and just an upset noble I
+            "Let's move, even if it is not beasts and just an upset noble I
             don't want to get caught up in it."
           </p>
           <p>
@@ -479,21 +479,21 @@ function Travel(props) {
             mana through my body and out of my hand like I had with the Kappa.
             The rush felt easier this time with all the practice I had had. The
             ball of light shined pale blue, glowing lit up the ground and trees,
-            before the ball spiraled forward blinding the monster for a moment
+            before the ball spiraled forward blinding the beast for a moment
             giving me the chance to free Leon of his short sword. I ran towards
-            the monster and kicked dirt up into its eyes and mouth, it flailed
+            the beast and kicked dirt up into its eyes and mouth, it flailed
             about and pushed the dirt from its eyes before showing his teeth in
             a growl. Using this time, I ran in a circle to the side of the
-            monster before turning on my heel, running straight for the monster
+            beast before turning on my heel, running straight for the beast
             holding the blade by my side and lunging it into the creatures head.
           </p>
           <p>
             I wondered if there would be another level up or notification, but
             nothing happened. Letting go of the blade and turning to help Leon
-            back up I heard a low growl and turned to see the monster was not
+            back up I heard a low growl and turned to see the beast was not
             dead and moving about with a sword sticking out from its head. I
-            jumped around as the monster made swings from the ground. Grabbing
-            hold of Leon's sword again and swinging it smashing the monsters
+            jumped around as the beast made swings from the ground. Grabbing
+            hold of Leon's sword again and swinging it smashing the beasts
             head to pieces over and over.
           </p>
 
@@ -529,7 +529,7 @@ function Travel(props) {
           <p>
             "No, not further down, just up here. People say it is because of the
             chalk in the ground that causes it while others say it is the
-            monsters living in the river this far up. Either way don't touch
+            beasts living in the river this far up. Either way don't touch
             it." He said with a serious face.
           </p>
           <p>
@@ -591,16 +591,16 @@ function Travel(props) {
           </p>
           <p>
             "I really thought I would be eaten like the girl before, except by a
-            weird river monster. What the hell is going on around here?" I said
+            weird river beast. What the hell is going on around here?" I said
             moving away from the river more.
           </p>
           <p>
-            "This part of Alden is next to the monster territory. Maybe more of
+            "This part of Alden is next to the beast territory. Maybe more of
             them got through then normal with the soldiers being taken towards
             the republic more and more." He replied following after me.
           </p>
           <p>
-            "Either way there are defiantly monsters here so are we close to
+            "Either way there are defiantly beasts here so are we close to
             Banderdam?" I asked a little frustrated.
           </p>
           <p>

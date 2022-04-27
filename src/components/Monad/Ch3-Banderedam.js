@@ -95,7 +95,7 @@ Charlemagne in 794 decreed that a single silver penny (weighing 1.7 grams) shoul
             even is it?"
           </p>
           <p>
-            "Ah, not all items are made, some are dropped by monsters so it's
+            "Ah, not all items are made, some are dropped by beasts so it's
             hard to say. Let me help you out, this is my shop, I can do at least
             that much. Names Pal" He said his hand stretched out.
           </p>
