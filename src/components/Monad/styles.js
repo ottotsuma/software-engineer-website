@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 // Styles for Monad as a whole.
 export const BreakPoint = styled.section`
 border-bottom: thick dotted #32a1ce;
+padding-bottom: 5px;
 `;
 export const Buttons = styled.button`
   background: none;
