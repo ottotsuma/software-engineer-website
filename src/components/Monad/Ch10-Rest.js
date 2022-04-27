@@ -9,7 +9,7 @@ function Rest(props) {
           <h4>Rest period</h4>
           {/* <!-- cross dressing wizard --> */}
           {/* Dueling and Combat. */}
-          {/* Monster is about subjugating monsters, command taking control of a small force, combat, dueling */}
+          {/* Beast is about subjugating monsters, command taking control of a small force, combat, dueling */}
           <p>
             I woke early and ran down to the area, the training stones where not
             as busy as yesterday but I am sure they will be later. For now only

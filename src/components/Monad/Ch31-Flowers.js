@@ -633,7 +633,7 @@ function Intro(props) {
             only knew this because back in the village Beke would always use
             this type of skill to kill monsters when we played. It was a common
             skill type for physical attackers to have access too, something
-            about beheading a monster to finish it felt gratifying.
+            about beheading a beast to finish it felt gratifying.
           </p>
           <p>
             More importantly though! I have an attacking skill. It really only

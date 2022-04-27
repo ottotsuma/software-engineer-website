@@ -31,7 +31,7 @@ function Intro(props) {
           <p>
             "You cleared a floor? The monsters here are ... strong." I said
             unsure if the floors he cleared were similar to the riddle ghost or
-            like the monster on the first floor I came across. "The third floor
+            like the beast on the first floor I came across. "The third floor
             was a riddle ghost, he got the riddle wrong. I'll wait here if you
             want to check it for yourself."
           </p>

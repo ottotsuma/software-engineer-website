@@ -143,7 +143,7 @@ function Duel(props) {
       <p>
         The monsters were little birds. They were kind of cute with a small
         beak, hopping about pecking at the floor to find bugs. They were the
-        lowest level monster in the training area and barely passed as monsters
+        lowest level beast in the training area and barely passed as monsters
         since they had one skill. The skill caused them to quickly move about
         half an arms length in any direction, this made them really hard to hit
         with skills like fire ball.

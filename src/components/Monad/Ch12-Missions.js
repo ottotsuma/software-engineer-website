@@ -152,7 +152,7 @@ function Intro(props) {
             don't know what the large wolf dropped by the small wolf dropped a
             pair of gloves, Giselher gave them to me saying I did most of the
             damage anyway and he was surprised a mage would have so much
-            strength. I gladly accepted it would be my first monster drop. To
+            strength. I gladly accepted it would be my first beast drop. To
             get to Savigal I decided to join their group just encase the last
             wolf made a return.
           </p>

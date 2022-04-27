@@ -232,7 +232,7 @@ function Intro(props) {
                     This regiment was formed to fend off and push back the Alden
                     crusaders, it achieved its purpose and captured towns below
                     the Rotenzell river. Since then the regiment has seen
-                    previous rebellions in the area as well as monster hoards.
+                    previous rebellions in the area as well as beast hoards.
                   </p>
                 </div>
                 <h4 id="Small-Headline">Is Baberg in trouble!?</h4>
