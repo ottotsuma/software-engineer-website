@@ -511,16 +511,9 @@ function Stats({
   // Add HP and MP Values
   //  level *5 magic * 8 = mp // level * 10 vit * 14.5 +100 = hp
   // So at 100, 1100 ~ 2550
-  const IsHPPositive = _try(
-    () => stats["level"] * 10 + stats["vitality"] * 14.5
+  stats["HP"] = _try(
+    () => stats["level"] * 10 + stats["vitality"] * 14.5 + 100
   );
-  if(IsHPPositive < 0){
-    stats["HP"] = 100
-  } else {
-    stats["HP"] = _try(
-      () => IsHPPositive + 100
-    );
-  }
   let tempHP = stats["HP"];
   for (let index = 0; index < HPList.length; index++) {
     if (typeof HPList[index] === "number") {
@@ -536,9 +529,6 @@ function Stats({
   stats["HP"] = parseInt(tempHP);
 
   stats["MP"] = _try(() => stats["level"] * 5 + stats["magic"] * 8);
-  if(stats["MP"] < 0) {
-    stats["MP"] = 0
-  }
   let tempMP = stats["MP"];
   for (let index = 0; index < MPList.length; index++) {
     if (typeof MPList[index] === "number") {
@@ -565,6 +555,12 @@ function Stats({
       stats[statName] = stats[statName] * value[statName]
     }
   }))
+  if(stats["MP"] < 0) {
+    stats["MP"] = 0
+  }
+  if(stats["HP"] < 100) {
+    stats["HP"] = 100
+  }
   for (let index = 0; index < keys.length; index++) {
     const element = (
       <Wrap>
