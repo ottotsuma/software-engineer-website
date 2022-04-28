@@ -19,8 +19,6 @@ import Spin from "./spinn";
 
 import { imageError } from "./color";
 
-import {myFunction, droppy} from './Monad/Index'
-
 // Embed video player of your youtube video!
 const YouTubeUrl = "https://www.youtube.com/embed/m86uLnh7OfU";
 // 「保存」、「登録」、「完了」、「キャンセル」
@@ -166,146 +164,146 @@ function Home(props) {
   // });
 
   return (
-    <GlassWrapper>
-      {show && (
-        <Modal2
-          title={Language[lang].projects}
-          insert={<Spin />}
-          close={updateShow}
-        />
-      )}
-      {showTimeline && (
-        <Modal2
-          title={`${Language[lang].experience}`}
-          insert={<Timeline />}
-          close={updateTimeline}
-        />
-      )}
-      {showItem1 && (
-        <Modal2
-          title={Language[lang].MunchifyTitle}
-          insert={
-            Language[lang].MunchifyDisc +
-            "\n Made with: " +
-            Language[lang].MunchifyTech
-          }
-          close={updateShowItem1}
-          cancel={Language[lang].Cancel}
-        />
-      )}
-      {showItem6 && (
-        <Modal2
-          title={Language[lang].pubTitle}
-          url={Language[lang].pubURL}
-          insert={
-            Language[lang].pubDisc +
-            "\n Made with: " +
-            Language[lang].pubTech
-          }
-          close={updateShowItem6}
-          cancel={Language[lang].Cancel}
-        />
-      )}
-      {showItem2 && (
-        <Modal2
-          title={Language[lang].CGPCTitle}
-          insert={
-            Language[lang].CGPCDisc + "\n Made with: " + Language[lang].CGPCTech
-          }
-          close={updateShowItem2}
-          cancel={Language[lang].Cancel}
-        />
-      )}
-      {showItem3 && (
-        <Modal2
-          title={Language[lang].DekkiTitle}
-          url={Language[lang].DekkiURL}
-          insert={
-            Language[lang].DekkiDisc +
-            "\n Made with: " +
-            Language[lang].DekkiTech
-          }
-          close={updateShowItem3}
-          cancel={Language[lang].Cancel}
-        />
-      )}
-      {showItem4 && (
-        <Modal2
-          title={Language[lang].SecretTitle}
-          url={Language[lang].SecretURL}
-          insert={
-            Language[lang].SecretDisc +
-            "\n Made with: " +
-            Language[lang].SecretTech
-          }
-          close={updateShowItem4}
-          cancel={Language[lang].Cancel}
-        />
-      )}
-      {showItem5 && (
-        <Modal2
-          title={Language[lang].RecipesTitle}
-          url={Language[lang].RecipesURL}
-          insert={
-            Language[lang].RecipesDisc +
-            "\n Made with: " +
-            Language[lang].RecipesTech
-          }
-          close={updateShowItem5}
-          cancel={Language[lang].Cancel}
-        />
-      )}
-      <Glass style={springGlass}>
-        {/* <Profile2 style={springReverse}>AAA</Profile2> */}
-        <Profile>
-          <NameWrap>
-            <Video />
-            <HiWrapper>
-              <ProfileImage
-                src="https://avatars0.githubusercontent.com/u/51743227?s=460&u=60cf882cb319128a05fa5fff10c006de9cdfc2af&v=4"
-                alt="Profile"
-                onError={imageError}
-              />
-              <Hi>{Language[lang].hi}</Hi>
-            </HiWrapper>
-            <Link2
-              style={{ fontSize: "1.17em" }}
-              onClick={() =>
-                Modal({
-                  insert: (
-                    <div>
-                      <iframe
-                        width="420"
-                        height="315"
-                        src={YouTubeUrl}
-                      ></iframe>
-                    </div>
-                  ),
-                  cancel: "Close",
-                  title: "PWA Video",
-                })
-              }
-            >
-              {Language[lang].name}
-            </Link2>
-            {/* <h3>{Language[lang].name}</h3> */}
-            {/* <h4>ダラー・ショーン</h4> */}
-            <StyledButton onClick={() => updateLang()}>
-              {Language[lang].lang}
-            </StyledButton>
-          </NameWrap>
-          <List>
-            <Linkey>
-              <LinkImage
-                onError={imageError}
-                src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
-                alt=" "
-              />
-              <AStyled href="https://github.com/ottotsuma" target="_blank">
-                GitHub
-              </AStyled>
-            </Linkey>
-            {/* <Linkey>
+      <GlassWrapper>
+        {show && (
+          <Modal2
+            title={Language[lang].projects}
+            insert={<Spin />}
+            close={updateShow}
+          />
+        )}
+        {showTimeline && (
+          <Modal2
+            title={`${Language[lang].experience}`}
+            insert={<Timeline />}
+            close={updateTimeline}
+          />
+        )}
+        {showItem1 && (
+          <Modal2
+            title={Language[lang].MunchifyTitle}
+            insert={
+              Language[lang].MunchifyDisc +
+              "\n Made with: " +
+              Language[lang].MunchifyTech
+            }
+            close={updateShowItem1}
+            cancel={Language[lang].Cancel}
+          />
+        )}
+        {showItem6 && (
+          <Modal2
+            title={Language[lang].pubTitle}
+            url={Language[lang].pubURL}
+            insert={
+              Language[lang].pubDisc +
+              "\n Made with: " +
+              Language[lang].pubTech
+            }
+            close={updateShowItem6}
+            cancel={Language[lang].Cancel}
+          />
+        )}
+        {showItem2 && (
+          <Modal2
+            title={Language[lang].CGPCTitle}
+            insert={
+              Language[lang].CGPCDisc + "\n Made with: " + Language[lang].CGPCTech
+            }
+            close={updateShowItem2}
+            cancel={Language[lang].Cancel}
+          />
+        )}
+        {showItem3 && (
+          <Modal2
+            title={Language[lang].DekkiTitle}
+            url={Language[lang].DekkiURL}
+            insert={
+              Language[lang].DekkiDisc +
+              "\n Made with: " +
+              Language[lang].DekkiTech
+            }
+            close={updateShowItem3}
+            cancel={Language[lang].Cancel}
+          />
+        )}
+        {showItem4 && (
+          <Modal2
+            title={Language[lang].SecretTitle}
+            url={Language[lang].SecretURL}
+            insert={
+              Language[lang].SecretDisc +
+              "\n Made with: " +
+              Language[lang].SecretTech
+            }
+            close={updateShowItem4}
+            cancel={Language[lang].Cancel}
+          />
+        )}
+        {showItem5 && (
+          <Modal2
+            title={Language[lang].RecipesTitle}
+            url={Language[lang].RecipesURL}
+            insert={
+              Language[lang].RecipesDisc +
+              "\n Made with: " +
+              Language[lang].RecipesTech
+            }
+            close={updateShowItem5}
+            cancel={Language[lang].Cancel}
+          />
+        )}
+        <Glass style={springGlass}>
+          {/* <Profile2 style={springReverse}>AAA</Profile2> */}
+          <Profile>
+            <NameWrap>
+              <Video />
+              <HiWrapper>
+                <ProfileImage
+                  src="https://avatars0.githubusercontent.com/u/51743227?s=460&u=60cf882cb319128a05fa5fff10c006de9cdfc2af&v=4"
+                  alt="Profile"
+                  onError={imageError}
+                />
+                <Hi>{Language[lang].hi}</Hi>
+              </HiWrapper>
+              <Link2
+                style={{ fontSize: "1.17em" }}
+                onClick={() =>
+                  Modal({
+                    insert: (
+                      <div>
+                        <iframe
+                          width="420"
+                          height="315"
+                          src={YouTubeUrl}
+                        ></iframe>
+                      </div>
+                    ),
+                    cancel: "Close",
+                    title: "PWA Video",
+                  })
+                }
+              >
+                {Language[lang].name}
+              </Link2>
+              {/* <h3>{Language[lang].name}</h3> */}
+              {/* <h4>ダラー・ショーン</h4> */}
+              <StyledButton onClick={() => updateLang()}>
+                {Language[lang].lang}
+              </StyledButton>
+            </NameWrap>
+            <List>
+              <Linkey>
+                <LinkImage
+                  onError={imageError}
+                  src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+                  alt=" "
+                />
+                <AStyled href="https://github.com/ottotsuma" target="_blank">
+                  GitHub
+                </AStyled>
+              </Linkey>
+              {/* <Linkey>
               <LinkImage
                 onError={imageError}
                 src="https://www.pngfind.com/pngs/m/594-5947621_computer-icons-project-project-plan-black-text-project.png"
@@ -315,86 +313,86 @@ function Home(props) {
                 {Language[lang].projects}
               </Link2>
             </Linkey> */}
-            <Linkey>
-              <LinkImage
-                onError={imageError}
-                src="https://www.pinclipart.com/picdir/middle/75-750874_work-experience-svg-png-icon-free-download-356662.png"
-                alt=" "
-              />
-              {/* Fake item needs styles! Or change to be like anchor 2 */}
-              {/* <LinkStyled to={"/timeline"}>
+              <Linkey>
+                <LinkImage
+                  onError={imageError}
+                  src="https://www.pinclipart.com/picdir/middle/75-750874_work-experience-svg-png-icon-free-download-356662.png"
+                  alt=" "
+                />
+                {/* Fake item needs styles! Or change to be like anchor 2 */}
+                {/* <LinkStyled to={"/timeline"}>
                 {Language[lang].experience}
               </LinkStyled> */}
-              <Link2 onClick={() => updateTimeline()}>
-                {Language[lang].experience}
-              </Link2>
-            </Linkey>
-            <Linkey>
-              <LinkImage src={Cog} alt=" " />
-              <Link2
-                onClick={() =>
-                  Modal({
-                    insert: Tech(),
-                    cancel: "Close",
-                    title: `${Language[lang].tech}`,
-                  })
-                }
-              >
-                {Language[lang].tech}
-              </Link2>
-            </Linkey>
-            <Linkey>
-            <LinkImage src={'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Font_Awesome_5_solid_book.svg/896px-Font_Awesome_5_solid_book.svg.png'} alt=" " />
-            <Anchor to="/Monad/1">
-            <p>
-              {'Monad'}
-            </p>
-          </Anchor>
-        </Linkey>
-          </List>
-          <Anchor2 to="/Blackjack">
-            <p to="/Blackjack" style={{ color: "white" }}>
-              {Language[lang].blackjack}
-            </p>
-          </Anchor2>
-        </Profile>
-        <Right>
-          <HomeImage
-            onError={imageError}
-            src={
-              "https://yt3.ggpht.com/ytc/AAUvwni9DJA2UfBnLyffWzkPZp7yLUJG0RHSf1WXqTEEvg=s176-c-k-c0x00ffffff-no-rj"
-            }
-            alt="LJL"
-            onClick={() => updateShowItem2()}
-          />
+                <Link2 onClick={() => updateTimeline()}>
+                  {Language[lang].experience}
+                </Link2>
+              </Linkey>
+              <Linkey>
+                <LinkImage src={Cog} alt=" " />
+                <Link2
+                  onClick={() =>
+                    Modal({
+                      insert: Tech(),
+                      cancel: "Close",
+                      title: `${Language[lang].tech}`,
+                    })
+                  }
+                >
+                  {Language[lang].tech}
+                </Link2>
+              </Linkey>
+              <Linkey>
+                <LinkImage src={'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Font_Awesome_5_solid_book.svg/896px-Font_Awesome_5_solid_book.svg.png'} alt=" " />
+                <Anchor to="/Monad/1">
+                  <p>
+                    {'Monad'}
+                  </p>
+                </Anchor>
+              </Linkey>
+            </List>
+            <Anchor2 to="/Blackjack">
+              <p to="/Blackjack" style={{ color: "white" }}>
+                {Language[lang].blackjack}
+              </p>
+            </Anchor2>
+          </Profile>
+          <Right>
             <HomeImage
-            onError={imageError}
-            src={
-              "https://pubgnoc.com/static/53b73d6ef9cc0945598a9e490e0d4c22/ed7f8/NOClogo_220119ver-04.png"
-            }
-            alt="pubgnoc"
-            onClick={() => updateShowItem6()}
-          />
-          <HomeImage
-            onError={imageError}
-            src={
-              "https://pbs.twimg.com/profile_images/1062990176106905601/s7nYomEa_400x400.jpg"
-            }
-            alt="Dekki"
-            onClick={() => updateShowItem3()}
-          />
-          <HomeImage
-            onClick={() => updateShowItem1()}
-            src={Munchify}
-            alt="Munchify"
-          />
-          <HomeImage
-            src={Secret}
-            alt="Secret Box"
-            onClick={() => updateShowItem4()}
-          />
-          <HomeImage src={Food} onClick={() => updateShowItem5()} alt="Food" />
-          {/* <Box
+              onError={imageError}
+              src={
+                "https://yt3.ggpht.com/ytc/AAUvwni9DJA2UfBnLyffWzkPZp7yLUJG0RHSf1WXqTEEvg=s176-c-k-c0x00ffffff-no-rj"
+              }
+              alt="LJL"
+              onClick={() => updateShowItem2()}
+            />
+            <HomeImage
+              onError={imageError}
+              src={
+                "https://pubgnoc.com/static/53b73d6ef9cc0945598a9e490e0d4c22/ed7f8/NOClogo_220119ver-04.png"
+              }
+              alt="pubgnoc"
+              onClick={() => updateShowItem6()}
+            />
+            <HomeImage
+              onError={imageError}
+              src={
+                "https://pbs.twimg.com/profile_images/1062990176106905601/s7nYomEa_400x400.jpg"
+              }
+              alt="Dekki"
+              onClick={() => updateShowItem3()}
+            />
+            <HomeImage
+              onClick={() => updateShowItem1()}
+              src={Munchify}
+              alt="Munchify"
+            />
+            <HomeImage
+              src={Secret}
+              alt="Secret Box"
+              onClick={() => updateShowItem4()}
+            />
+            <HomeImage src={Food} onClick={() => updateShowItem5()} alt="Food" />
+            {/* <Box
             onClick={() =>
               change("https://github.com/Spring-CC/restaurant-native-app")
             }
@@ -407,7 +405,7 @@ function Home(props) {
             <Para>{Language[lang].MunchifyTech}</Para>
           </Box> */}
 
-          {/* <Box
+            {/* <Box
             onClick={() =>
               change("https://www.youtube.com/channel/UCiN3B0QRdL4wn1TMJ_cJyMQ")
             }
@@ -426,7 +424,7 @@ function Home(props) {
             <Para>{Language[lang].CGPCTech}</Para>
           </Box> */}
 
-          {/* <Box onClick={() => change("https://github.com/ottotsuma/SoloMVP")}>
+            {/* <Box onClick={() => change("https://github.com/ottotsuma/SoloMVP")}>
             <HomeImage src={Secret} alt="Technical Skills" />
             <InnerBox>
               <h3>{Language[lang].SecretTitle}</h3>
@@ -435,7 +433,7 @@ function Home(props) {
             <Para>{Language[lang].SecretTech}</Para>
           </Box> */}
 
-          {/* <Box onClick={() => change("https://dekki.com/en/?page=1")}>
+            {/* <Box onClick={() => change("https://dekki.com/en/?page=1")}>
             <HomeImage
             onError={imageError}
               src={
@@ -449,7 +447,7 @@ function Home(props) {
             </InnerBox>
             <Para>{Language[lang].DekkiTech}</Para>
           </Box> */}
-          {/* <Box
+            {/* <Box
             onClick={() => change("https://github.com/ottotsuma/React-App2")}
           >
             <HomeImage src={Food} alt="Technical Skills" />
@@ -459,7 +457,7 @@ function Home(props) {
             </InnerBox>
             <Para>{Language[lang].RecipesTech}</Para>
           </Box> */}
-          {/* <Box
+            {/* <Box
             onClick={() => change("https://github.com/ottotsuma/React-App2")}
           >
             <HomeImage src={Food} alt="Technical Skills" onError={imageError} />
@@ -469,14 +467,22 @@ function Home(props) {
             </InnerBox>
             <Para>{Language[lang].RecipesTech}</Para>
           </Box> */}
-        </Right>
-      </Glass>
-      <Circle1 />
-      <Circle2 />
-    </GlassWrapper>
+          </Right>
+        </Glass>
+        <Circle1 />
+        <Circle2 />
+      </GlassWrapper>
   );
 }
 export default Home;
+
+const GlassWrapper = styled.div`
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Yusei Magic", sans-serif;
+`;
 
 const NameWrap = styled.div`
   justify-content: center;
@@ -727,14 +733,6 @@ const Profile = styled.div`
   // min-width: 250px;
   height: 100%;
   position: absolute;
-`;
-
-const GlassWrapper = styled.div`
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Yusei Magic", sans-serif;
 `;
 
 const Glass = styled(animated.div)`

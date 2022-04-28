@@ -7,7 +7,7 @@ import Spells from "./spells";
 import { titlesList } from "./titles";
 import Equipment from "./equipment";
 import { monadColors } from "./colors"
-
+import {_try} from './util'
 // Kʼawiil - Lightning, seeds, abundance, powerful one, fertility, serpent
 
 const statList = {
@@ -277,15 +277,6 @@ function perc2color(perc) {
   return "#" + ("000000" + h.toString(16)).slice(-6);
 }
 
-function _try(func, fallbackValue) {
-  try {
-    var value = func();
-    return value === null || value === undefined ? fallbackValue : value;
-  } catch (e) {
-    return fallbackValue;
-  }
-}
-
 function roundDownToNearest10(num) {
   return Math.floor(num / 10) * 10;
 }
@@ -300,6 +291,7 @@ function Stats({
   showTitles,
   items,
   showItems,
+  removeHPMP
 }) {
   const array = [];
   const baseStats = stats;
@@ -481,7 +473,7 @@ function Stats({
   let TitleSpan = undefined;
   if (equippedTitle) {
     keys.splice(1, 0, "title");
-    stats["title"] = titlesList[equippedTitle].name
+    stats["title"] = _try(() => titlesList[equippedTitle].name)
       ? titlesList[equippedTitle].name
       : equippedTitle; // if it has a name use the name, else use what ever the user put in.
     const titleStats = _try(() => titlesList[equippedTitle].stats); // find title from list of titles, returns array of stats and values
@@ -550,7 +542,9 @@ function Stats({
     }
   }
   stats["MP"] = parseInt(tempMP);
-  keys.push("HP", "MP");
+  if(!removeHPMP) {
+    keys.push("HP", "MP");
+  }
 
   // multiplierList
   multiplierList.map((value => {
@@ -638,14 +632,14 @@ function Stats({
         array.push(
           <SingleStat key={index + "stat"}>
             {rankElement}
-            {!!type && <Span>{spam["description"]}</Span>}
+            {!!type && <Span>{_try(() => spam["description"], element)}</Span>}
           </SingleStat>
         );
     } else {
       array.push(
         <SingleStat key={index + "stat"}>
           {element}
-          {!!type && <Span>{spam["description"]}</Span>}
+          {!!type && <Span>{_try(() => spam["description"], element)}</Span>}
         </SingleStat>
       );
     }

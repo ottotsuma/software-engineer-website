@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import {colors, monadColors} from './colors'
+import {_try} from './util'
 // Team Vs Self Increases, they should all have team so the self ones should go somewhere also :/
 export const classList = {
   Mage: {
@@ -296,15 +297,6 @@ export const classList = {
     tier: 'epic'
   },
 };
-
-function _try(func, fallbackValue) {
-  try {
-    var value = func();
-    return (value === null || value === undefined) ? fallbackValue : value;
-  } catch (e) {
-    return fallbackValue;
-  }
-}
 
 export default function ClassDisplay(Class) {
   const Data = _try(() => classList[Class])

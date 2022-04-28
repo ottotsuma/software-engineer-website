@@ -162,7 +162,7 @@ function Travel(props) {
             stands. The beasts had been deliberately kept starving for today, it
             was a common practice when using lesser beasts for hunting.
           </Otto>
-          <Otto>Beast Type</Otto>
+          {/* <Otto>Beast Type</Otto> */}
           <Otto>
             They took no time to spot their prey, and with a loud screaming roar
             each charged forward. The panicked prisoners watch the beasts

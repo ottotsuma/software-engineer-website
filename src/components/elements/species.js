@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import {colors, monadColors} from './colors'
+import {_try} from './util'
 
 export const racesList = {
   human: {
@@ -197,14 +198,6 @@ export const racesList = {
 };
 // Bakeneko (monster) (one tail) cat demon,  & nekomata (species) (two tails), raises the dead with dances.
 
-function _try(func, fallbackValue) {
-  try {
-    var value = func();
-    return (value === null || value === undefined) ? fallbackValue : value;
-  } catch (e) {
-    return fallbackValue;
-  }
-}
 
 export default function RaceDisplay(Species) {
   const Data = _try(() => racesList[Species])

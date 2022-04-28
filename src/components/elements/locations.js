@@ -1,14 +1,8 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 import {colors, monadColors} from './colors'
-function _try(func, fallbackValue) {
-    try {
-      var value = func();
-      return (value === null || value === undefined) ? fallbackValue : value;
-    } catch (e) {
-      return fallbackValue;
-    }
-  }
+import {_try} from './util'
+
 // Todtenwei - 272082858
 // Savigal - 640470293
 

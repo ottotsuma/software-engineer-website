@@ -243,7 +243,7 @@ export default function Monad(params) {
   }, []);
 
   useEffect(() => {
-    console.log("Page: ", number);
+    console.log("Page: ", number);    
     const Location = window.location.href.match(/\d+$/)
     if (Location) {
       updateState(setPage, (ChapterList[Location[0] - 1]));
@@ -252,6 +252,7 @@ export default function Monad(params) {
         "1"
       ][0] - 1]));
     }
+    scrollTop() // this should be replaced by a cookie save position 
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [number]);
 
