@@ -206,6 +206,16 @@ export const racesList = {
     notes: '',
     tier: 'epic'
   },
+  "Wendigo": {
+    name: 'Wendigo',
+    stats: {},
+    team: '',
+    self: 'Eating human flesh rejuvenate the Wendigo.',
+    images: [],
+    notes: '',
+    tier: 'rare',
+    disc: '',
+  },
 };
 // Bakeneko (monster) (one tail) cat demon,  & nekomata (species) (two tails), raises the dead with dances.
 
