@@ -481,7 +481,7 @@ function Intro(props) {
             of tentacle monster on the bottom floor before the tower just
             disappeared and now here I am."
           </p>
-
+{/* This one is a monster because it's weird looking to the charter */}
           <p>
             "The others went ahead, under this rock and made me wait behind to
             help them out once they come back from exploring shortly. The plan

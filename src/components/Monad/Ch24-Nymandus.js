@@ -25,7 +25,7 @@ function Intro(props) {
             Needless to say once I realised what they where and what was going
             on I also ran out of the tunnels. By the time I reached the first
             fork Tisiel and Reingard had long gone. My original mission given to
-            me by my tutor was to slay a level 30+ undead monster, that is the
+            me by my tutor was to slay a level 30+ undead beast, that is the
             only reason we had permission to leave as it was. With that still in
             my mind I ran down the tunnel with the strongest rejection of my
             light element. So far this place has had only low level undead like

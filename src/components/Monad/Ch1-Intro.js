@@ -6,25 +6,57 @@ import LevelUp from "./../elements/levelup";
 import { Content } from "./styles";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
-import { ButtonsA, Sticky, BreakPoint } from './styles'
-import ImageZoom from './../elements/imageZoom'
-import { Beke, Otto, Effi } from './CharacterFonts'
+import { ButtonsA, Sticky, BreakPoint } from "./styles";
+import ImageZoom from "./../elements/imageZoom";
+import { Beke, Otto, Effi } from "./CharacterFonts";
 
-const SectionTabs = [{ name: 'Monad', href: '#Monad' }, { name: 'Steinauhau', href: '#Steinauhau' }, { name: 'Michkel', href: '#Michkel' }, { name: 'PlayDay', href: '#PlayDay' }, { name: 'Incident', href: '#Incident' }, { name: 'TheBody', href: '#TheBody' }, { name: 'Aftermath', href: '#Aftermath' }, { name: 'Training', href: '#Training' }, { name: 'Otto', href: '#Otto' }, { name: 'Effi', href: '#Effi' }]
+const SectionTabs = [
+  { name: "Monad", href: "#Monad" },
+  { name: "Steinauhau", href: "#Steinauhau" },
+  { name: "Michkel", href: "#Michkel" },
+  { name: "PlayDay", href: "#PlayDay" },
+  { name: "Incident", href: "#Incident" },
+  { name: "TheBody", href: "#TheBody" },
+  { name: "Aftermath", href: "#Aftermath" },
+  { name: "Training", href: "#Training" },
+  { name: "Otto", href: "#Otto" },
+  { name: "Effi", href: "#Effi" },
+];
 const Intro = (props) => {
   const [SectionsTabsOpen, setSectionsTabsOpen] = React.useState(false);
-  const SectionTabsButtons = []
+  const SectionTabsButtons = [];
   for (let index = 0; index < SectionTabs.length; index++) {
     const Section = SectionTabs[index];
-    SectionTabsButtons.push(<ButtonsA style={{ padding: '5px', border: '2px solid black' }} href={Section.href} key={index}>{Section.name}</ButtonsA>)
+    SectionTabsButtons.push(
+      <ButtonsA
+        style={{ padding: "5px", border: "2px solid black" }}
+        href={Section.href}
+        key={index}
+      >
+        {Section.name}
+      </ButtonsA>
+    );
   }
 
   return (
     <Content>
       <div className="Frame">
-        <Sticky style={{ right: '0px', justifyContent: 'end' }} open={SectionsTabsOpen}><div style={{ display: SectionsTabsOpen ? 'flex' : 'none', flexDirection: 'column' }}>{SectionTabsButtons}</div><button onClick={() => setSectionsTabsOpen(!SectionsTabsOpen)}><FontAwesomeIcon
-          icon={faAddressBook}
-        /></button></Sticky>
+        <Sticky
+          style={{ right: "0px", justifyContent: "end" }}
+          open={SectionsTabsOpen}
+        >
+          <div
+            style={{
+              display: SectionsTabsOpen ? "flex" : "none",
+              flexDirection: "column",
+            }}
+          >
+            {SectionTabsButtons}
+          </div>
+          <button onClick={() => setSectionsTabsOpen(!SectionsTabsOpen)}>
+            <FontAwesomeIcon icon={faAddressBook} />
+          </button>
+        </Sticky>
         <div id="test" className="Content">
           {/* <!-- military education is also about the history --> */}
           <BreakPoint id="Monad">
@@ -42,30 +74,35 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
                 alt="MapOfMonad"
               /> */}
               {/* <ImageZoom alt="MapOfMonad" image="https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-44.png" /> */}
-              <ImageZoom alt="MapOfMonad" image="https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-45.png" />
+              <ImageZoom
+                alt="MapOfMonad"
+                image="https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-45.png"
+              />
             </div>
             {/* Some kind of fight? */}
             <p>
-              In the Herkikia League at the northern most point, I stood
-              waiting to receive orders from the Herkikian general. I was part of a
-              mercenary company brought up for this battle, we where a mixed band.
-              I am a magic swords man wielding both magic and a short sword, the
-              max next to me was a berserker wearing the head of a wampus cat and
-              holding a giant two handed club. It was normal for us to work in
-              small groups with whoever but a Herkikia general was wealthy enough
-              to buy up our whole company and a few others for the season.
+              In the Herkikia League at the northern most point, I stood waiting
+              to receive orders from the Herkikian general. I was part of a
+              mercenary company brought up for this battle, we where a mixed
+              band. I am a magic swords man wielding both magic and a short
+              sword, the max next to me was a berserker wearing the head of a
+              wampus cat and holding a giant two handed club. It was normal for
+              us to work in small groups with whoever but a Herkikia general was
+              wealthy enough to buy up our whole company and a few others for
+              the season.
             </p>
             <p>
-              We had clashed with these opponents a few times this season and they
-              where presenting their last stand to hold us back as they scrambled
-              for their boats to get back to the sea. I have seen some unique
-              fighting styles but theirs was a new one to me, at age 30 though I
-              am sure there are more to come. We already beat them four times.
+              We had clashed with these opponents a few times this season and
+              they where presenting their last stand to hold us back as they
+              scrambled for their boats to get back to the sea. I have seen some
+              unique fighting styles but theirs was a new one to me, at age 30
+              though I am sure there are more to come. We already beat them four
+              times.
             </p>
             <p>
               To put a stop to my random thoughts the general with a wind wizard
-              next to him projected his voice for all of us to hear. It came loud
-              and strong.
+              next to him projected his voice for all of us to hear. It came
+              loud and strong.
             </p>
             <p>
               "Victory is near at hand! If all do their duty, it will be OUR
@@ -96,35 +133,34 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             <p>I guess that is why he has the title 'The mad'.</p>
             <p>"Charge!"</p>
             <p>
-              The Herkikians moved in first, in lines with long spears pointed out
-              over their shields. They formed walls of spears and white armor. To
-              the flanks where the skirmishers, those who threw projectiles or
-              magic into the enemies to tie them down. We where behind them. Once
-              the skirmishers pulled back we moved in to tie up the disorganized
-              enemies.
+              The Herkikians moved in first, in lines with long spears pointed
+              out over their shields. They formed walls of spears and white
+              armor. To the flanks where the skirmishers, those who threw
+              projectiles or magic into the enemies to tie them down. We where
+              behind them. Once the skirmishers pulled back we moved in to tie
+              up the disorganized enemies.
             </p>
             <p>
               As soon as the skirmishers started to pull back we ran in. I cast
               'Ice spear' into their ranks. I wrapped my sword with ice magic as
               we got close. The berserker from before shouted louder then a war
-              drum next to me and jumped into their ranks swinging his club around
-              at whoever was near by. With their ranks fully broken up I was able
-              to fight small duels which was more my style.
+              drum next to me and jumped into their ranks swinging his club
+              around at whoever was near by. With their ranks fully broken up I
+              was able to fight small duels which was more my style.
             </p>
             <p>
-              I used my sword to move my opponents to one side and launched a ball
-              of hardened ice into his chest. He pushed through the pain so I let
-              my ice magic spray out from me causing him to slow and be cut by
-              small flakes of ice. I moved in and stabbed him just below the
-              waist. He moved back holding his stomach and cursed in a language I
-              don't know. "썅놈" I moved back as he was dying and gathered magic
-              into my hand. He reached down and pulled up a wand? He pointed it
-              right at my head and the sound it gave off blew my ear drums out,
-              there was a large flash of light, then nothing.
+              I used my sword to move my opponents to one side and launched a
+              ball of hardened ice into his chest. He pushed through the pain so
+              I let my ice magic spray out from me causing him to slow and be
+              cut by small flakes of ice. I moved in and stabbed him just below
+              the waist. He moved back holding his stomach and cursed in a
+              language I don't know. "썅놈" I moved back as he was dying and
+              gathered magic into my hand. He reached down and pulled up a wand?
+              He pointed it right at my head and the sound it gave off blew my
+              ear drums out, there was a large flash of light, then nothing.
             </p>
           </BreakPoint>
           <BreakPoint id="Steinauhau">
-
             <h3>Steinauhau</h3>
             {/* The Grand Duchy of Alden is home to 3.2 million people */}
             <p>
@@ -143,15 +179,15 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             {/* <!-- Starting with the setting up of the place? and events. --> */}
             <p>
               "Congratulations!" A unified cheer rang out around the town hall,
-              looking down into my cup I lamented, the reflection looking back at
-              me was far older then it use to be. Stiff and past the age where I
-              should be drinking luminescent green drinks. I had always liked
-              melon pop ever since I first tired it over 70 years ago now. Soon
-              the reflection in my cup smiled back.
+              looking down into my cup I lamented, the reflection looking back
+              at me was far older then it use to be. Stiff and past the age
+              where I should be drinking luminescent green drinks. I had always
+              liked melon juice ever since I first tired it over 70 years ago now.
+              Soon the reflection in my cup smiled back.
             </p>
             <p>
-              "You look happier then you have in years." My thoughts interrupted I
-              turned to see my old friend Edmure.
+              "You look happier then you have in years." My thoughts interrupted
+              I turned to see my old friend Edmure.
             </p>
             <p>
               "I was just thinking about how new life replaces the old" I
@@ -163,31 +199,32 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
               the both of us yet".
             </p>
             <p>
-              The small gathering carries on into the night. June 12th a night the
-              people of Alden celebrate the new life brought into this world over
-              the past year, a small tradition as not all make it past infancy.
+              The small gathering carries on into the night. June 12th a night
+              the people of Alden celebrate the new life brought into this world
+              over the past year, a small tradition as not all make it past
+              infancy.
             </p>
             <p>
               Edmure whispered into my ear, there have been sightings of the sea
-              people off the coast. They had been pushed back into the sea at the
-              last battle of Herkikia so they must either be heading home or
-              looking for a new place to land. I nodded and left the town hall and
-              went to the walls.
+              people off the coast. They had been pushed back into the sea at
+              the last battle of Herkikia so they must either be heading home or
+              looking for a new place to land. I nodded and left the town hall
+              and went to the walls.
             </p>
             <p>
               I left the town, and went through the forests. I went to the area
-              where the sea people where last seen and going through the forest I
-              saw their boats off in the distance. I had to check if any of them
-              had come ashore before reporting back. I passed through the forest
-              easily with my legs and body strengthened by mana. The trees that
-              would scratch at my skin bent and broke as I passed by quickly
-              leaving behind no marks on my skin.
+              where the sea people where last seen and going through the forest
+              I saw their boats off in the distance. I had to check if any of
+              them had come ashore before reporting back. I passed through the
+              forest easily with my legs and body strengthened by mana. The
+              trees that would scratch at my skin bent and broke as I passed by
+              quickly leaving behind no marks on my skin.
             </p>
             <p>
-              I found them. Moving through the forest slowly. They did not see me,
-              I know this place like the back of my hand. I pulled out my dairy
-              and started to take notes on their location, how many, kind of
-              weapons etc. I wrote down everything I could remember, right up
+              I found them. Moving through the forest slowly. They did not see
+              me, I know this place like the back of my hand. I pulled out my
+              dairy and started to take notes on their location, how many, kind
+              of weapons etc. I wrote down everything I could remember, right up
               until I heard a click then my vision went black.
             </p>
           </BreakPoint>
@@ -197,10 +234,10 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             <p>
               It had been 10 years since I had found the blood soaked diary on
               David's body. He was my wife's dad. Edmure, his best friend, had
-              later moved to Swexausern, about 25km north-west. I was told he died
-              peacefully two years ago. Today was June 12th and the town was
-              getting ready for the same festival again. I guess that's why I was
-              thinking of him again today.
+              later moved to Swexausern, about 25km north-west. I was told he
+              died peacefully two years ago. Today was June 12th and the town
+              was getting ready for the same festival again. I guess that's why
+              I was thinking of him again today.
             </p>
             <p>
               "Hey Karla." I waved across the town square towards her holding
@@ -216,45 +253,49 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
               and left me alone with these loverly lot." Karla replied.
             </p>
             <p>
-              Our group now larger, made our way towards the wood near by. We met
-              with other adults of the town and their children. The children ran
-              off into the forest to play as the adults made way for a fire, today
-              is a festive day June 12th.
+              Our group now larger, made our way towards the wood near by. We
+              met with other adults of the town and their children. The children
+              ran off into the forest to play as the adults made way for a fire,
+              today is a festive day June 12th.
             </p>
             <p>
-              While setting up in the morning Robert joined us and shared the news
-              of the of the on going northern border problems. People living there
-              have been unhappy with the Republic's increased taxes and taking
-              their children and young adults to fight a war so far away from home. The villages
-              still had to fend off the local beasts of their own, just with less man power now. The republic had a
-              massive Avalanche in Neuenese and a Fault in Moborodian, the earth
-              there had opened up and monsters and beasts from the depths had spread out. The
-              rebels fed up with their treatment had forces between
-              100,000~300,000. Since most where not soldiers beforehand the
-              success of the rebels was blamed on Aldens supplying the rebels.
+              While setting up in the morning Robert joined us and shared the
+              news of the of the on going northern border problems. People
+              living there have been unhappy with the Republic's increased taxes
+              and taking their children and young adults to fight a war so far
+              away from home. The villages still had to fend off the local
+              beasts of their own, just with less man power now. The republic
+              had a massive Avalanche in Neuenese and a Fault in Moborodian, the
+              earth there had opened up and monsters and beasts from the depths
+              had spread out. The rebels fed up with their treatment had forces
+              between 100,000~300,000. Since most where not soldiers beforehand
+              the success of the rebels was blamed on Aldens supplying the
+              rebels.
             </p>
             <p>
               "We have been supplying them haven't we?" I asked. "If not, we
               should. They are Alden also."
             </p>
             <p>
-              "We have." Robert replied. "Too obviously it seems if even the town
-              inspector knows we have." He joked.
+              "We have." Robert replied. "Too obviously it seems if even the
+              town inspector knows we have." He joked.
             </p>
             <p>"Aha, well is there any news not from the Republic?" I asked.</p>
             <p>
-              "Elves have cat fever. Gianlongian in Herkikia has a drought, their
-              second biggest port city included. Desonean in the Kingdom has
-              flooded, the main river through the kingdom that is. To top it all
-              off a Malgian Crusade has been called in the Kingdom, I can only
-              hope those crazy zealots die in the desert." Robert said.
+              "Elves have cat fever. Gianlongian in Herkikia has a drought,
+              their second biggest port city included. Desonean in the Kingdom
+              has flooded, the main river through the kingdom that is. To top it
+              all off a Malgian Crusade has been called in the Kingdom, I can
+              only hope those crazy zealots die in the desert." Robert said.
             </p>
-            <p>"What a year." I commented. "What's cat fever anyway?" I asked.</p>
             <p>
-              Robert shrugged. "A fever cats get I guess, there was not much news
-              about it since it's from so far away. Anyway come inspect some of
-              the woodcutting axes, we need to know their durability so no one
-              gets hurt."
+              "What a year." I commented. "What's cat fever anyway?" I asked.
+            </p>
+            <p>
+              Robert shrugged. "A fever cats get I guess, there was not much
+              news about it since it's from so far away. Anyway come inspect
+              some of the woodcutting axes, we need to know their durability so
+              no one gets hurt."
             </p>
             <p>
               With that I went to do my job in the town, inspecting low level
@@ -263,13 +304,13 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
               about the items, others just a generic letter rank from F - A.
             </p>
             <p>
-              Every night I teach my son Otto more about the skill. Inspect is one
-              of the few skills in the world that do not require skill points to
-              learn, which is nice. However the passive skill appraisal, which
-              increases how much information the inspect skill uncovers, did
-              require skill points. I was lucky enough to learn the skill though
-              sheer luck. It's a safe well paying job, I always hoped Otto could
-              learn it too so he can have a safe life.
+              Every night I teach my son Otto more about the skill. Inspect is
+              one of the few skills in the world that do not require skill
+              points to learn, which is nice. However the passive skill
+              appraisal, which increases how much information the inspect skill
+              uncovers, did require skill points. I was lucky enough to learn
+              the skill though sheer luck. It's a safe well paying job, I always
+              hoped Otto could learn it too so he can have a safe life.
             </p>
             {/* <!-- 284,139 rebels --> */}
             {/* <!-- IMPORTANT  */}
@@ -290,17 +331,17 @@ most people learn inspect but either see
             <h3>Play Day</h3>
             {/* <!-- Children in the forest --> */}
             <p>
-              The group of 7 laughing running into the forest, beyond the eyes of
-              their parents, they arrive at a circular clear area within the small
-              wooded area they often play. Eugen 13 years of age, larger, and
-              taller then the others of the group, but without a temper or
+              The group of 7 laughing running into the forest, beyond the eyes
+              of their parents, they arrive at a circular clear area within the
+              small wooded area they often play. Eugen 13 years of age, larger,
+              and taller then the others of the group, but without a temper or
               ambition he plays with children younger then him rather then the
               older children of the town. Beke, 12 a slow child, but easily
-              angered. Ilse 12, the oldest child of Sarah and Robert. Effi 10 the
-              younger sister of Ilse. Otto 10 the oldest son of Michkel and Karla,
-              with two younger brothers, and a sister on the way. Nils 10 the 8th
-              child of the town leader, although only 5 remain. Jakob 9, A small
-              boy, shy and un-gifted.
+              angered. Ilse 12, the oldest child of Sarah and Robert. Effi 10
+              the younger sister of Ilse. Otto 10 the oldest son of Michkel and
+              Karla, with two younger brothers, and a sister on the way. Nils 10
+              the 8th child of the town leader, although only 5 remain. Jakob 9,
+              A small boy, shy and un-gifted.
             </p>
             {/* <!-- <p>The children are armed with wood swords, shields, spears and staves. Today like most days they pretend to be heroes from old stories, facing off in small 1v1's with little organization or any teams at all. After settling their small disputes and deciding who gets to be which hero they turn to battle their foe as a team. Under the command of Ilse, who while not the oldest child was Eugen had to little ambition to even lead a group as small as this and Beke who's temper is too hot to make any meaningful decisions. They charge in and out fighting a tree with a 'monster' draw onto the side.</p> --> */}
             {/* <!-- What about adding the children arguing instead of just saying they did? --> */}
@@ -308,22 +349,24 @@ most people learn inspect but either see
               "I want to be a fighter today!" Little Otto declared picked up a
               small stick from the ground and giving it a good swing.
             </p>
-            <p>"Ahaha, Do you even know anything about fighters?" Beke jabbed.</p>
+            <p>
+              "Ahaha, Do you even know anything about fighters?" Beke jabbed.
+            </p>
             <p>
               "Of course I know! They move the mana inside their bodies to where
-              it is needed, to become faster or stronger." Otto replied happy with
-              himself.
+              it is needed, to become faster or stronger." Otto replied happy
+              with himself.
             </p>
             <p>
-              "You can't be a fighter. You don't have a sword, bow or anything at
-              all! You're holding a stick, that's like a mages wand. You have to
-              be a mage, unless you want to be a rogue.." Beke snickered.
+              "You can't be a fighter. You don't have a sword, bow or anything
+              at all! You're holding a stick, that's like a mages wand. You have
+              to be a mage, unless you want to be a rogue.." Beke snickered.
             </p>
             <p>
-              Otto stared at Beke in anger, twisting his lips, debating about what
-              to reply when Ilse cut between the two. "You two stop arguing and
-              get into position the monster is here!" She pointed to a tree with a
-              crudely drawn monster on it's side.
+              Otto stared at Beke in anger, twisting his lips, debating about
+              what to reply when Ilse cut between the two. "You two stop arguing
+              and get into position the monster is here!" She pointed to a tree
+              with a crudely drawn monster on it's side.
             </p>
             {/* Here */}
             <p>
@@ -335,28 +378,29 @@ most people learn inspect but either see
               "Provoke"
             </p>
             <p>
-              The sounds of the fight ring out through the small clearing. "Hig-h
-              Impact!!", "Fire Ball!". "fire ball? That's not a junior skill
-              that's intermediate. We all agreed to start at junior level." Berk
-              grows towards the smaller Otto. "I thought we must of leveled up by
-              now!" retorts Otto. "Why would we level up it's not even dead yet!"
-              Berk shouts back. "come on now, we can't get distracted in a fight!
-              Otto must of just got tired of being the mage every time" Ilse steps
-              in to redirect Berks attention. "He's the mage because he cannot
-              afford a real weapon, that is not even a wand it's just a stick"
-              Beke spits out. Otto looks down at the stick in his hand, true
-              enough it was no real wand. "that's what wands are, just sticks, now
-              kill that monster!" Isle points towards the tree and Beke runs up
-              and slams his shield into the tree and stabs it with his sword point
-              before triumphantly shouting that he had slain the monster.
+              The sounds of the fight ring out through the small clearing.
+              "Hig-h Impact!!", "Fire Ball!". "fire ball? That's not a junior
+              skill that's intermediate. We all agreed to start at junior
+              level." Berk grows towards the smaller Otto. "I thought we must of
+              leveled up by now!" retorts Otto. "Why would we level up it's not
+              even dead yet!" Berk shouts back. "come on now, we can't get
+              distracted in a fight! Otto must of just got tired of being the
+              mage every time" Ilse steps in to redirect Berks attention. "He's
+              the mage because he cannot afford a real weapon, that is not even
+              a wand it's just a stick" Beke spits out. Otto looks down at the
+              stick in his hand, true enough it was no real wand. "that's what
+              wands are, just sticks, now kill that monster!" Isle points
+              towards the tree and Beke runs up and slams his shield into the
+              tree and stabs it with his sword point before triumphantly
+              shouting that he had slain the monster.
             </p>
             {/* <!-- The play introduces the reader in to what happens in the world, and monsters --> */}
             {/* <!-- play comes to an end, the festivities start --> */}
             <p>
-              As the sun reaches the middle of the sky the group run back from the
-              forest at the smell of food, they soon catch the lights of the large
-              fire and the food being passed around the smaller children and the
-              adults. They pick up the pace and run over to join in the
+              As the sun reaches the middle of the sky the group run back from
+              the forest at the smell of food, they soon catch the lights of the
+              large fire and the food being passed around the smaller children
+              and the adults. They pick up the pace and run over to join in the
               festivities.
             </p>
             {/* <!-- They continue their days with the adults working, the children play or help out --> */}
@@ -385,12 +429,12 @@ most people learn inspect but either see
             {/* <!-- redo - as Effie --> */}
             <p>
               The group where playing deep inside the forest when one of them
-              discovered lurking near by. A leaf green figure, with a large yellow
-              eye, webbed hands and feet with black sharp nails attached, a small
-              belly and a slight hunchback. Its mouth shaped like bird beak but
-              with small teeth protruding from below. One of them shouts "monster
-              detected!" All the children scramble towards the creature in a
-              charge. Unaware of the dangers of reality.
+              discovered lurking near by. A leaf green figure, with a large
+              yellow eye, webbed hands and feet with black sharp nails attached,
+              a small belly and a slight hunchback. Its mouth shaped like bird
+              beak but with small teeth protruding from below. One of them
+              shouts "monster detected!" All the children scramble towards the
+              creature in a charge. Unaware of the dangers of reality.
             </p>
             <p>
               Ilse shouts commands at the others to form-up and attack, ordering
@@ -402,66 +446,68 @@ most people learn inspect but either see
               At first the young Kappa is surprised and taken back by the sudden
               attacks and loud shouting, the children are spurred on by their
               apparent advantage. Beke slams his shield into the creature and
-              stabs at its ribs with his wooden sword shouting "shield bash" with
-              great joy. Eugen follows up by stabbing into the creature with his
-              spear, the tip is dull but with enough force to pierce through the
-              creatures skin, a long high screech sounds out in the clearing,
-              confident Eugen tries to thrust further in but is unable. A toy
-              arrow lands at Jakob's feet, Nils off into the distance. A child's
-              cry fills the air, Eugen balled over on the ground holding his face
-              as blood drips from it, in the struggle to pull his spear back the
-              young kappa had slashed across his face in its panic.
+              stabs at its ribs with his wooden sword shouting "shield bash"
+              with great joy. Eugen follows up by stabbing into the creature
+              with his spear, the tip is dull but with enough force to pierce
+              through the creatures skin, a long high screech sounds out in the
+              clearing, confident Eugen tries to thrust further in but is
+              unable. A toy arrow lands at Jakob's feet, Nils off into the
+              distance. A child's cry fills the air, Eugen balled over on the
+              ground holding his face as blood drips from it, in the struggle to
+              pull his spear back the young kappa had slashed across his face in
+              its panic.
             </p>
             <p>
               Ilse dashes froward to help, as Beke in his panic and anger curses
               Otto, "You where told to cast protection why didn't you cast
               protection!" Otto knowing this is no longer part of any game
               desperately wishes he could of done anything at all to help, drops
-              his wand. The young kappa no sooner had slashed the boys face freed
-              himself of the spear jumps on his back and stabs his webbed claws
-              into his his neck. Blood squeezes out of the holes and around his
-              sharp claws, Ilse runs up to the pair and tries to pull the creature
-              off. Beke standing before his friend screaming in pain, starts
-              hitting the creature with his sword and stabbing at his eyes, soon
-              the creature lets out a screech as he jumps off Eugen, who is now
-              silent on the ground in a pool of his own blood.
+              his wand. The young kappa no sooner had slashed the boys face
+              freed himself of the spear jumps on his back and stabs his webbed
+              claws into his his neck. Blood squeezes out of the holes and
+              around his sharp claws, Ilse runs up to the pair and tries to pull
+              the creature off. Beke standing before his friend screaming in
+              pain, starts hitting the creature with his sword and stabbing at
+              his eyes, soon the creature lets out a screech as he jumps off
+              Eugen, who is now silent on the ground in a pool of his own blood.
             </p>
             <p>
               Effi who was suppose to be protecting her older sister had been
               stood still in the shock of it all, suddenly sprung to life and
-              jumped into the frey, the 3 children, Ilse, Beke & Effi beat on the
-              monster with their swords defending with shields. The monster now
-              hidden from view of Otto muttering magic spells he heard of from
-              stories and Jakob collecting a few rocks from the ground, while Nils
-              throws them at the monster where he can.
+              jumped into the frey, the 3 children, Ilse, Beke & Effi beat on
+              the monster with their swords defending with shields. The monster
+              now hidden from view of Otto muttering magic spells he heard of
+              from stories and Jakob collecting a few rocks from the ground,
+              while Nils throws them at the monster where he can.
             </p>
             <p>
               In the short frenzy the creature knocks Effi aside, and makes a
-              break for it running towards the tree line, the children give chase,
-              Jakob bending down to pick a rock is slammed into by a fleeing
-              monster who rips at Jakob's face and sides pulling out chunks of
-              flesh and blood from the screaming child. The others more panicked
-              scream and run towards the monster and Jakob Beke first, larger and
-              stronger then the others who pushes the monster off Jakob only to
-              receive quick swipes towards his shield, Ilse dives in and plunges
-              her sword into the creatures left eye, it oozes out black liquid as
-              the creature lets out a loud scream and plunges his claws into
-              Ilse's stomach.
+              break for it running towards the tree line, the children give
+              chase, Jakob bending down to pick a rock is slammed into by a
+              fleeing monster who rips at Jakob's face and sides pulling out
+              chunks of flesh and blood from the screaming child. The others
+              more panicked scream and run towards the monster and Jakob Beke
+              first, larger and stronger then the others who pushes the monster
+              off Jakob only to receive quick swipes towards his shield, Ilse
+              dives in and plunges her sword into the creatures left eye, it
+              oozes out black liquid as the creature lets out a loud scream and
+              plunges his claws into Ilse's stomach.
             </p>
             <p>
               Effi arriving later then her stronger faster comrades pushes her
               shield between Ilse and the creature who with his weight alone
-              pushes them to the ground, Effi holds the shield between them trying
-              to protect her older sister as the creature strikes down a blinding
-              flash of light appears near the creatures one good eye and blinds
-              it. "Heavy strike" Beke shouts as he slams his sword over the
-              creatures head, as the creature spins and swipes its claws randomly
-              Effi shouts "Provoke" and feels the creature attention directly on
-              her, despite it being unable to see. It charges, as the creature
-              arrives onto Effi's shield again, Ilse plunges her little toy sword
-              into the creature's wound and its heart stops from the impact, the
-              creature falls to the ground breathing heavily as Beke smashes his
-              sword over its head again. It die's from blood loss shortly after.
+              pushes them to the ground, Effi holds the shield between them
+              trying to protect her older sister as the creature strikes down a
+              blinding flash of light appears near the creatures one good eye
+              and blinds it. "Heavy strike" Beke shouts as he slams his sword
+              over the creatures head, as the creature spins and swipes its
+              claws randomly Effi shouts "Provoke" and feels the creature
+              attention directly on her, despite it being unable to see. It
+              charges, as the creature arrives onto Effi's shield again, Ilse
+              plunges her little toy sword into the creature's wound and its
+              heart stops from the impact, the creature falls to the ground
+              breathing heavily as Beke smashes his sword over its head again.
+              It die's from blood loss shortly after.
             </p>
             <p>
               The whole encounter took just a few moments, even though to the
@@ -469,10 +515,10 @@ most people learn inspect but either see
               own blood, Nils kneels by Jakob's body shivering unable to bring
               himself to move or speak. Beke shouts out for all to hear, blaming
               all of the others, until his eyes land on Eugen only then does he
-              break, seeing his friends mangled and shredded face. Effi holds her
-              older sister in her arms, repeating over and over that mother will
-              be here soon, it will be okay. Ilse dies looking back at Effi unable
-              to speak, lungs full of blood.
+              break, seeing his friends mangled and shredded face. Effi holds
+              her older sister in her arms, repeating over and over that mother
+              will be here soon, it will be okay. Ilse dies looking back at Effi
+              unable to speak, lungs full of blood.
             </p>
             <p>"Level up!" the words cover Otto's vision.</p>
             <LevelUp
@@ -487,31 +533,30 @@ most people learn inspect but either see
           <BreakPoint id="TheBody">
             <h3>The Body</h3>
             <p>
-              After hearting the children scream like they where really in trouble
-              this time myself, Robert and a few others ran over to check on them.
-              Jakob, Eugen & Ilse lay dead. I grabbed Otto and shock him demanding
-              to know what happened. Robert ran over to Ilse and Effi and burst
-              into tears, he screamed so loud everyone else in the town came
-              rushing over.
+              After hearting the children scream like they where really in
+              trouble this time myself, Robert and a few others ran over to
+              check on them. Jakob, Eugen & Ilse lay dead. I grabbed Otto and
+              shock him demanding to know what happened. Robert ran over to Ilse
+              and Effi and burst into tears, he screamed so loud everyone else
+              in the town came rushing over.
             </p>
             <p>
               Hours later I was stood next to robert over the dead body of the
-              'monster'. "You know what kind of beast this is?" I asked. "Yeah, a
-              Kappa, a young one at that, less then 2 years old." Robert replied.
-              I looked towards Robert and he continued. "Not native to here of
-              course, I've never seen one this far south, or this far from a
-              river, they rarely leave the waters only to snatch prey or children
-              who wonder off alone. But never this far and never before they reach
-              adulthood."
+              'monster'. "You know what kind of beast this is?" I asked. "Yeah,
+              a Kappa, a young one at that, less then 2 years old." Robert
+              replied. I looked towards Robert and he continued. "Not native to
+              here of course, I've never seen one this far north. They rarely
+              leave the waters only, to snatch prey or children who wonder off
+              alone. But never this far and never before they reach adulthood."
             </p>
             <p>
-              We stood watching the body burn. "Scouting turned up nothing, maybe
-              it really did get driven south by the events in the north, there
-              were no traces of other kappas in the area. That being said I have
-              had reports of increasing beast attacks from Swexausern." Robert
-              said.
+              We stood watching the body burn. "Scouting turned up nothing,
+              maybe it was a pet and it's owner died near by, there were no
+              traces of other kappas in the area. That being said I have had
+              reports of increasing beast attacks to the north, around
+              Swexausern." Robert said.
             </p>
-            {/* Put new monster here. */}
+            {/* Put new monster here. - Şüräle */}
             {/* <div className="pop">
               Young-Kappa
               <img
@@ -522,7 +567,6 @@ most people learn inspect but either see
             </div> */}
             {/* <!-- Lurking in the water is a strange child-sized humanoid that resembles a bizarre cross between a turtle, a lizard, and a monkey. It has a beak-like mouth, scaly reptilian skin, clawed and webbed hands, and a turtle-like shell on its back. In the top of its head is a bowl-like depression filled with water. --> */}
             {/* <!-- https://forgottenrealms.fandom.com/wiki/Kappa --> */}
-
           </BreakPoint>
           <BreakPoint id="Aftermath">
             <h3>Aftermath</h3>
@@ -557,46 +601,46 @@ most people learn inspect but either see
             <p>
               I was told not to spend any of the points, that I was going to be
               sent to the town hall tomorrow to be tested for my aptitude. Not
-              everyone could use inspect, so external tools where used to find out
-              their attributes and class. Since I was a mage when I am 14 I will
-              go to the magic academy in Banderedam.
+              everyone could use inspect, so external tools where used to find
+              out their attributes and class. Since I was a mage when I am 14 I
+              will go to the magic academy in Banderedam.
             </p>
             <p>
               Almost all the attributes where 0 however, this could not be good.
-              Thinking at first there was a mistake I asked my parents but I soon
-              learned that these numbers are a display of how much the mana can
-              affect me and my spells, them being 0 just means that my mana flow
-              to these areas is poor. The mana would not contribute toward
+              Thinking at first there was a mistake I asked my parents but I
+              soon learned that these numbers are a display of how much the mana
+              can affect me and my spells, them being 0 just means that my mana
+              flow to these areas is poor. The mana would not contribute toward
               anything I tried to do.
             </p>
             <p>
               All children growing up are told stories of heros and villains,
-              magic, monsters, and great warriors. But nothing was ever said about
-              how to unlock their class, skills, or attributes. Almost like
-              everyone who had unlocked them was sworn to silence, today I found
-              out that was true. For their own protection as the only way to
-              unlock attributes was to slay a beast or monster in battle without the help
-              of anyone with attributes, knowing this some children might
-              carelessly try and fight a beast before they where 14. Naturally
-              not everyone kept the secret and most children had killed a beast
-              before they where 14 just usually just one their parent had picked
-              out for them, something less dangerous.
+              magic, monsters, and great warriors. But nothing was ever said
+              about how to unlock their class, skills, or attributes. Almost
+              like everyone who had unlocked them was sworn to silence, today I
+              found out that was true. For their own protection as the only way
+              to unlock attributes was to slay a beast or monster in battle
+              without the help of anyone with attributes, knowing this some
+              children might carelessly try and fight a beast before they where
+              14. Naturally not everyone kept the secret and most children had
+              killed a beast before they where 14 just usually just one their
+              parent had picked out for them, something less dangerous.
             </p>
             <p>
               Before bed I was told the story of the witch of Alden. This was a
               story I had been told over and over. The founder of our country.
             </p>
             <p id="Fancy">
-              The witch of Alden was born when men with wings ruled the continent.
-              They came from the heart of Pocotcotco, a country far to the west.
-              They came with the powers of the monsters and enslaved and ruled
-              over the people of east. The witch found the academy near Banderedam
-              where she built up her power and with that power pushed out the
-              westerns and founded the city of Alden. Seeing this weakness in
-              their rulers the other people of the east threw off their western
-              rulers and built kingdoms and Leagues's  for themselves. The
-              witch not wanting to rule alone made her commanders dukes. So Alden
-              is a Grand Duchy.
+              The witch of Alden was born when men with wings ruled the
+              continent. They came from the heart of Pocotcotco, a country far
+              to the west. They came with the powers of the monsters and
+              enslaved and ruled over the people of east. The witch found the
+              academy near Banderedam where she built up her power and with that
+              power pushed out the westerns and founded the city of Alden.
+              Seeing this weakness in their rulers the other people of the east
+              threw off their western rulers and built kingdoms and Leagues's
+              for themselves. The witch not wanting to rule alone made her
+              commanders dukes. So Alden is a Grand Duchy.
             </p>
             {/* League = Herkikia League */}
           </BreakPoint>
@@ -604,19 +648,36 @@ most people learn inspect but either see
             <h3>Training</h3>
             <h4>Beke POV</h4>
             <Beke>
-              As I arrived at the town hall I could see others outside practicing holding weapons and swinging them under the supervision of an instructor. I knew them, they were the same age as me, I didn't make any friends among them. I was always friends with Ilse & Eugen. The others, Nils, Otto & Jakob were Effi's friends, not mine. They only joined us because Effi was Ilse's little sister.
+              As I arrived at the town hall I could see others outside
+              practicing holding weapons and swinging them under the supervision
+              of an instructor. I knew them, they were the same age as me, I
+              didn't make any friends among them. I was always friends with Ilse
+              & Eugen. The others, Nils, Otto & Jakob were Effi's friends, not
+              mine. They only joined us because Effi was Ilse's little sister.
             </Beke>
             <Beke>
-              As I walked I spotted another group. The weirdos. Their job class was rouge, today they were prancing around on the floor, mimicking the movement of their preferred animal. One was even wiggling on the floor like a snake, or more likely a worm. I could feel my face twist in contempt, nothing I could do about it, was their fault for acting that way.
+              As I walked I spotted another group. The weirdos. Their job class
+              was rouge, today they were prancing around on the floor, mimicking
+              the movement of their preferred animal. One was even wiggling on
+              the floor like a snake, or more likely a worm. I could feel my
+              face twist in contempt, nothing I could do about it, was their
+              fault for acting that way.
             </Beke>
             <Beke>
-              I arrived at the door to the town hall. The hall smelled, earthy, musky a little stale. To counteract this, herbs and rushes were strewn across the floors. The walls were painted with scenes of Aldens past. I liked this part of the hall, there were depictions of the battles. As I walked along the painted halls, the work was interrupted by rooms of other kids sitting down in silence reading or listening to an instructor talk. I hope to shield and go outside like the first group I saw.
+              I arrived at the door to the town hall. The hall smelled, earthy,
+              musky a little stale. To counteract this, herbs and rushes were
+              strewn across the floors. The walls were painted with scenes of
+              Aldens past. I liked this part of the hall, there were depictions
+              of the battles. As I walked along the painted halls, the work was
+              interrupted by rooms of other kids sitting down in silence reading
+              or listening to an instructor talk. I hope to shield and go
+              outside like the first group I saw.
             </Beke>
             <Beke>
-              After reaching the back of the hall, there was small room with an elderly man inside. He
-              had grey hair, a long nose, long wrinkly fingers and the old man was
-              wearing a thick woolen cloak. I knew better then to
-              interrupt this particular man. So I waited.
+              After reaching the back of the hall, there was small room with an
+              elderly man inside. He had grey hair, a long nose, long wrinkly
+              fingers and the old man was wearing a thick woolen cloak. I knew
+              better then to interrupt this particular man. So I waited.
             </Beke>
             <p>After a few moments the mans voice booms out "Late".</p>
             <p>
@@ -625,9 +686,9 @@ most people learn inspect but either see
               before he could clearly remember..
             </p>
             <p>
-              "I don't want your excuses, do your cleaning then run here tomorrow.
-              Now let's see what your aptitude is, place your hand on here,
-              quickly now."
+              "I don't want your excuses, do your cleaning then run here
+              tomorrow. Now let's see what your aptitude is, place your hand on
+              here, quickly now."
             </p>
             <p>
               "Aptitude?" before he can talk any more his hand is dragged over a
@@ -648,27 +709,27 @@ most people learn inspect but either see
               fighters, my farther my mother, my whole family are all fighters!"
             </p>
             <p>
-              "That is not how this works, Rouges are outside today, on your right
-              as you leave, can't miss them." David goes back to his paper work.
-              Beke looks on for a moment before realising he has been dismissed
-              there is no arguing, he puts on foot in front of the other walking
-              back to the door he came in from thinking over and over, no, it has
-              to be wrong.
+              "That is not how this works, Rouges are outside today, on your
+              right as you leave, can't miss them." David goes back to his paper
+              work. Beke looks on for a moment before realising he has been
+              dismissed there is no arguing, he puts on foot in front of the
+              other walking back to the door he came in from thinking over and
+              over, no, it has to be wrong.
             </p>
             <p>
-              Beke makes his way over to the Rogue group, the children around him
-              are still moving in weird ways. The adult teaching them walks over
-              to Beke. "So you are a Rogue then? Best to see what kind."
+              Beke makes his way over to the Rogue group, the children around
+              him are still moving in weird ways. The adult teaching them walks
+              over to Beke. "So you are a Rogue then? Best to see what kind."
             </p>
             <p>"What kind?" Beke looks around. "Like what animal I am?"</p>
             <p>
-              "Ahahaha, no, no. Don't know much about Rogues do you? Alright let's
-              start from the beginning"
+              "Ahahaha, no, no. Don't know much about Rogues do you? Alright
+              let's start from the beginning"
             </p>
             {/* Removing title happend here, I think above needs re-write in Beke Pov */}
             <p>
-              While the other children trained and practiced Beke was taken to one
-              side and asked what he knew.
+              While the other children trained and practiced Beke was taken to
+              one side and asked what he knew.
             </p>
             <p>"So Beke why did you want to be a Fighter?"</p>
             <p>
@@ -677,20 +738,20 @@ most people learn inspect but either see
             </p>
             <p>
               hmm I do see your point, but let me clear some things up. Firstly
-              Rogues are not Fighters who mimic animal moves, anyone can do that.
-              If someone want to fight while acting like a monkey or a snake that
-              is up to them but that is not exactly what is going on here. You see
-              Fighters move mana throughout their bodies to increase their speed,
-              strength or even defend from attacks this much you might already
-              know from your parents. A Rogue however uses their mana to reproduce
-              how beasts fight. It's not so much about the movements but how
-              they use their mana, let me show you.
+              Rogues are not Fighters who mimic animal moves, anyone can do
+              that. If someone want to fight while acting like a monkey or a
+              snake that is up to them but that is not exactly what is going on
+              here. You see Fighters move mana throughout their bodies to
+              increase their speed, strength or even defend from attacks this
+              much you might already know from your parents. A Rogue however
+              uses their mana to reproduce how beasts fight. It's not so much
+              about the movements but how they use their mana, let me show you.
             </p>
             <p>
-              No sooner had he stopped talking a large black tail, as long as his
-              own body had appeared behind him and slammed into the ground, the
-              ground fell and gave way to its quick and powerful strike. "Scorpion
-              tail, that is my spirit."
+              No sooner had he stopped talking a large black tail, as long as
+              his own body had appeared behind him and slammed into the ground,
+              the ground fell and gave way to its quick and powerful strike.
+              "Scorpion tail, that is my spirit."
             </p>
             <p>
               "So I can grow extra body parts, parts of beasts to help me
@@ -698,13 +759,13 @@ most people learn inspect but either see
             </p>
             <p>
               "Aha well yes" he gestures towards his own tail. "However also no.
-              It is not about having extra body parts, although you can, I've even
-              seen a man who replaced his eyes with that of a bird of prey, made
-              him an amazing archer. The point is being a Rogue is about taking
-              what advantages a beasts has and making them or own. From level 1
-              through to 10 we mimic the beasts we want to steal from, learn how
-              they fight so that we can kill them, eat their heart and take their
-              spirit for our own."
+              It is not about having extra body parts, although you can, I've
+              even seen a man who replaced his eyes with that of a bird of prey,
+              made him an amazing archer. The point is being a Rogue is about
+              taking what advantages a beasts has and making them or own. From
+              level 1 through to 10 we mimic the beasts we want to steal from,
+              learn how they fight so that we can kill them, eat their heart and
+              take their spirit for our own."
             </p>
             <p>
               "Eat their heart? gain their spirit? Are you saying if I eat the
@@ -712,9 +773,9 @@ most people learn inspect but either see
             </p>
             <p>
               "Maybe, I never known anyone who bested a dragon in single combat
-              and then ate the dragons heart, so what abilities and skills can be
-              learned from a dragon I do not know. But I do know you should not
-              pick a dragon as your first target."
+              and then ate the dragons heart, so what abilities and skills can
+              be learned from a dragon I do not know. But I do know you should
+              not pick a dragon as your first target."
             </p>
             <p>"I don't think a dog or a cat would suit me."</p>
             <p>
@@ -724,32 +785,32 @@ most people learn inspect but either see
               higher, something that suits you."
             </p>
             <p>
-              Beke for once in his life, stops, takes pause and thinks about what
-              would suit him.
+              Beke for once in his life, stops, takes pause and thinks about
+              what would suit him.
             </p>
             <p>
               "You don't have to decide right this second you know, there are
-              records of other Rouges you could see what abilities they got before
-              you decide. For today since you came with your sword and shield, let
-              us train basic fighting."
+              records of other Rouges you could see what abilities they got
+              before you decide. For today since you came with your sword and
+              shield, let us train basic fighting."
             </p>
             <p>With a nod Beke agrees and joins the group.</p>
             <h4>Beke POV</h4>
             {/* <!-- Lunch and discussion of the others  --> */}
             <p>
               After training with the others in the Rogue group, Beke started to
-              like it, although his level was lower he was popular with the others
-              who wanted to train against a new opponent and made a few new
-              friends.
+              like it, although his level was lower he was popular with the
+              others who wanted to train against a new opponent and made a few
+              new friends.
             </p>
             <p>
               Beke places his lunch try down and looks around at his group of
-              Rogues, the Fighters sitting on other tables. "So where did Nils end
-              up, as a mage?"
+              Rogues, the Fighters sitting on other tables. "So where did Nils
+              end up, as a mage?"
             </p>
             <p>
-              "Oh, no he is practicing to be an artist, I hear he's going to go to
-              the Capital to train"
+              "Oh, no he is practicing to be an artist, I hear he's going to go
+              to the Capital to train"
             </p>
             <p>"Oh, what about Effi?" Beke says with a little disgust.</p>
             <p>"The stone turned red for her, Fighter"</p>
@@ -766,39 +827,41 @@ most people learn inspect but either see
           </BreakPoint>
           <BreakPoint id="Otto">
             {/* meadowsweet and marjoram; EU => Yucatan spicigera, Mimosa pudica, Persea americana, Petiveria alliacea, Piper amalago, Psidium guajava, Tagetes erecta and T. lucida. */}
-
             {/* Cempazúchitl of orange and yellow were mostly used. Our previous rules introduced the plant to this region, whenever a batch is found they are ripped up and used to cover up the smell of old wood in the town hall, also letting us walk on-top of them. */}
-            I arrived at the door to the town hall. The hall smelled, earthy, musky a little stale. To counteract this, herbs and rushes were strewn across the floors.
+            I arrived at the door to the town hall. The hall smelled, earthy,
+            musky a little stale. To counteract this, herbs and rushes were
+            strewn across the floors.
             <h4>Skill tree lesson - Otto</h4>
             <p>
-              After being directed away by an old man behind a desk I was facing a
-              room of other children like me sitting on the floor off to the side
-              of the main entrance. There was about 14 in total and a tall skinny
-              man at the front, his boney hand gestured for me to sit down
-              anywhere. As soon as I had he carried on speaking as if I had always
-              been here.
+              After being directed away by an old man behind a desk I was facing
+              a room of other children like me sitting on the floor off to the
+              side of the main entrance. There was about 14 in total and a tall
+              skinny man at the front, his boney hand gestured for me to sit
+              down anywhere. As soon as I had he carried on speaking as if I had
+              always been here.
             </p>
             <p>
-              "If you remember from earlier Luis told us that when you unlock your
-              first level, you will have access to your skill trees. These trees
-              are where you can spend your skill points to acquire new abilities
-              or just improve your current abilities."
+              "If you remember from earlier Luis told us that when you unlock
+              your first level, you will have access to your skill trees. These
+              trees are where you can spend your skill points to acquire new
+              abilities or just improve your current abilities."
             </p>
             <p>
               "You all have 2 skill trees right now. Your class, for you all
               sitting here today that is Mage. If you put points into this skill
-              tree you will learn magic spells. Your second tree is your species, for
-              everyone here today that is clearly Human. For other species such as
-              elves from the United Provinces of Oflralensa and naga from the Kingdom, their species
-              tree will not be human but of their own species."
+              tree you will learn magic spells. Your second tree is your
+              species, for everyone here today that is clearly Human. For other
+              species such as elves from the United Provinces of Oflralensa and
+              naga from the Kingdom, their species tree will not be human but of
+              their own species."
             </p>
             <p>
               "Today we will be looking at the Human skill tree. This skill tree
-              is often overlooked by not only combat focused people but also other
-              species. While other species might get direct combat related skills and
-              buffs the human skill tree is mostly focused around the charisma
-              stat. This is the most overlooked stat in my opinion but you can
-              make up your own mind."
+              is often overlooked by not only combat focused people but also
+              other species. While other species might get direct combat related
+              skills and buffs the human skill tree is mostly focused around the
+              charisma stat. This is the most overlooked stat in my opinion but
+              you can make up your own mind."
             </p>
             <p>
               Over the course of the day we made notes and learned about the
@@ -813,12 +876,12 @@ most people learn inspect but either see
           <BreakPoint id="Effi">
             <h4>Effi POV</h4>
             <p>
-              I had joined the fighter group. I was surprised to see that even the
-              older kids were placed with the younger ones. My dad had told me
-              that education starts the day you become level one but I guess that
-              happens at different times. He said we started early and most kids
-              would not start their education until they were 13 and expected to
-              go hunting to become level one.
+              I had joined the fighter group. I was surprised to see that even
+              the older kids were placed with the younger ones. My dad had told
+              me that education starts the day you become level one but I guess
+              that happens at different times. He said we started early and most
+              kids would not start their education until they were 13 and
+              expected to go hunting to become level one.
             </p>
             <p>
               The first thing I had to do was read through a book about
@@ -864,33 +927,36 @@ most people learn inspect but either see
               </HTMLFlipBook>
             </div>
             <p>
-              There was more to each of the attributes I was told but to join one
-              of the military academy's which all fighters at age 14 were expected
-              to do, this basic understanding was a must.
+              There was more to each of the attributes I was told but to join
+              one of the military academy's which all fighters at age 14 were
+              expected to do, this basic understanding was a must.
             </p>
             <p>
               Now I could join in the lesson with the others! Each group had a
-              large map laid out on the floor and had to match the people group to
-              each of the areas they lived in. While people moved around so it was
-              not like all elves lived in one place but it was safe to say the
-              majority lived in the United Provinces of Oflralensa, the most western country.
-              Aldenese was easy! That was right here in Alden.
+              large map laid out on the floor and had to match the people group
+              to each of the areas they lived in. While people moved around so
+              it was not like all elves lived in one place but it was safe to
+              say the majority lived in the United Provinces of Oflralensa, the
+              most western country. Aldenese was easy! That was right here in
+              Alden.
             </p>
             {/* <h3>Departure</h3> */}
             <p>
               2 years later. After Jun 12th sometime before winter, we had all
               turned 14. Beke had turned 14 the year before and departed the
-              village to go to a Military camp. This year I stood next to Otto and
-              Nils. Nils was going to the capital to study art. It was an unusual
-              choice but he had been accepted by a school there. Otto was going to
-              the academy to train to be a mage, the choice was very predictable.
+              village to go to a Military camp. This year I stood next to Otto
+              and Nils. Nils was going to the capital to study art. It was an
+              unusual choice but he had been accepted by a school there. Otto
+              was going to the academy to train to be a mage, the choice was
+              very predictable.
             </p>
             <p>
               As for me? I was going to the military base near Grafen, a large
-              city south of the village. I was so excited. My mother is a warrior,
-              my dad said she is really strong too. My dad is an archer and
-              hunter. He taught me how to use his bow when I turned 13 but I want
-              to become strong like my mother able of protecting anyone near her.
+              city south of the village. I was so excited. My mother is a
+              warrior, my dad said she is really strong too. My dad is an archer
+              and hunter. He taught me how to use his bow when I turned 13 but I
+              want to become strong like my mother able of protecting anyone
+              near her.
             </p>
             <p>
               There were students from the town hall and even some from small

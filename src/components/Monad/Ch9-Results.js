@@ -50,9 +50,9 @@ function Results(props) {
             the combat exam anytime soon. I guess it would be hard to rank them
             with numbers anyway since it was only 2 matches. I took a quick look
             at the club list, but since most of the clubs where normal sports
-            and the only interest I had was killing monsters & finding treasure
-            I guess I would see what other people picked before handing it in
-            next week.
+            and the only interest I had was killing beasts & finding treasure I
+            guess I would see what other people picked before handing it in next
+            week.
           </p>
 
           <p>
@@ -101,19 +101,19 @@ Reingard". boy - alden likes Tisiel Skivali  becomes tank --> */}
 
           <p>
             "You touch the pillar if you wanna try it. If you rank highly you
-            might get rewards from the academy at the end of each month. Things
-            like this though don't really get rewarded you have to do the
-            combat, command, monster and dueling trials to get any real
-            rewards." A teacher said talking to the other students. "Look for
-            the biggest pillars if you want to try your hand at them."
+            might get rewards from the academy at the end of each month. The
+            major training areas are combat standards, commanding training,
+            beast killing, dueling and trials." A teacher said talking to the
+            other students. "Look for the biggest pillars if you want to try
+            your hand at them."
           </p>
 
           <p>
             With that handy piece of information Lubin forgot to mention I
             headed over to a more crowded area by one of the biggest pillars.
-            Monster Hunting Trial. Collect tokens from killing monsters, the
-            monsters in this trial drop tokens on their death the more your
-            trade in the higher your rank.
+            Beast Hunting Trial. Collect tokens from killing Beasts, the Beasts
+            in this trial drop tokens on their death the more your trade in the
+            higher your rank.
           </p>
 
           <p>
@@ -122,7 +122,7 @@ Reingard". boy - alden likes Tisiel Skivali  becomes tank --> */}
             the rank of the person you beat, and where matched randomly to
             someone near the same rank as you. Command you where rewarded for
             completing objectives and combat for how long you survive. I touched
-            the monster stone and accepted the request that popped up.
+            the beast stone and accepted the request that popped up.
           </p>
 
           <p>
@@ -136,18 +136,18 @@ Reingard". boy - alden likes Tisiel Skivali  becomes tank --> */}
           </p>
 
           <p>
-            I found a large green monster after awhile of running around. It had
+            I found a large green beast after awhile of running around. It had
             spikes down its back and walked on all fours, with a bird beak like
             face but larger and a long tail where the spikes continue down to
             the bottom. I ran up to it from the flank out of the trees and swung
             my warhammer into its back leg. As I would find out later I was
-            luckily enough that this monster was an adolescent and not a fully
+            luckily enough that this beast was an adolescent and not a fully
             grown adult, as adolescents have high magic defense but poor
             physical defense where the adults do not.
           </p>
 
           <p>
-            The monster was young, it screamed in pain and turned its back away
+            The beast was young, it screamed in pain and turned its back away
             from me and tried to come after me with its beak like head. I shot
             lightning magic towards its face and chased down its read end. I
             swung the warhammer into its rear leg over and over, soon the thing
@@ -156,7 +156,7 @@ Reingard". boy - alden likes Tisiel Skivali  becomes tank --> */}
           </p>
 
           <p>
-            The hour went pretty well, I hunted smaller monsters after that,
+            The hour went pretty well, I hunted smaller Beasts after that,
             jumping them from surprise with lighting speed and hitting them with
             a combination of physical and magical attacks. All of the tokens I
             got where wooden which made some sense to me and I headed back to
@@ -237,10 +237,10 @@ Reingard". boy - alden likes Tisiel Skivali  becomes tank --> */}
           <p>
             The strength challenge was easy, touch the totem go inside and hit a
             giant drum with all your strength. I scored 12. Which matched my
-            strength attribute so they must be linked to that. Once I left the trial
-            I checked the pillar outside where names written on it with scores
-            next to them. A message appeared in front of me when I inspected the
-            pillar.
+            strength attribute so they must be linked to that. Once I left the
+            trial I checked the pillar outside where names written on it with
+            scores next to them. A message appeared in front of me when I
+            inspected the pillar.
           </p>
 
           <p>
@@ -266,8 +266,8 @@ Reingard". boy - alden likes Tisiel Skivali  becomes tank --> */}
 
           <p>
             "12!? Your gear must be really expensive, most gear with strength
-            attributes are expensive and usually only fighters use them!" A student
-            half shouted from behind me.
+            attributes are expensive and usually only fighters use them!" A
+            student half shouted from behind me.
           </p>
 
           <p>"Ah, it's not gear, that is just my strength." I replied</p>
