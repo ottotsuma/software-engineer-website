@@ -43,6 +43,7 @@ export const Sticky = styled.div`
 export const StyledArticle = styled.article`
   color: ${(props) => props.color ? props.color : (props.darkMode ? colors.white.off : colors.black.off)};
   font-size: ${props => props.size ? props.size : '18px'};
+  margin-bottom: 35px;
 `;
 export const ButtonStyled = styled.button`
 padding: 0 1.5rem;

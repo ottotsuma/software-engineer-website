@@ -114,7 +114,7 @@ const ChapterList = [
   <Chapter40 Chapter={"War"} />,
   <Chapter41 Chapter={"Graduate"} />,
   <Otto />,
-  <SeaPeopleFunction Chapter={0} />,
+  // <SeaPeopleFunction Chapter={0} />,
   <SeaPeopleFunction Chapter={1} />,
   <SeaPeopleFunction Chapter={2} />,
   <SeaPeopleFunction Chapter={3} />,
