@@ -27,6 +27,7 @@ export const ChapterContainer = styled.div`
   max-height: 100%;
   background: ${(props) =>
     props.darkMode ? colors.grey.oldNormal : colors.lightBackground};
+    padding-bottom: 5px;
 `;
 export const Sticky = styled.div`
   position: fixed;
