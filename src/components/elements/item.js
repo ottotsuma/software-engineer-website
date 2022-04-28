@@ -1002,15 +1002,18 @@ const Span = styled.span`
   position: absolute;
   z-index: 2;
   margin-left: 50%;
-  white-space: nowrap;
+  // white-space: nowrap;
   top: 0;
   @media screen and (max-width: 650px) {
     margin-left: 0%;
     left: 0;
   }
+  max-width: 90%;
+  white-space: pre-wrap;
 `;
 
 const Card = styled.div`
+max-width: 100%;
   position: relative; /* important */
   width: ${(props) => props.width || "300px"};
   height: ${(props) => props.height || "300px"};
