@@ -8,21 +8,21 @@ import {racesList} from './elements/species'
 export default function Snap(props) {
     return (
         <SnapContainer>
-            <Page0>
+            <Page>
                 <BeastPage beast={racesList['Red Panda']} />
-            </Page0>
-            <Page1>
-                <img onError={imageError} src={'https://ottotsuma.github.io/images/monsters/Golem_01.webp'} alt="Screen-Shot" />
-            </Page1>
-            <Page2>
-                <img onError={imageError} src={'https://ottotsuma.github.io/images/monsters/Griffin_01.webp'} alt="Screen-Shot" />
-            </Page2>
-            <Page3>
-                <img onError={imageError} src={'https://ottotsuma.github.io/images/monsters/Hydra_01.webp'} alt="Screen-Shot" />
-            </Page3>
-            <Page4>
-                <img onError={imageError} src={'https://ottotsuma.github.io/images/monsters/Mite_01.webp'} alt="Screen-Shot" />
-            </Page4>
+            </Page>
+            <Page>
+                <img styles={{maxHeight: '100%'}} onError={imageError} src={'https://ottotsuma.github.io/images/monsters/Golem_01.webp'} alt="Screen-Shot" />
+            </Page>
+            <Page>
+                <img styles={{maxHeight: '100%'}} onError={imageError} src={'https://ottotsuma.github.io/images/monsters/Griffin_01.webp'} alt="Screen-Shot" />
+            </Page>
+            <Page>
+                <img styles={{maxHeight: '100%'}} onError={imageError} src={'https://ottotsuma.github.io/images/monsters/Hydra_01.webp'} alt="Screen-Shot" />
+            </Page>
+            <Page>
+                <img styles={{maxHeight: '100%'}} onError={imageError} src={'https://ottotsuma.github.io/images/monsters/Mite_01.webp'} alt="Screen-Shot" />
+            </Page>
         </SnapContainer>
     )
 }
@@ -32,54 +32,14 @@ const SnapContainer = styled.div`
   height: 100vh;
   background-image: url("https://ottotsuma.github.io/images/places/AldenAcademy.jpg");
 `;
-const Page0 = styled.div`
+const Page = styled.div`
  height: 100vh;
  scroll-snap-align: start;
 
  flex: 1;
  display: flex;
  justify-content: center;
- align-items: center;
- font-family: "Yusei Magic", sans-serif;
-`;
-const Page1 = styled.div`
- height: 100vh;
- scroll-snap-align: start;
-
- flex: 1;
- display: flex;
- justify-content: center;
- align-items: center;
- font-family: "Yusei Magic", sans-serif;
-`;
-const Page2 = styled.div`
- height: 100vh;
- scroll-snap-align: start;
-
- flex: 1;
- display: flex;
- justify-content: center;
- align-items: center;
- font-family: "Yusei Magic", sans-serif;
-`;
-const Page3 = styled.div`
- height: 100vh;
- scroll-snap-align: start;
-
- flex: 1;
- display: flex;
- justify-content: center;
- align-items: center;
- font-family: "Yusei Magic", sans-serif;
-`;
-const Page4 = styled.div`
- height: 100vh;
- scroll-snap-align: start;
-
- flex: 1;
- display: flex;
- justify-content: center;
- align-items: center;
+//  align-items: center;
  font-family: "Yusei Magic", sans-serif;
 `;
 
@@ -87,7 +47,7 @@ const Page4 = styled.div`
 
 function BeastPage({ beast }) {
     return (
-        <BeastContainer>
+        <BeastContainer width={window.innerWidth} height={window.innerHeight}>
             <Top>
                 <Title>{_try(() => beast.name)}</Title>
                 <Text>{_try(() => beast.disc)}</Text>
@@ -122,14 +82,19 @@ function BeastPage({ beast }) {
 }
 const Title = styled.div`
 color: black;
+max-height: 30%;
 font-size: 42px;
 `;
 const Text = styled.div`
 color: black;
 margin: 0px 20px;
+max-height: 70%;
+overflow: auto;
+white-space: break-spaces;
 `;
 const StatsContainer = styled.div`
 color: black;
+overflow: auto;
 `;
 const BeastImage1 = styled.img`
 width: 300px;
@@ -140,20 +105,29 @@ width: 100%;
 height: 100%;
 `;
 const Mid = styled.div`
- height: 337px;
+//  height: 337px;
  display: flex;
  justify-content: space-around;
+ max-height: 42%;
+ height: -webkit-fill-available;
 `;
 const Top = styled.div`
 height: 300px;
+max-height: 30%;
 `;
 const Bot = styled.div`
 height: 280px;
 display: flex;
 align-items: flex-end;
+max-height: 28%;
 `;
 const BeastContainer = styled.div`
-  background-image: url("https://img.freepik.com/free-photo/crumpled-paper-background_1373-412.jpg?size=626&ext=jpg&ga=GA1.2.1745401800.1611187200");
-  width: 600px;
-  height: 917px;
+    background-image: url("https://img.freepik.com/free-photo/crumpled-paper-background_1373-412.jpg?size=626&ext=jpg&ga=GA1.2.1745401800.1611187200");
+    width: 600px;
+    height: 917px;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    zoom: ${props => props.height / props.width}
 `;
