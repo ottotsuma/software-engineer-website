@@ -175,7 +175,7 @@ function Intro(props) {
             experience. I had never met anyone that had anything nice to say
             about their local lord or duke, but I had not yet had much dealings
             with them. Just the compliments I heard from the other villagers. It
-            is true the dukes are known to have tamed or captured fierce monsters
+            is true the dukes are known to have tamed or captured fierce beasts
             from the forests of Alden, without them our population would of been
             worn down in wars over the years. The idea we all had one and went
             hunting regularly though could not be true.
@@ -206,11 +206,11 @@ function Intro(props) {
             back in afraid." She said.
           </p>
           <p>
-            "Well for a start Alden uses tamed monsters from the forests which
+            "Well for a start Alden uses tamed beasts from the forests which
             are really unique and cool! They have witches and curse magic while
             in Niyosho we use the 鬼 (Oni), kind of demon like creatures we summon
             instead and they can be really creepy." She seemed really excited to
-            see Aldens monsters, I would have to show her someday! "Oh we also
+            see Aldens beasts, I would have to show her someday! "Oh we also
             make the melon pop that is famous! I hear Alden buys lots of it."
             She said more as a question it seemed.
           </p>
@@ -220,7 +220,7 @@ function Intro(props) {
             ago, I never met him or anything." I said realising I brought the
             mood down.
           </p>
-          <p>"Oh, how did he die? Monsters?" She asked.</p>
+          <p>"Oh, how did he die? Beasts?" She asked.</p>
           <p>
             "The sea people invasion over 10 years ago, he was a scout and was
             tracking them. I don't really know anything more, I was 0 years old

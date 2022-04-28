@@ -9,7 +9,7 @@ function Rest(props) {
           <h4>Rest period</h4>
           {/* <!-- cross dressing wizard --> */}
           {/* Dueling and Combat. */}
-          {/* Beast is about subjugating monsters, command taking control of a small force, combat, dueling */}
+          {/* Beast is about subjugating beasts, command taking control of a small force, combat, dueling */}
           <p>
             I woke early and ran down to the area, the training stones where not
             as busy as yesterday but I am sure they will be later. For now only
@@ -103,11 +103,11 @@ function Rest(props) {
           <p>
             I wanted to do one more match, honestly I liked doing duels. However
             I decided against it. In the end I would not net any rewards, I was
-            not good enough and the thing I wanted to do most was kill monsters.
+            not good enough and the thing I wanted to do most was kill beasts.
             I had no interest in joining the army and fighting the kingdom in
             the west every 5 years, the republic in the north now the rebellion
             had started. I would much rather head back to Savigal and fight
-            monsters until I am strong enough to travel out of Alden.
+            beasts until I am strong enough to travel out of Alden.
           </p>
 {/* Shrorlei,  Reingard, Tisiel, Ralsan, Leon*/}
           <p>I left and went to find Tisiel to see if she had made any progress. Walking through the smaller training areas I ran into Ralsan & Shrorlei. "Hey are you two going to train?" I asked them.</p>

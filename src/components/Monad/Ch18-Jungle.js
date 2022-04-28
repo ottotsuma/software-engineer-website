@@ -308,9 +308,9 @@ function Intro(props) {
           </p>
 
           <p>
-            Tisiel - "Err, yeah that one is from the previous. Hold on. Monster?
-            I thought it was monster but it makes no sense for them to be
-            worshiping monsters, even necromancers don't worship monsters they
+            Tisiel - "Err, yeah that one is from the previous. Hold on. Beast?
+            I thought it was beast but it makes no sense for them to be
+            worshiping beasts, even necromancers don't worship beasts they
             use their bodies."
           </p>
 
@@ -344,7 +344,7 @@ function Intro(props) {
           <p>
             Shrorlei threw a manaball down the passageway the stairs spiraled
             down. I took a peek down and inside although it was hard to see
-            where stone statue's all over. Stone warriors, Stone monsters, Stone
+            where stone statue's all over. Stone warriors, Stone beasts, Stone
             wizards even a stone priest. Lastly there was a large stone king
             sitting on a stone throne. I looked to Tisiel. "A second king."
           </p>
@@ -358,7 +358,7 @@ function Intro(props) {
             Reingard & Volker & Shrorlei made their way down the stairs,
             followed by Raina and Tisiel. I waited looking at the doe laying
             dead on the table, its blood still dripping down into the hole in
-            the middle. I looked up to see the monster carved into the roof, it
+            the middle. I looked up to see the beast carved into the roof, it
             did look as if it was staring at the doe which lay on the table.
             "Enjoy the meal."
           </p>
@@ -381,7 +381,7 @@ function Intro(props) {
           <h4>POV Tisiel</h4>
           <p>
             Down stairs were row after row of colorful statues of warriors and
-            mages monsters and animals alike, there where a few larger then
+            mages, beasts and animals alike, there where a few larger then
             others and some so small you could keep them on your desk as a toy.
             The king was seated on a large throne with a crown atop his head.
           </p>

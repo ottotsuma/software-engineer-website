@@ -36,7 +36,7 @@ function Intro(props) {
             Sitting in the back of a wagon the trip was mostly uneventful,
             Chihal sat between 3 ports so naturally had a large market place.
             There were no walls, no castle and seemed very peaceful, it was far
-            from any border conflict with the monsters down south even if
+            from any border conflict with the beasts down south even if
             Herkikia ever tried to invade it was unlikely they would push this
             far to assault Chihal it could not serve any strategic importance.
             The town it's self was rather small, there were few farms outside
@@ -119,7 +119,7 @@ function Intro(props) {
             come back towards me I must assume they made their way down here so
             I should keep a look out. Soon enough I came across the other
             merchants, arranged around the wagon with small gaps in their line.
-            Unable to see into the forest the only monsters I could make out
+            Unable to see into the forest the only beasts I could make out
             where two large wolves similar size to the one back with the dead
             merchant and one smaller about half their size closest to my
             position. Unsure of what to do for awhile I just stayed still, soon

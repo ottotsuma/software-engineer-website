@@ -236,7 +236,7 @@ function Intro(props) {
             Savigal was a port town on the edge of Herkikia now. In the past this
             town use to sit in the middle of Chingaling. It was a small port
             with little reason to become a port at the time. It was right next
-            to a large monster territory, not the fastest port to Chihal, the
+            to a large beast territory, not the fastest port to Chihal, the
             closest big city. What made Savigal stand out back then was the
             dungeons located near by.
           </p>
@@ -244,12 +244,12 @@ function Intro(props) {
             There were dungeons near the source of the river west of Savigal.
             North-west into the jungle, just west of the main road. North-east
             inside a hill and of course the various high level dungeons to the
-            south, in the monster territory. The most famous dungeon around
+            south, in the beast territory. The most famous dungeon around
             these parts though is the one in town. The reason for that is
             because it is a very low level dungeon.
           </p>
           <p>
-            It's a level 10 dungeon, although the monsters inside are all level
+            It's a level 10 dungeon, although the beasts inside are all level
             10, they vary in difficulty. "Level 10 dungeons only require four
             people to join, it should not be impossible to find three more to
             join you." Gran had said as I finished eating.
@@ -424,9 +424,9 @@ function Intro(props) {
             Oskar informed me.
           </Oskar>
           <Oskar>
-            "At the end of the dungeon is a boss monster we have to fight to end
+            "At the end of the dungeon is a boss we have to fight to end
             the dungeon. The boss is a Skeleton Lancer and a Skeleton Soldier.
-            They are monsters from the hard mode of this dungeon rather then the
+            They are beasts from the hard mode of this dungeon rather then the
             dungeons real boss. Still they are a good fight." Oskar added as we
             ran into another group of zombies.
           </Oskar>
@@ -454,7 +454,7 @@ function Intro(props) {
             enough damage to deal with them both before we run out of health
             ourselves. If one person tries to tank both of them it would put a
             greater burden on our time limits. So if you guys can take the
-            lancer first, take it in turns tanking the monster starting with
+            lancer first, take it in turns tanking the beast starting with
             Anneliese. After that come save me, alright?" Oskar laughed to
             lighten the mood.
           </Oskar>
@@ -464,15 +464,15 @@ function Intro(props) {
             blows. Paired with it she had a short axe with a curved head. Oskar
             plunged in first, Anneliese nipped at his heels. She went shield
             first, making contact with the skeletons spear head and deflecting
-            it out of the way, followed up by her axe into the monsters ribs,
+            it out of the way, followed up by her axe into the beasts ribs,
             before quickly pulling back.
           </Otto>
           <Otto>
             I did not stand around scratch my bum, while Anneliese was
-            attracting the monster me and Klemens moved in a pincer around the
+            attracting the beast me and Klemens moved in a pincer around the
             side, as soon as Anneliese and Oskar moved the bosses away from each
             other me and Klemens jumped in assaulting the Skeleton Lancer. I
-            slammed my warhammer into the monsters back with{" "}
+            slammed my warhammer into the beasts back with{" "}
             <InlineSpell spellName={"Strike"} level={1} />, when the HP bar
             barely moved I was a little shocked. I knew the bosses would be
             stronger but they were around ten times more defensive then their
@@ -616,7 +616,7 @@ function Intro(props) {
             were collected and handed over to Oskar he told me to look up. At
             first I was confused, then under the giggles of Klemens and
             Anneliese, I looked up and saw above us while we were fighting the
-            dungeon bosses were two more skeleton monsters. One with a crown
+            dungeon bosses were two more skeleton beasts. One with a crown
             atop his head and another with a ribbon on hers. While I was shocked
             and confused, Oskar gave a low bow and the skeleton king clapped his
             lifeless hands like a round of appulse. A white fuzzy light gripped
@@ -766,9 +766,9 @@ function Intro(props) {
             he had been working as a guard for hire for over 10 years since he
             left the military academy. Since the attack yesterday the merchants
             would be hiring more but the chance of attack was less, usually when
-            one strong monster is taken down in an area it takes awhile before
+            one strong beast is taken down in an area it takes awhile before
             another appears. As if to prove him wrong only 15 minutes after he
-            said it we came across some monsters.
+            said it we came across some beasts.
           </p>
 
           <p>

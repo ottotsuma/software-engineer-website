@@ -10,9 +10,9 @@ function Intro(props) {
           {/* <!-- Training. --> */}
           <h4>Training</h4>
           <p>
-            In the afternoon we went into the jungles in search of monsters to
+            In the afternoon we went into the jungles in search of beasts to
             hunt to hone our skills and try to work together as a team. The
-            first monster we came across was not a monster I would forget
+            first beast we came across was not a beast I would forget
             anytime soon. The text book describes them as centaurs, with the
             lower body of a horse and the upper of a man, but only in
             appearance, the truth was always darker then it first appeared. The
@@ -33,7 +33,7 @@ function Intro(props) {
           <p>
             Reingard struck first with balls of mana and tanked the centaurs
             hooves with his shield reinforced in his metal mana. Shooting into
-            action, I charged into the monster with the skill 'Charged Charge'
+            action, I charged into the beast with the skill 'Charged Charge'
             and stuck down with <InlineSpell spellName={'Strike'} level={1} /> (lightning) infused into my warhammer, I
             had picked up a few tricks on the way. Just like that 10% of its
             health disappeared.
@@ -41,7 +41,7 @@ function Intro(props) {
 
           <p>
             Volker summoned flames over his hands and threw a great wave of
-            fire, washing over the monster turning the fur on his rear black,
+            fire, washing over the beast turning the fur on his rear black,
             the smell of burning fur singed and hung in the air. Raina washed
             Reingard in water infused mana and the scratches and dirt on his
             skin seemed to wash away healing him for over 25% of his total
@@ -53,23 +53,23 @@ function Intro(props) {
             had a heavy body, large hooves and a short crude spear it swung
             around and tried to stab with, the trick to the centaur was to keep
             it from being able to charge. Reingard would block it by staying in
-            its line of sight, I would try to heard the monster into Reingard.
+            its line of sight, I would try to heard the beast into Reingard.
             Since Volker was doing more damage with his fire this worked out
             well for us.
           </p>
 
           <p>
             When I saw a gap I stuck into its knee on its rear legs, the damned
-            monster kicked me in the chest with its hooves and I went flying. I
+            beast kicked me in the chest with its hooves and I went flying. I
             landed against the ground and slid for a bit, my lightning cloak had
             shocked him on impact and given Reingard the chance to provoke the
-            monster away from me. A cool liquid flowed over me and my health
+            beast away from me. A cool liquid flowed over me and my health
             started to recover from the red.
           </p>
 
           <p>
-            Soon the monster fell and our first day of training would stop
-            here. The monster had dropped a necklace made of teeth and an eye
+            Soon the beast fell and our first day of training would stop
+            here. The beast had dropped a necklace made of teeth and an eye
             ball. None of us really wanted them, but we would sell them for
             money, centaurs cannot be found outside of the academy.
           </p>
