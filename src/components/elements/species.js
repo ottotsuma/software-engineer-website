@@ -4,6 +4,17 @@ import {colors, monadColors} from './colors'
 import {_try} from './util'
 
 export const racesList = {
+  "Red Panda": {
+    name: 'Red Panda',
+    stats: { charisma: 10, vitality: -2, dexterity: 1, endurance: -1, magic: 1, willpower: -1  },
+    team: 'Charisma +2.',
+    self: 'Cannot be hated.',
+    images: ['https://ottotsuma.github.io/images/monsters/afa542f5244091d1ec8e995d4cab92af.jpg', 'https://ottotsuma.github.io/images/monsters/bae7137a73f7e8020ba59aaaa5a3120e.jpg'],
+    notes: '',
+    tier: 'rare',
+    disc: 'The red panda (Ailurus fulgens), also known as the lesser panda, is a small mammal native to the eastern Himalayas and southwestern China. It has dense reddish-brown fur with a black belly and legs, white-lined ears, a mostly white muzzle and a ringed tail. Its head-to-body length is 51–63.5 cm (20.1–25.0 in) with a 28–48.5 cm (11.0–19.1 in) tail, and it weighs between 3.2 and 15 kg (7.1 and 33.1 lb). It is well adapted to climbing due to its flexible joints and curved semi-retractile claws.',
+    // https://powerlisting.fandom.com/wiki/Red_Panda_Physiology & https://tier-zoo.fandom.com/wiki/Red_Panda
+  },
   human: {
     stats: { charisma: 2, sense: 1 },
     team: '',

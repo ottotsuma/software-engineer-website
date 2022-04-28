@@ -1,13 +1,15 @@
 import React from "react";
 import { imageError } from "./color";
 import styled from "styled-components";
-import {_try} from './elements/util'
+import { _try } from './elements/util'
+import Stats from "./elements/stats";
+import {racesList} from './elements/species'
 
 export default function Snap(props) {
     return (
         <SnapContainer>
             <Page0>
-                <BeastPage beast={{name: 'Red Panda'}} />
+                <BeastPage beast={racesList['Red Panda']} />
             </Page0>
             <Page1>
                 <img onError={imageError} src={'https://ottotsuma.github.io/images/monsters/Golem_01.webp'} alt="Screen-Shot" />
@@ -83,8 +85,8 @@ const Page4 = styled.div`
 
 // To be removed.
 
-function BeastPage ({beast}) {
-
+function BeastPage({ beast }) {
+    console.log(beast)
     return (
         <BeastContainer>
             <Top>
@@ -92,35 +94,64 @@ function BeastPage ({beast}) {
                 <Text>{_try(() => beast.disc)}</Text>
             </Top>
             <Mid>
-                <Stats></Stats>
-                <BeastImage1 onError={imageError} src={'https://ottotsuma.github.io/images/monsters/afa542f5244091d1ec8e995d4cab92af.jpg'} alt="Screen-Shot" />
+                <StatsContainer>
+                    <Stats
+                        type={"description"}
+                        removeHPMP={true}
+                        stats={{
+                            // name: "",
+                            // level: 1,
+                            species: "Red Panda",
+                            vitality: 0,
+                            strength: 0,
+                            endurance: 0,
+                            magic: 0,
+                            willpower: 0,
+                            dexterity: 0,
+                            sense: 0,
+                            charisma: 0,
+                        }}
+                    />
+                </StatsContainer>
+                <BeastImage1 onError={imageError} src={_try(() => beast.images[0])} alt="Screen-Shot" />
             </Mid>
             <Bot>
-                <BeastImage2 onError={imageError} src={'https://ottotsuma.github.io/images/monsters/bae7137a73f7e8020ba59aaaa5a3120e.jpg'} alt="Screen-Shot" />
+                <BeastImage2 onError={imageError} src={_try(() => beast.images[1])} alt="Screen-Shot" />
             </Bot>
         </BeastContainer>
     )
 }
 const Title = styled.div`
 color: black;
+font-size: 42px;
 `;
 const Text = styled.div`
+color: black;
+margin: 0px 20px;
 `;
-const Stats = styled.div`
+const StatsContainer = styled.div`
+color: black;
 `;
 const BeastImage1 = styled.img`
 width: 300px;
-height: 400px;
+height: 90%;
 `;
 const BeastImage2 = styled.img`
-width: 550px;
-height: 250px;
+width: 100%;
+height: 100%;
 `;
 const Mid = styled.div`
+ height: 337px;
+ display: flex;
+ justify-content: space-around;
 `;
 const Top = styled.div`
+height: 300px;
 `;
 const Bot = styled.div`
+height: 280px;
+display: flex;
+align-items: flex-end;
 `;
 const BeastContainer = styled.div`
   background-image: url("https://img.freepik.com/free-photo/crumpled-paper-background_1373-412.jpg?size=626&ext=jpg&ga=GA1.2.1745401800.1611187200");
