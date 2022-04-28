@@ -86,7 +86,6 @@ const Page4 = styled.div`
 // To be removed.
 
 function BeastPage({ beast }) {
-    console.log(beast)
     return (
         <BeastContainer>
             <Top>
