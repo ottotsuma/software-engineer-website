@@ -3,6 +3,7 @@ import Item from "./../elements/item";
 import Title from './../elements/title'
 import SeaPeopleFunction from "./SeaPeople"; // 6
 import { Content } from "./styles";
+import { ItemList } from "../elements/item";
 function Intro(props) {
   return (
     <Content>
@@ -280,11 +281,12 @@ Deer are considered messengers to the gods in Shinto, especially Kasuga Shrine i
           </p>
 
           <Item
-            stats={{
-              "Small magic increase" : "+?"
-            }}
-            name={"Ceremonial White Stag Mask"}
-            rating={"normal"}
+            // stats={{
+            //   "Small magic increase": "+?"
+            // }}
+            // name={"Ceremonial White Stag Mask"}
+            // rating={"normal"}
+            props={ItemList["Ceremonial White Stag Mask"][0]}
           />
           <p>
             When I scanned my mask what I saw was surprising, it must have
@@ -292,20 +294,22 @@ Deer are considered messengers to the gods in Shinto, especially Kasuga Shrine i
             not even close to the expected.
           </p>
           <Item
-            stats={{
-              "Magic" : "+1",
-              "Disease resistance": "+20%",
-              "Mana regeneration":"+10%"
-            }}
-            name={"Heavenly White Stag Mask"}
-            rating={"unique"}
-            long={'Blessing of 建御雷 [Takemikazuchi]: Resist lightning +10%, Lightning cost - 10%, Lightning power +10%.'}
+            props={ItemList["Heavenly White Stag Mask"][0]}
+          // stats={{
+          //   "Magic" : "+1",
+          //   "Disease resistance": "+20%",
+          //   "Mana regeneration":"+10%"
+          // }}
+          // name={"Heavenly White Stag Mask"}
+          // rating={"unique"}
+          // long={'Blessing of 建御雷 [Takemikazuchi]: Resist lightning +10%, Lightning cost - 10%, Lightning power +10%.'}
           />
-{/* 
-
+          {/* 
+          
           {/*  建御雷 [Takemikazuchi] - Thunder and swords  - https://en.wikipedia.org/wiki/Kasuga-taisha (Ride a white deer)*/}
+          <br />
           {/* Raijin (雷神, lit. "Thunder God") */}
-          <Title name={'Found a unique item'} effect={'+1 Strength.'} 
+          <Title name={'Found a unique item'} effect={'+1 Strength.'}
             rank={'unique'} />
           <p>"You said there were two types of masks?"</p>
 
@@ -339,8 +343,8 @@ Deer are considered messengers to the gods in Shinto, especially Kasuga Shrine i
             replied.
           </p>
           <p>"Sure lets go" She said back with a nod.</p>
-        <div className="BreakPoint" />
-        <SeaPeopleFunction Chapter={6} />
+          <div className="BreakPoint" />
+          <SeaPeopleFunction Chapter={6} />
         </div>
       </div>
     </Content>

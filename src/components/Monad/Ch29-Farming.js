@@ -1,6 +1,8 @@
 import React from "react";
 import Equipment from "./../elements/equipment";
 import { Content } from "./styles";
+import { ItemList } from "../elements/item";
+
 function Intro(props) {
   return (
     <Content>
@@ -15,19 +17,10 @@ function Intro(props) {
           </p>
           {/* https://www.sacred-texts.com/cfu/mlc/mlc10.htm - obscure fire god from china */}
           <Equipment
-            items={{
-              Head: {
-                name: "Heavenly White Stag Mask",
-                effect:
-                  "Magic: +1, Disease resistance + 20%, Mana regeneration + 10%, blessing of 建御雷 [Takemikazuchi].",
-                rating: "unique",
-              },
-              Body: {
-                name: "Academy Robe (Black/Yellow).",
-                effect: "Magic: +1, Lightning +1%, HP +10.",
-                rating: "junk",
-              },
-            }}
+        items={{
+          Head: ItemList["Heavenly White Stag Mask"],
+          Body: ItemList["Academy Robe (Black/Yellow)"],
+        }}
           />
           {/* <li>
               Body:<font color="blue"> Hui Lu's Battle Armor</font> ???

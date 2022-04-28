@@ -573,6 +573,28 @@ export const ItemList = {
     note: "",
     type: "gloves",
   },
+  "Ceremonial White Stag Mask": {
+    name: "Ceremonial White Stag Mask",
+    description: "",
+    image: "",
+    rating: "normal",
+    stats: { "Small magic increase": "+?" },
+    effect: "",
+    long: "", // Price since it was shown In a shop.
+    note: "",
+    type: "hat",
+    0: {
+      name: "Ceremonial White Stag Mask",
+      description: "",
+      image: "",
+      rating: "normal",
+      stats: { "Small magic increase": "+?" },
+      effect: "",
+      long: "", // Price since it was shown In a shop.
+      note: "",
+      type: "hat",
+    },
+  },
   "Heavenly White Stag Mask": {
     name: "Heavenly White Stag Mask",
     description:
@@ -584,6 +606,30 @@ export const ItemList = {
     long: "Blessing of 建御雷 [Takemikazuchi]: Resist lightning +20%, Lightning cost - 15%, Lightning power +20%.", // Price since it was shown In a shop.
     note: "",
     type: "hat",
+    0: {
+      name: "Heavenly White Stag Mask",
+      description:
+        "Magic: +1, Disease resistance + 20%, Mana regeneration + 10%, blessing of 建御雷 [Takemikazuchi].",
+      image: "",
+      rating: "unique",
+      stats: { magic: 1, },
+      effect: "",
+      long: "Blessing of 建御雷 [Takemikazuchi]: Resist lightning +10%, Lightning cost - 10%, Lightning power +10%.", // Price since it was shown In a shop.
+      note: "",
+      type: "hat",
+    },
+    1: {
+      name: "Heavenly White Stag Mask",
+      description:
+        "Magic: +2, Disease resistance + 20%, Mana regeneration + 20%, blessing of 建御雷 [Takemikazuchi].",
+      image: "",
+      rating: "unique",
+      stats: { magic: 2 },
+      effect: "",
+      long: "Blessing of 建御雷 [Takemikazuchi]: Resist lightning +20%, Lightning cost - 15%, Lightning power +20%.", // Price since it was shown In a shop.
+      note: "",
+      type: "hat",
+    }
   },
   "Academy Robe (Black/Yellow)": {
     name: "Academy Robe (Black/Yellow)",
@@ -818,6 +864,9 @@ const Inline = styled.div`
 `;
 
 function Item(props) {
+  if(props.props) {
+    props = props.props
+  }
   const array = [];
   if (props.stats) {
     const keys = Object.keys(props.stats);
@@ -846,13 +895,14 @@ function Item(props) {
     console.log("no image");
     return (
       <Main>
-        <CardNoImage bottom={props.effect ? "10px" : "0px"}>
+        <CardNoImage bottom={props.effect ? "10px" : "5px"}>
           <TitleItem2 color={colors[props.rating]}>
             {props.name || ""}
           </TitleItem2>
           {array.length > 0 && <Span>{array}</Span>}
-          {props.effect ? <Name>{props.effect}</Name> : <div></div>}
+          {/* {props.effect ? <Name>{props.effect}</Name> : <div></div>} */}
         </CardNoImage>
+        {props.description ? <div>{props.description}</div> : <div></div>}
         {props.long ? <div>{props.long}</div> : <div></div>}
       </Main>
     );
