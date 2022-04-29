@@ -12,6 +12,9 @@ export default function Snap(props) {
                 <BeastPage beast={racesList['Red Panda']} />
             </Page>
             <Page>
+                <BeastPage beast={racesList['Wendigo']} />
+            </Page>
+            <Page>
                 <img styles={{maxHeight: '100%'}} onError={imageError} src={'https://ottotsuma.github.io/images/monsters/Golem_01.webp'} alt="Screen-Shot" />
             </Page>
             <Page>
@@ -59,16 +62,16 @@ function BeastPage({ beast }) {
                         removeHPMP={true}
                         stats={{
                             // name: "",
-                            // level: 1,
-                            species: "Red Panda",
-                            vitality: 0,
-                            strength: 0,
-                            endurance: 0,
-                            magic: 0,
-                            willpower: 0,
-                            dexterity: 0,
-                            sense: 0,
-                            charisma: 0,
+                            level: beast.level || 0,
+                            species: beast.name,
+                            vitality: _try(() => beast[beast.level].vitality, 0),
+                            strength: _try(() => beast[beast.level].strength, 0),
+                            endurance: _try(() => beast[beast.level].endurance, 0),
+                            magic: _try(() => beast[beast.level].magic, 0),
+                            willpower: _try(() => beast[beast.level].willpower, 0),
+                            dexterity: _try(() => beast[beast.level].dexterity, 0),
+                            sense: _try(() => beast[beast.level].sense, 0),
+                            charisma: _try(() => beast[beast.level].charisma, 0),
                         }}
                     />
                 </StatsContainer>
@@ -129,5 +132,5 @@ const BeastContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    zoom: ${props => props.height / props.width}
+    // zoom: ${props => (props.height / props.width)}
 `;

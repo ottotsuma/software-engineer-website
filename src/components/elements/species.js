@@ -208,13 +208,24 @@ export const racesList = {
   },
   "Wendigo": {
     name: 'Wendigo',
+    level: 50,
+    50: {
+      vitality: 22,
+      strength: 20,
+      endurance: 0,
+      magic: 14,
+      willpower: 16,
+      dexterity: 16,
+      sense: 6,
+      charisma: -2,
+    },
     stats: {},
     team: '',
     self: 'Eating human flesh rejuvenate the Wendigo.',
-    images: [],
+    images: ['https://www.gmbinder.com/images/Aq4ozf8.png', 'https://mindweaverpg.files.wordpress.com/2020/09/wendigo.png'],
     notes: '',
     tier: 'rare',
-    disc: '',
+    disc: 'The wendigo is often said to be a malevolent spirit, sometimes depicted as a creature with human-like characteristics, which possesses human beings. The wendigo is known to invoke feelings of insatiable greed/hunger, the desire to cannibalize other humans, as well as the propensity to commit murder in those that fall under its influence.',
   },
 };
 // Bakeneko (monster) (one tail) cat demon,  & nekomata (species) (two tails), raises the dead with dances.
