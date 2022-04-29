@@ -4,6 +4,18 @@ import {colors, monadColors} from './colors'
 import {_try} from './util'
 
 export const racesList = {
+  // Binturong , 
+  "Binturong": {
+    name: 'Binturong',
+    stats: { charisma: 10, vitality: -2, dexterity: 1, endurance: -1, magic: 1, willpower: -1  },
+    team: '',
+    self: '',
+    images: ['https://wpcdn.us-midwest-1.vip.tn-cloud.net/www.rimonthly.com/content/uploads/2020/06/Binturong-cute.jpg' , 'https://www.abconservation.org/wp-content/uploads/2020/03/2018-05-19-Journ%C3%A9e-Binturong-Boissi%C3%A8re-du-Dor%C3%A9-n%C2%B0080.jpg'],
+    notes: '',
+    tier: 'rare',
+    disc: 'The binturong (Arctictis binturong), also known as the bearcat, is a viverrid native to South and Southeast Asia. It is uncommon in much of its range, and has been assessed as Vulnerable on the IUCN Red List because of a declining population trend that is estimated at more than 30% since the mid 1980s. The binturong is the only living species in the genus Arctictis.',
+    // https://tier-zoo.fandom.com/wiki/Red_Panda
+  },
   "Red Panda": {
     name: 'Red Panda',
     stats: { charisma: 10, vitality: -2, dexterity: 1, endurance: -1, magic: 1, willpower: -1  },
