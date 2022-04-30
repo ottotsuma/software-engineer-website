@@ -152,25 +152,116 @@ export function SchoolSchedule() {
   return (
     <ScheduleWrapper>
       <ScheduleDay>
-        <DayTitle style={{gridColumn: 'track-1', gridRow: 'time-0800 / time-0900'}}>
+        {/* Times */}
+        <DayTitle
+        >
+          <h4>Times</h4>
+        </DayTitle>
+        <Block
+          style={{ gridRow: "time-0800" }}
+        >
+            <p>8:00 - 9:00</p>
+        </Block>
+        <Block
+          style={{ gridRow: "time-0900" }}
+        >
+            <p>9:00 - 10:00</p>
+        </Block>
+        <Block
+          style={{ gridRow: "time-1000" }}
+        >
+            <p>10:00 - 11:00</p>
+        </Block>
+        <Block
+          style={{ gridRow: "time-1100" }}
+        >
+            <p>11:00 - 12:00</p>
+        </Block>
+        <Block
+          style={{ gridRow: "time-1200" }}
+        >
+            <p>12:00 - 13:00</p>
+        </Block>
+        <Block
+          style={{ gridRow: "time-1300" }}
+        >
+            <p>13:00 - 14:00</p>
+        </Block>
+        <Block
+          style={{ gridRow: "time-1400" }}
+        >
+            <p>14:00 - 15:00</p>
+        </Block>
+        <Block
+          style={{ gridRow: "time-1500" }}
+        >
+            <p>15:00 - 16:00</p>
+        </Block>
+        <Block
+          style={{ gridRow: "time-1600" }}
+        >
+            <p>16:00 - 17:00</p>
+        </Block>
+        {/* Day 1 */}
+        <DayTitle
+          style={{ gridColumn: "track-1" }}
+        >
           <h4>Day 1</h4>
         </DayTitle>
-        <Block style={{gridColumn: 'track-1', gridRow: 'time-0900 / time-1000'}}>
-          <h4 class="session-title">
-            <a href="#">Basics of being a mage</a>
-          </h4>
-          <span class="session-time">8:00am - 9:00am</span>
-          <span class="session-track">Classroom?</span>
-          <span class="session-presenter">Lubin</span>
+        <Block
+          style={{ gridColumn: "track-1", gridRow: "time-0800" }}
+        >
+          <p>
+            Basics of being a mage
+          </p>
+          <span>Classroom</span>
+          <span>Lubin</span>
         </Block>
-        <Block style={{gridColumn: 'track-1', gridRow: 'time-1000 / time-1100'}}>
-          <h4 class="session-title">
-            <a href="#">Elemental class - Lightning</a>
-          </h4>
-          <span class="session-time">9:00am - 10:00am</span>
-          <span class="session-track">Track 1</span>
-          <span class="session-presenter">Edgar</span>
+        <Block
+          style={{ gridColumn: "track-1", gridRow: "time-0900" }}
+        >
+          <p>
+            Elemental class - Lightning
+          </p>
+          <span>Classroom</span>
+          <span>Edgar</span>
         </Block>
+        {/* Day 2 */}
+        <DayTitle
+          style={{ gridColumn: "track-2" }}
+        >
+          <h4>Day 2</h4>
+        </DayTitle>
+        {/* Day 3 */}
+        <DayTitle
+          style={{ gridColumn: "track-3" }}
+        >
+          <h4>Day 3</h4>
+        </DayTitle>
+        {/* Day 4 */}
+        <DayTitle
+          style={{ gridColumn: "track-4" }}
+        >
+          <h4>Day 4</h4>
+        </DayTitle>
+        {/* Day 5 */}
+        <DayTitle
+          style={{ gridColumn: "track-5" }}
+        >
+          <h4>Day 5</h4>
+        </DayTitle>
+                {/* Day 6 */}
+                <DayTitle
+          style={{ gridColumn: "track-6" }}
+        >
+          <h4>Day 6</h4>
+        </DayTitle>
+                {/* Day 7 */}
+                <DayTitle
+          style={{ gridColumn: "track-7" }}
+        >
+          <h4>Day 7</h4>
+        </DayTitle>
       </ScheduleDay>
     </ScheduleWrapper>
   );
@@ -185,44 +276,46 @@ export function SchoolSchedule() {
 
 const ScheduleWrapper = styled.div`
   display: flex;
+  font-size: 0.7em;
 `;
-
 const ScheduleDay = styled.div`
   display: grid;
-  grid-template-rows: repeat(8, 1fr);
-  // grid-template-columns: (9, 1fr);
+  grid-template-rows: repeat(9, 1fr);
   display: grid;
   grid-gap: 1em;
   grid-template-rows:
     [tracks] auto
     [time-0800] 1fr
-    [time-0830] 1fr
     [time-0900] 1fr
-    [time-0930] 1fr
     [time-1000] 1fr
-    [time-1030] 1fr
     [time-1100] 1fr
-    [time-1130] 1fr
-    [time-1200] 1fr;
-
+    [time-1200] 1fr
+    [time-1300] 1fr
+    [time-1400] 1fr
+    [time-1500] 1fr
+    [time-1600] 1fr;
+    
     grid-template-columns:
     [times] 4em
     [track-1-start] 1fr
     [track-1-end track-2-start] 1fr
     [track-2-end track-3-start] 1fr
     [track-3-end track-4-start] 1fr
-    [track-4-end];
+    [track-4-end track-5-start] 1fr
+    [track-5-end track-6-start] 1fr
+    [track-6-end track-7-start] 1fr
+    [track-7-end];
 }
 `;
 const Block = styled.div`
-  // grid-row: ${(props) => props.slot};
   align-items: center;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  border: 1px solid black;
 `;
-
 const DayTitle = styled.div`
   align-items: center;
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 `;
