@@ -201,7 +201,6 @@ function Lessons(props) {
             they did and make your own path. Unless you want to join the
             military directly." Lubin followed up with.
           </p>
-
           <p>
             "If there are any questions, you will be seeing me once a day, four
             days a week, so please wait until you have read through 'Exemplary
@@ -215,6 +214,7 @@ function Lessons(props) {
             was the safest and fastest way to level up and how most people were
             able to progress even up to level 20 or more without ever fighting.
           </p>
+          {/* Maybe add a schedule in here so they don't spend their time wandering the school. */}
           <p>
             Shortly after the class was dismissed, I went to the library along
             with many of the other students from my class, alongside other first
@@ -235,7 +235,6 @@ function Lessons(props) {
             histories book, wonder if it's different". I said a loud, clearly
             the studying was driving me mad.
           </p>
-
           <p>
             After reading and comparing the book to the pages for awhile I
             concluded that the people that wrote the histories just copied
@@ -243,7 +242,6 @@ function Lessons(props) {
             why they made their decisions and just wrote down the outcomes and
             attributes.
           </p>
-
           <p>
             I decided to look for some other books to see if any about
             shock-mages which where also used by the military. I was going to
@@ -270,7 +268,6 @@ function Lessons(props) {
             up against it, no sound. Taking a deep breath, I put the key into
             the door and turned it, and heard a click. I pushed the door open.
           </p>
-
           <p>
             Sitting there looking back at me was Tisiel. "Breaking into a ladies
             room without even knocking, what kind of man are you?" She
