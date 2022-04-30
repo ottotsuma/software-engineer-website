@@ -5,6 +5,8 @@ import Item from "./../elements/item";
 import Equipment from "./../elements/equipment";
 import Stats from "./../elements/stats";
 import Spells from "./../elements/spells";
+import {ListofMagicTypes} from './../elements/spells'
+import {colors, monadColors, textColors} from './../elements/colors'
 
 export default function Vampire() {
   return (
@@ -149,6 +151,7 @@ const SubTitle = styled.h4`
 // Added damage by Positive Energy
 
 export function SchoolSchedule() {
+  console.log(ListofMagicTypes.length)
   return (
     <ScheduleWrapper>
       <ScheduleDay>
@@ -209,7 +212,7 @@ export function SchoolSchedule() {
           <h4>Day 1</h4>
         </DayTitle>
         <Block
-          style={{ gridColumn: "track-1", gridRow: "time-0800" }}
+          style={{ gridColumn: "track-1", gridRow: "time-0800", background: colors.purple.normal  }}
         >
           <p>
             Basics of being a mage
@@ -218,7 +221,7 @@ export function SchoolSchedule() {
           <span>Lubin</span>
         </Block>
         <Block
-          style={{ gridColumn: "track-1", gridRow: "time-0900" }}
+          style={{ gridColumn: "track-1", gridRow: "time-0900", background: colors.yellow.electric }}
         >
           <p>
             Elemental class - Lightning
@@ -267,13 +270,34 @@ export function SchoolSchedule() {
   );
 }
 
+// 56 lessons. 
+// -4 Basic Mage
+// -7 Element class
+// -1 History
+// -1 Finance
+// -1 Relationships and citizenship
+// -1 Battle tactics & formations
+// -1 Cooking
+// -1 Navigating & Tracking
+// -3 Group Coordination / Fighting
+// -5 Dueling, Fighting Practice
+
+// There can be cross over lessons between branches. Healing and farming both use Herbalism.
+// https://powerlisting.fandom.com/wiki/Magic#Types_of_Magic
 // Lessons other then combat and magic:
-// History, Relationships, Finance, Citizenship,
+// History, Relationships, Finance, Citizenship, Study Time (Free Period), 
+
 // Magic non-combat:
-// Element class, Mage Class
+// Element class, Mage Class, Charms, Alteration, Mysticism, Necromancy, Conjuration, Restoration, Destruction, Illusion, Shadow Magic, Ancient magic, Love magic, Astronomy,  Mental magic, Broomology, Potions, Divination, Study of Ancient Runes, Transfiguration, Wandlore, Household magic
+
+// Farming:
+// Weather magic, Botany, Herbalism, Animal magic, Magizoology, 
+
 // Battle Lessons:
 // Group, Battle tactics, Camping, Cooking, Navigating, Dueling/Fighting
 
+// Clubs:
+// 
 const ScheduleWrapper = styled.div`
   display: flex;
   font-size: 0.7em;
@@ -313,6 +337,7 @@ const Block = styled.div`
   justify-content: center;
   flex-direction: column;
   border: 1px solid black;
+  color: black;
 `;
 const DayTitle = styled.div`
   align-items: center;
