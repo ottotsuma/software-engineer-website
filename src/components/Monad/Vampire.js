@@ -85,7 +85,7 @@ export default function Vampire() {
           { name: "Sanguinare Vampiris", level: 1, negative: true },
           { name: "Porphyria cutanea tarda", level: 1, negative: true },
           { name: "Porphyria ", level: 1, negative: true },
-          
+
           // Drain Fatigue 5pts, Vampirism (after a three day incubation period)
         ]}
         type={"human"}
@@ -124,7 +124,7 @@ export default function Vampire() {
     </div>
   );
 }
-// Nahual - eagle warriors 
+// Nahual - eagle warriors
 const SubTitle = styled.h4`
   display: flex;
   justify-content: center;
@@ -148,3 +148,81 @@ const SubTitle = styled.h4`
 // Vulnerability to Silver weapons (only lesser vampires)
 // Added damage by Positive Energy
 
+export function SchoolSchedule() {
+  return (
+    <ScheduleWrapper>
+      <ScheduleDay>
+        <DayTitle style={{gridColumn: 'track-1', gridRow: 'time-0800 / time-0900'}}>
+          <h4>Day 1</h4>
+        </DayTitle>
+        <Block style={{gridColumn: 'track-1', gridRow: 'time-0900 / time-1000'}}>
+          <h4 class="session-title">
+            <a href="#">Basics of being a mage</a>
+          </h4>
+          <span class="session-time">8:00am - 9:00am</span>
+          <span class="session-track">Classroom?</span>
+          <span class="session-presenter">Lubin</span>
+        </Block>
+        <Block style={{gridColumn: 'track-1', gridRow: 'time-1000 / time-1100'}}>
+          <h4 class="session-title">
+            <a href="#">Elemental class - Lightning</a>
+          </h4>
+          <span class="session-time">9:00am - 10:00am</span>
+          <span class="session-track">Track 1</span>
+          <span class="session-presenter">Edgar</span>
+        </Block>
+      </ScheduleDay>
+    </ScheduleWrapper>
+  );
+}
+
+// Lessons other then combat and magic:
+// History, Relationships, Finance, Citizenship,
+// Magic non-combat:
+// Element class, Mage Class
+// Battle Lessons:
+// Group, Battle tactics, Camping, Cooking, Navigating, Dueling/Fighting
+
+const ScheduleWrapper = styled.div`
+  display: flex;
+`;
+
+const ScheduleDay = styled.div`
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+  // grid-template-columns: (9, 1fr);
+  display: grid;
+  grid-gap: 1em;
+  grid-template-rows:
+    [tracks] auto
+    [time-0800] 1fr
+    [time-0830] 1fr
+    [time-0900] 1fr
+    [time-0930] 1fr
+    [time-1000] 1fr
+    [time-1030] 1fr
+    [time-1100] 1fr
+    [time-1130] 1fr
+    [time-1200] 1fr;
+
+    grid-template-columns:
+    [times] 4em
+    [track-1-start] 1fr
+    [track-1-end track-2-start] 1fr
+    [track-2-end track-3-start] 1fr
+    [track-3-end track-4-start] 1fr
+    [track-4-end];
+}
+`;
+const Block = styled.div`
+  // grid-row: ${(props) => props.slot};
+  align-items: center;
+  display: flex;
+  justify-content: center;
+`;
+
+const DayTitle = styled.div`
+  align-items: center;
+    display: flex;
+    justify-content: center;
+`;
