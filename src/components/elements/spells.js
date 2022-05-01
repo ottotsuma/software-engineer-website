@@ -359,6 +359,7 @@ export const spellList = {
     1: "Increases movement speed.",
   },
   "Charged Charge": {
+    element: ['lightning'],
     name: "Charged Charge",
     1: "Stimulates your muscles in your legs with lightning shocks, to boost your speed.",
     2: "Move 5% faster while charging.",
@@ -368,54 +369,67 @@ export const spellList = {
   },
   "Lightning Storm": {
     name: "Lightning Storm",
+    element: ['lightning'],
     1: "Call lightning to randomly strike an area.",
   },
   "Wall of Lightning": {
     name: "Wall of Lightning",
+    element: ['lightning'],
     1: "Raise a wall of lightning before you.",
   },
   "Static Field": {
     name: "Static Field",
+    element: ['lightning'],
     1: "All lighting in this area will do more damage.",
   },
   Thunderbolt: {
     name: "Thunderbolt",
+    element: ['lightning'],
     1: "Calls a thunder bolt from above onto the target.",
   },
   Discharge: {
     name: "Discharge",
+    element: ['lightning'],
     1: "Explode lighting in all directions.",
   },
   "Lightning Cloak": {
+    element: ['lightning'],
     name: "Lightning Cloak",
     1: "Covers yourself in lighting, shocking anyone who comes too close.",
   },
   "Lightning Rune": {
     name: "Lightning Rune",
+    element: ['lightning'],
     1: "Injects lighting into a surface, will release when someone comes near.",
   },
   "Lightning Bolt": {
     name: "Lightning Bolt",
+    element: ['lightning'],
     1: "Shoots a bolt of lightning at a target.",
   },
   Sparks: {
     name: "Sparks",
+    element: ['lightning'],
     1: "Shoots out multiple sparks in a random pattern.",
   },
   "Shocking Touch": {
     name: "Shocking Touch",
+    element: ['lightning'],
     1: "Electrocutes a target you touch [You decide the body part it comes from].",
   },
   Thunderstorm: {
     name: "Thunderstorm",
+    element: ['lightning'],
     1: "Change the clouds above to thunder clouds, making lighting strikes easier.",
   },
   "Dazing Bolt": {
     name: "Dazing Bolt",
+    element: ['lightning'],
     1: "A lightning bolt that dazzles the opponent.",
   },
   "Chain Lightning": {
     name: "Chain Lightning",
+    element: ['lightning'],
     1: "Shoots lightning at a target, part of the lighting will be redirected to near by targets.",
   },
   "Serpent Strike": {
@@ -476,31 +490,38 @@ export const spellList = {
   },
   Haietlik: {
     name: "Haietlik",
+    element: ['lightning'],
     1: "Throw a snake shaped lighting bolt to hook onto a target, dealing damage in the process.",
   },
   "Kʼawiil Rain": {
+    element: ['water'],
     name: "Kʼawiil Rain ",
     1: "It starts raining, the rain recovers the HP of your summons/plants.",
   },
   "Kʼawiil Bolt": {
     name: "Kʼawiil Bolt",
+    element: ['lightning'],
     1: "Releases a burst of Kʼawiil-lightning from range.",
     2: "Releases a burst of Kʼawiil-lightning from range.", // ch32
   },
   "Kʼawiil Burst": {
+    element: ['lightning'],
     name: "Kʼawiil Burst",
     1: "Releases a burst of Kʼawiil-lightning on contact.",
     2: "Releases a burst of Kʼawiil-lightning on contact.", // ch32
   },
   "Lightning Plant": {
+    element: ['lightning', 'plant'],
     name: "Lightning Plant",
     1: "Turn lightning seeds into lightning plants!",
   },
   "Inspect Plants": {
     name: "Inspect Plants",
+    element: ['plant'],
     1: "Your inspection of plants will be a level up on your normal inspection ability.",
   },
   "Bountiful Harvest": {
+    element: ['plant'],
     name: "Bountiful Harvest",
     passive: true,
     note: "All of your harvests are increased by [x]%. [x is 10x the level of this spell.]",
@@ -516,12 +537,14 @@ export const spellList = {
     10: "All of your harvests are increased by 100%, recover 20% HP.",
   },
   "Reap What You Sow": {
+    element: ['plant'],
     name: "Reap What You Sow",
     passive: true,
     1: "Reap the benefits or punishments from the seeds you sow.",
     2: "Reap the benefits or punishments from the seeds you sow.", // chapter 32
   },
   Scarecrow: {
+    element: ['plant'],
     name: "Scarecrow",
     notes: "https://en.wikipedia.org/wiki/Scarecrow",
     1: "Uses plant material to summon a sentient scarecrow.",
@@ -577,7 +600,7 @@ export const spellList = {
   },
   "Seeds to Soldiers": {
     name: "Seeds to Soldiers",
-    element: ["wood"],
+    element: ["plant"],
     note: "Take [x] seed(s), use energy to give life to [x] soldier(s). [x is equal to spell level.]",
     1: "Take 1 seed, use energy to give life to 1 soldier.",
     2: "Take 2 seeds, use energy to give life to 2 soldiers.",
@@ -1373,46 +1396,64 @@ export const spellList = {
     1: "All Stats +1",
   },
   "Gift of Lightning": {
+    element: ['lightning'],
+
     name: "Gift of Lightning",
     passive: true,
     1: "Lightning damage +1%",
   },
   Adhere: {
+    element: ['mana'],
+
     name: "Adhere",
     passive: false,
     1: "Makes an object sticky.",
   },
   Aethersight: {
+    element: ['mana'],
+
     name: "Aethersight",
     passive: false,
     1: "Magical auras glow brightly for you.",
   },
   "Animate Object": {
+    element: ['mana'],
+
     name: "Animate Object",
     passive: false,
     1: "An object animates under your control.",
   },
   Anthropomorphize: {
+    element: ['mana'],
+
     name: "Anthropomorphize",
     passive: false,
     1: "A touched animal either gains human a characteristic.",
   },
   Arboriate: {
+    element: ['plant'],
+
     name: "Arboriate",
     passive: false,
     1: "You become a walking tree up to 10ft tall.",
   },
   "Arcane Eye": {
+    element: ['mana'],
+
     name: "Arcane Eye",
     passive: false,
     1: "You can see through a magical floating eyeball that flies around at your command.",
   },
   "Astral Prison": {
+    element: ['time'],
+
     name: "Astral Prison",
     passive: false,
     1: "A creature is frozen in time and space within an invulnerable crystal shell.",
   },
   "Astral Weapon": {
+    element: ['mana'],
+
     name: "Astral Weapon",
     passive: false,
     1: "A magical weapon appears in your hands until end of spell. It adds +1 to all your attacks.",
@@ -1498,6 +1539,8 @@ export const spellList = {
     1: "Shift an object’s apparent position by up to 10cm.",
   },
   Earthquake: {
+    element: ['earth'],
+
     name: "Earthquake",
     passive: false,
     1: "The ground begins shaking violently. Structures may be damaged or collapse.",
@@ -1508,6 +1551,8 @@ export const spellList = {
     1: "Your body can stretch up to 10cm.",
   },
   "Elemental Sprite": {
+    element: ['mana'],
+
     name: "Elemental Sprite",
     passive: false,
     1: "Summon an elemental spite.",
@@ -1528,6 +1573,8 @@ export const spellList = {
     1: "A touched creature doubles or halves in size.",
   },
   "Fog Cloud": {
+    element: ['water'],
+
     name: "Fog Cloud",
     passive: false,
     1: "A cloud of dense fog spreads out from you.",
@@ -1538,11 +1585,15 @@ export const spellList = {
     1: "1 creature erupts in a frenzy of random violence.",
   },
   "Random Gate": {
+    element: ['portal'],
+
     name: "Random Gate",
     passive: false,
     1: "A portal to a random plane opens.",
   },
   "Gravity Shift": {
+    element: ['gravity'],
+
     name: "Gravity Shift",
     passive: false,
     1: "You can change the direction of gravity (for yourself only) once every 6 seconds.",
@@ -1553,6 +1604,8 @@ export const spellList = {
     1: "Your movement speed is tripled.",
   },
   "Hear Whispers": {
+    element: ['sound'],
+
     name: "Hear Whispers",
     passive: false,
     1: "You can hear the faintest sounds clearly.",
@@ -1573,6 +1626,8 @@ export const spellList = {
     1: "???",
   },
   "Increase Gravity": {
+    element: ['gravity'],
+
     name: "Increase Gravity",
     passive: false,
     1: "The gravity in a nearby area triples.",
@@ -1593,6 +1648,8 @@ export const spellList = {
     1: "You can jump up to 30’ at a time.",
   },
   "Liquid Air": {
+    element: ['wind'],
+
     name: "Liquid Air",
     passive: false,
     1: "The air becomes thick enough to swim in.",
@@ -1613,6 +1670,8 @@ export const spellList = {
     1: "Your pockets are always full of marbles.",
   },
   Masquerade: {
+    element: ['sound'],
+
     name: "Masquerade",
     passive: false,
     1: "1 targets appearances and voices become identical to yours.",
@@ -1673,16 +1732,22 @@ export const spellList = {
     1: "The system answers 1 yes or no questions about a touched object.",
   },
   Pull: {
+    element: ['mana'],
+
     name: "Pull",
     passive: false,
     1: "An object of any size is pulled 30’ directly towards you with the strength of 2 men. Lasts for one round.",
   },
   Push: {
+    element: ['mana'],
+
     name: "Push",
     passive: false,
     1: "An object of any size is pushed 30’ directly away from you with the strength of 2 men. Lasts for one round.",
   },
   "Raise Spirit": {
+    element: ['necromancy'],
+
     name: "Raise Spirit",
     passive: false,
     1: "The spirit of a dead body manifests and may choose to answer questions.",
@@ -1799,28 +1864,36 @@ export const spellList = {
   },
   // These should be deleted from Monad (below)
   "Time Jump": {
+    element: ['time'],
+
     name: "Time Jump",
     passive: false,
     1: "An object jumps 10 minutes into the future.",
   },
   "Time Rush": {
+    element: ['time'],
+
     name: "Time Rush",
     passive: false,
     1: "Time in a nearby area becomes 10 times faster.",
   },
   "Time Slow": {
+    element: ['time'],
+
     name: "Time Slow",
     passive: false,
     1: "Time in a nearby area slows to 10%.",
   },
   // These should be deleted from Monad (above)
   "Transfer Heat": {
-    name: "Time Slow",
+    name: "Transfer Heat",
+    element: ['fire'],
+
     passive: false,
     1: "You may transfer heat or cold between two inanimate objects.",
   },
   "True Sight": {
-    name: "Time Slow",
+    name: "True Sight",
     passive: false,
     1: "You see the true nature of your surroundings.",
   },
@@ -1895,6 +1968,7 @@ export const spellList = {
     1: "Fire +1%.",
   },
   Bloodhunt: {
+    element: ['blood'],
     name: "Bloodhunt",
     passive: false,
     1: "You can sense blood from far away.",
@@ -1971,6 +2045,8 @@ export const spellList = {
     1: "You can now produce an Aura.",
   },
   "Cloak of Shadows": {
+    element: ['shadow'],
+
     name: "Cloak of Shadows",
     passive: false,
     1: "Wraps you with the shadows around you making you harder to detect.",
@@ -1981,11 +2057,15 @@ export const spellList = {
     1: "You can attack while dodging.",
   },
   "Improved Gift of Lightning": {
+    element: ['lightning'],
+
     name: "Improved Gift of Lightning",
     passive: true,
     1: "Lightning +2%.",
   },
   "Misty Escape": {
+    element: ['water'],
+
     name: "Misty Escape",
     passive: false,
     1: "Mist appears around you.",
@@ -2037,6 +2117,8 @@ export const spellList = {
     1: "+1 Sense outside of settlements.",
   },
   Poisoncraft: {
+    element: ['poison'],
+
     name: "Poisoncraft",
     passive: true,
     1: "Poison +1%.",
@@ -2047,11 +2129,15 @@ export const spellList = {
     1: "Targets HP is recovered by 10% of their max HP over the next 5 seconds.",
   },
   "Shadow Strike": {
+    element: ['shadow'],
+
     name: "Shadow Strike",
     passive: false,
     1: "Striking from a shadow, dealing +50% damage to unaware targets.",
   },
   Stealth: {
+    element: ['shadow'],
+
     name: "Stealth",
     passive: false,
     1: "Become invisible for a short period of time, as long as you do not attack anything or take damage.",
@@ -2102,16 +2188,22 @@ export const spellList = {
     1: "Drives spikes from the ground.",
   },
   "Summon Artillery Plant": {
+    element: ['plant'],
+
     name: "Summon Artillery Plant",
     passive: false,
     1: "Summons and artillery plant.",
   },
   "Acid Spores": {
+    element: ['plant'],
+
     name: "Acid Spores",
     passive: false,
     1: "Shoots a group of acid spores in the general direction of the target.",
   },
   "Corrosive Spray": {
+    element: ['plant'],
+
     name: "Corrosive Spray",
     passive: false,
     1: "Shoots a spray of corrosive liquid.",
@@ -2123,6 +2215,8 @@ export const spellList = {
   },
   "Living Wall": {
     name: "Living Wall",
+    element: ['plant'],
+
     passive: false,
     1: "A wall of living plant tentacles blocks the way.",
   },
@@ -2138,6 +2232,8 @@ export const spellList = {
   },
   "Armour of Frost": {
     name: "Armour of Frost",
+    element: ['ice'],
+
     passive: false,
     1: "Frost coats the targets body, slowing it down but increasing it's endurance.",
   },
@@ -2154,6 +2250,8 @@ export const spellList = {
   },
   Rain: {
     name: "Rain",
+    element: ['water'],
+
     passive: false,
     1: "It starts to gently rain.",
   },
@@ -2166,41 +2264,57 @@ export const spellList = {
   },
   "Winter Blast": {
     name: "Winter Blast",
+    element: ['ice'],
+
     passive: false,
     1: "A mixture of ice and snow blasts the area.",
   },
   "Steam Lance": {
     name: "Steam Lance",
+    element: ['water', 'fire'],
+
     passive: false,
     1: "A lance of steam is blasted at the target.",
   },
   " Global Cooling": {
     name: " Global Cooling",
+    element: ['ice'],
+
     passive: false,
     1: "Everything gets much colder.",
   },
   "Soothing Cold": {
+    element: ['ice'],
+
     name: "Soothing Cold",
     passive: false,
     1: "",
   },
   "Ice Fan": {
     name: "Ice Fan",
+    element: ['ice'],
+
     passive: false,
     1: "Ice is shot out in an arc before you.",
   },
   "Deep Freeze": {
     name: "Deep Freeze",
+    element: ['ice'],
+
     passive: false,
     1: "",
   },
   "Cryogenic Stasis": {
     name: "Cryogenic Stasis",
+    element: ['ice'],
+
     passive: false,
     1: "",
   },
   "Hail Strike": {
     name: "Hail Strike",
+    element: ['ice'],
+
     passive: false,
     1: "Hail is shot at a target.",
   },
@@ -2211,12 +2325,16 @@ export const spellList = {
   },
   "Mass Cryotherapy": {
     name: "Mass Cryotherapy",
+    element: ['ice'],
+
     passive: false,
     1: "",
   },
   Cryotherapy: {
     name: "Cryotherapy",
     passive: false,
+    element: ['ice'],
+
     1: "",
   },
   "Healing Tears": {
@@ -2237,20 +2355,28 @@ export const spellList = {
   "Ice Breaker": {
     name: "Ice Breaker",
     passive: false,
+    element: ['ice'],
+
     1: "",
   },
   "Blood Sucker": {
     name: "Blood Sucker",
     passive: false,
+    element: ['blood'],
+
     1: "Suck the blood from a target to restore HP.",
   },
   "Blood Absorb": {
     name: "Blood Absorb",
+    element: ['blood'],
+
     passive: false,
     1: "Blood is taken from a target to restore your HP.",
   },
   "Blood Aura": {
     name: "Blood Aura",
+    element: ['blood'],
+
     passive: false,
     1: "Blood is taken from around you to restore your HP.",
   },
@@ -2266,6 +2392,8 @@ export const spellList = {
   },
   "Raining blood": {
     name: "Raining blood",
+    element: ['blood'],
+
     passive: false,
     1: "It starts to rain blood.",
   },
@@ -2321,6 +2449,8 @@ export const spellList = {
   },
   "Blood Storm": {
     name: "Blood Storm",
+    element: ['blood'],
+
     passive: false,
     1: "The sky weeps bloody tears. Bolts of coagulated blood fall on targets in the area, setting Disease and Decaying. Turns all water in the area into blood.",
   },
@@ -2371,6 +2501,8 @@ export const spellList = {
   },
   "Grasp Heart": {
     name: "Grasp Heart",
+    element: ['blood'],
+
     passive: false,
     1: "Pulls the heart out of a weakened target.",
   },
@@ -2446,6 +2578,8 @@ export const spellList = {
   },
   "Acid Arrow": {
     name: "Acid Arrow",
+    element: ['plant'],
+
     passive: false,
     1: "Shoot an arrow of acid.",
   },
@@ -2457,6 +2591,8 @@ export const spellList = {
   Fireball: {
     name: "Fireball",
     passive: false,
+    element: ['fire'],
+
     1: "Shoots a ball of fire directly in front of you.",
     2: "Shoots a ball of fire directly in front of you.",
   },
@@ -2474,6 +2610,8 @@ export const spellList = {
   },
   Lightning: {
     name: "Lightning",
+    element: ['lightning'],
+
     passive: false,
     1: "Lightning appears.",
   },
@@ -2489,10 +2627,14 @@ export const spellList = {
   },
   "Dragon Lightning": {
     name: "Dragon Lightning",
+    element: ['lightning'],
+
     passive: false,
     1: "Shoots lighting in the form of chinese dragons.",
   },
   "Chain Dragon Lightning": {
+    element: ['lightning'],
+
     name: "Chain Dragon Lightning",
     passive: false,
     1: "",
@@ -2504,6 +2646,8 @@ export const spellList = {
   },
   "Focus Magic": {
     name: "Focus Magic",
+    element: ['mana'],
+
     passive: false,
     1: "Increases magic stat for a moment",
   },
@@ -2515,10 +2659,14 @@ export const spellList = {
   "Hell Flame": {
     name: "Hell Flame",
     passive: false,
+    element: ['fire'],
+
     1: "Shoots out a spark of hell flame.",
   },
   Napalm: {
     name: "Napalm",
+    element: ['fire'],
+
     passive: false,
     1: "Drop Napalm on an area.",
   },
@@ -2559,6 +2707,8 @@ export const spellList = {
   },
   "Call Thunder": {
     name: "Call Thunder",
+    element: ['lightning'],
+
     passive: false,
     1: "Thunder clouds form in the distance coming to you.",
   },
@@ -2779,6 +2929,8 @@ export const spellList = {
     1: "",
   },
   Gate: {
+    element: ['portal'],
+
     name: "Gate",
     passive: false,
     1: "",
@@ -2817,24 +2969,34 @@ export const spellList = {
     name: "Magic Accumulation",
     passive: false,
     1: "",
+    element: ['mana'],
+
   },
   "Magic Seal": {
     name: "Magic Seal",
+    element: ['mana'],
+
     passive: false,
     1: "",
   },
   "Magic Shield": {
     name: "Magic Shield",
+    element: ['mana'],
+
     passive: false,
     1: "",
   },
   "Magic Vision": {
     name: "Magic Vision",
+    element: ['mana'],
+
     passive: false,
     1: "",
   },
   Resistance: {
     name: "Resistance",
+    element: ['mana'],
+
     passive: false,
     1: "",
   },
@@ -2865,11 +3027,15 @@ export const spellList = {
   },
   "Magic Boost": {
     name: "Magic Boost",
+    element: ['mana'],
+
     passive: false,
     1: "",
   },
   "Magic Casters Blessing": {
     name: "Magic Casters Blessing",
+    element: ['mana'],
+
     passive: false,
     1: "",
   },
@@ -2880,6 +3046,8 @@ export const spellList = {
   },
   "Mana Essence": {
     name: "Mana Essence",
+    element: ['mana'],
+
     passive: false,
     1: "",
   },
@@ -3035,11 +3203,15 @@ export const spellList = {
   },
   "Electric Immunity": {
     name: "Electric Immunity",
+    element: ['lightning'],
+
     passive: false,
     1: "",
   },
   "Ice Immunity": {
     name: "Ice Immunity",
+    element: ['ice'],
+
     passive: false,
     1: "",
   },
@@ -3120,6 +3292,8 @@ export const spellList = {
   },
   "Weak To Fire": {
     name: "Weak To Fire",
+    element: ['fire'],
+
     passive: true,
     1: "",
   },
@@ -3165,6 +3339,8 @@ export const spellList = {
   },
   "Poisoning Immunity": {
     name: "Poisoning Immunity",
+    element: ['poison'],
+
     passive: false,
     1: "",
   },
@@ -3586,7 +3762,7 @@ export const spellList = {
   },
   "Fallen Paladin": {
     name: "Fallen Paladin",
-    element: [""],
+    element: ["none"],
     image: "",
     negative: true,
     passive: true,
@@ -3594,7 +3770,7 @@ export const spellList = {
   },
   "Berserkergang": {
     name: "Berserkergang",
-    element: [""],
+    element: ["blood"],
     image: "",
     negative: false,
     passive: true,
@@ -3602,7 +3778,7 @@ export const spellList = {
   },
   "Vampiric frenzy": {
     name: "Vampiric frenzy",
-    element: [""],
+    element: ["blood"],
     image: "",
     negative: false,
     passive: true,

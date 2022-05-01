@@ -13,12 +13,12 @@ export function Mage() {
   const entries = Object.entries(spellList)
   const ShownSpells = []
   for (let index = 0; index < entries.length; index++) {
-    const elementArray = _try(() => entries[index][1].element, [])
+    const elementArray = _try(() => entries[index][1].element, ['none'])
     if(elementArray.includes(type)){
       ShownSpells.push({name: entries[index][0], level: 1})
     }
   }
-  const MageTypes = ['mana', 'fire', 'metal', 'wood', 'water', 'earth', 'lightning', 'ice', 'wind', 'shadow', 'light', 'sound', 'poison', 'time', 'gravity', 'portal', 'spirit', 'blood', 'none']
+  const MageTypes = ['mana', 'fire', 'metal', 'plant', 'water', 'earth', 'lightning', 'ice', 'wind', 'shadow', 'light', 'sound', 'poison', 'time', 'gravity', 'portal', 'spirit', 'blood', 'none']
   const TypesArray = []
   for (let index = 0; index < MageTypes.length; index++) {
     TypesArray.push(
