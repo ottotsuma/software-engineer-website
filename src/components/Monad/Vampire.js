@@ -1,23 +1,67 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-
 import Item from "./../elements/item";
 import Equipment from "./../elements/equipment";
 import Stats from "./../elements/stats";
-import Spells from "./../elements/spells";
-import {ListofMagicTypes} from './../elements/spells'
-import {colors, monadColors, textColors} from './../elements/colors'
+import Spells, {spellList} from "./../elements/spells";
+import { ListofMagicTypes } from "./../elements/spells";
+import { colors, monadColors, textColors } from "./../elements/colors";
+import {_try} from './../elements/util'
+
+export function Mage() {
+  const [type, SetType] = React.useState('mana')
+  const entries = Object.entries(spellList)
+  const ShownSpells = []
+  for (let index = 0; index < entries.length; index++) {
+    const elementArray = _try(() => entries[index][1].element, [])
+    if(elementArray.includes(type)){
+      ShownSpells.push({name: entries[index][0], level: 1})
+    }
+  }
+  const MageTypes = ['mana', 'fire', 'metal', 'wood', 'water', 'earth', 'lightning', 'ice', 'wind', 'shadow', 'light', 'sound', 'poison', 'time', 'gravity', 'portal', 'spirit', 'blood', 'none']
+  const TypesArray = []
+  for (let index = 0; index < MageTypes.length; index++) {
+    TypesArray.push(
+      <ElementalButton key={MageTypes[index] + 'button'} onClick={() => SetType(MageTypes[index])}>{MageTypes[index]}</ElementalButton>
+    )
+  }
+
+  return (
+    <Wrap>
+      <h4>Types of Mages:</h4>
+      <p>Considering mages can move into various different roles, their skill list is wide rather then deep. The depth of a class comes from specializing, after reaching a level of proficiency in one area.</p>
+      <ElementalButtonWrap>{TypesArray}</ElementalButtonWrap>
+      <Spells spells={ShownSpells} type={"mage"} />
+    </Wrap>
+  );
+}
+const Wrap = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+const ElementalButtonWrap = styled.div`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+    justify-content: center;
+`;
+const ElementalButton = styled.button`
+  width: fit-content;
+  padding: 2px;
+`;
 
 export default function Vampire() {
-  const array =[]
+  const array = [];
   for (let index = 0; index < ListofMagicTypes.length; index++) {
     const element = ListofMagicTypes[index];
-    array.push(<div>{element}</div>)
+    array.push(<div key={element + [index]}>{element}</div>);
   }
   return (
     <div style={{ color: "black" }}>
-      {array}
+      <Mage />
       <SchoolSchedule />
+      {array}
       <h1>Blood Skills for any blood ability user:</h1>
       <Spells
         spells={[
@@ -162,383 +206,419 @@ export function SchoolSchedule() {
     <ScheduleWrapper>
       <ScheduleDay>
         {/* Times */}
-        <DayTitle
-        >
+        <DayTitle>
           <h4>Times</h4>
         </DayTitle>
-        <Block
-          style={{ gridRow: "time-0800" }}
-        >
-            <p>8:00 - 9:00</p>
+        <Block style={{ gridRow: "time-0800" }}>
+          <p>8:00 - 9:00</p>
         </Block>
-        <Block
-          style={{ gridRow: "time-0900" }}
-        >
-            <p>9:00 - 10:00</p>
+        <Block style={{ gridRow: "time-0900" }}>
+          <p>9:00 - 10:00</p>
         </Block>
-        <Block
-          style={{ gridRow: "time-1000" }}
-        >
-            <p>10:00 - 11:00</p>
+        <Block style={{ gridRow: "time-1000" }}>
+          <p>10:00 - 11:00</p>
         </Block>
-        <Block
-          style={{ gridRow: "time-1100" }}
-        >
-            <p>11:00 - 12:00</p>
+        <Block style={{ gridRow: "time-1100" }}>
+          <p>11:00 - 12:00</p>
         </Block>
-        <Block
-          style={{ gridRow: "time-1200" }}
-        >
-            <p>12:00 - 13:00</p>
+        <Block style={{ gridRow: "time-1200" }}>
+          <p>12:00 - 13:00</p>
         </Block>
-        <Block
-          style={{ gridRow: "time-1300" }}
-        >
-            <p>13:00 - 14:00</p>
+        <Block style={{ gridRow: "time-1300" }}>
+          <p>13:00 - 14:00</p>
         </Block>
-        <Block
-          style={{ gridRow: "time-1400" }}
-        >
-            <p>14:00 - 15:00</p>
+        <Block style={{ gridRow: "time-1400" }}>
+          <p>14:00 - 15:00</p>
         </Block>
-        <Block
-          style={{ gridRow: "time-1500" }}
-        >
-            <p>15:00 - 16:00</p>
+        <Block style={{ gridRow: "time-1500" }}>
+          <p>15:00 - 16:00</p>
         </Block>
-        <Block
-          style={{ gridRow: "time-1600" }}
-        >
-            <p>16:00 - 17:00</p>
+        <Block style={{ gridRow: "time-1600" }}>
+          <p>16:00 - 17:00</p>
         </Block>
         {/* Day 1 */}
-        <DayTitle
-          style={{ gridColumn: "track-1" }}
-        >
+        <DayTitle style={{ gridColumn: "track-1" }}>
           <h4>Day 1</h4>
         </DayTitle>
         <Block
-          style={{ gridColumn: "track-1", gridRow: "time-0800", background: colors.purple.normal  }}
+          style={{
+            gridColumn: "track-1",
+            gridRow: "time-0800",
+            background: colors.purple.normal,
+          }}
         >
-          <p>
-            Basics of being a mage
-          </p>
+          <p>Basics of being a mage</p>
           <span>Classroom</span>
           <span>Lubin</span>
         </Block>
         <Block
-          style={{ gridColumn: "track-1", gridRow: "time-0900", background: colors.yellow.electric }}
+          style={{
+            gridColumn: "track-1",
+            gridRow: "time-0900",
+            background: colors.yellow.electric,
+          }}
         >
-          <p>
-            Elemental class - Lightning
-          </p>
+          <p>Elemental class - Lightning</p>
           <span>Classroom</span>
           <span>Edgar</span>
         </Block>
         <Block
-          style={{ gridColumn: "track-1", gridRow: "time-1000", background: colors.grey.light }}
+          style={{
+            gridColumn: "track-1",
+            gridRow: "time-1000",
+            background: colors.grey.light,
+          }}
         >
-          <p>
-            Practice Period
-          </p>
+          <p>Practice Period</p>
         </Block>
         <Block
-          style={{ gridColumn: "track-1", gridRow: "time-1100", background: colors.red.normal }}
+          style={{
+            gridColumn: "track-1",
+            gridRow: "time-1100",
+            background: colors.red.normal,
+          }}
         >
-          <p>
-            Dueling
-          </p>
-          <span>???</span>
-          <span>???</span>
-        </Block>
-        <Block
-          style={{ gridColumn: "track-1", gridRow: "time-1200", background: colors.grey.light }}
-        >
-          <p>
-            Lunch
-          </p>
-        </Block>
-        <Block
-          style={{ gridColumn: "track-1", gridRow: "time-1300", background: colors.white.off }}
-        >
-          <p>
-            Battle tactics & formations
-          </p>
+          <p>Dueling</p>
           <span>???</span>
           <span>???</span>
         </Block>
         <Block
-          style={{ gridColumn: "track-1", gridRow: "time-1400", background: colors.white.off }}
+          style={{
+            gridColumn: "track-1",
+            gridRow: "time-1200",
+            background: colors.grey.light,
+          }}
         >
-          <p>
-            Battle tactics & formations
-          </p>
+          <p>Lunch</p>
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-1",
+            gridRow: "time-1300",
+            background: colors.white.off,
+          }}
+        >
+          <p>Battle tactics & formations</p>
           <span>???</span>
           <span>???</span>
         </Block>
         <Block
-          style={{ gridColumn: "track-1", gridRow: "time-1500", background: colors.grey.light }}
+          style={{
+            gridColumn: "track-1",
+            gridRow: "time-1400",
+            background: colors.white.off,
+          }}
         >
-          <p>
-            Option 1
-          </p>
+          <p>Battle tactics & formations</p>
           <span>???</span>
           <span>???</span>
         </Block>
         <Block
-          style={{ gridColumn: "track-1", gridRow: "time-1600", background: colors.grey.light }}
+          style={{
+            gridColumn: "track-1",
+            gridRow: "time-1500",
+            background: colors.grey.light,
+          }}
         >
-          <p>
-            Option 2
-          </p>
+          <p>Option 1</p>
+          <span>???</span>
+          <span>???</span>
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-1",
+            gridRow: "time-1600",
+            background: colors.grey.light,
+          }}
+        >
+          <p>Option 2</p>
           <span>???</span>
           <span>???</span>
         </Block>
         {/* Day 2 */}
-        <DayTitle
-          style={{ gridColumn: "track-2" }}
-        >
+        <DayTitle style={{ gridColumn: "track-2" }}>
           <h4>Day 2</h4>
         </DayTitle>
         <Block
-          style={{ gridColumn: "track-2", gridRow: "time-0800", background: colors.grey.light }}
+          style={{
+            gridColumn: "track-2",
+            gridRow: "time-0800",
+            background: colors.grey.light,
+          }}
         >
-          <p>
-            Physical Fitness
-          </p>
+          <p>Physical Fitness</p>
           <span>Exercise Field</span>
           <span>???</span>
         </Block>
         <Block
-          style={{ gridColumn: "track-2", gridRow: "time-1000", background: colors.yellow.electric }}
+          style={{
+            gridColumn: "track-2",
+            gridRow: "time-1000",
+            background: colors.yellow.electric,
+          }}
         >
-          <p>
-            Elemental class - Lightning
-          </p>
+          <p>Elemental class - Lightning</p>
           <span>Classroom</span>
           <span>Edgar</span>
         </Block>
         <Block
-          style={{ gridColumn: "track-2", gridRow: "time-1100", background: colors.yellow.electric }}
+          style={{
+            gridColumn: "track-2",
+            gridRow: "time-1100",
+            background: colors.yellow.electric,
+          }}
         >
-          <p>
-            Elemental class - Lightning
-          </p>
+          <p>Elemental class - Lightning</p>
           <span>Classroom</span>
           <span>Edgar</span>
         </Block>
         <Block
-          style={{ gridColumn: "track-2", gridRow: "time-1200", background: colors.grey.light }}
+          style={{
+            gridColumn: "track-2",
+            gridRow: "time-1200",
+            background: colors.grey.light,
+          }}
         >
-          <p>
-            Lunch
-          </p>
+          <p>Lunch</p>
         </Block>
         <Block
-          style={{ gridColumn: "track-2", gridRow: "time-1400", background: colors.grey.light }}
+          style={{
+            gridColumn: "track-2",
+            gridRow: "time-1400",
+            background: colors.grey.light,
+          }}
         >
-          <p>
-            Finance & Math
-          </p>
+          <p>Finance & Math</p>
           <span>???</span>
           <span>???</span>
         </Block>
         {/* Day 3 */}
-        <DayTitle
-          style={{ gridColumn: "track-3" }}
-        >
+        <DayTitle style={{ gridColumn: "track-3" }}>
           <h4>Day 3</h4>
         </DayTitle>
         <Block
-          style={{ gridColumn: "track-3", gridRow: "time-0800", background: colors.purple.normal  }}
+          style={{
+            gridColumn: "track-3",
+            gridRow: "time-0800",
+            background: colors.purple.normal,
+          }}
         >
-          <p>
-            Basics of being a mage
-          </p>
+          <p>Basics of being a mage</p>
           <span>Classroom</span>
           <span>Lubin</span>
         </Block>
         <Block
-          style={{ gridColumn: "track-3", gridRow: "time-1100", background: colors.red.normal }}
+          style={{
+            gridColumn: "track-3",
+            gridRow: "time-1100",
+            background: colors.red.normal,
+          }}
         >
-          <p>
-            Dueling
-          </p>
+          <p>Dueling</p>
           <span>???</span>
           <span>???</span>
         </Block>
         <Block
-          style={{ gridColumn: "track-3", gridRow: "time-1200", background: colors.grey.light }}
+          style={{
+            gridColumn: "track-3",
+            gridRow: "time-1200",
+            background: colors.grey.light,
+          }}
         >
-          <p>
-            Lunch
-          </p>
+          <p>Lunch</p>
         </Block>
         <Block
-          style={{ gridColumn: "track-3", gridRow: "time-1500", background: colors.grey.light }}
+          style={{
+            gridColumn: "track-3",
+            gridRow: "time-1500",
+            background: colors.grey.light,
+          }}
         >
-          <p>
-            Navigating & Tracking
-          </p>
+          <p>Navigating & Tracking</p>
           <span>???</span>
           <span>???</span>
         </Block>
         <Block
-          style={{ gridColumn: "track-3", gridRow: "time-1600", background: colors.grey.light }}
+          style={{
+            gridColumn: "track-3",
+            gridRow: "time-1600",
+            background: colors.grey.light,
+          }}
         >
-          <p>
-            Navigating & Tracking
-          </p>
+          <p>Navigating & Tracking</p>
           <span>???</span>
           <span>???</span>
         </Block>
         {/* Day 4 */}
-        <DayTitle
-          style={{ gridColumn: "track-4" }}
-        >
+        <DayTitle style={{ gridColumn: "track-4" }}>
           <h4>Day 4</h4>
         </DayTitle>
         <Block
-          style={{ gridColumn: "track-4", gridRow: "time-0800", background: colors.yellow.electric }}
+          style={{
+            gridColumn: "track-4",
+            gridRow: "time-0800",
+            background: colors.yellow.electric,
+          }}
         >
-          <p>
-            Elemental class - Lightning
-          </p>
+          <p>Elemental class - Lightning</p>
           <span>Classroom</span>
           <span>Edgar</span>
         </Block>
         <Block
-          style={{ gridColumn: "track-4", gridRow: "time-1200", background: colors.grey.light }}
+          style={{
+            gridColumn: "track-4",
+            gridRow: "time-1200",
+            background: colors.grey.light,
+          }}
         >
-          <p>
-            Lunch
-          </p>
+          <p>Lunch</p>
         </Block>
         {/* Day 5 */}
-        <DayTitle
-          style={{ gridColumn: "track-5" }}
-        >
+        <DayTitle style={{ gridColumn: "track-5" }}>
           <h4>Day 5</h4>
         </DayTitle>
         <Block
-          style={{ gridColumn: "track-5", gridRow: "time-0800", background: colors.purple.normal  }}
+          style={{
+            gridColumn: "track-5",
+            gridRow: "time-0800",
+            background: colors.purple.normal,
+          }}
         >
-          <p>
-            Basics of being a mage
-          </p>
+          <p>Basics of being a mage</p>
           <span>Classroom</span>
           <span>Lubin</span>
         </Block>
         <Block
-          style={{ gridColumn: "track-5", gridRow: "time-0900", background: colors.grey.light }}
+          style={{
+            gridColumn: "track-5",
+            gridRow: "time-0900",
+            background: colors.grey.light,
+          }}
         >
-          <p>
-            Physical Fitness
-          </p>
+          <p>Physical Fitness</p>
           <span>Exercise Field</span>
           <span>???</span>
         </Block>
         <Block
-          style={{ gridColumn: "track-5", gridRow: "time-1100", background: colors.grey.light }}
+          style={{
+            gridColumn: "track-5",
+            gridRow: "time-1100",
+            background: colors.grey.light,
+          }}
         >
-          <p>
-            Cooking
-          </p>
+          <p>Cooking</p>
           <span>???</span>
           <span>???</span>
         </Block>
         <Block
-          style={{ gridColumn: "track-5", gridRow: "time-1200", background: colors.grey.light }}
+          style={{
+            gridColumn: "track-5",
+            gridRow: "time-1200",
+            background: colors.grey.light,
+          }}
         >
-          <p>
-            Lunch
-          </p>
+          <p>Lunch</p>
         </Block>
         <Block
-          style={{ gridColumn: "track-5", gridRow: "time-1500", background: colors.grey.light }}
+          style={{
+            gridColumn: "track-5",
+            gridRow: "time-1500",
+            background: colors.grey.light,
+          }}
         >
-          <p>
-            History
-          </p>
+          <p>History</p>
           <span>???</span>
           <span>???</span>
         </Block>
-                {/* Day 6 */}
-                <DayTitle
-          style={{ gridColumn: "track-6" }}
-        >
+        {/* Day 6 */}
+        <DayTitle style={{ gridColumn: "track-6" }}>
           <h4>Day 6</h4>
         </DayTitle>
         <Block
-          style={{ gridColumn: "track-6", gridRow: "time-1100", background: colors.red.normal }}
+          style={{
+            gridColumn: "track-6",
+            gridRow: "time-1100",
+            background: colors.red.normal,
+          }}
         >
-          <p>
-            Dueling
-          </p>
+          <p>Dueling</p>
           <span>???</span>
           <span>???</span>
         </Block>
         <Block
-          style={{ gridColumn: "track-6", gridRow: "time-1200", background: colors.grey.light }}
+          style={{
+            gridColumn: "track-6",
+            gridRow: "time-1200",
+            background: colors.grey.light,
+          }}
         >
-          <p>
-            Lunch
-          </p>
+          <p>Lunch</p>
         </Block>
-                {/* Day 7 */}
-                <DayTitle
-          style={{ gridColumn: "track-7" }}
-        >
+        {/* Day 7 */}
+        <DayTitle style={{ gridColumn: "track-7" }}>
           <h4>Day 7</h4>
         </DayTitle>
         <Block
-          style={{ gridColumn: "track-7", gridRow: "time-0800", background: colors.purple.normal  }}
+          style={{
+            gridColumn: "track-7",
+            gridRow: "time-0800",
+            background: colors.purple.normal,
+          }}
         >
-          <p>
-            Basics of being a mage
-          </p>
+          <p>Basics of being a mage</p>
           <span>Classroom</span>
           <span>Lubin</span>
         </Block>
         <Block
-          style={{ gridColumn: "track-7", gridRow: "time-1200", background: colors.grey.light }}
+          style={{
+            gridColumn: "track-7",
+            gridRow: "time-1200",
+            background: colors.grey.light,
+          }}
         >
-          <p>
-            Lunch
-          </p>
+          <p>Lunch</p>
         </Block>
         <Block
-          style={{ gridColumn: "track-7", gridRow: "time-1300", background: colors.grey.light }}
+          style={{
+            gridColumn: "track-7",
+            gridRow: "time-1300",
+            background: colors.grey.light,
+          }}
         >
-          <p>
-          Relationships and citizenship
-          </p>
-          <span>???</span>
-          <span>???</span>
-        </Block>
-        <Block
-          style={{ gridColumn: "track-7", gridRow: "time-1400", background: colors.red.normal }}
-        >
-          <p>
-            Team work - Dungeons 
-          </p>
+          <p>Relationships and citizenship</p>
           <span>???</span>
           <span>???</span>
         </Block>
         <Block
-          style={{ gridColumn: "track-7", gridRow: "time-1500", background: colors.red.normal }}
+          style={{
+            gridColumn: "track-7",
+            gridRow: "time-1400",
+            background: colors.red.normal,
+          }}
         >
-          <p>
-            Team work - Dungeons 
-          </p>
+          <p>Team work - Dungeons</p>
           <span>???</span>
           <span>???</span>
-        </Block>        <Block
-          style={{ gridColumn: "track-7", gridRow: "time-1600", background: colors.red.normal }}
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-7",
+            gridRow: "time-1500",
+            background: colors.red.normal,
+          }}
         >
-          <p>
-            Team work - Dungeons 
-          </p>
+          <p>Team work - Dungeons</p>
+          <span>???</span>
+          <span>???</span>
+        </Block>{" "}
+        <Block
+          style={{
+            gridColumn: "track-7",
+            gridRow: "time-1600",
+            background: colors.red.normal,
+          }}
+        >
+          <p>Team work - Dungeons</p>
           <span>???</span>
           <span>???</span>
         </Block>
@@ -550,19 +630,19 @@ export function SchoolSchedule() {
 // There can be cross over lessons between branches. Healing and farming both use Herbalism.
 // https://powerlisting.fandom.com/wiki/Magic#Types_of_Magic
 // Lessons other then combat and magic:
-// History, Relationships, Finance, Citizenship, Study Time (Free Period), 
+// History, Relationships, Finance, Citizenship, Study Time (Free Period),
 
 // Magic non-combat:
 // Element class, Mage Class, Charms, Alteration, Mysticism, Necromancy, Conjuration, Restoration, Destruction, Illusion, Shadow Magic, Ancient magic, Love magic, Astronomy,  Mental magic, Broomology, Potions, Divination, Study of Ancient Runes, Transfiguration, Wandlore, Household magic
 
 // Farming:
-// Weather magic, Botany, Herbalism, Animal magic, Magizoology, 
+// Weather magic, Botany, Herbalism, Animal magic, Magizoology,
 
 // Battle Lessons:
 // Group, Battle tactics, Camping, Cooking, Navigating, Dueling/Fighting
 
 // Clubs:
-// 
+//
 const ScheduleWrapper = styled.div`
   display: flex;
   font-size: 0.7em;

@@ -223,7 +223,7 @@ export const spellList = {
   Miasma: {
     note: "Miasma.",
     name: "Miasma",
-    element: "None",
+    element: ["none"],
     image: "",
     negative: true,
     passive: true,
@@ -247,7 +247,7 @@ export const spellList = {
   Player: {
     note: "Not an NPC.",
     name: "Astral soul projection",
-    element: "None",
+    element: ["none"],
     image: "",
     negative: false,
     passive: true,
@@ -257,7 +257,7 @@ export const spellList = {
   Child: {
     note: "Child = 0 - 12.",
     name: "Child",
-    element: "None",
+    element: ["none"],
     image: "",
     negative: false,
     passive: true,
@@ -266,7 +266,7 @@ export const spellList = {
   Youth: {
     note: "Youth = 13-19 yrs.",
     name: "Youth",
-    element: "None",
+    element: ["none"],
     image: "",
     negative: false,
     passive: true,
@@ -282,7 +282,7 @@ export const spellList = {
   Adult: {
     note: "Adult = 20-39 yrs.",
     name: "Adult",
-    element: "None",
+    element: ["none"],
     image: "",
     negative: false,
     passive: true,
@@ -298,7 +298,7 @@ export const spellList = {
   Older: {
     note: "Older = 40-59 yrs.",
     name: "Older",
-    element: "None",
+    element: ["none"],
     image: "",
     negative: true,
     passive: true,
@@ -315,7 +315,7 @@ export const spellList = {
   Aged: {
     note: "Aged = 60+",
     name: "Aged",
-    element: "None",
+    element: ["none"],
     image: "",
     negative: true,
     passive: true,
@@ -537,7 +537,7 @@ export const spellList = {
   },
   "Lightning harvest": {
     name: "Lightning harvest",
-    element: "lightning",
+    element: ["lightning"],
     note: "Harvest the target. [If the target is below 20% HP this attack does 200% more damage. If this target is a 'plant' type this attack does 500% more damage. If this attack kills the target you have a chance to harvest something.]",
     1: "Harvest the target. [If the target is below 20% HP this attack does 200% more damage. If this target is a 'plant' type this attack does 500% more damage. If this attack kills the target you have a chance to harvest something.]",
     2: "Harvest the target. [If the target is below 20% HP this attack does 250% more damage. If this target is a 'plant' type this attack does 600% more damage. If this attack kills the target you have a chance to harvest something.]",
@@ -551,7 +551,7 @@ export const spellList = {
   },
   "Lightning growth": {
     name: "Lightning growth",
-    element: "lightning",
+    element: ["lightning"],
     image:
       "https://cdn.dribbble.com/users/36602/screenshots/3544179/growing-tree-svg-animation-recut.gif",
     1: "Force the target to grow.", // 5% increase stats
@@ -561,7 +561,7 @@ export const spellList = {
   },
   "Lightning germination": {
     name: "Lightning germination",
-    element: "lightning",
+    element: ["lightning"],
     image:
       "https://static.wixstatic.com/media/45e716_c8ae22cc571b4429ac23a59b4ddf9ef0~mv2.gif",
     1: "Stimulate a target into germinating", // 10\10 secs
@@ -577,14 +577,14 @@ export const spellList = {
   },
   "Seeds to Soldiers": {
     name: "Seeds to Soldiers",
-    element: "wood",
+    element: ["wood"],
     note: "Take [x] seed(s), use energy to give life to [x] soldier(s). [x is equal to spell level.]",
     1: "Take 1 seed, use energy to give life to 1 soldier.",
     2: "Take 2 seeds, use energy to give life to 2 soldiers.",
   },
   "Lightning seeds": {
     name: "Lightning seeds",
-    element: "lightning",
+    element: ["lightning"],
     image:
       "http://2.bp.blogspot.com/-k4C_Lq6Y7fw/VDtBXWA2LCI/AAAAAAAABrY/QEUTlVZ76RI/s1600/lightningBall_small.gif",
     note: "Shoots a group of [x] seed(s) in a spread from the user. The seeds attach to opponent(s) and cause lightning damage over time. A part of the damage is used to restore your as mana. [x is equal to spell level.]",
@@ -601,11 +601,13 @@ export const spellList = {
   },
   "Mana Ball": {
     name: "Mana Ball",
+    element: ["mana"],
     1: "Gathers mana into a ball. Gives off a small amount of light.",
     2: "Mana ball create is instant, flight speed +25%.",
     classes: ["mage"],
   },
   "Mana Orbs": {
+    element: ["mana"],
     name: "Mana Orbs",
     1: "(3) Mana balls rotate around the user, hitting anything that comes into contact.",
     2: "Mana balls rotate around the user, 3% faster.",
@@ -621,19 +623,21 @@ export const spellList = {
   },
   Tether: {
     name: "Tether",
+    element: ["mana"],
     1: "Gathers mana into a string shape.",
     2: "Two objects within 10’ of each other be-come linked and cannot be moved more than 10’ apart.",
     classes: ["mage"],
   },
   "Magic Resistance": {
     name: "Magic Resistance",
+    element: ["mana"],
     passive: true,
     1: "Passive: Resists mana foreign to the body, on surface level.",
     classes: ["mage"],
   },
   "Magic Up": {
     name: "Magic Up",
-    element: "mana",
+    element: ["mana"],
     passive: true,
     1: "Increases the intensity of mana in the body.",
     2: "Magic +2",
@@ -679,12 +683,30 @@ export const spellList = {
       },
     ],
   },
+  "Mana Skin": {
+    name: "Mana Skin",
+    element: ["mana"],
+    passive: true,
+    1: "Coat your body in a skin of mana, the effect can vary.",
+    classes: ["mage"],
+    stats: [],
+  },
+  "Mana Puppet": {
+    name: "Mana Puppet",
+    element: ["mana"],
+    passive: true,
+    1: "Control an object with mana.",
+    classes: ["mage"],
+    stats: [],
+  },
   Strike: {
     name: "Strike",
+    element: ["mana"],
     1: "Calls mana in the environment to gather and strike down from above.",
     classes: ["mage"],
   },
   Missile: {
+    element: ["mana"],
     name: "Missile",
     1: "Mana in the shape of a missile shoots towards the target.",
     2: "+1 Missile.",
@@ -699,6 +721,7 @@ export const spellList = {
     classes: ["mage"],
   },
   "Mana Slide": {
+    element: ["mana"],
     name: "Mana Slide",
     1: "Pushes the user forward along the ground.",
     2: "10% cost reduction.",
@@ -712,12 +735,14 @@ export const spellList = {
     classes: ["mage"],
   },
   "Mana Shield": {
+    element: ["mana"],
     name: "Mana Shield",
     1: "Produces a shield of mana around the user.",
     2: "Takes 5% less damage.",
     classes: ["mage"],
   },
   "Mana Wings": {
+    element: ["mana"],
     name: "Mana Wings",
     1: "Produces a wings of mana.",
     2: "Can fly using the wings.",
@@ -732,11 +757,13 @@ export const spellList = {
     classes: ["mage"],
   },
   "Shield Burst": {
+    element: ["mana"],
     name: "Shield Burst",
     1: "Explodes the mana left in the mana shield, into an attack.",
     classes: ["mage"],
   },
   "Magic Regen": {
+    element: ["mana"],
     name: "Magic Regen",
     passive: true,
     1: "Increases mana recovery speed.",
@@ -2409,6 +2436,7 @@ export const spellList = {
   "Magic Arrow": {
     name: "Magic Arrow",
     passive: false,
+    element: ["mana"],
     1: "Shoot an arrow of mana.",
   },
   "Summon Undead": {
@@ -2439,7 +2467,7 @@ export const spellList = {
   },
   Iceball: {
     name: "Iceball",
-    element: "ice",
+    element: ["ice"],
     passive: false,
     1: "Shoots a ball of ice.",
     2: "Shoots a larger ball of ice.",
@@ -3171,77 +3199,92 @@ export const spellList = {
     1: "",
   },
   "Blood Magic": {
+    element: ["blood"],
     name: "Blood Magic",
     passive: false,
     1: "For as long as this mode is active, the caster sacrifices health to power spells instead of expending mana, but effects that heal the blood mage are much less effective than normal.",
   },
   "Blood Sacrifice": {
+    element: ["blood"],
     name: "Blood Sacrifice",
     passive: false,
     1: "The blood mage sucks the life-force from an ally, healing the caster but potentially killing the ally. This healing is not affected by the healing penalty of Blood Magic.",
   },
   "Blood Wound": {
+    element: ["blood"],
     name: "Blood Wound",
     passive: false,
     1: "The blood of all hostile targets in the area boils within their veins, inflicting severe damage. Creatures without blood are immune.",
   },
   "Blood Control": {
+    element: ["blood"],
     name: "Blood Control",
     passive: false,
     1: "The blood mage forcibly controls the target’s blood, making the target an ally of the caster. If the target resists, it still takes great damage from the manipulation of its blood. Creatures without blood are immune.",
   },
   "Blood Dominion": {
+    element: ["blood"],
     name: "Blood Dominion",
     passive: false,
     1: ".",
   },
   "Blood Domination": {
+    element: ["blood"],
     name: "Blood Domination",
     passive: false,
     1: ".",
   },
   "Vampire Eyes": {
+    element: ["blood"],
     name: "Vampire Eyes",
     passive: true,
     1: "A skill possessed by all vampires, their blood lust (Health) is shown by the color of their eyes.",
   },
   "Blood Hardening": {
+    element: ["blood"],
     name: "Blood Hardening",
     passive: false,
     1: "A form of Blood control. Blood thickens and becomes more impervious to damage, and becomes like Armor. Reduce the amount of damage taken in an attack and able to be moved around the body freely to varying degrees base on mastery of control.",
   },
   "Blood Swipe": {
+    element: ["blood"],
     name: "Blood Swipe",
     passive: false,
     1: "A skill that will fire out a red line of energy from the user's hands in the shape of a claw. To use the skill the user must use their own blood causing -1 HP per Blood swipe.",
   },
   "Blood Expand": {
+    element: ["blood"],
     name: "Blood Expand",
     passive: false,
     1: "A skill that vampires don't normally use. After firing off the blood bullet, use an immense amount of control to force the shot to remain inside the victim. It had entered a part of their body but never left it.  The blood bullet was a condensed form of aura, and through blood control, one was able to make the blood bullet inside the victims body expand and go wild. Destroying a part of a victim from the inside out.",
   },
   "Blood Barrage": {
+    element: ["blood"],
     name: "Blood Barrage",
     passive: false,
     1: "",
   },
   "Blood Bullet": {
+    element: ["blood"],
     name: "Blood Bullet",
     passive: false,
     1: "One fifth of the user's health will be used to create a powerful shot of blood from a finger. The finger will no longer be able to be used until the blood has been replenished.",
     3: "One fifth of the user's current health will be used to create a powerful shot of blood from a finger. Blood bullet is no longer available on the used finger for twenty-four hours regardless if the fingers were healed.",
   },
   "Blood Bank": {
+    element: ["blood"],
     name: "Blood Bank",
     passive: false,
     1: "will allow user to store up to a 300 milliliters of blood in user reserve. The blood bank will automatically be used to heal the user if HP drops below 5 unless suppressed. Every 10 milliliters of blood will be used to restore 5 HP of the user. User may also use that blood bank to consume blood at any time for his own personal pleasure. Consuming 100 milliliters of blood gives the quickest and most efficient results when healing completely.",
   },
   "Blood Wall": {
+    element: ["blood"],
     name: "Blood Wall",
     passive: false,
     1: "A barrier is raised in front of the user, using the user's own blood. The wall's strength is dependent on how much blood is being used.",
   },
   "Blood Spray": {
+    element: ["blood"],
     name: "Blood Spray",
     passive: false,
     1: "The user's palm must be open to perform this skill. From the user's palm, a spray of blood pellets will be released spreading out covering a wide range, The closer the attack is to its target the more damage it will do. Cost -5 HP. Blood spray can be used on multiple targets, but lacks penetration ability, therefore, expressed in the combination skill: Blood Hammer.",
@@ -3252,16 +3295,19 @@ export const spellList = {
     1: "Power fist skill of short burst attack. It was an attack that focused on the inside, an internal attack, the perfect counter to those with abilities who hardened or transformed their bodies.",
   },
   "Blood Hammer": {
+    element: ["blood"],
     name: "Blood Hammer",
     passive: false,
     1: "Blood Hammer is a combination skill of Blood Spray and Hammer Strike.",
   },
   "Blood Hammer Drill": {
+    element: ["blood"],
     name: "Blood Hammer Drill",
     passive: false,
     1: "Blood Hammer Drill is a combination skill of Blood Spray, Hammer Strike, and blood control. While preforming the hammer strike and using blood control to rotate a blood spray like a drill to penetrate an opponent.",
   },
   "Blood Crescent Kick": {
+    element: ["blood"],
     name: "Blood Crescent Kick",
     passive: false,
     1: "When using the skill while performing different types of kicks. A red line of blood aura in the shape of a crescent will be made. The attack carries a distance of ten meters but the aura will get smaller and weaker the further it travels. Costs 2 HP for every kick.",
@@ -3297,6 +3343,7 @@ export const spellList = {
     1: "Depending on the user's charisma points and the mental strength of the opponent. The user is able to influence the person or creature to do their bidding. This includes things such as, memory loss, information extraction and so on. This skill require direct eye contact with the target.",
   },
   "Blood Ritual": {
+    element: ["blood"],
     name: "Blood Ritual",
     passive: false,
     1: "It is ritual skill which would allow a Vampire to turn another person into a Vampire, this is called a Blooded. Cap 1.",
@@ -3406,81 +3453,97 @@ export const spellList = {
     1: "No points can be spent on this passive. As it levels up the user becomes closer to becoming a vampire lord.",
   },
   "Blood Flow Acceleration": {
+    element: ["blood"],
     name: "Blood Flow Acceleration",
     passive: false,
     1: "Accelerates the blood flow around the casters body. Increases repair of damaged muscle fibres and cells, helps to decrease swelling, reduce pain and increase healing.",
   },
   "Blood Retribution": {
+    element: ["blood"],
     name: "Blood Retribution",
     passive: false,
     1: ".",
   },
   "Poisonous Blood": {
+    element: ["blood", 'poison'],
     name: "Poisonous Blood",
     passive: true,
     1: "Your blood is now poison to others.",
   },
   "Blood Curse": {
+    element: ["blood"],
     name: "Blood Curse",
     passive: false,
     1: ".",
   },
   "Blood Armor": {
+    element: ["blood"],
     name: "Blood Armor",
     passive: false,
     1: "Cover your body in blood to reduce damage.",
   },
   "Blood Potion": {
+    element: ["blood"],
     name: "Blood Potion",
     passive: false,
     1: "Your blood can be used as a potion on others.",
   },
   "Blood Combustion": {
+    element: ["blood"],
     name: "Blood Combustion",
     passive: false,
     1: "Rapidly expands your own blood.",
   },
   "Blood Manipulation": {
+    element: ["blood"],
     name: "Blood Manipulation",
     passive: false,
     1: "An advanced blood control.",
   },
   "Blood Projectiles": {
+    element: ["blood"],
     name: "Blood Projectiles",
     passive: false,
     1: "Shoot blood like javelins, uses the blood around you.",
   },
   "Blood Pact": {
+    element: ["blood"],
     name: "Blood Pact",
     passive: false,
     1: "When agreed to both parties must stick to the pact or face their own blood rejecting them.",
   },
   "Blood Servant": {
+    element: ["blood"],
     name: "Blood Servant",
     passive: false,
     1: "Make a servant creature out of blood.",
   },
   "Blood Storage": {
+    element: ["blood"],
     name: "Blood Storage",
     passive: false,
     1: ".",
   },
   "Blood Frenzy": {
+    element: ["blood"],
     name: "Blood Frenzy",
     passive: false,
     1: "You will fall into a frenzied state until you consume enough blood to be satisfied, all stats increase during this time.",
   },
   "Blood Soul": {
+    element: ["blood"],
     name: "Blood Soul",
     passive: true,
     1: "Your soul is stained with the blood of your victims.",
   },
   "Blood Weapon Creation": {
+    element: ["blood"],
     name: "Blood Weapon Creation",
     passive: false,
     1: "Creates a weapon from the blood.",
   },
   "Blood Mist": {
+    element: ["blood"],
     name: "Blood Mist",
     passive: false,
     1: "The caster bursts into a mist of their own blood reducing damage taken by spreading them selves over a larger area.",
@@ -3497,7 +3560,7 @@ export const spellList = {
   },
   "Fire Cyclone": {
     name: "Fire Cyclone",
-    element: "fire",
+    element: ["fire"],
     image:
       "https://i.pinimg.com/originals/10/9c/fd/109cfdb1f2c6b96cd5d99486753cecd0.gif",
     negative: false,
@@ -3506,7 +3569,7 @@ export const spellList = {
   },
   "Fire Wrap": {
     name: "Fire Wrap",
-    element: "fire",
+    element: ["fire"],
     image: "",
     negative: false,
     passive: false,
@@ -3514,7 +3577,7 @@ export const spellList = {
   },
   "Fire Mine": {
     name: "Fire Mine",
-    element: "fire",
+    element: ["fire"],
     image:
       "https://static.wikia.nocookie.net/elderscrolls/images/8/87/SKRMFire_Rune.png",
     negative: false,
@@ -3523,7 +3586,7 @@ export const spellList = {
   },
   "Fallen Paladin": {
     name: "Fallen Paladin",
-    element: "",
+    element: [""],
     image: "",
     negative: true,
     passive: true,
@@ -3531,7 +3594,7 @@ export const spellList = {
   },
   "Berserkergang": {
     name: "Berserkergang",
-    element: "",
+    element: [""],
     image: "",
     negative: false,
     passive: true,
@@ -3539,7 +3602,7 @@ export const spellList = {
   },
   "Vampiric frenzy": {
     name: "Vampiric frenzy",
-    element: "",
+    element: [""],
     image: "",
     negative: false,
     passive: true,
@@ -3547,7 +3610,7 @@ export const spellList = {
   },
   "Rebirth Flame": {
     name: "Rebirth Flame",
-    element: "fire",
+    element: ["fire"],
     image: "https://images.squarespace-cdn.com/content/v1/57d34a6d725e254062172fe9/1579643445519-XXWBWFTZIZ23TNWBECJI/thumbnail_phoenix+rising.jpg",
     negative: false,
     passive: true,
@@ -3555,13 +3618,14 @@ export const spellList = {
   },
   "Birthed In Flame": {
     name: "Birthed In Flame",
-    element: "fire",
+    element: ["fire"],
     image: "https://images.squarespace-cdn.com/content/v1/57d34a6d725e254062172fe9/1579643445519-XXWBWFTZIZ23TNWBECJI/thumbnail_phoenix+rising.jpg",
     negative: false,
     passive: true,
     1: "A body birthed in flames holders stronger affinity with fire, +5% increase to all fire related abilities.",
   },
   // Phoenix Flame
+  // https://en.uesp.net/wiki/Oblivion:Spells
 };
 
 export function InlineSpell({ spellName, level }) {

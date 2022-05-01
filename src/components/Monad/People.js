@@ -346,6 +346,7 @@ export function Kaja(Chapter) {
   }
 }
 export function Tsuma(Chapter) {
+  // https://en.uesp.net/wiki/Oblivion:Spells
   if (Chapter) {
     return (
       <Stats
