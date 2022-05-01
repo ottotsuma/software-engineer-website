@@ -352,13 +352,13 @@ export function Tsuma(Chapter) {
         type={"description"}
         stats={{
           name: "Tsuma",
-          level: 10,
-          class: "mage",
+          level: 20,
+          class: "Mage",
           species: "human",
           spells: 0,
           passives: 0,
-          "spell points": 10, // from class 1 per level (normal/rare/epic/legendary)
-          "stat points": 22, // from species 2 per level // 1 per every 10 levels
+          "spell points": 0, // from class 1 per level (normal/rare/epic/legendary)
+          "stat points": 0, // from species 2 per level // 1 per every 10 levels
           vitality: 0,
           strength: 0,
           endurance: 0,
@@ -370,7 +370,7 @@ export function Tsuma(Chapter) {
         }}
         // Makes skills an object of skill types 'human' 'mage' and they be the arrays.
         // Do the same thing for equipment and titles?
-        showTitles={false} // currently does nothing
+        hideTitle={true} // currently does nothing
         equippedTitle="Princess"
         titles={["Back to School", "Apprentice", "Princess"]}
         showSkills={true}
@@ -388,12 +388,10 @@ export function Tsuma(Chapter) {
             // { name: "Magic Enthusiast", level: 2 },
           ],
           mage: [
-            // { name: "Mana Ball", level: 1 },
-            // { name: "Fireball", level: 2 },
-            // { name: "Fire Wrap", level: 1 },
-            // { name: "Fire Mine", level: 1 },
-            // { name: "Magic Up", level: 2 },
-            // { name: "Magic Regen", level: 1 },
+            { name: "Mana Ball", level: 1 },
+            { name: "Fireball", level: 2 },
+            { name: "Magic Up", level: 2 },
+            { name: "Magic Regen", level: 2 },
             // Mana Ball, Magic Regen, Shield Burst, Mana Wings, Mana Shield, Mana Slide, Missile, Strike, Magic Up, Magic Resistance, Tether, Mana Orbs
           ],
           conditions: [
@@ -874,7 +872,6 @@ export function Hitori(Chapter) {
     );
   }
 }
-
 export function Linhart() {
   return (
     <div>

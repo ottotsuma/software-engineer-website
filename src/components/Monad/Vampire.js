@@ -9,10 +9,15 @@ import {ListofMagicTypes} from './../elements/spells'
 import {colors, monadColors, textColors} from './../elements/colors'
 
 export default function Vampire() {
+  const array =[]
+  for (let index = 0; index < ListofMagicTypes.length; index++) {
+    const element = ListofMagicTypes[index];
+    array.push(<div>{element}</div>)
+  }
   return (
     <div style={{ color: "black" }}>
+      {array}
       <SchoolSchedule />
-      {ListofMagicTypes}
       <h1>Blood Skills for any blood ability user:</h1>
       <Spells
         spells={[

@@ -783,7 +783,15 @@ export const ItemList = {
     note: "seifuku (制服). The sailor fuku (セーラー服, sērā fuku) (lit. 'sailor outfit') is a common style of uniform worn by female middle school students, traditionally by high school students.",
     type: "armor",
   },
-  "": {
+  "Niyosho Kimono": {
+    name: "Niyosho Kimono",
+    description: "A kimono made in Niyosho.",
+    rating: "junk",
+    stats: {},
+    note: "",
+    type: "armor",
+  },
+  "Autumn Cloak": {
     name: "Autumn Cloak",
     description: "Once a day you can cause the leaves on this cloak to swirl around you, obscuring you from sight for one minute.",
     rating: "rare",

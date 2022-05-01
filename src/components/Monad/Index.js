@@ -45,7 +45,7 @@ import Chapter40 from "./Ch40-War";
 import Chapter41 from "./Ch41-Graduate";
 import { textColors } from "./../elements/colors";
 // import SpellsPage from "./SpellsPage";
-import Otto from "./People"; // check this still works
+import Otto, {Tsuma} from "./People"; // check this still works
 import SeaPeopleFunction from "./SeaPeople";
 import HitoriStoryFunction from "./Hitori"; // 9 
 import Vampire from "./Vampire";
@@ -128,6 +128,7 @@ const ChapterList = [
   <HitoriStoryFunction Chapter={1} />,
   <HitoriStoryFunction Chapter={2} />,
   <Vampire />,
+  <Tsuma />
   // <SpellsPage />,
 ];
 

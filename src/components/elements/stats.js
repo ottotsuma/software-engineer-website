@@ -291,7 +291,8 @@ function Stats({
   showTitles,
   items,
   showItems,
-  removeHPMP
+  removeHPMP,
+  hideTitle,
 }) {
   const array = [];
   const baseStats = stats;
@@ -618,12 +619,14 @@ function Stats({
           </Inline>
         </Wrap>
       );
-      array.push(
-        <SingleStat key={index + "stat"}>
-          {titleElement}
-          {!!type && <Span>{TitleSpan}</Span>}
-        </SingleStat>
-      );
+      if(!hideTitle) {
+        array.push(
+          <SingleStat key={index + "stat"}>
+            {titleElement}
+            {!!type && <Span>{TitleSpan}</Span>}
+          </SingleStat>
+        );
+      }
     } else if (keys[index] === "rank") {
         const rankElement = (
           <Wrap>
