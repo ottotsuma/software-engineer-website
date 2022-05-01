@@ -11,6 +11,7 @@ import {colors, monadColors, textColors} from './../elements/colors'
 export default function Vampire() {
   return (
     <div style={{ color: "black" }}>
+      <SchoolSchedule />
       <h1>Blood Skills for any blood ability user:</h1>
       <Spells
         spells={[
@@ -229,6 +230,65 @@ export function SchoolSchedule() {
           <span>Classroom</span>
           <span>Edgar</span>
         </Block>
+        <Block
+          style={{ gridColumn: "track-1", gridRow: "time-1000", background: colors.grey.light }}
+        >
+          <p>
+            Practice Period
+          </p>
+        </Block>
+        <Block
+          style={{ gridColumn: "track-1", gridRow: "time-1100", background: colors.red.normal }}
+        >
+          <p>
+            Dueling
+          </p>
+          <span>???</span>
+          <span>???</span>
+        </Block>
+        <Block
+          style={{ gridColumn: "track-1", gridRow: "time-1200", background: colors.grey.light }}
+        >
+          <p>
+            Lunch
+          </p>
+        </Block>
+        <Block
+          style={{ gridColumn: "track-1", gridRow: "time-1300", background: colors.white.off }}
+        >
+          <p>
+            Battle tactics & formations
+          </p>
+          <span>???</span>
+          <span>???</span>
+        </Block>
+        <Block
+          style={{ gridColumn: "track-1", gridRow: "time-1400", background: colors.white.off }}
+        >
+          <p>
+            Battle tactics & formations
+          </p>
+          <span>???</span>
+          <span>???</span>
+        </Block>
+        <Block
+          style={{ gridColumn: "track-1", gridRow: "time-1500", background: colors.grey.light }}
+        >
+          <p>
+            Option 1
+          </p>
+          <span>???</span>
+          <span>???</span>
+        </Block>
+        <Block
+          style={{ gridColumn: "track-1", gridRow: "time-1600", background: colors.grey.light }}
+        >
+          <p>
+            Option 2
+          </p>
+          <span>???</span>
+          <span>???</span>
+        </Block>
         {/* Day 2 */}
         <DayTitle
           style={{ gridColumn: "track-2" }}
@@ -271,8 +331,8 @@ export function SchoolSchedule() {
 }
 
 // 56 lessons. 
-// -4 Basic Mage
-// -7 Element class
+// -4 Basic Mage, a double lesson?
+// -7 Element class, maybe double lessons.
 // -1 History
 // -1 Finance
 // -1 Relationships and citizenship
@@ -301,6 +361,10 @@ export function SchoolSchedule() {
 const ScheduleWrapper = styled.div`
   display: flex;
   font-size: 0.7em;
+  background-image: url("https://img.freepik.com/free-photo/crumpled-paper-background_1373-412.jpg?size=626&ext=jpg&ga=GA1.2.1745401800.1611187200");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5px;
 `;
 const ScheduleDay = styled.div`
   display: grid;

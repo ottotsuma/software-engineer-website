@@ -215,8 +215,8 @@ function Lessons(props) {
             was the safest and fastest way to level up and how most people were
             able to progress even up to level 20 or more without ever fighting.
           </p>
-          {/* Maybe add a schedule in here so they don't spend their time wandering the school. */}
-          <SchoolSchedule />
+          {/* Maybe add a schedule in here so they don't spend their time wandering the school. The first week is unusual to give a day of half a day in each of their active lessons. */}
+            {/* <SchoolSchedule /> */}
           <p>
             Shortly after the class was dismissed, I went to the library along
             with many of the other students from my class, alongside other first
