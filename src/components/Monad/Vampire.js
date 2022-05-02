@@ -691,25 +691,52 @@ export function SchoolSchedule() {
     </ScheduleWrapper>
   );
 }
-// Theoretical Thaumodynamics and the Laws of Conservation of Magic.
-// Topologies of Summoning Circles.
-// Cosmologies of Extraplanar Realms in Relation to the Multiverse.
-// Geology of Ley Lines.
-// Arcane Ethics
-// -Biology
 
-// -Physics
-// -Chemistry
-// -Geology
-// -Botany
-// -Zoology
-// -Magic Theory - Understanding of magic particles and how their interaction with electromagnetic radiation, and the composition of spells.
+export const LessonOptions = {
+  Thaumodynamics: {
+    notes: 'Theoretical  and the Laws of Conservation of Magic.'
+  },
+  "Summoning Realms": {
+    notes: 'Topologies of Summoning Circles.'
+  },
+  "Arcane Ethics": {
+    notes: '',
+  },
+  "Biology" : {
+    notes: 'Biology of Humans.',
+  },
+  "Physics" : {
+    notes: '',
+  },
+  "Chemistry" : {
+    notes: '',
+  },
+  "Geology" : {
+    notes: '',
+  },
+  "Botany" : {
+    notes: '',
+  },
+  "Zoology" : {
+    notes: '',
+  },
+  "Magic Theory" : {
+    notes: 'Understanding of magic particles and how their interaction with electromagnetic radiation, and the composition of spells.',
+  },
+  "Quantum Physics" : {
+    notes: 'Understanding the function of subatomic particles, with an emphasis on magical particles.',
+  },
+  "Faux Physics" : {
+    notes: 'Interaction of magical particles and naturally occuring energy',
+  },
+  "Faux Chemistry" : {
+    notes: 'Interaction of magical particles and naturally occuring matter',
+  },
+  "Alchemy" : {
+    notes: 'This course covers the distillation of magical ingredients into components to create draughts that produce the desired effects. A hands-on course that will be evaluated based on the efficacy of your potion.',
+  },
+}
 
-// -Quantum Physics - Understanding the function of subatomic particles, with an emphasis on magical particles.
-// -Faux Physics - Interaction of magical particles and naturally occuring energy
-// -Faux Chemistry - Interaction of magical particles and naturally occuring matter
-
-// Alchemy: This course covers the distillation of magical ingredients into components to create draughts that produce the desired effects. A hands-on course that will be evaluated based on the efficacy of your potion.
 // Crafting: A hands-on class in the artificery lab where students will explore the magical properties of various metals, crystals, and other components, and create unique magical artifacts to (hopefully!) achieve the desired effect. Includes recent advances in technomancy and the interference of mundane technology with magical energies.
 // Cryptozoology: a study into the unique magical creatures and their preferred habitats as well as the unique properties of magical creatures and their unusual adaptations.
 // Divination & Arithmancy: A study of sensory perception through various types of divination such as palmistry, phrenology, astrology, tarot, using a scrying orb, tea reading, geomancy, and dowsing. Also delves into the power of math and numbers to determine meaning and divine past and future events.

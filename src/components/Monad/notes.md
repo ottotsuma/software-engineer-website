@@ -2,6 +2,7 @@ https://guides.github.com/features/mastering-markdown/
 
 Re-Write all early story to have 1 - 9 being mage, no element and at level 10 you find out your element so they can change class like the rogue and fighter. Chapter 13 and earlier.
 # Random Ideas:
+Topologies
 Lessons other then combat and magic:
 History, Relationships, Finance, Citizenship, 
 Battle Lessons:
