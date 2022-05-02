@@ -211,6 +211,18 @@ export const spellList = {
     1: "Reduces all stats by 1%.",
     90: "Reduces all stats by 90%.",
     stats: {
+      1: {
+        strengthMultiplier: -0.01,
+        vitalityMultiplier: -0.01,
+        magicMultiplier: -0.01,
+        dexterityMultiplier: -0.01,
+        senseMultiplier: -0.01,
+        enduranceMultiplier: -0.01,
+        willpowerMultiplier: -0.01,
+        HPMultiplier: -0.01,
+        MPMultiplier: -0.01,
+        // level: '*0.99'
+      },
       90: {
         strengthMultiplier: -0.9,
         vitalityMultiplier: -0.9,
@@ -2624,8 +2636,9 @@ export const spellList = {
   Fireball: {
     name: "Fireball",
     passive: false,
+    species:[],
+    classes:['Mage'],
     element: ['fire'],
-
     1: "Shoots a ball of fire directly in front of you.",
     2: "Shoots a ball of fire directly in front of you.",
   },
