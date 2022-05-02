@@ -25,7 +25,6 @@ export function Mage() {
       <ElementalButton color={monadColors[MageTypes[index]]} key={MageTypes[index] + 'button'} onClick={() => SetType(MageTypes[index])}>{MageTypes[index]}</ElementalButton>
     )
   }
-
   return (
     <Wrap>
       <h4>Types of Mages:</h4>
