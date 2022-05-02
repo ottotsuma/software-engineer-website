@@ -320,6 +320,7 @@ function Intro(props) {
       </p>
       <div className="BreakPoint" />
       <Otto></Otto>
+      {/* Reason basic classes like mages are useful, their elements can combine to make better spells, Wind + Water + Lightning = Storm, Earth + Fire for lava. This is why gaining 2 elements later on is so good. */}
       <SeaPeopleFunction Chapter={7} />
     </Content>
   );

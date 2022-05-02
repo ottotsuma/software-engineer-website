@@ -853,6 +853,8 @@ const ScheduleWrapper = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   padding: 5px;
+  
+  color: black;
 `;
 const ScheduleDay = styled.div`
   display: grid;
@@ -889,7 +891,6 @@ const Block = styled.div`
   justify-content: center;
   flex-direction: column;
   border: 1px solid black;
-  color: black;
 `;
 const DayTitle = styled.div`
   align-items: center;

@@ -315,26 +315,36 @@ export const spellList = {
   "Sharp Slash": {
     note: "Rogue",
     name: "Sharp Slash",
+    element: ["none"],
+    image: "",
     1: "Deals 20% more damage from the side and behind.",
   },
   "Slashing Edge": {
     note: "Rogue",
     name: "Slashing Edge",
+    element: ["none"],
+    image: "",
     1: "Deals 20% more damage from behind, 20% more damage if used after 'Sharp Slash'.",
   },
   "Devious Slice": {
     note: "Rogue",
     name: "Devious Slice",
+    element: ["none"],
+    image: "",
     1: "Deals 20% more damage from the side, 20% more damage if used after 'Slashing Edge'.",
   },
   Headbutt: {
     note: "Rogue",
     name: "Headbutt",
+    element: ["none"],
+    image: "",
     1: "Has a chance to stun the target. Recoil damage.",
   },
   "Fleet of Foot": {
     note: "Rogue",
     name: "Fleet of Foot",
+    element: ["wind"],
+    image: "",
     1: "Increases movement speed.",
   },
   "Charged Charge": {
