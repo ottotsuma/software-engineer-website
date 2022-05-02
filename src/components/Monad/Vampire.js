@@ -708,6 +708,7 @@ export const SchoolClubs = {
   // Construction. Cooking, Crafting, Divination, Farming, Fishing, Archery, Hunting, Potions
   //  Charms, Alteration, Mysticism, Necromancy, Conjuration, Restoration, Illusion, Shadow Magic, Ancient magic, Love magic, Astronomy,  Mental magic, Broomology, Divination, Study of Ancient Runes, Transfiguration, Wandlore, Household magic
   // Farming: - Weather magic, Botany, Herbalism, Animal magic, Magizoology,
+  // Reading, Foreign Language, Improv, Acting, Writing, Dance, Book, Pottery
 }
 export const LessonOptions = {
   "Enchanting" : {
