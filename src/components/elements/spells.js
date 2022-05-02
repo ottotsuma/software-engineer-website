@@ -2840,27 +2840,27 @@ export const spellList = {
   "Delay Teleportation": {
     name: "Delay Teleportation",
     passive: false,
-    1: "",
+    1: "A spell that can briefly hinder teleportation effects that has their destination near the caster, buying them several seconds of time, which the caster will typically use to flee or prepare an attack. In addition, the spell also informs the caster of how many beings will be teleporting into their vicinity.",
   },
   "Detect Magic": {
     name: "Detect Magic",
     passive: false,
-    1: "",
+    1: "The spell is used to detect magical traps or magic items that are hidden in the midst of the user's presence.",
   },
   "Discern Enemy": {
     name: "Discern Enemy",
     passive: false,
-    1: "",
+    1: "This spell allows the user to identify the enemy's estimated level.",
   },
   "Distant Vision": {
     name: "Distant Vision",
     passive: false,
-    1: "",
+    1: "A spell that displays what it sees on a flat, magical screen. The screen can also be expanded or shrunken at will.",
   },
   Dominate: {
     name: "Dominate",
     passive: false,
-    1: "",
+    1: "When used on a living being, a dominee cannot lie to their dominator. It is a stronger spell than [Charm Person] as it can manipulate a person according to the magic caster’s will.",
   },
   "Draconic Power": {
     name: "Draconic Power",
@@ -2885,12 +2885,12 @@ export const spellList = {
   "False Data: Life": {
     name: "False Data: Life",
     passive: false,
-    1: "",
+    1: "It gives the user the ability to fake his/her HP.",
   },
   "False Data: Mana": {
     name: "False Data: Mana",
     passive: false,
-    1: "",
+    1: "Gives the user the ability to fake his/her MP.",
   },
   "Field of Force": {
     name: "Field of Force",
@@ -2912,12 +2912,12 @@ export const spellList = {
 
     name: "Gate",
     passive: false,
-    1: "",
+    1: "Summons a portal, allowing travel of a large number of people over great distances. It has no limits on distance and a 0% chance of teleport mishaps. It is considered to be the highest tier of teleportation magic.",
   },
   "Gravity Maelstrom": {
     name: "Gravity Maelstrom",
     passive: false,
-    1: "",
+    1: "A spiraling black ball of gravity.",
   },
   "Break Item": {
     name: "Break Item",
@@ -2987,7 +2987,7 @@ export const spellList = {
   "Hold of Ribs": {
     name: "Hold of Ribs",
     passive: false,
-    1: "",
+    1: "A spell that restricts a target's movement with bones and can deeply piece it through their flesh.",
   },
   Indomitability: {
     name: "Indomitability",
@@ -3000,9 +3000,10 @@ export const spellList = {
     1: "",
   },
   "Life Essence": {
+    // https://overlordmaruyama.fandom.com/wiki/Ainz_Ooal_Gown/Abilities_and_Powers#:~:text=Hold%20of%20Ribs%3A%20A%20spell,piece%20it%20through%20their%20flesh.&text=Life%20Essence%3A%20Allows%20the%20caster,health%20values%20of%20an%20enemy.
     name: "Life Essence",
     passive: false,
-    1: "",
+    1: "Allows the caster to view the health values of an enemy.",
   },
   "Magic Boost": {
     name: "Magic Boost",
@@ -3028,7 +3029,7 @@ export const spellList = {
     element: ['mana'],
 
     passive: false,
-    1: "",
+    1: "Identifies MP of the target.",
   },
   "Mantle of Chaos": {
     name: "Mantle of Chaos",
@@ -3043,12 +3044,12 @@ export const spellList = {
   "Mass fly": {
     name: "Mass fly",
     passive: false,
-    1: "",
+    1: "Gives a group of people the ability to fly.",
   },
   "Mass Hold Species": {
     name: "Mass Hold Species",
     passive: false,
-    1: "",
+    1: "Constricts a large number of creatures, rendering them unable to move.",
   },
   "Nuclear Mine": {
     name: "Nuclear Mine",
@@ -3058,17 +3059,17 @@ export const spellList = {
   "Obsidian Sword": {
     name: "Obsidian Sword",
     passive: false,
-    1: "",
+    1: `Creates a large obsidian sword that will lock on to a target and hone in like a missile. It is incredibly difficult to destroy a sword made of magic with a physical attack. By using "Triple Maximize Magic," The Obsidian Sword constructs can only be utilized as an offensive tool and cannot be used to defend oneself. This was because the obsidian swords suffered from a massive loss of durability if used to receive the brunt of an opponent’s attack. If used defensively, the swords’ durability would rapidly diminish until they shatter.`,
   },
   Paralysis: {
     name: "Paralysis",
     passive: false,
-    1: "",
+    1: "Causes paralysis in the target, limiting or preventing them from using physical movement, though slight physical functions are still possible, such as turning their head or speaking.",
   },
   "Paranormal Intuition": {
     name: "Paranormal Intuition",
     passive: false,
-    1: "",
+    1: ``,
   },
   "Penetrate Up": {
     name: "Penetrate Up",
@@ -3078,12 +3079,12 @@ export const spellList = {
   "Perfect Warrior": {
     name: "Perfect Warrior",
     passive: false,
-    1: "",
+    1: `The spell allows user to convert his magic caster levels into an equivalent number of warrior levels. By using that spell, he can temporarily become a half-baked level 100 warrior. It also carries the benefit of being able to use certain pieces of arms and armor that will normally require specific job classes to access without penalty. This includes freely utilizing any weapons and its abilities, which is seen during his fight with Shalltear. However, there are many drawbacks to that spell. The first weakness is that he cannot cast other spells while the magic is in effect. In addition, he will not gain any special warrior skills from the spell, and his recalculated ability scores will be lower than an actual warrior. Secondly, sustaining the transformation spell and other magic will both lower his mana and mana recovery rates to zero. This form is enough when matching blades with second-rate combatants like priests and the like, but he will stand no chance of winning against an opponent who is a dedicated warrior.`,
   },
   "Ray of Negative Energy": {
     name: "Ray of Negative Energy",
     passive: false,
-    1: "",
+    1: "It is an offensive-type spell that brings forth a ray of negative energy to damage the living. However, against non-living beings, it will heal them instead.",
   },
   "Remote Viewing": {
     name: "Remote Viewing",
@@ -3844,7 +3845,7 @@ function Spells({ spells, type }) {
     }
   }
   //  IF classList contains Type then it's a class skill
-  
+
   function getTitle(type) {
     switch (type) {
       case "mage":

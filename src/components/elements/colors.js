@@ -113,11 +113,10 @@ export const monadColors = {
   time: "#592720",
   gravity: "#454A53",
   portal: "#8C06B1",
-  spirit: "#F36097",
+  spirit: "",
   blood: "#880808",
   none: "",
 };
-
 export const textColors = {
   blue: "#0d89eb",
   lightBlue: "#2CA8FF",
