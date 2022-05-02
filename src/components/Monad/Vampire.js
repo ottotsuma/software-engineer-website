@@ -59,9 +59,14 @@ export default function Vampire() {
     array.push(<div key={element + [index]}>{element}</div>);
   }
   return (
-    <div style={{ color: "black" }}>
+    <div>
       <Mage />
       <SchoolSchedule />
+      <h4>Clubs</h4>
+      {Object.keys(SchoolClubs)}
+      <h4>Lesson Options</h4>
+      {Object.keys(LessonOptions)}
+      <h4>Magic Types</h4>
       {array}
       <h1>Blood Skills for any blood ability user:</h1>
       <Spells
