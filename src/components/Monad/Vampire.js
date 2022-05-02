@@ -6,143 +6,206 @@ import Stats from "./../elements/stats";
 import Spells, { spellList } from "./../elements/spells";
 import { ListofMagicTypes } from "./../elements/spells";
 import { colors, monadColors, textColors } from "./../elements/colors";
-import { _try } from './../elements/util'
-import { racesList } from './../elements/species'
-import { classList } from './../elements/classes'
+import { _try } from "./../elements/util";
+import { racesList } from "./../elements/species";
+import { classList } from "./../elements/classes";
 
-export const MageTypes = ['mana', 'fire', 'metal', 'plant', 'water', 'earth', 'lightning', 'ice', 'wind', 'shadow', 'light', 'sound', 'poison', 'time', 'gravity', 'portal', 'spirit', 'blood', 'beast', 'none']
-
+export const MageTypes = [
+  "mana",
+  "fire",
+  "metal",
+  "plant",
+  "water",
+  "earth",
+  "lightning",
+  "ice",
+  "wind",
+  "shadow",
+  "light",
+  "sound",
+  "poison",
+  "time",
+  "gravity",
+  "portal",
+  "spirit",
+  "blood",
+  "beast",
+  "none",
+];
 
 export function Mage() {
-  const [chosenElement, SetChosenElement] = React.useState('')
-  const [chosenClass, SetChosenClass] = React.useState('')
-  const [chosenSpecies, SetChosenSpecies] = React.useState('')
-  const [shownSpells, SetShownSpells] = React.useState([])
-  const [elementalsArray, SetElementalsArray] = React.useState([])
-  const [classesArray, SetClassesArray] = React.useState([])
-  const [speciesArray, SetSpeciesArray] = React.useState([])
-  const entries = Object.entries(spellList)
+  const [chosenElement, SetChosenElement] = React.useState("");
+  const [chosenClass, SetChosenClass] = React.useState("");
+  const [chosenSpecies, SetChosenSpecies] = React.useState("");
+  const [shownSpells, SetShownSpells] = React.useState([]);
+  const [elementalsArray, SetElementalsArray] = React.useState([]);
+  const [classesArray, SetClassesArray] = React.useState([]);
+  const [speciesArray, SetSpeciesArray] = React.useState([]);
+  const entries = Object.entries(spellList);
 
   React.useEffect(() => {
-    const ElementTypesArray = []
-    const ClassButtonsArray = []
-    const SpeciesButtonsArray = []
+    const ElementTypesArray = [];
+    const ClassButtonsArray = [];
+    const SpeciesButtonsArray = [];
     // List out all the buttons of MageTypes
     ElementTypesArray.push(
-      <ElementalButton selected={chosenElement === ''} key={'Reset Element'} onClick={() => SetChosenElement('')}>Reset Element</ElementalButton>
-    )
+      <ElementalButton
+        selected={chosenElement === ""}
+        key={"Reset Element"}
+        onClick={() => SetChosenElement("")}
+      >
+        Reset Element
+      </ElementalButton>
+    );
     for (let index = 0; index < MageTypes.length; index++) {
       ElementTypesArray.push(
-        <ElementalButton selected={chosenElement === MageTypes[index]} color={monadColors[MageTypes[index]]} key={MageTypes[index] + 'button'} onClick={() => SetChosenElement(MageTypes[index])}>{MageTypes[index]}</ElementalButton>
-      )
+        <ElementalButton
+          selected={chosenElement === MageTypes[index]}
+          color={monadColors[MageTypes[index]]}
+          key={MageTypes[index] + "button"}
+          onClick={() => SetChosenElement(MageTypes[index])}
+        >
+          {MageTypes[index]}
+        </ElementalButton>
+      );
     }
 
     // List out all the buttons of Classes
     ClassButtonsArray.push(
-      <ElementalButton selected={chosenClass === ''} key={'Reset Classes'} onClick={() => SetChosenClass('')}>Reset Class</ElementalButton>
-    )
-    const PossibleClasses = Object.keys(classList)
+      <ElementalButton
+        selected={chosenClass === ""}
+        key={"Reset Classes"}
+        onClick={() => SetChosenClass("")}
+      >
+        Reset Class
+      </ElementalButton>
+    );
+    const PossibleClasses = Object.keys(classList);
     for (let index = 0; index < PossibleClasses.length; index++) {
       ClassButtonsArray.push(
-        <ElementalButton selected={chosenClass === PossibleClasses[index]} color={monadColors[PossibleClasses[index]]} key={PossibleClasses[index] + 'button'} onClick={() => SetChosenClass(PossibleClasses[index])}>{PossibleClasses[index]}</ElementalButton>
-      )
+        <ElementalButton
+          selected={chosenClass === PossibleClasses[index]}
+          color={monadColors[PossibleClasses[index]]}
+          key={PossibleClasses[index] + "button"}
+          onClick={() => SetChosenClass(PossibleClasses[index])}
+        >
+          {PossibleClasses[index]}
+        </ElementalButton>
+      );
     }
 
     // List out all the buttons of Classes
     SpeciesButtonsArray.push(
-      <ElementalButton selected={chosenSpecies === ''} key={'Reset Species'} onClick={() => SetChosenSpecies('')}>Reset Species</ElementalButton>
-    )
-    const PossibleSpecies = Object.keys(racesList)
+      <ElementalButton
+        selected={chosenSpecies === ""}
+        key={"Reset Species"}
+        onClick={() => SetChosenSpecies("")}
+      >
+        Reset Species
+      </ElementalButton>
+    );
+    const PossibleSpecies = Object.keys(racesList);
     for (let index = 0; index < PossibleSpecies.length; index++) {
       SpeciesButtonsArray.push(
-        <ElementalButton selected={chosenSpecies === PossibleSpecies[index]} color={monadColors[PossibleSpecies[index]]} key={PossibleSpecies[index] + 'button'} onClick={() => SetChosenSpecies(PossibleSpecies[index])}>{PossibleSpecies[index]}</ElementalButton>
-      )
+        <ElementalButton
+          selected={chosenSpecies === PossibleSpecies[index]}
+          color={monadColors[PossibleSpecies[index]]}
+          key={PossibleSpecies[index] + "button"}
+          onClick={() => SetChosenSpecies(PossibleSpecies[index])}
+        >
+          {PossibleSpecies[index]}
+        </ElementalButton>
+      );
     }
-    SetElementalsArray(ElementTypesArray)
-    SetClassesArray(ClassButtonsArray)
-    SetSpeciesArray(SpeciesButtonsArray)
-  }, [chosenElement, chosenClass, chosenSpecies])
+    SetElementalsArray(ElementTypesArray);
+    SetClassesArray(ClassButtonsArray);
+    SetSpeciesArray(SpeciesButtonsArray);
+  }, [chosenElement, chosenClass, chosenSpecies]);
 
   React.useEffect(() => {
     // Find all the spells with the 'chosenElement'
-    const savedElements = []
-    const savedClasses = []
-    const savedSpecies = []
+    const savedElements = [];
+    const savedClasses = [];
+    const savedSpecies = [];
 
     for (let index = 0; index < entries.length; index++) {
-      const elementArray = _try(() => entries[index][1].element, ['none'])
+      const elementArray = _try(() => entries[index][1].element, ["none"]);
       if (elementArray.includes(chosenElement)) {
-        savedElements.push({ name: entries[index][0], level: 1 })
+        savedElements.push({ name: entries[index][0], level: 1 });
       }
-      const classArray = _try(() => entries[index][1].classes, ['none'])
+      const classArray = _try(() => entries[index][1].classes, ["none"]);
       if (classArray.includes(chosenClass)) {
-        savedClasses.push({ name: entries[index][0], level: 1 })
+        savedClasses.push({ name: entries[index][0], level: 1 });
       }
-      const SpeciesArray = _try(() => entries[index][1].species, ['none'])
+      const SpeciesArray = _try(() => entries[index][1].species, ["none"]);
       if (SpeciesArray.includes(chosenSpecies)) {
-        savedSpecies.push({ name: entries[index][0], level: 1 })
+        savedSpecies.push({ name: entries[index][0], level: 1 });
       }
     }
     if (chosenElement && chosenClass && chosenSpecies) {
-      const temp = []
+      const temp = [];
       for (let index = 0; index < savedElements.length; index++) {
         for (let j = 0; j < savedSpecies.length; j++) {
           if (savedElements[index].name === savedSpecies[j].name) {
             for (let x = 0; x < savedClasses.length; x++) {
               if (savedElements[index].name === savedClasses[j].name) {
-                temp.push(savedElements[index])
+                temp.push(savedElements[index]);
               }
             }
           }
         }
       }
-      SetShownSpells(temp)
+      SetShownSpells(temp);
     } else if (chosenElement && chosenSpecies && !chosenClass) {
-      const temp = []
+      const temp = [];
       for (let index = 0; index < savedElements.length; index++) {
         for (let j = 0; j < savedSpecies.length; j++) {
           if (savedElements[index].name === savedSpecies[j].name) {
-            temp.push(savedElements[index])
+            temp.push(savedElements[index]);
           }
         }
       }
-      SetShownSpells(temp)
+      SetShownSpells(temp);
     } else if (chosenElement && !chosenSpecies && chosenClass) {
-      const temp = []
+      const temp = [];
       for (let index = 0; index < savedElements.length; index++) {
         for (let j = 0; j < savedClasses.length; j++) {
           if (savedElements[index].name === savedClasses[j].name) {
-            temp.push(savedElements[index])
+            temp.push(savedElements[index]);
           }
         }
       }
-      SetShownSpells(temp)
+      SetShownSpells(temp);
     } else if (!chosenElement && chosenSpecies && chosenClass) {
-      const temp = []
+      const temp = [];
       for (let index = 0; index < savedSpecies.length; index++) {
         for (let j = 0; j < savedClasses.length; j++) {
           if (savedSpecies[index].name === savedClasses[j].name) {
-            temp.push(savedSpecies[index])
+            temp.push(savedSpecies[index]);
           }
         }
       }
-      SetShownSpells(temp)
+      SetShownSpells(temp);
     } else if (chosenElement && !chosenSpecies && !chosenClass) {
-      SetShownSpells(savedElements)
+      SetShownSpells(savedElements);
     } else if (chosenClass && !chosenElement && !chosenSpecies) {
-      SetShownSpells(savedClasses)
+      SetShownSpells(savedClasses);
     } else if (chosenSpecies && !chosenElement && !chosenClass) {
-      SetShownSpells(savedSpecies)
+      SetShownSpells(savedSpecies);
     } else if (!chosenSpecies && !chosenElement && !chosenClass) {
-      SetShownSpells([])
+      SetShownSpells([]);
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [chosenElement, chosenClass, chosenSpecies])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [chosenElement, chosenClass, chosenSpecies]);
 
   return (
     <Wrap>
       <h4>Types of Mages:</h4>
-      <p>Considering mages can move into various different roles, their skill list is wide rather then deep. The depth of a class comes from specializing, after reaching a level of proficiency in one area.</p>
+      <p>
+        Considering mages can move into various different roles, their skill
+        list is wide rather then deep. The depth of a class comes from
+        specializing, after reaching a level of proficiency in one area.
+      </p>
       <ChoiceButtonWrap>{elementalsArray}</ChoiceButtonWrap>
       <ChoiceButtonWrap>{classesArray}</ChoiceButtonWrap>
       <ChoiceButtonWrap>{speciesArray}</ChoiceButtonWrap>
@@ -164,13 +227,12 @@ const ChoiceButtonWrap = styled.div`
   justify-content: center;
   margin-top: 5px;
   margin-bottom: 5px;
-
 `;
 const ElementalButton = styled.button`
   width: fit-content;
   padding: 2px;
-  background: ${props => props.color ? props.color : ''};
-  ${props => props.selected ? 'border: solid red' : ''};
+  background: ${(props) => (props.color ? props.color : "")};
+  ${(props) => (props.selected ? "border: solid red" : "")};
 `;
 
 export default function Vampire() {
@@ -820,150 +882,162 @@ export function SchoolSchedule() {
 
 export const SchoolClubs = {
   "Enchanting Club": {
-    notes: '',
+    notes: "",
   },
   "Dueling Club": {
-    notes: '',
+    notes: "",
   },
   "Dungeoneering Club": {
-    notes: '',
+    notes: "",
   },
   "Archaeology Club": {
-    notes: '',
+    notes: "",
   },
   "Construction Club": {
-    notes: '',
+    notes: "",
   },
   "Cooking Club": {
-    notes: '',
+    notes: "",
   },
   "Crafting Club": {
-    notes: '',
+    notes: "",
   },
   "Divination Club": {
-    notes: '',
+    notes: "",
   },
   "Farming Club": {
-    notes: '',
+    notes: "",
   },
   "Fishing Club": {
-    notes: '',
+    notes: "",
   },
   "Archery Club": {
-    notes: '',
+    notes: "",
   },
   "Hunting Club": {
-    notes: '',
+    notes: "",
   },
   "Potions Club": {
-    notes: '',
+    notes: "",
   },
   "Charms Club": {
-    notes: '',
+    notes: "",
   },
   "Alteration Club": {
-    notes: '',
+    notes: "",
   },
   "Mysticism Club": {
-    notes: '',
+    notes: "",
   },
   "Necromancy Club": {
-    notes: '',
+    notes: "",
   },
   "Conjuration Club": {
-    notes: '',
+    notes: "",
   },
   "Restoration Club": {
-    notes: '',
+    notes: "",
   },
   "Illusion Club": {
-    notes: '',
+    notes: "",
   },
   "Ancient magic Club": {
-    notes: '',
+    notes: "",
   },
   // Love magic, Astronomy,  Mental magic, Broomology, Divination, Study of Ancient Runes, Transfiguration, Wandlore, Household magic
   // Farming: - Weather magic, Botany, Herbalism, Animal magic, Magizoology,
   // Reading, Foreign Language, Improv, Acting, Writing, Dance, Book, Pottery
-}
+};
 // Lessons are run by the academy and teachers, Clubs are student run.
 export const LessonOptions = {
-  "Enchanting": {
-    notes: '',
+  Enchanting: {
+    notes: "",
   },
   Thaumodynamics: {
-    notes: 'Theoretical  and the Laws of Conservation of Magic.'
+    notes: "Theoretical  and the Laws of Conservation of Magic.",
   },
   "Summoning Realms": {
-    notes: 'Topologies of Summoning Circles.'
+    notes: "Topologies of Summoning Circles.",
   },
   "Arcane Ethics": {
-    notes: '',
+    notes: "",
   },
-  "Biology": {
-    notes: 'Biology of Humans.',
+  Biology: {
+    notes: "Biology of Humans.",
   },
-  "Physics": {
-    notes: '',
+  Physics: {
+    notes: "",
   },
-  "Chemistry": {
-    notes: '',
+  Chemistry: {
+    notes: "",
   },
-  "Geology": {
-    notes: '',
+  Geology: {
+    notes: "",
   },
-  "Botany": {
-    notes: '',
+  Botany: {
+    notes: "",
   },
-  "Zoology": {
-    notes: '',
+  Zoology: {
+    notes: "",
   },
   "Magic Theory": {
-    notes: 'Understanding of magic particles and how their interaction with electromagnetic radiation, and the composition of spells.',
+    notes:
+      "Understanding of magic particles and how their interaction with electromagnetic radiation, and the composition of spells.",
   },
   "Quantum Physics": {
-    notes: 'Understanding the function of subatomic particles, with an emphasis on magical particles.',
+    notes:
+      "Understanding the function of subatomic particles, with an emphasis on magical particles.",
   },
   "Faux Physics": {
-    notes: 'Interaction of magical particles and naturally occuring energy',
+    notes: "Interaction of magical particles and naturally occuring energy",
   },
   "Faux Chemistry": {
-    notes: 'Interaction of magical particles and naturally occuring matter',
+    notes: "Interaction of magical particles and naturally occuring matter",
   },
-  "Potions": {
-    notes: '',
+  Potions: {
+    notes: "",
   },
-  "Alchemy": {
-    notes: 'This course covers the distillation of magical ingredients into components to create draughts that produce the desired effects. A hands-on course that will be evaluated based on the efficacy of your potion.',
+  Alchemy: {
+    notes:
+      "This course covers the distillation of magical ingredients into components to create draughts that produce the desired effects. A hands-on course that will be evaluated based on the efficacy of your potion.",
   },
-  "Crafting": {
-    notes: 'A hands-on class in the artificery lab where students will explore the magical properties of various metals, crystals, and other components, and create unique magical artifacts to (hopefully!) achieve the desired effect. Includes recent advances in technomancy and the interference of mundane technology with magical energies.',
+  Crafting: {
+    notes:
+      "A hands-on class in the artificery lab where students will explore the magical properties of various metals, crystals, and other components, and create unique magical artifacts to (hopefully!) achieve the desired effect. Includes recent advances in technomancy and the interference of mundane technology with magical energies.",
   },
-  "Cryptozoology": {
-    notes: 'a study into the unique magical creatures and their preferred habitats as well as the unique properties of magical creatures and their unusual adaptations.',
+  Cryptozoology: {
+    notes:
+      "a study into the unique magical creatures and their preferred habitats as well as the unique properties of magical creatures and their unusual adaptations.",
   },
   "Divination & Arithmancy": {
-    notes: 'A study of sensory perception through various types of divination such as palmistry, phrenology, astrology, tarot, using a scrying orb, tea reading, geomancy, and dowsing. Also delves into the power of math and numbers to determine meaning and divine past and future events.',
+    notes:
+      "A study of sensory perception through various types of divination such as palmistry, phrenology, astrology, tarot, using a scrying orb, tea reading, geomancy, and dowsing. Also delves into the power of math and numbers to determine meaning and divine past and future events.",
   },
   "Ethics of the Arcane": {
-    notes: 'What types of magic are ‘good’ and what types are bad? Should werewolves or vampires be allowed to attend magic school? Students are introduced to the philosophies of magic and major ethical issues throughout Magimundi history. Includes case studies and debates of ethical conundrums involving magic and the politics behind its use.',
+    notes:
+      "What types of magic are ‘good’ and what types are bad? Should werewolves or vampires be allowed to attend magic school? Students are introduced to the philosophies of magic and major ethical issues throughout Magimundi history. Includes case studies and debates of ethical conundrums involving magic and the politics behind its use.",
   },
-  "Healing": {
-    notes: 'A practical course in how to diagnose and treat magical maladies and mishaps. Includes spells for healing trauma, antidotes for curing poison, and an in-depth look at the potential for mundane medicine to be combined with magic.',
+  Healing: {
+    notes:
+      "A practical course in how to diagnose and treat magical maladies and mishaps. Includes spells for healing trauma, antidotes for curing poison, and an in-depth look at the potential for mundane medicine to be combined with magic.",
   },
-  "Herbology": {
-    notes: 'A study into both the ecology and properties of magical plants. Includes hands-on work with parabotanical specimens as well as plant identification, harvesting, care, distillation and theoretical work about the magical and medicinal properties.',
+  Herbology: {
+    notes:
+      "A study into both the ecology and properties of magical plants. Includes hands-on work with parabotanical specimens as well as plant identification, harvesting, care, distillation and theoretical work about the magical and medicinal properties.",
   },
   "Magical Combat & Defense": {
-    notes: 'this course focuses on physical training and offensive and defensive spellcasting to help wizards prevail against a variety of villains, monsters and cursed objects.',
+    notes:
+      "this course focuses on physical training and offensive and defensive spellcasting to help wizards prevail against a variety of villains, monsters and cursed objects.",
   },
   "Rituals & Evocation": {
-    notes: 'The basics of creating a magic circle, opening and closing a ritual, and combining magical energies to protect, heal, summon, banish, and more.',
+    notes:
+      "The basics of creating a magic circle, opening and closing a ritual, and combining magical energies to protect, heal, summon, banish, and more.",
   },
   "Rune Lore": {
-    notes: 'A look at Futhark runes, bound runes and other runic languages. Explore what a rune is comprised of, inscribed upon, and inscribed with, and which runes to use for desired effects.',
+    notes:
+      "A look at Futhark runes, bound runes and other runic languages. Explore what a rune is comprised of, inscribed upon, and inscribed with, and which runes to use for desired effects.",
   },
-}
+};
 
 // There can be cross over lessons between branches. Healing and farming both use Herbalism.
 // https://powerlisting.fandom.com/wiki/Magic#Types_of_Magic
@@ -975,7 +1049,7 @@ const ScheduleWrapper = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   padding: 5px;
-  
+
   color: black;
 `;
 const ScheduleDay = styled.div`
