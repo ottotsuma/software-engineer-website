@@ -705,8 +705,58 @@ export const SchoolClubs = {
   "Archaeology Club" : {
     notes: '',
   },
-  // Construction. Cooking, Crafting, Divination, Farming, Fishing, Archery, Hunting, Potions
-  //  Charms, Alteration, Mysticism, Necromancy, Conjuration, Restoration, Illusion, Shadow Magic, Ancient magic, Love magic, Astronomy,  Mental magic, Broomology, Divination, Study of Ancient Runes, Transfiguration, Wandlore, Household magic
+  "Construction Club" : {
+    notes: '',
+  },
+  "Cooking Club" : {
+    notes: '',
+  },
+  "Crafting Club" : {
+    notes: '',
+  },
+  "Divination Club" : {
+    notes: '',
+  },
+  "Farming Club" : {
+    notes: '',
+  },
+  "Fishing Club" : {
+    notes: '',
+  },
+  "Archery Club" : {
+    notes: '',
+  },
+  "Hunting Club" : {
+    notes: '',
+  },
+  "Potions Club" : {
+    notes: '',
+  },
+  "Charms Club" : {
+    notes: '',
+  },
+  "Alteration Club" : {
+    notes: '',
+  },
+  "Mysticism Club" : {
+    notes: '',
+  },
+  "Necromancy Club" : {
+    notes: '',
+  },
+  "Conjuration Club" : {
+    notes: '',
+  },
+  "Restoration Club" : {
+    notes: '',
+  },
+  "Illusion Club" : {
+    notes: '',
+  },
+  "Ancient magic Club" : {
+    notes: '',
+  },
+  // Love magic, Astronomy,  Mental magic, Broomology, Divination, Study of Ancient Runes, Transfiguration, Wandlore, Household magic
   // Farming: - Weather magic, Botany, Herbalism, Animal magic, Magizoology,
   // Reading, Foreign Language, Improv, Acting, Writing, Dance, Book, Pottery
 }
@@ -753,6 +803,9 @@ export const LessonOptions = {
   },
   "Faux Chemistry" : {
     notes: 'Interaction of magical particles and naturally occuring matter',
+  },
+  "Potions" : {
+    notes: '',
   },
   "Alchemy" : {
     notes: 'This course covers the distillation of magical ingredients into components to create draughts that produce the desired effects. A hands-on course that will be evaluated based on the efficacy of your potion.',
