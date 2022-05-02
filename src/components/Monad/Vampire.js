@@ -44,7 +44,7 @@ const ElementalButtonWrap = styled.div`
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-    justify-content: center;
+  justify-content: center;
 `;
 const ElementalButton = styled.button`
   width: fit-content;
@@ -332,7 +332,7 @@ export function SchoolSchedule() {
             background: colors.grey.light,
           }}
         >
-          <p>Option 2 - Beasts</p>
+          <p>Option 2 - ???</p>
           <span>???</span>
           <span>???</span>
         </Block>
@@ -381,6 +381,17 @@ export function SchoolSchedule() {
           }}
         >
           <p>Lunch</p>
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-2",
+            gridRow: "time-1300",
+            background: colors.grey.light,
+          }}
+        >
+          <p>Beast Studies</p>
+          <span>???</span>
+          <span>???</span>
         </Block>
         <Block
           style={{
@@ -473,6 +484,28 @@ export function SchoolSchedule() {
           }}
         >
           <p>Lunch</p>
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-4",
+            gridRow: "time-1500",
+            background: colors.grey.light,
+          }}
+        >
+          <p>Beast Studies</p>
+          <span>???</span>
+          <span>???</span>
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-4",
+            gridRow: "time-1600",
+            background: colors.grey.light,
+          }}
+        >
+          <p>Beast Studies</p>
+          <span>???</span>
+          <span>???</span>
         </Block>
         {/* Day 5 */}
         <DayTitle style={{ gridColumn: "track-5" }}>
@@ -584,6 +617,28 @@ export function SchoolSchedule() {
         <Block
           style={{
             gridColumn: "track-7",
+            gridRow: "time-1000",
+            background: colors.grey.light,
+          }}
+        >
+          <p>Beast Studies</p>
+          <span>???</span>
+          <span>???</span>
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-7",
+            gridRow: "time-1100",
+            background: colors.grey.light,
+          }}
+        >
+          <p>Relationships and citizenship</p>
+          <span>???</span>
+          <span>???</span>
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-7",
             gridRow: "time-1200",
             background: colors.grey.light,
           }}
@@ -597,9 +652,7 @@ export function SchoolSchedule() {
             background: colors.grey.light,
           }}
         >
-          <p>Relationships and citizenship</p>
-          <span>???</span>
-          <span>???</span>
+          <p>Practice Period</p>
         </Block>
         <Block
           style={{
