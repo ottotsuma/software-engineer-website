@@ -7,7 +7,7 @@ import { Content } from "./styles";
 import { Otto, System, Tisiel } from "./CharacterFonts";
 import { InlineSpell } from "./../elements/spells";
 import {colors} from './../elements/colors'
-import {SchoolSchedule} from './Vampire'
+// import {SchoolSchedule} from './Vampire'
 
 /* Elementals */
 

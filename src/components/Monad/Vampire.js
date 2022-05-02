@@ -21,8 +21,6 @@ export function Mage() {
   const [elementalsArray, SetElementalsArray] = React.useState([])
   const [classesArray, SetClassesArray] = React.useState([])
   const [speciesArray, SetSpeciesArray] = React.useState([])
-
-
   const entries = Object.entries(spellList)
 
   React.useEffect(() => {
@@ -138,8 +136,8 @@ export function Mage() {
     } else if (!chosenSpecies && !chosenElement && !chosenClass) {
       SetShownSpells([])
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [chosenElement, chosenClass, chosenSpecies])
-
 
   return (
     <Wrap>
