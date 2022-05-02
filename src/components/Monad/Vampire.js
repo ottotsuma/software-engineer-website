@@ -710,6 +710,7 @@ export const SchoolClubs = {
   // Farming: - Weather magic, Botany, Herbalism, Animal magic, Magizoology,
   // Reading, Foreign Language, Improv, Acting, Writing, Dance, Book, Pottery
 }
+// Lessons are run by the academy and teachers, Clubs are student run.
 export const LessonOptions = {
   "Enchanting" : {
     notes: '',
