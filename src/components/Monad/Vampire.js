@@ -691,6 +691,34 @@ export function SchoolSchedule() {
     </ScheduleWrapper>
   );
 }
+// Theoretical Thaumodynamics and the Laws of Conservation of Magic.
+// Topologies of Summoning Circles.
+// Cosmologies of Extraplanar Realms in Relation to the Multiverse.
+// Geology of Ley Lines.
+// Arcane Ethics
+// -Biology
+
+// -Physics
+// -Chemistry
+// -Geology
+// -Botany
+// -Zoology
+// -Magic Theory - Understanding of magic particles and how their interaction with electromagnetic radiation, and the composition of spells.
+
+// -Quantum Physics - Understanding the function of subatomic particles, with an emphasis on magical particles.
+// -Faux Physics - Interaction of magical particles and naturally occuring energy
+// -Faux Chemistry - Interaction of magical particles and naturally occuring matter
+
+// Alchemy: This course covers the distillation of magical ingredients into components to create draughts that produce the desired effects. A hands-on course that will be evaluated based on the efficacy of your potion.
+// Crafting: A hands-on class in the artificery lab where students will explore the magical properties of various metals, crystals, and other components, and create unique magical artifacts to (hopefully!) achieve the desired effect. Includes recent advances in technomancy and the interference of mundane technology with magical energies.
+// Cryptozoology: a study into the unique magical creatures and their preferred habitats as well as the unique properties of magical creatures and their unusual adaptations.
+// Divination & Arithmancy: A study of sensory perception through various types of divination such as palmistry, phrenology, astrology, tarot, using a scrying orb, tea reading, geomancy, and dowsing. Also delves into the power of math and numbers to determine meaning and divine past and future events.
+// Ethics of the Arcane: What types of magic are ‘good’ and what types are bad? Should werewolves or vampires be allowed to attend magic school? Students are introduced to the philosophies of magic and major ethical issues throughout Magimundi history. Includes case studies and debates of ethical conundrums involving magic and the politics behind its use.
+// Healing: A practical course in how to diagnose and treat magical maladies and mishaps. Includes spells for healing trauma, antidotes for curing poison, and an in-depth look at the potential for mundane medicine to be combined with magic.
+// Herbology: A study into both the ecology and properties of magical plants. Includes hands-on work with parabotanical specimens as well as plant identification, harvesting, care, distillation and theoretical work about the magical and medicinal properties.
+// Magical Combat & Defense: this course focuses on physical training and offensive and defensive spellcasting to help wizards prevail against a variety of villains, monsters and cursed objects.
+// Rituals & Evocation: The basics of creating a magic circle, opening and closing a ritual, and combining magical energies to protect, heal, summon, banish, and more.
+// Rune Lore: A look at Futhark runes, bound runes and other runic languages. Explore what a rune is comprised of, inscribed upon, and inscribed with, and which runes to use for desired effects.
 
 // There can be cross over lessons between branches. Healing and farming both use Herbalism.
 // https://powerlisting.fandom.com/wiki/Magic#Types_of_Magic
