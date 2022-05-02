@@ -692,7 +692,27 @@ export function SchoolSchedule() {
   );
 }
 
+export const SchoolClubs = {
+  "Enchanting Club" : {
+    notes: '',
+  },
+  "Dueling Club" : {
+    notes: '',
+  },
+  "Dungeoneering Club" : {
+    notes: '',
+  },
+  "Archaeology Club" : {
+    notes: '',
+  },
+  // Construction. Cooking, Crafting, Divination, Farming, Fishing, Archery, Hunting, Potions
+  //  Charms, Alteration, Mysticism, Necromancy, Conjuration, Restoration, Illusion, Shadow Magic, Ancient magic, Love magic, Astronomy,  Mental magic, Broomology, Divination, Study of Ancient Runes, Transfiguration, Wandlore, Household magic
+  // Farming: - Weather magic, Botany, Herbalism, Animal magic, Magizoology,
+}
 export const LessonOptions = {
+  "Enchanting" : {
+    notes: '',
+  },
   Thaumodynamics: {
     notes: 'Theoretical  and the Laws of Conservation of Magic.'
   },
@@ -735,34 +755,38 @@ export const LessonOptions = {
   "Alchemy" : {
     notes: 'This course covers the distillation of magical ingredients into components to create draughts that produce the desired effects. A hands-on course that will be evaluated based on the efficacy of your potion.',
   },
+  "Crafting" : {
+    notes: 'A hands-on class in the artificery lab where students will explore the magical properties of various metals, crystals, and other components, and create unique magical artifacts to (hopefully!) achieve the desired effect. Includes recent advances in technomancy and the interference of mundane technology with magical energies.',
+  },
+  "Cryptozoology" : {
+    notes: 'a study into the unique magical creatures and their preferred habitats as well as the unique properties of magical creatures and their unusual adaptations.',
+  },
+  "Divination & Arithmancy" : {
+    notes: 'A study of sensory perception through various types of divination such as palmistry, phrenology, astrology, tarot, using a scrying orb, tea reading, geomancy, and dowsing. Also delves into the power of math and numbers to determine meaning and divine past and future events.',
+  },
+  "Ethics of the Arcane" : {
+    notes: 'What types of magic are ‘good’ and what types are bad? Should werewolves or vampires be allowed to attend magic school? Students are introduced to the philosophies of magic and major ethical issues throughout Magimundi history. Includes case studies and debates of ethical conundrums involving magic and the politics behind its use.',
+  },
+  "Healing" : {
+    notes: 'A practical course in how to diagnose and treat magical maladies and mishaps. Includes spells for healing trauma, antidotes for curing poison, and an in-depth look at the potential for mundane medicine to be combined with magic.',
+  },
+  "Herbology" : {
+    notes: 'A study into both the ecology and properties of magical plants. Includes hands-on work with parabotanical specimens as well as plant identification, harvesting, care, distillation and theoretical work about the magical and medicinal properties.',
+  },
+  "Magical Combat & Defense" : {
+    notes: 'this course focuses on physical training and offensive and defensive spellcasting to help wizards prevail against a variety of villains, monsters and cursed objects.',
+  },
+  "Rituals & Evocation" : {
+    notes: 'The basics of creating a magic circle, opening and closing a ritual, and combining magical energies to protect, heal, summon, banish, and more.',
+  },
+  "Rune Lore" : {
+    notes: 'A look at Futhark runes, bound runes and other runic languages. Explore what a rune is comprised of, inscribed upon, and inscribed with, and which runes to use for desired effects.',
+  },
 }
-
-// Crafting: A hands-on class in the artificery lab where students will explore the magical properties of various metals, crystals, and other components, and create unique magical artifacts to (hopefully!) achieve the desired effect. Includes recent advances in technomancy and the interference of mundane technology with magical energies.
-// Cryptozoology: a study into the unique magical creatures and their preferred habitats as well as the unique properties of magical creatures and their unusual adaptations.
-// Divination & Arithmancy: A study of sensory perception through various types of divination such as palmistry, phrenology, astrology, tarot, using a scrying orb, tea reading, geomancy, and dowsing. Also delves into the power of math and numbers to determine meaning and divine past and future events.
-// Ethics of the Arcane: What types of magic are ‘good’ and what types are bad? Should werewolves or vampires be allowed to attend magic school? Students are introduced to the philosophies of magic and major ethical issues throughout Magimundi history. Includes case studies and debates of ethical conundrums involving magic and the politics behind its use.
-// Healing: A practical course in how to diagnose and treat magical maladies and mishaps. Includes spells for healing trauma, antidotes for curing poison, and an in-depth look at the potential for mundane medicine to be combined with magic.
-// Herbology: A study into both the ecology and properties of magical plants. Includes hands-on work with parabotanical specimens as well as plant identification, harvesting, care, distillation and theoretical work about the magical and medicinal properties.
-// Magical Combat & Defense: this course focuses on physical training and offensive and defensive spellcasting to help wizards prevail against a variety of villains, monsters and cursed objects.
-// Rituals & Evocation: The basics of creating a magic circle, opening and closing a ritual, and combining magical energies to protect, heal, summon, banish, and more.
-// Rune Lore: A look at Futhark runes, bound runes and other runic languages. Explore what a rune is comprised of, inscribed upon, and inscribed with, and which runes to use for desired effects.
 
 // There can be cross over lessons between branches. Healing and farming both use Herbalism.
 // https://powerlisting.fandom.com/wiki/Magic#Types_of_Magic
-// Lessons other then combat and magic:
-// History, Relationships, Finance, Citizenship, Study Time (Free Period),
 
-// Magic non-combat:
-// Element class, Mage Class, Charms, Alteration, Mysticism, Necromancy, Conjuration, Restoration, Destruction, Illusion, Shadow Magic, Ancient magic, Love magic, Astronomy,  Mental magic, Broomology, Potions, Divination, Study of Ancient Runes, Transfiguration, Wandlore, Household magic
-
-// Farming:
-// Weather magic, Botany, Herbalism, Animal magic, Magizoology,
-
-// Battle Lessons:
-// Group, Battle tactics, Camping, Cooking, Navigating, Dueling/Fighting
-
-// Clubs:
-//
 const ScheduleWrapper = styled.div`
   display: flex;
   font-size: 0.7em;
