@@ -10,71 +10,145 @@ import { _try } from './../elements/util'
 import { racesList } from './../elements/species'
 import { classList } from './../elements/classes'
 
+export const MageTypes = ['mana', 'fire', 'metal', 'plant', 'water', 'earth', 'lightning', 'ice', 'wind', 'shadow', 'light', 'sound', 'poison', 'time', 'gravity', 'portal', 'spirit', 'blood', 'beast', 'none']
+
 
 export function Mage() {
   const [chosenElement, SetChosenElement] = React.useState('')
   const [chosenClass, SetChosenClass] = React.useState('')
   const [chosenSpecies, SetChosenSpecies] = React.useState('')
+  const [shownSpells, SetShownSpells] = React.useState([])
+  const [elementalsArray, SetElementalsArray] = React.useState([])
+  const [classesArray, SetClassesArray] = React.useState([])
+  const [speciesArray, SetSpeciesArray] = React.useState([])
 
-  const ShownSpells = []
-  const ElementTypesArray = []
-  const ClassButtonsArray = []
-  const SpeciesButtonsArray = []
 
   const entries = Object.entries(spellList)
-  const MageTypes = ['mana', 'fire', 'metal', 'plant', 'water', 'earth', 'lightning', 'ice', 'wind', 'shadow', 'light', 'sound', 'poison', 'time', 'gravity', 'portal', 'spirit', 'blood', 'beast', 'none']
 
-  // List out all the buttons of MageTypes
-  ElementTypesArray.push(
-    <ElementalButton key={'Reset Element'} onClick={() => SetChosenElement('')}>Reset Element</ElementalButton>
-  )
-  for (let index = 0; index < MageTypes.length; index++) {
+  React.useEffect(() => {
+    const ElementTypesArray = []
+    const ClassButtonsArray = []
+    const SpeciesButtonsArray = []
+    // List out all the buttons of MageTypes
     ElementTypesArray.push(
-      <ElementalButton color={monadColors[MageTypes[index]]} key={MageTypes[index] + 'button'} onClick={() => SetChosenElement(MageTypes[index])}>{MageTypes[index]}</ElementalButton>
+      <ElementalButton selected={chosenElement === ''} key={'Reset Element'} onClick={() => SetChosenElement('')}>Reset Element</ElementalButton>
     )
-  }
+    for (let index = 0; index < MageTypes.length; index++) {
+      ElementTypesArray.push(
+        <ElementalButton selected={chosenElement === MageTypes[index]} color={monadColors[MageTypes[index]]} key={MageTypes[index] + 'button'} onClick={() => SetChosenElement(MageTypes[index])}>{MageTypes[index]}</ElementalButton>
+      )
+    }
 
     // List out all the buttons of Classes
     ClassButtonsArray.push(
-      <ElementalButton key={'Reset Classes'} onClick={() => SetChosenClass('')}>Reset Class</ElementalButton>
+      <ElementalButton selected={chosenClass === ''} key={'Reset Classes'} onClick={() => SetChosenClass('')}>Reset Class</ElementalButton>
     )
     const PossibleClasses = Object.keys(classList)
     for (let index = 0; index < PossibleClasses.length; index++) {
       ClassButtonsArray.push(
-        <ElementalButton color={monadColors[PossibleClasses[index]]} key={PossibleClasses[index] + 'button'} onClick={() => SetChosenClass(PossibleClasses[index])}>{PossibleClasses[index]}</ElementalButton>
+        <ElementalButton selected={chosenClass === PossibleClasses[index]} color={monadColors[PossibleClasses[index]]} key={PossibleClasses[index] + 'button'} onClick={() => SetChosenClass(PossibleClasses[index])}>{PossibleClasses[index]}</ElementalButton>
       )
     }
 
-        // List out all the buttons of Classes
-        SpeciesButtonsArray.push(
-          <ElementalButton key={'Reset Classes'} onClick={() => SetChosenSpecies('')}>Reset Species</ElementalButton>
-        )
-        const PossibleSpecies = Object.keys(racesList)
-        for (let index = 0; index < PossibleSpecies.length; index++) {
-          SpeciesButtonsArray.push(
-            <ElementalButton color={monadColors[PossibleSpecies[index]]} key={PossibleSpecies[index] + 'button'} onClick={() => SetChosenSpecies(PossibleSpecies[index])}>{PossibleSpecies[index]}</ElementalButton>
-          )
-        }
+    // List out all the buttons of Classes
+    SpeciesButtonsArray.push(
+      <ElementalButton selected={chosenSpecies === ''} key={'Reset Species'} onClick={() => SetChosenSpecies('')}>Reset Species</ElementalButton>
+    )
+    const PossibleSpecies = Object.keys(racesList)
+    for (let index = 0; index < PossibleSpecies.length; index++) {
+      SpeciesButtonsArray.push(
+        <ElementalButton selected={chosenSpecies === PossibleSpecies[index]} color={monadColors[PossibleSpecies[index]]} key={PossibleSpecies[index] + 'button'} onClick={() => SetChosenSpecies(PossibleSpecies[index])}>{PossibleSpecies[index]}</ElementalButton>
+      )
+    }
+    SetElementalsArray(ElementTypesArray)
+    SetClassesArray(ClassButtonsArray)
+    SetSpeciesArray(SpeciesButtonsArray)
+  }, [chosenElement, chosenClass, chosenSpecies])
 
-  // Find all the spells with the 'chosenElement'
-  for (let index = 0; index < entries.length; index++) {
+  React.useEffect(() => {
+    // Find all the spells with the 'chosenElement'
+    const savedElements = []
+    const savedClasses = []
+    const savedSpecies = []
+
+    for (let index = 0; index < entries.length; index++) {
       const elementArray = _try(() => entries[index][1].element, ['none'])
       if (elementArray.includes(chosenElement)) {
-        ShownSpells.push({ name: entries[index][0], level: 1 })
+        savedElements.push({ name: entries[index][0], level: 1 })
       }
       const classArray = _try(() => entries[index][1].classes, ['none'])
       if (classArray.includes(chosenClass)) {
-        ShownSpells.push({ name: entries[index][0], level: 1 })
+        savedClasses.push({ name: entries[index][0], level: 1 })
       }
-  }
+      const SpeciesArray = _try(() => entries[index][1].species, ['none'])
+      if (SpeciesArray.includes(chosenSpecies)) {
+        savedSpecies.push({ name: entries[index][0], level: 1 })
+      }
+    }
+    if (chosenElement && chosenClass && chosenSpecies) {
+      const temp = []
+      for (let index = 0; index < savedElements.length; index++) {
+        for (let j = 0; j < savedSpecies.length; j++) {
+          if (savedElements[index].name === savedSpecies[j].name) {
+            for (let x = 0; x < savedClasses.length; x++) {
+              if (savedElements[index].name === savedClasses[j].name) {
+                temp.push(savedElements[index])
+              }
+            }
+          }
+        }
+      }
+      SetShownSpells(temp)
+    } else if (chosenElement && chosenSpecies && !chosenClass) {
+      const temp = []
+      for (let index = 0; index < savedElements.length; index++) {
+        for (let j = 0; j < savedSpecies.length; j++) {
+          if (savedElements[index].name === savedSpecies[j].name) {
+            temp.push(savedElements[index])
+          }
+        }
+      }
+      SetShownSpells(temp)
+    } else if (chosenElement && !chosenSpecies && chosenClass) {
+      const temp = []
+      for (let index = 0; index < savedElements.length; index++) {
+        for (let j = 0; j < savedClasses.length; j++) {
+          if (savedElements[index].name === savedClasses[j].name) {
+            temp.push(savedElements[index])
+          }
+        }
+      }
+      SetShownSpells(temp)
+    } else if (!chosenElement && chosenSpecies && chosenClass) {
+      const temp = []
+      for (let index = 0; index < savedSpecies.length; index++) {
+        for (let j = 0; j < savedClasses.length; j++) {
+          if (savedSpecies[index].name === savedClasses[j].name) {
+            temp.push(savedSpecies[index])
+          }
+        }
+      }
+      SetShownSpells(temp)
+    } else if (chosenElement && !chosenSpecies && !chosenClass) {
+      SetShownSpells(savedElements)
+    } else if (chosenClass && !chosenElement && !chosenSpecies) {
+      SetShownSpells(savedClasses)
+    } else if (chosenSpecies && !chosenElement && !chosenClass) {
+      SetShownSpells(savedSpecies)
+    } else if (!chosenSpecies && !chosenElement && !chosenClass) {
+      SetShownSpells([])
+    }
+  }, [chosenElement, chosenClass, chosenSpecies])
+
+
   return (
     <Wrap>
       <h4>Types of Mages:</h4>
       <p>Considering mages can move into various different roles, their skill list is wide rather then deep. The depth of a class comes from specializing, after reaching a level of proficiency in one area.</p>
-      <ChoiceButtonWrap>{ElementTypesArray}</ChoiceButtonWrap>
-      <ChoiceButtonWrap>{ClassButtonsArray}</ChoiceButtonWrap>
-      <ChoiceButtonWrap>{SpeciesButtonsArray}</ChoiceButtonWrap>
-      <Spells spells={ShownSpells} type={"mage"} />
+      <ChoiceButtonWrap>{elementalsArray}</ChoiceButtonWrap>
+      <ChoiceButtonWrap>{classesArray}</ChoiceButtonWrap>
+      <ChoiceButtonWrap>{speciesArray}</ChoiceButtonWrap>
+      <Spells spells={shownSpells} type={"mage"} />
     </Wrap>
   );
 }
@@ -98,6 +172,7 @@ const ElementalButton = styled.button`
   width: fit-content;
   padding: 2px;
   background: ${props => props.color ? props.color : ''};
+  ${props => props.selected ? 'border: solid red' : ''};
 `;
 
 export default function Vampire() {
