@@ -23,7 +23,7 @@ export default function Otto() {
           name: "Otto",
           level: 10,
           class: "Kʼawiil",
-          species: "human",
+          species: "Human",
           spells: 8,
           passives: 2,
           "spell points": 20 - 20, // from class 4 per level (normal/rare/epic/legendary), Increase Free Ability Points received for every increase in Level by 2 points.
@@ -253,7 +253,7 @@ export function Kaja(Chapter) {
           name: "Kaja",
           level: 10,
           class: "mage",
-          species: "human",
+          species: "Human",
           spells: 0,
           passives: 0,
           "spell points": 10 - 10, // from class 1 per level (normal/rare/epic/legendary)
@@ -355,7 +355,7 @@ export function Tsuma(Chapter) {
           name: "Tsuma",
           level: 20,
           class: "Mage",
-          species: "human",
+          species: "Human",
           spells: 0,
           passives: 0,
           "spell points": 0, // from class 1 per level (normal/rare/epic/legendary)
@@ -720,7 +720,7 @@ export function Josh(Chapter) {
           name: "Josh",
           level: 92,
           class: "Assassin",
-          species: "human",
+          species: "Human",
           spells: 0,
           passives: 0,
           "skill points": 92, // from class 1 per level (normal/rare/epic/legendary)
@@ -809,7 +809,7 @@ export function Hitori(Chapter) {
           level: 2,
           rank: 'F',
           class: "Phoenix",
-          species: "human",
+          species: "Human",
           skills: 2,
           passives: 0,
           "skill points": 2-2, // from class 1 per level (normal/rare/epic/legendary)

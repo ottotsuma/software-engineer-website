@@ -203,6 +203,8 @@ export const spellList = {
     note: "Miasma.",
     name: "Miasma",
     element: ["none"],
+    classes: [],
+    species: [],
     image: "",
     negative: true,
     passive: true,
@@ -399,6 +401,8 @@ export const spellList = {
   Sparks: {
     name: "Sparks",
     element: ['lightning'],
+    classes: ['mage'],
+    species: [],
     1: "Shoots out multiple sparks in a random pattern.",
   },
   "Shocking Touch": {
@@ -422,22 +426,34 @@ export const spellList = {
     1: "Shoots lightning at a target, part of the lighting will be redirected to near by targets.",
   },
   "Serpent Strike": {
+    element: ['none'],
+    classes: ['Kʼawiil'],
+    species: [''],
     name: "Serpent Strike",
     1: "Your next physical attack will be faster.",
   },
   "Serpent Pattern": {
+    element: ['none'],
+    classes: ['Kʼawiil'],
+    species: [''],
     name: "Serpent Pattern",
     passive: true,
     1: "Your skin will adapt to the environment slightly, increased stealth.",
     2: "Your skin will adapt to the environment slightly, increased stealth.", // ch32
   },
   "Forked Tongue": {
+    element: ['none'],
+    classes: ['Kʼawiil'],
+    species: [''],
     name: "Forked Tongue",
     passive: true,
     1: "Your tongue will become forked, Increased sense of smell.",
     2: "You learn basic serpent speech.",
   },
   "Serpent Skin": {
+    element: ['none'],
+    classes: ['Kʼawiil'],
+    species: [''],
     name: "Serpent-Skin",
     1: "Your skin slowly becomes like a serpents. Able to turn on and off scaled armor over your skin.",
     2: "Your skin slowly becomes like a serpents. Able to turn on and off scaled armor over your skin.", // ch32
@@ -480,21 +496,29 @@ export const spellList = {
   Haietlik: {
     name: "Haietlik",
     element: ['lightning'],
+    classes: ['Kʼawiil'],
+    species: [''],
     1: "Throw a snake shaped lighting bolt to hook onto a target, dealing damage in the process.",
   },
   "Kʼawiil Rain": {
     element: ['water'],
+    classes: ['Kʼawiil'],
+    species: [''],
     name: "Kʼawiil Rain ",
     1: "It starts raining, the rain recovers the HP of your summons/plants.",
   },
   "Kʼawiil Bolt": {
     name: "Kʼawiil Bolt",
+    classes: ['Kʼawiil'],
+    species: [''],
     element: ['lightning'],
     1: "Releases a burst of Kʼawiil-lightning from range.",
     2: "Releases a burst of Kʼawiil-lightning from range.", // ch32
   },
   "Kʼawiil Burst": {
     element: ['lightning'],
+    classes: ['Kʼawiil'],
+    species: [''],
     name: "Kʼawiil Burst",
     1: "Releases a burst of Kʼawiil-lightning on contact.",
     2: "Releases a burst of Kʼawiil-lightning on contact.", // ch32

@@ -7,29 +7,73 @@ import Spells, { spellList } from "./../elements/spells";
 import { ListofMagicTypes } from "./../elements/spells";
 import { colors, monadColors, textColors } from "./../elements/colors";
 import { _try } from './../elements/util'
+import { racesList } from './../elements/species'
+import { classList } from './../elements/classes'
+
 
 export function Mage() {
-  const [type, SetType] = React.useState('mana')
-  const entries = Object.entries(spellList)
+  const [chosenElement, SetChosenElement] = React.useState('')
+  const [chosenClass, SetChosenClass] = React.useState('')
+  const [chosenSpecies, SetChosenSpecies] = React.useState('')
+
   const ShownSpells = []
-  for (let index = 0; index < entries.length; index++) {
-    const elementArray = _try(() => entries[index][1].element, ['none'])
-    if (elementArray.includes(type)) {
-      ShownSpells.push({ name: entries[index][0], level: 1 })
-    }
-  }
-  const MageTypes = ['mana', 'fire', 'metal', 'plant', 'water', 'earth', 'lightning', 'ice', 'wind', 'shadow', 'light', 'sound', 'poison', 'time', 'gravity', 'portal', 'spirit', 'blood', 'none']
-  const TypesArray = []
+  const ElementTypesArray = []
+  const ClassButtonsArray = []
+  const SpeciesButtonsArray = []
+
+  const entries = Object.entries(spellList)
+  const MageTypes = ['mana', 'fire', 'metal', 'plant', 'water', 'earth', 'lightning', 'ice', 'wind', 'shadow', 'light', 'sound', 'poison', 'time', 'gravity', 'portal', 'spirit', 'blood', 'beast', 'none']
+
+  // List out all the buttons of MageTypes
+  ElementTypesArray.push(
+    <ElementalButton key={'Reset Element'} onClick={() => SetChosenElement('')}>Reset Element</ElementalButton>
+  )
   for (let index = 0; index < MageTypes.length; index++) {
-    TypesArray.push(
-      <ElementalButton color={monadColors[MageTypes[index]]} key={MageTypes[index] + 'button'} onClick={() => SetType(MageTypes[index])}>{MageTypes[index]}</ElementalButton>
+    ElementTypesArray.push(
+      <ElementalButton color={monadColors[MageTypes[index]]} key={MageTypes[index] + 'button'} onClick={() => SetChosenElement(MageTypes[index])}>{MageTypes[index]}</ElementalButton>
     )
+  }
+
+    // List out all the buttons of Classes
+    ClassButtonsArray.push(
+      <ElementalButton key={'Reset Classes'} onClick={() => SetChosenClass('')}>Reset Class</ElementalButton>
+    )
+    const PossibleClasses = Object.keys(classList)
+    for (let index = 0; index < PossibleClasses.length; index++) {
+      ClassButtonsArray.push(
+        <ElementalButton color={monadColors[PossibleClasses[index]]} key={PossibleClasses[index] + 'button'} onClick={() => SetChosenClass(PossibleClasses[index])}>{PossibleClasses[index]}</ElementalButton>
+      )
+    }
+
+        // List out all the buttons of Classes
+        SpeciesButtonsArray.push(
+          <ElementalButton key={'Reset Classes'} onClick={() => SetChosenSpecies('')}>Reset Species</ElementalButton>
+        )
+        const PossibleSpecies = Object.keys(racesList)
+        for (let index = 0; index < PossibleSpecies.length; index++) {
+          SpeciesButtonsArray.push(
+            <ElementalButton color={monadColors[PossibleSpecies[index]]} key={PossibleSpecies[index] + 'button'} onClick={() => SetChosenSpecies(PossibleSpecies[index])}>{PossibleSpecies[index]}</ElementalButton>
+          )
+        }
+
+  // Find all the spells with the 'chosenElement'
+  for (let index = 0; index < entries.length; index++) {
+      const elementArray = _try(() => entries[index][1].element, ['none'])
+      if (elementArray.includes(chosenElement)) {
+        ShownSpells.push({ name: entries[index][0], level: 1 })
+      }
+      const classArray = _try(() => entries[index][1].classes, ['none'])
+      if (classArray.includes(chosenClass)) {
+        ShownSpells.push({ name: entries[index][0], level: 1 })
+      }
   }
   return (
     <Wrap>
       <h4>Types of Mages:</h4>
       <p>Considering mages can move into various different roles, their skill list is wide rather then deep. The depth of a class comes from specializing, after reaching a level of proficiency in one area.</p>
-      <ElementalButtonWrap>{TypesArray}</ElementalButtonWrap>
+      <ChoiceButtonWrap>{ElementTypesArray}</ChoiceButtonWrap>
+      <ChoiceButtonWrap>{ClassButtonsArray}</ChoiceButtonWrap>
+      <ChoiceButtonWrap>{SpeciesButtonsArray}</ChoiceButtonWrap>
       <Spells spells={ShownSpells} type={"mage"} />
     </Wrap>
   );
@@ -37,13 +81,18 @@ export function Mage() {
 const Wrap = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 `;
-const ElementalButtonWrap = styled.div`
+const ChoiceButtonWrap = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
 `;
 const ElementalButton = styled.button`
   width: fit-content;
@@ -697,67 +746,67 @@ export function SchoolSchedule() {
 }
 
 export const SchoolClubs = {
-  "Enchanting Club" : {
+  "Enchanting Club": {
     notes: '',
   },
-  "Dueling Club" : {
+  "Dueling Club": {
     notes: '',
   },
-  "Dungeoneering Club" : {
+  "Dungeoneering Club": {
     notes: '',
   },
-  "Archaeology Club" : {
+  "Archaeology Club": {
     notes: '',
   },
-  "Construction Club" : {
+  "Construction Club": {
     notes: '',
   },
-  "Cooking Club" : {
+  "Cooking Club": {
     notes: '',
   },
-  "Crafting Club" : {
+  "Crafting Club": {
     notes: '',
   },
-  "Divination Club" : {
+  "Divination Club": {
     notes: '',
   },
-  "Farming Club" : {
+  "Farming Club": {
     notes: '',
   },
-  "Fishing Club" : {
+  "Fishing Club": {
     notes: '',
   },
-  "Archery Club" : {
+  "Archery Club": {
     notes: '',
   },
-  "Hunting Club" : {
+  "Hunting Club": {
     notes: '',
   },
-  "Potions Club" : {
+  "Potions Club": {
     notes: '',
   },
-  "Charms Club" : {
+  "Charms Club": {
     notes: '',
   },
-  "Alteration Club" : {
+  "Alteration Club": {
     notes: '',
   },
-  "Mysticism Club" : {
+  "Mysticism Club": {
     notes: '',
   },
-  "Necromancy Club" : {
+  "Necromancy Club": {
     notes: '',
   },
-  "Conjuration Club" : {
+  "Conjuration Club": {
     notes: '',
   },
-  "Restoration Club" : {
+  "Restoration Club": {
     notes: '',
   },
-  "Illusion Club" : {
+  "Illusion Club": {
     notes: '',
   },
-  "Ancient magic Club" : {
+  "Ancient magic Club": {
     notes: '',
   },
   // Love magic, Astronomy,  Mental magic, Broomology, Divination, Study of Ancient Runes, Transfiguration, Wandlore, Household magic
@@ -766,7 +815,7 @@ export const SchoolClubs = {
 }
 // Lessons are run by the academy and teachers, Clubs are student run.
 export const LessonOptions = {
-  "Enchanting" : {
+  "Enchanting": {
     notes: '',
   },
   Thaumodynamics: {
@@ -778,67 +827,67 @@ export const LessonOptions = {
   "Arcane Ethics": {
     notes: '',
   },
-  "Biology" : {
+  "Biology": {
     notes: 'Biology of Humans.',
   },
-  "Physics" : {
+  "Physics": {
     notes: '',
   },
-  "Chemistry" : {
+  "Chemistry": {
     notes: '',
   },
-  "Geology" : {
+  "Geology": {
     notes: '',
   },
-  "Botany" : {
+  "Botany": {
     notes: '',
   },
-  "Zoology" : {
+  "Zoology": {
     notes: '',
   },
-  "Magic Theory" : {
+  "Magic Theory": {
     notes: 'Understanding of magic particles and how their interaction with electromagnetic radiation, and the composition of spells.',
   },
-  "Quantum Physics" : {
+  "Quantum Physics": {
     notes: 'Understanding the function of subatomic particles, with an emphasis on magical particles.',
   },
-  "Faux Physics" : {
+  "Faux Physics": {
     notes: 'Interaction of magical particles and naturally occuring energy',
   },
-  "Faux Chemistry" : {
+  "Faux Chemistry": {
     notes: 'Interaction of magical particles and naturally occuring matter',
   },
-  "Potions" : {
+  "Potions": {
     notes: '',
   },
-  "Alchemy" : {
+  "Alchemy": {
     notes: 'This course covers the distillation of magical ingredients into components to create draughts that produce the desired effects. A hands-on course that will be evaluated based on the efficacy of your potion.',
   },
-  "Crafting" : {
+  "Crafting": {
     notes: 'A hands-on class in the artificery lab where students will explore the magical properties of various metals, crystals, and other components, and create unique magical artifacts to (hopefully!) achieve the desired effect. Includes recent advances in technomancy and the interference of mundane technology with magical energies.',
   },
-  "Cryptozoology" : {
+  "Cryptozoology": {
     notes: 'a study into the unique magical creatures and their preferred habitats as well as the unique properties of magical creatures and their unusual adaptations.',
   },
-  "Divination & Arithmancy" : {
+  "Divination & Arithmancy": {
     notes: 'A study of sensory perception through various types of divination such as palmistry, phrenology, astrology, tarot, using a scrying orb, tea reading, geomancy, and dowsing. Also delves into the power of math and numbers to determine meaning and divine past and future events.',
   },
-  "Ethics of the Arcane" : {
+  "Ethics of the Arcane": {
     notes: 'What types of magic are ‘good’ and what types are bad? Should werewolves or vampires be allowed to attend magic school? Students are introduced to the philosophies of magic and major ethical issues throughout Magimundi history. Includes case studies and debates of ethical conundrums involving magic and the politics behind its use.',
   },
-  "Healing" : {
+  "Healing": {
     notes: 'A practical course in how to diagnose and treat magical maladies and mishaps. Includes spells for healing trauma, antidotes for curing poison, and an in-depth look at the potential for mundane medicine to be combined with magic.',
   },
-  "Herbology" : {
+  "Herbology": {
     notes: 'A study into both the ecology and properties of magical plants. Includes hands-on work with parabotanical specimens as well as plant identification, harvesting, care, distillation and theoretical work about the magical and medicinal properties.',
   },
-  "Magical Combat & Defense" : {
+  "Magical Combat & Defense": {
     notes: 'this course focuses on physical training and offensive and defensive spellcasting to help wizards prevail against a variety of villains, monsters and cursed objects.',
   },
-  "Rituals & Evocation" : {
+  "Rituals & Evocation": {
     notes: 'The basics of creating a magic circle, opening and closing a ritual, and combining magical energies to protect, heal, summon, banish, and more.',
   },
-  "Rune Lore" : {
+  "Rune Lore": {
     notes: 'A look at Futhark runes, bound runes and other runic languages. Explore what a rune is comprised of, inscribed upon, and inscribed with, and which runes to use for desired effects.',
   },
 }
