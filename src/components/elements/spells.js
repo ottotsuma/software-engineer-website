@@ -3109,6 +3109,9 @@ export const spellList = {
   },
   "Mass fly": {
     name: "Mass fly",
+    element: ['wind'],
+    classes: [''],
+    species: [''],
     passive: false,
     1: "Gives a group of people the ability to fly.",
   },
