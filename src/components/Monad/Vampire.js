@@ -3,10 +3,10 @@ import styled from "styled-components";
 import Item from "./../elements/item";
 import Equipment from "./../elements/equipment";
 import Stats from "./../elements/stats";
-import Spells, {spellList} from "./../elements/spells";
+import Spells, { spellList } from "./../elements/spells";
 import { ListofMagicTypes } from "./../elements/spells";
 import { colors, monadColors, textColors } from "./../elements/colors";
-import {_try} from './../elements/util'
+import { _try } from './../elements/util'
 
 export function Mage() {
   const [type, SetType] = React.useState('mana')
@@ -14,15 +14,15 @@ export function Mage() {
   const ShownSpells = []
   for (let index = 0; index < entries.length; index++) {
     const elementArray = _try(() => entries[index][1].element, ['none'])
-    if(elementArray.includes(type)){
-      ShownSpells.push({name: entries[index][0], level: 1})
+    if (elementArray.includes(type)) {
+      ShownSpells.push({ name: entries[index][0], level: 1 })
     }
   }
   const MageTypes = ['mana', 'fire', 'metal', 'plant', 'water', 'earth', 'lightning', 'ice', 'wind', 'shadow', 'light', 'sound', 'poison', 'time', 'gravity', 'portal', 'spirit', 'blood', 'none']
   const TypesArray = []
   for (let index = 0; index < MageTypes.length; index++) {
     TypesArray.push(
-      <ElementalButton key={MageTypes[index] + 'button'} onClick={() => SetType(MageTypes[index])}>{MageTypes[index]}</ElementalButton>
+      <ElementalButton color={monadColors[MageTypes[index]]} key={MageTypes[index] + 'button'} onClick={() => SetType(MageTypes[index])}>{MageTypes[index]}</ElementalButton>
     )
   }
 
@@ -49,6 +49,7 @@ const ElementalButtonWrap = styled.div`
 const ElementalButton = styled.button`
   width: fit-content;
   padding: 2px;
+  background: ${props => props.color ? props.color : ''};
 `;
 
 export default function Vampire() {
@@ -320,7 +321,7 @@ export function SchoolSchedule() {
             background: colors.grey.light,
           }}
         >
-          <p>Option 1</p>
+          <p>Option 1 - Farming</p>
           <span>???</span>
           <span>???</span>
         </Block>
@@ -331,7 +332,7 @@ export function SchoolSchedule() {
             background: colors.grey.light,
           }}
         >
-          <p>Option 2</p>
+          <p>Option 2 - Beasts</p>
           <span>???</span>
           <span>???</span>
         </Block>
@@ -568,6 +569,17 @@ export function SchoolSchedule() {
           <p>Basics of being a mage</p>
           <span>Classroom</span>
           <span>Lubin</span>
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-7",
+            gridRow: "time-0900",
+            background: colors.grey.lighter,
+          }}
+        >
+          <p>The role of DPS</p>
+          <span>???</span>
+          <span>???</span>
         </Block>
         <Block
           style={{

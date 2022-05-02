@@ -428,7 +428,6 @@ https://reincarnationofthestrongestswordgod.fandom.com/wiki/Attributes
 Could defense and magic defense be rolled into vitality, magic and strength?
 
 Critical defense, parry, glance, defend
-
 ### Levels:
 
 Human body: Stats 0 - 10, 5 is normal and 10 is the best a human can get. (This is without mana.) 
@@ -450,7 +449,6 @@ Human body: Stats 0 - 10, 5 is normal and 10 is the best a human can get. (This 
 <li>100 - Class Advancement, Increase other properties of skills +3 times
 
 ---
-
 ### Class: 
 #### Class Ideas: 
 https://finalfantasy.fandom.com/wiki/Category:Jobs_in_Final_Fantasy_X-2
@@ -998,6 +996,28 @@ sword and shield, two handed, war hammer, battle axe, mace, spear? War scythe? h
 Sophia and Johnna's have sex while he is sick from after camping in the rain.
 Based on mesoamerican continent and ends with more advanced people landing slowly on the shores until the disease takes them then many come.
 ## Physical World
+### Elements
+  ['mana', 'fire', 'metal', 'plant', 'water', 'earth', 'lightning', 'ice', 'wind', 'shadow', 'light', 'sound', 'poison', 'time', 'gravity', 'portal', 'spirit', 'blood', 'none']
+
+  *** This should be more about the mixing, fire + earth = lava. Rather then an upgrade ***
+  Fire -> Inferno -> lava
+  metal -> stone -> crystal
+  Lightning -> electric -> plasma
+  Poison -> healing -> elixir
+  earth -> soil -> 
+  time -> vision -> future
+  light -> illumination -> 
+  wind -> hurricane -> storm?
+  shadow -> darkness -> nightmare
+  ice -> frost ->
+  water -> 
+  sound -> echo -> fear
+  plant ->
+  portal -> space ->
+  gravity -> 
+  spirit ->
+  blood -> 
+
 ### Monsters
 undead hags, water hags, blood corpse, flies, 
 
