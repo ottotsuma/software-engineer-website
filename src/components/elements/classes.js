@@ -266,21 +266,21 @@ export const classList = {
     notes: "",
     tier: "unique",
   },
-  Phoenix: {
-    stats: {
-      magic: 2,
-      willpower: 2,
-      HPMultiplier: -0.1,
-      MPMultiplier: 1.1,
-    },
-    team: "Fire Resistance +1%",
-    self: "",
-    image:
-      "https://images.squarespace-cdn.com/content/v1/57d34a6d725e254062172fe9/1579643445519-XXWBWFTZIZ23TNWBECJI/thumbnail_phoenix+rising.jpg",
-    notes:
-      "phenix is a long-lived bird that is cyclically regenerated or reborn.",
-    tier: "epic",
-  },
+  // Phoenix: {
+  //   stats: {
+  //     magic: 2,
+  //     willpower: 2,
+  //     HPMultiplier: -0.1,
+  //     MPMultiplier: 1.1,
+  //   },
+  //   team: "Fire Resistance +1%",
+  //   self: "",
+  //   image:
+  //     "https://images.squarespace-cdn.com/content/v1/57d34a6d725e254062172fe9/1579643445519-XXWBWFTZIZ23TNWBECJI/thumbnail_phoenix+rising.jpg",
+  //   notes:
+  //     "phenix is a long-lived bird that is cyclically regenerated or reborn.",
+  //   tier: "epic",
+  // },
 };
 
 export default function ClassDisplay(Class) {

@@ -808,7 +808,7 @@ export function Hitori(Chapter) {
           name: "Hitori",
           level: 2,
           rank: 'F',
-          class: "Phoenix",
+          // class: "Phoenix",
           species: "Human",
           skills: 2,
           passives: 0,

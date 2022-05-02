@@ -265,6 +265,21 @@ export const racesList = {
     tier: "rare",
     disc: "The wendigo is often said to be a malevolent spirit, sometimes depicted as a creature with human-like characteristics, which possesses human beings. The wendigo is known to invoke feelings of insatiable greed/hunger, the desire to cannibalize other humans, as well as the propensity to commit murder in those that fall under its influence.",
   },
+  Phoenix: {
+    stats: {
+      magic: 2,
+      willpower: 2,
+      HPMultiplier: -0.1,
+      MPMultiplier: 1.1,
+    },
+    team: "Fire Resistance +1%",
+    self: "",
+    image:
+      "https://images.squarespace-cdn.com/content/v1/57d34a6d725e254062172fe9/1579643445519-XXWBWFTZIZ23TNWBECJI/thumbnail_phoenix+rising.jpg",
+    notes:
+      "phenix is a long-lived bird that is cyclically regenerated or reborn.",
+    tier: "epic",
+  },
 };
 // Bakeneko (monster) (one tail) cat demon,  & nekomata (species) (two tails), raises the dead with dances.
 
