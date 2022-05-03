@@ -32,7 +32,6 @@ export const MageTypes = [
   "beast",
   "none",
 ];
-
 export function Mage() {
   const [chosenElement, SetChosenElement] = React.useState("");
   const [chosenClass, SetChosenClass] = React.useState("");
@@ -236,6 +235,21 @@ const ElementalButton = styled.button`
 `;
 
 export default function Vampire() {
+  // Vampires can gain experience by trying new blood, creating ghouls and the exp gained from the ghouls fighting
+// all actions that would reveal the vampire would either cure or gain them exp or blood points to be used to improve their strength
+// that way younger vampires are more likely to do these things then the older ones who don't need strength as badly
+// Combined with the starving yourself (lower hp) increases you strength
+
+// Fast Regeneration
+// Life Absorption
+// Create Lesser Species by Bloodsucking
+// Weapon Resistance
+// Ice-type Damage Resistance
+
+// Slow movement penalty during Sunlight
+// Vulnerability to Holy Water.
+// Vulnerability to Silver weapons (only lesser vampires)
+// Added damage by Positive Energy
   const array = [];
   for (let index = 0; index < ListofMagicTypes.length; index++) {
     const element = ListofMagicTypes[index];
@@ -373,22 +387,6 @@ const SubTitle = styled.h4`
   color: red;
   text-decoration: underline;
 `;
-
-// Vampires can gain experience by trying new blood, creating ghouls and the exp gained from the ghouls fighting
-// all actions that would reveal the vampire would either cure or gain them exp or blood points to be used to improve their strength
-// that way younger vampires are more likely to do these things then the older ones who don't need strength as badly
-// Combined with the starving yourself (lower hp) increases you strength
-
-// Fast Regeneration
-// Life Absorption
-// Create Lesser Species by Bloodsucking
-// Weapon Resistance
-// Ice-type Damage Resistance
-
-// Slow movement penalty during Sunlight
-// Vulnerability to Holy Water.
-// Vulnerability to Silver weapons (only lesser vampires)
-// Added damage by Positive Energy
 
 export function SchoolSchedule() {
   return (
@@ -1038,7 +1036,6 @@ export const LessonOptions = {
       "A look at Futhark runes, bound runes and other runic languages. Explore what a rune is comprised of, inscribed upon, and inscribed with, and which runes to use for desired effects.",
   },
 };
-
 // There can be cross over lessons between branches. Healing and farming both use Herbalism.
 // https://powerlisting.fandom.com/wiki/Magic#Types_of_Magic
 
