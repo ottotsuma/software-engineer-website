@@ -237,6 +237,21 @@ export const spellList = {
       },
     },
   },
+  "Darkvision": {
+    note: ".",
+    name: "Darkvision",
+    element: ["shadow"],
+    classes: [],
+    species: ['Vampire', 'Ghoul', 'Zombie', 'Dwarf', 'Water Elf', 'Gnome'],
+    image: "",
+    negative: false,
+    passive: true,
+    1: ".",
+    stats: {
+      1: {
+      },
+    },
+  },
   "Snow Walk": {
     note: "You do not consider any snowy, icy surface, or arctic terrain as a difficult terrain.",
     name: "Snow Walk",
