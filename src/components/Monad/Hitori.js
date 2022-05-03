@@ -136,9 +136,7 @@ export const HitoriStory = {
       <Hitori>
         Anyone who had ever heard of me always thought I was useless, always
         thought that the abilities I had were useless, but only I knew the
-        truth. My class was something my farther had found and protected,
-        something he passed to me when I was old enough. It was an unusual
-        class, with non-conventional abilities.
+        truth. My class was actually useless, in-fact I did not have a class. What was different about me was my species. My farther had found and protected a small bird he found on his travels, as a reward he was given a flame colored gem by the bird when it grew up, something which he passed to me when I was old enough. It was at that point my life became harder. I was unable to gain a class like everyone else, my new species also had very non-conventional abilities.
       </Hitori>
       <Hitori>
         While most of my classmates awakened regular classes, fighter, mage &
@@ -220,7 +218,7 @@ export const HitoriStory = {
       </Hitori>
       <Hitori>
         While most students spent time reading up on their class and skills. I
-        could not. There was no book about my class, no guide for which skills
+        could not. There was no book for people with no class or my new species, no guide for which skills
         to pick and combine; so instead I spent that time reading up on the next
         dungeon I would be sent to. The monsters found inside, the layout and
         the random factors that have occurred within. Since I had no guide to my

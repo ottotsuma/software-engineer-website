@@ -6,6 +6,7 @@ import ClassDisplay from "../elements/classes";
 
 export default function Otto() {
   // Ch32
+  // Flaw: Anger
   return (
     <div style={{ color: "black" }}>
       <div style={{ display: "flex", justifyContent: "center" }}>
@@ -245,6 +246,7 @@ export function DirtyOtto() {
   );
 }
 export function Kaja(Chapter) {
+    // Flaw: 
   if (Chapter < 36) {
     return (
       <Stats
@@ -346,6 +348,7 @@ export function Kaja(Chapter) {
   }
 }
 export function Tsuma(Chapter) {
+  // Flaw: Becomes sick often
   // https://en.uesp.net/wiki/Oblivion:Spells
   if (Chapter) {
     return (
@@ -437,6 +440,7 @@ export function Tsuma(Chapter) {
   }
 }
 export function Noah(Chapter) {
+  // Flaw: 
   if (Chapter) {
     return (
       <Stats
@@ -547,6 +551,7 @@ export function Noah(Chapter) {
   }
 }
 export function Sarah(Chapter) {
+    // Flaw: 
   if (Chapter) {
     return (
       <Stats
@@ -712,6 +717,7 @@ export function Sarah(Chapter) {
   }
 }
 export function Josh(Chapter) {
+    // Flaw: 
   if (Chapter) {
     return (
       <Stats
@@ -808,8 +814,8 @@ export function Hitori(Chapter) {
           name: "Hitori",
           level: 2,
           rank: 'F',
-          // class: "Phoenix",
-          species: "Human",
+          class: "-",
+          species: "Phoenix",
           skills: 2,
           passives: 0,
           "skill points": 2-2, // from class 1 per level (normal/rare/epic/legendary)
@@ -830,13 +836,14 @@ export function Hitori(Chapter) {
         titles={["Student"]}
         showSkills={true}
         skills={{
-          human: [
+          Phoenix: [
             // Above is all (I)
-          ],
-          phoenix: [
             { name: "Rebirth Flame", level: 1 },
             { name: "Birthed In Flame", level: 1 },
           ],
+          // phoenix: [
+
+          // ],
           conditions: [
             // Negatives
           ],
@@ -874,6 +881,7 @@ export function Hitori(Chapter) {
   }
 }
 export function Linhart() {
+  // Flaw: 
   return (
     <div>
       <p>1: They are in a zone of comfort</p>
@@ -896,6 +904,7 @@ export function Linhart() {
   );
 }
 export function Beke() {
+  // Flaw: 
   return (
     <div>
       <p>1: They are in a zone of comfort</p>
@@ -910,6 +919,7 @@ export function Beke() {
   );
 }
 export function Effi() {
+  // Flaw: 
   return (
     <div>
       <p>1: They are in a zone of comfort</p>
@@ -937,6 +947,7 @@ export function Effi() {
   );
 }
 export function Nils() {
+  // Flaw: 
   return (
     <div>
       <p>1: They are in a zone of comfort</p>
