@@ -903,9 +903,6 @@ export const SchoolClubs = {
   "Divination Club": {
     notes: "",
   },
-  "Farming Club": {
-    notes: "",
-  },
   "Fishing Club": {
     notes: "",
   },
@@ -963,10 +960,30 @@ export const SchoolClubs = {
   "Household magic Club": {
     notes: "",
   },
-  "Farming": {
+  "Farming Club": {
     notes: "Weather magic, Botany, Herbalism, Animal magic, Magizoology",
   },
-  // Reading, Foreign Language, Improv, Acting, Writing, Dance, Book, Pottery
+  "Reading Club": {
+    notes: "",
+  },
+  "Foreign Language Club": {
+    notes: "",
+  },
+  "Improv Club": {
+    notes: "",
+  },
+  "Acting Club": {
+    notes: "",
+  },
+  "Writing Club": {
+    notes: "",
+  },
+  "Dancing Club": {
+    notes: "",
+  },
+  "Pottery Club": {
+    notes: "",
+  },
 };
 // Lessons are run by the academy and teachers, Clubs are student run.
 export const LessonOptions = {
