@@ -265,8 +265,8 @@ export default function Vampire() {
       {Object.keys(LessonOptions)}
       <h4>Magic Types</h4>
       {array}
-      <h1>Blood Skills for any blood ability user:</h1>
-      <Spells
+      {/* <h1>Blood Skills for any blood ability user:</h1> */}
+      {/* <Spells
         spells={[
           { name: "Raining blood", level: 1 },
           { name: "Blood Storm", level: 1 },
@@ -306,14 +306,14 @@ export default function Vampire() {
           { name: "Blood Mist", level: 1 },
         ]}
         type={"mage"}
-      />
+      /> */}
 
       {/* 
       https://my-vampire-system.fandom.com/wiki/Quinn_Talen/Abilities
       */}
-      <div className="BreakPoint" />
-      <h1>Vampire specific skills (Blood + Other)</h1>
-      <Spells
+      {/* <div className="BreakPoint" /> */}
+      {/* <h1>Vampire specific skills (Blood + Other)</h1> */}
+      {/* <Spells
         spells={[
           { name: "Vampiric Powers", level: 1 },
           { name: "Hammer Strike", level: 1 },
@@ -340,12 +340,12 @@ export default function Vampire() {
           { name: "Noxiphilic Sanguivoria", level: 1, negative: true },
           { name: "Sanguinare Vampiris", level: 1, negative: true },
           { name: "Porphyria cutanea tarda", level: 1, negative: true },
-          { name: "Porphyria ", level: 1, negative: true },
+          { name: "Porphyria", level: 1, negative: true },
 
           // Drain Fatigue 5pts, Vampirism (after a three day incubation period)
         ]}
         type={"human"}
-      />
+      /> */}
       {/*  crimson flash, vampiric drain, vampiric wings, crimson aegis, Undying body, immortal body, unyielding blood demon, telepathy, fartalk */}
       <h1>Vampire Ranks</h1>
       <SubTitle>Vampires</SubTitle>

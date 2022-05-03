@@ -16,7 +16,7 @@ export const racesList = {
       magic: 1,
       willpower: -1,
     },
-    
+
     self: "",
     images: [
       "https://wpcdn.us-midwest-1.vip.tn-cloud.net/www.rimonthly.com/content/uploads/2020/06/Binturong-cute.jpg",
@@ -50,7 +50,6 @@ export const racesList = {
   },
   Human: {
     stats: { charisma: 2, sense: 1 },
-    
     self: "Can use all basic tools.",
     images: "",
     notes: "",
@@ -58,7 +57,7 @@ export const racesList = {
   },
   "mana creature": {
     stats: { magic: 5 },
-    
+
     self: "Made of Mana, Magic +5.",
     images: "",
     notes: "All HP is converted to MP. When MP reaches zero, you will die.",
@@ -66,7 +65,7 @@ export const racesList = {
   },
   Orc: {
     stats: { strength: 2, vitality: 1 },
-    
+
     self: "Small health regen when in combat.",
     images: "",
     notes: "",
@@ -74,7 +73,7 @@ export const racesList = {
   },
   Gnoll: {
     stats: { sense: -2, dexterity: 1 },
-    
+
     self: "Can gain access to spells/abilities early from their Demon Lord.",
     images: "",
     notes: "",
@@ -82,7 +81,7 @@ export const racesList = {
   },
   Kemonomimi: {
     stats: { Sense: 2, Dexterity: 1 },
-    
+
     self: "Their claws given them a built in weapon.",
     images: "",
     notes:
@@ -91,7 +90,7 @@ export const racesList = {
   },
   Dwarf: {
     stats: { Vitality: 2, Strength: 1 },
-    
+
     self: "Small resistance to spell effects, but lower success with spells.",
     images: "",
     notes: "",
@@ -99,7 +98,7 @@ export const racesList = {
   },
   Elf: {
     stats: { charisma: 2, Magic: 1 },
-    
+
     self: "Charming is easier.",
     images: "",
     notes: "[Woodland / Sun elves, Sylvan ]🧝‍♂️, Plant element.",
@@ -107,7 +106,7 @@ export const racesList = {
   },
   "Snow Elf": {
     stats: {},
-    
+
     self: "Cold resist +5%.",
     images: "",
     notes: "Cave elves, Ice element.",
@@ -115,7 +114,7 @@ export const racesList = {
   },
   "Dark Elf": {
     stats: { willpower: 2 },
-    
+
     self: "Resist heat +5%.",
     images: "",
     notes:
@@ -125,7 +124,7 @@ export const racesList = {
   },
   "Water Elf": {
     stats: {},
-    
+
     self: "Can breath underwater.",
     images: "",
     notes: "Sea Elf, Water Element.",
@@ -139,7 +138,7 @@ export const racesList = {
       dexterity: 1,
       sense: 1,
     },
-    
+
     self: "Blood magic is always unlocked. 🧛‍♂️",
     images: "",
     notes:
@@ -148,7 +147,7 @@ export const racesList = {
   },
   Automitia: {
     stats: {},
-    
+
     self: "",
     images: "",
     notes: "",
@@ -156,7 +155,7 @@ export const racesList = {
   },
   Undead: {
     stats: {},
-    
+
     self: "",
     images: "",
     notes: "",
@@ -164,7 +163,7 @@ export const racesList = {
   },
   Krogan: {
     stats: {},
-    
+
     self: "",
     images: "",
     notes: "",
@@ -172,7 +171,7 @@ export const racesList = {
   },
   Turian: {
     stats: {},
-    
+
     self: "",
     images: "",
     notes: "",
@@ -180,7 +179,7 @@ export const racesList = {
   },
   Fairy: {
     stats: {},
-    
+
     self: "",
     images: "",
     notes: "🧚‍♀️",
@@ -188,7 +187,7 @@ export const racesList = {
   },
   Zombie: {
     stats: {},
-    
+
     self: "",
     images: "",
     notes: "🧟‍♂️",
@@ -196,7 +195,7 @@ export const racesList = {
   },
   Mermaid: {
     stats: {},
-    
+
     self: "",
     images: "",
     notes: "🧜‍♀️",
@@ -204,7 +203,7 @@ export const racesList = {
   },
   "Thri-kreen": {
     stats: {},
-    
+
     self: "",
     images: "",
     notes: "",
@@ -212,7 +211,7 @@ export const racesList = {
   },
   Kenku: {
     stats: {},
-    
+
     self: "",
     images: "",
     notes: "",
@@ -220,7 +219,7 @@ export const racesList = {
   },
   Kitsune: {
     stats: {},
-    
+
     self: "",
     images: "",
     notes: "",
@@ -228,7 +227,7 @@ export const racesList = {
   },
   Goblin: {
     stats: {},
-    
+
     self: "",
     images: "",
     notes: "",
@@ -236,7 +235,7 @@ export const racesList = {
   },
   Troglodytes: {
     stats: {},
-    
+
     self: "",
     images: "",
     notes: "",
@@ -256,7 +255,7 @@ export const racesList = {
       charisma: -2,
     },
     stats: {},
-    
+
     self: "Eating human flesh rejuvenate the Wendigo.",
     images: [
       "https://www.gmbinder.com/images/Aq4ozf8.png",

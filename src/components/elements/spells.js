@@ -237,6 +237,126 @@ export const spellList = {
       },
     },
   },
+  "Snow Walk": {
+    note: "You do not consider any snowy, icy surface, or arctic terrain as a difficult terrain.",
+    name: "Snow Walk",
+    element: ["ice"],
+    classes: [],
+    species: ['Snow Elf'],
+    image: "",
+    negative: false,
+    passive: true,
+    1: "You are easily able to traverse any snowy, icy surface, or arctic terrain.",
+    stats: {
+      1: {
+      },
+    },
+  },
+  "Cold Resist": {
+    note: "Snow Elves are resistant to cold damage, taking 1/2 dmg..",
+    name: "Cold Resist",
+    element: ["ice"],
+    classes: [],
+    species: ['Snow Elf'],
+    image: "",
+    negative: false,
+    passive: true,
+    1: "You can resist cold damage.",
+    stats: {
+      1: {
+      },
+    },
+  },
+  "Fire Vulnerability": {
+    note: "You take double damage if attacked by a weapon or spell dealing fire damage",
+    name: "Fire Vulnerability",
+    element: ["fire"],
+    classes: [],
+    species: ['Snow Elf'],
+    image: "",
+    negative: true,
+    passive: true,
+    1: "You take more damage if attacked by a weapon or spell dealing fire damage.",
+    stats: {
+      1: {
+      },
+    },
+  },
+  "Porphyric Hemophilia": {
+    note: "Porphyric Hemophilia is the disease that causes vampirism if left uncured.",
+    name: "Porphyric Hemophilia",
+    element: ["blood"],
+    classes: [],
+    species: ['Vampire'],
+    image: "",
+    negative: true,
+    passive: true,
+    1: ".",
+    stats: {
+      1: {
+      },
+    },
+  },
+  "Sanguinare Vampiris": {
+    note: "",
+    name: "Sanguinare Vampiris",
+    element: ["blood"],
+    classes: [],
+    species: ['Vampire'],
+    image: "",
+    negative: true,
+    passive: true,
+    1: "Maybe delete this? It's some EOS term.",
+    stats: {
+      1: {
+      },
+    },
+  },
+  "Porphyria cutanea tarda": {
+    note: "Porphyria cutanea tarda (PCT) is a rare disorder characterized by painful, blistering skin lesions that develop on sun-exposed skin (photosensitivity). Affected skin is fragile and may peel or blister after minor trauma. Liver abnormalities may also occur.",
+    name: "Porphyria cutanea tarda",
+    element: ["blood"],
+    classes: [],
+    species: ['Vampire'],
+    image: "",
+    negative: true,
+    passive: true,
+    1: ".",
+    stats: {
+      1: {
+      },
+    },
+  },
+  "Noxiphilic Sanguivoria": {
+    note: ".",
+    name: "Noxiphilic Sanguivoria",
+    element: ["blood"],
+    classes: [],
+    species: ['Vampire'],
+    image: "",
+    negative: true,
+    passive: true,
+    1: "Maybe delete this? It's some EOS term.",
+    stats: {
+      1: {
+      },
+    },
+  },
+  "Porphyria": {
+    note: ".",
+    name: "Porphyria",
+    element: ["blood"],
+    classes: [],
+    species: ['Vampire'],
+    image: "",
+    negative: true,
+    passive: true,
+    1: "Short for 'Porphyria cutanea tarda' see that skill to understand more about it.",
+    stats: {
+      1: {
+      },
+    },
+  },
   Player: {
     note: "Not an NPC.",
     name: "Astral soul projection",
