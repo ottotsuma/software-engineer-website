@@ -146,9 +146,9 @@ export function Mage() {
       const temp = [];
       for (let index = 0; index < savedElements.length; index++) {
         for (let j = 0; j < savedSpecies.length; j++) {
-          if (savedElements[index].name === savedSpecies[j].name) {
+          if (_try(() => savedElements[index].name) === _try(() => savedSpecies[j].name)) {
             for (let x = 0; x < savedClasses.length; x++) {
-              if (savedElements[index].name === savedClasses[j].name) {
+              if (_try(() => savedElements[index].name) === _try(() =>savedClasses[j].name)) {
                 temp.push(savedElements[index]);
               }
             }
