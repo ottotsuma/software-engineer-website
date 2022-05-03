@@ -942,12 +942,43 @@ export const SchoolClubs = {
   "Ancient magic Club": {
     notes: "",
   },
-  // Love magic, Astronomy,  Mental magic, Broomology, Divination, Study of Ancient Runes, Transfiguration, Wandlore, Household magic
-  // Farming: - Weather magic, Botany, Herbalism, Animal magic, Magizoology,
+  "Love magic Club": {
+    notes: "",
+  },
+  "Astronomy Club": {
+    notes: "",
+  },
+  "Mental magic Club": {
+    notes: "",
+  },
+  "Flying Club": {
+    notes: "",
+  },
+  "Ancient Runes Club": {
+    notes: "",
+  },
+  "Transfiguration Club": {
+    notes: "",
+  },
+  "Household magic Club": {
+    notes: "",
+  },
+  "Farming": {
+    notes: "Weather magic, Botany, Herbalism, Animal magic, Magizoology",
+  },
   // Reading, Foreign Language, Improv, Acting, Writing, Dance, Book, Pottery
 };
 // Lessons are run by the academy and teachers, Clubs are student run.
 export const LessonOptions = {
+  "Aviation": {
+    notes: "",
+  },
+  "Transfiguration": {
+    notes: "",
+  },
+  "Household Magic": {
+    notes: "",
+  },
   Enchanting: {
     notes: "",
   },
