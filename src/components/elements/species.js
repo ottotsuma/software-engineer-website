@@ -48,6 +48,23 @@ export const racesList = {
     disc: "The red panda (Ailurus fulgens), also known as the lesser panda, is a small mammal native to the eastern Himalayas and southwestern China. It has dense reddish-brown fur with a black belly and legs, white-lined ears, a mostly white muzzle and a ringed tail. Its head-to-body length is 51–63.5 cm (20.1–25.0 in) with a 28–48.5 cm (11.0–19.1 in) tail, and it weighs between 3.2 and 15 kg (7.1 and 33.1 lb). It is well adapted to climbing due to its flexible joints and curved semi-retractile claws.",
     // https://powerlisting.fandom.com/wiki/Red_Panda_Physiology & https://tier-zoo.fandom.com/wiki/Red_Panda
   },
+  "Flaming Parrot": {
+    name: "Flaming Parrot",
+    stats: {
+      charisma: 0,
+      vitality: 0,
+      dexterity: 0,
+      endurance: 0,
+      magic: 0,
+      willpower: 0,
+    },
+    self: "Is constantly on fire.",
+    images: [
+    ],
+    notes: "",
+    tier: "unique",
+    disc: "This parrot's feathers constantly burn. Combined with it's amazing ability to see in the dark, this leaves the parrot's eyes in constant pain.",
+  },
   Human: {
     stats: { charisma: 2, sense: 1 },
     self: "Can use all basic tools.",

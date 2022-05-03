@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import Item from "./../elements/item";
 import Equipment from "./../elements/equipment";
@@ -6,9 +6,10 @@ import Stats from "./../elements/stats";
 import Spells, { spellList } from "./../elements/spells";
 import { ListofMagicTypes } from "./../elements/spells";
 import { colors, monadColors, textColors } from "./../elements/colors";
-import { _try } from "./../elements/util";
+import { _try, imageError } from "./../elements/util";
 import { racesList } from "./../elements/species";
 import { classList } from "./../elements/classes";
+import Empty from "./../../assets/empty.gif";
 
 export const MageTypes = [
   "mana",
@@ -32,17 +33,17 @@ export const MageTypes = [
   "beast",
   "none",
 ];
-export function Mage() {
-  const [chosenElement, SetChosenElement] = React.useState("");
-  const [chosenClass, SetChosenClass] = React.useState("");
-  const [chosenSpecies, SetChosenSpecies] = React.useState("");
-  const [shownSpells, SetShownSpells] = React.useState([]);
-  const [elementalsArray, SetElementalsArray] = React.useState([]);
-  const [classesArray, SetClassesArray] = React.useState([]);
-  const [speciesArray, SetSpeciesArray] = React.useState([]);
+export function SpellFinder() {
+  const [chosenElement, SetChosenElement] = useState("");
+  const [chosenClass, SetChosenClass] = useState("");
+  const [chosenSpecies, SetChosenSpecies] = useState("");
+  const [shownSpells, SetShownSpells] = useState([]);
+  const [elementalsArray, SetElementalsArray] = useState([]);
+  const [classesArray, SetClassesArray] = useState([]);
+  const [speciesArray, SetSpeciesArray] = useState([]);
   const entries = Object.entries(spellList);
 
-  React.useEffect(() => {
+  useEffect(() => {
     const ElementTypesArray = [];
     const ClassButtonsArray = [];
     const SpeciesButtonsArray = [];
@@ -119,9 +120,7 @@ export function Mage() {
     SetElementalsArray(ElementTypesArray);
     SetClassesArray(ClassButtonsArray);
     SetSpeciesArray(SpeciesButtonsArray);
-  }, [chosenElement, chosenClass, chosenSpecies]);
 
-  React.useEffect(() => {
     // Find all the spells with the 'chosenElement'
     const savedElements = [];
     const savedClasses = [];
@@ -145,9 +144,15 @@ export function Mage() {
       const temp = [];
       for (let index = 0; index < savedElements.length; index++) {
         for (let j = 0; j < savedSpecies.length; j++) {
-          if (_try(() => savedElements[index].name) === _try(() => savedSpecies[j].name)) {
+          if (
+            _try(() => savedElements[index].name) ===
+            _try(() => savedSpecies[j].name)
+          ) {
             for (let x = 0; x < savedClasses.length; x++) {
-              if (_try(() => savedElements[index].name) === _try(() =>savedClasses[j].name)) {
+              if (
+                _try(() => savedElements[index].name) ===
+                _try(() => savedClasses[j].name)
+              ) {
                 temp.push(savedElements[index]);
               }
             }
@@ -209,6 +214,7 @@ export function Mage() {
       <ChoiceButtonWrap>{classesArray}</ChoiceButtonWrap>
       <ChoiceButtonWrap>{speciesArray}</ChoiceButtonWrap>
       <Spells spells={shownSpells} type={"mage"} />
+      {chosenSpecies ? <BeastPage name={chosenSpecies} /> : <div />}
     </Wrap>
   );
 }
@@ -236,20 +242,20 @@ const ElementalButton = styled.button`
 
 export default function Vampire() {
   // Vampires can gain experience by trying new blood, creating ghouls and the exp gained from the ghouls fighting
-// all actions that would reveal the vampire would either cure or gain them exp or blood points to be used to improve their strength
-// that way younger vampires are more likely to do these things then the older ones who don't need strength as badly
-// Combined with the starving yourself (lower hp) increases you strength
+  // all actions that would reveal the vampire would either cure or gain them exp or blood points to be used to improve their strength
+  // that way younger vampires are more likely to do these things then the older ones who don't need strength as badly
+  // Combined with the starving yourself (lower hp) increases you strength
 
-// Fast Regeneration
-// Life Absorption
-// Create Lesser Species by Bloodsucking
-// Weapon Resistance
-// Ice-type Damage Resistance
+  // Fast Regeneration
+  // Life Absorption
+  // Create Lesser Species by Bloodsucking
+  // Weapon Resistance
+  // Ice-type Damage Resistance
 
-// Slow movement penalty during Sunlight
-// Vulnerability to Holy Water.
-// Vulnerability to Silver weapons (only lesser vampires)
-// Added damage by Positive Energy
+  // Slow movement penalty during Sunlight
+  // Vulnerability to Holy Water.
+  // Vulnerability to Silver weapons (only lesser vampires)
+  // Added damage by Positive Energy
   const array = [];
   for (let index = 0; index < ListofMagicTypes.length; index++) {
     const element = ListofMagicTypes[index];
@@ -257,7 +263,7 @@ export default function Vampire() {
   }
   return (
     <div>
-      <Mage />
+      <SpellFinder />
       <SchoolSchedule />
       <h4>Clubs</h4>
       {Object.keys(SchoolClubs)}
@@ -987,10 +993,10 @@ export const SchoolClubs = {
 };
 // Lessons are run by the academy and teachers, Clubs are student run.
 export const LessonOptions = {
-  "Aviation": {
+  Aviation: {
     notes: "",
   },
-  "Transfiguration": {
+  Transfiguration: {
     notes: "",
   },
   "Household Magic": {
@@ -1137,4 +1143,118 @@ const DayTitle = styled.div`
   align-items: center;
   display: flex;
   justify-content: center;
+`;
+
+export function BeastPage({ name }) {
+  const [beast, setBeast] = useState({});
+  useEffect(() => {
+    console.log(racesList[name], name);
+    if (name) {
+      setBeast(racesList[name]);
+    }
+  }, [name]);
+
+  if (beast) {
+    return (
+      <BeastContainer
+        r={Math.min(window.outerWidth / 600, window.outerHeight / 917)}
+        width={window.outerWidth}
+        height={window.outerHeight}
+      >
+        <Top>
+          <Title>{_try(() => beast.name)}</Title>
+          <Text>{_try(() => beast.disc)}</Text>
+        </Top>
+        <Mid>
+          <StatsContainer>
+            <Stats
+              type={"description"}
+              removeHPMP={true}
+              stats={{
+                // name: "",
+                level: beast.level || 0,
+                species: beast.name,
+                vitality: _try(() => beast[beast.level].vitality, 0),
+                strength: _try(() => beast[beast.level].strength, 0),
+                endurance: _try(() => beast[beast.level].endurance, 0),
+                magic: _try(() => beast[beast.level].magic, 0),
+                willpower: _try(() => beast[beast.level].willpower, 0),
+                dexterity: _try(() => beast[beast.level].dexterity, 0),
+                sense: _try(() => beast[beast.level].sense, 0),
+                charisma: _try(() => beast[beast.level].charisma, 0),
+              }}
+            />
+          </StatsContainer>
+          <BeastImage1
+            onError={imageError}
+            src={_try(() => beast.images[0], Empty)}
+            alt="Screen-Shot"
+          />
+        </Mid>
+        <Bot>
+          <BeastImage2
+            onError={imageError}
+            src={_try(() => beast.images[1], Empty)}
+            alt="Screen-Shot"
+          />
+        </Bot>
+      </BeastContainer>
+    );
+  } else {
+    return <div />;
+  }
+}
+const BeastContainer = styled.div`
+  background-image: url("https://img.freepik.com/free-photo/crumpled-paper-background_1373-412.jpg?size=626&ext=jpg&ga=GA1.2.1745401800.1611187200");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 917px;
+  max-height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transform: translateY(${(props) => props.height / 20}px);
+  zoom: ${(props) => props.r};
+`;
+const Title = styled.div`
+  color: black;
+  max-height: 30%;
+  font-size: 42px;
+`;
+const Text = styled.div`
+  color: black;
+  margin: 0px 20px;
+  max-height: 70%;
+  overflow: auto;
+  white-space: break-spaces;
+`;
+const StatsContainer = styled.div`
+  color: black;
+  overflow: auto;
+`;
+const BeastImage1 = styled.img`
+  width: 300px;
+  height: 90%;
+`;
+const BeastImage2 = styled.img`
+  width: 100%;
+  height: 100%;
+`;
+const Mid = styled.div`
+  //  height: 337px;
+  display: flex;
+  justify-content: space-around;
+  max-height: 42%;
+  height: -webkit-fill-available;
+`;
+const Top = styled.div`
+  height: 300px;
+  max-height: 30%;
+`;
+const Bot = styled.div`
+  height: 280px;
+  display: flex;
+  align-items: flex-end;
+  max-height: 28%;
 `;
