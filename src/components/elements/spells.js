@@ -4852,7 +4852,7 @@ export const spellList = {
   "Cover": {
     name: "Cover",
     element: [""],
-    classes: ['Guardian'],
+    classes: ['Guardian', 'Paladin'],
     species: [''],
     image: "",
     negative: false,
@@ -4872,7 +4872,7 @@ export const spellList = {
   "Rampart": {
     name: "Rampart",
     element: [""],
-    classes: ['Guardian'],
+    classes: ['Guardian', 'Paladin'],
     species: [''],
     image: "",
     negative: false,
@@ -4882,7 +4882,7 @@ export const spellList = {
   "Sentinel": {
     name: "Sentinel",
     element: [""],
-    classes: ['Guardian'],
+    classes: ['Guardian', 'Paladin'],
     species: [''],
     image: "",
     negative: false,
@@ -4922,7 +4922,7 @@ export const spellList = {
   "Hallowed Ground": {
     name: "Hallowed Ground",
     element: [""],
-    classes: ['Guardian'],
+    classes: ['Guardian', 'Paladin'],
     species: [''],
     image: "",
     negative: false,
@@ -4932,7 +4932,7 @@ export const spellList = {
   "Sanctuary": {
     name: "Sanctuary",
     element: [""],
-    classes: ['Guardian'],
+    classes: ['Guardian', 'Paladin'],
     species: [''],
     image: "",
     negative: false,
@@ -5009,20 +5009,36 @@ export const spellList = {
     passive: false,
     1: "Provoke and tease them so that they want to attack you.",
   },
-
-// Knight
-// Def up, Increases Def(+) (9)
-// Mdef up, Increases Mdef(+) (9)
-// Crippling blow, Cripple the target with a sweeping blow
-
-// Paladin
-// Faith Spells
-// Cover
-// rampart
-// sentinel
-// Hallowed ground
-// Sanctuary (heal allies)
-
+  "Willpower Up": {
+    name: "Willpower Up",
+    element: [""],
+    classes: ['Knight'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "Increases Willpower.",
+  },
+  "Crippling Blow": {
+    name: "Crippling Blow",
+    element: [""],
+    classes: ['Knight'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "Cripple the target with a sweeping blow.",
+  },
+  "Crippling Blow": {
+    name: "Crippling Blow",
+    element: [""],
+    classes: ['Knight'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "Cripple the target with a sweeping blow.",
+  },
   // Phoenix Flame
   // https://en.uesp.net/wiki/Oblivion:Spells
 };
