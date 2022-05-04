@@ -242,7 +242,7 @@ export const spellList = {
     name: "Darkvision",
     element: ["shadow"],
     classes: [],
-    species: ['Vampire', 'Ghoul', 'Zombie', 'Dwarf', 'Water Elf', 'Gnome', 'Undead', 'Flaming Parrot'],
+    species: ['Vampire', 'Ghoul', 'Zombie', 'Dwarf', 'Water Elf', 'Gnome', 'Undead', 'Flaming Parrot', 'Snow Elf'],
     image: "",
     negative: false,
     passive: true,

@@ -66,6 +66,7 @@ export const racesList = {
     disc: "This parrot's feathers constantly burn. Combined with it's amazing ability to see in the dark, this leaves the parrot's eyes in constant pain.",
   },
   Human: {
+    name:"Human",
     stats: { charisma: 2, sense: 1 },
     self: "Can use all basic tools.",
     images: "",
@@ -84,7 +85,7 @@ export const racesList = {
     stats: { strength: 2, vitality: 1 },
 
     self: "Small health regen when in combat.",
-    images: "",
+    images: "", // 31bc50c58f7987af3eeb4217b6696c6f
     notes: "",
     tier: "normal",
   },
@@ -107,45 +108,50 @@ export const racesList = {
   },
   Dwarf: {
     stats: { Vitality: 2, Strength: 1 },
-
+    name: "Dwarf",
     self: "Small resistance to spell effects, but lower success with spells.",
     images: "",
     notes: "",
     tier: "normal",
+    disc:"Dwarves are often found around mountains, or deep underground. Even Dwarves that move to human cities build their houses underground. While they don't have complete Darkvision naturally, they are able to see in the dark as if there was a little light even when there is none.",
   },
   Elf: {
     stats: { charisma: 2, Magic: 1 },
-
+    name: "Woodland Elf",
     self: "Charming is easier.",
     images: "",
     notes: "[Woodland / Sun elves, Sylvan ]🧝‍♂️, Plant element.",
     tier: "normal",
+    disc: "Woodland Elves, more commonly referred to as just 'Elves' are the elves who stayed behind in the mother forest during the great split. They have an affinity with the plant element, and worship the nature of the forests. They consider other types of elves as cursed."
   },
   "Snow Elf": {
+    name:'Snow Elf',
     stats: {},
-
     self: "Cold resist +5%.",
-    images: "",
+    images: [],
     notes: "Cave elves, Ice element.",
     tier: "rare",
+    disc: "Snow elves are a branch of elves who split from their forest dwelling cousins to go north into the cold climate. They mostly live in caves in areas of tundra, ice or snow. They believe that the harsh environment is natures way of weeding out the weak. They have an affinity with ice element.",
   },
   "Dark Elf": {
+    name:'Desert Elf',
     stats: { willpower: 2 },
-
+    disc: "Desert Elves, also known as Dark Elves due to their ash-grey skin; are a branch of elves who split from their forest dwelling cousins to go south into the hot deserts. They mostly live nomadic lives. They believe that the sun which gives energy and life to all things is the blessing left by their God. They have an affinity with the fire element.",
     self: "Resist heat +5%.",
-    images: "",
+    images: [],
     notes:
       "Desert Elf, Umbral, Grey Elf, Ash Elf, NOT Drow. They make no sense. Fire element.",
     tier: "rare",
     link: "https://www.5esrd.com/races/elf/subrace-options/umbral-elf/, https://www.reddit.com/r/UnearthedArcana/comments/bha9uj/elven_subrace_ash_elf_a_tough_race_of_greyskinned/, https://www.artstation.com/artwork/zrZXd",
   },
   "Water Elf": {
+    name: "Water Elf",
     stats: {},
-
     self: "Can breath underwater.",
-    images: "",
+    images: [],
     notes: "Sea Elf, Water Element.",
     tier: "rare",
+    disc:'Water elves, a lost race of elves that set off into the sea during the great split of elves, they had seen the ocean had a great variety of nature and hoped to find the source. Their reverence for water has gained them the favor of the water element.',
   },
   Vampire: {
     stats: {
@@ -154,13 +160,21 @@ export const racesList = {
       magic: 1,
       dexterity: 1,
       sense: 1,
+      charisma: 1,
+      willpower: -2,
     },
 
     self: "Blood magic is always unlocked. 🧛‍♂️",
-    images: "",
     notes:
       '{ name: "Vampire Eyes", level: 1 }, { name: "Vampiric Powers", level: 1 },{ name: "Vampire", level: 1 },',
     tier: "rare",
+    images: [
+      "https://ottotsuma.github.io/images/people/7ba7da6ab05c5f29e2fd5bfc0516948c.jpg",
+      "https://ottotsuma.github.io/images/people/3cbeaef31df0449953933745c69dc0bc.jpg"
+      // 7ba7da6ab05c5f29e2fd5bfc0516948c, 3cbeaef31df0449953933745c69dc0bc, kururu_by_cglas_d9g4c3a-pre, 82f23c130566f90858bea74138c47f70
+    ],
+    disc: "Vampires are members of the undead. They excel in the use of Blood, being able to learn blood magic and blow skills though their vampire skill tree. They can become faster and stronger then average humanoids, however the stronger they become the stronger their weaknesses become. Direct weaknesses like: sunlight and fire; as well as their craving for blood.",
+    // https://powerlisting.fandom.com/wiki/Red_Panda_Physiology & https://tier-zoo.fandom.com/wiki/Red_Panda
   },
   Automitia: {
     stats: {},
