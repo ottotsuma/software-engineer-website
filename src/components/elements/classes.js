@@ -13,6 +13,7 @@ export const classList = {
     self: "",
     image:
       "https://ottotsuma.github.io/images/people/b5185cca016eecd75b62833fdf2cfc43.jpg",
+    images:["https://ottotsuma.github.io/images/people/b5185cca016eecd75b62833fdf2cfc43.jpg"],
     notes:
       "Solve all your problems with magic. Mages are the basic class for magical classes.",
     tier: "normal",
