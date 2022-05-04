@@ -113,7 +113,7 @@ export const racesList = {
     images: "",
     notes: "",
     tier: "normal",
-    disc:"Dwarves are often found around mountains, or deep underground. Even Dwarves that move to human cities build their houses underground. While they don't have complete Darkvision naturally, they are able to see in the dark as if there was a little light even when there is none.",
+    disc:"Dwarves are often found around mountains, or deep underground. Even Dwarves that move to human cities build their houses underground. While they don't have complete Dark Vision naturally, they are able to see in the dark as if there was a little light even when there is none.",
   },
   Elf: {
     stats: { charisma: 2, Magic: 1 },

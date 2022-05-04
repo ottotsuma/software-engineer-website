@@ -31,6 +31,7 @@ export const MageTypes = [
   "spirit",
   "blood",
   "beast",
+  "mental",
   "none",
 ];
 export function SpellFinder() {
