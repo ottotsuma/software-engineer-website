@@ -4738,11 +4738,67 @@ export const spellList = {
     passive: false,
     1: "Brings the dead under your control.",
   },
-// Macabre, Resistance to death (%) (1)
-// Séance, takes control of an undead (9)
-// Purge the holy, Increase damage to holy targets (5)
-// Summon Skeleton (9)
-// Summon skeleton Mage (9)
+  "Macabre": {
+    name: "Macabre",
+    element: ["shadow"],
+    classes: ['Necromancer'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "Resistance to death increased.",
+    note: "1% per level",
+  },
+  "Séance": {
+    name: "Séance",
+    element: ["shadow"],
+    classes: ['Necromancer'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "takes control of an undead.",
+  },
+  "Purge the holy": {
+    name: "Purge the holy",
+    element: ["shadow"],
+    classes: ['Necromancer'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: true,
+    1: "Increase damage to 'holy' targets.",
+  },
+  "Summon Skeleton": {
+    name: "Summon Skeleton",
+    element: ["shadow"],
+    classes: ['Necromancer'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "",
+  },
+  "Summon Skeleton Mage": {
+    name: "Summon Skeleton",
+    element: ["shadow"],
+    classes: ['Necromancer'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "",
+  },
+  "Vile Insight": {
+    name: "Vile Insight",
+    element: ["shadow"],
+    classes: ['Necromancer'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "A dark book of necromancy appears in the sorcerer's hand, imparting hideous secrets and increasing their unholy magic rating. (Ally)",
+  },
 // Vile Insight (Ally) (9)
 // Unholy Adept (+) (9)
 // Unholy Seinor (+) (9)
