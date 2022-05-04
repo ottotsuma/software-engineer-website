@@ -4688,6 +4688,98 @@ export const spellList = {
     passive: true,
     1: "A body birthed in flames holders stronger affinity with fire, +5% increase to all fire related abilities.",
   },
+  "Corpse Explosion": {
+    name: "Corpse Explosion",
+    element: ["shadow"],
+    classes: ['Necromancer'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "Explode the target corpse, dealing damage in the area.",
+  },
+  "Life Tap": {
+    name: "Life Tap",
+    element: ["shadow"],
+    classes: ['Necromancer'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "Siphon`s the life force of the target.",
+  },
+  "Necromancer Occult": {
+    name: "Necromancer Occult",
+    element: ["shadow"],
+    classes: ['Necromancer'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: true,
+    1: "Control undead increases.",
+  },
+  "Soul Harvest": {
+    name: "Soul Harvest",
+    element: ["shadow"],
+    classes: ['Necromancer'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "Turns the dead into your health.",
+  },
+  "Animate Undead": {
+    name: "Animate Undead",
+    element: ["shadow"],
+    classes: ['Necromancer'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "Brings the dead under your control.",
+  },
+// Macabre, Resistance to death (%) (1)
+// Séance, takes control of an undead (9)
+// Purge the holy, Increase damage to holy targets (5)
+// Summon Skeleton (9)
+// Summon skeleton Mage (9)
+// Vile Insight (Ally) (9)
+// Unholy Adept (+) (9)
+// Unholy Seinor (+) (9)
+// Unholy Sage (+) (9)
+
+// Guardian !
+// Guardian Angel, Allies in melee range redirect X% of received damage to you.
+// Defense Up 2, Increases Def(+) (9)
+// Cover
+// Sheltron
+// rampart
+// sentinel
+// Testudo
+// push back
+// Shelter (healing)
+// Hallowed ground
+// Sanctuary (heal allies)
+// Stand your ground!(allies)
+
+// Fighter
+// Charge, Moves quickly in a straight line (1)
+// Heavy blow, High damage output strike (1)
+// Battle shout, Increases the stats of allies (9)
+// Strength up, Increases Strength(+) (9)
+// Vitality up, Increases Vitality(+) (9)
+// Provoke, Provoke and tease them so that they want to attack you.
+// Knight
+// Def up, Increases Def(+) (9)
+// Mdef up, Increases Mdef(+) (9)
+// Crippling blow, Cripple the target with a sweeping blow
+// Paladin
+// Faith Spells
+// Cover
+// rampart
+// sentinel
+// Hallowed ground
+// Sanctuary (heal allies)
   // Phoenix Flame
   // https://en.uesp.net/wiki/Oblivion:Spells
 };
@@ -4751,7 +4843,7 @@ function Spells({ spells, type }) {
         </SingleSpell>
       );
     }
-  }
+  }  
   //  IF classList contains Type then it's a class skill
 
   function getTitle(type) {

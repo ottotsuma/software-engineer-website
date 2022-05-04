@@ -322,7 +322,7 @@ export default function RaceDisplay(Species) {
       <BackgroundWrap>
         <Wrap Tier={monadColors[Data.tier] || ""}>
           <Name>{Species}</Name>
-          {Data.image ? <Display src={Data.image} alt={Species} /> : <></>}
+          {Data.images && Data.images[0] ? <Display src={Data.images[0]} alt={Species} /> : <></>}
           <Info>{Data.notes ? Data.notes : ""}</Info>
           <Self>{Data.self ? "Self: " + Data.self : ""}</Self>
           <Team>{Data.team ? "Team Bonus: " + Data.team : ""}</Team>
