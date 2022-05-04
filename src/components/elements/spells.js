@@ -502,8 +502,8 @@ export const spellList = {
     note: "Rogue",
     name: "Headbutt",
     element: ["none"],
-    classes: ["Rogue"],
-    species: [],
+    classes: ["Rogue", "Fighter"],
+    species: ['Goat'],
     image: "",
     1: "Has a chance to stun the target. Recoil damage.",
   },
@@ -518,6 +518,8 @@ export const spellList = {
   },
   "Charged Charge": {
     element: ["lightning"],
+    classes: [],
+    species: [],
     name: "Charged Charge",
     1: "Stimulates your muscles in your legs with lightning shocks, to boost your speed.",
     2: "Move 5% faster while charging.",
@@ -528,68 +530,92 @@ export const spellList = {
   "Lightning Storm": {
     name: "Lightning Storm",
     element: ["lightning"],
+    classes: [],
+    species: [],
     1: "Call lightning to randomly strike an area.",
   },
   "Wall of Lightning": {
     name: "Wall of Lightning",
     element: ["lightning"],
+    classes: ['Mage'],
+    species: [],
     1: "Raise a wall of lightning before you.",
   },
   "Static Field": {
     name: "Static Field",
     element: ["lightning"],
+    classes: ['Mage'],
+    species: [],
     1: "All lighting in this area will do more damage.",
   },
   Thunderbolt: {
     name: "Thunderbolt",
     element: ["lightning"],
+    classes: ['Mage'],
+    species: [],
     1: "Calls a thunder bolt from above onto the target.",
   },
   Discharge: {
     name: "Discharge",
     element: ["lightning"],
+    classes: ['Mage'],
+    species: [],
     1: "Explode lighting in all directions.",
   },
   "Lightning Cloak": {
     element: ["lightning"],
+    classes: ['Mage'],
+    species: [],
     name: "Lightning Cloak",
     1: "Covers yourself in lighting, shocking anyone who comes too close.",
   },
   "Lightning Rune": {
     name: "Lightning Rune",
+    classes: ['Mage'],
+    species: [],
     element: ["lightning"],
     1: "Injects lighting into a surface, will release when someone comes near.",
   },
   "Lightning Bolt": {
     name: "Lightning Bolt",
     element: ["lightning"],
+    classes: ['Mage'],
+    species: [],
     1: "Shoots a bolt of lightning at a target.",
   },
   Sparks: {
     name: "Sparks",
     element: ["lightning"],
-    classes: ["mage"],
+    classes: ["Mage"],
     species: [],
     1: "Shoots out multiple sparks in a random pattern.",
   },
   "Shocking Touch": {
     name: "Shocking Touch",
     element: ["lightning"],
+    classes: ['Mage'],
+    species: [],
     1: "Electrocutes a target you touch [You decide the body part it comes from].",
   },
   Thunderstorm: {
     name: "Thunderstorm",
     element: ["lightning"],
+    classes: ['Mage'],
+    species: [],
     1: "Change the clouds above to thunder clouds, making lighting strikes easier.",
   },
   "Dazing Bolt": {
     name: "Dazing Bolt",
     element: ["lightning"],
+    classes: ['Mage'],
+    species: [],
     1: "A lightning bolt that dazzles the opponent.",
   },
   "Chain Lightning": {
     name: "Chain Lightning",
     element: ["lightning"],
+    classes: ['Mage'],
+    species: [],
     1: "Shoots lightning at a target, part of the lighting will be redirected to near by targets.",
   },
   "Serpent Strike": {
@@ -692,16 +718,22 @@ export const spellList = {
   },
   "Lightning Plant": {
     element: ["lightning", "plant"],
+    classes: ["Kʼawiil"],
+    species: [""],
     name: "Lightning Plant",
     1: "Turn lightning seeds into lightning plants!",
   },
   "Inspect Plants": {
     name: "Inspect Plants",
     element: ["plant"],
+    classes: ["Kʼawiil"],
+    species: [""],
     1: "Your inspection of plants will be a level up on your normal inspection ability.",
   },
   "Bountiful Harvest": {
     element: ["plant"],
+    classes: ["Kʼawiil"],
+    species: [""],
     name: "Bountiful Harvest",
     passive: true,
     note: "All of your harvests are increased by [x]%. [x is 10x the level of this spell.]",
@@ -718,6 +750,8 @@ export const spellList = {
   },
   "Reap What You Sow": {
     element: ["plant"],
+    classes: ["Kʼawiil"],
+    species: [""],
     name: "Reap What You Sow",
     passive: true,
     1: "Reap the benefits or punishments from the seeds you sow.",
@@ -725,6 +759,8 @@ export const spellList = {
   },
   Scarecrow: {
     element: ["plant"],
+    classes: ["Kʼawiil"],
+    species: [""],
     name: "Scarecrow",
     notes: "https://en.wikipedia.org/wiki/Scarecrow",
     1: "Uses plant material to summon a sentient scarecrow.",
@@ -741,6 +777,8 @@ export const spellList = {
   "Lightning harvest": {
     name: "Lightning harvest",
     element: ["lightning"],
+    classes: ["Kʼawiil"],
+    species: [""],
     note: "Harvest the target. [If the target is below 20% HP this attack does 200% more damage. If this target is a 'plant' type this attack does 500% more damage. If this attack kills the target you have a chance to harvest something.]",
     1: "Harvest the target. [If the target is below 20% HP this attack does 200% more damage. If this target is a 'plant' type this attack does 500% more damage. If this attack kills the target you have a chance to harvest something.]",
     2: "Harvest the target. [If the target is below 20% HP this attack does 250% more damage. If this target is a 'plant' type this attack does 600% more damage. If this attack kills the target you have a chance to harvest something.]",
@@ -755,6 +793,8 @@ export const spellList = {
   "Lightning growth": {
     name: "Lightning growth",
     element: ["lightning"],
+    classes: ["Kʼawiil"],
+    species: [""],
     image:
       "https://cdn.dribbble.com/users/36602/screenshots/3544179/growing-tree-svg-animation-recut.gif",
     1: "Force the target to grow.", // 5% increase stats
@@ -765,6 +805,8 @@ export const spellList = {
   "Lightning germination": {
     name: "Lightning germination",
     element: ["lightning"],
+    classes: ["Kʼawiil"],
+    species: [""],
     image:
       "https://static.wixstatic.com/media/45e716_c8ae22cc571b4429ac23a59b4ddf9ef0~mv2.gif",
     1: "Stimulate a target into germinating", // 10\10 secs
@@ -781,6 +823,8 @@ export const spellList = {
   "Seeds to Soldiers": {
     name: "Seeds to Soldiers",
     element: ["plant"],
+    classes: ["Kʼawiil"],
+    species: [""],
     note: "Take [x] seed(s), use energy to give life to [x] soldier(s). [x is equal to spell level.]",
     1: "Take 1 seed, use energy to give life to 1 soldier.",
     2: "Take 2 seeds, use energy to give life to 2 soldiers.",
@@ -788,6 +832,8 @@ export const spellList = {
   "Lightning seeds": {
     name: "Lightning seeds",
     element: ["lightning"],
+    classes: ["Kʼawiil"],
+    species: [""],
     image:
       "http://2.bp.blogspot.com/-k4C_Lq6Y7fw/VDtBXWA2LCI/AAAAAAAABrY/QEUTlVZ76RI/s1600/lightningBall_small.gif",
     note: "Shoots a group of [x] seed(s) in a spread from the user. The seeds attach to opponent(s) and cause lightning damage over time. A part of the damage is used to restore your as mana. [x is equal to spell level.]",
@@ -807,10 +853,13 @@ export const spellList = {
     element: ["mana"],
     1: "Gathers mana into a ball. Gives off a small amount of light.",
     2: "Mana ball create is instant, flight speed +25%.",
-    classes: ["mage"],
+    classes: ["Mage"],
+    species:[],
   },
   "Mana Orbs": {
     element: ["mana"],
+    classes: ["Mage"],
+    species:[],
     name: "Mana Orbs",
     1: "(3) Mana balls rotate around the user, hitting anything that comes into contact.",
     2: "Mana balls rotate around the user, 3% faster.",
@@ -822,21 +871,22 @@ export const spellList = {
     8: "10% increase in mana ball damage.",
     9: "Balls can move away form their path of orbit if a target is near by.",
     10: "Balls can be shot in all directions, bounce off walls or max range and coming back.",
-    classes: ["mage"],
   },
   Tether: {
     name: "Tether",
     element: ["mana"],
     1: "Gathers mana into a string shape.",
     2: "Two objects within 10’ of each other be-come linked and cannot be moved more than 10’ apart.",
-    classes: ["mage"],
+    classes: ["Mage"],
+    species:[],
   },
   "Magic Resistance": {
     name: "Magic Resistance",
     element: ["mana"],
     passive: true,
     1: "Passive: Resists mana foreign to the body, on surface level.",
-    classes: ["mage"],
+    classes: ["Mage"],
+    species:[],
   },
   "Magic Up": {
     name: "Magic Up",
@@ -852,7 +902,8 @@ export const spellList = {
     8: "Magic +8",
     9: "Magic +9",
     10: "Magic +10, mana recovery +10%.",
-    classes: ["mage"],
+    classes: ["Mage"],
+    species:[],
     stats: [
       {
         magic: 1,
@@ -891,7 +942,7 @@ export const spellList = {
     element: ["mana"],
     passive: true,
     1: "Coat your body in a skin of mana, the effect can vary.",
-    classes: ["mage"],
+    classes: ["Mage"],
     stats: [],
   },
   "Mana Puppet": {
@@ -899,14 +950,14 @@ export const spellList = {
     element: ["mana"],
     passive: true,
     1: "Control an object with mana.",
-    classes: ["mage"],
+    classes: ["Mage"],
     stats: [],
   },
   Strike: {
     name: "Strike",
     element: ["mana"],
     1: "Calls mana in the environment to gather and strike down from above.",
-    classes: ["mage"],
+    classes: ["Mage"],
   },
   Missile: {
     element: ["mana"],
@@ -921,7 +972,7 @@ export const spellList = {
     8: "+1 Missile.",
     9: "Missile damage +10%.", // you have 5 missiles so if all land its a 50% boost!
     10: "Missiles become one big missile, splash damage on impact.",
-    classes: ["mage"],
+    classes: ["Mage"],
   },
   "Mana Slide": {
     element: ["mana"],
@@ -935,14 +986,14 @@ export const spellList = {
     7: "50% further.",
     8: "+10% speed.",
     9: "15% cost reduction.",
-    classes: ["mage"],
+    classes: ["Mage"],
   },
   "Mana Shield": {
     element: ["mana"],
     name: "Mana Shield",
     1: "Produces a shield of mana around the user.",
     2: "Takes 5% less damage.",
-    classes: ["mage"],
+    classes: ["Mage"],
   },
   "Mana Wings": {
     element: ["mana"],
@@ -957,20 +1008,20 @@ export const spellList = {
     8: "Can be used underwater.",
     9: "Wings take 5% less damage.",
     10: "Twice as many wings, half the cost.",
-    classes: ["mage"],
+    classes: ["Mage"],
   },
   "Shield Burst": {
     element: ["mana"],
     name: "Shield Burst",
     1: "Explodes the mana left in the mana shield, into an attack.",
-    classes: ["mage"],
+    classes: ["Mage"],
   },
   "Magic Regen": {
     element: ["mana"],
     name: "Magic Regen",
     passive: true,
     1: "Increases mana recovery speed.",
-    classes: ["mage"],
+    classes: ["Mage"],
   },
   Talented: {
     name: "Talented",
@@ -1124,11 +1175,13 @@ export const spellList = {
     2: "Chance to resist fear.",
   },
   "Human Aptitude": {
+    species:['Human'],
     name: "Human Aptitude",
     passive: true,
     1: "Chance based skills are 1% more likely to succeed.",
   },
   "Human Ingenuity": {
+    species:['Human'],
     name: "Human Ingenuity",
     notes:
       "E.g. Spear has +1 strength then you get +1 another one. This is only for 'tools' not armor.",
@@ -1145,6 +1198,7 @@ export const spellList = {
     10: "When using tools gain +10 proficiency, tools have +1 bonus stat.",
   },
   "Human Resolve": {
+    species:['Human'],
     name: "Human Resolve",
     passive: true,
     1: "Boost all stats 10% for 2 second.",
