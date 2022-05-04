@@ -814,8 +814,8 @@ export function Hitori(Chapter) {
           name: "Hitori",
           level: 2,
           rank: 'F',
-          class: "-",
-          species: "Phoenix",
+          class: "Phoenix-Warrior",
+          species: "Human",
           skills: 2,
           passives: 0,
           "skill points": 2-2, // from class 1 per level (normal/rare/epic/legendary)

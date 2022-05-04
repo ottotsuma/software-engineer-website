@@ -186,11 +186,12 @@ export const racesList = {
   },
   Undead: {
     stats: {},
-
+    name: "Undead",
     self: "",
     images: "",
     notes: "",
     tier: "rare",
+    Disc: "Just a name given to the generic unidentified Undead. Undead are not alive, weak to the light element and have affinity with the shadow element. While not always, the majority of Undead have no stamina limitations.",
   },
   Krogan: {
     stats: {},
@@ -218,19 +219,21 @@ export const racesList = {
   },
   Zombie: {
     stats: {},
-
+    name: "Zombie",
     self: "",
     images: "",
     notes: "🧟‍♂️",
     tier: "rare",
+    disc: "An Undead body. They share some similarities to their living counterparts, since they inhabit the same body. However what set's Zombies apart is their weakness to the light element, affinity with the shadow element, as well as being harder to kill.",
   },
   Mermaid: {
     stats: {},
-
+    name:"Mermaid",
     self: "",
     images: "",
     notes: "🧜‍♀️",
     tier: "rare",
+    disc:"Being that looks half fish, half woman. Mermaids are most often resemble a human woman, but they can resemble other species of women. That does not mean they are half of each species this is just an adaptation within their own species. They share no links to the species they look like, it is just a honey trap.",
   },
   "Thri-kreen": {
     stats: {},
