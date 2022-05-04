@@ -215,6 +215,7 @@ export function SpellFinder() {
       <ChoiceButtonWrap>{classesArray}</ChoiceButtonWrap>
       <ChoiceButtonWrap>{speciesArray}</ChoiceButtonWrap>
       <Spells spells={shownSpells} type={"mage"} />
+      {chosenClass ? <BeastPage name={chosenClass} /> : <div />}
       {chosenSpecies ? <BeastPage name={chosenSpecies} /> : <div />}
     </Wrap>
   );
@@ -1148,14 +1149,35 @@ const DayTitle = styled.div`
 
 export function BeastPage({ name }) {
   const [beast, setBeast] = useState({});
+  const [isSpecies, setIsSpecies] = useState(true);
   useEffect(() => {
-    console.log(racesList[name], name);
     if (name) {
-      setBeast(racesList[name]);
+      if (racesList[name]) {
+        setBeast(racesList[name]);
+      } else if (classList[name]) {
+        setBeast(classList[name]);
+        setIsSpecies(false);
+      }
     }
   }, [name]);
 
   if (beast) {
+    const Status = {
+      level: beast.level || 0,
+      vitality: _try(() => beast[beast.level].vitality, 0),
+      strength: _try(() => beast[beast.level].strength, 0),
+      endurance: _try(() => beast[beast.level].endurance, 0),
+      magic: _try(() => beast[beast.level].magic, 0),
+      willpower: _try(() => beast[beast.level].willpower, 0),
+      dexterity: _try(() => beast[beast.level].dexterity, 0),
+      sense: _try(() => beast[beast.level].sense, 0),
+      charisma: _try(() => beast[beast.level].charisma, 0),
+    };
+    if (isSpecies) {
+      Status.species = beast.name;
+    } else {
+      Status.class = beast.name;
+    }
     return (
       <BeastContainer
         r={Math.min(window.outerWidth / 600, window.outerHeight / 917)}
@@ -1163,28 +1185,14 @@ export function BeastPage({ name }) {
         height={window.outerHeight}
       >
         <Top>
-          <Title>{_try(() => beast.name)}</Title>
+          <Title color={monadColors[beast.tier]}>
+            {_try(() => beast.name)}
+          </Title>
           <Text>{_try(() => beast.disc)}</Text>
         </Top>
         <Mid>
           <StatsContainer>
-            <Stats
-              type={"description"}
-              removeHPMP={true}
-              stats={{
-                // name: "",
-                level: beast.level || 0,
-                species: beast.name,
-                vitality: _try(() => beast[beast.level].vitality, 0),
-                strength: _try(() => beast[beast.level].strength, 0),
-                endurance: _try(() => beast[beast.level].endurance, 0),
-                magic: _try(() => beast[beast.level].magic, 0),
-                willpower: _try(() => beast[beast.level].willpower, 0),
-                dexterity: _try(() => beast[beast.level].dexterity, 0),
-                sense: _try(() => beast[beast.level].sense, 0),
-                charisma: _try(() => beast[beast.level].charisma, 0),
-              }}
-            />
+            <Stats type={"description"} removeHPMP={true} stats={Status} />
           </StatsContainer>
           <BeastImage1
             onError={imageError}
@@ -1219,7 +1227,7 @@ const BeastContainer = styled.div`
   zoom: ${(props) => props.r};
 `;
 const Title = styled.div`
-  color: black;
+  color: ${(props) => (props.color ? props.color : "black")};
   max-height: 30%;
   font-size: 42px;
 `;

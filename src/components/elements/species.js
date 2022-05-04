@@ -16,7 +16,6 @@ export const racesList = {
       magic: 1,
       willpower: -1,
     },
-
     self: "",
     images: [
       "https://wpcdn.us-midwest-1.vip.tn-cloud.net/www.rimonthly.com/content/uploads/2020/06/Binturong-cute.jpg",

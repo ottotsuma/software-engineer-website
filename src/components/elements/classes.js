@@ -5,6 +5,7 @@ import { _try } from "./util";
 // Team Vs Self Increases, they should all have team so the self ones should go somewhere also :/
 export const classList = {
   Mage: {
+    name: "Mage",
     stats: {
       magic: 1,
     },
@@ -15,6 +16,7 @@ export const classList = {
     notes:
       "Solve all your problems with magic. Mages are the basic class for magical classes.",
     tier: "normal",
+    disc: "Solve all your problems with magic. Mages are the basic class for magical classes.",
   },
   Fighter: {
     stats: {
