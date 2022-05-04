@@ -47,13 +47,10 @@ export const classList = {
   },
   Necromancer: {
     name: "Necromancer",
-    stats: {
-    },
+    stats: {},
     team: "",
-    self: "",
     images:["https://ottotsuma.github.io/images/people/necro.jpg", "https://ottotsuma.github.io/images/people/oldmage.jpg"],
-    notes:
-      "",
+    notes:"",
     tier: "normal",
     disc: "",
   },
@@ -63,23 +60,26 @@ export const classList = {
     },
     self: "Shield Skills: +1.",
     team: "",
-    
+    images: [],
     notes: "",
     tier: "",
+    disc: "",
   },
   Warrior: {
     stats: {},
     self: "",
     team: "Stamina +10%.",
-    
     notes: "",
     tier: "normal",
+    images: [],
+    disc: "",
   },
   "Guardian Knight": {
     stats: {},
     self: "Absorb 3% of damage done to a maximum of 7 allies within 10m.",
     team: "",
-    
+    images: [],
+    disc: "",
     notes: "",
     tier: "",
   },
@@ -87,47 +87,74 @@ export const classList = {
     stats: {},
     self: "Strength increases as health decreases.",
     team: "",
-    
-    notes: "",
+    notes: "",    
+    images: [],
+    disc: "",
     tier: "",
   },
-  Cursemancers: {
+  Cursemancer: {
     stats: {},
     team: "Aggro skills are slightly more effective.",
-    self: "Curses cast time is reduced 25%.",
-    
+    self: "",
+    images: [],
+    disc: "",
     notes: "Can curse up a storm of colorful language.",
     tier: "",
   },
   Witch: {
     stats: {},
-    team: "Spells cast 3% faster.",
-    self: "The more witches in your team, the stronger Coven spells become.",
+    team: "The more witches in your team, the stronger Coven spells become.",
     images: ["https://ottotsuma.github.io/images/people/witch6.jpg"],
     notes: "",
     tier: "",
+    disc: "",
   },
   Summoner: {
     stats: {},
     team: "Summon maintain cost is reduced.",
     self: "Summon Eidolon Spell +1 (MAX: 10).",
-    
+    disc: "",
     notes: "",
+    images: [],
     tier: "normal",
   },
   Paladin: {
     team: "Unholy protection, unholy attacks deal 3% less.",
     self: "Can use holy objects, cannot use unholy objects.",
-    
+    disc: "",
     notes: "",
+    images: [],
     tier: "normal",
     stats: {},
+  },
+  Guardian: {
+    name: "Guardian",
+    stats: {
+    },
+    team: "",
+    self: "",
+    images:[],
+    notes:
+      "",
+    tier: "normal",
+    disc: "",
+  },
+  Knight: {
+    name: "Knight",
+    stats: {},
+    team: "",
+    self: "",
+    images:[],
+    notes: "",
+    tier: "normal",
+    disc: "",
   },
   Pyromancer: {
     stats: {},
     team: "Fire spells cost 5% less.",
     self: "",
-    
+    images:[],
+    disc: "",
     notes: "",
     tier: "normal",
   },
@@ -138,7 +165,8 @@ export const classList = {
     },
     team: "",
     self: "",
-    
+    images:[],
+    disc: "",
     notes: "",
     tier: "normal",
   },
@@ -147,8 +175,8 @@ export const classList = {
       sense: 2,
     },
     team: "Sense +1.",
-    self: "Sense +1.",
-    
+    images:[],
+    disc: "",
     notes: "",
     tier: "normal",
   },
@@ -157,8 +185,8 @@ export const classList = {
       dexterity: 1,
     },
     team: "",
-    self: "dexterity +1.",
-    
+    images:[],
+    disc: "",
     notes: "",
     tier: "normal",
   },
@@ -166,31 +194,32 @@ export const classList = {
     stats: {},
     team: "Damage from sneak attacks is increased.",
     self: "",
-    
+    images:[],
+    disc: "",
     notes: "",
     tier: "rare",
   },
   "Knight Commander": {
     stats: {},
     team: "Commanded units HP is increased.",
-    self: "Summon Knight Skill +1.",
-    
+    images:[],
+    disc: "",
     notes: "",
     tier: "rare",
   },
   Pirate: {
     stats: {},
     team: "🏴‍☠️ Swimming +5% movement speed.",
-    self: "",
-    
+    images:[],
+    disc: "",
     notes: "",
     tier: "rare",
   },
   Witchdoctor: {
     stats: {},
     team: "",
-    self: "",
-    
+    images:[],
+    disc: "",
     notes: "",
     tier: "rare",
   },
@@ -198,7 +227,8 @@ export const classList = {
     stats: {},
     team: "",
     self: "Can use holy objects, cannot use unholy objects",
-    
+    images:[],
+    disc: "",
     notes: "",
     tier: "rare",
   },
@@ -206,7 +236,8 @@ export const classList = {
     stats: {},
     team: "",
     self: "Can use holy objects, cannot use unholy objects",
-    
+    images:[],
+    disc: "",
     notes: "",
     tier: "rare",
   },
@@ -214,7 +245,8 @@ export const classList = {
     stats: {},
     team: "",
     self: "Cannot use holy objects, can use unholy objects",
-    
+    images:[],
+    disc: "",
     notes: "",
     tier: "rare",
   },
@@ -222,7 +254,8 @@ export const classList = {
     stats: {},
     team: "",
     self: "Swimming +5% movement speed.",
-    
+    images:[],
+    disc: "",
     notes: "",
     tier: "epic",
   },
@@ -230,7 +263,8 @@ export const classList = {
     stats: {},
     team: "",
     self: "Access to blood skills.",
-    
+    images:[],
+    disc: "",
     notes: "",
     tier: "epic",
   },
@@ -238,7 +272,8 @@ export const classList = {
     stats: {},
     team: "",
     self: "",
-    
+    images:[],
+    disc: "",
     notes: "",
     tier: "epic",
   },
@@ -265,7 +300,8 @@ export const classList = {
     stats: {},
     team: "+1 to the main stat of crafted items",
     self: "",
-    
+    images:[],
+    disc: "",
     notes: "",
     tier: "legendary",
   },
@@ -273,7 +309,8 @@ export const classList = {
     stats: {},
     team: "",
     self: "",
-    
+    images:[],
+    disc: "",
     notes: "",
     tier: "unique",
   },

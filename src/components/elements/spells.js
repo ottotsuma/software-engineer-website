@@ -5053,24 +5053,10 @@ export function InlineSpell({ spellName, level }) {
   );
 }
 
-// Ghoul, Wight, Halfling, Vampire→Vampire Noble→Vampire Knight, Namanari Hannya <Chunari Hannya> <Honnari Hannya>, Dhampir, Banshee, Draugr→Great Draugr, Blood Fairy, Strigoi,
-
 // Berserker stuff ! Blood stuff !https://dragonage.fandom.com/wiki/Blood_Mage_(Origins)
 // '""',
 
 // https://overlordmaruyama.fandom.com/wiki/Ainz_Ooal_Gown/Abilities_and_Powers
-
-// const array = [
-// ]
-
-//  for (let index = 0; index < array.length; index++) {
-//      const element = array[index];
-//      console.log(`${element}: {
-//          name: ${element},
-//          passive: false,
-//         1: "",
-//      },`)
-//  }
 
 function Spells({ spells, type }) {
   const array = [];

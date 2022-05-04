@@ -315,6 +315,8 @@ export const racesList = {
 };
 // Bakeneko (monster) (one tail) cat demon,  & nekomata (species) (two tails), raises the dead with dances.
 
+// Ghoul, Wight, Halfling, Vampire→Vampire Noble→Vampire Knight, Namanari Hannya <Chunari Hannya> <Honnari Hannya>, Dhampir, Banshee, Draugr→Great Draugr, Blood Fairy, Strigoi,
+
 export default function RaceDisplay(Species) {
   const Data = _try(() => racesList[Species]);
   if (Data) {
