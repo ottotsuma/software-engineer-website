@@ -4949,18 +4949,72 @@ export const spellList = {
     passive: false,
     1: "(allies).",
   },
+  "Charge": {
+    name: "Charge",
+    element: [""],
+    classes: ['Fighter'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "Moves quickly in a straight line.",
+  },
+  "Heavy Blow": {
+    name: "Heavy Blow",
+    element: [""],
+    classes: ['Fighter'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "High damage output strike.",
+  },
+  "Battle Shout": {
+    name: "Battle Shout",
+    element: [""],
+    classes: ['Fighter'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "Increases the stats of allies.",
+  },
+  "Strength Up": {
+    name: "Strength Up",
+    element: [""],
+    classes: ['Fighter'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "Increases Strength.",
+  },
+  "Vitality Up": {
+    name: "Vitality Up",
+    element: [""],
+    classes: ['Fighter'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "Increases Vitality.",
+  },
+  "Provoke": {
+    name: "Provoke",
+    element: [""],
+    classes: ['Fighter'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "Provoke and tease them so that they want to attack you.",
+  },
 
-// Fighter
-// Charge, Moves quickly in a straight line (1)
-// Heavy blow, High damage output strike (1)
-// Battle shout, Increases the stats of allies (9)
-// Strength up, Increases Strength(+) (9)
-// Vitality up, Increases Vitality(+) (9)
-// Provoke, Provoke and tease them so that they want to attack you.
 // Knight
 // Def up, Increases Def(+) (9)
 // Mdef up, Increases Mdef(+) (9)
 // Crippling blow, Cripple the target with a sweeping blow
+
 // Paladin
 // Faith Spells
 // Cover
@@ -4968,6 +5022,7 @@ export const spellList = {
 // sentinel
 // Hallowed ground
 // Sanctuary (heal allies)
+
   // Phoenix Flame
   // https://en.uesp.net/wiki/Oblivion:Spells
 };
