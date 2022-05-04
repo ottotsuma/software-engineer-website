@@ -4799,24 +4799,156 @@ export const spellList = {
     passive: false,
     1: "A dark book of necromancy appears in the sorcerer's hand, imparting hideous secrets and increasing their unholy magic rating. (Ally)",
   },
-// Vile Insight (Ally) (9)
-// Unholy Adept (+) (9)
-// Unholy Seinor (+) (9)
-// Unholy Sage (+) (9)
-
-// Guardian !
-// Guardian Angel, Allies in melee range redirect X% of received damage to you.
-// Defense Up 2, Increases Def(+) (9)
-// Cover
-// Sheltron
-// rampart
-// sentinel
-// Testudo
-// push back
-// Shelter (healing)
-// Hallowed ground
-// Sanctuary (heal allies)
-// Stand your ground!(allies)
+  "Unholy Adept": {
+    name: "Unholy Adept",
+    element: ["shadow"],
+    classes: ['Necromancer'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "",
+  },
+  "Unholy Seinor": {
+    name: "Unholy Seinor",
+    element: ["shadow"],
+    classes: ['Necromancer'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "",
+  },
+  "Unholy Sage": {
+    name: "Unholy Sage",
+    element: ["shadow"],
+    classes: ['Necromancer'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "",
+  },
+  "Guardian Angel": {
+    name: "Guardian Angel",
+    element: ["light"],
+    classes: ['Guardian'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "Allies in melee range redirect X% of received damage to you",
+  },
+  "Endurance Up": {
+    name: "Endurance Up",
+    element: ["metal"],
+    classes: ['Guardian'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "Increases Endurance.",
+  },
+  "Cover": {
+    name: "Cover",
+    element: [""],
+    classes: ['Guardian'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: ".",
+  },
+  "Sheltron": {
+    name: "Sheltron",
+    element: [""],
+    classes: ['Guardian'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: ".",
+  },
+  "Rampart": {
+    name: "Rampart",
+    element: [""],
+    classes: ['Guardian'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: ".",
+  },
+  "Sentinel": {
+    name: "Sentinel",
+    element: [""],
+    classes: ['Guardian'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: ".",
+  },
+  "Testudo": {
+    name: "Testudo",
+    element: [""],
+    classes: ['Guardian'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: ".",
+  },
+  "Push Back": {
+    name: "Push Back",
+    element: [""],
+    classes: ['Guardian'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: ".",
+  },
+  "Shelter": {
+    name: "Shelter",
+    element: [""],
+    classes: ['Guardian'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "(healing).",
+  },
+  "Hallowed Ground": {
+    name: "Hallowed Ground",
+    element: [""],
+    classes: ['Guardian'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: ".",
+  },
+  "Sanctuary": {
+    name: "Sanctuary",
+    element: [""],
+    classes: ['Guardian'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "(heal allies).",
+  },
+  "Stand Your Ground!": {
+    name: "Stand Your Ground!",
+    element: [""],
+    classes: ['Guardian'],
+    species: [''],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "(allies).",
+  },
 
 // Fighter
 // Charge, Moves quickly in a straight line (1)
