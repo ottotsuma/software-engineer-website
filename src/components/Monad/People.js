@@ -805,6 +805,7 @@ export function Josh(Chapter) {
   }
 }
 export function Hitori(Chapter) {
+  // Trust issues.
   // Age 16 during his first dungeon chapter. The rat king. Having failed to graduate for 2 years.
   if (Chapter) {
     return (
