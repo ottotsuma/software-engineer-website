@@ -4669,7 +4669,7 @@ export const spellList = {
   "Rebirth Flame": {
     name: "Rebirth Flame",
     element: ["fire"],
-    classes: [''],
+    classes: ['Phoenix-Warrior'],
     species: ['Phoenix'],
     image:
       "https://images.squarespace-cdn.com/content/v1/57d34a6d725e254062172fe9/1579643445519-XXWBWFTZIZ23TNWBECJI/thumbnail_phoenix+rising.jpg",
@@ -4680,7 +4680,7 @@ export const spellList = {
   "Birthed In Flame": {
     name: "Birthed In Flame",
     element: ["fire"],
-    classes: [''],
+    classes: ['Phoenix-Warrior'],
     species: ['Phoenix'],
     image:
       "https://images.squarespace-cdn.com/content/v1/57d34a6d725e254062172fe9/1579643445519-XXWBWFTZIZ23TNWBECJI/thumbnail_phoenix+rising.jpg",
