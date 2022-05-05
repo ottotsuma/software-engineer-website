@@ -312,6 +312,20 @@ export const racesList = {
       "phenix is a long-lived bird that is cyclically regenerated or reborn.",
     tier: "epic",
   },
+  Loxodon: {
+    name: 'Loxodon',
+    stats: {
+      strength: 3,
+      vitality: 1,
+      dexterity: -1,
+      HPMultiplier: 1.1,
+      MPMultiplier: -0.1,
+    },
+    self: "",
+    image:"",
+    notes: "Elephant humanoid.",
+    tier: "rare",
+  },
 };
 // Bakeneko (monster) (one tail) cat demon,  & nekomata (species) (two tails), raises the dead with dances.
 
