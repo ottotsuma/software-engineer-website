@@ -1149,14 +1149,12 @@ const DayTitle = styled.div`
 
 export function BeastPage({ name }) {
   const [beast, setBeast] = useState({});
-  const [isSpecies, setIsSpecies] = useState(true);
   useEffect(() => {
     if (name) {
       if (racesList[name]) {
         setBeast(racesList[name]);
       } else if (classList[name]) {
         setBeast(classList[name]);
-        setIsSpecies(false);
       }
     }
   }, [name]);
@@ -1173,10 +1171,10 @@ export function BeastPage({ name }) {
       sense: _try(() => beast[beast.level].sense, 0),
       charisma: _try(() => beast[beast.level].charisma, 0),
     };
-    if (isSpecies) {
-      Status.species = beast.name;
-    } else {
-      Status.class = beast.name;
+    if (racesList[name]) {
+      Status.species = beast.name ? beast.name : name;
+    } else if (classList[name]) {
+      Status.class = beast.name ? beast.name : name;
     }
     return (
       <BeastContainer
@@ -1192,7 +1190,7 @@ export function BeastPage({ name }) {
         </Top>
         <Mid>
           <StatsContainer>
-            <Stats type={"description"} removeHPMP={true} stats={Status} />
+            <Stats hideH1={true} type={"description"} removeHPMP={true} stats={Status} />
           </StatsContainer>
           <BeastImage1
             onError={imageError}

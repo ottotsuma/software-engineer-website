@@ -119,6 +119,7 @@ export const classList = {
     tier: "normal",
   },
   Paladin: {
+    name:"Paladin",
     team: "Unholy protection, unholy attacks deal 3% less.",
     self: "Can use holy objects, cannot use unholy objects.",
     disc: "",

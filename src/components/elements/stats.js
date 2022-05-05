@@ -293,6 +293,7 @@ function Stats({
   showItems,
   removeHPMP,
   hideTitle,
+  hideH1,
 }) {
   const array = [];
   const baseStats = stats;
@@ -656,7 +657,7 @@ function Stats({
 
   return (
     <>
-      <Title>Attributes:</Title>
+      {hideH1 ? <div /> : <Title>Attributes:</Title>}
       <StatsStyle>{array}</StatsStyle>
       {showSkills && spellsArray}
       {showItems && itemsArray}
