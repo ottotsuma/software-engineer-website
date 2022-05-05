@@ -189,7 +189,7 @@ export const racesList = {
     self: "",
     images: "",
     notes: "",
-    tier: "rare",
+    tier: "normal",
     Disc: "Just a name given to the generic unidentified Undead. Undead are not alive, weak to the light element and have affinity with the shadow element. While not always, the majority of Undead have no stamina limitations.",
   },
   Krogan: {
@@ -222,7 +222,7 @@ export const racesList = {
     self: "",
     images: "",
     notes: "🧟‍♂️",
-    tier: "rare",
+    tier: "normal",
     disc: "An Undead body. They share some similarities to their living counterparts, since they inhabit the same body. However what set's Zombies apart is their weakness to the light element, affinity with the shadow element, as well as being harder to kill.",
   },
   Mermaid: {
@@ -256,7 +256,7 @@ export const racesList = {
     self: "",
     images: "",
     notes: "",
-    tier: "epic",
+    tier: "rare",
   },
   Goblin: {
     stats: {},
@@ -264,7 +264,7 @@ export const racesList = {
     self: "",
     images: "",
     notes: "",
-    tier: "epic",
+    tier: "normal",
   },
   Troglodytes: {
     stats: {},
@@ -326,6 +326,27 @@ export const racesList = {
     notes: "Elephant humanoid.",
     tier: "rare",
   },
+  Minotaur: {
+    name: 'Minotaur',
+    stats: {
+      strength: 2,
+    },
+    self: "",
+    image:"",
+    notes: "Bull humanoid.",
+    tier: "rare",
+  },
+  "Naj'hass": {
+    Names: `Aj'ha,Aj'i,Aj'tiss,Ajakess,Aksas,Aksiss,Al'en,An'jeshe,Apjige,Arkkess,Athaz,Atus,Azras,Caji,Cakrasar,Cal'arrun,Capji,Cathras,Cej'han,Ces,Cez'jenta,Cij'te,Cinash,Cizran,Coth'jus,Cothrash,Culzanek,Cunaless,Ej'tesh,Elzazash,Ergek,Eshjuk,Ethris,Gan'jas,Gapja,Gar'thituph,Gopjeguss,Gor'thesh,Gragishaph,Grar'theness,Grath'ji,Gressinas,Grolzesh,Grorjar,Grozrash,Guj'ika,Harji,Hej'hez,Herkush,Horgarrez,Illuph,Ipjar,Ithashin,Kaj'ess,Kar'kash,Kepjusha,Ki'kintus,Kissere,Koph,Kopjess,Kra'kasher,Krak,Krapjez,Krashjuless,Kraz'ji,Krirrigis,Krussin,Ma'lush,Mage,Maj'tak,Mal'a,Mapja,Mar'kash,Mar'kis,Marjin,Mas,Mathan,Men'jas,Meth'jaresh,Mij'hegak,Min'jash,Mith'jas,Monassu,Moss,Naj'hass,Najugash,Nak,Napjiph,Nar'ka,Nar'thuss,Narrusha,Nash,Nashjekez,Nataph,Nij'ass,Nij'tessiph,Nishjiss,Norkkuss,Nus,Olluruss,Or'thi,Or'thuss,Paj'a,Parkka,Pas,Pathujen,Paz'jaz,Pepjerras,Pirkkanar,Pituk,Porjunek,Pu'ke,Ragen,Ran'jess,Rargush,Razjuph,Rilzan,Riss,Rithruz,Rorgiss,Rossez,Rraj'asesh,Rraj'tass,Rrar'kess,Rrar'thuph,Rras,Rrazresh,Rrej'hish,Rrigelash,Rris,Rris,Rroksurrush,Rukrussush,Rurri,Russa,Ruth'jes,Sa'kitesh,Sar'thass,Sarjas,Sazjuzush,Ser'thez,Sezrass,Shajas,Shas,Shashja,Shass,Shetesh,Shijek,Shun'jaler,Shurjarri,Skaler,Skalla,Skallentas,Skaph,Skar'kerriz,Skath'jeruk,Sker'kalas,Skor,Skoz'ji,Sku'lu,Skuph,Skur'thur,Slalli,Slalt'har,Slelziress,Slil'ar,Sloz'jisa,Sojesh,Solle,Sorge,Sral'e,Sran'ji,Srapjess,Srar'thazur,Srash,Srath'jess,Srathrarre,Srerkkash,Srus,Sruss'tugeph,Sun,Suss'tir,Uzrash,Vargush,Vek,Vess'tu,Viph,Vult'ha,Vupjer,Vushjesash,Xagez,Xassa,Xulzessu,Zaj'tiss,Zan'jer,Zarriss,Zassegus,Zirres,Zsor,Zurjass`,
+    name: "Naj'hass",
+    stats: {
+    },
+    self: "",
+    image:"",
+    notes: "Snake humanoid, not to be mixed up with the dragon or lizard humonids. The Naj'hass are from Naj'es. Naj'es, Naj's land. Naj'hass, Naj people.",
+    tier: "rare",
+  }
+  // https://en.wikipedia.org/wiki/List_of_reptilian_humanoids
 };
 // Bakeneko (monster) (one tail) cat demon,  & nekomata (species) (two tails), raises the dead with dances.
 
