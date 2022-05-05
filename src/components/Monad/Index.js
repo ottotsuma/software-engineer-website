@@ -45,7 +45,7 @@ import Chapter40 from "./Ch40-War";
 import Chapter41 from "./Ch41-Graduate";
 import { textColors } from "./../elements/colors";
 // import SpellsPage from "./SpellsPage";
-import Otto, {Tsuma, Hitori} from "./People"; // check this still works
+// import Otto, {Tsuma, Hitori} from "./People"; // check this still works
 import SeaPeopleFunction from "./SeaPeople";
 import HitoriStoryFunction from "./Hitori"; // 9 
 import Vampire from "./Vampire";
@@ -113,8 +113,6 @@ const ChapterList = [
   <Chapter39 Chapter={"Leaving"} />,
   <Chapter40 Chapter={"War"} />,
   <Chapter41 Chapter={"Graduate"} />,
-  <Otto />,
-  // <SeaPeopleFunction Chapter={0} />,
   <SeaPeopleFunction Chapter={1} />,
   <SeaPeopleFunction Chapter={2} />,
   <SeaPeopleFunction Chapter={3} />,
@@ -128,9 +126,6 @@ const ChapterList = [
   <HitoriStoryFunction Chapter={1} />,
   <HitoriStoryFunction Chapter={2} />,
   <Vampire />,
-  <Tsuma />,
-  <Hitori />
-  // <SpellsPage />,
 ];
 
 export function droppy(props) {
