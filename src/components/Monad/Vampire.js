@@ -1186,7 +1186,7 @@ export function BeastPage({ name }) {
       >
         <Top>
           <Title color={monadColors[beast.tier]}>
-            {_try(() => beast.name)}
+            {_try(() => name, beast.name)}
           </Title>
           <Text>{_try(() => beast.disc)}</Text>
         </Top>

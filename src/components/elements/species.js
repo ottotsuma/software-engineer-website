@@ -72,9 +72,9 @@ export const racesList = {
     notes: "",
     tier: "normal",
   },
-  "mana creature": {
+  "Mana Creature": {
     stats: { magic: 5 },
-
+    name: "Mana Creature",
     self: "Made of Mana, Magic +5.",
     images: "",
     notes: "All HP is converted to MP. When MP reaches zero, you will die.",
@@ -116,7 +116,7 @@ export const racesList = {
   },
   Elf: {
     stats: { charisma: 2, Magic: 1 },
-    name: "Woodland Elf",
+    name: "Elf", // Woodland Elf
     self: "Charming is easier.",
     images: "",
     notes: "[Woodland / Sun elves, Sylvan ]🧝‍♂️, Plant element.",

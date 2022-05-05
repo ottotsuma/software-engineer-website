@@ -116,7 +116,7 @@ export default function Otto() {
           name: "Ideal",
           level: 100,
           class: "???",
-          species: "mana creature",
+          species: "Mana Creature",
           spells: 0,
           passives: 0,
           "spell points": 0, // from class
@@ -209,7 +209,7 @@ export default function Otto() {
         // https://www.dandwiki.com/wiki/Mana_Creature_(5e_Race)
         // Team bonus comes from class.
         notes={
-          "1 spell per level, 4 stats per level, mana creature every 10 levels stores another form."
+          "1 spell per level, 4 stats per level, Mana Creature every 10 levels stores another form."
         }
       />
     </div>

@@ -3114,7 +3114,7 @@ export const spellList = {
     1: "Summons an army of the undead.",
   },
   "Astral Smite": {
-    element: [""],
+    element: [''],
     classes: [''],
     Species: [''],
     name: "Astral Smite",
@@ -3146,7 +3146,7 @@ export const spellList = {
     1: "Drains the mana and stamina of a target.",
   },
   Explosion: {
-    element: [""],
+    element: [''],
     classes: [''],
     Species: [''],
     name: "Explosion",
@@ -3154,7 +3154,7 @@ export const spellList = {
     1: "Causes an explosion in an area.",
   },
   "Bless of Titania": {
-    element: [""],
+    element: [''],
     classes: [''],
     Species: [''],
     name: "Bless of Titania",
@@ -3627,7 +3627,7 @@ export const spellList = {
     1: "A spell that restricts a target's movement with bones and can deeply piece it through their flesh.",
   },
   Indomitability: {
-    element: [""],
+    element: [''],
     classes: [''],
     Species: [''],
     name: "Indomitability",
@@ -3635,7 +3635,7 @@ export const spellList = {
     1: "",
   },
   "Infinity Wall": {
-    element: [""],
+    element: [''],
     classes: [''],
     Species: [''],
     name: "Infinity Wall",
@@ -3684,7 +3684,7 @@ export const spellList = {
     1: "Identifies MP of the target.",
   },
   "Mantle of Chaos": {
-    element: [""],
+    element: [''],
     classes: [''],
     Species: [''],
     name: "Mantle of Chaos",
@@ -3692,7 +3692,7 @@ export const spellList = {
     1: "",
   },
   "Dominate Person": {
-    element: [""],
+    element: [''],
     classes: [''],
     Species: [''],
     name: "Dominate Person",
@@ -3724,7 +3724,7 @@ export const spellList = {
     1: "",
   },
   "Obsidian Sword": {
-    element: [""],
+    element: [''],
     classes: [''],
     Species: [''],
     name: "Obsidian Sword",
@@ -3732,7 +3732,7 @@ export const spellList = {
     1: `Creates a large obsidian sword that will lock on to a target and hone in like a missile. It is incredibly difficult to destroy a sword made of magic with a physical attack. By using "Triple Maximize Magic," The Obsidian Sword constructs can only be utilized as an offensive tool and cannot be used to defend oneself. This was because the obsidian swords suffered from a massive loss of durability if used to receive the brunt of an opponent’s attack. If used defensively, the swords’ durability would rapidly diminish until they shatter.`,
   },
   Paralysis: {
-        element: [""],
+        element: [''],
     classes: [''],
     Species: [''],
     name: "Paralysis",
@@ -3740,7 +3740,7 @@ export const spellList = {
     1: "Causes paralysis in the target, limiting or preventing them from using physical movement, though slight physical functions are still possible, such as turning their head or speaking.",
   },
   "Paranormal Intuition": {
-    element: [""],
+    element: [''],
     classes: [''],
     Species: [''],
     name: "Paranormal Intuition",
@@ -3748,7 +3748,7 @@ export const spellList = {
     1: ``,
   },
   "Penetrate Up": {
-    element: [""],
+    element: [''],
     classes: [''],
     Species: [''],
     name: "Penetrate Up",
@@ -3756,7 +3756,7 @@ export const spellList = {
     1: "",
   },
   "Perfect Warrior": {
-    element: [""],
+    element: [''],
     classes: [''],
     Species: [''],
     name: "Perfect Warrior",
@@ -3764,7 +3764,7 @@ export const spellList = {
     1: `The spell allows user to convert his magic caster levels into an equivalent number of warrior levels. By using that spell, he can temporarily become a half-baked level 100 warrior. It also carries the benefit of being able to use certain pieces of arms and armor that will normally require specific job classes to access without penalty. This includes freely utilizing any weapons and its abilities, which is seen during his fight with Shalltear. However, there are many drawbacks to that spell. The first weakness is that he cannot cast other spells while the magic is in effect. In addition, he will not gain any special warrior skills from the spell, and his recalculated ability scores will be lower than an actual warrior. Secondly, sustaining the transformation spell and other magic will both lower his mana and mana recovery rates to zero. This form is enough when matching blades with second-rate combatants like priests and the like, but he will stand no chance of winning against an opponent who is a dedicated warrior.`,
   },
   "Ray of Negative Energy": {
-    element: [""],
+    element: [''],
     classes: [''],
     Species: [''],
     name: "Ray of Negative Energy",
@@ -3772,7 +3772,7 @@ export const spellList = {
     1: "It is an offensive-type spell that brings forth a ray of negative energy to damage the living. However, against non-living beings, it will heal them instead.",
   },
   "Remote Viewing": {
-    element: [""],
+    element: [''],
     classes: [''],
     Species: [''],
     name: "Remote Viewing",
@@ -3788,7 +3788,7 @@ export const spellList = {
     1: "A spell that creates a barrier to ward off the low-level undead.",
   },
   "Resistance from Natural Weapons": {
-    element: [""],
+    element: [''],
     classes: [''],
     Species: [''],
     name: "Resistance from Natural Weapons",
@@ -3812,7 +3812,7 @@ export const spellList = {
     1: "",
   },
   "Sensor Boost": {
-    element: [""],
+    element: [''],
     classes: [''],
     Species: [''],
     name: "Sensor Boost",
@@ -3860,7 +3860,7 @@ export const spellList = {
     1: ": A spell used on specific kinds of undead summons. Allowing you to see through that undead's eye sockets.",
   },
   "Wall of Protection from Arrows": {
-    element: [""],
+    element: [''],
     classes: [''],
     Species: [''],
     name: "Wall of Protection from Arrows",
@@ -3956,7 +3956,7 @@ export const spellList = {
     1: "",
   },
   "Slashing Damage Resistance": {
-    element: [""],
+    element: [''],
     classes: [''],
     Species: [''],
     name: "Slashing Damage Resistance",
@@ -3964,7 +3964,7 @@ export const spellList = {
     1: "",
   },
   "Piercing Damage Resistance": {
-    element: [""],
+    element: [''],
     classes: [''],
     Species: [''],
     name: "Piercing Damage Resistance",
@@ -3972,7 +3972,7 @@ export const spellList = {
     1: "",
   },
   "Status Damage": {
-    element: [""],
+    element: [''],
     classes: [''],
     Species: [''],
     name: "Status Damage",
@@ -3980,7 +3980,7 @@ export const spellList = {
     1: "",
   },
   "Turn Resistance": {
-    element: [""],
+    element: [''],
     classes: [''],
     Species: [''],
     name: "Turn Resistance",
@@ -4012,7 +4012,7 @@ export const spellList = {
     1: "",
   },
   "Biological Penalties Resistance": {
-    element: [""],
+    element: [''],
     classes: [''],
     Species: [''],
     name: "Biological Penalties Resistance",
@@ -4020,7 +4020,7 @@ export const spellList = {
     1: "",
   },
   "Bludgeoning Vulnerability": {
-    element: [""],
+    element: [''],
     classes: [''],
     Species: [''],
     name: "Bludgeoning Vulnerability",
@@ -4028,7 +4028,7 @@ export const spellList = {
     1: "",
   },
   "Critical Hit Immunity": {
-    element: [""],
+    element: [''],
     classes: [''],
     Species: [''],
     name: "Critical Hit Immunity",
@@ -4590,7 +4590,7 @@ export const spellList = {
   },
   "Death Syphon": {
     name: "Death Syphon",
-    element: [""],
+    element: [''],
     classes: [''],
     species: [''],
     passive: false,
@@ -4851,7 +4851,7 @@ export const spellList = {
   },
   "Cover": {
     name: "Cover",
-    element: [""],
+    element: [''],
     classes: ['Guardian', 'Paladin'],
     species: [''],
     image: "",
@@ -4861,7 +4861,7 @@ export const spellList = {
   },
   "Sheltron": {
     name: "Sheltron",
-    element: [""],
+    element: [''],
     classes: ['Guardian'],
     species: [''],
     image: "",
@@ -4871,7 +4871,7 @@ export const spellList = {
   },
   "Rampart": {
     name: "Rampart",
-    element: [""],
+    element: [''],
     classes: ['Guardian', 'Paladin'],
     species: [''],
     image: "",
@@ -4881,7 +4881,7 @@ export const spellList = {
   },
   "Sentinel": {
     name: "Sentinel",
-    element: [""],
+    element: [''],
     classes: ['Guardian', 'Paladin'],
     species: [''],
     image: "",
@@ -4891,7 +4891,7 @@ export const spellList = {
   },
   "Testudo": {
     name: "Testudo",
-    element: [""],
+    element: [''],
     classes: ['Guardian'],
     species: [''],
     image: "",
@@ -4901,7 +4901,7 @@ export const spellList = {
   },
   "Push Back": {
     name: "Push Back",
-    element: [""],
+    element: [''],
     classes: ['Guardian'],
     species: [''],
     image: "",
@@ -4911,7 +4911,7 @@ export const spellList = {
   },
   "Shelter": {
     name: "Shelter",
-    element: [""],
+    element: [''],
     classes: ['Guardian'],
     species: [''],
     image: "",
@@ -4921,7 +4921,7 @@ export const spellList = {
   },
   "Hallowed Ground": {
     name: "Hallowed Ground",
-    element: [""],
+    element: [''],
     classes: ['Guardian', 'Paladin'],
     species: [''],
     image: "",
@@ -4931,7 +4931,7 @@ export const spellList = {
   },
   "Sanctuary": {
     name: "Sanctuary",
-    element: [""],
+    element: [''],
     classes: ['Guardian', 'Paladin'],
     species: [''],
     image: "",
@@ -4941,7 +4941,7 @@ export const spellList = {
   },
   "Stand Your Ground!": {
     name: "Stand Your Ground!",
-    element: [""],
+    element: [''],
     classes: ['Guardian'],
     species: [''],
     image: "",
@@ -4951,7 +4951,7 @@ export const spellList = {
   },
   "Charge": {
     name: "Charge",
-    element: [""],
+    element: [''],
     classes: ['Fighter'],
     species: [''],
     image: "",
@@ -4961,7 +4961,7 @@ export const spellList = {
   },
   "Heavy Blow": {
     name: "Heavy Blow",
-    element: [""],
+    element: [''],
     classes: ['Fighter'],
     species: [''],
     image: "",
@@ -4971,7 +4971,7 @@ export const spellList = {
   },
   "Battle Shout": {
     name: "Battle Shout",
-    element: [""],
+    element: [''],
     classes: ['Fighter'],
     species: [''],
     image: "",
@@ -4981,7 +4981,7 @@ export const spellList = {
   },
   "Strength Up": {
     name: "Strength Up",
-    element: [""],
+    element: [''],
     classes: ['Fighter'],
     species: [''],
     image: "",
@@ -4991,7 +4991,7 @@ export const spellList = {
   },
   "Vitality Up": {
     name: "Vitality Up",
-    element: [""],
+    element: [''],
     classes: ['Fighter'],
     species: [''],
     image: "",
@@ -5001,7 +5001,7 @@ export const spellList = {
   },
   "Provoke": {
     name: "Provoke",
-    element: [""],
+    element: [''],
     classes: ['Fighter'],
     species: [''],
     image: "",
@@ -5011,7 +5011,7 @@ export const spellList = {
   },
   "Willpower Up": {
     name: "Willpower Up",
-    element: [""],
+    element: [''],
     classes: ['Knight'],
     species: [''],
     image: "",
@@ -5021,7 +5021,7 @@ export const spellList = {
   },
   "Crippling Blow": {
     name: "Crippling Blow",
-    element: [""],
+    element: [''],
     classes: ['Knight'],
     species: [''],
     image: "",
@@ -5029,15 +5029,16 @@ export const spellList = {
     passive: false,
     1: "Cripple the target with a sweeping blow.",
   },
-  "Crippling Blow": {
-    name: "Crippling Blow",
-    element: [""],
-    classes: ['Knight'],
-    species: [''],
+  "Underwater Breathing": {
+    name: "Underwater Breathing",
+    element: [''],
+    classes: [''],
+    species: ['Water Elf', 'Mermaid'],
     image: "",
     negative: false,
-    passive: false,
-    1: "Cripple the target with a sweeping blow.",
+    passive: true,
+    I: "Can breath underwater.",
+    1: "Can breath underwater.",
   },
   // Phoenix Flame
   // https://en.uesp.net/wiki/Oblivion:Spells
