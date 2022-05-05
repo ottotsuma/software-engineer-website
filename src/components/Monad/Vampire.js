@@ -216,7 +216,9 @@ export function SpellFinder() {
       <ChoiceButtonWrap>{speciesArray}</ChoiceButtonWrap>
       <Spells spells={shownSpells} type={"mage"} />
       {chosenClass ? <BeastPage name={chosenClass} /> : <div />}
+      <div style={{margin: '10px 0px'}} />
       {chosenSpecies ? <BeastPage name={chosenSpecies} /> : <div />}
+      <div style={{marginBottom: '50px'}} />
     </Wrap>
   );
 }
