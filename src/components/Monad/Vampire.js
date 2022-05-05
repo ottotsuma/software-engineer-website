@@ -9,6 +9,8 @@ import { colors, monadColors, textColors } from "./../elements/colors";
 import { _try, imageError } from "./../elements/util";
 import { racesList } from "./../elements/species";
 import { classList } from "./../elements/classes";
+import { PeopleList } from "./People";
+
 import Empty from "./../../assets/empty.gif";
 
 export const MageTypes = [
@@ -43,6 +45,9 @@ export function SpellFinder() {
   const [classesArray, SetClassesArray] = useState([]);
   const [speciesArray, SetSpeciesArray] = useState([]);
   const entries = Object.entries(spellList);
+  const [personButtons, SetPersonButtons] = useState([]);
+  const [chapter, SetChapter] = useState(1);
+  const [person, SetPerson] = useState(PeopleList[0](chapter));
 
   useEffect(() => {
     const ElementTypesArray = [];
@@ -202,7 +207,27 @@ export function SpellFinder() {
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [chosenElement, chosenClass, chosenSpecies]);
-
+  useEffect(() => {
+    function HandleChange (e) {
+      SetChapter(e.target.value)
+    }
+    const PersonList = []
+    for (let index = 0; index < PeopleList.length; index++) {
+      PersonList.push(
+        <ElementalButton
+          selected={person === PeopleList[index]}
+          key={index + "Person"}
+          onClick={() => SetPerson(PeopleList[index](chapter))}
+        >
+          {PeopleList[index].name}
+        </ElementalButton>
+      );
+    }
+    PersonList.push(<input value={chapter} onChange={HandleChange} key={'input person'} type='number'></input>)
+    SetPersonButtons(PersonList)
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [chapter])
+  
   return (
     <Wrap>
       <h4>Types of Mages:</h4>
@@ -219,6 +244,8 @@ export function SpellFinder() {
       <div style={{margin: '10px 0px'}} />
       {chosenSpecies ? <BeastPage name={chosenSpecies} /> : <div />}
       <div style={{marginBottom: '50px'}} />
+      <ChoiceButtonWrap>{personButtons}</ChoiceButtonWrap>
+      {person}
     </Wrap>
   );
 }

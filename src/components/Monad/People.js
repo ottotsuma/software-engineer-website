@@ -4,7 +4,8 @@ import Stats from "../elements/stats";
 import SpellCards from "./SpellCards";
 import ClassDisplay from "../elements/classes";
 
-export default function Otto() {
+export const PeopleList = [Otto, Tsuma, Kaja, Noah, Sarah, Josh, Hitori, Linhart, Beke, Effi, Nils]
+export default function Otto(Chapter) {
   // Ch32
   // Flaw: Anger
   return (
