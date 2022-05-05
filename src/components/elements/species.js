@@ -342,7 +342,7 @@ export const racesList = {
     stats: {
     },
     self: "",
-    image:"",
+    images:['https://static.wikia.nocookie.net/lovecraft/images/b/b6/Serpent_People_%28Lo%C3%AFc_Muzy%29.jpg/revision/latest/scale-to-width-down/699?cb=20190713051007'],
     notes: "Snake humanoid, not to be mixed up with the dragon or lizard humonids. The Naj'hass are from Naj'es. Naj'es, Naj's land. Naj'hass, Naj people.",
     tier: "rare",
   }
