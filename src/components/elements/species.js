@@ -192,7 +192,10 @@ export const racesList = {
         willpower: -2,
       },
       self: "",
-      notes: 'Ghouls - Some intelligence, Zombies - None. The main difference between Ghoul and Zombie is that the ghoul is a demon-like creature or spirit that feed on dead human flesh while the Zombie is an undead corpse which goes around feeding on living human for their flesh.',
+      notes: `Ghouls - Some intelligence, Zombies - None. The main difference between Ghoul and Zombie is that the ghoul is a demon-like creature or spirit that feed on dead human flesh while the Zombie is an undead corpse which goes around feeding on living human for their flesh.
+      
+      Unlike a vampire, a ghoul is not affected by sunlight. Ghouls are stronger, faster and can see better than a human. But their main strength is their incredible healing abilities, they are even more impressive than a vampire's. Broken bones chunks of flesh will be instantly healed on the spot. Ghouls are most loyal to their maker, the main reason for this is because their maker's blood resides inside their body. The maker will need to supply the ghoul with his or her own blood otherwise the ghoul's body will start to deteriorate and eventually will cease to exist. As long as the ghoul gets a supply of the maker's blood then the ghoul will live on forever by the maker's side. The ghoul's loyalty is based on the amount of the maker's blood within them at the time. The function to eat regular food has completely disappeared. If the ghoul eats regular food, he or she will immediately vomit it. Instead, the undead must eat raw human flesh, with the initial turned ghoul can temporarily delay the hunger with raw animal meat. The ghoul's olfaction can detect if the meat is raw or not, with the former as a delicious smell. The faster a turned ghoul can consume different raw fresher human flesh (0/7), the faster and more likely better further evolution, such as the Wight.]
+      `,
       tier: "normal",
       images: [],
       disc: "Ghouls are similar in appearance to zombies, however unlike zombies they have a level of intelligence. Ghouls are summoned demon-like creatures and zombies are just animated corpses. .",
@@ -208,10 +211,73 @@ export const racesList = {
         willpower: -2,
       },
       self: "",
-      notes: 'https://en.wikipedia.org/wiki/Wight , https://powerlisting.fandom.com/wiki/Wight_Physiology',
+      notes: `https://en.wikipedia.org/wiki/Wight , https://powerlisting.fandom.com/wiki/Wight_Physiology , A rare evolution path of a ghoul. A wight is an undead creature which is fast and sneaky in the night. They are best used as a form of an assassin. Wight's have a high level of intelligence similar to humans, although their personality could not be said to be the same. They are lawful to their creator, but once they see someone as their enemy, they will do everything in their power to get rid of them. Wights are immune to poison, sleep, paralysis, Mind control, and diseases. They also contain a skill that will allow them to turn a killed victim into another lesser Wight (0/2). [3]The wight can only be a certain evolution for a ghoul only if its creator is a vampire leader.]`,
       tier: "rare",
       images: [],
       disc: "A Wight is a type of undead with a hatred for the living. Both will be hostile to each other on first sight. Whites are very similar to zombies in terms of weaknesses, strengths and appearance. While zombies are very weak to the light element, Whites cannot harm those with a strong light affinity at all.",
+    },
+    Draugr: {
+      stats: {
+      },
+      self: "",
+      notes: 'https://powerlisting.fandom.com/wiki/Draugr_Physiology',
+      tier: "rare",
+      images: [],
+      disc: "An undead creature that possesses superhuman strength. They contain super healing abilities and have possible evolutions in the future, which will allow it to gain new abilities unique to the Draugr. Its natural nature is snappy as it has a short temper. Its strength is on par with its creator. However, it will not scale as the creator gets stronger. All other stats are half that of the original creator. Must feast on human flesh to evolve and heal but is not necessary to consume. If never fed, it will continue to live as long as it remains uninjured.]",
+    },
+    "Blood Fairy": {
+      stats: {
+      },
+      self: "",
+      notes: 'https://powerlisting.fandom.com/wiki/Fairy-Vampire_Physiology , https://my-vampire-system.fandom.com/wiki/Vampire#:~:text=The%20main%20traits%20of%20a,toxic%20and%20acidic%20to%20vampires.',
+      tier: "rare",
+      images: [],
+      disc: "The playboy or playgirl of the vampire race. They physically have a superhuman body which is comparable to vampires, including their regenerative abilities. Although unlike vampires, they do not consume human blood to live and regenerate. They consume vampire blood. They are long lived but not immortal by any means. The main traits of a Blood fairy are it's smooth silky skin, and its red blood wings. The blood fairies are able to fly and use their own set of blood skills that are different from vampire skills. This is due to the blood inside the fairy's being different. The fairy's blood is toxic and acidic to vampires. A blood fairy is one of the subclasses that if created, vampires are ordered to kill it on sight.]",
+    },
+    "Strigoi": {
+      stats: {
+      },
+      self: "",
+      notes: `A Strigoi is a type of vampire that has not yet chosen its path. Evolution will commence once the Strigoi has decided on its future path. Possible evolutions include the Strigoi Mort, a dangerous vampire that focuses on physical abilities or a Strigoi Vu that is a sorcerer among vampires. Strigoi are not affected by sunlight, they also consume human blood via simple touch, powering their ability to transform into an animal-like creature. Strigoi are just as mortal as vampires, but apart from their speed they share only a few physical traits. (Even this may vary depending on what animal they are able to transform into)]
+      https://en.wikipedia.org/wiki/Strigoi#:~:text=Strigoi%20in%20Romanian%20mythology%20are,the%20blood%20of%20their%20victims.
+      `,
+      tier: "rare",
+      images: [],
+      disc: "",
+    },
+    "Hannya": {
+      stats: {
+      },
+      self: "",
+      notes: `
+      Hannya are emotional beings. Their powers and strength fluctuate based on their emotions, and they are more sensitive than regular beings. They are typically prone to jealousy and negativity. They often feed off the negativity of those around them as well to power up their own powers. Their powers specialize in dark and spiritual magic. This magic can also be used to influence weak-minded women to do their bidding. A Hannya is the only known vampire class that is able to switch between evolutions on the fly. They have a total of three recorded evolutions that they can choose from and depending on the situation they are in (calmly consuming negative emotions), they are able to change. Each evolution has a different set of abilities that would be better in different scenarios. They don't just stay in one state, but are able to change into these different states at will. Although after a certain amount of time, they will always go back down to the original state. They also have two horn numbs on their head. Hannya are deemed beautiful in vampire aesthetics.
+      https://en.wikipedia.org/wiki/Hannya#:~:text=The%20hannya%20(%E8%88%AC%E8%8B%A5)%20mask%20is,eyes%2C%20and%20a%20leering%20mouth.
+      `,
+      tier: "rare",
+      images: [],
+      disc: "",
+    },
+    "Banshee": {
+      stats: {
+      },
+      self: "",
+      notes: `
+      Banshees are known as the Harbingers of death. When one of them comes into this world, including themselves, they let out an almighty scream to announce it, but this is not the only time they will do so. The reason for their name is because they are able to tell when one of their family members has died. They too announce this with a scream or a cry. Banshees often are able to predict death in their family, and see a distorted future. The method this comes to them is different for each one. For some, it can be whispers, some visions and other ways. Just because a banshee has seen such a sign doesn't mean it will happen, as the future can always be changed. It is just one of the possibilities they are seeing. Each of the thirteern families have at least one banshee to determine if a member of their family might eventually die, keeping track.]
+      `,
+      tier: "rare",
+      images: [],
+      disc: "",
+    },
+    "Vampiric Beasts": {
+      stats: {
+      },
+      self: "",
+      notes: `
+
+      `,
+      tier: "rare",
+      images: [],
+      disc: "Generic beasts turned into vampires.",
     },
   Automitia: {
     stats: {},

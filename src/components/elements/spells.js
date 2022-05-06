@@ -5140,7 +5140,7 @@ export const spellList = {
   // Phoenix Flame
   // https://en.uesp.net/wiki/Oblivion:Spells
 };
-
+      {/*  crimson flash, vampiric drain, vampiric wings, crimson aegis, Undying body, immortal body, unyielding blood demon, telepathy, fartalk */}
 export function InlineSpell({ spellName, level }) {
   // console.log(spellList[Object.keys(spellList).find(key => key.toLowerCase() === spellName.toLowerCase())]);
   return (

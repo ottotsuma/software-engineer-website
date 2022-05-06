@@ -294,88 +294,9 @@ export default function Vampire() {
       {Object.keys(LessonOptions)}
       <h4>Magic Types</h4>
       {array}
-      {/* <h1>Blood Skills for any blood ability user:</h1> */}
-      {/* <Spells
-        spells={[
-          { name: "Raining blood", level: 1 },
-          { name: "Blood Storm", level: 1 },
-          { name: "Grasp Heart", level: 1 },
-          { name: "Bloodhunt", level: 1 },
-          { name: "Blood Absorb", level: 1 },
-          { name: "Blood Aura", level: 1 },
-          { name: "Grasp of the Starved", level: 1 },
-          { name: "Blood Magic", level: 1 },
-          { name: "Blood Sacrifice", level: 1 },
-          { name: "Blood Wound", level: 1 },
-          { name: "Blood Control", level: 1 },
-          { name: "Blood Hardening", level: 1 },
-          { name: "Blood Swipe", level: 1 },
-          { name: "Blood Expand", level: 1 },
-          { name: "Blood Barrage", level: 1 },
-          { name: "Blood Bullet", level: 1 },
-          { name: "Blood Bank", level: 1 },
-          { name: "Blood Wall", level: 1 },
-          { name: "Blood Spray", level: 1 },
-          { name: "Blood Flow Acceleration", level: 1 },
-          { name: "Blood Sacrifice", level: 1 },
-          { name: "Blood Retribution", level: 1 },
-          { name: "Poisonous Blood", level: 1 },
-          { name: "Blood Curse", level: 1 },
-          { name: "Blood Armor", level: 1 },
-          { name: "Blood Potion", level: 1 },
-          { name: "Blood Combustion", level: 1 },
-          { name: "Blood Manipulation", level: 1 },
-          { name: "Blood Projectiles", level: 1 },
-          { name: "Blood Weapon Creation", level: 1 },
-          { name: "Blood Soul", level: 1 },
-          { name: "Blood Frenzy", level: 1 },
-          { name: "Blood Storage", level: 1 },
-          { name: "Blood Servant", level: 1 },
-          { name: "Blood Pact", level: 1 },
-          { name: "Blood Mist", level: 1 },
-        ]}
-        type={"mage"}
-      /> */}
-
       {/* 
       https://my-vampire-system.fandom.com/wiki/Quinn_Talen/Abilities
       */}
-      {/* <div className="BreakPoint" /> */}
-      {/* <h1>Vampire specific skills (Blood + Other)</h1> */}
-      {/* <Spells
-        spells={[
-          { name: "Vampiric Powers", level: 1 },
-          { name: "Hammer Strike", level: 1 },
-          { name: "Blood Hammer", level: 1 },
-          { name: "Blood Hammer Drill", level: 1 },
-          { name: "Blood Crescent Kick", level: 1 },
-          { name: "Daze", level: 1 },
-          { name: "Phantom Punch", level: 1 },
-          { name: "Phantom Kick", level: 1 },
-          { name: "Blood Ritual", level: 1 },
-          { name: "Flash Step", level: 1 },
-          { name: "Basic Vampire Martial Arts", level: 1 },
-          { name: "Vampiric Influence", level: 1 },
-          { name: "Blood Sucker", level: 1 },
-          { name: "Black Shroud", level: 1 },
-          { name: "Vampire Eyes", level: 1 },
-          { name: "Aura of Despair", level: 1 },
-          { name: "Vampire Halfling", level: 1 },
-          { name: "Vampire", level: 1 },
-          { name: "Vampire Noble", level: 1 },
-          { name: "Vampire Knight", level: 1 },
-          { name: "Vampire Lord", level: 1 },
-          { name: "Porphyric Hemophilia", level: 1, negative: true },
-          { name: "Noxiphilic Sanguivoria", level: 1, negative: true },
-          { name: "Sanguinare Vampiris", level: 1, negative: true },
-          { name: "Porphyria cutanea tarda", level: 1, negative: true },
-          { name: "Porphyria", level: 1, negative: true },
-
-          // Drain Fatigue 5pts, Vampirism (after a three day incubation period)
-        ]}
-        type={"human"}
-      /> */}
-      {/*  crimson flash, vampiric drain, vampiric wings, crimson aegis, Undying body, immortal body, unyielding blood demon, telepathy, fartalk */}
       <h1>Vampire Ranks</h1>
       <SubTitle>Vampires</SubTitle>
       <ul>
