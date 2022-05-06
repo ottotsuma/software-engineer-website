@@ -210,30 +210,7 @@ export const spellList = {
     1: "Reduces all stats by 1%.",
     90: "Reduces all stats by 90%.",
     stats: {
-      1: {
-        strengthMultiplier: -0.01,
-        vitalityMultiplier: -0.01,
-        magicMultiplier: -0.01,
-        dexterityMultiplier: -0.01,
-        senseMultiplier: -0.01,
-        enduranceMultiplier: -0.01,
-        willpowerMultiplier: -0.01,
-        HPMultiplier: -0.01,
-        MPMultiplier: -0.01,
-        // level: '*0.99'
-      },
-      90: {
-        // strengthMultiplier: -0.9,
-        // vitalityMultiplier: -0.9,
-        // magicMultiplier: -0.9,
-        // dexterityMultiplier: -0.9,
-        // senseMultiplier: -0.9,
-        // enduranceMultiplier: -0.9,
-        // willpowerMultiplier: -0.9,
-        // HPMultiplier: -0.9,
-        // MPMultiplier: -0.9,
-        // level: '*0.1'
-      },
+      // No need.
     },
   },
   "Dark Vision": {
