@@ -1128,11 +1128,11 @@ export function BeastPage({ name }) {
           <Title color={monadColors[beast.tier]}>
             {_try(() => name, beast.name)}
           </Title>
-          <Text>{_try(() => beast.disc)}</Text>
+          <Text>{_try(() => beast.disc)}< br/>{beast.self ? `Self: ${beast.self}` : ''}< br/>{beast.team ? `Team: ${beast.team}` : ''}</Text>
         </Top>
         <Mid>
           <StatsContainer>
-            <Stats hideH1={true} type={"description"} removeHPMP={true} stats={Status} />
+            <Stats hideSubTitles={true} hideH1={true} type={"description"} removeHPMP={true} stats={Status} />
           </StatsContainer>
           <BeastImage1
             onError={imageError}

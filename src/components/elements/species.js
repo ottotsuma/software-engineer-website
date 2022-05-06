@@ -133,7 +133,7 @@ export const racesList = {
     disc: "Snow elves are a branch of elves who split from their forest dwelling cousins to go north into the cold climate. They mostly live in caves in areas of tundra, ice or snow. They believe that the harsh environment is natures way of weeding out the weak. They have an affinity with ice element.",
   },
   "Dark Elf": {
-    name:'Desert Elf',
+    name:'Dark Elf',
     stats: { willpower: 2 },
     disc: "Desert Elves, also known as Dark Elves due to their ash-grey skin; are a branch of elves who split from their forest dwelling cousins to go south into the hot deserts. They mostly live nomadic lives. They believe that the sun which gives energy and life to all things is the blessing left by their God. They have an affinity with the fire element.",
     self: "Resist heat +5%.",
@@ -363,11 +363,17 @@ export const racesList = {
     tier: "rare",
   },
   Goblin: {
-    stats: {},
-
+    stats: {
+      strength: -1,
+      dexterity: 1,
+      sense: 1,
+      charisma: -1,
+      willpower: -1,
+    },
     self: "",
-    images: "",
+    images: ['https://ottotsuma.github.io/images/people/goblin.jpg','https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/DnD_Goblin.png/178px-DnD_Goblin.png', ],
     notes: "",
+    disc:`Wild goblins are small, black-hearted humanoids that lair in despoiled dungeons and other dismal settings. Individually weak, they gather in large numbers to torment other creatures. Some goblins have adapted to a more civilized life style, working alongside humans and other species in large cities.`,
     tier: "normal",
   },
   Troglodytes: {

@@ -294,6 +294,7 @@ function Stats({
   removeHPMP,
   hideTitle,
   hideH1,
+  hideSubTitles
 }) {
   const array = [];
   const baseStats = stats;
@@ -587,7 +588,7 @@ function Stats({
         </Wrap>
       );
       array.push(
-        <SingleStat key={index + "stat"}>
+        !hideSubTitles && <SingleStat key={index + "stat"}>
           {classElement}
           {!!type && <Span>{ClassSpan}</Span>}
         </SingleStat>
@@ -604,7 +605,7 @@ function Stats({
         </Wrap>
       );
       array.push(
-        <SingleStat key={index + "stat"}>
+        !hideSubTitles && <SingleStat key={index + "stat"}>
           {speciesElement}
           {!!type && <Span>{RaceSpan}</Span>}
         </SingleStat>
