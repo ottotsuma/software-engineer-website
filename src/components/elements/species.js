@@ -68,7 +68,7 @@ export const racesList = {
     name: "Human",
     stats: { charisma: 2, sense: 1 },
     self: "Can use all basic tools.",
-    images: "",
+    images: [],
     notes: "",
     tier: "normal",
   },
@@ -82,9 +82,8 @@ export const racesList = {
   },
   Orc: {
     stats: { strength: 2, vitality: 1 },
-
     self: "Small health regen when in combat.",
-    images: "", // 31bc50c58f7987af3eeb4217b6696c6f
+    images: ["https://ottotsuma.github.io/images/people/31bc50c58f7987af3eeb4217b6696c6f.jpg"], 
     notes: "",
     tier: "normal",
   },
