@@ -197,6 +197,22 @@ export const racesList = {
       images: [],
       disc: "Ghouls are similar in appearance to zombies, however unlike zombies they have a level of intelligence. Ghouls are summoned demon-like creatures and zombies are just animated corpses. .",
     },
+    Wight: {
+      stats: {
+        strength: 3,
+        vitality: 4,
+        magic: -1,
+        dexterity: -2,
+        sense: -2,
+        charisma: -3,
+        willpower: -2,
+      },
+      self: "",
+      notes: 'https://en.wikipedia.org/wiki/Wight , https://powerlisting.fandom.com/wiki/Wight_Physiology',
+      tier: "rare",
+      images: [],
+      disc: "A Wight is a type of undead with a hatred for the living. Both will be hostile to each other on first sight. Whites are very similar to zombies in terms of weaknesses, strengths and appearance. While zombies are very weak to the light element, Whites cannot harm those with a strong light affinity at all.",
+    },
   Automitia: {
     stats: {},
 

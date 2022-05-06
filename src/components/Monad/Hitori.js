@@ -111,7 +111,7 @@ export const HitoriStory = {
       </p>
       <p>
         "Nobody knows... Some say he only hides when he enters the dungeon,
-        others say he keeps giving support from afar. Either way he's just going
+        his nickname is 'Hitori', because at school no-one wanted to partner with him. Either way he's just going
         to be a burden on us." Hide said.
       </p>
       <Hitori>
@@ -119,7 +119,7 @@ export const HitoriStory = {
         to not listen in, but they were in the next row, they could of moved.
         The teenagers began betting on who would kill more monsters. Some of the
         adults talked about how much money they would get from this dungeon, and
-        some even ridiculed me out loud, saying how useless I was.
+        some even ridiculed me out loud, saying how useless I was. Honestly though, I liked the name Hitori, it meant 'alone' and that suited me just fine.
       </Hitori>
       <Hitori>
         I tried my best not to pay attention to any of this. I opened my skills
