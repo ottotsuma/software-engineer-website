@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styled from "styled-components";
-import Item from "./../elements/item";
-import Equipment from "./../elements/equipment";
+// import Item from "./../elements/item";
+// import Equipment from "./../elements/equipment";
 import Stats from "./../elements/stats";
 import Spells, { spellList } from "./../elements/spells";
 import { ListofMagicTypes } from "./../elements/spells";
@@ -273,21 +273,12 @@ const ElementalButton = styled.button`
 `;
 
 export default function Vampire() {
-  // Vampires can gain experience by trying new blood, creating ghouls and the exp gained from the ghouls fighting
-  // all actions that would reveal the vampire would either cure or gain them exp or blood points to be used to improve their strength
-  // that way younger vampires are more likely to do these things then the older ones who don't need strength as badly
-  // Combined with the starving yourself (lower hp) increases you strength
+  // All actions that would reveal the vampire would either heal (HP) or gain them EXP or blood points to be used to improve their strength.
+  // That way younger vampires are more likely to do these things then the older ones who don't need strength as badly.
+  // Combined with the starving yourself (lower hp) increases you strength.
 
-  // Fast Regeneration
-  // Life Absorption
-  // Create Lesser Species by Bloodsucking
-  // Weapon Resistance
-  // Ice-type Damage Resistance
-
-  // Slow movement penalty during Sunlight
-  // Vulnerability to Holy Water.
-  // Vulnerability to Silver weapons (only lesser vampires)
-  // Added damage by Positive Energy
+  // Weaknesses: Hunger level, Fire (element), Light (element), Silver (only lesser vampires), Sunlight. Strengths: Ice-resistance, Weapon Resistance, Create lesser species (Skill), life absorption (heal on hit? Skill?), fast regeneration (Normal HP regen + % of that. Not total HP %. So 100HP and regen 10HP/S a 10% increase is 11HP/S.). 
+  // Misc: Vampires can gain experience by trying new blood. And unlock a higher level of blood skills.
   const array = [];
   for (let index = 0; index < ListofMagicTypes.length; index++) {
     const element = ListofMagicTypes[index];

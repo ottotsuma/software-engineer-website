@@ -4341,12 +4341,97 @@ export const spellList = {
     3: "Cap 3.",
   },
   "Vampiric Powers": {
+    // Maybe break this up into Fire Vulnerability +1. Etc, then give them those skills.
     name: "Vampiric Powers",
     element: ["none"],
     classes: [""],
     species: ["Vampire"],
     passive: true,
-    1: "No points can be spent on this passive. As the severity of vampirism increases, the vampire's weakness and strengths enhance. Some effects are constant across the infection, while others are dynamic.",
+  // All actions that would reveal the vampire would either heal (HP) or gain them EXP or blood points to be used to improve their strength.
+  // That way younger vampires are more likely to do these things then the older ones who don't need strength as badly.
+  // Combined with the starving yourself (lower hp) increases you strength.
+
+  // Weaknesses: Hunger level, Fire (element), Light (element), Silver (only lesser vampires), Sunlight. Strengths: Ice-resistance, Weapon Resistance, Create lesser species, life absorption, fast regeneration. 
+  // Misc: Vampires can gain experience by trying new blood. And unlock a higher level of blood skills.
+
+    // 1: "No points can be spent on this passive. As the severity of vampirism increases, the vampire's weakness and strengths enhance. Some effects are constant across the infection, while others are dynamic.",
+    1: `Strengths: Ice-resistance 10%, Weapon Resistance 1%, faster regeneration 5%, Create lesser species +1. Weaknesses: Hunger level 10%, Fire Weakness +10%, Light Weakness +10%, Exposure to sunlight - Causes Stamina to regenerate 50% slower & Movement speed -25%.`,
+    2: "Hunger level 20%.",
+    3: "Hunger level 30%.",
+    4: "Hunger level 40%.",
+    5: "Hunger level 50%.",
+    6: "Hunger level 60%.",
+    7: "Hunger level 70%.",
+    8: "Hunger level 80%.",
+    9: "Hunger level 90%.",
+    10: "Hunger level 100%.",
+    stats: [
+      {
+        strength: 1,
+        // strengthMultiplier: 2,
+        // enduranceMultiplier: 2,
+        magic: 1,
+      },
+      {
+        strength: 1,
+        magic: 1,
+        sense: 1,
+      },
+      {
+        strength: 1,
+        magic: 1,
+        sense: 1,
+      },
+      {
+        strength: 1,
+        magic: 1,
+        sense: 1,
+      },
+      {
+        strength: 1,
+        magic: 1,
+        sense: 1,
+      },
+      {
+        strength: 1,
+        magic: 1,
+        sense: 1,
+      },
+      {
+        strength: 1,
+        magic: 1,
+        sense: 1,
+      },
+      {
+        strength: 1,
+        magic: 1,
+        sense: 1,
+      },
+      {
+        strength: 1,
+        magic: 1,
+        sense: 1,
+      },
+      {
+        strength: 1,
+        magic: 1,
+        sense: 1,
+      },
+    ],
+  },
+  "Lesser Vampiric Powers": {
+    name: "Lesser Vampiric Powers",
+    element: ["none"],
+    classes: [""],
+    species: ["Vampire"],
+    passive: true,
+  // All actions that would reveal the vampire would either heal (HP) or gain them EXP or blood points to be used to improve their strength.
+  // That way younger vampires are more likely to do these things then the older ones who don't need strength as badly.
+  // Combined with the starving yourself (lower hp) increases you strength.
+
+  // Weaknesses: Hunger level, Fire (element), Light (element), Silver (only lesser vampires), Sunlight. Strengths: Ice-resistance, Weapon Resistance, Create lesser species (Skill), life absorption (heal on hit? Skill?), fast regeneration (Normal HP regen + % of that. Not total HP %. So 100HP and regen 10HP/S a 10% increase is 11HP/S.). 
+  // Misc: Vampires can gain experience by trying new blood. And unlock a higher level of blood skills.
+    1: `Strengths: Ice-resistance 10%, Weapon Resistance 1%, faster regeneration 5%. Weaknesses: Hunger level 10%, Fire Weakness +10%, Light Weakness +10%, Silver Weakness +10%, Exposure to sunlight - Causes Stamina to regenerate 50% slower & Movement speed -25%.`,
     2: "Hunger level 20%.",
     3: "Hunger level 30%.",
     4: "Hunger level 40%.",

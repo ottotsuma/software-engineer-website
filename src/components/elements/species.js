@@ -153,6 +153,12 @@ export const racesList = {
     disc:'Water elves, a lost race of elves that set off into the sea during the great split of elves, they had seen the ocean had a great variety of nature and hoped to find the source. Their reverence for water has gained them the favor of the water element.',
   },
   Vampire: {
+  // All actions that would reveal the vampire would either heal (HP) or gain them EXP or blood points to be used to improve their strength.
+  // That way younger vampires are more likely to do these things then the older ones who don't need strength as badly.
+  // Combined with the starving yourself (lower hp) increases you strength.
+
+  // Weaknesses: Hunger level, Fire (element), Light (element), Silver (only lesser vampires), Sunlight. Strengths: Ice-resistance, Weapon Resistance, Create lesser species (Skill), life absorption (heal on hit? Skill?), fast regeneration (Normal HP regen + % of that. Not total HP %. So 100HP and regen 10HP/S a 10% increase is 11HP/S.). 
+  // Misc: Vampires can gain experience by trying new blood. And unlock a higher level of blood skills.
     stats: {
       strength: 1,
       vitality: 1,
@@ -172,9 +178,25 @@ export const racesList = {
       "https://ottotsuma.github.io/images/people/3cbeaef31df0449953933745c69dc0bc.jpg"
       // 7ba7da6ab05c5f29e2fd5bfc0516948c, 3cbeaef31df0449953933745c69dc0bc, kururu_by_cglas_d9g4c3a-pre, 82f23c130566f90858bea74138c47f70
     ],
-    disc: "Vampires are members of the undead. They excel in the use of Blood, being able to learn blood magic and blow skills though their vampire skill tree. They can become faster and stronger then average humanoids, however the stronger they become the stronger their weaknesses become. Direct weaknesses like: sunlight and fire; as well as their craving for blood.",
+    disc: "Vampires are members of the undead. There are many sub-species of vampire, from the intelligent high vampires to mindless beasts. They excel in the use of Blood, being able to learn blood magic and blow skills though their vampire skill tree. They can become faster and stronger then average humanoids, however the stronger they become the stronger their weaknesses become. Direct weaknesses like: sunlight and fire; as well as their craving for blood.",
     // https://powerlisting.fandom.com/wiki/Red_Panda_Physiology & https://tier-zoo.fandom.com/wiki/Red_Panda
   },
+  Ghoul: {
+      stats: {
+        strength: 3,
+        vitality: 4,
+        magic: -1,
+        dexterity: -2,
+        sense: -2,
+        charisma: -3,
+        willpower: -2,
+      },
+      self: "",
+      notes: 'Ghouls - Some intelligence, Zombies - None. The main difference between Ghoul and Zombie is that the ghoul is a demon-like creature or spirit that feed on dead human flesh while the Zombie is an undead corpse which goes around feeding on living human for their flesh.',
+      tier: "normal",
+      images: [],
+      disc: ".",
+    },
   Automitia: {
     stats: {},
 
