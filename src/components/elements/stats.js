@@ -296,13 +296,23 @@ function Stats({
   hideH1,
   hideSubTitles
 }) {
+  const MiasmaLevel = _try(() => skills.conditions.filter((M)=> M.name === 'Miasma').pop().level, 0)
   const array = [];
-  const baseStats = stats;
+  const baseStats = {...stats};
+  if(MiasmaLevel) {
+    baseStats.level = baseStats.level-MiasmaLevel
+    baseStats.strength = (baseStats.strength) - (baseStats.strength*(MiasmaLevel/100))
+    baseStats.vitality = (baseStats.vitality) - (baseStats.vitality*(MiasmaLevel/100))
+    baseStats.magic = (baseStats.magic) - (baseStats.magic*(MiasmaLevel/100))
+    baseStats.dexterity = (baseStats.dexterity) - (baseStats.dexterity*(MiasmaLevel/100))
+    baseStats.sense = (baseStats.sense) - (baseStats.sense*(MiasmaLevel/100))
+    baseStats.charisma = (baseStats.charisma) - (baseStats.charisma*(MiasmaLevel/100))
+    baseStats.willpower = (baseStats.willpower) - (baseStats.willpower*(MiasmaLevel/100))
+  }
   const HPList = [];
   const MPList = [];
   const multiplierList = []
   const keys = Object.keys(stats);
-  const MiasmaLevel = _try(() => skills.conditions.filter((M)=> M.name === 'Miasma').pop().level, 0)
 
   let RaceSpan = undefined;
   if (stats.species) {
