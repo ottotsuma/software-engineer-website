@@ -356,7 +356,6 @@ function Stats({
     const InnateSkillsRace = _try(() => classList[stats.class].InnateSkills, [])
     if(InnateSkillsRace.length > 0) {
       for (let index = 0; index < InnateSkillsRace.length; index++) {
-        console.log(stats.class, skills)
         skills[stats.class].unshift({name: InnateSkillsRace[index], level: _try(()=> (stats.level/10)-(MiasmaLevel/10), 1)})
       }
     }

@@ -140,7 +140,7 @@ export const classList = {
   },
     "Fallen Paladin": {
     name: "Fallen Paladin",
-    team: "",
+    team: "Your God has forsaken you, your previous God will not watch over your team.",
     disc: "",
     notes: "",
     images: [],
