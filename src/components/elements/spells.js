@@ -2587,6 +2587,14 @@ export const spellList = {
     passive: false,
     1: "A lance of steam is blasted at the target.",
   },
+  "Holy Practitioner": {
+    name: "Holy Practitioner",
+    element: ["light"],
+    classes: ["Paladin"],
+    species: [""],
+    passive: true,
+    1: "Can use holy objects, cannot use unholy objects.",
+  },
   "Global Cooling": {
     name: "Global Cooling",
     element: ["ice"],

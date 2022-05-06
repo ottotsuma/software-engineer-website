@@ -136,6 +136,17 @@ export const classList = {
     images: [],
     tier: "normal",
     stats: {},
+    InnateSkills: ['Holy Practitioner'],
+  },
+    "Fallen Paladin": {
+    name: "Fallen Paladin",
+    team: "",
+    disc: "",
+    notes: "",
+    images: [],
+    tier: "normal",
+    stats: {},
+    InnateSkills: ['Fallen Paladin'],
   },
   Guardian: {
     name: "Guardian",

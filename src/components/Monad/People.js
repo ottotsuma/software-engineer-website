@@ -564,7 +564,7 @@ export function Sarah(Chapter) {
         stats={{
           name: "Sarah",
           level: 100,
-          class: "Paladin",
+          class: "Fallen Paladin",
           species: "Vampire",
           spells: 0,
           passives: 0,
@@ -586,14 +586,14 @@ export function Sarah(Chapter) {
         titles={["Princess"]}
         showSkills={true}
         skills={{
-          vampire: [
+          Vampire: [
             { name: "Vampire Eyes", level: 1 },
             { name: "Vampiric Powers", level: 1 },
             { name: "Vampire", level: 1 },
             // Above is all (I)
             // Basic Vampire Martial Arts, Vampiric Influence, Blood Wall, Blood Bank, Blood Storage, Blood Hardening, Sleep Immunity, Blood Armor,
           ],
-          paladin: [{ name: "Fallen Paladin", level: 1 }],
+          "Fallen Paladin": [],
           conditions: [
             // Negatives
             { name: "Player", level: 1 },

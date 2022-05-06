@@ -309,7 +309,7 @@ function Stats({
     const InnateSkillsRace = _try(() => racesList[stats.species].InnateSkills, [])
     if(InnateSkillsRace.length > 0) {
       for (let index = 0; index < InnateSkillsRace.length; index++) {
-        skills[stats.species.toLowerCase()].unshift({name: InnateSkillsRace[index], level: (stats.level/10)-(MiasmaLevel/10)})
+        skills[stats.species].unshift({name: InnateSkillsRace[index], level:  _try(()=> (stats.level/10)-(MiasmaLevel/10), 1)})
       }
     }
     const raceStats = Object.keys(racesList[stats.species].stats);
@@ -353,6 +353,13 @@ function Stats({
   }
   let ClassSpan = undefined;
   if (stats.class) {
+    const InnateSkillsRace = _try(() => classList[stats.class].InnateSkills, [])
+    if(InnateSkillsRace.length > 0) {
+      for (let index = 0; index < InnateSkillsRace.length; index++) {
+        console.log(stats.class, skills)
+        skills[stats.class].unshift({name: InnateSkillsRace[index], level: _try(()=> (stats.level/10)-(MiasmaLevel/10), 1)})
+      }
+    }
     const classStats = _try(() => classList[stats.class].stats);
     ClassSpan = _try(() => classList[stats.class].team);
     if (ClassSpan) ClassSpan = "Team: " + ClassSpan;
