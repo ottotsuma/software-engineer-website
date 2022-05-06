@@ -28,6 +28,22 @@ function TechList() {
               <Card>
                 <CardImage
                   onError={imageError}
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1024px-Typescript_logo_2020.svg.png"
+                  alt="human"
+                />
+                <Container>
+                  <Name>TypeScript</Name>
+                </Container>
+              </Card>
+            </Inner>
+          </CardContainer>
+        </div>
+        <div className="contentInner">
+          <CardContainer>
+            <Inner>
+              <Card>
+                <CardImage
+                  onError={imageError}
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1024px-Ruby_logo.svg.png"
                   alt="human"
                 />
@@ -81,6 +97,22 @@ function TechList() {
                 />
                 <Container>
                   <Name>React.js</Name>
+                </Container>
+              </Card>
+            </Inner>
+          </CardContainer>
+        </div>
+        <div className="contentInner">
+          <CardContainer>
+            <Inner>
+              <Card>
+                <CardImage
+                  onError={imageError}
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/800px-Nextjs-logo.svg.png"
+                  alt="human"
+                />
+                <Container>
+                  <Name>Next.js</Name>
                 </Container>
               </Card>
             </Inner>
@@ -220,6 +252,38 @@ function TechList() {
               <Card>
                 <CardImage
                   onError={imageError}
+                  src="https://www.styled-components.com/atom.png"
+                  alt="human"
+                />
+                <Container>
+                  <Name>Styled Components</Name>
+                </Container>
+              </Card>
+            </Inner>
+          </CardContainer>
+        </div>
+        <div className="contentInner">
+          <CardContainer>
+            <Inner>
+              <Card>
+                <CardImage
+                  onError={imageError}
+                  src="https://mui.com/static/logo.png"
+                  alt="human"
+                />
+                <Container>
+                  <Name>Material UI</Name>
+                </Container>
+              </Card>
+            </Inner>
+          </CardContainer>
+        </div>
+        <div className="contentInner">
+          <CardContainer>
+            <Inner>
+              <Card>
+                <CardImage
+                  onError={imageError}
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
                   alt="human"
                 />
@@ -328,6 +392,7 @@ const Card = styled.div`
   height: 100%;
   margin: 1%;
   position: relative;
+  width: 130px;
 `;
 
 const Wrapper = styled.div`

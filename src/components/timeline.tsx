@@ -11,11 +11,14 @@ import LaptopMacIcon from "@material-ui/icons/LaptopMac";
 import RepeatIcon from "@material-ui/icons/Book";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
-import {BackgroundColor} from "./color"
 
 const useStyles = makeStyles((theme) => ({
   paper: {
     padding: "6px 16px",
+    display: 'flex',
+    alignItems: "center",
+    justifyContent: "center",
+    flexDirection: "column",
   },
   secondaryTail: {
     backgroundColor: theme.palette.secondary.main,

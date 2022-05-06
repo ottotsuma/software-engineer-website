@@ -15,7 +15,6 @@ import Tech from "./tech";
 
 import Modal2 from "./elements/modal2";
 import Timeline from "./timeline";
-import Spin from "./spinn";
 
 import { imageError } from "./color";
 
@@ -168,7 +167,7 @@ function Home(props) {
         {show && (
           <Modal2
             title={Language[lang].projects}
-            insert={<Spin />}
+            insert={<div>Projects was removed</div>}
             close={updateShow}
           />
         )}

@@ -4,6 +4,7 @@ import { colors, monadColors } from "./colors";
 import { _try } from "./util";
 
 export const racesList = {
+  // Generally should be "Self" not "Team"
   // Binturong ,
   //  鳳凰, fenghuang, Wade-Giles romanization feng-huang, also called feng or (misleadingly) Chinese phoenix, in Chinese mythology, an immortal bird whose rare appearance is said to be an omen foretelling harmony at the ascent to the throne of a new emperor.
   Binturong: {

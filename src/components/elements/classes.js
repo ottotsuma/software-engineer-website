@@ -4,6 +4,7 @@ import { colors, monadColors } from "./colors";
 import { _try } from "./util";
 // Team Vs Self Increases, they should all have team so the self ones should go somewhere also :/
 export const classList = {
+    // Generally should be "Team" not "Self"
   Mage: {
     name: "Mage",
     stats: {
