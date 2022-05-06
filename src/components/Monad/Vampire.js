@@ -3,8 +3,7 @@ import styled from "styled-components";
 // import Item from "./../elements/item";
 // import Equipment from "./../elements/equipment";
 import Stats from "./../elements/stats";
-import Spells, { spellList } from "./../elements/spells";
-import { ListofMagicTypes } from "./../elements/spells";
+import Spells, { spellList, ListOfMagicTypes } from "./../elements/spells";
 import { colors, monadColors, textColors } from "./../elements/colors";
 import { _try, imageError } from "./../elements/util";
 import { racesList } from "./../elements/species";
@@ -17,11 +16,11 @@ export const MageTypes = [
   "mana", // All non elemental magic
   "fire", // Fire, Lava (earth), Combustion, Heat, Volcano (earth), Inferno
   "metal", // Metal, Magnetic, Crystal, Gems (With corresponding element, E.g. Fire + Metal = Ruby)
-  "plant", // Plants, Wood, 
-  "water", // Water, Tsunami, 
+  "plant", // Plants, Wood,
+  "water", // Water, Tsunami,
   "earth", // Rocks, Solid, Dust, Sand, Mud (water), Growth (plant)
   "lightning", // Lightning, Electric, Electro-magnetic, Plasma
-  "ice", // Ice, Frost, Cold, 
+  "ice", // Ice, Frost, Cold,
   "wind", // Wind, Flight, Clouds (water), Hurricane, storm (water)
   "shadow", // Shadow, Darkness, Unholy, nightmare
   "light", // Light, Holy, Illumination, cleansing
@@ -209,10 +208,10 @@ export function SpellFinder() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [chosenElement, chosenClass, chosenSpecies]);
   useEffect(() => {
-    function HandleChange (e) {
-      SetChapter(e.target.value)
+    function HandleChange(e) {
+      SetChapter(e.target.value);
     }
-    const PersonList = []
+    const PersonList = [];
     for (let index = 0; index < PeopleList.length; index++) {
       PersonList.push(
         <ElementalButton
@@ -224,11 +223,18 @@ export function SpellFinder() {
         </ElementalButton>
       );
     }
-    PersonList.push(<input value={chapter} onChange={HandleChange} key={'input person'} type='number'></input>)
-    SetPersonButtons(PersonList)
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [chapter])
-  
+    PersonList.push(
+      <input
+        value={chapter}
+        onChange={HandleChange}
+        key={"input person"}
+        type="number"
+      ></input>
+    );
+    SetPersonButtons(PersonList);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [chapter]);
+
   return (
     <Wrap>
       <h4>Types of Mages:</h4>
@@ -242,9 +248,9 @@ export function SpellFinder() {
       <ChoiceButtonWrap>{speciesArray}</ChoiceButtonWrap>
       <Spells spells={shownSpells} type={"mage"} />
       {chosenClass ? <BeastPage name={chosenClass} /> : <div />}
-      <div style={{margin: '10px 0px'}} />
+      <div style={{ margin: "10px 0px" }} />
       {chosenSpecies ? <BeastPage name={chosenSpecies} /> : <div />}
-      <div style={{marginBottom: '50px'}} />
+      <div style={{ marginBottom: "50px" }} />
       <ChoiceButtonWrap>{personButtons}</ChoiceButtonWrap>
       {person}
     </Wrap>
@@ -277,11 +283,11 @@ export default function Vampire() {
   // That way younger vampires are more likely to do these things then the older ones who don't need strength as badly.
   // Combined with the starving yourself (lower hp) increases you strength.
 
-  // Weaknesses: Hunger level, Fire (element), Light (element), Silver (only lesser vampires), Sunlight. Strengths: Ice-resistance, Weapon Resistance, Create lesser species (Skill), life absorption (heal on hit? Skill?), fast regeneration (Normal HP regen + % of that. Not total HP %. So 100HP and regen 10HP/S a 10% increase is 11HP/S.). 
+  // Weaknesses: Hunger level, Fire (element), Light (element), Silver (only lesser vampires), Sunlight. Strengths: Ice-resistance, Weapon Resistance, Create lesser species (Skill), life absorption (heal on hit? Skill?), fast regeneration (Normal HP regen + % of that. Not total HP %. So 100HP and regen 10HP/S a 10% increase is 11HP/S.).
   // Misc: Vampires can gain experience by trying new blood. And unlock a higher level of blood skills.
   const array = [];
-  for (let index = 0; index < ListofMagicTypes.length; index++) {
-    const element = ListofMagicTypes[index];
+  for (let index = 0; index < ListOfMagicTypes.length; index++) {
+    const element = ListOfMagicTypes[index];
     array.push(<div key={element + [index]}>{element}</div>);
   }
   return (
@@ -1128,11 +1134,23 @@ export function BeastPage({ name }) {
           <Title color={monadColors[beast.tier]}>
             {_try(() => name, beast.name)}
           </Title>
-          <Text>{_try(() => beast.disc)}< br/>{beast.self ? `Self: ${beast.self}` : ''}< br/>{beast.team ? `Team: ${beast.team}` : ''}</Text>
+          <Text>
+            {_try(() => beast.disc)}
+            <br />
+            {beast.self ? `Self: ${beast.self}` : ""}
+            <br />
+            {beast.team ? `Team: ${beast.team}` : ""}
+          </Text>
         </Top>
         <Mid>
           <StatsContainer>
-            <Stats hideSubTitles={true} hideH1={true} type={"description"} removeHPMP={true} stats={Status} />
+            <Stats
+              hideSubTitles={true}
+              hideH1={true}
+              type={"description"}
+              removeHPMP={true}
+              stats={Status}
+            />
           </StatsContainer>
           <BeastImage1
             onError={imageError}

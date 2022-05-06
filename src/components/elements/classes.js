@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 import { colors, monadColors } from "./colors";
 import { _try } from "./util";
 // Team Vs Self Increases, they should all have team so the self ones should go somewhere also :/
 export const classList = {
-    // Generally should be "Team" not "Self"
+  // Generally should be "Team" not "Self"
   Mage: {
     name: "Mage",
     stats: {
@@ -12,7 +12,9 @@ export const classList = {
     },
     team: "Magic +1.",
     self: "",
-    images:["https://ottotsuma.github.io/images/people/b5185cca016eecd75b62833fdf2cfc43.jpg"],
+    images: [
+      "https://ottotsuma.github.io/images/people/b5185cca016eecd75b62833fdf2cfc43.jpg",
+    ],
     notes:
       "Solve all your problems with magic. Mages are the basic class for magical classes.",
     tier: "normal",
@@ -24,7 +26,9 @@ export const classList = {
     },
     team: "Strength +1.",
     self: "",
-    images:["https://ottotsuma.github.io/images/people/f7327f5068dcdd7e858b87e1da393c62.jpg"],
+    images: [
+      "https://ottotsuma.github.io/images/people/f7327f5068dcdd7e858b87e1da393c62.jpg",
+    ],
     notes: "Fighters are the base class for physical classes.",
     tier: "normal",
   },
@@ -34,8 +38,9 @@ export const classList = {
     },
     team: "Dexterity +1.",
     self: "",
-    images:
-      ["https://ottotsuma.github.io/images/people/0156c7576b1704ee70a55e4d1bd0db74.jpg"],
+    images: [
+      "https://ottotsuma.github.io/images/people/0156c7576b1704ee70a55e4d1bd0db74.jpg",
+    ],
     notes: `What doesn't kill you makes you stronger. Combine with beast souls to gain their power.`,
     tier: "normal",
   },
@@ -50,8 +55,11 @@ export const classList = {
     name: "Necromancer",
     stats: {},
     team: "",
-    images:["https://ottotsuma.github.io/images/people/necro.jpg", "https://ottotsuma.github.io/images/people/oldmage.jpg"],
-    notes:"",
+    images: [
+      "https://ottotsuma.github.io/images/people/necro.jpg",
+      "https://ottotsuma.github.io/images/people/oldmage.jpg",
+    ],
+    notes: "",
     tier: "normal",
     disc: "",
   },
@@ -88,7 +96,7 @@ export const classList = {
     stats: {},
     self: "Strength increases as health decreases.",
     team: "",
-    notes: "",    
+    notes: "",
     images: [],
     disc: "",
     tier: "",
@@ -120,7 +128,7 @@ export const classList = {
     tier: "normal",
   },
   Paladin: {
-    name:"Paladin",
+    name: "Paladin",
     team: "Unholy protection, unholy attacks deal 3% less.",
     self: "Can use holy objects, cannot use unholy objects.",
     disc: "",
@@ -131,13 +139,11 @@ export const classList = {
   },
   Guardian: {
     name: "Guardian",
-    stats: {
-    },
+    stats: {},
     team: "",
     self: "",
-    images:[],
-    notes:
-      "",
+    images: [],
+    notes: "",
     tier: "normal",
     disc: "",
   },
@@ -146,7 +152,7 @@ export const classList = {
     stats: {},
     team: "",
     self: "",
-    images:[],
+    images: [],
     notes: "",
     tier: "normal",
     disc: "",
@@ -155,7 +161,7 @@ export const classList = {
     stats: {},
     team: "Fire spells cost 5% less.",
     self: "",
-    images:[],
+    images: [],
     disc: "",
     notes: "",
     tier: "normal",
@@ -167,7 +173,7 @@ export const classList = {
     },
     team: "",
     self: "",
-    images:[],
+    images: [],
     disc: "",
     notes: "",
     tier: "normal",
@@ -177,7 +183,7 @@ export const classList = {
       sense: 2,
     },
     team: "Sense +1.",
-    images:[],
+    images: [],
     disc: "",
     notes: "",
     tier: "normal",
@@ -187,7 +193,7 @@ export const classList = {
       dexterity: 1,
     },
     team: "",
-    images:[],
+    images: [],
     disc: "",
     notes: "",
     tier: "normal",
@@ -196,7 +202,7 @@ export const classList = {
     stats: {},
     team: "Damage from sneak attacks is increased.",
     self: "",
-    images:[],
+    images: [],
     disc: "",
     notes: "",
     tier: "rare",
@@ -204,7 +210,7 @@ export const classList = {
   "Knight Commander": {
     stats: {},
     team: "Commanded units HP is increased.",
-    images:[],
+    images: [],
     disc: "",
     notes: "",
     tier: "rare",
@@ -212,7 +218,7 @@ export const classList = {
   Pirate: {
     stats: {},
     team: "🏴‍☠️ Swimming +5% movement speed.",
-    images:[],
+    images: [],
     disc: "",
     notes: "",
     tier: "rare",
@@ -220,7 +226,7 @@ export const classList = {
   Witchdoctor: {
     stats: {},
     team: "",
-    images:[],
+    images: [],
     disc: "",
     notes: "",
     tier: "rare",
@@ -229,7 +235,7 @@ export const classList = {
     stats: {},
     team: "",
     self: "Can use holy objects, cannot use unholy objects",
-    images:[],
+    images: [],
     disc: "",
     notes: "",
     tier: "rare",
@@ -238,7 +244,7 @@ export const classList = {
     stats: {},
     team: "",
     self: "Can use holy objects, cannot use unholy objects",
-    images:[],
+    images: [],
     disc: "",
     notes: "",
     tier: "rare",
@@ -247,7 +253,7 @@ export const classList = {
     stats: {},
     team: "",
     self: "Cannot use holy objects, can use unholy objects",
-    images:[],
+    images: [],
     disc: "",
     notes: "",
     tier: "rare",
@@ -256,7 +262,7 @@ export const classList = {
     stats: {},
     team: "",
     self: "Swimming +5% movement speed.",
-    images:[],
+    images: [],
     disc: "",
     notes: "",
     tier: "epic",
@@ -265,7 +271,7 @@ export const classList = {
     stats: {},
     team: "",
     self: "Access to blood skills.",
-    images:[],
+    images: [],
     disc: "",
     notes: "",
     tier: "epic",
@@ -274,7 +280,7 @@ export const classList = {
     stats: {},
     team: "",
     self: "",
-    images:[],
+    images: [],
     disc: "",
     notes: "",
     tier: "epic",
@@ -302,7 +308,7 @@ export const classList = {
     stats: {},
     team: "+1 to the main stat of crafted items",
     self: "",
-    images:[],
+    images: [],
     disc: "",
     notes: "",
     tier: "legendary",
@@ -311,7 +317,7 @@ export const classList = {
     stats: {},
     team: "",
     self: "",
-    images:[],
+    images: [],
     disc: "",
     notes: "",
     tier: "unique",
@@ -326,7 +332,8 @@ export const classList = {
     team: "Fire Resistance +1%",
     self: "",
     images: [
-      "https://images.squarespace-cdn.com/content/v1/57d34a6d725e254062172fe9/1579643445519-XXWBWFTZIZ23TNWBECJI/thumbnail_phoenix+rising.jpg"],
+      "https://images.squarespace-cdn.com/content/v1/57d34a6d725e254062172fe9/1579643445519-XXWBWFTZIZ23TNWBECJI/thumbnail_phoenix+rising.jpg",
+    ],
     notes:
       "phenix is a long-lived bird that is cyclically regenerated or reborn.",
     tier: "epic",
@@ -340,7 +347,11 @@ export default function ClassDisplay(Class) {
       <BackgroundWrap>
         <Wrap Tier={monadColors[Data.tier] || ""}>
           <Name>{Class}</Name>
-          {Data.images && Data.images[0] ? <Display src={Data.images[0]} alt={Class} /> : <></>}
+          {Data.images && Data.images[0] ? (
+            <Display src={Data.images[0]} alt={Class} />
+          ) : (
+            <></>
+          )}
           <Info>{Data.notes ? Data.notes : ""}</Info>
           <Self>{Data.self ? "Self: " + Data.self : ""}</Self>
           <Team>{Data.team ? "Team Bonus: " + Data.team : ""}</Team>
