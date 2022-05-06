@@ -195,7 +195,7 @@ export const racesList = {
       notes: 'Ghouls - Some intelligence, Zombies - None. The main difference between Ghoul and Zombie is that the ghoul is a demon-like creature or spirit that feed on dead human flesh while the Zombie is an undead corpse which goes around feeding on living human for their flesh.',
       tier: "normal",
       images: [],
-      disc: ".",
+      disc: "Ghouls are similar in appearance to zombies, however unlike zombies they have a level of intelligence. Ghouls are summoned demon-like creatures and zombies are just animated corpses. .",
     },
   Automitia: {
     stats: {},
@@ -364,7 +364,7 @@ export const racesList = {
     stats: {
     },
     self: "",
-    images:['https://static.wikia.nocookie.net/lovecraft/images/b/b6/Serpent_People_%28Lo%C3%AFc_Muzy%29.jpg/revision/latest/scale-to-width-down/699?cb=20190713051007'],
+    images:['https://static.wikia.nocookie.net/lovecraft/images/b/b6/Serpent_People_%28Lo%C3%AFc_Muzy%29.jpg'],
     notes: "Snake humanoid, not to be mixed up with the dragon or lizard humonids. The Naj'hass are from Naj'es. Naj'es, Naj's land. Naj'hass, Naj people.",
     tier: "rare",
   }
