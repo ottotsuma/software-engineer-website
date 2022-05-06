@@ -167,7 +167,7 @@ export const racesList = {
       charisma: 1,
       willpower: -2,
     },
-
+    InnateSkills: ['Sunlight Sensitivity'],
     self: "Blood magic is always unlocked. 🧛‍♂️",
     notes:
       '{ name: "Vampire Eyes", level: 1 }, { name: "Vampiric Powers", level: 1 },{ name: "Vampire", level: 1 },',

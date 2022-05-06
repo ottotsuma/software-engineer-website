@@ -47,7 +47,7 @@ export function SpellFinder() {
   const entries = Object.entries(spellList);
   const [personButtons, SetPersonButtons] = useState([]);
   const [chapter, SetChapter] = useState(1);
-  const [person, SetPerson] = useState(PeopleList[0](chapter));
+  const [person, SetPerson] = useState(PeopleList[4](chapter));
 
   useEffect(() => {
     const ElementTypesArray = [];

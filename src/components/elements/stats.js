@@ -302,9 +302,16 @@ function Stats({
   const MPList = [];
   const multiplierList = []
   const keys = Object.keys(stats);
+  const MiasmaLevel = _try(() => skills.conditions.filter((M)=> M.name === 'Miasma').pop().level, 0)
 
   let RaceSpan = undefined;
   if (stats.species) {
+    const InnateSkillsRace = _try(() => racesList[stats.species].InnateSkills, [])
+    if(InnateSkillsRace.length > 0) {
+      for (let index = 0; index < InnateSkillsRace.length; index++) {
+        skills[stats.species.toLowerCase()].unshift({name: InnateSkillsRace[index], level: (stats.level/10)-(MiasmaLevel/10)})
+      }
+    }
     const raceStats = Object.keys(racesList[stats.species].stats);
     RaceSpan = _try(() => racesList[stats.species].team);
     if (RaceSpan) RaceSpan = "Team: " + RaceSpan;

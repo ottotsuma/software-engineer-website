@@ -2395,6 +2395,13 @@ export const spellList = {
     1: "All stats -1 in sunlight.",
     2: "Your MP recovers slightly slower in sunlight.",
     3: "Your Stamina recovery is reduced 25% in sunlight.",
+    4:`4`,
+    5:`5`,
+    6:`6`,
+    7:`7`,
+    8:`8`,
+    9:`9`,
+    10: "Checking to see if innate skills works",
   },
   "Sunlight Adaptation": {
     name: "Sunlight Adaptation",
