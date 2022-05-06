@@ -215,7 +215,7 @@ export function SpellFinder() {
     for (let index = 0; index < PeopleList.length; index++) {
       PersonList.push(
         <ElementalButton
-          selected={person === PeopleList[index]}
+          selected={PeopleList[index].name === _try(() => person.props.stats.name)}
           key={index + "Person"}
           onClick={() => SetPerson(PeopleList[index](chapter))}
         >
@@ -223,7 +223,7 @@ export function SpellFinder() {
         </ElementalButton>
       );
     }
-    PersonList.push(
+    PersonList.unshift(
       <input
         value={chapter}
         onChange={HandleChange}
@@ -233,7 +233,7 @@ export function SpellFinder() {
     );
     SetPersonButtons(PersonList);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [chapter]);
+  }, [chapter, person]); // The person tag is only for the red highlight.
 
   return (
     <Wrap>

@@ -8,213 +8,217 @@ export const PeopleList = [Otto, Tsuma, Kaja, Noah, Sarah, Josh, Hitori, Linhart
 export default function Otto(Chapter) {
   // Ch32
   // Flaw: Anger
-  return (
-    <div style={{ color: "black" }}>
-      <div style={{ display: "flex", justifyContent: "center" }}>
-        {ClassDisplay("Mage")}
-        {ClassDisplay("Fighter")}
-        {ClassDisplay("Rogue")}
-        {ClassDisplay("King")}
+  if(Chapter > 0) {
+    return (
+      <div style={{ color: "black" }}>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          {ClassDisplay("Mage")}
+          {ClassDisplay("Fighter")}
+          {ClassDisplay("Rogue")}
+          {ClassDisplay("King")}
+        </div>
+        {DirtyOtto()}
+  
+        <div>{SpellCards([["Iceball", 2, "ice"]])}</div>
+        <Stats
+          type={"description"}
+          stats={{
+            name: "Otto",
+            level: 10,
+            class: "Kʼawiil",
+            species: "Human",
+            spells: 8,
+            passives: 2,
+            "spell points": 20 - 20, // from class 4 per level (normal/rare/epic/legendary), Increase Free Ability Points received for every increase in Level by 2 points.
+            "stat points": 22 - 22, // from species 2 per level
+            vitality: 0,
+            strength: 0,
+            endurance: 0,
+            magic: 10, // 10 from leveling
+            willpower: 0,
+            dexterity: 2, // 2 from the level 1 & 10
+            sense: 0,
+            charisma: 10, // 10 from leveling
+          }}
+          // Makes skills an object of skill types 'human' 'mage' and they be the arrays.
+          // Do the same thing for equipment and titles?
+          showTitles={false} // currently does nothing
+          equippedTitle="Apprentice"
+          titles={[
+            "Back to School",
+            "Apprentice",
+            "Found a unique item",
+            "The One, The Only",
+            "Novice Harvester",
+          ]}
+          showSkills={true}
+          skills={{
+            // human: [
+            // { name: "Human Ingenuity", level: 2 },
+            // { name: "Persuasive", level: 2 },
+            // { name: "Quick", level: 2 },
+            // { name: "Perception", level: 2 },
+            // { name: "Athletic", level: 2 },
+            // { name: "Healthy", level: 2 },
+            // { name: "Adaptable", level: 2 },
+            // { name: "Brave", level: 2 },
+            // { name: "Pure of mind", level: 2 },
+            // { name: "Magic Enthusiast", level: 2 }, // 20
+            // ],
+            mage: [
+              { name: "Lightning germination", level: 2 },
+              { name: "Lightning growth", level: 2 },
+              { name: "Lightning harvest", level: 2 },
+              { name: "Seeds to Soldiers", level: 2 },
+              { name: "Lightning seeds", level: 2 },
+              // New Spells Below
+              { name: "Scarecrow", level: 2 },
+              // { name: "Kʼawiil Burst", level: 2 },
+              { name: "Kʼawiil Bolt", level: 2 },
+              { name: "Serpent Skin", level: 2 },
+              // { name: "Serpent Pattern", level: 2 },
+              { name: "Reap What You Sow", level: 2 },
+              { name: "Bountiful Harvest", level: 2 },
+            ],
+            conditions: [
+              // Negatives
+              { name: "Otitis Externa", level: 1 },
+              { name: "Youth", level: 1 },
+            ],
+          }}
+          showItems={true}
+          items={{
+            Head: ItemList["Heavenly White Stag Mask"],
+            Body: ItemList["Academy Robe (Black/Yellow)"],
+          }}
+          notes={
+            "2 spell per level, 2 stats per level, Human +1 stat every 10 levels."
+          }
+        />
+        {/* This equipment is level 5? So maybe needs stat changes */}
+        <h1>Other Items</h1>
+        <li>
+          Body:<font color="blue"> Hui Lu's Battle Armor</font> ???
+        </li>
+        <li>
+          Hands:<font color="blue"> Hui Lu's Enchanting Gloves</font> ???
+        </li>
+        <li>
+          Feet:<font color="blue"> Hui Lu's Burning Boots</font> ???
+        </li>
+        <li>
+          Weapon:<font color="blue"> </font>
+        </li>
+        {/* mysterious bird named Pi Fang and a hundred other fire-birds shut up in a gourd */}
+        {/* gloves, adds fire to a weapon. boots, change the surface to fire. chest, reflect damage as fire when hit in melee, how about fireball falls from the sky*/}
       </div>
-      {DirtyOtto()}
-
-      <div>{SpellCards([["Iceball", 2, "ice"]])}</div>
+    );
+  } else {
+    return (
       <Stats
-        type={"description"}
-        stats={{
-          name: "Otto",
-          level: 10,
-          class: "Kʼawiil",
-          species: "Human",
-          spells: 8,
-          passives: 2,
-          "spell points": 20 - 20, // from class 4 per level (normal/rare/epic/legendary), Increase Free Ability Points received for every increase in Level by 2 points.
-          "stat points": 22 - 22, // from species 2 per level
-          vitality: 0,
-          strength: 0,
-          endurance: 0,
-          magic: 10, // 10 from leveling
-          willpower: 0,
-          dexterity: 2, // 2 from the level 1 & 10
-          sense: 0,
-          charisma: 10, // 10 from leveling
-        }}
-        // Makes skills an object of skill types 'human' 'mage' and they be the arrays.
-        // Do the same thing for equipment and titles?
-        showTitles={false} // currently does nothing
-        equippedTitle="Apprentice"
-        titles={[
-          "Back to School",
-          "Apprentice",
-          "Found a unique item",
-          "The One, The Only",
-          "Novice Harvester",
-        ]}
-        showSkills={true}
-        skills={{
-          // human: [
-          // { name: "Human Ingenuity", level: 2 },
-          // { name: "Persuasive", level: 2 },
-          // { name: "Quick", level: 2 },
-          // { name: "Perception", level: 2 },
-          // { name: "Athletic", level: 2 },
-          // { name: "Healthy", level: 2 },
-          // { name: "Adaptable", level: 2 },
-          // { name: "Brave", level: 2 },
-          // { name: "Pure of mind", level: 2 },
-          // { name: "Magic Enthusiast", level: 2 }, // 20
-          // ],
-          mage: [
-            { name: "Lightning germination", level: 2 },
-            { name: "Lightning growth", level: 2 },
-            { name: "Lightning harvest", level: 2 },
-            { name: "Seeds to Soldiers", level: 2 },
-            { name: "Lightning seeds", level: 2 },
-            // New Spells Below
-            { name: "Scarecrow", level: 2 },
-            // { name: "Kʼawiil Burst", level: 2 },
-            { name: "Kʼawiil Bolt", level: 2 },
-            { name: "Serpent Skin", level: 2 },
-            // { name: "Serpent Pattern", level: 2 },
-            { name: "Reap What You Sow", level: 2 },
-            { name: "Bountiful Harvest", level: 2 },
-          ],
-          conditions: [
-            // Negatives
-            { name: "Otitis Externa", level: 1 },
-            { name: "Youth", level: 1 },
-          ],
-        }}
-        showItems={true}
-        items={{
-          Head: ItemList["Heavenly White Stag Mask"],
-          Body: ItemList["Academy Robe (Black/Yellow)"],
-        }}
-        notes={
-          "2 spell per level, 2 stats per level, Human +1 stat every 10 levels."
-        }
-      />
-      {/* This equipment is level 5? So maybe needs stat changes */}
-      <h1>Other Items</h1>
-      <li>
-        Body:<font color="blue"> Hui Lu's Battle Armor</font> ???
-      </li>
-      <li>
-        Hands:<font color="blue"> Hui Lu's Enchanting Gloves</font> ???
-      </li>
-      <li>
-        Feet:<font color="blue"> Hui Lu's Burning Boots</font> ???
-      </li>
-      <li>
-        Weapon:<font color="blue"> </font>
-      </li>
-      {/* mysterious bird named Pi Fang and a hundred other fire-birds shut up in a gourd */}
-      {/* gloves, adds fire to a weapon. boots, change the surface to fire. chest, reflect damage as fire when hit in melee, how about fireball falls from the sky*/}
-
-      <Stats
-        type={"description"}
-        stats={{
-          name: "Ideal",
-          level: 100,
-          class: "???",
-          species: "Mana Creature",
-          spells: 0,
-          passives: 0,
-          "spell points": 0, // from class
-          "stat points": 0, // from species
-          vitality: 100,
-          strength: 0,
-          endurance: 25,
-          magic: 100,
-          willpower: 25,
-          dexterity: 25,
-          sense: 25,
-          charisma: 100,
-        }}
-        showItems={true}
-        items={{
-          Head: {
-            name: "Nahkriin (Mask)",
-            effect: "Magic +30, -20% Restoration and Destruction mana cost.",
-            rating: "unique",
-            long: "",
-            stats: { magic: 30 },
+      type={"description"}
+      stats={{
+        name: "Ideal",
+        level: 100,
+        class: "???",
+        species: "Mana Creature",
+        spells: 0,
+        passives: 0,
+        "spell points": 0, // from class
+        "stat points": 0, // from species
+        vitality: 100,
+        strength: 0,
+        endurance: 25,
+        magic: 100,
+        willpower: 25,
+        dexterity: 25,
+        sense: 25,
+        charisma: 100,
+      }}
+      showItems={true}
+      items={{
+        Head: {
+          name: "Nahkriin (Mask)",
+          effect: "Magic +30, -20% Restoration and Destruction mana cost.",
+          rating: "unique",
+          long: "",
+          stats: { magic: 30 },
+        },
+        Body: {
+          name: "Ziedrich",
+          effect:
+            "Halves damage from all elements. Strength, endurance, magic, willpower + 20.",
+          rating: "legendary",
+          stats: { strength: 20, endurance: 20, magic: 20, willpower: 20 },
+        },
+        Hands: {
+          name: "Linwe's Gloves",
+          effect: "one-handed attacks do 15% more damage.",
+          rating: "unique",
+          stats: {},
+        },
+        Feet: {
+          name: "Bubonic Trail",
+          effect:
+            "Skill: Death Walk, 30% increased Movement Speed, 4% increased maximum Hp.",
+          rating: "unique",
+          long: "Death Walk: While you walk, this skill causes corpses near your steps to explode, dealing fire damage in an area. The explosions of the corpses are not affected by modifiers to spell damage, and cannot be reflected.",
+          stats: {},
+        },
+        Acc1: {
+          name: "Protect Ring",
+          effect: "Keeps Barrier & Magic-Barrier active.",
+          rating: "epic",
+          stats: {},
+        },
+        Acc2: {
+          name: "Force of Nature",
+          effect:
+            "Adds random nature elements to attack. Absorbs some MP from nature element-based attacks.",
+          rating: "legendary",
+          stats: {},
+        },
+        Acc3: {
+          name: "Dark Cloak",
+          effect:
+            "Willpower +5, MP regen + 10%, magic resistance +5%, normal weapon resistance +3% and stealth bonus. It also increases encounter chance, hostility, and suspicion.",
+          rating: "epic",
+          stats: { willpower: 5 },
+        },
+        Acc4: {
+          name: "Magic Master",
+          effect:
+            "Max hp - 50%. Max mp + 50%. Strength & Endurance - 20. Magic & Willpower + 20. Stores one magic spell for free use.",
+          rating: "legendary",
+          stats: {
+            strength: -20,
+            endurance: -20,
+            magic: 20,
+            willpower: 20,
           },
-          Body: {
-            name: "Ziedrich",
-            effect:
-              "Halves damage from all elements. Strength, endurance, magic, willpower + 20.",
-            rating: "legendary",
-            stats: { strength: 20, endurance: 20, magic: 20, willpower: 20 },
-          },
-          Hands: {
-            name: "Linwe's Gloves",
-            effect: "one-handed attacks do 15% more damage.",
-            rating: "unique",
-            stats: {},
-          },
-          Feet: {
-            name: "Bubonic Trail",
-            effect:
-              "Skill: Death Walk, 30% increased Movement Speed, 4% increased maximum Hp.",
-            rating: "unique",
-            long: "Death Walk: While you walk, this skill causes corpses near your steps to explode, dealing fire damage in an area. The explosions of the corpses are not affected by modifiers to spell damage, and cannot be reflected.",
-            stats: {},
-          },
-          Acc1: {
-            name: "Protect Ring",
-            effect: "Keeps Barrier & Magic-Barrier active.",
-            rating: "epic",
-            stats: {},
-          },
-          Acc2: {
-            name: "Force of Nature",
-            effect:
-              "Adds random nature elements to attack. Absorbs some MP from nature element-based attacks.",
-            rating: "legendary",
-            stats: {},
-          },
-          Acc3: {
-            name: "Dark Cloak",
-            effect:
-              "Willpower +5, MP regen + 10%, magic resistance +5%, normal weapon resistance +3% and stealth bonus. It also increases encounter chance, hostility, and suspicion.",
-            rating: "epic",
-            stats: { willpower: 5 },
-          },
-          Acc4: {
-            name: "Magic Master",
-            effect:
-              "Max hp - 50%. Max mp + 50%. Strength & Endurance - 20. Magic & Willpower + 20. Stores one magic spell for free use.",
-            rating: "legendary",
-            stats: {
-              strength: -20,
-              endurance: -20,
-              magic: 20,
-              willpower: 20,
-            },
-          },
-          Weapon: {
-            name: "Otto`s Umbrella",
-            effect: "Resist Water, Resist Light, Magic +70.",
-            rating: "epic",
-            stats: { magic: 70 },
-          },
-          "Off-hand": {
-            name: `Silver Horn Custom "Trident"`,
-            effect: "(+15 magic when used in offhand). Damage + 1.25x Magic",
-            rating: "unique",
-            stats: { magic: 15 },
-          },
-        }}
-        // Magic +5 Immune: Poison, Disease
-        // https://www.dandwiki.com/wiki/Mana_Creature_(5e_Race)
-        // Team bonus comes from class.
-        notes={
-          "1 spell per level, 4 stats per level, Mana Creature every 10 levels stores another form."
-        }
-      />
-    </div>
-  );
+        },
+        Weapon: {
+          name: "Otto`s Umbrella",
+          effect: "Resist Water, Resist Light, Magic +70.",
+          rating: "epic",
+          stats: { magic: 70 },
+        },
+        "Off-hand": {
+          name: `Silver Horn Custom "Trident"`,
+          effect: "(+15 magic when used in offhand). Damage + 1.25x Magic",
+          rating: "unique",
+          stats: { magic: 15 },
+        },
+      }}
+      // Magic +5 Immune: Poison, Disease
+      // https://www.dandwiki.com/wiki/Mana_Creature_(5e_Race)
+      // Team bonus comes from class.
+      notes={
+        "1 spell per level, 4 stats per level, Mana Creature every 10 levels stores another form."
+      }
+    />
+    )
+  }
 }
 export function DirtyOtto() {
   return (
