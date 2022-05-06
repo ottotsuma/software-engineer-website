@@ -59,7 +59,7 @@ export const racesList = {
       willpower: 0,
     },
     self: "Is constantly on fire.",
-    images: [],
+    images: ['https://i.icanvas.com/MNU21?d=2&sh=v&p=1&bg=g&t=1646277203', 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/955ce9d7-892b-4087-8f65-f25d5391dac8/d8en1gn-3dbbad64-2f08-428e-89ca-0ca41e2d9165.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzk1NWNlOWQ3LTg5MmItNDA4Ny04ZjY1LWYyNWQ1MzkxZGFjOFwvZDhlbjFnbi0zZGJiYWQ2NC0yZjA4LTQyOGUtODljYS0wY2E0MWUyZDkxNjUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.OM0K4v9FAqPMvaqBuOm1g_fzEhnpQ2JwKo1Il36V9q8'],
     notes: "",
     tier: "unique",
     disc: "This parrot's feathers constantly burn. Combined with it's amazing ability to see in the dark, this leaves the parrot's eyes in constant pain.",
