@@ -6,8 +6,8 @@ import { classList } from "./classes";
 import Spells from "./spells";
 import { titlesList } from "./titles";
 import Equipment from "./equipment";
-import { monadColors } from "./colors"
-import {_try} from './util'
+import { monadColors } from "./colors";
+import { _try } from "./util";
 // Kʼawiil - Lightning, seeds, abundance, powerful one, fertility, serpent
 
 const statList = {
@@ -237,26 +237,25 @@ const statList = {
     numeric: "",
     vague: "",
     major: "",
-    minor:
-      "",
-  }
+    minor: "",
+  },
 };
 
 function RankColour(Rank) {
-  if(!Rank) {
-    return ''
-  } else if (Rank === 'F') {
-    return `${monadColors.junk}`
-  } else if (Rank === 'D') {
-    return `${monadColors.common}`
-  } else if (Rank === 'C') {
-    return `${monadColors.intermediate}`
-  } else if (Rank === 'B') {
-    return `${monadColors.advanced}`
-  } else if (Rank === 'A') {
-    return `${monadColors.rare}`
-  } else if (Rank === 'S') {
-    return `${monadColors.epic}`
+  if (!Rank) {
+    return "";
+  } else if (Rank === "F") {
+    return `${monadColors.junk}`;
+  } else if (Rank === "D") {
+    return `${monadColors.common}`;
+  } else if (Rank === "C") {
+    return `${monadColors.intermediate}`;
+  } else if (Rank === "B") {
+    return `${monadColors.advanced}`;
+  } else if (Rank === "A") {
+    return `${monadColors.rare}`;
+  } else if (Rank === "S") {
+    return `${monadColors.epic}`;
   }
 }
 
@@ -294,114 +293,148 @@ function Stats({
   removeHPMP,
   hideTitle,
   hideH1,
-  hideSubTitles
+  hideSubTitles,
 }) {
-  const MiasmaLevel = _try(() => skills.conditions.filter((M)=> M.name === 'Miasma').pop().level, 0)
+  const MiasmaLevel = _try(
+    () => skills.conditions.filter((M) => M.name === "Miasma").pop().level,
+    0
+  );
   const array = [];
-  const baseStats = {...stats};
-  if(MiasmaLevel) {
-    baseStats.level = baseStats.level-MiasmaLevel
-    baseStats.strength = (baseStats.strength) - (baseStats.strength*(MiasmaLevel/100))
-    baseStats.vitality = (baseStats.vitality) - (baseStats.vitality*(MiasmaLevel/100))
-    baseStats.magic = (baseStats.magic) - (baseStats.magic*(MiasmaLevel/100))
-    baseStats.dexterity = (baseStats.dexterity) - (baseStats.dexterity*(MiasmaLevel/100))
-    baseStats.sense = (baseStats.sense) - (baseStats.sense*(MiasmaLevel/100))
-    baseStats.charisma = (baseStats.charisma) - (baseStats.charisma*(MiasmaLevel/100))
-    baseStats.willpower = (baseStats.willpower) - (baseStats.willpower*(MiasmaLevel/100))
+  const baseStats = { ...stats };
+  if (MiasmaLevel) {
+    baseStats.level = baseStats.level - baseStats.level * (MiasmaLevel / 100);
+    baseStats.strength =
+      baseStats.strength - baseStats.strength * (MiasmaLevel / 100);
+    baseStats.vitality =
+      baseStats.vitality - baseStats.vitality * (MiasmaLevel / 100);
+    baseStats.magic = baseStats.magic - baseStats.magic * (MiasmaLevel / 100);
+    baseStats.dexterity =
+      baseStats.dexterity - baseStats.dexterity * (MiasmaLevel / 100);
+    baseStats.sense = baseStats.sense - baseStats.sense * (MiasmaLevel / 100);
+    baseStats.charisma =
+      baseStats.charisma - baseStats.charisma * (MiasmaLevel / 100);
+    baseStats.willpower =
+      baseStats.willpower - baseStats.willpower * (MiasmaLevel / 100);
   }
   const HPList = [];
   const MPList = [];
-  const multiplierList = []
-  const keys = Object.keys(stats);
+  const multiplierList = [];
+  const keys = Object.keys(baseStats);
 
   let RaceSpan = undefined;
-  if (stats.species) {
-    const InnateSkillsRace = _try(() => racesList[stats.species].InnateSkills, [])
-    if(InnateSkillsRace.length > 0) {
+  if (baseStats.species) {
+    const InnateSkillsRace = _try(
+      () => racesList[baseStats.species].InnateSkills,
+      []
+    );
+    if (InnateSkillsRace.length > 0) {
       for (let index = 0; index < InnateSkillsRace.length; index++) {
-        skills[stats.species].unshift({name: InnateSkillsRace[index], level:  _try(()=> (stats.level/10)-(MiasmaLevel/10), 1)})
+        skills[baseStats.species].unshift({
+          name: InnateSkillsRace[index],
+          level: _try(() => baseStats.level / 10 - MiasmaLevel / 10, 1),
+        });
       }
     }
-    const raceStats = Object.keys(racesList[stats.species].stats);
-    RaceSpan = _try(() => racesList[stats.species].team);
+    const raceStats = Object.keys(racesList[baseStats.species].stats);
+    RaceSpan = _try(() => racesList[baseStats.species].team);
     if (RaceSpan) RaceSpan = "Team: " + RaceSpan;
     if (!RaceSpan) {
-      RaceSpan = _try(() => racesList[stats.species].self);
+      RaceSpan = _try(() => racesList[baseStats.species].self);
       if (RaceSpan) RaceSpan = "Self: " + RaceSpan;
     }
 
     if (raceStats) {
       raceStats.map((raceStat) => {
         if (raceStat === "HP") {
-          HPList.push(racesList[stats.species].stats[raceStat]);
+          HPList.push(racesList[baseStats.species].stats[raceStat]);
         } else if (raceStat === "HPMultiplier") {
-          multiplierList.push({ HP: racesList[stats.species].stats[raceStat] })
+          multiplierList.push({
+            HP: racesList[baseStats.species].stats[raceStat],
+          });
         } else if (raceStat === "MPMultiplier") {
-          multiplierList.push({ MP: racesList[stats.species].stats[raceStat] })
+          multiplierList.push({
+            MP: racesList[baseStats.species].stats[raceStat],
+          });
         } else if (raceStat === "MP") {
-          MPList.push(racesList[stats.species].stats[raceStat]);
+          MPList.push(racesList[baseStats.species].stats[raceStat]);
         } else if (keys.includes(raceStat.slice(0, -10))) {
-          multiplierList.push({ [raceStat.slice(0, -10)]: racesList[stats.species].stats[raceStat] })
+          multiplierList.push({
+            [raceStat.slice(0, -10)]:
+              racesList[baseStats.species].stats[raceStat],
+          });
         } else if (
-          typeof racesList[stats.species].stats[raceStat] === "number"
+          typeof racesList[baseStats.species].stats[raceStat] === "number"
         ) {
-          stats[raceStat] =
-            stats[raceStat] + racesList[stats.species].stats[raceStat];
+          baseStats[raceStat] =
+            baseStats[raceStat] + racesList[baseStats.species].stats[raceStat];
         } else if (
-          typeof racesList[stats.species].stats[raceStat] === "string"
+          typeof racesList[baseStats.species].stats[raceStat] === "string"
         ) {
-          if (racesList[stats.species].stats[raceStat].includes("*")) {
+          if (racesList[baseStats.species].stats[raceStat].includes("*")) {
             const multiplierValue = parseFloat(
-              racesList[stats.species].stats[raceStat].substring(1)
+              racesList[baseStats.species].stats[raceStat].substring(1)
             );
-            // stats[raceStat] = stats[raceStat] * multiplierValue;
-            multiplierList.push({ [raceStat]: multiplierValue })
+            // baseStats[raceStat] = baseStats[raceStat] * multiplierValue;
+            multiplierList.push({ [raceStat]: multiplierValue });
           }
         }
       });
     }
   }
   let ClassSpan = undefined;
-  if (stats.class) {
-    const InnateSkillsRace = _try(() => classList[stats.class].InnateSkills, [])
-    if(InnateSkillsRace.length > 0) {
+  if (baseStats.class) {
+    const InnateSkillsRace = _try(
+      () => classList[baseStats.class].InnateSkills,
+      []
+    );
+    if (InnateSkillsRace.length > 0) {
       for (let index = 0; index < InnateSkillsRace.length; index++) {
-        skills[stats.class].unshift({name: InnateSkillsRace[index], level: _try(()=> (stats.level/10)-(MiasmaLevel/10), 1)})
+        skills[baseStats.class].unshift({
+          name: InnateSkillsRace[index],
+          level: _try(() => baseStats.level / 10 - MiasmaLevel / 10, 1),
+        });
       }
     }
-    const classStats = _try(() => classList[stats.class].stats);
-    ClassSpan = _try(() => classList[stats.class].team);
+    const classStats = _try(() => classList[baseStats.class].stats);
+    ClassSpan = _try(() => classList[baseStats.class].team);
     if (ClassSpan) ClassSpan = "Team: " + ClassSpan;
     if (!ClassSpan) {
-      ClassSpan = _try(() => classList[stats.class].self);
+      ClassSpan = _try(() => classList[baseStats.class].self);
       if (ClassSpan) ClassSpan = "Self: " + ClassSpan;
     }
     if (classStats) {
       Object.keys(classStats).map((classStat) => {
         if (classStat === "HP") {
-          HPList.push(classList[stats.class].stats[classStat]);
+          HPList.push(classList[baseStats.class].stats[classStat]);
         } else if (classStat === "HPMultiplier") {
-          multiplierList.push({ HP: classList[stats.class].stats[classStat] })
+          multiplierList.push({
+            HP: classList[baseStats.class].stats[classStat],
+          });
         } else if (classStat === "MPMultiplier") {
-          multiplierList.push({ MP: classList[stats.class].stats[classStat] })
+          multiplierList.push({
+            MP: classList[baseStats.class].stats[classStat],
+          });
         } else if (classStat === "MP") {
-          MPList.push(classList[stats.class].stats[classStat]);
+          MPList.push(classList[baseStats.class].stats[classStat]);
         } else if (keys.includes(classStat.slice(0, -10))) {
-          multiplierList.push({ [classStat.slice(0, -10)]: classList[stats.class].stats[classStat] })
+          multiplierList.push({
+            [classStat.slice(0, -10)]:
+              classList[baseStats.class].stats[classStat],
+          });
         } else if (
-          typeof classList[stats.class].stats[classStat] === "number"
+          typeof classList[baseStats.class].stats[classStat] === "number"
         ) {
-          stats[classStat] =
-            stats[classStat] + classList[stats.class].stats[classStat];
+          baseStats[classStat] =
+            baseStats[classStat] + classList[baseStats.class].stats[classStat];
         } else if (
-          typeof classList[stats.class].stats[classStat] === "string"
+          typeof classList[baseStats.class].stats[classStat] === "string"
         ) {
-          if (classList[stats.class].stats[classStat].includes("*")) {
+          if (classList[baseStats.class].stats[classStat].includes("*")) {
             const multiplierValue = parseFloat(
-              classList[stats.class].stats[classStat].substring(1)
+              classList[baseStats.class].stats[classStat].substring(1)
             );
-            // stats[classStat] = stats[classStat] * multiplierValue;
-            multiplierList.push({ [classStat]: multiplierValue })
+            // baseStats[classStat] = baseStats[classStat] * multiplierValue;
+            multiplierList.push({ [classStat]: multiplierValue });
           }
         }
       });
@@ -414,7 +447,9 @@ function Stats({
       const skillListByType = skills[skillsByTypes[j]];
       skillListByType.map((skill) => {
         const spellStats = _try(
-          () => spellList[skill.name].stats[skill.level - 1] || spellList[skill.name].stats[skill.level]
+          () =>
+            spellList[skill.name].stats[skill.level - 1] ||
+            spellList[skill.name].stats[skill.level]
         );
         if (spellStats) {
           for (let index = 0; index < Object.keys(spellStats).length; index++) {
@@ -422,8 +457,8 @@ function Stats({
               if (
                 typeof spellStats[Object.keys(spellStats)[index]] === "number"
               ) {
-                stats[Object.keys(spellStats)[index]] =
-                  stats[Object.keys(spellStats)[index]] +
+                baseStats[Object.keys(spellStats)[index]] =
+                  baseStats[Object.keys(spellStats)[index]] +
                   spellStats[Object.keys(spellStats)[index]];
               } else if (
                 typeof spellStats[Object.keys(spellStats)[index]] === "string"
@@ -431,23 +466,32 @@ function Stats({
                 const multiplierValue = parseFloat(
                   spellStats[Object.keys(spellStats)[index]].substring(1)
                 );
-                // stats[Object.keys(spellStats)[index]] = stats[Object.keys(spellStats)[index]] * multiplierValue;
-                multiplierList.push({ [Object.keys(spellStats)[index]]: multiplierValue })
+                // baseStats[Object.keys(spellStats)[index]] = baseStats[Object.keys(spellStats)[index]] * multiplierValue;
+                multiplierList.push({
+                  [Object.keys(spellStats)[index]]: multiplierValue,
+                });
               }
             } else if (Object.keys(spellStats)[index] === "HPMultiplier") {
-              multiplierList.push({ HP: spellStats[Object.keys(spellStats)[index]] })
+              multiplierList.push({
+                HP: spellStats[Object.keys(spellStats)[index]],
+              });
             } else if (Object.keys(spellStats)[index] === "MPMultiplier") {
-              multiplierList.push({ MP: spellStats[Object.keys(spellStats)[index]] })
+              multiplierList.push({
+                MP: spellStats[Object.keys(spellStats)[index]],
+              });
             } else if (Object.keys(spellStats)[index] === "HP") {
               HPList.push(spellStats[Object.keys(spellStats)[index]]);
             } else if (Object.keys(spellStats)[index] === "MP") {
               MPList.push(spellStats[Object.keys(spellStats)[index]]);
             } else if (Object.keys(spellStats)[index]) {
               if (keys.includes(Object.keys(spellStats)[index].slice(0, -10))) {
-                // stats[Object.keys(spellStats)[index].slice(0, -10)] =
-                // stats[Object.keys(spellStats)[index].slice(0, -10)] *
+                // baseStats[Object.keys(spellStats)[index].slice(0, -10)] =
+                // baseStats[Object.keys(spellStats)[index].slice(0, -10)] *
                 // spellStats[Object.keys(spellStats)[index]];
-                multiplierList.push({ [Object.keys(spellStats)[index].slice(0, -10)]: spellStats[Object.keys(spellStats)[index]] })
+                multiplierList.push({
+                  [Object.keys(spellStats)[index].slice(0, -10)]:
+                    spellStats[Object.keys(spellStats)[index]],
+                });
               }
             }
           }
@@ -466,30 +510,34 @@ function Stats({
   if (items) {
     itemsArray.push(<Equipment items={items} key={"Items"} />);
     Object.keys(items).map((itemArea) => {
-      const itemLevel = roundDownToNearest10(stats.level)/10
-      const itemStats = _try(() => items[itemArea].stats[itemLevel] || items[itemArea].stats);
+      const itemLevel = roundDownToNearest10(baseStats.level) / 10;
+      const itemStats = _try(
+        () => items[itemArea].stats[itemLevel] || items[itemArea].stats
+      );
       if (itemStats) {
         Object.keys(itemStats).map((itemStat) => {
           if (itemStat === "HP") {
             HPList.push(itemStats[itemStat]);
           } else if (itemStat === "HPMultiplier") {
-            multiplierList.push({ HP: itemStats[itemStat] })
+            multiplierList.push({ HP: itemStats[itemStat] });
           } else if (itemStat === "MPMultiplier") {
-            multiplierList.push({ MP: itemStats[itemStat] })
+            multiplierList.push({ MP: itemStats[itemStat] });
           } else if (itemStat === "MP") {
             MPList.push(itemStats[itemStat]);
           } else if (keys.includes(itemStat.slice(0, -10))) {
-            // stats[itemStat.slice(0, -10)] = stats[itemStat.slice(0, -10)] * itemStats[itemStat];
-            multiplierList.push({ [itemStat.slice(0, -10)]: itemStats[itemStat] })
+            // baseStats[itemStat.slice(0, -10)] = baseStats[itemStat.slice(0, -10)] * itemStats[itemStat];
+            multiplierList.push({
+              [itemStat.slice(0, -10)]: itemStats[itemStat],
+            });
           } else if (typeof itemStats[itemStat] === "number") {
-            stats[itemStat] = stats[itemStat] + itemStats[itemStat];
+            baseStats[itemStat] = baseStats[itemStat] + itemStats[itemStat];
           } else if (typeof itemStats[itemStat] === "string") {
             if (itemStats[itemStat].includes("*")) {
               const multiplierValue = parseFloat(
                 itemStats[itemStat].substring(1)
               );
-              // stats[itemStat] = stats[itemStat] * multiplierValue;
-              multiplierList.push({ [itemStat]: multiplierValue })
+              // baseStats[itemStat] = baseStats[itemStat] * multiplierValue;
+              multiplierList.push({ [itemStat]: multiplierValue });
             }
           }
         });
@@ -499,35 +547,37 @@ function Stats({
   let TitleSpan = undefined;
   if (equippedTitle) {
     keys.splice(1, 0, "title");
-    stats["title"] = _try(() => titlesList[equippedTitle].name)
+    baseStats["title"] = _try(() => titlesList[equippedTitle].name)
       ? titlesList[equippedTitle].name
       : equippedTitle; // if it has a name use the name, else use what ever the user put in.
-    const titleStats = _try(() => titlesList[equippedTitle].stats); // find title from list of titles, returns array of stats and values
+    const titleStats = _try(() => titlesList[equippedTitle].stats); // find title from list of titles, returns array of baseStats and values
     if (titleStats) {
       if (titlesList[equippedTitle].description) {
         TitleSpan = titlesList[equippedTitle].description;
-        //   stats['title'] = equippedTitle + ', ' + titlesList[equippedTitle].description
+        //   baseStats['title'] = equippedTitle + ', ' + titlesList[equippedTitle].description
       }
       Object.keys(titleStats).map((titleStat) => {
         if (titleStat === "HP") {
           HPList.push(titleStats[titleStat]);
         } else if (titleStat === "HPMultiplier") {
-          multiplierList.push({ HP: titleStats[titleStat] })
+          multiplierList.push({ HP: titleStats[titleStat] });
         } else if (titleStat === "MPMultiplier") {
-          multiplierList.push({ MP: titleStats[titleStat] })
+          multiplierList.push({ MP: titleStats[titleStat] });
         } else if (titleStat === "MP") {
           MPList.push(titleStats[titleStat]);
-        }  else if (keys.includes(titleStat.slice(0, -10))) {
-          multiplierList.push({ [titleStat.slice(0, -10)]: titleStats[titleStat] })
+        } else if (keys.includes(titleStat.slice(0, -10))) {
+          multiplierList.push({
+            [titleStat.slice(0, -10)]: titleStats[titleStat],
+          });
         } else if (typeof titleStats[titleStat] === "number") {
-          stats[titleStat] = stats[titleStat] + titleStats[titleStat]; // applies the stats
+          baseStats[titleStat] = baseStats[titleStat] + titleStats[titleStat]; // applies the baseStats
         } else if (typeof titleStats[titleStat] === "string") {
           if (titleStats[titleStat].includes("*")) {
             const multiplierValue = parseFloat(
               titleStats[titleStat].substring(1)
             );
-            // stats[titleStat] = stats[titleStat] * multiplierValue;
-            multiplierList.push({ [titleStat]: multiplierValue })
+            // baseStats[titleStat] = baseStats[titleStat] * multiplierValue;
+            multiplierList.push({ [titleStat]: multiplierValue });
           }
         }
       });
@@ -537,10 +587,10 @@ function Stats({
   // Add HP and MP Values
   //  level *5 magic * 8 = mp // level * 10 vit * 14.5 +100 = hp
   // So at 100, 1100 ~ 2550
-  stats["HP"] = _try(
-    () => stats["level"] * 10 + stats["vitality"] * 14.5 + 100
+  baseStats["HP"] = _try(
+    () => baseStats["level"] * 10 + baseStats["vitality"] * 14.5 + 100
   );
-  let tempHP = stats["HP"];
+  let tempHP = baseStats["HP"];
   for (let index = 0; index < HPList.length; index++) {
     if (typeof HPList[index] === "number") {
       tempHP = tempHP + HPList[index];
@@ -548,14 +598,14 @@ function Stats({
       if (HPList[index].includes("*")) {
         const multiplierValue = parseFloat(HPList[index].substring(1));
         // tempHP = tempHP * multiplierValue;
-        multiplierList.push({ HP: multiplierValue })
+        multiplierList.push({ HP: multiplierValue });
       }
     }
   }
-  stats["HP"] = parseInt(tempHP);
+  baseStats["HP"] = parseInt(tempHP);
 
-  stats["MP"] = _try(() => stats["level"] * 5 + stats["magic"] * 8);
-  let tempMP = stats["MP"];
+  baseStats["MP"] = _try(() => baseStats["level"] * 5 + baseStats["magic"] * 8);
+  let tempMP = baseStats["MP"];
   for (let index = 0; index < MPList.length; index++) {
     if (typeof MPList[index] === "number") {
       tempMP = tempMP + MPList[index];
@@ -563,38 +613,38 @@ function Stats({
       if (MPList[index].includes("*")) {
         const multiplierValue = parseFloat(MPList[index].substring(1));
         // tempMP = tempMP * multiplierValue;
-        multiplierList.push({ MP: multiplierValue })
+        multiplierList.push({ MP: multiplierValue });
       }
     }
   }
-  stats["MP"] = parseInt(tempMP);
-  if(!removeHPMP) {
+  baseStats["MP"] = parseInt(tempMP);
+  if (!removeHPMP) {
     keys.push("HP", "MP");
   }
 
   // multiplierList
-  multiplierList.map((value => {
-    const statName = Object.keys(value)
-    if(value[statName] < 0) {
-      stats[statName] = (stats[statName]) * (1-(-value[statName]))
+  multiplierList.map((value) => {
+    const statName = Object.keys(value);
+    if (value[statName] < 0) {
+      baseStats[statName] = baseStats[statName] * (1 - -value[statName]);
     } else {
-      stats[statName] = stats[statName] * value[statName]
+      baseStats[statName] = baseStats[statName] * value[statName];
     }
-  }))
-  if(stats["MP"] < 0) {
-    stats["MP"] = 0
+  });
+  if (baseStats["MP"] < 0) {
+    baseStats["MP"] = 0;
   }
-  if(stats["HP"] < 100) {
-    stats["HP"] = 100
+  if (baseStats["HP"] < 100) {
+    baseStats["HP"] = 100;
   }
   for (let index = 0; index < keys.length; index++) {
     const element = (
       <Wrap>
         <Inline>{keys[index]}: </Inline>
-        <Inline style={{ color: perc2color(stats[keys[index]]) }}>
-          {typeof stats[keys[index]] === "number"
-            ? parseInt(stats[keys[index]])
-            : stats[keys[index]]}
+        <Inline style={{ color: perc2color(baseStats[keys[index]]) }}>
+          {typeof baseStats[keys[index]] === "number"
+            ? parseInt(baseStats[keys[index]])
+            : baseStats[keys[index]]}
         </Inline>
       </Wrap>
     );
@@ -603,48 +653,64 @@ function Stats({
       const classElement = (
         <Wrap>
           <Inline>{keys[index]}: </Inline>
-          <Inline style={{ color: monadColors[classList[stats[keys[index]]].tier] }}>
-            {typeof stats[keys[index]] === "number"
-              ? parseInt(stats[keys[index]])
-              : stats[keys[index]]}
+          <Inline
+            style={{
+              color: monadColors[classList[baseStats[keys[index]]].tier],
+            }}
+          >
+            {typeof baseStats[keys[index]] === "number"
+              ? parseInt(baseStats[keys[index]])
+              : baseStats[keys[index]]}
           </Inline>
         </Wrap>
       );
       array.push(
-        !hideSubTitles && <SingleStat key={index + "stat"}>
-          {classElement}
-          {!!type && <Span>{ClassSpan}</Span>}
-        </SingleStat>
+        !hideSubTitles && (
+          <SingleStat key={index + "stat"}>
+            {classElement}
+            {!!type && <Span>{ClassSpan}</Span>}
+          </SingleStat>
+        )
       );
     } else if (keys[index] === "species" && RaceSpan) {
       const speciesElement = (
         <Wrap>
           <Inline>{keys[index]}: </Inline>
-          <Inline style={{ color: monadColors[racesList[stats[keys[index]]].tier] }}>
-            {typeof stats[keys[index]] === "number"
-              ? parseInt(stats[keys[index]])
-              : stats[keys[index]]}
+          <Inline
+            style={{
+              color: monadColors[racesList[baseStats[keys[index]]].tier],
+            }}
+          >
+            {typeof baseStats[keys[index]] === "number"
+              ? parseInt(baseStats[keys[index]])
+              : baseStats[keys[index]]}
           </Inline>
         </Wrap>
       );
       array.push(
-        !hideSubTitles && <SingleStat key={index + "stat"}>
-          {speciesElement}
-          {!!type && <Span>{RaceSpan}</Span>}
-        </SingleStat>
+        !hideSubTitles && (
+          <SingleStat key={index + "stat"}>
+            {speciesElement}
+            {!!type && <Span>{RaceSpan}</Span>}
+          </SingleStat>
+        )
       );
     } else if (keys[index] === "title" && TitleSpan) {
       const titleElement = (
         <Wrap>
           <Inline>{keys[index]}: </Inline>
-          <Inline style={{ color: monadColors[titlesList[stats[keys[index]]].tier] }}>
-            {typeof stats[keys[index]] === "number"
-              ? parseInt(stats[keys[index]])
-              : stats[keys[index]]}
+          <Inline
+            style={{
+              color: monadColors[titlesList[baseStats[keys[index]]].tier],
+            }}
+          >
+            {typeof baseStats[keys[index]] === "number"
+              ? parseInt(baseStats[keys[index]])
+              : baseStats[keys[index]]}
           </Inline>
         </Wrap>
       );
-      if(!hideTitle) {
+      if (!hideTitle) {
         array.push(
           <SingleStat key={index + "stat"}>
             {titleElement}
@@ -653,22 +719,22 @@ function Stats({
         );
       }
     } else if (keys[index] === "rank") {
-        const rankElement = (
-          <Wrap>
-            <Inline>{keys[index]}: </Inline>
-            <Inline style={{ color: RankColour(stats[keys[index]]) }}>
-              {typeof stats[keys[index]] === "number"
-                ? parseInt(stats[keys[index]])
-                : stats[keys[index]]}
-            </Inline>
-          </Wrap>
-        );
-        array.push(
-          <SingleStat key={index + "stat"}>
-            {rankElement}
-            {!!type && <Span>{_try(() => spam["description"], element)}</Span>}
-          </SingleStat>
-        );
+      const rankElement = (
+        <Wrap>
+          <Inline>{keys[index]}: </Inline>
+          <Inline style={{ color: RankColour(baseStats[keys[index]]) }}>
+            {typeof baseStats[keys[index]] === "number"
+              ? parseInt(baseStats[keys[index]])
+              : baseStats[keys[index]]}
+          </Inline>
+        </Wrap>
+      );
+      array.push(
+        <SingleStat key={index + "stat"}>
+          {rankElement}
+          {!!type && <Span>{_try(() => spam["description"], element)}</Span>}
+        </SingleStat>
+      );
     } else {
       array.push(
         <SingleStat key={index + "stat"}>
