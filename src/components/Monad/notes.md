@@ -998,26 +998,30 @@ Sophia and Johnna's have sex while he is sick from after camping in the rain.
 Based on mesoamerican continent and ends with more advanced people landing slowly on the shores until the disease takes them then many come.
 ## Physical World
 ### Elements
-  ['mana', 'fire', 'metal', 'plant', 'water', 'earth', 'lightning', 'ice', 'wind', 'shadow', 'light', 'sound', 'poison', 'time', 'gravity', 'portal', 'spirit', 'blood', 'none']
+  "mana", // All non elemental magic
+  "fire", // Fire, Lava (earth), Combustion, Heat, Volcano (earth), Inferno
+  "metal", // Metal, Magnetic, Crystal, Gems
+  "plant", // Plants, Wood, 
+  "water", // Water, Tsunami, 
+  "earth", // Rocks, Solid, Dust, Sand, Mud (water), Growth (plant)
+  "lightning", // Lightning, Electric, Electro-magnetic, Plasma
+  "ice", // Ice, Frost, Cold, 
+  "wind", // Wind, Flight, Clouds (water), Hurricane, storm (water)
+  "shadow", // Shadow, Darkness, Unholy, nightmare
+  "light", // Light, Holy, Illumination, cleansing
+  "sound", // Sound, Echo, Fear (mental)?
+  "poison", // Poison, Venom, Acid, Corrosion
+  "time", // time, Vision, future
+  "gravity", // gravity
+  "portal", // portal, teleport, space?
+  "spirit", // Spiritual, Ghosts?
+  "blood", // Blood
+  "beast", // Beast specific skills
+  "mental", // Mental, Mind, Illusion (Sound, Light, Shadow. Good and bad mental.)
+  "curse", // Curses
+  "none", // No idea.
 
   *** This should be more about the mixing, fire + earth = lava. Rather then an upgrade ***
-  Fire -> Inferno -> lava
-  metal -> stone -> crystal
-  Lightning -> electric -> plasma
-  Poison -> healing -> elixir
-  earth -> soil -> 
-  time -> vision -> future
-  light -> illumination -> 
-  wind -> hurricane -> storm?
-  shadow -> darkness -> nightmare
-  ice -> frost ->
-  water -> 
-  sound -> echo -> fear
-  plant ->
-  portal -> space ->
-  gravity -> 
-  spirit ->
-  blood -> 
 
 ### Monsters
 undead hags, water hags, blood corpse, flies, 

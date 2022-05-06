@@ -14,27 +14,28 @@ import { PeopleList } from "./People";
 import Empty from "./../../assets/empty.gif";
 
 export const MageTypes = [
-  "mana",
-  "fire",
-  "metal",
-  "plant",
-  "water",
-  "earth",
-  "lightning",
-  "ice",
-  "wind",
-  "shadow",
-  "light",
-  "sound",
-  "poison",
-  "time",
-  "gravity",
-  "portal",
-  "spirit",
-  "blood",
-  "beast",
-  "mental",
-  "none",
+  "mana", // All non elemental magic
+  "fire", // Fire, Lava (earth), Combustion, Heat, Volcano (earth), Inferno
+  "metal", // Metal, Magnetic, Crystal, Gems (With corresponding element, E.g. Fire + Metal = Ruby)
+  "plant", // Plants, Wood, 
+  "water", // Water, Tsunami, 
+  "earth", // Rocks, Solid, Dust, Sand, Mud (water), Growth (plant)
+  "lightning", // Lightning, Electric, Electro-magnetic, Plasma
+  "ice", // Ice, Frost, Cold, 
+  "wind", // Wind, Flight, Clouds (water), Hurricane, storm (water)
+  "shadow", // Shadow, Darkness, Unholy, nightmare
+  "light", // Light, Holy, Illumination, cleansing
+  "sound", // Sound, Echo, Fear (mental)?
+  "poison", // Poison, Venom, Acid, Corrosion
+  "time", // time, Vision, future
+  "gravity", // gravity
+  "portal", // portal, teleport, space?
+  "spirit", // Spiritual, Ghosts?
+  "blood", // Blood
+  "beast", // Beast specific skills
+  "mental", // Mental, Mind, Illusion (Sound, Light, Shadow. Good and bad mental.)
+  "curse", // Curses
+  "none", // No idea.
 ];
 export function SpellFinder() {
   const [chosenElement, SetChosenElement] = useState("");
