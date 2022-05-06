@@ -329,10 +329,12 @@ function Stats({
     );
     if (InnateSkillsRace.length > 0) {
       for (let index = 0; index < InnateSkillsRace.length; index++) {
-        skills[baseStats.species].unshift({
-          name: InnateSkillsRace[index],
-          level: _try(() => baseStats.level / 10 - MiasmaLevel / 10, 1),
-        });
+        if(skills) {
+          skills[baseStats.species].unshift({
+            name: InnateSkillsRace[index],
+            level: _try(() => baseStats.level / 10 - MiasmaLevel / 10, 1),
+          });
+        }
       }
     }
     const raceStats = Object.keys(racesList[baseStats.species].stats);
@@ -389,10 +391,12 @@ function Stats({
     );
     if (InnateSkillsRace.length > 0) {
       for (let index = 0; index < InnateSkillsRace.length; index++) {
-        skills[baseStats.class].unshift({
-          name: InnateSkillsRace[index],
-          level: _try(() => baseStats.level / 10 - MiasmaLevel / 10, 1),
-        });
+        if(skills) {
+          skills[baseStats.class].unshift({
+            name: InnateSkillsRace[index],
+            level: _try(() => baseStats.level / 10 - MiasmaLevel / 10, 1),
+          });
+        }
       }
     }
     const classStats = _try(() => classList[baseStats.class].stats);
