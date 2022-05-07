@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { monadColors as colors, colors as fixmeplease } from "./colors";
+import { perc2color } from "./util";
 
 // src: for image || question mark
 // height: || 300px
@@ -9,22 +10,6 @@ import { monadColors as colors, colors as fixmeplease } from "./colors";
 // name || ''
 // effect || ''
 // long // for long writing below the item. Don't use with image!
-
-function perc2color(perc) {
-  if (perc > 100) return "rgb(36, 255, 0)";
-  var r,
-    g,
-    b = 0;
-  if (perc < 50) {
-    r = 255;
-    g = Math.round(5.1 * perc);
-  } else {
-    g = 255;
-    r = Math.round(510 - 5.1 * perc);
-  }
-  var h = r * 0x10000 + g * 0x100 + b * 0x1;
-  return "#" + ("000000" + h.toString(16)).slice(-6);
-}
 
 export const ItemList = {
   // Each item can be enchanted by level / 10. That is how you increase the stats, not an automatic increase.

@@ -7,7 +7,7 @@ function Title(props) {
     return (
         <Main>
             <Shine>*Ping*</Shine>{' '}
-             <TitleStyle>New Title:</TitleStyle> {props.rank ? <Rank rank={props.rank}>{props.rank}:</Rank>: ''} {props.name}{!!titlesList[props.name].description && `; ${titlesList[props.name].description}`}
+             <TitleStyle>New Title:</TitleStyle> <Rank rank={props.rank || titlesList[props.name].tier}>{props.name}</Rank>{!!titlesList[props.name].description && `; ${titlesList[props.name].description}`}
         </Main>
     )
 }
