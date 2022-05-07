@@ -438,7 +438,7 @@ export function SchoolSchedule() {
           style={{
             gridColumn: "track-1",
             gridRow: "time-1300",
-            background: colors.white.off,
+            background: colors.grey.lighter,
           }}
         >
           <p>Battle tactics & formations</p>
@@ -449,7 +449,7 @@ export function SchoolSchedule() {
           style={{
             gridColumn: "track-1",
             gridRow: "time-1400",
-            background: colors.white.off,
+            background: colors.grey.lighter,
           }}
         >
           <p>Battle tactics & formations</p>
@@ -460,7 +460,7 @@ export function SchoolSchedule() {
           style={{
             gridColumn: "track-1",
             gridRow: "time-1500",
-            background: colors.grey.light,
+            background: colors.green.normal,
           }}
         >
           <p>Option 1 - Farming</p>
@@ -471,7 +471,7 @@ export function SchoolSchedule() {
           style={{
             gridColumn: "track-1",
             gridRow: "time-1600",
-            background: colors.grey.light,
+            background: colors.pink.PalePink,
           }}
         >
           <p>Option 2 - ???</p>
@@ -546,6 +546,28 @@ export function SchoolSchedule() {
           <span>???</span>
           <span>???</span>
         </Block>
+        <Block
+          style={{
+            gridColumn: "track-2",
+            gridRow: "time-1500",
+            background: colors.pink.PalePink,
+          }}
+        >
+          <p>Option 2 - ???</p>
+          <span>???</span>
+          <span>???</span>
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-2",
+            gridRow: "time-1600",
+            background: colors.pink.PalePink,
+          }}
+        >
+          <p>Option 2 - ???</p>
+          <span>???</span>
+          <span>???</span>
+        </Block>
         {/* Day 3 */}
         <DayTitle style={{ gridColumn: "track-3" }}>
           <h4>Day 3</h4>
@@ -585,7 +607,7 @@ export function SchoolSchedule() {
           style={{
             gridColumn: "track-3",
             gridRow: "time-1500",
-            background: colors.grey.light,
+            background: colors.grey.lighter,
           }}
         >
           <p>Navigating & Tracking</p>
@@ -596,7 +618,7 @@ export function SchoolSchedule() {
           style={{
             gridColumn: "track-3",
             gridRow: "time-1600",
-            background: colors.grey.light,
+            background: colors.grey.lighter,
           }}
         >
           <p>Navigating & Tracking</p>
@@ -706,6 +728,17 @@ export function SchoolSchedule() {
           <span>???</span>
           <span>???</span>
         </Block>
+        <Block
+          style={{
+            gridColumn: "track-5",
+            gridRow: "time-1600",
+            background: colors.green.normal,
+          }}
+        >
+          <p>Option 1 - Farming</p>
+          <span>???</span>
+          <span>???</span>
+        </Block>
         {/* Day 6 */}
         <DayTitle style={{ gridColumn: "track-6" }}>
           <h4>Day 6</h4>
@@ -729,6 +762,39 @@ export function SchoolSchedule() {
           }}
         >
           <p>Lunch</p>
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-6",
+            gridRow: "time-1400",
+            background: colors.pink.PalePink,
+          }}
+        >
+          <p>Option 2 - ???</p>
+          <span>???</span>
+          <span>???</span>
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-6",
+            gridRow: "time-1500",
+            background: colors.green.normal,
+          }}
+        >
+          <p>Option 1 - Farming</p>
+          <span>???</span>
+          <span>???</span>
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-6",
+            gridRow: "time-1600",
+            background: colors.green.normal,
+          }}
+        >
+          <p>Option 1 - Farming</p>
+          <span>???</span>
+          <span>???</span>
         </Block>
         {/* Day 7 */}
         <DayTitle style={{ gridColumn: "track-7" }}>
