@@ -709,6 +709,15 @@ export function SchoolSchedule() {
         <Block
           style={{
             gridColumn: "track-5",
+            gridRow: "time-1000",
+            background: colors.grey.light,
+          }}
+        >
+          <p>Practice Period</p>
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-5",
             gridRow: "time-1100",
             background: colors.grey.light,
           }}
@@ -771,6 +780,15 @@ export function SchoolSchedule() {
           }}
         >
           <p>Lunch</p>
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-6",
+            gridRow: "time-1300",
+            background: colors.grey.light,
+          }}
+        >
+          <p>Practice Period</p>
         </Block>
         <Block
           style={{
