@@ -496,6 +496,15 @@ export function SchoolSchedule() {
         <Block
           style={{
             gridColumn: "track-2",
+            gridRow: "time-0900",
+            background: colors.grey.light,
+          }}
+        >
+          <p>Practice Period</p>
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-2",
             gridRow: "time-1000",
             background: colors.yellow.electric,
           }}
