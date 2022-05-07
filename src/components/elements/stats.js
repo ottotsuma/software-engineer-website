@@ -332,7 +332,7 @@ function Stats({
         if(skills) {
           skills[baseStats.species].unshift({
             name: InnateSkillsRace[index],
-            level: _try(() => baseStats.level / 10 - MiasmaLevel / 10, 1),
+            level: _try(() => stats.level / 10 - MiasmaLevel / 10, 1),
           });
         }
       }
@@ -394,7 +394,7 @@ function Stats({
         if(skills) {
           skills[baseStats.class].unshift({
             name: InnateSkillsRace[index],
-            level: _try(() => baseStats.level / 10 - MiasmaLevel / 10, 1),
+            level: _try(() => stats.level / 10 - MiasmaLevel / 10, 1),
           });
         }
       }
