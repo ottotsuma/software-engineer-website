@@ -804,6 +804,8 @@ export const ItemList = {
 // Arrowheads for war, yajiri (or yanone).
 // Kogatana (小刀, "small blade"): An accessory or utility knife, sometimes found mounted in a pocket on the side of the scabbard of a sword. A typical blade is about 10 cm long and 1 cm wide, and is made using the same techniques as the larger sword blades. Also referred to as a "Kozuka" (小柄), which literally means 'small handle', but this terminology can also refer to the handle and the blade together. In entertainment media, the kogatana is sometimes shown as a throwing weapon, but its real purpose was the same as a 'pocket knife' in the West.[9]
 };
+// Bacon Leaf, Sniper Cabbage & Topaz Onion
+
 // ##### Types:
 // ###### Hat/Crown:
 // ###### Rings:

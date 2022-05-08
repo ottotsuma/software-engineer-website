@@ -566,6 +566,7 @@ function Intro(props) {
       </Garin>
       {/* Garin - guard/metal / Milo - fire / Jarvia - wood/spear */}
       {/* Bruna - Earth */}
+      {/* Sandstorm, Rain + Ice,   */}
       {/* <p>Sandstorms, mutant beasts, floods, care packages.</p> */}
       <div className="BreakPoint" />
       <Kaja>
@@ -725,7 +726,43 @@ function Intro(props) {
         smoothly without interruption for a few hours. It made me wonder how
         many students really made it out of the start location.
       </Kaja>
-      <Kaja></Kaja>
+      <Kaja>
+        After the hours of being on full alert all the time I was exhausted. I
+        had thought for a moment that a God had been watching over me and
+        blessed me when I came across a burrow or small cave. It went under a
+        tree, maybe some kind of beast had dug it out as it's lair, but when I
+        threw a fireball inside it was empty.
+      </Kaja>
+      <Kaja>
+        This was a good place to rest so I did just that. I dragged some dead
+        tree branches and foliage to cover the entrance and went inside to rest.
+        Using my robe to block as much light off from leaking out as I could
+        while I boiled the water to make it clean. Along with some few
+        vegetables I recognized from the academy. Bacon Leaf, Sniper Cabbage &
+        Topaz Onion.
+      </Kaja>
+      <Kaja>
+        Not soon had I finished eating A sandstorm blew across the whole jungle.
+        Well as far as I could see. The sand bet and buffered the dead branches
+        and single large log I had used to cover the burrows entrance. It slowly
+        creped further into the burrow with each passing moment. It was not fast
+        enough to alarm me but if this carried on I would abandon this hiding
+        spot and not risk being buried in sand.
+      </Kaja>
+      <Kaja>
+        Luckily the spell caster either ran out of mana or had achieved what
+        they wanted as the sandstorm died down, and stopped. I guess it was too
+        risky to sleep though, so I stayed at the back of the burrow wrapped in
+        my robe waiting for anything else to happen while I just recovered my
+        body.
+      </Kaja>
+      <Kaja>
+        I had thought the night would be more eventful then the day so I stayed
+        vigilant. It rained heavily during the middle of the night, before the
+        rain became a hail of ice. It made the floor around the entrance damp
+        and broke away some of my cover but nothing more. I wondered if the
+        instructors were just trying to flush students out.
+      </Kaja>
       {KajaStats(35)}
       {/* Chu-gong */}
       {/* Moving from the pond to conflict with Garin & co. Chu 'dies' and Kaja runs towards Otto. */}

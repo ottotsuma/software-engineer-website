@@ -380,8 +380,8 @@ export function Tsuma(Chapter) {
         // Makes skills an object of skill types 'human' 'mage' and they be the arrays.
         // Do the same thing for equipment and titles?
         hideTitle={true} // currently does nothing
-        equippedTitle="Princess"
-        titles={["Back to School", "Apprentice", "Princess"]}
+        equippedTitle="Princess Of Niyosho"
+        titles={["Back to School", "Apprentice", "Princess Of Niyosho"]}
         showSkills={true}
         skills={{
           human: [

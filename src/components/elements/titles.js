@@ -15,6 +15,13 @@ export const titlesList = {
     description: "Princess of a country.",
     tier: "legendary",
   },
+  "Princess Of Niyosho": {
+    name: "Princess Of Niyosho",
+    condition: "Become the princess of Niyosho.",
+    stats: {},
+    description: "Princess Of Niyosho.",
+    tier: "legendary",
+  },
   "Back to School": {
     name: "Back to School",
     condition: "Enter the academy",
@@ -88,12 +95,76 @@ export const titlesList = {
     description: "Increases harvesting skills by 10%.",
     tier: "rare",
   },
-  "": {
-    name: "",
-    condition: "",
+  "Grand Duke": {
+    name: "Grand Duke",
+    condition: "Become the Grand Duke of a Grand Duchy.",
     stats: {
     },
     description: "",
     tier: "",
   },
-};
+  "Grand Duke Of Alden": {
+    name: "Grand Duke Of Alden",
+    condition: "Become the Grand Duke of Alden.",
+    stats: {
+    },
+    description: "",
+    tier: "",
+  },
+  "Duke": {
+    name: "Duke",
+    condition: "Become a Duke.",
+    stats: {
+    },
+    description: "",
+    tier: "",
+  },
+  "Marquis": {
+    name: "Marquis",
+    condition: "Become a Marquis.",
+    stats: {
+    },
+    description: "",
+    tier: "",
+  },
+  "Count": {
+    name: "Count",
+    condition: "Become a Count.",
+    stats: {
+    },
+    description: "",
+    tier: "",
+  },
+  "Viscount": {
+    name: "Viscount",
+    condition: "Become a Viscount.",
+    stats: {
+    },
+    description: "",
+    tier: "",
+  },
+  "Baron": {
+    name: "Baron",
+    condition: "Become a Baron.",
+    stats: {
+    },
+    description: "",
+    tier: "",
+  },
+  "Lord": {
+    name: "Lord",
+    condition: "Become a Lord.",
+    stats: {
+    },
+    description: "",
+    tier: "",
+  },
+  "Knight": {
+    name: "Knight",
+    condition: "Become a Knight.",
+    stats: {
+    },
+    description: "",
+    tier: "",
+  },
+}
