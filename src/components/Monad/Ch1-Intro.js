@@ -658,7 +658,7 @@ most people learn inspect but either see
             <Beke>
               As I walked I spotted another group. The weirdos. Their job class
               was rouge, today they were prancing around on the floor, mimicking
-              the movement of their preferred animal. One was even wiggling on
+              the movement of their preferred beast. One was even wiggling on
               the floor like a snake, or more likely a worm. I could feel my
               face twist in contempt, nothing I could do about it, was their
               fault for acting that way.
@@ -721,7 +721,7 @@ most people learn inspect but either see
               him are still moving in weird ways. The adult teaching them walks
               over to Beke. "So you are a Rogue then? Best to see what kind."
             </p>
-            <p>"What kind?" Beke looks around. "Like what animal I am?"</p>
+            <p>"What kind?" Beke looks around. "Like what beast I am?"</p>
             <p>
               "Ahahaha, no, no. Don't know much about Rogues do you? Alright
               let's start from the beginning"
@@ -738,7 +738,7 @@ most people learn inspect but either see
             </p>
             <p>
               hmm I do see your point, but let me clear some things up. Firstly
-              Rogues are not Fighters who mimic animal moves, anyone can do
+              Rogues are not Fighters who mimic beast moves, anyone can do
               that. If someone want to fight while acting like a monkey or a
               snake that is up to them but that is not exactly what is going on
               here. You see Fighters move mana throughout their bodies to

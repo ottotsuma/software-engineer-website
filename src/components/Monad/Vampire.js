@@ -1010,7 +1010,7 @@ export const SchoolClubs = {
     notes: "",
   },
   "Farming Club": {
-    notes: "Weather magic, Botany, Herbalism, Animal magic, Magizoology",
+    notes: "Weather magic, Botany, Herbalism, Beast magic, Magizoology",
   },
   "Reading Club": {
     notes: "",

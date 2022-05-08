@@ -964,7 +964,7 @@ function Intro(props) {
           <p>
             "Nice to see you survived too." Coming inside I saw Reingard who
             waved to me as I came in, he was sorting though some bones of some
-            kind of animal.
+            kind of beast.
           </p>
 
           <p>"Didn't take you for a necromancer Reingard."</p>
