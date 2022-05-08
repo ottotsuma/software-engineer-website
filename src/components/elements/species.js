@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { colors, monadColors } from "./colors";
 import { _try } from "./util";
 
+// https://www.youtube.com/watch?v=ghD79i2O1xA
 export const racesList = {
   // Generally should be "Self" not "Team"
   // Binturong ,
