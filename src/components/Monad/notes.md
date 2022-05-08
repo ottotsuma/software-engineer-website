@@ -876,6 +876,22 @@ Tisiel Skivali - (cliffs) imperial name,(huonoia) - scholar/necromancer (GONE)
 ---
 
 Alden Royals:
+Alden is a Grand Duchy not a monarchy so the titles are different;
+- Grand Duke, His Highness, Your Highness. (Higher then princes but lower the kings)
+
+- Everything below here is assigned by the Grand Duke:
+- Heir of a Grand Duke, (Not as high as a prince since the title is not inherited, but still more important then a normal lord)
+- Duke, Lower then Grand Duke // Lord Sovereign marshal 
+- Marquis //  Lord high marshal
+- Count 
+- Viscount // Lord Marshal
+- Baron
+
+- Everything below here is assigned by the local vassal
+- Lord, or children of higher lords // Lord commander
+- Knight -> Knight lieutenant, Knight Captain, Knight commander
+- Levis, men-at-arms, corporal, sergeant
+
 <li>Vasso Elzach - Tall boy with stylish blonde hair, deep blue eyes, strong, jaw and a large nose. - Alden (Trees/Witches), Mage(lightning/???), Human, Noble, Obsidian, [Respect, Intelligence, Power], [Charisma, Magic, Sense], Items (Power comes from Royal items they never usually produce a mage.), Spells: [], (Prince of Alden. Wants mages to be more influential in the Aldenese army. War breaks out. Grows power, massing people around him, blames minorities for problems. Sets up and funds a puppet opponent to make these minorities appear to be a threat. Becomes a general in the army. Alden becomes open to attacks from the sea/inside. Return to Alden to defend from the sea people. Is back in Alden as a prince.) - Alden's Grand Duke has royal lightning, it is purple in color and has not been seen outside of their family.
 <li>Alphonse Elzach - 
 Famous Mages - Alden:
