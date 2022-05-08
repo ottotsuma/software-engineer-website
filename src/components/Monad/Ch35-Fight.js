@@ -566,8 +566,7 @@ function Intro(props) {
       </Garin>
       {/* Garin - guard/metal / Milo - fire / Jarvia - wood/spear */}
       {/* Bruna - Earth */}
-      {/* Sandstorm, Rain + Ice,   */}
-      {/* <p>Sandstorms, mutant beasts, floods, care packages.</p> */}
+      {/* Sandstorm, Rain + Ice, mutant beats, care packages, floods */}
       <div className="BreakPoint" />
       <Kaja>
         The first day was the worst. After running into the jungle, I vomited,
@@ -764,6 +763,7 @@ function Intro(props) {
         instructors were just trying to flush students out.
       </Kaja>
       {KajaStats(35)}
+            {/* Sandstorm, Rain + Ice, mutant beats, care packages, floods */}
       {/* Chu-gong */}
       {/* Moving from the pond to conflict with Garin & co. Chu 'dies' and Kaja runs towards Otto. */}
       {/* running away */}
