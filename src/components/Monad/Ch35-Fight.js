@@ -830,7 +830,7 @@ function Intro(props) {
       {KajaStats(35)}
       {/* Some conversation between the audience the next day who grow tired of this, everyone is hiding, only a few hunting groups. So the military open up with some 'fun' ideas */}
       {/* Sandstorm, Rain + Ice, mutant beats, care packages, floods */}
-      {/* Miliarty taking no intrest in what the students learn and feel the students need to see real fighting, also want a idol and to see farads research */}
+      {/* Miliary taking no interest in what the students learn and feel the students need to see real fighting, also want a idol and to see farads research */}
       {/* Chu-gong */}
       {/* Moving from the pond to conflict with Garin & co. Chu 'dies' and Kaja runs towards Otto. */}
       {/* running away */}
