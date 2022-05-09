@@ -764,36 +764,68 @@ function Intro(props) {
       </Kaja>
       <div className="BreakPoint" />
       <p>
-        "This is so slow now. The big battle at the start was really something but now everyone is just hiding. Well there is a few scouting around but it'll take forever to find them all."
+        "This is so slow now. The big battle at the start was really something
+        but now everyone is just hiding. Well there is a few scouting around but
+        it'll take forever to find them all."
       </p>
       <p>
-        "I still think they should cancel the event here. They said this was to open us up to realities of fighting other humans. Well they have done that with the barbaric display at the start. It's not like we haven't seen similar displays in the capital before."
+        "I still think they should cancel the event here. They said this was to
+        open us up to realities of fighting other humans. Well they have done
+        that with the barbaric display at the start. It's not like we haven't
+        seen similar displays in the capital before."
       </p>
       <p>
-        "Yeah but not everyone lives in the capital. In the countryside they don't really punish their criminals they just send them to the capital and leave it to us. It's more for those countryside bumpkins."
+        "Yeah but not everyone lives in the capital. In the countryside they
+        don't really punish their criminals they just send them to the capital
+        and leave it to us. It's more for those countryside bumpkins."
       </p>
       <p>
-        "Well that just add's to my point. Why are WE watching THIS? Garin's group hasn't found anyone since the hail storm. Even then it caused their group to hide again from the hail storm, it slowed this down more the speed it up."
+        "Well that just add's to my point. Why are WE watching THIS? Garin's
+        group hasn't found anyone since the hail storm. Even then it caused
+        their group to hide again from the hail storm, it slowed this down more
+        the speed it up."
       </p>
       <p>
-        "I have to agree with the students on this one. Although the countryside students rarely see humans fighting each other in the arena like ourselves, they must of seen fights break out before. They do have criminals they sent to the capital after all. This demonstation teaches no battle tactics since the students were not arranged into groups, just an unsightly brawl. They are all exposed to fighting beasts so they have all been exposed to death before. What dose the military think we teach them here?"
+        "I have to agree with the students on this one. Although the countryside
+        students rarely see humans fighting each other in the arena like
+        ourselves, they must of seen fights break out before. They do have
+        criminals they sent to the capital after all. This demonstation teaches
+        no battle tactics since the students were not arranged into groups, just
+        an unsightly brawl. They are all exposed to fighting beasts so they have
+        all been exposed to death before. What dose the military think we teach
+        them here?"
       </p>
       <p>
-        "That's the point. They never asked. They just assumed we made them read books all day long and had no battle expereince. This just reenforces their false assumption. They picked a method to get mostly the worst students to fight in a free for all. Seems more like they created a pre-text to take over the academys training of the students using this ... Farce as an example of how poorly the students proform."
+        "That's the point. They never asked. They just assumed we made them read
+        books all day long and had no battle expereince. This just reenforces
+        their false assumption. They picked a method to get mostly the worst
+        students to fight in a free for all. Seems more like they created a
+        pre-text to take over the academys training of the students using this
+        ... Farce as an example of how poorly the students proform."
       </p>
       <p>
-        "Heeeyy look at the academy system, there is a voting page for the next event to cause the students to fight again!"
+        "Heeeyy look at the academy system, there is a voting page for the next
+        event to cause the students to fight again!"
       </p>
       <p>
-        "Oh wow that kid is right, take a look there really is a voting page of different ideas."
+        "Oh wow that kid is right, take a look there really is a voting page of
+        different ideas."
       </p>
       <p>
-        "Release wild beasts into the jungle? How is that even close to showing the students a battle!? Oh I give up, can't believe we have to keep the students here watching this."
+        "Release wild beasts into the jungle? How is that even close to showing
+        the students a battle!? Oh I give up, can't believe we have to keep the
+        students here watching this."
       </p>
-      <p>"Heh, It's currently the highest voted. I guess the students want this to end too."</p>
+      <p>
+        "Heh, It's currently the highest voted. I guess the students want this
+        to end too."
+      </p>
       <div className="BreakPoint" />
       <Kaja>
-        Since I had stayed in this burrow for almost 2 days now I had felt like the beast that dug it out had been taken away by the staff or long since died. Unlike what I thought, the first to find this burrow was the same beast that had dug it. The beast, a Noxious Cloud Peccary.
+        Since I had stayed in this burrow for almost 2 days now I had felt like
+        the beast that dug it out had been taken away by the staff or long since
+        died. Unlike what I thought, the first to find this burrow was the same
+        beast that had dug it. The beast, a Noxious Cloud Peccary.
       </Kaja>
       {KajaStats(35)}
       {/* Some conversation between the audience the next day who grow tired of this, everyone is hiding, only a few hunting groups. So the military open up with some 'fun' ideas */}
