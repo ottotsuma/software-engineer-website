@@ -789,7 +789,7 @@ function Intro(props) {
         "I have to agree with the students on this one. Although the countryside
         students rarely see humans fighting each other in the arena like
         ourselves, they must of seen fights break out before. They do have
-        criminals they sent to the capital after all. This demonstation teaches
+        criminals they sent to the capital after all. This demonstration teaches
         no battle tactics since the students were not arranged into groups, just
         an unsightly brawl. They are all exposed to fighting beasts so they have
         all been exposed to death before. What dose the military think we teach
@@ -797,11 +797,11 @@ function Intro(props) {
       </p>
       <p>
         "That's the point. They never asked. They just assumed we made them read
-        books all day long and had no battle expereince. This just reenforces
+        books all day long and had no battle experience. This just reenforces
         their false assumption. They picked a method to get mostly the worst
         students to fight in a free for all. Seems more like they created a
-        pre-text to take over the academys training of the students using this
-        ... Farce as an example of how poorly the students proform."
+        pre-text to take over the academy's training of the students using this
+        ... Farce as an example of how poorly the students preform."
       </p>
       <p>
         "Heeeyy look at the academy system, there is a voting page for the next
