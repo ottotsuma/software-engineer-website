@@ -547,7 +547,7 @@ function Intro(props) {
         it it would drain my mana. This was my last resort.
       </p>
       <p>
-        Only being level one the force was no that strong but it was enough to
+        Only being level one, the force was not that strong but it was enough to
         help pry him from my face and let me take in a breath of air. I felt my
         mana drain from me for a moment, as the boy pushed back but then it
         suddenly stopped. Jarvia as stood to his side with a root made spear
@@ -761,6 +761,9 @@ function Intro(props) {
         rain became a hail of ice. It made the floor around the entrance damp
         and broke away some of my cover but nothing more. I wondered if the
         instructors were just trying to flush students out.
+      </Kaja>
+      <Kaja>
+
       </Kaja>
       {KajaStats(35)}
             {/* Sandstorm, Rain + Ice, mutant beats, care packages, floods */}
