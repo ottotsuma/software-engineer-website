@@ -790,9 +790,15 @@ function Intro(props) {
       <p>
         "Release wild beasts into the jungle? How is that even close to showing the students a battle!? Oh I give up, can't believe we have to keep the students here watching this."
       </p>
+      <p>"Heh, It's currently the highest voted. I guess the students want this to end too."</p>
+      <div className="BreakPoint" />
+      <Kaja>
+        Since I had stayed in this burrow for almost 2 days now I had felt like the beast that dug it out had been taken away by the staff or long since died. Unlike what I thought, the first to find this burrow was the same beast that had dug it. The beast, a Noxious Cloud Peccary.
+      </Kaja>
       {KajaStats(35)}
       {/* Some conversation between the audience the next day who grow tired of this, everyone is hiding, only a few hunting groups. So the military open up with some 'fun' ideas */}
       {/* Sandstorm, Rain + Ice, mutant beats, care packages, floods */}
+      {/* Miliarty taking no intrest in what the students learn and feel the students need to see real fighting, also want a idol and to see farads research */}
       {/* Chu-gong */}
       {/* Moving from the pond to conflict with Garin & co. Chu 'dies' and Kaja runs towards Otto. */}
       {/* running away */}
