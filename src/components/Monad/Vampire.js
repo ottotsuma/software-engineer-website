@@ -237,11 +237,9 @@ export function SpellFinder() {
 
   return (
     <Wrap>
-      <h4>Types of Mages:</h4>
+      <h4>Types of stuff:</h4>
       <p>
-        Considering mages can move into various different roles, their skill
-        list is wide rather then deep. The depth of a class comes from
-        specializing, after reaching a level of proficiency in one area.
+        Mages rely on Elements for versatility. Rouges, beast souls. Fighters, Jobs.
       </p>
       <ChoiceButtonWrap>{elementalsArray}</ChoiceButtonWrap>
       <ChoiceButtonWrap>{classesArray}</ChoiceButtonWrap>
