@@ -176,7 +176,8 @@ export const racesList = {
     images: [
       "https://ottotsuma.github.io/images/people/7ba7da6ab05c5f29e2fd5bfc0516948c.jpg",
       "https://ottotsuma.github.io/images/people/3cbeaef31df0449953933745c69dc0bc.jpg",
-      // 7ba7da6ab05c5f29e2fd5bfc0516948c, 3cbeaef31df0449953933745c69dc0bc, kururu_by_cglas_d9g4c3a-pre, 82f23c130566f90858bea74138c47f70
+      "https://ottotsuma.github.io/images/people/82f23c130566f90858bea74138c47f70.jpg",
+      "https://ottotsuma.github.io/images/people/kururu_by_cglas_d9g4c3a-pre.jpg"
     ],
     disc: "Vampires are members of the undead. There are many sub-species of vampire, from the intelligent high vampires to mindless beasts. They excel in the use of Blood, being able to learn blood magic and blow skills though their vampire skill tree. They can become faster and stronger then average humanoids, however the stronger they become the stronger their weaknesses become. Direct weaknesses like: sunlight and fire; as well as their craving for blood.",
     // https://powerlisting.fandom.com/wiki/Red_Panda_Physiology & https://tier-zoo.fandom.com/wiki/Red_Panda

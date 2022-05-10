@@ -1251,12 +1251,26 @@ export function BeastPage({ name }) {
             alt="Screen-Shot"
           />
         </Mid>
-        <Bot>
+        <Bot
+        r={Math.min(window.outerWidth / 600, window.outerHeight / 917)}
+        width={window.outerWidth}
+        height={window.outerHeight}
+        >
           <BeastImage2
             onError={imageError}
             src={_try(() => beast.images[1], Empty)}
             alt="Screen-Shot"
           />
+          {_try(() => beast.images[2], false) && <BeastImage2
+            onError={imageError}
+            src={_try(() => beast.images[2], Empty)}
+            alt="Screen-Shot"
+          />}
+          {_try(() => beast.images[3], false) && <BeastImage2
+            onError={imageError}
+            src={_try(() => beast.images[3], Empty)}
+            alt="Screen-Shot"
+          />}
         </Bot>
       </BeastContainer>
     );
@@ -1317,4 +1331,5 @@ const Bot = styled.div`
   display: flex;
   align-items: flex-end;
   max-height: 28%;
+  zoom: ${(props) => props.r};
 `;

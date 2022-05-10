@@ -229,7 +229,7 @@ export const classList = {
   Pirate: {
     stats: {},
     team: "🏴‍☠️ Swimming +5% movement speed.",
-    images: [],
+    images: ["https://ottotsuma.github.io/images/people/f93a36fab2810f29163626fd22075750.jpg", "https://ottotsuma.github.io/images/ships/66ac653f7b03e727d39d9072dfb79887.jpg"], // 8169a4b7ab02aa720cafb7b0ea803385, 2db7f9e0803d4d7f5a77990ae3115354
     disc: "",
     notes: "",
     tier: "rare",
