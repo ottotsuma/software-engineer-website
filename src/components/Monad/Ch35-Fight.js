@@ -825,7 +825,10 @@ function Intro(props) {
         Since I had stayed in this burrow for almost 2 days now I had felt like
         the beast that dug it out had been taken away by the staff or long since
         died. Unlike what I thought, the first to find this burrow was the same
-        beast that had dug it. The beast, a Noxious Cloud Peccary.
+        beast that had dug it. The beast, a Noxious Cloud Peccary. A Peccary is similar to a boar's, only smaller and they dug burrows. The Noxious Cloud Peccary got it's name from the musky, light green cloud that came from it's body and mixed with its fur. It is a kind of poisonous gas that you don't want to breath in or get on your skin.
+      </Kaja>
+      <Kaja>
+
       </Kaja>
       {KajaStats(35)}
       {/* Some conversation between the audience the next day who grow tired of this, everyone is hiding, only a few hunting groups. So the military open up with some 'fun' ideas */}
