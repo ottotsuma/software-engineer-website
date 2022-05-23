@@ -374,5 +374,6 @@
         "Zwetchenkuchen"
     ],
     "eslint.enable": true,
-    "cSpell.enabled": true
+    "cSpell.enabled": true,
+    "files.eol": "\n"
 }
