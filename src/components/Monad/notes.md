@@ -1042,7 +1042,7 @@ Based on mesoamerican continent and ends with more advanced people landing slowl
 ### Monsters
 undead hags, water hags, blood corpse, flies, 
 
-Dragons have no balls, its an elongated tubeula gland down the dragons tail to keep it cool and away from dragon fire
+Dragons have no balls, its an elongated tubular gland down the dragons tail to keep it cool and away from dragon fire
 
 Candle Tree, The lights attract bugs and then the tree eats them.
 
@@ -1185,8 +1185,8 @@ Desert (Monsters) - They are monsters. It's hard to say.
 
 ### Eras/History:
 
-{/* Pre-Dao, Dao-era, Immortal-era, (Huge beats, men struggling, the island is cleansed of men), (Foundation of empires in the east and this continent is invaded by the humans for the first time since the immortals), (Men overcome beasts and empires start here and in the east the religious wars start), Pyramid (Kʼawiil) Empires of men, Pocotocotcan (The one empire), Witch (Rebellion), Now. */}
-{/* Pre-Dao, Dao, Immortal, Dark-Age, (Dawn Age) Great Migration, Warning Kingdoms Period, Pyramid (The One Kingdom), Pocotocotcan Empire, Witch, Now. */}
+{/* Pre-Dao, Dao-era, Immortal-era, (Huge beats, men struggling, the island is cleansed of men), (Foundation of empires in the east and this continent is invaded by the humans for the first time since the immortals), (Men overcome beasts and empires start here and in the east the religious wars start), Pyramid (Kʼawiil) Empires of men, Pocotcotcan (The one empire), Witch (Rebellion), Now. */}
+{/* Pre-Dao, Dao, Immortal, Dark-Age, (Dawn Age) Great Migration, Warning Kingdoms Period, Pyramid (The One Kingdom), Pocotcotcan Empire, Witch, Now. */}
 
 Blood tax, one child from 40 house holds. (Ottomans)
 
