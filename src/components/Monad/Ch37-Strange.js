@@ -253,7 +253,7 @@ function Intro(props) {
       {/* Nobles argue */}
       {/* Niyoshons leave */}
       {/* Off to fight in the war */}
-      {/* // Weight changing to make lighter hammer boy */}
+      {/* Weight changing to make lighter hammer boy */}
       <p>
         "Now that you are all at a point were you understand the very basics,
         it's time for you to learn the next step. Understanding the fundamentals
