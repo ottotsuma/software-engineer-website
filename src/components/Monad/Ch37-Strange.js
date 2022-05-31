@@ -254,6 +254,7 @@ function Intro(props) {
       {/* Niyoshons leave */}
       {/* Off to fight in the war */}
       {/* Weight changing to make lighter hammer boy */}
+      {/* Otto goes back to the temple with the new class, and finds a new person to follow god L */}
       <p>
         "Now that you are all at a point were you understand the very basics,
         it's time for you to learn the next step. Understanding the fundamentals
