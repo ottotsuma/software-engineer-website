@@ -2328,7 +2328,7 @@ export const spellList = {
     1: "+1 Sense outside of settlements.",
   },
   Poisoncraft: {
-    element: ["poison"],
+    element: ["toxic"],
 
     name: "Poisoncraft",
     passive: true,
@@ -2458,7 +2458,7 @@ export const spellList = {
     1: "Summons and artillery plant.",
   },
   "Acid Spores": {
-    element: ["plant", "poison"],
+    element: ["plant", "toxic"],
     classes: ["Mage"],
     species: [""],
     name: "Acid Spores",
@@ -2466,7 +2466,7 @@ export const spellList = {
     1: "Shoots a group of acid spores in the general direction of the target.",
   },
   "Corrosive Spray": {
-    element: ["plant", "poison"],
+    element: ["plant", "toxic"],
     classes: ["Mage"],
     species: [""],
     name: "Corrosive Spray",
@@ -2731,7 +2731,7 @@ export const spellList = {
   },
   Infect: {
     name: "Infect",
-    element: ["poison"],
+    element: ["toxic"],
     classes: [""],
     species: [""],
     passive: false,
@@ -2996,7 +2996,7 @@ export const spellList = {
   },
   "Acid Arrow": {
     name: "Acid Arrow",
-    element: ["plant", "poison"],
+    element: ["plant", "toxic"],
     classes: ["Mage"],
     species: [""],
     passive: false,
@@ -3887,7 +3887,7 @@ export const spellList = {
     1: "Creates a wall of skeletons that can move and fight to a certain degree.",
   },
   "Acid Immunity": {
-    element: ["poison"],
+    element: ["toxic"],
     classes: [""],
     species: [""],
     name: "Acid Immunity",
@@ -4105,7 +4105,7 @@ export const spellList = {
   },
   "Poisoning Immunity": {
     name: "Poisoning Immunity",
-    element: ["poison"],
+    element: ["toxic"],
 
     passive: false,
     1: "",
@@ -4574,7 +4574,7 @@ export const spellList = {
     1: ".",
   },
   "Poisonous Blood": {
-    element: ["blood", "poison"],
+    element: ["blood", "toxic"],
     classes: [""],
     species: ["Vampire"],
     name: "Poisonous Blood",

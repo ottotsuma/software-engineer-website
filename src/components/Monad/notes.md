@@ -1026,7 +1026,7 @@ Based on mesoamerican continent and ends with more advanced people landing slowl
   "shadow", // Shadow, Darkness, Unholy, nightmare
   "light", // Light, Holy, Illumination, cleansing
   "sound", // Sound, Echo, Fear (mental)?
-  "poison", // Poison, Venom, Acid, Corrosion
+  "toxic", // Poison, Venom, Acid, Corrosion
   "time", // time, Vision, future
   "gravity", // gravity
   "portal", // portal, teleport, space?

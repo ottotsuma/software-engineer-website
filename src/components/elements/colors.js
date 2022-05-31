@@ -112,7 +112,7 @@ export const monadColors = {
   shadow: "#7B7A72",
   light: "#f1f1f1",
   sound: "#94fefc",
-  poison: "#4db560",
+  toxic: "#4db560",
   time: "#592720",
   gravity: "#454A53",
   portal: "#8C06B1",
