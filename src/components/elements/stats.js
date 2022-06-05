@@ -733,12 +733,19 @@ function Stats({
           </Inline>
         </Wrap>
       );
-      const spamOverwrite = Object.values(items).map(item => {
+      
+      const ClassOverwrite = classList[baseStats.class].stats[MiscKeys[index]] ? [`${baseStats.class} : ${classList[baseStats.class].stats[MiscKeys[index]]}`] : '';
+      const SpeciesOverwrite = racesList[baseStats.species].stats[MiscKeys[index]] ? [`${baseStats.species} : ${racesList[baseStats.species].stats[MiscKeys[index]]}`] : ''
+      const ItemOverwrite = Object.values(items).map(item => {
         const theValue = _try(() => item.stats[MiscKeys[index]]);
         if(theValue > 0 && item.name) {
-          return item.name + ': ' + theValue + ', '
+          return item.name + ': ' + theValue;
         }
-      }).filter(((a) => a !== undefined));
+      }).filter(((a) => a !== undefined))
+      // skills
+
+      const spamOverwrite = ItemOverwrite + ClassOverwrite + SpeciesOverwrite
+
       const spam = statList[MiscKeys[index]];
         array.push(
           <SingleStat key={MiscKeys[index] + "stat"}>
