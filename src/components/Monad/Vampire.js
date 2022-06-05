@@ -276,6 +276,23 @@ const ElementalButton = styled.button`
   ${(props) => (props.selected ? "border: solid red" : "")};
 `;
 
+function BreakArray (array) {
+  const NewArray = []
+  for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    if(index === array.length - 1) {
+      NewArray.push(element)
+    } else {
+      NewArray.push(element + ', ')
+    }
+  }
+  return (
+    <div>
+      {NewArray}
+    </div>
+  )
+}
+
 export default function Vampire() {
   // All actions that would reveal the vampire would either heal (HP) or gain them EXP or blood points to be used to improve their strength.
   // That way younger vampires are more likely to do these things then the older ones who don't need strength as badly.
@@ -283,21 +300,16 @@ export default function Vampire() {
 
   // Weaknesses: Hunger level, Fire (element), Light (element), Silver (only lesser vampires), Sunlight. Strengths: Ice-resistance, Weapon Resistance, Create lesser species (Skill), life absorption (heal on hit? Skill?), fast regeneration (Normal HP regen + % of that. Not total HP %. So 100HP and regen 10HP/S a 10% increase is 11HP/S.).
   // Misc: Vampires can gain experience by trying new blood. And unlock a higher level of blood skills.
-  const array = [];
-  for (let index = 0; index < ListOfMagicTypes.length; index++) {
-    const element = ListOfMagicTypes[index];
-    array.push(<div key={element + [index]}>{element}</div>);
-  }
   return (
     <div>
       <SpellFinder />
       <SchoolSchedule />
       <h4>Clubs</h4>
-      {Object.keys(SchoolClubs)}
+      {BreakArray(Object.keys(SchoolClubs))}
       <h4>Lesson Options</h4>
-      {Object.keys(LessonOptions)}
+      {BreakArray(Object.keys(LessonOptions))}
       <h4>Magic Types</h4>
-      {array}
+      {BreakArray(ListOfMagicTypes)}
       {/* 
       https://my-vampire-system.fandom.com/wiki/Quinn_Talen/Abilities
       */}

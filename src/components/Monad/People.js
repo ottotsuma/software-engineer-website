@@ -644,24 +644,9 @@ export function Sarah(Chapter) {
             rating: "epic",
             stats: { endurance: 0 },
           },
-          Cape: {
-            name: "Paladin Engeler's Cape (silver rank)",
-            effect: "Increase HP by 315, Increase MP by 225.",
-            rating: "epic",
-            stats: { HP: 315, MP: 225 },
-          },
-          necklace: {
-            name: "Demon Hunter Necklace",
-            effect:
-              "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
-            rating: "epic",
-          },
-          bracelet: {
-            name: "Demon Hunter Bracelet",
-            effect:
-              "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
-            rating: "epic",
-          },
+          Cape: ItemList["Paladin Engeler's Cape (silver rank)"],
+          necklace: ItemList["Demon Hunter Necklace"],
+          bracelet: ItemList["Demon Hunter Bracelet"],
           earing: {
             name: "Demon Hunter Earring",
             effect:

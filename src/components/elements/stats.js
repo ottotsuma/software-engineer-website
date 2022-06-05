@@ -280,7 +280,7 @@ function Stats({
   const HPList = [];
   const MPList = [];
   const multiplierList = [];
-  const keys = Object.keys(baseStats);
+  let keys = Object.keys(baseStats);
 
   let RaceSpan = undefined;
   if (baseStats.species) {
@@ -329,7 +329,7 @@ function Stats({
           typeof racesList[baseStats.species].stats[raceStat] === "number"
         ) {
           baseStats[raceStat] =
-            baseStats[raceStat] + racesList[baseStats.species].stats[raceStat];
+            (baseStats[raceStat] || 0) + racesList[baseStats.species].stats[raceStat];
         } else if (
           typeof racesList[baseStats.species].stats[raceStat] === "string"
         ) {
@@ -390,7 +390,7 @@ function Stats({
           typeof classList[baseStats.class].stats[classStat] === "number"
         ) {
           baseStats[classStat] =
-            baseStats[classStat] + classList[baseStats.class].stats[classStat];
+            (baseStats[classStat] || 0) + classList[baseStats.class].stats[classStat];
         } else if (
           typeof classList[baseStats.class].stats[classStat] === "string"
         ) {
@@ -423,7 +423,7 @@ function Stats({
                 typeof spellStats[Object.keys(spellStats)[index]] === "number"
               ) {
                 baseStats[Object.keys(spellStats)[index]] =
-                  baseStats[Object.keys(spellStats)[index]] +
+                  (baseStats[Object.keys(spellStats)[index]] || 0) +
                   spellStats[Object.keys(spellStats)[index]];
               } else if (
                 typeof spellStats[Object.keys(spellStats)[index]] === "string"
@@ -473,12 +473,13 @@ function Stats({
   }
   const itemsArray = [];
   if (items) {
-    itemsArray.push(<Equipment items={items} key={"Items"} />);
+    const itemLevel = roundDownToNearest10(baseStats.level) / 10;
+    itemsArray.push(<Equipment level={itemLevel} items={items} key={"Items"} />);
     Object.keys(items).map((itemArea) => {
-      const itemLevel = roundDownToNearest10(baseStats.level) / 10;
-      const itemStats = _try(
-        () => items[itemArea].stats[itemLevel] || items[itemArea].stats
-      );
+      const a = _try(() => items[itemArea][itemLevel].stats)
+      const b = _try(() => items[itemArea].stats[itemLevel])
+      const c = _try(() => items[itemArea].stats)
+      const itemStats = a ? a : b ? b : c
       if (itemStats) {
         Object.keys(itemStats).map((itemStat) => {
           if (itemStat === "HP") {
@@ -495,7 +496,7 @@ function Stats({
               [itemStat.slice(0, -10)]: itemStats[itemStat],
             });
           } else if (typeof itemStats[itemStat] === "number") {
-            baseStats[itemStat] = baseStats[itemStat] + itemStats[itemStat];
+            baseStats[itemStat] = (baseStats[itemStat] || 0) + itemStats[itemStat];
           } else if (typeof itemStats[itemStat] === "string") {
             if (itemStats[itemStat].includes("*")) {
               const multiplierValue = parseFloat(
@@ -535,7 +536,7 @@ function Stats({
             [titleStat.slice(0, -10)]: titleStats[titleStat],
           });
         } else if (typeof titleStats[titleStat] === "number") {
-          baseStats[titleStat] = baseStats[titleStat] + titleStats[titleStat]; // applies the baseStats
+          baseStats[titleStat] = (baseStats[titleStat] || 0 ) + titleStats[titleStat]; // applies the baseStats
         } else if (typeof titleStats[titleStat] === "string") {
           if (titleStats[titleStat].includes("*")) {
             const multiplierValue = parseFloat(
@@ -602,6 +603,7 @@ function Stats({
   if (baseStats["HP"] < 100) {
     baseStats["HP"] = 100;
   }
+
   for (let index = 0; index < keys.length; index++) {
     const element = (
       <Wrap>
@@ -631,7 +633,7 @@ function Stats({
       );
       array.push(
         !hideSubTitles && (
-          <SingleStat key={index + "stat"}>
+          <SingleStat key={keys[index] + "stat"}>
             {classElement}
             {!!type && <Span>{ClassSpan}</Span>}
           </SingleStat>
@@ -654,7 +656,7 @@ function Stats({
       );
       array.push(
         !hideSubTitles && (
-          <SingleStat key={index + "stat"}>
+          <SingleStat key={keys[index] + "stat"}>
             {speciesElement}
             {!!type && <Span>{RaceSpan}</Span>}
           </SingleStat>
@@ -677,7 +679,7 @@ function Stats({
       );
       if (!hideTitle) {
         array.push(
-          <SingleStat key={index + "stat"}>
+          <SingleStat key={keys[index] + "stat"}>
             {titleElement}
             {!!type && <Span>{TitleSpan}</Span>}
           </SingleStat>
@@ -695,18 +697,55 @@ function Stats({
         </Wrap>
       );
       array.push(
-        <SingleStat key={index + "stat"}>
+        <SingleStat key={keys[index] + "stat"}>
           {rankElement}
           {!!type && <Span>{_try(() => spam["description"], element)}</Span>}
         </SingleStat>
       );
     } else {
       array.push(
-        <SingleStat key={index + "stat"}>
+        <SingleStat key={keys[index] + "stat"}>
           {element}
           {!!type && <Span>{_try(() => spam["description"], element)}</Span>}
         </SingleStat>
       );
+    }
+  }
+  // Misc
+  const MiscKeys = Object.keys(baseStats).filter(val => !keys.includes(val))
+  if(MiscKeys.length > 0) {
+
+    array.push(
+      <SingleStat key={"Misc stats"}>
+        {<div>Miscellaneous Stats:</div>}
+        {!!type && <Span>{_try(() => statList['Misc']["description"], <div>Below this entry are the miscellaneous stats.</div>)}</Span>}
+      </SingleStat>
+    );
+
+    for (let index = 0; index < MiscKeys.length; index++) {
+      const element = (
+        <Wrap>
+          <Inline>{MiscKeys[index]}: </Inline>
+          <Inline style={{ color: perc2color(baseStats[MiscKeys[index]]) }}>
+            {typeof baseStats[MiscKeys[index]] === "number"
+              ? parseInt(baseStats[MiscKeys[index]])
+              : baseStats[MiscKeys[index]]}
+          </Inline>
+        </Wrap>
+      );
+      const spamOverwrite = Object.values(items).map(item => {
+        const theValue = _try(() => item.stats[MiscKeys[index]]);
+        if(theValue > 0 && item.name) {
+          return item.name + ': ' + theValue + ', '
+        }
+      }).filter(((a) => a !== undefined));
+      const spam = statList[MiscKeys[index]];
+        array.push(
+          <SingleStat key={MiscKeys[index] + "stat"}>
+            {element}
+            {!!type && <Span>{_try(() => spam["description"], spamOverwrite.length > 0 ? spamOverwrite : element)}</Span>}
+          </SingleStat>
+        );
     }
   }
 

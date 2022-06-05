@@ -145,7 +145,10 @@ export const classList = {
     notes: "",
     images: [],
     tier: "normal",
-    stats: {},
+    stats: {
+      "Physical Damage Reduction": 1,
+      "clown": 12
+    },
     InnateSkills: ['Fallen Paladin'],
   },
   Guardian: {

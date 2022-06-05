@@ -1,9 +1,18 @@
 import styled from "styled-components";
 import React from "react";
 import {monadColors as colors} from './colors'
+import { _try } from "./util";
 
 // the effects are based on stats not level so it would be something maybe combined into stats?
-function Stats({ items }) {
+function Stats({ items, level }) {
+  if(level){
+    // Grabs the item's information for the correct level if the level is provided and added to the item.
+    for (let index = 0; index < Object.keys(items).length; index++) {
+      if(_try(() => items[Object.keys(items)[index]][level].stats)) {
+        items[Object.keys(items)[index]] = {...items[Object.keys(items)[index]], ...items[Object.keys(items)[index]][level]}
+      }
+    }
+  }
   const array = [];
   const keys = Object.keys(items);
   for (let index = 0; index < keys.length; index++) {

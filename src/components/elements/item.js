@@ -112,13 +112,19 @@ export const ItemList = {
     stats: { HP: 315, MP: 225 },
     note: "",
     type: "cape",
+    1: {
+      description: "Increase HP by 32, Increase MP by 23.",
+      stats: { HP: 32, MP: 23 },
+    }
   },
   "Demon Hunter Necklace": {
     name: "Demon Hunter Necklace",
     description:
       "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
     rating: "epic",
-    stats: {},
+    stats: {
+      "Physical Damage Reduction": 15,
+    },
     note: "",
     type: "Necklace",
   },
@@ -127,6 +133,9 @@ export const ItemList = {
     description:
       "Reduces physical damage taken by 15, Reduces magical damage taken by 17, Reduce received damage from Demons by 3%",
     rating: "epic",
+    stats: {
+      "Physical Damage Reduction": 15,
+    },
     note: "",
     type: "bracelet",
   },
