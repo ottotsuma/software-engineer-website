@@ -147,7 +147,6 @@ export const classList = {
     tier: "normal",
     stats: {
       "Physical Damage Reduction": 1,
-      "clown": 12
     },
     InnateSkills: ['Fallen Paladin'],
   },

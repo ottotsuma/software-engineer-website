@@ -457,6 +457,11 @@ function Stats({
                   [Object.keys(spellStats)[index].slice(0, -10)]:
                     spellStats[Object.keys(spellStats)[index]],
                 });
+              } else {
+                // Misc stats
+                baseStats[Object.keys(spellStats)[index]] =
+                (baseStats[Object.keys(spellStats)[index]] || 0) +
+                spellStats[Object.keys(spellStats)[index]];
               }
             }
           }
@@ -472,8 +477,8 @@ function Stats({
     }
   }
   const itemsArray = [];
+  const itemLevel = roundDownToNearest10(baseStats.level) / 10;
   if (items) {
-    const itemLevel = roundDownToNearest10(baseStats.level) / 10;
     itemsArray.push(<Equipment level={itemLevel} items={items} key={"Items"} />);
     Object.keys(items).map((itemArea) => {
       const a = _try(() => items[itemArea][itemLevel].stats)
@@ -733,9 +738,22 @@ function Stats({
           </Inline>
         </Wrap>
       );
-      
       const ClassOverwrite = classList[baseStats.class].stats[MiscKeys[index]] ? [` ${baseStats.class} : ${classList[baseStats.class].stats[MiscKeys[index]]}, `] : '';
       const SpeciesOverwrite = racesList[baseStats.species].stats[MiscKeys[index]] ? [` ${baseStats.species} : ${racesList[baseStats.species].stats[MiscKeys[index]]}, `] : ''
+
+      const SkillsOverwrite = [].concat.apply([],Object.values(skills).map(item => {
+        const TheObjectOfMiscStats = item.map(skill => {
+          const  theStats = _try(() =>  spellList[skill.name][itemLevel].stats, spellList[skill.name].stats);
+          const theValue = Array.isArray(theStats) ? _try(() => theStats[itemLevel-1][MiscKeys[index]]) : _try(() => theStats[itemLevel][MiscKeys[index]])      
+          if(theValue > 0 && skill.name) {
+            return ' ' + skill.name + ': ' + theValue;
+          }
+        })
+        return TheObjectOfMiscStats
+      })).filter(((a) => a !== undefined));
+      
+
+
       const ItemOverwrite = Object.values(items).map(item => {
         const theValue = _try(() => item.stats[MiscKeys[index]]);
         if(theValue > 0 && item.name) {
@@ -744,7 +762,7 @@ function Stats({
       }).filter(((a) => a !== undefined))
       // skills
 
-      const spamOverwrite = ClassOverwrite + SpeciesOverwrite + ItemOverwrite
+      const spamOverwrite = ClassOverwrite + SpeciesOverwrite + SkillsOverwrite + ItemOverwrite
 
       const spam = statList[MiscKeys[index]];
         array.push(

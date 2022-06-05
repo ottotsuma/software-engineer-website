@@ -4194,6 +4194,9 @@ export const spellList = {
     species: ["Vampire"],
     name: "Vampire Eyes",
     passive: true,
+    stats: { 
+      1: {}
+    },
     1: "A skill possessed by all vampires, their blood lust (Health) is shown by the color of their eyes.",
   },
   "Blood Hardening": {
@@ -4380,6 +4383,7 @@ export const spellList = {
     stats: [
       {
         strength: 1,
+        "Physical Damage Reduction": 3,
         // strengthMultiplier: 2,
         // enduranceMultiplier: 2,
         magic: 1,
