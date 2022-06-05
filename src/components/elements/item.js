@@ -135,6 +135,8 @@ export const ItemList = {
     rating: "epic",
     stats: {
       "Physical Damage Reduction": 15,
+      "Magical Damage Reduction": 17,
+      "Damage from Demons Reduction %": 3, // "1.03 This change will require "stats" code changes"
     },
     note: "",
     type: "bracelet",
