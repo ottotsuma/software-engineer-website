@@ -734,23 +734,23 @@ function Stats({
         </Wrap>
       );
       
-      const ClassOverwrite = classList[baseStats.class].stats[MiscKeys[index]] ? [`${baseStats.class} : ${classList[baseStats.class].stats[MiscKeys[index]]}`] : '';
-      const SpeciesOverwrite = racesList[baseStats.species].stats[MiscKeys[index]] ? [`${baseStats.species} : ${racesList[baseStats.species].stats[MiscKeys[index]]}`] : ''
+      const ClassOverwrite = classList[baseStats.class].stats[MiscKeys[index]] ? [` ${baseStats.class} : ${classList[baseStats.class].stats[MiscKeys[index]]}, `] : '';
+      const SpeciesOverwrite = racesList[baseStats.species].stats[MiscKeys[index]] ? [` ${baseStats.species} : ${racesList[baseStats.species].stats[MiscKeys[index]]}, `] : ''
       const ItemOverwrite = Object.values(items).map(item => {
         const theValue = _try(() => item.stats[MiscKeys[index]]);
         if(theValue > 0 && item.name) {
-          return item.name + ': ' + theValue;
+          return ' ' + item.name + ': ' + theValue;
         }
       }).filter(((a) => a !== undefined))
       // skills
 
-      const spamOverwrite = ItemOverwrite + ClassOverwrite + SpeciesOverwrite
+      const spamOverwrite = ClassOverwrite + SpeciesOverwrite + ItemOverwrite
 
       const spam = statList[MiscKeys[index]];
         array.push(
           <SingleStat key={MiscKeys[index] + "stat"}>
             {element}
-            {!!type && <Span>{_try(() => spam["description"], spamOverwrite.length > 0 ? spamOverwrite : element)}</Span>}
+            {!!type && <Span>{_try(() => spam["description"], spamOverwrite.length > 0 ? spamOverwrite.slice(-2) === ', ' ? spamOverwrite.slice(0, -2) : spamOverwrite : element)}</Span>}
           </SingleStat>
         );
     }
