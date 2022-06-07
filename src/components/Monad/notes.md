@@ -1,6 +1,9 @@
 https://guides.github.com/features/mastering-markdown/
 
 Re-Write all early story to have 1 - 9 being mage, no element and at level 10 you find out your element so they can change class like the rogue and fighter. Chapter 13 and earlier.
+
+The flicker fusion threshold, Critical Flicker Frequency (CFF) or flicker fusion rate, is a concept in the psychophysics of vision. It is defined as the frequency at which an intermittent light stimulus appears to be completely steady to the average human observer.
+
 # Random Ideas:
 Topologies
 Lessons other then combat and magic:
