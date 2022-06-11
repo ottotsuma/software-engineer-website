@@ -781,6 +781,45 @@ https://progamercity.net/aika-guides/1173-aika-char-pran-exp-table.html
 ### Skills/Spells
 Mastery over skills, so the skills level up? Costs points / experience.
 ## Story
+Otto - 
+Wants: Tsuma, Strong wizard
+
+Arc 1
+In his village with his family. 
+Wanting to become a strong wizard to magic away all his problems.
+They join the magic academy in Alden as a military student.
+They have a hard time fitting in, not being outstanding at anything, but makes friends and finds a place.
+After changing "class" the academy recognizes Otto as a "useful" wizard.
+They lose their friends, by moving into a new dorm or died in the process.
+During the outbreak of the war Otto returns to his village.
+
+Arc 2
+Back in the village
+Still wanting to become a strong, although he thinks combat its just an mental strength he needs
+They are accused of a crime
+Flees
+Finds the mental strength to get what he wants
+His family die (war/nobles?)
+With Tsuma but now wants revenge
+
+Arc 3
+Is now in an unfamiliar country
+Adapting to the new language and customs and Culture
+The opportunity to kill an Alden official in Huonhia
+Loses his "class" that makes him unique, starts a 2nd war
+returns to Tsuma with regret for his actions
+
+World - 
+  Sea people arrive on the shores, they start trading and setting up camps but a war breaks out between the locals and the new arrivals pushing them back into the sea.
+  War starts between Alden and the republic.
+  The republic breaks into small factions, Alden and the Elves taking parts each.
+  Alden and Huonhia start skirmishes over the death of an official, which leads to war.
+  The fractured nations are easier targets for the sea people to infiltrate.
+  During this time the kingdom is in an internal political power struggle, religions crusade, refugees, curbing Alden aggression, Pocotcotcan skirmishes & demons, Dwarven land reclaims. Declares it'self an empire so others can be kings.
+  Niyosho is focused on making friends with a distracted kingdom turning empire, curbing Alden aggression, sea people being different, refugees, racist views.
+  Pocotcotcan not having the power it once held, is struggling to keep the doors to the underworld closed. The eleven invasion giving rise to a faction that thinks the doors should just be opened.
+  
+
 Also see History under Physical World.
 
 <p>1: They are in a zone of comfort</p>

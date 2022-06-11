@@ -1,32 +1,41 @@
 import React from "react";
 import SeaPeopleFunction from "./SeaPeople"; // 5
 import { Content } from "./styles";
+import { Otto, System, Tsuma, Tisiel, Reingard, Shrorlei, Ralsan } from "./CharacterFonts";
 function Intro(props) {
+  // Re-enforce the charters, social hierarchy, why you cannot date a princess, love rivals.
   return (
     <Content>
       <div className="Frame">
         <div className="Content">
           <SeaPeopleFunction Chapter={5} />
-        <div className="BreakPoint" />
+          <div className="BreakPoint" />
           <h4>Dinner</h4>
-          <p>
-            Otto could not help but stop listening to the conversation, his eyes
-            had been caught and his full attention was now directly focused the
-            woman who had just walked through the door. Stunning smooth shoulder
-            length straight black hair, slightly tanned smooth skin, almond
-            shaped eyes, as she looked around the room he could not help but
-            admire how elegant and graceful she was moving about between the
-            guests like a fairy. She had a slim waist and a beautiful dress, it
-            was a deep blue and fitted against her curves. If he did not stop
-            now he was going to be caught starring.
-          </p>
-
+          <Otto>
+            The sound of Reingard and Tisiel flirting, Shrorlei groaning at them
+            being embarrassing and Ralsan's laughter became dull in my ears. The
+            sounds of the grand hall, the conversations, laughter and clanging
+            of glasses all became dull. My body had become stiff, almost as if I
+            had left my body the moment my eyes landed on a woman walking into
+            the hall. She had midnight black, straight shoulder length hair and
+            almond shaped eyes. She was wearing a deep blue dress which showed
+            off her thin waist, and cut off at her shoulders giving a glimpse at
+            her fresh snow white skin. She was so fairy like, seemingly gliding
+            across the floor.
+          </Otto>
+          {/* Reingard, Tisiel, Shrorlei, Ralsan */}
+          <Ralsan>
+            "I think we lost him." Ralsan teased, I did not hear it at the time though.
+          </Ralsan>
+          <Otto>
+            "Excuse me." I quickly 
+          </Otto>
           <p>
             He excused himself as hastily has he could and made his way across
-            the room to try and strike up a conversation with her only to be caught
-            by old professor Farald, I heard from young Daniel you where curious
-            about how the duel system works. Unable to escape he had to hope he
-            could find her later.
+            the room to try and strike up a conversation with her only to be
+            caught by old professor Farald, I heard from young Daniel you where
+            curious about how the duel system works. Unable to escape he had to
+            hope he could find her later.
           </p>
 
           <p>
@@ -44,8 +53,8 @@ function Intro(props) {
             call me Tsuma."
           </p>
           <p>
-            "Nice to meet you Tsuma, your acescent are you from Niyosho? It's very
-            loverly."
+            "Nice to meet you Tsuma, your acescent are you from Niyosho? It's
+            very loverly."
           </p>
           <p>"Yes, I came here as an exchange, I am in my second year here."</p>
           <p>
@@ -67,8 +76,8 @@ function Intro(props) {
           <p>"Ah that won't be possible the seats are arranged before hand."</p>
           <p>
             "How about a date? A short one, tonight after the dinner. I'd like
-            to take you to a cafe and talk, I've never been to Niyosho so perhaps
-            we can start there."
+            to take you to a cafe and talk, I've never been to Niyosho so
+            perhaps we can start there."
           </p>
           <p>
             "I..Yeah, I can do that. I'll wait for you under the autumn tree on
