@@ -1,7 +1,7 @@
 import React from "react";
 import SeaPeopleFunction from "./SeaPeople"; // 5
 import { Content } from "./styles";
-import { Otto, System, Tsuma, Tisiel, Reingard, Shrorlei, Ralsan } from "./CharacterFonts";
+import { Otto, System, Tsuma, Tisiel, Reingard, Shrorlei, Ralsan, Farald } from "./CharacterFonts";
 function Intro(props) {
   // Re-enforce the charters, social hierarchy, why you cannot date a princess, love rivals.
   return (
@@ -28,16 +28,26 @@ function Intro(props) {
             "I think we lost him." Ralsan teased, I did not hear it at the time though.
           </Ralsan>
           <Otto>
-            "Excuse me." I quickly 
+            "Excuse me." I hastily replied without registering what Ralsan had said.
           </Otto>
-          <p>
-            He excused himself as hastily has he could and made his way across
-            the room to try and strike up a conversation with her only to be
-            caught by old professor Farald, I heard from young Daniel you where
-            curious about how the duel system works. Unable to escape he had to
-            hope he could find her later.
-          </p>
-
+          <Otto>
+            I made my way between and around other groups which had congregated about the hall. Before I could reach my target however I was intercepted by old professor Farald.
+          </Otto>
+          <Farald>
+            "Ah Otto! I heard from young Daniel you where curious about how the duel system works."
+          </Farald>
+          <Otto>
+            "Ah, I was." I said trying to look past the professor to see if the girl had moved.
+          </Otto>
+          <Farald>
+            "Oh are you no longer? I am quite busy you know, it's rare I come out of my lab for any event."
+          </Farald>
+          <Otto>
+            "I still am! I'm sorry I thought I saw someone I knew..." I knew from Daniel that professor Farald was a hard man to get hold of.
+          </Otto>
+          <Farald>
+            
+          </Farald>
           <p>
             To his luck and amazement there was a beautiful fairy-like goddess
             of a woman was still there, she had taken an interest in their
