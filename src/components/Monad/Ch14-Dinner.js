@@ -70,7 +70,7 @@ function Intro(props) {
             "I knew I would find you here professor." A very old gentleman with a beard the length of a forearm interrupted professor Farald. "If you have to speak of your breakthrough tonight, let it be those who have traveled a long way to be here tonight. The first year student's will have at least 2 years to come ask you questions at a later time."
           </Arrilian>
           <Farald>
-            ""
+            "When you are right, you are right. Sorry boy, looks like I don't have time for questions right now. Come find me in the future if you have any." professor Farald patted me shoulder before leaving with the older gentleman.
           </Farald>
           <p>
             To his luck and amazement there was a beautiful fairy-like goddess
