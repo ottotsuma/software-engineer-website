@@ -33,7 +33,6 @@ function Intro(props) {
             her fresh snow white skin. She was so fairy like, seemingly gliding
             across the floor.
           </Otto>
-          {/* Reingard, Tisiel, Shrorlei, Ralsan */}
           <Ralsan>
             "I think we lost him." Ralsan teased, I did not hear it at the time
             though.
@@ -61,17 +60,44 @@ function Intro(props) {
           </Farald>
           <Otto>
             "I still am! I'm sorry I thought I saw someone I knew..." I knew
-            from Daniel that professor Farald was a hard man to get hold of, while that woman was clearly a one in a million goddess, the dinner party was still early.
+            from Daniel that professor Farald was a hard man to get hold of,
+            while that woman was clearly a one in a million goddess, the dinner
+            party was still early.
           </Otto>
           <Farald>
-            "Oh, I'm sure you'll have lots of time to reunite with your friends. presides I cannot be hanging around down here all night, we have VIP guests I have to meet and greet, it was my reason for coming to this event. However it's always nice to talk to an enthusiastic student." Farald said while pinching the end of his english style mustache, it was like a pencil mustache but with a small flick up in the middle giving it a bit more flare. "Well to state the obvious first, I of course did not build the ancient arena, despite how old I look. Around the edge of the arena, hidden under the seats, the creators installed a tube. This tube is connected to a controller, so that when the tube is filled with a continuous supply of mana the rules of the arena can be adjusted. The mana is what fuels its ability to teleport people to pre-set locations around the arena. I have been studying the device and it's magic carvings for years now. To tell you the truth, I have made a breakthrough recently that is why our VIP guests have come to our opening ceremony this year." 
+            "Oh, I'm sure you'll have lots of time to reunite with your friends.
+            presides I cannot be hanging around down here all night, we have VIP
+            guests I have to meet and greet, it was my reason for coming to this
+            event. However it's always nice to talk to an enthusiastic student."
+            Farald said while pinching the end of his english style mustache, it
+            was like a pencil mustache but with a small flick up in the middle
+            giving it a bit more flare. "Well to state the obvious first, I of
+            course did not build the ancient arena, despite how old I look.
+            Around the edge of the arena, hidden under the seats, the creators
+            installed a tube. This tube is connected to a controller, so that
+            when the tube is filled with a continuous supply of mana the rules
+            of the arena can be adjusted. The mana is what fuels its ability to
+            teleport people to pre-set locations around the arena. I have been
+            studying the device and it's magic carvings for years now. To tell
+            you the truth, I have made a breakthrough recently that is why our
+            VIP guests have come to our opening ceremony this year."
           </Farald>
           <Arrilian>
-            "I knew I would find you here professor." A very old gentleman with a beard the length of a forearm interrupted professor Farald. "If you have to speak of your breakthrough tonight, let it be those who have traveled a long way to be here tonight. The first year student's will have at least 2 years to come ask you questions at a later time."
+            "I knew I would find you here professor." A very old gentleman with
+            a beard the length of a forearm interrupted professor Farald. "If
+            you have to speak of your breakthrough tonight, let it be those who
+            have traveled a long way to be here tonight. The first year
+            student's will have at least 2 years to come ask you questions at a
+            later time."
           </Arrilian>
           <Farald>
-            "When you are right, you are right. Sorry boy, looks like I don't have time for questions right now. Come find me in the future if you have any." professor Farald patted me shoulder before leaving with the older gentleman.
+            "When you are right, you are right. Sorry boy, looks like I don't
+            have time for questions right now. Come find me in the future if you
+            have any." professor Farald patted me shoulder before leaving with
+            the older gentleman.
           </Farald>
+
+          {/* Reingard, Tisiel, Shrorlei, Ralsan */}
           <p>
             To his luck and amazement there was a beautiful fairy-like goddess
             of a woman was still there, she had taken an interest in their
