@@ -96,7 +96,7 @@ function Intro(props) {
             have any." professor Farald patted me shoulder before leaving with
             the older gentleman.
           </Farald>
-
+          <Otto></Otto>
           {/* Reingard, Tisiel, Shrorlei, Ralsan */}
           <p>
             To his luck and amazement there was a beautiful fairy-like goddess
