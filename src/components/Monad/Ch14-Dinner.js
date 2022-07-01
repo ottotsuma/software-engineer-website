@@ -238,10 +238,17 @@ function Intro(props) {
             left Tisiel, maybe I should swap with one of them.
           </Otto>
           <Otto>
-            From the lower, larger hall we were seated in we could see the second years in the next hall ahead of ours and ahead of them the teachers, their flags displaying various elemental symbols. The various guests, including too far away to see their faces but the people of Niyosho. The flag must of been their countries flag, [add the flag here]. The royal flag, the rumor that a prince was attending this academy this year must of been true.
+            From the lower, larger hall we were seated in we could see the
+            second years in the next hall ahead of ours and ahead of them the
+            teachers, their flags displaying various elemental symbols. The
+            various guests, including too far away to see their faces but the
+            people of Niyosho. The flag must of been their countries flag, [add
+            the flag here]. The royal flag, the rumor that a prince was
+            attending this academy this year must of been true.
           </Otto>
           <Otto>
-            The dinner started off with me vs the whole group on who could name the most beasts from all the flags in the room. 
+            The dinner started off with me vs the whole group on who could name
+            the most beasts from all the flags in the room.
           </Otto>
         </div>
       </div>
