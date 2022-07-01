@@ -96,54 +96,87 @@ function Intro(props) {
             have any." professor Farald patted me shoulder before leaving with
             the older gentleman.
           </Farald>
-
-          {/* Reingard, Tisiel, Shrorlei, Ralsan */}
-          <p>
-            To his luck and amazement there was a beautiful fairy-like goddess
-            of a woman was still there, she had taken an interest in their
-            conversation. Using this opportunity he introduced himself.
-          </p>
-
-          <p>
-            "Hello, I am Otto a first year student, are you interested in this
-            topic also?"
-          </p>
-          <p>
-            "Ah, yes. I am very much so. I am" she paused for a moment, "you can
-            call me Tsuma."
-          </p>
-          <p>
-            "Nice to meet you Tsuma, your acescent are you from Niyosho? It's
-            very loverly."
-          </p>
-          <p>"Yes, I came here as an exchange, I am in my second year here."</p>
-          <p>
-            "I must be off you two, if you need me for a longer discussion
-            please leave me a message at my office, its in the research
-            department I imagine you haven't been there before but anyone else
-            should be able to point you in the right direction, please excuse
-            me."
-          </p>
-          <p>
-            "Oh no not at all professor, thank you for your knowledge." Both of
-            the students gave a light bow as professor Farald made his way over
-            to a group of other professors calling to him.
-          </p>
-
-          <p>
-            "I believe the dinner is starting soon, would you like to join me?"
-          </p>
-          <p>"Ah that won't be possible the seats are arranged before hand."</p>
-          <p>
-            "How about a date? A short one, tonight after the dinner. I'd like
-            to take you to a cafe and talk, I've never been to Niyosho so
-            perhaps we can start there."
-          </p>
-          <p>
-            "I..Yeah, I can do that. I'll wait for you under the autumn tree on
-            your right as you leave through the main door."
-          </p>
-          <p>"Perfect."</p>
+          <Otto>
+            Well that was both fortuitus and disappointing, I must try to
+            remember to ask him about his devices later. I am always forgetting
+            things but surely I won't forget something so interesting? Ah focus!
+            I looked around for her again, she had not made it far into the
+            hall. There were people all around her who had come in with her,
+            they were wearing unusual clothes, everyone had been asked to either
+            wear formal wear or academy robes to the dinner but these people had
+            turned up wearing overlapping robes? I was not sure, they all looked
+            like foreigners however. The fairy-like doll girl was also a
+            foreigner like them, so it made sense they came in together. Their
+            skin was not so different, some tanned some pale, the main
+            difference was their almond shaped eyes and midnight hair.
+          </Otto>
+          <Otto>
+            I decidedly made my way over to her... I had wanted to make it look
+            natural but I was nervous and excited, so maybe it was a little
+            direct. Not to be mean to the other foreigners but it looked like
+            their whole group was heading into the VIP hall also so I had little
+            time to chit-chat before she would be gone. The first man to
+            approach me to talk, I handed him my empty glass and thanked him,
+            maybe that came across very rude, he was clearly not a waiter but I
+            had to move quickly. He looked stunned and taken back, which was
+            perfect so I could slip past him.
+          </Otto>
+          <Otto>
+            Using that chance I walked right up to her, feeling my palms were
+            damp and clammy I started to open and close them hoping they would
+            dry out. The people around her moved to block her from me, before
+            she pulled on one of their sleeves gently. Ah I guess I looked like
+            I wanted to punch her? Opening and closing my hand like that walking
+            right up to her, she has good friends that would protect her like
+            that.
+          </Otto>
+          <Otto>
+            "My apologies, I didn't mean to scare you. I just wanted to
+            introduce myself and find out who you are. My names Otto a first
+            year at the academy, did you come far to study here?" What a dumb
+            question! Everybody came far to study here who didn't live in
+            Banderdam! I looked into her eyes while asking the question, bright
+            yellow. Did all foreigners have different colour eyes from us? Can't
+            be, I would of noticed that before now... Right?
+          </Otto>
+          <Tsuma>
+            "Who I am?" She stared at me for a little bit, I guess the question
+            was quite rude when it's put like that... "You can call me Tsuma."
+            She replied causing my nevers to calm a little and my heart to beat
+            wildly. Okay maybe my nevers did not calm at all. "Quite far, I'm
+            from Niyosho. Do you know it?"
+          </Tsuma>
+          <Otto>
+            "Is it bad if I say no? Your accent is loverly though. W-Why did you
+            pick Alden to study?"
+          </Otto>
+          <Tsuma>
+            "Oh you don't know. Well I was interested in the 'witch' magic that
+            is only taught here in Alden so I came here on exchange. If you want
+            to find out about Niyosho we have a little version built in the
+            woods to the west of the academy, I am in my 2nd year here and we
+            will be going back at the end of this year so it's your only year to
+            come and visit." She politely explained.
+          </Tsuma>
+          <Otto>
+            I guess it is quite rude to not know someone elses country at all, I
+            should visit when I walk back to the cliffside, she said it was in
+            the woods. I wonder if it's the place with the wooden houses between
+            the trees. I wonder if Niyosho is a giant wood... I can't ask
+            something so silly, I'll look it up later. "I'd love to learn more
+            about Niyosho! You've been here a year but perhaps you spent a lot
+            of time studying? Maybe I could tell you about Alden or show you
+            around, I guess it's kind of too late for that. How about we go on a
+            date instead?" Did I really just ask that!? "A short one I mean,
+            like after this dinner, just a cafe or something to talk about our
+            countries not like a date date." I made it worse.
+          </Otto>
+          <Tsuma>
+            "I..Yeah, I can do that. I'll wait for you under the autumn tree,
+            the large white one with orange leaves on your right as you leave
+            through the main door."
+          </Tsuma>
+          <Otto>"Perfect!"</Otto>
 
           {/* <!-- Tsuma has magic cat that turns black at night, white in the day and has purple eyes. --> */}
 
@@ -154,16 +187,62 @@ function Intro(props) {
             stands on each table you can match the flag to your invitation
             image."
           </p>
-
-          <p>
-            Inside the hall was numerous tables with flags standing proud above
-            them. A large red and white flag with a black stag, this must be me.
-            On the table where places for 10, no doubt I would be unable to
-            converse with those places too far from myself. My place was to the
-            right on the inner side of the table to the hall, not that it
-            mattered the outer side was still 4 tables away from the nearest
-            wall. To my right Reingard would be sat and my left Ebba.
-          </p>
+          <Otto>"Ah, then I will see you later on." I said.</Otto>
+          <Tsuma>"Un. I'll be waiting." She replied before leaving.</Tsuma>
+          <Otto>
+            If shes going to be waiting should I be fashionably late? No, that
+            would be a waste.
+          </Otto>
+          <Otto>
+            I quickly made my way back over to Reingard, Tisiel, Shrorlei &
+            Ralsan. "Sorry about that..." I said re-joining the group like that
+            had not just noticed what I did.
+          </Otto>
+          <Ralsan>
+            "So, did she break your heart? You know there are lots of pretty
+            girls at the academy don't feel tooooo bad." Ralsan said as soon as
+            I rejoined.
+          </Ralsan>
+          <Otto>
+            "No, everything is fine. I'm meeting her later to talk about her
+            home country." I explained with a little pride.
+          </Otto>
+          <Shrorlei>
+            "Lots of pretty girls huh? What class are you taking again? I'm sure
+            the sex ed classes were taught were we came from, are you being held
+            back a year?" Shrorlei teased Ralsan.
+          </Shrorlei>
+          <Ralsan>
+            "Oh lighten up, every one does it! Right Reingard?" Ralsan asked.
+          </Ralsan>
+          <Reingard>"When you find the one." Reingard replied.</Reingard>
+          <Tisiel>"Awww." Tisiel injected.</Tisiel>
+          <Ralsan>
+            "You living trope. Defending fair maidens with your body and words.
+            I'm sure you're very popular with the girls." Ralsan teased
+            Reingard.
+          </Ralsan>
+          <Tisiel>"Aww, leave him alone." Tisiel injected again.</Tisiel>
+          <Otto>
+            Their bickering and laughter carried on into the dinning hall as we
+            looked around for a table with a flag of, what is this? A Lutra?
+            Who's idea was it to use beasts as the markers.
+          </Otto>
+          {/* Reingard, Tisiel, Shrorlei, Ralsan */}
+          <Otto>
+            Inside the hall was in-numerous tables with flags standing proud
+            above them displaying a verity of beasts. On each table was places
+            for 10. My place was to the right on the inner side of the table to
+            the hall, not that it mattered the outer side was still 4 tables
+            away from the nearest wall. To my right Reingard would be sat and my
+            left Tisiel, maybe I should swap with one of them.
+          </Otto>
+          <Otto>
+            From the lower, larger hall we were seated in we could see the second years in the next hall ahead of ours and ahead of them the teachers, their flags displaying various elemental symbols. The various guests, including too far away to see their faces but the people of Niyosho. The flag must of been their countries flag, [add the flag here]. The royal flag, the rumor that a prince was attending this academy this year must of been true.
+          </Otto>
+          <Otto>
+            The dinner started off with me vs the whole group on who could name the most beasts from all the flags in the room. 
+          </Otto>
         </div>
       </div>
     </Content>
