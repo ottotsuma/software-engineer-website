@@ -228,7 +228,6 @@ function Intro(props) {
             looked around for a table with a flag of, what is this? A Lutra?
             Who's idea was it to use beasts as the markers.
           </Otto>
-          {/* Reingard, Tisiel, Shrorlei, Ralsan */}
           <Otto>
             Inside the hall was in-numerous tables with flags standing proud
             above them displaying a verity of beasts. On each table was places
@@ -248,8 +247,31 @@ function Intro(props) {
           </Otto>
           <Otto>
             The dinner started off with me vs the whole group on who could name
-            the most beasts from all the flags in the room.
+            the most beasts from all the flags in the room. I was surprised,
+            Tisiel who spends the majority of her time studying could barely
+            name even the most common of beasts. Reingard who was also part of
+            the combat classes was barely chipping in with answers. Ralsan knew
+            the most of the four, naming and kinds of pests that would eat, dig
+            up or otherwise ruin a farmers work. I guess that was to be expected
+            of a mage studying farming as their primary topic. While Shrorlei
+            held a different kind of surprise, able to name some of the more
+            obscure beasts of the western regions of Alden, so I knew little to
+            nothing of, being used on a few of the 2nd year tables, however just
+            shrugged at the more common beasts used for the 1st year tables.
           </Otto>
+          <Otto>
+            Each table could seat ten, so we were not alone, before the beasts
+            we could see had been named between us, and the hall had turned
+            quiet. Up at the far end of the room standing among the VIP guests
+            was the head master of the academy. He had
+            started to welcome everyone officially to the academy, using some
+            kind of magic device so his voice was no quieter or louder from
+            where he stood to even the furthest reaches of the hall. Not all of
+            the professors were sat with the headmaster, it seemed there were a
+            few important guests he had to entertain tonight.
+          </Otto>
+          {/* Head master name, speech, guests into. No need to go into detail on the guests or head master right now. */}
+          {/* Reingard, Tisiel, Shrorlei, Ralsan */}
         </div>
       </div>
     </Content>

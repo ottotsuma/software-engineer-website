@@ -3,11 +3,34 @@ import styled from "styled-components";
 import { colors, monadColors } from "./colors";
 import { _try } from "./util";
 
+// junk: "rgb(109, 109, 109)", // grey
+// common: "rgb(168, 168, 168)", // light grey
+// normal: "blue",
+// intermediate: "rgb(69, 150, 255)", // light blue
+// advanced: "rgb(50, 205, 219)", // cyan
+// rare: "green",
+// epic: "red",
+// legendary: "orange",
+// unique: "purple",
+// growth: "#e2abac", // pink?
+// quest: "gold",
+
+// Beasts should be given different catagories. The rank of items is not suited to the combat powers directly.
+
 // https://www.youtube.com/watch?v=ghD79i2O1xA
 export const racesList = {
   // Generally should be "Self" not "Team"
   // Binturong ,
   //  鳳凰, fenghuang, Wade-Giles romanization feng-huang, also called feng or (misleadingly) Chinese phoenix, in Chinese mythology, an immortal bird whose rare appearance is said to be an omen foretelling harmony at the ascent to the throne of a new emperor.
+  Lutra: {
+    name: "Lutra",
+    stats: {},
+    self: "",
+    images: [],
+    notes: "",
+    tier: "normal",
+    disc: "",
+  },
   Binturong: {
     name: "Binturong",
     stats: {

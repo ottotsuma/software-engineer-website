@@ -738,10 +738,10 @@ function Stats({
           </Inline>
         </Wrap>
       );
-      const ClassOverwrite = classList[baseStats.class].stats[MiscKeys[index]] ? [` ${baseStats.class} : ${classList[baseStats.class].stats[MiscKeys[index]]}, `] : '';
-      const SpeciesOverwrite = racesList[baseStats.species].stats[MiscKeys[index]] ? [` ${baseStats.species} : ${racesList[baseStats.species].stats[MiscKeys[index]]}, `] : ''
+      const ClassOverwrite = classList[baseStats.class]?.stats[MiscKeys[index]] ? [` ${baseStats.class} : ${classList[baseStats.class].stats[MiscKeys[index]]}, `] : '';
+      const SpeciesOverwrite = racesList[baseStats.species]?.stats[MiscKeys[index]] ? [` ${baseStats.species} : ${racesList[baseStats.species].stats[MiscKeys[index]]}, `] : '';
 
-      const SkillsOverwrite = [].concat.apply([],Object.values(skills).map(item => {
+      const SkillsOverwrite = skills ? [].concat.apply([],Object.values(skills).map(item => {
         const TheObjectOfMiscStats = item.map(skill => {
           const  theStats = _try(() =>  spellList[skill.name][itemLevel].stats, spellList[skill.name].stats);
           const theValue = Array.isArray(theStats) ? _try(() => theStats[itemLevel-1][MiscKeys[index]]) : _try(() => theStats[itemLevel][MiscKeys[index]])      
@@ -750,16 +750,14 @@ function Stats({
           }
         })
         return TheObjectOfMiscStats
-      })).filter(((a) => a !== undefined));
-      
+      })).filter(((a) => a !== undefined)) : '';
 
-
-      const ItemOverwrite = Object.values(items).map(item => {
+      const ItemOverwrite = items ? Object.values(items).map(item => {
         const theValue = _try(() => item.stats[MiscKeys[index]]);
         if(theValue > 0 && item.name) {
           return ' ' + item.name + ': ' + theValue;
         }
-      }).filter(((a) => a !== undefined))
+      }).filter(((a) => a !== undefined)) : '';
       // skills
 
       const spamOverwrite = ClassOverwrite + SpeciesOverwrite + SkillsOverwrite + ItemOverwrite
