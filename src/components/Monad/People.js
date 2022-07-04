@@ -160,7 +160,7 @@ export default function Otto(Chapter) {
         Feet: {
           name: "Bubonic Trail",
           effect:
-            "Skill: Death Walk, 30% increased Movement Speed, 4% increased maximum Hp.",
+            "Skill: Death Walk, 30% increased Movement Speed, 4% increased maximum HP.",
           rating: "unique",
           long: "Death Walk: While you walk, this skill causes corpses near your steps to explode, dealing fire damage in an area. The explosions of the corpses are not affected by modifiers to spell damage, and cannot be reflected.",
           stats: {},
@@ -188,7 +188,7 @@ export default function Otto(Chapter) {
         Acc4: {
           name: "Magic Master",
           effect:
-            "Max hp - 50%. Max mp + 50%. Strength & Endurance - 20. Magic & Willpower + 20. Stores one magic spell for free use.",
+            "Max HP - 50%. Max mp + 50%. Strength & Endurance - 20. Magic & Willpower + 20. Stores one magic spell for free use.",
           rating: "legendary",
           stats: {
             strength: -20,

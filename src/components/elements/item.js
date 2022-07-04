@@ -164,7 +164,7 @@ export const ItemList = {
     stats: { endurance: 0.9, HP: 217 },
     1: {
       description: "HP + 22, endurance + 0.9",
-      stats: {endurance: 0.9, hp: 22}
+      stats: {endurance: 0.9, HP: 22}
     },
     note: "",
     type: "set effect",
