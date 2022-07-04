@@ -9,6 +9,7 @@ import { _try, imageError } from "./../elements/util";
 import { racesList } from "./../elements/species";
 import { classList } from "./../elements/classes";
 import { PeopleList } from "./People";
+import { placeList } from "../elements/places";
 
 import Empty from "./../../assets/empty.gif";
 
@@ -40,10 +41,12 @@ export function SpellFinder() {
   const [chosenElement, SetChosenElement] = useState("");
   const [chosenClass, SetChosenClass] = useState("");
   const [chosenSpecies, SetChosenSpecies] = useState("");
+  const [chosenPlace, SetChosenPlace] = useState("");
   const [shownSpells, SetShownSpells] = useState([]);
   const [elementalsArray, SetElementalsArray] = useState([]);
   const [classesArray, SetClassesArray] = useState([]);
   const [speciesArray, SetSpeciesArray] = useState([]);
+  const [placesArray, SetPlacesArray] = useState([]);
   const entries = Object.entries(spellList);
   const [personButtons, SetPersonButtons] = useState([]);
   const [chapter, SetChapter] = useState(1);
@@ -53,6 +56,8 @@ export function SpellFinder() {
     const ElementTypesArray = [];
     const ClassButtonsArray = [];
     const SpeciesButtonsArray = [];
+    const PlacesButtonsArray = [];
+
     // List out all the buttons of MageTypes
     ElementTypesArray.push(
       <ElementalButton
@@ -123,6 +128,29 @@ export function SpellFinder() {
         </ElementalButton>
       );
     }
+
+    PlacesButtonsArray.push(<ElementalButton
+      selected={chosenPlace === ""}
+      key={"Reset Place"}
+      onClick={() => SetChosenPlace("")}
+    >
+      Reset Place
+    </ElementalButton>
+  );
+    const PossiblePlaces = Object.keys(placeList)
+    for (let index = 0; index < PossiblePlaces.length; index++) {
+      PlacesButtonsArray.push(
+        <ElementalButton
+          selected={chosenPlace === PossiblePlaces[index]}
+          color={monadColors[PossiblePlaces[index]]}
+          key={PossiblePlaces[index] + "button"}
+          onClick={() => SetChosenPlace(PossiblePlaces[index])}
+        >
+          {PossiblePlaces[index]}
+        </ElementalButton>
+      );
+    }
+    SetPlacesArray(PlacesButtonsArray)
     SetElementalsArray(ElementTypesArray);
     SetClassesArray(ClassButtonsArray);
     SetSpeciesArray(SpeciesButtonsArray);
@@ -244,10 +272,13 @@ export function SpellFinder() {
       <ChoiceButtonWrap>{elementalsArray}</ChoiceButtonWrap>
       <ChoiceButtonWrap>{classesArray}</ChoiceButtonWrap>
       <ChoiceButtonWrap>{speciesArray}</ChoiceButtonWrap>
+      <ChoiceButtonWrap>{placesArray}</ChoiceButtonWrap>
       <Spells spells={shownSpells} type={"mage"} />
       {chosenClass ? <BeastPage name={chosenClass} /> : <div />}
       <div style={{ margin: "10px 0px" }} />
       {chosenSpecies ? <BeastPage name={chosenSpecies} /> : <div />}
+      <div style={{ marginBottom: "50px" }} />
+      {chosenPlace ? <BeastPage name={chosenPlace} /> : <div />}
       <div style={{ marginBottom: "50px" }} />
       <ChoiceButtonWrap>{personButtons}</ChoiceButtonWrap>
       {person}
