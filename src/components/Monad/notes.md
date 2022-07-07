@@ -5,6 +5,8 @@ Re-Write all early story to have 1 - 9 being mage, no element and at level 10 yo
 The flicker fusion threshold, Critical Flicker Frequency (CFF) or flicker fusion rate, is a concept in the psychophysics of vision. It is defined as the frequency at which an intermittent light stimulus appears to be completely steady to the average human observer.
 
 # Random Ideas:
+As Elemental resistance moves into absorbtion it reduces your other elemental resistances so you cannot be immune to fire and ice for example.. 
+
 The reason for cool downs (CD) is the route which the mana travels, (practiced, made, trained) in your body is "toast" for a moment. Be that 1 second or 1 day. Could you provide less mana and maintain the effect longer? There should be a minimum requirement to initiate the skill, so that would be by improving on the skill you are finding ways to lower is initial cost but keep the same performance. Training those pathways. Are they physical pathways? Would it not be better to say they are the routes which mana travels for that skill/spell not an actual hole in your body. Moving mana from the inside to the outside of the body should take longer to learn then moving around inside one's self, but magic is about moving the mana already outside of the body most of the time.
 
 magic is about magically making use of the mana around you, easier if the mana is closer to you. Fighting is about making using of the mana from within yourself. Inquisitor's for example make use of both, even so far as using the internal mana, forcing out out into the external world as lightning. A mixture of both methods.
