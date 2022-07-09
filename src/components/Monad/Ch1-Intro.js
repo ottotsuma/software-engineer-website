@@ -81,28 +81,45 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             </div>
             {/* Some kind of fight? */}
             <p>
-              In the Herkikia League at the northern most point, I stood waiting
-              to receive orders from the Herkikian general. I was part of a
-              mercenary company brought up for this battle, we where a mixed
-              band. I am a magic swords man wielding both magic and a short
-              sword, the max next to me was a berserker wearing the head of a
-              wampus cat and holding a giant two handed club. It was normal for
-              us to work in small groups with whoever but a Herkikia general was
-              wealthy enough to buy up our whole company and a few others for
-              the season.
+              The Herkikia League had always been the best place on the
+              continent to be a mercenary. The sea people had made that more
+              true the past few years, this one in particular. I must not let my
+              guard down though,a cornered beast will fight harder. To the west,
+              the monster jungles of Chingaling, their east the army's of the Herkikia
+              league of city states. If there backs were against the sea in the
+              north then their eyes were on us,the mercenaries brought by the
+              League to finish the encirclement.
             </p>
             <p>
-              We had clashed with these opponents a few times this season and
-              they where presenting their last stand to hold us back as they
-              scrambled for their boats to get back to the sea. I have seen some
-              unique fighting styles but theirs was a new one to me, at age 30
-              though I am sure there are more to come. We already beat them four
-              times.
+              If these sea people had any sense they would focus their attacks
+              on this side. Then again it might be better if they just left into
+              the sea from where they came.
             </p>
             <p>
-              To put a stop to my random thoughts the general with a wind wizard
-              next to him projected his voice for all of us to hear. It came
-              loud and strong.
+              "Are you trying to explain the plan to Rock Head again? You know
+              why we call him that right?" A tall, wide, muscular man
+              interrupted, on his head was a wampus cat's head. I'd seen him
+              kill it, it's yellow eyes were suppose to be able to hypnotize a
+              person who looked into them, this man could only have one thought
+              in his head at a time, 'wack it till it's dead'. If he's telling
+              me Rock Head has less brains than him maybe he's right, but
+              honestly it was more to clam my nerves.
+            </p>
+            <p>
+              I gave him a nod of understanding and he went back to stuffing his
+              face with, what I hope was not beast meat from the jungle, the
+              last thing we needed was him going insane from eating some unknown
+              poisonous creature.
+            </p>
+            <p>
+              When I looked back over to the sea peoples final outpost,it would
+              seem they did have a sense of survival after all. Their oversized
+              wooden boats were gliding off into the sea.
+            </p>
+            <p>
+              That was just the signal the Herkikia general needed,the wind mage
+              next to him carried the generals voice across our whole line and
+              beyond. His voice was loud and strong.
             </p>
             <p>
               "Victory is near at hand! If all do their duty, it will be OUR
@@ -182,8 +199,8 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
               looking down into my cup I lamented, the reflection looking back
               at me was far older then it use to be. Stiff and past the age
               where I should be drinking luminescent green drinks. I had always
-              liked melon juice ever since I first tired it over 70 years ago now.
-              Soon the reflection in my cup smiled back.
+              liked melon juice ever since I first tired it over 70 years ago
+              now. Soon the reflection in my cup smiled back.
             </p>
             <p>
               "You look happier then you have in years." My thoughts interrupted
@@ -738,14 +755,14 @@ most people learn inspect but either see
             </p>
             <p>
               hmm I do see your point, but let me clear some things up. Firstly
-              Rogues are not Fighters who mimic beast moves, anyone can do
-              that. If someone want to fight while acting like a monkey or a
-              snake that is up to them but that is not exactly what is going on
-              here. You see Fighters move mana throughout their bodies to
-              increase their speed, strength or even defend from attacks this
-              much you might already know from your parents. A Rogue however
-              uses their mana to reproduce how beasts fight. It's not so much
-              about the movements but how they use their mana, let me show you.
+              Rogues are not Fighters who mimic beast moves, anyone can do that.
+              If someone want to fight while acting like a monkey or a snake
+              that is up to them but that is not exactly what is going on here.
+              You see Fighters move mana throughout their bodies to increase
+              their speed, strength or even defend from attacks this much you
+              might already know from your parents. A Rogue however uses their
+              mana to reproduce how beasts fight. It's not so much about the
+              movements but how they use their mana, let me show you.
             </p>
             <p>
               No sooner had he stopped talking a large black tail, as long as
