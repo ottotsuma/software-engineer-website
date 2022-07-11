@@ -85,10 +85,10 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
               continent to be a mercenary. The sea people had made that more
               true the past few years, this one in particular. I must not let my
               guard down though,a cornered beast will fight harder. To the west,
-              the monster jungles of Chingaling, their east the army's of the Herkikia
-              league of city states. If there backs were against the sea in the
-              north then their eyes were on us,the mercenaries brought by the
-              League to finish the encirclement.
+              the monster jungles of Chingaling, their east the army's of the
+              Herkikia league of city states. If there backs were against the
+              sea in the north then their eyes were on us,the mercenaries
+              brought by the League to finish the encirclement.
             </p>
             <p>
               If these sea people had any sense they would focus their attacks
