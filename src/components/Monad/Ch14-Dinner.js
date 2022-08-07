@@ -260,7 +260,7 @@ function Intro(props) {
             shrugged at the more common beasts used for the 1st year tables.
           </Otto>
           <Otto>
-            Each table could seat ten, so we were not alone, before the beasts
+            Each table could seat ten, so we were not alone. Soon all the beasts
             we could see had been named between us, and the hall had turned
             quiet. Up at the far end of the room standing among the VIP guests
             was the head master of the academy. He had
@@ -269,6 +269,9 @@ function Intro(props) {
             where he stood to even the furthest reaches of the hall. Not all of
             the professors were sat with the headmaster, it seemed there were a
             few important guests he had to entertain tonight.
+          </Otto>
+          <Otto>
+            
           </Otto>
           {/* Head master name, speech, guests into. No need to go into detail on the guests or head master right now. */}
           {/* Reingard, Tisiel, Shrorlei, Ralsan */}

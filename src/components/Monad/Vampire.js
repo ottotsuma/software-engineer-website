@@ -515,7 +515,7 @@ export function SchoolSchedule() {
             background: colors.pink.PalePink,
           }}
         >
-          <p>Option 2 - ???</p>
+          <p>Option 2 - Beast Study Club</p>
           <span>???</span>
           <span>???</span>
         </Block>
@@ -603,7 +603,7 @@ export function SchoolSchedule() {
             background: colors.pink.PalePink,
           }}
         >
-          <p>Option 2 - ???</p>
+          <p>Option 2 - Beast Study Club</p>
           <span>???</span>
           <span>???</span>
         </Block>
@@ -614,7 +614,7 @@ export function SchoolSchedule() {
             background: colors.pink.PalePink,
           }}
         >
-          <p>Option 2 - ???</p>
+          <p>Option 2 - Beast Study Club</p>
           <span>???</span>
           <span>???</span>
         </Block>
@@ -838,7 +838,7 @@ export function SchoolSchedule() {
             background: colors.pink.PalePink,
           }}
         >
-          <p>Option 2 - ???</p>
+          <p>Option 2 - Beast Study Club</p>
           <span>???</span>
           <span>???</span>
         </Block>
