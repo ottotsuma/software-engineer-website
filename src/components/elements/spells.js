@@ -5141,6 +5141,17 @@ export const spellList = {
     I: "Can breath underwater.",
     1: "Can breath underwater.",
   },
+  "Tempest Shield": {
+    name: "Tempest Shield",
+    element: ["lightning"],
+    classes: [""],
+    species: [""],
+    image: "",
+    negative: false,
+    passive: true,
+    I: "Tempest Shield is a spell that reserves mana to empower your shield, granting spell block chance and immunity to shock. While active, whenever you block, you deal damage to the enemy that hit you with an arc of lightning that chains to nearby enemies.",
+    1: "Tempest Shield is a spell that reserves mana to empower your shield, granting spell block chance and immunity to shock. While active, whenever you block, you deal damage to the enemy that hit you with an arc of lightning that chains to nearby enemies.",
+  },
   // Phoenix Flame
   // https://en.uesp.net/wiki/Oblivion:Spells
 };
