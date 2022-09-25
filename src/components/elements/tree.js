@@ -40,10 +40,10 @@ export default function Tree(initialSkill = "blank", level = 1) {
             }
         }
         return (<div>
-            {subjectSkill.name ? <div>Tree: {SpellCards([subjectSkill])} </div> : <div />}
-            <div>
+            {subjectSkill.name ? <div>{SpellCards([subjectSkill])} </div> : <div />}
+            {connectedList && connectedList.length > 0 ? <div>
                 Linked Skills: {connectedList}
-            </div>
+            </div> : <div />}
         </div>)
     } else {
         return <div />
