@@ -10,6 +10,7 @@ import { racesList } from "./../elements/species";
 import { classList } from "./../elements/classes";
 import { PeopleList } from "./People";
 import { placeList } from "../elements/places";
+import Tree from "./../elements/tree"
 
 import Empty from "./../../assets/empty.gif";
 
@@ -136,7 +137,7 @@ export function SpellFinder() {
     >
       Reset Place
     </ElementalButton>
-  );
+    );
     const PossiblePlaces = Object.keys(placeList)
     for (let index = 0; index < PossiblePlaces.length; index++) {
       PlacesButtonsArray.push(
@@ -265,6 +266,105 @@ export function SpellFinder() {
 
   return (
     <Wrap>
+      <div>
+        <h4>A generic player will have:</h4>
+        <ul>
+          <li>1 clearing skill</li>
+          <li>1 single target skill</li>
+          <li>1/2 movement skill(s)</li>
+          <li>1 main defensive skill</li>
+          <li>other defensive skills</li>
+          <li>Auras/Stances</li>
+          <li>Passive skills</li>
+          <li>Utility skills</li>
+          <li>Skills that link to the main skills in the tree, e.g. when summoning plant monsters you need to be able to germinate, grow and harvest seeds.</li>
+        </ul>
+        <div>
+          With that in mind, the starting three classes: 
+            Fighter:
+              Attacks:
+                Headbutt - No weapon route
+                impalement - Stabbing
+                Heavy blow - bashing
+                Sharp slash - slashing 
+                [These are the basic weapon skills, fighters know them from the start and can learn more advanced moves.]
+            Mage:
+              Attacks:
+                Mana-strike - Above
+                Mana-ball - Ranged Aoe
+                Mana-Missile - Ranged Single
+                Mana-burst - close
+            Rouge:
+              All skills come from the beast souls.
+              Basic pre-soul skills include: 
+                Trap Beast
+                Absorb Beast Soul
+                Hop
+                Fleet of Foot 
+                + Passives
+                + Weapon basic [and only basic] skills learned though using the weapon.
+        </div>
+        <div>
+          ### Tiers / Ranks:
+
+          Junk (Grey) / Common(Light grey) / Basic (Blue) / intermediate(Light blue)/ Advanced(Cyan) / Rare (Green) / Epic (Red) / Legendary (Orange) / Unique (Purple) / God (Gold)
+
+          Basic, Intermediate, Advanced.
+
+          The classes and species could be catabolized into tiers [1, 2, 3] or ranks [bronze, silver, gold], [junk, common, normal, intermediate, advanced rare, elite, epic, legendary, unique]
+
+          E D C B A S
+
+          team bonus for fighter/rogue/mage
+
+          <li>Classes/Species</li>
+          Blue - 0 - 50 +2, 51 - 100 + 3
+          Green - 0 - 50 + 3, 51 - 100 +2
+          Red - 0-50 +3, 51 - 100 +3
+          Orange - 0-50 + 4, 51 - 100 +3
+        </div>
+        <div>
+
+          ### Parties & Raids
+          Half party / Light party = 4
+          Party / Full party = 8
+          Full Raid or Alliance = 3 parties or 24 players
+          After that you can do the Army size of 50, 100 +
+        </div>
+        <div>
+          ### Stats:
+          <li>Vitality</li> Increases the recovery rate of MP and HP. Total HP. Basic resistances.
+          <li>Endurance</li> Increases resistance to physical damage, reduces physical damage taken (%), increases stamina.
+          <li>Willpower</li> Increases resistance to magic, reduces magic damage taken (%), resistance to mental attacks. [spell duration (efficiency? Duration max?)]
+
+          <li>Magic</li> increases Magical Attack Power and maximum MP.
+          <li>Strength</li> Increased Physical Attack Power and the weight behind each attack. Minor: Increased storage capacity. Reduce damage taken during a successful block. Increased resistance to falling. Increased movement speed.
+
+          <li>Dexterity (Reflexes)</li>Increases Attack Speed, dodge change, movement on rough terrain. Reduces skills cool down.
+
+          <li>Sense</li> Range of attacks, accuracy. Trap Detect (All of the senses, hearing, taste, touch, smell.) Seeing though smoke screens and illusions. Seeing weakness and injuries in your opponent (CRIT), Range of summons / familia can move from you.
+
+          <li>Charisma</li> Increases NPC likability, command points
+        </div>
+        <div>
+          ### Levels:
+
+          Human body: Stats 0 - 10, 5 is normal and 10 is the best a human can get. (This is without mana.)
+
+          0 - Basic mana spells unlocked, mana flow, cap raised to 1.
+          10 - Picked first element, Mix first element with basic mana spells, Cap Raised to 2
+          20 - Extra Stat points, Cap Raised to 3
+          30 - Extra Stat points, Intermediate Spells, Cap Raised to 4
+          40 - Extra Stat points, Cap Raised to 5
+          50 - Unlock familia, Cap Raised to 6
+          60 - Extra Stat points, Cap Raised to 7
+          70 - Picked 2nd element, Cap Raised to 8
+          80 - Extra Stat points, Advanced spells, Cap Raised to 9
+          90 - Extra Stat points, Cap Raised to 10
+          100 - Class Advancement, Increase other properties of skills +3 times
+
+        </div>
+      </div>
       <h4>Types of stuff:</h4>
       <p>
         Mages rely on Elements for versatility. Rouges, beast souls. Fighters, Jobs.
@@ -307,11 +407,11 @@ const ElementalButton = styled.button`
   ${(props) => (props.selected ? "border: solid red" : "")};
 `;
 
-function BreakArray (array) {
+function BreakArray(array) {
   const NewArray = []
   for (let index = 0; index < array.length; index++) {
     const element = array[index];
-    if(index === array.length - 1) {
+    if (index === array.length - 1) {
       NewArray.push(element)
     } else {
       NewArray.push(element + ', ')
@@ -333,6 +433,8 @@ export default function Vampire() {
   // Misc: Vampires can gain experience by trying new blood. And unlock a higher level of blood skills.
   return (
     <div>
+      {Tree("Lightning germination")}
+      {Tree("Fireball")}
       <SpellFinder />
       <SchoolSchedule />
       <h4>Clubs</h4>
@@ -1293,9 +1395,9 @@ export function BeastPage({ name }) {
           />
         </Mid>
         <Bot
-        r={Math.min(window.outerWidth / 600, window.outerHeight / 917)}
-        width={window.outerWidth}
-        height={window.outerHeight}
+          r={Math.min(window.outerWidth / 600, window.outerHeight / 917)}
+          width={window.outerWidth}
+          height={window.outerHeight}
         >
           <BeastImage2
             onError={imageError}

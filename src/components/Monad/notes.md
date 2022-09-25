@@ -790,6 +790,19 @@ https://progamercity.net/aika-guides/1173-aika-char-pran-exp-table.html
 ---
 ### Skills/Spells
 Mastery over skills, so the skills level up? Costs points / experience.
+
+Tree:
+You gain a node every 5 levels. For a total of 20 nodes.
+Skills are unlocked and added to the node to be used. The skill in the node can be leveled up 10 times.
+Passive's + Skills related to the skill branch off from this skill, creating links between them.
+
+E.g.
+                   => Faster casting
+Fireball => Meteor => Increased AOE range
+         => Increased AOE range
+         => Increased fire damage
+
+So fire ball is connected to meteor, but both are connected to increased AOE range so they create a double connection.
 ## Story
 Otto - 
 Wants: Tsuma, Strong wizard

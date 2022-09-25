@@ -58,7 +58,8 @@ export default function SpellCards(listOfCards) {
   for (let index = 0; index < listOfCards.length; index++) {
     const cardInstructions = listOfCards[index];
     cardArray.push(
-      MakeCard(cardInstructions[0], cardInstructions[1], cardInstructions[2])
+      // MakeCard(cardInstructions[0], cardInstructions[1], cardInstructions[2])
+      MakeCard(cardInstructions.name, cardInstructions.level || 1, cardInstructions.element)
     );
   }
   return <CardHand>{cardArray}</CardHand>;
