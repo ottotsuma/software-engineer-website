@@ -1,5 +1,59 @@
 import Empty from "./../../assets/empty.gif";
 import { monadColors } from "./colors";
+import { spellList } from "./spells";
+import { racesList } from "./species"
+function lowerObjectValues(obj) {
+  // not converting keys...
+  for (var prop in obj) {
+      if (typeof obj[prop] === 'string') {
+          obj[prop] = obj[prop].toLowerCase();
+      }
+      if (typeof obj[prop] === 'object') {
+        lowerObjectValues(obj[prop]);
+      }
+  }
+  return obj;
+}
+
+export function searchSpells (name){
+  name = name.toLowerCase()
+  const spellListLower = keysToLowercase(spellList)
+  return spellListLower[name] ? spellListLower[name] : false
+}
+
+export function searchSpecies (name){
+  name = name.toLowerCase()
+  const speciesLower = keysToLowercase(racesList)
+  return speciesLower[name] ? speciesLower[name] : false
+}
+
+export function searchSpeciesSkills (name){
+  const listOfSpeciesSkills = []
+  name = name.toLowerCase()
+  const speciesLower = lowerObjectValues(spellList)
+  for (const key in speciesLower) {
+    console.log(`${key}: ${speciesLower[key]}`);
+  }
+  for (let index = 0; index < speciesLower.length; index++) {
+    if(speciesLower[index].species){
+      if(speciesLower[index].species.includes(name)){
+        listOfSpeciesSkills.push(speciesLower[index])
+      }
+    }
+  }
+  return listOfSpeciesSkills
+}
+
+export function keysToLowercase (obj) {
+  var key, keys = Object.keys(obj);
+  var n = keys.length;
+  var newObject={}
+  while (n--) {
+    key = keys[n];
+    newObject[key.toLowerCase()] = obj[key];
+  }
+  return newObject
+}
 
 export function _try(func, fallbackValue) {
   try {

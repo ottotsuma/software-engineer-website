@@ -1,31 +1,19 @@
 import React, { useState, useEffect } from "react";
 // import styled from "styled-components";
-import Spells, { spellList, ListOfMagicTypes } from "./../elements/spells";
+import Spells, { spellList, ListOfMagicTypes } from "./spells";
 // import { colors, monadColors, textColors } from "./../elements/colors";
 // import { _try, imageError } from "./../elements/util";
 import SpellCards from "./../Monad/SpellCards";
-
-function lower(obj) {
-    // not converting keys...
-    for (var prop in obj) {
-        if (typeof obj[prop] === 'string') {
-            obj[prop] = obj[prop].toLowerCase();
-        }
-        if (typeof obj[prop] === 'object') {
-            lower(obj[prop]);
-        }
-    }
-    return obj;
-}
+import { searchSpells, searchSpeciesSkills, searchSpecies} from "./util"
 
 // npx browserslist@latest --update-db
 export default function Tree(initialSkill = "blank", level = 1) {
-    if (initialSkill.length > 0 && typeof (initialSkill) === 'string' && spellList[initialSkill]) {
-        console.log('Tree for : ', initialSkill)
-        const subjectSkill = spellList[initialSkill]
+    console.log('Tree for : ', initialSkill)
+    if (initialSkill.length > 0 && typeof (initialSkill) === 'string' && searchSpells(initialSkill)) {
+        const subjectSkill = searchSpells(initialSkill)
         const connectedList = []
         function LinkedSkills(initialLinkedSkill) {
-            const subjectLinkedSkill = spellList[initialLinkedSkill]
+            const subjectLinkedSkill = searchSpells(initialLinkedSkill)
             if (subjectLinkedSkill && subjectLinkedSkill.name) {
                 return <div key={`Linked ${subjectLinkedSkill.name}`}>
                     <Spells
@@ -36,7 +24,7 @@ export default function Tree(initialSkill = "blank", level = 1) {
         }
         if (subjectSkill && subjectSkill.connections && subjectSkill.connections.length > 0) {
             for (let index = 0; index < subjectSkill.connections.length; index++) {
-                connectedList.push(LinkedSkills(subjectSkill.connections[index]))
+                connectedList.push(LinkedSkills(subjectSkill.connections[index].toLowerCase()))
             }
         }
         return (<div>
@@ -45,6 +33,9 @@ export default function Tree(initialSkill = "blank", level = 1) {
                 Linked Skills: {connectedList}
             </div> : <div />}
         </div>)
+    } else if (initialSkill.length > 0 && typeof (initialSkill) === 'string' && searchSpecies(initialSkill)) {
+        console.log(searchSpecies(initialSkill))
+        console.log(searchSpeciesSkills(initialSkill))
     } else {
         return <div />
     }
