@@ -32,7 +32,9 @@ export function searchSpeciesSkills (name){
   name = name.toLowerCase()
   const speciesLower = lowerObjectValues(spellList)
   for (const key in speciesLower) {
-    console.log(`${key}: ${speciesLower[key]}`);
+    if(speciesLower[key].species?.includes(name)) {
+      listOfSpeciesSkills.push(speciesLower[key])
+    }
   }
   for (let index = 0; index < speciesLower.length; index++) {
     if(speciesLower[index].species){

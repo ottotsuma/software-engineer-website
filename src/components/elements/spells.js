@@ -5193,6 +5193,17 @@ export const spellList = {
     I: "Tempest Shield is a spell that reserves mana to empower your shield, granting spell block chance and immunity to shock. While active, whenever you block, you deal damage to the enemy that hit you with an arc of lightning that chains to nearby enemies.",
     1: "Tempest Shield is a spell that reserves mana to empower your shield, granting spell block chance and immunity to shock. While active, whenever you block, you deal damage to the enemy that hit you with an arc of lightning that chains to nearby enemies.",
   },
+  "Elf testing skill": {
+    name: "Elf testing skill",
+    element: [""],
+    classes: [""],
+    species: ["Elf"],
+    image: "",
+    negative: false,
+    passive: false,
+    I: "Elf testing skill",
+    1: "Elf testing skill",
+  },
   // Phoenix Flame
   // https://en.uesp.net/wiki/Oblivion:Spells
 };

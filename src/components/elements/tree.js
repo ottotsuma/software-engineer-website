@@ -28,14 +28,19 @@ export default function Tree(initialSkill = "blank", level = 1) {
             }
         }
         return (<div>
-            {subjectSkill.name ? <div>{SpellCards([subjectSkill])} </div> : <div />}
+            {subjectSkill.name ? <div>{SpellCards([subjectSkill])}</div> : <div />}
             {connectedList && connectedList.length > 0 ? <div>
                 Linked Skills: {connectedList}
             </div> : <div />}
         </div>)
     } else if (initialSkill.length > 0 && typeof (initialSkill) === 'string' && searchSpecies(initialSkill)) {
-        console.log(searchSpecies(initialSkill))
-        console.log(searchSpeciesSkills(initialSkill))
+        const speciesSkills = searchSpeciesSkills(initialSkill)
+        const speciesData = searchSpecies(initialSkill)
+        const connectedList = []
+        for (let index = 0; index < speciesSkills.length; index++) {
+            connectedList.push(<Spells spells={[{name: speciesSkills[index].name, level: 1}]} />)       
+        }
+        return(<div>{SpellCards([speciesData])}{connectedList}</div>) // should not be a spell card.
     } else {
         return <div />
     }

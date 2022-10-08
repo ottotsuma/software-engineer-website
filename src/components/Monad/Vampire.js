@@ -434,7 +434,7 @@ export default function Vampire() {
   return (
     <div>
       {Tree("Elf")}
-      {/* {Tree("Fireball")} */}
+      {Tree("Fireball")}
       <SpellFinder />
       <SchoolSchedule />
       <h4>Clubs</h4>

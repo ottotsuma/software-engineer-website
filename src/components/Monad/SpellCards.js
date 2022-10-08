@@ -57,26 +57,35 @@ export default function SpellCards(listOfCards) {
   const cardArray = [];
   for (let index = 0; index < listOfCards.length; index++) {
     const cardInstructions = listOfCards[index];
+    console.log(listOfCards[index])
     cardArray.push(
       // MakeCard(cardInstructions[0], cardInstructions[1], cardInstructions[2])
-      MakeCard(cardInstructions.name, cardInstructions.level || 1, cardInstructions.element)
+      MakeCard(cardInstructions)
     );
   }
   return <CardHand>{cardArray}</CardHand>;
 }
 
-function MakeCard(name, level, element) {
+function MakeCard(cardInstructions) {
+  let name = cardInstructions.name
+  let level = cardInstructions.level || 1
+  if(!spellList[name]) console.log('not a spell?')
+
+  let element =  cardInstructions.element
   element = spellList[name] ? spellList[name].element || element : element;
   const elementalColor = elementList[element]
     ? elementList[element].color
     : "black";
   const spellName = spellList[name] ? spellList[name].name : name || "No Name";
   let spellDisc =
-    spellList[name] && level ? spellList[name][level] : "No Description";
+    spellList[name] && level ? spellList[name][level] : cardInstructions[level];
+  if(!spellDisc || spellDisc.length < 1) spellDisc = cardInstructions.disc;
   if(!spellDisc || spellDisc.length < 1) spellDisc = "No Description";
   let elementImage = spellList[name]
     ? spellList[name].image || undefined
     : undefined;
+  if (!elementImage && cardInstructions.image) elementImage = cardInstructions.image
+  if (!elementImage && cardInstructions.images && cardInstructions.images.length > 0) elementImage = cardInstructions.images[0]
   if (!elementImage)
     elementImage = elementList[element] ? elementList[element].image : "";
   const isPassive = spellList[name] ? spellList[name].passive || false : false;
