@@ -56,7 +56,7 @@ const elementList = {
   // https://i.pinimg.com/originals/0f/86/2d/0f862dd65afdf557ba7a9451892c41c4.gif - portal
 };
 
-// For modifying the length of stat bars.
+// For modifying the length of stat bars. (1 = 1/100, 0.05 = 1/5, 0.1 = 1/10)
 let modifier = 0.05
 
 
@@ -220,6 +220,7 @@ const SingleStat = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
+  border-top: 2px white solid;
 `;
 
 const DiscSpan = styled.span`
