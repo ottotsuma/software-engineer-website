@@ -586,10 +586,10 @@ export function Sarah(Chapter) {
         titles={["Princess"]}
         showSkills={true}
         skills={{
-          Vampire: [
+          Vampiric: [
             { name: "Vampire Eyes", level: 1 },
             { name: "Vampiric Powers", level: 1 },
-            { name: "Vampire", level: 1 },
+            { name: "Vampiric", level: 1 },
             // Above is all (I)
             // Basic Vampire Martial Arts, Vampiric Influence, Blood Wall, Blood Bank, Blood Storage, Blood Hardening, Sleep Immunity, Blood Armor,
           ],

@@ -176,6 +176,7 @@ export const racesList = {
     disc: "Water elves, a lost race of elves that set off into the sea during the great split of elves, they had seen the ocean had a great variety of nature and hoped to find the source. Their reverence for water has gained them the favor of the water element.",
   },
   Vampire: {
+    element: "blood", // for card color
     // All actions that would reveal the vampire would either heal (HP) or gain them EXP or blood points to be used to improve their strength.
     // That way younger vampires are more likely to do these things then the older ones who don't need strength as badly.
     // Combined with the starving yourself (lower hp) increases you strength.
@@ -195,7 +196,7 @@ export const racesList = {
     InnateSkills: ['Sunlight Sensitivity'],
     self: "Blood magic is always unlocked. 🧛‍♂️",
     notes:
-      '{ name: "Vampire Eyes", level: 1 }, { name: "Vampiric Powers", level: 1 },{ name: "Vampire", level: 1 },',
+      '{ name: "Vampire Eyes", level: 1 }, { name: "Vampiric Powers", level: 1 },{ name: "Vampiric", level: 1 },',
     tier: "rare",
     images: [
       "https://ottotsuma.github.io/images/people/7ba7da6ab05c5f29e2fd5bfc0516948c.jpg",

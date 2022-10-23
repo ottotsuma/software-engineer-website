@@ -290,7 +290,7 @@ function Stats({
     );
     if (InnateSkillsRace.length > 0) {
       for (let index = 0; index < InnateSkillsRace.length; index++) {
-        if(skills) {
+        if(skills && skills[baseStats.species]) {
           skills[baseStats.species].unshift({
             name: InnateSkillsRace[index],
             level: _try(() => stats.level / 10 - MiasmaLevel / 10, 1),

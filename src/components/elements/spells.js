@@ -4577,8 +4577,9 @@ export const spellList = {
     passive: true,
     1: "No points can be spent on this passive. As it levels up the user becomes closer to becoming a vampire knight.",
   },
-  Vampire: {
-    name: "Vampire",
+  Vampiric: {
+    name: "Vampiric",
+    notes: "not to be mistaken with the species vampire.",
     element: ["none"],
     classes: [""],
     species: ["Vampire"],

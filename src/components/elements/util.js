@@ -2,7 +2,7 @@ import Empty from "./../../assets/empty.gif";
 import { monadColors } from "./colors";
 import { spellList } from "./spells";
 import { racesList } from "./species"
-function lowerObjectValues(obj) {
+export function lowerObjectValues(obj) {
   // not converting keys...
   for (var prop in obj) {
       if (typeof obj[prop] === 'string') {
@@ -13,6 +13,15 @@ function lowerObjectValues(obj) {
       }
   }
   return obj;
+}
+
+export function getParameterCaseInsensitive(object = {}, key = '') {
+  if(object && key && typeof(object) === 'object' && key.length > 0) {
+    const asLowercase = key.toLowerCase();
+    return object[Object.keys(object).filter(function(k) {
+      return k.toLowerCase() === asLowercase;
+    })[0]]; 
+  }
 }
 
 export function searchSpells (name){

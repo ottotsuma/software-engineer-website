@@ -3,6 +3,8 @@ import { spellList } from "./../elements/spells";
 import styled from "styled-components";
 import { imageError } from "./../color";
 import { colors } from './../elements/colors'
+import { getParameterCaseInsensitive, perc2color } from "./../elements/util"
+import { racesList } from "../elements/species";
 // https://tropedia.fandom.com/wiki/Color-Coded_Elements
 const elementList = {
   lightning: {
@@ -53,11 +55,15 @@ const elementList = {
   // https://i.pinimg.com/originals/a9/73/81/a973812d8aa84593342bd26a1f696ee6.gif - green ball
   // https://i.pinimg.com/originals/0f/86/2d/0f862dd65afdf557ba7a9451892c41c4.gif - portal
 };
+
+// For modifying the length of stat bars.
+let modifier = 0.05
+
+
 export default function SpellCards(listOfCards) {
   const cardArray = [];
   for (let index = 0; index < listOfCards.length; index++) {
     const cardInstructions = listOfCards[index];
-    console.log(listOfCards[index])
     cardArray.push(
       // MakeCard(cardInstructions[0], cardInstructions[1], cardInstructions[2])
       MakeCard(cardInstructions)
@@ -69,56 +75,152 @@ export default function SpellCards(listOfCards) {
 function MakeCard(cardInstructions) {
   let name = cardInstructions.name
   let level = cardInstructions.level || 1
-  if(!spellList[name]) console.log('not a spell?')
+  if (!getParameterCaseInsensitive(spellList, name)) {
+    // not a spell
+    if (!!getParameterCaseInsensitive(racesList, name)) {
+      // Is a species
+      let element = cardInstructions.element
+      element = spellList[name] ? spellList[name].element || element : element;
+      const elementalColor = elementList[element]
+        ? elementList[element].color
+        : "black";
+      if(!cardInstructions.stats) cardInstructions.stats = {}
+      const statKeys = Object.keys(cardInstructions.stats)
+      const statValues = Object.values(cardInstructions.stats)
+      const statCard = []
+      for (let index = 0; index < statKeys.length; index++) {
+        // statCard.push(<div><div>{statKeys[index]}: </div><div>{statValues[index]}</div></div>)
 
-  let element =  cardInstructions.element
-  element = spellList[name] ? spellList[name].element || element : element;
-  const elementalColor = elementList[element]
-    ? elementList[element].color
-    : "black";
-  const spellName = spellList[name] ? spellList[name].name : name || "No Name";
-  let spellDisc =
-    spellList[name] && level ? spellList[name][level] : cardInstructions[level];
-  if(!spellDisc || spellDisc.length < 1) spellDisc = cardInstructions.disc;
-  if(!spellDisc || spellDisc.length < 1) spellDisc = "No Description";
-  let elementImage = spellList[name]
-    ? spellList[name].image || undefined
-    : undefined;
-  if (!elementImage && cardInstructions.image) elementImage = cardInstructions.image
-  if (!elementImage && cardInstructions.images && cardInstructions.images.length > 0) elementImage = cardInstructions.images[0]
-  if (!elementImage)
-    elementImage = elementList[element] ? elementList[element].image : "";
-  const isPassive = spellList[name] ? spellList[name].passive || false : false;
-  if (isPassive)
-    elementImage =
-      "https://static.wikia.nocookie.net/imaginaughts/images/4/4b/Stock-footage-a-looping-background-with-energy-ball.jpg";
-  const isNegative = spellList[name]
-    ? spellList[name].negative || false
-    : false;
-  if (isNegative)
-    elementImage =
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShrZBpFyDDZ5v1smJc5VLRPIvo8YwM6wJBKg&usqp=CAU";
-  return (
-    <CardContainer key={name + "key" + Math.random()}>
-      <Card
-        isPassive={isPassive}
-        isNegative={isNegative}
-        element={elementalColor}
-      >
-        <TitleWrap>
-          <CardTitle>{spellName}</CardTitle>
-          <TitleSpan>{spellName}</TitleSpan>
-        </TitleWrap>
-        <CardElement onError={imageError} src={elementImage}></CardElement>
-        <DiscWrap>
-          <CardDisc>{spellDisc}</CardDisc>
-          <DiscSpan>{spellDisc}</DiscSpan>
-        </DiscWrap>
-        <CardSub>Level: {level ? level : "???"}</CardSub>
-      </Card>
-    </CardContainer>
-  );
+        //   statKeys[index].base_stat
+          const InnerArray = [];
+          InnerArray.push(
+            // Key
+            <div style={{ flex: 1, display: "flex" }} key={statKeys[index] + 'InInfo'}>
+              {statKeys[index]}
+            </div>
+          );
+          InnerArray.push(
+            // Bar
+            <Bar key={index + 'BarInInfo'}>
+              <InnerBar key={index + "InnerBarInInfo"}
+                style={{
+                  width: `${(parseInt(statValues[index])) / modifier}%`,
+                  "background-color": `${perc2color(
+                    parseInt((statValues[index]) / modifier)
+                  )}`,
+                }}
+              />
+            </Bar>
+          );
+          InnerArray.push(
+            // Value
+            <div key={statValues[index] + "InInfo"}
+              style={{ flex: 0.5, display: "flex", "justify-content": "flex-end" }}
+            >
+              {statValues[index]}
+            </div>
+          );
+          statCard.push(<SingleStat key={index + 'SingleStatInInfo'}>{InnerArray}</SingleStat>);
+        }
+      
+      return (
+        <CardContainer key={name + "key" + Math.random()}>
+          <Card
+            // isPassive={isPassive}
+            // isNegative={isNegative}
+            element={elementalColor}
+          >
+            <TitleWrap>
+              <CardTitle>{name}</CardTitle>
+              <TitleSpan>{cardInstructions.disc}</TitleSpan>
+            </TitleWrap>
+            <CardElement onError={imageError} src={cardInstructions.images[0]}></CardElement>
+            <DiscWrap>
+              <CardDisc>{cardInstructions.self}</CardDisc>
+              <DiscSpan>{cardInstructions.self}{statCard}</DiscSpan>
+            </DiscWrap>
+            {/* <CardSub>{cardInstructions.self}</CardSub> */}
+          </Card>
+        </CardContainer>
+      )
+    } else {
+      // is bullshit
+    }
+  } else {
+    // is a spell
+    let element = cardInstructions.element
+    element = spellList[name] ? spellList[name].element || element : element;
+    const elementalColor = elementList[element]
+      ? elementList[element].color
+      : "black";
+    const spellName = spellList[name] ? spellList[name].name : name || "No Name";
+    let spellDisc =
+      spellList[name] && level ? spellList[name][level] : cardInstructions[level];
+    if (!spellDisc || spellDisc.length < 1) spellDisc = cardInstructions.disc;
+    if (!spellDisc || spellDisc.length < 1) spellDisc = "No Description";
+    let elementImage = spellList[name]
+      ? spellList[name].image || undefined
+      : undefined;
+    if (!elementImage && cardInstructions.image) elementImage = cardInstructions.image
+    if (!elementImage && cardInstructions.images && cardInstructions.images.length > 0) elementImage = cardInstructions.images[0]
+    if (!elementImage)
+      elementImage = elementList[element] ? elementList[element].image : "";
+    const isPassive = spellList[name] ? spellList[name].passive || false : false;
+    if (isPassive)
+      elementImage =
+        "https://static.wikia.nocookie.net/imaginaughts/images/4/4b/Stock-footage-a-looping-background-with-energy-ball.jpg";
+    const isNegative = spellList[name]
+      ? spellList[name].negative || false
+      : false;
+    if (isNegative)
+      elementImage =
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShrZBpFyDDZ5v1smJc5VLRPIvo8YwM6wJBKg&usqp=CAU";
+    return (
+      <CardContainer key={name + "key" + Math.random()}>
+        <Card
+          isPassive={isPassive}
+          isNegative={isNegative}
+          element={elementalColor}
+        >
+          <TitleWrap>
+            <CardTitle>{spellName}</CardTitle>
+            <TitleSpan>{spellName}</TitleSpan>
+          </TitleWrap>
+          <CardElement onError={imageError} src={elementImage}></CardElement>
+          <DiscWrap>
+            <CardDisc>{spellDisc}</CardDisc>
+            <DiscSpan>{spellDisc}</DiscSpan>
+          </DiscWrap>
+          <CardSub>Level: {level ? level : "???"}</CardSub>
+        </Card>
+      </CardContainer>
+    );
+  }
 }
+
+const InnerBar = styled.div`
+  backgroundColor: orange;
+  height: 20px;
+  border-radius: 10px;
+  max-width: 100%;
+`;
+
+const Bar = styled.div`
+  backgroundColor: lightgrey;
+  border-radius: 13px;
+  width: 100%;
+  padding: 3px;
+  flex: 5;
+`;
+
+
+const SingleStat = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+`;
 
 const DiscSpan = styled.span`
   visibility: hidden;
