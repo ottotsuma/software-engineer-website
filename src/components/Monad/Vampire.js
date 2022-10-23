@@ -433,8 +433,8 @@ export default function Vampire() {
   // Misc: Vampires can gain experience by trying new blood. And unlock a higher level of blood skills.
   return (
     <div>
-      {Tree("Vampire")}
       {Tree("Fireball")}
+      {Tree("Vampire")}
       <SpellFinder />
       <SchoolSchedule />
       <h4>Clubs</h4>
