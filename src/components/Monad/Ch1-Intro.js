@@ -12,6 +12,7 @@ import { Beke, Otto, Effi } from "./CharacterFonts";
 
 const SectionTabs = [
   { name: "Monad", href: "#Monad" },
+  { name: "Herkikia", href: "#Herkikia" },
   { name: "Steinauhau", href: "#Steinauhau" },
   { name: "Michkel", href: "#Michkel" },
   { name: "PlayDay", href: "#PlayDay" },
@@ -80,6 +81,9 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
               />
             </div>
             {/* Some kind of fight? */}
+            </BreakPoint>
+            <BreakPoint id="Herkikia">
+            <h3>Herkikia - Jun 01 21-12</h3>
             <p>
               The Herkikia League had always been the best place on the
               continent to be a mercenary. The past few years had made that statement even more true, this year more then ever.
@@ -177,7 +181,7 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             </p>
           </BreakPoint>
           <BreakPoint id="Steinauhau">
-            <h3>Steinauhau</h3>
+            <h3>Steinauhau - Jun 12 21-12</h3>
             {/* The Grand Duchy of Alden is home to 3.2 million people */}
             <p>
               Jun 12 21-12, In the north east of the continent of Chab, in the
@@ -243,7 +247,8 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             </p>
           </BreakPoint>
           <BreakPoint id="Michkel">
-            <h3>Michkel</h3>
+            <h3>Michkel - Jun 12 21-22</h3>
+            {/* Re-do dates, Month Day Year-Era, Jun 12th, 21st year of the 22nd era.*/}
             {/* <!-- starting with the kids meeting as friends, introduce the town, some news the people, small parts of the world, culture--> */}
             <p>
               It had been 10 years to the day since Edmure had come back with a blood soaked diary. David was my wife's dad. Edmure, his best friend, had
@@ -326,7 +331,11 @@ most people learn inspect but either see
           <BreakPoint id="PlayDay">
             <h3>Play Day</h3>
             {/* <!-- Children in the forest --> */}
-            {/* From who's point of view? */}
+            {/* From who's point of view?, Effi, telling her mom what happened. */}
+            {/* Or Otto telling his Dad which rolls into the aftermath. */}
+            <p>
+              
+            </p>
             <p>
               The group of seven, laughing running into the forest, beyond the eyes
               of their parents, they arrive at a circular clear area within the
