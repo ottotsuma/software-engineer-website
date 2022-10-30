@@ -2,6 +2,7 @@ import Empty from "./../../assets/empty.gif";
 import { monadColors } from "./colors";
 import { spellList } from "./spells";
 import { racesList } from "./species"
+import { classList } from "./classes"
 export function lowerObjectValues(obj) {
   // not converting keys...
   for (var prop in obj) {
@@ -34,6 +35,31 @@ export function searchSpecies (name){
   name = name.toLowerCase()
   const speciesLower = keysToLowercase(racesList)
   return speciesLower[name] ? speciesLower[name] : false
+}
+
+export function searchClass (name){
+  name = name.toLowerCase()
+  const speciesLower = keysToLowercase(classList)
+  return speciesLower[name] ? speciesLower[name] : false
+}
+
+export function searchClassSkills (name){
+  const listOfSpeciesSkills = []
+  name = name.toLowerCase()
+  const speciesLower = lowerObjectValues(spellList)
+  for (const key in speciesLower) {
+    if(speciesLower[key].classes?.includes(name)) {
+      listOfSpeciesSkills.push(speciesLower[key])
+    }
+  }
+  for (let index = 0; index < speciesLower.length; index++) {
+    if(speciesLower[index].classes){
+      if(speciesLower[index].classes.includes(name)){
+        listOfSpeciesSkills.push(speciesLower[index])
+      }
+    }
+  }
+  return listOfSpeciesSkills
 }
 
 export function searchSpeciesSkills (name){

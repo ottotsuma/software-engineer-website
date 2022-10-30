@@ -82,23 +82,24 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             {/* Some kind of fight? */}
             <p>
               The Herkikia League had always been the best place on the
-              continent to be a mercenary. The sea people had made that more
-              true the past few years, this one in particular. I must not let my
-              guard down though,a cornered beast will fight harder. To the west,
+              continent to be a mercenary. The past few years had made that statement even more true, this year more then ever.
+            </p>
+            <p>
+              However all good things must come to and end. The people who had invaded from across the endless eastern sea, had proven it was not endless and the daft pricks didn't bring enough food with them to be starting a war.
+            </p>
+            <p>
+              I must not let my guard down though, a cornered beast will fight harder. To the west,
               the monster jungles of Chingaling, their east the army's of the
-              Herkikia league of city states. If there backs were against the
-              sea in the north then their eyes were on us,the mercenaries
-              brought by the League to finish the encirclement.
+              Herkikia league of city states. To the north the sea they came from, which finally left the south the mercenaries hired by the League to finish the encirclement. Us.
             </p>
             <p>
               If these sea people had any sense they would focus their attacks
-              on this side. Then again it might be better if they just left into
-              the sea from where they came.
+              on this side. The pay is good but it's no good to a dead man. Then again it might be better if they just left into the sea from once they came.
             </p>
             <p>
               "Are you trying to explain the plan to Rock Head again? You know
               why we call him that right?" A tall, wide, muscular man
-              interrupted, on his head was a wampus cat's head. I'd seen him
+              interrupted me. On his head, was a wampus cat's head. I'd seen him
               kill it, it's yellow eyes were suppose to be able to hypnotize a
               person who looked into them, this man could only have one thought
               in his head at a time, 'wack it till it's dead'. If he's telling
@@ -112,12 +113,12 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
               poisonous creature.
             </p>
             <p>
-              When I looked back over to the sea peoples final outpost,it would
+              When I looked back over to the sea peoples final outpost, it would
               seem they did have a sense of survival after all. Their oversized
               wooden boats were gliding off into the sea.
             </p>
             <p>
-              That was just the signal the Herkikia general needed,the wind mage
+              That was just the signal the Herkikia general needed, the wind mage
               next to him carried the generals voice across our whole line and
               beyond. His voice was loud and strong.
             </p>
@@ -125,7 +126,7 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
               "Victory is near at hand! If all do their duty, it will be OUR
               victory!"
             </p>
-            <p>"YEAAAHHH!"</p>
+            <p>"YEAAAHHH!" A cry from his men came as an answer to his words.</p>
             <p>
               "Many times I have faced this enemy and many times I have beaten
               them."
@@ -147,20 +148,18 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
               "The enemy may have the Fish on their side, but we have excellent
               shoes! And those shoes will stamp out their fish!"
             </p>
-            <p>I guess that is why he has the title 'The mad'.</p>
+            <p>That had quietened the cheers a little. I guess that is why he has the title 'The mad'.</p>
             <p>"Charge!"</p>
             <p>
               The Herkikians moved in first, in lines with long spears pointed
               out over their shields. They formed walls of spears and white
-              armor. To the flanks where the skirmishers, those who threw
-              projectiles or magic into the enemies to tie them down. We where
-              behind them. Once the skirmishers pulled back we moved in to tie
-              up the disorganized enemies.
+              armor. Our skirmishers were the first to engage them, those who threw
+              projectiles or magic into the enemies to tie them down. Once the skirmishers pulled back we would move in to tie up the disorganized enemies. In theory.
             </p>
             <p>
               As soon as the skirmishers started to pull back we ran in. I cast
               'Ice spear' into their ranks. I wrapped my sword with ice magic as
-              we got close. The berserker from before shouted louder then a war
+              we got closer. The berserker from before shouted louder then a war
               drum next to me and jumped into their ranks swinging his club
               around at whoever was near by. With their ranks fully broken up I
               was able to fight small duels which was more my style.
@@ -169,7 +168,7 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
               I used my sword to move my opponents to one side and launched a
               ball of hardened ice into his chest. He pushed through the pain so
               I let my ice magic spray out from me causing him to slow and be
-              cut by small flakes of ice. I moved in and stabbed him just below
+              cut by small shards of ice. I moved in and stabbed him just below
               the waist. He moved back holding his stomach and cursed in a
               language I don't know. "썅놈" I moved back as he was dying and
               gathered magic into my hand. He reached down and pulled up a wand?
@@ -199,7 +198,7 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
               looking down into my cup I lamented, the reflection looking back
               at me was far older then it use to be. Stiff and past the age
               where I should be drinking luminescent green drinks. I had always
-              liked melon juice ever since I first tired it over 70 years ago
+              liked moon-melon juice ever since I first tired it over 70 years ago
               now. Soon the reflection in my cup smiled back.
             </p>
             <p>
@@ -208,126 +207,106 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             </p>
             <p>
               "I was just thinking about how new life replaces the old" I
-              continues to smile.
+              continued to smile.
             </p>
             <p>
               With a frown at first and then smile Edmure retorted "You thinking
-              your grandson is here to replace you?, there is still life left in
-              the both of us yet".
+              how you just became a grandad? There is still life left in
+              the both of us yet."
             </p>
             <p>
-              The small gathering carries on into the night. June 12th a night
-              the people of Alden celebrate the new life brought into this world
-              over the past year, a small tradition as not all make it past
-              infancy.
+              Jun 12th a night the people of Alden celebrate the new life brought into this world
+              over the past year, like a shared birthday after the harvest months.
+              {/* a small tradition as not all make it past infancy. */}
             </p>
             <p>
-              Edmure whispered into my ear, there have been sightings of the sea
-              people off the coast. They had been pushed back into the sea at
-              the last battle of Herkikia so they must either be heading home or
-              looking for a new place to land. I nodded and left the town hall
-              and went to the walls.
+              Edmure had whispered into my ear before taking his leave. There have been sightings of the sea people off the coast. They had been pushed back into the sea at
+              the last battle of Herkikia, only a couple of weeks back, they might be trying to land further north. I left the town hall and went to the walls to meet up with Edmure.
             </p>
             <p>
-              I left the town, and went through the forests. I went to the area
-              where the sea people where last seen and going through the forest
-              I saw their boats off in the distance. I had to check if any of
-              them had come ashore before reporting back. I passed through the
-              forest easily with my legs and body strengthened by mana. The
-              trees that would scratch at my skin bent and broke as I passed by
-              quickly leaving behind no marks on my skin.
+              We left the town, and went through the forests. We went to the area
+              where the sea people where last seen and going through the forest.
+              I saw large boats off in the distance, so I had to check who, if any of
+              them had come ashore before reporting back.
+            </p>
+            <p>
+              I passed through the forest easily with my legs and body strengthened by my mana. The
+              trees that would scratch at my skin, bent and broke as I passed by
+              quickly, leaving behind no marks on my skin.
             </p>
             <p>
               I found them. Moving through the forest slowly. They did not see
               me, I know this place like the back of my hand. I pulled out my
-              dairy and started to take notes on their location, how many, kind
-              of weapons etc. I wrote down everything I could remember, right up
-              until I heard a click then my vision went black.
+              dairy and started to take notes, their location, how many, kind
+              of weapons, etc. I wrote down everything I could remember, right up
+              until I heard a click, and saw a large flash of light.
             </p>
           </BreakPoint>
           <BreakPoint id="Michkel">
             <h3>Michkel</h3>
             {/* <!-- starting with the kids meeting as friends, introduce the town, some news the people, small parts of the world, culture--> */}
             <p>
-              It had been 10 years since I had found the blood soaked diary on
-              David's body. He was my wife's dad. Edmure, his best friend, had
+              It had been 10 years to the day since Edmure had come back with a blood soaked diary. David was my wife's dad. Edmure, his best friend, had
               later moved to Swexausern, about 25km north-west. I was told he
-              died peacefully two years ago. Today was June 12th and the town
-              was getting ready for the same festival again. I guess that's why
-              I was thinking of him again today.
+              died peacefully two years ago. The town
+              was getting ready for the same festival again. I guess that's what lead me to read his diary again today.
             </p>
             <p>
-              "Hey Karla." I waved across the town square towards her holding
+              "Hey Karla." I waved towards her, coming towards our house holding
               hands with 3 children. Two older girls and a boy, all the children
-              had red hair like their mother. As the two groups got closer I
+              had red hair like their mother. As they got closer I
               nudged Sarah and pointed to our son's smiling face. He only smiled
               like this when Effi, Karla's daughter was around.
             </p>
-            <p>"Good to see you are all well" Sarah said. </p>
-            <p>"You too, Where is Robert?" I asked. </p>
+            <p>"Good to see you are all well" Sarah said.</p>
+            <p>"You too, Where is Robert?" I asked.</p>
             <p>
-              "He's going to meet us later on, went to the hall to get the news
+              "He's going to meet us later on, he went to the hall to get the news
               and left me alone with these loverly lot." Karla replied.
             </p>
             <p>
-              Our group now larger, made our way towards the wood near by. We
-              met with other adults of the town and their children. The children
-              ran off into the forest to play as the adults made way for a fire,
-              today is a festive day June 12th.
+              Our families now combined into one big group, made our way towards the wood near by. We met with other families of the town. The children quickly
+              ran off into the forest to play leaving us to build a fire and set up the tables for
+              tonight's festivities, Jun 12th.
             </p>
             <p>
-              While setting up in the morning Robert joined us and shared the
-              news of the of the on going northern border problems. People
-              living there have been unhappy with the Republic's increased taxes
-              and taking their children and young adults to fight a war so far
-              away from home. The villages still had to fend off the local
-              beasts of their own, just with less man power now. The republic
-              had a massive Avalanche in Neuenese and a Fault in Moborodian, the
-              earth there had opened up and monsters and beasts from the depths
-              had spread out. The rebels fed up with their treatment had forces
-              between 100,000~300,000. Since most where not soldiers beforehand
-              the success of the rebels was blamed on Aldens supplying the
+              While sharpening one of the axes Robert had come to share the news a group of traveling merchants had brought with them. Mostly news of ongoing problems just north of our border. People living there have been unhappy with the Republic's increased taxes and conscripting their children and young adults to fight in a war so far from home. The villages still had to fend off the local beasts of their own, as well as other jobs which were not longer being fulfilled. The republic had a massive Avalanche in Neuenese and a Fault in Moborodian, the earth there had opened up and monsters and beasts from the depths had spread out.
+            </p>
+            <p>
+              Those unhappy with their treatment had finally boiled over and started protesting at first, one thing led to another and now we call them the rebels. Somewhere between 100,000~300,000 in number. Since most where not soldiers beforehand
+              the success of the rebels was blamed on Aldens, us, supplying the
               rebels.
             </p>
             <p>
               "We have been supplying them haven't we?" I asked. "If not, we
-              should. They are Alden also."
+              should. They are Aldenese also."
             </p>
             <p>
-              "We have." Robert replied. "Too obviously it seems if even the
-              town inspector knows we have." He joked.
+              "We have." Robert replied. "Too obviously, it seems. If even the
+              town inspector knows we have." He laughed like he had no cares.
             </p>
-            <p>"Aha, well is there any news not from the Republic?" I asked.</p>
+            <p>I shot a breath of air out of my nose as I laughed silently. "Well is there any news NOT from the Republic?" I asked.</p>
             <p>
-              "Elves have cat fever. Gianlongian in Herkikia has a drought,
-              their second biggest port city included. Desonean in the Kingdom
-              has flooded, the main river through the kingdom that is. To top it
-              all off a Malgian Crusade has been called in the Kingdom, I can
-              only hope those crazy zealots die in the desert." Robert said.
+              "Elves have had an outbreak of cat fever. Gianlongian in Herkikia is going though a drought, near their second biggest port city. Desonean, the main river through the kingdom has flooded. To top it all off, a Malgian Crusade has been called in the Kingdom, I can only hope those crazy zealots die in the desert." Robert said.
             </p>
             <p>
-              "What a year." I commented. "What's cat fever anyway?" I asked.
+              "What a year..." I commented. "What's cat fever anyway?" I asked.
             </p>
             <p>
-              Robert shrugged. "A fever cats get I guess, there was not much
-              news about it since it's from so far away. Anyway come inspect
-              some of the woodcutting axes, we need to know their durability so
-              no one gets hurt."
+              Robert shrugged. "A fever cats get, I guess, there was not much
+              news about it since it's from so far away. Anyway don't let me stop you from inspecting the woodcutting axes, we need to know their durability so no one gets hurt."
             </p>
             <p>
-              With that I went to do my job in the town, inspecting low level
-              items for their durability. Your skill in inspecting items might
-              show you a different result. Some people see short descriptions
-              about the items, others just a generic letter rank from F - A.
+              I gave Robert a nod as he turned to go look for his wife Sarah. I went back to doing my job. Inspecting low level items for their durability.
+              {/* Your skill in inspecting items might show you a different result. Some people see short descriptions about the items, others just a generic letter rank from F - A. */}
+            </p>
+            {/* koko */}
+            <p>
+              Every night I teach my son Otto more about the skill. Inspect is one of the few skills that do not require skill points to learn, which is nice.
+              {/* However the passive skill appraisal, which increases how much information the inspect skill uncovers, did require skill points. I was lucky enough to learn the skill though sheer luck.  */}
             </p>
             <p>
-              Every night I teach my son Otto more about the skill. Inspect is
-              one of the few skills in the world that do not require skill
-              points to learn, which is nice. However the passive skill
-              appraisal, which increases how much information the inspect skill
-              uncovers, did require skill points. I was lucky enough to learn
-              the skill though sheer luck. It's a safe well paying job, I always
-              hoped Otto could learn it too so he can have a safe life.
+              It's a safe well paying job, I always hoped Otto could learn it too so he can have a safe life.
             </p>
             {/* <!-- 284,139 rebels --> */}
             {/* <!-- IMPORTANT  */}
@@ -347,8 +326,9 @@ most people learn inspect but either see
           <BreakPoint id="PlayDay">
             <h3>Play Day</h3>
             {/* <!-- Children in the forest --> */}
+            {/* From who's point of view? */}
             <p>
-              The group of 7 laughing running into the forest, beyond the eyes
+              The group of seven, laughing running into the forest, beyond the eyes
               of their parents, they arrive at a circular clear area within the
               small wooded area they often play. Eugen 13 years of age, larger,
               and taller then the others of the group, but without a temper or

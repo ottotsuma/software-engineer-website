@@ -163,12 +163,12 @@ export const classList = {
   Knight: {
     name: "Knight",
     stats: {},
-    team: "",
+    team: "Test",
     self: "",
     images: [],
     notes: "",
     tier: "normal",
-    disc: "",
+    disc: "Test Disc",
   },
   Pyromancer: {
     stats: {},

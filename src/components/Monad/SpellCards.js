@@ -5,6 +5,7 @@ import { imageError } from "./../color";
 import { colors } from './../elements/colors'
 import { getParameterCaseInsensitive, perc2color } from "./../elements/util"
 import { racesList } from "../elements/species";
+import { classList } from "../elements/classes"
 // https://tropedia.fandom.com/wiki/Color-Coded_Elements
 const elementList = {
   lightning: {
@@ -138,6 +139,72 @@ function MakeCard(cardInstructions) {
             <DiscWrap>
               <CardDisc>{cardInstructions.self}</CardDisc>
               <DiscSpan>{cardInstructions.self}{statCard}</DiscSpan>
+            </DiscWrap>
+            {/* <CardSub>{cardInstructions.self}</CardSub> */}
+          </Card>
+        </CardContainer>
+      )
+    } else if (!!getParameterCaseInsensitive(classList, name)) {
+      // Class
+      let element = cardInstructions.element
+      element = spellList[name] ? spellList[name].element || element : element;
+      const elementalColor = elementList[element]
+        ? elementList[element].color
+        : "black";
+      if(!cardInstructions.stats) cardInstructions.stats = {}
+      const statKeys = Object.keys(cardInstructions.stats)
+      const statValues = Object.values(cardInstructions.stats)
+      const statCard = []
+      for (let index = 0; index < statKeys.length; index++) {
+        // statCard.push(<div><div>{statKeys[index]}: </div><div>{statValues[index]}</div></div>)
+
+        //   statKeys[index].base_stat
+          const InnerArray = [];
+          InnerArray.push(
+            // Key
+            <div style={{ flex: 1, display: "flex" }} key={statKeys[index] + 'InInfo'}>
+              {statKeys[index]}
+            </div>
+          );
+          InnerArray.push(
+            // Bar
+            <Bar key={index + 'BarInInfo'}>
+              <InnerBar key={index + "InnerBarInInfo"}
+                style={{
+                  width: `${(parseInt(statValues[index])) / modifier}%`,
+                  "background-color": `${perc2color(
+                    parseInt((statValues[index]) / modifier)
+                  )}`,
+                }}
+              />
+            </Bar>
+          );
+          InnerArray.push(
+            // Value
+            <div key={statValues[index] + "InInfo"}
+              style={{ flex: 0.5, display: "flex", "justify-content": "flex-end" }}
+            >
+              {statValues[index]}
+            </div>
+          );
+          statCard.push(<SingleStat key={index + 'SingleStatInInfo'}>{InnerArray}</SingleStat>);
+        }
+      
+      return (
+        <CardContainer key={name + "key" + Math.random()}>
+          <Card
+            // isPassive={isPassive}
+            // isNegative={isNegative}
+            element={elementalColor}
+          >
+            <TitleWrap>
+              <CardTitle>{name}</CardTitle>
+              <TitleSpan>{cardInstructions.disc}</TitleSpan>
+            </TitleWrap>
+            <CardElement onError={imageError} src={cardInstructions.images[0]}></CardElement>
+            <DiscWrap>
+              <CardDisc>{cardInstructions.team}</CardDisc>
+              <DiscSpan>{cardInstructions.team}{statCard}</DiscSpan>
             </DiscWrap>
             {/* <CardSub>{cardInstructions.self}</CardSub> */}
           </Card>
