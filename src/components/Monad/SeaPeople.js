@@ -2359,7 +2359,7 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
       <Sarah>
         "Okay, I have guild matters to catch up on anyway so I'll just be up
         here. Avoid Juan if you can, he's a little.. Pushy, about joining the
-        church." Sarah warned me, then I took my leave.
+        church." Sarah warned me, as I took my leave.
       </Sarah>
     </Content>
   ),

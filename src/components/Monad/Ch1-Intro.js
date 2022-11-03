@@ -247,8 +247,8 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             </p>
           </BreakPoint>
           <BreakPoint id="Michkel">
-            <h3>Michkel - Jun 12 21-22</h3>
-            {/* Re-do dates, Month Day Year-Era, Jun 12th, 21st year of the 22nd era.*/}
+            <h3>Michkel - Jun 12 221-10</h3>
+            {/* Re-do dates, Month Day Year-Era, Jun 12th, 221st year of the 10th era.*/}
             {/* <!-- starting with the kids meeting as friends, introduce the town, some news the people, small parts of the world, culture--> */}
             <p>
               It had been 10 years to the day since Edmure had come back with a blood soaked diary. David was my wife's dad. Edmure, his best friend, had

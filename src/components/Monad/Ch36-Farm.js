@@ -147,7 +147,7 @@ function Intro(props) {
       </p>
       <Kaja>
         I still had the flame playing around in the palm of my hand. I threw it
-        in his direction, onto the pile of wood, which started a fire.
+        in his direction, onto the pile of wood, the flames quickly ate up the dried branches.
       </Kaja>
       {/* Otto Vs Morons */}
       {/* Living in the farm */}

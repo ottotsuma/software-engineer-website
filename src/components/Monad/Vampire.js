@@ -378,7 +378,7 @@ export function SpellFinder() {
       <div style={{ margin: "10px 0px" }} />
       {chosenSpecies ? <BeastPage name={chosenSpecies} /> : <div />}
       <div style={{ marginBottom: "50px" }} />
-      {chosenPlace ? <BeastPage name={chosenPlace} /> : <div />}
+      {chosenPlace ? <PlacePage name={chosenPlace} /> : <div />}
       <div style={{ marginBottom: "50px" }} />
       <ChoiceButtonWrap>{personButtons}</ChoiceButtonWrap>
       {person}
@@ -1443,6 +1443,21 @@ export function BeastPage({ name }) {
     return <div />;
   }
 }
+
+export function PlacePage(place) {
+  console.log(placeList[place.name])
+  const data = placeList[place.name]
+  return (<div>
+    <h4>Name: {data["full name"]}</h4>
+    <h5>Short Name: {data.name}</h5>
+    <div>Government: {data.government}</div>
+    <div>Disc: {data.disc}</div>
+    
+    <h5>Unique Unit:</h5>
+    <BeastPage name={data["unique unit"][0]} />
+  </div>)
+}
+
 const BeastContainer = styled.div`
   background-image: url("https://img.freepik.com/free-photo/crumpled-paper-background_1373-412.jpg?size=626&ext=jpg&ga=GA1.2.1745401800.1611187200");
   background-repeat: no-repeat;

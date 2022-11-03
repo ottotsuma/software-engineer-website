@@ -1,14 +1,43 @@
 export const placeList = {
-    Alden: {
-        name: "Alden",
-        "full name": "Grand Duchy of Alden",
-        government: "Grand Duchy",
-
-        images: [],
-        notes:
-          "",
-        disc: "",
-      },
+  Alden: {
+    name: "Alden",
+    "full name": "Grand Duchy of Alden",
+    government: "Grand Duchy",
+    disc: "Found by a rebellious witch with the backing of the lords of the region during the collapse of the Pocotcotco empire.",
+    "places of interest": ["Kustet (Salt mining town)"],
+    "unique unit": ["Witch"],
+    "economy type": "",
+    "agriculture": "Ample farm land but not the top priority of the state, who see it as easier to just take what they don't have. Each time there has been a need for more food, living space, the Aldenese have expanded rather then innovated.",
+    secrets: "",
+    stability: "Mostly stable. The duchy is ruled over by the dukes and other nobles, with little to no resistance from the people of Chingaling. The dwarves of the region although under the rule, and oppression of the nobles on paper mostly act independently of the state, with too few to mount any kind of rebellion alone.",
+    ambition: "To expand and create more living space for Aldenese.",
+    culture: "Militaristic. With a focus on individuals who achieve great feats in battle and war.",
+    religion: "",
+    diplomacy: "While having ambassadors in various neighbouring countries they are not aligned, or even get along well with any of them.",
+    military: "Strong individuals, because of the culture. Their military continues to use a traditional 4 - 8 man formation, more commonly used for fighting beasts. Discipline is valued higher then individuals strength in the military however.",
+    images: [],
+    notes: `
+        // Alden (German) - 🎄
+        // Military - Strong individuals, strong together, strong military, medium navy
+        // Diplomacy - None, mostly negative
+        // Religion -  
+        // Culture - Warlike, military focused, Mostly stable for now.
+        // Ambition - Expansion for living space
+        // Stability - Mostly stable for now.
+        // Secrets -
+        // Food - Fertile land, but too focused on military to make good use of it
+        // Economy type -
+        // Unique Unit - Witches
+        // Places of Interest - Kustet (Salt mining town)
+        `
+  },
+  Niyosho: {},
+  Herkikia: {},
+  "Naj'es": {},
+  Solzi: {},
+  Oflralensa: {},
+  Pocotcotco: {},
+  Dwarves: {}
 }
 // ### Countries:
 // Rename 

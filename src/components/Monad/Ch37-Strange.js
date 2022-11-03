@@ -310,14 +310,14 @@ function Intro(props) {
       </p>
       <p>
         Professor Farald waited for long enough that the silence almost felt
-        awkward before saying "These are things that the system will not tell
+        awkward before saying. "These are things that the system will not tell
         you directly. You have not read the studies conducted on these topics,
-        but I have. Should you trust me then I can report that there are
+        but I have. Should you trust me, then I can report that there are
         negative effects associated with storing up the spare mana inside your
         body. The body tries it's best to distribute the mana in the absences of
         your guidance so there are effects. Don't let this dissuade you from
         saving up your points of course. Just a little something to keep in mind
-        before a life and death situation."
+        before you delve into dangerous places."
       </p>
       <div className="BreakPoint" />
       <Otto></Otto>
