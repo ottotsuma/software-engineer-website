@@ -621,6 +621,7 @@ const SubTitle = styled.h4`
 `;
 
 export function SchoolSchedule() {
+  // Add maths, Aldenese, foreign language, 
   return (
     <ScheduleWrapper>
       <ScheduleDay>
@@ -871,6 +872,29 @@ export function SchoolSchedule() {
         <Block
           style={{
             gridColumn: "track-3",
+            gridRow: "time-0900",
+            background: colors.grey.light,
+          }}
+        >
+          <p>Aldenese</p>
+          <span>Classroom</span>
+          <span>???</span>
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-3",
+            gridRow: "time-1000",
+            background: colors.grey.light,
+          }}
+        >
+          <p>Health</p>
+          {/* Diseases, first aid, sexual health, human body, other (humanoid) species */}
+          <span>Classroom</span>
+          <span>???</span>
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-3",
             gridRow: "time-1100",
             background: colors.red.normal,
           }}
@@ -887,6 +911,28 @@ export function SchoolSchedule() {
           }}
         >
           <p>Lunch</p>
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-3",
+            gridRow: "time-1300",
+            background: colors.grey.light,
+          }}
+        >
+          <p>Foreign language</p>
+          <span>Classroom</span>
+          <span>???</span>
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-3",
+            gridRow: "time-1400",
+            background: colors.grey.light,
+          }}
+        >
+          <p>Foreign language</p>
+          <span>Classroom</span>
+          <span>???</span>
         </Block>
         <Block
           style={{
@@ -924,6 +970,41 @@ export function SchoolSchedule() {
           <p>Elemental class - Lightning</p>
           <span>Classroom</span>
           <span>Edgar</span>
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-4",
+            gridRow: "time-0900",
+            background: colors.grey.light,
+          }}
+        >
+          <p>Foreign language</p>
+          <span>Classroom</span>
+          <span>???</span>
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-4",
+            gridRow: "time-1000",
+            background: colors.grey.light,
+          }}
+        >
+          <p>Daily magic, basic skills.</p>
+          {/* sewing, washing, fire-making, all with and without magic */}
+          <span>Classroom</span>
+          <span>???</span>
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-4",
+            gridRow: "time-1100",
+            background: colors.grey.light,
+          }}
+        >
+          <p>Daily magic, basic skills.</p>
+          {/* sewing, washing, fire-making, all with and without magic */}
+          <span>Classroom</span>
+          <span>???</span>
         </Block>
         <Block
           style={{
@@ -1037,6 +1118,40 @@ export function SchoolSchedule() {
         <DayTitle style={{ gridColumn: "track-6" }}>
           <h4>Day 6</h4>
         </DayTitle>
+        <Block
+          style={{
+            gridColumn: "track-6",
+            gridRow: "time-0800",
+            background: colors.grey.light,
+          }}
+        >
+          <p>Aldenese</p>
+          <span>Classroom</span>
+          <span>???</span>
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-6",
+            gridRow: "time-0900",
+            background: colors.grey.light,
+          }}
+        >
+          <p>Foreign language</p>
+          <span>Classroom</span>
+          <span>???</span>
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-6",
+            gridRow: "time-1000",
+            background: colors.grey.light,
+          }}
+        >
+          <p>Health</p>
+          {/* Diseases, first aid, sexual health, human body, other (humanoid) species */}
+          <span>Classroom</span>
+          <span>???</span>
+        </Block>
         <Block
           style={{
             gridColumn: "track-6",
