@@ -937,7 +937,22 @@ export function Nils() {
     </div>
   );
 }
+export function MarionDonovan () {
+  return (
+    {
+      name: "Marion Donovan",
+      species: "Dwarf",
+      other: "They frequently cough.",
+      gender: "female",
+      Ideal: "They hold total respect for untamed nature.",
+      Flaw: "They have a strong paranoia about marketplaces.",
+      Bond: "They hunt in the deep woods to provide for the community.",
+      statement: "“He is a five-headed liar.”",
+      image: "https://www.herebetaverns.com/images/characters/dmheroes/feminine/dwarf/BeylaDrakantal.png"
+    }
+  )
 
+}
 // Academy, border guard, monster hunters, fugitive, Niyoshon prince, farmer, war lord? Flees the sea people invasion turns south, find the bird people, fight eleven pirates, sail to the old world. Or use the under ground road...
 
 // The invasion of earth starts
