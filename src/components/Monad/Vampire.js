@@ -487,6 +487,7 @@ export default function Vampire() {
             inp.value = this.getElementsByTagName("input")[0].value;
             /*close the list of autocompleted values,
             (or any other open lists of autocompleted values:*/
+            setQuery(inp.value)
             closeAllLists();
           });
           a.appendChild(b);
