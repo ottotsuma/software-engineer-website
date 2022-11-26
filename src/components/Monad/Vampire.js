@@ -1018,6 +1018,28 @@ export function SchoolSchedule() {
         <Block
           style={{
             gridColumn: "track-4",
+            gridRow: "time-1300",
+            background: colors.grey.light,
+          }}
+        >
+          <p>TBD</p>
+          <span>???</span>
+          <span>???</span>
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-4",
+            gridRow: "time-1400",
+            background: colors.grey.light,
+          }}
+        >
+          <p>TBD</p>
+          <span>???</span>
+          <span>???</span>
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-4",
             gridRow: "time-1500",
             background: colors.grey.light,
           }}
@@ -1091,6 +1113,28 @@ export function SchoolSchedule() {
           }}
         >
           <p>Lunch</p>
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-5",
+            gridRow: "time-1300",
+            background: colors.grey.light,
+          }}
+        >
+          <p>TBD</p>
+          <span>???</span>
+          <span>???</span>
+        </Block>
+        <Block
+          style={{
+            gridColumn: "track-5",
+            gridRow: "time-1400",
+            background: colors.grey.light,
+          }}
+        >
+          <p>TBD</p>
+          <span>???</span>
+          <span>???</span>
         </Block>
         <Block
           style={{
