@@ -25,25 +25,24 @@ function Intro(props) {
       </Otto> */}
       <Otto>
         Arrilian had not given me a chance after laying his hands on my
-        shoulders. From the arena I was taken directly to a classroom with Lubin
-        waiting for me. While Kaja was taken off with the woman from the
-        military.
+        shoulders. From the arena I was taken directly to a classroom, where Lubin
+        waiting for me. Kaja was taken away by the woman from the military.
       </Otto>
       <Lubin>
-        "You have the leisure to day dream?" Lubin said breaking my thoughts.
+        "You have the leisure to day dream?" Lubin said breaking me from my thoughts.
       </Lubin>
       <Otto>
         "Sorry, it seems I am tired after days of fending for myself and killing
         my fellow students." I replied curtly.
       </Otto>
       <Lubin>
-        Lubin gave back a flat smile. "Then I will try my best to get to the
+        Lubin lips flattened into thin smile. "Then I will try my best to get directly to the
         point. If you connect to the schools system, you'll find I sent you
         messages about your new room and classes you have to attend."
       </Lubin>
       <Otto>
-        "New room? I had only just moved in with the Lakia's." I cut him off
-        worried I would lose my quiet place.
+        "New room? I have moved recently." I cut him off
+        worried I would lose my quiet place in the woods, well being further from her also.
       </Otto>
       <Lubin>
         "Yes, and now you have showed unusual powers you have been given a new
@@ -61,16 +60,14 @@ function Intro(props) {
         forcing you to stay in your new quatres exactly... Ah just to eat right?
         I am sure it would be fine." His voice raised a little to the end,
         unsure himself? Or not trusting I only want to eat there. Maybe he knows
-        I like a girl from their camp.
+        about my dates.
       </Lubin>
       <Lubin>
         His eyes rested back on me and he carried on. "Let me finish up so you
         can rest. The academy wants to know everything about your powers,
-        including were and when you first acquired them. We both know your class
-        was a mage when you arrived, I don't see any physical changes to you,
-        and you have not used any mage spells recently. Both me and Arrilian are
-        betting you changed your class and these are not faith powers." He
-        inquired.
+        including were and when you first acquired them. We both know you
+        were a regular mage when you arrived, I don't see any physical changes to you, and you have not used any mage spells recently. Both me and Arrilian are
+        betting you changed your class since these are not faith powers we are aware of." He inquired.
       </Lubin>
       <Otto>
         So, I told him. I was too tired to lie. Although I did skip over any
