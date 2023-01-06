@@ -804,6 +804,14 @@ Fireball => Meteor => Increased AOE range
 
 So fire ball is connected to meteor, but both are connected to increased AOE range so they create a double connection.
 ## Story
+
+### ideas: 
+
+#### Alden:
+###### academy: 
+The special class contains the fastest learners of the subjects along side the special students who have a unique ability. They recieve better treatment and more points.
+
+
 Otto - 
 Wants: Tsuma, Strong wizard
 
