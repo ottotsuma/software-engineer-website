@@ -1,5 +1,27 @@
 https://guides.github.com/features/mastering-markdown/
 
+/Attempt 2
+Otto: Looking for insects or "monsters" to draw and write about;
+  Other kids play fighting
+  incident, few deaths
+  village training
+Travel, executions, hunting
+school 14 - 16 dps -> Support
+  beast studies
+  survival -> farming / food
+  hunting exotic monsters to record
+war with the republic
+  burning of Swexausern / macro Bridge
+  freeing of Sarah
+  Vampire coven
+    recordings
+Alden Retaliation, occupation and split 
+  Vampires go west to the mountains, otto goes south
+
+Free cities
+Leika
+Journey west & the quest for the rainbow feathered dragon
+
 Re-Write all early story to have 1 - 9 being mage, no element and at level 10 you find out your element so they can change class like the rogue and fighter. Chapter 13 and earlier.
 
 The flicker fusion threshold, Critical Flicker Frequency (CFF) or flicker fusion rate, is a concept in the psychophysics of vision. It is defined as the frequency at which an intermittent light stimulus appears to be completely steady to the average human observer.
