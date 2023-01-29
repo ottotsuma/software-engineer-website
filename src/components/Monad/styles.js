@@ -26,20 +26,31 @@ export const ChapterContainer = styled.div`
   max-width: 100%;
   max-height: 100%;
   background: ${(props) =>
-    props.darkMode ? colors.grey.oldNormal : colors.lightBackground};
-    padding-bottom: 5px;
+  props.darkMode ? colors.grey.oldNormal : colors.lightBackground};
+  padding-bottom: 5px;
+  padding-top: 5px;
 `;
 export const Sticky = styled.div`
-  position: fixed;
-  top: 7vh;
   display: flex;
-  flex-direction: row;
-  align-items: baseline;
-  overflow: hidden;
-  width: ${props => props.open ? '100%' : ''};
-  height: ${props => props.open ? '100%' : '100%'};
   max-height: 80vh;
   overflow-y: ${props => props.open ? 'scroll' : 'hidden'};
+  position: fixed;
+  bottom: 30px;
+
+  > button {
+    background-color: yellow;
+    padding: ${props => props.open ? '10px' : '0px'};
+    height: 20px;
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
 `;
 export const StyledArticle = styled.article`
   color: ${(props) => props.color ? props.color : (props.darkMode ? colors.white.off : colors.black.off)};

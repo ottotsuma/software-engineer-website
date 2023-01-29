@@ -65,21 +65,7 @@ const Intro = (props) => {
             {/* Monad (philosophy), a term meaning "unit", used by philosophers to signify a variety of entities, originally the God and later such things as genus
 Monism, the concept of "one essence" in the metaphysical and theological theory */}
             {/* <!-- Next to some kind of map not the first chapter --> */}
-            <div className="pop">
-              Map of Chab
-              {/* http://www.mesoweb.com/resources/vocabulary/English-Maya.html */}
-              {/* <img
-                className="popOut"
-                src="https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-44.png"
-                height="400px"
-                alt="MapOfMonad"
-              /> */}
-              {/* <ImageZoom alt="MapOfMonad" image="https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-44.png" /> */}
-              <ImageZoom
-                alt="MapOfMonad"
-                image="https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-45.png"
-              />
-            </div>
+
             {/* Some kind of fight? */}
             </BreakPoint>
             <BreakPoint id="Herkikia">
@@ -180,6 +166,22 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
               ear drums out, there was a large flash of light, then nothing.
             </p>
           </BreakPoint>
+          <div className="pop">
+              Map of Chab
+              {/* http://www.mesoweb.com/resources/vocabulary/English-Maya.html */}
+              {/* <img
+                className="popOut"
+                src="https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-44.png"
+                height="400px"
+                alt="MapOfMonad"
+              /> */}
+              {/* <ImageZoom alt="MapOfMonad" image="https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-44.png" /> */}
+              <ImageZoom
+                className="popOut"
+                alt="MapOfMonad"
+                image="https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-45.png"
+              />
+            </div>
           <BreakPoint id="Steinauhau">
             <h3>Steinauhau - Jun 12 21-12</h3>
             {/* The Grand Duchy of Alden is home to 3.2 million people */}

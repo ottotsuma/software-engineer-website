@@ -587,6 +587,11 @@ const Anchor = styled(Link)`
 `;
 
 const Anchor2 = styled(Link)`
+@media screen and (max-height: 500px) {
+  display: none;
+}
+
+
 // Link that looks like a button!
 
 border-style: solid;
@@ -813,6 +818,9 @@ const HomeImage = styled(animated.img)`
 `;
 
 const ProfileImage = styled.img`
+@media screen and (max-height: 400px) {
+  display: none;
+}
   width: 100px;
   height: 100px;
   border-radius: 50%;

@@ -49,26 +49,26 @@ import { textColors } from "./../elements/colors";
 import SeaPeopleFunction from "./SeaPeople";
 import HitoriStoryFunction from "./Hitori"; // 9 
 import Vampire from "./Vampire";
-import {ButtonStyled, LinkStyled, Buttons, Sticky, ChapterContainer, StyledArticle} from './styles'
+import { ButtonStyled, LinkStyled, Buttons, Sticky, ChapterContainer, StyledArticle } from './styles'
 
 const scrollTop = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 };
-let number = 1;
+let pageNumber = 1;
 if (window.location.href.match(/\d+$/)) {
-  number = parseInt(window.location.href.match(/\d+$/)[0]);
+  pageNumber = parseInt(window.location.href.match(/\d+$/)[0]);
 }
 
 function NextPage() {
-  number++;
+  pageNumber++;
 }
 function PreviousPage() {
-  number--;
+  pageNumber--;
 }
 
 function callBack(index) {
   document.getElementById("myDropdown").classList.toggle("show");
-  number = index + 1;
+  pageNumber = index + 1;
 }
 
 const ChapterList = [
@@ -228,6 +228,16 @@ export default function Monad(params) {
     const possibleSizes = ['14px', '16px', '18px', '20px', '24px', '26px', 'xxx-large'];
     const possibleColors = Object.keys(textColors);
     const buttonArray = []
+    buttonArray.push(
+      <ButtonStyled
+      darkMode={darkMode}
+      onClick={() => updateState(setDarkMode, !darkMode)}
+      id="darkMode"
+
+    >
+      {darkMode ? 'Toggle Light Mode' : 'Toggle Dark Mode'}
+    </ButtonStyled>
+    )
     for (let index = 0; index < possibleSizes.length; index++) {
       const size = possibleSizes[index];
       buttonArray.push(<Buttons style={{ padding: '5px', border: '2px solid black' }} key={size} onClick={() => updateState(setSizeState, size)}>{size}</Buttons>)
@@ -237,10 +247,10 @@ export default function Monad(params) {
       buttonArray.push(<Buttons style={{ padding: '5px', border: '2px solid black' }} key={NewColor} onClick={() => updateState(SetColorState, textColors[NewColor])}>{NewColor}</Buttons>)
     }
     setSizeArray(buttonArray)
-  }, []);
+  }, [darkMode]);
 
   useEffect(() => {
-    console.log("Page: ", number);    
+    console.log("Page: ", pageNumber);
     const Location = window.location.href.match(/\d+$/)
     if (Location) {
       updateState(setPage, (ChapterList[Location[0] - 1]));
@@ -251,7 +261,7 @@ export default function Monad(params) {
     }
     scrollTop() // this should be replaced by a cookie save position 
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [number]);
+  }, [pageNumber]);
 
   const [scrollTopState, setScrollTop] = useState(true);
   useEffect(() => {
@@ -264,323 +274,111 @@ export default function Monad(params) {
     };
   }, [])
 
-  if (number === ChapterList.length) {
-    return (
-      <ChapterContainer darkMode={darkMode}>
-        <Sticky open={sizeOpen}><div style={{ display: sizeOpen ? 'flex' : 'none', flexDirection: 'column' }}>{sizeArray}</div><button onClick={() => setSizeOpen(!sizeOpen)}><FontAwesomeIcon
-          icon={faFont}
-        /></button></Sticky>
-        <LinkStyled to="/">Home</LinkStyled>
-        <ButtonStyled
-          darkMode={darkMode}
-          onClick={() => updateState(setDarkMode, !darkMode)}
-          id="darkMode"
+  return (
+    <div>
+      {
+        <ChapterContainer darkMode={darkMode}>
+          <LinkStyled to="/">Exit</LinkStyled>
+          {/* <ButtonStyled
+            darkMode={darkMode}
+            onClick={() => updateState(setDarkMode, !darkMode)}
+            id="darkMode"
 
-        >
-          {darkMode ? 'Toggle Light Mode' : 'Toggle Dark Mode'}
-        </ButtonStyled>
-        {"speechSynthesis" in window && (
-          <div className="buttons">
-            <Buttons
-              onClick={() => onClickPlay()}
-              id="play"
-              darkMode={darkMode}
-              style={{
-                border: "none",
-                cursor: "pointer",
-                outline: "none",
-                height: "48px",
-                width: "48px",
-                padding: 0,
-                backgroundImage:
-                  "url(https://rpsthecoder.github.io/js-speech-synthesis/play.svg)",
-              }}
-            ></Buttons>{" "}
-            &nbsp;
-            <Buttons
-              onClick={() => onClickPause()}
-              id="pause"
-              darkMode={darkMode}
-              style={{
-                border: "none",
-                cursor: "pointer",
-                outline: "none",
-                height: "48px",
-                width: "48px",
-                padding: 0,
-                backgroundImage:
-                  "url(https://rpsthecoder.github.io/js-speech-synthesis/pause.svg)",
-              }}
-            ></Buttons>{" "}
-            &nbsp;
-            <Buttons
-              onClick={() => onClickStop()}
-              id="stop"
-              darkMode={darkMode}
-              style={{
-                border: "none",
-                cursor: "pointer",
-                outline: "none",
-                height: "48px",
-                width: "48px",
-                padding: 0,
-                backgroundImage:
-                  "url(https://rpsthecoder.github.io/js-speech-synthesis/stop.svg)",
-              }}
-            ></Buttons>
+          >
+            {darkMode ? 'Toggle Light Mode' : 'Toggle Dark Mode'}
+          </ButtonStyled> */}
+          {"speechSynthesis" in window && (
+            <div className="buttons">
+              <Buttons
+                onClick={() => onClickPlay()}
+                id="play"
+                darkMode={darkMode}
+                style={{
+                  border: "none",
+                  cursor: "pointer",
+                  outline: "none",
+                  height: "48px",
+                  width: "48px",
+                  padding: 0,
+                  backgroundImage:
+                    "url(https://rpsthecoder.github.io/js-speech-synthesis/play.svg)",
+                }}
+              ></Buttons>{" "}
+              &nbsp;
+              <Buttons
+                onClick={() => onClickPause()}
+                id="pause"
+                darkMode={darkMode}
+                style={{
+                  border: "none",
+                  cursor: "pointer",
+                  outline: "none",
+                  height: "48px",
+                  width: "48px",
+                  padding: 0,
+                  backgroundImage:
+                    "url(https://rpsthecoder.github.io/js-speech-synthesis/pause.svg)",
+                }}
+              ></Buttons>{" "}
+              &nbsp;
+              <Buttons
+                onClick={() => onClickStop()}
+                id="stop"
+                darkMode={darkMode}
+                style={{
+                  border: "none",
+                  cursor: "pointer",
+                  outline: "none",
+                  height: "48px",
+                  width: "48px",
+                  padding: 0,
+                  backgroundImage:
+                    "url(https://rpsthecoder.github.io/js-speech-synthesis/stop.svg)",
+                }}
+              ></Buttons>
+            </div>
+          )}
+          {pageNumber > 1 && <LinkStyled
+            id="Previous"
+            onClick={() => PreviousPage()}
+            to={"/Monad/" + (pageNumber - 1)}
+          >
+            Previous
+          </LinkStyled>}
+          <div className="dropdown">
+            <ButtonStyled onClick={() => myFunction()} className="">
+              Monad
+            </ButtonStyled>
+            <div id="myDropdown" className="dropdown-content">
+              {droppy()}
+            </div>
           </div>
-        )}
-        <LinkStyled
-          id="Previous"
-          onClick={() => PreviousPage()}
-          to={"/Monad/" + (number - 1)}
-        >
-          Previous
-        </LinkStyled>
-        {/* <div className="dropdown">
-          <button onClick={() => myFunction()} className="dropbtn">
-            Dropdown
-          </button>
-          <div id="myDropdown" className="dropdown-content">
-            {droppy()}
-          </div>
-        </div> */}
-        <div className="dropdown">
-          <ButtonStyled onClick={() => myFunction()} className="">
-            Monad
-          </ButtonStyled>
-          <div id="myDropdown" className="dropdown-content">
-            {droppy()}
-          </div>
-        </div>
-        <StyledArticle size={sizeState} color={colorState} darkMode={darkMode}>{isPage}</StyledArticle>
-        <LinkStyled
-          id="Previous"
-          onClick={() => PreviousPage()}
-          to={"/Monad/" + (number - 1)}
-        >
-          Previous
-        </LinkStyled>
-        {!scrollTopState && <button className="Footer-Button" onClick={() => scrollTop()}>
-          Top
-        </button>}
-      </ChapterContainer>
-    );
-  } else if (number > 1) {
-    return (
-      <ChapterContainer darkMode={darkMode}>
-        <Sticky open={sizeOpen}><div style={{ display: sizeOpen ? 'flex' : 'none', flexDirection: 'column' }}>{sizeArray}</div><button onClick={() => setSizeOpen(!sizeOpen)}><FontAwesomeIcon
-          icon={faFont}
-        /></button></Sticky>
-        <LinkStyled to="/">Home</LinkStyled>
-        <ButtonStyled
-          darkMode={darkMode}
-          onClick={() => updateState(setDarkMode, !darkMode)}
-          id="darkMode"
-        >
-          {darkMode ? 'Toggle Light Mode' : 'Toggle Dark Mode'}
-        </ButtonStyled>
-        {"speechSynthesis" in window && (
-          <div className="buttons">
-            <Buttons
-              darkMode={darkMode}
-              onClick={() => onClickPlay()}
-              id="play"
-              style={{
-                border: "none",
-                cursor: "pointer",
-                outline: "none",
-                height: "48px",
-                width: "48px",
-                padding: 0,
-                backgroundImage:
-                  "url(https://rpsthecoder.github.io/js-speech-synthesis/play.svg)",
-              }}
-            ></Buttons>{" "}
-            &nbsp;
-            <Buttons
-              onClick={() => onClickPause()}
-              id="pause"
-              darkMode={darkMode}
-              style={{
-                border: "none",
-                cursor: "pointer",
-                outline: "none",
-                height: "48px",
-                width: "48px",
-                padding: 0,
-                backgroundImage:
-                  "url(https://rpsthecoder.github.io/js-speech-synthesis/pause.svg)",
-              }}
-            ></Buttons>{" "}
-            &nbsp;
-            <Buttons
-              onClick={() => onClickStop()}
-              id="stop"
-              darkMode={darkMode}
-              style={{
-                border: "none",
-                cursor: "pointer",
-                outline: "none",
-                height: "48px",
-                width: "48px",
-                padding: 0,
-                backgroundImage:
-                  "url(https://rpsthecoder.github.io/js-speech-synthesis/stop.svg)",
-              }}
-            ></Buttons>
-          </div>
-        )}
-        <LinkStyled
-          id="Previous"
-          onClick={() => PreviousPage()}
-          to={"/Monad/" + (number - 1)}
-        >
-          Previous
-        </LinkStyled>
-        <div className="dropdown">
-          <ButtonStyled onClick={() => myFunction()} className="">
-            Monad
-          </ButtonStyled>
-          <div id="myDropdown" className="dropdown-content">
-            {droppy()}
-          </div>
-        </div>
-        {/* <div className="dropdown">
-          <button onClick={() => myFunction()} className="dropbtn">
-            Dropdown
-          </button>
-          <div id="myDropdown" className="dropdown-content">
-            {droppy()}
-          </div>
-        </div> */}
-        <LinkStyled
-          to={"/Monad/" + (number + 1)}
-          onClick={() => NextPage()}
-        >
-          Next
-        </LinkStyled>
-        <StyledArticle size={sizeState} color={colorState} darkMode={darkMode}>{isPage}</StyledArticle>
-        <LinkStyled
-          id="Previous"
-          onClick={() => PreviousPage()}
-          to={"/Monad/" + (number - 1)}
-        >
-          Previous
-        </LinkStyled>
-
-        {!scrollTopState && <button className="Footer-Button" onClick={() => scrollTop()}>
-          Top
-        </button>}
-        <LinkStyled
-          to={"/Monad/" + (number + 1)}
-          onClick={() => NextPage()}
-        >
-          Next
-        </LinkStyled>
-      </ChapterContainer>
-    );
-  } else {
-    return (
-      <ChapterContainer darkMode={darkMode}>
-        <Sticky open={sizeOpen}><div style={{ display: sizeOpen ? 'flex' : 'none', flexDirection: 'column' }}>{sizeArray}</div><button onClick={() => setSizeOpen(!sizeOpen)}><FontAwesomeIcon
-          icon={faFont}
-        /></button></Sticky>
-        <LinkStyled to="/">Home</LinkStyled>
-        <ButtonStyled
-          darkMode={darkMode}
-          onClick={() => updateState(setDarkMode, !darkMode)}
-          id="darkMode"
-
-        >
-          {darkMode ? 'Toggle Light Mode' : 'Toggle Dark Mode'}
-        </ButtonStyled>
-        {"speechSynthesis" in window && (
-          <div className="buttons">
-            <Buttons
-              onClick={() => onClickPlay()}
-              id="play"
-              darkMode={darkMode}
-              style={{
-                border: "none",
-                cursor: "pointer",
-                outline: "none",
-                height: "48px",
-                width: "48px",
-                padding: 0,
-                backgroundImage:
-                  "url(https://rpsthecoder.github.io/js-speech-synthesis/play.svg)",
-              }}
-            ></Buttons>{" "}
-            &nbsp;
-            <Buttons
-              onClick={() => onClickPause()}
-              id="pause"
-              darkMode={darkMode}
-              style={{
-                border: "none",
-                cursor: "pointer",
-                outline: "none",
-                height: "48px",
-                width: "48px",
-                padding: 0,
-                backgroundImage:
-                  "url(https://rpsthecoder.github.io/js-speech-synthesis/pause.svg)",
-              }}
-            ></Buttons>{" "}
-            &nbsp;
-            <Buttons
-              onClick={() => onClickStop()}
-              id="stop"
-              darkMode={darkMode}
-              style={{
-                border: "none",
-                cursor: "pointer",
-                outline: "none",
-                height: "48px",
-                width: "48px",
-                padding: 0,
-                backgroundImage:
-                  "url(https://rpsthecoder.github.io/js-speech-synthesis/stop.svg)",
-              }}
-            ></Buttons>
-          </div>
-        )}
-        {/* <div className="dropdown">
-          <button onClick={() => myFunction()} className="dropbtn">
-            Dropdown
-          </button>
-          <div id="myDropdown" className="dropdown-content">
-            {droppy()}
-          </div>
-        </div> */}
-        <div className="dropdown">
-          <ButtonStyled onClick={() => myFunction()} className="">
-            Monad
-          </ButtonStyled>
-          <div id="myDropdown" className="dropdown-content">
-            {droppy()}
-          </div>
-        </div>
-        <LinkStyled
-          to={"/Monad/" + (number + 1)}
-          onClick={() => NextPage()}
-        >
-          Next
-        </LinkStyled>
-        <StyledArticle size={sizeState} color={colorState} darkMode={darkMode}>{isPage}</StyledArticle>
-        {!scrollTopState && <button className="Footer-Button" onClick={() => scrollTop()}>
-          Top
-        </button>}
-        <LinkStyled
-          to={"/Monad/" + (number + 1)}
-          onClick={() => NextPage()}
-        >
-          Next
-        </LinkStyled>
-      </ChapterContainer>
-    );
-  }
+          {pageNumber !== ChapterList.length && <LinkStyled
+            to={"/Monad/" + (pageNumber + 1)}
+            onClick={() => NextPage()}
+          >
+            Next
+          </LinkStyled>}
+          <StyledArticle size={sizeState} color={colorState} darkMode={darkMode}>{isPage}</StyledArticle>
+          {!scrollTopState && <button className="Footer-Button" onClick={() => scrollTop()}>
+            Top
+          </button>}
+          <LinkStyled
+            to={"/Monad/" + (pageNumber + 1)}
+            onClick={() => NextPage()}
+          >
+            Next
+          </LinkStyled>
+          <Sticky open={sizeOpen}>
+          <div style={{ display: sizeOpen ? 'flex' : 'none', flexDirection: 'column' }}>{sizeArray}</div>
+          <button onClick={() => setSizeOpen(!sizeOpen)}><FontAwesomeIcon
+            icon={faFont}
+          /></button>
+          </Sticky>
+        </ChapterContainer>
+      }
+    </div>
+  )
 }
 //  export default Monad;
 
