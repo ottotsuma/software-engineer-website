@@ -1576,7 +1576,7 @@ export const LessonOptions = {
 const ScheduleWrapper = styled.div`
   display: flex;
   font-size: 0.7em;
-  background-image: url("https://img.freepik.com/free-photo/crumpled-paper-background_1373-412.jpg?size=626&ext=jpg&ga=GA1.2.1745401800.1611187200");
+  background-image: url("https://img.freepik.com/free-photo/crumpled-paper-background_1373-412.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 5px;
@@ -1584,6 +1584,7 @@ const ScheduleWrapper = styled.div`
   color: black;
 `;
 const ScheduleDay = styled.div`
+  overflow-x: scroll;
   display: grid;
   grid-template-rows: repeat(9, 1fr);
   display: grid;
@@ -1731,7 +1732,7 @@ export function PlacePage(place) {
 }
 
 const BeastContainer = styled.div`
-  background-image: url("https://img.freepik.com/free-photo/crumpled-paper-background_1373-412.jpg?size=626&ext=jpg&ga=GA1.2.1745401800.1611187200");
+  background-image: url("https://img.freepik.com/free-photo/crumpled-paper-background_1373-412.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 600px;

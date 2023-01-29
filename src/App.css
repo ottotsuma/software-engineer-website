@@ -436,7 +436,7 @@ ul {
 /* Note */
 
 .Note {
-  background-image: url(https://img.freepik.com/free-photo/crumpled-paper-background_1373-412.jpg?size=626&ext=jpg&ga=GA1.2.1745401800.1611187200);
+  background-image: url(https://img.freepik.com/free-photo/crumpled-paper-background_1373-412.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 400px;
@@ -447,7 +447,7 @@ ul {
 
 .Newspaper {
   max-width: 600px;
-  background-image: url(https://img.freepik.com/free-photo/crumpled-paper-background_1373-412.jpg?size=626&ext=jpg&ga=GA1.2.1745401800.1611187200);
+  background-image: url(https://img.freepik.com/free-photo/crumpled-paper-background_1373-412.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
