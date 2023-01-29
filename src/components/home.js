@@ -344,7 +344,7 @@ function Home(props) {
                 <LinkImage src={'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Font_Awesome_5_solid_book.svg/896px-Font_Awesome_5_solid_book.svg.png'} alt=" " />
                 <Anchor to="/Monad/1">
                   <p>
-                    {'Monad'}
+                    {'Light Novel'}
                   </p>
                 </Anchor>
               </Linkey>
