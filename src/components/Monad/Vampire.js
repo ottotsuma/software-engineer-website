@@ -1021,10 +1021,10 @@ export function SchoolSchedule() {
           style={{
             gridColumn: "track-4",
             gridRow: "time-1300",
-            background: colors.grey.light,
+            background: colors.pink.PalePink,
           }}
         >
-          <p>TBD</p>
+          <p>Option 2 - Beast Study Club</p>
           <span>???</span>
           <span>???</span>
         </Block>
@@ -1032,10 +1032,10 @@ export function SchoolSchedule() {
           style={{
             gridColumn: "track-4",
             gridRow: "time-1400",
-            background: colors.grey.light,
+            background: colors.pink.PalePink,
           }}
         >
-          <p>TBD</p>
+          <p>Option 2 - Beast Study Club</p>
           <span>???</span>
           <span>???</span>
         </Block>
