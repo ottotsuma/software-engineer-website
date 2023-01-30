@@ -67,54 +67,36 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             {/* <!-- Next to some kind of map not the first chapter --> */}
 
             {/* Some kind of fight? */}
-            </BreakPoint>
-            <BreakPoint id="Herkikia">
+          </BreakPoint>
+          <BreakPoint id="Herkikia">
             <h3>Herkikia - Jun 01 21-12</h3>
             <p>
               The Herkikia League had always been the best place on the
               continent to be a mercenary. The past few years had made that statement even more true, this year more then ever.
             </p>
             <p>
-              However all good things must come to and end. The people who had invaded from across the endless eastern sea, had proven it was not endless and the daft pricks didn't bring enough food with them to be starting a war.
+              However, all good things must come to and end. The people who had invaded from across the endless eastern sea had proven it was not endless, and that the daft pricks didn't bring enough food with them to be starting a war.
             </p>
             <p>
-              I must not let my guard down though, a cornered beast will fight harder. To the west,
-              the monster jungles of Chingaling, their east the army's of the
-              Herkikia league of city states. To the north the sea they came from, which finally left the south the mercenaries hired by the League to finish the encirclement. Us.
+              I must not let my guard down though; a cornered beast will fight harder. To the west, the monster jungles of Chingaling. To their east, the armies of the Herkikia League of city states. To the north, the sea they came from, which finally left the south, the mercenaries hired by the League to finish the encirclement.
             </p>
             <p>
-              If these sea people had any sense they would focus their attacks
-              on this side. The pay is good but it's no good to a dead man. Then again it might be better if they just left into the sea from once they came.
+              If these sea people had any sense, they would focus their attacks on this side. The pay is good, but it's no good to a dead man. Then again, it might be better if they just left into the sea from where they came.
             </p>
             <p>
-              "Are you trying to explain the plan to Rock Head again? You know
-              why we call him that right?" A tall, wide, muscular man
-              interrupted me. On his head, was a wampus cat's head. I'd seen him
-              kill it, it's yellow eyes were suppose to be able to hypnotize a
-              person who looked into them, this man could only have one thought
-              in his head at a time, 'wack it till it's dead'. If he's telling
-              me Rock Head has less brains than him maybe he's right, but
-              honestly it was more to clam my nerves.
+              "Are you trying to explain the plan to Rock Head again? You know why we call him that, right?" A tall, wide, muscular man interrupted me. On his head, was a wampus cat's head. I'd seen him kill it. Its yellow eyes were supposed to be able to hypnotize a person who looked into them. This man could only have one thought in his head at a time, 'wack it till it's dead'. If he's telling me Rock Head has less brains than him, maybe he's right, but honestly, it was more to calm my nerves.
             </p>
             <p>
-              I gave him a nod of understanding and he went back to stuffing his
-              face with, what I hope was not beast meat from the jungle, the
-              last thing we needed was him going insane from eating some unknown
-              poisonous creature.
+              I gave him a nod of understanding and he went back to stuffing his face with, what I hoped was not beast meat from the jungle. The last thing we needed was him going insane from eating some unknown poisonous creature.
             </p>
             <p>
-              When I looked back over to the sea peoples final outpost, it would
-              seem they did have a sense of survival after all. Their oversized
-              wooden boats were gliding off into the sea.
+              When I looked back over to the sea people's final outpost, it would seem they did have a sense of survival after all. Their oversized wooden boats were gliding off into the sea.
             </p>
             <p>
-              That was just the signal the Herkikia general needed, the wind mage
-              next to him carried the generals voice across our whole line and
-              beyond. His voice was loud and strong.
+              That was just the signal the Herkikia general needed. The wind mage next to him carried the general's voice across our whole line and beyond. His voice was loud and strong.
             </p>
             <p>
-              "Victory is near at hand! If all do their duty, it will be OUR
-              victory!"
+              "Victory is near at hand! If all do their duty, it will be OUR victory!"
             </p>
             <p>"YEAAAHHH!" A cry from his men came as an answer to his words.</p>
             <p>
@@ -141,18 +123,10 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             <p>That had quietened the cheers a little. I guess that is why he has the title 'The mad'.</p>
             <p>"Charge!"</p>
             <p>
-              The Herkikians moved in first, in lines with long spears pointed
-              out over their shields. They formed walls of spears and white
-              armor. Our skirmishers were the first to engage them, those who threw
-              projectiles or magic into the enemies to tie them down. Once the skirmishers pulled back we would move in to tie up the disorganized enemies. In theory.
+              The Herkikians moved in first, in lines with long spears pointed out over their shields. They formed walls of spears and white armor. Our skirmishers were the first to engage them, those who threw projectiles or magic into the enemies to tie them down. Once the skirmishers pulled back, we would move in to tie up the disorganized enemies. In theory.
             </p>
             <p>
-              As soon as the skirmishers started to pull back we ran in. I cast
-              'Ice spear' into their ranks. I wrapped my sword with ice magic as
-              we got closer. The berserker from before shouted louder then a war
-              drum next to me and jumped into their ranks swinging his club
-              around at whoever was near by. With their ranks fully broken up I
-              was able to fight small duels which was more my style.
+            As soon as the skirmishers started to pull back we ran in. I cast  'Ice spear' into their ranks. I wrapped my sword with ice magic as  we got closer. The berserker from before shouted louder then a war drum next to me and jumped into their ranks swinging his club  around at whoever was near by. With their ranks fully broken up I was able to fight small duels which was more my style.
             </p>
             <p>
               I used my sword to move my opponents to one side and launched a
@@ -167,21 +141,21 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             </p>
           </BreakPoint>
           <div className="pop">
-              Map of Chab
-              {/* http://www.mesoweb.com/resources/vocabulary/English-Maya.html */}
-              {/* <img
+            Map of Chab
+            {/* http://www.mesoweb.com/resources/vocabulary/English-Maya.html */}
+            {/* <img
                 className="popOut"
                 src="https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-44.png"
                 height="400px"
                 alt="MapOfMonad"
               /> */}
-              {/* <ImageZoom alt="MapOfMonad" image="https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-44.png" /> */}
-              <ImageZoom
-                className="popOut"
-                alt="MapOfMonad"
-                image="https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-45.png"
-              />
-            </div>
+            {/* <ImageZoom alt="MapOfMonad" image="https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-44.png" /> */}
+            <ImageZoom
+              className="popOut"
+              alt="MapOfMonad"
+              image="https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-45.png"
+            />
+          </div>
           <BreakPoint id="Steinauhau">
             <h3>Steinauhau - Jun 12 21-12</h3>
             {/* The Grand Duchy of Alden is home to 3.2 million people */}
@@ -336,7 +310,7 @@ most people learn inspect but either see
             {/* From who's point of view?, Effi, telling her mom what happened. */}
             {/* Or Otto telling his Dad which rolls into the aftermath. */}
             <p>
-              
+
             </p>
             <p>
               The group of seven, laughing running into the forest, beyond the eyes
