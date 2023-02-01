@@ -87,7 +87,7 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
               on this side. The pay is good but its no good to a dead man. Then again it might be better if they just left into the sea from once they came.
             </p>
             <p>
-            "Are you trying to explain the plan to Rock Head again? You know why we call him that right?" A tall, wide, muscular man interrupted me. On his head, was a wampus cat's head. I'd seen him kill it, its yellow eyes were supposed to be able to hypnotise a person who looked into them, this man could only have one thought in his head at a time, 'whack it till it's dead'. If he's telling me Rock Head has less brains than him maybe he's right, but honestly it was more to calm my nerves.
+              "Are you trying to explain the plan to Rock Head again? You know why we call him that right?" A tall, wide, muscular man interrupted me. On his head, was a wampus cat's head. I'd seen him kill it, its yellow eyes were supposed to be able to hypnotise a person who looked into them, this man could only have one thought in his head at a time, 'whack it till it's dead'. If he's telling me Rock Head has less brains than him maybe he's right, but honestly it was more to calm my nerves.
             </p>
             <p>
               I gave him a nod of understanding and he went back to stuffing his face with, what I hoped was not beast meat from the jungle. The last thing we needed was him going insane from eating some unknown poisonous creature.
