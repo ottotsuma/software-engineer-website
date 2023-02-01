@@ -170,7 +170,7 @@ function Fourth(props) {
             The signs where all unreadable, the writing looked like shapes of
             things at times and others looked like letters from a place very far
             away. Ignoring that I took a stroll around the market place. It was
-            quite noisy considering it's small size and even though we were all
+            quite noisy considering it's small size and even through we were all
             students at the academy (or entourage of a well of family) I felt
             like I stuck out.
           </p>

@@ -34,7 +34,7 @@ function Academy(props) {
             The students who came by carriage or mount were unloading near the
             entrance. There where two large doors left wide open, next to which
             stood people dressed in an assortment of all different colours, most
-            in robes but a few in metal armor. Inside of the two doors where you
+            in robes but a few in metal armour. Inside of the two doors where you
             would expect there to be stairs or a great hall was two giant stone
             spikes. They resembled claws and reached 30m from the ground to
             their top where they stopped just shy of the roof. Between these

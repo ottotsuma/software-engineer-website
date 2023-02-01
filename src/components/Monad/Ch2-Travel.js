@@ -20,7 +20,7 @@ function Travel(props) {
           <Effi>
             Instead of playing and chatting with our friends into the night we
             were ushered home early tonight. Some of the students did not
-            understand why at first. This happened ever year though, our parents
+            understand why at first. This happened ever year through, our parents
             would be saying good bye, making sure we were ready to head off into
             the world. Although we were heading to academy's, schools and
             military camps; it was our departure from the nest.
@@ -45,7 +45,7 @@ function Travel(props) {
           <Effi>
             Steinauhau to Todtenwei was around 8 hours. So again the arriving
             students, myself included this time, would set up camp and rest.
-            Unlike Steinauhau Todtenwei had a river running though the town,
+            Unlike Steinauhau Todtenwei had a river running through the town,
             although it had no port and was not a major trading post smaller
             ships could come up river and trade. I had been here before with my
             mother, she had taken me when I was younger, because I had begged
@@ -67,7 +67,7 @@ function Travel(props) {
             galley, the kind the navy used. The adults knew better however. This
             galley was wider, and rather then the open deck for soldiers to use
             during combat, it had a very large cabin a top. Almost blocking the
-            view of the captain. It's most distinguishing feature though was the
+            view of the captain. It's most distinguishing feature through was the
             sails were sporting royal insignia and colors. The witch of Alden
             burning a feathered dragon, a knight with ultra-violet purple
             lightning (紫气东来), running up his spear, lodged inside the same
@@ -76,9 +76,9 @@ function Travel(props) {
           <Effi>
             You could tell which royal was aboard by the supporting flags flown
             from the cabin. Crown prince, heir apparent, Alphonse Elzach. His
-            was simple, his sword 'Kojkan' being shoved though his crown. It was
+            was simple, his sword 'Kojkan' being shoved through his crown. It was
             said the crown was on top, but it just looked like he shoved the
-            sword though it. Kojkan was a strange name, even for a sword. This
+            sword through it. Kojkan was a strange name, even for a sword. This
             sword was suppose to have magic powers, be very old, and passed down
             to the heir to commemorate his position. It looked dirty. It was
             black like dried blood, even the blade, like the thing was never
@@ -110,7 +110,7 @@ function Travel(props) {
             not noble so we were not allowed to have our own banner, however
             most students would be using the banner of Alden not their home
             towns, so it was somewhat different. The final detail that stood out
-            for me the most though was on the inside of the shield she had
+            for me the most through was on the inside of the shield she had
             painted the words 'You Are Loved' right at the top near the rim so I
             would always see them.
           </Effi>
@@ -118,7 +118,7 @@ function Travel(props) {
             Shield and dreams in hand I grouped up with the others from our
             village, as well as the students who joined us previously. The
             students from this town would also join us on our walk south. I had
-            spotted Otto traveling with us, he stayed with the other mages from
+            spotted Otto travelling with us, he stayed with the other mages from
             our village although he didn't seem to speak much. I pulled him
             along with me from that point on, at least until we would reach
             Grafen he would have someone to talk to. Although that was a little
@@ -126,7 +126,7 @@ function Travel(props) {
           </Effi>
           <Effi>
             After we had packed up the adults of this town had joined us to take
-            us to the next location. Before we left though they said the prince
+            us to the next location. Before we left through they said the prince
             was giving an announcement in the town and it might be beneficial
             for us to watch it. After all we could afford some time, the
             distance to the next town Shomberg was the same distance back to
@@ -193,7 +193,7 @@ function Travel(props) {
             crimes. To find 30 people in one town condemned to death. Had the
             town kept them for the prince, or had the prince added those who
             would otherwise receive lesser punishments? Who would ever know. One
-            thing was sure though, this was entertainment for the prince and his
+            thing was sure through, this was entertainment for the prince and his
             entourage. The smile sticking to his face was large and full of
             laughter each time those down below would fall into the beasts path.
           </Otto>
@@ -319,7 +319,7 @@ function Travel(props) {
           </p>
           <p>
             "No, not particularly. It is no crime to travel at the same time,
-            and traveling in numbers offers its own kind of protection." He said
+            and travelling in numbers offers its own kind of protection." He said
             seemingly less jittery now.
           </p>
           <p>
@@ -411,7 +411,7 @@ function Travel(props) {
             "That some kind of joke?" I asked confused by his sense of humor.
           </p>
           <p>
-            "Yeah, sorry, a dark one. Close to the truth though. In Bilkotgopia
+            "Yeah, sorry, a dark one. Close to the truth through. In Bilkotgopia
             people go missing, it's always blamed on the beasts but strong
             beasts rarely travel across into Alden." He explained.
           </p>

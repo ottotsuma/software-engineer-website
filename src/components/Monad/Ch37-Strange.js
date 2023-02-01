@@ -82,14 +82,14 @@ function Intro(props) {
         I got home. I felt bad that I would not get to thank him for every day
         he had made me breakfast and let me stay in his house at all. I slept
         for the rest of the day, and that night only waking up later the next
-        day. The sun shone in though the window, but I was in no rush to wake
+        day. The sun shone in through the window, but I was in no rush to wake
         up. I knew I would have to at least show my face at the academy today
         before Lubin came looking for me but I really wish I had time to soak
         everything in.
       </Otto>
       <Otto>
         I kicked the sheets off me and looked around my room for any items I
-        might of forgotten. My White Stag Mask & Hui Lu's armor pieces were kept
+        might of forgotten. My White Stag Mask & Hui Lu's armour pieces were kept
         inside my storage ring. My Academy Robe would likely be replaced when I
         move classes anyway. Apart from that, I did not really own anything. No
         weapon, accessories, personal clothes or even things I brought from
@@ -161,7 +161,7 @@ function Intro(props) {
       {/* <Takeo>
         "Hey hey now, you two are off in your own world." When I opened my eyes,
         we broke our hug slowly still holding hands I saw behind her was Takeo,
-        his friendly face was nice to see again. Not as nice as Tsuma's though,
+        his friendly face was nice to see again. Not as nice as Tsuma's through,
         best keep that to myself.
       </Takeo>
       <Otto>
@@ -234,11 +234,11 @@ function Intro(props) {
       <Otto>
         "I. I will ask, it's not like I want to go to war, but wit my recent
         move into a new class, I am not sure what faction I am in now honestly.
-        To be truly honest though I want to go to Niyosho with you." I admit.
+        To be truly honest through I want to go to Niyosho with you." I admit.
       </Otto>
       <Tsuma>
         "If you could, I would be ecstatic! Your parents and friends are both
-        here though, so you cannot just flee. The army would label you as a
+        here through, so you cannot just flee. The army would label you as a
         deserter. Then you would implicate them also, you'd never be able to see
         them again." Tsuma tailed off.
       </Tsuma>
@@ -280,7 +280,7 @@ function Intro(props) {
       <p>"I can answer either?"</p>
       <p>"Yes, since you are first."</p>
       <p>
-        "The foreign mana comes from the monsters we kill or from quests though
+        "The foreign mana comes from the monsters we kill or from quests through
         the gods."
       </p>
       <p>"Yes, that is the current thought. And ***name***?"</p>

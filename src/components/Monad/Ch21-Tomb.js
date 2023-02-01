@@ -68,7 +68,7 @@ function Intro(props) {
           <p>
             There was 5 of them in total, the first to approach us and speak had
             a sly smile across his face, hair pushed back as if he had just run
-            both his greasy hands though his hair. Since they where in the 3rd
+            both his greasy hands through his hair. Since they where in the 3rd
             year they must be doing their work experience here in the academy.
             At least we could be sure they were not direct combat mages. The
             only reason a mage might stay is to study theory under one of the
@@ -222,7 +222,7 @@ function Intro(props) {
           </p>
 
           <p>
-            After more traveling Tisiel finally shouted over the sound of
+            After more travelling Tisiel finally shouted over the sound of
             rushing sand, "Should be near by, watch out for places where the
             sand looks like it's sinking in, it's either the cave entrance or a
             sink pit."
@@ -328,7 +328,7 @@ function Intro(props) {
 
           <p>
             After a short walk through the tunnel wide enough to stand only 2 by
-            2 we soon exited though to another larger cavern. Before us was a
+            2 we soon exited through to another larger cavern. Before us was a
             giant temple, with columns stretching far into the air but not
             touching the roof, they appeared to be randomly placed coming out of
             the ground with nothing on top. In the middle was a large building
@@ -377,7 +377,7 @@ function Intro(props) {
             right up to the alter. "It's a hand print you morons it needs a
             hand." Gelfrat said as he proceeded to push his hand into the
             indent. To nobody elses shock this was a mistake, a few spikes
-            pushed up into and though Gelfrat's hand and out the other side
+            pushed up into and through Gelfrat's hand and out the other side
             regardless of skin or bones. Blood dripped down the spikes and
             flowed across his hand filling the indent. His screaming filled the
             round hall bouncing off the walls so that we could not even think
@@ -525,7 +525,7 @@ function Intro(props) {
             was no good at deciphering I recognize this as the number 5. No
             doubt Nymandus was looking at the number 1 and Linhart the number 3,
             if it matched the amount of entrances we missed by falling down.
-            Without Nymandus's blessing though I would of fallen so far I would
+            Without Nymandus's blessing through I would of fallen so far I would
             of either died or seen the number 100.
           </p>
 
@@ -678,7 +678,7 @@ function Intro(props) {
           </p>
 
           <p>
-            "Yeah. Best not to go backwards though. What's with this bridge? Is
+            "Yeah. Best not to go backwards through. What's with this bridge? Is
             there another monster that pulls you off?"
           </p>
 

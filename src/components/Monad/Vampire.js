@@ -302,7 +302,7 @@ export function SpellFinder() {
           Hop
           Fleet of Foot
           + Passives
-          + Weapon basic [and only basic] skills learned though using the weapon.
+          + Weapon basic [and only basic] skills learned through using the weapon.
         </div>
         <div>Pre-Dao, Dao-era, Immortal-era, (Huge beats, men struggling, the island is cleansed of men), (Foundation of empires in the east and this continent is invaded by the humans for the first time since the immortals), (Men overcome beasts and empires start here and in the east the religious wars start), Pyramid (Kʼawiil) Empires of men, Pocotcotcan (The one empire), Witch (Rebellion), Now.
 Pre-Dao, Dao, Immortal, Dark-Age, (Dawn Age) Great Migration, Warning Kingdoms Period, Pyramid (The One Kingdom), Pocotcotcan Empire, Witch, Now.</div>
@@ -344,7 +344,7 @@ Pre-Dao, Dao, Immortal, Dark-Age, (Dawn Age) Great Migration, Warning Kingdoms P
 
           <li>Dexterity (Reflexes)</li>Increases Attack Speed, dodge change, movement on rough terrain. Reduces skills cool down.
 
-          <li>Sense</li> Range of attacks, accuracy. Trap Detect (All of the senses, hearing, taste, touch, smell.) Seeing though smoke screens and illusions. Seeing weakness and injuries in your opponent (CRIT), Range of summons / familia can move from you.
+          <li>Sense</li> Range of attacks, accuracy. Trap Detect (All of the senses, hearing, taste, touch, smell.) Seeing through smoke screens and illusions. Seeing weakness and injuries in your opponent (CRIT), Range of summons / familia can move from you.
 
           <li>Charisma</li> Increases NPC likability, command points
         </div>

@@ -42,7 +42,7 @@ function Intro(props) {
           <Equipment
             items={{
               Body: {
-                name: "Hui Lu's Battle Armor",
+                name: "Hui Lu's Battle Armour",
                 effect: "???",
                 rating: "normal",
               },
@@ -68,7 +68,7 @@ function Intro(props) {
             the new class. It felt wrong, like the display was for someone elses
             and mine would come back any moment. I want to believe it was
             because the lightning damaged it in some way. Seeing that faith had
-            N/A next to it though, it must of had something to do with the worst
+            N/A next to it through, it must of had something to do with the worst
             God ever.
           </p>
 
@@ -308,7 +308,7 @@ function Intro(props) {
           <p>
             I couldn't keep running like this, I was going to collapse any
             moment. As soon as I slowed down one of the three skeletons I could
-            see shot a bone from his hand like a spear and it went though my
+            see shot a bone from his hand like a spear and it went through my
             right leg. It did not slow down at all and pierced all the way
             through the other-side and stuck into the ground.
           </p>
@@ -343,7 +343,7 @@ function Intro(props) {
           <p>
             My mana recovered after one moment, the damage might of been small
             but so was my amount of mana. It seemed like because they where made
-            of these shadows and just using the skeletons as armor my seed was
+            of these shadows and just using the skeletons as armour my seed was
             having a strange reaction causing my mana to shoot up.
           </p>
 
@@ -446,7 +446,7 @@ function Intro(props) {
             human then immortal. The walls where coated with the wood and there
             where carvings of birds everywhere. Some even had a human body with
             bird wings coming from the back or under the arms. The door I came
-            though was a darker wood, almost black in color.
+            through was a darker wood, almost black in color.
           </p>
 
           <p>
@@ -501,7 +501,7 @@ function Intro(props) {
           <p>
             The stair case lead me to another door made of the same color of
             wood with the same design. It was strong enough to keep those
-            monsters out so I had no chance to break though it, really lucky the
+            monsters out so I had no chance to break through it, really lucky the
             mechanisms still worked. I opened the door and it swung inwards as a
             man wearing a white and red monkey mask fell down at my feet.
           </p>

@@ -37,7 +37,7 @@ function Banderedam(props) {
             foot.
           </p>
           <p>
-            Once at the gate we passed though a checkpoint where guards were checking people coming into
+            Once at the gate we passed through a checkpoint where guards were checking people coming into
             the city. With my ID card, letters of introduction to the magic
             academy and my age, it was easy for me to pass through the gate. Leon
             lived there, so he was able to pass through without issue. After meeting up again
@@ -138,7 +138,7 @@ Charlemagne in 794 decreed that a single silver penny (weighing 1.7 grams) shoul
             "Only students from noble houses pay with cash anyway, if you sign
             for something I can collect it later at the academy and they take it
             from your mission rewards, until they are paid back. Don't go crazy
-            though they won't loan a first year more then ¤100,000." He
+            through they won't loan a first year more then ¤100,000." He
             explained.
           </p>
           <p>

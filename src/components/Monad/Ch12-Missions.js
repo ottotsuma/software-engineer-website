@@ -27,7 +27,7 @@ function Intro(props) {
             someone. Tisiel's mission of going through old junk and decrypting
             them seemed to suit her, Reingard had even joined her as a
             bodyguard. Otto left through the portal back to Banderedam, this
-            mission would take him though Chihal and down to Savigal a port town
+            mission would take him through Chihal and down to Savigal a port town
             on the border with Herkikia. Since his ID now had him marked as a
             combat mage he was able to join a merchant group heading to Chihal.
           </p>
@@ -53,8 +53,8 @@ function Intro(props) {
           {/* <!-- Market place with strange goods. --> */}
           <p>
             The market place was selling all kind of oddities with merchants
-            traveling between ports and cities stopping off here they opened
-            shop from their wagons, wands, weapons, armor, skeletons, mana
+            travelling between ports and cities stopping off here they opened
+            shop from their wagons, wands, weapons, armour, skeletons, mana
             stone, mounts, there was even one merchant selling long metal tubes
             with a wooden handle, he claimed they where wands of some kind,
             their group had a hard fight against the people using them but had
@@ -66,7 +66,7 @@ function Intro(props) {
             yesterday. Without the wagon to sit in today would leave him tired.
             Wrapping the robe around himself to keep the wind off he walked
             along the path with the rainforest on either side. There were a few
-            others traveling also but most of the merchants and others where
+            others travelling also but most of the merchants and others where
             heading to Banderedam or the two larger ports in the area. Savigal
             would be a small port it seems. After walking for 3 hours Otto
             needed to pee, walking into the rainforest just off the path to do
@@ -98,7 +98,7 @@ function Intro(props) {
             made his way for another hour before coming across another body, a
             merchant he had seen earlier that day. This body was fresh, still
             bleeding out but long dead. He was not a well to do merchant, he had
-            no wagon or body guards but was traveling with others. Seems they
+            no wagon or body guards but was travelling with others. Seems they
             had no robbed him as his trinkets and food lay scattered about the
             path and into the forest.
           </p>

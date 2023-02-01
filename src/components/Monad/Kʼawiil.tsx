@@ -149,7 +149,7 @@ const data: SkillType[] = [
     tooltip: {
       // attribute buff
       content:
-        "Your skin slowly becomes like a serpents. Able to turn on and off scaled armor over your skin.",
+        "Your skin slowly becomes like a serpents. Able to turn on and off scaled armour over your skin.",
     },
     children: [
       {

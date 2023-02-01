@@ -67,34 +67,27 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             {/* <!-- Next to some kind of map not the first chapter --> */}
 
             {/* Some kind of fight? */}
-            </BreakPoint>
-            <BreakPoint id="Herkikia">
+          </BreakPoint>
+          <BreakPoint id="Herkikia">
             <h3>Herkikia - Jun 01 21-12</h3>
             <p>
               The Herkikia League had always been the best place on the
               continent to be a mercenary. The past few years had made that statement even more true, this year more then ever.
             </p>
             <p>
-              However all good things must come to and end. The people who had invaded from across the endless eastern sea, had proven it was not endless and the daft pricks didn't bring enough food with them to be starting a war.
+              However, all good things must come to an end. The people who had invaded from across the endless eastern sea, had proven it was not endless and the daft pricks didn't bring enough food with them to be starting a war.
             </p>
             <p>
-              I must not let my guard down though, a cornered beast will fight harder. To the west,
+              I must not let my guard down through, a cornered beast will fight harder. To the west,
               the monster jungles of Chingaling, their east the army's of the
-              Herkikia league of city states. To the north the sea they came from, which finally left the south the mercenaries hired by the League to finish the encirclement. Us.
+              Herkikia league of city states. To the north the sea they came from, which finally left the south the mercenaries hired by the League to finish the encirclement.
             </p>
             <p>
               If these sea people had any sense they would focus their attacks
-              on this side. The pay is good but it's no good to a dead man. Then again it might be better if they just left into the sea from once they came.
+              on this side. The pay is good but its no good to a dead man. Then again it might be better if they just left into the sea from once they came.
             </p>
             <p>
-              "Are you trying to explain the plan to Rock Head again? You know
-              why we call him that right?" A tall, wide, muscular man
-              interrupted me. On his head, was a wampus cat's head. I'd seen him
-              kill it, it's yellow eyes were suppose to be able to hypnotize a
-              person who looked into them, this man could only have one thought
-              in his head at a time, 'wack it till it's dead'. If he's telling
-              me Rock Head has less brains than him maybe he's right, but
-              honestly it was more to clam my nerves.
+            "Are you trying to explain the plan to Rock Head again? You know why we call him that right?" A tall, wide, muscular man interrupted me. On his head, was a wampus cat's head. I'd seen him kill it, its yellow eyes were supposed to be able to hypnotise a person who looked into them, this man could only have one thought in his head at a time, 'whack it till it's dead'. If he's telling me Rock Head has less brains than him maybe he's right, but honestly it was more to calm my nerves.
             </p>
             <p>
               I gave him a nod of understanding and he went back to stuffing his
@@ -143,15 +136,15 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             <p>
               The Herkikians moved in first, in lines with long spears pointed
               out over their shields. They formed walls of spears and white
-              armor. Our skirmishers were the first to engage them, those who threw
-              projectiles or magic into the enemies to tie them down. Once the skirmishers pulled back we would move in to tie up the disorganized enemies. In theory.
+              armour. Our skirmishers were the first to engage them, those who threw
+              projectiles or magic into the enemies to tie them down. Once the skirmishers pulled back we would move in to tie up the disorganised enemies. In theory.
             </p>
             <p>
               As soon as the skirmishers started to pull back we ran in. I cast
               'Ice spear' into their ranks. I wrapped my sword with ice magic as
-              we got closer. The berserker from before shouted louder then a war
+              we got closer. The berserker from before shouted louder than a war
               drum next to me and jumped into their ranks swinging his club
-              around at whoever was near by. With their ranks fully broken up I
+              around at whoever was nearby. With their ranks fully broken up I
               was able to fight small duels which was more my style.
             </p>
             <p>
@@ -163,25 +156,25 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
               language I don't know. "썅놈" I moved back as he was dying and
               gathered magic into my hand. He reached down and pulled up a wand?
               He pointed it right at my head and the sound it gave off blew my
-              ear drums out, there was a large flash of light, then nothing.
+              eardrums out, there was a large flash of light, then nothing.
             </p>
           </BreakPoint>
           <div className="pop">
-              Map of Chab
-              {/* http://www.mesoweb.com/resources/vocabulary/English-Maya.html */}
-              {/* <img
+            Map of Chab
+            {/* http://www.mesoweb.com/resources/vocabulary/English-Maya.html */}
+            {/* <img
                 className="popOut"
                 src="https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-44.png"
                 height="400px"
                 alt="MapOfMonad"
               /> */}
-              {/* <ImageZoom alt="MapOfMonad" image="https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-44.png" /> */}
-              <ImageZoom
-                className="popOut"
-                alt="MapOfMonad"
-                image="https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-45.png"
-              />
-            </div>
+            {/* <ImageZoom alt="MapOfMonad" image="https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-44.png" /> */}
+            <ImageZoom
+              className="popOut"
+              alt="MapOfMonad"
+              image="https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-45.png"
+            />
+          </div>
           <BreakPoint id="Steinauhau">
             <h3>Steinauhau - Jun 12 21-12</h3>
             {/* The Grand Duchy of Alden is home to 3.2 million people */}
@@ -200,23 +193,18 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             </div>
             {/* <!-- Starting with the setting up of the place? and events. --> */}
             <p>
-              "Congratulations!" A unified cheer rang out around the town hall,
-              looking down into my cup I lamented, the reflection looking back
-              at me was far older then it use to be. Stiff and past the age
-              where I should be drinking luminescent green drinks. I had always
-              liked moon-melon juice ever since I first tired it over 70 years ago
-              now. Soon the reflection in my cup smiled back.
+              "Congratulations!" A unified cheer rang out around the town hall. Looking down into my cup, I lamented. The reflection looking back at me was far older than it used to be. Stiff and past the age where I should be drinking luminescent green drinks. I had always liked moon-melon juice ever since I first tried it over 70 years ago now. Soon, the reflection in my cup smiled back.
             </p>
             <p>
-              "You look happier then you have in years." My thoughts interrupted
+              "You look happier than you have in years." My thoughts interrupted.
               I turned to see my old friend Edmure.
             </p>
             <p>
-              "I was just thinking about how new life replaces the old" I
+              "I was just thinking about how new life replaces the old." I
               continued to smile.
             </p>
             <p>
-              With a frown at first and then smile Edmure retorted "You thinking
+              With a frown at first and then a smile Edmure retorted "You thinking
               how you just became a grandad? There is still life left in
               the both of us yet."
             </p>
@@ -227,11 +215,11 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             </p>
             <p>
               Edmure had whispered into my ear before taking his leave. There have been sightings of the sea people off the coast. They had been pushed back into the sea at
-              the last battle of Herkikia, only a couple of weeks back, they might be trying to land further north. I left the town hall and went to the walls to meet up with Edmure.
+              the last battle of Herkikia, only a couple of weeks back, they may try to land further north. I left the town hall and went to the walls to meet up with Edmure.
             </p>
             <p>
               We left the town, and went through the forests. We went to the area
-              where the sea people where last seen and going through the forest.
+              where the sea people were last seen going  through the forest.
               I saw large boats off in the distance, so I had to check who, if any of
               them had come ashore before reporting back.
             </p>
@@ -256,31 +244,31 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
               It had been 10 years to the day since Edmure had come back with a blood soaked diary. David was my wife's dad. Edmure, his best friend, had
               later moved to Swexausern, about 25km north-west. I was told he
               died peacefully two years ago. The town
-              was getting ready for the same festival again. I guess that's what lead me to read his diary again today.
+              was getting ready for the same festival again. I guess that's what led me to read his diary again today.
             </p>
             <p>
               "Hey Karla." I waved towards her, coming towards our house holding
               hands with 3 children. Two older girls and a boy, all the children
               had red hair like their mother. As they got closer I
               nudged Sarah and pointed to our son's smiling face. He only smiled
-              like this when Effi, Karla's daughter was around.
+              like this when Effi, Karla's daughter, was around.
             </p>
             <p>"Good to see you are all well" Sarah said.</p>
             <p>"You too, Where is Robert?" I asked.</p>
             <p>
               "He's going to meet us later on, he went to the hall to get the news
-              and left me alone with these loverly lot." Karla replied.
+              and left me alone with these lovely lot." Karla replied.
             </p>
             <p>
-              Our families now combined into one big group, made our way towards the wood near by. We met with other families of the town. The children quickly
-              ran off into the forest to play leaving us to build a fire and set up the tables for
+              Our families now combined into one big group, made our way towards the wood nearby. We met with other families of the town. The children quickly
+              ran off into the forest to play, leaving us to build a fire and set up the tables for
               tonight's festivities, Jun 12th.
             </p>
             <p>
-              While sharpening one of the axes Robert had come to share the news a group of traveling merchants had brought with them. Mostly news of ongoing problems just north of our border. People living there have been unhappy with the Republic's increased taxes and conscripting their children and young adults to fight in a war so far from home. The villages still had to fend off the local beasts of their own, as well as other jobs which were not longer being fulfilled. The republic had a massive Avalanche in Neuenese and a Fault in Moborodian, the earth there had opened up and monsters and beasts from the depths had spread out.
+              While sharpening one of the axes Robert had come to share the news a group of travelling merchants had brought with them. Mostly news of ongoing problems just north of our border. People living there have been unhappy with the Republic's increased taxes and conscripting their children and young adults to fight in a war so far from home. The villages still had to fend off the local beasts of their own, as well as other jobs which were not longer being fulfilled. The republic had a massive Avalanche in Neuenese and a Fault in Moborodian, the earth there had opened up and monsters and beasts from the depths had spread out.
             </p>
             <p>
-              Those unhappy with their treatment had finally boiled over and started protesting at first, one thing led to another and now we call them the rebels. Somewhere between 100,000~300,000 in number. Since most where not soldiers beforehand
+              Those unhappy with their treatment had finally boiled over and started protesting at first, one thing led to another and now we call them the rebels. Somewhere between 100,000~300,000 in number. Since most were not soldiers beforehand
               the success of the rebels was blamed on Aldens, us, supplying the
               rebels.
             </p>
@@ -294,7 +282,7 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             </p>
             <p>I shot a breath of air out of my nose as I laughed silently. "Well is there any news NOT from the Republic?" I asked.</p>
             <p>
-              "Elves have had an outbreak of cat fever. Gianlongian in Herkikia is going though a drought, near their second biggest port city. Desonean, the main river through the kingdom has flooded. To top it all off, a Malgian Crusade has been called in the Kingdom, I can only hope those crazy zealots die in the desert." Robert said.
+              "Elves have had an outbreak of cat fever. Gianlongian in Herkikia is going through a drought, near their second biggest port city. Desonean, the main river through the kingdom, has flooded. To top it all off, a Malgian Crusade has been called in the Kingdom, I can only hope those crazy zealots die in the desert." Robert said.
             </p>
             <p>
               "What a year..." I commented. "What's cat fever anyway?" I asked.
@@ -310,7 +298,7 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             {/* koko */}
             <p>
               Every night I teach my son Otto more about the skill. Inspect is one of the few skills that do not require skill points to learn, which is nice.
-              {/* However the passive skill appraisal, which increases how much information the inspect skill uncovers, did require skill points. I was lucky enough to learn the skill though sheer luck.  */}
+              {/* However the passive skill appraisal, which increases how much information the inspect skill uncovers, did require skill points. I was lucky enough to learn the skill through sheer luck.  */}
             </p>
             <p>
               It's a safe well paying job, I always hoped Otto could learn it too so he can have a safe life.
@@ -336,7 +324,7 @@ most people learn inspect but either see
             {/* From who's point of view?, Effi, telling her mom what happened. */}
             {/* Or Otto telling his Dad which rolls into the aftermath. */}
             <p>
-              
+
             </p>
             <p>
               The group of seven, laughing running into the forest, beyond the eyes
@@ -518,7 +506,7 @@ most people learn inspect but either see
               It die's from blood loss shortly after.
             </p>
             <p>
-              The whole encounter took just a few moments, even though to the
+              The whole encounter took just a few moments, even through to the
               group it felt a long time. Two of their friends lay dead in their
               own blood, Nils kneels by Jakob's body shivering unable to bring
               himself to move or speak. Beke shouts out for all to hear, blaming
@@ -559,7 +547,7 @@ most people learn inspect but either see
             </p>
             <p>
               We stood watching the body burn. "Scouting turned up nothing,
-              maybe it was a pet and it's owner died near by, there were no
+              maybe it was a pet and it's owner died near by, there were not
               traces of other kappas in the area. That being said I have had
               reports of increasing beast attacks to the north, around
               Swexausern." Robert said.
@@ -975,7 +963,7 @@ most people learn inspect but either see
               to set off.
             </p>
           </BreakPoint>
-          {/*Alphonse -  In the arena, 30 had been commended to die. Malnourished and with cuts and bruises still healing from rough treatment by their jailors. They were completely naked and jeered at spitefully by the crowd. Each has their hands tied behind their back, standing on a long plank of wood resting on a fulcrum. Suddenly there is a loud grown of scraping wood and the clanking of chains, 20 beasts are raised though the floor from the network under the arena. They have been deliberately kept starving for today. They took no time to spot their prey and with a loud screaming roar each charged forward. The panicked prisoners watch the beasts approach, in a flash the beasts are upon them, the first leap out of the way rising high into the air on the long plank of wood, safe for a moment from mutilation that would of been their destiny if they had remained on the ground. However this temporary respite comes at a cost, the men at the other end of the plank are each lowered towards the ground, with the beasts below. Their faces, legs, torsoes are ripped apart with pincers, claws and fangs. The lucky ones are killed quickly, while the others are ripped torn and devoured while they are still alive and screaming. Some of them blind with fear leap into the air, sending their opposite side down into the beasts. The beasts tare into them, the whole thing is a perverse game of seeing who will die last, although death is inevitable for everyone involved. */}
+          {/*Alphonse -  In the arena, 30 had been commended to die. Malnourished and with cuts and bruises still healing from rough treatment by their jailors. They were completely naked and jeered at spitefully by the crowd. Each has their hands tied behind their back, standing on a long plank of wood resting on a fulcrum. Suddenly there is a loud grown of scraping wood and the clanking of chains, 20 beasts are raised through the floor from the network under the arena. They have been deliberately kept starving for today. They took no time to spot their prey and with a loud screaming roar each charged forward. The panicked prisoners watch the beasts approach, in a flash the beasts are upon them, the first leap out of the way rising high into the air on the long plank of wood, safe for a moment from mutilation that would of been their destiny if they had remained on the ground. However this temporary respite comes at a cost, the men at the other end of the plank are each lowered towards the ground, with the beasts below. Their faces, legs, torsoes are ripped apart with pincers, claws and fangs. The lucky ones are killed quickly, while the others are ripped torn and devoured while they are still alive and screaming. Some of them blind with fear leap into the air, sending their opposite side down into the beasts. The beasts tare into them, the whole thing is a perverse game of seeing who will die last, although death is inevitable for everyone involved. */}
           {/*
 <!-- 
 These are the names given by the people of Alden.   

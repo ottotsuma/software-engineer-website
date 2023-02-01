@@ -69,7 +69,7 @@ function Intro(props) {
           </p>
 
           <p>
-            "Run you moron, they are going to rip you apart." I shouted though
+            "Run you moron, they are going to rip you apart." I shouted through
             my rock form. I grabbed hold of his arm and dragged him away as he
             shot rocks and water behind us. The little flies followed us out
             into the tunnels.
@@ -125,7 +125,7 @@ function Intro(props) {
 
           <p>
             I wanted to scream, undo what happened, wake up. None of those
-            things happened though, as if by automatic response I shot mana rock
+            things happened through, as if by automatic response I shot mana rock
             towards the zombie and covered myself in rocks. Before the
             transformation finished something stung my neck, and I crushed it
             with the rocks. A small bug.
@@ -158,7 +158,7 @@ function Intro(props) {
             other end of the tunnel, although he must be a pile of ash by now.
             He deserved it for tricking me on the bridge back there. If the
             others found out what happened I would of become a joke, now without
-            him here there is no one to refute me. Weird though, the elders
+            him here there is no one to refute me. Weird through, the elders
             always told me the first time you kill someone it's very common to
             feel sick. I guess common means it's not certain.
           </p>
@@ -201,7 +201,7 @@ function Intro(props) {
             peered down the small gap created when the stone moved during the
             explosion, even more embarrassing the rock was still solid nothing
             had broken off. That professor had a long way to go. I could see
-            though into the darkness and waited for my eyes to adjust.
+            through into the darkness and waited for my eyes to adjust.
           </p>
 
           <p>
@@ -278,7 +278,7 @@ function Intro(props) {
           <p>
             As we went inside more, we walked around the reception desk and
             heard a huge BANG. The doors had finished opening. Inside was rows
-            and rows of swords, armor, shields and other items all lined up on
+            and rows of swords, armour, shields and other items all lined up on
             display on ranks and manakins. "Vortigern, is this, the treasure
             room?" I asked gently.
           </p>
@@ -328,7 +328,7 @@ function Intro(props) {
 
           <p>
             I turned to see Reingard and ask him to help me collect the
-            treasures around here, but I saw he was half way though grabbing the
+            treasures around here, but I saw he was half way through grabbing the
             helmet off one of the giant statues... I burst out laughing. "Leave
             the giant items, and just take the smaller stuff, once we grabbed as
             much of that as we can we are going to the treasure room and
@@ -426,7 +426,7 @@ function Intro(props) {
           </p>
 
           <p>
-            He pointed to what looked like the the same doors we came though
+            He pointed to what looked like the the same doors we came through
             except they where completely white and at the opposite end. "Linhart
             pushed me through the lightning tunnel this is where it came out." He
             replied.
@@ -525,9 +525,9 @@ function Intro(props) {
           <p>"Urgh, this tomb was suppose to make us rich." I complained.</p>
 
           <p>
-            "There is more armor back here." Otto shouted from up ahead. I got a
+            "There is more armour back here." Otto shouted from up ahead. I got a
             little excited and bound down past the jewels and saw Otto stood
-            before a set of black and red leather armor, boots and arm guards.
+            before a set of black and red leather armour, boots and arm guards.
             To his left where 4 other sets of armors and mounted behind them
             higher up was one last set. Each set had stone tablet tags along
             side them so we asked Vortigern to translate them all for us.
@@ -542,18 +542,18 @@ function Intro(props) {
             I think. There is no attribute buff on any piece, and let me just add
             that magic items with skills are rare today but in the time off
             immortals is basically unheard of outside of royal circles. There is
-            a brief description of each skill but if the armor even contains
+            a brief description of each skill but if the armour even contains
             useable fire elements after all this time let alone is a skill I am
             not sure." Vortigern explained as Otto stared on with a blank face.
-            Knowing him he just liked the look of the armor once he finds out it
+            Knowing him he just liked the look of the armour once he finds out it
             cannot help him he will lose interest if another piece suits him
             better. Vortigern went on to explain the other three pieces in a
             similar manner. They where earth, water, metal and wood.
           </p>
 
           <p>
-            As for the final set of armor up on high, it was pure black in color
-            and was said to contain the death element. The black from each armor
+            As for the final set of armour up on high, it was pure black in color
+            and was said to contain the death element. The black from each armour
             set was to show their allegiance to the king of death, who would
             wear the final set. "I would hazard a guess that if we were to
             travel to the school of light they would as well have similar sets
@@ -618,7 +618,7 @@ function Intro(props) {
             was the crazy one!
           </p>
           <p>
-            He had a point though, I wanted to see if the skills still worked.
+            He had a point through, I wanted to see if the skills still worked.
             "Okay but you two get out of here, and take Vortigern with you." I
             threw him to Reingard.
           </p>
@@ -638,7 +638,7 @@ function Intro(props) {
           </p>
 
           <p>
-            I could feel the mana moving from me and throughout the armor, there
+            I could feel the mana moving from me and throughout the armour, there
             was only 3 pieces in total and it felt like part of it was missing
             although I could not explain it. I could only put it down to there
             was no head gear or weapon to match. If it was an outfit for the
@@ -650,7 +650,7 @@ function Intro(props) {
             activate, but no matter what I tried it seemed like either I did not
             have enough mana or maybe the pieces where defective after all it
             has been ... 7 maybe 8 eras since it was made. Most of my other
-            equipment was accessories though so it did not hurt my combat
+            equipment was accessories through so it did not hurt my combat
             capability to keep it on.
           </p>
 
@@ -659,7 +659,7 @@ function Intro(props) {
           <p>
             Otto had black leather boots with metal in places dyed with red as a
             second color, his black baggy trousers under with a black leather
-            armor onto, with red trim and in the middle a red 8 pointed shape
+            armour onto, with red trim and in the middle a red 8 pointed shape
             that was not quite a star. In the middle was a fire pattern in gold.
             On his arms where wrapped looking arm guards with red woven
             throughout.
@@ -668,7 +668,7 @@ function Intro(props) {
           <p>
             Reingard was starting to look more like a prince, with his outfit
             being black leather throughout but on top and sometimes peeking
-            though patches in the leather was sparking silver plates. It was not
+            through patches in the leather was sparking silver plates. It was not
             real silver but it looked like it was but something much stronger.
             He held in his left hand a shield made of his metal mana. Curiously
             we all had three parts each with no head or weapon.
@@ -700,7 +700,7 @@ function Intro(props) {
           <p>
             "Yeah. It was. I am a little worn out after being electrocuted a
             thousand times so maybe that was not the best test, but yeah, seems
-            like an armor skill." Otto said.
+            like an armour skill." Otto said.
           </p>
 
           <p>

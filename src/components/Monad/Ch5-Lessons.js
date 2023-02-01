@@ -405,7 +405,7 @@ function Lessons(props) {
           <p>"Urgh I can't decide!" I was frustrated.</p>
           <p>"Lets just go, you can pick on the way." She said.</p>
           <p>
-            "An explorer though? How come? I am going to be a battle mage in the
+            "An explorer through? How come? I am going to be a battle mage in the
             army." I said excited.
           </p>
           <p>
@@ -490,7 +490,7 @@ function Lessons(props) {
           <Tisiel>
             "Aww, it's your first time. Dungeons are usually quite dangerous
             places, full of beasts and if you are lucky treasures. Normal
-            dungeons you just have to fight your way though to the end and kill
+            dungeons you just have to fight your way through to the end and kill
             a boss, leader of beasts, to get the reward. Since this is a field dungeon
             however, I have only read about them but there might not necessarily
             be any beasts, a boss, or even treasures. It might even be full of

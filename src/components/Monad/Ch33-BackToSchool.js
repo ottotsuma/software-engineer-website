@@ -308,7 +308,7 @@ function Intro(props) {
           <p>
             I guess I was wrong about some of the class. They really did not all
             want to see me dead and wanted to play fair. I wonder what got the
-            others so against me though, it is not like I did anything to them.
+            others so against me through, it is not like I did anything to them.
             Max said he was paid off by Linhart, so that made some sense.
           </p>
           <p>
@@ -451,7 +451,7 @@ function Intro(props) {
           <p>
             I had read this almost everyday since coming ot the academy apparat
             from a few days were I had to work hard on some homework. Today I
-            was not going to keep reading it though, I was going to train
+            was not going to keep reading it through, I was going to train
             against some opponents in the arena. I had joined the dueling club
             at the start of the year after our fights. I enjoyed dueling more
             then anything else, it was easier to just have to keep your mind on
@@ -569,7 +569,7 @@ export default Intro;
 // Dark spots under the eyes reduce glare adn increase accuracy (Cheetah)
 // Which witch is which?
 // Blood tax, one child from 40 house holds. (Ottomans)
-// empire emperor dies and the mother fights back against the sons reforms, the reforms chose one religion and code of ethics to rule by instating new schools and imperial examinations, the court fight back and the new emperor puts his pawns in low level positions though-out the court so he can control it in secret when his mother dies he pacifies the lower realms
+// empire emperor dies and the mother fights back against the sons reforms, the reforms chose one religion and code of ethics to rule by instating new schools and imperial examinations, the court fight back and the new emperor puts his pawns in low level positions through-out the court so he can control it in secret when his mother dies he pacifies the lower realms
 // during the war monsters get past and kill villagers from Otto's village his parents included and the blame is placed on otto and his forces but in was in fact the young lords
 // auto hunt class
 // maps show continent in real time

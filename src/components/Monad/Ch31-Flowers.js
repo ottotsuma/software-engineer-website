@@ -17,7 +17,7 @@ function Intro(props) {
           <p>
             The note had no name but it was clear who it was. I guess it was
             true the people around here did recognize me now. It was not like
-            some of the other students in the academy though. The people here
+            some of the other students in the academy through. The people here
             were kind to me. Maybe it was because I was the only Alden living
             here I did stand out a little bit. I guess I should go to class,
             then tell Ralsan at the farm I will be going back early. Even if she
@@ -28,7 +28,7 @@ function Intro(props) {
           <p>
             I washed my face and put on my school robe. The house I had moved
             into was really big, even my room was much bigger. The whole place
-            smelt of wood all the time though, which was nice but meant I could
+            smelt of wood all the time through, which was nice but meant I could
             not really use magic inside the house. The only other person living
             in the house was a kind middle aged man who made me breakfast
             everyday. He woke up early every day because he worked at the
@@ -113,7 +113,7 @@ function Intro(props) {
             were made of 6 students each, our challenge was to fight matches
             against each other until each group had a champion then the
             champions would fight with all of the students watching. It felt
-            like a pretty efficient way of doing it. Unlike the arena though
+            like a pretty efficient way of doing it. Unlike the arena through
             there was no system to teleport us out when we became too damaged.
           </p>
           <p>
@@ -178,7 +178,7 @@ function Intro(props) {
             maybe the worst acting you ever saw. Hoping my awkward movements
             looked more real because he had just hit me in the spine. I saw Max
             coming towards me his arm covered in rock. I threw a lighting seed
-            at him which stuck to his robe parts piercing though and hooking
+            at him which stuck to his robe parts piercing through and hooking
             into his skin. He just became more angry and ran at me ready to slam
             his rock covered arm in to me.
           </p>
@@ -568,7 +568,7 @@ function Intro(props) {
             with it so much and the Luminous plant is a kind of plant, a moving
             man eating kind. I might of survived a bite, I had 5 vitality and
             the plant cant of been over level 9 itself. I would never get to
-            find out if I would of survived though. The Luminous plant had just
+            find out if I would of survived through. The Luminous plant had just
             disappeared.
           </p>
           <p>
@@ -583,7 +583,7 @@ function Intro(props) {
             Who could blame him. No way right? I checked my inventory and sure
             enough inside was Luminous plant parts. When I harvest the normal
             bacon leaf plants I would get to keep the leaves and seeds. It
-            seemed to just harvest what ever was useful. This time though I just
+            seemed to just harvest what ever was useful. This time through I just
             got some leaves. "Hey Ralsan, does the Luminous plant rarely produce
             seeds? Or anything useful?" I asked.
           </p>
@@ -636,7 +636,7 @@ function Intro(props) {
             about beheading a beast to finish it felt gratifying.
           </p>
           <p>
-            More importantly though! I have an attacking skill. It really only
+            More importantly through! I have an attacking skill. It really only
             hurts plants and low level ones unless I can get their HP below 20%.
             However with a 500% increase to my attack power, I should be able to
             kill even higher level plant monsters easily. What kind of cheat is

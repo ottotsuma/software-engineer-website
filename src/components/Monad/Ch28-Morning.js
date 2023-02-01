@@ -31,7 +31,7 @@ function Intro(props) {
             parts of the lecture I could use where bits on the human species skills
             which was in the past the least relevant as I wanted to be a combat
             mage and not really the party leader. Also the lessons about mana
-            and magic in a more general sense. I could only hope to get though
+            and magic in a more general sense. I could only hope to get through
             any practical parts of the lessons by using the stress of just
             coming back as a reason why I could no longer cast manaball. Not
             sure how long I could keep this up for. Lubin ended the lesson by
@@ -164,7 +164,7 @@ function Intro(props) {
           </p>
           <p>
             "Well I joined the martialist club, but really I want to switch. I
-            am not sure what to join though nothing really suits me." I replied.
+            am not sure what to join through nothing really suits me." I replied.
           </p>
           <p>
             "Why don't you try farming? It's what I do. Well I do it as a
@@ -496,7 +496,7 @@ collect or obtain (a resource) for future use.
             he will be angry I tried to eat his brother?
           </p>
           <p>
-            He just kind of stood there though, unmoving. I told it to go kill
+            He just kind of stood there through, unmoving. I told it to go kill
             the rats in the forest, it ran in the direction of the forest and I
             heard explosions go off. Maybe I should of told him about the
             explosions. When I arrived on the floor was what remained of an

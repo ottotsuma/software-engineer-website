@@ -33,7 +33,7 @@ function Intro(props) {
         Around were many other similar cages, holding other students inside. The
         earth element was one of the most common elements, especially in Alden.
         So many of the students, staff and mage-soldiers had this element. There
-        were extensive records, though trial and error on what spells worked
+        were extensive records, through trial and error on what spells worked
         well and what did not. Making these individual sized cages would barely
         be an inconvenience to these train mages.
       </p>
@@ -91,7 +91,7 @@ function Intro(props) {
         by anyone from Alden. Where they using us as test subjects?
       </p>
       <p>
-        My disgust at the academy would have to wait though, as the earth cages
+        My disgust at the academy would have to wait through, as the earth cages
         crumbled each of us. The area we were fighting in was the jungles to the
         east of the academy. They were usually thick with trees but a clearing
         had been made to house us for the start of the event. More then 270
@@ -108,7 +108,7 @@ function Intro(props) {
       <p>
         The ground was moving and shifting under the wishes of the earth mages,
         the wind shot one way and then the other under the control of the wind
-        mages. I kept putting one foot in front of the other, pushing though the
+        mages. I kept putting one foot in front of the other, pushing through the
         freezing and burning changes I felt on my skin. I was almost at the edge
         of the jungle when a dull pain stuck the side of my skull, it rang
         around my head, bouncing inside as I fell to the floor. I braced myself
@@ -148,7 +148,7 @@ function Intro(props) {
       <p>"Feels kind weird. It was so fast it doesn't feel real you know?"</p>
       {/* Some retard teacher explaining retarded rules */}
       <p>
-        "It's like the teacher said though, it's just the class rejects they
+        "It's like the teacher said through, it's just the class rejects they
         wouldn't of amounted to much anyway. Don't worry so much." - Student A
       </p>
       {/* The start of the event with people running away, retards running for the middle to battle out the 'strongest' */}
@@ -206,7 +206,7 @@ function Intro(props) {
       </p>
       <p>
         The starting battle had been a hectic brawl, the students had gone
-        though a fight of flight from the start. Water magic had clashed with
+        through a fight of flight from the start. Water magic had clashed with
         fire making the air in this clearing humid. The earth magic had reshaped
         the land below their feet into an uneven mess with pillars and large
         rocks littering the landscape. There were no blood mages present, still
@@ -302,7 +302,7 @@ function Intro(props) {
         the people in this." I said to try and shake her into reality.
       </p>
       <p>
-        "It's different when it's someone you know." Bruna chocked back though
+        "It's different when it's someone you know." Bruna chocked back through
         sobs. She lifted the muddy earth from around her feet and bombarded the
         bugs around Elsa with a brown hail.
       </p>
@@ -317,7 +317,7 @@ function Intro(props) {
         The first to jump into action after Bruna was Jarvia, she brought up a
         tree root from the moved earth and crudely transformed it into a wood
         spear. Grabbing it in both of her hands, she trust it into the air,
-        though the body of a beetle trying to fly around the wall of dirt. I
+        through the body of a beetle trying to fly around the wall of dirt. I
         conjured and morphed a metal sheet pushing back several beetles trying
         to move around the other side. "Milo!"I shouted as he moved in and
         unloaded a wave of flames across the beetles.
@@ -326,7 +326,7 @@ function Intro(props) {
         They screeched and screamed, flailing their many limbs into each other
         and thin metal sheet I bore down on them. When Milo had let up he looked
         haggard, now was not the time to take advantage of him but the beetles.
-        They had fled in all directions unable to pass though my barrier. Jarvia
+        They had fled in all directions unable to pass through my barrier. Jarvia
         had moved a few paces back, the manic beetles too overwhelming, caused
         her to fall back and bring up more tree roots from the ground to guard
         her sides. There was a handful of burning remains in front of her
@@ -335,7 +335,7 @@ function Intro(props) {
       <p>
         Before I could move to take advantage of the opportunity Milo had
         created I also had to move back a few paces. Bruna had lost control of
-        her dirt wall when a beetle or two had pushed though and pierced her leg
+        her dirt wall when a beetle or two had pushed through and pierced her leg
         with their mandibles. She wailed and screamed like a distraught
         banshee,barely formed rocks made of dirt flew out haphazardly into the
         fleeing and advancing foes.
@@ -466,12 +466,12 @@ function Intro(props) {
         I guess our overseers also thought it was a little to easy. The weather
         was perfectly calm, the undisturbed ecosystem under the blanket cover of
         tall trees. With no notice, a sandstorm, something unnatural, magical,
-        whipped though the jungle. The fallen pieces crept along the ground like
+        whipped through the jungle. The fallen pieces crept along the ground like
         spilled water, as the fierce winds splattered our faces with yellow
         specks causing us to go blind.
       </p>
       <p>
-        Covering our faces with our hands we ran though the jungle seeking
+        Covering our faces with our hands we ran through the jungle seeking
         shelter. If there was to be any cliffs they would be on the edge of the
         area we could go and likely this was a sign that area was getting
         smaller.
@@ -479,8 +479,8 @@ function Intro(props) {
       <p>
         That’s when we stumbled across a small cave entrance,tucked between some
         tree’s and covered by hanging moss. It was Jarvia who stumbled across it
-        really. She tripped over and fell though the foliage which covered
-        it,when she did not come back out right away Milo poked his head though
+        really. She tripped over and fell through the foliage which covered
+        it,when she did not come back out right away Milo poked his head through
         and let me know it was a cave.
       </p>
       <p>
@@ -496,7 +496,7 @@ function Intro(props) {
       <p>
         There was not much to see in the cave,it was just plain rocks. Maybe
         further down, there could be metal deposits. Without an earth-mage
-        between us it would be hard to shift though the rock and find anything
+        between us it would be hard to shift through the rock and find anything
         useful, but any metal would help me. Sitting around waiting out the
         storm was not productive anyway, and as is known, those who don’t try
         can never win.
@@ -541,7 +541,7 @@ function Intro(props) {
       <p>
         I didn't want to do this, but he left me no choice. I broke the metal
         shield down and let it mix back into my mana inside me. I then pushed
-        the mana though my back and into the boy's body. This was a spell that
+        the mana through my back and into the boy's body. This was a spell that
         my family taught me. The metal would wrap the target and push it away
         from you, guarding you, however each time the target struggled against
         it it would drain my mana. This was my last resort.
@@ -551,7 +551,7 @@ function Intro(props) {
         help pry him from my face and let me take in a breath of air. I felt my
         mana drain from me for a moment, as the boy pushed back but then it
         suddenly stopped. Jarvia as stood to his side with a root made spear
-        sitting though his side. "You ran in without informing your team mates.
+        sitting through his side. "You ran in without informing your team mates.
         You're lucky I found a root around here." She said to me, pulling the
         spear out of his side, splashing blood on the ground.
       </p>
@@ -575,7 +575,7 @@ function Intro(props) {
       </Kaja>
       <Kaja>
         The plants that were my height were mostly soft large green foliage, it
-        was easy to run though but made it hard to see far. I didn't rest, when
+        was easy to run through but made it hard to see far. I didn't rest, when
         I could not run, I walked.
       </Kaja>
       <Kaja>
@@ -609,7 +609,7 @@ function Intro(props) {
         need. Water and food and a place to hide.
       </Kaja>
       <Kaja>
-        The staff of course had though about people hiding at the edge of the
+        The staff of course had through about people hiding at the edge of the
         arena and said it would slowly become smaller as the contestants
         dwindled.
       </Kaja>
@@ -712,7 +712,7 @@ function Intro(props) {
       </Chu>
       <Kaja>
         Maybe that was a mistake. There is safety in numbers. I still cannot
-        bring myself to trust him though.
+        bring myself to trust him through.
       </Kaja>
       <Kaja>
         I waited for a moment after he blended into the dark. I then sprinted
@@ -751,7 +751,7 @@ function Intro(props) {
       <Kaja>
         Luckily the spell caster either ran out of mana or had achieved what
         they wanted as the sandstorm died down, and stopped. I guess it was too
-        risky to sleep though, so I stayed at the back of the burrow wrapped in
+        risky to sleep through, so I stayed at the back of the burrow wrapped in
         my robe waiting for anything else to happen while I just recovered my
         body.
       </Kaja>

@@ -92,7 +92,7 @@ Reingard". boy - alden likes Tisiel Skivali  becomes tank --> */}
           <p>
             The training areas where all around the arena. Students where
             crowded around stone pillars and tablets on the floor. There was no
-            one training though, and just stood around, and there was no where
+            one training through, and just stood around, and there was no where
             to really train. I walked over to one of the stone pillars with
             students all around it talking. Next to it was a stone tablet which
             read: "Test of Magic Defense. The longer you survive the higher your

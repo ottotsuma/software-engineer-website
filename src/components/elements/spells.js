@@ -194,7 +194,7 @@ export const ListOfMagicTypes = [
 // <li>Magic</li> Increases Magic damage, Mana
 // <li>Strength</li> Increased physical damage. Minor: Increased storage capacity. Reduce damage taken during a successful block. Increased resistance to falling. Increased movement speed.
 // <li>Dexterity (Reflexes)</li> Reduces time between using skills, casting of skills, dodge change, movement on rough terrain
-// <li>Sense</li> Range of attacks, accuracy. Trap Detect (All of the senses, hearing, taste, touch, smell.) Seeing though smoke screens and illusions. Seeing weakness and injuries in your opponent (CRIT), Range of summons / familia can move from you.
+// <li>Sense</li> Range of attacks, accuracy. Trap Detect (All of the senses, hearing, taste, touch, smell.) Seeing through smoke screens and illusions. Seeing weakness and injuries in your opponent (CRIT), Range of summons / familia can move from you.
 // <li>Charisma</li> Increases NPC likability, command points
 
 export const spellList = {
@@ -639,8 +639,8 @@ export const spellList = {
     classes: ["Kʼawiil"],
     species: [""],
     name: "Serpent-Skin",
-    1: "Your skin slowly becomes like a serpents. Able to turn on and off scaled armor over your skin.",
-    2: "Your skin slowly becomes like a serpents. Able to turn on and off scaled armor over your skin.", // ch32
+    1: "Your skin slowly becomes like a serpents. Able to turn on and off scaled armour over your skin.",
+    2: "Your skin slowly becomes like a serpents. Able to turn on and off scaled armour over your skin.", // ch32
     3: "Endurance +3",
     4: "Endurance +4",
     5: "Endurance +5",
@@ -1185,7 +1185,7 @@ export const spellList = {
     species: ["Human"],
     name: "Human Ingenuity",
     notes:
-      "E.g. Spear has +1 strength then you get +1 another one. This is only for 'tools' not armor.",
+      "E.g. Spear has +1 strength then you get +1 another one. This is only for 'tools' not armour.",
     passive: true,
     1: "When using tools gain +1 proficiency.",
     2: "When using tools gain +2 proficiency.",
@@ -2926,13 +2926,13 @@ export const spellList = {
     passive: false,
     1: "",
   },
-  "Bone Armor": {
+  "Bone Armour": {
     element: ["shadow"],
     classes: ["Necromancer"],
     species: [""],
-    name: "Bone Armor",
+    name: "Bone Armour",
     passive: false,
-    1: "Armor of bones covers you, raising your endurance.",
+    1: "Armour of bones covers you, raising your endurance.",
   },
   "Negative Burst": {
     element: ["shadow"],
@@ -3788,7 +3788,7 @@ export const spellList = {
     species: [""],
     name: "Paralysis",
     passive: false,
-    1: "Causes paralysis in the target, limiting or preventing them from using physical movement, though slight physical functions are still possible, such as turning their head or speaking.",
+    1: "Causes paralysis in the target, limiting or preventing them from using physical movement, through slight physical functions are still possible, such as turning their head or speaking.",
   },
   "Paranormal Intuition": {
     element: [""],
@@ -3812,7 +3812,7 @@ export const spellList = {
     species: [""],
     name: "Perfect Warrior",
     passive: false,
-    1: `The spell allows user to convert his magic caster levels into an equivalent number of warrior levels. By using that spell, he can temporarily become a half-baked level 100 warrior. It also carries the benefit of being able to use certain pieces of arms and armor that will normally require specific job classes to access without penalty. This includes freely utilizing any weapons and its abilities, which is seen during his fight with Shalltear. However, there are many drawbacks to that spell. The first weakness is that he cannot cast other spells while the magic is in effect. In addition, he will not gain any special warrior skills from the spell, and his recalculated ability scores will be lower than an actual warrior. Secondly, sustaining the transformation spell and other magic will both lower his mana and mana recovery rates to zero. This form is enough when matching blades with second-rate combatants like priests and the like, but he will stand no chance of winning against an opponent who is a dedicated warrior.`,
+    1: `The spell allows user to convert his magic caster levels into an equivalent number of warrior levels. By using that spell, he can temporarily become a half-baked level 100 warrior. It also carries the benefit of being able to use certain pieces of arms and armour that will normally require specific job classes to access without penalty. This includes freely utilizing any weapons and its abilities, which is seen during his fight with Shalltear. However, there are many drawbacks to that spell. The first weakness is that he cannot cast other spells while the magic is in effect. In addition, he will not gain any special warrior skills from the spell, and his recalculated ability scores will be lower than an actual warrior. Secondly, sustaining the transformation spell and other magic will both lower his mana and mana recovery rates to zero. This form is enough when matching blades with second-rate combatants like priests and the like, but he will stand no chance of winning against an opponent who is a dedicated warrior.`,
   },
   "Ray of Negative Energy": {
     element: [""],
@@ -4245,7 +4245,7 @@ export const spellList = {
     species: ["Vampire"],
     name: "Blood Hardening",
     passive: false,
-    1: "A form of Blood control. Blood thickens and becomes more impervious to damage, and becomes like Armor. Reduce the amount of damage taken in an attack and able to be moved around the body freely to varying degrees base on mastery of control.",
+    1: "A form of Blood control. Blood thickens and becomes more impervious to damage, and becomes like Armour. Reduce the amount of damage taken in an attack and able to be moved around the body freely to varying degrees base on mastery of control.",
   },
   "Blood Swipe": {
     element: ["blood"],
@@ -4634,11 +4634,11 @@ export const spellList = {
     passive: false,
     1: ".",
   },
-  "Blood Armor": {
+  "Blood Armour": {
     element: ["blood"],
     classes: [""],
     species: ["Vampire"],
-    name: "Blood Armor",
+    name: "Blood Armour",
     passive: false,
     1: "Cover your body in blood to reduce damage.",
   },

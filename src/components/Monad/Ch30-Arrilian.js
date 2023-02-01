@@ -180,10 +180,10 @@ function Intro(props) {
             military camp, similar looking to the ones I passed on the way to
             the academy. I have not thought about Effi and the others for a long
             time, I hope they are doing well. I was in front of a group of 10
-            men holding spears and wearing leather armor. A guy tapped me on the
+            men holding spears and wearing leather armour. A guy tapped me on the
             shoulder. "Alright sergeant, just get these men through the obstacle
             course course and you will get a pass and move to the next level." A
-            man in about his 40's said to me wearing metal armor.
+            man in about his 40's said to me wearing metal armour.
           </p>
           <p>
             "Erm, okay. Go through the obstacle course." I commanded to the men
@@ -230,12 +230,12 @@ function Intro(props) {
             they really are summons.
           </p>
           <p>
-            Just like last time. I failed over and over. It was fine though
+            Just like last time. I failed over and over. It was fine through
             because each time I learned something new from the man. I tried to
             ask his name but all he said was "Concentrate on your work." So I
             took to naming him 'Knight'. The rank above sergeant in the Aldenese
             army. Creative I know. Eventually I had passed, I learned a great
-            amount about commanding summons. The third level though, it looked
+            amount about commanding summons. The third level through, it looked
             the same as the second however Knight's instructions ruined my fun.
             "The third level is the same as the second, except the level of the
             summons has been increased. I am sorry but you do not have enough
@@ -255,7 +255,7 @@ function Intro(props) {
             "It's okay. You can trade them for items from the military store.
             They have one set up in each camp and the academy. You can exchange
             them for items, the rewards are just given at levels they selected
-            so they can keep track of potential recruits. Honestly though, it's
+            so they can keep track of potential recruits. Honestly through, it's
             free stuff, so no one minds." He said. "Got stuck at level three
             right?" He asked.
           </p>
@@ -290,7 +290,7 @@ function Intro(props) {
             [Menu: Command, Group, Single Combat, Monster Eradication, Other.]
           </p>
           <p>
-            [Command: Weapons, Armor, Accessories, Class Books, Miscellaneous,
+            [Command: Weapons, Armour, Accessories, Class Books, Miscellaneous,
             <font className="Rare"> Military Registration</font>.]
           </p>
           <p>
@@ -299,7 +299,7 @@ function Intro(props) {
           </p>
           <p>
             The options here made sense. The class boobs was a real surprise
-            though. Inside were books that let you change your class from mage,
+            through. Inside were books that let you change your class from mage,
             fighter or rogue into a new class like I had done. Someone at the
             academy, maybe Lubin? Had told me some families had their own
             classes. I guess it makes sense for the military to have some too.
@@ -405,13 +405,13 @@ function Intro(props) {
             ant I asked it to. And the ones that got in it's way. There was
             nothing left, acid splashed all over the ground, rocks and plants
             near by. Some corroding slowly before my eyes. I guess a bunch more
-            exploded on him? How did he kill that many ants though?
+            exploded on him? How did he kill that many ants through?
           </p>
           <p>
             I sat and thought about it for awhile, while my mana was recovering.
             Just summoning the seed-soldier cost more then germinate and grow
             together. Which was fair. How did grow cost twice as much as normal
-            though? When it did nothing...{" "}
+            through? When it did nothing...{" "}
           </p>
           <p>
             Wait. Does it work like a buff just for plants!? I have to try this

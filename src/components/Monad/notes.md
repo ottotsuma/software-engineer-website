@@ -123,7 +123,7 @@ Pokemon Style Elements battles!
 // Obsidian is the royals resource - Obsidian is hard, brittle, and amorphous; it therefore fractures with sharp edges. In the past, it was used to manufacture cutting and piercing tools, and it has been used experimentally as surgical scalpel blades.
 He's so sorry his mamma swapped him for a dog. And then drowned the dog.
 
-// kick in the balls - level 9: A kick, that causes the the life of those yet to be, to flash though the mind of the person on the receiving end.
+// kick in the balls - level 9: A kick, that causes the the life of those yet to be, to flash through the mind of the person on the receiving end.
 
 // Otto starts of young, at fault of his birth status, unable to make use of the gifts given. Grows from the mentors lessons and overcomes the birth status. 
 
@@ -338,27 +338,27 @@ Murasame - A magical katana that mentioned in fiction Nansō Satomi Hakkenden, i
 #### Sets
 Item sets don't drop from one dungeon but a part from each dungeon.
 
-Mycenaean Dendra Panoply - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armor-ensembles-history_1.jpg?ezimgfmt=ng:webp/ngcb20 
+Mycenaean Dendra Panoply - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armour-ensembles-history_1.jpg?ezimgfmt=ng:webp/ngcb20 
 
-Persian Immortal Armor - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armor-ensembles-history_5.jpg?ezimgfmt=ng:webp/ngcb20
+Persian Immortal Armour - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armour-ensembles-history_5.jpg?ezimgfmt=ng:webp/ngcb20
 
-Roman Lorica Segmentata - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armor-ensembles-history_9.jpg?ezimgfmt=ng:webp/ngcb20
+Roman Lorica Segmentata - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armour-ensembles-history_9.jpg?ezimgfmt=ng:webp/ngcb20
 
-Sassanid Savaran Armor - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armor-ensembles-history_14.jpg?ezimgfmt=ng:webp/ngcb20
+Sassanid Savaran Armour - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armour-ensembles-history_14.jpg?ezimgfmt=ng:webp/ngcb20
 
-Eastern Roman Cataphract - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armor-ensembles-history_17.jpg?ezimgfmt=ng:webp/ngcb20
+Eastern Roman Cataphract - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armour-ensembles-history_17.jpg?ezimgfmt=ng:webp/ngcb20
 
-Samurai Ō-yoroi - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armor-ensembles-history_24.jpg?ezimgfmt=ng:webp/ngcb20
+Samurai Ō-yoroi - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armour-ensembles-history_24.jpg?ezimgfmt=ng:webp/ngcb20
 
-Siculo-Norman Knight Armor - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armor-ensembles-history_25.jpg?ezimgfmt=ng:webp/ngcb20
+Siculo-Norman Knight Armour - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armour-ensembles-history_25.jpg?ezimgfmt=ng:webp/ngcb20
 
-Mongol Keshik Armor - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armor-ensembles-history_30.jpg?ezimgfmt=ng:webp/ngcb20
+Mongol Keshik Armour - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armour-ensembles-history_30.jpg?ezimgfmt=ng:webp/ngcb20
 
-Aztec Jaguar Warrior Armor - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armor-ensembles-history_35.jpg?ezimgfmt=ng:webp/ngcb20
+Aztec Jaguar Warrior Armour - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armour-ensembles-history_35.jpg?ezimgfmt=ng:webp/ngcb20
 
-German Landsknecht Dress - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armor-ensembles-history_41.jpg?ezimgfmt=ng:webp/ngcb20
+German Landsknecht Dress - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armour-ensembles-history_41.jpg?ezimgfmt=ng:webp/ngcb20
 
-Polish Winged Hussar Armor - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armor-ensembles-history_45.jpg?ezimgfmt=ng:webp/ngcb20
+Polish Winged Hussar Armour - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armour-ensembles-history_45.jpg?ezimgfmt=ng:webp/ngcb20
 
 https://en.wikipedia.org/wiki/List_of_mythological_objects#Personal_armor
 
@@ -377,11 +377,11 @@ Maybe just don't have them glow. It looks shit and takes away from unique weapon
 
 Lightning axe, an axe that is wielded by the Maya rain deity Chaac and used to produce thunder and rain. (Maya mythology)
 
-#### Armor 
+#### Armour 
 #### Accessories 
 
-Gem of Kukulkan, the Mayan god brought fire, earth, air, and water to the world. Kukulkan, though, only has the wind gem, and with it can control the air. (Maya mythology)
-The Jem of Kukulkan - the Mayan Serpents Jem has the ability to control all elements. Like fire, wind, and ice, though the Serpent only has the wind jem.
+Gem of Kukulkan, the Mayan god brought fire, earth, air, and water to the world. Kukulkan, through, only has the wind gem, and with it can control the air. (Maya mythology)
+The Jem of Kukulkan - the Mayan Serpents Jem has the ability to control all elements. Like fire, wind, and ice, through the Serpent only has the wind jem.
 ##### Types: 
 ###### Hat/Crown:
 - Crown (king) - (green) Crown of the Dammed. Magic + 25, -5 Charisma, control undead +1.
@@ -444,7 +444,7 @@ the classes have to counter each other in a kind of card game style were nothing
 
 <li>Dexterity (Reflexes)</li>Increases Attack Speed, dodge change, movement on rough terrain. Reduces skills cool down.
 
-<li>Sense</li> Range of attacks, accuracy. Trap Detect (All of the senses, hearing, taste, touch, smell.) Seeing though smoke screens and illusions. Seeing weakness and injuries in your opponent (CRIT), Range of summons / familia can move from you.
+<li>Sense</li> Range of attacks, accuracy. Trap Detect (All of the senses, hearing, taste, touch, smell.) Seeing through smoke screens and illusions. Seeing weakness and injuries in your opponent (CRIT), Range of summons / familia can move from you.
 
 <li>Charisma</li> Increases NPC likability, command points
 
@@ -909,7 +909,7 @@ Tsuma takes an interest in german witch magic that was her real reason for comin
 the mask is the legacy of the deer god of lightning, the lightning god class is given to otto also, the quest is set out to acquire the god species.
 Tsuma was on a quest to learn the german magic and to acquire a new class by combining the class of her lands with the new one.
 
-empire emperor dies and the mother fights back against the sons reforms, the reforms chose one religion and code of ethics to rule by instating new schools and imperial examinations, the court fight back and the new emperor puts his pawns in low level positions though-out the court so he can control it in secret when his mother dies he pacifies the lower realms
+empire emperor dies and the mother fights back against the sons reforms, the reforms chose one religion and code of ethics to rule by instating new schools and imperial examinations, the court fight back and the new emperor puts his pawns in low level positions through-out the court so he can control it in secret when his mother dies he pacifies the lower realms
 
 during the war monsters get past and kill villagers from Otto's village his parents included and the blame is placed on otto and his forces but in was in fact the young lords
 
@@ -1163,7 +1163,7 @@ Granduchy - elected grand duke from dukes.
 principality - ruled by a prince 
 kingdom - king
 republic - representatives from each place - all elected also
-Places joined together though alliance? to act as one unit under one representative
+Places joined together through alliance? to act as one unit under one representative
 pocotcotco ?
 Solzi ?
 
@@ -1292,7 +1292,7 @@ The new world is in a balance.
 The Republic fractures from invasions by the Elves, late empire problems, uninterested ruling class, Alden invasion, Sea people sabotage.
 Alden invades Herkikia League, they both collapse under the sea peoples invasion.
 The Kingdom having become the Empire forms a deal with Niyosho but are both destroyed by the sea people
-Our characters flee though the desert/Solzi into Pocotcotco, who are under invasion by the Elves.
+Our characters flee through the desert/Solzi into Pocotcotco, who are under invasion by the Elves.
 Who again fall before the sea people in ruin.
 
 

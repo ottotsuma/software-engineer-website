@@ -35,7 +35,7 @@ function Intro(props) {
           </Otto>
           <Ralsan>
             "I think we lost him." Ralsan teased, I did not hear it at the time
-            though.
+            through.
           </Ralsan>
           <Otto>
             "Excuse me." I hastily replied without registering what Ralsan had
@@ -147,7 +147,7 @@ function Intro(props) {
             from Niyosho. Do you know it?"
           </Tsuma>
           <Otto>
-            "Is it bad if I say no? Your accent is loverly though. W-Why did you
+            "Is it bad if I say no? Your accent is loverly through. W-Why did you
             pick Alden to study?"
           </Otto>
           <Tsuma>

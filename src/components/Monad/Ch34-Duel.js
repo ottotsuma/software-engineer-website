@@ -187,7 +187,7 @@ function Duel(props) {
       </p>
       <p>
         "Hey I'm sorry Linhart, I have to go. I got a message from the academy.
-        It was fun hanging out today though, do you maybe want to meet up
+        It was fun hanging out today through, do you maybe want to meet up
         tomorrow?" I asked wondering if he really needed my help hunting or just
         the kind of person that hated doing things alone.
       </p>
@@ -233,11 +233,11 @@ function Duel(props) {
         students from each class as expected, some of the teachers from the
         classes but also some of the professors who did not or rarely taught.
         Along with some people from the military, they stood out the most
-        wearing metal armor or fancy outfits. One group of which was a woman
-        with long blonde hair, metal armor trimmed with gold covering most of
+        wearing metal armour or fancy outfits. One group of which was a woman
+        with long blonde hair, metal armour trimmed with gold covering most of
         her body and a sword almost my whole height resting against a chair next
         to her. Standing around her were four others in less impressive metal
-        chest plates and shin pads but the majority of their armor being leather
+        chest plates and shin pads but the majority of their armour being leather
         and hide.
       </p>
       <p>
@@ -346,7 +346,7 @@ function Duel(props) {
         The guard stormed off with his co-worker out of the holding area and we
         were once again locked inside, not that we were not already locked in
         our cells. I decided to give the boy a moment to calm down before
-        returning his book I decided to flip though it.
+        returning his book I decided to flip through it.
       </p>
       {Book()}
       <p>

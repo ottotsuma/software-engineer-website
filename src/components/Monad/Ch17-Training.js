@@ -81,7 +81,7 @@ function Intro(props) {
           <p>"Yeah, I don't know how you take so many hits all day long."</p>
 
           <p>
-            "High endurance, and metal element help a lot. Keep safe though your
+            "High endurance, and metal element help a lot. Keep safe through your
             health is low for a melee fighter."
           </p>
 
@@ -194,7 +194,7 @@ function Intro(props) {
             cliffs as rooms!"
           </p>
 
-          <p>"It's an interesting theory but what was your break though?"</p>
+          <p>"It's an interesting theory but what was your break through?"</p>
 
           <p>
             "The book you gave me, it's not from the academy, you found it in a

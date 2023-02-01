@@ -9,7 +9,7 @@ function Intro(props) {
           <p>
             The trip home took a few days, Takeo's party system allowed us to
             see each others health which was really useful. From what he told me
-            though was because of the large level difference the low levels
+            through was because of the large level difference the low levels
             monsters gave him zero experience towards a level up so I would also
             receive zero experience. Along with that any high level monsters I
             was unable to do a high level of contribution in the fight so the
@@ -25,11 +25,11 @@ function Intro(props) {
             the academy would be able to look for them.
           </p>
           <p>
-            I had lost my academy traveling robes and with it any identification
+            I had lost my academy travelling robes and with it any identification
             I had with me. Once we arrived back at the academy's walls which ran
             in a semi-circle around the side of the academy facing into the wild
             and stopped at the large valley near the bridge we had to cross when
-            I first came to the academy. If I could see though all the buildings
+            I first came to the academy. If I could see through all the buildings
             or I was stood on that bridge looking back I would of been able to
             see the small fortified building which houses the portal.
           </p>
@@ -94,7 +94,7 @@ function Intro(props) {
 
           <p>
             I had placed my new outfit in the storage ring before arriving while
-            traveling with Takeo saying they where cold, he had given me warmer
+            travelling with Takeo saying they where cold, he had given me warmer
             clothes I was going to return to him later but he insisted I burn
             them. I guess being in a tomb with dead bodies has left me with an
             unpleasant odor. In short I had left out anything that happened in

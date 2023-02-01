@@ -54,7 +54,7 @@ function Intro(props) {
             the room. As I turned I saw behind me the remains of a giant spider,
             it must of died a long time ago and was reanimated in this tower by
             the necromancer as Nymandus said. Now it lay unmoving in a pile to
-            the right of the door I came in though, I wonder if it was already
+            the right of the door I came in through, I wonder if it was already
             dead or if Nymandus really killed it himself.
           </p>
 
@@ -112,7 +112,7 @@ function Intro(props) {
           <p>
             We pushed through the last door and entered a long corridor at the
             end was large pillars with a portal in the middle. Since it was
-            still active we stepped though. Waiting on the other side was the
+            still active we stepped through. Waiting on the other side was the
             rest of the groups, at opposite ends of the room. Of course the
             first question we got asked was where is Linhart. "He will be
             catching up later, he went back to the camp to get potions he had a
@@ -148,7 +148,7 @@ function Intro(props) {
 
           <p>
             "Yeah... I am not sure what was here before, but the three separate
-            areas we just traveled though seemed to be some kind of challenge at
+            areas we just traveled through seemed to be some kind of challenge at
             different levels. I am not sure it's purpose since they all lead to
             the same place. This seems to be an older structure I am not too
             sure if it's the original but it was defiantly here before the one
@@ -169,7 +169,7 @@ function Intro(props) {
           <p>
             "Since you say so, test out your theory." Ditwin sneered as he moved
             to block them from retreating away. Tisiel just responded by walking
-            through the entrance way with confidence. After stepping though
+            through the entrance way with confidence. After stepping through
             Tisiel added "Basic rune theory is taught as an optional class,
             maybe you should try it some time."
           </p>
@@ -185,7 +185,7 @@ function Intro(props) {
 
           <p>
             At the far end where maybe a door should of been was just a large
-            hole in the wall, it looked like it had been broken though and then
+            hole in the wall, it looked like it had been broken through and then
             tied up after but never replaced. Beyond that it became clear for
             the first time why this place had the reputation as a safe. With
             stone walls which must of been enchanted with magic and not made of
@@ -394,7 +394,7 @@ Now
           <p>
             With a sigh the skull continued "You all have a very basic
             understanding of sentient magic items but shall we first solve the
-            biggest problem you have. With him gone the entrance you came though
+            biggest problem you have. With him gone the entrance you came through
             is naturally also gone, I am not sure what you will find if you go
             back but going forward won't be easy, have you not forgotten he
             spent many years here because he could not go forward. You know, to

@@ -21,18 +21,18 @@ function Intro(props) {
             magical talent and a unique lightning power at that.
           </p>
           <p>
-            It seemed that Tsuma though the man was an insufferable, arrogant
+            It seemed that Tsuma through the man was an insufferable, arrogant
             fool who wanted to attract the princess. It came as no surprise to
             me, who else would Vasso take a liking to, who else was of such a
             high birth and would have something in common like magic in Alden?
-            It seemed though that even Vasso was punching above his weight.
+            It seemed through that even Vasso was punching above his weight.
             Vasso's family might be the co-head of magic in Alden and a Duke,
             but Alden voted for their rulers from the dukes and was therefore
             not next in line for the throne. While the princess was next in line
             for the throne of Niyosho.
           </p>
           <p>
-            It made sense though, if he could secure that marriage it would
+            It made sense through, if he could secure that marriage it would
             almost be foolish to not elect house Elzach to the throne and use
             that alliance to secure the southern border with Herkikia. The
             kingdom might not like the new alliance but Alden would have more
@@ -155,7 +155,7 @@ function Intro(props) {
             and defense were donated as minor. Within each was also Major
             effects and Minor effects, such as sense said to be helpful in
             detecting traps. However in the minor section it listed things like
-            being able to see more clearly though smoke screens, help with
+            being able to see more clearly through smoke screens, help with
             blocking chance and seeing weakness in your opponent.
           </p>
           <p>
@@ -446,7 +446,7 @@ function Intro(props) {
             longer a mage and I already had an element.
           </p>
           <p>
-            The big upside though, the spell cap was raise to 2. I asked Takeo
+            The big upside through, the spell cap was raise to 2. I asked Takeo
             about it and he explained normally when students with basic classes
             or classes given to them by families when they reach level 10 their
             skill cap would increase from 1 to 2, however there seemed to be
@@ -497,7 +497,7 @@ function Intro(props) {
           <p>
             "No. How sick can you pretend to be before the academy comes to
             check on you? We have to take you back to attend classes for awhile.
-            We will come out again though before the event if you are chosen for
+            We will come out again through before the event if you are chosen for
             your class." He ate for awhile before adding "The class was told
             about the event the day after we left the academy. When you go back
             it should be the nomination day, after that we can decide what is
@@ -506,7 +506,7 @@ function Intro(props) {
           <p>
             I nodded and felt kind of bad. I had only been able to achieve this
             result with his help and I was asking for more with nothing I could
-            give back in return. I had handed over the wood element armor from
+            give back in return. I had handed over the wood element armour from
             the tomb which Tsuma claimed to be worth the nations attention,
             maybe that is why the princess had been so willing to help me her
             attendants ... Date? Close friend? I never did clarify with her I
@@ -601,7 +601,7 @@ function Intro(props) {
             food? No that seems off somehow. Maybe there will be something in
             the library if I try the kingdoms history or mythologies.
           </p>
-          <p>For now though, which spells to pick up?</p>
+          <p>For now through, which spells to pick up?</p>
           <p>
             I had just invested heavily into charisma so I picked up
             'Scarecrow', which would turn the plant matter into scarecrows under

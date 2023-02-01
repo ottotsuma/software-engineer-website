@@ -116,7 +116,7 @@ function Intro(props) {
             elements to them and so the leaders each had a representative
             element. The last leader being the over all leader of the faction
             had the pure element for their faction. These outfits were less for
-            battle but more like ceremonial armor. They were still the leaders
+            battle but more like ceremonial armour. They were still the leaders
             of the top three factions at the end of the world. While not at its
             peak, the materials and craftsman they had access too..." She was
             going to continue her thoughts but I interrupted.
@@ -244,7 +244,7 @@ function Intro(props) {
             and Niyosho's religions into the same category." Pointing to the
             white tiger mask she has on her face and says "This mask also
             represents a God of lightning, Byakko, he is the lord of season of
-            autumn, the west and metal. What is import for us though is that
+            autumn, the west and metal. What is import for us through is that
             both will be Gods of lightning! Although he will not be your faith
             God if you have a first connection already."
           </p>

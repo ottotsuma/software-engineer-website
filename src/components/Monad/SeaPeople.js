@@ -153,7 +153,7 @@ export const SeaPeople = {
         "And I said if you call it a game you won't be joining me on this trip."
         Sarah said walking out from the captains cabin. Her skin was pale white,
         jade like and smooth. Her white skin somehow made her bright orange hair
-        stand out more. In contrast her armor was mostly savoy blue armor
+        stand out more. In contrast her armour was mostly savoy blue armour
         trimmed in gold, her cloak billowed out behind her in the wind, white
         with gold trim. She looked almost holy if it was not for her large
         fangs.
@@ -326,7 +326,7 @@ export const SeaPeople = {
       </p>
       <p>
         Sarah walked over to the side of the ship I was holding onto. She wore
-        the same savoy blue armor and white cloak with her hair in a braided
+        the same savoy blue armour and white cloak with her hair in a braided
         pony tail behind. The difference today was she was holding a black
         parasol to block out the sun. "Not feeling sick again are you?" She
         asked, seeing me holding onto the side of the ship.
@@ -427,7 +427,7 @@ export const SeaPeople = {
         spend the night. The final island has large crabs that you can fight but
         they are all level one ~ ten." She replied. "Oh, finally the trees. If
         you have a treasure map for this island you can dig up treasure around
-        that area. Without the map though nothing will appear."
+        that area. Without the map through nothing will appear."
       </p>
       <p>
         I weighed the options she had laid out and asked. "So we are fishing for
@@ -624,7 +624,7 @@ export const SeaPeople = {
         The first three things in my head were: What the hell? Ohh a rare quest!
         I can only accept!? Before the sand below fell from under out feet and
         we fell under the island. The bright sun replaced by pitch black as the
-        sand recovered were it was before. Thankfully, even though the drop was
+        sand recovered were it was before. Thankfully, even through the drop was
         huge we landed in sand.
       </p>
 
@@ -792,7 +792,7 @@ export const SeaPeople = {
       </p>
       <p>
         Sarah was holding a large long tower shield, it was the same blue as her
-        armor except the trim was silver and not gold. In her other hand looking
+        armour except the trim was silver and not gold. In her other hand looking
         less heroine and more demonic was a large mace, the image looked like an
         evil wizards tower, it was all black with several pointed parts at the
         top.
@@ -801,12 +801,12 @@ export const SeaPeople = {
       <p>
         The claws of the crab rushed forward and clamped down on Sarah's shield.
         "Moron." She shouted while slamming her mace into one of its joins, the
-        sound of crab armor being crushed was... It made my stomach ruble.
+        sound of crab armour being crushed was... It made my stomach ruble.
       </p>
       <p>
         Before I had made my move Josh was already behind the crab doing his
         thing, singing "Stabby stab stab, stabby stab." While jamming his long
-        thin blades into the gaps in the crabs armor.
+        thin blades into the gaps in the crabs armour.
       </p>
       <p>
         I did not want to be left out and seeing the other crab claw closing
@@ -852,7 +852,7 @@ export const SeaPeople = {
         with her mace. Her attack power was clearly not as high as her defense
         but it was not nothing. The crab annoyed by us span around and knocked
         all of us back a few places. Sarah screamed like a banshee so it rushed
-        down Sarah smashing into her shield and armor with its two claws. I
+        down Sarah smashing into her shield and armour with its two claws. I
         wanted to run over and help but Josh pulled me. "Leave her and attack
         the back, you'll do more damage and not be in her way when she gets
         angry."
@@ -998,7 +998,7 @@ export const SeaPeople = {
     <Content style={{ overflowWrap: "anywhere" }}>
       <p>
         "Good morning." Sarah said to me as I came onto the deck of the ship.
-        She was in her blue and gold armor as usual looking out across the
+        She was in her blue and gold armour as usual looking out across the
         ocean. When I followed her line of sight I saw a large island off in the
         distance.
       </p>
@@ -1176,7 +1176,7 @@ export const SeaPeople = {
         feeling like my outburst was a little hasty but she should of asked.
       </p>
       <p>
-        "Ohh, I'll make it up to you in the future. For now though lets rest
+        "Ohh, I'll make it up to you in the future. For now through lets rest
         here until Josh comes to get us." She said sitting back down again.
       </p>
       <p>I looked at her confused. "How will he find us?"</p>
@@ -1332,7 +1332,7 @@ export const SeaPeople = {
       </p>
       <p>
         We were not really hiding ourselves, so it was no surprise when a group
-        of riders stopped us on the road. What they were riding though was the
+        of riders stopped us on the road. What they were riding through was the
         real surprise for me at least. A large red beetle with large horn coming
         out from its head almost the length of its whole body, big black eyes,
         antennae sticking out of its head, two long thick grasshopper type legs
@@ -1515,12 +1515,12 @@ export const SeaPeople = {
         often drop items in their own style so it made sense they would be
         wearing them. While they added cloth here and there most of the guards
         had no capes but maybe the head of a leopard placed on top of their own,
-        pelts or beast parts over their bodies as armor.
+        pelts or beast parts over their bodies as armour.
       </p>
       <p>
         There levels in the cities I had visited in the past where not that
         high, around the mid 50's up to 70's. It would be a mistake to think
-        that they are weak though. Even in area's where players attributes where
+        that they are weak through. Even in area's where players attributes where
         not reduced NPC's with the role of city guard received boosts to their
         damage dealt against players and reduced damage dealt by players to
         them. Nothing that could not be overcome with better equipment. The main
@@ -1730,7 +1730,7 @@ export const SeaPeople = {
         spent a long time chatting in the pub to the owner, it did take me
         awhile to get across what I was trying to say in my third language. I
         was tired. The last time I had rested was inside a rock cave with Sarah
-        when we landed, so I just though I'd rest in the cell a little while,
+        when we landed, so I just through I'd rest in the cell a little while,
         and I fell asleep.
       </p>
       <div className="BreakPoint" />
@@ -1886,7 +1886,7 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
       </p>
       <p>
         "Alright, alright. He doesn’t seem dangerous. He looks very suspicious
-        though, and we really did have reports of a vampire matching his
+        through, and we really did have reports of a vampire matching his
         description." The guard replied.
       </p>
       <p>
@@ -1922,7 +1922,7 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         as he reached into the mouth of a stuffed and mounted Tiger-Lily beast.
         On earth these were just an orange type of flower with black spots but
         the beast version was more of a tiger. It's main made of petals, tail of
-        leaves with the end flowering one of the orange flowers. Here though was
+        leaves with the end flowering one of the orange flowers. Here through was
         just the head and the peal mane.
       </p>
       <p>
@@ -1933,7 +1933,7 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         involved in being a vampire.
       </p>
       <p>
-        We would have to follow him down though. Next to his desk were a pair of
+        We would have to follow him down through. Next to his desk were a pair of
         large black double doors which housed master. Every time I had met
         master had been in that dark room, he rarely came out I was told.
       </p>
@@ -2161,15 +2161,15 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
       <p>
         "You don't put a hood on to blend in." I opened my inventory and took
         out normal clothes of the people of Alden. "Put these on both of you.
-        Over your armor is fine but if you have disguise skill but if you don't
-        putting clothes on top of your armor will render your armor attributes
+        Over your armour is fine but if you have disguise skill but if you don't
+        putting clothes on top of your armour will render your armour attributes
         useless." I told them. To my sunrise they both had skills for disguise.
         Sarah from her vampire class, Noah said the dark elves learn it ass a
         species skill and I had it as an assassin.
       </p>
       <p>
-        They must of put 1 point in each. It was clear they had their armor on
-        underneath to me, especially Sarah's large blue armor. Hopefully the
+        They must of put 1 point in each. It was clear they had their armour on
+        underneath to me, especially Sarah's large blue armour. Hopefully the
         people we will be passing don't look to closely at us.
       </p>
       <p>
@@ -2204,7 +2204,7 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
         where in Monh. The town was not too different in style, just much
         smaller. The tallest building reaching 4 floors. The buildings were all
         painted white and pink-red, the towns flag hanging on the palisade gates
-        we passed though. It was a quartering pattern of alternating white and
+        we passed through. It was a quartering pattern of alternating white and
         pink-red color, a triangular cut was removed from the bottom and finally
         a three-leafed clover leaf shaped emblem sat in the middle of the field
         with reverse colors to the field.

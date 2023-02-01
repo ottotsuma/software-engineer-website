@@ -55,14 +55,14 @@ export const ItemList = {
     note: "",
     type: "spear",
   },
-  "Paladin Engeler's Body Armor (silver rank)": {
-    name: "Paladin Engeler's Body Armor (silver rank)",
+  "Paladin Engeler's Body Armour (silver rank)": {
+    name: "Paladin Engeler's Body Armour (silver rank)",
     description:
       "Reduces physical damage taken by 10%, except spears. Endurance +1, Endurance +10%.",
     rating: "epic",
     stats: { endurance: 1, enduranceMultiplier: 1.1 },
     note: "",
-    type: "armor",
+    type: "armour",
   },
   "Paladin Engeler's Sallet (silver rank)": {
     name: "Paladin Engeler's Sallet (silver rank)",
@@ -195,7 +195,7 @@ export const ItemList = {
     stats: { dexterity: 1 },
     effect: "", // Price since it was shown In a shop.
     note: "https://ffxiv.gamerescape.com/wiki/Category:Rogue_Body/iLevel_30-39",
-    type: "armor",
+    type: "armour",
   },
   "Crown of the Dammed": {
     name: "Crown of the Dammed",
@@ -359,7 +359,7 @@ export const ItemList = {
     stats: { magic: 1, willpower: 1 },
     effect: "", // Price since it was shown In a shop.
     note: "",
-    type: "armor",
+    type: "armour",
   },
   "Battlemage's Crakows": {
     name: "Battlemage's Crakows",
@@ -487,7 +487,7 @@ export const ItemList = {
     stats: { strength: 0 },
     effect: "", // Price since it was shown In a shop.
     note: "",
-    type: "armor",
+    type: "armour",
   },
   "Leather Pirate Boots": {
     name: "Leather Pirate Boots",
@@ -639,26 +639,26 @@ export const ItemList = {
     stats: { magic: 2, HP: 10 },
     effect: "", // Price since it was shown In a shop.
     note: "",
-    type: "armor",
+    type: "armour",
   },
-  "Hui Lu's Battle Armor": {
-    name: "Hui Lu's Battle Armor",
+  "Hui Lu's Battle Armour": {
+    name: "Hui Lu's Battle Armour",
     description: "",
     image: "",
     rating: "",
     stats: {},
     effect: "", // Price since it was shown In a shop.
     note: "",
-    type: "armor",
+    type: "armour",
     0: {
-      name: "Hui Lu's Battle Armor",
+      name: "Hui Lu's Battle Armour",
       description: "???",
       image: "",
       rating: "normal",
       stats: {},
       effect: "", // Price since it was shown In a shop.
       note: "",
-      type: "armor",
+      type: "armour",
     },
   },
   "Hui Lu's Enchanting Gloves": {
@@ -749,7 +749,7 @@ export const ItemList = {
     rating: "junk",
     stats: {},
     note: "gakuran (学ラン)",
-    type: "armor",
+    type: "armour",
   },
   "Niyosho Hakama": {
     name: "Niyosho Hakama",
@@ -757,7 +757,7 @@ export const ItemList = {
     rating: "junk",
     stats: {},
     note: "Originally students just wore standard everyday clothes to school; kimono for female students, with hakama for male students. During the Meiji period, students began to wear uniforms modelled after Western dress.",
-    type: "armor",
+    type: "armour",
   },
   "Otto's Leaky Wand": {
     name: "Otto's Leaky Wand",
@@ -781,7 +781,7 @@ export const ItemList = {
     rating: "junk",
     stats: {},
     note: "seifuku (制服). The sailor fuku (セーラー服, sērā fuku) (lit. 'sailor outfit') is a common style of uniform worn by female middle school students, traditionally by high school students.",
-    type: "armor",
+    type: "armour",
   },
   "Niyosho Kimono": {
     name: "Niyosho Kimono",
@@ -789,7 +789,7 @@ export const ItemList = {
     rating: "junk",
     stats: {},
     note: "",
-    type: "armor",
+    type: "armour",
   },
   "Autumn Cloak": {
     name: "Autumn Cloak",
@@ -809,7 +809,7 @@ export const ItemList = {
 // Nagamaki (長巻, "long wrapping"): A sword with an exceptionally long handle, usually about as long as the blade. The name refers to the length of the handle wrapping.[1]
 // Katana (刀, "sword"): A sword with a curved blade longer than 60 cm (there is no upper length limit but generally they are shorter than 90 cm), worn with the edge upwards in the sash. It was developed from sasuga, a kind of tantō, around the 14th century, and became the mainstream replacing tachi from the 15th century.
 // Wakizashi (脇差, "side inserted [sword]"): A general term for a sword between one and two shaku long (30 cm and 60 cm in modern measurement), predominantly made after 1600. Generally it is the short blade that accompanies a katana in the traditional samurai daisho pairing of swords, but may be worn by classes other than the samurai as a single blade, also worn edge up as the katana. The name derives from the way the sword would be stuck at one's side through the obi (sash/belt).[8]
-// Tantō (短刀, "short blade"): A sword with a blade shorter than 30 cm. Tantō is generally classified as a sword, but its usage is the same as that of a knife. Usually one-edged, but some were double-edged, though asymmetrical.
+// Tantō (短刀, "short blade"): A sword with a blade shorter than 30 cm. Tantō is generally classified as a sword, but its usage is the same as that of a knife. Usually one-edged, but some were double-edged, through asymmetrical.
 // There are bladed weapons made in the same traditional manner as Japanese swords, which are not swords, but which are still Japanese sword (nihontō) (as "tō" means "blade", rather than specifically "sword"):
 
 // Naginata (なぎなた, 薙刀): A polearm with a curved single-edged blade. Naginata mounts consist of a long wooden pole, different from a nagamaki mount, which is shorter and wrapped.

@@ -89,7 +89,7 @@ function Intro(props) {
             play with them. While we sat there we drank a hot drink from the
             kingdom. It tastes of ginger, warmth and sweet flowers. I wish I
             knew how to make it, this would be the perfect companion at night
-            when out traveling.
+            when out travelling.
           </p>
 
           <p>
@@ -148,7 +148,7 @@ function Intro(props) {
           </p>
 
           <p>
-            "Ah that makes sense. I got to ask though.. What is demon magic?" I
+            "Ah that makes sense. I got to ask through.. What is demon magic?" I
             asked curious.
           </p>
 
@@ -186,7 +186,7 @@ function Intro(props) {
 
           <p>
             "Ah, yeah from the outside it looks really bad, it's fine inside
-            though. We have normal rooms."
+            through. We have normal rooms."
           </p>
 
           <p>
@@ -199,7 +199,7 @@ function Intro(props) {
           <p>
             We walked back home, chatting about the academy and what kind of
             magic she was hoping to learn about here. I found out it is possible
-            to learn a new element or magic type though practice, but unless you
+            to learn a new element or magic type through practice, but unless you
             reach a high level, Like a really high level, it would only be
             possible to use if you replaced your own and reset back to level 1.
             She told me she was aiming to reach that high level where it is

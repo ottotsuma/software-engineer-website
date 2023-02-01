@@ -34,7 +34,7 @@ function Combat(props) {
             attacked by a mage Willpower is will provide the best defense. As it
             reduces the damage taken by more than Vitality increases your
             health. However you cannot put points directly into willpower, it is
-            gained though life experiences and equipment. When getting equipment
+            gained through life experiences and equipment. When getting equipment
             do remember once you leave the academy not all of your opponents
             will be mages and most will use physical attacks Willpower will do
             nothing to protect from that." Lubin continued.
@@ -197,7 +197,7 @@ function Combat(props) {
             spear and sat down to wait. I got a few weird looks, some of the
             students must of pitted me, thinking I must of thought the metal
             spear was some kind of magic staff, but non of them would correct me
-            though, I might be their opponent after all.
+            through, I might be their opponent after all.
           </p>
 
           <p>

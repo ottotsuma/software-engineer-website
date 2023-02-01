@@ -119,7 +119,7 @@ export const HitoriStory = {
         to not listen in, but they were in the next row, they could of moved.
         The teenagers began betting on who would kill more monsters. Some of the
         adults talked about how much money they would get from this dungeon, and
-        some even ridiculed me out loud, saying how useless I was. Honestly though, I liked the name Hitori, it meant 'alone' and that suited me just fine.
+        some even ridiculed me out loud, saying how useless I was. Honestly through, I liked the name Hitori, it meant 'alone' and that suited me just fine.
       </Hitori>
       <Hitori>
         I tried my best not to pay attention to any of this. I opened my skills
@@ -349,14 +349,14 @@ export const HitoriStory = {
       <Hitori>
         The Gangikozō was visibly more angered, but I knew I couldn't remain
         that this for long. As the Gangikozō ran towards me, I could sense the
-        danger running though me. I lunged my sword into the side of it's neck
+        danger running through me. I lunged my sword into the side of it's neck
         as it pushed me down. It's teeth sunk into my collar bone and further,
         ripping out a merchants amount of flesh.
       </Hitori>
       <Hitori>
         At that point I was not sure who was screaming louder, me or the
         monster. I pulled down on the sword hard, trying to direct all my pain
-        though my arms, pulling smoothly in places and yanking it over and over
+        through my arms, pulling smoothly in places and yanking it over and over
         in others, until the monsters screaming stopped. It's head half hanging
         from its body.
       </Hitori>
@@ -407,7 +407,7 @@ export const HitoriStory = {
       </p>
       <p>
         "Stop getting in the way, you're making me look bad in front of Hotaru!"
-        complained a girl with a short bow trying to shoot though the gaps in
+        complained a girl with a short bow trying to shoot through the gaps in
         their formation.
       </p>
       <p>
@@ -418,7 +418,7 @@ export const HitoriStory = {
       <p>
         "Isn't it too dangerous? For F rank I mean, they are really sneaky."
         Said a bow carrying two swords who had been snuck up on and had his calf
-        bitten into, dragged down though the sewage water before managing to
+        bitten into, dragged down through the sewage water before managing to
         break free with the help of the others.
       </p>
       <p>
@@ -430,7 +430,7 @@ export const HitoriStory = {
         quickly changed when the boy with two swords stumbled from his injuries.
         He was bitten again, on the arm this time, Hotaru tried to help by
         shooting a manaball in the Gangikozōs direction, only to blind the
-        swordsman. Quickly, a scream of despair echoed off the walls though the
+        swordsman. Quickly, a scream of despair echoed off the walls through the
         tunnel, letting us know we had to hurry. The boy was being dragged down
         into the sewage again.
       </p>
@@ -438,7 +438,7 @@ export const HitoriStory = {
         For a few moments we could hear the boys struggles, sloshing the water
         about, pleading for help, by the time we arrived to the teenagers we
         could not see him. All the teenagers in the group must of known that
-        they had messed up when they came alone, this time was unusual though,
+        they had messed up when they came alone, this time was unusual through,
         if we had known it would of been like this I am sure the one-eyed woman
         would of bullied them into staying in a larger group from the start.
       </Hitori>

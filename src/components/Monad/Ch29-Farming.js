@@ -23,7 +23,7 @@ function Intro(props) {
         }}
           />
           {/* <li>
-              Body:<font color="blue"> Hui Lu's Battle Armor</font> ???
+              Body:<font color="blue"> Hui Lu's Battle Armour</font> ???
             </li>
             <li>
               Hands:<font color="blue"> Hui Lu's Enchanting Gloves</font> ???
@@ -45,7 +45,7 @@ function Intro(props) {
             also. If I went into a fight with normal boots they would just melt.
           </p>
           <p>
-            With these spells though, I guess I should go show Ralsan the
+            With these spells through, I guess I should go show Ralsan the
             farming spells and see if they are useful. I walked back through the
             fields scaring off the crows more then anything else. They were
             smart and knew to avoid me by a large margin now. I arrived back at
@@ -111,7 +111,7 @@ function Intro(props) {
           </p>
           <p>
             "No, hundreds usually they do them in batches. The quality is okay
-            considering the speed though. How many can you do at once? What is
+            considering the speed through. How many can you do at once? What is
             the description of the spell? What's the efficiency or fail rate?" He
             asked putting on a kind of business face.
           </p>
@@ -158,7 +158,7 @@ function Intro(props) {
             He looked at both parts for awhile, inspecting them with his little
             eye glass before saying. "Freaky. I can see why we only had a few
             lightning mages in the past. I mean the spells are great but not for
-            mass production. Great for research though..." He said smiling
+            mass production. Great for research through..." He said smiling
             again. "And lucky for you that is what the academy and this club is
             for."
           </p>
@@ -168,7 +168,7 @@ function Intro(props) {
             first time. The building itself felt quite new compared to the rest
             of the academy. Most of the buildings in the academy were here
             before Alden arrived and where just decorated after, this building
-            though looked both inside and out an Alden style building. The
+            through looked both inside and out an Alden style building. The
             inside was clean and new, everything was light grey walls and decks
             with marble white in places.
           </p>
@@ -257,7 +257,7 @@ function Intro(props) {
             what would happen if I ran out of mana. My body heated up, trying to
             use mana that was not there while trying to get more. I started
             sweating heavily, it felt like my body was heavier. I was a low
-            level though so the effect was not bad enough to cause me to black
+            level through so the effect was not bad enough to cause me to black
             out or anything. Since mages have more mana then other classes
             usually the effects are worse for us. I sat on the floor panting as
             the monster eating plant looked poised to move down and swallow us

@@ -141,7 +141,7 @@ function Intro(props) {
             "Wooo!" He really enjoyed his job.
           </p>
           <p>
-            After the ride was done I felt like I had gone though a tough fight.
+            After the ride was done I felt like I had gone through a tough fight.
             I turned and saw Tsuma was elated. "Which one do you want to try
             next?" She asked.
           </p>
@@ -178,7 +178,7 @@ function Intro(props) {
             is true the dukes are known to have tamed or captured fierce beasts
             from the forests of Alden, without them our population would of been
             worn down in wars over the years. The idea we all had one and went
-            hunting regularly though could not be true.
+            hunting regularly through could not be true.
           </p>
           <p>
             "Say what is Niyosho like? How is it different?" I asked, wondering if
@@ -241,7 +241,7 @@ function Intro(props) {
           </p>
           <p>"Yeah, that is true." She said.</p>
           <p>
-            "When we are strong enough, let's just go traveling the world. They
+            "When we are strong enough, let's just go travelling the world. They
             cannot stop you if you are stronger than them." I smiled.
           </p>
           <p>"I'd like that." She replied.</p>
@@ -255,7 +255,7 @@ function Intro(props) {
             "Hey do you want to go out for drinks with me? Like now?" I asked
             hoping she would say yes.
           </p>
-          <p>"Oh, I want to. I don't drink though." She said softly.</p>
+          <p>"Oh, I want to. I don't drink through." She said softly.</p>
           <p>"Eh? you don't drink? Not even water?" I asked confused.</p>
           <p>"... I mean I don't drink alcohol." She said.</p>
           <p>

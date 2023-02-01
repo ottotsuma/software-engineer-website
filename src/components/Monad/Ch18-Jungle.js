@@ -478,7 +478,7 @@ function Intro(props) {
             I had spent my time going through the art-work on the walls when I
             felt the pyramid shake again, before I could make to to the stair
             case I saw the others move up and the lid shut. I did no panic I had
-            food, water and they would open the lid again, if not though a new
+            food, water and they would open the lid again, if not through a new
             hunt then getting help from the academy. Okay maybe I was a little
             panicked.
           </p>
@@ -500,7 +500,7 @@ function Intro(props) {
             brain way trying to jump through the front of my skull as I fell face
             first into the ground, my nose bent on impact the blood splattered
             across the floor. I felt too much of a shock to move much at all the
-            pain soon surged though me and I became overwhelmed. Reaching for my
+            pain soon surged through me and I became overwhelmed. Reaching for my
             knife.
           </p>
 

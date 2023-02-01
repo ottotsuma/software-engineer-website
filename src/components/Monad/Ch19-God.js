@@ -105,7 +105,7 @@ Noticed by a God - get the notice of a God, (varies) */}
             "Aha, I am happy with just a few cute skeleton helpers here and
             there. I don't plan on becoming a combat mage anyway. You might be
             more interested to know that the coins, while they are magic items
-            according to this..." Tisiel flipped though her note book and the
+            according to this..." Tisiel flipped through her note book and the
             book from the market to show me her notes. "They are a type of
             single use item."
           </p>
@@ -173,7 +173,7 @@ Noticed by a God - get the notice of a God, (varies) */}
 
           <p>
             A blinding pain filled my brain as images and information followed
-            though. It was not just any stag that would do, an elemental
+            through. It was not just any stag that would do, an elemental
             creature the thunder stag. Most elemental creatures are rare, hard
             to find and tricky to handle. I imagine such a creature is far
             stronger then myself. I had got my first quest and I knew what I had
@@ -182,7 +182,7 @@ Noticed by a God - get the notice of a God, (varies) */}
 
           <p>
             To help me along I had been granted 1 faith. I could use this to
-            cast a spell of the deities choice and recharge it daily though
+            cast a spell of the deities choice and recharge it daily through
             prayer. I opened the menu to see what spell I had been granted, it
             was unlikely the spell could be changed.
           </p>
@@ -201,7 +201,7 @@ Noticed by a God - get the notice of a God, (varies) */}
             getting the answers to.
           </p>
 
-          {/* <p>God L grans the Power of god K though faith.</p> */}
+          {/* <p>God L grans the Power of god K through faith.</p> */}
 
           {/* Gods of worship require pray for awhile to grant faith based classes and then faith spells, gods of no worship have their attention on one or few individuals and are able to grand faith spells before to increase their following. Often gods fall out of fashion due to religious wars and differences or societal pressure. And you can get faith spells from the new god, maybe there spells suit you better or your society finds more acceptable the requirements such as the hunt or sacrifice will be popular before are not popular now. */}
 
@@ -311,7 +311,7 @@ Noticed by a God - get the notice of a God, (varies) */}
             will pray everyday so I am going to bed." I said. "Sleep well." He
             replied and the connection felt like it had gone dark again.
           </p>
-          {/* Arena Battle day & Arena day matches other then one of Otto's should be told though a commentator, give it some professional and hype! */}
+          {/* Arena Battle day & Arena day matches other then one of Otto's should be told through a commentator, give it some professional and hype! */}
           <h4>Battle Day</h4>
           <p>That morning I equipped the items had.</p>
           <Equipment

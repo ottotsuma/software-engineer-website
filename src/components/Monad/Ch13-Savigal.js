@@ -28,7 +28,7 @@ function Intro(props) {
           </Otto>
           <p>
             I made my way through the small market place buying fruits, I always
-            had a thing for fruits. I had traveling funds and it' nice to try
+            had a thing for fruits. I had travelling funds and it' nice to try
             new things. After shopping I went to the office building, normally a
             small town like this would use the village hall for any government
             administration, but since Savigal was a port town capable of being
@@ -83,7 +83,7 @@ function Intro(props) {
             a few lightning-manaballs around the bathhouse and chatting to the
             bathhouse lady for awhile I found out the manaballs I left behind
             kept the mana I expended, so my mana was not regenerating. They
-            would fade eventually though the night and that was why I had to
+            would fade eventually through the night and that was why I had to
             stay in town until the usual mage returned from their trip.
           </p>
           <p>
@@ -245,7 +245,7 @@ function Intro(props) {
             North-west into the jungle, just west of the main road. North-east
             inside a hill and of course the various high level dungeons to the
             south, in the beast territory. The most famous dungeon around
-            these parts though is the one in town. The reason for that is
+            these parts through is the one in town. The reason for that is
             because it is a very low level dungeon.
           </p>
           <p>
@@ -339,7 +339,7 @@ function Intro(props) {
           <Oskar>
             "Up first will be a group of unarmed Wandering Zombies. There will
             be between 3 and 5. They are quite weak, but I might like one slip
-            though so Anneliese will pick up any that slip though. As a mage
+            through so Anneliese will pick up any that slip through. As a mage
             you'll want to fight from the rear, right?" Oskar asked as we walked
             down a gentle slope of earth.
           </Oskar>
@@ -348,7 +348,7 @@ function Intro(props) {
             replied a little worried he would think less of me as a mage.
           </Otto>
           <Oskar>
-            "Oh-ho. A mage who is not a coward, I like that. Here we though
+            "Oh-ho. A mage who is not a coward, I like that. Here we through
             Anneliese was going to have to baby sit you all day." Oskar laughed
             loudly. His laughter was cut short as the Wandering Zombies had
             heard him and shambled around to greet us. "Me and my big mouth."
@@ -368,14 +368,14 @@ function Intro(props) {
           <Otto>
             A satisfying critical hit, 192 damage. Each zombie had 1,206HP so
             the attack had only taken 6% of it's total HP. However it's head was
-            dented in, the electricity had run though and shot out of the sides
+            dented in, the electricity had run through and shot out of the sides
             causing blood to shoot off in all directions. When it turned to
             attack me I swang the warhammer down low into it's knee, dealing 100
             more damage and slowing down its turn. While I had the time I cast{" "}
             <InlineSpell spellName={"Chain Lightning"} level={1} /> as I brought
             my warhammer down again, the lightning bolt sprang from the
             Wandering Zombie I was attacking into another. The spell was only
-            level 1 though so it did not bounce to another.
+            level 1 through so it did not bounce to another.
           </Otto>
           {/* let Base damage = (((100 * ((ATT*LVL) / (ATT+LVL))) * PWR) + 100)/(100/LVL) let Damage = ((Base damage) - (DEF)) */}
           {/* Att, 10, Lvl, 10, Power, 1.5? Def 0, total 150, critical hit, 20% ~ 35% */}
@@ -416,7 +416,7 @@ function Intro(props) {
           <Oskar>
             "Okay, from here on there will be more Wandering Zombies and mixed
             in with them Ancient Zombies. They move faster, hit harder, have
-            more health. Overall though they are similar. The final zombie to
+            more health. Overall through they are similar. The final zombie to
             watch out for is the Berserk Zombie, this one has similar stats to
             the Wandering Zombies but more health then the Ancient Zombies and a
             berserk skill that increases their stats above an Ancient Zombie for
@@ -433,7 +433,7 @@ function Intro(props) {
           <Otto>
             The fights were fast paced, my blood really got boiling beating the
             zombies. Half the team was over leveled for this dungeon, even
-            though we were synced down that still left us with the maximum
+            through we were synced down that still left us with the maximum
             attributes you could have in this dungeon. The other half of the
             team, although a lower level had ran this dungeon many times over
             and knew it well. Our time to the bosses was only around 40 minutes.
@@ -538,7 +538,7 @@ function Intro(props) {
             As I ran in again the Skeleton Lancer span it's whole body around
             without moving it's legs. Holding onto the spear it held it out and
             moved in a full circle around using only its upper body. The attack
-            had caught me off guard and slashed though my academy robe, my blood
+            had caught me off guard and slashed through my academy robe, my blood
             stained his spear and spattered across the floor. Luckily the cut
             was not too deep but my health had dropped by 30%.
           </Otto>
@@ -590,7 +590,7 @@ function Intro(props) {
             various bones which could be ground into powder or sold to
             necromancers. The Skeleton Lancer had left behind a{" "}
             <InlineItem itemName={"Trainee Bone Spear"} />, in amongst its
-            drops. While the Skeleton Soldier had dropped no armor or weapons
+            drops. While the Skeleton Soldier had dropped no armour or weapons
             there was a <InlineItem itemName={"Damaged Bone Charm"} />. While
             they were both common items the spear was an uncommon drop, around
             1.5% chance. The charm was a rare drop with a 0.3% chance. With a
@@ -604,7 +604,7 @@ function Intro(props) {
           <Oskar>
             "Despite Klemens exaggeration of how often we dive into this
             dungeon, he's not wrong. This is a very rare drop. As the rules
-            state though, we four will be given the first right to purchase, if
+            state through, we four will be given the first right to purchase, if
             we pass on that then we will sell the charm on the market and split
             the profits." Oskar stated while putting the charm into his
             inventory.
@@ -663,7 +663,7 @@ function Intro(props) {
             least, in my eyes. It was more then enough to afford a few treats
             for myself this week, and maybe Mia. Plus I would have enough money
             to make a trip to the market and maybe pick up a cheap accessory. It
-            would of been nice if I could afford a better weapon or armor but
+            would of been nice if I could afford a better weapon or armour but
             even without the treats it was not enough. After all exchanging a
             charm from a level 10 dungeon between 4 people it was already
             impressive enough.
@@ -688,7 +688,7 @@ function Intro(props) {
             }}
             rating={"advanced"}
             name={"Bone Lance"}
-            effect2="Set Effect: 10% increase to strength and endurance (3). Weaker beasts are less likely to initiate battle with you (5)." // hat, armor, lance, shield, shoes.
+            effect2="Set Effect: 10% increase to strength and endurance (3). Weaker beasts are less likely to initiate battle with you (5)." // hat, armour, lance, shield, shoes.
             effect="Bone Lance: Launch yourself Strength/100(m) forward, dealing 200% damage on impact."
             src={
               "https://ottotsuma.github.io/images/people/2d7002b02e419fb5cca7be2ec8e9f755.jpg"
@@ -698,7 +698,7 @@ function Intro(props) {
             After gawking at the <InlineItem itemName={"Bone Lance"} /> for
             awhile, I left Anneliese, Klemens and Oskar and headed back to Grans
             house. Gran had gone to the market in the morning, after that I was
-            not sure but now she was back home going though records in a large
+            not sure but now she was back home going through records in a large
             binder. Seems like Gran is a busy person. I didn't want to disturb
             her, just ler her know I came back. However once I announced myself,
             Gran had asked me how it was, that should would make me some food to
@@ -850,7 +850,7 @@ function Intro(props) {
             As agreed I went shopping for fresh vegetables and meat, I did just
             get paid and if I took any money back to the academy with me they
             would take it as I owed them a debt. It's not like I could spend all
-            of the money though, they sent me on a mission and knew how much I
+            of the money through, they sent me on a mission and knew how much I
             would be paid for that at least. Arriving back at the shop I had
             left a over an hour ago Leon was still inside, it seemed that
             clocking off even at after sundown was a favor to the shop keeper he
@@ -963,7 +963,7 @@ function Intro(props) {
 
           <p>
             "Nice to see you survived too." Coming inside I saw Reingard who
-            waved to me as I came in, he was sorting though some bones of some
+            waved to me as I came in, he was sorting through some bones of some
             kind of beast.
           </p>
 

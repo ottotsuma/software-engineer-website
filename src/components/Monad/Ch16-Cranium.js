@@ -32,11 +32,11 @@ function Intro(props) {
             Honestly I might never of come if that was not the case. The academy
             was almost like it was housed in it's own miniature world, with even
             more to find inside of it. Most people think the academy is just a
-            far away land connected though the portals, but that's hardly a fun
+            far away land connected through the portals, but that's hardly a fun
             way to think of things.
           </Tisiel>
           <p>
-            Looking though the bones, trinkets and nick-nacks. I tried to find
+            Looking through the bones, trinkets and nick-nacks. I tried to find
             my latest note book I still had to find out more about my latest
             editions to my collection. Settling down into an old wooden chair by
             my study table, I always wrap my hands around the curved handle, old
@@ -95,14 +95,14 @@ function Intro(props) {
           <p>
             "I suppose these are normal questions since it is your first time.
             Very well, I cannot use magic directly, I would need a medium to act
-            though or a source of mana which I am attached to. I cannot move.
+            through or a source of mana which I am attached to. I cannot move.
             Hmm hard to say really, I continued as I am currently for a few
             civilizations before being left inside that witches study."
           </p>
 
           <Tisiel>"A few civilizations? Not years? Or centuries?" I interrupted very confused.</Tisiel>
           <Vortigern>
-            "Yes, I five in total if I include my own, I guess I never lived though the whole of my own civilizations time. It looks like you have
+            "Yes, I five in total if I include my own, I guess I never lived through the whole of my own civilizations time. It looks like you have
             found items with a similar design to a few I know." He confirmed.
           </Vortigern>
           <Tisiel>
@@ -142,7 +142,7 @@ function Intro(props) {
             combat mages & first years. The first person I could think of was
             Reingard. He was the only other house mate I had talked to before
             that was a combat mage. Ralsan wanted to become a farmer, Tisiel was
-            not made for combat, she would one day fight though skeleton
+            not made for combat, she would one day fight through skeleton
             warriors but no time soon. Shrorlei despite meeting her I have no
             had time to talk to.
           </p>

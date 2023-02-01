@@ -13,7 +13,7 @@ function Intro(props) {
             arrive. Tisiel soon arrived looking like she had stayed up all night
             again. The dark circles under her eyes had dark circles under them.
           </p>
-          <p>"So you made a big break though?" I asked as you approached.</p>
+          <p>"So you made a big break through?" I asked as you approached.</p>
           <p>
             "Yes, I am sure we can open this door" She replied looking
             delighted.
@@ -29,7 +29,7 @@ function Intro(props) {
             was behind it. Shame really." I replied coldly.
           </p>
           <p>
-            Puffing out her cheeks "It was just a joke! But seriously though we
+            Puffing out her cheeks "It was just a joke! But seriously through we
             can open the door, we just have to read this passage out loud and
             combine the wand with the ring inside the door."
           </p>
@@ -121,7 +121,7 @@ function Intro(props) {
             have." She said.
           </p>
           <p>
-            "Yeah, even though I've been joking about this place, I don't want
+            "Yeah, even through I've been joking about this place, I don't want
             to spend too long down here." With that we went back to Tisiel's
             room to search through what we had found, after all this place was
             kind of creepy.
@@ -164,7 +164,7 @@ function Intro(props) {
             "Back to the real topic. The place looked like a study when you
             really think about it, but why? Who would build a study at the back
             of the cliff side when the academy would of been closer to the
-            entrance. I am sure I will get to the bottom of this though." Tisiel
+            entrance. I am sure I will get to the bottom of this through." Tisiel
             said looking down at the soft toy in her arms.
           </p>
           <p>

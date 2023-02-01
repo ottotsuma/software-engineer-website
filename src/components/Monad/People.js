@@ -98,7 +98,7 @@ export default function Otto(Chapter) {
         {/* This equipment is level 5? So maybe needs stat changes */}
         <h1>Other Items</h1>
         <li>
-          Body:<font color="blue"> Hui Lu's Battle Armor</font> ???
+          Body:<font color="blue"> Hui Lu's Battle Armour</font> ???
         </li>
         <li>
           Hands:<font color="blue"> Hui Lu's Enchanting Gloves</font> ???
@@ -591,7 +591,7 @@ export function Sarah(Chapter) {
             { name: "Vampiric Powers", level: 1 },
             { name: "Vampiric", level: 1 },
             // Above is all (I)
-            // Basic Vampire Martial Arts, Vampiric Influence, Blood Wall, Blood Bank, Blood Storage, Blood Hardening, Sleep Immunity, Blood Armor,
+            // Basic Vampire Martial Arts, Vampiric Influence, Blood Wall, Blood Bank, Blood Storage, Blood Hardening, Sleep Immunity, Blood Armour,
           ],
           "Fallen Paladin": [],
           conditions: [
@@ -607,7 +607,7 @@ export function Sarah(Chapter) {
           // https://www.timelessmyths.com/arthurian/peers/
           // https://aikaonlinena.fandom.com/wiki/Paladin_Sets / https://aikadb.astrobunny.net/simple.php?paladin-blade-of-twilight-paladin
           Body: {
-            name: "Paladin Engeler's Body Armor (silver rank)",
+            name: "Paladin Engeler's Body Armour (silver rank)",
             effect:
               "Reduces physical damage taken by 10%, except spears. Endurance +1, Endurance +10%.",
             rating: "epic",

@@ -238,7 +238,7 @@ export const placeList = {
 // The Republic fractures from invasions by the Elves, late empire problems, uninterested ruling class, Alden invasion, Sea people sabotage.
 // Alden invades Herkikia League, they both collapse under the sea peoples invasion.
 // The Kingdom having become the Empire forms a deal with Niyosho but are both destroyed by the sea people
-// Our characters flee though the desert/Solzi into Pocotcotco, who are under invasion by the Elves.
+// Our characters flee through the desert/Solzi into Pocotcotco, who are under invasion by the Elves.
 // Who again fall before the sea people in ruin.
 
 
@@ -250,7 +250,7 @@ export const placeList = {
 // principality - ruled by a prince 
 // kingdom - king
 // republic - representatives from each place - all elected also
-// Places joined together though alliance? to act as one unit under one representative
+// Places joined together through alliance? to act as one unit under one representative
 // pocotcotco ?
 // Solzi ?
 
