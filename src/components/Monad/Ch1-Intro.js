@@ -90,24 +90,16 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             "Are you trying to explain the plan to Rock Head again? You know why we call him that right?" A tall, wide, muscular man interrupted me. On his head, was a wampus cat's head. I'd seen him kill it, its yellow eyes were supposed to be able to hypnotise a person who looked into them, this man could only have one thought in his head at a time, 'whack it till it's dead'. If he's telling me Rock Head has less brains than him maybe he's right, but honestly it was more to calm my nerves.
             </p>
             <p>
-              I gave him a nod of understanding and he went back to stuffing his
-              face with, what I hope was not beast meat from the jungle, the
-              last thing we needed was him going insane from eating some unknown
-              poisonous creature.
+              I gave him a nod of understanding and he went back to stuffing his face with, what I hoped was not beast meat from the jungle. The last thing we needed was him going insane from eating some unknown poisonous creature.
             </p>
             <p>
-              When I looked back over to the sea peoples final outpost, it would
-              seem they did have a sense of survival after all. Their oversized
-              wooden boats were gliding off into the sea.
+              When I looked back over to the sea people's final outpost, it would seem they did have a sense of survival after all. Their oversized wooden boats were gliding off into the sea.
             </p>
             <p>
-              That was just the signal the Herkikia general needed, the wind mage
-              next to him carried the generals voice across our whole line and
-              beyond. His voice was loud and strong.
+              That was just the signal the Herkikia general needed. The wind mage next to him carried the general's voice across our whole line and beyond. His voice was loud and strong.
             </p>
             <p>
-              "Victory is near at hand! If all do their duty, it will be OUR
-              victory!"
+              "Victory is near at hand! If all do their duty, it will be OUR victory!"
             </p>
             <p>"YEAAAHHH!" A cry from his men came as an answer to his words.</p>
             <p>
