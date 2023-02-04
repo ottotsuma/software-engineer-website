@@ -240,11 +240,11 @@ export default function Monad(params) {
     )
     for (let index = 0; index < possibleSizes.length; index++) {
       const size = possibleSizes[index];
-      buttonArray.push(<Buttons style={{ padding: '5px', border: '2px solid black' }} key={size} onClick={() => updateState(setSizeState, size)}>{size}</Buttons>)
+      buttonArray.push(<Buttons style={{ padding: '5px', border: '2px solid black', backgroundColor: 'white' }} key={size} onClick={() => updateState(setSizeState, size)}>{size}</Buttons>)
     }
     for (let index = 0; index < possibleColors.length - 1; index++) {
       const NewColor = possibleColors[index];
-      buttonArray.push(<Buttons style={{ padding: '5px', border: '2px solid black' }} key={NewColor} onClick={() => updateState(SetColorState, textColors[NewColor])}>{NewColor}</Buttons>)
+      buttonArray.push(<Buttons style={{ padding: '5px', border: '2px solid black', backgroundColor: 'white', color: NewColor }} key={NewColor} onClick={() => updateState(SetColorState, textColors[NewColor])}>{NewColor}</Buttons>)
     }
     setSizeArray(buttonArray)
   }, [darkMode]);
@@ -347,7 +347,7 @@ export default function Monad(params) {
           </LinkStyled>}
           <div className="dropdown">
             <ButtonStyled onClick={() => myFunction()} className="">
-              Monad
+              Chapter
             </ButtonStyled>
             <div id="myDropdown" className="dropdown-content">
               {droppy()}

@@ -411,7 +411,7 @@ function Book() {
                 charisma: +2,
               }}
               name={"Human"}
-              effect="Can use all simple tools and weapons."
+              effect="Emotional."
               src={`https://ottotsuma.github.io/images/people/jane.png`}
             />,
             <Item

@@ -139,6 +139,12 @@ export function SpellFinder() {
     </ElementalButton>
     );
     const PossiblePlaces = Object.keys(placeList)
+    for (let j = 0; j < PossiblePlaces.length; j++) {
+      if(placeList[PossiblePlaces[j]] && placeList[PossiblePlaces[j]].countries) {
+          const countriesData = Object.keys(placeList[PossiblePlaces[j]].countries)
+          countriesData.map(name => PossiblePlaces.push(name))
+      }
+    }
     for (let index = 0; index < PossiblePlaces.length; index++) {
       PlacesButtonsArray.push(
         <ElementalButton
@@ -1718,16 +1724,29 @@ export function BeastPage({ name }) {
 }
 
 export function PlacePage(place) {
-  console.log(placeList[place.name])
-  const data = placeList[place.name]
-  return (<div>
-    <h4>Name: {data["full name"]}</h4>
-    <h5>Short Name: {data.name}</h5>
-    <div>Government: {data.government}</div>
-    <div>Disc: {data.disc}</div>
+  let data = placeList[place.name]
 
+  const PossiblePlaces = Object.keys(placeList)
+  for (let j = 0; j < PossiblePlaces.length; j++) {
+    if(placeList[PossiblePlaces[j]].name === place.name) {data = placeList[PossiblePlaces[j]]}
+    if(placeList[PossiblePlaces[j]] && placeList[PossiblePlaces[j]].countries) {
+        const countriesData = Object.keys(placeList[PossiblePlaces[j]].countries)
+        countriesData.map(location => {
+          if(placeList[PossiblePlaces[j]].countries[location].name === place.name) {
+            data = placeList[PossiblePlaces[j]].countries[location]
+          }
+        })
+    }
+  }
+  console.log(data)
+  return (<div>
+    <h4>Name: {data && data["full name"] ? data["full name"] : place && place["full name"] ? place["full name"] : ''}</h4>
+    <h5>Short Name: {data && data["name"] ? data["name"] : place && place["name"] ? place["name"] : ''}</h5>
+    <div>Government: {data && data["government"] ? data["government"] : place && place["government"] ? place["government"] : ''}</div>
+    {data && data["disc"] ? <div>Disc: {data["disc"]}</div> : place && place["disc"] ? <div>Disc: {place["disc"]}</div> : ''}
+    {/* {data && data["countries"] ? <div>{data["countries"]}</div> : <div />} */}
     <h5>Unique Unit:</h5>
-    <BeastPage name={data["unique unit"][0]} />
+    <BeastPage name={data && data["unique unit"] ? data["unique unit"][0] : place && place["unique unit"] ? place["unique unit"][0] : ''} />
   </div>)
 }
 

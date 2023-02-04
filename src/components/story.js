@@ -36,7 +36,7 @@ function Story(props) {
               </p>
               <h4 className="Card-Font">Species: Human.</h4>
               <p className="Card-Font">Sense +1 Charisma +2</p>
-              <p className="Card-Font">(Can use all tools and weapons)</p>
+              <p className="Card-Font">(Emotional)</p>
             </div>
             <div
               className="Card-Right"

@@ -315,9 +315,9 @@ most people learn inspect but either see
             {/* <!-- Children in the forest --> */}
             {/* From who's point of view?, Effi, telling her mom what happened. */}
             {/* Or Otto telling his Dad which rolls into the aftermath. */}
-            <p>
-
-            </p>
+            {/* Otto: Looking for insects or "monsters" to draw and write about;
+  Other kids play fighting
+  incident, few deaths */}
             <p>
               The group of seven, laughing running into the forest, beyond the eyes
               of their parents, they arrive at a circular clear area within the

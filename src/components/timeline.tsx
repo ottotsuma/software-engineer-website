@@ -45,11 +45,31 @@ export default function CustomizedTimeline() {
           <TimelineContent>
             <Paper elevation={3} className={classes.paper}>
               <Typography variant="h6" className="timelineTitle">
+                Lead Engineer
+              </Typography>
+              <Typography>Gruuw</Typography>
+              <Typography variant="body2" color="textSecondary">
+                2022 August - Present
+              </Typography>
+            </Paper>
+          </TimelineContent>
+        </TimelineItem>
+      <TimelineItem>
+          <TimelineOppositeContent></TimelineOppositeContent>
+          <TimelineSeparator>
+            <TimelineDot color="secondary">
+              <LaptopMacIcon />
+            </TimelineDot>
+            <TimelineConnector />
+          </TimelineSeparator>
+          <TimelineContent>
+            <Paper elevation={3} className={classes.paper}>
+              <Typography variant="h6" className="timelineTitle">
                 Software Engineer
               </Typography>
               <Typography>PlayBrain</Typography>
               <Typography variant="body2" color="textSecondary">
-                2020 March - Present
+                2020 March - 2022 August 
               </Typography>
             </Paper>
           </TimelineContent>

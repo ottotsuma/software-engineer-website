@@ -13,7 +13,7 @@ function TechList() {
                 <CardImage
                   onError={imageError}
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png"
-                  alt="human"
+                  alt="JavaScript"
                 />
                 <Container>
                   <Name>JavaScript</Name>
@@ -29,7 +29,7 @@ function TechList() {
                 <CardImage
                   onError={imageError}
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1024px-Typescript_logo_2020.svg.png"
-                  alt="human"
+                  alt="TypeScript"
                 />
                 <Container>
                   <Name>TypeScript</Name>
@@ -45,7 +45,7 @@ function TechList() {
                 <CardImage
                   onError={imageError}
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1024px-Ruby_logo.svg.png"
-                  alt="human"
+                  alt="Ruby"
                 />
                 <Container>
                   <Name>Ruby</Name>
@@ -61,7 +61,7 @@ function TechList() {
                 <CardImage
                   onError={imageError}
                   src="https://i.pinimg.com/originals/f1/ea/a7/f1eaa7278f64e27128e062a3de918265.png"
-                  alt="human"
+                  alt="Java"
                 />
                 <Container>
                   <Name>Java</Name>
@@ -77,7 +77,7 @@ function TechList() {
                 <CardImage
                   onError={imageError}
                   src="https://cdn.psdrepo.com/images/2x/railsware-blog-important-overhaul-elixir-did-to-erlang-m6.jpg"
-                  alt="human"
+                  alt="Elixir"
                 />
                 <Container>
                   <Name>Elixir</Name>
@@ -93,7 +93,7 @@ function TechList() {
                 <CardImage
                   onError={imageError}
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png"
-                  alt="human"
+                  alt="React"
                 />
                 <Container>
                   <Name>React.js</Name>
@@ -109,7 +109,7 @@ function TechList() {
                 <CardImage
                   onError={imageError}
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/800px-Nextjs-logo.svg.png"
-                  alt="human"
+                  alt="Next"
                 />
                 <Container>
                   <Name>Next.js</Name>
@@ -125,7 +125,7 @@ function TechList() {
                 <CardImage
                   onError={imageError}
                   src="https://miro.medium.com/max/1000/1*ub1DguhAtkCLvhUGuVGr6w.png"
-                  alt="human"
+                  alt="React-Native"
                 />
                 <Container>
                   <Name>React-Native</Name>
@@ -141,7 +141,7 @@ function TechList() {
                 <CardImage
                   onError={imageError}
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png"
-                  alt="human"
+                  alt="Vue"
                 />
                 <Container>
                   <Name>Vue.js</Name>
@@ -157,7 +157,7 @@ function TechList() {
                 <CardImage
                   onError={imageError}
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png"
-                  alt="human"
+                  alt="Node"
                 />
                 <Container>
                   <Name>Node.js</Name>
@@ -173,7 +173,7 @@ function TechList() {
                 <CardImage
                   onError={imageError}
                   src="https://mdn.mozillademos.org/files/16742/pwa.png"
-                  alt="human"
+                  alt="PWA"
                 />
                 <Container>
                   <Name>PWA</Name>
@@ -189,7 +189,7 @@ function TechList() {
                 <CardImage
                   onError={imageError}
                   src="https://expressjs.com/images/express-facebook-share.png"
-                  alt="human"
+                  alt="Express"
                 />
                 <Container>
                   <Name>Express</Name>
@@ -205,7 +205,7 @@ function TechList() {
                 <CardImage
                   onError={imageError}
                   src="https://infinapps.com/wp-content/uploads/2018/10/mongodb-logo.png"
-                  alt="human"
+                  alt="MongoDB"
                 />
                 <Container>
                   <Name>MongoDB</Name>
@@ -221,7 +221,7 @@ function TechList() {
                 <CardImage
                   onError={imageError}
                   src="https://zdnet2.cbsistatic.com/hub/i/r/2018/04/19/092cbf81-acac-4f3a-91a1-5a26abc1721f/thumbnail/770x578/5d78c50199e6a9242367b37892be8057/postgresql-logo.png"
-                  alt="human"
+                  alt="Postgres"
                 />
                 <Container>
                   <Name>Postgres</Name>
@@ -237,7 +237,7 @@ function TechList() {
                 <CardImage
                   onError={imageError}
                   src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png"
-                  alt="human"
+                  alt="HTML"
                 />
                 <Container>
                   <Name>HTML</Name>
@@ -253,7 +253,7 @@ function TechList() {
                 <CardImage
                   onError={imageError}
                   src="https://www.styled-components.com/atom.png"
-                  alt="human"
+                  alt="Styled Components"
                 />
                 <Container>
                   <Name>Styled Components</Name>
@@ -269,7 +269,7 @@ function TechList() {
                 <CardImage
                   onError={imageError}
                   src="https://mui.com/static/logo.png"
-                  alt="human"
+                  alt="Material UI"
                 />
                 <Container>
                   <Name>Material UI</Name>
@@ -285,7 +285,7 @@ function TechList() {
                 <CardImage
                   onError={imageError}
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"
-                  alt="human"
+                  alt="CSS"
                 />
                 <Container>
                   <Name>CSS</Name>
@@ -301,7 +301,7 @@ function TechList() {
                 <CardImage
                   onError={imageError}
                   src="https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg"
-                  alt="human"
+                  alt="Sass"
                 />
                 <Container>
                   <Name>Sass</Name>
@@ -317,7 +317,7 @@ function TechList() {
                 <CardImage
                   onError={imageError}
                   src="https://fuzati.com/wp-content/uploads/2016/12/Bootstrap-Logo.png"
-                  alt="human"
+                  alt="Bootstrap"
                 />
                 <Container>
                   <Name>Bootstrap</Name>
@@ -333,7 +333,7 @@ function TechList() {
                 <CardImage
                   onError={imageError}
                   src="https://images.ctfassets.net/nrgyaltdicpt/6gsvc5Ogjmu04I4Miu0uGg/cb1d4391717d2ab8d5e42ede6fb0eef1/overleaf_wide_colour_light_bg.png"
-                  alt="human"
+                  alt="Latex/Overleaf"
                 />
                 <Container>
                   <Name>Latex/Overleaf</Name>

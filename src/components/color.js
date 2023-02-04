@@ -3,7 +3,8 @@ export function imageError(ev) {
   ev.target.src = Empty
 }
 
-export const colors = {
+// These colors are local to this file
+const colors = {
     blue: "#0d89eb",
     lightBlue: "#2CA8FF",
     darkBlue: "#161b21",

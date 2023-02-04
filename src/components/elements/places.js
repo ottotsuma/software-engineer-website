@@ -22,6 +22,11 @@ export const placeList = {
   },
   Charia: {
     notes: `6) [Charia] (New world) Large single content (Story)`,
+    // "full name"
+    // name
+    // government
+    // disc:
+    // "unique unit":
     countries: {
       Alden: {
         name: "Alden",
