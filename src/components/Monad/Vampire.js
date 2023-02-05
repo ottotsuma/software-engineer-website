@@ -142,7 +142,13 @@ export function SpellFinder() {
     for (let j = 0; j < PossiblePlaces.length; j++) {
       if(placeList[PossiblePlaces[j]] && placeList[PossiblePlaces[j]].countries) {
           const countriesData = Object.keys(placeList[PossiblePlaces[j]].countries)
-          countriesData.map(name => PossiblePlaces.push(name))
+          for (let index = 0; index < countriesData.length; index++) {
+            PossiblePlaces.push(countriesData[index])
+            const countryData = placeList[PossiblePlaces[j]].countries[countriesData[index]]
+            if(countryData && countryData.cities) {
+              Object.keys(countryData.cities).map(city => PossiblePlaces.push(city))
+            }
+          }
       }
     }
     for (let index = 0; index < PossiblePlaces.length; index++) {
@@ -1725,29 +1731,56 @@ export function BeastPage({ name }) {
 
 export function PlacePage(place) {
   let data = placeList[place.name]
-
+  let subNames = []
+  // Same with cities
   const PossiblePlaces = Object.keys(placeList)
   for (let j = 0; j < PossiblePlaces.length; j++) {
-    if(placeList[PossiblePlaces[j]].name === place.name) {data = placeList[PossiblePlaces[j]]}
-    if(placeList[PossiblePlaces[j]] && placeList[PossiblePlaces[j]].countries) {
-        const countriesData = Object.keys(placeList[PossiblePlaces[j]].countries)
-        countriesData.map(location => {
-          if(placeList[PossiblePlaces[j]].countries[location].name === place.name) {
-            data = placeList[PossiblePlaces[j]].countries[location]
+    if(placeList[PossiblePlaces[j]].name === place.name) {
+      data = placeList[PossiblePlaces[j]]
+    } else if (placeList[PossiblePlaces[j]].countries && Object.keys(placeList[PossiblePlaces[j]].countries).includes(place.name)) {
+      data = placeList[PossiblePlaces[j]].countries[place.name]
+      if(placeList[PossiblePlaces[j]].countries[place.name].cities) {
+        // adds city names to sub list
+        const citiesData = Object.keys(placeList[PossiblePlaces[j]].countries[place.name].cities)
+        citiesData.map(city => {
+          subNames.push(city)
+        })
+      }
+    } else if (placeList[PossiblePlaces[j]].countries) {
+      const array = Object.keys(placeList[PossiblePlaces[j]].countries)
+      for (let index = 0; index < array.length; index++) {
+        if(placeList[PossiblePlaces[j]].countries[array[index]].cities) {
+          const cityList = Object.keys(placeList[PossiblePlaces[j]].countries[array[index]].cities)
+          if(cityList.includes(place.name)) {
+            data = placeList[PossiblePlaces[j]].countries[array[index]].cities[place.name]
           }
+        }
+      }
+    }
+    if(placeList[PossiblePlaces[j]].name === place.name && placeList[PossiblePlaces[j]].countries) {
+      // Adds countries to sub list
+        const countriesData = Object.keys(placeList[PossiblePlaces[j]].countries)
+        countriesData.map(country => {
+          subNames.push(country)
         })
     }
   }
-  console.log(data)
-  return (<div>
-    <h4>Name: {data && data["full name"] ? data["full name"] : place && place["full name"] ? place["full name"] : ''}</h4>
-    <h5>Short Name: {data && data["name"] ? data["name"] : place && place["name"] ? place["name"] : ''}</h5>
-    <div>Government: {data && data["government"] ? data["government"] : place && place["government"] ? place["government"] : ''}</div>
-    {data && data["disc"] ? <div>Disc: {data["disc"]}</div> : place && place["disc"] ? <div>Disc: {place["disc"]}</div> : ''}
-    {/* {data && data["countries"] ? <div>{data["countries"]}</div> : <div />} */}
-    <h5>Unique Unit:</h5>
-    <BeastPage name={data && data["unique unit"] ? data["unique unit"][0] : place && place["unique unit"] ? place["unique unit"][0] : ''} />
-  </div>)
+  // Render list automatically based on data keys.
+  function printData (data) {
+    const output = []
+    const dataKeys = Object.keys(data)
+    const dataValues = Object.values(data)
+    for (let index = 0; index < dataKeys.length; index++) {
+      // need to remove object values also.
+      if(dataKeys[index] !== "unique unit" && typeof(dataValues[index]) !== 'object')
+        output.push(<CountryTitles>{dataKeys[index] + ': ' + dataValues[index]}</CountryTitles>)    
+      }
+    return output
+  }
+  return (<CountryList>
+    {data && printData(data)}
+    {data && data["unique unit"] ? <BeastPage name={data["unique unit"][0]} /> : <div />} 
+  </CountryList>)
 }
 
 const BeastContainer = styled.div`
@@ -1805,3 +1838,14 @@ const Bot = styled.div`
   max-height: 28%;
   zoom: ${(props) => props.r};
 `;
+const CountryList = styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+`
+
+const CountryTitles = styled.div `
+align-self: baseline;
+text-align: initial;
+padding: 0 10px;
+`

@@ -22,8 +22,8 @@ export const placeList = {
   },
   Charia: {
     notes: `6) [Charia] (New world) Large single content (Story)`,
-    // "full name"
-    // name
+    "full name": 'Charia',
+    name: 'Charia',
     // government
     // disc:
     // "unique unit":
@@ -61,6 +61,7 @@ export const placeList = {
           `,
         cities: {
           Todtenwei: {
+            name: 'Todtenwei',
             map: 272082858,
             bathhouse: false,
             forge: false,
@@ -80,7 +81,8 @@ export const placeList = {
             map: 5628570730133
 
           },
-          Alden: {
+          'Alden (city)': {
+            name: 'Alden (city)',
             map: 839360670
 
           },
