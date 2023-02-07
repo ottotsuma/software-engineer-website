@@ -91,7 +91,7 @@ export const racesList = {
   Human: {
     name: "Human",
     stats: { charisma: 2, sense: 1 },
-    self: "Can use all basic tools.",
+    self: "Emotional.",
     images: [],
     notes: "",
     tier: "normal",
