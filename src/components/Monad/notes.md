@@ -1210,7 +1210,7 @@ Economy type -
 Unique Unit - 
 
 Pocotcotco (Aztec use to be Mayan) 🦅
-Military - Weak individuals, strong heros?, weak military, no navy
+Military - Weak individuals, strong heroes?, weak military, no navy
 Diplomacy - Mostly negative
 Religion - Old gods (Aztec)
 Culture - Traditional, unchanging

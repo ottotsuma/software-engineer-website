@@ -495,6 +495,22 @@ export const racesList = {
   },
   // Noxious Cloud Peccary
   // https://en.wikipedia.org/wiki/List_of_reptilian_humanoids
+  "Buncho": {
+    name: "Buncho 文鳥",
+    stats: {
+      charisma: 0,
+      vitality: 0,
+      dexterity: 0,
+      endurance: 0,
+      magic: 0,
+      willpower: 0,
+    },
+    self: "",
+    images: [],
+    notes: "",
+    tier: "",
+    disc: "",
+  },
 };
 // Bakeneko (monster) (one tail) cat demon,  & nekomata (species) (two tails), raises the dead with dances.
 

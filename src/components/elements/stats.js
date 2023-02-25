@@ -298,7 +298,7 @@ function Stats({
         }
       }
     }
-    const raceStats = Object.keys(racesList[baseStats.species].stats);
+    const raceStats = Object.keys(racesList[baseStats.species]?.stats || {});
     RaceSpan = _try(() => racesList[baseStats.species].team);
     if (RaceSpan) RaceSpan = "Team: " + RaceSpan;
     if (!RaceSpan) {

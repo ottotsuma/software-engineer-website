@@ -381,5 +381,16 @@
     ],
     "eslint.enable": true,
     "cSpell.enabled": true,
-    "files.eol": "\n"
+    "files.eol": "\n",
+    "grammarly.selectors": [
+        {
+            "language": "markdown",
+            "scheme": "file"
+        },
+        {
+            "language": "javascript",
+            "scheme": "file",
+            "pattern": "src/components/Monad/Ch1-Intro.js"
+        }
+    ]
 }

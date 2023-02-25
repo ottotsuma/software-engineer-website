@@ -72,19 +72,19 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             <h3>Herkikia - Jun 01 21-12</h3>
             <p>
               The Herkikia League had always been the best place on the
-              continent to be a mercenary. The past few years had made that statement even more true, this year more then ever.
+              continent to be a mercenary. The past few years had made that statement even more true, this year more than ever.
             </p>
             <p>
-              However, all good things must come to an end. The people who had invaded from across the endless eastern sea, had proven it was not endless and the daft pricks didn't bring enough food with them to be starting a war.
+              However, all good things must come to an end. The people who had invaded from across the endless eastern sea had proven it was not endless and the daft pricks didn't bring enough food with them to be starting a war.
             </p>
             <p>
-              I must not let my guard down through, a cornered beast will fight harder. To the west,
-              the monster jungles of Chingaling, their east the army's of the
-              Herkikia league of city states. To the north the sea they came from, which finally left the south the mercenaries hired by the League to finish the encirclement.
+              I must not let my guard down though, a cornered beast will fight harder. To the west,
+              the monster jungles of Chingaling, their east the armies of the
+              Herkikia league of city-states. To the north the sea they came from, which finally left the south the mercenaries hired by the League to finish the encirclement.
             </p>
             <p>
               If these sea people had any sense they would focus their attacks
-              on this side. The pay is good but its no good to a dead man. Then again it might be better if they just left into the sea from once they came.
+              on this side. The pay is good but it's no good to a dead man. Then again it might be better if they just left into the sea from once they came.
             </p>
             <p>
               "Are you trying to explain the plan to Rock Head again? You know why we call him that right?" A tall, wide, muscular man interrupted me. On his head, was a wampus cat's head. I'd seen him kill it, its yellow eyes were supposed to be able to hypnotise a person who looked into them, this man could only have one thought in his head at a time, 'whack it till it's dead'. If he's telling me Rock Head has less brains than him maybe he's right, but honestly it was more to calm my nerves.
@@ -113,7 +113,7 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             </p>
             <p>"Ahaha!"</p>
             <p>
-              "The enemy war god must have a sense of humour, I mean look at
+              "The enemy war god must have a sense of humor, I mean look at
               them."
             </p>
             <p>"Ahahaha!"</p>
@@ -136,19 +136,11 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
               'Ice spear' into their ranks. I wrapped my sword with ice magic as
               we got closer. The berserker from before shouted louder than a war
               drum next to me and jumped into their ranks swinging his club
-              around at whoever was nearby. With their ranks fully broken up I
+              around at whoever was nearby. With their ranks fully broken up, I
               was able to fight small duels which was more my style.
             </p>
             <p>
-              I used my sword to move my opponents to one side and launched a
-              ball of hardened ice into his chest. He pushed through the pain so
-              I let my ice magic spray out from me causing him to slow and be
-              cut by small shards of ice. I moved in and stabbed him just below
-              the waist. He moved back holding his stomach and cursed in a
-              language I don't know. "썅놈" I moved back as he was dying and
-              gathered magic into my hand. He reached down and pulled up a wand?
-              He pointed it right at my head and the sound it gave off blew my
-              eardrums out, there was a large flash of light, then nothing.
+              I used my sword to move my opponent to one side and launched a ball of hardened ice into his chest. He pushed through the pain so I let my ice magic spray out from me causing him to slow and be cut by small shards of ice. I moved in and stabbed him just below the waist. He moved back holding his stomach and cursed in a language I don't know. "썅놈" I moved back as he was dying and gathered magic into my hand. He reached down and pulled up a wand? He pointed it right at my head and the sound it gave off blew my eardrums out, there was a large flash of light, then nothing.
             </p>
           </BreakPoint>
           <div className="pop">
@@ -171,7 +163,7 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             <h3>Steinauhau - Jun 12 21-12</h3>
             {/* The Grand Duchy of Alden is home to 3.2 million people */}
             <p>
-              Jun 12 21-12, In the north east of the continent of Chab, in the
+              Jun 12 21-12, In the North-east of the continent of Chab, in the
               Grand Duchy of Alden was a town called Steinauhau.
             </p>
             <div className="pop">
@@ -188,7 +180,7 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
               "Congratulations!" A unified cheer rang out around the town hall. Looking down into my cup, I lamented. The reflection looking back at me was far older than it used to be. Stiff and past the age where I should be drinking luminescent green drinks. I had always liked moon-melon juice ever since I first tried it over 70 years ago now. Soon, the reflection in my cup smiled back.
             </p>
             <p>
-              "You look happier than you have in years." My thoughts interrupted.
+              "You look happier than you have in years." My thoughts were interrupted.
               I turned to see my old friend Edmure.
             </p>
             <p>
@@ -210,9 +202,9 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
               the last battle of Herkikia, only a couple of weeks back, they may try to land further north. I left the town hall and went to the walls to meet up with Edmure.
             </p>
             <p>
-              We left the town, and went through the forests. We went to the area
-              where the sea people were last seen going  through the forest.
-              I saw large boats off in the distance, so I had to check who, if any of
+              We left the town and went through the forests. We went to the area
+              where the sea people were last seen going through the forest.
+              I saw large boats off in the distance, so I had to check who; if any of
               them had come ashore before reporting back.
             </p>
             <p>
@@ -225,7 +217,7 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
               me, I know this place like the back of my hand. I pulled out my
               dairy and started to take notes, their location, how many, kind
               of weapons, etc. I wrote down everything I could remember, right up
-              until I heard a click, and saw a large flash of light.
+              until I heard a click, followed by a large flash of light.
             </p>
           </BreakPoint>
           <BreakPoint id="Michkel">
@@ -233,8 +225,8 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             {/* Re-do dates, Month Day Year-Era, Jun 12th, 221st year of the 10th era.*/}
             {/* <!-- starting with the kids meeting as friends, introduce the town, some news the people, small parts of the world, culture--> */}
             <p>
-              It had been 10 years to the day since Edmure had come back with a blood soaked diary. David was my wife's dad. Edmure, his best friend, had
-              later moved to Swexausern, about 25km north-west. I was told he
+              It had been 10 years to the day since Edmure had come back with a blood-soaked diary. David was my wife's dad. Edmure, his best friend, had
+              later moved to Swexausern, about 25km North-west. I was told he
               died peacefully two years ago. The town
               was getting ready for the same festival again. I guess that's what led me to read his diary again today.
             </p>
@@ -245,7 +237,7 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
               nudged Sarah and pointed to our son's smiling face. He only smiled
               like this when Effi, Karla's daughter, was around.
             </p>
-            <p>"Good to see you are all well" Sarah said.</p>
+            <p>"Good to see you are all well." Sarah said.</p>
             <p>"You too, Where is Robert?" I asked.</p>
             <p>
               "He's going to meet us later on, he went to the hall to get the news
@@ -257,7 +249,7 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
               tonight's festivities, Jun 12th.
             </p>
             <p>
-              While sharpening one of the axes Robert had come to share the news a group of travelling merchants had brought with them. Mostly news of ongoing problems just north of our border. People living there have been unhappy with the Republic's increased taxes and conscripting their children and young adults to fight in a war so far from home. The villages still had to fend off the local beasts of their own, as well as other jobs which were not longer being fulfilled. The republic had a massive Avalanche in Neuenese and a Fault in Moborodian, the earth there had opened up and monsters and beasts from the depths had spread out.
+              While sharpening one of the axes Robert had come to share the news a group of travelling merchants had brought with them. Mostly news of ongoing problems just north of our border. People living there have been unhappy with the Republic's increased taxes and conscripting their children and young adults to fight in a war so far from home. The villages still had to fend off the local beasts of their own, as well as other jobs which were no longer being fulfilled. The republic had a massive Avalanche in Neuenese and a Fault in Moborodian, the earth there had opened up and monsters and beasts from the depths had spread out.
             </p>
             <p>
               Those unhappy with their treatment had finally boiled over and started protesting at first, one thing led to another and now we call them the rebels. Somewhere between 100,000~300,000 in number. Since most were not soldiers beforehand
@@ -269,12 +261,12 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
               should. They are Aldenese also."
             </p>
             <p>
-              "We have." Robert replied. "Too obviously, it seems. If even the
+              "We have." Robert replied. "Too obvious, it seems. If even the
               town inspector knows we have." He laughed like he had no cares.
             </p>
             <p>I shot a breath of air out of my nose as I laughed silently. "Well is there any news NOT from the Republic?" I asked.</p>
             <p>
-              "Elves have had an outbreak of cat fever. Gianlongian in Herkikia is going through a drought, near their second biggest port city. Desonean, the main river through the kingdom, has flooded. To top it all off, a Malgian Crusade has been called in the Kingdom, I can only hope those crazy zealots die in the desert." Robert said.
+              "Elves have had an outbreak of cat fever. Gianlongian in Herkikia is going through a drought, near their second-biggest port city. Desonean, the main river through the kingdom, has flooded. To top it all off, a Malgian Crusade has been called in the Kingdom, I can only hope those crazy zealots die in the desert." Robert said.
             </p>
             <p>
               "What a year..." I commented. "What's cat fever anyway?" I asked.
@@ -284,7 +276,7 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
               news about it since it's from so far away. Anyway don't let me stop you from inspecting the woodcutting axes, we need to know their durability so no one gets hurt."
             </p>
             <p>
-              I gave Robert a nod as he turned to go look for his wife Sarah. I went back to doing my job. Inspecting low level items for their durability.
+              I gave Robert a nod as he turned to go look for his wife Sarah. I went back to doing my job. Inspecting low-level items for their durability.
               {/* Your skill in inspecting items might show you a different result. Some people see short descriptions about the items, others just a generic letter rank from F - A. */}
             </p>
             {/* koko */}
