@@ -28,6 +28,30 @@ function Combat(props) {
             name={"Academy Robe (black)."}
             rating={"junk"}
           />
+                    <Item
+            stats={{
+              Magic: "+1",
+              HP: "+10",
+            }}
+            name={"Academy Robe (black)."}
+            rating={"normal"}
+          />
+                    <Item
+            stats={{
+              Magic: "+1",
+              HP: "+10",
+            }}
+            name={"Academy Robe (black)."}
+            rating={"epic"}
+          />
+                    <Item
+            stats={{
+              Magic: "+1",
+              HP: "+10",
+            }}
+            name={"Academy Robe (black)."}
+            rating={"rare"}
+          />
           <p>
             "Now the most obvious thing when thinking about duels between mages
             is that they use magical attacks. Conventionally, should you be

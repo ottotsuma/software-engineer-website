@@ -960,7 +960,7 @@ const TitleItem = styled.p`
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   color: ${(props) => props.color || "white"};
-`;
+  `;
 
 const TitleItem2 = styled.p`
   display: flex;
@@ -972,6 +972,9 @@ const TitleItem2 = styled.p`
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   color: ${(props) => props.color || "white"};
+  // -webkit-text-stroke-color: ${(props) => props.color || "black"};
+  // text-shadow: ${(props) => props.color || "white"} 1px 0 10px;
+
 `;
 
 const Main = styled.div`

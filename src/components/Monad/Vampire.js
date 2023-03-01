@@ -347,11 +347,11 @@ Pre-Dao, Dao, Immortal, Dark-Age, (Dawn Age) Great Migration, Warning Kingdoms P
         </div>
         <div>
           ### Stats:
-          <li>Vitality</li> Increases the recovery rate of MP and HP. Total HP. Basic resistances.
+          <li>Vitality</li> Increases the recovery rate of HP. Total HP. Basic resistances.
           <li>Endurance</li> Increases resistance to physical damage, reduces physical damage taken (%), increases stamina.
           <li>Willpower</li> Increases resistance to magic, reduces magic damage taken (%), resistance to mental attacks. [spell duration (efficiency? Duration max?)]
 
-          <li>Magic</li> increases Magical Attack Power and maximum MP.
+          <li>Magic</li> increases Magical Attack Power and maximum MP and recovery rate.
           <li>Strength</li> Increased Physical Attack Power and the weight behind each attack. Minor: Increased storage capacity. Reduce damage taken during a successful block. Increased resistance to falling. Increased movement speed.
 
           <li>Dexterity (Reflexes)</li>Increases Attack Speed, dodge change, movement on rough terrain. Reduces skills cool down.
