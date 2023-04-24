@@ -1,5 +1,26 @@
 https://guides.github.com/features/mastering-markdown/
 
+Otto - 1
+He was the youngest of 11, and the first to stay in this world longer than a few moments. 
+
+His siblings lay at the back of the house, 11 small graves. Although we never stopped trying, secretly, we both feel he was a miracle we cannot re-create.
+
+Otto -2
+I have memories, or, visions, just childish fantasies or ideas perhaps. I feel like this body is not fully my own, but I am a puppeteer pulling it's strings. I cannot put it into words, nothing I can place my finger or feels out of place. Just a feeling my soul does not match this world.
+
+
+Otto -3
+Only natives of this world can receive the blessings of this world while your body is strengthened your soul is not.
+
+
+Otto part 2 / 
+True Aldenese, as they say, are blonde with blue eyes. Untainted, pure. Most Aldenese to me seem to be brunettes with brown eyes like myself. We are all born here, as were our parents. If that does not make us Aldenese, are those born in the West with blonde hair and blue eyes more so than us?
+
+It is not like the royals, sorry the not-at-all-royal dukes who pinky promise they won't rule us as kings did, have blue eyes. They famously have purple eyes. Eyes of royalty, or divine providence as they call it today. Then again it would come as no surprise to hear a prince say he was not Aldenese but Uber-Aldenese.
+
+Perhaps we would all think the same if everyone we met kissed the ground we walked too, from the moment we were born.
+
+
 /Attempt 2
 Otto: Looking for insects or "monsters" to draw and write about;
   Other kids play fighting

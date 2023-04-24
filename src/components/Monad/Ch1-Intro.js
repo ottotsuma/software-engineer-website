@@ -409,11 +409,11 @@ most people learn inspect but either see
             {/* <!-- redo - as Effie --> */}
             <p>
               The group where playing deep inside the forest when one of them
-              discovered lurking near by. A leaf green figure, with a large
+              discovered lurking nearby. A leaf-green figure, with a large
               yellow eye, webbed hands and feet with black sharp nails attached,
-              a small belly and a slight hunchback. Its mouth shaped like bird
+              a small belly and a slight hunchback. Its mouth shaped like birds
               beak but with small teeth protruding from below. One of them
-              shouts "monster detected!" All the children scramble towards the
+              shouts "Monster detected!" All the children scramble towards the
               creature in a charge. Unaware of the dangers of reality.
             </p>
             <p>
