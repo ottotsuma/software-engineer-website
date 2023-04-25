@@ -135,7 +135,7 @@ function MakeCard(cardInstructions) {
               <CardTitle>{name}</CardTitle>
               <TitleSpan>{cardInstructions.disc}</TitleSpan>
             </TitleWrap>
-            <CardElement onError={imageError} src={cardInstructions.images[0]}></CardElement>
+            {cardInstructions.images[0] ? <CardElement onError={imageError} src={cardInstructions.images[0]}></CardElement> : <></>}
             <DiscWrap>
               <CardDisc>{cardInstructions.self}</CardDisc>
               <DiscSpan>{cardInstructions.self}{statCard}</DiscSpan>
@@ -201,7 +201,7 @@ function MakeCard(cardInstructions) {
               <CardTitle>{name}</CardTitle>
               <TitleSpan>{cardInstructions.disc}</TitleSpan>
             </TitleWrap>
-            <CardElement onError={imageError} src={cardInstructions.images[0]}></CardElement>
+            {cardInstructions.images[0] ? <CardElement onError={imageError} src={cardInstructions.images[0]}></CardElement> : <></>}
             <DiscWrap>
               <CardDisc>{cardInstructions.team}</CardDisc>
               <DiscSpan>{cardInstructions.team}{statCard}</DiscSpan>
@@ -253,7 +253,7 @@ function MakeCard(cardInstructions) {
             <CardTitle>{spellName}</CardTitle>
             <TitleSpan>{spellName}</TitleSpan>
           </TitleWrap>
-          <CardElement onError={imageError} src={elementImage}></CardElement>
+          {elementImage ? <CardElement onError={imageError} src={elementImage}></CardElement> : <></>}
           <DiscWrap>
             <CardDisc>{spellDisc}</CardDisc>
             <DiscSpan>{spellDisc}</DiscSpan>

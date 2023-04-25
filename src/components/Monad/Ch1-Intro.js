@@ -63,8 +63,7 @@ const Intro = (props) => {
           <BreakPoint id="Monad">
             <h1 id="title">Monad</h1>
             {/* Monad (philosophy), a term meaning "unit", used by philosophers to signify a variety of entities, originally the God and later such things as genus
-Monism, the concept of "one essence" in the metaphysical and theological theory */}
-            {/* <!-- Next to some kind of map not the first chapter --> */}
+            Monism, the concept of "one essence" in the metaphysical and theological theory */}
 
             {/* Some kind of fight? */}
           </BreakPoint>
