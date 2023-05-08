@@ -5204,7 +5204,23 @@ export const spellList = {
     passive: false,
     I: "Elf testing skill",
     1: "Elf testing skill",
+    stats: {
+      1: {},
+    },
   },
+  "Hand of Magic": {
+    name: "Hand of Magic",
+    element: ["mana"],
+    classes: ["Mage"],
+    species: [""],
+    image: "",
+    negative: false,
+    passive: false,
+    I: "A spectral, floating hand appears at a point you choose within range",
+    1: "A spectral, floating hand appears at a point you choose within range",
+  },
+  // https://mages-are-too-op.fandom.com/wiki/Roland/Abilities
+
   // Phoenix Flame
   // https://en.uesp.net/wiki/Oblivion:Spells
 };
