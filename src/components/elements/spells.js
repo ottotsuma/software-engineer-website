@@ -5219,6 +5219,28 @@ export const spellList = {
     I: "A spectral, floating hand appears at a point you choose within range",
     1: "A spectral, floating hand appears at a point you choose within range",
   },
+  "Weak Fireball": {
+    name: "Weak Fireball",
+    element: ["fire"],
+    classes: ["Mage"],
+    species: [""],
+    image: "",
+    negative: false,
+    passive: false,
+    I: "A Weak Fireball is produced and can be thrown at the target.",
+    1: "A Weak Fireball is produced and can be thrown at the target.",
+  },
+  "Snowball": {
+    name: "Snowball",
+    element: ["ice"],
+    classes: ["Mage"],
+    species: [""],
+    image: "",
+    negative: false,
+    passive: false,
+    I: "Snowball.",
+    1: "Snowball.",
+  },
   // https://mages-are-too-op.fandom.com/wiki/Roland/Abilities
 
   // Phoenix Flame
