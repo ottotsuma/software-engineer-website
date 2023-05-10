@@ -5241,6 +5241,17 @@ export const spellList = {
     I: "Snowball.",
     1: "Snowball.",
   },
+  "	Detect Pulse": {
+    name: "	Detect Pulse",
+    element: [""],
+    classes: ["Rouge"],
+    species: [""],
+    image: "",
+    negative: false,
+    passive: false,
+    I: "Detect warm blooded life in 10m for 150 secs on Self.",
+    1: "Detect warm blooded life in 10m ft for 150 secs on Self.",
+  },
   // https://mages-are-too-op.fandom.com/wiki/Roland/Abilities
 
   // Phoenix Flame
