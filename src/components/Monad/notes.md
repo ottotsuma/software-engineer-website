@@ -1,5 +1,20 @@
 https://guides.github.com/features/mastering-markdown/
 
+The sleeping pod is now a mat that goes under the bed. first wireless deepVr
+new game / on going game / world jump  - no sure yet
+node system - 
+magic, stats, skills, items
+
+fire ball at 1:1, then at 2:1 - intensity
+2:2 - area of effect 
+2:3 cost of skill
+etc. 
+So you have branching paths to take to make the skill customized. 
+Key nodes at 1, 3?, 6, 9, 10
+Items, same thing but more crafted on. Little rng.
+stats, A tree of stats. So you can focus towards something like dex stacking but maybe a little of the other stats thrown in, depends on race/class.
+
+
 Otto - 1
 He was the youngest of 11, and the first to stay in this world longer than a few moments. 
 
