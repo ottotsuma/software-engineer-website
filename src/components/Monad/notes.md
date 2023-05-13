@@ -12,7 +12,19 @@ etc.
 So you have branching paths to take to make the skill customized. 
 Key nodes at 1, 3?, 6, 9, 10
 Items, same thing but more crafted on. Little rng.
-stats, A tree of stats. So you can focus towards something like dex stacking but maybe a little of the other stats thrown in, depends on race/class.
+stats, A tree of stats. So you can focus towards something like dex stacking but maybe a little of the other stats thrown in, depends on Species/class.
+
+Skills have a tree, 
+Items have Trees
+Class has tree?
+Species tree = stats
+
+Triangles mark an alternative node. so a node that gives reduced mana cost now gives increased mana cost, or what was once increased projectile speed might turn into increased number of projectiles.
+
+Square represents a mana expansion of a node, the node itself, and any nodes within its radius designated give no bonuses but all other nodes within the radius give their bonuses instead
+
+Circle, expanded node, inject 1 point into the node to expand it and move up to 2 nodes away. If the node is a major node then move up to 3 nodes away.
+
 
 
 Otto - 1
