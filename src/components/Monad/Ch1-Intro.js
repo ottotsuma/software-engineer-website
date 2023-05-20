@@ -237,7 +237,7 @@ const Intro = (props) => {
               "We're fine, Roberts going to meet us later on, he went to the hall to get the news and left me alone with these lovely lot." Karla replied.
             </p>
             <p>
-              Our families now combined into one big group, made our way towards the wood nearby. We met with other families of the town. The children quickly
+              Our families, now combined into one big group. Slowly ambled our way towards the wood nearby, where many other families of the town had already arrived. The children quickly
               ran off into the forest to play, leaving us to build a fire and set up the tables for
               tonight's festivities, Jun 12th.
             </p>
