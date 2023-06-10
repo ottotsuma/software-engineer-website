@@ -247,7 +247,7 @@ export function SpellFinder() {
       SetShownSpells([]);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [chosenElement, chosenClass, chosenSpecies]);
+  }, [chosenElement, chosenClass, chosenSpecies, chosenPlace]);
   useEffect(() => {
     function HandleChange(e) {
       SetChapter(e.target.value);
