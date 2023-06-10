@@ -1774,7 +1774,8 @@ export function PlacePage(place) {
     for (let index = 0; index < dataKeys.length; index++) {
       // need to remove object values also.
       if(dataKeys[index] !== "unique unit" && typeof(dataValues[index]) !== 'object')
-        output.push(<CountryTitles>{dataKeys[index] + ': ' + dataValues[index]}</CountryTitles>)    
+        // Screen output for countries
+        output.push(<CountryTitles><div style={{'text-transform': 'capitalize', 'font-weight': 'bold'}}>{dataKeys[index] + ': '}</div><div>{dataValues[index]}</div></CountryTitles>)    
       }
     return output
   }
