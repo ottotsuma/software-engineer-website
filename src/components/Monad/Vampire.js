@@ -501,6 +501,7 @@ export default function Vampire() {
             inp.value = this.getElementsByTagName("input")[0].value;
             /*close the list of autocompleted values,
             (or any other open lists of autocompleted values:*/
+            setTreeSearch(inp.value)
             setQuery(inp.value)
             closeAllLists();
           });
@@ -575,9 +576,9 @@ export default function Vampire() {
         <div class="autocomplete">
           <div style={{"display": "flex"}}>
           <input id="myInput" className="search-bar" type="text" value={treeSearch} onChange={updateTreeSearch} name="myCountry" placeholder="Vampire" />
-          <button className="search-button" type="submit">
+          {/* <button className="search-button" type="submit">
           Search
-        </button>
+        </button> */}
         </div>
         </div>
       </form>

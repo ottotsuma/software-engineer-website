@@ -1,5 +1,53 @@
 https://guides.github.com/features/mastering-markdown/
 
+The sleeping pod is now a mat that goes under the bed. first wireless deepVr
+new game / on going game / world jump  - no sure yet
+node system - 
+magic, stats, skills, items
+
+fire ball at 1:1, then at 2:1 - intensity
+2:2 - area of effect 
+2:3 cost of skill
+etc. 
+So you have branching paths to take to make the skill customized. 
+Key nodes at 1, 3?, 6, 9, 10
+Items, same thing but more crafted on. Little rng.
+stats, A tree of stats. So you can focus towards something like dex stacking but maybe a little of the other stats thrown in, depends on Species/class.
+
+Skills have a tree, 
+Items have Trees
+Class has tree?
+Species tree = stats
+
+Triangles mark an alternative node. so a node that gives reduced mana cost now gives increased mana cost, or what was once increased projectile speed might turn into increased number of projectiles.
+
+Square represents a mana expansion of a node, the node itself, and any nodes within its radius designated give no bonuses but all other nodes within the radius give their bonuses instead
+
+Circle, expanded node, inject 1 point into the node to expand it and move up to 2 nodes away. If the node is a major node then move up to 3 nodes away.
+
+
+
+Otto - 1
+He was the youngest of 11, and the first to stay in this world longer than a few moments. 
+
+His siblings lay at the back of the house, 11 small graves. Although we never stopped trying, secretly, we both feel he was a miracle we cannot re-create.
+
+Otto -2
+I have memories, or, visions, just childish fantasies or ideas perhaps. I feel like this body is not fully my own, but I am a puppeteer pulling it's strings. I cannot put it into words, nothing I can place my finger or feels out of place. Just a feeling my soul does not match this world.
+
+
+Otto -3
+Only natives of this world can receive the blessings of this world while your body is strengthened your soul is not.
+
+
+Otto part 2 / 
+True Aldenese, as they say, are blonde with blue eyes. Untainted, pure. Most Aldenese to me seem to be brunettes with brown eyes like myself. We are all born here, as were our parents. If that does not make us Aldenese, are those born in the West with blonde hair and blue eyes more so than us?
+
+It is not like the royals, sorry the not-at-all-royal dukes who pinky promise they won't rule us as kings did, have blue eyes. They famously have purple eyes. Eyes of royalty, or divine providence as they call it today. Then again it would come as no surprise to hear a prince say he was not Aldenese but Uber-Aldenese.
+
+Perhaps we would all think the same if everyone we met kissed the ground we walked too, from the moment we were born.
+
+
 /Attempt 2
 Otto: Looking for insects or "monsters" to draw and write about;
   Other kids play fighting

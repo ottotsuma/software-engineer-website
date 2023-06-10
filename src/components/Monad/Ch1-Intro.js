@@ -63,8 +63,7 @@ const Intro = (props) => {
           <BreakPoint id="Monad">
             <h1 id="title">Monad</h1>
             {/* Monad (philosophy), a term meaning "unit", used by philosophers to signify a variety of entities, originally the God and later such things as genus
-Monism, the concept of "one essence" in the metaphysical and theological theory */}
-            {/* <!-- Next to some kind of map not the first chapter --> */}
+            Monism, the concept of "one essence" in the metaphysical and theological theory */}
 
             {/* Some kind of fight? */}
           </BreakPoint>
@@ -225,26 +224,20 @@ Monism, the concept of "one essence" in the metaphysical and theological theory 
             {/* Re-do dates, Month Day Year-Era, Jun 12th, 221st year of the 10th era.*/}
             {/* <!-- starting with the kids meeting as friends, introduce the town, some news the people, small parts of the world, culture--> */}
             <p>
-              It had been 10 years to the day since Edmure had come back with a blood-soaked diary. David was my wife's dad. Edmure, his best friend, had
-              later moved to Swexausern, about 25km North-west. I was told he
-              died peacefully two years ago. The town
+              It had been 10 years to the day since Edmure had come back with a blood-soaked diary. David was my wife's dad. Edmure, his best friend, had later moved to Swexausern, about 25km North-west. I was told he died peacefully two years ago. The town
               was getting ready for the same festival again. I guess that's what led me to read his diary again today.
             </p>
             <p>
-              "Hey Karla." I waved towards her, coming towards our house holding
-              hands with 3 children. Two older girls and a boy, all the children
-              had red hair like their mother. As they got closer I
-              nudged Sarah and pointed to our son's smiling face. He only smiled
-              like this when Effi, Karla's daughter, was around.
+              I spotted a woman doing her best to hold or herd three children towards me when I looked up. "Hey Karla." I waved as she got closer, two older girls and a boy, all the children
+              had red hair like their mother. As they got closer I nudged my wife, Sarah and pointed to our son's smiling face. He only smiled like this when Effi, Karla's daughter, was around.
             </p>
-            <p>"Good to see you are all well." Sarah said.</p>
-            <p>"You too, Where is Robert?" I asked.</p>
+            <p>"Good to see you are all well." Sarah said, when they arrived, the kids immediately ran around hectically but I guess I have gotten too used to it.</p>
+            <p>"You too, Where is Robert?" I added.</p>
             <p>
-              "He's going to meet us later on, he went to the hall to get the news
-              and left me alone with these lovely lot." Karla replied.
+              "We're fine, Roberts going to meet us later on, he went to the hall to get the news and left me alone with these lovely lot." Karla replied.
             </p>
             <p>
-              Our families now combined into one big group, made our way towards the wood nearby. We met with other families of the town. The children quickly
+              Our families, now combined into one big group. Slowly ambled our way towards the wood nearby, where many other families of the town had already arrived. The children quickly
               ran off into the forest to play, leaving us to build a fire and set up the tables for
               tonight's festivities, Jun 12th.
             </p>
@@ -409,11 +402,11 @@ most people learn inspect but either see
             {/* <!-- redo - as Effie --> */}
             <p>
               The group where playing deep inside the forest when one of them
-              discovered lurking near by. A leaf green figure, with a large
+              discovered lurking nearby. A leaf-green figure, with a large
               yellow eye, webbed hands and feet with black sharp nails attached,
-              a small belly and a slight hunchback. Its mouth shaped like bird
+              a small belly and a slight hunchback. Its mouth shaped like birds
               beak but with small teeth protruding from below. One of them
-              shouts "monster detected!" All the children scramble towards the
+              shouts "Monster detected!" All the children scramble towards the
               creature in a charge. Unaware of the dangers of reality.
             </p>
             <p>

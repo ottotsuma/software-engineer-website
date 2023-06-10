@@ -5204,11 +5204,61 @@ export const spellList = {
     passive: false,
     I: "Elf testing skill",
     1: "Elf testing skill",
+    stats: {
+      1: {},
+    },
   },
+  "Hand of Magic": {
+    name: "Hand of Magic",
+    element: ["mana"],
+    classes: ["Mage"],
+    species: [""],
+    image: "",
+    negative: false,
+    passive: false,
+    I: "A spectral, floating hand appears at a point you choose within range",
+    1: "A spectral, floating hand appears at a point you choose within range",
+  },
+  "Weak Fireball": {
+    name: "Weak Fireball",
+    element: ["fire"],
+    classes: ["Mage"],
+    species: [""],
+    image: "",
+    negative: false,
+    passive: false,
+    I: "A Weak Fireball is produced and can be thrown at the target.",
+    1: "A Weak Fireball is produced and can be thrown at the target.",
+  },
+  "Snowball": {
+    name: "Snowball",
+    element: ["ice"],
+    classes: ["Mage"],
+    species: [""],
+    image: "",
+    negative: false,
+    passive: false,
+    I: "Snowball.",
+    1: "Snowball.",
+  },
+  "	Detect Pulse": {
+    name: "	Detect Pulse",
+    element: [""],
+    classes: ["Rouge"],
+    species: [""],
+    image: "",
+    negative: false,
+    passive: false,
+    I: "Detect warm blooded life in 10m for 150 secs on Self.",
+    1: "Detect warm blooded life in 10m ft for 150 secs on Self.",
+  },
+  // https://mages-are-too-op.fandom.com/wiki/Roland/Abilities
+
   // Phoenix Flame
   // https://en.uesp.net/wiki/Oblivion:Spells
 };
 {
+  // Vampire overlord system
   /*  crimson flash, vampiric drain, vampiric wings, crimson aegis, Undying body, immortal body, unyielding blood demon, telepathy, fartalk */
 }
 export function InlineSpell({ spellName, level }) {
