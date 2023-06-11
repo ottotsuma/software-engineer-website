@@ -1,7 +1,12 @@
 export const placeList = {
   // https://ottotsuma.github.io/images/places/*.jpg
   Meroyri: {
-    notes: `1) Core + Wood-Elves (Europe) + Tundra`
+    notes: `1) Core + Wood-Elves (Europe) + Tundra`,
+    countries: {
+      "I beleg glad" : {
+        notes: "The Great Forest - https://funtranslations.com/elvish, Tel' (emphasis) Ar Vandor https://lingojam.com/CommontoElvish%28D%26D%29 "
+      }
+    }
   },
   "Lóng zhī guó": {
     notes: `2) [Lóng_zhī_guó] - (China) + Tundra 
