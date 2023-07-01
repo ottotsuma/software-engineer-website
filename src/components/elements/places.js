@@ -3,7 +3,7 @@ export const placeList = {
   Meroyri: {
     notes: `1) Core + Wood-Elves (Europe) + Tundra`,
     countries: {
-      "I beleg glad" : {
+      "I beleg glad": {
         notes: "The Great Forest - https://funtranslations.com/elvish, Tel' (emphasis) Ar Vandor https://lingojam.com/CommontoElvish%28D%26D%29 "
       }
     }
@@ -240,21 +240,21 @@ export const placeList = {
       },
       // Desert (Monsters) - They are monsters. It's hard to say.
     }
-    
-// ### Eras/History:
 
-// {/* Pre-Dao, Dao-era, Immortal-era, (Huge beats, men struggling, the island is cleansed of men), (Foundation of empires in the east and this continent is invaded by the humans for the first time since the immortals), (Men overcome beasts and empires start here and in the east the religious wars start), Pyramid (Kʼawiil) Empires of men, Pocotcotcan (The one empire), Witch (Rebellion), Now. */}
-// {/* Pre-Dao, Dao, Immortal, Dark-Age, (Dawn Age) Great Migration, Warning Kingdoms Period, Pyramid (The One Kingdom), Pocotcotcan Empire, Witch, Now. */}
+    // ### Eras/History:
 
-// The new world is in a balance. 
-// The Republic fractures from invasions by the Elves, late empire problems, uninterested ruling class, Alden invasion, Sea people sabotage.
-// Alden invades Herkikia League, they both collapse under the sea peoples invasion.
-// The Kingdom having become the Empire forms a deal with Niyosho but are both destroyed by the sea people
-// Our characters flee through the desert/Solzi into Pocotcotco, who are under invasion by the Elves.
-// Who again fall before the sea people in ruin.
+    // {/* Pre-Dao, Dao-era, Immortal-era, (Huge beats, men struggling, the island is cleansed of men), (Foundation of empires in the east and this continent is invaded by the humans for the first time since the immortals), (Men overcome beasts and empires start here and in the east the religious wars start), Pyramid (Kʼawiil) Empires of men, Pocotcotcan (The one empire), Witch (Rebellion), Now. */}
+    // {/* Pre-Dao, Dao, Immortal, Dark-Age, (Dawn Age) Great Migration, Warning Kingdoms Period, Pyramid (The One Kingdom), Pocotcotcan Empire, Witch, Now. */}
+
+    // The new world is in a balance. 
+    // The Republic fractures from invasions by the Elves, late empire problems, uninterested ruling class, Alden invasion, Sea people sabotage.
+    // Alden invades Herkikia League, they both collapse under the sea peoples invasion.
+    // The Kingdom having become the Empire forms a deal with Niyosho but are both destroyed by the sea people
+    // Our characters flee through the desert/Solzi into Pocotcotco, who are under invasion by the Elves.
+    // Who again fall before the sea people in ruin.
 
 
-// Miasma, "a contagious power... that has an independent life of its own. Until purged by the sacrificial death of the wrongdoer, society would be chronically infected by catastrophe".
+    // Miasma, "a contagious power... that has an independent life of its own. Until purged by the sacrificial death of the wrongdoer, society would be chronically infected by catastrophe".
   }
 }
 

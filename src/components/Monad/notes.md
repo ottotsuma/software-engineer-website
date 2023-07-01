@@ -1,20 +1,20 @@
 https://guides.github.com/features/mastering-markdown/
 
 The sleeping pod is now a mat that goes under the bed. first wireless deepVr
-new game / on going game / world jump  - no sure yet
-node system - 
+new game / on going game / world jump - no sure yet
+node system -
 magic, stats, skills, items
 
 fire ball at 1:1, then at 2:1 - intensity
-2:2 - area of effect 
+2:2 - area of effect
 2:3 cost of skill
-etc. 
-So you have branching paths to take to make the skill customized. 
+etc.
+So you have branching paths to take to make the skill customized.
 Key nodes at 1, 3?, 6, 9, 10
 Items, same thing but more crafted on. Little rng.
 stats, A tree of stats. So you can focus towards something like dex stacking but maybe a little of the other stats thrown in, depends on Species/class.
 
-Skills have a tree, 
+Skills have a tree,
 Items have Trees
 Class has tree?
 Species tree = stats
@@ -25,46 +25,41 @@ Square represents a mana expansion of a node, the node itself, and any nodes wit
 
 Circle, expanded node, inject 1 point into the node to expand it and move up to 2 nodes away. If the node is a major node then move up to 3 nodes away.
 
-
-
 Otto - 1
-He was the youngest of 11, and the first to stay in this world longer than a few moments. 
+He was the youngest of 11, and the first to stay in this world longer than a few moments.
 
 His siblings lay at the back of the house, 11 small graves. Although we never stopped trying, secretly, we both feel he was a miracle we cannot re-create.
 
 Otto -2
 I have memories, or, visions, just childish fantasies or ideas perhaps. I feel like this body is not fully my own, but I am a puppeteer pulling it's strings. I cannot put it into words, nothing I can place my finger or feels out of place. Just a feeling my soul does not match this world.
 
-
 Otto -3
 Only natives of this world can receive the blessings of this world while your body is strengthened your soul is not.
 
-
-Otto part 2 / 
+Otto part 2 /
 True Aldenese, as they say, are blonde with blue eyes. Untainted, pure. Most Aldenese to me seem to be brunettes with brown eyes like myself. We are all born here, as were our parents. If that does not make us Aldenese, are those born in the West with blonde hair and blue eyes more so than us?
 
 It is not like the royals, sorry the not-at-all-royal dukes who pinky promise they won't rule us as kings did, have blue eyes. They famously have purple eyes. Eyes of royalty, or divine providence as they call it today. Then again it would come as no surprise to hear a prince say he was not Aldenese but Uber-Aldenese.
 
 Perhaps we would all think the same if everyone we met kissed the ground we walked too, from the moment we were born.
 
-
 /Attempt 2
 Otto: Looking for insects or "monsters" to draw and write about;
-  Other kids play fighting
-  incident, few deaths
-  village training
+Other kids play fighting
+incident, few deaths
+village training
 Travel, executions, hunting
 school 14 - 16 dps -> Support
-  beast studies
-  survival -> farming / food
-  hunting exotic monsters to record
+beast studies
+survival -> farming / food
+hunting exotic monsters to record
 war with the republic
-  burning of Swexausern / macro Bridge
-  freeing of Sarah
-  Vampire coven
-    recordings
-Alden Retaliation, occupation and split 
-  Vampires go west to the mountains, otto goes south
+burning of Swexausern / macro Bridge
+freeing of Sarah
+Vampire coven
+recordings
+Alden Retaliation, occupation and split
+Vampires go west to the mountains, otto goes south
 
 Free cities
 Leika
@@ -75,7 +70,8 @@ Re-Write all early story to have 1 - 9 being mage, no element and at level 10 yo
 The flicker fusion threshold, Critical Flicker Frequency (CFF) or flicker fusion rate, is a concept in the psychophysics of vision. It is defined as the frequency at which an intermittent light stimulus appears to be completely steady to the average human observer.
 
 # Random Ideas:
-As Elemental resistance moves into absorbtion it reduces your other elemental resistances so you cannot be immune to fire and ice for example.. 
+
+As Elemental resistance moves into absorbtion it reduces your other elemental resistances so you cannot be immune to fire and ice for example..
 
 The reason for cool downs (CD) is the route which the mana travels, (practiced, made, trained) in your body is "toast" for a moment. Be that 1 second or 1 day. Could you provide less mana and maintain the effect longer? There should be a minimum requirement to initiate the skill, so that would be by improving on the skill you are finding ways to lower is initial cost but keep the same performance. Training those pathways. Are they physical pathways? Would it not be better to say they are the routes which mana travels for that skill/spell not an actual hole in your body. Moving mana from the inside to the outside of the body should take longer to learn then moving around inside one's self, but magic is about moving the mana already outside of the body most of the time.
 
@@ -87,21 +83,21 @@ A regiment made of slacking nobles who bribed their way in that would be hard to
 
 Topologies
 Lessons other then combat and magic:
-History, Relationships, Finance, Citizenship, 
+History, Relationships, Finance, Citizenship,
 Battle Lessons:
-Group, Battle tactics, Camping, Cooking, Navigating, 
+Group, Battle tactics, Camping, Cooking, Navigating,
 
 smells - http://www.triviumpublishing.com/articles/smellofthemiddleages.html
 
 Monster is something to fear, the powerful animals found around the world are 'beasts'
 
-Dad asks boy for reason to become stronger 
+Dad asks boy for reason to become stronger
 
-Change the first monster into a russian woodlands monster 
+Change the first monster into a russian woodlands monster
 
 Each person has a sin
 Otto - Wrath
-Tisiel = Power 
+Tisiel = Power
 Ibn Battuta - Legendary quest.
 
 first is wrath. Wrath and rage are generally a response to when you feel your power is being taken or trespassed upon. This emotion allowed you to sacrifice intellect for strength to regain that power. This is not a healthy way to do it obviously but it is instinctual and it is a deadly sin because its so very self destructive. It is also one of two sins that are self fueling.
@@ -123,24 +119,24 @@ Have one of each of the charters gather for something bigger.
 
 Vampire healing, Healing spells that can heal people or debuff. Giving the healers options to attack. Heals that deal a set amount of healing to a group, targeting the lowest HP first.
 
-Calculations: 
+Calculations:
 At higher levels it should take longer, since you have access to more skills you want to use. Rather then looking at the damage output it should be how many moves more can someone take.
 
 function Damage3 (ATK, DEF, LVL1, LVL2) {
-    const Power = (ATK + ((ATK + LVL1)/32) * ((ATK * LVL1)/32))*0.5
-    console.log((Power))
-    const Defense = (DEF + ((DEF + LVL2)/32) * ((DEF * LVL2)/32))*0.25
-    console.log(Defense)
-    let Answer = ((Power+(Power/100 * Math.random()*3)) - (Defense+(Defense/100 * Math.random()*3)))/(LVL2*DEF/(10*LVL1))
-    if (Answer > 0) return Answer
-    return 1
+const Power = (ATK + ((ATK + LVL1)/32) _ ((ATK _ LVL1)/32))_0.5
+console.log((Power))
+const Defense = (DEF + ((DEF + LVL2)/32) _ ((DEF * LVL2)/32))*0.25
+console.log(Defense)
+let Answer = ((Power+(Power/100 * Math.random()*3)) - (Defense+(Defense/100 * Math.random()*3)))/(LVL2*DEF/(10*LVL1))
+if (Answer > 0) return Answer
+return 1
 }
 // 1100 HP
 console.log((Damage3(100, 100, 100, 100)/1100)*100)
 // 210 HP
 console.log((Damage3(10, 1, 10, 10)/210)*100)
 // 1100 HP
-console.log((Damage3(20, 20, 100, 100)/1100)*100)
+console.log((Damage3(20, 20, 100, 100)/1100)\*100)
 
 Dreonoqai, Kiubari, Yefux, Rosheakoris, Ulos
 
@@ -157,9 +153,9 @@ You level up for the first time and your class is picked.
 You find out which element you are most suited to at level 10 (Can pick).
 
 USER
-You pick a basic class and become level 1. 
+You pick a basic class and become level 1.
 level 1 - 9 is the tutorial period.
-You pick an element at level 10. 
+You pick an element at level 10.
 At this point you can use teleport stations, and travel to cities.
 
 // Vampire type, more blood taken makes them stronger so often conflict with humans
@@ -173,7 +169,7 @@ He's so sorry his mamma swapped him for a dog. And then drowned the dog.
 
 // kick in the balls - level 9: A kick, that causes the the life of those yet to be, to flash through the mind of the person on the receiving end.
 
-// Otto starts of young, at fault of his birth status, unable to make use of the gifts given. Grows from the mentors lessons and overcomes the birth status. 
+// Otto starts of young, at fault of his birth status, unable to make use of the gifts given. Grows from the mentors lessons and overcomes the birth status.
 
 // The villain overall is the sea people, but the villain of Alden arc should be a noble who comes earlier in the story then intended to set up a level of respect, power and intelligence. The sea people is a overarching strange treat to the people of Monad. - Alphonse
 
@@ -192,26 +188,29 @@ https://www.wikiwand.com/en/Xiuhcoatl
 https://blog-cdn.reedsy.com/uploads/2018/07/Rick-and-Morty-Story-Wheel-Annotated.jpg
 
 # Notes:
+
 ## Game
 
 24 hour or what ever timers / quests / daily's didn't just sit there making players have to come back everyday to no content.
 They stacked up and when you came back after 3 days you got 3 charges. Etc. Nicer for players who have to work.
-Smart contracts 
+Smart contracts
+
 ### PVP
+
 Add LoL style PVP mode , other content is needed in end games.
-Guilds fighting over castles and towns 
-World bosses trigger pvp mode for all? So you have to fight off gankers 
+Guilds fighting over castles and towns
+World bosses trigger pvp mode for all? So you have to fight off gankers
 
 ### Horizontal Content
+
 Roulette - good idea from ff14, daily bonus, and helps lower players get matches
 Everything you can do in real life can be done in the safe zones, this is the biggest income for the game, out weighing the other games content by player count by over 90%.
 
 Hidden bosses, clues, working together,
 
 The pvp effects the PVE, the costs of doing anything by taxes etc, are you friends with this guild or neutral.
-The pve effecting the pvp, getting items and equipment to fuel the pvp or monsters changing the landscape 
+The pve effecting the pvp, getting items and equipment to fuel the pvp or monsters changing the landscape
 World bosses that need multiple Guilds (NON PVP & PVP modes)
- 
 
 ### Tiers / Ranks:
 
@@ -232,29 +231,33 @@ Red - 0-50 +3, 51 - 100 +3
 Orange - 0-50 + 4, 51 - 100 +3
 
 ### Guilds
+
 Should guilds get buffs during non guild activities? I think not.
+
 #### Things guilds can do
- - Stables for mounts
- - Guild residence
- - Guild quests
- - Guild wars
- - Towns / Cities
- - Guild storage
- - Contribution points
- - Private room
- - Guild battle flag
- - Guild emblem
- - Flying ships / Subs
- - War tanks
- - Guardians (for the guild, think the guards around the vampires in skyrim.)
- - Building their own castle? Maybe the residence just changes into that in the end.
- - Mines
- - Auction house
- - Ship yard
- - Wizard tower
- - Training towers / squares 
+
+- Stables for mounts
+- Guild residence
+- Guild quests
+- Guild wars
+- Towns / Cities
+- Guild storage
+- Contribution points
+- Private room
+- Guild battle flag
+- Guild emblem
+- Flying ships / Subs
+- War tanks
+- Guardians (for the guild, think the guards around the vampires in skyrim.)
+- Building their own castle? Maybe the residence just changes into that in the end.
+- Mines
+- Auction house
+- Ship yard
+- Wizard tower
+- Training towers / squares
 
 #### Types of guilds
+
     - PVE
     - PVP
     - Traders
@@ -264,27 +267,28 @@ Should guilds get buffs during non guild activities? I think not.
     - Roleplayers
 
 ### Parties & Raids
-Half party / Light party = 4 
-Party / Full party = 8 
+
+Half party / Light party = 4
+Party / Full party = 8
 Full Raid or Alliance = 3 parties or 24 players
-After that you can do the Army size of 50, 100 + 
+After that you can do the Army size of 50, 100 +
 
+### Death
 
-### Death 
 The stronger the place you die, the worse the penalty. However not all deaths are equal.
 Reasons for death, Story, PVP, PVE, Traps, Dialog.
 
 Safe zone -
-PVP (Match) - 
+PVP (Match) -
 PVP (Wild) -
 Guild War -
 
-Safe City - 
+Safe City -
 Medium Safe City -
 Dangerous City -
 Trap -
 Dungeon -
-Event - 
+Event -
 
 Places people die:
 In town:
@@ -307,7 +311,7 @@ Resurrected:
 
 Exp lose - simple.
 Exp debt - Fun idea, you have to earn that much exp before your bar goes back to normal.
-Skill loss - Like how? Points loss? OR like you become less proficient? 
+Skill loss - Like how? Points loss? OR like you become less proficient?
 permadeath - Hell no.
 Corpse runs, full loot drop. Runescape style. Not a personal fan of this.
 Single / Many item drops. I'm okay with this.
@@ -318,9 +322,10 @@ http://wiki.projectgorgon.com/wiki/Website_Death_Penalties_Explained - Fun
 Death can be fun, something like the curses shown here.
 
 ### Monsters / Beasts
-Beast factions. 
 
-Undead - 
+Beast factions.
+
+Undead -
 
 Ghoul
 Wight
@@ -331,13 +336,12 @@ Draugr
 Banshee
 vampiric beasts
 
-
-
 Driver ants https://www.youtube.com/watch?v=OnooyOZRzkM - Blind large ants with pincers, swarming anything they come into contact with until one side is dead.
 
 Sea Star zombies - Limbs detaching and living their own life for a period of time. The main body can regrow the limbs.
 
-### Dungeons 
+### Dungeons
+
 Normal - attack paths shown, aoe wind up and markers given, and slow (Players only). [Casual]
 Hard - attack paths shown Quickly, aoe wind up and markers given Briefly, faster (Players only). [Effort]
 Elite - attack paths NOT shown, aoe wind up and markers NOT given, however the wind up is not instant (Players only). [Elite]
@@ -350,15 +354,20 @@ drop rates are increased by 20%, also death penalties are reduced by
 10%."
 
 ### Items
+
 All useable items can have a Durability, giving them a need to be repaired, if possible.
 Item need vs greed. can only need on your own class.
 Items that grow with you for a period of time, I.e. Level 0 - 10 sword. Level 50 - 90 staff. Something like that.
+
 #### Currency
-Coins - 1 gold - around 1000 or 30 days of work ? 
+
+Coins - 1 gold - around 1000 or 30 days of work ?
 Mana Coins
 Silver
 bronze
+
 #### drop rates
+
 Always
 Common (22/128) - 17%
 Common (19/128) - 15%
@@ -371,11 +380,13 @@ Rare (1/360) - 0.3%
 Less then 0.1% = super rare
 
 Drops that require a specific item (Or luck level) to be equipped to drop.
+
 #### Unordered Items
-Alden - 
+
+Alden -
 Kojkan - Serpents tooth.
 
-Japanese - 
+Japanese -
 Ame-no-nuhoko – Japanese halberd which formed the first island.
 Kusanagi – Legendary Japanese sword. Can also be considered as Kusanagi-No-Tsurugi.
 Muramasa - The katana forged by famous swordsmith Muramasa, it was rumored that it was a demonic sword that can curse the wielder to murder people. It also said that the demonic sword rumor was made by Ieyasu Tokugawa, the 1st Shogun of the Tokugawa Shogunate because he hated those swords made by Muramasa.
@@ -384,9 +395,10 @@ Honjo Masamune - A legendary and very real Japanese sword (with alleged mythical
 Murasame - A magical katana that mentioned in fiction Nansō Satomi Hakkenden, it said the blade can moist itself to wash off the blood stain for keeping it sharp.
 
 #### Sets
+
 Item sets don't drop from one dungeon but a part from each dungeon.
 
-Mycenaean Dendra Panoply - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armour-ensembles-history_1.jpg?ezimgfmt=ng:webp/ngcb20 
+Mycenaean Dendra Panoply - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armour-ensembles-history_1.jpg?ezimgfmt=ng:webp/ngcb20
 
 Persian Immortal Armour - https://www.realmofhistory.com/wp-content/uploads/2017/05/12-warrior-armour-ensembles-history_5.jpg?ezimgfmt=ng:webp/ngcb20
 
@@ -410,7 +422,7 @@ Polish Winged Hussar Armour - https://www.realmofhistory.com/wp-content/uploads/
 
 https://en.wikipedia.org/wiki/List_of_mythological_objects#Personal_armor
 
-#### Weapons 
+#### Weapons
 
 Bubble wand.
 
@@ -421,71 +433,105 @@ Maybe just don't have them glow. It looks shit and takes away from unique weapon
 +7 ~ +8 weapons = Color glow of your mana
 +9 Weapons = Strong color glow of your mana
 +10 weapons = Effect Glow, adding in the elements effects with the glow
-+11 weapons = 
++11 weapons =
 
 Lightning axe, an axe that is wielded by the Maya rain deity Chaac and used to produce thunder and rain. (Maya mythology)
 
-#### Armour 
-#### Accessories 
+#### Armour
+
+#### Accessories
 
 Gem of Kukulkan, the Mayan god brought fire, earth, air, and water to the world. Kukulkan, through, only has the wind gem, and with it can control the air. (Maya mythology)
 The Jem of Kukulkan - the Mayan Serpents Jem has the ability to control all elements. Like fire, wind, and ice, through the Serpent only has the wind jem.
-##### Types: 
+
+##### Types:
+
 ###### Hat/Crown:
+
 - Crown (king) - (green) Crown of the Dammed. Magic + 25, -5 Charisma, control undead +1.
+
 ###### Rings:
+
 - Kings Rings, Ch5, Ring of initial undead control. mag + 10, Control undead +1 (normal)
 - Ring of Little Strength, Ch11, Strength +1
 - Ring (queen) - (junk) Ring of Little Strength. Strength +5
+
 ###### Amulets/Necklaces:
+
 Necklace is just a normal accessory but an amulet should be magical in nature.
+
 - Pendent of Medium Magic, Ch11, Magic +2 , Strength -1.
 - necklace made of teeth, Ch17
+
 ###### Earings/Piercings:
+
 ###### Belt:
+
 ###### Glasses:
+
 ###### Bracelet/Anklet:
+
 ###### Collar/Choker:
+
 ###### Tattoo:
+
 ###### Manicure:
+
 ###### Tiara:
+
 - Queens tiara, Ch5, Queen's Pawn. Skill: Animate stone. (rare)
+
 ###### Hair Clip/ Hair Accs:
+
 ###### Scarves:
+
 - Black scarf - Hides users identity
+
 ###### Capes:
 
 #### Materials
+
 - Whale skin for coating boats to go faster
 
 #### Misc Items
+
 - Quill - (blue) Enchanting chance of success + 5%
 - Skull - (blue) Skull of victim. Control undead +2 - T
+
 ###### Coins:
+
 - Princesses Coin, Ch5
+
 #### Quest Items
+
 #### Cash shop
+
 Aesthetic house Items
 Costumes
 Flashy items like a firework
 Festival items
 
 #### Time save items - should not be sold in shop
+
 EXP boost for changing class/species to catch back up to where you were?, Or jump right back.
+
 ## Account
+
 Players have one account.
-Players can switch between classes in a safe zone. 
+Players can switch between classes in a safe zone.
+
 - The same: Your name, death penalties, story progression and storage
 - Changed: Your base stats, equipped items, level, skills/spells.
 
 Class / Species bonuses grow with your levels
 The classes all have to have reasons to exists, immune to magic, immune to fire, immune to physical
-the classes have to counter each other in a kind of card game style were nothing is ever better then all others just better then 1 or 2 
+the classes have to counter each other in a kind of card game style were nothing is ever better then all others just better then 1 or 2
 
 ### Stats:
+
 <li>Vitality</li> Increases the recovery rate of HP. Total HP. Basic resistances.
 <li>Endurance</li> Increases resistance to physical damage, reduces physical damage taken (%), increases stamina.
-<li>Willpower</li> Increases resistance to magic, reduces magic damage taken (%), resistance to mental attacks. [spell duration (efficiency? Duration max?)] 
+<li>Willpower</li> Increases resistance to magic, reduces magic damage taken (%), resistance to mental attacks. [spell duration (efficiency? Duration max?)]
 
 <li>Magic</li> increases Magical Attack Power and maximum MP, and recovery rate.
 <li>Strength</li> Increased Physical Attack Power and the weight behind each attack. Minor: Increased storage capacity. Reduce damage taken during a successful block. Increased resistance to falling. Increased movement speed.
@@ -498,12 +544,12 @@ the classes have to counter each other in a kind of card game style were nothing
 
 https://reincarnationofthestrongestswordgod.fandom.com/wiki/Attributes
 
-[Commander] - Charisma & Vitality 
-[Tank/Fighter] - Strength & Vit 
+[Commander] - Charisma & Vitality
+[Tank/Fighter] - Strength & Vit
 [Tank/Mage] - Vit & Magic
 [DPS/Fighter] - Strength & Dexterity
-[DPS/Mage] - Magic & Dexterity 
-[Mage/Range] - Magic & Sense 
+[DPS/Mage] - Magic & Dexterity
+[Mage/Range] - Magic & Sense
 [Archer] - Sense & Strength
 [Summoner] - Magic & Vit
 
@@ -512,9 +558,10 @@ https://reincarnationofthestrongestswordgod.fandom.com/wiki/Attributes
 Could defense and magic defense be rolled into vitality, magic and strength?
 
 Critical defense, parry, glance, defend
+
 ### Levels:
 
-Human body: Stats 0 - 10, 5 is normal and 10 is the best a human can get. (This is without mana.) 
+Human body: Stats 0 - 10, 5 is normal and 10 is the best a human can get. (This is without mana.)
 
 ---
 
@@ -533,8 +580,11 @@ Human body: Stats 0 - 10, 5 is normal and 10 is the best a human can get. (This 
 <li>100 - Class Advancement, Increase other properties of skills +3 times
 
 ---
-### Class: 
-#### Class Ideas: 
+
+### Class:
+
+#### Class Ideas:
+
 https://finalfantasy.fandom.com/wiki/Category:Jobs_in_Final_Fantasy_X-2
 Mascot
 Psychic
@@ -544,8 +594,10 @@ Alchemist
 Freelancer
 Thief
 Trainer
-Festivalist 
+Festivalist
+
 <!-- Ideas -->
+
 https://midnight-wolf.fandom.com/wiki/Fantasy/Medieval_Character_Jobs_or_Occupations
 https://www.dandwiki.com/wiki/5e_Classes
 Mage Schools?
@@ -580,18 +632,18 @@ Cursemancers
 Sky Knight
 Spell Breaker
 Bloodrage Warrior
-Demonblade Knight 
-Traveling Bard 
+Demonblade Knight
+Traveling Bard
 Covert Killer
 Astromancer
 Magic Knight
 Flame Shaman
-Shadow Dancer 
+Shadow Dancer
 Magic Swordsman
 Magic Warrior
 Barbarian
 Savage Warrior
-Divine Warrior 
+Divine Warrior
 Necromancer
 Holy Warrior
 Witch
@@ -601,7 +653,7 @@ Yin Yang Saint
 Magic-eye Hunter
 Dragon Slayer
 Sea God's Legacy
-Blade Saint 
+Blade Saint
 Bard
 Druid
 Monk
@@ -655,8 +707,11 @@ stuns
 cc
 boots
 shields
+
 #### /Team bouses:
+
 See: classList in classes.js
+
 <!-- https://ottotsuma.github.io/advclass.html -->
 <!-- Basic/ -->
 <li>Fighter - +1 Strength.
@@ -692,7 +747,9 @@ See: classList in classes.js
 <li>Pope - Unknown
 
 ---
-### Species/Self Bonuses: 
+
+### Species/Self Bonuses:
+
 <!-- https://ottotsuma.github.io/race.html -->
 <!-- Normal -->
 <li> Human - Sense - +1 Charisma - +2 (Can use all basic items without restrictions)🧙‍♂️
@@ -727,11 +784,12 @@ See: classList in classes.js
 ### EXP:
 
 Do you want:
- EXP gaps to make it hard to level ❌
- Weaker enemies give less experience ✅
- enemies give little experience compared to quests ✅
+EXP gaps to make it hard to level ❌
+Weaker enemies give less experience ✅
+enemies give little experience compared to quests ✅
 
-#### ff7 
+#### ff7
+
 https://gamefaqs.gamespot.com/boards/197341-final-fantasy-vii/58990522
 
 <!-- https://finalfantasy.fandom.com/wiki/Gi_Nattak -->
@@ -845,7 +903,7 @@ https://genshin-impact.fandom.com/wiki/Character_EXP
 
 https://5thsrd.org/rules/leveling_up/
 
-#### runscape 
+#### runscape
 
 https://runescape.fandom.com/wiki/Experience/Table
 
@@ -853,12 +911,14 @@ https://runescape.fandom.com/wiki/Experience/Table
 
 http://www.lastchaosinfo.com/page/EXP+needed+to+level
 
-#### Akia 
+#### Akia
 
 https://progamercity.net/aika-guides/1173-aika-char-pran-exp-table.html
 
 ---
+
 ### Skills/Spells
+
 Mastery over skills, so the skills level up? Costs points / experience.
 
 Tree:
@@ -867,26 +927,28 @@ Skills are unlocked and added to the node to be used. The skill in the node can 
 Passive's + Skills related to the skill branch off from this skill, creating links between them.
 
 E.g.
-                   => Faster casting
+=> Faster casting
 Fireball => Meteor => Increased AOE range
-         => Increased AOE range
-         => Increased fire damage
+=> Increased AOE range
+=> Increased fire damage
 
 So fire ball is connected to meteor, but both are connected to increased AOE range so they create a double connection.
+
 ## Story
 
-### ideas: 
+### ideas:
 
 #### Alden:
-###### academy: 
+
+###### academy:
+
 The special class contains the fastest learners of the subjects along side the special students who have a unique ability. They recieve better treatment and more points.
 
-
-Otto - 
+Otto -
 Wants: Tsuma, Strong wizard
 
 Arc 1
-In his village with his family. 
+In his village with his family.
 Wanting to become a strong wizard to magic away all his problems.
 They join the magic academy in Alden as a military student.
 They have a hard time fitting in, not being outstanding at anything, but makes friends and finds a place.
@@ -910,16 +972,15 @@ The opportunity to kill an Alden official in Huonhia
 Loses his "class" that makes him unique, starts a 2nd war
 returns to Tsuma with regret for his actions
 
-World - 
-  Sea people arrive on the shores, they start trading and setting up camps but a war breaks out between the locals and the new arrivals pushing them back into the sea.
-  War starts between Alden and the republic.
-  The republic breaks into small factions, Alden and the Elves taking parts each.
-  Alden and Huonhia start skirmishes over the death of an official, which leads to war.
-  The fractured nations are easier targets for the sea people to infiltrate.
-  During this time the kingdom is in an internal political power struggle, religions crusade, refugees, curbing Alden aggression, Pocotcotcan skirmishes & demons, Dwarven land reclaims. Declares it'self an empire so others can be kings.
-  Niyosho is focused on making friends with a distracted kingdom turning empire, curbing Alden aggression, sea people being different, refugees, racist views.
-  Pocotcotcan not having the power it once held, is struggling to keep the doors to the underworld closed. The eleven invasion giving rise to a faction that thinks the doors should just be opened.
-  
+World -
+Sea people arrive on the shores, they start trading and setting up camps but a war breaks out between the locals and the new arrivals pushing them back into the sea.
+War starts between Alden and the republic.
+The republic breaks into small factions, Alden and the Elves taking parts each.
+Alden and Huonhia start skirmishes over the death of an official, which leads to war.
+The fractured nations are easier targets for the sea people to infiltrate.
+During this time the kingdom is in an internal political power struggle, religions crusade, refugees, curbing Alden aggression, Pocotcotcan skirmishes & demons, Dwarven land reclaims. Declares it'self an empire so others can be kings.
+Niyosho is focused on making friends with a distracted kingdom turning empire, curbing Alden aggression, sea people being different, refugees, racist views.
+Pocotcotcan not having the power it once held, is struggling to keep the doors to the underworld closed. The eleven invasion giving rise to a faction that thinks the doors should just be opened.
 
 Also see History under Physical World.
 
@@ -969,10 +1030,9 @@ Using total war general speeches for the speeches
 
 The enemy may have the Moon People on their side, but we have lovely hats! And those hats will protect us from their fearsome gaze! (If your general has the “mad” trait)
 
-
 ### People:
 
-Hitori火鳥 - fire bird
+Hitori 火鳥 - fire bird
 
 <p>Ralsan is my name,
 this is Tisiel" A girl imperial name,(huonoia)
@@ -980,6 +1040,7 @@ this is Tisiel" A girl imperial name,(huonoia)
 Reingard". boy - alden
 
 Charter sheets -
+
 <li> - Kiksotz, Blood bat, vampire of the new world: Monh
 <li> - Camazotz, Death Bat, Vampire god of the new world. 
 <li>Farald - expert professor on why students hp stops at 10hp in duels.
@@ -1020,13 +1081,14 @@ Tisiel Skivali - (cliffs) imperial name,(huonoia) - scholar/necromancer (GONE)
 
 Alden Royals:
 Alden is a Grand Duchy not a monarchy so the titles are different;
+
 - Grand Duke, His Highness, Your Highness. (Higher then princes but lower the kings)
 
 - Everything below here is assigned by the Grand Duke:
 - Heir of a Grand Duke, (Not as high as a prince since the title is not inherited, but still more important then a normal lord)
-- Duke, Lower then Grand Duke // Lord Sovereign marshal 
-- Marquis //  Lord high marshal
-- Count 
+- Duke, Lower then Grand Duke // Lord Sovereign marshal
+- Marquis // Lord high marshal
+- Count
 - Viscount // Lord Marshal
 - Baron
 
@@ -1042,6 +1104,7 @@ Famous Mages - Alden:
 <li>Baron Mann based at Soldenheim famously uses runes.
 
 ### Sea People:
+
 <li>
 Example: Name, species, class(), level, equipment, backstory(Main island,
 other dlc before? ), clan/guild, reason for coming. PET(level)
@@ -1051,10 +1114,11 @@ Boy: Name, Noah. Dark Elf?, class(Rogue[]), 37, [Normal/Rare, mostly from
 the main quests], (From the main island, recently started playing, no
 dlc), none, saw the adverts for coming and wanted to try. None(0)
 
-IRL - Midlife crisis, quit working as **** and got into video editing / youtube / twitch
+IRL - Midlife crisis, quit working as \*\*\*\* and got into video editing / youtube / twitch
 
 Skills:
 Darkelf: Disguise (1)
+
 </li>
 <li>
 Girl: Sarah, Vampire, Use to be a human paladin, class(Tank[Guardian])
@@ -1065,8 +1129,9 @@ file:///C:/Users/snows/Documents/GitHub/ottotsuma.github.io/guard100.html
 
 IRL - PRO Gamer
 
-Skills: 
+Skills:
 Vampire: Disguise (1)
+
 </li>
 <li>
 Boy: Josh, Human, class(Rogue-subtype[Assassin]) Recently became
@@ -1077,8 +1142,9 @@ man), clan/guild, accompany the same guild. RAT(100)
 
 IRL - Engineer working remote
 
-Skills: 
+Skills:
 Assassin: Disguise (2+)
+
 </li>
 
 #### Extra People:
@@ -1106,7 +1172,7 @@ Jakob 9, dies, A small boy, shy and ungifted.
 
 Effi Level 10, Fighter/Paladin points: 2
 
-Fighter 
+Fighter
 1 Charge, Moves quickly in a straight line (1)
 2 Heavy blow, High damage output strike (1)
 3 Battle shout, Increases the stats of allies (1)
@@ -1116,17 +1182,17 @@ Fighter
 7 Provoke, Provoke and tease them so that they want to attack you.(1)
 8 Shield Bash (1)
 
-Paladin 
+Paladin
 Faith Spells
-Cover - Take all damage intended for another party member. (time, amount, distance) 
+Cover - Take all damage intended for another party member. (time, amount, distance)
 Rampart - reduce damage taken to all near by (amount, time)
 Sentinel - reduce damage taken (amount, time)
-Hallowed ground - (living) Allies in the area cannot be affected by negative effects (time) 
-https://wiki.guildwars2.com/wiki/Hallowed_Ground, 
+Hallowed ground - (living) Allies in the area cannot be affected by negative effects (time)
+https://wiki.guildwars2.com/wiki/Hallowed_Ground,
 https://ffxiv.gamerescape.com/wiki/Hallowed_Ground
 
 Sanctuary (heal allies) - set the area around you (distance, time, amount) {arrow attacks hurt tank instead of party if they hit, heals members inside that are not undead/demon etc hurts demons/undead.}
-https://wiki.guildwars2.com/wiki/Sanctuary 
+https://wiki.guildwars2.com/wiki/Sanctuary
 
 Karla & Michkel - husband and wife, parents of otto +2
 Sarah and Robert - husband and wife, parents to 4
@@ -1137,7 +1203,7 @@ Edmure age ~ davids, lives in the village
 0-14 village
 14-15 first year
 15 - 16 2nd year
-16 - 18 work exp 
+16 - 18 work exp
 
 <li>Effi - Tank, 6, Mace and Shield (Starts with a sword). Knight/Paladin -> Guardian
 <li>Naoki - DPS, 9, Katana (Japanese) - Samurai
@@ -1155,35 +1221,39 @@ sword and shield, two handed, war hammer, battle axe, mace, spear? War scythe? h
 
 Sophia and Johnna's have sex while he is sick from after camping in the rain.
 Based on mesoamerican continent and ends with more advanced people landing slowly on the shores until the disease takes them then many come.
-## Physical World
-### Elements
-  "mana", // All non elemental magic
-  "fire", // Fire, Lava (earth), Combustion, Heat, Volcano (earth), Inferno
-  "metal", // Metal, Magnetic, Crystal, Gems
-  "plant", // Plants, Wood, 
-  "water", // Water, Tsunami, 
-  "earth", // Rocks, Solid, Dust, Sand, Mud (water), Growth (plant)
-  "lightning", // Lightning, Electric, Electro-magnetic, Plasma
-  "ice", // Ice, Frost, Cold, 
-  "wind", // Wind, Flight, Clouds (water), Hurricane, storm (water)
-  "shadow", // Shadow, Darkness, Unholy, nightmare
-  "light", // Light, Holy, Illumination, cleansing
-  "sound", // Sound, Echo, Fear (mental)?
-  "toxic", // Poison, Venom, Acid, Corrosion
-  "time", // time, Vision, future
-  "gravity", // gravity
-  "portal", // portal, teleport, space?
-  "spirit", // Spiritual, Ghosts?
-  "blood", // Blood
-  "beast", // Beast specific skills
-  "mental", // Mental, Mind, Illusion (Sound, Light, Shadow. Good and bad mental.)
-  "curse", // Curses
-  "none", // No idea.
 
-  *** This should be more about the mixing, fire + earth = lava. Rather then an upgrade ***
+## Physical World
+
+### Elements
+
+"mana", // All non elemental magic
+"fire", // Fire, Lava (earth), Combustion, Heat, Volcano (earth), Inferno
+"metal", // Metal, Magnetic, Crystal, Gems
+"plant", // Plants, Wood,
+"water", // Water, Tsunami,
+"earth", // Rocks, Solid, Dust, Sand, Mud (water), Growth (plant)
+"lightning", // Lightning, Electric, Electro-magnetic, Plasma
+"ice", // Ice, Frost, Cold,
+"wind", // Wind, Flight, Clouds (water), Hurricane, storm (water)
+"shadow", // Shadow, Darkness, Unholy, nightmare
+"light", // Light, Holy, Illumination, cleansing
+"sound", // Sound, Echo, Fear (mental)?
+"toxic", // Poison, Venom, Acid, Corrosion
+"time", // time, Vision, future
+"gravity", // gravity
+"portal", // portal, teleport, space?
+"spirit", // Spiritual, Ghosts?
+"blood", // Blood
+"beast", // Beast specific skills
+"mental", // Mental, Mind, Illusion (Sound, Light, Shadow. Good and bad mental.)
+"curse", // Curses
+"none", // No idea.
+
+**_ This should be more about the mixing, fire + earth = lava. Rather then an upgrade _**
 
 ### Monsters
-undead hags, water hags, blood corpse, flies, 
+
+undead hags, water hags, blood corpse, flies,
 
 Dragons have no balls, its an elongated tubular gland down the dragons tail to keep it cool and away from dragon fire
 
@@ -1191,7 +1261,7 @@ Candle Tree, The lights attract bugs and then the tree eats them.
 
 ### Countries:
 
-Rename 
+Rename
 Leika - Shogunate of Niyosho,
 Huonhia - Herkikia League
 Hatalia - Naj'es
@@ -1208,7 +1278,7 @@ Herkikia League
 Solzi
 
 Granduchy - elected grand duke from dukes.
-principality - ruled by a prince 
+principality - ruled by a prince
 kingdom - king
 republic - representatives from each place - all elected also
 Places joined together through alliance? to act as one unit under one representative
@@ -1217,7 +1287,7 @@ Solzi ?
 
 Normal in the world to reach level 100, but few reset because the chances of unlocking anything new is little and it leaves you open to attack while you level back up. The advanced classes play a large role in the old lands but in the new world people are leveling up less so getting to 100 is a big deal.
 
-*** notes on the countries *** 
+**_ notes on the countries _**
 
 Alden (German) - 🎄
 Military - Strong individuals, strong together, strong military, medium navy
@@ -1255,7 +1325,7 @@ Stability - Mostly stable
 Secrets -
 Food -
 Economy type -
-Unique Unit - 
+Unique Unit -
 
 Pocotcotco (Aztec use to be Mayan) 🦅
 Military - Weak individuals, strong heroes?, weak military, no navy
@@ -1279,7 +1349,7 @@ Stability - Stable under one ruler, unstable during changes.
 Secrets - The current king is weak and it is the queen who has been fighting dressed as him
 Food - Mostly desert, imports food from others
 Economy type -
-Unique Unit - 
+Unique Unit -
 
 Shogunate of Niyosho (Japan) ⛩
 Military - weak individuals, strong together, strong military, Strong navy
@@ -1328,25 +1398,25 @@ Desert (Monsters) - They are monsters. It's hard to say.
 
 ### Eras/History:
 
-{/* Pre-Dao, Dao-era, Immortal-era, (Huge beats, men struggling, the island is cleansed of men), (Foundation of empires in the east and this continent is invaded by the humans for the first time since the immortals), (Men overcome beasts and empires start here and in the east the religious wars start), Pyramid (Kʼawiil) Empires of men, Pocotcotcan (The one empire), Witch (Rebellion), Now. */}
-{/* Pre-Dao, Dao, Immortal, Dark-Age, (Dawn Age) Great Migration, Warning Kingdoms Period, Pyramid (The One Kingdom), Pocotcotcan Empire, Witch, Now. */}
+{/_ Pre-Dao, Dao-era, Immortal-era, (Huge beats, men struggling, the island is cleansed of men), (Foundation of empires in the east and this continent is invaded by the humans for the first time since the immortals), (Men overcome beasts and empires start here and in the east the religious wars start), Pyramid (Kʼawiil) Empires of men, Pocotcotcan (The one empire), Witch (Rebellion), Now. _/}
+{/_ Pre-Dao, Dao, Immortal, Dark-Age, (Dawn Age) Great Migration, Warning Kingdoms Period, Pyramid (The One Kingdom), Pocotcotcan Empire, Witch, Now. _/}
 
 Blood tax, one child from 40 house holds. (Ottomans)
 
 It has been at least 107 years since the fall of Pocotcotco as an empire.
 The Elves and the republic have had at least 2 famous battles against each other.
 
-The new world is in a balance. 
+The new world is in a balance.
 The Republic fractures from invasions by the Elves, late empire problems, uninterested ruling class, Alden invasion, Sea people sabotage.
 Alden invades Herkikia League, they both collapse under the sea peoples invasion.
 The Kingdom having become the Empire forms a deal with Niyosho but are both destroyed by the sea people
 Our characters flee through the desert/Solzi into Pocotcotco, who are under invasion by the Elves.
 Who again fall before the sea people in ruin.
 
-
 Miasma, "a contagious power... that has an independent life of its own. Until purged by the sacrificial death of the wrongdoer, society would be chronically infected by catastrophe".
 
 ### Myths
+
 Ajisukitakahikone = Japanese version of God K
 https://www.worldhistory.org/article/415/the-mayan-pantheon-the-many-gods-of-the-maya/
 Camazotz
@@ -1358,15 +1428,14 @@ A lord of Xibalba whose name means `Blood Gatherer'. He is the father of the god
 Mitnal
 Also known as `Metnal' , this is the Quiche Maya word for the Underworld and corresponds with the Yucatec Maya vision known as Xibalba. According to the Popl Vuh, Mitnal was a dark land flowing with rivers of blood and pus and populated by deities with names such as Bloody Teeth, Bloody Claws, and Flying Scab, among others.
 
-Dragon of the  desert ate all the elephants on this land.
+Dragon of the desert ate all the elephants on this land.
 
 squids have blue blood because it is copper based, humans red because of hemoglobin, what other kinds of blood could we have?
 
 Good fish monsters on youtube, but the terror bird from south america is good.
 https://www.youtube.com/watch?v=M3xYV3UX_t4
 
-Swap south of Alden, Titanoboa 
-
+Swap south of Alden, Titanoboa
 
 ### Language:
 
@@ -1412,9 +1481,10 @@ Meaning: This is a short form for son of a bitch short, also known as 개새끼 
 
 썅놈
 
-### Map 
+### Map
+
 Map: https://azgaar.github.io/Fantasy-Map-Generator/
-Towns: 
+Towns:
 https://watabou.github.io/city-generator/?size=18&seed=272082858&name=Todtenwei&population=2265&greens=0&farms=1&citadel=1&urban_castle=0&plaza=0&temple=0
 
 Todtenwei - 272082858
@@ -1423,17 +1493,18 @@ Alden - 839360670
 Savigal - 640470293
 
 Migration of humans, Starting from the core.
-1) [Meroyri] - Core + Wood-Elves (Europe) + Tundra 
-2) [Lóng_zhī_guó] - (China) + Tundra 
-3) [Rayndr] - (Bridge, Al Bhed) - Safer, route.
-4) かざんとう -> あばんそふ [Abansofu]  (Xuanzang / Journey to the West) - (Indians) - Large single continent. (Deep water)
-5) [Lith_eru] - (Large new continent, sand world) [the location of the immortals war, their bodies made the desert, their power changed to mana and made the first humans]
-6) [Charia] (New world) Large single content (Story)
+
+1. [Meroyri] - Core + Wood-Elves (Europe) + Tundra
+2. [Lóng_zhī_guó] - (China) + Tundra
+3. [Rayndr] - (Bridge, Al Bhed) - Safer, route.
+4. かざんとう -> あばんそふ [Abansofu] (Xuanzang / Journey to the West) - (Indians) - Large single continent. (Deep water)
+5. [Lith_eru] - (Large new continent, sand world) [the location of the immortals war, their bodies made the desert, their power changed to mana and made the first humans]
+6. [Charia] (New world) Large single content (Story)
 
 ### Towns and cities
 
 Bathhouse
-Forge / armory 
+Forge / armory
 Warehouses
 Skill instructors ?
 Alliance teleport
@@ -1441,7 +1512,7 @@ Auction house
 Town teleport
 Assembly hall
 Citizen registration
-Dueling 
+Dueling
 Arena
 Castle wars
 Gambling Hall

@@ -140,15 +140,15 @@ export function SpellFinder() {
     );
     const PossiblePlaces = Object.keys(placeList)
     for (let j = 0; j < PossiblePlaces.length; j++) {
-      if(placeList[PossiblePlaces[j]] && placeList[PossiblePlaces[j]].countries) {
-          const countriesData = Object.keys(placeList[PossiblePlaces[j]].countries)
-          for (let index = 0; index < countriesData.length; index++) {
-            PossiblePlaces.push(countriesData[index])
-            const countryData = placeList[PossiblePlaces[j]].countries[countriesData[index]]
-            if(countryData && countryData.cities) {
-              Object.keys(countryData.cities).map(city => PossiblePlaces.push(city))
-            }
+      if (placeList[PossiblePlaces[j]] && placeList[PossiblePlaces[j]].countries) {
+        const countriesData = Object.keys(placeList[PossiblePlaces[j]].countries)
+        for (let index = 0; index < countriesData.length; index++) {
+          PossiblePlaces.push(countriesData[index])
+          const countryData = placeList[PossiblePlaces[j]].countries[countriesData[index]]
+          if (countryData && countryData.cities) {
+            Object.keys(countryData.cities).map(city => PossiblePlaces.push(city))
           }
+        }
       }
     }
     for (let index = 0; index < PossiblePlaces.length; index++) {
@@ -317,7 +317,7 @@ export function SpellFinder() {
           + Weapon basic [and only basic] skills learned through using the weapon.
         </div>
         <div>Pre-Dao, Dao-era, Immortal-era, (Huge beats, men struggling, the island is cleansed of men), (Foundation of empires in the east and this continent is invaded by the humans for the first time since the immortals), (Men overcome beasts and empires start here and in the east the religious wars start), Pyramid (Kʼawiil) Empires of men, Pocotcotcan (The one empire), Witch (Rebellion), Now.
-Pre-Dao, Dao, Immortal, Dark-Age, (Dawn Age) Great Migration, Warning Kingdoms Period, Pyramid (The One Kingdom), Pocotcotcan Empire, Witch, Now.</div>
+          Pre-Dao, Dao, Immortal, Dark-Age, (Dawn Age) Great Migration, Warning Kingdoms Period, Pyramid (The One Kingdom), Pocotcotcan Empire, Witch, Now.</div>
         <div>
           ### Tiers / Ranks:
 
@@ -463,9 +463,9 @@ export default function Vampire() {
   }
   // Auto complete start
 
-  const arr1 =Object.keys(spellList)
-  const arr2 =Object.keys(racesList)
-  const arr3 =Object.keys(classList)
+  const arr1 = Object.keys(spellList)
+  const arr2 = Object.keys(racesList)
+  const arr3 = Object.keys(classList)
   const countries = arr1.concat(arr2, arr3);
   function autocomplete(inp, arr) {
     /*the autocomplete function takes two arguments,
@@ -574,12 +574,12 @@ export default function Vampire() {
       <h1>Species / Class / Spell Search</h1>
       <form onSubmit={getSearch} className="search-form">
         <div class="autocomplete">
-          <div style={{"display": "flex"}}>
-          <input id="myInput" className="search-bar" type="text" value={treeSearch} onChange={updateTreeSearch} name="myCountry" placeholder="Vampire" />
-          {/* <button className="search-button" type="submit">
+          <div style={{ "display": "flex" }}>
+            <input id="myInput" className="search-bar" type="text" value={treeSearch} onChange={updateTreeSearch} name="myCountry" placeholder="Vampire" />
+            {/* <button className="search-button" type="submit">
           Search
         </button> */}
-        </div>
+          </div>
         </div>
       </form>
       <div>{tree}</div>
@@ -1736,11 +1736,11 @@ export function PlacePage(place) {
   // Same with cities
   const PossiblePlaces = Object.keys(placeList)
   for (let j = 0; j < PossiblePlaces.length; j++) {
-    if(placeList[PossiblePlaces[j]].name === place.name) {
+    if (placeList[PossiblePlaces[j]].name === place.name) {
       data = placeList[PossiblePlaces[j]]
     } else if (placeList[PossiblePlaces[j]].countries && Object.keys(placeList[PossiblePlaces[j]].countries).includes(place.name)) {
       data = placeList[PossiblePlaces[j]].countries[place.name]
-      if(placeList[PossiblePlaces[j]].countries[place.name].cities) {
+      if (placeList[PossiblePlaces[j]].countries[place.name].cities) {
         // adds city names to sub list
         const citiesData = Object.keys(placeList[PossiblePlaces[j]].countries[place.name].cities)
         citiesData.map(city => {
@@ -1750,38 +1750,38 @@ export function PlacePage(place) {
     } else if (placeList[PossiblePlaces[j]].countries) {
       const array = Object.keys(placeList[PossiblePlaces[j]].countries)
       for (let index = 0; index < array.length; index++) {
-        if(placeList[PossiblePlaces[j]].countries[array[index]].cities) {
+        if (placeList[PossiblePlaces[j]].countries[array[index]].cities) {
           const cityList = Object.keys(placeList[PossiblePlaces[j]].countries[array[index]].cities)
-          if(cityList.includes(place.name)) {
+          if (cityList.includes(place.name)) {
             data = placeList[PossiblePlaces[j]].countries[array[index]].cities[place.name]
           }
         }
       }
     }
-    if(placeList[PossiblePlaces[j]].name === place.name && placeList[PossiblePlaces[j]].countries) {
+    if (placeList[PossiblePlaces[j]].name === place.name && placeList[PossiblePlaces[j]].countries) {
       // Adds countries to sub list
-        const countriesData = Object.keys(placeList[PossiblePlaces[j]].countries)
-        countriesData.map(country => {
-          subNames.push(country)
-        })
+      const countriesData = Object.keys(placeList[PossiblePlaces[j]].countries)
+      countriesData.map(country => {
+        subNames.push(country)
+      })
     }
   }
   // Render list automatically based on data keys.
-  function printData (data) {
+  function printData(data) {
     const output = []
     const dataKeys = Object.keys(data)
     const dataValues = Object.values(data)
     for (let index = 0; index < dataKeys.length; index++) {
       // need to remove object values also.
-      if(dataKeys[index] !== "unique unit" && typeof(dataValues[index]) !== 'object')
+      if (dataKeys[index] !== "unique unit" && typeof (dataValues[index]) !== 'object')
         // Screen output for countries
-        output.push(<CountryTitles><div style={{'text-transform': 'capitalize', 'font-weight': 'bold'}}>{dataKeys[index] + ': '}</div><div>{dataValues[index]}</div></CountryTitles>)    
-      }
+        output.push(<CountryTitles><div style={{ 'text-transform': 'capitalize', 'font-weight': 'bold' }}>{dataKeys[index] + ': '}</div><div>{dataValues[index]}</div></CountryTitles>)
+    }
     return output
   }
   return (<CountryList>
     {data && printData(data)}
-    {data && data["unique unit"] ? <BeastPage name={data["unique unit"][0]} /> : <div />} 
+    {data && data["unique unit"] ? <BeastPage name={data["unique unit"][0]} /> : <div />}
   </CountryList>)
 }
 
@@ -1846,7 +1846,7 @@ flex-direction: column;
 align-items: center;
 `
 
-const CountryTitles = styled.div `
+const CountryTitles = styled.div`
 align-self: baseline;
 text-align: initial;
 padding: 0 10px;
