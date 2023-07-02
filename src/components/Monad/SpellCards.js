@@ -302,6 +302,7 @@ const DiscSpan = styled.span`
   z-index: 2;
   margin-top: 50px;
   max-width: 90%;
+  min-width: 200px;
 `;
 
 const TitleSpan = styled.span`

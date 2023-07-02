@@ -1018,7 +1018,7 @@ const Span = styled.span`
   // white-space: nowrap;
   top: 0;
   @media screen and (max-width: 650px) {
-    margin-left: 0%;
+    margin-left: 20px;
     left: 0;
   }
   max-width: 90%;

@@ -107,16 +107,20 @@ export const racesList = {
   Orc: {
     stats: { strength: 2, vitality: 1 },
     self: "Small health regen when in combat.",
+    name: "Orc",
     images: ["https://ottotsuma.github.io/images/people/31bc50c58f7987af3eeb4217b6696c6f.jpg"], 
     notes: "",
     tier: "normal",
   },
   Succubus: {
     stats: { charisma: 10 },
-    self: "",
+    self: "Draining Kiss",
+    name: "Succubus",
     images: ["https://ottotsuma.github.io/images/monsters/succubus.jpg"], 
     notes: "A female demon believed to have sexual intercourse with sleeping men.",
     tier: "rare",
+    disc:"A female demon believed to have sexual intercourse with sleeping men.",
+    skills: ["Telepathic Bond", "Shapechanger", "Charm", "Draining Kiss", "Etherealness", "Claw"]
   },
   Gnoll: {
     stats: { sense: -2, dexterity: 1 },

@@ -446,7 +446,7 @@ export default function Vampire() {
   // Weaknesses: Hunger level, Fire (element), Light (element), Silver (only lesser vampires), Sunlight. Strengths: Ice-resistance, Weapon Resistance, Create lesser species (Skill), life absorption (heal on hit? Skill?), fast regeneration (Normal HP regen + % of that. Not total HP %. So 100HP and regen 10HP/S a 10% increase is 11HP/S.).
   // Misc: Vampires can gain experience by trying new blood. And unlock a higher level of blood skills.
   const [treeSearch, setTreeSearch] = React.useState('');
-  const [query, setQuery] = React.useState('Vampire');
+  const [query, setQuery] = React.useState('Succubus');
   const [tree, setTree] = React.useState('');
 
   useEffect(() => {
