@@ -946,6 +946,7 @@ function Item(props) {
 export default Item;
 
 const Title = styled.h1`
+  text-transform: capitalize;
   display: flex;
   justify-content: center;
 `;

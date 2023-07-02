@@ -629,6 +629,7 @@ export default function Vampire() {
 }
 // Nahual - eagle warriors
 const SubTitle = styled.h4`
+  text-transform: capitalize;
   display: flex;
   justify-content: center;
   color: red;
@@ -1634,6 +1635,7 @@ const Block = styled.div`
   border: 1px solid black;
 `;
 const DayTitle = styled.div`
+  text-transform: capitalize;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -1799,6 +1801,7 @@ const BeastContainer = styled.div`
   zoom: ${(props) => props.r};
 `;
 const Title = styled.div`
+  text-transform: capitalize;
   color: ${(props) => (props.color ? props.color : "black")};
   max-height: 30%;
   font-size: 42px;

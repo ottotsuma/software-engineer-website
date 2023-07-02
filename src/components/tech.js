@@ -380,6 +380,7 @@ const App = styled.div`
 `;
 
 const Name = styled.h4`
+  text-transform: capitalize;
   color: black;
 `;
 

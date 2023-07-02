@@ -46,6 +46,7 @@ function Stats({ items, level }) {
 export default Stats;
 
 const Title = styled.h1`
+  text-transform: capitalize;
   display: flex;
   justify-content: center;
 `;

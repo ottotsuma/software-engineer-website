@@ -790,6 +790,7 @@ const Inline = styled.div`
 `;
 
 const Title = styled.h1`
+  text-transform: capitalize;
   display: flex;
   justify-content: center;
 `;

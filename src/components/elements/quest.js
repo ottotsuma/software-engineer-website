@@ -108,6 +108,7 @@ const Main = styled.div`
 `;
 
 const Title = styled.p`
+  text-transform: capitalize;
   display: flex;
   justify-content: center;
   margin-left: 0;

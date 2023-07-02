@@ -343,10 +343,12 @@ const Card = styled.div`
   padding: 1%;
 `;
 const CardTitle = styled.h2`
+  text-transform: capitalize;
   width: 100%;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  text-transform: capitalize;
   color: ${colors.black.off}
 `;
 const TitleWrap = styled.div`

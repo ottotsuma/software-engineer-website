@@ -5332,6 +5332,7 @@ function Spells({ spells, type }) {
 export default Spells;
 
 const Title = styled.h1`
+  text-transform: capitalize;
   display: flex;
   justify-content: center;
   text-transform: capitalize;
