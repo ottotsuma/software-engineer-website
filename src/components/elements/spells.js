@@ -1051,7 +1051,7 @@ export const spellList = {
     9: "18% increase to experience gained.",
   },
   "Super genius": {
-    name: "Super genius",
+    name: "Super Genius",
     passive: true,
     1: "4% increase to experience gained",
     2: "8% increase to experience gained.",

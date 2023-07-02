@@ -111,6 +111,13 @@ export const racesList = {
     notes: "",
     tier: "normal",
   },
+  Succubus: {
+    stats: { charisma: 10 },
+    self: "",
+    images: ["https://ottotsuma.github.io/images/monsters/succubus.jpg"], 
+    notes: "A female demon believed to have sexual intercourse with sleeping men.",
+    tier: "rare",
+  },
   Gnoll: {
     stats: { sense: -2, dexterity: 1 },
 
