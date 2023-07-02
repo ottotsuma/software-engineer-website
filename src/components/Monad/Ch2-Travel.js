@@ -1,6 +1,6 @@
 import React from "react";
 import { Content } from "./styles";
-import { Effi, Otto } from "./CharacterFonts";
+import { Effi, Otto, Leon } from "./CharacterFonts";
 
 function Travel(props) {
   return (
@@ -244,15 +244,15 @@ function Travel(props) {
             mustache on his upper lip, a refined pointed nose and a bit of acne
             around his cheeks.
           </Otto>
-          <p>
+          <Leon>
             "Names Leon, if you care to ask" The tall boy said in a upbeat tone.
-          </p>
+          </Leon>
           <p>"Oh sorry, was I starring?" I replied a bit embarrassed.</p>
-          <p>
+          <Leon>
             "Maybe a little, and we have been walking next to each for for 2
             days now." Leon gave a small smile as if the whole thing was a
             little amusing.
-          </p>
+          </Leon>
           <p>
             "Ah, I am sorry..." I replied embarrassed I had only just noticed
             him.
