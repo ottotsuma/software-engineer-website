@@ -315,6 +315,8 @@ const TitleSpan = styled.span`
   width: auto;
   position: absolute;
   z-index: 2;
+  
+  text-transform: capitalize;
 `;
 
 const CardContainer = styled.div`
@@ -343,7 +345,6 @@ const Card = styled.div`
   padding: 1%;
 `;
 const CardTitle = styled.h2`
-  text-transform: capitalize;
   width: 100%;
   text-overflow: ellipsis;
   overflow: hidden;

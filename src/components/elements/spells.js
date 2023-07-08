@@ -5252,6 +5252,24 @@ export const spellList = {
     I: "Detect warm blooded life in 10m for 150 secs on Self.",
     1: "Detect warm blooded life in 10m ft for 150 secs on Self.",
   },
+  "Etherealness": {
+    note: "You step into the border regions of the Ethereal Plane, 40% of damage is taken from MP before HP.",
+    name: "Etherealness",
+    element: [""],
+    classes: [],
+    species: [
+      "Succubus",
+    ],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "You step into the border regions of the Ethereal Plane, 40% of damage is taken from MP before HP.",
+    stats: {
+      1: {},
+    },
+  },
+
+  // Ethereal
   // https://mages-are-too-op.fandom.com/wiki/Roland/Abilities
 
   // Phoenix Flame
