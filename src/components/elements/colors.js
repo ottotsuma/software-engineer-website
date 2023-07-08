@@ -116,8 +116,11 @@ export const monadColors = {
   time: "#592720",
   gravity: "#454A53",
   portal: "#8C06B1",
-  spirit: "",
+  spirit: "", // pearl?
   blood: "#880808",
+  beast: "", // brown bear
+  curse: "", // purple?
+  mental: "", // opal ? 
   none: "",
 };
 export const textColors = {

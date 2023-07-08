@@ -351,6 +351,19 @@ export const classList = {
       "phenix is a long-lived bird that is cyclically regenerated or reborn.",
     tier: "epic",
   },
+  Druid: {
+    name: "Druid",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "rare",
+    disc: "",
+  },
 };
 
 export default function ClassDisplay(Class) {

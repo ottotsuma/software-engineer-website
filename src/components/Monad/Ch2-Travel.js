@@ -81,7 +81,7 @@ function Travel(props) {
             sword through it. Kojkan was a strange name, even for a sword. This
             sword was suppose to have magic powers, be very old, and passed down
             to the heir to commemorate his position. It looked dirty. It was
-            black like dried blood, even the blade, like the thing was never
+            black, like dried blood, even down the blade like the thing was never
             rubbed clean.
           </Effi>
           <Effi>
@@ -118,7 +118,7 @@ function Travel(props) {
             Shield and dreams in hand I grouped up with the others from our
             village, as well as the students who joined us previously. The
             students from this town would also join us on our walk south. I had
-            spotted Otto travelling with us, he stayed with the other mages from
+            spotted Otto traveling with us, he stayed with the other mages from
             our village although he didn't seem to speak much. I pulled him
             along with me from that point on, at least until we would reach
             Grafen he would have someone to talk to. Although that was a little
@@ -145,11 +145,11 @@ function Travel(props) {
           <Otto>
             Effi had suddenly stopped speaking and stood looking into the
             make-shift arena. We had come here expecting a speech from a prince
-            in fancy clothes. However what lay before our eyes were people
+            in fancy clothes.
+            {/* However what lay before our eyes were people
             covered it cuts and bruises. Some being dragged over to the middle
-            of the arena, all naked. They were criminals, today the prince would
-            exsect their punishment. Their sentence had already passed, today
-            was a demonstration, a deterrence to other aspiring criminals.
+            of the arena, all naked. Their sentence had already passed, however it seemed today
+            was a demonstration by the prince, a deterrence to other aspiring criminals. */}
           </Otto>
           <Otto>
             In the arena, 30 people had been commended to die. Malnourished and
@@ -181,17 +181,13 @@ function Travel(props) {
             inevitable for everyone involved.
           </Otto>
           <Otto>
-            Sitting in a wooden stand covered in the colors of royalty was the
-            prince. The seats had cloth covering them and banners standing
-            taller than knights that stood beside them. The first prince,
-            Alphonse Elzach.
+            Sitting in a wooden stand higher up then everyone else, covered in the colors of royalty, their families famed violet lighting, snow white to represent cleanliness and wealth, finally obsidian black, a resource monopolized by their family. The seats had cloth covering them, flanked by banners standing taller than knights that stood beside him. The first prince, Alphonse Elzach.
           </Otto>
           <Otto>
-            This prince was the one who condemned these men to die. He was also
-            the one who had chosen to do so in such an unusual fashion. The
-            death sentence was not uncommon, but only reserved for the worst of
+            This prince was the one who condemned these men to die, despite whatever ruling the local lord would of given. He was also the one who had chosen to do so in such an unusual fashion. The
+            death sentence was not unheard of, but only reserved for the worst of
             crimes. To find 30 people in one town condemned to death. Had the
-            town kept them for the prince, or had the prince added those who
+            town kept them for the prince? Or had the prince added those who
             would otherwise receive lesser punishments? Who would ever know. One
             thing was sure through, this was entertainment for the prince and his
             entourage. The smile sticking to his face was large and full of
@@ -203,24 +199,23 @@ function Travel(props) {
             this one prince?
           </Otto>
           <Otto>
-            We had departed from the town right after their deaths. The walk out
-            was quieter then when we arrived.
+            We departed from the town right after. The walk out was quieter then when we arrived.
           </Otto>
           <Otto>
             The next few towns were uneventful in comparison. The next big event
-            was when Effi & the other Fighter and some of the Rogue students
+            was when Effi & the other Fighters mixed with some of the Rogue students
             left us at Grafen. Grafen was not a small town but a large city,
             sitting on the second largest road in Alden, the north-south road.
             This was also the first time we made camp outside of the town for
-            the night.
+            the night. The city had it's guards, there was the largest fighters training camp just over the river and the 2nd largest rouge camp not far from here either, with constant patrols along the road, mixed with travelers we were unlikely to run into any beasts even at night time.
           </Otto>
           <Otto>
             The students leaving us here would not venture into the city either
-            but the military camps set up on the opposite side of the river to
-            the city. From here although I would walk with other students to the
-            academy numbering in the hundreds after picking up more mages from
+            but went directly to the military camps set up on the opposite side of the river to
+            the city. From here, I would walk with other students going to the
+            academy. Numbering in the hundreds, after picking up more mages from
             Grafen, and other travelers to the capital, it was the loneliest I
-            had felt.
+            had felt, it felt like the first time I was alone, even with the few other mages from my village were here it's not like I was close to any of them like with Effi.
           </Otto>
           {/* <p>
             The closest school was the military camp for fighters and rouges,
@@ -247,39 +242,38 @@ function Travel(props) {
           <Leon>
             "Names Leon, if you care to ask" The tall boy said in a upbeat tone.
           </Leon>
-          <p>"Oh sorry, was I starring?" I replied a bit embarrassed.</p>
+          <Otto>"Oh sorry, was I starring?" I replied a bit embarrassed.</Otto>
           <Leon>
             "Maybe a little, and we have been walking next to each for for 2
             days now." Leon gave a small smile as if the whole thing was a
             little amusing.
           </Leon>
-          <p>
-            "Ah, I am sorry..." I replied embarrassed I had only just noticed
+          <Otto>
+            "Ah, I am sorry..." I replied embarrassed I had only just bothered to noticed
             him.
-          </p>
-          <p>
-            "It's fine, you from far? you look tired, like you have been walking
-            for awhile." He asked.
-          </p>
-          <p>"Steinauhau" I responded.</p>
-          <p>
+          </Otto>
+          <Leon>
+            "It's fine, you from far? you look tired, must be your first time." He asked.
+          </Leon>
+          <Otto>"Steinauhau." I responded.</Otto>
+          <Leon>
             "...doesn't get much further then that in Alden, you ever been to
             Chingaling land before?" He asked.
-          </p>
-          <p>
-            "Chingaling? I am going to Tirnavalli Dukedom. Banderedam." I
+          </Leon>
+          <Otto>
+            "Chingaling? I am going to Tirnavalli Dukedom. Banderedam city." I
             replied confused. I did not know everywhere in Alden, I was only 14
             but I never heard of Chingaling.
-          </p>
-          <p>
-            "Ah, sorry forgot my place, that's correct, how silly of me." He
+          </Otto>
+          <Leon>
+            "Ah, sorry, that's correct, Chingaling is just what us locals call it." He
             apologized in a strange way.
-          </p>
-          <p>"What is Chingaling land?" I asked. Did he think I would know?</p>
-          <p>Leon stared at me. "You really don't know?"</p>
-          <p>
+          </Leon>
+          <Otto>"Oh okay. Why thought?" I asked. Did he think I would know?</Otto>
+          <Leon>Leon stared at me. "You really don't know?"</Leon>
+          <Otto>
             "Wouldn't of asked if I did." I replied almost with an eye roll.
-          </p>
+          </Otto>
           <p>
             "Suppose so. Well Chingaling was a country before, made up of people
             from Hathapatson in Alden to Dodgud in Herkikia. Alden and Herkikia

@@ -5255,7 +5255,7 @@ export const spellList = {
   "Etherealness": {
     note: "You step into the border regions of the Ethereal Plane, 40% of damage is taken from MP before HP.",
     name: "Etherealness",
-    element: [""],
+    element: ["spirit"],
     classes: [],
     species: [
       "Succubus",
