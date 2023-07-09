@@ -274,15 +274,15 @@ function Travel(props) {
           <Otto>
             "Wouldn't of asked if I did." I replied almost with an eye roll.
           </Otto>
-          <p>
-            "Suppose so. Well Chingaling was a country before, made up of people
+          <Leon>
+            "Suppose so. Well Chingaling was a country before,
             from Hathapatson in Alden to Dodgud in Herkikia. Alden and Herkikia
             split the country in two and claimed it for their own. Although the
             official story is the people of Banderedam where demon worshipers so
             Alden occupied that area and Herkikia occupied the rest to protect
             the people from Alden. I suppose the truth depends on who you ask."
             He explained.
-          </p>
+          </Leon>
           <p>
             "So you must be local then?" I asked, since I don't even know the
             towns he mentioned.
