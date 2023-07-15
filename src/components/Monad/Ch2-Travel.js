@@ -283,52 +283,36 @@ function Travel(props) {
             the people from Alden. I suppose the truth depends on who you ask."
             He explained.
           </Leon>
-          <p>
+          <Otto>
             "So you must be local then?" I asked, since I don't even know the
             towns he mentioned.
-          </p>
-          <p>
+          </Otto>
+          <Leon>
             "Aha, yeah, born in Banderedam. Still live there now with my little
             sister and little brother." He replied happily.
-          </p>
-          <p>"Erm your parents?" I added.</p>
+          </Leon>
+          <Otto>"Erm your parents?" I added.</Otto>
           {/* Whats he on about, make him come from the capital. */}
-          <p>
-            "Beasts. The capital city of Alden to Banderedam passes through
-            the province of Bilkotgopia. Risky trip, but pays well. Work at
-            Banderedam depends on the ports and the academy. So both do poorly
-            in the winter, so trips like this one to the southern towns to make
-            trades can be profitable." He explained.
-          </p>
-          <p>"So you make this trip every year?" I asked.</p>
-          <p>
-            "First time. I didn't dare go outside of when the students travel,
-            less guards. Less of the ones that will help you anyway." He said.
-          </p>
-          <p>
-            "Makes sense. You can blend in easily because of your age, is it not
-            a risk for you to tell me all this?" I asked. His sentences were
-            short and oddly spaced. Maybe he was nervous since it was his first
-            time also.
-          </p>
-          <p>
-            "No, not particularly. It is no crime to travel at the same time,
-            and travelling in numbers offers its own kind of protection." He said
-            seemingly less jittery now.
-          </p>
-          <p>
-            "Well I am glad to have you with me, if we get lost you must know
-            the area." I said without much thought.
-          </p>
-          <p>
-            "That is true, but I am no fighter. I am training as a shop keeper,
-            an apprentice. You know, if I get back." He admitted.
-          </p>
-          <p>
-            "You'll make it back, I am sure. There are guards with us, even more
-            then the other stretches of this trip." I said looking at the people
-            carrying spears & javelins.
-          </p>
+          <Leon>
+            "They died. Eaten by beasts on a trip like this. From capital city of Alden to Banderedam, there is a section that passes though passes near the beast forest. Risky trip, but pays well. " He explained.
+            {/* Work at Banderedam depends on the ports and the academy. So both do poorly in the winter, so trips like this one to the southern towns to make
+            trades can be profitable. */}
+          </Leon>
+          <Otto>"I'm sorry. So you make this trip every year?" I asked.</Otto>
+          <Leon>
+            "First time. They died last year, my mentor only sent me because this is one of the only 2 times a year when the students travel to or from their schools." He said.
+          </Leon>
+          <Otto>
+            "Makes sense. You can blend in easily because of your age." I replied.
+          </Otto>
+          <Leon>
+            "That is true, but I am no fighter or mage. I am training as a shop keeper,
+            I am an apprentice right now." He admitted.
+          </Leon>
+          <Otto>
+            "doesn't everyone start with one of the three basic classes?" I asked. Apart from a few who have their families inherited classes passed down to them, everyone should have the 3 basic classes upon reaching level 1.
+          </Otto>
+          {/* Here */}
           <p>
             "Yes, but accidents happen, fights get chaotic. When I traveled down
             with a merchant group a mercenary died fighting a giant centipede.
