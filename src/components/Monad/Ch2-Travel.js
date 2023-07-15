@@ -312,13 +312,13 @@ function Travel(props) {
           <Otto>
             "doesn't everyone start with one of the three basic classes?" I asked. Apart from a few who have their families inherited classes passed down to them, everyone should have the 3 basic classes upon reaching level 1.
           </Otto>
-          {/* Here */}
-          <p>
-            "Yes, but accidents happen, fights get chaotic. When I traveled down
-            with a merchant group a mercenary died fighting a giant centipede.
+          <Leon>
+            "Well yeah I'm technically a fighter, but you won't see me fighting even a rat. When I traveled down with a merchant group a mercenary died fighting a giant centipede.
             It ripped his head from his body with it's giant pincers around its
             mouth." Leon described acting out the actions with his hands.
-          </p>
+            {/* "Yes, but accidents happen, fights get chaotic.  */}
+          </Leon>
+                    {/* Here */}
           <p>
             I paused to think, he has a point but since this trip happens every
             year they must of made special arrangements for the children's trip.
