@@ -352,7 +352,7 @@ most people learn inspect but either see
             </p>
             <p>
               The sounds of the fight ring out through the small clearing.
-              "Hig-h Impact!!", "Fire Ball!". "fire ball? That's not a junior
+              "Hig-h Impact!!", "Fire Ball!". "fireball? That's not a junior
               skill that's intermediate. We all agreed to start at junior
               level." Berk grows towards the smaller Otto. "I thought we must of
               leveled up by now!" retorts Otto. "Why would we level up it's not
@@ -399,7 +399,7 @@ most people learn inspect but either see
           </BreakPoint>
           <BreakPoint id="Incident">
             <h3>Incident</h3>
-            {/* <!-- redo - as Effie --> */}
+            {/* <!-- redo - as Effi --> */}
             <p>
               The group where playing deep inside the forest when one of them
               discovered lurking nearby. A leaf-green figure, with a large

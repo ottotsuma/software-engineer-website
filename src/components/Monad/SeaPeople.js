@@ -2379,7 +2379,7 @@ The god of storms and rain, enemy of Camazotz and wields a lightning axe.
       {/* In the south you join the war and find Alden people. See the side of the war from the republic. */}
       {/* The purpose of joining as mercenaries, but working with the vampires to carve out a piece of land to rule */}
       {/* switching sides during the conquest to keep land? */}
-      {/* Contact with Effie */}
+      {/* Contact with Effi */}
       {/* The lands are re-conquered during the sea peoples invasion, turning it into the guild territory, before the expansion to the west. Some of the Aldenese hide in this guild. */}
       {/* The invasion of earth */}
 

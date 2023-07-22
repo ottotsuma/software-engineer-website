@@ -318,23 +318,18 @@ function Travel(props) {
             mouth." Leon described acting out the actions with his hands.
             {/* "Yes, but accidents happen, fights get chaotic.  */}
           </Leon>
-                    {/* Here */}
-          <p>
-            I paused to think, he has a point but since this trip happens every
-            year they must of made special arrangements for the children's trip.
-            After all even some nobles sent their kids off to the academy.
-          </p>
-
-          <p>
+          <Otto>
+            I paused, not sure how to reply to that. Sure people had died from the village, but rarely did you see the monster doing it as a child. I could only compare it to Ilse's death, Effi's older sister. He has a point, but since this trip happens every year they clear out as many monsters as they can near the roads and send adults to guard us. After all even some lesser nobles sent their kids off to the academy this way.
+          </Otto>
+          <Leon>
             Leon interrupted my thoughts with "you're a mage? where is your
             wand? If you really have no wand you can pick one up in Banderedam,
-            being so close to the Mages academy means they often stock those
+            being so close to the Mages academy means we often stock those
             kind of things."
-          </p>
-          <p>
-            "I want to get one." I replied. Although I am not sure if I can
-            afford it.
-          </p>
+          </Leon>
+          <Otto>
+            "You trying to make me a customer?" I laughed. "I want to get one, I don't really have a weapon, just used sticks until now. I am pretty sure I can't afford one."
+          </Otto>
           <p>
             "Yeah, at Pal's shop it seems wands are the most sort after product.
             Maybe it's the books they make you all read brainwashing you into
