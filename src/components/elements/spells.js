@@ -2395,12 +2395,12 @@ export const spellList = {
     1: "All stats -1 in sunlight.",
     2: "Your MP recovers slightly slower in sunlight.",
     3: "Your Stamina recovery is reduced 25% in sunlight.",
-    4:`4`,
-    5:`5`,
-    6:`6`,
-    7:`7`,
-    8:`8`,
-    9:`9`,
+    4: `4`,
+    5: `5`,
+    6: `6`,
+    7: `7`,
+    8: `8`,
+    9: `9`,
     10: "Checking to see if innate skills works",
   },
   "Sunlight Adaptation": {
@@ -4234,7 +4234,7 @@ export const spellList = {
     species: ["Vampire"],
     name: "Vampire Eyes",
     passive: true,
-    stats: { 
+    stats: {
       1: {}
     },
     1: "A skill possessed by all vampires, their blood lust (Health) is shown by the color of their eyes.",
@@ -5268,7 +5268,70 @@ export const spellList = {
       1: {},
     },
   },
-
+  "Draining Kiss": {
+    note: "",
+    name: "Draining Kiss",
+    element: [],
+    classes: [],
+    species: [
+      "Succubus",
+    ],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "You apply a random drain effect on your target.",
+    stats: {
+      1: {},
+    },
+  },
+  "Shapechanger": {
+    note: "",
+    name: "Shapechanger",
+    element: [],
+    classes: [],
+    species: [
+      "Succubus",
+    ],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "You can make minor adjustments to your shape/appearance.",
+    stats: {
+      1: {},
+    },
+  },
+  "Telepathic Bond": {
+    note: "",
+    name: "Telepathic Bond",
+    element: [],
+    classes: [],
+    species: [
+      "Succubus",
+    ],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "You can communicate telepathically to your bond.",
+    stats: {
+      1: {},
+    },
+  },
+  "Claws": {
+    note: "",
+    name: "Claws",
+    element: [],
+    classes: [],
+    species: [
+      "Succubus",
+    ],
+    image: "",
+    negative: false,
+    passive: true,
+    1: "Unarmed attacks deal more damage.",
+    stats: {
+      1: {},
+    },
+  },
   // Ethereal
   // https://mages-are-too-op.fandom.com/wiki/Roland/Abilities
 
