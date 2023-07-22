@@ -302,6 +302,7 @@ const DiscSpan = styled.span`
   z-index: 2;
   margin-top: 50px;
   max-width: 90%;
+  text-transform: capitalize;
   min-width: 200px;
 `;
 
@@ -377,6 +378,7 @@ const CardDisc = styled.div`
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   min-height: 46.67px;
+  text-transform: capitalize;
   color: ${colors.black.off}
 `;
 const DiscWrap = styled.div`

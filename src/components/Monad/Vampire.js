@@ -1704,7 +1704,7 @@ export function BeastPage({ name }) {
             alt="Screen-Shot"
           />
         </Mid>
-        <Bot
+        {/* <Bot
           r={Math.min(window.outerWidth / 600, window.outerHeight / 917)}
           width={window.outerWidth}
           height={window.outerHeight}
@@ -1724,7 +1724,7 @@ export function BeastPage({ name }) {
             src={_try(() => beast.images[3], Empty)}
             alt="Screen-Shot"
           />}
-        </Bot>
+        </Bot> */}
       </BeastContainer>
     );
   } else {
@@ -1796,7 +1796,7 @@ const BeastContainer = styled.div`
   max-height: 90%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  // justify-content: flex-end;
   transform: translateY(${(props) => props.height / 20}px);
   zoom: ${(props) => props.r};
 `;
@@ -1820,6 +1820,7 @@ const StatsContainer = styled.div`
 const BeastImage1 = styled.img`
   width: 300px;
   height: 90%;
+  max-height: 42%;
 `;
 const BeastImage2 = styled.img`
   width: 100%;
@@ -1829,12 +1830,12 @@ const Mid = styled.div`
   //  height: 337px;
   display: flex;
   justify-content: space-around;
-  max-height: 42%;
+  // max-height: 42%;
   height: -webkit-fill-available;
 `;
 const Top = styled.div`
-  height: 300px;
-  max-height: 30%;
+  // height: 300px;
+  // max-height: 30%;
 `;
 const Bot = styled.div`
   height: 280px;

@@ -5442,6 +5442,7 @@ const Span = styled.span`
 
 const SingleSpell = styled.div`
   border-radius: 6px;
+  text-transform: capitalize;
   padding: 5px;
   width: auto;
   color: black;
