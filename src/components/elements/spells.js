@@ -95,7 +95,6 @@ export const ListOfMagicTypes = [
   "InscriptionCasting",
   "Intangibility Magic",
   "Intelligence Magic",
-  "LifeandDeath Magic",
   "Life Magic",
   "Liquid Magic",
   "Luck Magic",

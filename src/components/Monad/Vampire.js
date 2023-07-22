@@ -1791,6 +1791,7 @@ const BeastContainer = styled.div`
   background-image: url("https://img.freepik.com/free-photo/crumpled-paper-background_1373-412.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 10px;
   width: 600px;
   height: 917px;
   max-height: 90%;
