@@ -5331,6 +5331,21 @@ export const spellList = {
       1: {},
     },
   },
+
+  "Summon Stone Golem": {
+    note: "",
+    name: "Summon Stone Golem",
+    element: [],
+    classes: [],
+    species: [],
+    image: "",
+    negative: false,
+    passive: false,
+    1: "",
+    stats: {
+      1: {},
+    },
+  },
   // Ethereal
   // https://mages-are-too-op.fandom.com/wiki/Roland/Abilities
 
