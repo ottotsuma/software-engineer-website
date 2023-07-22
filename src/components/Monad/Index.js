@@ -72,6 +72,7 @@ function callBack(index) {
 }
 
 const ChapterList = [
+  <Vampire />,
   <Chapter1 Chapter={"Intro"} />,
   <Chapter2 Chapter={"Travel"} />,
   <Chapter3 Chapter={"Banderedam"} />,
@@ -125,7 +126,6 @@ const ChapterList = [
   <HitoriStoryFunction Chapter={0} />,
   <HitoriStoryFunction Chapter={1} />,
   <HitoriStoryFunction Chapter={2} />,
-  <Vampire />,
 ];
 
 export function droppy(props) {
