@@ -102,7 +102,7 @@ function MakeCard(cardInstructions) {
           );
           InnerArray.push(
             // Bar
-            <Bar key={index + 'BarInInfo'}>
+            <Bar key={index + 'BarInInfo'} negative={parseInt(statValues[index]) < 0}>
               <InnerBar key={index + "InnerBarInInfo"}
                 style={{
                   width: `${positiveStatValue / modifier}%`,
@@ -168,7 +168,7 @@ function MakeCard(cardInstructions) {
           );
           InnerArray.push(
             // Bar
-            <Bar key={index + 'BarInInfo'}>
+            <Bar key={index + 'BarInInfo'} negative={parseInt(statValues[index]) < 0}>
               <InnerBar key={index + "InnerBarInInfo"}
                 style={{
                   width: `${positiveStatValue / modifier}%`,
@@ -278,6 +278,8 @@ const Bar = styled.div`
   width: 100%;
   padding: 3px;
   flex: 5;
+  display:flex;
+  justify-content: ${props => props.negative ? 'end' : 'start'}
 `;
 
 
