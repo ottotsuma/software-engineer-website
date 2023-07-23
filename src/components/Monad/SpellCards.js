@@ -91,8 +91,8 @@ function MakeCard(cardInstructions) {
       const statCard = []
       for (let index = 0; index < statKeys.length; index++) {
         // statCard.push(<div><div>{statKeys[index]}: </div><div>{statValues[index]}</div></div>)
-
         //   statKeys[index].base_stat
+        const positiveStatValue = (parseInt(statValues[index]) < 0) ? -parseInt(statValues[index]) : parseInt(statValues[index])
           const InnerArray = [];
           InnerArray.push(
             // Key
@@ -105,7 +105,7 @@ function MakeCard(cardInstructions) {
             <Bar key={index + 'BarInInfo'}>
               <InnerBar key={index + "InnerBarInInfo"}
                 style={{
-                  width: `${(parseInt(statValues[index])) / modifier}%`,
+                  width: `${positiveStatValue / modifier}%`,
                   "background-color": `${perc2color(
                     parseInt((statValues[index]) / modifier)
                   )}`,
@@ -157,7 +157,7 @@ function MakeCard(cardInstructions) {
       const statCard = []
       for (let index = 0; index < statKeys.length; index++) {
         // statCard.push(<div><div>{statKeys[index]}: </div><div>{statValues[index]}</div></div>)
-
+        const positiveStatValue = (parseInt(statValues[index]) < 0) ? -parseInt(statValues[index]) : parseInt(statValues[index])
         //   statKeys[index].base_stat
           const InnerArray = [];
           InnerArray.push(
@@ -171,7 +171,7 @@ function MakeCard(cardInstructions) {
             <Bar key={index + 'BarInInfo'}>
               <InnerBar key={index + "InnerBarInInfo"}
                 style={{
-                  width: `${(parseInt(statValues[index])) / modifier}%`,
+                  width: `${positiveStatValue / modifier}%`,
                   "background-color": `${perc2color(
                     parseInt((statValues[index]) / modifier)
                   )}`,
