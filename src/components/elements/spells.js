@@ -5240,8 +5240,8 @@ export const spellList = {
     I: "Snowball.",
     1: "Snowball.",
   },
-  "	Detect Pulse": {
-    name: "	Detect Pulse",
+  "Detect Pulse": {
+    name: "Detect Pulse",
     element: [""],
     classes: ["Rouge"],
     species: [""],

@@ -52,13 +52,12 @@ export function SpellFinder() {
   const [personButtons, SetPersonButtons] = useState([]);
   const [chapter, SetChapter] = useState(1);
   const [person, SetPerson] = useState(PeopleList[4](chapter));
-
+  // .sort((a, b) => a[0].localeCompare(b[0]))
   useEffect(() => {
     const ElementTypesArray = [];
     const ClassButtonsArray = [];
     const SpeciesButtonsArray = [];
     const PlacesButtonsArray = [];
-
     // List out all the buttons of MageTypes
     ElementTypesArray.push(
       <ElementalButton
@@ -92,7 +91,7 @@ export function SpellFinder() {
         Reset Class
       </ElementalButton>
     );
-    const PossibleClasses = Object.keys(classList);
+    const PossibleClasses = Object.keys(classList).sort((a, b) => a[0].localeCompare(b[0]));
     for (let index = 0; index < PossibleClasses.length; index++) {
       ClassButtonsArray.push(
         <ElementalButton
@@ -116,7 +115,7 @@ export function SpellFinder() {
         Reset Species
       </ElementalButton>
     );
-    const PossibleSpecies = Object.keys(racesList);
+    const PossibleSpecies = Object.keys(racesList).sort((a, b) => a[0].localeCompare(b[0]));
     for (let index = 0; index < PossibleSpecies.length; index++) {
       SpeciesButtonsArray.push(
         <ElementalButton
@@ -446,7 +445,7 @@ export default function Vampire() {
   // Weaknesses: Hunger level, Fire (element), Light (element), Silver (only lesser vampires), Sunlight. Strengths: Ice-resistance, Weapon Resistance, Create lesser species (Skill), life absorption (heal on hit? Skill?), fast regeneration (Normal HP regen + % of that. Not total HP %. So 100HP and regen 10HP/S a 10% increase is 11HP/S.).
   // Misc: Vampires can gain experience by trying new blood. And unlock a higher level of blood skills.
   const [treeSearch, setTreeSearch] = React.useState('');
-  const [query, setQuery] = React.useState('Succubus');
+  const [query, setQuery] = React.useState('Vampire'); // Succubus
   const [tree, setTree] = React.useState('');
 
   useEffect(() => {

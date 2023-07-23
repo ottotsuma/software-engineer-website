@@ -58,8 +58,8 @@ const elementList = {
 };
 
 // For modifying the length of stat bars. (1 = 1/100, 0.05 = 1/5, 0.1 = 1/10)
-let modifier = 0.05
-
+let modifier = 0.1
+let multiplier = 1
 
 export default function SpellCards(listOfCards) {
   const cardArray = [];
@@ -89,6 +89,11 @@ function MakeCard(cardInstructions) {
       const statKeys = Object.keys(cardInstructions.stats)
       const statValues = Object.values(cardInstructions.stats)
       const statCard = []
+
+      // Do you want the bars to always reach the end?
+      // modifier = Math.max(...statValues)
+      // multiplier = 100
+
       for (let index = 0; index < statKeys.length; index++) {
         // statCard.push(<div><div>{statKeys[index]}: </div><div>{statValues[index]}</div></div>)
         //   statKeys[index].base_stat
@@ -105,9 +110,9 @@ function MakeCard(cardInstructions) {
             <Bar key={index + 'BarInInfo'} negative={parseInt(statValues[index]) < 0}>
               <InnerBar key={index + "InnerBarInInfo"}
                 style={{
-                  width: `${positiveStatValue / modifier}%`,
+                  width: `${multiplier * positiveStatValue / modifier}%`,
                   "background-color": `${perc2color(
-                    parseInt((statValues[index]) / modifier)
+                    parseInt(multiplier * (statValues[index]) / modifier)
                   )}`,
                 }}
               />
@@ -155,6 +160,11 @@ function MakeCard(cardInstructions) {
       const statKeys = Object.keys(cardInstructions.stats)
       const statValues = Object.values(cardInstructions.stats)
       const statCard = []
+
+      // Do you want the bars to always reach the end?
+      // modifier = Math.max(...statValues)
+      // multiplier = 100
+
       for (let index = 0; index < statKeys.length; index++) {
         // statCard.push(<div><div>{statKeys[index]}: </div><div>{statValues[index]}</div></div>)
         const positiveStatValue = (parseInt(statValues[index]) < 0) ? -parseInt(statValues[index]) : parseInt(statValues[index])
@@ -171,9 +181,9 @@ function MakeCard(cardInstructions) {
             <Bar key={index + 'BarInInfo'} negative={parseInt(statValues[index]) < 0}>
               <InnerBar key={index + "InnerBarInInfo"}
                 style={{
-                  width: `${positiveStatValue / modifier}%`,
+                  width: `${multiplier * positiveStatValue / modifier}%`,
                   "background-color": `${perc2color(
-                    parseInt((statValues[index]) / modifier)
+                    parseInt(multiplier * (statValues[index]) / modifier)
                   )}`,
                 }}
               />
