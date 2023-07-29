@@ -1,5 +1,8 @@
 import styled from "styled-components";
 import React from "react";
+import {
+  poeList
+} from "./poe"
 
 export const ListOfMagicTypes = [
   "Ancient Magic",
@@ -5331,31 +5334,32 @@ export const spellList = {
       1: {},
     },
   },
-
-  "Summon Stone Golem": {
-    note: "",
-    name: "Summon Stone Golem",
-    element: [],
-    classes: [],
-    species: [],
-    image: "",
-    negative: false,
-    passive: false,
-    1: "",
-    stats: {
-      1: {},
-    },
-  },
   // Ethereal
   // https://mages-are-too-op.fandom.com/wiki/Roland/Abilities
 
   // Phoenix Flame
   // https://en.uesp.net/wiki/Oblivion:Spells
 };
-{
-  // Vampire overlord system
-  /*  crimson flash, vampiric drain, vampiric wings, crimson aegis, Undying body, immortal body, unyielding blood demon, telepathy, fartalk */
+
+for (let index = 0; index < poeList.length; index++) {
+  spellList[poeList[index].name] = {
+    note: "",
+    name: poeList[index].name,
+    element: [],
+    classes: [],
+    species: [],
+    image: "",
+    negative: false,
+    passive: true,
+    1: poeList[index].name,
+    stats: {
+      1: {},
+    },
+  }
 }
+// Vampire overlord system
+/*  crimson flash, vampiric drain, vampiric wings, crimson aegis, Undying body, immortal body, unyielding blood demon, telepathy, fartalk */
+
 export function InlineSpell({ spellName, level }) {
   // console.log(spellList[Object.keys(spellList).find(key => key.toLowerCase() === spellName.toLowerCase())]);
   return (

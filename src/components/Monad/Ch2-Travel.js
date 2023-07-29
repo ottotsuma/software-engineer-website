@@ -330,15 +330,15 @@ function Travel(props) {
           <Otto>
             "You trying to make me a customer?" I laughed. "I want to get one, I don't really have a weapon, just used sticks until now. I am pretty sure I can't afford one."
           </Otto>
-          <p>
-            "Yeah, at Pal's shop it seems wands are the most sort after product.
-            Maybe it's the books they make you all read brainwashing you into
-            buying wands." He joked.
-          </p>
-          <p>
-            "Aha, you might be right you know, we all have to read the same
-            books to start with." I said.
-          </p>
+          <Leon>
+            "Well, it's not like all mages use wands. I saw some mercenary using a sword before. Well, whatever if you do want one we can check out the shop I work at when we arrive, you never know right? Plus there are books they make you buy, so you'll end up getting a loan from the academy anyway." Leon said.
+          </Leon>
+          <Otto>
+            "They push you into debt if you cannot afford books?" I was a little shocked, no one said this before.
+          </Otto>
+          <Leon>
+            "Yeah. I am told students pay the academy back by doing jobs for them during the year, I dunno what those jobs are though, maybe cleaning up the classrooms or something?" Leon suggested
+          </Leon>
           <p>
             We continued walking through the forest in a long snaking line,
             occasionally talking to each other when I said. "There is a lot of
