@@ -95,7 +95,7 @@ const Language = {
 // Main function
 function Home(props) {
   // Change window function
-  console.log(props);
+  // console.log(props);
   const playSpring = window.screen.width > 590;
   const springGlass = useSpring({
     from: { width: playSpring ? "0%" : "250px" },
@@ -259,7 +259,7 @@ function Home(props) {
               <Video />
               <HiWrapper>
                 <ProfileImage
-                  src="https://avatars0.githubusercontent.com/u/51743227?s=460&u=60cf882cb319128a05fa5fff10c006de9cdfc2af&v=4"
+                  src="https://ottotsuma.github.io/images/people/05400592ac5ec9dc524baf6939b5609b.jpg"
                   alt="Profile"
                   onError={imageError}
                 />
