@@ -13,7 +13,6 @@ function Modal(props) {
     });
 
     const cleanup = () => {
-        // console.log('cleaning')
         ReactDOM.unmountComponentAtNode(div);
         div.parentNode.removeChild(div);
         elements.forEach(element => {

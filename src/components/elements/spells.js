@@ -5361,7 +5361,6 @@ for (let index = 0; index < poeList.length; index++) {
 /*  crimson flash, vampiric drain, vampiric wings, crimson aegis, Undying body, immortal body, unyielding blood demon, telepathy, fartalk */
 
 export function InlineSpell({ spellName, level }) {
-  // console.log(spellList[Object.keys(spellList).find(key => key.toLowerCase() === spellName.toLowerCase())]);
   return (
     <Inline>
       {spellName}

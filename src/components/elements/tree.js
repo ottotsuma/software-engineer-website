@@ -4,7 +4,7 @@ import Spells, { spellList, ListOfMagicTypes } from "./spells";
 // import { colors, monadColors, textColors } from "./../elements/colors";
 // import { _try, imageError } from "./../elements/util";
 import SpellCards from "./../Monad/SpellCards";
-import { searchSpells, searchSpeciesSkills, searchSpecies, searchClass, searchClassSkills} from "./util"
+import { searchSpells, searchSpeciesSkills, searchSpecies, searchClass, searchClassSkills, searchItem} from "./util"
 
 // npx browserslist@latest --update-db
 export default function Tree(initialSkill = "blank", level = 1) {
@@ -55,6 +55,8 @@ export default function Tree(initialSkill = "blank", level = 1) {
         if(!speciesData.name) speciesData.name = initialSkill
         return(<div>{SpellCards([speciesData])}<div style={{height: "170px", overflow: "auto"}}>{connectedList}</div></div>) // should not be a spell card.
     } else {
+        // Item
+        // searchItem(initialSkill)
         return <div />
     }
 }

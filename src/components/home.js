@@ -95,7 +95,6 @@ const Language = {
 // Main function
 function Home(props) {
   // Change window function
-  // console.log(props);
   const playSpring = window.screen.width > 590;
   const springGlass = useSpring({
     from: { width: playSpring ? "0%" : "250px" },

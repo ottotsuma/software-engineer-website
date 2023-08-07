@@ -842,7 +842,6 @@ export const ItemList = {
 // ###### Coins:
 
 export function InlineItem({ itemName }) {
-  // console.log(spellList[Object.keys(spellList).find(key => key.toLowerCase() === spellName.toLowerCase())]);
   return (
     <Inline>
       {itemName}
@@ -902,7 +901,6 @@ function Item(props) {
     // no stats to show
   }
   if (!props.src) {
-    console.log("no image");
     return (
       <Main>
         <CardNoImage bottom={props.effect ? "10px" : "5px"}>

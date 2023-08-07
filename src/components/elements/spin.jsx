@@ -6,14 +6,12 @@ export default function Spin({ Array }) {
   const [counter, SetCounter] = useState(0);
 
   useEffect(() => {
-    console.log(Array);
     SetCurrent(Array[0]);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   function Change(index) {
     if (index > counter) {
-      console.log(Array[index]);
       if (Array[counter + 1]) {
         SetCurrent(Array[counter + 1]);
         SetCounter(index);

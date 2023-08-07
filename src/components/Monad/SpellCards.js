@@ -75,7 +75,7 @@ export default function SpellCards(listOfCards = []) {
 }
 
 export function MakeCard(cardInstructions, showStats = false, large = false) {
-  console.log('cardInstructions', cardInstructions)
+
   let name = cardInstructions.name
   let level = cardInstructions.level || 1
   if (!getParameterCaseInsensitive(spellList, name)) {

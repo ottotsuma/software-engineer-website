@@ -174,7 +174,7 @@ export default function Monad(params) {
       );
       SpeechSynthesisUtterance.lang = "en-GR";
       SpeechSynthesisUtterance.rate = 0.7;
-      console.log(synth.getVoices());
+
       utterance.voice =
         synth.getVoices()[
         synth
