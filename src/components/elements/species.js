@@ -29,7 +29,7 @@ export const racesList = {
     images: [],
     notes: "",
     tier: "normal",
-    disc: "",
+    description: "",
   },
   Binturong: {
     name: "Binturong",
@@ -48,7 +48,7 @@ export const racesList = {
     ],
     notes: "",
     tier: "rare",
-    disc: "The binturong (Arctictis binturong), also known as the bearcat, is a viverrid native to South and Southeast Asia. It is uncommon in much of its range, and has been assessed as Vulnerable on the IUCN Red List because of a declining population trend that is estimated at more than 30% since the mid 1980s. The binturong is the only living species in the genus Arctictis.",
+    description: "The binturong (Arctictis binturong), also known as the bearcat, is a viverrid native to South and Southeast Asia. It is uncommon in much of its range, and has been assessed as Vulnerable on the IUCN Red List because of a declining population trend that is estimated at more than 30% since the mid 1980s. The binturong is the only living species in the genus Arctictis.",
     // https://tier-zoo.fandom.com/wiki/Red_Panda
   },
   "Red Panda": {
@@ -69,7 +69,7 @@ export const racesList = {
     ],
     notes: "",
     tier: "rare",
-    disc: "The red panda (Ailurus fulgens), also known as the lesser panda, is a small mammal native to the eastern Himalayas and southwestern China. It has dense reddish-brown fur with a black belly and legs, white-lined ears, a mostly white muzzle and a ringed tail. Its head-to-body length is 51–63.5 cm (20.1–25.0 in) with a 28–48.5 cm (11.0–19.1 in) tail, and it weighs between 3.2 and 15 kg (7.1 and 33.1 lb). It is well adapted to climbing due to its flexible joints and curved semi-retractile claws.",
+    description: "The red panda (Ailurus fulgens), also known as the lesser panda, is a small mammal native to the eastern Himalayas and southwestern China. It has dense reddish-brown fur with a black belly and legs, white-lined ears, a mostly white muzzle and a ringed tail. Its head-to-body length is 51–63.5 cm (20.1–25.0 in) with a 28–48.5 cm (11.0–19.1 in) tail, and it weighs between 3.2 and 15 kg (7.1 and 33.1 lb). It is well adapted to climbing due to its flexible joints and curved semi-retractile claws.",
     // https://powerlisting.fandom.com/wiki/Red_Panda_Physiology & https://tier-zoo.fandom.com/wiki/Red_Panda
   },
   "Flaming Parrot": {
@@ -86,7 +86,7 @@ export const racesList = {
     images: ['https://i.icanvas.com/MNU21?d=2&sh=v&p=1&bg=g&t=1646277203', 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/955ce9d7-892b-4087-8f65-f25d5391dac8/d8en1gn-3dbbad64-2f08-428e-89ca-0ca41e2d9165.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzk1NWNlOWQ3LTg5MmItNDA4Ny04ZjY1LWYyNWQ1MzkxZGFjOFwvZDhlbjFnbi0zZGJiYWQ2NC0yZjA4LTQyOGUtODljYS0wY2E0MWUyZDkxNjUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.OM0K4v9FAqPMvaqBuOm1g_fzEhnpQ2JwKo1Il36V9q8'],
     notes: "",
     tier: "unique",
-    disc: "This parrot's feathers constantly burn. Combined with it's amazing ability to see in the dark, this leaves the parrot's eyes in constant pain.",
+    description: "This parrot's feathers constantly burn. Combined with it's amazing ability to see in the dark, this leaves the parrot's eyes in constant pain.",
   },
   Human: {
     name: "Human",
@@ -119,7 +119,7 @@ export const racesList = {
     images: ["https://ottotsuma.github.io/images/monsters/succubus.jpg"], 
     notes: "A female demon believed to have sexual intercourse with sleeping men.",
     tier: "rare",
-    disc:"A female demon believed to have sexual intercourse with sleeping men.",
+    description:"A female demon believed to have sexual intercourse with sleeping men.",
     skills: ["Telepathic Bond", "Shapechanger", "Charm Person", "Draining Kiss", "Etherealness", "Claws"]
   },
   Gnoll: {
@@ -146,7 +146,7 @@ export const racesList = {
     images: "",
     notes: "",
     tier: "normal",
-    disc: "Dwarves are often found around mountains, or deep underground. Even Dwarves that move to human cities build their houses underground. While they don't have complete Dark Vision naturally, they are able to see in the dark as if there was a little light even when there is none.",
+    description: "Dwarves are often found around mountains, or deep underground. Even Dwarves that move to human cities build their houses underground. While they don't have complete Dark Vision naturally, they are able to see in the dark as if there was a little light even when there is none.",
   },
   Elf: {
     stats: { charisma: 2, Magic: 1 },
@@ -155,7 +155,7 @@ export const racesList = {
     images: "",
     notes: "[Woodland / Sun elves, Sylvan ]🧝‍♂️, Plant element.",
     tier: "normal",
-    disc: "Woodland Elves, more commonly referred to as just 'Elves' are the elves who stayed behind in the mother forest during the great split. They have an affinity with the plant element, and worship the nature of the forests. They consider other types of elves as cursed.",
+    description: "Woodland Elves, more commonly referred to as just 'Elves' are the elves who stayed behind in the mother forest during the great split. They have an affinity with the plant element, and worship the nature of the forests. They consider other types of elves as cursed.",
   },
   "Snow Elf": {
     name: "Snow Elf",
@@ -164,12 +164,12 @@ export const racesList = {
     images: [],
     notes: "Cave elves, Ice element.",
     tier: "rare",
-    disc: "Snow elves are a branch of elves who split from their forest dwelling cousins to go north into the cold climate. They mostly live in caves in areas of tundra, ice or snow. They believe that the harsh environment is natures way of weeding out the weak. They have an affinity with ice element.",
+    description: "Snow elves are a branch of elves who split from their forest dwelling cousins to go north into the cold climate. They mostly live in caves in areas of tundra, ice or snow. They believe that the harsh environment is natures way of weeding out the weak. They have an affinity with ice element.",
   },
   "Dark Elf": {
     name: "Dark Elf",
     stats: { willpower: 2 },
-    disc: "Desert Elves, also known as Dark Elves due to their ash-grey skin; are a branch of elves who split from their forest dwelling cousins to go south into the hot deserts. They mostly live nomadic lives. They believe that the sun which gives energy and life to all things is the blessing left by their God. They have an affinity with the fire element.",
+    description: "Desert Elves, also known as Dark Elves due to their ash-grey skin; are a branch of elves who split from their forest dwelling cousins to go south into the hot deserts. They mostly live nomadic lives. They believe that the sun which gives energy and life to all things is the blessing left by their God. They have an affinity with the fire element.",
     self: "Resist heat +5%.",
     images: [],
     notes:
@@ -184,7 +184,7 @@ export const racesList = {
     images: [],
     notes: "Sea Elf, Water Element.",
     tier: "rare",
-    disc: "Water elves, a lost race of elves that set off into the sea during the great split of elves, they had seen the ocean had a great variety of nature and hoped to find the source. Their reverence for water has gained them the favor of the water element.",
+    description: "Water elves, a lost race of elves that set off into the sea during the great split of elves, they had seen the ocean had a great variety of nature and hoped to find the source. Their reverence for water has gained them the favor of the water element.",
   },
   Vampire: {
     element: "blood", // for card color
@@ -215,7 +215,7 @@ export const racesList = {
       "https://ottotsuma.github.io/images/people/82f23c130566f90858bea74138c47f70.jpg",
       "https://ottotsuma.github.io/images/people/kururu_by_cglas_d9g4c3a-pre.jpg"
     ],
-    disc: "Vampires are members of the undead. There are many sub-species of vampire, from the intelligent high vampires to mindless beasts. They excel in the use of Blood, being able to learn blood magic and blow skills through their vampire skill tree. They can become faster and stronger then average humanoids, however the stronger they become the stronger their weaknesses become. Direct weaknesses like: sunlight and fire; as well as their craving for blood.",
+    description: "Vampires are members of the undead. There are many sub-species of vampire, from the intelligent high vampires to mindless beasts. They excel in the use of Blood, being able to learn blood magic and blow skills through their vampire skill tree. They can become faster and stronger then average humanoids, however the stronger they become the stronger their weaknesses become. Direct weaknesses like: sunlight and fire; as well as their craving for blood.",
     // https://powerlisting.fandom.com/wiki/Red_Panda_Physiology & https://tier-zoo.fandom.com/wiki/Red_Panda
   },
   Ghoul: {
@@ -235,7 +235,7 @@ export const racesList = {
       `,
     tier: "normal",
     images: [],
-    disc: "Ghouls are similar in appearance to zombies, however unlike zombies they have a level of intelligence. Ghouls are summoned demon-like creatures and zombies are just animated corpses. .",
+    description: "Ghouls are similar in appearance to zombies, however unlike zombies they have a level of intelligence. Ghouls are summoned demon-like creatures and zombies are just animated corpses. .",
   },
   Wight: {
     stats: {
@@ -251,7 +251,7 @@ export const racesList = {
     notes: `https://en.wikipedia.org/wiki/Wight , https://powerlisting.fandom.com/wiki/Wight_Physiology , A rare evolution path of a ghoul. A wight is an undead creature which is fast and sneaky in the night. They are best used as a form of an assassin. Wight's have a high level of intelligence similar to humans, although their personality could not be said to be the same. They are lawful to their creator, but once they see someone as their enemy, they will do everything in their power to get rid of them. Wights are immune to poison, sleep, paralysis, Mind control, and diseases. They also contain a skill that will allow them to turn a killed victim into another lesser Wight (0/2). [3]The wight can only be a certain evolution for a ghoul only if its creator is a vampire leader.]`,
     tier: "rare",
     images: [],
-    disc: "A Wight is a type of undead with a hatred for the living. Both will be hostile to each other on first sight. Whites are very similar to zombies in terms of weaknesses, strengths and appearance. While zombies are very weak to the light element, Whites cannot harm those with a strong light affinity at all.",
+    description: "A Wight is a type of undead with a hatred for the living. Both will be hostile to each other on first sight. Whites are very similar to zombies in terms of weaknesses, strengths and appearance. While zombies are very weak to the light element, Whites cannot harm those with a strong light affinity at all.",
   },
   Draugr: {
     stats: {},
@@ -259,7 +259,7 @@ export const racesList = {
     notes: "https://powerlisting.fandom.com/wiki/Draugr_Physiology",
     tier: "rare",
     images: [],
-    disc: "An undead creature that possesses superhuman strength. They contain super healing abilities and have possible evolutions in the future, which will allow it to gain new abilities unique to the Draugr. Its natural nature is snappy as it has a short temper. Its strength is on par with its creator. However, it will not scale as the creator gets stronger. All other stats are half that of the original creator. Must feast on human flesh to evolve and heal but is not necessary to consume. If never fed, it will continue to live as long as it remains uninjured.]",
+    description: "An undead creature that possesses superhuman strength. They contain super healing abilities and have possible evolutions in the future, which will allow it to gain new abilities unique to the Draugr. Its natural nature is snappy as it has a short temper. Its strength is on par with its creator. However, it will not scale as the creator gets stronger. All other stats are half that of the original creator. Must feast on human flesh to evolve and heal but is not necessary to consume. If never fed, it will continue to live as long as it remains uninjured.]",
   },
   "Blood Fairy": {
     stats: {},
@@ -268,7 +268,7 @@ export const racesList = {
       "https://powerlisting.fandom.com/wiki/Fairy-Vampire_Physiology , https://my-vampire-system.fandom.com/wiki/Vampire#:~:text=The%20main%20traits%20of%20a,toxic%20and%20acidic%20to%20vampires.",
     tier: "rare",
     images: [],
-    disc: "The playboy or playgirl of the vampire race. They physically have a superhuman body which is comparable to vampires, including their regenerative abilities. Although unlike vampires, they do not consume human blood to live and regenerate. They consume vampire blood. They are long lived but not immortal by any means. The main traits of a Blood fairy are it's smooth silky skin, and its red blood wings. The blood fairies are able to fly and use their own set of blood skills that are different from vampire skills. This is due to the blood inside the fairy's being different. The fairy's blood is toxic and acidic to vampires. A blood fairy is one of the subclasses that if created, vampires are ordered to kill it on sight.]",
+    description: "The playboy or playgirl of the vampire race. They physically have a superhuman body which is comparable to vampires, including their regenerative abilities. Although unlike vampires, they do not consume human blood to live and regenerate. They consume vampire blood. They are long lived but not immortal by any means. The main traits of a Blood fairy are it's smooth silky skin, and its red blood wings. The blood fairies are able to fly and use their own set of blood skills that are different from vampire skills. This is due to the blood inside the fairy's being different. The fairy's blood is toxic and acidic to vampires. A blood fairy is one of the subclasses that if created, vampires are ordered to kill it on sight.]",
   },
   Strigoi: {
     stats: {},
@@ -278,7 +278,7 @@ export const racesList = {
       `,
     tier: "rare",
     images: [],
-    disc: "",
+    description: "",
   },
   Hannya: {
     stats: {},
@@ -289,7 +289,7 @@ export const racesList = {
       `,
     tier: "rare",
     images: [],
-    disc: "",
+    description: "",
   },
   Banshee: {
     stats: {},
@@ -299,7 +299,7 @@ export const racesList = {
       `,
     tier: "rare",
     images: [],
-    disc: "",
+    description: "",
   },
   "Vampiric Beasts": {
     stats: {},
@@ -309,7 +309,7 @@ export const racesList = {
       `,
     tier: "rare",
     images: [],
-    disc: "Generic beasts turned into vampires.",
+    description: "Generic beasts turned into vampires.",
   },
   Automitia: {
     stats: {},
@@ -326,7 +326,7 @@ export const racesList = {
     images: "",
     notes: "",
     tier: "normal",
-    Disc: "Just a name given to the generic unidentified Undead. Undead are not alive, weak to the light element and have affinity with the shadow element. While not always, the majority of Undead have no stamina limitations.",
+    description: "Just a name given to the generic unidentified Undead. Undead are not alive, weak to the light element and have affinity with the shadow element. While not always, the majority of Undead have no stamina limitations.",
   },
   Krogan: {
     stats: {},
@@ -359,7 +359,7 @@ export const racesList = {
     images: "",
     notes: "🧟‍♂️",
     tier: "normal",
-    disc: "An Undead body. They share some similarities to their living counterparts, since they inhabit the same body. However what set's Zombies apart is their weakness to the light element, affinity with the shadow element, as well as being harder to kill.",
+    description: "An Undead body. They share some similarities to their living counterparts, since they inhabit the same body. However what set's Zombies apart is their weakness to the light element, affinity with the shadow element, as well as being harder to kill.",
   },
   Mermaid: {
     stats: {},
@@ -368,7 +368,7 @@ export const racesList = {
     images: "",
     notes: "🧜‍♀️",
     tier: "rare",
-    disc: "Being that looks half fish, half woman. Mermaids are most often resemble a human woman, but they can resemble other species of women. That does not mean they are half of each species this is just an adaptation within their own species. They share no links to the species they look like, it is just a honey trap.",
+    description: "Being that looks half fish, half woman. Mermaids are most often resemble a human woman, but they can resemble other species of women. That does not mean they are half of each species this is just an adaptation within their own species. They share no links to the species they look like, it is just a honey trap.",
   },
   "Thri-kreen": {
     stats: {},
@@ -408,7 +408,7 @@ export const racesList = {
       "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/DnD_Goblin.png/178px-DnD_Goblin.png",
     ],
     notes: "",
-    disc: `Wild goblins are small, black-hearted humanoids that lair in despoiled dungeons and other dismal settings. Individually weak, they gather in large numbers to torment other creatures. Some goblins have adapted to a more civilized life style, working alongside humans and other species in large cities.`,
+    description: `Wild goblins are small, black-hearted humanoids that lair in despoiled dungeons and other dismal settings. Individually weak, they gather in large numbers to torment other creatures. Some goblins have adapted to a more civilized life style, working alongside humans and other species in large cities.`,
     tier: "normal",
   },
   Troglodytes: {
@@ -441,7 +441,7 @@ export const racesList = {
     ],
     notes: "",
     tier: "rare",
-    disc: "The wendigo is often said to be a malevolent spirit, sometimes depicted as a creature with human-like characteristics, which possesses human beings. The wendigo is known to invoke feelings of insatiable greed/hunger, the desire to cannibalize other humans, as well as the propensity to commit murder in those that fall under its influence.",
+    description: "The wendigo is often said to be a malevolent spirit, sometimes depicted as a creature with human-like characteristics, which possesses human beings. The wendigo is known to invoke feelings of insatiable greed/hunger, the desire to cannibalize other humans, as well as the propensity to commit murder in those that fall under its influence.",
   },
   Phoenix: {
     stats: {
@@ -520,7 +520,7 @@ export const racesList = {
     images: [],
     notes: "",
     tier: "",
-    disc: "",
+    description: "",
   },
 };
 // Bakeneko (monster) (one tail) cat demon,  & nekomata (species) (two tails), raises the dead with dances.

@@ -571,7 +571,10 @@ export default function Vampire() {
   // Auto complete end
   return (
     <div>
-      <Hover word={"Banshee"} />
+      <Hover word={"Vampire"} />
+      <Hover word={"Training Health Potion"} />
+      <Hover word={"mana ball"} />
+      <Hover word={"Knight"} />
       <h1>Species / Class / Spell Search</h1>
       <form onSubmit={getSearch} className="search-form">
         <div class="autocomplete">
@@ -1682,7 +1685,7 @@ export function BeastPage({ name }) {
             {_try(() => name, beast.name)}
           </Title>
           <Text>
-            {_try(() => beast.disc)}
+            {_try(() => beast.description)}
             <br />
             {beast.self ? `Self: ${beast.self}` : ""}
             <br />

@@ -30,14 +30,14 @@ export const placeList = {
     "full name": 'Charia',
     name: 'Charia',
     // government
-    // disc:
+    // description:
     // "unique unit":
     countries: {
       Alden: {
         name: "Alden",
         "full name": "Grand Duchy of Alden",
         government: "Grand Duchy",
-        disc: "Found by a rebellious witch with the backing of the lords of the region during the collapse of the Pocotcotco empire.",
+        description: "Found by a rebellious witch with the backing of the lords of the region during the collapse of the Pocotcotco empire.",
         "places of interest": ["Kustet (Salt mining town)"],
         "unique unit": ["Witch"],
         "economy type": "",

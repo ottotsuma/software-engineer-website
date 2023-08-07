@@ -1,13 +1,21 @@
 import React from "react";
 import styled from "styled-components";
+import Tree from "./tree";
+import {MakeCard} from "./../Monad/SpellCards";
+import { searchSpells, searchSpeciesSkills, searchSpecies, searchClass, searchClassSkills, searchItem} from "./util"
 
 export default function Hover({word}) {
+  let data = {}
+  if(searchSpecies(word)) data = searchSpecies(word)
+  if(searchSpells(word)) data = searchSpells(word)
+  if(searchClass(word)) data = searchClass(word)
+  if(searchItem(word)) data = searchItem(word)
     return (
         <div>
           <MainWord>
             <SingleSpell>
             {word}
-            <Span>Poo</Span>
+            <Span>{MakeCard(data, true, true)}</Span>
             </SingleSpell>
           </MainWord>
         </div>

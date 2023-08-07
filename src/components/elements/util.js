@@ -3,6 +3,7 @@ import { monadColors } from "./colors";
 import { spellList } from "./spells";
 import { racesList } from "./species"
 import { classList } from "./classes"
+import { ItemList } from "./item"
 export function lowerObjectValues(obj) {
   // not converting keys...
   for (var prop in obj) {
@@ -29,6 +30,12 @@ export function searchSpells (name){
   name = name.toLowerCase()
   const spellListLower = keysToLowercase(spellList)
   return spellListLower[name] ? spellListLower[name] : false
+}
+
+export function searchItem (name){
+  name = name.toLowerCase()
+  const speciesLower = keysToLowercase(ItemList)
+  return speciesLower[name] ? speciesLower[name] : false
 }
 
 export function searchSpecies (name){

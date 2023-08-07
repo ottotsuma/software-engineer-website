@@ -6,6 +6,7 @@ import { colors } from './../elements/colors'
 import { getParameterCaseInsensitive, perc2color } from "./../elements/util"
 import { racesList } from "../elements/species";
 import { classList } from "../elements/classes"
+import { ItemList } from "../elements/item"
 // https://tropedia.fandom.com/wiki/Color-Coded_Elements
 const elementList = {
   lightning: {
@@ -61,7 +62,7 @@ const elementList = {
 let modifier = 0.1
 let multiplier = 1
 
-export default function SpellCards(listOfCards) {
+export default function SpellCards(listOfCards = []) {
   const cardArray = [];
   for (let index = 0; index < listOfCards.length; index++) {
     const cardInstructions = listOfCards[index];
@@ -73,7 +74,8 @@ export default function SpellCards(listOfCards) {
   return <CardHand>{cardArray}</CardHand>;
 }
 
-function MakeCard(cardInstructions) {
+export function MakeCard(cardInstructions, showStats = false, large = false) {
+  console.log('cardInstructions', cardInstructions)
   let name = cardInstructions.name
   let level = cardInstructions.level || 1
   if (!getParameterCaseInsensitive(spellList, name)) {
@@ -85,7 +87,7 @@ function MakeCard(cardInstructions) {
       const elementalColor = elementList[element]
         ? elementList[element].color
         : "black";
-      if(!cardInstructions.stats) cardInstructions.stats = {}
+      if (!cardInstructions.stats) cardInstructions.stats = {}
       const statKeys = Object.keys(cardInstructions.stats)
       const statValues = Object.values(cardInstructions.stats)
       const statCard = []
@@ -98,55 +100,56 @@ function MakeCard(cardInstructions) {
         // statCard.push(<div><div>{statKeys[index]}: </div><div>{statValues[index]}</div></div>)
         //   statKeys[index].base_stat
         const positiveStatValue = (parseInt(statValues[index]) < 0) ? -parseInt(statValues[index]) : parseInt(statValues[index])
-          const InnerArray = [];
-          InnerArray.push(
-            // Key
-            <div style={{ flex: 1, display: "flex" }} key={statKeys[index] + 'InInfo'}>
-              {statKeys[index]}
-            </div>
-          );
-          InnerArray.push(
-            // Bar
-            <Bar key={index + 'BarInInfo'} negative={parseInt(statValues[index]) < 0}>
-              <InnerBar key={index + "InnerBarInInfo"}
-                style={{
-                  width: `${multiplier * positiveStatValue / modifier}%`,
-                  "background-color": `${perc2color(
-                    parseInt(multiplier * (statValues[index]) / modifier)
-                  )}`,
-                }}
-              />
-            </Bar>
-          );
-          InnerArray.push(
-            // Value
-            <div key={statValues[index] + "InInfo"}
-              style={{ flex: 0.5, display: "flex", "justify-content": "flex-end" }}
-            >
-              {statValues[index]}
-            </div>
-          );
-          statCard.push(<SingleStat key={index + 'SingleStatInInfo'}>{InnerArray}</SingleStat>);
-        }
-      
+        const InnerArray = [];
+        InnerArray.push(
+          // Key
+          <div style={{ flex: 1, display: "flex" }} key={statKeys[index] + 'InInfo'}>
+            {statKeys[index]}
+          </div>
+        );
+        InnerArray.push(
+          // Bar
+          <Bar key={index + 'BarInInfo'} negative={parseInt(statValues[index]) < 0}>
+            <InnerBar key={index + "InnerBarInInfo"}
+              style={{
+                width: `${multiplier * positiveStatValue / modifier}%`,
+                "background-color": `${perc2color(
+                  parseInt(multiplier * (statValues[index]) / modifier)
+                )}`,
+              }}
+            />
+          </Bar>
+        );
+        InnerArray.push(
+          // Value
+          <div key={statValues[index] + "InInfo"}
+            style={{ flex: 0.5, display: "flex", "justify-content": "flex-end" }}
+          >
+            {statValues[index]}
+          </div>
+        );
+        statCard.push(<SingleStat key={index + 'SingleStatInInfo'}>{InnerArray}</SingleStat>);
+      }
+
       return (
         <CardContainer key={name + "key" + Math.random()}>
           <Card
+            large={large}
             // isPassive={isPassive}
             // isNegative={isNegative}
             element={elementalColor}
           >
             <TitleWrap>
-              <CardTitle>{name}</CardTitle>
-              <TitleSpan>{cardInstructions.disc}</TitleSpan>
+              <CardTitle large={large}>{name}</CardTitle>
+              <TitleSpan>{cardInstructions.description}</TitleSpan>
             </TitleWrap>
-            {cardInstructions.images[0] ? <CardElement onError={imageError} src={cardInstructions.images[0]}></CardElement> : <></>}
+            {cardInstructions.images && cardInstructions.images[0] ? <CardElement onError={imageError} src={cardInstructions.images[0]}></CardElement> : <></>}
             <DiscWrap>
-              <CardDisc>{cardInstructions.self}</CardDisc>
+              <CardDisc large={large} >{cardInstructions.self}</CardDisc>
               <DiscSpan>{cardInstructions.self}{statCard}</DiscSpan>
             </DiscWrap>
-            {/* <CardSub>{cardInstructions.self}</CardSub> */}
           </Card>
+          {showStats && <CardSubStats>{statCard}</CardSubStats>}
         </CardContainer>
       )
     } else if (!!getParameterCaseInsensitive(classList, name)) {
@@ -156,7 +159,7 @@ function MakeCard(cardInstructions) {
       const elementalColor = elementList[element]
         ? elementList[element].color
         : "black";
-      if(!cardInstructions.stats) cardInstructions.stats = {}
+      if (!cardInstructions.stats) cardInstructions.stats = {}
       const statKeys = Object.keys(cardInstructions.stats)
       const statValues = Object.values(cardInstructions.stats)
       const statCard = []
@@ -169,57 +172,130 @@ function MakeCard(cardInstructions) {
         // statCard.push(<div><div>{statKeys[index]}: </div><div>{statValues[index]}</div></div>)
         const positiveStatValue = (parseInt(statValues[index]) < 0) ? -parseInt(statValues[index]) : parseInt(statValues[index])
         //   statKeys[index].base_stat
-          const InnerArray = [];
-          InnerArray.push(
-            // Key
-            <div style={{ flex: 1, display: "flex" }} key={statKeys[index] + 'InInfo'}>
-              {statKeys[index]}
-            </div>
-          );
-          InnerArray.push(
-            // Bar
-            <Bar key={index + 'BarInInfo'} negative={parseInt(statValues[index]) < 0}>
-              <InnerBar key={index + "InnerBarInInfo"}
-                style={{
-                  width: `${multiplier * positiveStatValue / modifier}%`,
-                  "background-color": `${perc2color(
-                    parseInt(multiplier * (statValues[index]) / modifier)
-                  )}`,
-                }}
-              />
-            </Bar>
-          );
-          InnerArray.push(
-            // Value
-            <div key={statValues[index] + "InInfo"}
-              style={{ flex: 0.5, display: "flex", "justify-content": "flex-end" }}
-            >
-              {statValues[index]}
-            </div>
-          );
-          statCard.push(<SingleStat key={index + 'SingleStatInInfo'}>{InnerArray}</SingleStat>);
-        }
-      
+        const InnerArray = [];
+        InnerArray.push(
+          // Key
+          <div style={{ flex: 1, display: "flex" }} key={statKeys[index] + 'InInfo'}>
+            {statKeys[index]}
+          </div>
+        );
+        InnerArray.push(
+          // Bar
+          <Bar key={index + 'BarInInfo'} negative={parseInt(statValues[index]) < 0}>
+            <InnerBar key={index + "InnerBarInInfo"}
+              style={{
+                width: `${multiplier * positiveStatValue / modifier}%`,
+                "background-color": `${perc2color(
+                  parseInt(multiplier * (statValues[index]) / modifier)
+                )}`,
+              }}
+            />
+          </Bar>
+        );
+        InnerArray.push(
+          // Value
+          <div key={statValues[index] + "InInfo"}
+            style={{ flex: 0.5, display: "flex", "justify-content": "flex-end" }}
+          >
+            {statValues[index]}
+          </div>
+        );
+        statCard.push(<SingleStat key={index + 'SingleStatInInfo'}>{InnerArray}</SingleStat>);
+      }
+
       return (
         <CardContainer key={name + "key" + Math.random()}>
           <Card
+            large={large}
             // isPassive={isPassive}
             // isNegative={isNegative}
             element={elementalColor}
           >
             <TitleWrap>
-              <CardTitle>{name}</CardTitle>
-              <TitleSpan>{cardInstructions.disc}</TitleSpan>
+              <CardTitle large={large}>{name}</CardTitle>
+              <TitleSpan>{cardInstructions.description}</TitleSpan>
             </TitleWrap>
-            {cardInstructions.images[0] ? <CardElement onError={imageError} src={cardInstructions.images[0]}></CardElement> : <></>}
+            {cardInstructions.images && cardInstructions.images[0] ? <CardElement onError={imageError} src={cardInstructions.images[0]}></CardElement> : <></>}
             <DiscWrap>
-              <CardDisc>{cardInstructions.team}</CardDisc>
+              <CardDisc large={large} >{cardInstructions.team}</CardDisc>
               <DiscSpan>{cardInstructions.team}{statCard}</DiscSpan>
             </DiscWrap>
-            {/* <CardSub>{cardInstructions.self}</CardSub> */}
           </Card>
+          {showStats && <CardSubStats>{statCard}</CardSubStats>}
         </CardContainer>
       )
+    } else if (!!getParameterCaseInsensitive(ItemList, name)) {
+      // Item
+      let element = cardInstructions.element
+      element = spellList[name] ? spellList[name].element || element : element;
+      const elementalColor = elementList[element]
+        ? elementList[element].color
+        : "black";
+      if (!cardInstructions.stats) cardInstructions.stats = {}
+      const statKeys = Object.keys(cardInstructions.stats)
+      const statValues = Object.values(cardInstructions.stats)
+      const statCard = []
+
+      // Do you want the bars to always reach the end?
+      // modifier = Math.max(...statValues)
+      // multiplier = 100
+
+      for (let index = 0; index < statKeys.length; index++) {
+        // statCard.push(<div><div>{statKeys[index]}: </div><div>{statValues[index]}</div></div>)
+        const positiveStatValue = (parseInt(statValues[index]) < 0) ? -parseInt(statValues[index]) : parseInt(statValues[index])
+        //   statKeys[index].base_stat
+        const InnerArray = [];
+        InnerArray.push(
+          // Key
+          <div style={{ flex: 1, display: "flex" }} key={statKeys[index] + 'InInfo'}>
+            {statKeys[index]}
+          </div>
+        );
+        InnerArray.push(
+          // Bar
+          <Bar key={index + 'BarInInfo'} negative={parseInt(statValues[index]) < 0}>
+            <InnerBar key={index + "InnerBarInInfo"}
+              style={{
+                width: `${multiplier * positiveStatValue / modifier}%`,
+                "background-color": `${perc2color(
+                  parseInt(multiplier * (statValues[index]) / modifier)
+                )}`,
+              }}
+            />
+          </Bar>
+        );
+        InnerArray.push(
+          // Value
+          <div key={statValues[index] + "InInfo"}
+            style={{ flex: 0.5, display: "flex", "justify-content": "flex-end" }}
+          >
+            {statValues[index]}
+          </div>
+        );
+        statCard.push(<SingleStat key={index + 'SingleStatInInfo'}>{InnerArray}</SingleStat>);
+      }
+      return (
+        <CardContainer key={name + "key" + Math.random()}>
+          <Card
+            large={large}
+            // isPassive={isPassive}
+            // isNegative={isNegative}
+            element={elementalColor}
+          >
+            <TitleWrap>
+              <CardTitle large={large}>{name}</CardTitle>
+              {/* <TitleSpan>{cardInstructions.description}</TitleSpan> */}
+            </TitleWrap>
+            {cardInstructions.images && cardInstructions.images[0] ? <CardElement onError={imageError} src={cardInstructions.images[0]}></CardElement> : <></>}
+            <DiscWrap>
+              <CardDisc large={large} >{cardInstructions.description}</CardDisc>
+              {/* <DiscSpan>{cardInstructions.description}{statCard}</DiscSpan> */}
+            </DiscWrap>
+          </Card>
+          {showStats && <CardSubStats>{statCard}</CardSubStats>}
+        </CardContainer>
+      )
+
     } else {
       // is bullshit
     }
@@ -233,7 +309,7 @@ function MakeCard(cardInstructions) {
     const spellName = spellList[name] ? spellList[name].name : name || "No Name";
     let spellDisc =
       spellList[name] && level ? spellList[name][level] : cardInstructions[level];
-    if (!spellDisc || spellDisc.length < 1) spellDisc = cardInstructions.disc;
+    if (!spellDisc || spellDisc.length < 1) spellDisc = cardInstructions.description;
     if (!spellDisc || spellDisc.length < 1) spellDisc = "No Description";
     let elementImage = spellList[name]
       ? spellList[name].image || undefined
@@ -255,17 +331,18 @@ function MakeCard(cardInstructions) {
     return (
       <CardContainer key={name + "key" + Math.random()}>
         <Card
+          large={large}
           isPassive={isPassive}
           isNegative={isNegative}
           element={elementalColor}
         >
           <TitleWrap>
-            <CardTitle>{spellName}</CardTitle>
+            <CardTitle large={large}>{spellName}</CardTitle>
             <TitleSpan>{spellName}</TitleSpan>
           </TitleWrap>
           {elementImage ? <CardElement onError={imageError} src={elementImage}></CardElement> : <></>}
           <DiscWrap>
-            <CardDisc>{spellDisc}</CardDisc>
+            <CardDisc large={large} >{spellDisc}</CardDisc>
             <DiscSpan>{spellDisc}</DiscSpan>
           </DiscWrap>
           <CardSub>Level: {level ? level : "???"}</CardSub>
@@ -353,15 +430,18 @@ const Card = styled.div`
   border-width: thick;
   border-color: ${(props) => (props.element ? props.element : "black")};
   justify-content: space-around;
-  height: 300px;
+  min-height: 300px;
+  ${(props) => (props.large ? "" : "height: 300px;")};
+  min-width: 150px;
   width: 150px;
   padding: 1%;
 `;
+
 const CardTitle = styled.h2`
   width: 100%;
   text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
+  ${(props) => (props.large ? "" : "overflow: hidden")};
+  ${(props) => (props.large ? "" : "white-space: nowrap")};
   text-transform: capitalize;
   color: ${colors.black.off}
 `;
@@ -384,10 +464,10 @@ const CardElement = styled.img`
   margin-top: 2%;
 `;
 const CardDisc = styled.div`
-  overflow: hidden;
+  ${(props) => (props.large ? "" : "overflow: hidden")};
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  ${(props) => (props.large ? "" : "-webkit-line-clamp: 2;")};
   -webkit-box-orient: vertical;
   min-height: 46.67px;
   text-transform: capitalize;
@@ -404,6 +484,11 @@ const DiscWrap = styled.div`
 const CardSub = styled.div`
   margin-top: 2%;
   color: ${colors.black.off}
+`;
+
+const CardSubStats = styled.div`
+  margin-top: 2%;
+  text-transform: capitalize;
 `;
 
 const CardHand = styled.div`

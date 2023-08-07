@@ -41,7 +41,10 @@ export default function Tree(initialSkill = "blank", level = 1) {
             connectedList.push(<Spells spells={[{name: speciesSkills[index].name, level: 1}]} />)       
         }
         if(!speciesData.name) speciesData.name = initialSkill
-        return(<div>{SpellCards([speciesData])}<div style={{height: "170px", overflow: "auto"}}>{connectedList}</div></div>) // should not be a spell card.
+        return(
+        <div>{SpellCards([speciesData])}
+            <div style={{height: "170px", overflow: "auto"}}>{connectedList}</div>
+        </div>) // should not be a spell card.
     } else if (initialSkill.length > 0 && typeof (initialSkill) === 'string' && searchClass(initialSkill)) {
         const speciesSkills = searchClassSkills(initialSkill)
         const speciesData = searchClass(initialSkill)
