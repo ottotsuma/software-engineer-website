@@ -10,7 +10,8 @@ import { racesList } from "./../elements/species";
 import { classList } from "./../elements/classes";
 import { PeopleList } from "./People";
 import { placeList } from "../elements/places";
-import Tree from "./../elements/tree"
+import Tree from "./../elements/tree";
+import Hover from "./../elements/hover";
 
 import Empty from "./../../assets/empty.gif";
 
@@ -570,6 +571,7 @@ export default function Vampire() {
   // Auto complete end
   return (
     <div>
+      <Hover word={"Banshee"} />
       <h1>Species / Class / Spell Search</h1>
       <form onSubmit={getSearch} className="search-form">
         <div class="autocomplete">
