@@ -2,6 +2,7 @@ import React from "react";
 import anty from "./../../assets/anty.jpg";
 import Title, {Shine} from './../elements/title'
 import { Content } from "./styles";
+import Hover from "../elements/hover";
 function Intro(props) {
   return (
     <Content>

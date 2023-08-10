@@ -1,6 +1,7 @@
 //  Picks up from Kaja being saved to finding Otto's grotto
 import React from "react";
 import { Content } from "./styles";
+import Hover from "../elements/hover";
 import { Kaja as KajaStats } from "./People";
 import {
   Otto,

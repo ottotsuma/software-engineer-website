@@ -202,7 +202,6 @@ export function MakeCard(cardInstructions, showStats = false, large = false) {
         );
         statCard.push(<SingleStat key={index + 'SingleStatInInfo'}>{InnerArray}</SingleStat>);
       }
-
       return (
         <CardContainer key={name + "key" + Math.random()}>
           <Card
@@ -491,6 +490,7 @@ const CardSubStats = styled.div`
   text-transform: capitalize;
   background: black;
   padding: 0 2%;
+  width: 100%;
 `;
 
 const CardHand = styled.div`

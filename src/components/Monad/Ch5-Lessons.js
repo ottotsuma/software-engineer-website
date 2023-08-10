@@ -4,6 +4,7 @@ import Stats from "./../elements/stats";
 import styled from "styled-components";
 import SpellCards from "./SpellCards";
 import { Content } from "./styles";
+import Hover from "../elements/hover";
 import { Otto, System, Tisiel } from "./CharacterFonts";
 import { InlineSpell } from "./../elements/spells";
 import {colors} from './../elements/colors'
@@ -42,7 +43,7 @@ function Lessons(props) {
           <h4>Lessons</h4>
           {/* Lubin */}
           <p>
-            "Now who can tell me what separates a Mage from a Fighter? In
+            "Now who can tell me what separates a <Hover word={"Mage"} /> from a <Hover word={"Fighter"} />? In
             particular how they use their mana." The teacher asked to the class.
             His name was Lubin, he was my teacher for combat classes and general
             magic. Unlike some of the other teachers who where researchers or
@@ -69,7 +70,7 @@ function Lessons(props) {
           </p>
           <p>
             "Todays lesson is about getting you all understanding the directions
-            you can take as a Mage. The kind of jobs you can get in Alden and
+            you can take as a <Hover word={"Mage"} />. The kind of jobs you can get in Alden and
             beyond. Since all of you here are taking the combat class this will
             give you an idea of the jobs you can get as a warrior-mage. And
             finally where to put your attribute points." Lubin said.
@@ -211,7 +212,7 @@ function Lessons(props) {
           <p>
             At the end of the class every student got a message from their
             system. +3 experience for gaining understanding towards your class
-            'Mage'. With this every student would be fired up to learn more. It
+            '<Hover word={"Mage"} />'. With this every student would be fired up to learn more. It
             was the safest and fastest way to level up and how most people were
             able to progress even up to level 20 or more without ever fighting.
           </p>

@@ -1,6 +1,7 @@
 import React from "react";
 import Lightning from "./../../assets/lightningcolors.png";
 import { Content } from "./styles";
+import Hover from "../elements/hover";
 function Fourth(props) {
   return (
     <Content>

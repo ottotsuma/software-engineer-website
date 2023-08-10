@@ -3,6 +3,7 @@ import Item from "./../elements/item";
 import SeaPeopleFunction from "./SeaPeople";
 import { Otto, System, Oskar, Mia, Klemens, Anneliese } from "./CharacterFonts";
 import { Content } from "./styles";
+import Hover from "../elements/hover";
 import { InlineSpell } from "./../elements/spells";
 import { InlineItem } from "./../elements/item";
 import Stats from "./../elements/stats";

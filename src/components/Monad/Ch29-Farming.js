@@ -1,6 +1,7 @@
 import React from "react";
 import Equipment from "./../elements/equipment";
 import { Content } from "./styles";
+import Hover from "../elements/hover";
 import { ItemList } from "../elements/item";
 
 function Intro(props) {

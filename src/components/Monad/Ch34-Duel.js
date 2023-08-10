@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Item from "./../elements/item";
 import styled from "styled-components";
 import { Content } from "./styles";
+import Hover from "../elements/hover";
 import Spin from "./../elements/spin";
 import Quest from "./../elements/quest";
 import LevelUp from "./../elements/levelup";

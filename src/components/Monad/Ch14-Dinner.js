@@ -1,6 +1,7 @@
 import React from "react";
 import SeaPeopleFunction from "./SeaPeople"; // 5
 import { Content } from "./styles";
+import Hover from "../elements/hover";
 import {
   Otto,
   System,

@@ -1,6 +1,7 @@
 import React from "react";
 import SeaPeopleFunction from "./SeaPeople";
 import { Content } from "./styles";
+import Hover from "../elements/hover";
 function Results(props) {
   return (
     <Content>

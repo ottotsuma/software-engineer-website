@@ -2,6 +2,7 @@ import React from "react";
 import Witch from "./../../assets/witch7.jpg";
 import Stats from "./../elements/stats";
 import { Content } from "./styles";
+import Hover from "../elements/hover";
 
 function Academy(props) {
   return (

@@ -4,6 +4,7 @@ import Title, { Shine } from "./../elements/title";
 import LevelUp from "./../elements/levelup";
 import SpellCards from "./SpellCards";
 import { Content } from "./styles";
+import Hover from "../elements/hover";
 function Intro(props) {
   return (
     <Content>

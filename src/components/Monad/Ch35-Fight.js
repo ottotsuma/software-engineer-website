@@ -1,6 +1,7 @@
 // Events starts and we follow Kaja through the event
 import React from "react";
 import { Content } from "./styles";
+import Hover from "../elements/hover";
 import { Kaja as KajaStats } from "./People";
 import {
   Otto,

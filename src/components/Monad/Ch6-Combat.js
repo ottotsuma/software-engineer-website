@@ -3,6 +3,7 @@ import Spells from "./../elements/spells";
 import Stats from "./../elements/stats";
 import Item from "./../elements/item";
 import { Content } from "./styles";
+import Hover from "../elements/hover";
 import {InlineSpell} from './../elements/spells'
 
 function Combat(props) {
@@ -27,30 +28,6 @@ function Combat(props) {
             }}
             name={"Academy Robe (black)."}
             rating={"junk"}
-          />
-                    <Item
-            stats={{
-              Magic: "+1",
-              HP: "+10",
-            }}
-            name={"Academy Robe (black)."}
-            rating={"normal"}
-          />
-                    <Item
-            stats={{
-              Magic: "+1",
-              HP: "+10",
-            }}
-            name={"Academy Robe (black)."}
-            rating={"epic"}
-          />
-                    <Item
-            stats={{
-              Magic: "+1",
-              HP: "+10",
-            }}
-            name={"Academy Robe (black)."}
-            rating={"rare"}
           />
           <p>
             "Now the most obvious thing when thinking about duels between mages

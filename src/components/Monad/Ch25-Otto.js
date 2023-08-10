@@ -2,6 +2,7 @@ import React from "react";
 import Equipment from "./../elements/equipment";
 import Stats from "./../elements/stats";
 import { Content } from "./styles";
+import Hover from "../elements/hover";
 function Intro(props) {
   return (
     <Content>

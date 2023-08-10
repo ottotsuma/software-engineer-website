@@ -1,5 +1,6 @@
 import React from "react";
 import { Content } from "./styles";
+import Hover from "../elements/hover";
 import { Otto as OttoStats } from "./People";
 import { Vortigern, Tisiel } from "./CharacterFonts";
 

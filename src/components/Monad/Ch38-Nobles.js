@@ -1,5 +1,6 @@
 import React from "react";
 import { Content } from "./styles";
+import Hover from "../elements/hover";
 import SeaPeopleFunction from "./SeaPeople"; // 8
 
 function Intro(props) {

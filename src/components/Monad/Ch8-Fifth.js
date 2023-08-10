@@ -1,6 +1,7 @@
 import React from "react";
 import SpellCards from "./SpellCards";
 import { Content } from "./styles";
+import Hover from "../elements/hover";
 function Fifth(props) {
   return (
     <Content>

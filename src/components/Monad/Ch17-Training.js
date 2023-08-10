@@ -1,6 +1,7 @@
 import React from "react";
 import Stats from "./../elements/stats";
 import { Content } from "./styles";
+import Hover from "../elements/hover";
 import {InlineSpell} from './../elements/spells'
 function Intro(props) {
   return (

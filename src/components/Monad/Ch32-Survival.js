@@ -4,6 +4,7 @@ import Stats from "./../elements/stats";
 import LevelUp from "./../elements/levelup";
 import Spells from "./../elements/spells";
 import { Content } from "./styles";
+import Hover from "../elements/hover";
 function Intro(props) {
   return (
     <Content>

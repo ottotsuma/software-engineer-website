@@ -2,6 +2,7 @@ import React from "react";
 import Item from "./../elements/item";
 import SeaPeopleFunction from "./SeaPeople";
 import { Content } from "./styles";
+import Hover from "../elements/hover";
 import {InlineSpell} from './../elements/spells'
 
 function Intro(props) {

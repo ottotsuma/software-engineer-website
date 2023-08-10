@@ -4,6 +4,7 @@ import HTMLFlipBook from "react-pageflip";
 import Stats from "./../elements/stats";
 import LevelUp from "./../elements/levelup";
 import { Content } from "./styles";
+import Hover from "../elements/hover";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
 import { ButtonsA, Sticky, BreakPoint } from "./styles";

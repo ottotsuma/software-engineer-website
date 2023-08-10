@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Tree from "./tree";
 import {MakeCard} from "./../Monad/SpellCards";
 import { searchSpells, searchSpeciesSkills, searchSpecies, searchClass, searchClassSkills, searchItem} from "./util"
+import { colors, monadColors } from "./colors";
 
 export default function Hover({word}) {
   let data = {}
@@ -10,20 +11,28 @@ export default function Hover({word}) {
   if(searchSpells(word)) data = searchSpells(word)
   if(searchClass(word)) data = searchClass(word)
   if(searchItem(word)) data = searchItem(word)
+  if(!data.name) data.name = word
     return (
-        <div>
+        <Wrap>
           <MainWord>
-            <SingleSpell>
+            <SingleSpell color={monadColors[data.tier] || ''}>
             {word}
             <Span>{MakeCard(data, true, true)}</Span>
             </SingleSpell>
           </MainWord>
-        </div>
+        </Wrap>
       );
 }
 
 const MainWord = styled.div`
+  display: contents;
 `;
+
+const Wrap = styled.div`
+  display: contents;
+`;
+
+
 
 const Span = styled.span`
   visibility: hidden;
@@ -39,6 +48,8 @@ const Span = styled.span`
 `;
 
 const SingleSpell = styled.div`
+  color: ${(props => props.color ? props.color : '')};
+  display: contents;
   &:hover ${Span} {
     visibility: visible;
   }

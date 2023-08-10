@@ -5,6 +5,7 @@ import Item from "./../elements/item";
 import Title from "./../elements/title";
 import SpellCards from "./SpellCards";
 import { Content } from "./styles";
+import Hover from "../elements/hover";
 import {InlineSpell} from './../elements/spells'
 function Intro(props) {
   return (

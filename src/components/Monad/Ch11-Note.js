@@ -1,6 +1,7 @@
 import React from "react";
 import Equipment from "./../elements/equipment";
 import { Content } from "./styles";
+import Hover from "../elements/hover";
 function Intro(props) {
   return (
     <Content>

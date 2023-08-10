@@ -3,6 +3,7 @@ import Item from "./../elements/item";
 import Title from "./../elements/title";
 import SeaPeopleFunction from "./SeaPeople"; // 6
 import { Content } from "./styles";
+import Hover from "../elements/hover";
 import { ItemList } from "../elements/item";
 function Intro(props) {
   return (
