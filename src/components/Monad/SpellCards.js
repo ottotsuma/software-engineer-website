@@ -149,7 +149,7 @@ export function MakeCard(cardInstructions, showStats = false, large = false) {
               <DiscSpan>{cardInstructions.self}{statCard}</DiscSpan>
             </DiscWrap>
           </Card>
-          {showStats && <CardSubStats>{statCard}</CardSubStats>}
+          {showStats && statCard.length > 0 && <CardSubStats>Stats{statCard}</CardSubStats>}
         </CardContainer>
       )
     } else if (!!getParameterCaseInsensitive(classList, name)) {
@@ -221,7 +221,7 @@ export function MakeCard(cardInstructions, showStats = false, large = false) {
               <DiscSpan>{cardInstructions.team}{statCard}</DiscSpan>
             </DiscWrap>
           </Card>
-          {showStats && <CardSubStats>{statCard}</CardSubStats>}
+          {showStats && statCard.length > 0 && <CardSubStats>Stats{statCard}</CardSubStats>}
         </CardContainer>
       )
     } else if (!!getParameterCaseInsensitive(ItemList, name)) {
@@ -292,7 +292,7 @@ export function MakeCard(cardInstructions, showStats = false, large = false) {
               {/* <DiscSpan>{cardInstructions.description}{statCard}</DiscSpan> */}
             </DiscWrap>
           </Card>
-          {showStats && <CardSubStats>{statCard}</CardSubStats>}
+          {showStats && statCard.length > 0 && <CardSubStats>Stats{statCard}</CardSubStats>}
         </CardContainer>
       )
 
@@ -489,6 +489,8 @@ const CardSub = styled.div`
 const CardSubStats = styled.div`
   margin-top: 2%;
   text-transform: capitalize;
+  background: black;
+  padding: padding: 0 2%;
 `;
 
 const CardHand = styled.div`

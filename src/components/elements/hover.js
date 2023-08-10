@@ -27,7 +27,7 @@ const MainWord = styled.div`
 
 const Span = styled.span`
   visibility: hidden;
-  background-color: black;
+  background-color: transparent;
   color: #fff;
   text-align: center;
   border-radius: 6px;
