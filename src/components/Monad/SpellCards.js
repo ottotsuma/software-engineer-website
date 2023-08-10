@@ -490,7 +490,7 @@ const CardSubStats = styled.div`
   margin-top: 2%;
   text-transform: capitalize;
   background: black;
-  padding: padding: 0 2%;
+  padding: 0 2%;
 `;
 
 const CardHand = styled.div`
