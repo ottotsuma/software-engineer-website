@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { colors, monadColors } from "./colors";
 import { _try } from "./util";
 
-// junk: "rgb(109, 109, 109)", // grey
+// junk: "rgb(186, 186, 186)", // grey
 // common: "rgb(168, 168, 168)", // light grey
 // normal: "blue",
 // intermediate: "rgb(69, 150, 255)", // light blue
