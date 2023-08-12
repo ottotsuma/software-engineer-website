@@ -16,8 +16,8 @@ export default function Hover({word}) {
         <Wrap>
           <MainWord>
             <SingleSpell color={monadColors[data.tier] || ''}>
-            {word}
             <Span>{MakeCard(data, true, true)}</Span>
+            {word}
             </SingleSpell>
           </MainWord>
         </Wrap>
@@ -44,12 +44,13 @@ const Span = styled.span`
   width: auto;
   position: absolute;
   z-index: 2;
-  margin-top: 7%;
+  margin-top: 20px;
 `;
 
 const SingleSpell = styled.div`
   color: ${(props => props.color ? props.color : '')};
   display: contents;
+  position: relative;
   &:hover ${Span} {
     visibility: visible;
   }

@@ -281,15 +281,15 @@ export function SpellFinder() {
       <div>
         <h4>A generic player will have:</h4>
         <ul>
-          <li>1 clearing skill<Hover word={"Dhampir"} /></li>
-          <li>1 single target skill<Hover word={"Dhampir"} /></li>
-          <li>1/2 movement skill(s)<Hover word={"Dhampir"} /></li>
-          <li>1 main defensive skill<Hover word={"Dhampir"} /></li>
-          <li>other defensive skills<Hover word={"Dhampir"} /></li>
-          <li>Auras/Stances<Hover word={"Dhampir"} /></li>
-          <li>Passive skills<Hover word={"Dhampir"} /></li>
-          <li>Utility skills<Hover word={"Dhampir"} /></li>
-          <li>Skills that link to the main skills in the tree, e.g. when summoning plant monsters you need to be able to germinate, grow and harvest seeds.<Hover word={"Dhampir"} /></li>
+          <li>1 clearing skill</li>
+          <li>1 single target skill</li>
+          <li>1/2 movement skill(s)</li>
+          <li>1 main defensive skill</li>
+          <li>other defensive skills</li>
+          <li>Auras/Stances</li>
+          <li>Passive skills</li>
+          <li>Utility skills</li>
+          <li>Skills that link to the main skills in the tree, e.g. when summoning plant monsters you need to be able to germinate, grow and harvest seeds.</li>
         </ul>
         <div>
           With that in mind, the starting three classes:
@@ -331,7 +331,7 @@ export function SpellFinder() {
 
           team bonus for fighter/rogue/mage
 
-          <li>Classes/Species<Hover word={"Dhampir"} /></li>
+          <li>Classes/Species</li>
           Blue - 0 - 50 +2, 51 - 100 + 3
           Green - 0 - 50 + 3, 51 - 100 +2
           Red - 0-50 +3, 51 - 100 +3
@@ -347,18 +347,18 @@ export function SpellFinder() {
         </div>
         <div>
           ### Stats:
-          <li>Vitality<Hover word={"Dhampir"} /></li> Increases the recovery rate of HP. Total HP. Basic resistances.
-          <li>Endurance<Hover word={"Dhampir"} /></li> Increases resistance to physical damage, reduces physical damage taken (%), increases stamina.
-          <li>Willpower<Hover word={"Dhampir"} /></li> Increases resistance to magic, reduces magic damage taken (%), resistance to mental attacks. [spell duration (efficiency? Duration max?)]
+          <li>Vitality</li> Increases the recovery rate of HP. Total HP. Basic resistances.
+          <li>Endurance</li> Increases resistance to physical damage, reduces physical damage taken (%), increases stamina.
+          <li>Willpower</li> Increases resistance to magic, reduces magic damage taken (%), resistance to mental attacks. [spell duration (efficiency? Duration max?)]
 
-          <li>Magic<Hover word={"Dhampir"} /></li> increases Magical Attack Power and maximum MP and recovery rate.
-          <li>Strength<Hover word={"Dhampir"} /></li> Increased Physical Attack Power and the weight behind each attack. Minor: Increased storage capacity. Reduce damage taken during a successful block. Increased resistance to falling. Increased movement speed.
+          <li>Magic</li> increases Magical Attack Power and maximum MP and recovery rate.
+          <li>Strength</li> Increased Physical Attack Power and the weight behind each attack. Minor: Increased storage capacity. Reduce damage taken during a successful block. Increased resistance to falling. Increased movement speed.
 
-          <li>Dexterity (Reflexes)<Hover word={"Dhampir"} /></li>Increases Attack Speed, dodge change, movement on rough terrain. Reduces skills cool down.
+          <li>Dexterity (Reflexes)</li>Increases Attack Speed, dodge change, movement on rough terrain. Reduces skills cool down.
 
-          <li>Sense<Hover word={"Dhampir"} /></li> Range of attacks, accuracy. Trap Detect (All of the senses, hearing, taste, touch, smell.) Seeing through smoke screens and illusions. Seeing weakness and injuries in your opponent (CRIT), Range of summons / familia can move from you.
+          <li>Sense</li> Range of attacks, accuracy. Trap Detect (All of the senses, hearing, taste, touch, smell.) Seeing through smoke screens and illusions. Seeing weakness and injuries in your opponent (CRIT), Range of summons / familia can move from you.
 
-          <li>Charisma<Hover word={"Dhampir"} /></li> Increases NPC likability, command points
+          <li>Charisma</li> Increases NPC likability, command points
         </div>
         <div>
           ### Levels:
