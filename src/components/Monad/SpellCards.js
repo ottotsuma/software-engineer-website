@@ -7,7 +7,7 @@ import { getParameterCaseInsensitive, perc2color, possiblePlacesObject } from ".
 import { racesList } from "../elements/species";
 import { classList } from "../elements/classes"
 import { ItemList } from "../elements/item"
-import { placeList } from "../elements/places"
+import { cityAmenities } from "../elements/places"
 // https://tropedia.fandom.com/wiki/Color-Coded_Elements
 const elementList = {
   lightning: {
@@ -311,6 +311,15 @@ export function MakeCard(cardInstructions, showStats = false, large = false) {
           statCard.push(<SingleStat key={index + 'citiesKeys'}>{citiesKeys[index]}</SingleStat>);
         }
       }
+      if(!cardInstructions.cities && !cardInstructions.countries) {
+        const cityAmenitiesList = Object.keys(cityAmenities)
+        for (let index = 0; index < cityAmenitiesList.length; index++) {
+          if(cardInstructions[cityAmenitiesList[index]]) {
+            statCard.push(<SingleStat key={index + 'citiesKeys'}>{cityAmenities[cityAmenitiesList[index]]}</SingleStat>);
+          }
+        }
+      }
+
       return (
         <CardContainer key={name + "key" + Math.random()}>
           <Card
@@ -330,6 +339,8 @@ export function MakeCard(cardInstructions, showStats = false, large = false) {
           {showStats && statCard.length > 0 && cardInstructions.countries && <CardSubStats>Countries:{statCard}</CardSubStats>}
 
           {showStats && statCard.length > 0 && cardInstructions.cities && <CardSubStats>Cities:{statCard}</CardSubStats>}
+
+          {showStats && statCard.length > 0 && <CardSubStats>{statCard}</CardSubStats>}
         </CardContainer>
       )
     } else {

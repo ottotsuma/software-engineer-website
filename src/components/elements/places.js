@@ -260,21 +260,24 @@ export const placeList = {
   }
 }
 
-export const cityAmenities = [
-  "bathhouse",
-  "forge",
-  "warehouses",
-  "skill instructors",
-  "alliance teleport",
-  "auction house",
-  "guild houses",
-  "town teleport",
-  "assembly hall",
-  "citizen registration",
-  "dueling",
-  "arena",
-  "castle wars",
-]
+export const cityAmenities = {
+  "bathhouse": "🛁",
+  "forge": "⚔",
+  "warehouses": "⚔",
+  "skill instructors": "🧙‍♂️",
+  "alliance teleport": "⚔",
+  "auction house": "🏛",
+  "guild houses": "⚔",
+  "town teleport": "⚔",
+  "assembly hall": "⚔",
+  "citizen registration": "⚔",
+  "dueling": "⚔",
+  "arena": "⚔",
+  "castle wars": "⚔",
+  "vampire friendly": "🧛‍♂️",
+  "shrine": "⛩",
+  castle: "🏯"
+}
 
 // Granduchy - elected grand duke from dukes.
 // principality - ruled by a prince 
