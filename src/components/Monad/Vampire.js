@@ -562,11 +562,12 @@ export default function Vampire() {
       <Hover word={"Vampire"} />
       <Hover word={"Training Health Potion"} />
       <Hover word={"mana ball"} />
-      <Hover word={"Knight"} />
+      <Hover word={"Mage"} />
       <Hover word={"Charia"} />
       <Hover word={"Lith eru"} />
       <Hover word={"Alden"} />
       <Hover word={"Steinauhau"} />
+      <Hover word={"Todtenwei"} />
 
       <h1>Species / Class / Spell Search</h1>
       <form onSubmit={getSearch} className="search-form">

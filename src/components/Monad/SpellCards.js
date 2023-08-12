@@ -147,7 +147,7 @@ export function MakeCard(cardInstructions, showStats = false, large = false) {
             {cardInstructions.images && cardInstructions.images[0] ? <CardElement onError={imageError} src={cardInstructions.images[0]}></CardElement> : <></>}
             <DiscWrap>
               <CardDisc large={large} >{cardInstructions.self}</CardDisc>
-              <DiscSpan>{cardInstructions.self}{statCard}</DiscSpan>
+              <DiscSpan>Self: {cardInstructions.self}{statCard}</DiscSpan>
             </DiscWrap>
           </Card>
           {showStats && statCard.length > 0 && <CardSubStats>Stats{statCard}</CardSubStats>}
@@ -218,7 +218,7 @@ export function MakeCard(cardInstructions, showStats = false, large = false) {
             {cardInstructions.images && cardInstructions.images[0] ? <CardElement onError={imageError} src={cardInstructions.images[0]}></CardElement> : <></>}
             <DiscWrap>
               <CardDisc large={large} >{cardInstructions.team}</CardDisc>
-              <DiscSpan>{cardInstructions.team}{statCard}</DiscSpan>
+              <DiscSpan>Team: {cardInstructions.team}{statCard}</DiscSpan>
             </DiscWrap>
           </Card>
           {showStats && statCard.length > 0 && <CardSubStats>Stats{statCard}</CardSubStats>}
@@ -315,7 +315,7 @@ export function MakeCard(cardInstructions, showStats = false, large = false) {
         const cityAmenitiesList = Object.keys(cityAmenities)
         for (let index = 0; index < cityAmenitiesList.length; index++) {
           if(cardInstructions[cityAmenitiesList[index]]) {
-            statCard.push(<SingleStat key={index + 'citiesKeys'}>{cityAmenities[cityAmenitiesList[index]]}</SingleStat>);
+            statCard.push(<SingleStat key={index + 'citiesKeys'}>{cityAmenities[cityAmenitiesList[index]]}{cityAmenitiesList[index]}</SingleStat>);
           }
         }
       }
@@ -340,7 +340,7 @@ export function MakeCard(cardInstructions, showStats = false, large = false) {
 
           {showStats && statCard.length > 0 && cardInstructions.cities && <CardSubStats>Cities:{statCard}</CardSubStats>}
 
-          {showStats && statCard.length > 0 && <CardSubStats>{statCard}</CardSubStats>}
+          {showStats && statCard.length > 0 && !cardInstructions.cities && !cardInstructions.countries && <CardSubStats>Amenities:{statCard}</CardSubStats>}
         </CardContainer>
       )
     } else {
