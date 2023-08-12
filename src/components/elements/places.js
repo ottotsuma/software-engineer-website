@@ -267,8 +267,8 @@ export const cityAmenities = {
   theater: "🎭",
   hospital: "🩺",
   necromancer: "🩻",
-
-  // 🏰🗡️⚔️⚔🐴🗡🛡⚜🏹👑🐲🤺🛡️
+  stable:"🐴"
+  // 🏰🗡️🏹👑🐲🛡️
 }
 
 // Granduchy - elected grand duke from dukes.
