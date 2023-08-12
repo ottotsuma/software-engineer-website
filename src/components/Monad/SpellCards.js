@@ -3,10 +3,11 @@ import { spellList } from "./../elements/spells";
 import styled from "styled-components";
 import { imageError } from "./../color";
 import { colors } from './../elements/colors'
-import { getParameterCaseInsensitive, perc2color } from "./../elements/util"
+import { getParameterCaseInsensitive, perc2color, possiblePlacesObject } from "./../elements/util"
 import { racesList } from "../elements/species";
 import { classList } from "../elements/classes"
 import { ItemList } from "../elements/item"
+import { placeList } from "../elements/places"
 // https://tropedia.fandom.com/wiki/Color-Coded_Elements
 const elementList = {
   lightning: {
@@ -283,7 +284,7 @@ export function MakeCard(cardInstructions, showStats = false, large = false) {
           >
             <TitleWrap>
               <CardTitle large={large}>{name}</CardTitle>
-              {/* <TitleSpan>{cardInstructions.description}</TitleSpan> */}
+              <TitleSpan>{name}</TitleSpan>
             </TitleWrap>
             {cardInstructions.images && cardInstructions.images[0] ? <CardElement onError={imageError} src={cardInstructions.images[0]}></CardElement> : <></>}
             <DiscWrap>
@@ -295,6 +296,42 @@ export function MakeCard(cardInstructions, showStats = false, large = false) {
         </CardContainer>
       )
 
+    } else if (!!getParameterCaseInsensitive(possiblePlacesObject(), name)) {
+      // countries / cities
+      const statCard = []
+      if (cardInstructions.countries) {
+        const countriesKeys = Object.keys(cardInstructions.countries)
+        for (let index = 0; index < countriesKeys.length; index++) {
+          statCard.push(<SingleStat key={index + 'countriesKeys'}>{countriesKeys[index]}</SingleStat>);
+        }
+      }
+      if (cardInstructions.cities) {
+        const citiesKeys = Object.keys(cardInstructions.cities)
+        for (let index = 0; index < citiesKeys.length; index++) {
+          statCard.push(<SingleStat key={index + 'citiesKeys'}>{citiesKeys[index]}</SingleStat>);
+        }
+      }
+      return (
+        <CardContainer key={name + "key" + Math.random()}>
+          <Card
+            large={large}
+          // isPassive={isPassive}
+          // isNegative={isNegative}
+          >
+            <TitleWrap>
+              <CardTitle large={large}>{name}</CardTitle>
+              <TitleSpan>{name}</TitleSpan>
+            </TitleWrap>
+            {cardInstructions.images && cardInstructions.images[0] ? <CardElement onError={imageError} src={cardInstructions.images[0]}></CardElement> : <></>}
+            <DiscWrap>
+              <CardDisc large={large} >{cardInstructions.description}</CardDisc>
+            </DiscWrap>
+          </Card>
+          {showStats && statCard.length > 0 && cardInstructions.countries && <CardSubStats>Countries:{statCard}</CardSubStats>}
+
+          {showStats && statCard.length > 0 && cardInstructions.cities && <CardSubStats>Cities:{statCard}</CardSubStats>}
+        </CardContainer>
+      )
     } else {
       // is bullshit
     }
@@ -438,6 +475,7 @@ const Card = styled.div`
 
 const CardTitle = styled.h2`
   width: 100%;
+  overflow: hidden;
   text-overflow: ellipsis;
   ${(props) => (props.large ? "" : "overflow: hidden")};
   ${(props) => (props.large ? "" : "white-space: nowrap")};

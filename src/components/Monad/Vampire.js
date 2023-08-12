@@ -5,7 +5,7 @@ import styled from "styled-components";
 import Stats from "./../elements/stats";
 import Spells, { spellList, ListOfMagicTypes } from "./../elements/spells";
 import { colors, monadColors, textColors } from "./../elements/colors";
-import { _try, imageError } from "./../elements/util";
+import { _try, imageError, possiblePlacesList } from "./../elements/util";
 import { racesList } from "./../elements/species";
 import { classList } from "./../elements/classes";
 import { PeopleList } from "./People";
@@ -138,19 +138,7 @@ export function SpellFinder() {
       Reset Place
     </ElementalButton>
     );
-    const PossiblePlaces = Object.keys(placeList)
-    for (let j = 0; j < PossiblePlaces.length; j++) {
-      if (placeList[PossiblePlaces[j]] && placeList[PossiblePlaces[j]].countries) {
-        const countriesData = Object.keys(placeList[PossiblePlaces[j]].countries)
-        for (let index = 0; index < countriesData.length; index++) {
-          PossiblePlaces.push(countriesData[index])
-          const countryData = placeList[PossiblePlaces[j]].countries[countriesData[index]]
-          if (countryData && countryData.cities) {
-            Object.keys(countryData.cities).map(city => PossiblePlaces.push(city))
-          }
-        }
-      }
-    }
+    const PossiblePlaces = possiblePlacesList()
     for (let index = 0; index < PossiblePlaces.length; index++) {
       PlacesButtonsArray.push(
         <ElementalButton
@@ -575,6 +563,11 @@ export default function Vampire() {
       <Hover word={"Training Health Potion"} />
       <Hover word={"mana ball"} />
       <Hover word={"Knight"} />
+      <Hover word={"Charia"} />
+      <Hover word={"Lith eru"} />
+      <Hover word={"Alden"} />
+      <Hover word={"Steinauhau"} />
+
       <h1>Species / Class / Spell Search</h1>
       <form onSubmit={getSearch} className="search-form">
         <div class="autocomplete">

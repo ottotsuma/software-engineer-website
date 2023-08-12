@@ -29,6 +29,8 @@ export const placeList = {
     notes: `6) [Charia] (New world) Large single content (Story)`,
     "full name": 'Charia',
     name: 'Charia',
+    images: [],
+    description: "Continent",
     // government
     // description:
     // "unique unit":
@@ -83,8 +85,8 @@ export const placeList = {
             "castle wars": false,
           },
           Steinauhau: {
-            map: 5628570730133
-
+            map: 5628570730133,
+            dueling: true,
           },
           'Alden (city)': {
             name: 'Alden (city)',
@@ -257,6 +259,22 @@ export const placeList = {
     // Miasma, "a contagious power... that has an independent life of its own. Until purged by the sacrificial death of the wrongdoer, society would be chronically infected by catastrophe".
   }
 }
+
+export const cityAmenities = [
+  "bathhouse",
+  "forge",
+  "warehouses",
+  "skill instructors",
+  "alliance teleport",
+  "auction house",
+  "guild houses",
+  "town teleport",
+  "assembly hall",
+  "citizen registration",
+  "dueling",
+  "arena",
+  "castle wars",
+]
 
 // Granduchy - elected grand duke from dukes.
 // principality - ruled by a prince 

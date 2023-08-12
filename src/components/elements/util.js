@@ -4,6 +4,8 @@ import { spellList } from "./spells";
 import { racesList } from "./species"
 import { classList } from "./classes"
 import { ItemList } from "./item"
+import { placeList } from "./places"
+
 export function lowerObjectValues(obj) {
   // not converting keys...
   for (var prop in obj) {
@@ -24,6 +26,51 @@ export function getParameterCaseInsensitive(object = {}, key = '') {
       return k.toLowerCase() === asLowercase;
     })[0]]; 
   }
+}
+
+export function searchPlaces (name){
+  name = name.toLowerCase()
+  const placeListLower = keysToLowercase(possiblePlacesObject())
+  return placeListLower[name] ? placeListLower[name] : false
+}
+
+export function possiblePlacesList () {
+  const PossiblePlaces = Object.keys(placeList)
+  for (let j = 0; j < PossiblePlaces.length; j++) {
+    if (placeList[PossiblePlaces[j]] && placeList[PossiblePlaces[j]].countries) {
+      const countriesData = Object.keys(placeList[PossiblePlaces[j]].countries)
+      for (let index = 0; index < countriesData.length; index++) {
+        PossiblePlaces.push(countriesData[index])
+        const countryData = placeList[PossiblePlaces[j]].countries[countriesData[index]]
+        if (countryData && countryData.cities) {
+          Object.keys(countryData.cities).map(city => PossiblePlaces.push(city))
+        }
+      }
+    }
+  }
+  return PossiblePlaces
+}
+
+export function possiblePlacesObject () {
+  const placesObject = {}
+  const PossiblePlaces = Object.keys(placeList)
+  for (let j = 0; j < PossiblePlaces.length; j++) {
+    placesObject[PossiblePlaces[j]] = placeList[PossiblePlaces[j]]
+    if (placeList[PossiblePlaces[j]] && placeList[PossiblePlaces[j]].countries) {
+      const countriesData = Object.keys(placeList[PossiblePlaces[j]].countries)
+      for (let index = 0; index < countriesData.length; index++) {
+        const countryData = placeList[PossiblePlaces[j]].countries[countriesData[index]]
+        placesObject[countriesData[index]] = countryData
+        if (countryData && countryData.cities) {
+          const cityData = Object.keys(countryData.cities)
+          for (let q = 0; q < cityData.length; q++) {
+            placesObject[cityData[q]] = countryData.cities[cityData[q]]
+          }
+        }
+      }
+    }
+  }
+  return placesObject
 }
 
 export function searchSpells (name){
