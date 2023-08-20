@@ -301,6 +301,7 @@ export const cityAmenities = {
   necromancer: "🩻",
   stable: "🐴",
   // 🏰🗡️🏹👑🐲🛡️
+  "hot spring": "🐴",
 
   // Environment
   woods: '',
