@@ -340,16 +340,17 @@ function Travel(props) {
           <Leon>
             "Yeah. I am told students pay the academy back by doing jobs for them during the year, I dunno what those jobs are though, maybe cleaning up the classrooms or something?" Leon suggested
           </Leon>
-          <p>
+          {/* Should we just move to the city? Whats this adding? */}
+          <Otto>
             We continued walking through the forest in a long snaking line,
             occasionally talking to each other when I said. "There is a lot of
-            noise coming from up ahead." Sure everyone was talking or
+            noise coming from up ahead." Sure, everyone was talking or
             complaining their feet hurt but this was different.
-          </p>
-          <p>
-            "Maybe they are drunk. Sounds like they are play fighting." Leon
+          </Otto>
+          <Leon>
+            "Maybe they are just messing around. Sounds like they are play fighting." Leon
             joked.
-          </p>
+          </Leon>
           <p>
             We turn to look at each other realising there is no way they are
             play fighting like little kids at a time like this.
