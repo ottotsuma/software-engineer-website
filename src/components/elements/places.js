@@ -70,19 +70,6 @@ export const placeList = {
           Todtenwei: {
             name: 'Todtenwei',
             map: 272082858,
-            bathhouse: false,
-            forge: false,
-            warehouses: false,
-            "skill instructors": false,
-            "alliance teleport": false,
-            "auction house": false,
-            "guild houses": false,
-            "town teleport": false,
-            "assembly hall": false,
-            "citizen registration": false,
-            dueling: false,
-            arena: false,
-            "castle wars": false,
           },
           Steinauhau: {
             map: 5628570730133,
@@ -263,21 +250,18 @@ export const placeList = {
 export const cityAmenities = {
   // Places
   "bathhouse": "🛁",
-  "forge": "⚔",
-  "warehouses": "⚔",
-  "skill instructors": "🧙‍♂️",
-  "alliance teleport": "⚔",
+  "forge": "⚒️",
+  "skill instructors": "🏋🏾‍♂️",
+  "alliance teleport": "🧙🏻",
   "auction house": "🏛",
-  "guild houses": "⚔",
-  "town teleport": "⚔",
-  "assembly hall": "⚔",
-  "citizen registration": "⚔",
-  "dueling": "⚔",
-  "arena": "⚔",
-  "castle wars": "⚔",
+  "guild houses": "🏠",
+  "town teleport": "🧙‍♂️",
+  "assembly hall": "🏛️",
+  "citizen registration": "📜",
+  "dueling": "🤺",
+  "arena": "⚔️",
+  "castle wars": "🏰",
   "vampire friendly": "🧛‍♂️",
-  "shrine": "⛩",
-  castle: "🏯",
   tavern: '',
   inn: '',
   bakery: '',
@@ -309,6 +293,14 @@ export const cityAmenities = {
   lighthouse: '',
   portal: '',
   "skyship port": '',
+  "shrine": "⛩️",
+  castle: "🏯",
+  walled: "🧱",
+  theater: "🎭",
+  hospital: "🩺",
+  necromancer: "🩻",
+  stable:"🐴",
+  // 🏰🗡️🏹👑🐲🛡️
 
   // Environment
   woods: '',
@@ -328,6 +320,7 @@ export const cityAmenities = {
   mesas: '',
   lagoon: '',
   underground: '',
+
 }
 
 // Granduchy - elected grand duke from dukes.
