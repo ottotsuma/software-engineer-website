@@ -28,7 +28,7 @@ function Banderedam(props) {
             <img
               className="popOut"
               height="400px"
-              src="https://ottotsuma.github.io/images/places/sergei-panin-04.jpg"
+              src="https://ottotsuma.github.io/images/places/Brenderdam.jpg"
               alt="Banderedam"
             />
           </div>
