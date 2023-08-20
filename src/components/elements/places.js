@@ -299,7 +299,7 @@ export const cityAmenities = {
   theater: "🎭",
   hospital: "🩺",
   necromancer: "🩻",
-  stable:"🐴",
+  stable: "🐴",
   // 🏰🗡️🏹👑🐲🛡️
 
   // Environment
@@ -324,7 +324,7 @@ export const cityAmenities = {
 }
 
 // Granduchy - elected grand duke from dukes.
-// principality - ruled by a prince 
+// principality - ruled by a prince
 // kingdom - king
 // republic - representatives from each place - all elected also
 // Places joined together through alliance? to act as one unit under one representative
@@ -332,5 +332,5 @@ export const cityAmenities = {
 // Solzi ?
 
 // Map: https://azgaar.github.io/Fantasy-Map-Generator/
-// Towns: 
+// Towns:
 // https://watabou.github.io/city-generator/?size=18&seed=272082858&name=Todtenwei&population=2265&greens=0&farms=1&citadel=1&urban_castle=0&plaza=0&temple=0
