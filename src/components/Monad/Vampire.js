@@ -597,14 +597,13 @@ export default function Vampire() {
         <li><Hover word={"Vampire Noble"} /></li>
         <li><Hover word={"Vampire Knight"} /></li>
         <li><Hover word={"Dhampir"} /></li>
-        <li><Hover word={"Halfling"} /></li>
-        <li><Hover word={"Royal Vampires"} /></li>
+        <li><Hover word={"Vampire Halfling"} /></li>
         <li><Hover word={"Vampire"} /></li>
         <li><Hover word={"Vampire Fledgling"} /></li>
         <li><Hover word={"Blooded Vampire"} /></li>
         <li><Hover word={"Vampire Nightstalker"} /></li>
         <li><Hover word={"Vampire Lord"} /></li>
-        <li><Hover word={"Vampire progenitor"} /></li>
+        <li><Hover word={"Vampire Progenitor"} /></li>
         <li><Hover word={"Vampire Princess"} /></li>
         <li><Hover word={"Vampire Prince"} /></li>
         <li><Hover word={"Vampire Bride"} /></li>

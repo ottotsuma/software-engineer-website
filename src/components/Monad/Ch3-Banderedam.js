@@ -11,7 +11,7 @@ function Banderedam(props) {
       <div className="Frame">
         <div className="Content">
           <h4>City of Banderedam</h4>
-          <p>
+          <Otto>
             Arriving before the city of Banderedam, trails of students heading
             to the academy could be seen next to the city. The city itself was
             across a small stone bridge across the river Chitna, which ended
@@ -23,7 +23,7 @@ function Banderedam(props) {
             visible from the outside, as it ran over the gate house giving the
             defenders room to drop things onto attacks. Even the older towers
             and walls had matriculations.
-          </p>
+          </Otto>
           <div className="pop">
             Banderedam
             <img
@@ -33,19 +33,19 @@ function Banderedam(props) {
               alt="Banderedam"
             />
           </div>
-          <p>
+          <Otto>
+            Stationed in-front of the bridge was temporary check point, set up to split students from normal traffic for checking people before entering the city. With my letter of introduction to the magic academy and ID given to me by my village leader getting though the student entrance was easy.
+          </Otto>
+          {/* <p>
             After getting out of the boat, at the temporary station set up to
             deal with the large influx of students, we made our way to the town by
             foot.
-          </p>
-          <p>
-            Once at the gate we passed through a checkpoint where guards were checking people coming into
-            the city. With my ID card, letters of introduction to the magic
-            academy and my age, it was easy for me to pass through the gate. Leon
-            lived there, so he was able to pass through without issue. After meeting up again
+          </p> */}
+          <Otto>
+            Leon lived there, so he was able to pass through without issue. After meeting up again
             inside Leon took me to the shopping district, so he could drop off
-            his package and I could go shopping for a wand.
-          </p>
+            his package and show me the shop he worked at.
+          </Otto>
 
           <p>
             The town inside was packed, the buildings clearly had been built
