@@ -2,6 +2,7 @@ import React from "react";
 import Item from './../elements/item'
 import { Content } from "./styles";
 import Hover from "../elements/hover";
+import { Otto, Leon } from "./CharacterFonts";
 
 // Dead girl, corps fish 
 function Banderedam(props) {
