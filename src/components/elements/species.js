@@ -762,10 +762,41 @@ export const racesList = {
     tier: "epic",
     description: "",
   },
+  "Vampire Knight": {
+    name: "Vampire Knight",
+    stats: {
+      charisma: 0,
+      vitality: 0,
+      dexterity: 0,
+      endurance: 0,
+      magic: 0,
+      willpower: 0,
+    },
+    self: "",
+    images: [],
+    notes: "",
+    tier: "epic",
+    description: "",
+  },
+  "Vampire Noble": {
+    name: "Vampire Noble",
+    stats: {
+      charisma: 0,
+      vitality: 0,
+      dexterity: 0,
+      endurance: 0,
+      magic: 0,
+      willpower: 0,
+    },
+    self: "",
+    images: [],
+    notes: "",
+    tier: "epic",
+    description: "",
+  },
 };
 // Bakeneko (monster) (one tail) cat demon,  & nekomata (species) (two tails), raises the dead with dances.
 
-// Ghoul, Wight, Halfling, Vampire→Vampire Noble→Vampire Knight, Namanari Hannya <Chunari Hannya> <Honnari Hannya>, Dhampir, Banshee, Draugr→Great Draugr, Blood Fairy, Strigoi,
 
 export default function RaceDisplay(Species) {
   const Data = _try(() => racesList[Species]);
