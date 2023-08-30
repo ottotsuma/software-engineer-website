@@ -138,7 +138,7 @@ export const classList = {
     stats: {},
     InnateSkills: ['Holy Practitioner'],
   },
-    "Fallen Paladin": {
+  "Fallen Paladin": {
     name: "Fallen Paladin",
     team: "Your God has forsaken you, your previous God will not watch over your team.",
     description: "",
@@ -364,7 +364,452 @@ export const classList = {
     tier: "rare",
     description: "",
   },
+  Swordsmen: {
+    name: "Swordsmen",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  magician: {
+    name: "magician",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  merchant: {
+    name: "merchant",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  thief: {
+    name: "thief",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  archer: {
+    name: "archer",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  bowman: {
+    name: "bowman",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  acolyte: {
+    name: "acolyte",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Crusader: {
+    name: "Crusader",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Wizard: {
+    name: "Wizard",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Sage: {
+    name: "Sage",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Blacksmith: {
+    name: "Blacksmith",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Whitesmith: {
+    name: "Whitesmith",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Alchemist: {
+    name: "Alchemist",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Stalker: {
+    name: "Stalker",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Hunter: {
+    name: "Hunter",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Sniper: {
+    name: "Sniper",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Bard: {
+    name: "Bard",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Dancer: {
+    name: "Dancer",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Clown: {
+    name: "Clown",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Monk: {
+    name: "Monk",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Champion: {
+    name: "Champion",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Barbarian: {
+    name: "Barbarian",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Spearman: {
+    name: "Spearman",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Cleric: {
+    name: "Cleric",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Sorcerer: {
+    name: "Sorcerer",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Cavalier: {
+    name: "Cavalier",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Oracle: {
+    name: "Oracle",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Ranger: {
+    name: "Ranger",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Brawler: {
+    name: "Brawler",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  }, 
+  Magnus: {
+    name: "Magnus",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  }, 
+  Archaist: {
+    name: "Archaist",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  }, 
+  Samurai: {
+    name: "Samurai",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  }, 
+  Ninja: {
+    name: "Ninja",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  }, 
+  Gunslinger: {
+    name: "Gunslinger",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
 };
+//   Investigator, Shaman, Skald, Slayer, Swashbuckler, Warprist, Kineticist, Vigilante, Spiritualist, Psychic, Occultist, mesmerist, medium, zealot, totem warrior, or berzerker
+
+// https://www.dandwiki.com/wiki/Aztec_Warrior_(3.5e_Class)
 
 export default function ClassDisplay(Class) {
   const Data = _try(() => classList[Class]);

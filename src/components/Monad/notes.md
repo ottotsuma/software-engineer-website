@@ -1,5 +1,7 @@
 https://guides.github.com/features/mastering-markdown/
 
+Ctrl + k Ctrl + 0 
+
 The sleeping pod is now a mat that goes under the bed. first wireless deepVr
 new game / on going game / world jump - no sure yet
 node system -
