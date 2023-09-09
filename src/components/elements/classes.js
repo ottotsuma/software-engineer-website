@@ -806,9 +806,179 @@ export const classList = {
     tier: "normal",
     description: "",
   },
+  Dragoon: {
+    name: "Dragoon",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Scholar: {
+    name: "Scholar",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  "Demon Hunter": {
+    name: "Demon Hunter",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Swashbuckler: {
+    name: "Swashbuckler",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Occultist: {
+    name: "Occultist",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Spiritualist: {
+    name: "Spiritualist",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Shaman: {
+    name: "Shaman",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Skald: {
+    name: "Skald",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  Slayer: {
+    name: "Slayer",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  zealot: {
+    name: "Zealot",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  "Tentacle Summoner": {
+    name: "Zealot",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  "Witcher": {
+    name: "Witcher",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  "Esper": {
+    name: "Esper",
+    stats: {
+    },
+    team: "",
+    images: [
+      "",
+    ],
+    notes:
+      "",
+    tier: "normal",
+    description: "",
+  },
+  // Reiki-elar
 };
-//   Investigator, Shaman, Skald, Slayer, Swashbuckler, Warprist, Kineticist, Vigilante, Spiritualist, Psychic, Occultist, mesmerist, medium, zealot, totem warrior, or berzerker
 
+// https://www.dandwiki.com/wiki/Full_List_of_5e_Classes
 // https://www.dandwiki.com/wiki/Aztec_Warrior_(3.5e_Class)
 
 export default function ClassDisplay(Class) {
