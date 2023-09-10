@@ -2,7 +2,7 @@ import React from "react";
 import Item from './../elements/item'
 import { Content } from "./styles";
 import Hover from "../elements/hover";
-import { Otto, Leon } from "./CharacterFonts";
+import { Otto, Leon, Pal } from "./CharacterFonts";
 
 // Dead girl, corps fish 
 function Banderedam(props) {
@@ -78,45 +78,34 @@ Vereinsthaler - old german silver coin
 Charlemagne in 794 decreed that a single silver penny (weighing 1.7 grams) should buy a dozen two-pound loaves of wheat bread. Somewhat later, Æthelstan, king of the English (924–39), laid down that the standard compensation for a sheep would be five pence, ten pence for a pig, twenty for a cow and thirty for an ox
 --> */}
 
-          <p>
+          <Otto>
             To put it bluntly, it was hard to miss. That wand stood out from the
             others, and not in a way that made him want to buy it. While
-            thinking what kind of mad man would make such a thing let alone sell
-            it his thoughts where interrupted.
-          </p>
-          <p>"First time? I wouldn't recommend that particular one"</p>
-          <p>
+            thinking what kind of mad man would make such a thing, an older man came in.
+          </Otto>
+          <Pal>"First time? I wouldn't recommend that particular one"</Pal>
+          <Otto>
             "Uh yeah, it's my first time here. I won't be getting that one, what
-            even is it?"
-          </p>
-          <p>
+            even is it?" I replied.
+          </Otto>
+          <Pal>
             "Ah, not all items are made, some are dropped by beasts so it's
             hard to say. Let me help you out, this is my shop, I can do at least
             that much. Names Pal" He said his hand stretched out.
-          </p>
-          {/* <!-- pall means Tiny, petite --> */}
-          <p>
+          </Pal>
+          {/* <!-- pal Meaning:Small; Little one; Protector; Keeper. Meaning “small” or “little one,” Pal is a boy's name of Latin origin --> */}
+          <Otto>
             True to his name he was a small man no more then 150cm, I reached
             out and shook his hand.
-          </p>
-          <p>
+          </Otto>
+          <Pal>
             "So first tell me, do you know what field you would like to go
             into?"
-          </p>
-          <p>
+          </Pal>
+          <Otto>
             "Sorry I am not sure."
-          </p>
-          <p>"A mage who apiologies, rare."</p>
-          <p>
-            "Are other mages rude? Is it only those with bad parents who become
-            mages?"
-          </p>
-          <p>
-            "Ahaha, might be so, we just say it is because they think they are
-            gifted more then others. Makes them arrogant, being locked away most
-            of the year in that academy doesn’t help. But don't speak like that
-            around other mages, you won't make friends that way ahaha."
-          </p>
+          </Otto>
+
           <p>
             The shop keeper layed out 3 wands before me. "Nothing quite as fancy
             as some of the other wands, but at least useable by a beginner. Now
