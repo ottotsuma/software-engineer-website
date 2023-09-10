@@ -1697,7 +1697,7 @@ export function BeastPage({ name }) {
           </StatsContainer>
           <BeastImage1
             onError={imageError}
-            src={_try(() => beast.images[0], Empty)}
+            src={_try(() => beast.images[0], `https://source.unsplash.com/random?${name || beast.name}`)}
             alt="Screen-Shot"
           />
         </Mid>

@@ -3,7 +3,7 @@ import { spellList } from "./../elements/spells";
 import styled from "styled-components";
 import { imageError } from "./../color";
 import { colors } from './../elements/colors'
-import { getParameterCaseInsensitive, perc2color, possiblePlacesObject } from "./../elements/util"
+import { _try, getParameterCaseInsensitive, perc2color, possiblePlacesObject } from "./../elements/util"
 import { racesList } from "../elements/species";
 import { classList } from "../elements/classes"
 import { ItemList } from "../elements/item"
@@ -144,7 +144,7 @@ export function MakeCard(cardInstructions, showStats = false, large = false) {
               <CardTitle large={large}>{name}</CardTitle>
               <TitleSpan>{cardInstructions.description}</TitleSpan>
             </TitleWrap>
-            {cardInstructions.images && cardInstructions.images[0] ? <CardElement onError={imageError} src={cardInstructions.images[0]}></CardElement> : <></>}
+            {cardInstructions.images && cardInstructions.images[0] ? <CardElement onError={imageError} src={_try(() => cardInstructions.images[0], `https://source.unsplash.com/random?${name}`) }></CardElement> : <></>}
             <DiscWrap>
               <CardDisc large={large} >{cardInstructions.self}</CardDisc>
               <DiscSpan>Self: {cardInstructions.self}{statCard}</DiscSpan>
@@ -215,7 +215,7 @@ export function MakeCard(cardInstructions, showStats = false, large = false) {
               <CardTitle large={large}>{name}</CardTitle>
               <TitleSpan>{cardInstructions.description}</TitleSpan>
             </TitleWrap>
-            {cardInstructions.images && cardInstructions.images[0] ? <CardElement onError={imageError} src={cardInstructions.images[0]}></CardElement> : <></>}
+            {cardInstructions.images && cardInstructions.images[0] ? <CardElement onError={imageError} src={_try(() => cardInstructions.images[0], `https://source.unsplash.com/random?${name}`)}></CardElement> : <></>}
             <DiscWrap>
               <CardDisc large={large} >{cardInstructions.team}</CardDisc>
               <DiscSpan>Team: {cardInstructions.team}{statCard}</DiscSpan>
@@ -286,7 +286,7 @@ export function MakeCard(cardInstructions, showStats = false, large = false) {
               <CardTitle large={large}>{name}</CardTitle>
               <TitleSpan>{name}</TitleSpan>
             </TitleWrap>
-            {cardInstructions.images && cardInstructions.images[0] ? <CardElement onError={imageError} src={cardInstructions.images[0]}></CardElement> : <></>}
+            {cardInstructions.images && cardInstructions.images[0] ? <CardElement onError={imageError} src={_try(() => cardInstructions.images[0], `https://source.unsplash.com/random?${name}`)}></CardElement> : <></>}
             <DiscWrap>
               <CardDisc large={large} >{cardInstructions.description}</CardDisc>
               {/* <DiscSpan>{cardInstructions.description}{statCard}</DiscSpan> */}
@@ -331,7 +331,7 @@ export function MakeCard(cardInstructions, showStats = false, large = false) {
               <CardTitle large={large}>{name}</CardTitle>
               <TitleSpan>{name}</TitleSpan>
             </TitleWrap>
-            {cardInstructions.images && cardInstructions.images[0] ? <CardElement onError={imageError} src={cardInstructions.images[0]}></CardElement> : <></>}
+            {cardInstructions.images && cardInstructions.images[0] ? <CardElement onError={imageError} src={_try(() => cardInstructions.images[0], `https://source.unsplash.com/random?${name}`)}></CardElement> : <></>}
             <DiscWrap>
               <CardDisc large={large} >{cardInstructions.description}</CardDisc>
             </DiscWrap>
@@ -362,7 +362,7 @@ export function MakeCard(cardInstructions, showStats = false, large = false) {
       ? spellList[name].image || undefined
       : undefined;
     if (!elementImage && cardInstructions.image) elementImage = cardInstructions.image
-    if (!elementImage && cardInstructions.images && cardInstructions.images.length > 0) elementImage = cardInstructions.images[0]
+    if (!elementImage && cardInstructions.images && cardInstructions.images.length > 0) elementImage = _try(() => cardInstructions.images[0], `https://source.unsplash.com/random?${name}`)
     if (!elementImage)
       elementImage = elementList[element] ? elementList[element].image : "";
     const isPassive = spellList[name] ? spellList[name].passive || false : false;

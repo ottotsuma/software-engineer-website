@@ -992,7 +992,8 @@ export default function ClassDisplay(Class) {
           {Data.images && Data.images[0] ? (
             <Display src={Data.images[0]} alt={Class} />
           ) : (
-            <></>
+            // https://source.unsplash.com/random?blue sky
+            <Display src={`https://source.unsplash.com/random?${Class}`} alt={Class} />
           )}
           <Info>{Data.notes ? Data.notes : ""}</Info>
           <Self>{Data.self ? "Self: " + Data.self : ""}</Self>
