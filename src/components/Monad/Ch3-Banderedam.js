@@ -29,7 +29,7 @@ function Banderedam(props) {
             <img
               className="popOut"
               height="400px"
-              src="https://ottotsuma.github.io/images/places/Brenderdam.jpg"
+              src="https://ottotsuma.github.io/images/places/Banderedam.jpg"
               alt="Banderedam"
             />
           </div>
@@ -42,40 +42,33 @@ function Banderedam(props) {
             foot.
           </p> */}
           <Otto>
-            Leon lived there, so he was able to pass through without issue. After meeting up again
-            inside Leon took me to the shopping district, so he could drop off
-            his package and show me the shop he worked at.
+            Leon lived there, and was able to pass through without issue. After meeting up again inside Leon took me to the shopping district, so he could drop off his package and show me the shop he worked at.
           </Otto>
 
-          <p>
-            The town inside was packed, the buildings clearly had been built
+          {/*  the buildings clearly had been built
             with space between them to avoid fires but smaller temporary
-            structures, carts and peddlers had set up in those spaces selling
-            and buying goods coming and going from the ports of Tirnadepal and
-            Tirnavalli. There were of course also goods being sold especially
-            this time of year for new and old students entering the academy.
-          </p>
+            structures  */}
 
-          <p>
-            Leon had taken me to a wand shop that had been there since before
-            Banderedam was apart of Alden. Inside was clean, really clean. Not a
-            single spec of dust was anywhere to be found, the wands were
-            displayed around the shop in glass cases and up on the walls in
-            glass cases. Each wand had a card next to it with its description
-            and price.
-          </p>
-          
+          <Otto>
+            The town inside was packed, students, locals and other travelers all moving up and down looking at carts set out by merchants and peddles sitting next to stores layed on cloth lining both sides of every street. The goods were coming from the ports of Tirnadepal and Tirnavalli, the two port towns that connected to Banderedam. The goods included food, cloth and other usual travel supplies but also books, inks, pens and other school supplies students would need.
+          </Otto>
 
-          <Item 
-          stats={{
+          <Otto>
+            Leon took me to the shop that he worked at. He said the shop had been there since before
+            Banderedam was apart of Alden, although it sold all kinds of magical items it was most known for wands. Inside was clean, really clean. Not a single spec of dust was anywhere to be found, the wands were
+            displayed around the shop in glass cases on tables or set into the walls going up to the roof. Each wand had a card next to it with its description and price.
+          </Otto>
+
+          <Item
+            stats={{
               Skill: "Third Eye",
               "Control minion": 1,
               sense: 1,
-            }} 
+            }}
             name={'Soul bound wand'}
             effect='¤3,200,000'
             src={'https://ottotsuma.github.io/images/items/wand1.png'}
-            />
+          />
 
           {/* <!-- Currency 
 ₳ ฿ ￠ ₡ ¢ ₢ ₵ ₫ € ￡ £ ₤ ₣ ƒ ₲ ₭ ₥ ₦ ₱ ＄ $ ₮ ₩ ￦ ¥ ￥ ₴ ¤ ₰ ៛ ₪ ₯ ₠ ₧ ₨ ௹ ﷼ ㍐ ৲ ৳ ₹

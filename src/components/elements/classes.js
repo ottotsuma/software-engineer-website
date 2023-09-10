@@ -11,7 +11,7 @@ export const classList = {
       magic: 1,
     },
     team: "Magic +1.",
-    self: "",
+
     images: [
       "https://ottotsuma.github.io/images/people/b5185cca016eecd75b62833fdf2cfc43.jpg",
     ],
@@ -25,7 +25,7 @@ export const classList = {
       strength: 1,
     },
     team: "Strength +1.",
-    self: "",
+
     images: [
       "https://ottotsuma.github.io/images/people/f7327f5068dcdd7e858b87e1da393c62.jpg",
     ],
@@ -37,7 +37,7 @@ export const classList = {
       dexterity: 1,
     },
     team: "Dexterity +1.",
-    self: "",
+
     images: [
       "https://ottotsuma.github.io/images/people/0156c7576b1704ee70a55e4d1bd0db74.jpg",
     ],
@@ -47,27 +47,26 @@ export const classList = {
   Kʼawiil: {
     stats: {},
     team: "",
-    self: "All stats increase as the rain gets stronger. Max 10%.",
-    notes: "",
+    notes: "lightning, serpents, fertility and maize",
     tier: "legendary",
+    description: ""
   },
   Necromancer: {
     name: "Necromancer",
     stats: {},
-    team: "",
+    team: "Undead slowly passively heal within range of the Necromancer.",
     images: [
       "https://ottotsuma.github.io/images/people/necro.jpg",
       "https://ottotsuma.github.io/images/people/oldmage.jpg",
     ],
     notes: "",
     tier: "normal",
-    description: "",
+    description: "A Mage who supposed practice of communicating with the dead, especially in order to predict the future. History dose repeat itself, but most Necromancers just end up commanding hoards of undead into battle rather then winning the lottery.",
   },
   "Shield Warrior": {
     stats: {
       "Shield Skills": "+1",
     },
-    self: "Shield Skills: +1.",
     team: "",
     images: [],
     notes: "",
@@ -76,7 +75,7 @@ export const classList = {
   },
   Warrior: {
     stats: {},
-    self: "",
+
     team: "Stamina +10%.",
     notes: "",
     tier: "normal",
@@ -85,8 +84,7 @@ export const classList = {
   },
   "Guardian Knight": {
     stats: {},
-    self: "Absorb 3% of damage done to a maximum of 7 allies within 10m.",
-    team: "",
+    team: "3% of all damage is re-directed to the Guardian Knight within 10m, up to 7 allies.",
     images: [],
     description: "",
     notes: "",
@@ -104,7 +102,7 @@ export const classList = {
   Cursemancer: {
     stats: {},
     team: "Aggro skills are slightly more effective.",
-    self: "",
+
     images: [],
     description: "",
     notes: "Can curse up a storm of colorful language.",
@@ -154,7 +152,7 @@ export const classList = {
     name: "Guardian",
     stats: {},
     team: "",
-    self: "",
+
     images: [],
     notes: "",
     tier: "normal",
@@ -164,7 +162,7 @@ export const classList = {
     name: "Knight",
     stats: {},
     team: "Test",
-    self: "",
+
     images: [],
     notes: "",
     tier: "normal",
@@ -173,7 +171,7 @@ export const classList = {
   Pyromancer: {
     stats: {},
     team: "Fire spells cost 5% less.",
-    self: "",
+
     images: [],
     description: "",
     notes: "",
@@ -185,7 +183,7 @@ export const classList = {
       magic: 1,
     },
     team: "",
-    self: "",
+
     images: [],
     description: "",
     notes: "",
@@ -214,7 +212,7 @@ export const classList = {
   Assassin: {
     stats: {},
     team: "Damage from sneak attacks is increased.",
-    self: "",
+
     images: [],
     description: "",
     notes: "",
@@ -292,7 +290,7 @@ export const classList = {
   Deathknight: {
     stats: {},
     team: "",
-    self: "",
+
     images: [],
     description: "",
     notes: "",
@@ -320,7 +318,7 @@ export const classList = {
   Demiurge: {
     stats: {},
     team: "+1 to the main stat of crafted items",
-    self: "",
+
     images: [],
     description: "",
     notes: "",
@@ -329,7 +327,7 @@ export const classList = {
   Pope: {
     stats: {},
     team: "",
-    self: "",
+
     images: [],
     description: "",
     notes: "",
@@ -343,7 +341,7 @@ export const classList = {
       MPMultiplier: 1.1,
     },
     team: "Fire Resistance +1%",
-    self: "",
+
     images: [
       "https://images.squarespace-cdn.com/content/v1/57d34a6d725e254062172fe9/1579643445519-XXWBWFTZIZ23TNWBECJI/thumbnail_phoenix+rising.jpg",
     ],
@@ -939,28 +937,31 @@ export const classList = {
   "Tentacle Summoner": {
     name: "Zealot",
     stats: {
+      charisma: -3
     },
-    team: "",
+    team: "Charisma -3.",
     images: [
       "",
     ],
     notes:
       "",
-    tier: "normal",
-    description: "",
+    tier: "epic",
+    description: "An atypical summoner who focuses on a single type of summon, tentacles. Unlike the usual kind found attached to monsters or sea creatures of the world the tentacles summoned by this summoner has no greater body to which it attaches to.",
   },
   "Witcher": {
     name: "Witcher",
     stats: {
+      strength: +1,
+      dexterity: +1
     },
-    team: "",
+    team: "Potions are 5% more effective.",
     images: [
       "",
     ],
     notes:
       "",
-    tier: "normal",
-    description: "",
+    tier: "epic",
+    description: "A male monster hunter. It is a local name given to men who can use magic like witches.",
   },
   "Esper": {
     name: "Esper",
@@ -975,7 +976,7 @@ export const classList = {
     tier: "normal",
     description: "",
   },
-  // Reiki-elar
+  // Reiki-elar -  improving the flow of energy around the body can speed healing.
 };
 
 // https://www.dandwiki.com/wiki/Full_List_of_5e_Classes
