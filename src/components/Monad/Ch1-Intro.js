@@ -69,6 +69,8 @@ const Intro = (props) => {
             {/* Some kind of fight? */}
           </BreakPoint>
           <BreakPoint id="Herkikia">
+            {/* The opening is too impersonal. Make this his grandfather and skip the scene in the village */}
+            {/* Split each break point here into chapters */}
             <h3>Herkikia - Jun 01 21-12</h3>
             <p>
               The Herkikia League had always been the best place on the
