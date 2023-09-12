@@ -71,6 +71,7 @@ const Intro = (props) => {
           <BreakPoint id="Herkikia">
             {/* The opening is too impersonal. Make this his grandfather and skip the scene in the village */}
             {/* Split each break point here into chapters */}
+            {/* 3 act structure, start with Otto and the children with the monster <- 3 acts ends. during his punishment he finds and reads his grandads old dairy, setting up the big bad  */}
             <h3>Herkikia - Jun 01 21-12</h3>
             <p>
               The Herkikia League had always been the best place on the
