@@ -69,9 +69,25 @@ const Intro = (props) => {
             {/* Some kind of fight? */}
           </BreakPoint>
           <BreakPoint id="Herkikia">
-            {/* The opening is too impersonal. Make this his grandfather and skip the scene in the village */}
-            {/* Split each break point here into chapters */}
             {/* 3 act structure, start with Otto and the children with the monster <- 3 acts ends. during his punishment he finds and reads his grandads old dairy, setting up the big bad  */}
+
+            {/* Ch-1 Students vs monster (Play Day & Incident & The Body) */}
+
+            {/* Opening line
+                    George Orwell opened with unusual weather patterns to signify the world is not like our own, and there is something going on.
+
+                    Something simpler, like setting up the main charter?
+
+                    The hook, the video game from an npc's life
+            */}
+
+            {/* Incident - Midpoint - Climax */}
+            {/* Setup - Confrontation - Resolution */}
+            {/* Tales of a monster - Monster - Death */}
+
+
+            {/* Punishments and Book (Aftermath & Herkikia [grandfather dairy] ) <=> Adults getting ready for festival (Steinauhau & Michkel ) */}
+            {/* Finding purpose, goals and training before setting off for the academy (Training & Otto & Effi) */}
             <h3>Herkikia - Jun 01 21-12</h3>
             <p>
               The Herkikia League had always been the best place on the
