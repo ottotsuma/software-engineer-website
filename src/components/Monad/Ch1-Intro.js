@@ -115,15 +115,14 @@ const Intro = (props) => {
               "You two stop arguing and get into position the monster is here!" She pointed to a tree
               with a crudely drawn monster on it's side.
             </p>
-            {/* Here */}
             <p>
-              That is how the team ended up with 4 melee fighters, 2 ranged
-              fighters and 1 mage
+              Ilse continued as we ran in. "We have four melee fighters and two range fingers and one mage today." Beke gave me a side glance when Ilse mentioned the mage but said nothing. "Melee fighters use your skills!"
             </p>
             <p>
               "Charge!" <br /> "Heavy blow!" <br /> "Battle shout!" <br />
               "Provoke"
             </p>
+            {/*  */}
             <p>
               The sounds of the fight ring out through the small clearing.
               "Hig-h Impact!!", "Fire Ball!". "fireball? That's not a junior
