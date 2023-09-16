@@ -84,7 +84,7 @@ const Intro = (props) => {
         <div id="test" className="Content">
           {/* <!-- military education is also about the history --> */}
           <BreakPoint id="PlayDay">
-              {/* <p>
+            {/* <p>
               The group of seven, laughing running into the forest, beyond the eyes
               of their parents, they arrive at a circular clear area within the
               small wooded area they often play. Eugen 13 years of age, larger,
@@ -102,13 +102,13 @@ const Intro = (props) => {
             {/* Type of story, role of Otto */}
             <Beke> "Ahaha, Do you even know anything about mages?" Beke jabbed.</Beke>
             <Otto>
-              "Of course I know! 
+              "Of course I know!
             </Otto>
             <Beke>
               "You can't be a mage. You don't have a wand, you're holding a stick." Beke snickered.
             </Beke>
             <Otto>
-              I stared at Beke in anger, twisting my lips, debating about what to reply when Ilse cut in. 
+              I stared at Beke in anger, twisting my lips, debating about what to reply when Ilse cut in.
             </Otto>
             {/* Anger issues */}
             <p>
@@ -122,14 +122,21 @@ const Intro = (props) => {
               "Charge!" <br /> "Heavy blow!" <br /> "Battle shout!" <br />
               "Provoke"
             </p>
+            <Otto>
+              Standing on the edge of the small clearing I could hear Jakob shout "Hig-h Impact!!" in his high pitched shy voice. I added to the battle by pointing my wand at the tree and shouting "Fire Ball!" Only instead of a ball of flame gathering from the air at the tip of my wand all that happened was Beke making another annoying comment.
+            </Otto>
+            <Beke>
+              "fireball? That's not a junior skill that's intermediate. We all agreed to start at junior level."
+            </Beke>
+            <Otto>
+              "Maybe we leveled up while fighting." I retorted
+            </Otto>
+            <Beke>
+              "Why would we level up it's not even dead yet!" Beke shouts back.
+            </Beke>
             {/*  */}
             <p>
-              The sounds of the fight ring out through the small clearing.
-              "Hig-h Impact!!", "Fire Ball!". "fireball? That's not a junior
-              skill that's intermediate. We all agreed to start at junior
-              level." Berk grows towards the smaller Otto. "I thought we must of
-              leveled up by now!" retorts Otto. "Why would we level up it's not
-              even dead yet!" Berk shouts back. "come on now, we can't get
+              "come on now, we can't get
               distracted in a fight! Otto must of just got tired of being the
               mage every time" Ilse steps in to redirect Berks attention. "He's
               the mage because he cannot afford a real weapon, that is not even
