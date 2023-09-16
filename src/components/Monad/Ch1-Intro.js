@@ -134,16 +134,18 @@ const Intro = (props) => {
             <Beke>
               "Why would we level up it's not even dead yet!" Beke shouts back.
             </Beke>
+            <p>Ilse interjected between us again. "Come on now, we can't get distracted in a fight!</p>
+            <Beke>
+              "He just wants to be a mage because he cannot afford a real weapon, that is not even
+              a wand it's just a stick" Beke spat out.
+            </Beke>
+            <Otto>
+              I looked down at the stick in his hand, true enough it was no real wand. His swords made of wood but at least it's sword shaped.
+            </Otto>
+            <p>"That's what wands are, just sticks, now kill that monster!" Isle pointed towards the tree to drag our attention back to the monster painted on it.</p>
             {/*  */}
             <p>
-              "come on now, we can't get
-              distracted in a fight! Otto must of just got tired of being the
-              mage every time" Ilse steps in to redirect Berks attention. "He's
-              the mage because he cannot afford a real weapon, that is not even
-              a wand it's just a stick" Beke spits out. Otto looks down at the
-              stick in his hand, true enough it was no real wand. "that's what
-              wands are, just sticks, now kill that monster!" Isle points
-              towards the tree and Beke runs up and slams his shield into the
+               and Beke runs up and slams his shield into the
               tree and stabs it with his sword point before triumphantly
               shouting that he had slain the monster.
             </p>
