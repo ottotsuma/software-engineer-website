@@ -9,6 +9,8 @@ import styled from "styled-components";
 // font-family: 'Sofia', cursive;
 // font-family: "Yusei Magic", sans-serif;
 
+export const Michkel = styled.p`
+  `;
 export const Pal = styled.p`
   `;
 export const Hitori = styled.p`

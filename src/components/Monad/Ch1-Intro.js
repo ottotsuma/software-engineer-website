@@ -9,7 +9,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAddressBook } from "@fortawesome/free-solid-svg-icons";
 import { ButtonsA, Sticky, BreakPoint } from "./styles";
 import ImageZoom from "./../elements/imageZoom";
-import { Beke, Otto, Effi } from "./CharacterFonts";
+import { Beke, Otto, Effi, Michkel } from "./CharacterFonts";
 
 const SectionTabs = [
   { name: "Monad", href: "#Monad" },
@@ -82,8 +82,26 @@ const Intro = (props) => {
           </button>
         </Sticky>
         <div id="test" className="Content">
+          {/* <p>
+            Chab Jun 12 21-22, The Grand Duchy shares a large boarder with the
+            Herkikia League to the south-east, a small boarder with the
+            Shogunate of Niyosho to the South. A mostly abandoned boarder with
+            the Kingdom of Naj'es to the west. The kingdom has recently made
+            peace with the Pocotocotcan Theocracy, after joining forces with
+            Niyosho, Solzi & the United Provinces of Oflralensa off far to the west, the peace
+            led Pocotocotcan to give lands to the Empire, including the trading
+            town of Tlapatan.
+          </p> */}
+          {/* <p>
+            To the North they share another large boarder with the Heilerbach
+            Republic, along this boarder on the Republics side has growing
+            unrest. Due to their neighbors attention being focused west, or
+            internally the Grand Duchy has had relative pace throughout the past
+            decade.
+          </p> */}
+          {/* <!-- around the year 21-22 the rebellion breaks out --> */}
           {/* <!-- military education is also about the history --> */}
-          <BreakPoint id="PlayDay">
+          <BreakPoint id="Intro">
             {/* <p>
               The group of seven, laughing running into the forest, beyond the eyes
               of their parents, they arrive at a circular clear area within the
@@ -98,11 +116,28 @@ const Intro = (props) => {
               A small boy, shy and un-gifted.
             </p> */}
             <h3>Play Day</h3>
+            {/* Should we start with him telling his dad what happened? It's too focused and rational for a child. Even after the fact. It would detract from the fight, but set off the story in the right direction? */}
+            <Otto>Level up!</Otto>
+            <Otto>A large menu covered my vision of my dead friend.</Otto>
+            <LevelUp
+              level={1}
+              species={"normal"}
+              class={"normal"}
+              type={"mage"}
+              details={""}
+              name={"Otto"}
+            />
+            <Otto>The menu slowly faded from my vision. She was still there, laying face up looking at me. Maybe. It had some features of a face but there was not much left.</Otto>
+            <Otto>My dad coughed next to me putting his hand on my shoulder and squeezing.</Otto>
+            <Michkel>"No, no, no." He said softly. "I mean can you tell me what happened before Isle died, start with when you were all playing in the woods, before the monster arrived."</Michkel>
+            <Otto>"Yeah." I replied quietly and began to recall what happened.</Otto>
+            <BreakPoint id="PlayDay"></BreakPoint>
+            {/* memory? */}
             <Otto>"Equip wand!" I called out holding up a stick I found.</Otto>
             {/* Type of story, role of Otto */}
             <Beke> "Ahaha, Do you even know anything about mages?" Beke jabbed.</Beke>
             <Otto>
-              "Of course I know!
+              "Of course I know! They cast magic and set monsters on fire or freeze them" I replied annoyed but proud of myself for knowing so much about mages.
             </Otto>
             <Beke>
               "You can't be a mage. You don't have a wand, you're holding a stick." Beke snickered.
@@ -143,14 +178,10 @@ const Intro = (props) => {
               I looked down at the stick in his hand, true enough it was no real wand. His swords made of wood but at least it's sword shaped.
             </Otto>
             <p>"That's what wands are, just sticks, now kill that monster!" Isle pointed towards the tree to drag our attention back to the monster painted on it.</p>
+            <Otto>
+              Beke ran up to the tree, wobbly stabbing the sword into the tree, the tip scratching off a fraction of bark, before turning around triumphantly shouting that he had slain the monster.
+            </Otto>
             {/*  */}
-            <p>
-               and Beke runs up and slams his shield into the
-              tree and stabs it with his sword point before triumphantly
-              shouting that he had slain the monster.
-            </p>
-            {/* <!-- The play introduces the reader in to what happens in the world, and monsters --> */}
-            {/* <!-- play comes to an end, the festivities start --> */}
             <p>
               As the sun reaches the middle of the sky the group run back from
               the forest at the smell of food, they soon catch the lights of the
@@ -160,24 +191,7 @@ const Intro = (props) => {
             </p>
             {/* <!-- They continue their days with the adults working, the children play or help out --> */}
             {/* <!-- news could be brought back from the town hall by Robert --> */}
-            {/* <p>
-            Chab Jun 12 21-22, The Grand Duchy shares a large boarder with the
-            Herkikia League to the south-east, a small boarder with the
-            Shogunate of Niyosho to the South. A mostly abandoned boarder with
-            the Kingdom of Naj'es to the west. The kingdom has recently made
-            peace with the Pocotocotcan Theocracy, after joining forces with
-            Niyosho, Solzi & the United Provinces of Oflralensa off far to the west, the peace
-            led Pocotocotcan to give lands to the Empire, including the trading
-            town of Tlapatan.
-          </p> */}
-            {/* <p>
-            To the North they share another large boarder with the Heilerbach
-            Republic, along this boarder on the Republics side has growing
-            unrest. Due to their neighbors attention being focused west, or
-            internally the Grand Duchy has had relative pace throughout the past
-            decade.
-          </p> */}
-            {/* <!-- around the year 21-22 the rebellion breaks out --> */}
+
           </BreakPoint>
           <BreakPoint id="Incident">
             <h3>Incident</h3>
