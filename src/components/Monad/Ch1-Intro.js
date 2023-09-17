@@ -17,7 +17,7 @@ const SectionTabs = [
   { name: "Steinauhau", href: "#Steinauhau" },
   { name: "Michkel", href: "#Michkel" },
   { name: "PlayDay", href: "#PlayDay" },
-  { name: "Incident", href: "#Incident" },
+  // { name: "Incident", href: "#Incident" },
   { name: "TheBody", href: "#TheBody" },
   { name: "Aftermath", href: "#Aftermath" },
   { name: "Training", href: "#Training" },
@@ -102,19 +102,6 @@ const Intro = (props) => {
           {/* <!-- around the year 21-22 the rebellion breaks out --> */}
           {/* <!-- military education is also about the history --> */}
           <BreakPoint id="Intro">
-            {/* <p>
-              The group of seven, laughing running into the forest, beyond the eyes
-              of their parents, they arrive at a circular clear area within the
-              small wooded area they often play. Eugen 13 years of age, larger,
-              and taller then the others of the group, but without a temper or
-              ambition he plays with children younger then him rather then the
-              older children of the town. Beke, 12 a slow child, but easily
-              angered. Ilse 12, the oldest child of Sarah and Robert. Effi 10
-              the younger sister of Ilse. Otto 10 the oldest son of Michkel and
-              Karla, with two younger brothers, and a sister on the way. Nils 10
-              the 8th child of the town leader, although only 5 remain. Jakob 9,
-              A small boy, shy and un-gifted.
-            </p> */}
             <h3>Play Day</h3>
             {/* Should we start with him telling his dad what happened? It's too focused and rational for a child. Even after the fact. It would detract from the fight, but set off the story in the right direction? */}
             <Otto>Level up!</Otto>
@@ -181,19 +168,32 @@ const Intro = (props) => {
             <Otto>
               Beke ran up to the tree, wobbly stabbing the sword into the tree, the tip scratching off a fraction of bark, before turning around triumphantly shouting that he had slain the monster.
             </Otto>
-            {/*  */}
-            <p>
-              As the sun reaches the middle of the sky the group run back from
-              the forest at the smell of food, they soon catch the lights of the
-              large fire and the food being passed around the smaller children
-              and the adults. They pick up the pace and run over to join in the
-              festivities.
-            </p>
-            {/* <!-- They continue their days with the adults working, the children play or help out --> */}
-            {/* <!-- news could be brought back from the town hall by Robert --> */}
-
-          </BreakPoint>
-          <BreakPoint id="Incident">
+            {/* Replace sun with the god's name for the main sun. */}
+            {/* Sun - Kinich Ahau, Mayan
+                    - sol German
+                    - In world myth rather then a god itself? Like pulling the sun across the sky 
+                    - Do the gods change names or do the gods fight?
+                    - What does worship mean to this world?
+                    */}
+            <Otto>
+              "We continued to play until the sun had almost reached the top of the sky. That's when Beke, Nils and Sarah wanted to go play down by the river. Eugen and Jakob didn't care and Isle and me wanted to go back and see if the festival was ready, but we ended up going with them because it wasn't quite midday yet."
+            </Otto>
+            <Otto>
+              
+            </Otto>
+           {/* <p>
+              The group of seven, laughing running into the forest, beyond the eyes
+              of their parents, they arrive at a circular clear area within the
+              small wooded area they often play. Eugen 13 years of age, larger,
+              and taller then the others of the group, but without a temper or
+              ambition he plays with children younger then him rather then the
+              older children of the town. Beke, 12 a slow child, but easily
+              angered. Ilse 12, the oldest child of Sarah and Robert. Effi 10
+              the younger sister of Ilse. Otto 10 the oldest son of Michkel and
+              Karla, with two younger brothers, and a sister on the way. Nils 10
+              the 8th child of the town leader, although only 5 remain. Jakob 9,
+              A small boy, shy and un-gifted.
+            </p> */}
             <h3>Incident</h3>
             {/* <!-- redo - as Effi --> */}
             <p>
@@ -290,14 +290,6 @@ const Intro = (props) => {
               unable to speak, lungs full of blood.
             </p>
             <p>"Level up!" the words cover Otto's vision.</p>
-            <LevelUp
-              level={1}
-              species={"normal"}
-              class={"normal"}
-              type={"mage"}
-              details={""}
-              name={"Otto"}
-            />
           </BreakPoint>
           <BreakPoint id="TheBody">
             <h3>The Body</h3>
