@@ -185,9 +185,12 @@ const Intro = (props) => {
               My dad was still just sitting next to me, listening, so I continued. "Eugen was the first to run over and Beke. Jakob ran past them until Isle stopped him, asked him what happened. Eugen and Beke screamed it was the monster from before. The one from the tree. I didn't really think so, but it was a monster."
             </Otto>
             <Otto>
-              
+              "I didn't really see much at first, but I saw it later. It was leaf-green with a large yellow eye. It had feet like soft-shell duck but with black sharp pointed nails attached. It had a beak like tree-birds, but it had small teeth in it's beak. And and and... I can't remember anything else..."
             </Otto>
-           {/* <p>
+            <Otto>
+              I took a breath before I continued, I was not sure were to start really, it was all kind of rushed.
+            </Otto>
+            {/* <p>
               The group of seven, laughing running into the forest, beyond the eyes
               of their parents, they arrive at a circular clear area within the
               small wooded area they often play. Eugen 13 years of age, larger,
@@ -200,17 +203,7 @@ const Intro = (props) => {
               the 8th child of the town leader, although only 5 remain. Jakob 9,
               A small boy, shy and un-gifted.
             </p> */}
-            <h3>Incident</h3>
-            {/* <!-- redo - as Effi --> */}
-            <p>
-              The group where playing deep inside the forest when one of them
-              discovered lurking nearby. A leaf-green figure, with a large
-              yellow eye, webbed hands and feet with black sharp nails attached,
-              a small belly and a slight hunchback. Its mouth shaped like birds
-              beak but with small teeth protruding from below. One of them
-              shouts "Monster detected!" All the children scramble towards the
-              creature in a charge. Unaware of the dangers of reality.
-            </p>
+
             <p>
               Ilse shouts commands at the others to form-up and attack, ordering
               Otto to cast a protection spell on the Eugen, Effi to stand and
