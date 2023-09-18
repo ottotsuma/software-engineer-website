@@ -179,6 +179,12 @@ const Intro = (props) => {
               "We continued to play until the sun had almost reached the top of the sky. That's when Beke, Nils and Sarah wanted to go play down by the river. Eugen and Jakob didn't care and Isle and me wanted to go back and see if the festival was ready, but we ended up going with them because it wasn't quite midday yet."
             </Otto>
             <Otto>
+              "We didn't see anything when we got to the river, it was only when Jakob screamed. We had all split into little groups, apart from Jakob who was further down stream by himself. He saw it first." I explained.
+            </Otto>
+            <Otto>
+              My dad was still just sitting next to me, listening, so I continued. "Eugen was the first to run over and Beke. Jakob ran past them until Isle stopped him, asked him what happened. Eugen and Beke screamed it was the monster from before. The one from the tree. I didn't really think so, but it was a monster."
+            </Otto>
+            <Otto>
               
             </Otto>
            {/* <p>
