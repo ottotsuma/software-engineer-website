@@ -190,6 +190,40 @@ const Intro = (props) => {
             <Otto>
               I took a breath before I continued, I was not sure were to start really, it was all kind of rushed.
             </Otto>
+            <Otto>
+              "Ilse shouted commands at the others to form-up and attack, ordering
+              me to cast a protection spell on the Eugen, Effi to stand and
+              protect her as she gives commands. Jakob and Nils got their
+              bows from the river bank while Beke & Eugen ran in and provoke the creature.""
+            </Otto>
+            <Otto>
+              "When we all started shouting it stood still, we thought we could fight it back, or maybe even kill it like we did every time we did before at the tree."
+            </Otto>
+            <Otto>
+              "Beke slammed his shield into the monster and stabbed at it with his sword. He shouted 'Shield Bash' each and every time. Eugen kept stabbing it with his spear, when he did the thing screeched as its rubbery skin was cut. Nils arrows never made it to the monster, they dropped on the ground short of the river."
+            </Otto> 
+            <Otto>
+              "Eugen was the first to scream, he had been cut on his arm. He reached too far trying to push his spear and the long claws had cut him when the monster flailed about."
+            </Otto>
+            <Otto>
+              "Isle dashed ahead of us to grab Eugen and pull him back. She might of saved him but Beke stopped using his shield. He turned and blamed me."
+            </Otto>
+            <Beke>
+              "You where told to cast protection why didn't you cast protection!" He screamed at me.
+            </Beke>
+            <Otto>
+              "I panicked, I dropped my wand. Stick. I ran out of the river over to Nils and Jakob."
+            </Otto>
+            The young kappa no sooner had slashed the boys face
+              freed himself of the spear jumps on his back and stabs his webbed
+              claws into his his neck. Blood squeezes out of the holes and
+              around his sharp claws, Ilse runs up to the pair and tries to pull
+              the creature off. Beke standing before his friend screaming in
+              pain, starts hitting the creature with his sword and stabbing at
+              his eyes, soon the creature lets out a screech as he jumps off
+              Eugen, who is now silent on the ground in a pool of his own blood.
+            </p>
+            
             {/* <p>
               The group of seven, laughing running into the forest, beyond the eyes
               of their parents, they arrive at a circular clear area within the
@@ -203,41 +237,6 @@ const Intro = (props) => {
               the 8th child of the town leader, although only 5 remain. Jakob 9,
               A small boy, shy and un-gifted.
             </p> */}
-            <Otto>
-              Ilse shouted commands at the others to form-up and attack, ordering
-              me to cast a protection spell on the Eugen, Effi to stand and
-              protect her as she gives commands. Jakob and Nils got their
-              bows from the river bank while Beke & Eugen ran in and provoke the creature.
-            </Otto>
-            <p>
-              At first the young Kappa is surprised and taken back by the sudden
-              attacks and loud shouting, the children are spurred on by their
-              apparent advantage. Beke slams his shield into the creature and
-              stabs at its ribs with his wooden sword shouting "shield bash"
-              with great joy. Eugen follows up by stabbing into the creature
-              with his spear, the tip is dull but with enough force to pierce
-              through the creatures skin, a long high screech sounds out in the
-              clearing, confident Eugen tries to thrust further in but is
-              unable. A toy arrow lands at Jakob's feet, Nils off into the
-              distance. A child's cry fills the air, Eugen balled over on the
-              ground holding his face as blood drips from it, in the struggle to
-              pull his spear back the young kappa had slashed across his face in
-              its panic.
-            </p>
-            <p>
-              Ilse dashes froward to help, as Beke in his panic and anger curses
-              Otto, "You where told to cast protection why didn't you cast
-              protection!" Otto knowing this is no longer part of any game
-              desperately wishes he could of done anything at all to help, drops
-              his wand. The young kappa no sooner had slashed the boys face
-              freed himself of the spear jumps on his back and stabs his webbed
-              claws into his his neck. Blood squeezes out of the holes and
-              around his sharp claws, Ilse runs up to the pair and tries to pull
-              the creature off. Beke standing before his friend screaming in
-              pain, starts hitting the creature with his sword and stabbing at
-              his eyes, soon the creature lets out a screech as he jumps off
-              Eugen, who is now silent on the ground in a pool of his own blood.
-            </p>
             <p>
               Effi who was suppose to be protecting her older sister had been
               stood still in the shock of it all, suddenly sprung to life and
