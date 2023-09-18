@@ -176,7 +176,7 @@ const Intro = (props) => {
                     - What does worship mean to this world?
                     */}
             <Otto>
-              "We continued to play until the sun had almost reached the top of the sky. That's when Beke, Nils and Sarah wanted to go play down by the river. Eugen and Jakob didn't care and Isle and me wanted to go back and see if the festival was ready, but we ended up going with them because it wasn't quite midday yet."
+              "We continued to play until the sun had almost reached the top of the sky. That's when Beke, Nils and Effi wanted to go play down by the river. Eugen and Jakob didn't care and Isle and me wanted to go back and see if the festival was ready, but we ended up going with them because it wasn't quite midday yet."
             </Otto>
             <Otto>
               "We didn't see anything when we got to the river, it was only when Jakob screamed. We had all split into little groups, apart from Jakob who was further down stream by himself. He saw it first." I explained.
@@ -212,17 +212,18 @@ const Intro = (props) => {
               "You where told to cast protection why didn't you cast protection!" He screamed at me.
             </Beke>
             <Otto>
-              "I panicked, I dropped my wand. Stick. I ran out of the river over to Nils and Jakob."
+              "I panicked, I dropped my wand. Stick. I ran out of the river over to Nils and Jakob. I didn't see it myself, but I saw Effi's face change. She had run to get her and Isle equipment by a tree, they didn't want to get them wet. Her face went paler then usual, like her spirit left her body."
             </Otto>
-            The young kappa no sooner had slashed the boys face
-              freed himself of the spear jumps on his back and stabs his webbed
-              claws into his his neck. Blood squeezes out of the holes and
-              around his sharp claws, Ilse runs up to the pair and tries to pull
-              the creature off. Beke standing before his friend screaming in
+            <Otto>
+              "That was when Isle had been slashed, I don't know where but she fell into the river on her back. The monster was on-top of Eugen, on the river bank. His claws were inside of Eugen's neck, blood squeezed out of the holes around it's claws."
+            </Otto>
+            <Otto>
+              ""
+            </Otto>
+            Beke standing before his friend screaming in
               pain, starts hitting the creature with his sword and stabbing at
               his eyes, soon the creature lets out a screech as he jumps off
               Eugen, who is now silent on the ground in a pool of his own blood.
-            </p>
             
             {/* <p>
               The group of seven, laughing running into the forest, beyond the eyes
