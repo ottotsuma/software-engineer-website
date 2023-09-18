@@ -203,13 +203,12 @@ const Intro = (props) => {
               the 8th child of the town leader, although only 5 remain. Jakob 9,
               A small boy, shy and un-gifted.
             </p> */}
-
-            <p>
-              Ilse shouts commands at the others to form-up and attack, ordering
-              Otto to cast a protection spell on the Eugen, Effi to stand and
-              protect her as she gives commands. Jakob and Nils take ready their
-              bows while Beke & Eugen ran forth and provoke the creature.
-            </p>
+            <Otto>
+              Ilse shouted commands at the others to form-up and attack, ordering
+              me to cast a protection spell on the Eugen, Effi to stand and
+              protect her as she gives commands. Jakob and Nils got their
+              bows from the river bank while Beke & Eugen ran in and provoke the creature.
+            </Otto>
             <p>
               At first the young Kappa is surprised and taken back by the sudden
               attacks and loud shouting, the children are spurred on by their
