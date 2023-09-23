@@ -201,7 +201,7 @@ const Intro = (props) => {
             </Otto>
             <Otto>
               "Beke slammed his shield into the monster and stabbed at it with his sword. He shouted 'Shield Bash' each and every time. Eugen kept stabbing it with his spear, when he did the thing screeched as its rubbery skin was cut. Nils arrows never made it to the monster, they dropped on the ground short of the river."
-            </Otto> 
+            </Otto>
             <Otto>
               "Eugen was the first to scream, he had been cut on his arm. He reached too far trying to push his spear and the long claws had cut him when the monster flailed about."
             </Otto>
@@ -215,38 +215,19 @@ const Intro = (props) => {
               "I panicked, I dropped my wand. Stick. I ran out of the river over to Nils and Jakob. I didn't see it myself, but I saw Effi's face change. She had run to get her and Isle equipment by a tree, they didn't want to get them wet. Her face went paler then usual, like her spirit left her body."
             </Otto>
             <Otto>
-              "That was when Isle had been slashed, I don't know where but she fell into the river on her back. The monster was on-top of Eugen, on the river bank. His claws were inside of Eugen's neck, blood squeezed out of the holes around it's claws."
+              "That was when Isle had been slashed, I don't know where but she fell into the river with a big splash. The monster was on-top of Eugen, on the river bank. His claws were inside of Eugen's neck, blood squeezed out of the holes around it's claws."
+            </Otto>
+            <Otto>
+              "Effi slowly dropped her arms, the equipment falling to the ground. Two wooden shields, two wooden swords." Thock, Thud, Thwack. "I ran over quickly to help her, she was stood so still. I started picking up the shield first, it was laid on top. No sooner had I pressed it into her hands she ran off screaming, into the water. She was looking for Isle."
             </Otto>
             <Otto>
               ""
             </Otto>
-              Beke standing before his friend screaming in
-              pain, starts hitting the creature with his sword and stabbing at
-              his eyes, soon the creature lets out a screech as he jumps off
-              Eugen, who is now silent on the ground in a pool of his own blood.
-            
-            {/* <p>
-              The group of seven, laughing running into the forest, beyond the eyes
-              of their parents, they arrive at a circular clear area within the
-              small wooded area they often play. Eugen 13 years of age, larger,
-              and taller then the others of the group, but without a temper or
-              ambition he plays with children younger then him rather then the
-              older children of the town. Beke, 12 a slow child, but easily
-              angered. Ilse 12, the oldest child of Sarah and Robert. Effi 10
-              the younger sister of Ilse. Otto 10 the oldest son of Michkel and
-              Karla, with two younger brothers, and a sister on the way. Nils 10
-              the 8th child of the town leader, although only 5 remain. Jakob 9,
-              A small boy, shy and un-gifted.
-            </p> */}
-            <p>
-              Effi who was suppose to be protecting her older sister had been
-              stood still in the shock of it all, suddenly sprung to life and
-              jumped into the frey, the 3 children, Ilse, Beke & Effi beat on
-              the monster with their swords defending with shields. The monster
-              now hidden from view of Otto muttering magic spells he heard of
-              from stories and Jakob collecting a few rocks from the ground,
-              while Nils throws them at the monster where he can.
-            </p>
+
+            Beke standing before his friend screaming in
+            pain, starts hitting the creature with his sword and stabbing at
+            his eyes, soon the creature lets out a screech as he jumps off
+            Eugen, who is now silent on the ground in a pool of his own blood.
             <p>
               In the short frenzy the creature knocks Effi aside, and makes a
               break for it running towards the tree line, the children give
@@ -288,6 +269,20 @@ const Intro = (props) => {
               unable to speak, lungs full of blood.
             </p>
             <p>"Level up!" the words cover Otto's vision.</p>
+            {/* <p>
+              The group of seven, laughing running into the forest, beyond the eyes
+              of their parents, they arrive at a circular clear area within the
+              small wooded area they often play. Eugen 13 years of age, larger,
+              and taller then the others of the group, but without a temper or
+              ambition he plays with children younger then him rather then the
+              older children of the town. Beke, 12 a slow child, but easily
+              angered. Ilse 12, the oldest child of Sarah and Robert. Effi 10
+              the younger sister of Ilse. Otto 10 the oldest son of Michkel and
+              Karla, with two younger brothers, and a sister on the way. Nils 10
+              the 8th child of the town leader, although only 5 remain. Jakob 9,
+              A small boy, shy and un-gifted.
+            </p> */}
+
           </BreakPoint>
           <BreakPoint id="TheBody">
             <h3>The Body</h3>
