@@ -220,7 +220,7 @@ const Intro = (props) => {
             <Otto>
               ""
             </Otto>
-            Beke standing before his friend screaming in
+              Beke standing before his friend screaming in
               pain, starts hitting the creature with his sword and stabbing at
               his eyes, soon the creature lets out a screech as he jumps off
               Eugen, who is now silent on the ground in a pool of his own blood.
