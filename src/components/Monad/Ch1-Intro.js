@@ -221,13 +221,8 @@ const Intro = (props) => {
               "Effi slowly dropped her arms, the equipment falling to the ground. Two wooden shields, two wooden swords." Thock, Thud, Thwack. "I ran over quickly to help her, she was stood so still. I started picking up the shield first, it was laid on top. No sooner had I pressed it into her hands she ran off screaming, into the water. She was looking for Isle."
             </Otto>
             <Otto>
-              ""
+              "I wanted to look for her too, to help Effi. I ran over but the creature screamed so loud. Beke's wooden sword was rammed deep into the monsters eye, black liquid rushing out around it. It jumped off Eugen. Eugen didn't get up."
             </Otto>
-
-            Beke standing before his friend screaming in
-            pain, starts hitting the creature with his sword and stabbing at
-            his eyes, soon the creature lets out a screech as he jumps off
-            Eugen, who is now silent on the ground in a pool of his own blood.
             <p>
               In the short frenzy the creature knocks Effi aside, and makes a
               break for it running towards the tree line, the children give
