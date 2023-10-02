@@ -560,12 +560,19 @@ export default function Vampire() {
   return (
     <div>
       <Hover word={"Vampire"} />
+      <div> </div>
       <Hover word={"Training Health Potion"} />
+      <div> </div>
       <Hover word={"mana ball"} />
+      <div> </div>
       <Hover word={"Knight"} />
+      <div> </div>
       <Hover word={"Charia"} />
+      <div> </div>
       <Hover word={"Lith eru"} />
+      <div> </div>
       <Hover word={"Alden"} />
+      <div> </div>
       <Hover word={"Steinauhau"} />
 
       <h1>Species / Class / Spell Search</h1>
