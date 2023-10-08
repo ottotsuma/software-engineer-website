@@ -22681,7 +22681,8 @@ export const poeList = [
   }
 ]
 // https://www.pathofexile.com/character-window/get-stash-items?league=ancestor&tabs=1&tabIndex=11
-
+// http://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow3.png?scale=1&scaleIndex=0&w=2&h=4&v=da52da78a5c580592f9071316832b6473
+// /2DItems/Gems/
 // https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/iconfireball.webp
 export const nonSupport =
   [
@@ -22983,3 +22984,110 @@ export const nonSupport =
 
   ]
 //   https://www.pathofexile.com/character-window/get-stash-items?league=crucible&tabs=1&tabIndex=8
+
+
+// {
+//   "verified": false,
+//   "w": 2,
+//   "h": 4,
+//   "ilvl": 69,
+//   "icon": "http://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow3.png?scale=1&scaleIndex=0&w=2&h=4&v=da52da78a5c580592f9071316832b6473",
+//   "league": "Hardcore",
+//   "id": "d61da408345142587e08123703549074339231553d7d824aee139b0f9f3c2f66",
+//   "sockets": [
+//     {
+//       "group": 0,
+//       "attr": "D",
+//       "sColour": "G"
+//     }
+//   ],
+//   "name": "<<set:MS>><<set:M>><<set:S>>Woe Horn",
+//   "typeLine": "Citadel Bow",
+//   "identified": true,
+//   "properties": [
+//     {
+//       "name": "Bow",
+//       "values": [],
+//       "displayMode": 0
+//     },
+//     {
+//       "name": "Physical Damage",
+//       "values": [
+//         [
+//           "33-133",
+//           1
+//         ]
+//       ],
+//       "displayMode": 0,
+//       "type": 9
+//     },
+//     {
+//       "name": "Elemental Damage",
+//       "values": [
+//         [
+//           "19-35",
+//           5
+//         ]
+//       ],
+//       "displayMode": 0,
+//       "type": 10
+//     },
+//     {
+//       "name": "Critical Strike Chance",
+//       "values": [
+//         [
+//           "6.00%",
+//           0
+//         ]
+//       ],
+//       "displayMode": 0,
+//       "type": 12
+//     },
+//     {
+//       "name": "Attacks per Second",
+//       "values": [
+//         [
+//           "1.25",
+//           0
+//         ]
+//       ],
+//       "displayMode": 0,
+//       "type": 13
+//     }
+//   ],
+//   "requirements": [
+//     {
+//       "name": "Level",
+//       "values": [
+//         [
+//           "58",
+//           0
+//         ]
+//       ],
+//       "displayMode": 0
+//     },
+//     {
+//       "name": "Dex",
+//       "values": [
+//         [
+//           "185",
+//           0
+//         ]
+//       ],
+//       "displayMode": 1
+//     }
+//   ],
+//   "explicitMods": [
+//     "32% increased Physical Damage",
+//     "+16 to Dexterity",
+//     "Adds 19 to 35 Cold Damage",
+//     "+25 to Accuracy Rating",
+//     "+25 to Accuracy Rating",
+//     "10% increased Light Radius"
+//   ],
+//   "frameType": 2,
+//   "x": 10,
+//   "y": 8,
+//   "inventoryId": "Stash2",
+//   "socketedItems": []
+// }
