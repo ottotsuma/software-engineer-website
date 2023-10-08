@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import React from "react";
 import {
-  poeList
+  nonSupport
 } from "./poe"
 
 export const ListOfMagicTypes = [
@@ -5309,17 +5309,17 @@ export const spellList = {
   // https://en.uesp.net/wiki/Oblivion:Spells
 };
 
-for (let index = 0; index < poeList.length; index++) {
-  spellList[poeList[index].name] = {
+for (let index = 0; index < nonSupport.length; index++) {
+  spellList[nonSupport[index].name] = {
     note: "",
-    name: poeList[index].name,
+    name: nonSupport[index].name,
     element: [],
     classes: [],
     species: [],
-    image: "",
+    image: nonSupport[index].icon,
     negative: false,
-    passive: true,
-    1: poeList[index].name,
+    passive: false,
+    1: nonSupport[index].secDescrText,
     stats: {
       1: {},
     },
