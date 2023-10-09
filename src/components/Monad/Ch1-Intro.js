@@ -223,35 +223,12 @@ const Intro = (props) => {
             <Otto>
               "I wanted to look for her too, to help Effi. I ran over but the creature screamed so loud. Beke's wooden sword was rammed deep into the monsters eye, black liquid rushing out around it. It jumped off Eugen. Eugen didn't get up."
             </Otto>
-            <p>
-              In the short frenzy the creature knocks Effi aside, and makes a
-              break for it running towards the tree line, the children give
-              chase, Jakob bending down to pick a rock is slammed into by a
-              fleeing monster who rips at Jakob's face and sides pulling out
-              chunks of flesh and blood from the screaming child. The others
-              more panicked scream and run towards the monster and Jakob Beke
-              first, larger and stronger then the others who pushes the monster
-              off Jakob only to receive quick swipes towards his shield, Ilse
-              dives in and plunges her sword into the creatures left eye, it
-              oozes out black liquid as the creature lets out a loud scream and
-              plunges his claws into Ilse's stomach.
-            </p>
-            <p>
-              Effi arriving later then her stronger faster comrades pushes her
-              shield between Ilse and the creature who with his weight alone
-              pushes them to the ground, Effi holds the shield between them
-              trying to protect her older sister as the creature strikes down a
-              blinding flash of light appears near the creatures one good eye
-              and blinds it. "Heavy strike" Beke shouts as he slams his sword
-              over the creatures head, as the creature spins and swipes its
-              claws randomly Effi shouts "Provoke" and feels the creature
-              attention directly on her, despite it being unable to see. It
-              charges, as the creature arrives onto Effi's shield again, Ilse
-              plunges her little toy sword into the creature's wound and its
-              heart stops from the impact, the creature falls to the ground
-              breathing heavily as Beke smashes his sword over its head again.
-              It die's from blood loss shortly after.
-            </p>
+            <Otto>
+
+            </Otto>
+            <Otto>
+              "I think Effi had found Isle during this, I saw her dragging her up the side of the river bank, "
+            </Otto>
             <p>
               The whole encounter took just a few moments, even through to the
               group it felt a long time. Two of their friends lay dead in their
@@ -263,7 +240,6 @@ const Intro = (props) => {
               will be here soon, it will be okay. Ilse dies looking back at Effi
               unable to speak, lungs full of blood.
             </p>
-            <p>"Level up!" the words cover Otto's vision.</p>
             {/* <p>
               The group of seven, laughing running into the forest, beyond the eyes
               of their parents, they arrive at a circular clear area within the
