@@ -227,19 +227,17 @@ const Intro = (props) => {
 
             </Otto>
             <Otto>
-              "I think Effi had found Isle during this, I saw her dragging her up the side of the river bank, "
+              Nils kneels by Jakob's body shivering unable to bring himself to move or speak.
             </Otto>
-            <p>
-              The whole encounter took just a few moments, even through to the
-              group it felt a long time. Two of their friends lay dead in their
-              own blood, Nils kneels by Jakob's body shivering unable to bring
-              himself to move or speak. Beke shouts out for all to hear, blaming
-              all of the others, until his eyes land on Eugen only then does he
-              break, seeing his friends mangled and shredded face. Effi holds
-              her older sister in her arms, repeating over and over that mother
-              will be here soon, it will be okay. Ilse dies looking back at Effi
-              unable to speak, lungs full of blood.
-            </p>
+            <Otto>
+              Beke shouts out for all to hear, blaming all of the others, until his eyes land on Eugen only then does he break, seeing his friends mangled and shredded face.
+            </Otto>
+            <Otto>
+              "I think Effi had found Isle during this, I saw her dragging her up the side of the river bank, when I got closer I could hear her repeating over and over that mother will be here soon, it will be okay."
+            </Otto>
+            <Otto>
+              Everything just happened so fast
+            </Otto>
             {/* <p>
               The group of seven, laughing running into the forest, beyond the eyes
               of their parents, they arrive at a circular clear area within the
@@ -253,7 +251,6 @@ const Intro = (props) => {
               the 8th child of the town leader, although only 5 remain. Jakob 9,
               A small boy, shy and un-gifted.
             </p> */}
-
           </BreakPoint>
           <BreakPoint id="TheBody">
             <h3>The Body</h3>
