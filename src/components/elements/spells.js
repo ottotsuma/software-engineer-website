@@ -5312,28 +5312,31 @@ export const spellList = {
 };
 
 for (let index = 0; index < nonSupport.length; index++) {
-    const definedElements = Object.keys(monadColors)
-    const possibleElements = nonSupport[index].properties[0].name.split(', ')
-    const elementsList = []
-    for (let j = 0; j < possibleElements.length; j++) {
-      if(definedElements.includes(possibleElements[j].toLocaleLowerCase())) {
-        elementsList.push(possibleElements[j].toLocaleLowerCase())
-      }
+  const definedElements = Object.keys(monadColors)
+  const possibleElements = nonSupport[index].properties[0].name.split(', ')
+  const elementsList = []
+  for (let j = 0; j < possibleElements.length; j++) {
+    if (definedElements.includes(possibleElements[j].toLocaleLowerCase())) {
+      elementsList.push(possibleElements[j].toLocaleLowerCase())
     }
-  spellList[nonSupport[index].name] = {
-    note: "",
-    name: nonSupport[index].name,
-    element: elementsList,
-    classes: [],
-    species: [],
-    image: nonSupport[index].icon,
-    negative: false,
-    passive: false,
-    1: nonSupport[index].secDescrText,
-    stats: {
-      1: {},
-    },
   }
+  if (!spellList[nonSupport[index].name]) {
+    spellList[nonSupport[index].name] = {
+      note: "",
+      name: nonSupport[index].name,
+      element: elementsList,
+      classes: [],
+      species: [],
+      image: nonSupport[index].icon,
+      negative: false,
+      passive: false,
+      1: nonSupport[index].secDescrText,
+      stats: {
+        1: {},
+      },
+    }
+  }
+
 }
 // Vampire overlord system
 /*  crimson flash, vampiric drain, vampiric wings, crimson aegis, Undying body, immortal body, unyielding blood demon, telepathy, fartalk */

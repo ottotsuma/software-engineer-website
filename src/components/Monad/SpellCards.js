@@ -352,12 +352,30 @@ export function MakeCard(cardInstructions, showStats = false, large = false) {
     element = spellList[name] ? spellList[name].element || element : element;
 
     let elementalColor = 'black'
-
+    let element2 = ""
+    let element3 = ""
+    let element4 = ""
 
 
     if (element.length > 1) {
       for (let index = 0; index < element.length; index++) {
-        console.log(element[index], elementList[element[index]])
+        switch (index) {
+          case 0:
+            elementalColor = elementList[element[index]].color
+            break;
+          case 1:
+            element2 = elementList[element[index]].color
+            break;
+          case 2:
+            element3 = elementList[element[index]].color
+            break;
+          case 3:
+            element4 = elementList[element[index]].color
+            break;
+          default:
+            break;
+        }
+
       }
     } else {
       elementalColor = elementList[element]
@@ -394,6 +412,10 @@ export function MakeCard(cardInstructions, showStats = false, large = false) {
           isPassive={isPassive}
           isNegative={isNegative}
           element={elementalColor}
+          element2={element2 || elementalColor}
+          element3={element3 || elementalColor}
+          element4={element4 || element2 || elementalColor}
+
         >
           <TitleWrap>
             <CardTitle large={large}>{spellName}</CardTitle>
@@ -476,7 +498,6 @@ const CardContainer = styled.div`
   resize: horizontal;
 `;
 const Card = styled.div`
-  border: solid;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -486,8 +507,15 @@ const Card = styled.div`
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 0.5rem;
   margin: 0.5rem;
-  border-width: thick;
-  border-color: ${(props) => (props.element ? props.element : "black")};
+  // border: solid;
+  // border-width: thick;
+  // border-color: ${(props) => (props.element ? props.element : "black")};
+  
+  border-top: thick solid ${(props) => (props.element ? props.element : "black")};
+  border-right: thick solid ${(props) => (props.element3 ? props.element3 : "black")};
+  border-bottom: thick solid ${(props) => (props.element4 ? props.element4 : "black")};
+  border-left: thick solid ${(props) => (props.element2 ? props.element2 : "black")};
+
   justify-content: space-around;
   min-height: 300px;
   ${(props) => (props.large ? "" : "height: 300px;")};
