@@ -5327,7 +5327,7 @@ for (let index = 0; index < nonSupport.length; index++) {
       element: elementsList,
       classes: [],
       species: [],
-      image: nonSupport[index].icon,
+      image: '',
       negative: false,
       passive: false,
       1: nonSupport[index].secDescrText,
