@@ -108,6 +108,7 @@ export const monadColors = {
   earth: "#be8354",
   lightning: "#ffd63d",
   ice: "#CDEBE1",
+  cold: "#CDEBE1",
   wind: "#2ff289", //
   shadow: "#7B7A72",
   light: "#f1f1f1",

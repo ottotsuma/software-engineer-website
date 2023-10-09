@@ -8,6 +8,7 @@ import { racesList } from "../elements/species";
 import { classList } from "../elements/classes"
 import { ItemList } from "../elements/item"
 import { cityAmenities } from "../elements/places"
+import { monadColors } from "../elements/colors"
 // https://tropedia.fandom.com/wiki/Color-Coded_Elements
 const elementList = {
   lightning: {
@@ -40,6 +41,11 @@ const elementList = {
     image:
       "https://i.pinimg.com/originals/cf/a7/18/cfa718ab7b172dad6c8d3a13a73df0bc.gif",
   },
+  cold: {
+    color: "#B2FCFF",
+    image:
+      "https://i.pinimg.com/originals/cf/a7/18/cfa718ab7b172dad6c8d3a13a73df0bc.gif",
+  },
   wind: {
     color: "#A4C9AA",
     image:
@@ -58,6 +64,16 @@ const elementList = {
   // https://i.pinimg.com/originals/a9/73/81/a973812d8aa84593342bd26a1f696ee6.gif - green ball
   // https://i.pinimg.com/originals/0f/86/2d/0f862dd65afdf557ba7a9451892c41c4.gif - portal
 };
+const monadColorsArray = Object.keys(monadColors)
+const elementListArray = Object.keys(elementList)
+for (let index = 0; index < monadColorsArray.length; index++) {
+  if(!elementListArray.includes(monadColorsArray[index].toLocaleLowerCase())) {
+    elementList[monadColorsArray[index]] = {
+      color: monadColors[monadColorsArray[index]],
+      image:"",
+    }
+  }
+}
 
 // For modifying the length of stat bars. (1 = 1/100, 0.05 = 1/5, 0.1 = 1/10)
 let modifier = 0.1
@@ -414,7 +430,7 @@ export function MakeCard(cardInstructions, showStats = false, large = false) {
           element={elementalColor}
           element2={element2 || elementalColor}
           element3={element3 || elementalColor}
-          element4={element4 || element2 || elementalColor}
+          element4={!element4 && element3 ? elementalColor : element4 || element2 || elementalColor}
 
         >
           <TitleWrap>
