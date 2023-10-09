@@ -144,7 +144,7 @@ export function MakeCard(cardInstructions, showStats = false, large = false) {
               <CardTitle large={large}>{name}</CardTitle>
               <TitleSpan>{cardInstructions.description}</TitleSpan>
             </TitleWrap>
-            {cardInstructions.images && cardInstructions.images[0] ? <CardElement onError={imageError} src={_try(() => cardInstructions.images[0], `https://source.unsplash.com/random?${name}`) }></CardElement> : <></>}
+            {cardInstructions.images && cardInstructions.images[0] ? <CardElement onError={imageError} src={_try(() => cardInstructions.images[0], `https://source.unsplash.com/random?${name}`)}></CardElement> : <></>}
             <DiscWrap>
               <CardDisc large={large} >{cardInstructions.self}</CardDisc>
               <DiscSpan>Self: {cardInstructions.self}{statCard}</DiscSpan>
@@ -311,10 +311,10 @@ export function MakeCard(cardInstructions, showStats = false, large = false) {
           statCard.push(<SingleStat key={index + 'citiesKeys'}>{citiesKeys[index]}</SingleStat>);
         }
       }
-      if(!cardInstructions.cities && !cardInstructions.countries) {
+      if (!cardInstructions.cities && !cardInstructions.countries) {
         const cityAmenitiesList = Object.keys(cityAmenities)
         for (let index = 0; index < cityAmenitiesList.length; index++) {
-          if(cardInstructions[cityAmenitiesList[index]]) {
+          if (cardInstructions[cityAmenitiesList[index]]) {
             statCard.push(<SingleStat key={index + 'citiesKeys'}>{cityAmenities[cityAmenitiesList[index]]}{cityAmenitiesList[index]}</SingleStat>);
           }
         }
@@ -350,9 +350,21 @@ export function MakeCard(cardInstructions, showStats = false, large = false) {
     // is a spell
     let element = cardInstructions.element
     element = spellList[name] ? spellList[name].element || element : element;
-    const elementalColor = elementList[element]
-      ? elementList[element].color
-      : "black";
+
+    let elementalColor = 'black'
+
+
+
+    if (element.length > 1) {
+      for (let index = 0; index < element.length; index++) {
+        console.log(element[index], elementList[element[index]])
+      }
+    } else {
+      elementalColor = elementList[element]
+        ? elementList[element].color
+        : "black";
+    }
+
     const spellName = spellList[name] ? spellList[name].name : name || "No Name";
     let spellDisc =
       spellList[name] && level ? spellList[name][level] : cardInstructions[level];

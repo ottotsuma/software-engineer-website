@@ -22684,6 +22684,8 @@ export const poeList = [
 // http://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow3.png?scale=1&scaleIndex=0&w=2&h=4&v=da52da78a5c580592f9071316832b6473
 // /2DItems/Gems/
 // https://cdn.poedb.tw/image/Art/2DArt/SkillIcons/iconfireball.webp
+
+// https://web.poecdn.com/image/Art/2dart/skillicons/SummonElemental.png
 export const nonSupport =
   [
     { 

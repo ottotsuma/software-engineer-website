@@ -4,6 +4,8 @@ import {
   nonSupport
 } from "./poe"
 
+import { colors, monadColors } from "./colors";
+
 export const ListOfMagicTypes = [
   "Ancient Magic",
   "Shadow Magic",
@@ -5310,10 +5312,18 @@ export const spellList = {
 };
 
 for (let index = 0; index < nonSupport.length; index++) {
+    const definedElements = Object.keys(monadColors)
+    const possibleElements = nonSupport[index].properties[0].name.split(', ')
+    const elementsList = []
+    for (let j = 0; j < possibleElements.length; j++) {
+      if(definedElements.includes(possibleElements[j].toLocaleLowerCase())) {
+        elementsList.push(possibleElements[j].toLocaleLowerCase())
+      }
+    }
   spellList[nonSupport[index].name] = {
     note: "",
     name: nonSupport[index].name,
-    element: [],
+    element: elementsList,
     classes: [],
     species: [],
     image: nonSupport[index].icon,
