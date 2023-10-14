@@ -224,8 +224,10 @@ const Intro = (props) => {
               "I wanted to look for her too, to help Effi. I ran over but the creature screamed so loud. Beke's wooden sword was rammed deep into the monsters eye, black liquid rushing out around it. It jumped off Eugen. Eugen didn't get up."
             </Otto>
             <Otto>
-             Nils & Jakob had given up on the ranged weapons and ran over with me holding Effi's sword we all ran up to the monster screeching 
+             Nils & Jakob had given up on the ranged weapons and ran over holding Effi's sword we all ran up to the monster. Screeching from the pain in it's eye.
             </Otto>
+            {/* Kill it */}
+            {/* Jakob dies */}
             <Otto>
               Nils kneels by Jakob's body shivering unable to bring himself to move or speak.
             </Otto>

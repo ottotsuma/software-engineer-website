@@ -6,6 +6,20 @@ import { classList } from "./classes"
 import { ItemList } from "./item"
 import { placeList } from "./places"
 
+export function getDeepKeys(obj) {
+  var keys = [];
+  for(var key in obj) {
+      keys.push(key);
+      if(typeof obj[key] === "object") {
+          var subkeys = getDeepKeys(obj[key]);
+          keys = keys.concat(subkeys.map(function(subkey) {
+              return key + "." + subkey;
+          }));
+      }
+  }
+  return keys;
+}
+
 export function lowerObjectValues(obj) {
   // not converting keys...
   for (var prop in obj) {

@@ -73,7 +73,56 @@ export const placeList = {
           },
           Steinauhau: {
             map: 5628570730133,
+            link: "https://watabou.github.io/city-generator/?size=18&seed=5628570730133&name=Steinauhau&population=6901&greens=1&farms=1&citadel=1&urban_castle=1&plaza=1&temple=0&walls=1&shantytown=1&coast=0&river=0&gates=-1",
+            description:'A north western town in the country of Alden.',
+            location: 'Alden',
+            population: '6901',
+            Temperature: '15',
+            Elevation: 18,
+            Type: 'Naval',
+            Culture: 'German',
+            Trade: true,
+            // Buildings
             dueling: true,
+            buildings: {
+              "Defensive Structures": {
+                "Castle": true,
+                "Archer Towers": false,
+                "Watch Tower": false,
+                Walls: true,
+                Motte: false,
+                "Killing fields": false,
+                Keep: false,
+                Armory: false,
+                "Magic Tower": false,
+              },
+              "Transportation": {
+                "Alliance teleport": false,
+                "Town teleport": false,
+                "Airport": false,
+                "Harbour": true,
+                "Stable": false,
+                "Wagon Facilities": false,
+              },
+              "Revenue Buildings": {
+                "Bars": false,
+                "Restaurant" : false,
+                Bathhouse: false,
+                Forge: true,
+                Stores: false,
+                "Auction house": false,
+                "Arena": false,
+                "Market Place": true,
+              },
+              "Government Buildings": {
+                "Skill Instructors": false,
+                "City Hall": false,
+                "Assembly hall": false,
+              },
+              "Misc Buildings": {
+                "shanty town": true,
+              }
+            }
           },
           'Alden (city)': {
             name: 'Alden (city)',

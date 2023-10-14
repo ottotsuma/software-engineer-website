@@ -3,6 +3,8 @@ import styled from "styled-components";
 import {colors, monadColors} from './colors'
 import {_try} from './util'
 
+// See "places" instead.
+
 // Todtenwei - 272082858
 // Savigal - 640470293
 

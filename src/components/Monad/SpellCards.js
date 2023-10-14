@@ -3,7 +3,7 @@ import { spellList } from "./../elements/spells";
 import styled from "styled-components";
 import { imageError } from "./../color";
 import { colors } from './../elements/colors'
-import { _try, getParameterCaseInsensitive, perc2color, possiblePlacesObject } from "./../elements/util"
+import { _try, getParameterCaseInsensitive, perc2color, possiblePlacesObject, getDeepKeys } from "./../elements/util"
 import { racesList } from "../elements/species";
 import { classList } from "../elements/classes"
 import { ItemList } from "../elements/item"
@@ -67,10 +67,10 @@ const elementList = {
 const monadColorsArray = Object.keys(monadColors)
 const elementListArray = Object.keys(elementList)
 for (let index = 0; index < monadColorsArray.length; index++) {
-  if(!elementListArray.includes(monadColorsArray[index].toLocaleLowerCase())) {
+  if (!elementListArray.includes(monadColorsArray[index].toLocaleLowerCase())) {
     elementList[monadColorsArray[index]] = {
       color: monadColors[monadColorsArray[index]],
-      image:"",
+      image: "",
     }
   }
 }
@@ -329,9 +329,11 @@ export function MakeCard(cardInstructions, showStats = false, large = false) {
       }
       if (!cardInstructions.cities && !cardInstructions.countries) {
         const cityAmenitiesList = Object.keys(cityAmenities)
-        for (let index = 0; index < cityAmenitiesList.length; index++) {
-          if (cardInstructions[cityAmenitiesList[index]]) {
-            statCard.push(<SingleStat key={index + 'citiesKeys'}>{cityAmenities[cityAmenitiesList[index]]}{cityAmenitiesList[index]}</SingleStat>);
+        const townKeys = getDeepKeys(cardInstructions)
+        for (let index = 0; index < townKeys.length; index++) {
+          const currentKey = townKeys[index].split('.').pop().toLocaleLowerCase()
+          if (cityAmenitiesList.includes(currentKey)) {
+                statCard.push(<SingleStat key={index + 'citiesKeys'}>{cityAmenities[currentKey]}{currentKey}</SingleStat>);
           }
         }
       }
