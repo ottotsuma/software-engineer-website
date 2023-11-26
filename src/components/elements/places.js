@@ -51,18 +51,8 @@ export const placeList = {
         military: "Strong individuals, because of the culture. Their military continues to use a traditional 4 - 8 man formation, more commonly used for fighting beasts. Discipline is valued higher then individuals strength in the military however.",
         images: [],
         notes: `
-          // Alden (German) - 🎄
-          // Military - Strong individuals, strong together, strong military, medium navy
-          // Diplomacy - None, mostly negative
-          // Religion -  
-          // Culture - Warlike, military focused, Mostly stable for now.
-          // Ambition - Expansion for living space
-          // Stability - Mostly stable for now.
-          // Secrets -
-          // Food - Fertile land, but too focused on military to make good use of it
-          // Economy type -
-          // Unique Unit - Witches
-          // Places of Interest - Kustet (Salt mining town)
+          Alden (German) - 🎄
+          Food - Fertile land, but too focused on military to make good use of it
           `,
         cities: {
           Todtenwei: {
@@ -138,17 +128,17 @@ export const placeList = {
         name: "The Republic",
         government: "Republic",
         description: "",
-        "places of interest": [""],
-        "unique unit": [""],
+        "places of interest": ["Baberg Bridge", "Siklad Gold mine", "Furlin salt mine", "Horod iron mine town"],
+        "unique unit": ["Throwing Axes"],
         "economy type": "",
-        "agriculture": "",
+        "agriculture": "Fertile land in the east, less fertile to the south and west.",
         secrets: "",
-        stability: "",
-        ambition: "",
-        culture: "",
-        religion: "",
-        diplomacy: "",
-        military: "",
+        stability: "Unstable now, use to be stable.",
+        ambition: "Not to fall apart",
+        culture: "Varied",
+        religion: "Varied",
+        diplomacy: "Good",
+        military: "Varied individuals from states, strong together, strong military, weak navy",
         images: [],
         cities: {
           a: {
@@ -156,21 +146,11 @@ export const placeList = {
           }
         },
         notes: `
-        // Republic (EU?Roman) 🏛
-        // Military - Varied individuals from states, strong together, strong military, weak navy
-        // Diplomacy - Good
-        // Religion - Varied
-        // Culture - Varied
-        // Ambition - Not to fall apart
-        // Stability - Unstable now, use to be stable.
-        // Secrets -
-        // Food - Fertile land in the east, less fertile to the south and west.
-        // Economy type -
-        // Unique Unit - Throwing Axes
-        // Places of Interest - Baberg Bridge, Siklad Gold mine, Furlin salt mine, Horod iron mine town.
+        Republic (EU?Roman) 🏛
+        The Elves and the republic have had at least 2 famous battles against each other.
+
       `
 
-        // The Elves and the republic have had at least 2 famous battles against each other.
       },
       Niyosho: {
         "full name": "Shogunate of Niyosho",
@@ -195,7 +175,7 @@ export const placeList = {
           }
         },
         notes: `
-      // Renamed: Leika - Shogunate of Niyosho
+      Renamed: Leika - Shogunate of Niyosho
       `
       },
       Herkikia: {
@@ -204,16 +184,16 @@ export const placeList = {
         government: "",
         description: "",
         "places of interest": [""],
-        "unique unit": [""],
+        "unique unit": ["Sacred Band"],
         "economy type": "",
-        "agriculture": "",
+        "agriculture": "Fertile land, but worked by the slaves",
         secrets: "",
-        stability: "",
-        ambition: "",
-        culture: "",
-        religion: "",
-        diplomacy: "",
-        military: "",
+        stability: "Unstable until there is an external threat",
+        ambition: "lack of...",
+        culture: "Each city has it's own differences but generally they are about their peoples freedom while enslaving others.",
+        religion: "Many gods.",
+        diplomacy: "Too focused internally, suits their neighbors the Niyosho just fine.",
+        military: "Strong individuals, strong core, weak auxiliary branches, would be strong overall if they would work together",
         images: [],
         cities: {
           a: {
@@ -221,19 +201,8 @@ export const placeList = {
           }
         },
         notes: `
-      // Renamed: Huonhia - Herkikia League
-      
-  // Herkikia League - essos, lyric speaking? - free city types ⚔
-  // Military - Strong individuals, strong core, weak auxiliary branches, would be strong overall if they would work together
-  // Diplomacy - Too focused internally, suits the Niyosho just fine.
-  // Religion - Many gods.
-  // Culture - Each city has it's own differences but generally they are about their peoples freedom while enslaving others.
-  // Ambition - lack of...
-  // Stability - Unstable until there is an external threat
-  // Secrets -
-  // Food - Fertile land, but worked by the slaves
-  // Economy type -
-  // Unique Unit - Sacred Band
+      Renamed: Huonhia - Herkikia League
+      Herkikia League - essos, lyric speaking? - free city types ⚔
       `
       },
       "Naj'es": {
@@ -244,14 +213,14 @@ export const placeList = {
         "places of interest": [""],
         "unique unit": [""],
         "economy type": "",
-        "agriculture": "",
-        secrets: "",
-        stability: "",
-        ambition: "",
+        "agriculture": "Mostly desert, imports food from others",
+        secrets: "The current king is weak and it is the queen who has been fighting dressed as him",
+        stability: "Stable under one ruler, unstable during changes.",
+        ambition: "Depends on the ruler",
         culture: "",
-        religion: "",
-        diplomacy: "",
-        military: "",
+        religion: "State religion & split off religions",
+        diplomacy: "Arrogant but rational",
+        military: "weak individuals, strong together, many varied units with a strong core, strong military, weak navy",
         images: [],
         cities: {
           a: {
@@ -259,22 +228,10 @@ export const placeList = {
           }
         },
         notes: `
-      // Renamed: Hatalia - Naj'es
-      
-  // Kingdom of Naj'es (Empire) 🦎
-  // Military - weak individuals, strong together, many varied units with a strong core, strong military, weak navy
-  // Diplomacy - Arrogant but rational
-  // Religion - State religion - , split off religions -
-  // Culture - Mostly .. , also
-  // Ambition - Depends on the ruler
-  // Stability - Stable under one ruler, unstable during changes.
-  // Secrets - The current king is weak and it is the queen who has been fighting dressed as him
-  // Food - Mostly desert, imports food from others
-  // Economy type -
-  // Unique Unit - 
+         Renamed: Hatalia - Naj'es
+         Kingdom of Naj'es (Empire) 🦎
+         Blood tax, one child from 40 house holds. (Ottomans)
       `
-        // Blood tax, one child from 40 house holds. (Ottomans)
-
       },
       Solzi: {
         "full name": "Solzi",
@@ -282,36 +239,25 @@ export const placeList = {
         government: "",
         description: "",
         "places of interest": [""],
-        "unique unit": [""],
+        "unique unit": ["Pirate"],
         "economy type": "",
-        "agriculture": "",
+        "agriculture": "Imports",
         secrets: "",
-        stability: "",
-        ambition: "",
-        culture: "",
+        stability: "mostly Stable internally, strong neighbor's",
+        ambition: "More money.",
+        culture: "Make more money!!!",
         religion: "",
-        diplomacy: "",
-        military: "",
+        diplomacy: "Good with most, it's all about trade money and friends.",
+        military: "Average individuals, strong navy, weak land forces, but very rich",
         images: [],
         cities: {
-          a: {
-            name: ''
+          Chalbia: {
+            name: 'Chalbia'
           }
         },
         notes: `
-      // Renamed: Chalbia - Solzi
-      
-  // Solzi- Chalbia (Port) ⚓
-  // Military - Average individuals, strong navy, weak land forces, but very rich
-  // Diplomacy - Good with most, it's all about trade money and friends.
-  // Religion -
-  // Culture - Make more money!!!
-  // Ambition - More money.
-  // Stability - mostly Stable internally, strong neighbor's
-  // Secrets -
-  // Food - Imports  
-  // Economy type -
-  // Unique Unit - Pirate
+      Solzi- Chalbia (Port) ⚓
+      Renamed: Chalbia - Solzi
       `
       },
       Oflralensa: {
@@ -337,7 +283,7 @@ export const placeList = {
           }
         },
         notes: `
-      // Renamed: Mifuegan League - United Provinces of Oflralensa
+      Renamed: Mifuegan League - United Provinces of Oflralensa
       
       `
       },
@@ -364,20 +310,19 @@ export const placeList = {
           }
         },
         notes: `
-      
-  // Pocotcotco (Aztec use to be Mayan) 🦅
-  // Military - Weak individuals, strong heros?, weak military, no navy
-  // Diplomacy - Mostly negative
-  // Religion - Old gods (Aztec)
-  // Culture - Traditional, unchanging
-  // Ambition - Lead their people back to ruling the continent again (reality - try not to become enslaved)
-  // Stability - Unknown
-  // Secrets - Human sacrifice
-  // Food - Fertile land, but too focused on traditional ways to make good use of it
-  // Economy type -
-  // Unique Unit - Eagle Warrior`,
-
+        // Pocotcotco (Aztec use to be Mayan) 🦅
+        // Military - Weak individuals, strong heros?, weak military, no navy
+        // Diplomacy - Mostly negative
+        // Religion - Old gods (Aztec)
+        // Culture - Traditional, unchanging
+        // Ambition - Lead their people back to ruling the continent again (reality - try not to become enslaved)
+        // Stability - Unknown
+        // Secrets - Human sacrifice
+        // Food - Fertile land, but too focused on traditional ways to make good use of it
+        // Economy type -
+        // Unique Unit - Eagle Warrior
         // It has been at least 107 years since the fall of Pocotcotco as an empire.
+  `,
       },
       Dwarves: {
         "full name": "Dwarves",

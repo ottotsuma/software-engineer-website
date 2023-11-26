@@ -970,7 +970,7 @@ With Tsuma but now wants revenge
 Arc 3
 Is now in an unfamiliar country
 Adapting to the new language and customs and Culture
-The opportunity to kill an Alden official in Huonhia
+The opportunity to kill an Alden official in Herkikia
 Loses his "class" that makes him unique, starts a 2nd war
 returns to Tsuma with regret for his actions
 
@@ -978,7 +978,7 @@ World -
 Sea people arrive on the shores, they start trading and setting up camps but a war breaks out between the locals and the new arrivals pushing them back into the sea.
 War starts between Alden and the republic.
 The republic breaks into small factions, Alden and the Elves taking parts each.
-Alden and Huonhia start skirmishes over the death of an official, which leads to war.
+Alden and Herkikia start skirmishes over the death of an official, which leads to war.
 The fractured nations are easier targets for the sea people to infiltrate.
 During this time the kingdom is in an internal political power struggle, religions crusade, refugees, curbing Alden aggression, Pocotcotcan skirmishes & demons, Dwarven land reclaims. Declares it'self an empire so others can be kings.
 Niyosho is focused on making friends with a distracted kingdom turning empire, curbing Alden aggression, sea people being different, refugees, racist views.
