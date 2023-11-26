@@ -32,9 +32,6 @@ export const placeList = {
     name: 'Charia',
     images: [],
     description: "Continent",
-    // government
-    // description:
-    // "unique unit":
     countries: {
       Alden: {
         name: "Alden",
@@ -138,6 +135,26 @@ export const placeList = {
       },
       Republic: {
         "full name": "Republic of Heilerbach",
+        name: "The Republic",
+        government: "Republic",
+        description: "",
+        "places of interest": [""],
+        "unique unit": [""],
+        "economy type": "",
+        "agriculture": "",
+        secrets: "",
+        stability: "",
+        ambition: "",
+        culture: "",
+        religion: "",
+        diplomacy: "",
+        military: "",
+        images: [],
+        cities: {
+          a: {
+            name: ''
+          }
+        },
         notes: `
         // Republic (EU?Roman) 🏛
         // Military - Varied individuals from states, strong together, strong military, weak navy
@@ -183,6 +200,26 @@ export const placeList = {
       },
       Herkikia: {
         "full name": "Herkikia League",
+        name: "Herkikia",
+        government: "",
+        description: "",
+        "places of interest": [""],
+        "unique unit": [""],
+        "economy type": "",
+        "agriculture": "",
+        secrets: "",
+        stability: "",
+        ambition: "",
+        culture: "",
+        religion: "",
+        diplomacy: "",
+        military: "",
+        images: [],
+        cities: {
+          a: {
+            name: ''
+          }
+        },
         notes: `
       // Renamed: Huonhia - Herkikia League
       
@@ -201,6 +238,26 @@ export const placeList = {
       },
       "Naj'es": {
         "full name": "Kingdom of Naj'es",
+        name: "Naj'es",
+        government: "",
+        description: "",
+        "places of interest": [""],
+        "unique unit": [""],
+        "economy type": "",
+        "agriculture": "",
+        secrets: "",
+        stability: "",
+        ambition: "",
+        culture: "",
+        religion: "",
+        diplomacy: "",
+        military: "",
+        images: [],
+        cities: {
+          a: {
+            name: ''
+          }
+        },
         notes: `
       // Renamed: Hatalia - Naj'es
       
@@ -221,6 +278,26 @@ export const placeList = {
       },
       Solzi: {
         "full name": "Solzi",
+        name: "Solzi",
+        government: "",
+        description: "",
+        "places of interest": [""],
+        "unique unit": [""],
+        "economy type": "",
+        "agriculture": "",
+        secrets: "",
+        stability: "",
+        ambition: "",
+        culture: "",
+        religion: "",
+        diplomacy: "",
+        military: "",
+        images: [],
+        cities: {
+          a: {
+            name: ''
+          }
+        },
         notes: `
       // Renamed: Chalbia - Solzi
       
@@ -239,6 +316,26 @@ export const placeList = {
       },
       Oflralensa: {
         "full name": "United Provinces of Oflralensa",
+        name: "Oflralensa",
+        government: "",
+        description: "",
+        "places of interest": [""],
+        "unique unit": [""],
+        "economy type": "",
+        "agriculture": "",
+        secrets: "",
+        stability: "",
+        ambition: "",
+        culture: "",
+        religion: "",
+        diplomacy: "",
+        military: "",
+        images: [],
+        cities: {
+          a: {
+            name: ''
+          }
+        },
         notes: `
       // Renamed: Mifuegan League - United Provinces of Oflralensa
       
@@ -246,6 +343,26 @@ export const placeList = {
       },
       Pocotcotco: {
         "full name": "Pocotcotco",
+        name: "Pocotcotco",
+        government: "",
+        description: "",
+        "places of interest": [""],
+        "unique unit": [""],
+        "economy type": "",
+        "agriculture": "",
+        secrets: "",
+        stability: "",
+        ambition: "",
+        culture: "",
+        religion: "",
+        diplomacy: "",
+        military: "",
+        images: [],
+        cities: {
+          a: {
+            name: ''
+          }
+        },
         notes: `
       
   // Pocotcotco (Aztec use to be Mayan) 🦅
@@ -263,11 +380,53 @@ export const placeList = {
         // It has been at least 107 years since the fall of Pocotcotco as an empire.
       },
       Dwarves: {
+        "full name": "Dwarves",
+        name: "Dwarves",
+        government: "",
+        description: "",
+        "places of interest": [""],
+        "unique unit": [""],
+        "economy type": "",
+        "agriculture": "",
+        secrets: "",
+        stability: "",
+        ambition: "",
+        culture: "",
+        religion: "",
+        diplomacy: "",
+        military: "",
+        images: [],
+        cities: {
+          a: {
+            name: ''
+          }
+        },
         notes: `
-  // Dwarves - Weak with magic, not much food or water, low population, strong melee fighters.
-  `
+        // Dwarves - Weak with magic, not much food or water, low population, strong melee fighters.
+        `
       },
       League: {
+        "full name": "League",
+        name: "League",
+        government: "",
+        description: "",
+        "places of interest": [""],
+        "unique unit": [""],
+        "economy type": "",
+        "agriculture": "",
+        secrets: "",
+        stability: "",
+        ambition: "",
+        culture: "",
+        religion: "",
+        diplomacy: "",
+        military: "",
+        images: [],
+        cities: {
+          a: {
+            name: ''
+          }
+        },
         notes: `
       // League (Elf) 🧝‍♀️
       // Military - Medium individuals, strong together but only one species, strong navy, medium military (use to be weak)
@@ -298,7 +457,6 @@ export const placeList = {
     // The Kingdom having become the Empire forms a deal with Niyosho but are both destroyed by the sea people
     // Our characters flee through the desert/Solzi into Pocotcotco, who are under invasion by the Elves.
     // Who again fall before the sea people in ruin.
-
 
     // Miasma, "a contagious power... that has an independent life of its own. Until purged by the sacrificial death of the wrongdoer, society would be chronically infected by catastrophe".
   }
@@ -392,15 +550,6 @@ export const cityAmenities = {
 // Map: https://azgaar.github.io/Fantasy-Map-Generator/
 // Towns:
 // https://watabou.github.io/city-generator/?size=18&seed=272082858&name=Todtenwei&population=2265&greens=0&farms=1&citadel=1&urban_castle=0&plaza=0&temple=0
-
-
-
-// import React, { useState } from "react";
-// import styled from "styled-components";
-// import {colors, monadColors} from './colors'
-// import {_try} from './util'
-
-// See "places" instead.
 
 // Todtenwei - 272082858
 // Savigal - 640470293
@@ -517,126 +666,3 @@ export const cityAmenities = {
 //     Bonuses: '',
 //   },
 // };
-// Dwarves - Weak with magic, not much food or water, low population, strong melee fighters.
-
-// Desert (Monsters) - They are monsters. It's hard to say.
-
-// Republic (EU?Roman) 🏛
-// Military - Varied individuals from states, strong together, strong military, weak navy
-// Diplomacy - Good
-// Religion - Varied
-// Culture - Varied
-// Ambition - Not to fall apart
-// Stability - Unstable now, use to be stable.
-// Secrets -
-// Food - Fertile land in the east, less fertile to the south and west.
-// Economy type -
-// Unique Unit - Throwing Axes
-// Places of Interest - Baberg Bridge, Siklad Gold mine, Furlin salt mine, Horod iron mine town.
-
-// League (Elf) 🧝‍♀️
-// Military - Medium individuals, strong together but only one species, strong navy, medium military (use to be weak)
-// Diplomacy - None, mostly negative
-// Religion -
-// Culture -
-// Ambition - Enslave the other species
-// Stability - Mostly stable
-// Secrets -
-// Food -
-// Economy type -
-// Unique Unit -
-
-// Pocotcotco (Aztec use to be Mayan) 🦅
-// Military - Weak individuals, strong heros?, weak military, no navy
-// Diplomacy - Mostly negative
-// Religion - Old gods (Aztec)
-// Culture - Traditional, unchanging
-// Ambition - Lead their people back to ruling the continent again (reality - try not to become enslaved)
-// Stability - Unknown
-// Secrets - Human sacrifice
-// Food - Fertile land, but too focused on traditional ways to make good use of it
-// Economy type -
-// Unique Unit - Eagle Warrior
-
-// Kingdom of Naj'es (Empire) 🦎
-// Military - weak individuals, strong together, many varied units with a strong core, strong military, weak navy
-// Diplomacy - Arrogant but rational
-// Religion - State religion - , split off religions -
-// Culture - Mostly .. , also
-// Ambition - Depends on the ruler
-// Stability - Stable under one ruler, unstable during changes.
-// Secrets - The current king is weak and it is the queen who has been fighting dressed as him
-// Food - Mostly desert, imports food from others
-// Economy type -
-// Unique Unit -
-
-// Herkikia League - essos, lyric speaking? - free city types ⚔
-// Military - Strong individuals, strong core, weak auxiliary branches, would be strong overall if they would work together
-// Diplomacy - Too focused internally, suits the Niyosho just fine.
-// Religion - Many gods.
-// Culture - Each city has it's own differences but generally they are about their peoples freedom while enslaving others.
-// Ambition - lack of...
-// Stability - Unstable until there is an external threat
-// Secrets -
-// Food - Fertile land, but worked by the slaves
-// Economy type -
-// Unique Unit - Sacred Band
-
-// Solzi- Chalbia (Port) ⚓
-// Military - Average individuals, strong navy, weak land forces, but very rich
-// Diplomacy - Good with most, it's all about trade money and friends.
-// Religion -
-// Culture - Make more money!!!
-// Ambition - More money.
-// Stability - mostly Stable internally, strong neighbor's
-// Secrets -
-// Food - Imports
-// Economy type -
-
-// export default function LocationsDisplay(Locations) {
-//   const Data = _try(() => locationsList[Locations])
-//   if(Data) {
-//     return (
-//       <BackgroundWrap>
-//       <Wrap CountryColor={monadColors[Data.color] || ''}>
-//         <Name>{Locations}</Name>
-//         {Data.map ? <Display src={Data.map} alt={Locations} /> : <></>}
-//         <Info>{Data["Unique Unit"] ? Data["Unique Unit"] : ''}</Info>
-//       </Wrap>
-//       </BackgroundWrap>
-//     )
-//   } else {
-//     return <div></div>
-//   }
-// }
-// const BackgroundWrap = styled.div`
-// display: flex;
-// justify-content: center;
-// align-items: center;
-// `;
-// const Wrap = styled.div`
-// border-radius: 6px;
-// padding: 5px;
-// max-width: 200px;
-// color: ${colors.black.off};
-// background: ${colors.white.off};
-// margin: 1%;
-// display: flex;
-// justify-content: center;
-// align-items: center;
-// flex-direction: column;
-// border-width: thick;
-// border-style: solid;
-// border-color: ${props => props.CountryColor};
-// `;
-// const Name = styled.div`
-// font-size: xx-large;
-// `;
-// const Display = styled.img`
-// border-radius: 50%;
-// width: 100%;
-// height: 100%;
-// `;
-// const Info = styled.div`
-// margin-bottom: 5px;
-// `;
