@@ -293,16 +293,16 @@ export const placeList = {
         government: "",
         description: "",
         "places of interest": [""],
-        "unique unit": [""],
+        "unique unit": ["Eagle Warrior"],
         "economy type": "",
-        "agriculture": "",
-        secrets: "",
-        stability: "",
-        ambition: "",
-        culture: "",
-        religion: "",
-        diplomacy: "",
-        military: "",
+        "agriculture": "Fertile land, but too focused on traditional ways to make good use of it",
+        secrets: "Human sacrifice",
+        stability: "Unknown",
+        ambition: "Lead their people back to ruling the continent again (reality - try not to become enslaved)",
+        culture: "Traditional, unchanging",
+        religion: "Old gods (Aztec)",
+        diplomacy: "Mostly negative",
+        military: "Weak individuals, strong heros?, weak military, no navy",
         images: [],
         cities: {
           a: {
@@ -310,18 +310,8 @@ export const placeList = {
           }
         },
         notes: `
-        // Pocotcotco (Aztec use to be Mayan) 🦅
-        // Military - Weak individuals, strong heros?, weak military, no navy
-        // Diplomacy - Mostly negative
-        // Religion - Old gods (Aztec)
-        // Culture - Traditional, unchanging
-        // Ambition - Lead their people back to ruling the continent again (reality - try not to become enslaved)
-        // Stability - Unknown
-        // Secrets - Human sacrifice
-        // Food - Fertile land, but too focused on traditional ways to make good use of it
-        // Economy type -
-        // Unique Unit - Eagle Warrior
-        // It has been at least 107 years since the fall of Pocotcotco as an empire.
+         Pocotcotco (Aztec use to be Mayan) 🦅
+         It has been at least 107 years since the fall of Pocotcotco as an empire.
   `,
       },
       Dwarves: {
@@ -347,7 +337,7 @@ export const placeList = {
           }
         },
         notes: `
-        // Dwarves - Weak with magic, not much food or water, low population, strong melee fighters.
+        Dwarves - Weak with magic, not much food or water, low population, strong melee fighters.
         `
       },
       League: {
@@ -360,12 +350,12 @@ export const placeList = {
         "economy type": "",
         "agriculture": "",
         secrets: "",
-        stability: "",
-        ambition: "",
+        stability: "Mostly stable",
+        ambition: "Enslave the other species",
         culture: "",
         religion: "",
-        diplomacy: "",
-        military: "",
+        diplomacy: "None, mostly negative",
+        military: "Medium individuals, strong together but only one species, strong navy, medium military (use to be weak)",
         images: [],
         cities: {
           a: {
@@ -373,20 +363,9 @@ export const placeList = {
           }
         },
         notes: `
-      // League (Elf) 🧝‍♀️
-      // Military - Medium individuals, strong together but only one species, strong navy, medium military (use to be weak)
-      // Diplomacy - None, mostly negative
-      // Religion -
-      // Culture -
-      // Ambition - Enslave the other species
-      // Stability - Mostly stable
-      // Secrets -
-      // Food -
-      // Economy type -
-      // Unique Unit - 
+      League (Elf) 🧝‍♀️
+      The Elves and the republic have had at least 2 famous battles against each other.
       `
-
-        // The Elves and the republic have had at least 2 famous battles against each other.
       },
       // Desert (Monsters) - They are monsters. It's hard to say.
     }
@@ -495,9 +474,6 @@ export const cityAmenities = {
 // Map: https://azgaar.github.io/Fantasy-Map-Generator/
 // Towns:
 // https://watabou.github.io/city-generator/?size=18&seed=272082858&name=Todtenwei&population=2265&greens=0&farms=1&citadel=1&urban_castle=0&plaza=0&temple=0
-
-// Todtenwei - 272082858
-// Savigal - 640470293
 
 // export const locationsList = {
 //   Meroyri: {
