@@ -176,7 +176,7 @@ export const locationsList = {
 // Shogunate of Niyosho (Japan) ⛩
 // Military - weak individuals, strong together, strong military, Strong navy
 // Diplomacy - Medium, while they do not strongly anger anyone they are hardly friendly
-// Religion - Shinto
+// Religion - Shinto, objects, trees mostly, wrapped with a spirit chain (paper) become protected in the spirit world and in turn might protect your spirit also.
 // Culture -
 // Ambition - Become isolationist
 // Stability - Stable
