@@ -30,11 +30,12 @@ export const placeList = {
     notes: `6) [Charia] (New world) Large single content (Story)`,
     "full name": 'Charia',
     name: 'Charia',
-    images: [],
+    images: ['https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-45.png'],
     description: "Continent",
     countries: {
       Alden: {
         name: "Alden",
+        images:['https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-41/fmg_tile_14.png'],
         "full name": "Grand Duchy of Alden",
         government: "Grand Duchy",
         description: "Found by a rebellious witch with the backing of the lords of the region during the collapse of the Pocotcotco empire.",
@@ -56,10 +57,12 @@ export const placeList = {
           `,
         cities: {
           Todtenwei: {
+            images:['https://ottotsuma.github.io/images/map/todtenwei.png'],
             name: 'Todtenwei',
             map: 272082858,
           },
           Steinauhau: {
+            images:['https://ottotsuma.github.io/images/map/steinauhau.png'],
             map: 5628570730133,
             link: "https://watabou.github.io/city-generator/?size=18&seed=5628570730133&name=Steinauhau&population=6901&greens=1&farms=1&citadel=1&urban_castle=1&plaza=1&temple=0&walls=1&shantytown=1&coast=0&river=0&gates=-1",
             description: 'A north western town in the country of Alden.',
@@ -114,8 +117,8 @@ export const placeList = {
           },
           'Alden (city)': {
             name: 'Alden (city)',
-            map: 839360670
-
+            map: 839360670,
+            images:['https://ottotsuma.github.io/images/map/alden.png']
           },
           Savigal: {
             map: 640470293
