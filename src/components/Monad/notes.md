@@ -224,6 +224,8 @@ The classes and species could be catabolized into tiers [1, 2, 3] or ranks [bron
 
 E D C B A S
 
+junk, common, normal, intermediate, advanced rare, elite, epic, legendary, Heavenly, Divine, Mythic, Celestial 
+
 team bonus for fighter/rogue/mage
 
 <li>Classes/Species</li>
