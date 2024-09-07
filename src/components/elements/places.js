@@ -1,3 +1,6 @@
+import { racesList } from './../elements/species'
+// const PossibleSpecies = Object.keys(racesList).sort((a, b) => a[0].localeCompare(b[0]));
+
 export const placeList = {
   // Move locationsList into here
   // https://ottotsuma.github.io/images/places/*.jpg
@@ -16,7 +19,6 @@ export const placeList = {
   },
   Rayndr: {
     notes: `3) [Rayndr] - (Bridge, Al Bhed) - Safer, route.`
-
   },
   Abansofu: {
     notes: `4) かざんとう -> あばんそふ [Abansofu]  (Xuanzang / Journey to the West) - (Indians) - Large single continent. (Deep water)`
@@ -34,6 +36,7 @@ export const placeList = {
     description: "Continent",
     countries: {
       Alden: {
+        // monsters: [racesList.],
         name: "Alden",
         images:['https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-41/fmg_tile_14.png'],
         "full name": "Grand Duchy of Alden",
@@ -50,7 +53,6 @@ export const placeList = {
         religion: "",
         diplomacy: "While having ambassadors in various neighbouring countries they are not aligned, or even get along well with any of them.",
         military: "Strong individuals, because of the culture. Their military continues to use a traditional 4 - 8 man formation, more commonly used for fighting beasts. Discipline is valued higher then individuals strength in the military however.",
-        images: [],
         notes: `
           Alden (German) - 🎄
           Food - Fertile land, but too focused on military to make good use of it
@@ -156,6 +158,7 @@ export const placeList = {
 
       },
       Niyosho: {
+        // monsters: [racesList.Buncho],
         "full name": "Shogunate of Niyosho",
         name: "Niyosho",
         government: "Shogunate",
@@ -370,7 +373,13 @@ export const placeList = {
       The Elves and the republic have had at least 2 famous battles against each other.
       `
       },
+      Desert: {
       // Desert (Monsters) - They are monsters. It's hard to say.
+        "full name": "Desert",
+        name: "Desert",
+        description: "Sand",
+        secrets: "Feathered Dragon",
+      }
     }
 
     // ### Eras/History:
@@ -434,7 +443,8 @@ export const cityAmenities = {
   dungeon: '',
   lighthouse: '',
   portal: '',
-  "skyship port": '',
+  "skyship port": '🛫',
+  port: '🚢',
   "shrine": "⛩️",
   castle: "🏯",
   walled: "🧱",
@@ -443,7 +453,7 @@ export const cityAmenities = {
   necromancer: "🩻",
   stable: "🐴",
   // 🏰🗡️🏹👑🐲🛡️
-  "hot spring": "🐴",
+  "hot spring": "",
 
   // Environment
   woods: '',

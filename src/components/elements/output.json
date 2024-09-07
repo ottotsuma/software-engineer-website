@@ -1,26 +1,4 @@
-import React from "react";
-import styled from "styled-components";
-import { colors, monadColors } from "./colors";
-import { _try } from "./util";
-import { placeList } from "./places";
-// junk: "rgb(186, 186, 186)", // grey
-// common: "rgb(168, 168, 168)", // light grey
-// normal: "blue",
-// intermediate: "rgb(69, 150, 255)", // light blue
-// advanced: "rgb(50, 205, 219)", // cyan
-// rare: "green",
-// epic: "red",
-// legendary: "orange",
-// unique: "purple",
-// growth: "#e2abac", // pink?
-// quest: "gold",
-
-// Beasts should be given different catagories. The rank of items is not suited to the combat powers directly.
-
-// https://www.youtube.com/watch?v=ghD79i2O1xA
-  //  鳳凰, fenghuang, Wade-Giles romanization feng-huang, also called feng or (misleadingly) Chinese phoenix, in Chinese mythology, an immortal bird whose rare appearance is said to be an omen foretelling harmony at the ascent to the throne of a new emperor.
-
-export const racesList = {
+{
   "Lutra": {
     "name": "Lutra",
     "stats": {
@@ -35,8 +13,7 @@ export const racesList = {
     "images": [],
     "notes": "Lutra Note",
     "tier": "normal",
-    "description": "Lutra Desc",
-    "links": {regions: [placeList.Charia]}
+    "description": "Lutra Desc"
   },
   "Binturong": {
     "name": "Binturong",
@@ -281,6 +258,7 @@ export const racesList = {
     "element": "blood",
     "links": {
       "skills": [
+        "Dark Vision",
         "Dark Vision",
         "Porphyric Hemophilia",
         "Sanguinare Vampiris",
@@ -1043,68 +1021,4 @@ export const racesList = {
       ]
     }
   }
-};
-// 'Gnome' 
-// 'Goat' 
-// 'Rabbit' 
-// 'Lesser Vampire'
-// Bakeneko (monster) (one tail) cat demon,  & nekomata (species) (two tails), raises the dead with dances.
-
-
-export default function RaceDisplay(Species) {
-  const Data = _try(() => racesList[Species]);
-  if (Data) {
-    return (
-      <BackgroundWrap>
-        <Wrap Tier={monadColors[Data.tier] || ""}>
-          <Name>{Species}</Name>
-          {Data.images && Data.images[0] ? (
-            <Display src={Data.images[0]} alt={Species} />
-          ) : (
-            <Display src={`https://source.unsplash.com/random?${Species}`} alt={Species} />
-          )}
-          <Info>{Data.notes ? Data.notes : ""}</Info>
-          <Self>{Data.self ? "Self: " + Data.self : ""}</Self>
-          <Team>{Data.team ? "Team Bonus: " + Data.team : ""}</Team>
-        </Wrap>
-      </BackgroundWrap>
-    );
-  } else {
-    return <div></div>;
-  }
 }
-const BackgroundWrap = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
-const Wrap = styled.div`
-  border-radius: 6px;
-  padding: 5px;
-  max-width: 200px;
-  color: ${colors.black.off};
-  background: ${colors.white.off};
-  margin: 1%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  border-width: thick;
-  border-style: solid;
-  border-color: ${(props) => props.Tier};
-`;
-const Name = styled.div`
-  font-size: xx-large;
-`;
-const Display = styled.img`
-  border-radius: 50%;
-  width: 100%;
-  height: 100%;
-`;
-const Info = styled.div`
-  margin-bottom: 5px;
-`;
-const Team = styled.div``;
-const Self = styled.div`
-  margin-bottom: 5px;
-`;

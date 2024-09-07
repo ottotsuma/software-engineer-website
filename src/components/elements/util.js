@@ -211,3 +211,14 @@ export function RankColour(Rank) {
     return `${monadColors.epic}`;
   }
 }
+
+export function searchOrigin(initialSkill) {
+  let data = {}
+  const skillData = searchSpells(initialSkill)
+  const classData = searchClass(initialSkill)
+  const speciesData = searchSpecies(initialSkill)
+  const itemData = searchItem(initialSkill)
+  const placeData = searchPlaces(initialSkill)
+  skillData ? data = skillData : classData ? data = classData : speciesData ? data = speciesData : itemData ? data = itemData : placeData ? data = placeData : data = {}
+  return data
+}

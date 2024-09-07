@@ -79,20 +79,20 @@ for (let index = 0; index < monadColorsArray.length; index++) {
 let modifier = 0.1
 let multiplier = 1
 
-export default function SpellCards(listOfCards = []) {
+export default function SpellCards(listOfCards = [], showStats = false, large = false) {
   const cardArray = [];
   for (let index = 0; index < listOfCards.length; index++) {
     const cardInstructions = listOfCards[index];
     cardArray.push(
       // MakeCard(cardInstructions[0], cardInstructions[1], cardInstructions[2])
-      MakeCard(cardInstructions)
+      MakeCard(cardInstructions, showStats, large)
     );
   }
   return <CardHand>{cardArray}</CardHand>;
 }
 
 export function MakeCard(cardInstructions, showStats = false, large = false) {
-
+  // cards should instead, list and display out all variables unknown. Display all lists within a contained div. Create on hover, another smaller-card on object, "Linked Skills" listed below. The spell/species/class/item, not sure if it matters. 
   let name = cardInstructions.name
   let level = cardInstructions.level || 1
   if (!getParameterCaseInsensitive(spellList, name)) {
@@ -337,7 +337,6 @@ export function MakeCard(cardInstructions, showStats = false, large = false) {
           }
         }
       }
-
       return (
         <CardContainer key={name + "key" + Math.random()}>
           <Card
