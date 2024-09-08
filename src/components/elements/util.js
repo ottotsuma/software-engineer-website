@@ -5,7 +5,9 @@ import { racesList } from "./species";
 import { classList } from "./classes";
 import { ItemList } from "./item";
 import { placeList } from "./places";
-import { PersonsList } from "./../Monad/People"
+import {titlesList} from "./titles"
+// import { PersonsList } from "./people"
+// const { PersonsList } = await import('./PersonsList');
 
 // PersonsList => All lists
 // spellList
