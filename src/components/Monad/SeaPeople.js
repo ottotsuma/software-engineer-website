@@ -5,17 +5,16 @@ import { Content, Shine } from "./styles";
 import Spin from "./../elements/spin";
 import Quest from "./../elements/quest";
 import LevelUp from "./../elements/levelup";
-import Otto from "./People";
+import Otto, {
+  Noah as NoahStats,
+  Sarah as SarahStats,
+  Josh as JoshStats,
+} from "./People";
 import Equipment from "./../elements/equipment";
 import Stats from "./../elements/stats";
 import Spells from "./../elements/spells";
 import Blood from "./../../assets/Blood.jpg";
 import { Sarah, Josh, Juan, Noah } from "./CharacterFonts";
-import {
-  Noah as NoahStats,
-  Sarah as SarahStats,
-  Josh as JoshStats,
-} from "./People";
 
 export default function SeaPeopleFunction(props) {
   return typeof props === "number"

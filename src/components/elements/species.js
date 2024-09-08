@@ -3,6 +3,8 @@ import styled from "styled-components";
 import { colors, monadColors } from "./colors";
 import { _try } from "./util";
 import { placeList } from "./places";
+import { spellList } from "./spells";
+
 // junk: "rgb(186, 186, 186)", // grey
 // common: "rgb(168, 168, 168)", // light grey
 // normal: "blue",
@@ -18,7 +20,7 @@ import { placeList } from "./places";
 // Beasts should be given different catagories. The rank of items is not suited to the combat powers directly.
 
 // https://www.youtube.com/watch?v=ghD79i2O1xA
-  //  鳳凰, fenghuang, Wade-Giles romanization feng-huang, also called feng or (misleadingly) Chinese phoenix, in Chinese mythology, an immortal bird whose rare appearance is said to be an omen foretelling harmony at the ascent to the throne of a new emperor.
+//  鳳凰, fenghuang, Wade-Giles romanization feng-huang, also called feng or (misleadingly) Chinese phoenix, in Chinese mythology, an immortal bird whose rare appearance is said to be an omen foretelling harmony at the ascent to the throne of a new emperor.
 
 export const racesList = {
   "Lutra": {
@@ -36,7 +38,7 @@ export const racesList = {
     "notes": "Lutra Note",
     "tier": "normal",
     "description": "Lutra Desc",
-    "links": {regions: [placeList.Charia]}
+    "links": { regions: [placeList.Charia] }
   },
   "Binturong": {
     "name": "Binturong",
@@ -96,7 +98,7 @@ export const racesList = {
     "description": "This parrot's feathers constantly burn. Combined with it's amazing ability to see in the dark, this leaves the parrot's eyes in constant pain.",
     "links": {
       "skills": [
-        "Dark Vision"
+        spellList["Dark Vision"]
       ]
     }
   },
@@ -112,17 +114,17 @@ export const racesList = {
     "tier": "normal",
     "links": {
       "skills": [
-        "Child",
-        "Youth",
-        "Adult",
-        "Older",
-        "Aged",
-        "Human Aptitude",
-        "Human Ingenuity",
-        "Human Resolve",
-        "Tool Focus",
-        "Witchcraft",
-        "Otitis Externa"
+        spellList["Child"],
+        spellList["Youth"],
+        spellList["Adult"],
+        spellList["Older"],
+        spellList["Aged"],
+        spellList["Human Aptitude"],
+        spellList["Human Ingenuity"],
+        spellList["Human Resolve"],
+        spellList["Tool Focus"],
+        spellList["Witchcraft"],
+        spellList["Otitis Externa"]
       ]
     }
   },
@@ -171,11 +173,11 @@ export const racesList = {
     ],
     "links": {
       "skills": [
-        "Etherealness",
-        "Draining Kiss",
-        "Shapechanger",
-        "Telepathic Bond",
-        "Claws"
+        spellList["Etherealness"],
+        spellList["Draining Kiss"],
+        spellList["Shapechanger"],
+        spellList["Telepathic Bond"],
+        spellList["Claws"]
       ]
     }
   },
@@ -212,7 +214,7 @@ export const racesList = {
     "description": "Dwarves are often found around mountains, or deep underground. Even Dwarves that move to human cities build their houses underground. While they don't have complete Dark Vision naturally, they are able to see in the dark as if there was a little light even when there is none.",
     "links": {
       "skills": [
-        "Dark Vision"
+        spellList["Dark Vision"]
       ]
     }
   },
@@ -229,7 +231,7 @@ export const racesList = {
     "description": "Woodland Elves, more commonly referred to as just 'Elves' are the elves who stayed behind in the mother forest during the great split. They have an affinity with the plant element, and worship the nature of the forests. They consider other types of elves as cursed.",
     "links": {
       "skills": [
-        "Elf testing skill"
+        spellList["Elf testing skill"]
       ]
     }
   },
@@ -243,10 +245,10 @@ export const racesList = {
     "description": "Snow elves are a branch of elves who split from their forest dwelling cousins to go north into the cold climate. They mostly live in caves in areas of tundra, ice or snow. They believe that the harsh environment is natures way of weeding out the weak. They have an affinity with ice element.",
     "links": {
       "skills": [
-        "Dark Vision",
-        "Snow Walk",
-        "Cold Resist",
-        "Fire Vulnerability"
+        spellList["Dark Vision"],
+        spellList["Snow Walk"],
+        spellList["Cold Resist"],
+        spellList["Fire Vulnerability"]
       ]
     }
   },
@@ -272,8 +274,8 @@ export const racesList = {
     "description": "Water elves, a lost race of elves that set off into the sea during the great split of elves, they had seen the ocean had a great variety of nature and hoped to find the source. Their reverence for water has gained them the favor of the water element.",
     "links": {
       "skills": [
-        "Dark Vision",
-        "Underwater Breathing"
+        spellList["Dark Vision"],
+        spellList["Underwater Breathing"]
       ]
     }
   },
@@ -281,66 +283,66 @@ export const racesList = {
     "element": "blood",
     "links": {
       "skills": [
-        "Dark Vision",
-        "Porphyric Hemophilia",
-        "Sanguinare Vampiris",
-        "Porphyria cutanea tarda",
-        "Noxiphilic Sanguivoria",
-        "Porphyria",
-        "Sunlight Sensitivity",
-        "Blood Sucker",
-        "Blood Absorb",
-        "Blood Aura",
-        "Decaying Touch",
-        "Raining blood",
-        "Grasp of the Starved",
-        "Blood Storm",
-        "Blood Magic",
-        "Blood Sacrifice",
-        "Blood Wound",
-        "Blood Control",
-        "Blood Dominion",
-        "Blood Domination",
-        "Vampire Eyes",
-        "Blood Hardening",
-        "Blood Swipe",
-        "Blood Expand",
-        "Blood Barrage",
-        "Blood Bullet",
-        "Blood Bank",
-        "Blood Wall",
-        "Blood Spray",
-        "Hammer Strike",
-        "Blood Hammer",
-        "Blood Hammer Drill",
-        "Blood Crescent Kick",
-        "Daze",
-        "Phantom Punch",
-        "Phantom Kick",
-        "Flash Step",
-        "Basic Vampire Martial Arts",
-        "Vampiric Influence",
-        "Blood Ritual",
-        "Vampiric Powers",
-        "Lesser Vampiric Powers",
-        "Vampiric",
-        "Blood Flow Acceleration",
-        "Blood Retribution",
-        "Poisonous Blood",
-        "Blood Curse",
-        "Blood Armour",
-        "Blood Potion",
-        "Blood Combustion",
-        "Blood Manipulation",
-        "Blood Projectiles",
-        "Blood Pact",
-        "Blood Servant",
-        "Blood Storage",
-        "Blood Frenzy",
-        "Blood Soul",
-        "Blood Weapon Creation",
-        "Blood Mist",
-        "Vampiric frenzy"
+        spellList["Dark Vision"],
+        spellList["Porphyric Hemophilia"],
+        spellList["Sanguinare Vampiris"],
+        spellList["Porphyria cutanea tarda"],
+        spellList["Noxiphilic Sanguivoria"],
+        spellList["Porphyria"],
+        spellList["Sunlight Sensitivity"],
+        spellList["Blood Sucker"],
+        spellList["Blood Absorb"],
+        spellList["Blood Aura"],
+        spellList["Decaying Touch"],
+        spellList["Raining blood"],
+        spellList["Grasp of the Starved"],
+        spellList["Blood Storm"],
+        spellList["Blood Magic"],
+        spellList["Blood Sacrifice"],
+        spellList["Blood Wound"],
+        spellList["Blood Control"],
+        spellList["Blood Dominion"],
+        spellList["Blood Domination"],
+        spellList["Vampire Eyes"],
+        spellList["Blood Hardening"],
+        spellList["Blood Swipe"],
+        spellList["Blood Expand"],
+        spellList["Blood Barrage"],
+        spellList["Blood Bullet"],
+        spellList["Blood Bank"],
+        spellList["Blood Wall"],
+        spellList["Blood Spray"],
+        spellList["Hammer Strike"],
+        spellList["Blood Hammer"],
+        spellList["Blood Hammer Drill"],
+        spellList["Blood Crescent Kick"],
+        spellList["Daze"],
+        spellList["Phantom Punch"],
+        spellList["Phantom Kick"],
+        spellList["Flash Step"],
+        spellList["Basic Vampire Martial Arts"],
+        spellList["Vampiric Influence"],
+        spellList["Blood Ritual"],
+        spellList["Vampiric Powers"],
+        spellList["Lesser Vampiric Powers"],
+        spellList["Vampiric"],
+        spellList["Blood Flow Acceleration"],
+        spellList["Blood Retribution"],
+        spellList["Poisonous Blood"],
+        spellList["Blood Curse"],
+        spellList["Blood Armour"],
+        spellList["Blood Potion"],
+        spellList["Blood Combustion"],
+        spellList["Blood Manipulation"],
+        spellList["Blood Projectiles"],
+        spellList["Blood Pact"],
+        spellList["Blood Servant"],
+        spellList["Blood Storage"],
+        spellList["Blood Frenzy"],
+        spellList["Blood Soul"],
+        spellList["Blood Weapon Creation"],
+        spellList["Blood Mist"],
+        spellList["Vampiric frenzy"]
       ]
     },
     "stats": {
@@ -384,8 +386,8 @@ export const racesList = {
     "description": "Ghouls are similar in appearance to zombies, however unlike zombies they have a level of intelligence. Ghouls are summoned demon-like creatures and zombies are just animated corpses. .",
     "links": {
       "skills": [
-        "Dark Vision",
-        "Sunlight Sensitivity"
+        spellList["Dark Vision"],
+        spellList["Sunlight Sensitivity"]
       ]
     }
   },
@@ -406,7 +408,7 @@ export const racesList = {
     "description": "A Wight is a type of undead with a hatred for the living. Both will be hostile to each other on first sight. Whites are very similar to zombies in terms of weaknesses, strengths and appearance. While zombies are very weak to the light element, Whites cannot harm those with a strong light affinity at all.",
     "links": {
       "skills": [
-        "Sunlight Sensitivity"
+        spellList["Sunlight Sensitivity"]
       ]
     }
   },
@@ -451,7 +453,7 @@ export const racesList = {
     "description": "",
     "links": {
       "skills": [
-        "Cry of the Banshee"
+        spellList["Cry of the Banshee"]
       ]
     }
   },
@@ -480,8 +482,8 @@ export const racesList = {
     "description": "Just a name given to the generic unidentified Undead. Undead are not alive, weak to the light element and have affinity with the shadow element. While not always, the majority of Undead have no stamina limitations.",
     "links": {
       "skills": [
-        "Dark Vision",
-        "Sunlight Sensitivity"
+        spellList["Dark Vision"],
+        spellList["Sunlight Sensitivity"]
       ]
     }
   },
@@ -516,8 +518,8 @@ export const racesList = {
     "description": "An Undead body. They share some similarities to their living counterparts, since they inhabit the same body. However what set's Zombies apart is their weakness to the light element, affinity with the shadow element, as well as being harder to kill.",
     "links": {
       "skills": [
-        "Dark Vision",
-        "Sunlight Sensitivity"
+        spellList["Dark Vision"],
+        spellList["Sunlight Sensitivity"]
       ]
     }
   },
@@ -531,7 +533,7 @@ export const racesList = {
     "description": "Being that looks half fish, half woman. Mermaids are most often resemble a human woman, but they can resemble other species of women. That does not mean they are half of each species this is just an adaptation within their own species. They share no links to the species they look like, it is just a honey trap.",
     "links": {
       "skills": [
-        "Underwater Breathing"
+        spellList["Underwater Breathing"]
       ]
     }
   },
@@ -574,7 +576,7 @@ export const racesList = {
     "tier": "normal",
     "links": {
       "skills": [
-        "Dark Vision"
+        spellList["Dark Vision"]
       ]
     }
   },
@@ -621,8 +623,8 @@ export const racesList = {
     "tier": "epic",
     "links": {
       "skills": [
-        "Rebirth Flame",
-        "Birthed In Flame"
+        spellList["Rebirth Flame"],
+        spellList["Birthed In Flame"]
       ]
     }
   },
@@ -976,7 +978,7 @@ export const racesList = {
     "description": "",
     "links": {
       "skills": [
-        "Dark Vision"
+        spellList["Dark Vision"]
       ]
     }
   },
@@ -997,7 +999,7 @@ export const racesList = {
     "description": "",
     "links": {
       "skills": [
-        "Headbutt"
+        spellList["Headbutt"]
       ]
     }
   },
@@ -1018,7 +1020,7 @@ export const racesList = {
     "description": "",
     "links": {
       "skills": [
-        "Hop"
+        spellList["Hop"]
       ]
     }
   },
@@ -1039,15 +1041,12 @@ export const racesList = {
     "description": "",
     "links": {
       "skills": [
-        "Sunlight Sensitivity"
+        spellList["Sunlight Sensitivity"]
       ]
     }
   }
 };
-// 'Gnome' 
-// 'Goat' 
-// 'Rabbit' 
-// 'Lesser Vampire'
+
 // Bakeneko (monster) (one tail) cat demon,  & nekomata (species) (two tails), raises the dead with dances.
 
 

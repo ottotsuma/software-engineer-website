@@ -5,12 +5,11 @@ import { Content, Shine } from "./styles";
 import Spin from "./../elements/spin";
 import Quest from "./../elements/quest";
 import LevelUp from "./../elements/levelup";
-import Otto from "./People";
+import Otto, { Hitori as HitoriStats }  from "./People";
 import Equipment from "./../elements/equipment";
 import Stats from "./../elements/stats";
 import Spells from "./../elements/spells";
 import { Hitori } from "./CharacterFonts";
-import { Hitori as HitoriStats } from "./People";
 import SpellCards from "./SpellCards";
 
 export default function HitoriStoryFunction(props) {
