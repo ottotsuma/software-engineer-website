@@ -62,6 +62,27 @@ const Intro = (props) => {
   // Play Day & Incident & The Body
   // Aftermath & Herkikia [grandfather dairy]
   // Training & Otto & Effi
+
+
+
+
+  // Opening
+
+  // Congratulations, you leveled up!
+
+  // You are now Level 1. HP +110. MP +5. Spell Cap Increased by 1. Basic Spells Unlocked. Spell Points: +1 Stat Points: +3
+
+  // --- Break --- 
+
+  //   The menu slowly faded, and the harsh reality returned. My friend’s face lay motionless before me—what was left of it. The sight was almost too surreal to process, distorted by the grotesque remnants of what had once been a face.
+
+  // My father’s hand rested heavily on my shoulder, his grip a mix of comfort and desperation. His voice was choked, barely more than a whisper.
+
+  // “No, no, no,” he murmured, the words trembling with sorrow. “Can you tell me what happened? Start with when you were all playing in the woods, before the monster arrived.”
+
+  // I looked at him, my voice barely audible. “Yeah,” I replied, swallowing hard. I began to recount the events that led us here, piecing together the fragments of a day that had spiraled into chaos.
+
+
   return (
     <Content>
       <div className="Frame">
@@ -224,7 +245,7 @@ const Intro = (props) => {
               "I wanted to look for her too, to help Effi. I ran over but the creature screamed so loud. Beke's wooden sword was rammed deep into the monsters eye, black liquid rushing out around it. It jumped off Eugen. Eugen didn't get up."
             </Otto>
             <Otto>
-             Nils & Jakob had given up on the ranged weapons and ran over holding Effi's sword we all ran up to the monster. Screeching from the pain in it's eye.
+              Nils & Jakob had given up on the ranged weapons and ran over holding Effi's sword we all ran up to the monster. Screeching from the pain in it's eye.
             </Otto>
             {/* Kill it */}
             {/* Jakob dies */}
