@@ -1,8 +1,10 @@
 https://guides.github.com/features/mastering-markdown/
 
 Ctrl + k Ctrl + 0 
+1 yen was equal to 100 sen.
+1 sen was equal to 10 rin.
 
-3 act structure, introduce the main protaganist (one with something they want) and antaganist (the one standing in their way). Use the first act to set up their personalities and wants. Use the 2nd act to reason, act 3 conclusion, get or do not. 
+3 act structure, introduce the main protagonist (one with something they want) and antagonist (the one standing in their way). Use the first act to set up their personalities and wants. Use the 2nd act to reason, act 3 conclusion, get or do not. 
 
 The sleeping pod is now a mat that goes under the bed. first wireless deepVr
 new game / on going game / world jump - no sure yet
