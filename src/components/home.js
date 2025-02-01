@@ -1,6 +1,6 @@
 // Import statements
 import React, { useState } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Cog from "./../assets/cog.png";
 import Munchify from "./../assets/512x512.png";
 import Secret from "./../assets/Group1.png";
@@ -85,7 +85,6 @@ const Language = {
     pubURL: "https://pubgnoc.com/",
     pubTech: "Gatsby, React-Spring, AWS",
     pubTitle: "Pubgnoc",
-    DekkiURL: "https://dekki.com/en/",
     RecipesURL: "https://ottotsumarecipes.netlify.app/",
     SecretURL: "https://secretbox.netlify.app/",
     PokeURL: "https://ottotsuma.netlify.app",
@@ -93,7 +92,7 @@ const Language = {
 };
 
 // Main function
-function Home(props) {
+function Home() {
   // Change window function
   const playSpring = window.screen.width > 590;
   const springGlass = useSpring({
@@ -102,10 +101,10 @@ function Home(props) {
     config: { clamp: true, mass: 2, tension: 60, friction: 20 },
   });
 
-  function change(props) {
-    const win = window.open(props, "_blank");
-    win.focus();
-  }
+  // function change(props) {
+  //   const win = window.open(props, "_blank");
+  //   win.focus();
+  // }
   const [lang, setLang] = useState("en");
   function updateLang() {
     if (lang === "en") {
@@ -162,314 +161,224 @@ function Home(props) {
   // });
 
   return (
-      <GlassWrapper>
-        {show && (
-          <Modal2
-            title={Language[lang].projects}
-            insert={<div>Projects was removed</div>}
-            close={updateShow}
-          />
-        )}
-        {showTimeline && (
-          <Modal2
-            title={`${Language[lang].experience}`}
-            insert={<Timeline />}
-            close={updateTimeline}
-          />
-        )}
-        {showItem1 && (
-          <Modal2
-            title={Language[lang].MunchifyTitle}
-            insert={
-              Language[lang].MunchifyDisc +
-              "\n Made with: " +
-              Language[lang].MunchifyTech
-            }
-            close={updateShowItem1}
-            cancel={Language[lang].Cancel}
-          />
-        )}
-        {showItem6 && (
-          <Modal2
-            title={Language[lang].pubTitle}
-            url={Language[lang].pubURL}
-            insert={
-              Language[lang].pubDisc +
-              "\n Made with: " +
-              Language[lang].pubTech
-            }
-            close={updateShowItem6}
-            cancel={Language[lang].Cancel}
-          />
-        )}
-        {showItem2 && (
-          <Modal2
-            title={Language[lang].CGPCTitle}
-            insert={
-              Language[lang].CGPCDisc + "\n Made with: " + Language[lang].CGPCTech
-            }
-            close={updateShowItem2}
-            cancel={Language[lang].Cancel}
-          />
-        )}
-        {showItem3 && (
-          <Modal2
-            title={Language[lang].DekkiTitle}
-            url={Language[lang].DekkiURL}
-            insert={
-              Language[lang].DekkiDisc +
-              "\n Made with: " +
-              Language[lang].DekkiTech
-            }
-            close={updateShowItem3}
-            cancel={Language[lang].Cancel}
-          />
-        )}
-        {showItem4 && (
-          <Modal2
-            title={Language[lang].SecretTitle}
-            url={Language[lang].SecretURL}
-            insert={
-              Language[lang].SecretDisc +
-              "\n Made with: " +
-              Language[lang].SecretTech
-            }
-            close={updateShowItem4}
-            cancel={Language[lang].Cancel}
-          />
-        )}
-        {showItem5 && (
-          <Modal2
-            title={Language[lang].RecipesTitle}
-            url={Language[lang].RecipesURL}
-            insert={
-              Language[lang].RecipesDisc +
-              "\n Made with: " +
-              Language[lang].RecipesTech
-            }
-            close={updateShowItem5}
-            cancel={Language[lang].Cancel}
-          />
-        )}
-        <Glass style={springGlass}>
-          {/* <Profile2 style={springReverse}>AAA</Profile2> */}
-          <Profile>
-            <NameWrap>
-              <Video />
-              <HiWrapper>
-                <ProfileImage
-                  src="https://ottotsuma.github.io/images/people/05400592ac5ec9dc524baf6939b5609b.jpg"
-                  alt="Profile"
-                  onError={imageError}
-                />
-                <Hi>{Language[lang].hi}</Hi>
-              </HiWrapper>
+    <GlassWrapper>
+      {show && (
+        <Modal2
+          title={Language[lang].projects}
+          insert={<div>Projects was removed</div>}
+          close={updateShow}
+        />
+      )}
+      {showTimeline && (
+        <Modal2
+          title={`${Language[lang].experience}`}
+          insert={<Timeline />}
+          close={updateTimeline}
+        />
+      )}
+      {showItem1 && (
+        <Modal2
+          title={Language[lang].MunchifyTitle}
+          insert={
+            Language[lang].MunchifyDisc +
+            "\n Made with: " +
+            Language[lang].MunchifyTech
+          }
+          close={updateShowItem1}
+          cancel={Language[lang].Cancel}
+        />
+      )}
+      {showItem6 && (
+        <Modal2
+          title={Language[lang].pubTitle}
+          url={Language[lang].pubURL}
+          insert={
+            Language[lang].pubDisc +
+            "\n Made with: " +
+            Language[lang].pubTech
+          }
+          close={updateShowItem6}
+          cancel={Language[lang].Cancel}
+        />
+      )}
+      {showItem2 && (
+        <Modal2
+          title={Language[lang].CGPCTitle}
+          insert={
+            Language[lang].CGPCDisc + "\n Made with: " + Language[lang].CGPCTech
+          }
+          close={updateShowItem2}
+          cancel={Language[lang].Cancel}
+        />
+      )}
+      {showItem3 && (
+        <Modal2
+          title={Language[lang].DekkiTitle}
+          url={Language[lang].DekkiURL}
+          insert={
+            Language[lang].DekkiDisc +
+            "\n Made with: " +
+            Language[lang].DekkiTech
+          }
+          close={updateShowItem3}
+          cancel={Language[lang].Cancel}
+        />
+      )}
+      {showItem4 && (
+        <Modal2
+          title={Language[lang].SecretTitle}
+          url={Language[lang].SecretURL}
+          insert={
+            Language[lang].SecretDisc +
+            "\n Made with: " +
+            Language[lang].SecretTech
+          }
+          close={updateShowItem4}
+          cancel={Language[lang].Cancel}
+        />
+      )}
+      {showItem5 && (
+        <Modal2
+          title={Language[lang].RecipesTitle}
+          url={Language[lang].RecipesURL}
+          insert={
+            Language[lang].RecipesDisc +
+            "\n Made with: " +
+            Language[lang].RecipesTech
+          }
+          close={updateShowItem5}
+          cancel={Language[lang].Cancel}
+        />
+      )}
+      <Glass style={springGlass}>
+        {/* <Profile2 style={springReverse}>AAA</Profile2> */}
+        <Profile>
+          <NameWrap>
+            <Video />
+            <HiWrapper>
+              <ProfileImage
+                src="https://ottotsuma.github.io/images/people/05400592ac5ec9dc524baf6939b5609b.jpg"
+                alt="Profile"
+                onError={imageError}
+              />
+              <Hi>{Language[lang].hi}</Hi>
+            </HiWrapper>
+            <Link2
+              style={{ fontSize: "1.17em" }}
+              onClick={() =>
+                Modal({
+                  insert: (
+                    <div>
+                      <iframe
+                        title="PWA"
+                        width="420"
+                        height="315"
+                        src={YouTubeUrl}
+                      ></iframe>
+                    </div>
+                  ),
+                  cancel: "Close",
+                  title: "PWA Video",
+                })
+              }
+            >
+              {Language[lang].name}
+            </Link2>
+            <StyledButton onClick={() => updateLang()}>
+              {Language[lang].lang}
+            </StyledButton>
+          </NameWrap>
+          <List>
+            <Linkey>
+              <LinkImage
+                onError={imageError}
+                src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+                alt=" "
+              />
+              <AStyled href="https://github.com/ottotsuma" target="_blank">
+                GitHub
+              </AStyled>
+            </Linkey>
+            <Linkey>
+              <LinkImage
+                onError={imageError}
+                src="https://www.pinclipart.com/picdir/middle/75-750874_work-experience-svg-png-icon-free-download-356662.png"
+                alt=" "
+              />
+              <Link2 onClick={() => updateTimeline()}>
+                {Language[lang].experience}
+              </Link2>
+            </Linkey>
+            <Linkey>
+              <LinkImage src={Cog} alt=" " />
               <Link2
-                style={{ fontSize: "1.17em" }}
                 onClick={() =>
                   Modal({
-                    insert: (
-                      <div>
-                        <iframe
-                          width="420"
-                          height="315"
-                          src={YouTubeUrl}
-                        ></iframe>
-                      </div>
-                    ),
+                    insert: Tech(),
                     cancel: "Close",
-                    title: "PWA Video",
+                    title: `${Language[lang].tech}`,
                   })
                 }
               >
-                {Language[lang].name}
+                {Language[lang].tech}
               </Link2>
-              {/* <h3>{Language[lang].name}</h3> */}
-              {/* <h4>ダラー・ショーン</h4> */}
-              <StyledButton onClick={() => updateLang()}>
-                {Language[lang].lang}
-              </StyledButton>
-            </NameWrap>
-            <List>
-              <Linkey>
-                <LinkImage
-                  onError={imageError}
-                  src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
-                  alt=" "
-                />
-                <AStyled href="https://github.com/ottotsuma" target="_blank">
-                  GitHub
-                </AStyled>
-              </Linkey>
-              {/* <Linkey>
-              <LinkImage
-                onError={imageError}
-                src="https://www.pngfind.com/pngs/m/594-5947621_computer-icons-project-project-plan-black-text-project.png"
-                alt=" "
-              />
-              <Link2 onClick={() => updateShow()}>
-                {Language[lang].projects}
-              </Link2>
-            </Linkey> */}
-              <Linkey>
-                <LinkImage
-                  onError={imageError}
-                  src="https://www.pinclipart.com/picdir/middle/75-750874_work-experience-svg-png-icon-free-download-356662.png"
-                  alt=" "
-                />
-                {/* Fake item needs styles! Or change to be like anchor 2 */}
-                {/* <LinkStyled to={"/timeline"}>
-                {Language[lang].experience}
-              </LinkStyled> */}
-                <Link2 onClick={() => updateTimeline()}>
-                  {Language[lang].experience}
-                </Link2>
-              </Linkey>
-              <Linkey>
-                <LinkImage src={Cog} alt=" " />
-                <Link2
-                  onClick={() =>
-                    Modal({
-                      insert: Tech(),
-                      cancel: "Close",
-                      title: `${Language[lang].tech}`,
-                    })
-                  }
-                >
-                  {Language[lang].tech}
-                </Link2>
-              </Linkey>
-              <Linkey>
-                <LinkImage src={'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Font_Awesome_5_solid_book.svg/896px-Font_Awesome_5_solid_book.svg.png'} alt=" " />
-                <Anchor to="/Monad/1">
-                  <p>
-                    {'Light Novel'}
-                  </p>
-                </Anchor>
-              </Linkey>
-            </List>
-            <Anchor2 to="/Blackjack">
-              <p to="/Blackjack" style={{ color: "white" }}>
-                {Language[lang].blackjack}
-              </p>
-            </Anchor2>
-          </Profile>
-          <Right>
-            <HomeImage
-              onError={imageError}
-              src={
-                "https://yt3.ggpht.com/ytc/AAUvwni9DJA2UfBnLyffWzkPZp7yLUJG0RHSf1WXqTEEvg=s176-c-k-c0x00ffffff-no-rj"
-              }
-              alt="LJL"
-              onClick={() => updateShowItem2()}
-            />
-            <HomeImage
-              onError={imageError}
-              src={
-                "https://pubgnoc.com/static/53b73d6ef9cc0945598a9e490e0d4c22/ed7f8/NOClogo_220119ver-04.png"
-              }
-              alt="pubgnoc"
-              onClick={() => updateShowItem6()}
-            />
-            <HomeImage
-              onError={imageError}
-              src={
-                "https://pbs.twimg.com/profile_images/1062990176106905601/s7nYomEa_400x400.jpg"
-              }
-              alt="Dekki"
-              onClick={() => updateShowItem3()}
-            />
-            <HomeImage
-              onClick={() => updateShowItem1()}
-              src={Munchify}
-              alt="Munchify"
-            />
-            <HomeImage
-              src={Secret}
-              alt="Secret Box"
-              onClick={() => updateShowItem4()}
-            />
-            <HomeImage src={Food} onClick={() => updateShowItem5()} alt="Food" />
-            {/* <Box
-            onClick={() =>
-              change("https://github.com/Spring-CC/restaurant-native-app")
-            }
-          >
-            <HomeImage src={Munchify} alt="Technical Skills" />
-            <InnerBox>
-              <h3>{Language[lang].MunchifyTitle}</h3>
-              <Para>{Language[lang].MunchifyDisc}</Para>
-            </InnerBox>
-            <Para>{Language[lang].MunchifyTech}</Para>
-          </Box> */}
-
-            {/* <Box
-            onClick={() =>
-              change("https://www.youtube.com/channel/UCiN3B0QRdL4wn1TMJ_cJyMQ")
-            }
-          >
-            <HomeImage
-              onError={imageError}
-              src={
-                "https://yt3.ggpht.com/ytc/AAUvwni9DJA2UfBnLyffWzkPZp7yLUJG0RHSf1WXqTEEvg=s176-c-k-c0x00ffffff-no-rj"
-              }
-              alt="LJL"
-            />
-            <InnerBox>
-              <h3>{Language[lang].CGPCTitle}</h3>
-              <Para>{Language[lang].CGPCDisc}</Para>
-            </InnerBox>
-            <Para>{Language[lang].CGPCTech}</Para>
-          </Box> */}
-
-            {/* <Box onClick={() => change("https://github.com/ottotsuma/SoloMVP")}>
-            <HomeImage src={Secret} alt="Technical Skills" />
-            <InnerBox>
-              <h3>{Language[lang].SecretTitle}</h3>
-              <Para>{Language[lang].SecretDisc}</Para>
-            </InnerBox>
-            <Para>{Language[lang].SecretTech}</Para>
-          </Box> */}
-
-            {/* <Box onClick={() => change("https://dekki.com/en/?page=1")}>
-            <HomeImage
+            </Linkey>
+            <Linkey>
+              <LinkImage src={'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Font_Awesome_5_solid_book.svg/896px-Font_Awesome_5_solid_book.svg.png'} alt=" " />
+              <Anchor to="/Monad/1">
+                <p>
+                  {'Light Novel'}
+                </p>
+              </Anchor>
+            </Linkey>
+          </List>
+          <Anchor2 to="/Blackjack">
+            <p to="/Blackjack" style={{ color: "white" }}>
+              {Language[lang].blackjack}
+            </p>
+          </Anchor2>
+        </Profile>
+        <Right>
+          <HomeImage
             onError={imageError}
-              src={
-                "https://pbs.twimg.com/profile_images/1062990176106905601/s7nYomEa_400x400.jpg"
-              }
-              alt="Dekki"
-            />
-            <InnerBox>
-              <h3>{Language[lang].DekkiTitle}</h3>
-              <Para>{Language[lang].DekkiDisc}</Para>
-            </InnerBox>
-            <Para>{Language[lang].DekkiTech}</Para>
-          </Box> */}
-            {/* <Box
-            onClick={() => change("https://github.com/ottotsuma/React-App2")}
-          >
-            <HomeImage src={Food} alt="Technical Skills" />
-            <InnerBox>
-              <h3>{Language[lang].RecipesTitle}</h3>
-              <Para>{Language[lang].RecipesDisc}</Para>
-            </InnerBox>
-            <Para>{Language[lang].RecipesTech}</Para>
-          </Box> */}
-            {/* <Box
-            onClick={() => change("https://github.com/ottotsuma/React-App2")}
-          >
-            <HomeImage src={Food} alt="Technical Skills" onError={imageError} />
-            <InnerBox>
-              <h3>{Language[lang].RecipesTitle}</h3>
-              <Para>{Language[lang].RecipesDisc}</Para>
-            </InnerBox>
-            <Para>{Language[lang].RecipesTech}</Para>
-          </Box> */}
-          </Right>
-        </Glass>
-        <Circle1 />
-        <Circle2 />
-      </GlassWrapper>
+            src={
+              "https://yt3.ggpht.com/ytc/AAUvwni9DJA2UfBnLyffWzkPZp7yLUJG0RHSf1WXqTEEvg=s176-c-k-c0x00ffffff-no-rj"
+            }
+            alt="LJL"
+            onClick={() => updateShowItem2()}
+          />
+          <HomeImage
+            onError={imageError}
+            src={
+              "https://pubgnoc.com/static/53b73d6ef9cc0945598a9e490e0d4c22/ed7f8/NOClogo_220119ver-04.png"
+            }
+            alt="pubgnoc"
+            onClick={() => updateShowItem6()}
+          />
+          <HomeImage
+            onError={imageError}
+            src={
+              "https://pbs.twimg.com/profile_images/1062990176106905601/s7nYomEa_400x400.jpg"
+            }
+            alt="Dekki"
+            onClick={() => updateShowItem3()}
+          />
+          <HomeImage
+            onClick={() => updateShowItem1()}
+            src={Munchify}
+            alt="Munchify"
+          />
+          <HomeImage
+            src={Secret}
+            alt="Secret Box"
+            onClick={() => updateShowItem4()}
+          />
+          <HomeImage src={Food} onClick={() => updateShowItem5()} alt="Food" />
+        </Right>
+      </Glass>
+      <Circle1 />
+      <Circle2 />
+    </GlassWrapper>
   );
 }
 export default Home;
@@ -560,17 +469,6 @@ const AStyled = styled.a`
   }
 `;
 
-const LinkStyled = styled(Link)`
-  color: black;
-  // background: #0d89eb;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  &:hover {
-    background: #2ca8ff;
-  }
-`;
 const Anchor = styled(Link)`
   // fake link!
   color: black;
@@ -620,49 +518,6 @@ const breatheAnimation = keyframes`
  100% { height: 100px; width: 100px; opacity: 0.6; }
 `;
 
-const Para = styled.p`
-  padding: 1px;
-  @media screen and (max-width: 880px) {
-    display: none;
-  }
-`;
-
-const InnerBox = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-`;
-
-const Box = styled.div`
-  /* border-style: solid; */
-  cursor: pointer;
-  color: black;
-  background: linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 0.9),
-    rgba(255, 255, 255, 0.6)
-  );
-  width: 85%;
-  height: 25%;
-  border-radius: 1rem;
-  box-shadow: 6px 3px 3px rgb(58, 58, 58, 0.1);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  &:active {
-    box-shadow: 3px 1px 1px rgb(58, 58, 58, 0.1);
-  }
-  &:hover {
-    background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.9)
-    );
-  }
-`;
-
 const Linkey = styled.div`
   display: flex;
   flex-direction: row;
@@ -702,18 +557,18 @@ const Right = styled.div`
   }
 `;
 
-const Profile2 = styled(animated.div)`
-background: linear-gradient(
-  0deg,
-  rgba(255, 255, 255, 0.9),
-  rgba(255, 255, 255, 0.5)
-);
-min-height: 80vh;
-min-width: 250px;
-display: flex;
-border-radius: 2rem;
-z-index: 3;
-`;
+// const Profile2 = styled(animated.div)`
+// background: linear-gradient(
+//   0deg,
+//   rgba(255, 255, 255, 0.9),
+//   rgba(255, 255, 255, 0.5)
+// );
+// min-height: 80vh;
+// min-width: 250px;
+// display: flex;
+// border-radius: 2rem;
+// z-index: 3;
+// `;
 
 const Profile = styled.div`
   background: linear-gradient(
