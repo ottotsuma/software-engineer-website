@@ -45,11 +45,11 @@ export default function CustomizedTimeline() {
           <TimelineContent>
             <Paper elevation={3} className={classes.paper}>
               <Typography variant="h6" className="timelineTitle">
-                Lead Engineer
+              Software Engineering Manager
               </Typography>
               <Typography>Gruuw</Typography>
               <Typography variant="body2" color="textSecondary">
-                2022 August - Present
+                2022 - Present
               </Typography>
             </Paper>
           </TimelineContent>
@@ -69,12 +69,12 @@ export default function CustomizedTimeline() {
               </Typography>
               <Typography>PlayBrain</Typography>
               <Typography variant="body2" color="textSecondary">
-                2020 March - 2022 August 
+                2020 - 2022 
               </Typography>
             </Paper>
           </TimelineContent>
         </TimelineItem>
-        <TimelineItem>
+        {/* <TimelineItem>
           <TimelineOppositeContent></TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot color="primary" className={classes.blueDot}>
@@ -93,7 +93,7 @@ export default function CustomizedTimeline() {
               </Typography>
             </Paper>
           </TimelineContent>
-        </TimelineItem>
+        </TimelineItem> */}
         <TimelineItem>
           <TimelineOppositeContent></TimelineOppositeContent>
           <TimelineSeparator>
@@ -109,7 +109,7 @@ export default function CustomizedTimeline() {
               </Typography>
               <Typography>Digital Hearts</Typography>
               <Typography variant="body2" color="textSecondary">
-                2019 Nov - 2020 March
+                2019 - 2020
               </Typography>
             </Paper>
           </TimelineContent>
@@ -125,11 +125,11 @@ export default function CustomizedTimeline() {
           <TimelineContent>
             <Paper elevation={3} className={classes.paper}>
               <Typography variant="h6" className="timelineTitle">
-                Support Engineer
+                Support Engineer (Part-Time)
               </Typography>
               <Typography>Planet Works</Typography>
               <Typography variant="body2" color="textSecondary">
-                2019 July - 2020 March
+                2019 - 2020
               </Typography>
             </Paper>
           </TimelineContent>
@@ -149,32 +149,12 @@ export default function CustomizedTimeline() {
               </Typography>
               <Typography>Japanese Language School</Typography>
               <Typography variant="body2" color="textSecondary">
-                2018 August - 2019 January
+                2018 - 2019
               </Typography>
             </Paper>
           </TimelineContent>
         </TimelineItem>
-        <TimelineItem>
-          <TimelineOppositeContent></TimelineOppositeContent>
-          <TimelineSeparator>
-            <TimelineDot color="secondary">
-              <LaptopMacIcon />
-            </TimelineDot>
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent>
-            <Paper elevation={3} className={classes.paper}>
-              <Typography variant="h6" className="timelineTitle">
-                Science Teacher
-              </Typography>
-              <Typography>Wiltshire Education Department</Typography>
-              <Typography variant="body2" color="textSecondary">
-                2017 July - 2018 July
-              </Typography>
-            </Paper>
-          </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
+        {/* <TimelineItem>
           <TimelineOppositeContent></TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot color="primary" className={classes.blueDot}>
@@ -193,61 +173,21 @@ export default function CustomizedTimeline() {
               </Typography>
             </Paper>
           </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineOppositeContent></TimelineOppositeContent>
+        </TimelineItem> */}
+                <TimelineItem>
           <TimelineSeparator>
-            <TimelineDot color="secondary">
-              <LaptopMacIcon />
+            <TimelineDot color="primary">
+              <RepeatIcon />
             </TimelineDot>
-            <TimelineConnector />
           </TimelineSeparator>
           <TimelineContent>
             <Paper elevation={3} className={classes.paper}>
               <Typography variant="h6" className="timelineTitle">
-                Teaching Assistant
+                University of Portsmouth
               </Typography>
-              <Typography>Wiltshire Education Department</Typography>
+              <Typography>Research Physicist</Typography>
               <Typography variant="body2" color="textSecondary">
-                2015 September - 2016 September
-              </Typography>
-            </Paper>
-          </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineSeparator>
-            <TimelineDot color="secondary">
-              <LaptopMacIcon />
-            </TimelineDot>
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent>
-            <Paper elevation={3} className={classes.paper}>
-              <Typography variant="h6" className="timelineTitle">
-                Technical Sales Engineer
-              </Typography>
-              <Typography>Simplex-Turbulo</Typography>
-              <Typography variant="body2" color="textSecondary">
-                2015 Febuary - 2015 September
-              </Typography>
-            </Paper>
-          </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineSeparator>
-            <TimelineDot color="secondary">
-              <LaptopMacIcon />
-            </TimelineDot>
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent>
-            <Paper elevation={3} className={classes.paper}>
-              <Typography variant="h6" className="timelineTitle">
-                Web & Research Engineer
-              </Typography>
-              <Typography>Serum Hydraulics</Typography>
-              <Typography variant="body2" color="textSecondary">
-                2014 July - 2015 February
+                2012 - 2019
               </Typography>
             </Paper>
           </TimelineContent>
@@ -265,7 +205,7 @@ export default function CustomizedTimeline() {
               </Typography>
               <Typography>BSc in Physics</Typography>
               <Typography variant="body2" color="textSecondary">
-                2011 September - 2014 September
+                2011 - 2014
               </Typography>
             </Paper>
           </TimelineContent>
