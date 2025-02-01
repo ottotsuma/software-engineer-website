@@ -293,7 +293,7 @@ function Home() {
               <LinkImage
                 onError={imageError}
                 src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
-                alt=" "
+                alt="GitHub"
               />
               <AStyled href="https://github.com/ottotsuma" target="_blank">
                 GitHub
@@ -303,14 +303,14 @@ function Home() {
               <LinkImage
                 onError={imageError}
                 src="https://www.pinclipart.com/picdir/middle/75-750874_work-experience-svg-png-icon-free-download-356662.png"
-                alt=" "
+                alt="Experience"
               />
               <Link2 onClick={() => updateTimeline()}>
                 {Language[lang].experience}
               </Link2>
             </Linkey>
             <Linkey>
-              <LinkImage src={Cog} alt=" " />
+              <LinkImage src={Cog} alt="Tech" />
               <Link2
                 onClick={() =>
                   Modal({
@@ -324,7 +324,7 @@ function Home() {
               </Link2>
             </Linkey>
             <Linkey>
-              <LinkImage src={'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Font_Awesome_5_solid_book.svg/896px-Font_Awesome_5_solid_book.svg.png'} alt=" " />
+              <LinkImage src={'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Font_Awesome_5_solid_book.svg/896px-Font_Awesome_5_solid_book.svg.png'} alt="Light Novel" />
               <Anchor to="/Monad/1">
                 <p>
                   {'Light Novel'}
