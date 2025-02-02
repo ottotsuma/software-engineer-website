@@ -265,17 +265,14 @@ function CalculateSpeciesStats({
       raceStats.forEach((raceStat) => {
         const statValue = racesList[baseStats.species].stats[raceStat];
         if (keys.includes(raceStat.slice(0, -10))) {
-          console.log(raceStat, statValue)
           // Handle other stats with multipliers
           const statKey = raceStat.slice(0, -10);
           MultiplierStats[statKey] = MultiplierStats[statKey] || 1;
           MultiplierStats[statKey] *= statValue;
         } else if (typeof statValue === "number") {
-          console.log(raceStat, statValue)
           // If it's a number, directly add it to baseStats
           FlatStats[raceStat] = (baseStats[raceStat] || 0) + statValue;
         } else if (typeof statValue === "string" && statValue.includes("*")) {
-          console.log(raceStat, statValue)
           // If it's a multiplier in string format (e.g., "*1.1"), parse and add to multipliers
           const multiplierValue = parseFloat(statValue.substring(1));
           MultiplierStats[raceStat] = MultiplierStats[raceStat] || 1;
@@ -322,7 +319,6 @@ function getClassModifiers({ baseStats }) {
         const statKey = classStat.slice(0, -10);
 
         if (keys.includes(statKey)) {
-          console.log(classStat, statValue);
           // Handle other stats with multipliers
           ClassMultiplierStats[statKey] = (ClassMultiplierStats[statKey] || 1) * statValue;
         } else if (typeof statValue === "number") {
@@ -340,7 +336,7 @@ function getClassModifiers({ baseStats }) {
           ClassMultiplierStats[classStat] = (ClassMultiplierStats[classStat] || 1) * (statValue.multiplier || 1);
           ClassFlatStats[classStat] = (ClassFlatStats[classStat] || 0) + (statValue.flat || 0);
         } else {
-          console.log("Missing Stat", classStat, statValue, typeof statValue);
+          console.log("Missing Class Stat", classStat, statValue, typeof statValue);
         }
       });
     }
@@ -437,7 +433,7 @@ function getItemStatsModifiers(items, baseStats) {
             const multiplierValue = parseFloat(statValue.substring(1));
             MultiplierStats[itemStat] = (MultiplierStats[itemStat] || 1) * multiplierValue;
           } else {
-            console.log('Missing Stat', itemStat, statValue, typeof statValue);
+            console.log('Missing Item Stat', itemStat, statValue, typeof statValue);
           }
         });
       }
@@ -483,7 +479,7 @@ function getTitleStatsModifiers(equippedTitle, baseStats) {
           const multiplierValue = parseFloat(statValue.substring(1));
           MultiplierStats[titleStat] = (MultiplierStats[titleStat] || 1) * multiplierValue;
         } else {
-          console.log('Missing Stat', titleStat, statValue, typeof statValue);
+          console.log('Missing Title Stat', titleStat, statValue, typeof statValue);
         }
       });
     }
@@ -516,7 +512,6 @@ function calculateFinalStats(baseStats, flatStats, multiplierStats) {
       finalStats[stat] = baseValue || flatValue;
     }
   });
-  console.log(finalStats)
   return finalStats;
 }
 
@@ -560,7 +555,6 @@ function Stats({
   if (baseStats["HP"] < 100) {
     baseStats["HP"] = 100;
   }
-  console.log(baseStats["HP"], 'shaun HP after')
   let flatStats = {};
   let multiplierStats = {}
   let keys = Object.keys(baseStats);
