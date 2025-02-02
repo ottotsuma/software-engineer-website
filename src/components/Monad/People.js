@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { ItemList } from "../elements/item";
 import Stats from "../elements/stats";
 import SpellCards from "./SpellCards";

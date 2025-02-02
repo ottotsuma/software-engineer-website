@@ -1,6 +1,6 @@
 import React from "react";
 // import styled from "styled-components";
-import Spells, { spellList, ListOfMagicTypes } from "./spells";
+import Spells from "./spells";
 // import { colors, monadColors, textColors } from "./../elements/colors";
 // import { _try, imageError } from "./../elements/util";
 import SpellCards from "./../Monad/SpellCards";

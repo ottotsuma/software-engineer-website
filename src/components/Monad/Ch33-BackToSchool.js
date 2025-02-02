@@ -10,7 +10,7 @@ import Demon1 from "./../../assets/1.jpg";
 import Demon2 from "./../../assets/2.jpg";
 import Demon3 from "./../../assets/3.jpg";
 import { Content } from "./styles";
-import Hover from "../elements/hover";
+// import Hover from "../elements/hover";
 function Intro(props) {
   return (
     <Content>

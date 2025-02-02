@@ -5,7 +5,7 @@ import { racesList } from "./species";
 import { classList } from "./classes";
 import { ItemList } from "./item";
 import { placeList } from "./places";
-import { titlesList } from "./titles"
+// import { titlesList } from "./titles"
 // import { PersonsList } from "./people"
 // const { PersonsList } = await import('./PersonsList');
 
@@ -16,25 +16,25 @@ import { titlesList } from "./titles"
 // classList => spellList
 // placeList
 
-function populateReferences() {
-  // Populate references in spellList
-  for (const spell of Object.values(spellList)) {
-    spell.places = Object.values(placeList).filter(place => place.spells.includes(spell));
-    spell.items = Object.values(ItemList).filter(item => item.spells.includes(spell));
-  }
+// function populateReferences() {
+//   // Populate references in spellList
+//   for (const spell of Object.values(spellList)) {
+//     spell.places = Object.values(placeList).filter(place => place.spells.includes(spell));
+//     spell.items = Object.values(ItemList).filter(item => item.spells.includes(spell));
+//   }
 
-  // Populate references in placeList
-  for (const place of Object.values(placeList)) {
-    place.spells = Object.values(spellList).filter(spell => spell.places.includes(place));
-    place.items = Object.values(ItemList).filter(item => item.places.includes(place));
-  }
+//   // Populate references in placeList
+//   for (const place of Object.values(placeList)) {
+//     place.spells = Object.values(spellList).filter(spell => spell.places.includes(place));
+//     place.items = Object.values(ItemList).filter(item => item.places.includes(place));
+//   }
 
-  // Populate references in ItemList
-  for (const item of Object.values(ItemList)) {
-    item.spells = Object.values(spellList).filter(spell => item.spells.includes(spell));
-    item.places = Object.values(placeList).filter(place => item.places.includes(place));
-  }
-}
+//   // Populate references in ItemList
+//   for (const item of Object.values(ItemList)) {
+//     item.spells = Object.values(spellList).filter(spell => item.spells.includes(spell));
+//     item.places = Object.values(placeList).filter(place => item.places.includes(place));
+//   }
+// }
 
 // Find key in an object ignoring case
 export function findKeyIgnoreCase(obj, name) {

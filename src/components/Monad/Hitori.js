@@ -1,14 +1,14 @@
-import React, { useState } from "react";
-import Item from "./../elements/item";
-import styled from "styled-components";
-import { Content, Shine } from "./styles";
-import Spin from "./../elements/spin";
-import Quest from "./../elements/quest";
-import LevelUp from "./../elements/levelup";
-import Otto, { Hitori as HitoriStats }  from "./People";
-import Equipment from "./../elements/equipment";
-import Stats from "./../elements/stats";
-import Spells from "./../elements/spells";
+import React from "react";
+// import Item from "./../elements/item";
+// import styled from "styled-components";
+import { Content } from "./styles";
+// import Spin from "./../elements/spin";
+// import Quest from "./../elements/quest";
+// import LevelUp from "./../elements/levelup";
+import { Hitori as HitoriStats } from "./People";
+// import Equipment from "./../elements/equipment";
+// import Stats from "./../elements/stats";
+// import Spells from "./../elements/spells";
 import { Hitori } from "./CharacterFonts";
 import SpellCards from "./SpellCards";
 

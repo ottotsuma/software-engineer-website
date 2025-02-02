@@ -1,4 +1,4 @@
-import { racesList } from './../elements/species'
+// import { racesList } from './../elements/species'
 // const PossibleSpecies = Object.keys(racesList).sort((a, b) => a[0].localeCompare(b[0]));
 
 export const placeList = {
@@ -38,7 +38,7 @@ export const placeList = {
       Alden: {
         // monsters: [racesList.],
         name: "Alden",
-        images:['https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-41/fmg_tile_14.png'],
+        images: ['https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-41/fmg_tile_14.png'],
         "full name": "Grand Duchy of Alden",
         government: "Grand Duchy",
         description: "Found by a rebellious witch with the backing of the lords of the region during the collapse of the Pocotcotco empire.",
@@ -59,12 +59,12 @@ export const placeList = {
           `,
         cities: {
           Todtenwei: {
-            images:['https://ottotsuma.github.io/images/map/todtenwei.png'],
+            images: ['https://ottotsuma.github.io/images/map/todtenwei.png'],
             name: 'Todtenwei',
             map: 272082858,
           },
           Steinauhau: {
-            images:['https://ottotsuma.github.io/images/map/steinauhau.png'],
+            images: ['https://ottotsuma.github.io/images/map/steinauhau.png'],
             map: 5628570730133,
             link: "https://watabou.github.io/city-generator/?size=18&seed=5628570730133&name=Steinauhau&population=6901&greens=1&farms=1&citadel=1&urban_castle=1&plaza=1&temple=0&walls=1&shantytown=1&coast=0&river=0&gates=-1",
             description: 'A north western town in the country of Alden.',
@@ -120,7 +120,7 @@ export const placeList = {
           'Alden (city)': {
             name: 'Alden (city)',
             map: 839360670,
-            images:['https://ottotsuma.github.io/images/map/alden.png']
+            images: ['https://ottotsuma.github.io/images/map/alden.png']
           },
           Savigal: {
             map: 640470293
@@ -374,7 +374,7 @@ export const placeList = {
       `
       },
       Desert: {
-      // Desert (Monsters) - They are monsters. It's hard to say.
+        // Desert (Monsters) - They are monsters. It's hard to say.
         "full name": "Desert",
         name: "Desert",
         description: "Sand",

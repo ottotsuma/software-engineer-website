@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components';
-import {monadColors as colors} from './colors'
+import { monadColors as colors } from './colors'
 
 export default function Quest(props) {
   const [spanCSS, SetSpanCSS] = useState(false);
@@ -9,17 +9,17 @@ export default function Quest(props) {
   if (props.complete) {
     return (
       <Main>
-      <CardNoImage>
-        <Title color={colors[props.rating]}>Quest Completed!</Title>
-        {!spanCSS && <Name>{props.name}</Name>}
-        {!spanCSS && <Rewards>Rewards: {props.rewards}</Rewards>}
-        {spanCSS && <Span>{props.details}</Span>}
-        <ButtonWrapper>
-          {props.details ? <ButtonDetails onClick={() => SetSpanCSS(!spanCSS)}>Details</ButtonDetails> : <div></div>}
-          {accept ? <Accepted>Received</Accepted> : <Button onClick={()=>setAccept(true)}>Reward!</Button>}
-        </ButtonWrapper>
-      </CardNoImage>
-    </Main>
+        <CardNoImage>
+          <Title color={colors[props.rating]}>Quest Completed!</Title>
+          {!spanCSS && <Name>{props.name}</Name>}
+          {!spanCSS && <Rewards>Rewards: {props.rewards}</Rewards>}
+          {spanCSS && <Span>{props.details}</Span>}
+          <ButtonWrapper>
+            {props.details ? <ButtonDetails onClick={() => SetSpanCSS(!spanCSS)}>Details</ButtonDetails> : <div></div>}
+            {accept ? <Accepted>Received</Accepted> : <Button onClick={() => setAccept(true)}>Reward!</Button>}
+          </ButtonWrapper>
+        </CardNoImage>
+      </Main>
     )
   } else {
     return (
@@ -31,7 +31,7 @@ export default function Quest(props) {
           {spanCSS && <Span>{props.details}</Span>}
           <ButtonWrapper>
             {props.details ? <ButtonDetails onClick={() => SetSpanCSS(!spanCSS)}>Details</ButtonDetails> : <div></div>}
-            {accept ? <Accepted>Accepted</Accepted> : <Button onClick={()=>setAccept(true)}>Okay</Button>}
+            {accept ? <Accepted>Accepted</Accepted> : <Button onClick={() => setAccept(true)}>Okay</Button>}
           </ButtonWrapper>
         </CardNoImage>
       </Main>
@@ -120,14 +120,14 @@ const Title = styled.p`
   color: ${props => props.color || 'white'}
 `;
 
-const SingleStat = styled.li`
-  text-transform: capitalize;
-  border-radius: 6px;
-  padding: 1px;
-  width: auto;
-  display: flex;
-  justify-content: space-between;
-`;
+// const SingleStat = styled.li`
+//   text-transform: capitalize;
+//   border-radius: 6px;
+//   padding: 1px;
+//   width: auto;
+//   display: flex;
+//   justify-content: space-between;
+// `;
 
 const BottomText = styled.div`
   width: ${props => props.width || '300px'};
@@ -152,20 +152,20 @@ const Span = styled.div`
   top: 0;
 `;
 
-const Card = styled.div`
-position:relative; /* important */
-  width: ${props => props.width || '300px'};
-  height: ${props => props.height || '300px'};
-  background-image: url(${props => props.src || 'http://assets.stickpng.com/thumbs/5a461418d099a2ad03f9c999.png'});
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-  border-radius: 3px;
-  margin-bottom: 10px;
-  &:hover ${BottomText} {
-    max-height:50%; /* important */
-  }
-`;
+// const Card = styled.div`
+// position:relative; /* important */
+//   width: ${props => props.width || '300px'};
+//   height: ${props => props.height || '300px'};
+//   background-image: url(${props => props.src || 'http://assets.stickpng.com/thumbs/5a461418d099a2ad03f9c999.png'});
+//   background-position: center; /* Center the image */
+//   background-repeat: no-repeat; /* Do not repeat the image */
+//   background-size: cover; /* Resize the background image to cover the entire container */
+//   border-radius: 3px;
+//   margin-bottom: 10px;
+//   &:hover ${BottomText} {
+//     max-height:50%; /* important */
+//   }
+// `;
 
 const CardNoImage = styled.div`
 position:relative; /* important */

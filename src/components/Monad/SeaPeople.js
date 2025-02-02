@@ -1,20 +1,20 @@
-import React, { useState } from "react";
-import Item from "./../elements/item";
-import styled from "styled-components";
-import { Content, Shine } from "./styles";
-import Spin from "./../elements/spin";
+import React from "react";
+// import Item from "./../elements/item";
+// import styled from "styled-components";
+import { Content } from "./styles";
+// import Spin from "./../elements/spin";
 import Quest from "./../elements/quest";
 import LevelUp from "./../elements/levelup";
-import Otto, {
+import {
   Noah as NoahStats,
   Sarah as SarahStats,
   Josh as JoshStats,
 } from "./People";
-import Equipment from "./../elements/equipment";
-import Stats from "./../elements/stats";
+// import Equipment from "./../elements/equipment";
+// import Stats from "./../elements/stats";
 import Spells from "./../elements/spells";
 import Blood from "./../../assets/Blood.jpg";
-import { Sarah, Josh, Juan, Noah } from "./CharacterFonts";
+import { Sarah, Josh, Juan } from "./CharacterFonts";
 
 export default function SeaPeopleFunction(props) {
   return typeof props === "number"

@@ -1,31 +1,28 @@
 import React from 'react';
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
   Link
 } from "react-router-dom";
 import styled from 'styled-components'
-import {myFunction, droppy} from './Monad/Index'
+import { myFunction, droppy } from './Monad/Index'
 // import SpinWheel from './SpinWheel'
 
 function Nav() {
   return (
     <NavigationBar>
-        <LinkStyled  to="/">Home</LinkStyled>
-        {/* <LinkStyled  to="/timeline">Experience</LinkStyled> */}
-        {/* <LinkStyled  to="/tech">Technical Skills</LinkStyled> */}
-        <AStyled  href = 'https://github.com/ottotsuma' target = "_blank">GitHub</AStyled>
-        {/* <LinkStyled  to="/Blackjack">Blackjack</LinkStyled> */}
+      <LinkStyled to="/">Home</LinkStyled>
+      {/* <LinkStyled  to="/timeline">Experience</LinkStyled> */}
+      {/* <LinkStyled  to="/tech">Technical Skills</LinkStyled> */}
+      <AStyled href='https://github.com/ottotsuma' target="_blank">GitHub</AStyled>
+      {/* <LinkStyled  to="/Blackjack">Blackjack</LinkStyled> */}
       {/* <LinkStyled  to="/Monad/1">Monad</LinkStyled> */}
       <div className="dropdown">
-          <ButtonStyled onClick={() => myFunction()} className="">
-            Monad
-          </ButtonStyled>
-          <div id="myDropdown" className="dropdown-content">
-            {droppy()}
-          </div>
+        <ButtonStyled onClick={() => myFunction()} className="">
+          Monad
+        </ButtonStyled>
+        <div id="myDropdown" className="dropdown-content">
+          {droppy()}
         </div>
+      </div>
     </NavigationBar>
   );
 }

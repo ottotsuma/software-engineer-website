@@ -322,16 +322,16 @@ function getClassModifiers({ baseStats }) {
           // Handle other stats with multipliers
           ClassMultiplierStats[statKey] = (ClassMultiplierStats[statKey] || 1) * statValue;
         } else if (typeof statValue === "number") {
-          console.log(classStat, statValue);
+
           // If it's a number, directly add it to baseStats
           ClassFlatStats[classStat] = (ClassFlatStats[classStat] || 0) + statValue;
         } else if (typeof statValue === "string" && statValue.includes("*")) {
-          console.log(classStat, statValue);
+
           // If it's a multiplier in string format (e.g., "*1.1"), parse and add to multipliers
           const multiplierValue = parseFloat(statValue.substring(1));
           ClassMultiplierStats[classStat] = (ClassMultiplierStats[classStat] || 1) * multiplierValue;
         } else if (typeof statValue === "object") {
-          console.log(classStat, statValue);
+
           // If it's an object, handle flat and multiplier separately
           ClassMultiplierStats[classStat] = (ClassMultiplierStats[classStat] || 1) * (statValue.multiplier || 1);
           ClassFlatStats[classStat] = (ClassFlatStats[classStat] || 0) + (statValue.flat || 0);
@@ -748,7 +748,6 @@ function Stats({
       );
     }
   }
-  // Misc - Shaun - Missing in new build
   const MiscKeys = Object.keys(finalStats).filter(val => !keys.includes(val))
   if (MiscKeys.length > 0) {
 
@@ -792,6 +791,7 @@ function Stats({
       }).filter(((a) => a !== undefined)) : '';
       // skills
 
+      // title overwrite should be added if we want to use the title descriptions 
       const spamOverwrite = ClassOverwrite + SpeciesOverwrite + SkillsOverwrite + ItemOverwrite
 
       const spam = statList[MiscKeys[index]];
