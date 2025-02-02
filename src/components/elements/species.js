@@ -614,8 +614,8 @@ export const racesList = {
     "stats": {
       "magic": 2,
       "willpower": 2,
-      "HPMultiplier": -0.1,
-      "MPMultiplier": 1.1
+      HP: { multiplier: 0.9 },
+      MP: { multiplier: 1.1 },
     },
     "self": "Fire Resistance +1%",
     "image": "https://images.squarespace-cdn.com/content/v1/57d34a6d725e254062172fe9/1579643445519-XXWBWFTZIZ23TNWBECJI/thumbnail_phoenix+rising.jpg",
@@ -634,8 +634,8 @@ export const racesList = {
       "strength": 3,
       "vitality": 1,
       "dexterity": -1,
-      "HPMultiplier": 1.1,
-      "MPMultiplier": -0.1
+      HP: { multiplier: 1.1 },
+      MP: { multiplier: 0.9 },
     },
     "self": "",
     "image": "",

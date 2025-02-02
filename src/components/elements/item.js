@@ -60,7 +60,7 @@ export const ItemList = {
     description:
       "Reduces physical damage taken by 10%, except spears. Endurance +1, Endurance +10%.",
     rating: "epic",
-    stats: { endurance: 1, enduranceMultiplier: 1.1 },
+    stats: { endurance: { flat: 1, multiplier: 1.1 } },
     note: "",
     type: "armour",
   },
@@ -164,7 +164,7 @@ export const ItemList = {
     stats: { endurance: 0.9, HP: 217 },
     1: {
       description: "HP + 22, endurance + 0.9",
-      stats: {endurance: 0.9, HP: 22}
+      stats: { endurance: 0.9, HP: 22 }
     },
     note: "",
     type: "set effect",
@@ -774,7 +774,7 @@ export const ItemList = {
     stats: {},
     note: "Jokotō (ancient swords, until around A.D. 900), https://en.wikipedia.org/wiki/Wakizashi",
     type: "sword",
-  }, 
+  },
   "Seifuku": {
     name: "Seifuku",
     description: "High school sailor outfit worn by female students of Niyosho.",
@@ -795,29 +795,29 @@ export const ItemList = {
     name: "Autumn Cloak",
     description: "Once a day you can cause the leaves on this cloak to swirl around you, obscuring you from sight for one minute.",
     rating: "rare",
-    image:"https://ottotsuma.github.io/images/items/AutumnCloak.jpg",
+    image: "https://ottotsuma.github.io/images/items/AutumnCloak.jpg",
     stats: {},
     note: "",
     type: "Cloak",
-  }, 
-//   The following are types of Japanese swords:
-// Tsurugi/Ken (剣, "sword"): A straight two edged sword that was mainly produced prior to the 10th century. Before the 10th century, they completely disappeared as weapons and came to be made only as offerings to Shinto shrines and Buddhist temples.
-// Chokutō (直刀, "straight sword"): A straight single edged sword that was mainly produced prior to the 10th century. Since the 10th century, they disappeared as weapons and came to be made only as offerings to Shinto shrines and Buddhist temples.
-// Tachi (太刀, "long sword"): A sword that is generally longer and more curved than the later katana, with curvature often centered from the middle or towards the tang, and often including the tang. Tachi were worn suspended, with the edge downward. The tachi was in vogue before the 15th century.
-// Kodachi (小太刀, "small Tachi"): A shorter version of the tachi, but with similar mounts and intended use, mostly found in the 13th century or earlier.
-// Ōdachi (大太刀, "big Tachi")/Nodachi (野太刀, "field Tachi"): Very large tachi, some in excess of 90 cm, and usually a blade of the late 14th century.
-// Nagamaki (長巻, "long wrapping"): A sword with an exceptionally long handle, usually about as long as the blade. The name refers to the length of the handle wrapping.[1]
-// Katana (刀, "sword"): A sword with a curved blade longer than 60 cm (there is no upper length limit but generally they are shorter than 90 cm), worn with the edge upwards in the sash. It was developed from sasuga, a kind of tantō, around the 14th century, and became the mainstream replacing tachi from the 15th century.
-// Wakizashi (脇差, "side inserted [sword]"): A general term for a sword between one and two shaku long (30 cm and 60 cm in modern measurement), predominantly made after 1600. Generally it is the short blade that accompanies a katana in the traditional samurai daisho pairing of swords, but may be worn by classes other than the samurai as a single blade, also worn edge up as the katana. The name derives from the way the sword would be stuck at one's side through the obi (sash/belt).[8]
-// Tantō (短刀, "short blade"): A sword with a blade shorter than 30 cm. Tantō is generally classified as a sword, but its usage is the same as that of a knife. Usually one-edged, but some were double-edged, through asymmetrical.
-// There are bladed weapons made in the same traditional manner as Japanese swords, which are not swords, but which are still Japanese sword (nihontō) (as "tō" means "blade", rather than specifically "sword"):
+  },
+  //   The following are types of Japanese swords:
+  // Tsurugi/Ken (剣, "sword"): A straight two edged sword that was mainly produced prior to the 10th century. Before the 10th century, they completely disappeared as weapons and came to be made only as offerings to Shinto shrines and Buddhist temples.
+  // Chokutō (直刀, "straight sword"): A straight single edged sword that was mainly produced prior to the 10th century. Since the 10th century, they disappeared as weapons and came to be made only as offerings to Shinto shrines and Buddhist temples.
+  // Tachi (太刀, "long sword"): A sword that is generally longer and more curved than the later katana, with curvature often centered from the middle or towards the tang, and often including the tang. Tachi were worn suspended, with the edge downward. The tachi was in vogue before the 15th century.
+  // Kodachi (小太刀, "small Tachi"): A shorter version of the tachi, but with similar mounts and intended use, mostly found in the 13th century or earlier.
+  // Ōdachi (大太刀, "big Tachi")/Nodachi (野太刀, "field Tachi"): Very large tachi, some in excess of 90 cm, and usually a blade of the late 14th century.
+  // Nagamaki (長巻, "long wrapping"): A sword with an exceptionally long handle, usually about as long as the blade. The name refers to the length of the handle wrapping.[1]
+  // Katana (刀, "sword"): A sword with a curved blade longer than 60 cm (there is no upper length limit but generally they are shorter than 90 cm), worn with the edge upwards in the sash. It was developed from sasuga, a kind of tantō, around the 14th century, and became the mainstream replacing tachi from the 15th century.
+  // Wakizashi (脇差, "side inserted [sword]"): A general term for a sword between one and two shaku long (30 cm and 60 cm in modern measurement), predominantly made after 1600. Generally it is the short blade that accompanies a katana in the traditional samurai daisho pairing of swords, but may be worn by classes other than the samurai as a single blade, also worn edge up as the katana. The name derives from the way the sword would be stuck at one's side through the obi (sash/belt).[8]
+  // Tantō (短刀, "short blade"): A sword with a blade shorter than 30 cm. Tantō is generally classified as a sword, but its usage is the same as that of a knife. Usually one-edged, but some were double-edged, through asymmetrical.
+  // There are bladed weapons made in the same traditional manner as Japanese swords, which are not swords, but which are still Japanese sword (nihontō) (as "tō" means "blade", rather than specifically "sword"):
 
-// Naginata (なぎなた, 薙刀): A polearm with a curved single-edged blade. Naginata mounts consist of a long wooden pole, different from a nagamaki mount, which is shorter and wrapped.
-// Yari (槍, "spear"): A spear, or spear-like polearm. Yari have various blade forms, from a simple double edged and flat blade, to a triangular cross section double edged blade, to those with a symmetric cross-piece (jumonji-yari) or those with an asymmetric cross piece. The main blade is symmetric and straight unlike a naginata, and usually smaller but can be as large or bigger than some naginata blades.
-// Other edged weapons or tools that are made using the same methods as Japanese swords:
+  // Naginata (なぎなた, 薙刀): A polearm with a curved single-edged blade. Naginata mounts consist of a long wooden pole, different from a nagamaki mount, which is shorter and wrapped.
+  // Yari (槍, "spear"): A spear, or spear-like polearm. Yari have various blade forms, from a simple double edged and flat blade, to a triangular cross section double edged blade, to those with a symmetric cross-piece (jumonji-yari) or those with an asymmetric cross piece. The main blade is symmetric and straight unlike a naginata, and usually smaller but can be as large or bigger than some naginata blades.
+  // Other edged weapons or tools that are made using the same methods as Japanese swords:
 
-// Arrowheads for war, yajiri (or yanone).
-// Kogatana (小刀, "small blade"): An accessory or utility knife, sometimes found mounted in a pocket on the side of the scabbard of a sword. A typical blade is about 10 cm long and 1 cm wide, and is made using the same techniques as the larger sword blades. Also referred to as a "Kozuka" (小柄), which literally means 'small handle', but this terminology can also refer to the handle and the blade together. In entertainment media, the kogatana is sometimes shown as a throwing weapon, but its real purpose was the same as a 'pocket knife' in the West.[9]
+  // Arrowheads for war, yajiri (or yanone).
+  // Kogatana (小刀, "small blade"): An accessory or utility knife, sometimes found mounted in a pocket on the side of the scabbard of a sword. A typical blade is about 10 cm long and 1 cm wide, and is made using the same techniques as the larger sword blades. Also referred to as a "Kozuka" (小柄), which literally means 'small handle', but this terminology can also refer to the handle and the blade together. In entertainment media, the kogatana is sometimes shown as a throwing weapon, but its real purpose was the same as a 'pocket knife' in the West.[9]
 };
 // Bacon Leaf, Sniper Cabbage & Topaz Onion
 
@@ -873,7 +873,7 @@ const Inline = styled.div`
 `;
 
 function Item(props) {
-  if(props.props) {
+  if (props.props) {
     props = props.props
   }
   const array = [];

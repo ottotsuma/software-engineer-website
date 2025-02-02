@@ -467,11 +467,6 @@ function getTitleStatsModifiers(equippedTitle, baseStats) {
     const titleStats = _try(() => titlesList[equippedTitle].stats);
 
     if (titleStats) {
-      // Optionally assign a description to the title
-      if (titlesList[equippedTitle].description) {
-        baseStats["titleDescription"] = titlesList[equippedTitle].description;
-      }
-
       // Iterate over the keys in titleStats
       Object.keys(titleStats).forEach((titleStat) => {
         const statValue = titleStats[titleStat];
@@ -499,27 +494,31 @@ function getTitleStatsModifiers(equippedTitle, baseStats) {
     TitleMultiplierStats: MultiplierStats,
   };
 }
-function calculateFinalStats(stats, flatStats, multiplierStats) {
-  const baseStats = { ...stats };
-  const finalStats = {};
 
-  Object.keys(baseStats).forEach(stat => {
+function calculateFinalStats(baseStats, flatStats, multiplierStats) {
+  const finalStats = {};
+  const allKeys = new Set([
+    ...Object.keys(baseStats),
+    ...Object.keys(flatStats),
+    ...Object.keys(multiplierStats)
+  ]);
+
+  allKeys.forEach(stat => {
     const baseValue = baseStats[stat] || 0;
     const flatValue = flatStats[stat] || 0;
     const multiplier = multiplierStats[stat] || 1; // Default multiplier is 1
 
-    if (typeof baseValue === 'number') {
+    if (!isNaN(baseValue + flatValue)) {
       // Apply the formula: (Base + Flat) * Multiplier
       finalStats[stat] = (baseValue + flatValue) * multiplier;
     } else {
-      finalStats[stat] = baseValue
+      // Preserve non-numeric values
+      finalStats[stat] = baseValue || flatValue;
     }
   });
-
+  console.log(finalStats)
   return finalStats;
 }
-
-
 
 function Stats({
   stats,
@@ -652,10 +651,10 @@ function Stats({
     const element = (
       <Wrap>
         <Inline>{keys[index]}: </Inline>
-        <Inline style={{ color: perc2color(baseStats[keys[index]]) }}>
-          {typeof baseStats[keys[index]] === "number"
-            ? parseInt(baseStats[keys[index]])
-            : baseStats[keys[index]]}
+        <Inline style={{ color: perc2color(finalStats[keys[index]]) }}>
+          {typeof finalStats[keys[index]] === "number"
+            ? parseInt(finalStats[keys[index]])
+            : finalStats[keys[index]]}
         </Inline>
       </Wrap>
     );
@@ -756,7 +755,7 @@ function Stats({
     }
   }
   // Misc - Shaun - Missing in new build
-  const MiscKeys = Object.keys(baseStats).filter(val => !keys.includes(val))
+  const MiscKeys = Object.keys(finalStats).filter(val => !keys.includes(val))
   if (MiscKeys.length > 0) {
 
     array.push(
@@ -770,10 +769,10 @@ function Stats({
       const element = (
         <Wrap>
           <Inline>{MiscKeys[index]}: </Inline>
-          <Inline style={{ color: perc2color(baseStats[MiscKeys[index]]) }}>
-            {typeof baseStats[MiscKeys[index]] === "number"
-              ? parseInt(baseStats[MiscKeys[index]])
-              : baseStats[MiscKeys[index]]}
+          <Inline style={{ color: perc2color(finalStats[MiscKeys[index]]) }}>
+            {typeof finalStats[MiscKeys[index]] === "number"
+              ? parseInt(finalStats[MiscKeys[index]])
+              : finalStats[MiscKeys[index]]}
           </Inline>
         </Wrap>
       );

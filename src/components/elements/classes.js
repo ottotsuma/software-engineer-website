@@ -367,8 +367,8 @@ export const classList = {
     stats: {
       magic: 2,
       willpower: 2,
-      HPMultiplier: -0.1,
-      MPMultiplier: 1.1,
+      HP: { multiplier: 0.9 },
+      MP: { multiplier: 1.1 },
     },
     team: "Fire Resistance +1%",
 

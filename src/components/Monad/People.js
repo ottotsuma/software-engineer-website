@@ -612,7 +612,7 @@ export function Sarah(Chapter) {
             effect:
               "Reduces physical damage taken by 10%, except spears. Endurance +1, Endurance +10%.",
             rating: "epic",
-            stats: { endurance: 1, enduranceMultiplier: 1.1 },
+            stats: { endurance: { flat: 1, multiplier: 1.1 } },
           },
           Head: {
             name: "Paladin Engeler's Sallet (silver rank)",
