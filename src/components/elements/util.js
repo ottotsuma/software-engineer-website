@@ -5,7 +5,7 @@ import { racesList } from "./species";
 import { classList } from "./classes";
 import { ItemList } from "./item";
 import { placeList } from "./places";
-import {titlesList} from "./titles"
+import { titlesList } from "./titles"
 // import { PersonsList } from "./people"
 // const { PersonsList } = await import('./PersonsList');
 
@@ -39,7 +39,7 @@ function populateReferences() {
 // Find key in an object ignoring case
 export function findKeyIgnoreCase(obj, name) {
   if (!obj || typeof obj !== 'object' || !name || typeof name !== 'string') {
-      return undefined;
+    return undefined;
   }
   const searchName = name.toLowerCase();
   const key = Object.keys(obj).find(key => key.toLowerCase() === searchName);
@@ -50,10 +50,10 @@ export function findKeyIgnoreCase(obj, name) {
 export function getDeepKeys(obj) {
   let keys = [];
   for (let key in obj) {
-      keys.push(key);
-      if (typeof obj[key] === "object" && obj[key] !== null) {
-          keys = keys.concat(getDeepKeys(obj[key]).map(subkey => `${key}.${subkey}`));
-      }
+    keys.push(key);
+    if (typeof obj[key] === "object" && obj[key] !== null) {
+      keys = keys.concat(getDeepKeys(obj[key]).map(subkey => `${key}.${subkey}`));
+    }
   }
   return keys;
 }
@@ -61,12 +61,12 @@ export function getDeepKeys(obj) {
 // Convert all string values in an object to lowercase
 export function lowerObjectValues(obj) {
   for (let prop in obj) {
-      if (typeof obj[prop] === 'string') {
-          obj[prop] = obj[prop].toLowerCase();
-      }
-      if (typeof obj[prop] === 'object' && obj[prop] !== null) {
-        lowerObjectValues(obj[prop]);
-      }
+    if (typeof obj[prop] === 'string') {
+      obj[prop] = obj[prop].toLowerCase();
+    }
+    if (typeof obj[prop] === 'object' && obj[prop] !== null) {
+      lowerObjectValues(obj[prop]);
+    }
   }
   return obj;
 }
@@ -184,6 +184,21 @@ export function _try(func, fallbackValue) {
   }
 }
 
+export function mergeObjects(obj1, obj2) {
+  const merged = { ...obj1 }; // Start with obj1's values
+
+  Object.keys(obj2).forEach(key => {
+    if (merged[key] !== undefined) {
+      // If the key exists in both, add the values
+      merged[key] += obj2[key];
+    } else {
+      // Otherwise, just set the value from obj2
+      merged[key] = obj2[key];
+    }
+  });
+
+  return merged;
+}
 // Handle image load error
 export function imageError(ev) {
   ev.target.src = Empty;
@@ -218,10 +233,10 @@ export function RankColour(Rank) {
 
 // Search origin by skill name
 export function searchOrigin(initialSkill) {
-  const data = searchSpells(initialSkill) || 
-               searchClass(initialSkill) || 
-               searchSpecies(initialSkill) || 
-               searchItem(initialSkill) || 
-               searchPlaces(initialSkill);
+  const data = searchSpells(initialSkill) ||
+    searchClass(initialSkill) ||
+    searchSpecies(initialSkill) ||
+    searchItem(initialSkill) ||
+    searchPlaces(initialSkill);
   return data || {};
 }

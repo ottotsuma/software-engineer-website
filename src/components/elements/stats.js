@@ -7,7 +7,7 @@ import Spells from "./spells";
 import { titlesList } from "./titles";
 import Equipment from "./equipment";
 import { monadColors } from "./colors";
-import { _try, perc2color, roundDownToNearest10, RankColour } from "./util";
+import { _try, perc2color, roundDownToNearest10, RankColour, mergeObjects } from "./util";
 // Kʼawiil - Lightning, seeds, abundance, powerful one, fertility, serpent
 
 const statList = {
@@ -241,6 +241,286 @@ const statList = {
   },
 };
 
+function CalculateSpeciesStats({
+  baseStats
+}) {
+  let SpeciesSpan = undefined;
+  const FlatStats = {}
+  const MultiplierStats = {}
+  const InnateSkillsSpecies = _try(
+    () => racesList[baseStats.species].InnateSkills,
+    []
+  );
+  if (baseStats.species) {
+    let keys = Object.keys(baseStats);
+    const raceStats = Object.keys(racesList[baseStats.species]?.stats || {});
+    SpeciesSpan = _try(() => racesList[baseStats.species].team);
+    if (SpeciesSpan) SpeciesSpan = "Team: " + SpeciesSpan;
+    if (!SpeciesSpan) {
+      SpeciesSpan = _try(() => racesList[baseStats.species].self);
+      if (SpeciesSpan) SpeciesSpan = "Self: " + SpeciesSpan;
+    }
+    // Sort the  stats into flat and multiplier 
+    if (raceStats) {
+      raceStats.forEach((raceStat) => {
+        const statValue = racesList[baseStats.species].stats[raceStat];
+        if (keys.includes(raceStat.slice(0, -10))) {
+          console.log(raceStat, statValue)
+          // Handle other stats with multipliers
+          const statKey = raceStat.slice(0, -10);
+          MultiplierStats[statKey] = MultiplierStats[statKey] || 1;
+          MultiplierStats[statKey] *= statValue;
+        } else if (typeof statValue === "number") {
+          console.log(raceStat, statValue)
+          // If it's a number, directly add it to baseStats
+          FlatStats[raceStat] = (baseStats[raceStat] || 0) + statValue;
+        } else if (typeof statValue === "string" && statValue.includes("*")) {
+          console.log(raceStat, statValue)
+          // If it's a multiplier in string format (e.g., "*1.1"), parse and add to multipliers
+          const multiplierValue = parseFloat(statValue.substring(1));
+          MultiplierStats[raceStat] = MultiplierStats[raceStat] || 1;
+          MultiplierStats[raceStat] *= multiplierValue;
+        } else if (typeof statValue === "object") {
+          MultiplierStats[raceStat] = MultiplierStats[raceStat] || 1;
+          MultiplierStats[raceStat] *= statValue.multiplier;
+          FlatStats[raceStat] = FlatStats[raceStat] || 0 + statValue.flat;
+        } else {
+          console.log('Missing Stat', raceStat, statValue, typeof statValue)
+        }
+      });
+    }
+  }
+  const reply = {
+    SpeciesInnateSkills: InnateSkillsSpecies,
+    SpeciesFlatStats: FlatStats,
+    SpeciesMultiplierStats: MultiplierStats,
+    SpeciesSpan: SpeciesSpan
+  }
+  return reply
+}
+function getClassModifiers({ baseStats }) {
+  let keys = Object.keys(baseStats);
+  let classSpan = undefined;
+  let ClassFlatStats = {};
+  let ClassMultiplierStats = {};
+  const InnateSkillsClass = _try(
+    () => classList[baseStats.class].InnateSkills,
+    []
+  );
+  if (baseStats.class) {
+    const classStats = _try(() => classList[baseStats.class].stats);
+    classSpan = _try(() => classList[baseStats.class].team);
+    if (classSpan) {
+      classSpan = "Team: " + classSpan;
+    } else {
+      classSpan = _try(() => classList[baseStats.class].self);
+      if (classSpan) classSpan = "Self: " + classSpan;
+    }
+
+    if (classStats) {
+      Object.entries(classStats).forEach(([classStat, statValue]) => {
+        const statKey = classStat.slice(0, -10);
+
+        if (keys.includes(statKey)) {
+          console.log(classStat, statValue);
+          // Handle other stats with multipliers
+          ClassMultiplierStats[statKey] = (ClassMultiplierStats[statKey] || 1) * statValue;
+        } else if (typeof statValue === "number") {
+          console.log(classStat, statValue);
+          // If it's a number, directly add it to baseStats
+          ClassFlatStats[classStat] = (ClassFlatStats[classStat] || 0) + statValue;
+        } else if (typeof statValue === "string" && statValue.includes("*")) {
+          console.log(classStat, statValue);
+          // If it's a multiplier in string format (e.g., "*1.1"), parse and add to multipliers
+          const multiplierValue = parseFloat(statValue.substring(1));
+          ClassMultiplierStats[classStat] = (ClassMultiplierStats[classStat] || 1) * multiplierValue;
+        } else if (typeof statValue === "object") {
+          console.log(classStat, statValue);
+          // If it's an object, handle flat and multiplier separately
+          ClassMultiplierStats[classStat] = (ClassMultiplierStats[classStat] || 1) * (statValue.multiplier || 1);
+          ClassFlatStats[classStat] = (ClassFlatStats[classStat] || 0) + (statValue.flat || 0);
+        } else {
+          console.log("Missing Stat", classStat, statValue, typeof statValue);
+        }
+      });
+    }
+
+  }
+  return {
+    InnateSkillsClass,
+    ClassFlatStats,
+    ClassMultiplierStats,
+    classSpan
+  };
+}
+function getSkillStatsModifiers({ baseStats, skills }) {
+  let keys = Object.keys(baseStats);
+  const FlatStats = {};
+  const MultiplierStats = {};
+
+  if (skills) {
+    const skillsByTypes = Object.keys(skills);
+
+    skillsByTypes.forEach((skillType) => {
+      const skillListByType = skills[skillType];
+
+      skillListByType.forEach((skill) => {
+        const spellStats = _try(
+          () =>
+            spellList[skill.name].stats[skill.level - 1] ||
+            spellList[skill.name].stats[skill.level]
+        );
+
+        if (spellStats) {
+          Object.keys(spellStats).forEach((statKey) => {
+            const statValue = spellStats[statKey];
+            if (keys.includes(statKey)) {
+              if (typeof statValue === "number") {
+                FlatStats[statKey] = (FlatStats[statKey] || 0) + statValue;
+              } else if (typeof statValue === "string" && statValue.includes("*")) {
+                // Handle multipliers in string format (e.g., "*1.1")
+                const multiplierValue = parseFloat(statValue.substring(1));
+                MultiplierStats[statKey] = (MultiplierStats[statKey] || 1) * multiplierValue;
+              } else if (typeof statValue === "object") {
+                MultiplierStats[statKey] = MultiplierStats[statKey] || 1;
+                MultiplierStats[statKey] *= statValue.multiplier;
+                FlatStats[statKey] = FlatStats[statKey] || 0 + statValue.flat;
+              } else {
+                console.log('escaped skill stat', statKey)
+              }
+            } else if (statKey) {
+              if (keys.includes(statKey.slice(0, -10))) {
+                // Handle stats with multipliers (e.g., stats ending with 'HP' or 'MP')
+                MultiplierStats[statKey.slice(0, -10)] = (MultiplierStats[statKey.slice(0, -10)] || 1) * statValue;
+              } else {
+                // Misc stats, add to base stats
+                FlatStats[statKey] = (FlatStats[statKey] || 0) + statValue;
+              }
+            }
+          });
+        }
+      });
+    });
+  }
+
+  return {
+    SkillFlatStats: FlatStats,
+    SkillMultiplierStats: MultiplierStats,
+  };
+}
+function getItemStatsModifiers(items, baseStats) {
+  const FlatStats = {};
+  const MultiplierStats = {};
+
+  if (items) {
+    // Loop through each item area
+    Object.keys(items).forEach((itemArea) => {
+      const itemLevel = roundDownToNearest10(baseStats.level) / 10;
+      const itemStats = _try(() => items[itemArea][itemLevel]?.stats)
+        || _try(() => items[itemArea].stats[itemLevel])
+        || _try(() => items[itemArea].stats);
+
+      // If there are stats for the item, process them
+      if (itemStats) {
+        Object.keys(itemStats).forEach((itemStat) => {
+          const statValue = itemStats[itemStat];
+
+          if (typeof statValue === "object") {
+            // Handle object-based stats (e.g., { multiplier, flat })
+            MultiplierStats[itemStat] = (MultiplierStats[itemStat] || 1) * statValue.multiplier;
+            FlatStats[itemStat] = (FlatStats[itemStat] || 0) + statValue.flat;
+          } else if (typeof statValue === "number") {
+            // Handle base stats
+            FlatStats[itemStat] = (FlatStats[itemStat] || 0) + statValue;
+          } else if (typeof statValue === "string" && statValue.includes("*")) {
+            // Handle multiplier strings (e.g., "*1.5")
+            const multiplierValue = parseFloat(statValue.substring(1));
+            MultiplierStats[itemStat] = (MultiplierStats[itemStat] || 1) * multiplierValue;
+          } else {
+            console.log('Missing Stat', itemStat, statValue, typeof statValue);
+          }
+        });
+      }
+    });
+  }
+
+  return {
+    ItemFlatStats: FlatStats,
+    ItemMultiplierStats: MultiplierStats,
+  };
+}
+function getTitleStatsModifiers(equippedTitle, baseStats) {
+  let keys = Object.keys(baseStats);
+  const FlatStats = {};
+  const MultiplierStats = {};
+
+  if (equippedTitle) {
+    // Add "title" to the keys
+    keys.splice(1, 0, "title");
+
+    // Assign the title name or the equipped title itself if no name is found
+    baseStats["title"] = _try(() => titlesList[equippedTitle].name)
+      ? titlesList[equippedTitle].name
+      : equippedTitle;
+
+    // Fetch the stats of the equipped title
+    const titleStats = _try(() => titlesList[equippedTitle].stats);
+
+    if (titleStats) {
+      // Optionally assign a description to the title
+      if (titlesList[equippedTitle].description) {
+        baseStats["titleDescription"] = titlesList[equippedTitle].description;
+      }
+
+      // Iterate over the keys in titleStats
+      Object.keys(titleStats).forEach((titleStat) => {
+        const statValue = titleStats[titleStat];
+
+        if (typeof statValue === "object") {
+          // Handle object-based stats (e.g., { multiplier, flat })
+          MultiplierStats[titleStat] = (MultiplierStats[titleStat] || 1) * statValue.multiplier;
+          FlatStats[titleStat] = (FlatStats[titleStat] || 0) + statValue.flat;
+        } else if (typeof statValue === "number") {
+          // Handle base stats
+          FlatStats[titleStat] = (FlatStats[titleStat] || 0) + statValue;
+        } else if (typeof statValue === "string" && statValue.includes("*")) {
+          // Handle multiplier strings (e.g., "*1.5")
+          const multiplierValue = parseFloat(statValue.substring(1));
+          MultiplierStats[titleStat] = (MultiplierStats[titleStat] || 1) * multiplierValue;
+        } else {
+          console.log('Missing Stat', titleStat, statValue, typeof statValue);
+        }
+      });
+    }
+  }
+
+  return {
+    TitleFlatStats: FlatStats,
+    TitleMultiplierStats: MultiplierStats,
+  };
+}
+function calculateFinalStats(stats, flatStats, multiplierStats) {
+  const baseStats = { ...stats };
+  const finalStats = {};
+
+  Object.keys(baseStats).forEach(stat => {
+    const baseValue = baseStats[stat] || 0;
+    const flatValue = flatStats[stat] || 0;
+    const multiplier = multiplierStats[stat] || 1; // Default multiplier is 1
+
+    if (typeof baseValue === 'number') {
+      // Apply the formula: (Base + Flat) * Multiplier
+      finalStats[stat] = (baseValue + flatValue) * multiplier;
+    } else {
+      finalStats[stat] = baseValue
+    }
+  });
+
+  return finalStats;
+}
+
+
+
 function Stats({
   stats,
   type,
@@ -263,210 +543,74 @@ function Stats({
   const array = [];
   const baseStats = { ...stats };
   if (MiasmaLevel) {
-    baseStats.level = baseStats.level - baseStats.level * (MiasmaLevel / 100);
-    baseStats.strength =
-      baseStats.strength - baseStats.strength * (MiasmaLevel / 100);
-    baseStats.vitality =
-      baseStats.vitality - baseStats.vitality * (MiasmaLevel / 100);
-    baseStats.magic = baseStats.magic - baseStats.magic * (MiasmaLevel / 100);
-    baseStats.dexterity =
-      baseStats.dexterity - baseStats.dexterity * (MiasmaLevel / 100);
-    baseStats.sense = baseStats.sense - baseStats.sense * (MiasmaLevel / 100);
-    baseStats.charisma =
-      baseStats.charisma - baseStats.charisma * (MiasmaLevel / 100);
-    baseStats.willpower =
-      baseStats.willpower - baseStats.willpower * (MiasmaLevel / 100);
+    const statsToReduce = ["level", "strength", "vitality", "magic", "dexterity", "sense", "charisma", "willpower"];
+    statsToReduce.forEach(stat => {
+      baseStats[stat] -= baseStats[stat] * (MiasmaLevel / 100);
+    });
   }
-  const HPList = [];
-  const MPList = [];
-  const multiplierList = [];
+  // Add HP and MP Values
+  //  level *5 magic * 8 = mp // level * 10 vit * 14.5 +100 = hp
+  // So at 100, 1100 ~ 2550
+  baseStats["HP"] = _try(
+    () => baseStats["level"] * 10 + baseStats["vitality"] * 14.5 + 100
+  );
+  baseStats["MP"] = _try(() => baseStats["level"] * 5 + baseStats["magic"] * 8);
+  if (baseStats["MP"] < 0) {
+    baseStats["MP"] = 0;
+  }
+  if (baseStats["HP"] < 100) {
+    baseStats["HP"] = 100;
+  }
+  console.log(baseStats["HP"], 'shaun HP after')
+  let flatStats = {};
+  let multiplierStats = {}
   let keys = Object.keys(baseStats);
 
   let RaceSpan = undefined;
   if (baseStats.species) {
-    const InnateSkillsRace = _try(
-      () => racesList[baseStats.species].InnateSkills,
-      []
-    );
-    if (InnateSkillsRace.length > 0) {
-      for (let index = 0; index < InnateSkillsRace.length; index++) {
-        if(skills && skills[baseStats.species]) {
+    const { SpeciesInnateSkills, SpeciesFlatStats, SpeciesMultiplierStats, SpeciesSpan } = CalculateSpeciesStats({
+      baseStats,
+    });
+    RaceSpan = SpeciesSpan
+    flatStats = mergeObjects(flatStats, SpeciesFlatStats)
+    multiplierStats = mergeObjects(multiplierStats, SpeciesMultiplierStats)
+
+    if (SpeciesInnateSkills.length > 0) {
+      for (let index = 0; index < SpeciesInnateSkills.length; index++) {
+        if (skills && skills[baseStats.species]) {
           skills[baseStats.species].unshift({
-            name: InnateSkillsRace[index],
+            name: SpeciesInnateSkills[index],
             level: _try(() => stats.level / 10 - MiasmaLevel / 10, 1),
           });
         }
       }
-    }
-    const raceStats = Object.keys(racesList[baseStats.species]?.stats || {});
-    RaceSpan = _try(() => racesList[baseStats.species].team);
-    if (RaceSpan) RaceSpan = "Team: " + RaceSpan;
-    if (!RaceSpan) {
-      RaceSpan = _try(() => racesList[baseStats.species].self);
-      if (RaceSpan) RaceSpan = "Self: " + RaceSpan;
-    }
-
-    if (raceStats) {
-      raceStats.map((raceStat) => {
-        if (raceStat === "HP") {
-          HPList.push(racesList[baseStats.species].stats[raceStat]);
-        } else if (raceStat === "HPMultiplier") {
-          multiplierList.push({
-            HP: racesList[baseStats.species].stats[raceStat],
-          });
-        } else if (raceStat === "MPMultiplier") {
-          multiplierList.push({
-            MP: racesList[baseStats.species].stats[raceStat],
-          });
-        } else if (raceStat === "MP") {
-          MPList.push(racesList[baseStats.species].stats[raceStat]);
-        } else if (keys.includes(raceStat.slice(0, -10))) {
-          multiplierList.push({
-            [raceStat.slice(0, -10)]:
-              racesList[baseStats.species].stats[raceStat],
-          });
-        } else if (
-          typeof racesList[baseStats.species].stats[raceStat] === "number"
-        ) {
-          baseStats[raceStat] =
-            (baseStats[raceStat] || 0) + racesList[baseStats.species].stats[raceStat];
-        } else if (
-          typeof racesList[baseStats.species].stats[raceStat] === "string"
-        ) {
-          if (racesList[baseStats.species].stats[raceStat].includes("*")) {
-            const multiplierValue = parseFloat(
-              racesList[baseStats.species].stats[raceStat].substring(1)
-            );
-            // baseStats[raceStat] = baseStats[raceStat] * multiplierValue;
-            multiplierList.push({ [raceStat]: multiplierValue });
-          }
-        }
-      });
     }
   }
   let ClassSpan = undefined;
   if (baseStats.class) {
-    const InnateSkillsRace = _try(
-      () => classList[baseStats.class].InnateSkills,
-      []
-    );
-    if (InnateSkillsRace.length > 0) {
-      for (let index = 0; index < InnateSkillsRace.length; index++) {
-        if(skills) {
+    const { InnateSkillsClass, ClassFlatStats, ClassMultiplierStats, classSpan } = getClassModifiers({ baseStats })
+    if (InnateSkillsClass.length > 0) {
+      for (let index = 0; index < InnateSkillsClass.length; index++) {
+        if (skills) {
           skills[baseStats.class].unshift({
-            name: InnateSkillsRace[index],
+            name: InnateSkillsClass[index],
             level: _try(() => stats.level / 10 - MiasmaLevel / 10, 1),
           });
         }
       }
     }
-    const classStats = _try(() => classList[baseStats.class].stats);
-    ClassSpan = _try(() => classList[baseStats.class].team);
-    if (ClassSpan) ClassSpan = "Team: " + ClassSpan;
-    if (!ClassSpan) {
-      ClassSpan = _try(() => classList[baseStats.class].self);
-      if (ClassSpan) ClassSpan = "Self: " + ClassSpan;
-    }
-    if (classStats) {
-      Object.keys(classStats).map((classStat) => {
-        if (classStat === "HP") {
-          HPList.push(classList[baseStats.class].stats[classStat]);
-        } else if (classStat === "HPMultiplier") {
-          multiplierList.push({
-            HP: classList[baseStats.class].stats[classStat],
-          });
-        } else if (classStat === "MPMultiplier") {
-          multiplierList.push({
-            MP: classList[baseStats.class].stats[classStat],
-          });
-        } else if (classStat === "MP") {
-          MPList.push(classList[baseStats.class].stats[classStat]);
-        } else if (keys.includes(classStat.slice(0, -10))) {
-          multiplierList.push({
-            [classStat.slice(0, -10)]:
-              classList[baseStats.class].stats[classStat],
-          });
-        } else if (
-          typeof classList[baseStats.class].stats[classStat] === "number"
-        ) {
-          baseStats[classStat] =
-            (baseStats[classStat] || 0) + classList[baseStats.class].stats[classStat];
-        } else if (
-          typeof classList[baseStats.class].stats[classStat] === "string"
-        ) {
-          if (classList[baseStats.class].stats[classStat].includes("*")) {
-            const multiplierValue = parseFloat(
-              classList[baseStats.class].stats[classStat].substring(1)
-            );
-            // baseStats[classStat] = baseStats[classStat] * multiplierValue;
-            multiplierList.push({ [classStat]: multiplierValue });
-          }
-        }
-      });
-    }
+    ClassSpan = classSpan
+    flatStats = mergeObjects(flatStats, ClassFlatStats)
+    multiplierStats = mergeObjects(multiplierStats, ClassMultiplierStats)
   }
   const spellsArray = [];
   if (skills) {
+    const { SkillFlatStats, SkillMultiplierStats } = getSkillStatsModifiers({ baseStats, skills })
+    flatStats = mergeObjects(flatStats, SkillFlatStats)
+    multiplierStats = mergeObjects(multiplierStats, SkillMultiplierStats)
     const skillsByTypes = Object.keys(skills);
     for (let j = 0; j < skillsByTypes.length; j++) {
       const skillListByType = skills[skillsByTypes[j]];
-      skillListByType.map((skill) => {
-        const spellStats = _try(
-          () =>
-            spellList[skill.name].stats[skill.level - 1] ||
-            spellList[skill.name].stats[skill.level]
-        );
-        if (spellStats) {
-          for (let index = 0; index < Object.keys(spellStats).length; index++) {
-            if (keys.includes(Object.keys(spellStats)[index])) {
-              if (
-                typeof spellStats[Object.keys(spellStats)[index]] === "number"
-              ) {
-                baseStats[Object.keys(spellStats)[index]] =
-                  (baseStats[Object.keys(spellStats)[index]] || 0) +
-                  spellStats[Object.keys(spellStats)[index]];
-              } else if (
-                typeof spellStats[Object.keys(spellStats)[index]] === "string"
-              ) {
-                const multiplierValue = parseFloat(
-                  spellStats[Object.keys(spellStats)[index]].substring(1)
-                );
-                // baseStats[Object.keys(spellStats)[index]] = baseStats[Object.keys(spellStats)[index]] * multiplierValue;
-                multiplierList.push({
-                  [Object.keys(spellStats)[index]]: multiplierValue,
-                });
-              }
-            } else if (Object.keys(spellStats)[index] === "HPMultiplier") {
-              multiplierList.push({
-                HP: spellStats[Object.keys(spellStats)[index]],
-              });
-            } else if (Object.keys(spellStats)[index] === "MPMultiplier") {
-              multiplierList.push({
-                MP: spellStats[Object.keys(spellStats)[index]],
-              });
-            } else if (Object.keys(spellStats)[index] === "HP") {
-              HPList.push(spellStats[Object.keys(spellStats)[index]]);
-            } else if (Object.keys(spellStats)[index] === "MP") {
-              MPList.push(spellStats[Object.keys(spellStats)[index]]);
-            } else if (Object.keys(spellStats)[index]) {
-              if (keys.includes(Object.keys(spellStats)[index].slice(0, -10))) {
-                // baseStats[Object.keys(spellStats)[index].slice(0, -10)] =
-                // baseStats[Object.keys(spellStats)[index].slice(0, -10)] *
-                // spellStats[Object.keys(spellStats)[index]];
-                multiplierList.push({
-                  [Object.keys(spellStats)[index].slice(0, -10)]:
-                    spellStats[Object.keys(spellStats)[index]],
-                });
-              } else {
-                // Misc stats
-                baseStats[Object.keys(spellStats)[index]] =
-                (baseStats[Object.keys(spellStats)[index]] || 0) +
-                spellStats[Object.keys(spellStats)[index]];
-              }
-            }
-          }
-        }
-      });
       spellsArray.push(
         <Spells
           key={j + "Spells"}
@@ -480,135 +624,30 @@ function Stats({
   const itemLevel = roundDownToNearest10(baseStats.level) / 10;
   if (items) {
     itemsArray.push(<Equipment level={itemLevel} items={items} key={"Items"} />);
-    Object.keys(items).map((itemArea) => {
-      const a = _try(() => items[itemArea][itemLevel].stats)
-      const b = _try(() => items[itemArea].stats[itemLevel])
-      const c = _try(() => items[itemArea].stats)
-      const itemStats = a ? a : b ? b : c
-      if (itemStats) {
-        Object.keys(itemStats).map((itemStat) => {
-          if (itemStat === "HP") {
-            HPList.push(itemStats[itemStat]);
-          } else if (itemStat === "HPMultiplier") {
-            multiplierList.push({ HP: itemStats[itemStat] });
-          } else if (itemStat === "MPMultiplier") {
-            multiplierList.push({ MP: itemStats[itemStat] });
-          } else if (itemStat === "MP") {
-            MPList.push(itemStats[itemStat]);
-          } else if (keys.includes(itemStat.slice(0, -10))) {
-            // baseStats[itemStat.slice(0, -10)] = baseStats[itemStat.slice(0, -10)] * itemStats[itemStat];
-            multiplierList.push({
-              [itemStat.slice(0, -10)]: itemStats[itemStat],
-            });
-          } else if (typeof itemStats[itemStat] === "number") {
-            baseStats[itemStat] = (baseStats[itemStat] || 0) + itemStats[itemStat];
-          } else if (typeof itemStats[itemStat] === "string") {
-            if (itemStats[itemStat].includes("*")) {
-              const multiplierValue = parseFloat(
-                itemStats[itemStat].substring(1)
-              );
-              // baseStats[itemStat] = baseStats[itemStat] * multiplierValue;
-              multiplierList.push({ [itemStat]: multiplierValue });
-            }
-          }
-        });
-      }
-    });
+    const { ItemFlatStats, ItemMultiplierStats } = getItemStatsModifiers(
+      items,
+      baseStats
+    );
+    flatStats = mergeObjects(flatStats, ItemFlatStats)
+    multiplierStats = mergeObjects(multiplierStats, ItemMultiplierStats)
   }
   let TitleSpan = undefined;
   if (equippedTitle) {
-    keys.splice(1, 0, "title");
-    baseStats["title"] = _try(() => titlesList[equippedTitle].name)
-      ? titlesList[equippedTitle].name
-      : equippedTitle; // if it has a name use the name, else use what ever the user put in.
-    const titleStats = _try(() => titlesList[equippedTitle].stats); // find title from list of titles, returns array of baseStats and values
-    if (titleStats) {
-      if (titlesList[equippedTitle].description) {
-        TitleSpan = titlesList[equippedTitle].description;
-        //   baseStats['title'] = equippedTitle + ', ' + titlesList[equippedTitle].description
-      }
-      Object.keys(titleStats).map((titleStat) => {
-        if (titleStat === "HP") {
-          HPList.push(titleStats[titleStat]);
-        } else if (titleStat === "HPMultiplier") {
-          multiplierList.push({ HP: titleStats[titleStat] });
-        } else if (titleStat === "MPMultiplier") {
-          multiplierList.push({ MP: titleStats[titleStat] });
-        } else if (titleStat === "MP") {
-          MPList.push(titleStats[titleStat]);
-        } else if (keys.includes(titleStat.slice(0, -10))) {
-          multiplierList.push({
-            [titleStat.slice(0, -10)]: titleStats[titleStat],
-          });
-        } else if (typeof titleStats[titleStat] === "number") {
-          baseStats[titleStat] = (baseStats[titleStat] || 0 ) + titleStats[titleStat]; // applies the baseStats
-        } else if (typeof titleStats[titleStat] === "string") {
-          if (titleStats[titleStat].includes("*")) {
-            const multiplierValue = parseFloat(
-              titleStats[titleStat].substring(1)
-            );
-            // baseStats[titleStat] = baseStats[titleStat] * multiplierValue;
-            multiplierList.push({ [titleStat]: multiplierValue });
-          }
-        }
-      });
-    }
+    const { TitleFlatStats, TitleMultiplierStats } = getTitleStatsModifiers(
+      equippedTitle,
+      baseStats
+    );
+    flatStats = mergeObjects(flatStats, TitleFlatStats)
+    multiplierStats = mergeObjects(multiplierStats, TitleMultiplierStats)
   }
 
-  // Add HP and MP Values
-  //  level *5 magic * 8 = mp // level * 10 vit * 14.5 +100 = hp
-  // So at 100, 1100 ~ 2550
-  baseStats["HP"] = _try(
-    () => baseStats["level"] * 10 + baseStats["vitality"] * 14.5 + 100
-  );
-  let tempHP = baseStats["HP"];
-  for (let index = 0; index < HPList.length; index++) {
-    if (typeof HPList[index] === "number") {
-      tempHP = tempHP + HPList[index];
-    } else if (typeof HPList[index] === "string") {
-      if (HPList[index].includes("*")) {
-        const multiplierValue = parseFloat(HPList[index].substring(1));
-        // tempHP = tempHP * multiplierValue;
-        multiplierList.push({ HP: multiplierValue });
-      }
-    }
+  // Calculate flat and multiplier stats using baseStats. 
+  const finalStats = calculateFinalStats(baseStats, flatStats, multiplierStats)
+  if (removeHPMP) {
+    delete finalStats['HP']
+    delete finalStats['MP']
   }
-  baseStats["HP"] = parseInt(tempHP);
-
-  baseStats["MP"] = _try(() => baseStats["level"] * 5 + baseStats["magic"] * 8);
-  let tempMP = baseStats["MP"];
-  for (let index = 0; index < MPList.length; index++) {
-    if (typeof MPList[index] === "number") {
-      tempMP = tempMP + MPList[index];
-    } else if (typeof MPList[index] === "string") {
-      if (MPList[index].includes("*")) {
-        const multiplierValue = parseFloat(MPList[index].substring(1));
-        // tempMP = tempMP * multiplierValue;
-        multiplierList.push({ MP: multiplierValue });
-      }
-    }
-  }
-  baseStats["MP"] = parseInt(tempMP);
-  if (!removeHPMP) {
-    keys.push("HP", "MP");
-  }
-
-  // multiplierList
-  multiplierList.map((value) => {
-    const statName = Object.keys(value);
-    if (value[statName] < 0) {
-      baseStats[statName] = baseStats[statName] * (1 - -value[statName]);
-    } else {
-      baseStats[statName] = baseStats[statName] * value[statName];
-    }
-  });
-  if (baseStats["MP"] < 0) {
-    baseStats["MP"] = 0;
-  }
-  if (baseStats["HP"] < 100) {
-    baseStats["HP"] = 100;
-  }
-
+  console.log(baseStats, finalStats, 'Shaun Check Stats')
   for (let index = 0; index < keys.length; index++) {
     const element = (
       <Wrap>
@@ -682,7 +721,7 @@ function Stats({
           </Inline>
         </Wrap>
       );
-      if (!hideTitle) {
+      if (!hideTitle) { // shaun - title is showing when should be hidden.
         array.push(
           <SingleStat key={keys[index] + "stat"}>
             {titleElement}
@@ -716,9 +755,9 @@ function Stats({
       );
     }
   }
-  // Misc
+  // Misc - Shaun - Missing in new build
   const MiscKeys = Object.keys(baseStats).filter(val => !keys.includes(val))
-  if(MiscKeys.length > 0) {
+  if (MiscKeys.length > 0) {
 
     array.push(
       <SingleStat key={"Misc stats"}>
@@ -741,11 +780,11 @@ function Stats({
       const ClassOverwrite = classList[baseStats.class]?.stats[MiscKeys[index]] ? [` ${baseStats.class} : ${classList[baseStats.class].stats[MiscKeys[index]]}, `] : '';
       const SpeciesOverwrite = racesList[baseStats.species]?.stats[MiscKeys[index]] ? [` ${baseStats.species} : ${racesList[baseStats.species].stats[MiscKeys[index]]}, `] : '';
 
-      const SkillsOverwrite = skills ? [].concat.apply([],Object.values(skills).map(item => {
+      const SkillsOverwrite = skills ? [].concat.apply([], Object.values(skills).map(item => {
         const TheObjectOfMiscStats = item.map(skill => {
-          const  theStats = _try(() =>  spellList[skill.name][itemLevel].stats, spellList[skill.name].stats);
-          const theValue = Array.isArray(theStats) ? _try(() => theStats[itemLevel-1][MiscKeys[index]]) : _try(() => theStats[itemLevel][MiscKeys[index]])      
-          if(theValue > 0 && skill.name) {
+          const theStats = _try(() => spellList[skill.name][itemLevel].stats, spellList[skill.name].stats);
+          const theValue = Array.isArray(theStats) ? _try(() => theStats[itemLevel - 1][MiscKeys[index]]) : _try(() => theStats[itemLevel][MiscKeys[index]])
+          if (theValue > 0 && skill.name) {
             return ' ' + skill.name + ': ' + theValue;
           }
         })
@@ -754,7 +793,7 @@ function Stats({
 
       const ItemOverwrite = items ? Object.values(items).map(item => {
         const theValue = _try(() => item.stats[MiscKeys[index]]);
-        if(theValue > 0 && item.name) {
+        if (theValue > 0 && item.name) {
           return ' ' + item.name + ': ' + theValue;
         }
       }).filter(((a) => a !== undefined)) : '';
@@ -763,12 +802,12 @@ function Stats({
       const spamOverwrite = ClassOverwrite + SpeciesOverwrite + SkillsOverwrite + ItemOverwrite
 
       const spam = statList[MiscKeys[index]];
-        array.push(
-          <SingleStat key={MiscKeys[index] + "stat"}>
-            {element}
-            {!!type && <Span>{_try(() => spam["description"], spamOverwrite.length > 0 ? spamOverwrite.slice(-2) === ', ' ? spamOverwrite.slice(0, -2) : spamOverwrite : element)}</Span>}
-          </SingleStat>
-        );
+      array.push(
+        <SingleStat key={MiscKeys[index] + "stat"}>
+          {element}
+          {!!type && <Span>{_try(() => spam["description"], spamOverwrite.length > 0 ? spamOverwrite.slice(-2) === ', ' ? spamOverwrite.slice(0, -2) : spamOverwrite : element)}</Span>}
+        </SingleStat>
+      );
     }
   }
 
@@ -830,3 +869,4 @@ const SingleStat = styled.li`
     visibility: visible;
   }
 `;
+

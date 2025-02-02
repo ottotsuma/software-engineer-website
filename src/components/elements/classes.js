@@ -297,17 +297,47 @@ export const classList = {
     tier: "epic",
   },
   King: {
-    stats: {
-      HP: "*2",
-      MP: "*1.5",
-      Vitality: "*1.10",
-      Endurance: "*1.10",
-      Willpower: "*1.10",
-      Magic: "*1.10",
-      Strength: "*1.10",
-      Dexterity: "*1.10",
-      Sense: "*1.10",
-      Charisma: "*1.10",
+    "stats": {
+      "HP": {
+        "flat": 0,
+        "multiplier": 2
+      },
+      "MP": {
+        "flat": 0,
+        "multiplier": 1.5
+      },
+      "Vitality": {
+        "flat": 0,
+        "multiplier": 1.10
+      },
+      "Endurance": {
+        "flat": 0,
+        "multiplier": 1.10
+      },
+      "Willpower": {
+        "flat": 0,
+        "multiplier": 1.10
+      },
+      "Magic": {
+        "flat": 0,
+        "multiplier": 1.10
+      },
+      "Strength": {
+        "flat": 0,
+        "multiplier": 1.10
+      },
+      "Dexterity": {
+        "flat": 0,
+        "multiplier": 1.10
+      },
+      "Sense": {
+        "flat": 0,
+        "multiplier": 1.10
+      },
+      "Charisma": {
+        "flat": 0,
+        "multiplier": 1.10
+      }
     },
     team: "",
     self: "All Stats + 10%, HP + 100%, MP + 50%, movement speed -10%.",
@@ -738,7 +768,7 @@ export const classList = {
       "",
     tier: "normal",
     description: "",
-  }, 
+  },
   Magnus: {
     name: "Magnus",
     stats: {
@@ -751,7 +781,7 @@ export const classList = {
       "",
     tier: "normal",
     description: "",
-  }, 
+  },
   Archaist: {
     name: "Archaist",
     stats: {
@@ -764,7 +794,7 @@ export const classList = {
       "",
     tier: "normal",
     description: "",
-  }, 
+  },
   Samurai: {
     name: "Samurai",
     stats: {
@@ -777,7 +807,7 @@ export const classList = {
       "",
     tier: "normal",
     description: "",
-  }, 
+  },
   Ninja: {
     name: "Ninja",
     stats: {
@@ -790,7 +820,7 @@ export const classList = {
       "",
     tier: "normal",
     description: "",
-  }, 
+  },
   Gunslinger: {
     name: "Gunslinger",
     stats: {
