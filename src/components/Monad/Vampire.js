@@ -1696,7 +1696,6 @@ export function BeastPage({ name }) {
           <StatsContainer>
             <Stats
               hideSubTitles={true}
-              hideH1={true}
               type={"description"}
               removeHPMP={true}
               stats={Status}

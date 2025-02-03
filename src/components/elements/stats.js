@@ -527,7 +527,6 @@ function Stats({
   showItems,
   removeHPMP,
   hideTitle,
-  hideH1,
   hideSubTitles,
 }) {
   const MiasmaLevel = _try(
@@ -804,28 +803,54 @@ function Stats({
       );
     }
   }
-
+  const [isVisible, setIsVisible] = React.useState(false);
   return (
     <>
-      {hideH1 ? <div /> : <Title>Attributes:</Title>}
-      <StatsStyle>{array}</StatsStyle>
-      {showSkills && spellsArray}
-      {showItems && itemsArray}
+      <MagicButton onClick={() => setIsVisible(!isVisible)}>
+        {isVisible ? "Hide" : "Show"} Attributes
+      </MagicButton>
+      {isVisible && (
+        <>
+          <StatsStyle>{array}</StatsStyle>
+          {showSkills && spellsArray}
+          {showItems && itemsArray}
+        </>
+      )}
     </>
   );
 }
 export default Stats;
 
+const MagicButton = styled.button`
+  background: linear-gradient(135deg, #3e1f47, #784ba0);
+  color: #f8e3a1;
+  font-family: "Cinzel", serif;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border: 2px solid #d4af37;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.8);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+
+  &:hover {
+    background: linear-gradient(135deg, #50295a, #9364c8);
+    box-shadow: 0 0 15px rgba(212, 175, 55, 1);
+    transform: scale(1.05);
+  }
+
+  &:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 5px rgba(212, 175, 55, 0.5);
+  }
+`;
+
+
 const Wrap = styled.div``;
 
 const Inline = styled.div`
   display: contents;
-`;
-
-const Title = styled.h1`
-  text-transform: capitalize;
-  display: flex;
-  justify-content: center;
 `;
 
 const StatsStyle = styled.ul`
