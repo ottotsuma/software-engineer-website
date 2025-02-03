@@ -545,16 +545,7 @@ function Stats({
   // Add HP and MP Values
   //  level *5 magic * 8 = mp // level * 10 vit * 14.5 +100 = hp
   // So at 100, 1100 ~ 2550
-  baseStats["HP"] = _try(
-    () => baseStats["level"] * 10 + baseStats["vitality"] * 14.5 + 100
-  );
-  baseStats["MP"] = _try(() => baseStats["level"] * 5 + baseStats["magic"] * 8);
-  if (baseStats["MP"] < 0) {
-    baseStats["MP"] = 0;
-  }
-  if (baseStats["HP"] < 100) {
-    baseStats["HP"] = 100;
-  }
+
   let flatStats = {};
   let multiplierStats = {}
   let keys = Object.keys(baseStats);
@@ -636,6 +627,16 @@ function Stats({
 
   // Calculate flat and multiplier stats using baseStats. 
   const finalStats = calculateFinalStats(baseStats, flatStats, multiplierStats)
+  finalStats["HP"] = _try(
+    () => finalStats["HP"] + (finalStats["level"] * 10 + finalStats["vitality"] * 14.5 + 100)
+  );
+  finalStats["MP"] = _try(() => finalStats["MP"] + (finalStats["level"] * 5 + finalStats["magic"] * 8));
+  if (finalStats["MP"] < 0) {
+    finalStats["MP"] = 0;
+  }
+  if (finalStats["HP"] < 100) {
+    finalStats["HP"] = 100;
+  }
   if (removeHPMP) {
     delete finalStats['HP']
     delete finalStats['MP']
