@@ -628,9 +628,9 @@ function Stats({
   // Calculate flat and multiplier stats using baseStats. 
   const finalStats = calculateFinalStats(baseStats, flatStats, multiplierStats)
   finalStats["HP"] = _try(
-    () => finalStats["HP"] + (finalStats["level"] * 10 + finalStats["vitality"] * 14.5 + 100)
+    () => (finalStats["HP"] || 0) + (finalStats["level"] * 10 + finalStats["vitality"] * 14.5 + 100)
   );
-  finalStats["MP"] = _try(() => finalStats["MP"] + (finalStats["level"] * 5 + finalStats["magic"] * 8));
+  finalStats["MP"] = _try(() => (finalStats["MP"] || 0) + (finalStats["level"] * 5 + finalStats["magic"] * 8));
   if (finalStats["MP"] < 0) {
     finalStats["MP"] = 0;
   }
