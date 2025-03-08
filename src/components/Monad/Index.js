@@ -267,7 +267,7 @@ export default function Monad() {
         {droppy({}, navigate)}
       </div>
     </div>)
-    buttonArray.push(<LinkStyled style={{ width: "fit-content", alignSelf: "center" }} to="/" > Exit</LinkStyled >)
+    buttonArray.push(<LinkStyled style={{ width: "fit-content", alignSelf: "center" }} to="/" >Exit</LinkStyled >)
     buttonArray.push(<br />)
     buttonArray.push(
       <ButtonStyled darkMode={darkMode} onClick={toggleDarkMode}>
