@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFont } from "@fortawesome/free-solid-svg-icons";
+import { NavLink } from "react-router-dom";
 import Chapter1 from "./Ch1-Intro";
 import Chapter2 from "./Ch2-Travel";
 import Chapter3 from "./Ch3-Banderedam";
@@ -50,26 +48,11 @@ import SeaPeopleFunction from "./SeaPeople";
 import HitoriStoryFunction from "./Hitori"; // 9 
 import Vampire from "./Vampire";
 import { ButtonStyled, LinkStyled, Buttons, Sticky, ChapterContainer, StyledArticle } from './styles'
+import { useNavigate } from 'react-router-dom';
 
 const scrollTop = () => {
   window.scrollTo({ top: 0, behavior: "smooth" });
 };
-let pageNumber = 1;
-if (window.location.href.match(/\d+$/)) {
-  pageNumber = parseInt(window.location.href.match(/\d+$/)[0]);
-}
-
-function NextPage() {
-  pageNumber++;
-}
-function PreviousPage() {
-  pageNumber--;
-}
-
-function callBack(index) {
-  document.getElementById("myDropdown").classList.toggle("show");
-  pageNumber = index + 1;
-}
 
 const ChapterList = [
   <Vampire />,
@@ -128,21 +111,26 @@ const ChapterList = [
   <HitoriStoryFunction Chapter={2} />,
 ];
 
-export function droppy(props) {
+export function droppy({ style, navigate }) {
+  function callBack(index) {
+    document.getElementById("myDropdown").classList.toggle("show");
+    navigate(`/Monad/${index}`)
+  }
+
   let rows = new Array(ChapterList.length).fill(0).map((zero, index) => (
-    <Link
+    <NavLink
       key={index}
       id={index}
       className="dropdown-content-a"
       onClick={() => callBack(index)}
       to={"/Monad/" + (index + 1)}
-      style={props ? props : null}
+      style={style ? style : null}
     >
       Ch {index + 1}
       {ChapterList[index].props.Chapter
         ? " " + ChapterList[index].props.Chapter
         : " " + ChapterList[index].type.name}
-    </Link>
+    </NavLink>
   ));
   return rows;
 }
@@ -150,9 +138,52 @@ export function droppy(props) {
 export function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
+// if (window.location.href.match(/\d+$/)) {
+//   pageNumber = parseInt(window.location.href.match(/\d+$/)[0]);
+// }
 
-export default function Monad(params) {
+
+export default function Monad() {
+  const [scrollTopState, setScrollTop] = useState(true);
+  useEffect(() => {
+    window.onscroll = function () {
+      if (window.pageYOffset === 0) {
+        setScrollTop(true)
+      } else {
+        setScrollTop(false)
+      }
+    };
+  }, [])
+
+  const [pageNumber, setPageNumber] = useState(1);
+  const navigate = useNavigate(); // Initialize useNavigate
+  function nextPage() {
+    setPageNumber((prevPage) => {
+      const newPage = prevPage + 1;
+      navigate(`/Monad/${newPage}`); // Update URL
+      return newPage;
+    });
+  }
+
+  function previousPage() {
+    setPageNumber((prevPage) => {
+      const newPage = Math.max(1, prevPage - 1); // Ensure page number stays >= 1
+      navigate(`/Monad/${newPage}`); // Update URL
+      return newPage;
+    });
+  }
+
+  useEffect(() => {
+    const location = window.location.href.match(/\d+$/);
+    const currentPage = location ? parseInt(location[0], 10) : 1;
+    setPageNumber(currentPage);
+    scrollTop();
+  }, []);
+
+
   const [darkMode, setDarkMode] = useState(true);
+  const toggleDarkMode = () => setDarkMode(prev => !prev);
+
   const [sizeState, setSizeState] = useState('24px');
   const [colorState, SetColorState] = useState('');
   function updateState(StateFunction, NewState) {
@@ -228,20 +259,27 @@ export default function Monad(params) {
     const possibleSizes = ['14px', '16px', '18px', '20px', '24px', '26px', 'xxx-large'];
     const possibleColors = Object.keys(textColors);
     const buttonArray = []
+    buttonArray.push(<div className="dropdown">
+      <ButtonStyled onClick={() => myFunction()} className="">
+        Chapter
+      </ButtonStyled>
+      <div id="myDropdown" className="dropdown-content">
+        {droppy({}, navigate)}
+      </div>
+    </div>)
+    buttonArray.push(<LinkStyled style={{ width: "fit-content", alignSelf: "center" }} to="/" >Exit</LinkStyled >)
+    buttonArray.push(<br />)
     buttonArray.push(
-      <ButtonStyled
-      darkMode={darkMode}
-      onClick={() => updateState(setDarkMode, !darkMode)}
-      id="darkMode"
-
-    >
-      {darkMode ? 'Toggle Light Mode' : 'Toggle Dark Mode'}
-    </ButtonStyled>
+      <ButtonStyled darkMode={darkMode} onClick={toggleDarkMode}>
+        {darkMode ? 'Toggle Light Mode' : 'Toggle Dark Mode'}
+      </ButtonStyled>
     )
+    buttonArray.push(<br />)
     for (let index = 0; index < possibleSizes.length; index++) {
       const size = possibleSizes[index];
       buttonArray.push(<Buttons style={{ padding: '5px', border: '2px solid black', backgroundColor: 'white' }} key={size} onClick={() => updateState(setSizeState, size)}>{size}</Buttons>)
     }
+    buttonArray.push(<br />)
     for (let index = 0; index < possibleColors.length - 1; index++) {
       const NewColor = possibleColors[index];
       buttonArray.push(<Buttons style={{ padding: '5px', border: '2px solid black', backgroundColor: 'white', color: NewColor }} key={NewColor} onClick={() => updateState(SetColorState, textColors[NewColor])}>{NewColor}</Buttons>)
@@ -263,30 +301,11 @@ export default function Monad(params) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pageNumber]);
 
-  const [scrollTopState, setScrollTop] = useState(true);
-  useEffect(() => {
-    window.onscroll = function () {
-      if (window.pageYOffset === 0) {
-        setScrollTop(true)
-      } else {
-        setScrollTop(false)
-      }
-    };
-  }, [])
-
   return (
     <div>
       {
         <ChapterContainer darkMode={darkMode}>
-          <LinkStyled to="/">Exit</LinkStyled>
-          {/* <ButtonStyled
-            darkMode={darkMode}
-            onClick={() => updateState(setDarkMode, !darkMode)}
-            id="darkMode"
-
-          >
-            {darkMode ? 'Toggle Light Mode' : 'Toggle Dark Mode'}
-          </ButtonStyled> */}
+          Chapter: {pageNumber}
           {"speechSynthesis" in window && (
             <div className="buttons">
               <Buttons
@@ -338,42 +357,17 @@ export default function Monad(params) {
               ></Buttons>
             </div>
           )}
-          {pageNumber > 1 && <LinkStyled
-            id="Previous"
-            onClick={() => PreviousPage()}
-            to={"/Monad/" + (pageNumber - 1)}
-          >
-            Previous
-          </LinkStyled>}
-          <div className="dropdown">
-            <ButtonStyled onClick={() => myFunction()} className="">
-              Chapter
-            </ButtonStyled>
-            <div id="myDropdown" className="dropdown-content">
-              {droppy()}
-            </div>
-          </div>
-          {pageNumber !== ChapterList.length && <LinkStyled
-            to={"/Monad/" + (pageNumber + 1)}
-            onClick={() => NextPage()}
-          >
-            Next
-          </LinkStyled>}
+          {pageNumber > 1 && <ButtonStyled onClick={previousPage}>Previous</ButtonStyled>}
+
+          {pageNumber !== ChapterList.length && <ButtonStyled onClick={nextPage}>Next</ButtonStyled>}
           <StyledArticle size={sizeState} color={colorState} darkMode={darkMode}>{isPage}</StyledArticle>
           {!scrollTopState && <button className="Footer-Button" onClick={() => scrollTop()}>
             Top
           </button>}
-          <LinkStyled
-            to={"/Monad/" + (pageNumber + 1)}
-            onClick={() => NextPage()}
-          >
-            Next
-          </LinkStyled>
           <Sticky open={sizeOpen}>
-          <div style={{ display: sizeOpen ? 'flex' : 'none', flexDirection: 'column' }}>{sizeArray}</div>
-          <button onClick={() => setSizeOpen(!sizeOpen)}><FontAwesomeIcon
-            icon={faFont}
-          /></button>
+            <button style={{ alignSelf: "flex-end" }} onClick={() => setSizeOpen(!sizeOpen)}>⚙️</button>
+            <div style={{ display: sizeOpen ? 'flex' : 'none', flexDirection: 'column' }}>{sizeArray}</div>
+
           </Sticky>
         </ChapterContainer>
       }

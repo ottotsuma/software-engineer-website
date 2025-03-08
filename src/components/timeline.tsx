@@ -114,7 +114,7 @@ export default function CustomizedTimeline() {
             </Paper>
           </TimelineContent>
         </TimelineItem>
-        <TimelineItem>
+        {/* <TimelineItem>
           <TimelineOppositeContent></TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot color="secondary">
@@ -133,8 +133,8 @@ export default function CustomizedTimeline() {
               </Typography>
             </Paper>
           </TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
+        </TimelineItem> */}
+        {/* <TimelineItem>
           <TimelineOppositeContent></TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineDot color="primary" className={classes.blueDot}>
@@ -153,7 +153,7 @@ export default function CustomizedTimeline() {
               </Typography>
             </Paper>
           </TimelineContent>
-        </TimelineItem>
+        </TimelineItem> */}
         {/* <TimelineItem>
           <TimelineOppositeContent></TimelineOppositeContent>
           <TimelineSeparator>
@@ -183,11 +183,11 @@ export default function CustomizedTimeline() {
           <TimelineContent>
             <Paper elevation={3} className={classes.paper}>
               <Typography variant="h6" className="timelineTitle">
-                University of Portsmouth
+              Physicist
               </Typography>
-              <Typography>Research Physicist</Typography>
+              <Typography>University of Portsmouth</Typography>
               <Typography variant="body2" color="textSecondary">
-                2012 - 2019
+                2015 - 2019
               </Typography>
             </Paper>
           </TimelineContent>

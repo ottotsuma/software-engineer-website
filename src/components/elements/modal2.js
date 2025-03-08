@@ -1,42 +1,57 @@
 import styled from 'styled-components';
 import React from 'react'
-import { useSpring, animated } from "react-spring";
-import {colors} from './colors'
+import { useSpring, animated, useTransition } from "react-spring";
+import { colors } from './colors'
 
 function Modal2(props) {
 
     // takes 
-    
+
     // resolve / reject (functions) || close (function) !important
     // cancel, title (Strings) 
     // insert (Thing to render) !important
 
+    const [visible, setVisible] = React.useState(true);
+
     const reject = () => {
-        // https://stackoverflow.com/questions/56494524/how-to-call-css-class-as-function-in-html-elements
-        var elements = document.getElementsByClassName("dynamicWidth");
-        Array.from(elements).forEach((element) => {
-        element.style.transition = 'opacity 1s ease-in-out'; // doesn't quite work
-        element.style.opacity = element.getAttribute("data-width");
-        });
+        setVisible(false);
         setTimeout(() => {
             props.reject();
         }, 150);
     };
 
+
     const springProps = useSpring({
-        from: { opacity: 0 },
-        to: { opacity: 1 },
-        leave: {opacity: 0},
+        opacity: visible ? 1 : 0,
         config: { clamp: true, mass: 1, tension: 250, friction: 1 },
-      });
-    
+    });
+
+    // const transitions = useTransition(props.open, {
+    //     from: { opacity: 0 },
+    //     enter: { opacity: 1 },
+    //     leave: { opacity: 0 },
+    //     config: { clamp: true, mass: 1, tension: 250, friction: 1 },
+    // });
+
+
+
     return (
         <Wrapper>
             {props.close ? <Outside css={'-webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px);'} onClick={() => props.close()}></Outside> : <Outside onClick={() => reject()}></Outside>}
+            {/* {transitions((styles, item) =>
+    item ? (
+        <Modal style={styles}>
+            {props.title && <h1>{props.title}</h1>}
+            {props.insert}
+            {props.url && <a href={props.url} target="_blank" rel="noopener noreferrer">{props.url}</a>}
+            <Button onClick={() => reject()}>{props.cancel || 'Cancel'}</Button>
+        </Modal>
+    ) : null
+)} */}
             <Modal style={springProps} className='dynamicWidth' data-width='0'>
                 {props.title ? <h1>{props.title}</h1> : <div></div>}
                 {props.insert}
-                {props.url ? <a target="_blank" rel="noopener noreferrer" style={{color: 'white'}} href={props.url}>{props.url}</a> : <div></div>}
+                {props.url ? <a target="_blank" rel="noopener noreferrer" style={{ color: 'white' }} href={props.url}>{props.url}</a> : <div></div>}
                 {props.close ? <Button onClick={() => props.close()}>{props.cancel || 'Cancel'}</Button> : <Button onClick={() => reject()}>{props.cancel || 'Cancel'}</Button>}
             </Modal>
         </Wrapper>
@@ -63,7 +78,7 @@ const Button = styled.div`
 `;
 
 
- const Outside = styled.div`
+const Outside = styled.div`
 position: absolute;
 top: 0%;
 left: 0%;
@@ -74,7 +89,7 @@ opacity: 0.4;
 ${props => props.css || ''}
 `;
 
- const Modal = styled(animated.div)`
+const Modal = styled(animated.div)`
 position: absolute;
 z-index: 10;
 background: #161b21;

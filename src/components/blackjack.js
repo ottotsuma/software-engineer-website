@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect } from "react";
+import { NavLink } from "react-router-dom";
 let deck = [];
 let players = [];
 function Blackjack() {
@@ -266,6 +267,7 @@ function Blackjack() {
   if (!over) {
     return (
       <div className="Blackjack">
+        <NavLink style={{ width: "fit-content", alignSelf: "center" }} to="/" > Exit</NavLink >
         <div className="Dealer">
           <h1>Dealer</h1>
           <div className="Dealer-Hand">{playD}</div>
@@ -295,7 +297,7 @@ function Blackjack() {
           </div>
         </div>
       </div>
-    );  
+    );
   } else {
     return (
       <div className="Blackjack">
@@ -324,6 +326,6 @@ function Blackjack() {
       </div>
     );
   }
-  
+
 }
 export default Blackjack;
