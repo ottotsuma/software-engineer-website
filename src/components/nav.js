@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  Link
+  NavLink
 } from "react-router-dom";
 import styled from 'styled-components'
 import { myFunction, droppy } from './Monad/Index'
@@ -51,7 +51,9 @@ color: white;
 }
 `;
 
-const LinkStyled = styled(Link)`
+const LinkStyled = styled(NavLink).attrs(() => ({
+  activeClassName: 'active',
+}))`
 color: white;
 &:hover {
     color: orange;

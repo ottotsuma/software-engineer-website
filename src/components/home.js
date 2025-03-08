@@ -1,6 +1,6 @@
 // Import statements
 import React, { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Cog from "./../assets/cog.png";
 import Munchify from "./../assets/512x512.png";
 import Secret from "./../assets/Group1.png";

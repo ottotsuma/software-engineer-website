@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { colors } from "./../elements/colors";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 // Styles for Monad as a whole.
 export const BreakPoint = styled.section`
@@ -26,7 +26,7 @@ export const ChapterContainer = styled.div`
   max-width: 100%;
   max-height: 100%;
   background: ${(props) =>
-  props.darkMode ? colors.grey.oldNormal : colors.lightBackground};
+    props.darkMode ? colors.grey.oldNormal : colors.lightBackground};
   padding-bottom: 5px;
   padding-top: 5px;
 `;
@@ -78,7 +78,9 @@ font-family: "Yusei Magic", sans-serif;
   background ${colors.blue.normal};
 }
 `;
-export const LinkStyled = styled(Link)`
+export const LinkStyled = styled(NavLink).attrs(() => ({
+  activeClassName: 'active',
+}))`
 padding: 0 1.5rem;
 border-radius: 2rem;
 background: linear-gradient(
