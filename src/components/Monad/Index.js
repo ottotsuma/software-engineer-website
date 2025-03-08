@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFont } from "@fortawesome/free-solid-svg-icons";
 import Chapter1 from "./Ch1-Intro";
 import Chapter2 from "./Ch2-Travel";
 import Chapter3 from "./Ch3-Banderedam";
@@ -230,18 +228,20 @@ export default function Monad(params) {
     const buttonArray = []
     buttonArray.push(
       <ButtonStyled
-      darkMode={darkMode}
-      onClick={() => updateState(setDarkMode, !darkMode)}
-      id="darkMode"
+        darkMode={darkMode}
+        onClick={() => updateState(setDarkMode, !darkMode)}
+        id="darkMode"
 
-    >
-      {darkMode ? 'Toggle Light Mode' : 'Toggle Dark Mode'}
-    </ButtonStyled>
+      >
+        {darkMode ? 'Toggle Light Mode' : 'Toggle Dark Mode'}
+      </ButtonStyled>
     )
+    buttonArray.push(<br />)
     for (let index = 0; index < possibleSizes.length; index++) {
       const size = possibleSizes[index];
       buttonArray.push(<Buttons style={{ padding: '5px', border: '2px solid black', backgroundColor: 'white' }} key={size} onClick={() => updateState(setSizeState, size)}>{size}</Buttons>)
     }
+    buttonArray.push(<br />)
     for (let index = 0; index < possibleColors.length - 1; index++) {
       const NewColor = possibleColors[index];
       buttonArray.push(<Buttons style={{ padding: '5px', border: '2px solid black', backgroundColor: 'white', color: NewColor }} key={NewColor} onClick={() => updateState(SetColorState, textColors[NewColor])}>{NewColor}</Buttons>)
@@ -370,10 +370,9 @@ export default function Monad(params) {
             Next
           </LinkStyled>
           <Sticky open={sizeOpen}>
-          <div style={{ display: sizeOpen ? 'flex' : 'none', flexDirection: 'column' }}>{sizeArray}</div>
-          <button onClick={() => setSizeOpen(!sizeOpen)}><FontAwesomeIcon
-            icon={faFont}
-          /></button>
+            <button style={{ alignSelf: "flex-end" }} onClick={() => setSizeOpen(!sizeOpen)}>A</button>
+            <div style={{ display: sizeOpen ? 'flex' : 'none', flexDirection: 'column' }}>{sizeArray}</div>
+
           </Sticky>
         </ChapterContainer>
       }
