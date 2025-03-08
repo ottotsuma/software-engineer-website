@@ -365,7 +365,7 @@ export default function Monad() {
             Top
           </button>}
           <Sticky open={sizeOpen}>
-            <button style={{ alignSelf: "flex-end" }} onClick={() => setSizeOpen(!sizeOpen)}>三</button>
+            <button style={{ alignSelf: "flex-end" }} onClick={() => setSizeOpen(!sizeOpen)}>⚙️</button>
             <div style={{ display: sizeOpen ? 'flex' : 'none', flexDirection: 'column' }}>{sizeArray}</div>
 
           </Sticky>
