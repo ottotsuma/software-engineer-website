@@ -8,7 +8,7 @@ import Food from "./../assets/foodlogo.png";
 // https://pubgnoc.com/
 import Video from "./video";
 import styled, { keyframes } from "styled-components";
-import { useSpring, animated } from "react-spring";
+import { useSpring, animated } from "@react-spring/web";
 
 import Modal from "./elements/modal";
 import Tech from "./tech";
@@ -93,8 +93,12 @@ const Language = {
 
 // Main function
 function Home() {
-  // Change window function
-  const playSpring = window.screen.width > 590;
+  const [playSpring, setPlaySpring] = useState(window.innerWidth > 590);
+  React.useEffect(() => {
+    const handleResize = () => setPlaySpring(window.innerWidth > 590);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
   const springGlass = useSpring({
     from: { width: playSpring ? "0%" : "250px" },
     to: { width: playSpring ? "60%" : "250px" },
@@ -250,7 +254,7 @@ function Home() {
           cancel={Language[lang].Cancel}
         />
       )}
-      <Glass style={springGlass}>
+      <Glass style={springGlass} key={playSpring}>
         {/* <Profile2 style={springReverse}>AAA</Profile2> */}
         <Profile>
           <NameWrap>

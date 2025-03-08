@@ -1,10 +1,11 @@
-import React from 'react'
-import ReactDOM from 'react-dom';
-import Modal2 from './modal2'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import Modal2 from './modal2';
 
 function Modal(props) {
-    
-    const div = document.body.appendChild(document.createElement('div'));
+    const div = document.createElement('div');
+    document.body.appendChild(div);
+
     const elements = [];
     const draftContainer = document.querySelector('#root');
     if (draftContainer !== null) elements.push(draftContainer);
@@ -12,8 +13,10 @@ function Modal(props) {
         element.classList.add('modal-blur');
     });
 
+    const root = ReactDOM.createRoot(div);
+
     const cleanup = () => {
-        ReactDOM.unmountComponentAtNode(div);
+        root.unmount();
         div.parentNode.removeChild(div);
         elements.forEach(element => {
             element.classList.remove('modal-blur');
@@ -21,19 +24,17 @@ function Modal(props) {
     };
 
     return new Promise((resolve, reject) => {
-        ReactDOM.render(
-            <Modal2 {...props} resolve={resolve} reject={reject} />,
-            div
-        );
-    }).then(result => {
-        cleanup();
-        return result;
-    }).catch(error => {
-        console.warn(error);
-        cleanup();
-        return undefined;
-    });
-};
+        root.render(<Modal2 {...props} resolve={resolve} reject={reject} />);
+    })
+        .then(result => {
+            cleanup();
+            return result;
+        })
+        .catch(error => {
+            console.warn(error);
+            cleanup();
+            return undefined;
+        });
+}
 
-export default Modal
-
+export default Modal;
