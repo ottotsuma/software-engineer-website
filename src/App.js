@@ -17,13 +17,13 @@ function App() {
       <Main>
         <BrowserRouter>
           {/* <Nav /> */}
-          <Route path="/" component={Home} exact />
-          <Route path="/story" component={Story} />
+          <Route path="/" component={<Home />} exact />
+          <Route path="/story" component={<Story />} />
           {/* <Route path="/tech" component={tech} /> */}
           {/* <Route path="/timeline" component={Timeline} /> */}
-          <Route path="/monad/:chapter" component={Monad} />
-          <Route path="/blackjack" component={Blackjack} />
-          <Route path="/Snap" component={Snap} />
+          <Route path="/monad/:chapter" component={<Monad />} />
+          <Route path="/blackjack" component={<Blackjack />} />
+          <Route path="/Snap" component={<Snap />} />
           {/* <Route path="/video" component={Video} /> */}
         </BrowserRouter>
       </Main>
