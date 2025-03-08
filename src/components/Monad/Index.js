@@ -305,6 +305,7 @@ export default function Monad() {
     <div>
       {
         <ChapterContainer darkMode={darkMode}>
+          Chapter: {pageNumber}
           {"speechSynthesis" in window && (
             <div className="buttons">
               <Buttons
