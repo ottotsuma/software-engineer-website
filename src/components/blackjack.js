@@ -295,7 +295,7 @@ function Blackjack() {
           </div>
         </div>
       </div>
-    );  
+    );
   } else {
     return (
       <div className="Blackjack">
@@ -324,6 +324,6 @@ function Blackjack() {
       </div>
     );
   }
-  
+
 }
 export default Blackjack;

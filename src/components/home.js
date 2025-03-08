@@ -1,6 +1,6 @@
 // Import statements
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import Cog from "./../assets/cog.png";
 import Munchify from "./../assets/512x512.png";
 import Secret from "./../assets/Group1.png";
@@ -330,7 +330,7 @@ function Home() {
             <Linkey>
               <LinkImage src={'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Font_Awesome_5_solid_book.svg/896px-Font_Awesome_5_solid_book.svg.png'} alt="Light Novel" />
               <Anchor to="/Monad/1">
-                <p>
+                <p style={{ margin: 0 }}>
                   {'Light Novel'}
                 </p>
               </Anchor>
@@ -473,7 +473,9 @@ const AStyled = styled.a`
   }
 `;
 
-const Anchor = styled(Link)`
+const Anchor = styled(NavLink).attrs(() => ({
+  activeClassName: 'active',
+}))`
   // fake link!
   color: black;
   // background: #0d89eb;
@@ -487,7 +489,9 @@ const Anchor = styled(Link)`
   text-decoration: underline;
 `;
 
-const Anchor2 = styled(Link)`
+const Anchor2 = styled(NavLink).attrs(() => ({
+  activeClassName: 'active',
+}))`
 @media screen and (max-height: 500px) {
   display: none;
 }

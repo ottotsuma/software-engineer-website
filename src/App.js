@@ -1,44 +1,35 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Route } from 'react-router-dom';
-import Home from './components/home'
-import Story from './components/story'
-// import Nav from './components/nav'
-// import Timeline from './components/timeline'
-import Monad from './components/Monad/Index'
-import Blackjack from './components/blackjack'
+import { Routes, Route } from 'react-router-dom'; // ❌ No BrowserRouter here!
+import Home from './components/home';
+import Story from './components/story';
+import Monad from './components/Monad/Index';
+import Blackjack from './components/blackjack';
+import Snap from './components/snap';
 import styled from "styled-components";
-import { BackgroundColor } from './components/color'
-import Snap from './components/snap'
+import { BackgroundColor } from './components/color';
 
 function App() {
   return (
-    <>
-      <Main>
-        <BrowserRouter>
-          {/* <Nav /> */}
-          <Route path="/" component={Home} exact />
-          <Route path="/story" component={Story} />
-          {/* <Route path="/tech" component={tech} /> */}
-          {/* <Route path="/timeline" component={Timeline} /> */}
-          <Route path="/monad/:chapter" component={Monad} />
-          <Route path="/blackjack" component={Blackjack} />
-          <Route path="/Snap" component={Snap} />
-          {/* <Route path="/video" component={Video} /> */}
-        </BrowserRouter>
-      </Main>
-    </>
+    <Main>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/story" element={<Story />} />
+        <Route path="/monad/:chapter" element={<Monad />} />
+        <Route path="/blackjack" element={<Blackjack />} />
+        <Route path="/snap" element={<Snap />} />
+      </Routes>
+    </Main>
   );
 }
 
 export default App;
 
 const Main = styled.div`
-text-align: center;
-background: ${BackgroundColor};
-color: whitesmoke;
-min-height: 100vh;
-display: flex;
-flex-direction: column;
+  text-align: center;
+  background: ${BackgroundColor};
+  color: whitesmoke;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 `;
-
