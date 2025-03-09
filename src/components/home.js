@@ -515,6 +515,7 @@ const Hi = styled.div`
 `;
 
 const HiWrapper = styled.div`
+position: relative;
   &:hover ${Hi} {
     max-height: 50%; /* important */
     bottom: 90%;
