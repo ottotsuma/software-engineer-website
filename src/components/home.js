@@ -109,21 +109,12 @@ function Home() {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-  // const springGlass = useSpring({
-  //   from: { width: (playSpring ? "0%" : "250px") },
-  //   to: { width: (playSpring ? "60%" : "250px") },
-  //   config: { clamp: true, mass: 2, tension: 60, friction: 20 },
-  // });
   const closeGlass = useSpring({
     // from: { width: isOpen ? (playSpring ? "60%" : "250px") : (playSpring ? "0%" : "0px") },
     // to: { width: isOpen ? (playSpring ? "60%" : "250px") : (playSpring ? "0%" : "0px") },
     width: isOpen ? (playSpring ? "60%" : "250px") : (playSpring ? "0%" : "0px"),
     config: { clamp: true, mass: 2, tension: 60, friction: 20 },
   });
-  // function change(props) {
-  //   const win = window.open(props, "_blank");
-  //   win.focus();
-  // }
   const [lang, setLang] = useState("en");
   function updateLang() {
     if (lang === "en") {
@@ -147,15 +138,6 @@ function Home() {
     }
   }
 
-  // const [toggle, setToggle] = useState(true);
-  // setTimeout(() => {
-  //   setToggle(false)
-  // }, 2000);
-  // const springReverse = useSpring({
-  //   transform: toggle ? "translateX(0px)" : "translateX(-250px)",
-  //   config: { clamp: true, mass: 2, tension: 60, friction: 20 },
-  // });
-
   return (
     <GlassWrapper>
       {showTimeline && (
@@ -178,36 +160,6 @@ function Home() {
       <Wrap>
         <Profile borderRadiusRight={window.innerWidth > 590 && isOpen}>
           <NameWrap>
-            {/* <Video /> */}
-            {/* <HiWrapper>
-              <ProfileImage
-                src="https://ottotsuma.github.io/images/people/05400592ac5ec9dc524baf6939b5609b.jpg"
-                alt="Profile"
-                onError={imageError}
-              />
-              <Hi>{Language[lang].hi}</Hi>
-            </HiWrapper> */}
-            {/* <Link2
-              style={{ fontSize: "1.17em" }}
-              onClick={() =>
-                Modal({
-                  insert: (
-                    <div>
-                      <iframe
-                        title="PWA"
-                        width="420"
-                        height="315"
-                        src={YouTubeUrl}
-                      ></iframe>
-                    </div>
-                  ),
-                  cancel: "Close",
-                  title: "PWA Video",
-                })
-              }
-            >
-              {Language[lang].name}
-            </Link2> */}
             <div style={{ textDecoration: "underline" }}>{getTranslation(lang, "name")}</div>
             <HiWrapper>
               <iframe
@@ -236,13 +188,7 @@ function Home() {
               </AStyled>
             </Linkey>
             <Linkey>
-              {/* <LinkImage
-                onError={imageError}
-                src="https://www.pinclipart.com/picdir/middle/75-750874_work-experience-svg-png-icon-free-download-356662.png"
-                alt="Experience"
-              /> */}
               <div style={{ marginRight: "1rem" }}>🏢</div>
-
               <Link2 onClick={() => updateTimeline()}>
                 {getTranslation(lang, "experience")}
                 {/* ⛶ */}
@@ -250,7 +196,6 @@ function Home() {
             </Linkey>
             <Linkey>
               <div style={{ marginRight: "1rem" }}>⚙️</div>
-
               <Link2
                 onClick={() =>
                   Modal({
@@ -264,9 +209,7 @@ function Home() {
               </Link2>
             </Linkey>
             <Linkey>
-              {/* <LinkImage src={'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Font_Awesome_5_solid_book.svg/896px-Font_Awesome_5_solid_book.svg.png'} alt="Light Novel" /> */}
               <div style={{ marginRight: "1rem" }}>📖</div>
-
               <Anchor to="/Monad/1">
                 <p style={{ margin: 0 }}>
                   {'Light Novel'}
@@ -283,8 +226,6 @@ function Home() {
           </Anchor2>
         </Profile>
         <Glass style={closeGlass} key={playSpring}>
-          {/* <Profile2 style={springReverse}>AAA</Profile2> */}
-
           <Right>
             {projects.map((project, index) => (
               <HomeImage
@@ -295,13 +236,11 @@ function Home() {
                 onClick={() => updateShowItem(project.alt)}
               />
             ))}
-
           </Right>
           <GlassButton onClick={toggleGlass}>
             {isOpen ? "<" : ">"}
           </GlassButton>
         </Glass>
-
       </Wrap>
       <Circle1 animate={circle1Animate} onClick={handleClickCircle1} />
       <Circle2 style={Circle2SpringProps} onClick={handleClickCircle2} />
