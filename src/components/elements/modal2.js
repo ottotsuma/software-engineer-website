@@ -52,7 +52,7 @@ function Modal2(props) {
                 {props.title ? <h1>{props.title}</h1> : <div></div>}
                 {props.insert}
                 {props.url ? <a target="_blank" rel="noopener noreferrer" style={{ color: 'white' }} href={props.url}>{props.url}</a> : <div></div>}
-                {props.close ? <Button onClick={() => props.close()}>{props.cancel || 'Cancel'}</Button> : <Button onClick={() => reject()}>{props.cancel || 'Cancel'}</Button>}
+                {props.close ? <Button onClick={() => props.close()}>{props.cancel || 'close'}</Button> : <Button onClick={() => reject()}>{props.cancel || 'close'}</Button>}
             </Modal>
         </Wrapper>
     )

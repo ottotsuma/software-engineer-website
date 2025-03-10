@@ -1,12 +1,13 @@
 // Import statements
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import Cog from "./../assets/cog.png";
-import Munchify from "./../assets/512x512.png";
-import Secret from "./../assets/Group1.png";
-import Food from "./../assets/foodlogo.png";
-// https://pubgnoc.com/
-import Video from "./video";
+// import Munchify from "./../assets/512x512.png";
+// import Secret from "./../assets/Group1.png";
+// import Food from "./../assets/foodlogo.png";
+import Jobcado from "./../assets/jobcado.png";
+import JodGig from "./../assets/jod_square_logo.webp";
+import JodPro from "./../assets/Logo copy.png";
+import JodBoard from "./../assets/jodboard.webp";
 import styled, { keyframes, css } from "styled-components";
 import { useSpring, animated } from "@react-spring/web";
 
@@ -15,81 +16,13 @@ import Tech from "./tech";
 
 import Modal2 from "./elements/modal2";
 import Timeline from "./timeline";
-
+import { getTranslation } from "./../translation/translation";
 import { imageError } from "./color";
 
 // Embed video player of your youtube video!
 const YouTubeUrl = "https://www.youtube.com/embed/m86uLnh7OfU";
 // 「保存」、「登録」、「完了」、「キャンセル」
-const Language = {
-  ja: {
-    Cancel: "キャンセル",
-    name: "ダラー・ショーン",
-    projects: "プロジェクト",
-    experience: "経験",
-    tech: "技術的なスキル",
-    blackjack: "ブラックジャック",
-    hi: "こんにちは！",
-    lang: "English",
-    MunchifyDisc: "機械学習があなたにぴったりのレストランを予測！",
-    MunchifyTech: "React-Native, NodeJS, MongoDB",
-    MunchifyTitle: "Munchify!",
-    CGPCDisc: "LOL 日本プロリーグ「LJL」ゲームオーバーレイ",
-    CGPCTech: "React, Styled-Components, Firebase, AWS",
-    CGPCTitle: "CGPC (LJL)",
-    DekkiDisc:
-      "DEKKIはゲームを愛する人たちが語り合えるゲームコミュニティプラットフォームです。",
-    DekkiTech: "React, Styled-Components, AWS",
-    DekkiTitle: "Dekki",
-    SecretDisc: "あなたの秘密のためのセーフティボックスです。",
-    SecretTech: "React, NodeJS, MongoDB",
-    SecretTitle: "秘密の箱",
-    RecipesDisc: "空腹感を解消しよう！",
-    RecipesTech: "React, PWA, Netlify",
-    RecipesTitle: "夫のレシピ",
-    pubDisc: "大会ページ",
-    pubTech: "Gatsby, React-Spring, AWS",
-    pubTitle: "PUBGNOC",
-    pubURL: "https://pubgnoc.com/",
-    DekkiURL: "https://dekki.com/en/",
-    RecipesURL: "https://ottotsumarecipes.netlify.app/",
-    SecretURL: "https://secretbox.netlify.app/",
-    PokeURL: "https://ottotsuma.netlify.app",
-  },
-  en: {
-    Cancel: "Cancel",
-    name: "Shaun Darragh",
-    projects: "Projects",
-    experience: "Experience",
-    tech: "Technical Skills",
-    blackjack: "BlackJack",
-    hi: "Hi!",
-    lang: "日本語",
-    MunchifyDisc: "Machine learning predicts your perfect restaurant!",
-    MunchifyTech: "React-Native, NodeJS, MongoDB",
-    MunchifyTitle: "Munchify!",
-    CGPCDisc: "Game overlay for LOL Japan League「LJL」",
-    CGPCTech: "React, Styled-Components, Firebase, AWS",
-    CGPCTitle: "CGPC (LJL)",
-    DekkiDisc: "A community platform for gamers to talk about games they love",
-    DekkiTech: "React, Styled-Components, AWS",
-    DekkiTitle: "Dekki",
-    DekkiURL: "https://dekki.com/en/",
-    SecretDisc: "A safety box for your secrets!",
-    SecretTech: "React, NodeJS, MongoDB",
-    SecretTitle: "The Secret Box",
-    RecipesDisc: "Sort out your hunger!",
-    RecipesTech: "React, PWA, Netlify",
-    RecipesTitle: "Otto's Recipes",
-    pubDisc: "Tournament page for PUBGNOC",
-    pubURL: "https://pubgnoc.com/",
-    pubTech: "Gatsby, React-Spring, AWS",
-    pubTitle: "Pubgnoc",
-    RecipesURL: "https://ottotsumarecipes.netlify.app/",
-    SecretURL: "https://secretbox.netlify.app/",
-    PokeURL: "https://ottotsuma.netlify.app",
-  },
-};
+
 
 // Main function
 function Home() {
@@ -172,35 +105,16 @@ function Home() {
     setShowTimeline(!showTimeline);
   }
 
-  const [showItem1, setShowItem1] = useState(false);
-  function updateShowItem1() {
-    setShowItem1(!showItem1);
+  const [showItem, setShowItem] = useState(null);
+  function updateShowItem(item = null) {
+    if (item !== showItem) {
+      setShowItem(item);
+    }
+    else {
+      setShowItem(null);
+    }
   }
 
-  const [showItem2, setShowItem2] = useState(false);
-  function updateShowItem2() {
-    setShowItem2(!showItem2);
-  }
-
-  const [showItem3, setShowItem3] = useState(false);
-  function updateShowItem3() {
-    setShowItem3(!showItem3);
-  }
-
-  const [showItem4, setShowItem4] = useState(false);
-  function updateShowItem4() {
-    setShowItem4(!showItem4);
-  }
-
-  const [showItem5, setShowItem5] = useState(false);
-  function updateShowItem5() {
-    setShowItem5(!showItem5);
-  }
-
-  const [showItem6, setShowItem6] = useState(false);
-  function updateShowItem6() {
-    setShowItem6(!showItem6);
-  }
   // const [toggle, setToggle] = useState(true);
   // setTimeout(() => {
   //   setToggle(false)
@@ -214,90 +128,27 @@ function Home() {
     <GlassWrapper>
       {show && (
         <Modal2
-          title={Language[lang].projects}
+          title={getTranslation(lang, "projects")}
           insert={<div>Projects was removed</div>}
           close={updateShow}
+          cancel={getTranslation(lang, "Close")}
         />
       )}
       {showTimeline && (
         <Modal2
-          title={`${Language[lang].experience}`}
+          title={getTranslation(lang, "experience")}
           insert={<Timeline />}
           close={updateTimeline}
+          cancel={getTranslation(lang, "Close")}
         />
       )}
-      {showItem1 && (
+      {showItem && getTranslation(lang, `${showItem}Title`) && (
         <Modal2
-          title={Language[lang].MunchifyTitle}
-          insert={
-            Language[lang].MunchifyDisc +
-            "\n Made with: " +
-            Language[lang].MunchifyTech
-          }
-          close={updateShowItem1}
-          cancel={Language[lang].Cancel}
-        />
-      )}
-      {showItem6 && (
-        <Modal2
-          title={Language[lang].pubTitle}
-          url={Language[lang].pubURL}
-          insert={
-            Language[lang].pubDisc +
-            "\n Made with: " +
-            Language[lang].pubTech
-          }
-          close={updateShowItem6}
-          cancel={Language[lang].Cancel}
-        />
-      )}
-      {showItem2 && (
-        <Modal2
-          title={Language[lang].CGPCTitle}
-          insert={
-            Language[lang].CGPCDisc + "\n Made with: " + Language[lang].CGPCTech
-          }
-          close={updateShowItem2}
-          cancel={Language[lang].Cancel}
-        />
-      )}
-      {showItem3 && (
-        <Modal2
-          title={Language[lang].DekkiTitle}
-          url={Language[lang].DekkiURL}
-          insert={
-            Language[lang].DekkiDisc +
-            "\n Made with: " +
-            Language[lang].DekkiTech
-          }
-          close={updateShowItem3}
-          cancel={Language[lang].Cancel}
-        />
-      )}
-      {showItem4 && (
-        <Modal2
-          title={Language[lang].SecretTitle}
-          url={Language[lang].SecretURL}
-          insert={
-            Language[lang].SecretDisc +
-            "\n Made with: " +
-            Language[lang].SecretTech
-          }
-          close={updateShowItem4}
-          cancel={Language[lang].Cancel}
-        />
-      )}
-      {showItem5 && (
-        <Modal2
-          title={Language[lang].RecipesTitle}
-          url={Language[lang].RecipesURL}
-          insert={
-            Language[lang].RecipesDisc +
-            "\n Made with: " +
-            Language[lang].RecipesTech
-          }
-          close={updateShowItem5}
-          cancel={Language[lang].Cancel}
+          title={getTranslation(lang, `${showItem}Title`)}
+          url={getTranslation(lang, `${showItem}URL`)}
+          insert={`${getTranslation(lang, `${showItem}Disc`)}\n Made with: ${getTranslation(lang, `${showItem}Tech`)}`}
+          close={updateShowItem}
+          cancel={getTranslation(lang, "Close")}
         />
       )}
       <Wrap>
@@ -333,7 +184,7 @@ function Home() {
             >
               {Language[lang].name}
             </Link2> */}
-            <div style={{ textDecoration: "underline" }}>{Language[lang].name}</div>
+            <div style={{ textDecoration: "underline" }}>{getTranslation(lang, "name")}</div>
             <HiWrapper>
               <iframe
                 title="PWA"
@@ -342,11 +193,11 @@ function Home() {
                 src={YouTubeUrl}
                 loading="lazy"
               ></iframe>
-              <Hi>{Language[lang].hi}</Hi>
+              <Hi>{getTranslation(lang, "hi")}</Hi>
             </HiWrapper>
 
             <StyledButton onClick={() => updateLang()}>
-              {Language[lang].lang}
+              {getTranslation(lang, "lang")}
             </StyledButton>
           </NameWrap>
           <List>
@@ -369,25 +220,23 @@ function Home() {
               <div style={{ marginRight: "1rem" }}>🏢</div>
 
               <Link2 onClick={() => updateTimeline()}>
-                {Language[lang].experience}
+                {getTranslation(lang, "experience")}
                 {/* ⛶ */}
               </Link2>
             </Linkey>
             <Linkey>
-              {/* <LinkImage src={Cog} alt="Tech" />
-               */}
               <div style={{ marginRight: "1rem" }}>⚙️</div>
 
               <Link2
                 onClick={() =>
                   Modal({
                     insert: Tech(),
-                    cancel: "Close",
-                    title: `${Language[lang].tech}`,
+                    cancel: `${getTranslation(lang, "Close")}`,
+                    title: `${getTranslation(lang, "tech")}`,
                   })
                 }
               >
-                {Language[lang].tech}
+                {getTranslation(lang, "tech")}
               </Link2>
             </Linkey>
             <Linkey>
@@ -405,7 +254,7 @@ function Home() {
           <Anchor2 to="/Blackjack">
             <div>🃏</div>
             <p to="/Blackjack" style={{ color: "white" }}>
-              {Language[lang].blackjack}
+              {getTranslation(lang, "blackjack")}
             </p>
           </Anchor2>
         </Profile>
@@ -416,38 +265,74 @@ function Home() {
             <HomeImage
               onError={imageError}
               src={
+                Jobcado
+              }
+              alt="Jobcado"
+              onClick={() => updateShowItem("Jobcado")}
+            />
+            <HomeImage
+              onError={imageError}
+              src={
+                JodGig
+              }
+              alt="JodGig"
+              onClick={() => updateShowItem("JodGig")}
+            />
+            {/* https://gig.jodapp.com/login */}
+            <HomeImage
+              onError={imageError}
+              src={
+                JodPro
+              }
+              alt="JodPro"
+              onClick={() => updateShowItem("JodPro")}
+            />
+            {/* https://jodpro.jod.com.sg/login */}
+            <HomeImage
+              onError={imageError}
+              src={
+                JodBoard
+              }
+              alt="JodBoard"
+              onClick={() => updateShowItem("JodBoard")}
+            />
+            {/* https://jobs.jodapp.com/sg/jobs */}
+
+            <HomeImage
+              onError={imageError}
+              src={
                 "https://yt3.ggpht.com/ytc/AAUvwni9DJA2UfBnLyffWzkPZp7yLUJG0RHSf1WXqTEEvg=s176-c-k-c0x00ffffff-no-rj"
               }
               alt="LJL"
-              onClick={() => updateShowItem2()}
+              onClick={() => updateShowItem("CGPC")}
             />
-            <HomeImage
+            {/* <HomeImage
               onError={imageError}
               src={
                 "https://pubgnoc.com/static/53b73d6ef9cc0945598a9e490e0d4c22/ed7f8/NOClogo_220119ver-04.png"
               }
               alt="pubgnoc"
-              onClick={() => updateShowItem6()}
-            />
+              onClick={() => updateShowItem("pubg")}
+            /> */}
             <HomeImage
               onError={imageError}
               src={
-                "https://pbs.twimg.com/profile_images/1062990176106905601/s7nYomEa_400x400.jpg"
+                "https://dekki-production.s3.ap-northeast-1.amazonaws.com/SiteClosureAssets/fix.png"
               }
               alt="Dekki"
-              onClick={() => updateShowItem3()}
+              onClick={() => updateShowItem("Dekki")}
             />
-            <HomeImage
-              onClick={() => updateShowItem1()}
+            {/* <HomeImage
+              onClick={() => updateShowItem("Munchify")}
               src={Munchify}
               alt="Munchify"
             />
             <HomeImage
               src={Secret}
               alt="Secret Box"
-              onClick={() => updateShowItem4()}
+              onClick={() => updateShowItem("Secret")}
             />
-            <HomeImage src={Food} onClick={() => updateShowItem5()} alt="Food" />
+            <HomeImage src={Food} onClick={() => updateShowItem("Recipes")} alt="Food" /> */}
           </Right>
           <GlassButton onClick={toggleGlass}>
             {isOpen ? "<" : ">"}
