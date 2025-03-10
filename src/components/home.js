@@ -472,6 +472,8 @@ z-index: 3;
   @media screen and (max-width: 1263px) {
     width: 250px;
   }
+  font-size: 1rem;
+
   min-width: 250px;
   height: 100%;
   height: auto;
