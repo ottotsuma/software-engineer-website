@@ -160,7 +160,7 @@ function Home() {
       <Wrap>
         <Profile borderRadiusRight={window.innerWidth > 590 && isOpen}>
           <NameWrap>
-            <div style={{ textDecoration: "underline" }}>{getTranslation(lang, "name")}</div>
+            <div>{getTranslation(lang, "name")}</div>
             <HiWrapper>
               <iframe
                 title="PWA"
@@ -256,6 +256,7 @@ overflow: hidden;
   justify-content: center;
   align-items: center;
   font-family: "Yusei Magic", sans-serif;
+      font-size: 1vw;
 `;
 
 const NameWrap = styled.div`
