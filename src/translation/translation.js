@@ -69,6 +69,27 @@ const Language = {
         RecipesURL: "https://ottotsumarecipes.netlify.app/",
         SecretURL: "https://secretbox.netlify.app/",
         PokeURL: "https://ottotsuma.netlify.app",
+
+        // Jobcado
+        JobcadoDisc: "Jobcado is a job search platform that helps job seekers find the perfect job. Jobcado provides a comprehensive job search experience, offering job seekers the ability to search for jobs by location, industry, and job type.",
+        JobcadoTech: "Vue (Nuxt), Python (FastAPI), AWS, PostgreSQL",
+        JobcadoTitle: "Jobcado",
+        JobcadoURL: "",
+        // JodPro
+        JodProDisc: "JodPro Core provides comprehensive modules including employee management, attendance tracking, Outlet management, leave management, all designed to streamline HR operations. These features enable efficient workforce management, offering real-time reports and employee self-service for seamless HR processes.",
+        JodProTech: "React, Styled-Components, Python (Django), AWS, MySQL",
+        JodProTitle: "JodPro",
+        JodProURL: "https://pro.jodapp.com/login",
+        // JodGig
+        JodGigDisc: "JodGig is a platform that connects job seekers with employers. JodGig offers a comprehensive job search experience, allowing job seekers to search for jobs by location, industry, and job type.",
+        JodGigTech: "React, PHP (Laravel), AWS, MySQL",
+        JodGigTitle: "JodGig",
+        JodGigURL: "http://gig.jodapp.com/login",
+        // JodBoard
+        JodBoardDisc: "JodBoard is a job search platform that helps job seekers find the perfect job. JodBoard provides a comprehensive job search experience, offering job seekers the ability to search for jobs by location, industry, and job type.",
+        JodBoardTech: "React (Next), Ruby (Rails), AWS, MySQL",
+        JodBoardTitle: "JodBoard",
+        JodBoardURL: "https://jobs.jodapp.com/sg/jobs",
     },
 };
 

@@ -31,20 +31,20 @@ function Home() {
 
   const projects = [
     {
-      src: Jobcado,
-      alt: "Jobcado",
-    },
-    {
-      src: JodGig,
-      alt: "JodGig",
-    },
-    {
       src: JodPro,
       alt: "JodPro",
     },
     {
       src: JodBoard,
       alt: "JodBoard",
+    },
+    {
+      src: JodGig,
+      alt: "JodGig",
+    },
+    {
+      src: Jobcado,
+      alt: "Jobcado",
     },
     {
       src: "https://yt3.ggpht.com/ytc/AAUvwni9DJA2UfBnLyffWzkPZp7yLUJG0RHSf1WXqTEEvg=s176-c-k-c0x00ffffff-no-rj",
@@ -228,13 +228,17 @@ function Home() {
         <Glass style={closeGlass} key={playSpring}>
           <Right>
             {projects.map((project, index) => (
-              <HomeImage
-                onError={imageError}
-                key={project.alt + index}
-                src={project.src}
-                alt={project.alt}
-                onClick={() => updateShowItem(project.alt)}
-              />
+              <HiWrapper style={{ width: '33%', height: '33%', position: "relative" }}>
+                <Hi>{getTranslation(lang, project.alt + "Title")}</Hi>
+                {/* <p style={{ background: "black", position: "absolute", width: '100%', textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)" }}>{}</p> */}
+                <HomeImage
+                  onError={imageError}
+                  key={project.alt + index}
+                  src={project.src}
+                  alt={project.alt}
+                  onClick={() => updateShowItem(project.alt)}
+                />
+              </ HiWrapper>
             ))}
           </Right>
           <GlassButton onClick={toggleGlass}>
@@ -471,8 +475,9 @@ z-index: 3;
   width: 33%;
   @media screen and (max-width: 1263px) {
     width: 250px;
-  }
   font-size: 1rem;
+
+  }
 
   min-width: 250px;
   height: 100%;
@@ -597,13 +602,13 @@ const LinkImage = styled.img`
 
 const HomeImage = styled(animated.img)`
   cursor: pointer;
-  width: 25%;
-  height: 25%;
-  border-radius: 1rem;
-  padding: 2px;
-  margin: 1rem;
+  width: 80%;
+  height: 80%;
+  // border-radius: 1rem;
+  // padding: 2px;
+  // margin: 1rem;
   @media screen and (max-width: 1263px) {
-    width: 33%;
+    // width: 33%;
   }
   @media screen and (max-width: 590px) {
     display: none;
