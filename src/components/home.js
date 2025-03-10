@@ -23,11 +23,47 @@ import { imageError } from "./color";
 const YouTubeUrl = "https://www.youtube.com/embed/m86uLnh7OfU";
 // 「保存」、「登録」、「完了」、「キャンセル」
 
-
 // Main function
 function Home() {
   const [circle1Animate, setCircle1Animate] = useState(false);
   const [circle2Animate, setCircle2Animate] = useState(false);
+
+
+  const projects = [
+    {
+      src: Jobcado,
+      alt: "Jobcado",
+    },
+    {
+      src: JodGig,
+      alt: "JodGig",
+    },
+    {
+      src: JodPro,
+      alt: "JodPro",
+    },
+    {
+      src: JodBoard,
+      alt: "JodBoard",
+    },
+    {
+      src: "https://yt3.ggpht.com/ytc/AAUvwni9DJA2UfBnLyffWzkPZp7yLUJG0RHSf1WXqTEEvg=s176-c-k-c0x00ffffff-no-rj",
+      alt: "CGPC",
+    },
+    {
+      src: "https://dekki-production.s3.ap-northeast-1.amazonaws.com/SiteClosureAssets/fix.png",
+      alt: "Dekki",
+    },
+  ];
+  {/* https://gig.jodapp.com/login */ }
+  {/* https://jodpro.jod.com.sg/login */ }
+  {/* https://jobs.jodapp.com/sg/jobs */ }
+  {/*
+    pubgnoc https://pubgnoc.com/static/53b73d6ef9cc0945598a9e490e0d4c22/ed7f8/NOClogo_220119ver-04.png
+    Munchify          
+    Secret
+    Recipes          
+ */}
 
   const handleClickCircle1 = () => {
     setCircle1Animate(true);
@@ -262,77 +298,16 @@ function Home() {
           {/* <Profile2 style={springReverse}>AAA</Profile2> */}
 
           <Right>
-            <HomeImage
-              onError={imageError}
-              src={
-                Jobcado
-              }
-              alt="Jobcado"
-              onClick={() => updateShowItem("Jobcado")}
-            />
-            <HomeImage
-              onError={imageError}
-              src={
-                JodGig
-              }
-              alt="JodGig"
-              onClick={() => updateShowItem("JodGig")}
-            />
-            {/* https://gig.jodapp.com/login */}
-            <HomeImage
-              onError={imageError}
-              src={
-                JodPro
-              }
-              alt="JodPro"
-              onClick={() => updateShowItem("JodPro")}
-            />
-            {/* https://jodpro.jod.com.sg/login */}
-            <HomeImage
-              onError={imageError}
-              src={
-                JodBoard
-              }
-              alt="JodBoard"
-              onClick={() => updateShowItem("JodBoard")}
-            />
-            {/* https://jobs.jodapp.com/sg/jobs */}
+            {projects.map((project, index) => (
+              <HomeImage
+                onError={imageError}
+                key={project.alt + index}
+                src={project.src}
+                alt={project.alt}
+                onClick={() => updateShowItem(project.alt)}
+              />
+            ))}
 
-            <HomeImage
-              onError={imageError}
-              src={
-                "https://yt3.ggpht.com/ytc/AAUvwni9DJA2UfBnLyffWzkPZp7yLUJG0RHSf1WXqTEEvg=s176-c-k-c0x00ffffff-no-rj"
-              }
-              alt="LJL"
-              onClick={() => updateShowItem("CGPC")}
-            />
-            {/* <HomeImage
-              onError={imageError}
-              src={
-                "https://pubgnoc.com/static/53b73d6ef9cc0945598a9e490e0d4c22/ed7f8/NOClogo_220119ver-04.png"
-              }
-              alt="pubgnoc"
-              onClick={() => updateShowItem("pubg")}
-            /> */}
-            <HomeImage
-              onError={imageError}
-              src={
-                "https://dekki-production.s3.ap-northeast-1.amazonaws.com/SiteClosureAssets/fix.png"
-              }
-              alt="Dekki"
-              onClick={() => updateShowItem("Dekki")}
-            />
-            {/* <HomeImage
-              onClick={() => updateShowItem("Munchify")}
-              src={Munchify}
-              alt="Munchify"
-            />
-            <HomeImage
-              src={Secret}
-              alt="Secret Box"
-              onClick={() => updateShowItem("Secret")}
-            />
-            <HomeImage src={Food} onClick={() => updateShowItem("Recipes")} alt="Food" /> */}
           </Right>
           <GlassButton onClick={toggleGlass}>
             {isOpen ? "<" : ">"}
