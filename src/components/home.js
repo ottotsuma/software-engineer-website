@@ -132,11 +132,7 @@ function Home() {
       setLang("en");
     }
   }
-  const [show, setShow] = useState(false);
   const [showTimeline, setShowTimeline] = useState(false);
-  function updateShow() {
-    setShow(!show);
-  }
   function updateTimeline() {
     setShowTimeline(!showTimeline);
   }
@@ -162,14 +158,6 @@ function Home() {
 
   return (
     <GlassWrapper>
-      {show && (
-        <Modal2
-          title={getTranslation(lang, "projects")}
-          insert={<div>Projects was removed</div>}
-          close={updateShow}
-          cancel={getTranslation(lang, "Close")}
-        />
-      )}
       {showTimeline && (
         <Modal2
           title={getTranslation(lang, "experience")}
