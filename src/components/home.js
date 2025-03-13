@@ -61,8 +61,9 @@ function Home() {
   {/*
     pubgnoc https://pubgnoc.com/static/53b73d6ef9cc0945598a9e490e0d4c22/ed7f8/NOClogo_220119ver-04.png
     Munchify          
-    Secret
-    Recipes          
+    Secret - [![Netlify Status](https://api.netlify.com/api/v1/badges/44bc5f27-3c6e-45f0-9805-ce0cb195d713/deploy-status)](https://app.netlify.com/sites/secretbox/deploys)
+    Recipes - [![Netlify Status](https://api.netlify.com/api/v1/badges/11473556-9968-4c2d-a7c8-83ab08b9f8d0/deploy-status)](https://app.netlify.com/sites/ottotsumarecipes/deploys)          
+    pokemon - [![Netlify Status](https://api.netlify.com/api/v1/badges/3458c4a8-9d56-46e1-bc66-e81008540acf/deploy-status)](https://app.netlify.com/sites/ottotsumapokemon/deploys)
  */}
 
   const handleClickCircle1 = () => {
