@@ -6,6 +6,29 @@ import {
 
 import { colors, monadColors } from "./colors";
 
+const skillTree = [
+  {
+    id: 'fireball',
+    name: 'Fireball',
+    level: 0,
+    maxLevel: 10,
+    prerequisites: [],
+    children: [
+      {
+        id: 'firewall',
+        name: 'Fire Wall',
+        level: 0,
+        maxLevel: 10,
+        prerequisites: ['fireball'],
+        children: [],
+      },
+      // Add more skills as needed
+    ],
+  },
+  // Add more root skills as needed
+];
+
+
 export const ListOfMagicTypes = [
   "Ancient Magic",
   "Shadow Magic",
