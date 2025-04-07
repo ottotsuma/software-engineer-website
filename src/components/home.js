@@ -229,7 +229,9 @@ function Home() {
         <Glass style={closeGlass} key={playSpring}>
           <Right>
             {projects.map((project, index) => (
-              <HiWrapper style={{ width: '33%', height: '33%', position: "relative" }}>
+              <HiWrapper style={{
+                width: '33%', height: '33%', position: "relative", display: "flex", justifyContent: "center", alignItems: "center"
+              }}>
                 <Hi>{getTranslation(lang, project.alt + "Title")}</Hi>
                 {/* <p style={{ background: "black", position: "absolute", width: '100%', textShadow: "2px 2px 4px rgba(0, 0, 0, 0.7)" }}>{}</p> */}
                 <HomeImage
