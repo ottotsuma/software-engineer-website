@@ -52,7 +52,7 @@ function Intro(props) {
           </p>
           <p>
             Class today had been built up over the past few days. Last week
-            Lubin had announced that the class were going to have duels to give
+            Lubin had announced the class were going to have duels to give
             an individual ranking for the class. This meant nothing on official
             records but would effect how the class treated each other, and who
             they would party up with in the future. Right now, I was the bottom
