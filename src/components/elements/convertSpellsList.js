@@ -10321,7 +10321,7 @@ const spellList = {
     }
   },
   "Vampiric Powers": {
-    "1": "Strengths: Ice-resistance 10%, Weapon Resistance 1%, faster regeneration 5%, Create lesser species +1. Weaknesses: Hunger level 10%, Fire Weakness +10%, Light Weakness +10%, Exposure to sunlight - Causes Stamina to regenerate 50% slower & Movement speed -25%.",
+    "1": "Strengths: Ice-resistance 10%, Resistance from Natural Weapons 1%, faster regeneration 5%, Create lesser species +1. Weaknesses: Hunger level 10%, Fire Weakness +10%, Light Weakness +10%, Exposure to sunlight - Causes Stamina to regenerate 50% slower & Movement speed -25%.",
     "2": "Hunger level 20%.",
     "3": "Hunger level 30%.",
     "4": "Hunger level 40%.",
@@ -10405,7 +10405,7 @@ const spellList = {
     }
   },
   "Lesser Vampiric Powers": {
-    "1": "Strengths: Ice-resistance 10%, Weapon Resistance 1%, faster regeneration 5%. Weaknesses: Hunger level 10%, Fire Weakness +10%, Light Weakness +10%, Silver Weakness +10%, Exposure to sunlight - Causes Stamina to regenerate 50% slower & Movement speed -25%.",
+    "1": "Strengths: Ice-resistance 10%, Resistance from Natural Weapons 1%, faster regeneration 5%. Weaknesses: Hunger level 10%, Fire Weakness +10%, Light Weakness +10%, Silver Weakness +10%, Exposure to sunlight - Causes Stamina to regenerate 50% slower & Movement speed -25%.",
     "2": "Hunger level 20%.",
     "3": "Hunger level 30%.",
     "4": "Hunger level 40%.",

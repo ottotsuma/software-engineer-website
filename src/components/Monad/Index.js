@@ -134,15 +134,12 @@ export function droppy({ style, navigate }) {
   ));
   return rows;
 }
-
 export function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 // if (window.location.href.match(/\d+$/)) {
 //   pageNumber = parseInt(window.location.href.match(/\d+$/)[0]);
 // }
-
-
 export default function Monad() {
   const [scrollTopState, setScrollTop] = useState(true);
   useEffect(() => {

@@ -333,7 +333,7 @@ export function MakeCard(cardInstructions, showStats = false, large = false) {
         for (let index = 0; index < townKeys.length; index++) {
           const currentKey = townKeys[index].split('.').pop().toLocaleLowerCase()
           if (cityAmenitiesList.includes(currentKey)) {
-                statCard.push(<SingleStat key={index + 'citiesKeys'}>{cityAmenities[currentKey]}{currentKey}</SingleStat>);
+            statCard.push(<SingleStat key={index + 'citiesKeys'}>{cityAmenities[currentKey]}{currentKey}</SingleStat>);
           }
         }
       }
@@ -403,6 +403,7 @@ export function MakeCard(cardInstructions, showStats = false, large = false) {
     const spellName = spellList[name] ? spellList[name].name : name || "No Name";
     let spellDisc =
       spellList[name] && level ? spellList[name][level] : cardInstructions[level];
+    if (!spellDisc || spellDisc.length < 1) spellDisc = spellList[name].levels[level]
     if (!spellDisc || spellDisc.length < 1) spellDisc = cardInstructions.description;
     if (!spellDisc || spellDisc.length < 1) spellDisc = "No Description";
     let elementImage = spellList[name]

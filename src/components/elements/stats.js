@@ -240,7 +240,6 @@ const statList = {
     minor: "",
   },
 };
-
 function CalculateSpeciesStats({
   baseStats
 }) {
@@ -490,7 +489,6 @@ function getTitleStatsModifiers(equippedTitle, baseStats) {
     TitleMultiplierStats: MultiplierStats,
   };
 }
-
 function calculateFinalStats(baseStats, flatStats, multiplierStats) {
   const finalStats = {};
   const allKeys = new Set([
@@ -514,7 +512,6 @@ function calculateFinalStats(baseStats, flatStats, multiplierStats) {
   });
   return finalStats;
 }
-
 function Stats({
   stats,
   type,
@@ -845,7 +842,6 @@ const MagicButton = styled.button`
     box-shadow: 0 0 5px rgba(212, 175, 55, 0.5);
   }
 `;
-
 
 const Wrap = styled.div``;
 
