@@ -637,7 +637,6 @@ function Stats({
     delete finalStats['HP']
     delete finalStats['MP']
   }
-  console.log(baseStats, finalStats, 'Shaun Check Stats')
   for (let index = 0; index < keys.length; index++) {
     const element = (
       <Wrap>

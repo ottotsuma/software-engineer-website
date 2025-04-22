@@ -75,4 +75,3 @@ const person: Person = {
 
 
 // const test: Spell = spellList.Absorption
-// console.log(test)
