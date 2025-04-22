@@ -1,5 +1,20 @@
 https://guides.github.com/features/mastering-markdown/
 
+
+Bullied, into not joining in, and then having to not use a wand
+Wants, to document all monsters, use a wand
+Becomes a mage though the death of local friends
+Joins Academy and gets a wand and joins the battle tournament. 
+Loses first match and is put into the "loser league"
+Loses second match and has a bad record, loses mages not using wands 
+Goes looking for ... because ... finds ... instead (school)
+things change, year of school plays out as the war comes to heat up in the north (country)
+2nd year move to war, become hunted, flee to tsuma country, fish out of water, new monsters, new political level. (multi-country)
+Sea people invasion on going (continents)
+move west (country)
+Conquered (end)
+
+
 Ctrl + k Ctrl + 0 
 1 yen was equal to 100 sen.
 1 sen was equal to 10 rin.
