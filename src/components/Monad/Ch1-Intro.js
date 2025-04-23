@@ -18,7 +18,7 @@ const SectionTabs = [
   { name: "Michkel", href: "#Michkel" },
   { name: "PlayDay", href: "#PlayDay" },
   // { name: "Incident", href: "#Incident" },
-  { name: "TheBody", href: "#TheBody" },
+  // { name: "TheBody", href: "#TheBody" },
   { name: "Aftermath", href: "#Aftermath" },
   { name: "Training", href: "#Training" },
   { name: "Otto", href: "#Otto" },
@@ -40,17 +40,24 @@ const Intro = (props) => {
     );
   }
 
+
+  // Too many people introduced at once. 
+  // Death of Jakob, Eugen & Ilse. However, no emotional connection to the reader yet.
+  // PoV change too early on, and too often. 
+  // No focus on Otto's love of documenting things, or his love of magic.
+  // Why level up? On age makes more sense but that removes the menu and the game aspect.
+  // Start smaller then death? How can Otto level up? What pushes him to want to be a mage? What pushes him to have an interest in monsters? What kind of bullying is there?
+
+
   {/* 3 act structure, start with Otto and the children with the monster <- 3 acts ends. during his punishment he finds and reads his grandads old dairy, setting up the big bad  */ }
 
   {/* Ch-1 Students vs monster (Play Day & Incident & The Body) */ }
 
   {/* Opening line
-                    George Orwell opened with unusual weather patterns to signify the world is not like our own, and there is something going on.
-
-                    Something simpler, like setting up the main charter?
-
-                    The hook, the video game from an npc's life
-            */}
+  George Orwell opened with unusual weather patterns to signify the world is not like our own, and there is something going on.
+  Something simpler, like setting up the main charter?
+  The hook, the video game from an npc's life
+  */}
 
   {/* Incident - Midpoint - Climax */ }
   {/* Setup - Confrontation - Resolution */ }
@@ -62,9 +69,6 @@ const Intro = (props) => {
   // Play Day & Incident & The Body
   // Aftermath & Herkikia [grandfather dairy]
   // Training & Otto & Effi
-
-
-
 
   // Opening
 
@@ -82,6 +86,44 @@ const Intro = (props) => {
 
   // I looked at him, my voice barely audible. “Yeah,” I replied, swallowing hard. I began to recount the events that led us here, piecing together the fragments of a day that had spiraled into chaos.
 
+  //   <Otto> We shouldn't have been there. The air already felt wrong—thick and buzzing, like thunder trapped in the soil. But Isle wanted to see where the light was coming from, and I… I followed. We all did.
+  // The clearing was pulsing. That's the only word for it. Like the ground was breathing. Something had died there, something big, and whatever it left behind shimmered in the air—blue and silver, like liquid moonlight.
+
+  // We didn’t know it was mana. Not then.
+
+  // Isle stepped closest. Reached out. I think she was going to touch it.
+
+  // Then it moved.
+
+  // It had been waiting. The monster had bones like branches and no face at all, just a maw split with too many teeth. It didn’t growl. It hissed—like it was furious we could even see it.
+
+  // We screamed.
+
+  // Isle shouted something. I think she meant to distract it. She always acted first.
+
+  // She ran forward—
+  // She shouldn’t have run forward—
+  // There was a blur. A crunch. A wet sound.
+
+  // The pulse exploded.
+
+  // Mana tore through the clearing. I felt it like a thousand needles behind my eyes, a scream I couldn’t hear but couldn’t stop feeling.
+
+  // And then—
+  // It hit me.
+
+  // Not like a blast. Not like fire. It was cold and huge and alive. It poured into me.
+
+  // <Otto>Level Up!</Otto>
+
+  // A window appeared across my vision—bright, floating, uncaring.
+  // Words I couldn’t read at first. Numbers. Stats. A name that wasn’t mine.
+
+  // I couldn’t look away.
+
+  // And when it faded, she was still there. Face up. Staring. Or maybe not. There wasn’t much left.
+
+  // </Otto> <Michkel> A cough beside me. A hand on my shoulder. “No, no, no,” my dad whispered. “I mean—can you tell me what happened before Isle died? Start with when you were all playing in the woods, before the monster arrived.” </Michkel> <Otto> “Yeah,” I whispered. And I began to remember. </Otto>
 
   return (
     <Content>
@@ -122,11 +164,33 @@ const Intro = (props) => {
           </p> */}
           {/* <!-- around the year 21-22 the rebellion breaks out --> */}
           {/* <!-- military education is also about the history --> */}
+          <BreakPoint id="Monad">
+            <h1 id="title">Monad</h1>
+            {/* Monad (philosophy), a term meaning "unit", used by philosophers to signify a variety of entities, originally the God and later such things as genus
+            Monism, the concept of "one essence" in the metaphysical and theological theory */}
+
+            <div className="pop">
+              Map of Chab
+              {/* http://www.mesoweb.com/resources/vocabulary/English-Maya.html */}
+              {/* <img
+                className="popOut"
+                src="https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-44.png"
+                height="400px"
+                alt="MapOfMonad"
+              /> */}
+              {/* <ImageZoom alt="MapOfMonad" image="https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-44.png" /> */}
+              <ImageZoom
+                className="popOut"
+                alt="MapOfMonad"
+                image="https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-45.png"
+              />
+            </div>
+          </BreakPoint>
           <BreakPoint id="Intro">
             <h3>Play Day</h3>
             {/* Should we start with him telling his dad what happened? It's too focused and rational for a child. Even after the fact. It would detract from the fight, but set off the story in the right direction? */}
             <Otto>Level up!</Otto>
-            <Otto>A large menu covered my vision of my dead friend.</Otto>
+            <Otto>The menu appeared across my vision, bright and impossible to ignore, even with everything else going on. Even with Jakob... gone.</Otto>
             <LevelUp
               level={1}
               species={"normal"}
@@ -135,60 +199,99 @@ const Intro = (props) => {
               details={""}
               name={"Otto"}
             />
-            <Otto>The menu slowly faded from my vision. She was still there, laying face up looking at me. Maybe. It had some features of a face but there was not much left.</Otto>
-            <Otto>My dad coughed next to me putting his hand on my shoulder and squeezing.</Otto>
-            <Michkel>"No, no, no." He said softly. "I mean can you tell me what happened before Isle died, start with when you were all playing in the woods, before the monster arrived."</Michkel>
-            <Otto>"Yeah." I replied quietly and began to recall what happened.</Otto>
+            <Otto>It felt like it faded slowly, as if reluctant to leave. I could still see his—still there, motionless. Something that used to be a face stared up at nothing. I couldn’t bring myself to look for long.</Otto>
+
+            <Otto>My dad knelt beside me. His hand gripped my shoulder, grounding me. He didn’t say anything at first.</Otto>
+
+            <Michkel>“Otto,” he said finally, his voice quiet and careful. “I need you to tell me what happened. Start from the beginning—before the monster showed up. When you were all still playing in the woods.”</Michkel>
+
+            <Otto>I nodded, still numb. The words didn’t want to come, but they were there, stuck behind my teeth. I swallowed hard.</Otto>
+            <Otto>“Yeah,” I said. “We were just playing... Then I felt something change.”</Otto>
             <BreakPoint id="PlayDay"></BreakPoint>
-            {/* memory? */}
-            <Otto>"Equip wand!" I called out holding up a stick I found.</Otto>
-            {/* Type of story, role of Otto */}
-            <Beke> "Ahaha, Do you even know anything about mages?" Beke jabbed.</Beke>
+
             <Otto>
-              "Of course I know! They cast magic and set monsters on fire or freeze them" I replied annoyed but proud of myself for knowing so much about mages.
+              "Equip wand!" I shouted, holding up the stick I’d found like it was a relic from an ancient dungeon.
             </Otto>
+
             <Beke>
-              "You can't be a mage. You don't have a wand, you're holding a stick." Beke snickered.
+              "Aha—do you even *know* anything about mages?" Beke jabbed, eyes gleaming with the kind of smugness only he could pull off.
             </Beke>
+
             <Otto>
-              I stared at Beke in anger, twisting my lips, debating about what to reply when Ilse cut in.
+              "Of course I do! They cast magic and burn monsters to ash. Or freeze them solid!" I puffed out my chest a little. It was basic knowledge, really.
             </Otto>
-            {/* Anger issues */}
+
+            <Beke>
+              "You can't just *say* you're a mage. That’s not even a wand, it’s a branch!" Beke laughed, loud and sharp.
+            </Beke>
+
+            <Otto>
+              I clenched my jaw, trying to think of a comeback that didn’t involve hitting him. But before I could, Ilse called out.
+            </Otto>
+
             <p>
-              "You two stop arguing and get into position the monster is here!" She pointed to a tree
-              with a crudely drawn monster on it's side.
+              "You two—*positions!* The monster’s coming!" Ilse barked, pointing at a tree with a lopsided monster scrawled on the bark in charcoal.
             </p>
+
             <p>
-              Ilse continued as we ran in. "We have four melee fighters and two range fingers and one mage today." Beke gave me a side glance when Ilse mentioned the mage but said nothing. "Melee fighters use your skills!"
+              She rattled off roles as we scrambled into the clearing. "Four melee, two ranged, one mage." Beke shot me a look but didn’t say anything.
             </p>
+
             <p>
-              "Charge!" <br /> "Heavy blow!" <br /> "Battle shout!" <br />
-              "Provoke"
+              "Charge!"<br />"Heavy blow!"<br />"Battle shout!"<br />"Provoke!"
             </p>
+
             <Otto>
-              Standing on the edge of the small clearing I could hear Jakob shout "Hig-h Impact!!" in his high pitched shy voice. I added to the battle by pointing my wand at the tree and shouting "Fire Ball!" Only instead of a ball of flame gathering from the air at the tip of my wand all that happened was Beke making another annoying comment.
+              From the edge of the clearing, I raised my stick and bellowed, "*Fireball!*" Nothing happened. No sparks, no flames—just the sound of Beke groaning.
             </Otto>
+
             <Beke>
-              "fireball? That's not a junior skill that's intermediate. We all agreed to start at junior level."
+              "That’s *intermediate*-level, genius. We agreed on junior skills!"
             </Beke>
+
             <Otto>
-              "Maybe we leveled up while fighting." I retorted
+              "Maybe I leveled up from the last fight." I shrugged, pretending I meant it.
             </Otto>
+
             <Beke>
-              "Why would we level up it's not even dead yet!" Beke shouts back.
+              "You don’t level up unless we beat the monster, and it’s literally still a *tree,* Otto!"
             </Beke>
-            <p>Ilse interjected between us again. "Come on now, we can't get distracted in a fight!</p>
+
+            <p>
+              "Focus!" Ilse snapped. "We can’t argue during combat!"
+            </p>
+
             <Beke>
-              "He just wants to be a mage because he cannot afford a real weapon, that is not even
-              a wand it's just a stick" Beke spat out.
+              "He just wants to be a mage 'cause he can’t afford a real weapon. That’s not even a wand—it’s a stick."
             </Beke>
+
             <Otto>
-              I looked down at the stick in his hand, true enough it was no real wand. His swords made of wood but at least it's sword shaped.
+              I looked down. It *was* just a stick. His sword was wooden too, but at least it looked the part.
             </Otto>
-            <p>"That's what wands are, just sticks, now kill that monster!" Isle pointed towards the tree to drag our attention back to the monster painted on it.</p>
+
+            <p>
+              "A stick *is* a wand, if you believe in it!" Ilse shouted, pointing back at the fake monster.
+            </p>
+
             <Otto>
-              Beke ran up to the tree, wobbly stabbing the sword into the tree, the tip scratching off a fraction of bark, before turning around triumphantly shouting that he had slain the monster.
+              Beke charged the tree, scratched off some bark, and spun around yelling he’d slain it. We all cheered like it was real. For a while, it was fun.
             </Otto>
+
+            <Otto>
+              We played until the sun nearly touched the top of the sky. That’s when Beke, Nils, and Effi wanted to head to the river. Isle and I were leaning toward checking on the festival, but in the end, we went along. It wasn’t quite midday yet.
+            </Otto>
+
+            <Otto>
+              Nothing seemed strange at first. We’d split up along the riverbank—Jakob wandered downstream alone. He was the one who screamed.
+            </Otto>
+
+            <Otto>
+              My dad just sat next to me, listening. So I kept going.
+            </Otto>
+
+            <Otto> "We didn’t see the monster at first, not really. Jakob just screamed. Loud enough that we all froze. When we looked, he was pointing across the river." </Otto> <Otto> "I didn’t see it move. Just… one second it wasn’t there, the next it was. Green. Slimy. With a huge yellow eye. Feet like webbed claws and a beak with *teeth* in it. Not like anything from our games. Not pretend. Real." </Otto> <Otto> "Ilse shouted commands, trying to organize us like before. Effi pulled Jakob back, and Beke stepped forward — trying to act brave. He jabbed at it with his wooden sword. It didn’t flinch. Just stared. Watching." </Otto> <Otto> "And then it *moved*. So fast. I didn’t see it leap, but suddenly it was on top of Jakob." </Otto> <Otto> "I remember screaming, I think it was me. Jakob didn’t even get to draw his bow. Its claws just went right through him. He was so small. It was like it didn’t even care." </Otto> <Otto> "The others charged, screaming, slashing with toy weapons. I stood still. My legs wouldn’t move. My hand was on the stick — my wand — but it was shaking." </Otto> <Otto> "I saw it — Jakob's body — twitching. I saw the monster lift its head, covered in blood. And then something *shifted*. The air shimmered, like heat off stone. The monster stilled, like it felt it too." </Otto> <Otto> "And then it ran. Just… disappeared into the trees." </Otto> <Otto> "I don’t know what happened after that. I think I dropped the stick. I felt everything *pull* toward me. Like breath, but backwards. Cold and empty." </Otto> <Otto> "A warmth bloomed in my chest. It burned — not like fire — more like... truth. My skin felt wrong. My bones buzzed." </Otto> <Otto> "And then… a voice. Not a real one. Just words in my head." </Otto> <p>**“Level Up: First Breath of Magic — Mana Released by Death Registered.”**</p> <Otto> "I looked down. The wand in my hand — the stick — it glowed. Just for a moment." </Otto> <Otto> "And Beke looked at me like he’d seen a ghost." </Otto>
+            {/* update 2 - Otto didnt act but felt like its his fault for not acting */}
+
             {/* Replace sun with the god's name for the main sun. */}
             {/* Sun - Kinich Ahau, Mayan
                     - sol German
@@ -196,71 +299,7 @@ const Intro = (props) => {
                     - Do the gods change names or do the gods fight?
                     - What does worship mean to this world?
                     */}
-            <Otto>
-              "We continued to play until the sun had almost reached the top of the sky. That's when Beke, Nils and Effi wanted to go play down by the river. Eugen and Jakob didn't care and Isle and me wanted to go back and see if the festival was ready, but we ended up going with them because it wasn't quite midday yet."
-            </Otto>
-            <Otto>
-              "We didn't see anything when we got to the river, it was only when Jakob screamed. We had all split into little groups, apart from Jakob who was further down stream by himself. He saw it first." I explained.
-            </Otto>
-            <Otto>
-              My dad was still just sitting next to me, listening, so I continued. "Eugen was the first to run over and Beke. Jakob ran past them until Isle stopped him, asked him what happened. Eugen and Beke screamed it was the monster from before. The one from the tree. I didn't really think so, but it was a monster."
-            </Otto>
-            <Otto>
-              "I didn't really see much at first, but I saw it later. It was leaf-green with a large yellow eye. It had feet like soft-shell duck but with black sharp pointed nails attached. It had a beak like tree-birds, but it had small teeth in it's beak. And and and... I can't remember anything else..."
-            </Otto>
-            <Otto>
-              I took a breath before I continued, I was not sure were to start really, it was all kind of rushed.
-            </Otto>
-            <Otto>
-              "Ilse shouted commands at the others to form-up and attack, ordering
-              me to cast a protection spell on the Eugen, Effi to stand and
-              protect her as she gives commands. Jakob and Nils got their
-              bows from the river bank while Beke & Eugen ran in and provoke the creature.""
-            </Otto>
-            <Otto>
-              "When we all started shouting it stood still, we thought we could fight it back, or maybe even kill it like we did every time we did before at the tree."
-            </Otto>
-            <Otto>
-              "Beke slammed his shield into the monster and stabbed at it with his sword. He shouted 'Shield Bash' each and every time. Eugen kept stabbing it with his spear, when he did the thing screeched as its rubbery skin was cut. Nils arrows never made it to the monster, they dropped on the ground short of the river."
-            </Otto>
-            <Otto>
-              "Eugen was the first to scream, he had been cut on his arm. He reached too far trying to push his spear and the long claws had cut him when the monster flailed about."
-            </Otto>
-            <Otto>
-              "Isle dashed ahead of us to grab Eugen and pull him back. She might of saved him but Beke stopped using his shield. He turned and blamed me."
-            </Otto>
-            <Beke>
-              "You where told to cast protection why didn't you cast protection!" He screamed at me.
-            </Beke>
-            <Otto>
-              "I panicked, I dropped my wand. Stick. I ran out of the river over to Nils and Jakob. I didn't see it myself, but I saw Effi's face change. She had run to get her and Isle equipment by a tree, they didn't want to get them wet. Her face went paler then usual, like her spirit left her body."
-            </Otto>
-            <Otto>
-              "That was when Isle had been slashed, I don't know where but she fell into the river with a big splash. The monster was on-top of Eugen, on the river bank. His claws were inside of Eugen's neck, blood squeezed out of the holes around it's claws."
-            </Otto>
-            <Otto>
-              "Effi slowly dropped her arms, the equipment falling to the ground. Two wooden shields, two wooden swords." Thock, Thud, Thwack. "I ran over quickly to help her, she was stood so still. I started picking up the shield first, it was laid on top. No sooner had I pressed it into her hands she ran off screaming, into the water. She was looking for Isle."
-            </Otto>
-            <Otto>
-              "I wanted to look for her too, to help Effi. I ran over but the creature screamed so loud. Beke's wooden sword was rammed deep into the monsters eye, black liquid rushing out around it. It jumped off Eugen. Eugen didn't get up."
-            </Otto>
-            <Otto>
-              Nils & Jakob had given up on the ranged weapons and ran over holding Effi's sword we all ran up to the monster. Screeching from the pain in it's eye.
-            </Otto>
-            {/* Kill it */}
-            {/* Jakob dies */}
-            <Otto>
-              Nils kneels by Jakob's body shivering unable to bring himself to move or speak.
-            </Otto>
-            <Otto>
-              Beke shouts out for all to hear, blaming all of the others, until his eyes land on Eugen only then does he break, seeing his friends mangled and shredded face.
-            </Otto>
-            <Otto>
-              "I think Effi had found Isle during this, I saw her dragging her up the side of the river bank, when I got closer I could hear her repeating over and over that mother will be here soon, it will be okay."
-            </Otto>
-            <Otto>
-              Everything just happened so fast
-            </Otto>
+
             {/* <p>
               The group of seven, laughing running into the forest, beyond the eyes
               of their parents, they arrive at a circular clear area within the
@@ -275,12 +314,13 @@ const Intro = (props) => {
               A small boy, shy and un-gifted.
             </p> */}
           </BreakPoint>
-          <BreakPoint id="TheBody">
-            <h3>The Body</h3>
+          {/* <BreakPoint id="TheBody"> */}
+          {/* I don't think we need this. */}
+          {/* <h3>The Body</h3>
             <p>
               After hearting the children scream like they where really in
               trouble this time myself, Robert and a few others ran over to
-              check on them. Jakob, Eugen & Ilse lay dead. I grabbed Otto and
+              check on them. Jakob lay dead. I grabbed Otto and
               shock him demanding to know what happened. Robert ran over to Ilse
               and Effi and burst into tears, he screamed so loud everyone else
               in the town came rushing over.
@@ -300,9 +340,9 @@ const Intro = (props) => {
               traces of other kappas in the area. That being said I have had
               reports of increasing beast attacks to the north, around
               Swexausern." Robert said.
-            </p>
-            {/* Put new monster here. - Şüräle */}
-            {/* <div className="pop">
+            </p> */}
+          {/* Put new monster here. - Şüräle */}
+          {/* <div className="pop">
               Young-Kappa
               <img
                 className="popOut"
@@ -310,17 +350,15 @@ const Intro = (props) => {
                 alt="Kappa"
               />
             </div> */}
-            {/* <!-- Lurking in the water is a strange child-sized humanoid that resembles a bizarre cross between a turtle, a lizard, and a monkey. It has a beak-like mouth, scaly reptilian skin, clawed and webbed hands, and a turtle-like shell on its back. In the top of its head is a bowl-like depression filled with water. --> */}
-            {/* <!-- https://forgottenrealms.fandom.com/wiki/Kappa --> */}
-          </BreakPoint>
+          {/* <!-- Lurking in the water is a strange child-sized humanoid that resembles a bizarre cross between a turtle, a lizard, and a monkey. It has a beak-like mouth, scaly reptilian skin, clawed and webbed hands, and a turtle-like shell on its back. In the top of its head is a bowl-like depression filled with water. --> */}
+          {/* <!-- https://forgottenrealms.fandom.com/wiki/Kappa --> */}
+          {/* </BreakPoint> */}
           <BreakPoint id="Aftermath">
             <h3>Aftermath</h3>
             {/* <!-- punishment --> */}
             {/* <!-- a reflection for some of the others maybe about the deaths? monsters? --> */}
             <p>
-              Sitting alone in my room later that night I could not help but
-              reflect back on what was told to me earlier. The numbers displayed
-              in front of me right now where my attributes and my level, 1.
+              Sitting alone in my room later that night, all I could think about was Jakob. One minute he was there. Then he wasn’t. I didn’t move. I didn’t help. But when it happened, something… shifted. I felt it in my body. Something unlocked. That’s when the numbers appeared in front of me.
             </p>
             <Stats
               type={"description"}
@@ -343,6 +381,35 @@ const Intro = (props) => {
               }}
               notes={""}
             />
+            {/* start */}
+            <p>
+              The display hovered still: my level, 1. My attributes. My path. But the cost of that first step was something I didn’t know how to carry yet.
+            </p>
+
+            <p>
+              I was told not to spend any of the points. Tomorrow, I’d be sent to the town hall for aptitude testing. Most people couldn’t use <em>Inspect</em>, so they relied on external tools to determine their class and attributes. Because I was a mage, when I turned 14, I’d go to the magic academy in Banderedam.
+            </p>
+
+            <p>
+              Almost all of my attributes were 0. At first, I thought it was a mistake. But my parents explained: those numbers reflected how well mana could flow through me — how much it could affect my body and spells. Zeros meant that my mana couldn’t reach those parts of me yet. I wasn’t ready.
+            </p>
+
+            <p>
+              Growing up, we were told stories of heroes and villains, of magic and monsters. But no one ever explained how those stories began — how someone became one of them. I understand now. No one tells us because unlocking your attributes requires killing a beast or monster in battle. Alone. Without help from anyone with attributes.
+            </p>
+
+            <p>
+              It made sense why people kept it secret. Knowing the truth, some children might risk their lives too early. Most kids only unlock their stats after their parents arrange a safe, staged fight — one they’re certain to survive. I wasn’t given that choice.
+            </p>
+
+            <p>
+              Before bed, my father tried to distract me with a story — one I’d heard a hundred times: the witch of Alden.
+            </p>
+
+            <p id="Fancy">
+              The witch of Alden was born when men with wings ruled the continent. They came from the heart of Pocotcotco, a country far to the west. They came with the powers of the monsters and enslaved the people of the east. The witch found the academy near Banderedam where she built up her power and drove out the westerners. In her wake, new kingdoms rose. She appointed dukes to rule with her — and so Alden became a Grand Duchy.
+            </p>
+            {/* end */}
             <p>
               I was told not to spend any of the points, that I was going to be
               sent to the town hall tomorrow to be tested for my aptitude. Not
@@ -389,241 +456,8 @@ const Intro = (props) => {
             </p>
             {/* League = Herkikia League */}
           </BreakPoint>
-          <BreakPoint id="Monad">
-            <h1 id="title">Monad</h1>
-            {/* Monad (philosophy), a term meaning "unit", used by philosophers to signify a variety of entities, originally the God and later such things as genus
-            Monism, the concept of "one essence" in the metaphysical and theological theory */}
+          {/* Otto walks though village and goes to classes */}
 
-            {/* Some kind of fight? */}
-          </BreakPoint>
-          <BreakPoint id="Herkikia">
-            <h3>Herkikia - Jun 01 21-12</h3>
-            <p>
-              The Herkikia League had always been the best place on the
-              continent to be a mercenary. The past few years had made that statement even more true, this year more than ever.
-            </p>
-            <p>
-              However, all good things must come to an end. The people who had invaded from across the endless eastern sea had proven it was not endless and the daft pricks didn't bring enough food with them to be starting a war.
-            </p>
-            <p>
-              I must not let my guard down though, a cornered beast will fight harder. To the west,
-              the monster jungles of Chingaling, their east the armies of the
-              Herkikia league of city-states. To the north the sea they came from, which finally left the south the mercenaries hired by the League to finish the encirclement.
-            </p>
-            <p>
-              If these sea people had any sense they would focus their attacks
-              on this side. The pay is good but it's no good to a dead man. Then again it might be better if they just left into the sea from once they came.
-            </p>
-            <p>
-              "Are you trying to explain the plan to Rock Head again? You know why we call him that right?" A tall, wide, muscular man interrupted me. On his head, was a wampus cat's head. I'd seen him kill it, its yellow eyes were supposed to be able to hypnotise a person who looked into them, this man could only have one thought in his head at a time, 'whack it till it's dead'. If he's telling me Rock Head has less brains than him maybe he's right, but honestly it was more to calm my nerves.
-            </p>
-            <p>
-              I gave him a nod of understanding and he went back to stuffing his face with, what I hoped was not beast meat from the jungle. The last thing we needed was him going insane from eating some unknown poisonous creature.
-            </p>
-            <p>
-              When I looked back over to the sea people's final outpost, it would seem they did have a sense of survival after all. Their oversized wooden boats were gliding off into the sea.
-            </p>
-            <p>
-              That was just the signal the Herkikia general needed. The wind mage next to him carried the general's voice across our whole line and beyond. His voice was loud and strong.
-            </p>
-            <p>
-              "Victory is near at hand! If all do their duty, it will be OUR victory!"
-            </p>
-            <p>"YEAAAHHH!" A cry from his men came as an answer to his words.</p>
-            <p>
-              "Many times I have faced this enemy and many times I have beaten
-              them."
-            </p>
-            <p>"YEAHHHHHHH!"</p>
-            <p>
-              "Let us offer prayers to the gods for victory. And then let us arm
-              ourselves to the teeth, just in case the gods aren't listening."
-            </p>
-            <p>"Ahaha!"</p>
-            <p>
-              "The enemy war god must have a sense of humor, I mean look at
-              them."
-            </p>
-            <p>"Ahahaha!"</p>
-            <p>"By tomorrow our arms will ache from over-use!"</p>
-            <p>"Woo!!"</p>
-            <p>
-              "The enemy may have the Fish on their side, but we have excellent
-              shoes! And those shoes will stamp out their fish!"
-            </p>
-            <p>That had quietened the cheers a little. I guess that is why he has the title 'The mad'.</p>
-            <p>"Charge!"</p>
-            <p>
-              The Herkikians moved in first, in lines with long spears pointed
-              out over their shields. They formed walls of spears and white
-              armour. Our skirmishers were the first to engage them, those who threw
-              projectiles or magic into the enemies to tie them down. Once the skirmishers pulled back we would move in to tie up the disorganised enemies. In theory.
-            </p>
-            <p>
-              As soon as the skirmishers started to pull back we ran in. I cast
-              'Ice spear' into their ranks. I wrapped my sword with ice magic as
-              we got closer. The berserker from before shouted louder than a war
-              drum next to me and jumped into their ranks swinging his club
-              around at whoever was nearby. With their ranks fully broken up, I
-              was able to fight small duels which was more my style.
-            </p>
-            <p>
-              I used my sword to move my opponent to one side and launched a ball of hardened ice into his chest. He pushed through the pain so I let my ice magic spray out from me causing him to slow and be cut by small shards of ice. I moved in and stabbed him just below the waist. He moved back holding his stomach and cursed in a language I don't know. "썅놈" I moved back as he was dying and gathered magic into my hand. He reached down and pulled up a wand? He pointed it right at my head and the sound it gave off blew my eardrums out, there was a large flash of light, then nothing.
-            </p>
-          </BreakPoint>
-          <div className="pop">
-            Map of Chab
-            {/* http://www.mesoweb.com/resources/vocabulary/English-Maya.html */}
-            {/* <img
-                className="popOut"
-                src="https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-44.png"
-                height="400px"
-                alt="MapOfMonad"
-              /> */}
-            {/* <ImageZoom alt="MapOfMonad" image="https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-44.png" /> */}
-            <ImageZoom
-              className="popOut"
-              alt="MapOfMonad"
-              image="https://ottotsuma.github.io/images/map/Charia%202022-03-10-09-45.png"
-            />
-          </div>
-          <BreakPoint id="Steinauhau">
-            <h3>Steinauhau - Jun 12 21-12</h3>
-            {/* The Grand Duchy of Alden is home to 3.2 million people */}
-            <p>
-              Jun 12 21-12, In the North-east of the continent of Chab, in the
-              Grand Duchy of Alden was a town called Steinauhau.
-            </p>
-            <div className="pop">
-              Map of Alden
-              <img
-                className="popOut"
-                src={MapOfAlden}
-                height="400px"
-                alt="Map Of Alden"
-              />
-            </div>
-            {/* <!-- Starting with the setting up of the place? and events. --> */}
-            <p>
-              "Congratulations!" A unified cheer rang out around the town hall. Looking down into my cup, I lamented. The reflection looking back at me was far older than it used to be. Stiff and past the age where I should be drinking luminescent green drinks. I had always liked moon-melon juice ever since I first tried it over 70 years ago now. Soon, the reflection in my cup smiled back.
-            </p>
-            <p>
-              "You look happier than you have in years." My thoughts were interrupted.
-              I turned to see my old friend Edmure.
-            </p>
-            <p>
-              "I was just thinking about how new life replaces the old." I
-              continued to smile.
-            </p>
-            <p>
-              With a frown at first and then a smile Edmure retorted "You thinking
-              how you just became a grandad? There is still life left in
-              the both of us yet."
-            </p>
-            <p>
-              Jun 12th a night the people of Alden celebrate the new life brought into this world
-              over the past year, like a shared birthday after the harvest months.
-              {/* a small tradition as not all make it past infancy. */}
-            </p>
-            <p>
-              Edmure had whispered into my ear before taking his leave. There have been sightings of the sea people off the coast. They had been pushed back into the sea at
-              the last battle of Herkikia, only a couple of weeks back, they may try to land further north. I left the town hall and went to the walls to meet up with Edmure.
-            </p>
-            <p>
-              We left the town and went through the forests. We went to the area
-              where the sea people were last seen going through the forest.
-              I saw large boats off in the distance, so I had to check who; if any of
-              them had come ashore before reporting back.
-            </p>
-            <p>
-              I passed through the forest easily with my legs and body strengthened by my mana. The
-              trees that would scratch at my skin, bent and broke as I passed by
-              quickly, leaving behind no marks on my skin.
-            </p>
-            <p>
-              I found them. Moving through the forest slowly. They did not see
-              me, I know this place like the back of my hand. I pulled out my
-              dairy and started to take notes, their location, how many, kind
-              of weapons, etc. I wrote down everything I could remember, right up
-              until I heard a click, followed by a large flash of light.
-            </p>
-          </BreakPoint>
-          <BreakPoint id="Michkel">
-            <h3>Michkel - Jun 12 221-10</h3>
-            {/* Re-do dates, Month Day Year-Era, Jun 12th, 221st year of the 10th era.*/}
-            {/* <!-- starting with the kids meeting as friends, introduce the town, some news the people, small parts of the world, culture--> */}
-            <p>
-              It had been 10 years to the day since Edmure had come back with a blood-soaked diary. David was my wife's dad. Edmure, his best friend, had later moved to Swexausern, about 25km North-west. I was told he died peacefully two years ago. The town
-              was getting ready for the same festival again. I guess that's what led me to read his diary again today.
-            </p>
-            <p>
-              I spotted a woman doing her best to hold or herd three children towards me when I looked up. "Hey Karla." I waved as she got closer, two older girls and a boy, all the children
-              had red hair like their mother. As they got closer I nudged my wife, Sarah and pointed to our son's smiling face. He only smiled like this when Effi, Karla's daughter, was around.
-            </p>
-            <p>"Good to see you are all well." Sarah said, when they arrived, the kids immediately ran around hectically but I guess I have gotten too used to it.</p>
-            <p>"You too, Where is Robert?" I added.</p>
-            <p>
-              "We're fine, Roberts going to meet us later on, he went to the hall to get the news and left me alone with these lovely lot." Karla replied.
-            </p>
-            <p>
-              Our families, now combined into one big group. Slowly ambled our way towards the wood nearby, where many other families of the town had already arrived. The children quickly
-              ran off into the forest to play, leaving us to build a fire and set up the tables for
-              tonight's festivities, Jun 12th.
-            </p>
-            <p>
-              While sharpening one of the axes Robert had come to share the news a group of travelling merchants had brought with them. Mostly news of ongoing problems just north of our border. People living there have been unhappy with the Republic's increased taxes and conscripting their children and young adults to fight in a war so far from home. The villages still had to fend off the local beasts of their own, as well as other jobs which were no longer being fulfilled. The republic had a massive Avalanche in Neuenese and a Fault in Moborodian, the earth there had opened up and monsters and beasts from the depths had spread out.
-            </p>
-            <p>
-              Those unhappy with their treatment had finally boiled over and started protesting at first, one thing led to another and now we call them the rebels. Somewhere between 100,000~300,000 in number. Since most were not soldiers beforehand
-              the success of the rebels was blamed on Aldens, us, supplying the
-              rebels.
-            </p>
-            <p>
-              "We have been supplying them haven't we?" I asked. "If not, we
-              should. They are Aldenese also."
-            </p>
-            <p>
-              "We have." Robert replied. "Too obvious, it seems. If even the
-              town inspector knows we have." He laughed like he had no cares.
-            </p>
-            <p>I shot a breath of air out of my nose as I laughed silently. "Well is there any news NOT from the Republic?" I asked.</p>
-            <p>
-              "Elves have had an outbreak of cat fever. Gianlongian in Herkikia is going through a drought, near their second-biggest port city. Desonean, the main river through the kingdom, has flooded. To top it all off, a Malgian Crusade has been called in the Kingdom, I can only hope those crazy zealots die in the desert." Robert said.
-            </p>
-            <p>
-              "What a year..." I commented. "What's cat fever anyway?" I asked.
-            </p>
-            <p>
-              Robert shrugged. "A fever cats get, I guess, there was not much
-              news about it since it's from so far away. Anyway don't let me stop you from inspecting the woodcutting axes, we need to know their durability so no one gets hurt."
-            </p>
-            <p>
-              I gave Robert a nod as he turned to go look for his wife Sarah. I went back to doing my job. Inspecting low-level items for their durability.
-              {/* Your skill in inspecting items might show you a different result. Some people see short descriptions about the items, others just a generic letter rank from F - A. */}
-            </p>
-            {/* koko */}
-            <p>
-              Every night I teach my son Otto more about the skill. Inspect is one of the few skills that do not require skill points to learn, which is nice.
-              {/* However the passive skill appraisal, which increases how much information the inspect skill uncovers, did require skill points. I was lucky enough to learn the skill through sheer luck.  */}
-            </p>
-            <p>
-              It's a safe well paying job, I always hoped Otto could learn it too so he can have a safe life.
-            </p>
-            {/* <!-- 284,139 rebels --> */}
-            {/* <!-- IMPORTANT  */}
-            {/* 
-parent teaches otto basic inspect skill as its is job of parent in the town 
-first person in the magic histories book is the witch of Alden
-Otto can see numeric output of items but no one else can 
-most people learn inspect but either see 
-
-- ranking in letters F - A 
-- short description 
-- numbers 
-- progress bar 
-- use list 
---> */}
-          </BreakPoint>
           <BreakPoint id="Training">
             <h3>Training</h3>
             <h4>Beke POV</h4>
@@ -853,6 +687,9 @@ most people learn inspect but either see
             </p>
             {/* Otto goes home and tells his parents about his day at school. The parents talk to him about what he wants and reasons for wanting it. */}
           </BreakPoint>
+
+          {/* Beke goes to lessons */}
+          {/* Effi says goodbye and heads off */}
           <BreakPoint id="Effi">
             <h4>Effi POV</h4>
             <p>
@@ -947,7 +784,223 @@ most people learn inspect but either see
               to set off.
             </p>
           </BreakPoint>
-          {/*Alphonse -  In the arena, 30 had been commended to die. Malnourished and with cuts and bruises still healing from rough treatment by their jailors. They were completely naked and jeered at spitefully by the crowd. Each has their hands tied behind their back, standing on a long plank of wood resting on a fulcrum. Suddenly there is a loud grown of scraping wood and the clanking of chains, 20 beasts are raised through the floor from the network under the arena. They have been deliberately kept starving for today. They took no time to spot their prey and with a loud screaming roar each charged forward. The panicked prisoners watch the beasts approach, in a flash the beasts are upon them, the first leap out of the way rising high into the air on the long plank of wood, safe for a moment from mutilation that would of been their destiny if they had remained on the ground. However this temporary respite comes at a cost, the men at the other end of the plank are each lowered towards the ground, with the beasts below. Their faces, legs, torsoes are ripped apart with pincers, claws and fangs. The lucky ones are killed quickly, while the others are ripped torn and devoured while they are still alive and screaming. Some of them blind with fear leap into the air, sending their opposite side down into the beasts. The beasts tare into them, the whole thing is a perverse game of seeing who will die last, although death is inevitable for everyone involved. */}
+
+          {/* End Chapter */}
+
+          {/* Should we replace "Herkikia" "Steinauhau" "Michkel" with a tour of the village from Otto on the way to training and that be part of a lesson? */}
+
+          <BreakPoint id="Herkikia">
+            <h3>Herkikia - Jun 01 21-12</h3>
+            <p>
+              The Herkikia League had always been the best place on the
+              continent to be a mercenary. The past few years had made that statement even more true, this year more than ever.
+            </p>
+            <p>
+              However, all good things must come to an end. The people who had invaded from across the endless eastern sea had proven it was not endless and the daft pricks didn't bring enough food with them to be starting a war.
+            </p>
+            <p>
+              I must not let my guard down though, a cornered beast will fight harder. To the west,
+              the monster jungles of Chingaling, their east the armies of the
+              Herkikia league of city-states. To the north the sea they came from, which finally left the south the mercenaries hired by the League to finish the encirclement.
+            </p>
+            <p>
+              If these sea people had any sense they would focus their attacks
+              on this side. The pay is good but it's no good to a dead man. Then again it might be better if they just left into the sea from once they came.
+            </p>
+            <p>
+              "Are you trying to explain the plan to Rock Head again? You know why we call him that right?" A tall, wide, muscular man interrupted me. On his head, was a wampus cat's head. I'd seen him kill it, its yellow eyes were supposed to be able to hypnotise a person who looked into them, this man could only have one thought in his head at a time, 'whack it till it's dead'. If he's telling me Rock Head has less brains than him maybe he's right, but honestly it was more to calm my nerves.
+            </p>
+            <p>
+              I gave him a nod of understanding and he went back to stuffing his face with, what I hoped was not beast meat from the jungle. The last thing we needed was him going insane from eating some unknown poisonous creature.
+            </p>
+            <p>
+              When I looked back over to the sea people's final outpost, it would seem they did have a sense of survival after all. Their oversized wooden boats were gliding off into the sea.
+            </p>
+            <p>
+              That was just the signal the Herkikia general needed. The wind mage next to him carried the general's voice across our whole line and beyond. His voice was loud and strong.
+            </p>
+            <p>
+              "Victory is near at hand! If all do their duty, it will be OUR victory!"
+            </p>
+            <p>"YEAAAHHH!" A cry from his men came as an answer to his words.</p>
+            <p>
+              "Many times I have faced this enemy and many times I have beaten
+              them."
+            </p>
+            <p>"YEAHHHHHHH!"</p>
+            <p>
+              "Let us offer prayers to the gods for victory. And then let us arm
+              ourselves to the teeth, just in case the gods aren't listening."
+            </p>
+            <p>"Ahaha!"</p>
+            <p>
+              "The enemy war god must have a sense of humor, I mean look at
+              them."
+            </p>
+            <p>"Ahahaha!"</p>
+            <p>"By tomorrow our arms will ache from over-use!"</p>
+            <p>"Woo!!"</p>
+            <p>
+              "The enemy may have the Fish on their side, but we have excellent
+              shoes! And those shoes will stamp out their fish!"
+            </p>
+            <p>That had quietened the cheers a little. I guess that is why he has the title 'The mad'.</p>
+            <p>"Charge!"</p>
+            <p>
+              The Herkikians moved in first, in lines with long spears pointed
+              out over their shields. They formed walls of spears and white
+              armour. Our skirmishers were the first to engage them, those who threw
+              projectiles or magic into the enemies to tie them down. Once the skirmishers pulled back we would move in to tie up the disorganised enemies. In theory.
+            </p>
+            <p>
+              As soon as the skirmishers started to pull back we ran in. I cast
+              'Ice spear' into their ranks. I wrapped my sword with ice magic as
+              we got closer. The berserker from before shouted louder than a war
+              drum next to me and jumped into their ranks swinging his club
+              around at whoever was nearby. With their ranks fully broken up, I
+              was able to fight small duels which was more my style.
+            </p>
+            <p>
+              I used my sword to move my opponent to one side and launched a ball of hardened ice into his chest. He pushed through the pain so I let my ice magic spray out from me causing him to slow and be cut by small shards of ice. I moved in and stabbed him just below the waist. He moved back holding his stomach and cursed in a language I don't know. "썅놈" I moved back as he was dying and gathered magic into my hand. He reached down and pulled up a wand? He pointed it right at my head and the sound it gave off blew my eardrums out, there was a large flash of light, then nothing.
+            </p>
+          </BreakPoint>
+          <BreakPoint id="Steinauhau">
+            <h3>Steinauhau - Jun 12 21-12</h3>
+            {/* The Grand Duchy of Alden is home to 3.2 million people */}
+            <p>
+              Jun 12 21-12, In the North-east of the continent of Chab, in the
+              Grand Duchy of Alden was a town called Steinauhau.
+            </p>
+            <div className="pop">
+              Map of Alden
+              <img
+                className="popOut"
+                src={MapOfAlden}
+                height="400px"
+                alt="Map Of Alden"
+              />
+            </div>
+            {/* <!-- Starting with the setting up of the place? and events. --> */}
+            <p>
+              "Congratulations!" A unified cheer rang out around the town hall. Looking down into my cup, I lamented. The reflection looking back at me was far older than it used to be. Stiff and past the age where I should be drinking luminescent green drinks. I had always liked moon-melon juice ever since I first tried it over 70 years ago now. Soon, the reflection in my cup smiled back.
+            </p>
+            <p>
+              "You look happier than you have in years." My thoughts were interrupted.
+              I turned to see my old friend Edmure.
+            </p>
+            <p>
+              "I was just thinking about how new life replaces the old." I
+              continued to smile.
+            </p>
+            <p>
+              With a frown at first and then a smile Edmure retorted "You thinking
+              how you just became a grandad? There is still life left in
+              the both of us yet."
+            </p>
+            <p>
+              Jun 12th a night the people of Alden celebrate the new life brought into this world
+              over the past year, like a shared birthday after the harvest months.
+              {/* a small tradition as not all make it past infancy. */}
+            </p>
+            <p>
+              Edmure had whispered into my ear before taking his leave. There have been sightings of the sea people off the coast. They had been pushed back into the sea at
+              the last battle of Herkikia, only a couple of weeks back, they may try to land further north. I left the town hall and went to the walls to meet up with Edmure.
+            </p>
+            <p>
+              We left the town and went through the forests. We went to the area
+              where the sea people were last seen going through the forest.
+              I saw large boats off in the distance, so I had to check who; if any of
+              them had come ashore before reporting back.
+            </p>
+            <p>
+              I passed through the forest easily with my legs and body strengthened by my mana. The
+              trees that would scratch at my skin, bent and broke as I passed by
+              quickly, leaving behind no marks on my skin.
+            </p>
+            <p>
+              I found them. Moving through the forest slowly. They did not see
+              me, I know this place like the back of my hand. I pulled out my
+              dairy and started to take notes, their location, how many, kind
+              of weapons, etc. I wrote down everything I could remember, right up
+              until I heard a click, followed by a large flash of light.
+            </p>
+          </BreakPoint>
+          <BreakPoint id="Michkel">
+            <h3>Michkel - Jun 12 221-10</h3>
+            {/* Re-do dates, Month Day Year-Era, Jun 12th, 221st year of the 10th era.*/}
+            {/* <!-- starting with the kids meeting as friends, introduce the town, some news the people, small parts of the world, culture--> */}
+            <p>
+              It had been 10 years to the day since Edmure had come back with a blood-soaked diary. David was my wife's dad. Edmure, his best friend, had later moved to Swexausern, about 25km North-west. I was told he died peacefully two years ago. The town
+              was getting ready for the same festival again. I guess that's what led me to read his diary again today.
+            </p>
+            <p>
+              I spotted a woman doing her best to hold or herd three children towards me when I looked up. "Hey Karla." I waved as she got closer, two older girls and a boy, all the children
+              had red hair like their mother. As they got closer I nudged my wife, Sarah and pointed to our son's smiling face. He only smiled like this when Effi, Karla's daughter, was around.
+            </p>
+            <p>"Good to see you are all well." Sarah said, when they arrived, the kids immediately ran around hectically but I guess I have gotten too used to it.</p>
+            <p>"You too, Where is Robert?" I added.</p>
+            <p>
+              "We're fine, Roberts going to meet us later on, he went to the hall to get the news and left me alone with these lovely lot." Karla replied.
+            </p>
+            <p>
+              Our families, now combined into one big group. Slowly ambled our way towards the wood nearby, where many other families of the town had already arrived. The children quickly
+              ran off into the forest to play, leaving us to build a fire and set up the tables for
+              tonight's festivities, Jun 12th.
+            </p>
+            <p>
+              While sharpening one of the axes Robert had come to share the news a group of travelling merchants had brought with them. Mostly news of ongoing problems just north of our border. People living there have been unhappy with the Republic's increased taxes and conscripting their children and young adults to fight in a war so far from home. The villages still had to fend off the local beasts of their own, as well as other jobs which were no longer being fulfilled. The republic had a massive Avalanche in Neuenese and a Fault in Moborodian, the earth there had opened up and monsters and beasts from the depths had spread out.
+            </p>
+            <p>
+              Those unhappy with their treatment had finally boiled over and started protesting at first, one thing led to another and now we call them the rebels. Somewhere between 100,000~300,000 in number. Since most were not soldiers beforehand
+              the success of the rebels was blamed on Aldens, us, supplying the
+              rebels.
+            </p>
+            <p>
+              "We have been supplying them haven't we?" I asked. "If not, we
+              should. They are Aldenese also."
+            </p>
+            <p>
+              "We have." Robert replied. "Too obvious, it seems. If even the
+              town inspector knows we have." He laughed like he had no cares.
+            </p>
+            <p>I shot a breath of air out of my nose as I laughed silently. "Well is there any news NOT from the Republic?" I asked.</p>
+            <p>
+              "Elves have had an outbreak of cat fever. Gianlongian in Herkikia is going through a drought, near their second-biggest port city. Desonean, the main river through the kingdom, has flooded. To top it all off, a Malgian Crusade has been called in the Kingdom, I can only hope those crazy zealots die in the desert." Robert said.
+            </p>
+            <p>
+              "What a year..." I commented. "What's cat fever anyway?" I asked.
+            </p>
+            <p>
+              Robert shrugged. "A fever cats get, I guess, there was not much
+              news about it since it's from so far away. Anyway don't let me stop you from inspecting the woodcutting axes, we need to know their durability so no one gets hurt."
+            </p>
+            <p>
+              I gave Robert a nod as he turned to go look for his wife Sarah. I went back to doing my job. Inspecting low-level items for their durability.
+              {/* Your skill in inspecting items might show you a different result. Some people see short descriptions about the items, others just a generic letter rank from F - A. */}
+            </p>
+            {/* koko */}
+            <p>
+              Every night I teach my son Otto more about the skill. Inspect is one of the few skills that do not require skill points to learn, which is nice.
+              {/* However the passive skill appraisal, which increases how much information the inspect skill uncovers, did require skill points. I was lucky enough to learn the skill through sheer luck.  */}
+            </p>
+            <p>
+              It's a safe well paying job, I always hoped Otto could learn it too so he can have a safe life.
+            </p>
+            {/* <!-- 284,139 rebels --> */}
+            {/* <!-- IMPORTANT  */}
+            {/* 
+parent teaches otto basic inspect skill as its is job of parent in the town 
+first person in the magic histories book is the witch of Alden
+Otto can see numeric output of items but no one else can 
+most people learn inspect but either see 
+
+- ranking in letters F - A 
+- short description 
+- numbers 
+- progress bar 
+- use list 
+--> */}
+          </BreakPoint>
           {/*
 <!-- 
 These are the names given by the people of Alden.   
