@@ -46,7 +46,15 @@ const Intro = (props) => {
   // PoV change too early on, and too often. 
   // No focus on Otto's love of documenting things, or his love of magic.
   // Why level up? On age makes more sense but that removes the menu and the game aspect.
-  // Start smaller then death? How can Otto level up? What pushes him to want to be a mage? What pushes him to have an interest in monsters? What kind of bullying is there?
+  // Start smaller then death? How can Otto level up? What pushes him to want to be a mage? What pushes him to have an interest in monsters? What kind of bullying is there? - The lie, the ghost, want, need, truth. https://www.youtube.com/watch?v=wfoV-e7RMRo
+
+  // The ghost - something that causes the lie and the wand. Could be Jakobs death, could be something else. (Lost protector, Jakob. Survivor guilt. Betrayed by an ally. Past failure. Dark secret. Exiled.)
+
+  // the lie, the reason for their flaw. What is Otto missing? (unworthy,trust, power = safety, hapinness is impossible, alone, change is dangerous, emotions are bad)
+
+  // the wand - the thing that you think resolves the lie 
+
+  // 
 
 
   {/* 3 act structure, start with Otto and the children with the monster <- 3 acts ends. during his punishment he finds and reads his grandads old dairy, setting up the big bad  */ }
@@ -289,7 +297,18 @@ const Intro = (props) => {
               My dad just sat next to me, listening. So I kept going.
             </Otto>
 
-            <Otto> "We didn’t see the monster at first, not really. Jakob just screamed. Loud enough that we all froze. When we looked, he was pointing across the river." </Otto> <Otto> "I didn’t see it move. Just… one second it wasn’t there, the next it was. Green. Slimy. With a huge yellow eye. Feet like webbed claws and a beak with *teeth* in it. Not like anything from our games. Not pretend. Real." </Otto> <Otto> "Ilse shouted commands, trying to organize us like before. Effi pulled Jakob back, and Beke stepped forward — trying to act brave. He jabbed at it with his wooden sword. It didn’t flinch. Just stared. Watching." </Otto> <Otto> "And then it *moved*. So fast. I didn’t see it leap, but suddenly it was on top of Jakob." </Otto> <Otto> "I remember screaming, I think it was me. Jakob didn’t even get to draw his bow. Its claws just went right through him. He was so small. It was like it didn’t even care." </Otto> <Otto> "The others charged, screaming, slashing with toy weapons. I stood still. My legs wouldn’t move. My hand was on the stick — my wand — but it was shaking." </Otto> <Otto> "I saw it — Jakob's body — twitching. I saw the monster lift its head, covered in blood. And then something *shifted*. The air shimmered, like heat off stone. The monster stilled, like it felt it too." </Otto> <Otto> "And then it ran. Just… disappeared into the trees." </Otto> <Otto> "I don’t know what happened after that. I think I dropped the stick. I felt everything *pull* toward me. Like breath, but backwards. Cold and empty." </Otto> <Otto> "A warmth bloomed in my chest. It burned — not like fire — more like... truth. My skin felt wrong. My bones buzzed." </Otto> <Otto> "And then… a voice. Not a real one. Just words in my head." </Otto> <p>**“Level Up: First Breath of Magic — Mana Released by Death Registered.”**</p> <Otto> "I looked down. The wand in my hand — the stick — it glowed. Just for a moment." </Otto> <Otto> "And Beke looked at me like he’d seen a ghost." </Otto>
+            <Otto> "We didn’t see the monster at first, not really. Jakob just screamed. Loud enough that we all froze. When we looked, he was pointing across the river." </Otto>
+            <Otto> "I didn’t see it move. Just… one second it wasn’t there, the next it was. Green. Slimy. With a huge yellow eye. Feet like webbed claws and a beak with *teeth* in it. Not like anything from our games. Not pretend. Real." </Otto>
+            <Otto> "Ilse shouted commands, trying to organize us like before. Effi pulled Jakob back, and Beke stepped forward — trying to act brave. He jabbed at it with his wooden sword. It didn’t flinch. Just stared. Watching." </Otto>
+            <Otto> "And then it *moved*. So fast. I didn’t see it leap, but suddenly it was on top of Jakob." </Otto>
+            <Otto> "I remember screaming, I think it was me. Jakob didn’t even get to draw his bow. Its claws just went right through him. He was so small. It was like it didn’t even care." </Otto>
+            <Otto> "The others charged, screaming, slashing with toy weapons. I stood still. My legs wouldn’t move. My hand was on the stick — my wand — but it was shaking." </Otto>
+            <Otto> "I saw it — Jakob's body — twitching. I saw the monster lift its head, covered in blood. And then something *shifted*. The air shimmered, like heat off stone. The monster stilled, like it felt it too." </Otto>
+            <Otto> "And then it ran. Just… disappeared into the trees." </Otto>
+            <Otto> "I don’t know what happened after that. I think I dropped the stick. I felt everything *pull* toward me. Like breath, but backwards. Cold and empty." </Otto>
+            <Otto> "A warmth bloomed in my chest. It burned — not like fire — more like... truth. My skin felt wrong. My bones buzzed." </Otto>
+            <Otto> "And then… a voice. Not a real one. Just words in my head." </Otto> <p>**“Level Up: First Breath of Magic — Mana Released by Death Registered.”**</p> <Otto> "I looked down. The wand in my hand — the stick — it glowed. Just for a moment." </Otto>
+            <Otto> "And Beke looked at me like he’d seen a ghost." </Otto>
             {/* update 2 - Otto didnt act but felt like its his fault for not acting */}
 
             {/* Replace sun with the god's name for the main sun. */}
@@ -395,11 +414,11 @@ const Intro = (props) => {
             </p>
 
             <p>
-              Growing up, we were told stories of heroes and villains, of magic and monsters. But no one ever explained how those stories began — how someone became one of them. I understand now. No one tells us because unlocking your attributes requires killing a beast or monster in battle. Alone. Without help from anyone with attributes.
+              Growing up, we were told stories of heroes and villains, of magic and monsters. But no one ever explained how those stories began — how someone became one of them. I understand now. No one tells us because unlocking your attributes requires sacrifice. A beast or monster ideally but in this case, a friend.
             </p>
 
             <p>
-              It made sense why people kept it secret. Knowing the truth, some children might risk their lives too early. Most kids only unlock their stats after their parents arrange a safe, staged fight — one they’re certain to survive. I wasn’t given that choice.
+              It made sense why people kept it secret. Knowing the truth, some of us might risk our lives seeking monsters. Most only unlock their stats after their parents arrange a safe, staged fight — one they’re certain to survive. I won't need to join the others now.
             </p>
 
             <p>
@@ -409,56 +428,72 @@ const Intro = (props) => {
             <p id="Fancy">
               The witch of Alden was born when men with wings ruled the continent. They came from the heart of Pocotcotco, a country far to the west. They came with the powers of the monsters and enslaved the people of the east. The witch found the academy near Banderedam where she built up her power and drove out the westerners. In her wake, new kingdoms rose. She appointed dukes to rule with her — and so Alden became a Grand Duchy.
             </p>
-            {/* end */}
-            <p>
-              I was told not to spend any of the points, that I was going to be
-              sent to the town hall tomorrow to be tested for my aptitude. Not
-              everyone could use inspect, so external tools where used to find
-              out their attributes and class. Since I was a mage when I am 14 I
-              will go to the magic academy in Banderedam.
-            </p>
-            <p>
-              Almost all the attributes where 0 however, this could not be good.
-              Thinking at first there was a mistake I asked my parents but I
-              soon learned that these numbers are a display of how much the mana
-              can affect me and my spells, them being 0 just means that my mana
-              flow to these areas is poor. The mana would not contribute toward
-              anything I tried to do.
-            </p>
-            <p>
-              All children growing up are told stories of heros and villains,
-              magic, monsters, and great warriors. But nothing was ever said
-              about how to unlock their class, skills, or attributes. Almost
-              like everyone who had unlocked them was sworn to silence, today I
-              found out that was true. For their own protection as the only way
-              to unlock attributes was to slay a beast or monster in battle
-              without the help of anyone with attributes, knowing this some
-              children might carelessly try and fight a beast before they where
-              14. Naturally not everyone kept the secret and most children had
-              killed a beast before they where 14 just usually just one their
-              parent had picked out for them, something less dangerous.
-            </p>
-            <p>
-              Before bed I was told the story of the witch of Alden. This was a
-              story I had been told over and over. The founder of our country.
-            </p>
-            <p id="Fancy">
-              The witch of Alden was born when men with wings ruled the
-              continent. They came from the heart of Pocotcotco, a country far
-              to the west. They came with the powers of the monsters and
-              enslaved and ruled over the people of east. The witch found the
-              academy near Banderedam where she built up her power and with that
-              power pushed out the westerns and founded the city of Alden.
-              Seeing this weakness in their rulers the other people of the east
-              threw off their western rulers and built kingdoms and Leagues's
-              for themselves. The witch not wanting to rule alone made her
-              commanders dukes. So Alden is a Grand Duchy.
-            </p>
             {/* League = Herkikia League */}
           </BreakPoint>
-          {/* Otto walks though village and goes to classes */}
+
+          <BreakPoint id="Otto">
+            {/* meadowsweet and marjoram; EU => Yucatan spicigera, Mimosa pudica, Persea americana, Petiveria alliacea, Piper amalago, Psidium guajava, Tagetes erecta and T. lucida. */}
+            {/* Cempazúchitl of orange and yellow were mostly used. Our previous rules introduced the plant to this region, whenever a batch is found they are ripped up and used to cover up the smell of old wood in the town hall, also letting us walk on-top of them. */}
+
+            <Otto> I stepped out into the warm morning, pulling the door shut behind me with a soft thud. The scent of wildflowers and damp earth hung in the air, carried by a lazy breeze. The sun wasn’t high yet, but the sky glowed gold, and the village was already beginning to stir. </Otto>
+            <Otto> It had only been a day since Jakob died. Since we had gained our first level we were expected to go to the town hall and register.</Otto>
+
+            <Otto> My feet felt heavy, like they belonged to someone else. Today, I was supposed to walk into the town hall and begin training—whatever that meant. I hadn’t even had time to understand what had happened. </Otto>
+
+            <Otto>Steinauhau looked too peaceful for what had happened. Timber-framed houses with moss-darkened roofs lined the dirt road, their windows blooming with summer flowers. The forest rustled beyond the fences. Other children’s voices echoed from the orchard behind the baker’s shop. </Otto>
+
+            <Otto> I passed the old stone well, then the bakery, where the ovens sent the smell of rye bread drifting across the road. A cart rolled by, its wooden wheels creaking lazily. Everything felt... normal. But nothing was. </Otto>
+            <Otto> The town hall rose ahead—broad, weathered beams and ivy clinging to its sides. A few of the elders stood out front, basking in the morning light and talking in low voices. I gave a nod, not stopping, and stepped through the heavy oak door. </Otto>
+
+
+            {/* stone thing? - No, just say it was short and just confirmed you where a mage something like that, leave stuff for beke and effie */}
+            Mine had flickered through the crystal like a whisper. **Mage.** I still didn’t know what it meant, not really.
+            <Otto> Mage. The word echoed in my chest like it didn’t belong there. Not yet. </Otto>
+
+            <p>
+              Inside was cool and dim. After being directed away by an old man behind a desk I was facing
+              a room of other children like me sitting on the floor off to the
+              side of the main entrance. There was about 14 in total and a tall
+              skinny man at the front, his boney hand gestured for me to sit
+              down anywhere. As soon as I had he carried on speaking as if I had
+              always been here.
+            </p>
+            <p>
+              "If you remember from earlier Luis told us that when you unlock
+              your first level, you will have access to your skill trees. These
+              trees are where you can spend your skill points to acquire new
+              abilities or just improve your current abilities."
+            </p>
+            <p>
+              "You all have 2 skill trees right now. Your class, for you all
+              sitting here today that is Mage. If you put points into this skill
+              tree you will learn magic spells. Your second tree is your
+              species, for everyone here today that is clearly Human. For other
+              species such as elves from the United Provinces of Oflralensa and
+              naga from the Kingdom, their species tree will not be human but of
+              their own species."
+            </p>
+            <p>
+              "Today we will be looking at the Human skill tree. This skill tree
+              is often overlooked by not only combat focused people but also
+              other species. While other species might get direct combat related
+              skills and buffs the human skill tree is mostly focused around the
+              charisma stat. This is the most overlooked stat in my opinion but
+              you can make up your own mind."
+            </p>
+            <p>
+              Over the course of the day we made notes and learned about the
+              various skills and advantages and of course the disadvantages the
+              human skill tree. The overall gist being that the human skill tree
+              made humans appear more trustworthy, liked and various boots while
+              in a party. This made humans particularly in large numbers, and
+              political environments.
+            </p>
+            {/* Otto goes home and tells his parents about his day at school. The parents talk to him about what he wants and reasons for wanting it. */}
+          </BreakPoint>
 
           <BreakPoint id="Training">
+            <Beke> I leaned back on the bench, arms stretched across the top rail, one boot up on the next row. Summer light streamed through the shutters and warmed my face. I hadn’t bothered to button my shirt all the way. No point. </Beke> <Beke> They told me yesterday that I was a **Striker.** Damn right. The name sounded like a punch. Sharp. Direct. It made sense. </Beke> <Beke> Jakob’s death? Sad, I guess. But it didn’t rattle me like it did the others. Death comes early for some. That’s just the way things are. </Beke> <Beke> But what comes next—that’s what matters. When the seer said “Striker,” I felt it in my bones. Like the world had finally caught up. I was meant for something. </Beke> <Beke> Through the cracks in the shutters, I could hear a blade being sharpened outside. Voices. Bees. The whole village smelled like sun and sweat and wheat. It was a good day to start something. </Beke> <Beke> Otto had slunk in a little while ago, acting like the floor might open up beneath him. Mage-boy. I wondered if the magic would give him a spine. Maybe I’d find out. </Beke> <Beke> But not yet. Today was for lessons. Today, we learned what we were made of. I could already see it—training yards, real weapons, the instructors nodding at me like they knew I’d go far. </Beke> <Beke> The elder at the front called for quiet. I grinned. Time to begin. </Beke>
             <h3>Training</h3>
             <h4>Beke POV</h4>
             <Beke>
@@ -639,55 +674,6 @@ const Intro = (props) => {
             <p>More silence.</p>
             {/* Move skill lessons to Beke. Otto doesn't need this chapter. */}
           </BreakPoint>
-          <BreakPoint id="Otto">
-            {/* meadowsweet and marjoram; EU => Yucatan spicigera, Mimosa pudica, Persea americana, Petiveria alliacea, Piper amalago, Psidium guajava, Tagetes erecta and T. lucida. */}
-            {/* Cempazúchitl of orange and yellow were mostly used. Our previous rules introduced the plant to this region, whenever a batch is found they are ripped up and used to cover up the smell of old wood in the town hall, also letting us walk on-top of them. */}
-            I arrived at the door to the town hall. The hall smelled, earthy,
-            musky a little stale. To counteract this, herbs and rushes were
-            strewn across the floors.
-            <h4>Skill tree lesson - Otto</h4>
-            <p>
-              After being directed away by an old man behind a desk I was facing
-              a room of other children like me sitting on the floor off to the
-              side of the main entrance. There was about 14 in total and a tall
-              skinny man at the front, his boney hand gestured for me to sit
-              down anywhere. As soon as I had he carried on speaking as if I had
-              always been here.
-            </p>
-            <p>
-              "If you remember from earlier Luis told us that when you unlock
-              your first level, you will have access to your skill trees. These
-              trees are where you can spend your skill points to acquire new
-              abilities or just improve your current abilities."
-            </p>
-            <p>
-              "You all have 2 skill trees right now. Your class, for you all
-              sitting here today that is Mage. If you put points into this skill
-              tree you will learn magic spells. Your second tree is your
-              species, for everyone here today that is clearly Human. For other
-              species such as elves from the United Provinces of Oflralensa and
-              naga from the Kingdom, their species tree will not be human but of
-              their own species."
-            </p>
-            <p>
-              "Today we will be looking at the Human skill tree. This skill tree
-              is often overlooked by not only combat focused people but also
-              other species. While other species might get direct combat related
-              skills and buffs the human skill tree is mostly focused around the
-              charisma stat. This is the most overlooked stat in my opinion but
-              you can make up your own mind."
-            </p>
-            <p>
-              Over the course of the day we made notes and learned about the
-              various skills and advantages and of course the disadvantages the
-              human skill tree. The overall gist being that the human skill tree
-              made humans appear more trustworthy, liked and various boots while
-              in a party. This made humans particularly in large numbers, and
-              political environments.
-            </p>
-            {/* Otto goes home and tells his parents about his day at school. The parents talk to him about what he wants and reasons for wanting it. */}
-          </BreakPoint>
-
           {/* Beke goes to lessons */}
           {/* Effi says goodbye and heads off */}
           <BreakPoint id="Effi">
