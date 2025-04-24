@@ -13,15 +13,15 @@ import { Beke, Otto, Michkel } from "./CharacterFonts";
 
 const SectionTabs = [
   { name: "Monad", href: "#Monad" },
-  { name: "Herkikia", href: "#Herkikia" },
-  { name: "Steinauhau", href: "#Steinauhau" },
-  { name: "Michkel", href: "#Michkel" },
+  // { name: "Herkikia", href: "#Herkikia" },
+  // { name: "Steinauhau", href: "#Steinauhau" },
+  // { name: "Michkel", href: "#Michkel" },
   { name: "PlayDay", href: "#PlayDay" },
   // { name: "Incident", href: "#Incident" },
   // { name: "TheBody", href: "#TheBody" },
   { name: "Aftermath", href: "#Aftermath" },
-  { name: "Training", href: "#Training" },
   { name: "Otto", href: "#Otto" },
+  { name: "Training", href: "#Training" },
   { name: "Effi", href: "#Effi" },
 ];
 const Intro = (props) => {
