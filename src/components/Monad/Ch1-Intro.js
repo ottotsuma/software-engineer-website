@@ -774,219 +774,6 @@ const Intro = (props) => {
           {/* End Chapter */}
 
           {/* Should we replace "Herkikia" "Steinauhau" "Michkel" with a tour of the village from Otto on the way to training and that be part of a lesson? */}
-
-          <BreakPoint id="Herkikia">
-            <h3>Herkikia - Jun 01 21-12</h3>
-            <p>
-              The Herkikia League had always been the best place on the
-              continent to be a mercenary. The past few years had made that statement even more true, this year more than ever.
-            </p>
-            <p>
-              However, all good things must come to an end. The people who had invaded from across the endless eastern sea had proven it was not endless and the daft pricks didn't bring enough food with them to be starting a war.
-            </p>
-            <p>
-              I must not let my guard down though, a cornered beast will fight harder. To the west,
-              the monster jungles of Chingaling, their east the armies of the
-              Herkikia league of city-states. To the north the sea they came from, which finally left the south the mercenaries hired by the League to finish the encirclement.
-            </p>
-            <p>
-              If these sea people had any sense they would focus their attacks
-              on this side. The pay is good but it's no good to a dead man. Then again it might be better if they just left into the sea from once they came.
-            </p>
-            <p>
-              "Are you trying to explain the plan to Rock Head again? You know why we call him that right?" A tall, wide, muscular man interrupted me. On his head, was a wampus cat's head. I'd seen him kill it, its yellow eyes were supposed to be able to hypnotise a person who looked into them, this man could only have one thought in his head at a time, 'whack it till it's dead'. If he's telling me Rock Head has less brains than him maybe he's right, but honestly it was more to calm my nerves.
-            </p>
-            <p>
-              I gave him a nod of understanding and he went back to stuffing his face with, what I hoped was not beast meat from the jungle. The last thing we needed was him going insane from eating some unknown poisonous creature.
-            </p>
-            <p>
-              When I looked back over to the sea people's final outpost, it would seem they did have a sense of survival after all. Their oversized wooden boats were gliding off into the sea.
-            </p>
-            <p>
-              That was just the signal the Herkikia general needed. The wind mage next to him carried the general's voice across our whole line and beyond. His voice was loud and strong.
-            </p>
-            <p>
-              "Victory is near at hand! If all do their duty, it will be OUR victory!"
-            </p>
-            <p>"YEAAAHHH!" A cry from his men came as an answer to his words.</p>
-            <p>
-              "Many times I have faced this enemy and many times I have beaten
-              them."
-            </p>
-            <p>"YEAHHHHHHH!"</p>
-            <p>
-              "Let us offer prayers to the gods for victory. And then let us arm
-              ourselves to the teeth, just in case the gods aren't listening."
-            </p>
-            <p>"Ahaha!"</p>
-            <p>
-              "The enemy war god must have a sense of humor, I mean look at
-              them."
-            </p>
-            <p>"Ahahaha!"</p>
-            <p>"By tomorrow our arms will ache from over-use!"</p>
-            <p>"Woo!!"</p>
-            <p>
-              "The enemy may have the Fish on their side, but we have excellent
-              shoes! And those shoes will stamp out their fish!"
-            </p>
-            <p>That had quietened the cheers a little. I guess that is why he has the title 'The mad'.</p>
-            <p>"Charge!"</p>
-            <p>
-              The Herkikians moved in first, in lines with long spears pointed
-              out over their shields. They formed walls of spears and white
-              armour. Our skirmishers were the first to engage them, those who threw
-              projectiles or magic into the enemies to tie them down. Once the skirmishers pulled back we would move in to tie up the disorganised enemies. In theory.
-            </p>
-            <p>
-              As soon as the skirmishers started to pull back we ran in. I cast
-              'Ice spear' into their ranks. I wrapped my sword with ice magic as
-              we got closer. The berserker from before shouted louder than a war
-              drum next to me and jumped into their ranks swinging his club
-              around at whoever was nearby. With their ranks fully broken up, I
-              was able to fight small duels which was more my style.
-            </p>
-            <p>
-              I used my sword to move my opponent to one side and launched a ball of hardened ice into his chest. He pushed through the pain so I let my ice magic spray out from me causing him to slow and be cut by small shards of ice. I moved in and stabbed him just below the waist. He moved back holding his stomach and cursed in a language I don't know. "썅놈" I moved back as he was dying and gathered magic into my hand. He reached down and pulled up a wand? He pointed it right at my head and the sound it gave off blew my eardrums out, there was a large flash of light, then nothing.
-            </p>
-          </BreakPoint>
-          <BreakPoint id="Steinauhau">
-            <h3>Steinauhau - Jun 12 21-12</h3>
-            {/* The Grand Duchy of Alden is home to 3.2 million people */}
-            <p>
-              Jun 12 21-12, In the North-east of the continent of Chab, in the
-              Grand Duchy of Alden was a town called Steinauhau.
-            </p>
-            <div className="pop">
-              Map of Alden
-              <img
-                className="popOut"
-                src={MapOfAlden}
-                height="400px"
-                alt="Map Of Alden"
-              />
-            </div>
-            {/* <!-- Starting with the setting up of the place? and events. --> */}
-            <p>
-              "Congratulations!" A unified cheer rang out around the town hall. Looking down into my cup, I lamented. The reflection looking back at me was far older than it used to be. Stiff and past the age where I should be drinking luminescent green drinks. I had always liked moon-melon juice ever since I first tried it over 70 years ago now. Soon, the reflection in my cup smiled back.
-            </p>
-            <p>
-              "You look happier than you have in years." My thoughts were interrupted.
-              I turned to see my old friend Edmure.
-            </p>
-            <p>
-              "I was just thinking about how new life replaces the old." I
-              continued to smile.
-            </p>
-            <p>
-              With a frown at first and then a smile Edmure retorted "You thinking
-              how you just became a grandad? There is still life left in
-              the both of us yet."
-            </p>
-            <p>
-              Jun 12th a night the people of Alden celebrate the new life brought into this world
-              over the past year, like a shared birthday after the harvest months.
-              {/* a small tradition as not all make it past infancy. */}
-            </p>
-            <p>
-              Edmure had whispered into my ear before taking his leave. There have been sightings of the sea people off the coast. They had been pushed back into the sea at
-              the last battle of Herkikia, only a couple of weeks back, they may try to land further north. I left the town hall and went to the walls to meet up with Edmure.
-            </p>
-            <p>
-              We left the town and went through the forests. We went to the area
-              where the sea people were last seen going through the forest.
-              I saw large boats off in the distance, so I had to check who; if any of
-              them had come ashore before reporting back.
-            </p>
-            <p>
-              I passed through the forest easily with my legs and body strengthened by my mana. The
-              trees that would scratch at my skin, bent and broke as I passed by
-              quickly, leaving behind no marks on my skin.
-            </p>
-            <p>
-              I found them. Moving through the forest slowly. They did not see
-              me, I know this place like the back of my hand. I pulled out my
-              dairy and started to take notes, their location, how many, kind
-              of weapons, etc. I wrote down everything I could remember, right up
-              until I heard a click, followed by a large flash of light.
-            </p>
-          </BreakPoint>
-          <BreakPoint id="Michkel">
-            <h3>Michkel - Jun 12 221-10</h3>
-            {/* Re-do dates, Month Day Year-Era, Jun 12th, 221st year of the 10th era.*/}
-            {/* <!-- starting with the kids meeting as friends, introduce the town, some news the people, small parts of the world, culture--> */}
-            <p>
-              It had been 10 years to the day since Edmure had come back with a blood-soaked diary. David was my wife's dad. Edmure, his best friend, had later moved to Swexausern, about 25km North-west. I was told he died peacefully two years ago. The town
-              was getting ready for the same festival again. I guess that's what led me to read his diary again today.
-            </p>
-            <p>
-              I spotted a woman doing her best to hold or herd three children towards me when I looked up. "Hey Karla." I waved as she got closer, two older girls and a boy, all the children
-              had red hair like their mother. As they got closer I nudged my wife, Sarah and pointed to our son's smiling face. He only smiled like this when Effi, Karla's daughter, was around.
-            </p>
-            <p>"Good to see you are all well." Sarah said, when they arrived, the kids immediately ran around hectically but I guess I have gotten too used to it.</p>
-            <p>"You too, Where is Robert?" I added.</p>
-            <p>
-              "We're fine, Roberts going to meet us later on, he went to the hall to get the news and left me alone with these lovely lot." Karla replied.
-            </p>
-            <p>
-              Our families, now combined into one big group. Slowly ambled our way towards the wood nearby, where many other families of the town had already arrived. The children quickly
-              ran off into the forest to play, leaving us to build a fire and set up the tables for
-              tonight's festivities, Jun 12th.
-            </p>
-            <p>
-              While sharpening one of the axes Robert had come to share the news a group of travelling merchants had brought with them. Mostly news of ongoing problems just north of our border. People living there have been unhappy with the Republic's increased taxes and conscripting their children and young adults to fight in a war so far from home. The villages still had to fend off the local beasts of their own, as well as other jobs which were no longer being fulfilled. The republic had a massive Avalanche in Neuenese and a Fault in Moborodian, the earth there had opened up and monsters and beasts from the depths had spread out.
-            </p>
-            <p>
-              Those unhappy with their treatment had finally boiled over and started protesting at first, one thing led to another and now we call them the rebels. Somewhere between 100,000~300,000 in number. Since most were not soldiers beforehand
-              the success of the rebels was blamed on Aldens, us, supplying the
-              rebels.
-            </p>
-            <p>
-              "We have been supplying them haven't we?" I asked. "If not, we
-              should. They are Aldenese also."
-            </p>
-            <p>
-              "We have." Robert replied. "Too obvious, it seems. If even the
-              town inspector knows we have." He laughed like he had no cares.
-            </p>
-            <p>I shot a breath of air out of my nose as I laughed silently. "Well is there any news NOT from the Republic?" I asked.</p>
-            <p>
-              "Elves have had an outbreak of cat fever. Gianlongian in Herkikia is going through a drought, near their second-biggest port city. Desonean, the main river through the kingdom, has flooded. To top it all off, a Malgian Crusade has been called in the Kingdom, I can only hope those crazy zealots die in the desert." Robert said.
-            </p>
-            <p>
-              "What a year..." I commented. "What's cat fever anyway?" I asked.
-            </p>
-            <p>
-              Robert shrugged. "A fever cats get, I guess, there was not much
-              news about it since it's from so far away. Anyway don't let me stop you from inspecting the woodcutting axes, we need to know their durability so no one gets hurt."
-            </p>
-            <p>
-              I gave Robert a nod as he turned to go look for his wife Sarah. I went back to doing my job. Inspecting low-level items for their durability.
-              {/* Your skill in inspecting items might show you a different result. Some people see short descriptions about the items, others just a generic letter rank from F - A. */}
-            </p>
-            {/* koko */}
-            <p>
-              Every night I teach my son Otto more about the skill. Inspect is one of the few skills that do not require skill points to learn, which is nice.
-              {/* However the passive skill appraisal, which increases how much information the inspect skill uncovers, did require skill points. I was lucky enough to learn the skill through sheer luck.  */}
-            </p>
-            <p>
-              It's a safe well paying job, I always hoped Otto could learn it too so he can have a safe life.
-            </p>
-            {/* <!-- 284,139 rebels --> */}
-            {/* <!-- IMPORTANT  */}
-            {/* 
-parent teaches otto basic inspect skill as its is job of parent in the town 
-first person in the magic histories book is the witch of Alden
-Otto can see numeric output of items but no one else can 
-most people learn inspect but either see 
-
-- ranking in letters F - A 
-- short description 
-- numbers 
-- progress bar 
-- use list 
---> */}
-          </BreakPoint>
           {/*
 <!-- 
 These are the names given by the people of Alden.   
@@ -1014,3 +801,217 @@ There are 3 religious splits along the same lines.
 };
 
 export default Intro;
+
+// <BreakPoint id="Herkikia">
+// <h3>Herkikia - Jun 01 21-12</h3>
+// <p>
+//   The Herkikia League had always been the best place on the
+//   continent to be a mercenary. The past few years had made that statement even more true, this year more than ever.
+// </p>
+// <p>
+//   However, all good things must come to an end. The people who had invaded from across the endless eastern sea had proven it was not endless and the daft pricks didn't bring enough food with them to be starting a war.
+// </p>
+// <p>
+//   I must not let my guard down though, a cornered beast will fight harder. To the west,
+//   the monster jungles of Chingaling, their east the armies of the
+//   Herkikia league of city-states. To the north the sea they came from, which finally left the south the mercenaries hired by the League to finish the encirclement.
+// </p>
+// <p>
+//   If these sea people had any sense they would focus their attacks
+//   on this side. The pay is good but it's no good to a dead man. Then again it might be better if they just left into the sea from once they came.
+// </p>
+// <p>
+//   "Are you trying to explain the plan to Rock Head again? You know why we call him that right?" A tall, wide, muscular man interrupted me. On his head, was a wampus cat's head. I'd seen him kill it, its yellow eyes were supposed to be able to hypnotise a person who looked into them, this man could only have one thought in his head at a time, 'whack it till it's dead'. If he's telling me Rock Head has less brains than him maybe he's right, but honestly it was more to calm my nerves.
+// </p>
+// <p>
+//   I gave him a nod of understanding and he went back to stuffing his face with, what I hoped was not beast meat from the jungle. The last thing we needed was him going insane from eating some unknown poisonous creature.
+// </p>
+// <p>
+//   When I looked back over to the sea people's final outpost, it would seem they did have a sense of survival after all. Their oversized wooden boats were gliding off into the sea.
+// </p>
+// <p>
+//   That was just the signal the Herkikia general needed. The wind mage next to him carried the general's voice across our whole line and beyond. His voice was loud and strong.
+// </p>
+// <p>
+//   "Victory is near at hand! If all do their duty, it will be OUR victory!"
+// </p>
+// <p>"YEAAAHHH!" A cry from his men came as an answer to his words.</p>
+// <p>
+//   "Many times I have faced this enemy and many times I have beaten
+//   them."
+// </p>
+// <p>"YEAHHHHHHH!"</p>
+// <p>
+//   "Let us offer prayers to the gods for victory. And then let us arm
+//   ourselves to the teeth, just in case the gods aren't listening."
+// </p>
+// <p>"Ahaha!"</p>
+// <p>
+//   "The enemy war god must have a sense of humor, I mean look at
+//   them."
+// </p>
+// <p>"Ahahaha!"</p>
+// <p>"By tomorrow our arms will ache from over-use!"</p>
+// <p>"Woo!!"</p>
+// <p>
+//   "The enemy may have the Fish on their side, but we have excellent
+//   shoes! And those shoes will stamp out their fish!"
+// </p>
+// <p>That had quietened the cheers a little. I guess that is why he has the title 'The mad'.</p>
+// <p>"Charge!"</p>
+// <p>
+//   The Herkikians moved in first, in lines with long spears pointed
+//   out over their shields. They formed walls of spears and white
+//   armour. Our skirmishers were the first to engage them, those who threw
+//   projectiles or magic into the enemies to tie them down. Once the skirmishers pulled back we would move in to tie up the disorganised enemies. In theory.
+// </p>
+// <p>
+//   As soon as the skirmishers started to pull back we ran in. I cast
+//   'Ice spear' into their ranks. I wrapped my sword with ice magic as
+//   we got closer. The berserker from before shouted louder than a war
+//   drum next to me and jumped into their ranks swinging his club
+//   around at whoever was nearby. With their ranks fully broken up, I
+//   was able to fight small duels which was more my style.
+// </p>
+// <p>
+//   I used my sword to move my opponent to one side and launched a ball of hardened ice into his chest. He pushed through the pain so I let my ice magic spray out from me causing him to slow and be cut by small shards of ice. I moved in and stabbed him just below the waist. He moved back holding his stomach and cursed in a language I don't know. "썅놈" I moved back as he was dying and gathered magic into my hand. He reached down and pulled up a wand? He pointed it right at my head and the sound it gave off blew my eardrums out, there was a large flash of light, then nothing.
+// </p>
+// </BreakPoint>
+// {/* The Grand Duchy of Alden is home to 3.2 million people */}
+// <BreakPoint id="Steinauhau">
+// <h3>Steinauhau - Jun 12 21-12</h3>
+// <p>
+//   Jun 12 21-12, In the North-east of the continent of Chab, in the
+//   Grand Duchy of Alden was a town called Steinauhau.
+// </p>
+// <div className="pop">
+//   Map of Alden
+//   <img
+//     className="popOut"
+//     src={MapOfAlden}
+//     height="400px"
+//     alt="Map Of Alden"
+//   />
+// </div>
+// {/* <!-- Starting with the setting up of the place? and events. --> */}
+// <p>
+//   "Congratulations!" A unified cheer rang out around the town hall. Looking down into my cup, I lamented. The reflection looking back at me was far older than it used to be. Stiff and past the age where I should be drinking luminescent green drinks. I had always liked moon-melon juice ever since I first tried it over 70 years ago now. Soon, the reflection in my cup smiled back.
+// </p>
+// <p>
+//   "You look happier than you have in years." My thoughts were interrupted.
+//   I turned to see my old friend Edmure.
+// </p>
+// <p>
+//   "I was just thinking about how new life replaces the old." I
+//   continued to smile.
+// </p>
+// <p>
+//   With a frown at first and then a smile Edmure retorted "You thinking
+//   how you just became a grandad? There is still life left in
+//   the both of us yet."
+// </p>
+// <p>
+//   Jun 12th a night the people of Alden celebrate the new life brought into this world
+//   over the past year, like a shared birthday after the harvest months.
+//   {/* a small tradition as not all make it past infancy. */}
+// </p>
+// <p>
+//   Edmure had whispered into my ear before taking his leave. There have been sightings of the sea people off the coast. They had been pushed back into the sea at
+//   the last battle of Herkikia, only a couple of weeks back, they may try to land further north. I left the town hall and went to the walls to meet up with Edmure.
+// </p>
+// <p>
+//   We left the town and went through the forests. We went to the area
+//   where the sea people were last seen going through the forest.
+//   I saw large boats off in the distance, so I had to check who; if any of
+//   them had come ashore before reporting back.
+// </p>
+// <p>
+//   I passed through the forest easily with my legs and body strengthened by my mana. The
+//   trees that would scratch at my skin, bent and broke as I passed by
+//   quickly, leaving behind no marks on my skin.
+// </p>
+// <p>
+//   I found them. Moving through the forest slowly. They did not see
+//   me, I know this place like the back of my hand. I pulled out my
+//   dairy and started to take notes, their location, how many, kind
+//   of weapons, etc. I wrote down everything I could remember, right up
+//   until I heard a click, followed by a large flash of light.
+// </p>
+// </BreakPoint>
+// {/* Re-do dates, Month Day Year-Era, Jun 12th, 221st year of the 10th era.*/}
+// {/* <!-- starting with the kids meeting as friends, introduce the town, some news the people, small parts of the world, culture--> */}
+// <BreakPoint id="Michkel">
+// <h3>Michkel - Jun 12 221-10</h3>
+
+// <p>
+//   It had been 10 years to the day since Edmure had come back with a blood-soaked diary. David was my wife's dad. Edmure, his best friend, had later moved to Swexausern, about 25km North-west. I was told he died peacefully two years ago. The town
+//   was getting ready for the same festival again. I guess that's what led me to read his diary again today.
+// </p>
+// <p>
+//   I spotted a woman doing her best to hold or herd three children towards me when I looked up. "Hey Karla." I waved as she got closer, two older girls and a boy, all the children
+//   had red hair like their mother. As they got closer I nudged my wife, Sarah and pointed to our son's smiling face. He only smiled like this when Effi, Karla's daughter, was around.
+// </p>
+// <p>"Good to see you are all well." Sarah said, when they arrived, the kids immediately ran around hectically but I guess I have gotten too used to it.</p>
+// <p>"You too, Where is Robert?" I added.</p>
+// <p>
+//   "We're fine, Roberts going to meet us later on, he went to the hall to get the news and left me alone with these lovely lot." Karla replied.
+// </p>
+// <p>
+//   Our families, now combined into one big group. Slowly ambled our way towards the wood nearby, where many other families of the town had already arrived. The children quickly
+//   ran off into the forest to play, leaving us to build a fire and set up the tables for
+//   tonight's festivities, Jun 12th.
+// </p>
+// <p>
+//   While sharpening one of the axes Robert had come to share the news a group of travelling merchants had brought with them. Mostly news of ongoing problems just north of our border. People living there have been unhappy with the Republic's increased taxes and conscripting their children and young adults to fight in a war so far from home. The villages still had to fend off the local beasts of their own, as well as other jobs which were no longer being fulfilled. The republic had a massive Avalanche in Neuenese and a Fault in Moborodian, the earth there had opened up and monsters and beasts from the depths had spread out.
+// </p>
+// <p>
+//   Those unhappy with their treatment had finally boiled over and started protesting at first, one thing led to another and now we call them the rebels. Somewhere between 100,000~300,000 in number. Since most were not soldiers beforehand
+//   the success of the rebels was blamed on Aldens, us, supplying the
+//   rebels.
+// </p>
+// <p>
+//   "We have been supplying them haven't we?" I asked. "If not, we
+//   should. They are Aldenese also."
+// </p>
+// <p>
+//   "We have." Robert replied. "Too obvious, it seems. If even the
+//   town inspector knows we have." He laughed like he had no cares.
+// </p>
+// <p>I shot a breath of air out of my nose as I laughed silently. "Well is there any news NOT from the Republic?" I asked.</p>
+// <p>
+//   "Elves have had an outbreak of cat fever. Gianlongian in Herkikia is going through a drought, near their second-biggest port city. Desonean, the main river through the kingdom, has flooded. To top it all off, a Malgian Crusade has been called in the Kingdom, I can only hope those crazy zealots die in the desert." Robert said.
+// </p>
+// <p>
+//   "What a year..." I commented. "What's cat fever anyway?" I asked.
+// </p>
+// <p>
+//   Robert shrugged. "A fever cats get, I guess, there was not much
+//   news about it since it's from so far away. Anyway don't let me stop you from inspecting the woodcutting axes, we need to know their durability so no one gets hurt."
+// </p>
+// <p>
+//   I gave Robert a nod as he turned to go look for his wife Sarah. I went back to doing my job. Inspecting low-level items for their durability.
+//   {/* Your skill in inspecting items might show you a different result. Some people see short descriptions about the items, others just a generic letter rank from F - A. */}
+// </p>
+// {/* koko */}
+// <p>
+//   Every night I teach my son Otto more about the skill. Inspect is one of the few skills that do not require skill points to learn, which is nice.
+//   {/* However the passive skill appraisal, which increases how much information the inspect skill uncovers, did require skill points. I was lucky enough to learn the skill through sheer luck.  */}
+// </p>
+// <p>
+//   It's a safe well paying job, I always hoped Otto could learn it too so he can have a safe life.
+// </p>
+// {/* <!-- 284,139 rebels --> */}
+// {/* <!-- IMPORTANT  */}
+// {/*
+// parent teaches otto basic inspect skill as its is job of parent in the town
+// first person in the magic histories book is the witch of Alden
+// Otto can see numeric output of items but no one else can
+// most people learn inspect but either see
+
+// - ranking in letters F - A
+// - short description
+// - numbers
+// - progress bar
+// - use list
+// --> */}
+// </BreakPoint>
