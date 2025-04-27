@@ -21,7 +21,7 @@ const SectionTabs = [
   // { name: "TheBody", href: "#TheBody" },
   { name: "Aftermath", href: "#Aftermath" },
   { name: "Otto", href: "#Otto" },
-  { name: "Training", href: "#Training" },
+  { name: "Beke", href: "#Beke" },
   { name: "Effi", href: "#Effi" },
 ];
 const Intro = (props) => {
@@ -444,27 +444,25 @@ const Intro = (props) => {
 
             <Otto> I passed the old stone well, then the bakery, where the ovens sent the smell of rye bread drifting across the road. A cart rolled by, its wooden wheels creaking lazily. Everything felt... normal. But nothing was. </Otto>
             <Otto> The town hall rose ahead—broad, weathered beams and ivy clinging to its sides. A few of the elders stood out front, basking in the morning light and talking in low voices. I gave a nod, not stopping, and stepped through the heavy oak door. </Otto>
-
-
-            {/* stone thing? - No, just say it was short and just confirmed you where a mage something like that, leave stuff for beke and effie */}
-            Mine had flickered through the crystal like a whisper. **Mage.** I still didn’t know what it meant, not really.
-            <Otto> Mage. The word echoed in my chest like it didn’t belong there. Not yet. </Otto>
-
-            <p>
+            <Otto>
               Inside was cool and dim. After being directed away by an old man behind a desk I was facing
               a room of other children like me sitting on the floor off to the
               side of the main entrance. There was about 14 in total and a tall
               skinny man at the front, his boney hand gestured for me to sit
               down anywhere. As soon as I had he carried on speaking as if I had
               always been here.
-            </p>
-            <p>
+            </Otto>
+            {/* stone thing? - No, just say it was short and just confirmed you where a mage something like that, leave stuff for beke and effie */}
+            {/* Mine had flickered through the crystal like a whisper. **Mage.** I still didn’t know what it meant, not really.
+            <Otto> Mage. The word echoed in my chest like it didn’t belong there. Not yet. </Otto> */}
+
+            <Otto>
               "If you remember from earlier Luis told us that when you unlock
               your first level, you will have access to your skill trees. These
               trees are where you can spend your skill points to acquire new
               abilities or just improve your current abilities."
-            </p>
-            <p>
+            </Otto>
+            <Otto>
               "You all have 2 skill trees right now. Your class, for you all
               sitting here today that is Mage. If you put points into this skill
               tree you will learn magic spells. Your second tree is your
@@ -472,29 +470,25 @@ const Intro = (props) => {
               species such as elves from the United Provinces of Oflralensa and
               naga from the Kingdom, their species tree will not be human but of
               their own species."
-            </p>
-            <p>
+            </Otto>
+            <Otto>
               "Today we will be looking at the Human skill tree. This skill tree
               is often overlooked by not only combat focused people but also
               other species. While other species might get direct combat related
               skills and buffs the human skill tree is mostly focused around the
               charisma stat. This is the most overlooked stat in my opinion but
               you can make up your own mind."
-            </p>
-            <p>
+            </Otto>
+            <Otto>
               Over the course of the day we made notes and learned about the
               various skills and advantages and of course the disadvantages the
-              human skill tree. The overall gist being that the human skill tree
-              made humans appear more trustworthy, liked and various boots while
-              in a party. This made humans particularly in large numbers, and
-              political environments.
-            </p>
+              human skill tree. I was expecting to learn more of the mage skills but that'll be another day.
+            </Otto>
             {/* Otto goes home and tells his parents about his day at school. The parents talk to him about what he wants and reasons for wanting it. */}
           </BreakPoint>
 
-          <BreakPoint id="Training">
+          <BreakPoint id="Beke">
             <Beke> I leaned back on the bench, arms stretched across the top rail, one boot up on the next row. Summer light streamed through the shutters and warmed my face. I hadn’t bothered to button my shirt all the way. No point. </Beke> <Beke> They told me yesterday that I was a **Striker.** Damn right. The name sounded like a punch. Sharp. Direct. It made sense. </Beke> <Beke> Jakob’s death? Sad, I guess. But it didn’t rattle me like it did the others. Death comes early for some. That’s just the way things are. </Beke> <Beke> But what comes next—that’s what matters. When the seer said “Striker,” I felt it in my bones. Like the world had finally caught up. I was meant for something. </Beke> <Beke> Through the cracks in the shutters, I could hear a blade being sharpened outside. Voices. Bees. The whole village smelled like sun and sweat and wheat. It was a good day to start something. </Beke> <Beke> Otto had slunk in a little while ago, acting like the floor might open up beneath him. Mage-boy. I wondered if the magic would give him a spine. Maybe I’d find out. </Beke> <Beke> But not yet. Today was for lessons. Today, we learned what we were made of. I could already see it—training yards, real weapons, the instructors nodding at me like they knew I’d go far. </Beke> <Beke> The elder at the front called for quiet. I grinned. Time to begin. </Beke>
-            <h3>Training</h3>
             <h4>Beke POV</h4>
             <Beke>
               As I arrived at the town hall I could see others outside
