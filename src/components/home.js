@@ -79,7 +79,10 @@ function Home() {
     };
 
     window.addEventListener('wheel', handleWheel);
-    return () => window.removeEventListener('wheel', handleWheel);
+    return () => {
+      document.body.style.overflow = ''; // Reset to default (usually 'auto')
+      window.removeEventListener('wheel', handleWheel);
+    };
   }, []);
   const Circle2SpringProps = useSpring({
     // Animating scale and opacity based on scroll amount
